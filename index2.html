@@ -46,6 +46,7 @@
             })
             .then(data => {
                 BuildHTML(data);
+                AttachEvents();
             })
             .catch(error => console.error('There was a problem with the fetch operation:', error));
 
@@ -76,18 +77,22 @@
 
 
     <script>
-        window.onload = function() {
-                //ATTACH events for click to expand the detail item
-                
-                // Get all elements with the class "list-none"
-                var elements = document.querySelectorAll('.h');
-                
-                elements.forEach(function(element) {
-                    element.addEventListener('click', function(event) {
-                        details(event.target);
-                    });
+        // window.onload = function() {
+
+        // };
+
+        function AttachEvents(){
+            //ATTACH events for click to expand the detail item
+            
+            // Get all elements with the class "list-none"
+            var elements = document.querySelectorAll('.h');
+            
+            elements.forEach(function(element) {
+                element.addEventListener('click', function(event) {
+                    details(event.target);
                 });
-        };
+            });
+        }
         
         function details(e) {
             var parent = event.target.parentElement.parentElement.parentElement.parentElement;
