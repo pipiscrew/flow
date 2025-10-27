@@ -82,16 +82,6 @@
                 // Get all elements with the class "list-none"
                 var elements = document.querySelectorAll('.h');
                 
-                function details(e) {
-                    var parent = event.target.parentElement.parentElement.parentElement.parentElement;
-                    var detail = parent.getElementsByTagName('div')[4];
-                
-                    if ( detail.style.display == 'none' || detail.style.display == '' )
-                        detail.style.display = 'flex';
-                    else
-                        detail.style.display = 'none';
-                }
-                
                 elements.forEach(function(element) {
                     element.addEventListener('click', function(event) {
                         details(event.target);
@@ -99,6 +89,16 @@
                 });
         };
         
+        function details(e) {
+            var parent = event.target.parentElement.parentElement.parentElement.parentElement;
+            var detail = parent.getElementsByTagName('div')[4];
+        
+            if ( detail.style.display == 'none' || detail.style.display == '' )
+                detail.style.display = 'flex';
+            else
+                detail.style.display = 'none';
+        }
+
         /// EVENT function this is hardcoded to template HTML (call the test() function)
         
         function replaceAll(find, replace, str)
