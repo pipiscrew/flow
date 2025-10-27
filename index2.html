@@ -24,7 +24,7 @@
                 <div class="mr-auto"><span class="h">{title}</span></div>
                 <div></div>
                 <span class="ml-2 mr-2 w-6 flex-none text-right text-xs text-slate-400"><a
-                        href="https://href.li/?{url}"
+                        href="{url}"
                         target="_blank">visit</a></span>
                 <span class="ml-2 mr-2 w-6 flex-none text-right text-xs text-slate-400"><a href='#'
                         onclick='test(event);'>copy</a></span>
@@ -72,27 +72,28 @@
 
 
     <script>
-
-        //ATTACH events for click to expand the detail item
-        
-        // Get all elements with the class "list-none"
-        var elements = document.querySelectorAll('.h');
-        
-        function details(e) {
-            var parent = event.target.parentElement.parentElement.parentElement.parentElement;
-            var detail = parent.getElementsByTagName('div')[4];
-        
-            if ( detail.style.display == 'none' || detail.style.display == '' )
-                detail.style.display = 'flex';
-            else
-                detail.style.display = 'none';
-        }
-        
-        elements.forEach(function(element) {
-            element.addEventListener('click', function(event) {
-                details(event.target);
-            });
-        });
+        window.onload = function() {
+                //ATTACH events for click to expand the detail item
+                
+                // Get all elements with the class "list-none"
+                var elements = document.querySelectorAll('.h');
+                
+                function details(e) {
+                    var parent = event.target.parentElement.parentElement.parentElement.parentElement;
+                    var detail = parent.getElementsByTagName('div')[4];
+                
+                    if ( detail.style.display == 'none' || detail.style.display == '' )
+                        detail.style.display = 'flex';
+                    else
+                        detail.style.display = 'none';
+                }
+                
+                elements.forEach(function(element) {
+                    element.addEventListener('click', function(event) {
+                        details(event.target);
+                    });
+                });
+        };
         
         /// EVENT function this is hardcoded to template HTML (call the test() function)
         
