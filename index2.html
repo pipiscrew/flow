@@ -58,7 +58,7 @@
                 const articleHTML = articleTemplate
                     .replace(/{title}/g, article.title)
                     .replace(/{url}/g, navigationGuard + article.link)
-                    .replace(/{content}/g, article.description);
+                    .replace(/{content}/g, autoHyperlink(article.description));
                 articlesHTML += articleHTML;
             });
             document.getElementById('articles').innerHTML = articlesHTML;
@@ -140,6 +140,14 @@
             document.body.removeChild(tempInput);
         }
         
+        function autoHyperlink(text) {
+            // Regular expression to match URLs
+            const urlPattern =  /(\b(https?|ftp):\/\/[-A-Z0-9+&@#\/%?=~_|!:,.;]*[-A-Z0-9+&@#\/%=~_|])/gim;
+            
+            return text.replace(urlPattern, (url) => {
+                return `<a href="https://href.li/?${url}" target="_blank">${url}</a>`;
+            });
+        }
         </script>
         
 </body>
