@@ -6,6 +6,16 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=45718231",
+          "author": "anticensor",
+          "description": "Article URL: https://github.com/rolflobker/recall-for-linux\nComments URL: https://news.ycombinator.com/item?id=45718231\nPoints: 69\n# Comments: 26",
+          "link": "https://github.com/rolflobker/recall-for-linux",
+          "publishedOn": "2025-10-27T07:24:19.000Z",
+          "wordCount": 1437,
+          "title": "Recall for Linux",
+          "imageUrl": "https://opengraph.githubassets.com/e1382ae7aef5b5e88c39f210c36b68ecc64e3f33f55b98831cab81c5d2c8cb78/rolflobker/recall-for-linux"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=45716296",
           "author": "throwaway81523",
           "description": "Article URL: https://jacobin.com/2025/10/ice-zignal-surveillance-social-media\nComments URL: https://news.ycombinator.com/item?id=45716296\nPoints: 55\n# Comments: 20",
@@ -54,6 +64,16 @@
           "wordCount": 737,
           "title": "AI Mafia Network – An interactive visualization",
           "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=45715752",
+          "author": "jqssun",
+          "description": "Been working on an experimental Chromium-based browser that brings 2 major features to your phone/tablet:\n1. desktop-style extensions: natively install any extensions (like uBO) from the chrome web store, just toggle \"desktop site\" in the menu first.\n2. privacy/security hardening: applies the full patch sets from Vanadium (with Helium's currently wip).\nMeans you get both browsers' excellent privacy features, like Vanadium's webrtc IP policy option that protects your real IP by default, and security improvements such as JIT being disabled by default, all while being a reasonably efficient FOSS app that can be installed on any (modern) android.\nIt's still in beta, and as I note in the README, it's not a replacement for the full OS-level security model you'd get from running the GrapheneOS Vanadium combo. However, goal was to combine privacy of Vanadium with the power of desktop extensions and Helium features, and make it accessible to a wider audience. (Passkeys from Bitwarden Mobile should also work straight away once merged in the list of FIDO2 privileged browsers)\nBuild scripts are in the repo if you want to compile it yourself. You can find pre-built releases there too.\nWould love any feedback/support!\nComments URL: https://news.ycombinator.com/item?id=45715752\nPoints: 51\n# Comments: 19",
+          "link": "https://github.com/jqssun/android-helium-browser",
+          "publishedOn": "2025-10-26T22:41:02.000Z",
+          "wordCount": 2813,
+          "title": "Show HN: Helium Browser for Android with extensions support, based on Vanadium",
+          "imageUrl": "https://opengraph.githubassets.com/3acd3c5f2295de89af0a13c51a10acddea39365024f0895c3a2fadcf574ac196/jqssun/android-helium-browser"
         },
         {
           "id": "https://news.ycombinator.com/item?id=45715726",
@@ -904,6 +924,16 @@
           "wordCount": null,
           "title": "NextSilicon reveals new processor chip in challenge to Intel, AMD",
           "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=45675956",
+          "author": "noamteyssier",
+          "description": "Article URL: https://github.com/noamteyssier/hist-rs\nComments URL: https://news.ycombinator.com/item?id=45675956\nPoints: 58\n# Comments: 33",
+          "link": "https://github.com/noamteyssier/hist-rs",
+          "publishedOn": "2025-10-22T22:26:45.000Z",
+          "wordCount": 1757,
+          "title": "An overengineered solution to `sort | uniq -c` with 25x throughput (hist)",
+          "imageUrl": "https://opengraph.githubassets.com/cee8957e00f6b406ccfb9115d3757d572efefb4902c7e47b357b1019aaac21b2/noamteyssier/hist-rs"
         },
         {
           "id": "https://news.ycombinator.com/item?id=45674002",

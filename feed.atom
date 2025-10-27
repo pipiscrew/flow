@@ -2,10 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2025-10-27T08:34:10.868Z</updated>
+    <updated>2025-10-27T09:29:50.443Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Recall for Linux]]></title>
+        <id>https://news.ycombinator.com/item?id=45718231</id>
+        <link href="https://github.com/rolflobker/recall-for-linux"/>
+        <updated>2025-10-27T07:24:19.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://github.com/rolflobker/recall-for-linux
+Comments URL: https://news.ycombinator.com/item?id=45718231
+Points: 69
+# Comments: 26]]></summary>
+        <author>
+            <name>anticensor</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[ICE Will Use AI to Surveil Social Media]]></title>
         <id>https://news.ycombinator.com/item?id=45716296</id>
@@ -69,6 +82,25 @@ Points: 71
 # Comments: 6]]></summary>
         <author>
             <name>dipakwani</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Helium Browser for Android with extensions support, based on Vanadium]]></title>
+        <id>https://news.ycombinator.com/item?id=45715752</id>
+        <link href="https://github.com/jqssun/android-helium-browser"/>
+        <updated>2025-10-26T22:41:02.000Z</updated>
+        <summary type="html"><![CDATA[Been working on an experimental Chromium-based browser that brings 2 major features to your phone/tablet:
+1. desktop-style extensions: natively install any extensions (like uBO) from the chrome web store, just toggle "desktop site" in the menu first.
+2. privacy/security hardening: applies the full patch sets from Vanadium (with Helium's currently wip).
+Means you get both browsers' excellent privacy features, like Vanadium's webrtc IP policy option that protects your real IP by default, and security improvements such as JIT being disabled by default, all while being a reasonably efficient FOSS app that can be installed on any (modern) android.
+It's still in beta, and as I note in the README, it's not a replacement for the full OS-level security model you'd get from running the GrapheneOS Vanadium combo. However, goal was to combine privacy of Vanadium with the power of desktop extensions and Helium features, and make it accessible to a wider audience. (Passkeys from Bitwarden Mobile should also work straight away once merged in the list of FIDO2 privileged browsers)
+Build scripts are in the repo if you want to compile it yourself. You can find pre-built releases there too.
+Would love any feedback/support!
+Comments URL: https://news.ycombinator.com/item?id=45715752
+Points: 51
+# Comments: 19]]></summary>
+        <author>
+            <name>jqssun</name>
         </author>
     </entry>
     <entry>
@@ -1184,6 +1216,19 @@ Points: 87
 # Comments: 16]]></summary>
         <author>
             <name>simojo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[An overengineered solution to `sort | uniq -c` with 25x throughput (hist)]]></title>
+        <id>https://news.ycombinator.com/item?id=45675956</id>
+        <link href="https://github.com/noamteyssier/hist-rs"/>
+        <updated>2025-10-22T22:26:45.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://github.com/noamteyssier/hist-rs
+Comments URL: https://news.ycombinator.com/item?id=45675956
+Points: 58
+# Comments: 33]]></summary>
+        <author>
+            <name>noamteyssier</name>
         </author>
     </entry>
     <entry>
