@@ -30,8 +30,7 @@ jobs:
           git checkout gh-pages  # Checkout to the gh-pages branch
       - name: Copy Files from Main
         run: |
-          cp ../main/index2.html .
-          cp ../main/index2style.css .
+          git checkout main -- index2.html index2style.css  # Checkout files from main branch
       - name: Commit and Push to gh-pages
         run: |
           git config --global user.name 'GitHub Actions'
@@ -44,6 +43,7 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
+
 
 
 
