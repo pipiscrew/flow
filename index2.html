@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <title>osmos::feed</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="robots" content="noindex, nofollow" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+
+    <script>
+      const articleTemplate = `
+        <div class="article">
+          <h2 id="article-title">{title}</h2>
+          <a href="{url}" target="_blank">Visit</a>
+          <a href="#" onclick="copyToClipboard()">Copy</a>
+          <span id="article-text">{content}</span>
+        </div>
+      `;
+
+      fetch('cache.json')
+          .then(response => {
+              if (!response.ok) {
+                  throw new Error('Network response was not ok ' + response.statusText);
+              }
+              return response.json();
+          })
+          .then(data => {
+              BuildHTML(data);
+          })
+          .catch(error => console.error('There was a problem with the fetch operation:', error));
+
+          function BuildHTML(json){
+            const articles = json.sources[0].articles;
+            let articlesHTML = '';
+            let navigationGuard = 'https://href.li?';
+
+            articles.forEach(article => {
+                const articleHTML = articleTemplate
+                    .replace(/{title}/g, article.title)
+                    .replace(/{url}/g, navigationGuard + article.link)
+                    .replace(/{content}/g, article.description);
+
+                articlesHTML += articleHTML;
+            });
+
+            document.getElementById('articles').innerHTML = articlesHTML;
+            // document.body.innerHTML += articlesHTML;
+          }
+      </script>
+  </head>
+  <body>
+
+  <div id="articles">
+
+  </div>
+
+  </body>
+  </html>
