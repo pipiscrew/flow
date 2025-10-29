@@ -24,6 +24,11 @@ jobs:
         run: npm i
       - name: Build the feed
         run: npm run build
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
       - name: Checkout gh-pages Branch
         run: |
           git fetch origin gh-pages:gh-pages  # Fetch the gh-pages branch
@@ -38,13 +43,4 @@ jobs:
           git add index2.html index2style.css
           git commit -m "Copy files from main to gh-pages"
           git push origin gh-pages
-      - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./public
-
-
-
-
-
+          
