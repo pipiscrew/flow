@@ -2,10 +2,62 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2025-10-30T17:22:38.909Z</updated>
+    <updated>2025-10-30T18:36:06.494Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[The ear does not do a Fourier transform]]></title>
+        <id>https://news.ycombinator.com/item?id=45762259</id>
+        <link href="https://www.dissonances.blog/p/the-ear-does-not-do-a-fourier-transform"/>
+        <updated>2025-10-30T17:01:20.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.dissonances.blog/p/the-ear-does-not-do-a-fourier-transform
+Comments URL: https://news.ycombinator.com/item?id=45762259
+Points: 88
+# Comments: 39]]></summary>
+        <author>
+            <name>izhak</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Moderna, the company that helped save the world, has unraveled]]></title>
+        <id>https://news.ycombinator.com/item?id=45762136</id>
+        <link href="https://www.statnews.com/2025/10/30/moderna-rise-fall-biotech-analysis-from-pandemic-rise-to-mrna-crash/"/>
+        <updated>2025-10-30T16:50:19.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.statnews.com/2025/10/30/moderna-rise-fall-biotech-analysis-from-pandemic-rise-to-mrna-crash/
+Comments URL: https://news.ycombinator.com/item?id=45762136
+Points: 58
+# Comments: 32]]></summary>
+        <author>
+            <name>toomanyrichies</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Falling panel prices lead to global solar boom, except for the US]]></title>
+        <id>https://news.ycombinator.com/item?id=45761902</id>
+        <link href="https://arstechnica.com/science/2025/10/theres-a-global-boom-in-solar-except-in-the-united-states/"/>
+        <updated>2025-10-30T16:32:22.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://arstechnica.com/science/2025/10/theres-a-global-boom-in-solar-except-in-the-united-states/
+Comments URL: https://news.ycombinator.com/item?id=45761902
+Points: 138
+# Comments: 111]]></summary>
+        <author>
+            <name>Jtsummers</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Qt Creator 18 Released]]></title>
+        <id>https://news.ycombinator.com/item?id=45761789</id>
+        <link href="https://www.qt.io/blog/qt-creator-18-released"/>
+        <updated>2025-10-30T16:23:56.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.qt.io/blog/qt-creator-18-released
+Comments URL: https://news.ycombinator.com/item?id=45761789
+Points: 81
+# Comments: 11]]></summary>
+        <author>
+            <name>jrepinc</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Affinity Studio Now Free]]></title>
         <id>https://news.ycombinator.com/item?id=45761445</id>
@@ -56,6 +108,27 @@ Points: 56
 # Comments: 13]]></summary>
         <author>
             <name>pcaharrier</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: I made a heatmap diff viewer for code reviews]]></title>
+        <id>https://news.ycombinator.com/item?id=45760321</id>
+        <link href="https://0github.com/"/>
+        <updated>2025-10-30T14:21:58.000Z</updated>
+        <summary type="html"><![CDATA[0github.com is a pull request viewer that color-codes every diff line/token by how much human attention it probably needs. Unlike PR-review bots, we try to flag not just by "is it a bug?" but by "is it worth a second look?" (examples: hard-coded secret, weird crypto mode, gnarly logic, ugly code).
+To try it, replace github.com with 0github.com in any pull-request URL. Under the hood, we split the PR into individual files, and for each file, we ask an LLM to annotate each line with a data structure that we parse into a colored heatmap.
+Examples:
+https://0github.com/manaflow-ai/cmux/pull/666
+https://0github.com/stack-auth/stack-auth/pull/988
+https://0github.com/tinygrad/tinygrad/pull/12995
+https://0github.com/simonw/datasette/pull/2548
+Notice how all the example links have a 0 prepended before github.com. This navigates you to our custom diff viewer where we handle the same URL path parameters as github.com. Darker yellows indicate that an area might require more investigation. Hover on the highlights to see the LLM's explanation. There's also a slider on the top left to adjust the "should review" threshold.
+Repo (MIT license): https://github.com/manaflow-ai/cmux
+Comments URL: https://news.ycombinator.com/item?id=45760321
+Points: 75
+# Comments: 23]]></summary>
+        <author>
+            <name>lawrencechen</name>
         </author>
     </entry>
     <entry>

@@ -6,6 +6,46 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=45762259",
+          "author": "izhak",
+          "description": "Article URL: https://www.dissonances.blog/p/the-ear-does-not-do-a-fourier-transform\nComments URL: https://news.ycombinator.com/item?id=45762259\nPoints: 88\n# Comments: 39",
+          "link": "https://www.dissonances.blog/p/the-ear-does-not-do-a-fourier-transform",
+          "publishedOn": "2025-10-30T17:01:20.000Z",
+          "wordCount": 2902,
+          "title": "The ear does not do a Fourier transform",
+          "imageUrl": "https://substackcdn.com/image/fetch/$s_!KT9h!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd0ee9e15-988a-44d6-a1c2-22b14fd0a53c_1836x325.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=45762136",
+          "author": "toomanyrichies",
+          "description": "Article URL: https://www.statnews.com/2025/10/30/moderna-rise-fall-biotech-analysis-from-pandemic-rise-to-mrna-crash/\nComments URL: https://news.ycombinator.com/item?id=45762136\nPoints: 58\n# Comments: 32",
+          "link": "https://www.statnews.com/2025/10/30/moderna-rise-fall-biotech-analysis-from-pandemic-rise-to-mrna-crash/",
+          "publishedOn": "2025-10-30T16:50:19.000Z",
+          "wordCount": 3983,
+          "title": "Moderna, the company that helped save the world, has unraveled",
+          "imageUrl": "https://www.statnews.com/wp-content/uploads/2025/08/STAT_Shrinking_mRNA_f1_3000-1024x576.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=45761902",
+          "author": "Jtsummers",
+          "description": "Article URL: https://arstechnica.com/science/2025/10/theres-a-global-boom-in-solar-except-in-the-united-states/\nComments URL: https://news.ycombinator.com/item?id=45761902\nPoints: 138\n# Comments: 111",
+          "link": "https://arstechnica.com/science/2025/10/theres-a-global-boom-in-solar-except-in-the-united-states/",
+          "publishedOn": "2025-10-30T16:32:22.000Z",
+          "wordCount": 4205,
+          "title": "Falling panel prices lead to global solar boom, except for the US",
+          "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2025/10/chinawind-solar-1152x648.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=45761789",
+          "author": "jrepinc",
+          "description": "Article URL: https://www.qt.io/blog/qt-creator-18-released\nComments URL: https://news.ycombinator.com/item?id=45761789\nPoints: 81\n# Comments: 11",
+          "link": "https://www.qt.io/blog/qt-creator-18-released",
+          "publishedOn": "2025-10-30T16:23:56.000Z",
+          "wordCount": 1938,
+          "title": "Qt Creator 18 Released",
+          "imageUrl": "https://www.qt.io/hubfs/Qt%20Creator%2018%20Release%20Blog%20Featured%20Image%202.webp"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=45761445",
           "author": "dagmx",
           "description": "Article URL: https://www.affinity.studio/get-affinity\nComments URL: https://news.ycombinator.com/item?id=45761445\nPoints: 67\n# Comments: 50",
@@ -44,6 +84,16 @@
           "wordCount": 2569,
           "title": "US declines to join more than 70 countries in signing UN cybercrime treaty",
           "imageUrl": "https://cms.therecord.media/uploads/format_webp/UN_cybercrime_1b626838d4.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=45760321",
+          "author": "lawrencechen",
+          "description": "0github.com is a pull request viewer that color-codes every diff line/token by how much human attention it probably needs. Unlike PR-review bots, we try to flag not just by \"is it a bug?\" but by \"is it worth a second look?\" (examples: hard-coded secret, weird crypto mode, gnarly logic, ugly code).\nTo try it, replace github.com with 0github.com in any pull-request URL. Under the hood, we split the PR into individual files, and for each file, we ask an LLM to annotate each line with a data structure that we parse into a colored heatmap.\nExamples:\nhttps://0github.com/manaflow-ai/cmux/pull/666\nhttps://0github.com/stack-auth/stack-auth/pull/988\nhttps://0github.com/tinygrad/tinygrad/pull/12995\nhttps://0github.com/simonw/datasette/pull/2548\nNotice how all the example links have a 0 prepended before github.com. This navigates you to our custom diff viewer where we handle the same URL path parameters as github.com. Darker yellows indicate that an area might require more investigation. Hover on the highlights to see the LLM's explanation. There's also a slider on the top left to adjust the \"should review\" threshold.\nRepo (MIT license): https://github.com/manaflow-ai/cmux\nComments URL: https://news.ycombinator.com/item?id=45760321\nPoints: 75\n# Comments: 23",
+          "link": "https://0github.com/",
+          "publishedOn": "2025-10-30T14:21:58.000Z",
+          "wordCount": 10182,
+          "title": "Show HN: I made a heatmap diff viewer for code reviews",
+          "imageUrl": null
         },
         {
           "id": "https://news.ycombinator.com/item?id=45759891",
