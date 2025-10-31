@@ -16,6 +16,16 @@
           "imageUrl": null
         },
         {
+          "id": "https://news.ycombinator.com/item?id=45774724",
+          "author": "eklitzke",
+          "description": "Article URL: https://www.sandpile.org/x86/opc_1.htm\nComments URL: https://news.ycombinator.com/item?id=45774724\nPoints: 53\n# Comments: 24",
+          "link": "https://www.sandpile.org/x86/opc_1.htm",
+          "publishedOn": "2025-10-31T17:49:16.000Z",
+          "wordCount": 1009,
+          "title": "x86 architecture 1 byte opcodes",
+          "imageUrl": null
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=45774640",
           "author": "toomuchtodo",
           "description": "Article URL: https://www.thebignewsletter.com/p/addiction-markets-abolish-corporate\nComments URL: https://news.ycombinator.com/item?id=45774640\nPoints: 70\n# Comments: 44",
@@ -24,6 +34,16 @@
           "wordCount": null,
           "title": "Addiction Markets",
           "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=45774571",
+          "author": "mlissner",
+          "description": "Article URL: https://lil.law.harvard.edu/blog/2025/10/24/rethinking-data-discovery-for-libraries-and-digital-humanities/\nComments URL: https://news.ycombinator.com/item?id=45774571\nPoints: 58\n# Comments: 17",
+          "link": "https://lil.law.harvard.edu/blog/2025/10/24/rethinking-data-discovery-for-libraries-and-digital-humanities/",
+          "publishedOn": "2025-10-31T17:37:15.000Z",
+          "wordCount": 1014,
+          "title": "Use DuckDB-WASM to query TB of data in browser",
+          "imageUrl": "https://lil.law.harvard.edu/assets/thumbs/800x800r/lil-primary-black.png"
         },
         {
           "id": "https://news.ycombinator.com/item?id=45774284",
@@ -44,6 +64,16 @@
           "wordCount": 4835,
           "title": "Just Use a Button",
           "imageUrl": "https://gomakethings.com/img/og.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=45774086",
+          "author": "bcantrill",
+          "description": "This RFD describes our distillation of a really gnarly issue that we hit in the Oxide control plane.[0]  Not unlike our discovery of the async cancellation issue[1][2][3], this is larger than the issue itself -- and worse, the program that hits futurelock is correct from the programmer's point of view.  Fortunately, the surface area here is smaller than that of async cancellation and the conditions required to hit it can be relatively easily mitigated.  Still, this is a pretty deep issue -- and something that took some very seasoned Rust hands quite a while to find.\n[0] https://github.com/oxidecomputer/omicron/issues/9259\n[1] https://rfd.shared.oxide.computer/rfd/397\n[2] https://rfd.shared.oxide.computer/rfd/400\n[3] https://www.youtube.com/watch?v=zrv5Cy1R7r4\nComments URL: https://news.ycombinator.com/item?id=45774086\nPoints: 90\n# Comments: 22",
+          "link": "https://rfd.shared.oxide.computer/rfd/0609",
+          "publishedOn": "2025-10-31T16:49:26.000Z",
+          "wordCount": 9898,
+          "title": "Futurelock: A subtle risk in async Rust",
+          "imageUrl": null
         },
         {
           "id": "https://news.ycombinator.com/item?id=45773985",
