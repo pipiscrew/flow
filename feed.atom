@@ -2,10 +2,26 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2025-10-31T23:21:50.215Z</updated>
+    <updated>2025-11-01T02:00:13.222Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Strange Attractors]]></title>
+        <id>https://news.ycombinator.com/item?id=45777810</id>
+        <link href="https://blog.shashanktomar.com/posts/strange-attractors"/>
+        <updated>2025-10-31T23:23:59.000Z</updated>
+        <summary type="html"><![CDATA[I went down the rabbit hole on a side project and ended up building this: Strange Attractors(https://blog.shashanktomar.com/posts/strange-attractors). It’s built with three.js.
+Working on it reminded me of the little "maths for fun" exercises I used to do while learning programming in early days. Just trying things out, getting fascinated and geeky, and being surprised by the results. I spent way too much time on this, but it was extreme fun.
+My favorite part: someone pointed me to the Simone Attractor on Threads. It is a 2D attractor and I asked GPT to extrapolate it to 3D, not sure if it’s mathematically correct, but it’s the coolest by far. I have left all the params configurable, so give it a try. I called it Simone (Maybe).
+If you like math-art experiments, check it out. Would love feedback, especially from folks who know more about the math side.
+Comments URL: https://news.ycombinator.com/item?id=45777810
+Points: 147
+# Comments: 16]]></summary>
+        <author>
+            <name>shashanktomar</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Tim Bray on Grokipedia]]></title>
         <id>https://news.ycombinator.com/item?id=45777015</id>
@@ -17,6 +33,19 @@ Points: 61
 # Comments: 27]]></summary>
         <author>
             <name>Bogdanp</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A theoretical way to circumvent Android developer verification]]></title>
+        <id>https://news.ycombinator.com/item?id=45776269</id>
+        <link href="https://enaix.github.io/2025/10/30/developer-verification.html"/>
+        <updated>2025-10-31T20:20:42.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://enaix.github.io/2025/10/30/developer-verification.html
+Comments URL: https://news.ycombinator.com/item?id=45776269
+Points: 89
+# Comments: 56]]></summary>
+        <author>
+            <name>sleirsgoevy</name>
         </author>
     </entry>
     <entry>
@@ -1809,6 +1838,23 @@ Points: 66
 # Comments: 76]]></summary>
         <author>
             <name>zoobab</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Pipelex – Declarative language for repeatable AI workflows]]></title>
+        <id>https://news.ycombinator.com/item?id=45734865</id>
+        <link href="https://github.com/Pipelex/pipelex"/>
+        <updated>2025-10-28T16:19:26.000Z</updated>
+        <summary type="html"><![CDATA[We’re Robin, Louis, and Thomas. Pipelex is a DSL and a Python runtime for repeatable AI workflows. Think Dockerfile/SQL for multi-step LLM pipelines: you declare steps and interfaces; any model/provider can fill them.
+Why this instead of yet another workflow builder?
+- Declarative, not glue code: you state what to do; the runtime figures out how.
+- Agent-first: each step carries natural-language context (purpose, inputs/outputs with meaning) so LLMs can follow, audit, and optimize. Our MCP server enables agents to run pipelines but also to build new pipelines on demand.
+- Open standard under MIT: language spec, runtime, API server, editor extensions, MCP server, n8n node.
+- Composable: pipes can call other pipes, created by you or shared in the community.
+Why a domain-specific language?
+- …]]></summary>
+        <author>
+            <name>lchoquel</name>
         </author>
     </entry>
     <entry>
