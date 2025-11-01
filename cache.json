@@ -6,6 +6,26 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=45783699",
+          "author": "wslh",
+          "description": "Article URL: https://www.telegraph.co.uk/world-news/2025/10/28/sudan-bloodied-sands-massacre-thousands/\nComments URL: https://news.ycombinator.com/item?id=45783699\nPoints: 61\n# Comments: 15",
+          "link": "https://www.telegraph.co.uk/world-news/2025/10/28/sudan-bloodied-sands-massacre-thousands/",
+          "publishedOn": "2025-11-01T17:50:38.000Z",
+          "wordCount": 2353,
+          "title": "Visible from space, Sudan's bloodied sands expose a massacre of thousands",
+          "imageUrl": "https://www.telegraph.co.uk/content/dam/world-news/2025/10/29/TELEMMGLPICT000446778089_17617396515650_trans_NvBQzQNjv4BqqVzuuqpFlyLIwiB6NTmJwfSVWeZ_vEN7c6bHu2jJnT8.jpeg?impolicy=OG-Standard"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=45783640",
+          "author": "samrolken",
+          "description": "I spent a few hours last weekend testing whether AI can replace code by executing directly. Built a contact manager where every HTTP request goes to an LLM with three tools: database (SQLite), webResponse (HTML/JSON/JS), and updateMemory (feedback). No routes, no controllers, no business logic. The AI designs schemas on first request, generates UIs from paths alone, and evolves based on natural language feedback. It works—forms submit, data persists, APIs return JSON—but it's catastrophically slow (30-60s per request), absurdly expensive ($0.05/request), and has zero UI consistency between requests. The capability exists; performance is the problem. When inference gets 10x faster, maybe the question shifts from \"how do we generate better code?\" to \"why generate code at all?\"\nComments URL: https://news.ycombinator.com/item?id=45783640\nPoints: 59\n# Comments: 47",
+          "link": "https://github.com/samrolken/nokode",
+          "publishedOn": "2025-11-01T17:45:18.000Z",
+          "wordCount": 3227,
+          "title": "Show HN: Why write code if the LLM can just do the thing? (web app experiment)",
+          "imageUrl": "https://opengraph.githubassets.com/982b4eaabc4b3d2bbbc8d7c47a112e5619997731176fad993700269ea5f9328e/samrolken/nokode"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=45783470",
           "author": "paulpauper",
           "description": "Article URL: https://thezvi.substack.com/p/openai-moves-to-complete-potentially\nComments URL: https://news.ycombinator.com/item?id=45783470\nPoints: 92\n# Comments: 11",
