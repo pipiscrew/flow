@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2025-11-03T17:22:40.598Z</updated>
+    <updated>2025-11-03T18:33:51.871Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
@@ -17,6 +17,19 @@ Points: 51
 # Comments: 33]]></summary>
         <author>
             <name>yakkomajuri</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Learning to read Arthur Whitney's C to become smart (2024)]]></title>
+        <id>https://news.ycombinator.com/item?id=45800777</id>
+        <link href="https://needleful.net/blog/2024/01/arthur_whitney.html"/>
+        <updated>2025-11-03T16:23:11.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://needleful.net/blog/2024/01/arthur_whitney.html
+Comments URL: https://news.ycombinator.com/item?id=45800777
+Points: 79
+# Comments: 18]]></summary>
+        <author>
+            <name>gudzpoz</name>
         </author>
     </entry>
     <entry>
@@ -48,6 +61,32 @@ Points: 85
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[State of Terminal Emulators in 2025: The Errant Champions]]></title>
+        <id>https://news.ycombinator.com/item?id=45799478</id>
+        <link href="https://www.jeffquast.com/post/state-of-terminal-emulation-2025/"/>
+        <updated>2025-11-03T14:40:51.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.jeffquast.com/post/state-of-terminal-emulation-2025/
+Comments URL: https://news.ycombinator.com/item?id=45799478
+Points: 53
+# Comments: 16]]></summary>
+        <author>
+            <name>SG-</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[OpenAI signs $38B cloud computing deal with Amazon]]></title>
+        <id>https://news.ycombinator.com/item?id=45799211</id>
+        <link href="https://www.nytimes.com/2025/11/03/technology/openai-amazon-cloud-computing.html"/>
+        <updated>2025-11-03T14:20:05.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.nytimes.com/2025/11/03/technology/openai-amazon-cloud-computing.html
+Comments URL: https://news.ycombinator.com/item?id=45799211
+Points: 82
+# Comments: 65]]></summary>
+        <author>
+            <name>donohoe</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[The Problem with Farmed Seafood]]></title>
         <id>https://news.ycombinator.com/item?id=45798898</id>
         <link href="https://nautil.us/the-problem-with-farmed-seafood-1243674/"/>
@@ -58,6 +97,41 @@ Points: 58
 # Comments: 33]]></summary>
         <author>
             <name>dnetesn</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Skyfall-GS – Synthesizing Immersive 3D Urban Scenes from Satellite Imagery]]></title>
+        <id>https://news.ycombinator.com/item?id=45798881</id>
+        <link href="https://skyfall-gs.jayinnn.dev/"/>
+        <updated>2025-11-03T13:46:19.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://skyfall-gs.jayinnn.dev/
+Comments URL: https://news.ycombinator.com/item?id=45798881
+Points: 55
+# Comments: 14]]></summary>
+        <author>
+            <name>ChrisArchitect</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: a Rust ray tracer that runs on any GPU – even in the browser]]></title>
+        <id>https://news.ycombinator.com/item?id=45798871</id>
+        <link href="https://github.com/tchauffi/rust-rasterizer"/>
+        <updated>2025-11-03T13:45:15.000Z</updated>
+        <summary type="html"><![CDATA[I’ve been experimenting with Rust lately and wanted a project that would help me explore some of its lower-level and performance-oriented features. Inspired by Sebastian Lague’s videos, I decided to implement my own ray tracer from scratch.
+The initial goal was just to render a simple 3D scene in the browser at a reasonable frame rate. It evolved into a small renderer that can:
+ • Run locally or on the web using wgpu and WebAssembly
+ • Perform mesh rendering with a Bounding Volume Hierarchy (BVH) for acceleration
+ • Simulate both direct and indirect illumination for photorealistic results
+ • Be deployed easily as a free web demo using GitHub Pages
+The project is far from perfect, but it’s been a fun way to dig deeper into graphics programming and learn more about Rust’s ecosystem. I’m also planning to experiment with Rust for some ML projects next.
+GitHub: https://github.com/tchauffi/rust-rasterizer 
+Web demo (desktop browsers): https://tchauffi.github.io/rust-rasterizer/
+Would love feedback from anyone who’s built similar projects or has experience with wgpu or ray tracing in Rust.
+Comments URL: https://news.ycombinator.com/item?id=45798871
+Points: 51
+# Comments: 16]]></summary>
+        <author>
+            <name>tchauffi</name>
         </author>
     </entry>
     <entry>
@@ -84,6 +158,19 @@ Points: 88
 # Comments: 23]]></summary>
         <author>
             <name>agwa</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[An Illustrated Introduction to Linear Algebra, Chapter 2: The Dot Product]]></title>
+        <id>https://news.ycombinator.com/item?id=45798741</id>
+        <link href="https://www.ducktyped.org/p/linear-algebra-chapter-2-the-dot"/>
+        <updated>2025-11-03T13:28:37.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.ducktyped.org/p/linear-algebra-chapter-2-the-dot
+Comments URL: https://news.ycombinator.com/item?id=45798741
+Points: 57
+# Comments: 22]]></summary>
+        <author>
+            <name>egonschiele</name>
         </author>
     </entry>
     <entry>
