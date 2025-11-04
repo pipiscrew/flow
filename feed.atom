@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2025-11-04T09:28:30.240Z</updated>
+    <updated>2025-11-04T10:29:25.700Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
@@ -2993,6 +2993,21 @@ Points: 56
 # Comments: 2]]></summary>
         <author>
             <name>sebg</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Ask HN: How to deal with long vibe-coded PRs?]]></title>
+        <id>https://news.ycombinator.com/item?id=45744209</id>
+        <link href="https://news.ycombinator.com/item?id=45744209"/>
+        <updated>2025-10-29T08:37:36.000Z</updated>
+        <summary type="html"><![CDATA[Today I came across a PR for a (in theory) relatively simple service.
+It span across 9000 LOC, 63 new files, including a DSL parser and much more.
+How would you go about reviewing a PR like this?
+Comments URL: https://news.ycombinator.com/item?id=45744209
+Points: 105
+# Comments: 197]]></summary>
+        <author>
+            <name>philippta</name>
         </author>
     </entry>
     <entry>
