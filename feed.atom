@@ -2,10 +2,49 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2025-11-06T16:34:44.974Z</updated>
+    <updated>2025-11-06T17:24:06.249Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[FBI tries to unmask owner of archive.is]]></title>
+        <id>https://news.ycombinator.com/item?id=45836826</id>
+        <link href="https://www.heise.de/en/news/Archive-today-FBI-Demands-Data-from-Provider-Tucows-11066346.html"/>
+        <updated>2025-11-06T16:18:18.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.heise.de/en/news/Archive-today-FBI-Demands-Data-from-Provider-Tucows-11066346.html
+Comments URL: https://news.ycombinator.com/item?id=45836826
+Points: 152
+# Comments: 63]]></summary>
+        <author>
+            <name>Projectiboga</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Australia has so much solar that it's offering everyone free electricity]]></title>
+        <id>https://news.ycombinator.com/item?id=45836104</id>
+        <link href="https://electrek.co/2025/11/04/australia-has-so-much-solar-that-its-offering-everyone-free-electricity-3h-day/"/>
+        <updated>2025-11-06T15:08:56.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://electrek.co/2025/11/04/australia-has-so-much-solar-that-its-offering-everyone-free-electricity-3h-day/
+Comments URL: https://news.ycombinator.com/item?id=45836104
+Points: 94
+# Comments: 61]]></summary>
+        <author>
+            <name>ohjeez</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Kimi K2 Thinking, a SOTA open-source trillion-parameter reasoning model]]></title>
+        <id>https://news.ycombinator.com/item?id=45836070</id>
+        <link href="https://moonshotai.github.io/Kimi-K2/thinking.html"/>
+        <updated>2025-11-06T15:06:06.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://moonshotai.github.io/Kimi-K2/thinking.html
+Comments URL: https://news.ycombinator.com/item?id=45836070
+Points: 144
+# Comments: 24]]></summary>
+        <author>
+            <name>nekofneko</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Cloudflare Tells U.S. Govt That Foreign Site Blocking Efforts Are Trade Barriers]]></title>
         <id>https://news.ycombinator.com/item?id=45835123</id>
@@ -69,6 +108,24 @@ Points: 50
 # Comments: 62]]></summary>
         <author>
             <name>rzk</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: qqqa – A fast, stateless LLM-powered assistant for your shell]]></title>
+        <id>https://news.ycombinator.com/item?id=45833811</id>
+        <link href="https://github.com/matisojka/qqqa"/>
+        <updated>2025-11-06T10:59:42.000Z</updated>
+        <summary type="html"><![CDATA[I built qqqa as an open-source project, because I was tired of bouncing between shell, ChatGPT / the browser for rather simple commands. It comes with two binaries: qq and qa.
+qq means "quick question" - it is read-only, perfect for the commands I always forget.
+qa means "quick agent" - it is qq's sibling that can run things, but only after showing its plan and getting an approval by the user.
+It is built entirely around the Unix philosophy of focused tools, stateless by default - pretty much the opposite of what most coding agent are focusing on.
+Personally I've had the best experience using Groq + gpt-oss-20b, as it feels almost instant (up to 1k tokens/s according to Groq) - but any OpenAI-compatible API will do.
+Curious if the HN crowd finds it useful - and of course, AMA.
+Comments URL: https://news.ycombinator.com/item?id=45833811
+Points: 69
+# Comments: 67]]></summary>
+        <author>
+            <name>iagooar</name>
         </author>
     </entry>
     <entry>
