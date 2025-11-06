@@ -6,6 +6,26 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=45839901",
+          "author": "esnard",
+          "description": "Article URL: https://www.troyhunt.com/2-billion-email-addresses-were-exposed-and-we-indexed-them-all-in-have-i-been-pwned/\nComments URL: https://news.ycombinator.com/item?id=45839901\nPoints: 102\n# Comments: 65",
+          "link": "https://www.troyhunt.com/2-billion-email-addresses-were-exposed-and-we-indexed-them-all-in-have-i-been-pwned/",
+          "publishedOn": "2025-11-06T20:20:23.000Z",
+          "wordCount": 3554,
+          "title": "Two billion email addresses were exposed",
+          "imageUrl": "https://www.troyhunt.com/content/images/size/w1200/2025/11/ef7c2449-be5a-4a0d-b2da-a5b1a1359785.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=45838564",
+          "author": "stansApprentice",
+          "description": "Article URL: https://arxiv.org/abs/2510.18147\nComments URL: https://news.ycombinator.com/item?id=45838564\nPoints: 55\n# Comments: 4",
+          "link": "https://arxiv.org/abs/2510.18147",
+          "publishedOn": "2025-11-06T18:29:03.000Z",
+          "wordCount": 712,
+          "title": "LLMs Encode How Difficult Problems Are",
+          "imageUrl": "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=45837871",
           "author": "glhaynes",
           "description": "Article URL: https://forums.swift.org/t/swift-on-freebsd-preview/83064\nComments URL: https://news.ycombinator.com/item?id=45837871\nPoints: 75\n# Comments: 34",
@@ -23,6 +43,16 @@
           "publishedOn": "2025-11-06T17:06:47.000Z",
           "wordCount": 4938,
           "title": "The English language doesn't exist – it's just French that's badly pronounced",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=45837425",
+          "author": "lukaslevert",
+          "description": "Article URL: https://parallel.ai/blog/introducing-parallel-search\nComments URL: https://news.ycombinator.com/item?id=45837425\nPoints: 54\n# Comments: 29",
+          "link": "https://parallel.ai/blog/introducing-parallel-search",
+          "publishedOn": "2025-11-06T17:04:41.000Z",
+          "wordCount": null,
+          "title": "The Parallel Search API",
           "imageUrl": null
         },
         {
@@ -314,6 +344,16 @@
           "wordCount": 6521,
           "title": "ChatGPT terms disallow its use in providing legal and medical advice to others",
           "imageUrl": "https://www.ctvnews.ca/resizer/v2/PA3ZSKTDUV4M4STWCXZTOS3LAM.jpg?smart=true&auth=f072425caaba2d81ba4fc1878b734ff86f828d9c4fa0e1008f33fb0ffff810c4&width=1200&height=630"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=45825733",
+          "author": "costco",
+          "description": "Hi everyone,\nFor the past couple months I've been working on a website with two main features:\n- https://book.sv - put in a list of books and get recommendations on what to read next from a model trained on over a billion reviews\n- https://book.sv/intersect - put in a list of books and find the users on Goodreads who have read them all (if you don't want to be included in these results, you can opt-out here: https://book.sv/remove-my-data)\nTechnical info available here: https://book.sv/how-it-works\nNote 1: If you only provide one or two books, the model doesn't have a lot to work with and may include a handful of somewhat unrelated popular books in the results.  If you want recommendations based on just one book, click the \"Similar\" button next to the book after adding it to the input book list on the recommendations page.\nNote 2: This is uncommon, but if you get an unexpected non-English titled book in the results, it is probably not a mistake and it very likely has an English edition.  The \"canonical\" edition of a book I use for display is whatever one is the most popular, which is usually the English version, but this is not the case for all books, especially those by famous French or Russian authors.\nComments URL: https://news.ycombinator.com/item?id=45825733\nPoints: 73\n# Comments: 29",
+          "link": "https://book.sv/",
+          "publishedOn": "2025-11-05T17:50:45.000Z",
+          "wordCount": 111,
+          "title": "Show HN: I scraped 3B Goodreads reviews to train a better recommendation model",
+          "imageUrl": "https://book.sv/static/favicon.ico"
         },
         {
           "id": "https://news.ycombinator.com/item?id=45824864",

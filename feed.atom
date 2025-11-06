@@ -2,10 +2,36 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2025-11-06T20:28:18.204Z</updated>
+    <updated>2025-11-06T21:22:27.208Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Two billion email addresses were exposed]]></title>
+        <id>https://news.ycombinator.com/item?id=45839901</id>
+        <link href="https://www.troyhunt.com/2-billion-email-addresses-were-exposed-and-we-indexed-them-all-in-have-i-been-pwned/"/>
+        <updated>2025-11-06T20:20:23.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.troyhunt.com/2-billion-email-addresses-were-exposed-and-we-indexed-them-all-in-have-i-been-pwned/
+Comments URL: https://news.ycombinator.com/item?id=45839901
+Points: 102
+# Comments: 65]]></summary>
+        <author>
+            <name>esnard</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[LLMs Encode How Difficult Problems Are]]></title>
+        <id>https://news.ycombinator.com/item?id=45838564</id>
+        <link href="https://arxiv.org/abs/2510.18147"/>
+        <updated>2025-11-06T18:29:03.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://arxiv.org/abs/2510.18147
+Comments URL: https://news.ycombinator.com/item?id=45838564
+Points: 55
+# Comments: 4]]></summary>
+        <author>
+            <name>stansApprentice</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Swift on FreeBSD Preview]]></title>
         <id>https://news.ycombinator.com/item?id=45837871</id>
@@ -30,6 +56,19 @@ Points: 54
 # Comments: 58]]></summary>
         <author>
             <name>detectivestory</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Parallel Search API]]></title>
+        <id>https://news.ycombinator.com/item?id=45837425</id>
+        <link href="https://parallel.ai/blog/introducing-parallel-search"/>
+        <updated>2025-11-06T17:04:41.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://parallel.ai/blog/introducing-parallel-search
+Comments URL: https://news.ycombinator.com/item?id=45837425
+Points: 54
+# Comments: 29]]></summary>
+        <author>
+            <name>lukaslevert</name>
         </author>
     </entry>
     <entry>
@@ -422,6 +461,25 @@ Points: 94
 # Comments: 103]]></summary>
         <author>
             <name>randycupertino</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: I scraped 3B Goodreads reviews to train a better recommendation model]]></title>
+        <id>https://news.ycombinator.com/item?id=45825733</id>
+        <link href="https://book.sv/"/>
+        <updated>2025-11-05T17:50:45.000Z</updated>
+        <summary type="html"><![CDATA[Hi everyone,
+For the past couple months I've been working on a website with two main features:
+- https://book.sv - put in a list of books and get recommendations on what to read next from a model trained on over a billion reviews
+- https://book.sv/intersect - put in a list of books and find the users on Goodreads who have read them all (if you don't want to be included in these results, you can opt-out here: https://book.sv/remove-my-data)
+Technical info available here: https://book.sv/how-it-works
+Note 1: If you only provide one or two books, the model doesn't have a lot to work with and may include a handful of somewhat unrelated popular books in the results.  If you want recommendations based on just one book, click the "Similar" button next to the book after adding it to the input book list on the recommendations page.
+Note 2: This is uncommon, but if you get an unexpected non-English titled book in the results, it is probably not a mistake and it very likely has an English edition.  The "canonical" edition of a book I use for display is whatever one is the most popular, which is usually the English version, but this is not the case for all books, especially those by famous French or Russian authors.
+Comments URL: https://news.ycombinator.com/item?id=45825733
+Points: 73
+# Comments: 29]]></summary>
+        <author>
+            <name>costco</name>
         </author>
     </entry>
     <entry>
