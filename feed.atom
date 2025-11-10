@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2025-11-10T06:39:31.445Z</updated>
+    <updated>2025-11-10T07:24:48.022Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
@@ -17,6 +17,19 @@ Points: 51
 # Comments: 23]]></summary>
         <author>
             <name>dropbox_miner</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How the UK lost its shipbuilding industry]]></title>
+        <id>https://news.ycombinator.com/item?id=45871141</id>
+        <link href="https://www.construction-physics.com/p/how-the-uk-lost-its-shipbuilding"/>
+        <updated>2025-11-10T01:23:58.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.construction-physics.com/p/how-the-uk-lost-its-shipbuilding
+Comments URL: https://news.ycombinator.com/item?id=45871141
+Points: 53
+# Comments: 82]]></summary>
+        <author>
+            <name>surprisetalk</name>
         </author>
     </entry>
     <entry>
@@ -310,6 +323,19 @@ Points: 54
 # Comments: 6]]></summary>
         <author>
             <name>haakon</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Pipeflow-PHP – Automate anything with pipelines even non-devs can edit]]></title>
+        <id>https://news.ycombinator.com/item?id=45865546</id>
+        <link href="https://github.com/marcosiino/pipeflow-php"/>
+        <updated>2025-11-09T13:40:43.000Z</updated>
+        <summary type="html"><![CDATA[Hello everyone,
+I’ve been building [Pipeflow-php](https://github.com/marcosiino/pipeflow-php), a PHP pipeline engine to automate anything — from content generation to backend and business logic workflows — using core modular stages and custom implemented stages (that can do anything), with the key power of using an easy to reason and read XML to define the pipeline logic, which every actor in a company, even non developers, can understand, maintain and edit.
+It’s a *headless engine*: no UI is included, but it's designed to be easily wired into any backend interface (e.g. WordPress admin, CMS dashboard, custom panels), so *even non-developers can edit or configure the logic*.
+It surely needs improvements, more core stages to be implemented and more features, but i'm already using it on two …]]></summary>
+        <author>
+            <name>marcosiino</name>
         </author>
     </entry>
     <entry>
