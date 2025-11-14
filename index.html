@@ -22,6 +22,57 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2025-11-14 datetime="2025-11-14T00:41:08.000Z">2025-11-14</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2025-11-14 datetime="2025-11-14T00:41:08.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Hacker News: Front Page</button>
+                  <a class="source-heading__link" href="https://news.ycombinator.com/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;45922550"
+                        open
+                      >
+                        <summary class="article-expander__title">Apple Mini Apps Partner Program</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://developer.apple.com/programs/mini-apps-partner/">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://developer.apple.com/news/images/og/app-store-og.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Article URL: https://developer.apple.com/programs/mini-apps-partner/
+Comments URL: https://news.ycombinator.com/item?id&#x3D;45922550
+Points: 73
+# Comments: 44</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;5
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
             <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2025-11-13 datetime="2025-11-13T21:33:26.000Z">2025-11-13</time>
             <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2025-11-13 datetime="2025-11-13T21:33:26.000Z"></time>
           </button>
@@ -97,6 +148,36 @@ Comments URL: https://news.ycombinator.com/item?id&#x3D;45920677
 Points: 67
 # Comments: 21</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;45920156"
+                        open
+                      >
+                        <summary class="article-expander__title">Show HN: DBOS Java – Postgres-Backed Durable Workflows</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://github.com/dbos-inc/dbos-transact-java">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://opengraph.githubassets.com/3e3fe8a060f641347aa400a1e3972f0534cd8104c4e6422f35d6b80e9431b3c7/dbos-inc/dbos-transact-java" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Hi HN - I’m Peter, here with Harry (devhawk), and we’re building DBOS Java, an open-source Java library for durable workflows, backed by Postgres.
+https://github.com/dbos-inc/dbos-transact-java
+Essentially, DBOS helps you write long-lived, reliable code that can survive failures, restarts, and crashes without losing state or duplicating work. As your workflows run, it checkpoints each step they take in a Postgres database. When a process stops (fails, restarts, or crashes), your program can recover from those checkpoints to restore its exact state and continue from where it left off, as if nothing happened.
+In practice, this makes it easier to build reliable systems for use cases like AI agents, payments, data synchronization, or anything that takes hours, days, or weeks to complete. Rather than bolting on ad-hoc retry logic and database checkpoints, durable workflows give you one consistent model for ensuring your programs can recover from any failure from exactly where they left off.
+This library contains all you need to add durable workflows to your program: there&#x27;s no separate service or orchestrator or any external dependencies except Postgres. Because it&#x27;s just a library, you can incrementally add it to your projects, and it works out of the box with frameworks like Spring. And because it&#x27;s built on Postgres, it natively supports all the tooling you&#x27;re familiar with (backups, GUIs, CLI tools) and works with any Postgres provider.
+If you want to try it out, check out the quickstart:
+https://docs.dbos.dev/quickstart?language&#x3D;java
+We&#x27;d love to hear what you think! We’ll be in the comments for the rest of the day to answer any questions.
+Comments URL: https://news.ycombinator.com/item?id&#x3D;45920156
+Points: 53
+# Comments: 29</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;14
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -21490,8 +21571,8 @@ Points: 168
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/pipiscrew/flow/actions/runs/19351813290">
-        <time id="build-timestamp" datetime="2025-11-14T01:59:06.917Z">2025-11-14T01:59:06.917Z</time>
+      <a class="footer-link" href="https://github.com/pipiscrew/flow/actions/runs/19353160214">
+        <time id="build-timestamp" datetime="2025-11-14T03:18:33.311Z">2025-11-14T03:18:33.311Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>

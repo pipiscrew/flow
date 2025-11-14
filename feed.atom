@@ -2,10 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2025-11-14T01:59:06.960Z</updated>
+    <updated>2025-11-14T03:18:33.352Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Apple Mini Apps Partner Program]]></title>
+        <id>https://news.ycombinator.com/item?id=45922550</id>
+        <link href="https://developer.apple.com/programs/mini-apps-partner/"/>
+        <updated>2025-11-14T00:41:08.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://developer.apple.com/programs/mini-apps-partner/
+Comments URL: https://news.ycombinator.com/item?id=45922550
+Points: 73
+# Comments: 44]]></summary>
+        <author>
+            <name>soheilpro</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[650GB of Data (Delta Lake on S3). Polars vs. DuckDB vs. Daft vs. Spark]]></title>
         <id>https://news.ycombinator.com/item?id=45920881</id>
@@ -43,6 +56,26 @@ Points: 67
 # Comments: 21]]></summary>
         <author>
             <name>hexmiles</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: DBOS Java – Postgres-Backed Durable Workflows]]></title>
+        <id>https://news.ycombinator.com/item?id=45920156</id>
+        <link href="https://github.com/dbos-inc/dbos-transact-java"/>
+        <updated>2025-11-13T20:33:43.000Z</updated>
+        <summary type="html"><![CDATA[Hi HN - I’m Peter, here with Harry (devhawk), and we’re building DBOS Java, an open-source Java library for durable workflows, backed by Postgres.
+https://github.com/dbos-inc/dbos-transact-java
+Essentially, DBOS helps you write long-lived, reliable code that can survive failures, restarts, and crashes without losing state or duplicating work. As your workflows run, it checkpoints each step they take in a Postgres database. When a process stops (fails, restarts, or crashes), your program can recover from those checkpoints to restore its exact state and continue from where it left off, as if nothing happened.
+In practice, this makes it easier to build reliable systems for use cases like AI agents, payments, data synchronization, or anything that takes hours, days, or weeks to complete. Rather than bolting on ad-hoc retry logic and database checkpoints, durable workflows give you one consistent model for ensuring your programs can recover from any failure from exactly where they left off.
+This library contains all you need to add durable workflows to your program: there's no separate service or orchestrator or any external dependencies except Postgres. Because it's just a library, you can incrementally add it to your projects, and it works out of the box with frameworks like Spring. And because it's built on Postgres, it natively supports all the tooling you're familiar with (backups, GUIs, CLI tools) and works with any Postgres provider.
+If you want to try it out, check out the quickstart:
+https://docs.dbos.dev/quickstart?language=java
+We'd love to hear what you think! We’ll be in the comments for the rest of the day to answer any questions.
+Comments URL: https://news.ycombinator.com/item?id=45920156
+Points: 53
+# Comments: 29]]></summary>
+        <author>
+            <name>KraftyOne</name>
         </author>
     </entry>
     <entry>

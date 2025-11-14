@@ -6,6 +6,16 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=45922550",
+          "author": "soheilpro",
+          "description": "Article URL: https://developer.apple.com/programs/mini-apps-partner/\nComments URL: https://news.ycombinator.com/item?id=45922550\nPoints: 73\n# Comments: 44",
+          "link": "https://developer.apple.com/programs/mini-apps-partner/",
+          "publishedOn": "2025-11-14T00:41:08.000Z",
+          "wordCount": 1629,
+          "title": "Apple Mini Apps Partner Program",
+          "imageUrl": "https://developer.apple.com/news/images/og/app-store-og.png"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=45920881",
           "author": "tanelpoder",
           "description": "Article URL: https://dataengineeringcentral.substack.com/p/650gb-of-data-delta-lake-on-s3-polars\nComments URL: https://news.ycombinator.com/item?id=45920881\nPoints: 69\n# Comments: 16",
@@ -34,6 +44,16 @@
           "wordCount": 451,
           "title": "OpenMANET Wi-Fi HaLow open-source project for Raspberry Pi–based MANET radios",
           "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=45920156",
+          "author": "KraftyOne",
+          "description": "Hi HN - I’m Peter, here with Harry (devhawk), and we’re building DBOS Java, an open-source Java library for durable workflows, backed by Postgres.\nhttps://github.com/dbos-inc/dbos-transact-java\nEssentially, DBOS helps you write long-lived, reliable code that can survive failures, restarts, and crashes without losing state or duplicating work. As your workflows run, it checkpoints each step they take in a Postgres database. When a process stops (fails, restarts, or crashes), your program can recover from those checkpoints to restore its exact state and continue from where it left off, as if nothing happened.\nIn practice, this makes it easier to build reliable systems for use cases like AI agents, payments, data synchronization, or anything that takes hours, days, or weeks to complete. Rather than bolting on ad-hoc retry logic and database checkpoints, durable workflows give you one consistent model for ensuring your programs can recover from any failure from exactly where they left off.\nThis library contains all you need to add durable workflows to your program: there's no separate service or orchestrator or any external dependencies except Postgres. Because it's just a library, you can incrementally add it to your projects, and it works out of the box with frameworks like Spring. And because it's built on Postgres, it natively supports all the tooling you're familiar with (backups, GUIs, CLI tools) and works with any Postgres provider.\nIf you want to try it out, check out the quickstart:\nhttps://docs.dbos.dev/quickstart?language=java\nWe'd love to hear what you think! We’ll be in the comments for the rest of the day to answer any questions.\nComments URL: https://news.ycombinator.com/item?id=45920156\nPoints: 53\n# Comments: 29",
+          "link": "https://github.com/dbos-inc/dbos-transact-java",
+          "publishedOn": "2025-11-13T20:33:43.000Z",
+          "wordCount": 4065,
+          "title": "Show HN: DBOS Java – Postgres-Backed Durable Workflows",
+          "imageUrl": "https://opengraph.githubassets.com/3e3fe8a060f641347aa400a1e3972f0534cd8104c4e6422f35d6b80e9431b3c7/dbos-inc/dbos-transact-java"
         },
         {
           "id": "https://news.ycombinator.com/item?id=45919067",
