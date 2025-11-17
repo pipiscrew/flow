@@ -836,6 +836,16 @@
           "imageUrl": "https://windhawk.net/og-image.png"
         },
         {
+          "id": "https://news.ycombinator.com/item?id=45938517",
+          "author": "anandchowdhary",
+          "description": "Continuous Claude is a CLI wrapper I made that runs Claude Code in an iterative loop with persistent context, automatically driving a PR-based workflow. Each iteration creates a branch, applies a focused code change, generates a commit, opens a PR via GitHub's CLI, waits for required checks and reviews, merges if green, and records state into a shared notes file.\nThis avoids the typical stateless one-shot pattern of current coding agents and enables multi-step changes without losing intermediate reasoning, test failures, or partial progress.\nThe tool is useful for tasks that require many small, serial modifications: increasing test coverage, large refactors, dependency upgrades guided by release notes, or framework migrations.\nBlog post about this: https://anandchowdhary.com/blog/2025/running-claude-code-in-...\nComments URL: https://news.ycombinator.com/item?id=45938517\nPoints: 66\n# Comments: 31",
+          "link": "https://github.com/AnandChowdhary/continuous-claude",
+          "publishedOn": "2025-11-15T16:27:49.000Z",
+          "wordCount": 6868,
+          "title": "Show HN: Continuous Claude – run Claude Code in a loop",
+          "imageUrl": "https://opengraph.githubassets.com/05195338da5c9e4342419ccc6af245e31d29460229dfed9684b627e283239123/AnandChowdhary/continuous-claude"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=45938427",
           "author": "andsoitis",
           "description": "Article URL: https://saul.pw/mag/wealth/\nComments URL: https://news.ycombinator.com/item?id=45938427\nPoints: 69\n# Comments: 55",
@@ -10714,16 +10724,6 @@
           "wordCount": 1703,
           "title": "I invited strangers to message me through a receipt printer",
           "imageUrl": "https://aschmelyun.com/storage/images/meta/blog/i-invited-strangers-to-message-me-through-a-receipt-printer.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=45633311",
-          "author": "gi0baro-dev",
-          "description": "Article URL: https://blog.baro.dev/p/the-future-of-python-web-services-looks-gil-free\nComments URL: https://news.ycombinator.com/item?id=45633311\nPoints: 154\n# Comments: 51",
-          "link": "https://blog.baro.dev/p/the-future-of-python-web-services-looks-gil-free",
-          "publishedOn": "2025-10-19T10:38:25.000Z",
-          "wordCount": 2206,
-          "title": "The future of Python web services looks GIL-free",
-          "imageUrl": null
         }
       ]
     }

@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2025-11-17T22:24:23.830Z</updated>
+    <updated>2025-11-17T23:23:33.227Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
@@ -1097,6 +1097,22 @@ Points: 65
 # Comments: 30]]></summary>
         <author>
             <name>znpy</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Continuous Claude – run Claude Code in a loop]]></title>
+        <id>https://news.ycombinator.com/item?id=45938517</id>
+        <link href="https://github.com/AnandChowdhary/continuous-claude"/>
+        <updated>2025-11-15T16:27:49.000Z</updated>
+        <summary type="html"><![CDATA[Continuous Claude is a CLI wrapper I made that runs Claude Code in an iterative loop with persistent context, automatically driving a PR-based workflow. Each iteration creates a branch, applies a focused code change, generates a commit, opens a PR via GitHub's CLI, waits for required checks and reviews, merges if green, and records state into a shared notes file.
+This avoids the typical stateless one-shot pattern of current coding agents and enables multi-step changes without losing intermediate reasoning, test failures, or partial progress.
+The tool is useful for tasks that require many small, serial modifications: increasing test coverage, large refactors, dependency upgrades guided by release notes, or framework migrations.
+Blog post about this: https://anandchowdhary.com/blog/2025/running-claude-code-in-...
+Comments URL: https://news.ycombinator.com/item?id=45938517
+Points: 66
+# Comments: 31]]></summary>
+        <author>
+            <name>anandchowdhary</name>
         </author>
     </entry>
     <entry>
@@ -14097,19 +14113,6 @@ Points: 192
 # Comments: 73]]></summary>
         <author>
             <name>chrisdemarco</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The future of Python web services looks GIL-free]]></title>
-        <id>https://news.ycombinator.com/item?id=45633311</id>
-        <link href="https://blog.baro.dev/p/the-future-of-python-web-services-looks-gil-free"/>
-        <updated>2025-10-19T10:38:25.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://blog.baro.dev/p/the-future-of-python-web-services-looks-gil-free
-Comments URL: https://news.ycombinator.com/item?id=45633311
-Points: 154
-# Comments: 51]]></summary>
-        <author>
-            <name>gi0baro-dev</name>
         </author>
     </entry>
 </feed>
