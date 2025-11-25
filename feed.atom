@@ -2,10 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2025-11-25T15:28:53.894Z</updated>
+    <updated>2025-11-25T16:35:08.970Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Launch HN: Onyx (YC W24) – The open-source chat UI]]></title>
+        <id>https://news.ycombinator.com/item?id=46045987</id>
+        <link href="https://news.ycombinator.com/item?id=46045987"/>
+        <updated>2025-11-25T14:20:30.000Z</updated>
+        <summary type="html"><![CDATA[Hey HN, Chris and Yuhong here from Onyx (https://github.com/onyx-dot-app/onyx). We’re building an open-source chat that works with any LLM (proprietary + open weight) and gives these LLMs the tools they need to be useful (RAG, web search, MCP, deep research, memory, etc.).
+Demo: https://youtu.be/2g4BxTZ9ztg
+Two years ago, Yuhong and I had the same recurring problem. We were on growing teams and it was ridiculously difficult to find the right information across our docs, Slack, meeting notes, etc. Existing solutions required sending out our company's data, lacked customization, and frankly didn't work well. So, we started Danswer, an open-source enterprise search project built to be self-hosted and easily customized.
+As the project grew, we started seeing an interesting trend—even though we…]]></summary>
+        <author>
+            <name>Weves</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Apt Rust requirement raises questions]]></title>
         <id>https://news.ycombinator.com/item?id=46045972</id>
@@ -2636,6 +2649,19 @@ Points: 59
 # Comments: 16]]></summary>
         <author>
             <name>ColinWright</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Rethinking C++: Architecture, Concepts, and Responsibility]]></title>
+        <id>https://news.ycombinator.com/item?id=45985081</id>
+        <link href="https://blogs.embarcadero.com/rethinking-c-architecture-concepts-and-responsibility/"/>
+        <updated>2025-11-19T20:58:50.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://blogs.embarcadero.com/rethinking-c-architecture-concepts-and-responsibility/
+Comments URL: https://news.ycombinator.com/item?id=45985081
+Points: 50
+# Comments: 50]]></summary>
+        <author>
+            <name>timeoperator</name>
         </author>
     </entry>
     <entry>
@@ -16738,19 +16764,6 @@ Points: 55
 # Comments: 21]]></summary>
         <author>
             <name>yar-kravtsov</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Structure and Interpretation of Classical Mechanics (2014)]]></title>
-        <id>https://news.ycombinator.com/item?id=45717397</id>
-        <link href="https://tgvaughan.github.io/sicm/toc.html"/>
-        <updated>2025-10-27T04:27:45.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://tgvaughan.github.io/sicm/toc.html
-Comments URL: https://news.ycombinator.com/item?id=45717397
-Points: 57
-# Comments: 19]]></summary>
-        <author>
-            <name>the-mitr</name>
         </author>
     </entry>
 </feed>
