@@ -2,10 +2,37 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2025-11-25T17:25:03.425Z</updated>
+    <updated>2025-11-25T18:38:10.151Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Show HN: We built an open source, zero webhooks payment processor]]></title>
+        <id>https://news.ycombinator.com/item?id=46048252</id>
+        <link href="https://github.com/flowglad/flowglad"/>
+        <updated>2025-11-25T17:33:50.000Z</updated>
+        <summary type="html"><![CDATA[Hi HN! For the past bit we’ve been building Flowglad (https://flowglad.com) and can now feel it’s just gotten good enough to share with you all:
+Repo: https://github.com/flowglad/flowglad
+Demo video: https://www.youtube.com/watch?v=G6H0c1Cd2kU
+Flowglad is a payment processor that you integrate without writing any glue code. Along with processing your payments, it tells you in real time the features and usage credit balances that your customers have available to you based on their billing state. The DX feels like React, because we wanted to bring the reactive programming paradigm to payments.
+We make it easy to spin up full-fledged pricing models (including usage meters, feature gates and usage credit grants) in a few clicks. We schematize these pricing models into a pricing.yaml file that’…]]></summary>
+        <author>
+            <name>agreeahmed</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Ozempic does not slow Alzheimer's, study finds]]></title>
+        <id>https://news.ycombinator.com/item?id=46047513</id>
+        <link href="https://www.semafor.com/article/11/25/2025/ozempic-does-not-slow-alzheimers-study-finds"/>
+        <updated>2025-11-25T16:34:08.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.semafor.com/article/11/25/2025/ozempic-does-not-slow-alzheimers-study-finds
+Comments URL: https://news.ycombinator.com/item?id=46047513
+Points: 50
+# Comments: 36]]></summary>
+        <author>
+            <name>danso</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Orion 1.0 – Browse Beyond]]></title>
         <id>https://news.ycombinator.com/item?id=46047350</id>
@@ -17,6 +44,19 @@ Points: 105
 # Comments: 40]]></summary>
         <author>
             <name>STRiDEX</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Roblox is a problem but it's a symptom of something worse]]></title>
+        <id>https://news.ycombinator.com/item?id=46047229</id>
+        <link href="https://www.platformer.news/roblox-ceo-interview-backlash-analysis/"/>
+        <updated>2025-11-25T16:12:22.000Z</updated>
+        <summary type="html"><![CDATA[Recent and related: Roblox CEO interview about child safety didn't go well - https://news.ycombinator.com/item?id=46013477 - Nov 2025 (96 comments)
+Comments URL: https://news.ycombinator.com/item?id=46047229
+Points: 83
+# Comments: 117]]></summary>
+        <author>
+            <name>FiddlerClamp</name>
         </author>
     </entry>
     <entry>
@@ -69,6 +109,19 @@ Points: 61
 # Comments: 46]]></summary>
         <author>
             <name>hackernj</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Trillions spent and big software projects are still failing]]></title>
+        <id>https://news.ycombinator.com/item?id=46045085</id>
+        <link href="https://spectrum.ieee.org/it-management-software-failures"/>
+        <updated>2025-11-25T12:14:11.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://spectrum.ieee.org/it-management-software-failures
+Comments URL: https://news.ycombinator.com/item?id=46045085
+Points: 95
+# Comments: 81]]></summary>
+        <author>
+            <name>pseudolus</name>
         </author>
     </entry>
     <entry>
@@ -147,6 +200,19 @@ Points: 132
 # Comments: 41]]></summary>
         <author>
             <name>theresistor</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[PRC elites voice AI-skepticism]]></title>
+        <id>https://news.ycombinator.com/item?id=46038417</id>
+        <link href="https://jamestown.org/prc-elites-voice-ai-skepticism/"/>
+        <updated>2025-11-24T19:50:47.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://jamestown.org/prc-elites-voice-ai-skepticism/
+Comments URL: https://news.ycombinator.com/item?id=46038417
+Points: 78
+# Comments: 11]]></summary>
+        <author>
+            <name>JumpCrisscross</name>
         </author>
     </entry>
     <entry>
@@ -16789,20 +16855,6 @@ Points: 69
 # Comments: 26]]></summary>
         <author>
             <name>anticensor</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: Write Go code in JavaScript files]]></title>
-        <id>https://news.ycombinator.com/item?id=45717724</id>
-        <link href="https://www.npmjs.com/package/vite-plugin-use-golang"/>
-        <updated>2025-10-27T05:36:13.000Z</updated>
-        <summary type="html"><![CDATA[I built a Vite plugin that lets you write Go code directly in .js files using a "use
-  golang" directive. It compiles to WebAssembly automatically.
-Comments URL: https://news.ycombinator.com/item?id=45717724
-Points: 55
-# Comments: 21]]></summary>
-        <author>
-            <name>yar-kravtsov</name>
         </author>
     </entry>
 </feed>
