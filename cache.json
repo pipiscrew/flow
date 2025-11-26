@@ -6,6 +6,16 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=46060508",
+          "author": "ayoisaiah",
+          "description": "Article URL: https://github.com/addyosmani/gemini-cli-tips\nComments URL: https://news.ycombinator.com/item?id=46060508\nPoints: 65\n# Comments: 23",
+          "link": "https://github.com/addyosmani/gemini-cli-tips",
+          "publishedOn": "2025-11-26T18:08:02.000Z",
+          "wordCount": 42537,
+          "title": "Gemini CLI Tips and Tricks for Agentic Coding",
+          "imageUrl": "https://opengraph.githubassets.com/cb8d6539f65dd31c7d9591c443f6bab2cd5d5cba73ba4aa6981408577d9cc592/addyosmani/gemini-cli-tips"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=46060122",
           "author": "Lwrless",
           "description": "Article URL: https://www.scaleway.com/en/blog/how-we-turn-apples-mac-mini-into-high-performance-dedicated-servers/\nComments URL: https://news.ycombinator.com/item?id=46060122\nPoints: 57\n# Comments: 57",
@@ -1543,6 +1553,16 @@
           "publishedOn": "2025-11-22T17:44:12.000Z",
           "wordCount": 500,
           "title": "Java Decompiler",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46016288",
+          "author": "radeeyate",
+          "description": "Hi HN - My name is Andrew, and I'm a high school student.\nThis is a write-up on StratoSpore, a payload I designed and launched to the stratosphere. The goal was to test if we could estimate physical altitude based on algae fluorescence (using a lightweight ML model trained on the sensor data).\nThe blog post covers the full engineering mess/process, including:\n- The Hardware: Designing PCBs for the AS7263 spectral sensor and Pi Zero 2 W.\n-The biological altimeter: How I tried to correlate biological stress (fluorescence) with altitude.\n- The Communications: A custom lossy compression algorithm I wrote to smash 1080p images down to 18x10 pixels so I could transmit them over LoRA (915 Mhz) in semi-real-time.\nThe payload is currently lost in a forest, but the telemetry data survived. The code and hardware designs are open source on GitHub: https://github.com/radeeyate/stratospore\nI'm happy to answer technical questions about the payload, software, or anything else you are curious about! Critique also appreciated!\nComments URL: https://news.ycombinator.com/item?id=46016288\nPoints: 62\n# Comments: 7",
+          "link": "https://radi8.dev/blog/stratospore/",
+          "publishedOn": "2025-11-22T17:11:52.000Z",
+          "wordCount": null,
+          "title": "Show HN: I turned algae into a bio-altimeter and put it on a weather balloon",
           "imageUrl": null
         },
         {
@@ -12774,16 +12794,6 @@
           "wordCount": null,
           "title": "Rats filmed snatching bats from air",
           "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=45730094",
-          "author": "SweetSoftPillow",
-          "description": "Article URL: https://pokerbattle.ai/event\nComments URL: https://news.ycombinator.com/item?id=45730094\nPoints: 68\n# Comments: 22",
-          "link": "https://pokerbattle.ai/event",
-          "publishedOn": "2025-10-28T07:42:18.000Z",
-          "wordCount": 112,
-          "title": "Poker Tournament for LLMs",
-          "imageUrl": "https://pokerbattle.ai/images/og-image.png"
         }
       ]
     }

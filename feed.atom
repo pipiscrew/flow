@@ -2,10 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2025-11-26T19:19:35.257Z</updated>
+    <updated>2025-11-26T20:27:36.078Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Gemini CLI Tips and Tricks for Agentic Coding]]></title>
+        <id>https://news.ycombinator.com/item?id=46060508</id>
+        <link href="https://github.com/addyosmani/gemini-cli-tips"/>
+        <updated>2025-11-26T18:08:02.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://github.com/addyosmani/gemini-cli-tips
+Comments URL: https://news.ycombinator.com/item?id=46060508
+Points: 65
+# Comments: 23]]></summary>
+        <author>
+            <name>ayoisaiah</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Scaleway turns Mac Minis into high‑density, Raspberry Pi–managed servers]]></title>
         <id>https://news.ycombinator.com/item?id=46060122</id>
@@ -2045,6 +2058,26 @@ Points: 93
 # Comments: 41]]></summary>
         <author>
             <name>mooreds</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: I turned algae into a bio-altimeter and put it on a weather balloon]]></title>
+        <id>https://news.ycombinator.com/item?id=46016288</id>
+        <link href="https://radi8.dev/blog/stratospore/"/>
+        <updated>2025-11-22T17:11:52.000Z</updated>
+        <summary type="html"><![CDATA[Hi HN - My name is Andrew, and I'm a high school student.
+This is a write-up on StratoSpore, a payload I designed and launched to the stratosphere. The goal was to test if we could estimate physical altitude based on algae fluorescence (using a lightweight ML model trained on the sensor data).
+The blog post covers the full engineering mess/process, including:
+- The Hardware: Designing PCBs for the AS7263 spectral sensor and Pi Zero 2 W.
+-The biological altimeter: How I tried to correlate biological stress (fluorescence) with altitude.
+- The Communications: A custom lossy compression algorithm I wrote to smash 1080p images down to 18x10 pixels so I could transmit them over LoRA (915 Mhz) in semi-real-time.
+The payload is currently lost in a forest, but the telemetry data survived. The code and hardware designs are open source on GitHub: https://github.com/radeeyate/stratospore
+I'm happy to answer technical questions about the payload, software, or anything else you are curious about! Critique also appreciated!
+Comments URL: https://news.ycombinator.com/item?id=46016288
+Points: 62
+# Comments: 7]]></summary>
+        <author>
+            <name>radeeyate</name>
         </author>
     </entry>
     <entry>
@@ -16815,19 +16848,6 @@ Points: 82
 # Comments: 45]]></summary>
         <author>
             <name>XzetaU8</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Poker Tournament for LLMs]]></title>
-        <id>https://news.ycombinator.com/item?id=45730094</id>
-        <link href="https://pokerbattle.ai/event"/>
-        <updated>2025-10-28T07:42:18.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://pokerbattle.ai/event
-Comments URL: https://news.ycombinator.com/item?id=45730094
-Points: 68
-# Comments: 22]]></summary>
-        <author>
-            <name>SweetSoftPillow</name>
         </author>
     </entry>
 </feed>
