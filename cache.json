@@ -16,6 +16,16 @@
           "imageUrl": "https://alienseries.wordpress.com/wp-content/uploads/2012/10/zlpr3.jpg"
         },
         {
+          "id": "https://news.ycombinator.com/item?id=46053385",
+          "author": "cr1st1an",
+          "description": "Hi HN,\nI built a WordPress plugin called Bandwidth Saver. It takes the images your site already has and serves them through Cloudflare R2 and Workers, which means zero egress fees and extremely low storage cost. The goal is to make image delivery fast and cheap without adding any of the complexity of traditional optimization plugins.\nThe idea is simple. WordPress keeps generating images normally. The plugin rewrites the URLs on the frontend so images are served from a Cloudflare Worker. On the first request, the Worker fetches the original image and stores it in R2. After that, Cloudflare’s edge serves the image from its global cache with no egress charges. There’s no need to preload or sync anything, and if something fails, the original image loads. That’s the entire system.\nI built this …",
+          "link": "https://wordpress.org/plugins/bandwidth-saver/",
+          "publishedOn": "2025-11-26T02:05:36.000Z",
+          "wordCount": 3155,
+          "title": "Show HN: A WordPress plugin that rewrites image URLs for near-zero-cost delivery",
+          "imageUrl": "https://ps.w.org/bandwidth-saver/assets/banner-772x250.png?rev=3402062"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=46052685",
           "author": "jonbaer",
           "description": "Article URL: https://web.stanford.edu/class/cs234/\nComments URL: https://news.ycombinator.com/item?id=46052685\nPoints: 51\n# Comments: 6",
@@ -12683,16 +12693,6 @@
           "publishedOn": "2025-10-27T21:47:07.000Z",
           "wordCount": 2138,
           "title": "Welcome to hell; please drive carefully",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=45726192",
-          "author": "todsacerdoti",
-          "description": "Article URL: https://dramforever.github.io/easyriscv/\nComments URL: https://news.ycombinator.com/item?id=45726192\nPoints: 63\n# Comments: 4",
-          "link": "https://dramforever.github.io/easyriscv/",
-          "publishedOn": "2025-10-27T20:57:12.000Z",
-          "wordCount": 12987,
-          "title": "Easy RISC-V",
           "imageUrl": null
         }
       ]
