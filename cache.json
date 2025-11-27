@@ -6,6 +6,16 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=46064571",
+          "author": "todsacerdoti",
+          "description": "Article URL: https://ziglang.org/news/migrating-from-github-to-codeberg/\nComments URL: https://news.ycombinator.com/item?id=46064571\nPoints: 152\n# Comments: 62",
+          "link": "https://ziglang.org/news/migrating-from-github-to-codeberg/",
+          "publishedOn": "2025-11-27T01:49:00.000Z",
+          "wordCount": 682,
+          "title": "Migrating the Main Zig Repository from GitHub to Codeberg",
+          "imageUrl": null
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=46063531",
           "author": "birdculture",
           "description": "Article URL: https://www.abzglobal.net/web-development-blog/ilya-sutskever-yann-lecun-and-the-end-of-just-add-gpus\nComments URL: https://news.ycombinator.com/item?id=46063531\nPoints: 54\n# Comments: 36",
@@ -1154,6 +1164,16 @@
           "wordCount": 2396,
           "title": "A desktop app for isolated, parallel agentic development",
           "imageUrl": "https://opengraph.githubassets.com/07a7acdb8f08b6fe1a135e3fa976757945e67e576457f253f8585a232ee17856/coder/mux"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46027878",
+          "author": "kevinslin",
+          "description": "This past quarter has been awash with sophisticated npm supply chain attacks like [Shai-Hulud](https://www.cisa.gov/news-events/alerts/2025/09/23/widesprea...() and the [Chalk/debug Compromise](https://www.wiz.io/blog/widespread-npm-supply-chain-attack-b...). This CLI helps protect users from recently compromised packages by only downloading packages that have been public for a while (default is 90 days or older).\nInstall: npm install -g @dendronhq/safe-npm\nUsage: safe-npm install react@^18 lodash\nHow it works:\n- Queries npm registry for all versions matching your semver range\n- Filters out anything published in the last 90 days\n- Installs the newest \"aged\" version\nLimitations:\n- Won't protect against packages malicious from day one\n- Doesn't control transitive dependencies (yet - looking into overrides)\n- Delays access to legitimate new features\nThis is meant as a 80/20 measure against recently compromised NPM packages and is not a silver bullet. Please give it a try and let me know if you have feedback.\nComments URL: https://news.ycombinator.com/item?id=46027878\nPoints: 51\n# Comments: 32",
+          "link": "https://github.com/kevinslin/safe-npm",
+          "publishedOn": "2025-11-23T22:14:14.000Z",
+          "wordCount": 5948,
+          "title": "Show HN: Safe-NPM – only install packages that are +90 days old",
+          "imageUrl": "https://opengraph.githubassets.com/2fcd4562b67b0b2e4f37512b291a3a1d714f23bb1c79404233b739e1a73e88a3/kevinslin/safe-npm"
         },
         {
           "id": "https://news.ycombinator.com/item?id=46027833",
@@ -12714,76 +12734,6 @@
           "wordCount": 721,
           "title": "Show HN: Research Hacker News, ArXiv & Google with Hierarchical Bayesian Models",
           "imageUrl": ""
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=45733772",
-          "author": "hggh",
-          "description": "Article URL: https://www.x-plane.com/2025/10/how-to-build-a-747-a-worldflight-story/\nComments URL: https://news.ycombinator.com/item?id=45733772\nPoints: 57\n# Comments: 10",
-          "link": "https://www.x-plane.com/2025/10/how-to-build-a-747-a-worldflight-story/",
-          "publishedOn": "2025-10-28T15:02:59.000Z",
-          "wordCount": 4636,
-          "title": "How to build a 747 – A WorldFlight Story",
-          "imageUrl": "https://www.x-plane.com/wp-content/uploads/2025/10/747_1-1.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=45733707",
-          "author": "NotInOurNames",
-          "description": "Article URL: https://eurollm.io/\nComments URL: https://news.ycombinator.com/item?id=45733707\nPoints: 76\n# Comments: 25",
-          "link": "https://eurollm.io/",
-          "publishedOn": "2025-10-28T14:58:04.000Z",
-          "wordCount": 1068,
-          "title": "EuroLLM: LLM made in Europe built to support all 24 official EU languages",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=45733430",
-          "author": "imichael",
-          "description": "Article URL: https://www.mcsweeneys.net/articles/hi-its-me-wikipedia-and-i-am-ready-for-your-apology\nComments URL: https://news.ycombinator.com/item?id=45733430\nPoints: 124\n# Comments: 85",
-          "link": "https://www.mcsweeneys.net/articles/hi-its-me-wikipedia-and-i-am-ready-for-your-apology",
-          "publishedOn": "2025-10-28T14:35:43.000Z",
-          "wordCount": 2628,
-          "title": "Hi, It's Me, Wikipedia, and I Am Ready for Your Apology",
-          "imageUrl": "http://tendency-prod.nyc3.cdn.digitaloceanspaces.com/eax6aqylo1aeta3aemdazof1d76m"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=45733412",
-          "author": "todsacerdoti",
-          "description": "Article URL: https://crates.io/crates/oorandom#a-brief-history-of-random-numbers\nComments URL: https://news.ycombinator.com/item?id=45733412\nPoints: 68\n# Comments: 12",
-          "link": "https://crates.io/crates/oorandom#a-brief-history-of-random-numbers",
-          "publishedOn": "2025-10-28T14:34:18.000Z",
-          "wordCount": null,
-          "title": "A brief history of random numbers",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=45733329",
-          "author": "andrem",
-          "description": "Article URL: https://basicappleguy.com/basicappleblog/the-airpods-pro-3-flight-problem\nComments URL: https://news.ycombinator.com/item?id=45733329\nPoints: 99\n# Comments: 57",
-          "link": "https://basicappleguy.com/basicappleblog/the-airpods-pro-3-flight-problem",
-          "publishedOn": "2025-10-28T14:27:37.000Z",
-          "wordCount": 1817,
-          "title": "The AirPods Pro 3 flight problem",
-          "imageUrl": "http://static1.squarespace.com/static/5e949a92e17d55230cd1d44f/t/690028f933288c43fc380f7b/1761618169861/Flight3x2+2.png?format=1500w"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=45733197",
-          "author": "ilamont",
-          "description": "Article URL: https://www.npr.org/2025/10/28/nx-s1-5587932/washington-post-editorials-omit-a-key-disclosure-bezos-financial-ties\nComments URL: https://news.ycombinator.com/item?id=45733197\nPoints: 117\n# Comments: 21",
-          "link": "https://www.npr.org/2025/10/28/nx-s1-5587932/washington-post-editorials-omit-a-key-disclosure-bezos-financial-ties",
-          "publishedOn": "2025-10-28T14:16:42.000Z",
-          "wordCount": 1731,
-          "title": "Washington Post editorials omit a key disclosure: Bezos' financial ties",
-          "imageUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/4225x2377+0+219/resize/1400/quality/100/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fc0%2Fed%2Fc7eaa1b742d6898c6d4fff7ad634%2Fbezos-at-inauguration-2021.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=45733169",
-          "author": "lukaspetersson",
-          "description": "Article URL: https://andonlabs.com/evals/butter-bench\nComments URL: https://news.ycombinator.com/item?id=45733169\nPoints: 51\n# Comments: 16",
-          "link": "https://andonlabs.com/evals/butter-bench",
-          "publishedOn": "2025-10-28T14:13:25.000Z",
-          "wordCount": 2307,
-          "title": "Our LLM-controlled office robot can't pass butter",
-          "imageUrl": "https://andonlabs.com/butter_og_image.webp"
         }
       ]
     }

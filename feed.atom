@@ -2,10 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2025-11-27T01:57:21.589Z</updated>
+    <updated>2025-11-27T03:16:59.595Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Migrating the Main Zig Repository from GitHub to Codeberg]]></title>
+        <id>https://news.ycombinator.com/item?id=46064571</id>
+        <link href="https://ziglang.org/news/migrating-from-github-to-codeberg/"/>
+        <updated>2025-11-27T01:49:00.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://ziglang.org/news/migrating-from-github-to-codeberg/
+Comments URL: https://news.ycombinator.com/item?id=46064571
+Points: 152
+# Comments: 62]]></summary>
+        <author>
+            <name>todsacerdoti</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Ilya Sutskever, Yann LeCun and the End of “Just Add GPUs”]]></title>
         <id>https://news.ycombinator.com/item?id=46063531</id>
@@ -1532,6 +1545,30 @@ Points: 52
 # Comments: 22]]></summary>
         <author>
             <name>mercat</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Safe-NPM – only install packages that are +90 days old]]></title>
+        <id>https://news.ycombinator.com/item?id=46027878</id>
+        <link href="https://github.com/kevinslin/safe-npm"/>
+        <updated>2025-11-23T22:14:14.000Z</updated>
+        <summary type="html"><![CDATA[This past quarter has been awash with sophisticated npm supply chain attacks like [Shai-Hulud](https://www.cisa.gov/news-events/alerts/2025/09/23/widesprea...() and the [Chalk/debug Compromise](https://www.wiz.io/blog/widespread-npm-supply-chain-attack-b...). This CLI helps protect users from recently compromised packages by only downloading packages that have been public for a while (default is 90 days or older).
+Install: npm install -g @dendronhq/safe-npm
+Usage: safe-npm install react@^18 lodash
+How it works:
+- Queries npm registry for all versions matching your semver range
+- Filters out anything published in the last 90 days
+- Installs the newest "aged" version
+Limitations:
+- Won't protect against packages malicious from day one
+- Doesn't control transitive dependencies (yet - looking into overrides)
+- Delays access to legitimate new features
+This is meant as a 80/20 measure against recently compromised NPM packages and is not a silver bullet. Please give it a try and let me know if you have feedback.
+Comments URL: https://news.ycombinator.com/item?id=46027878
+Points: 51
+# Comments: 32]]></summary>
+        <author>
+            <name>kevinslin</name>
         </author>
     </entry>
     <entry>
@@ -16744,97 +16781,6 @@ My literature review process starts with a broad search to find a few key papers
 The tool organizes corpuse…]]></summary>
         <author>
             <name>kianN</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How to build a 747 – A WorldFlight Story]]></title>
-        <id>https://news.ycombinator.com/item?id=45733772</id>
-        <link href="https://www.x-plane.com/2025/10/how-to-build-a-747-a-worldflight-story/"/>
-        <updated>2025-10-28T15:02:59.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.x-plane.com/2025/10/how-to-build-a-747-a-worldflight-story/
-Comments URL: https://news.ycombinator.com/item?id=45733772
-Points: 57
-# Comments: 10]]></summary>
-        <author>
-            <name>hggh</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[EuroLLM: LLM made in Europe built to support all 24 official EU languages]]></title>
-        <id>https://news.ycombinator.com/item?id=45733707</id>
-        <link href="https://eurollm.io/"/>
-        <updated>2025-10-28T14:58:04.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://eurollm.io/
-Comments URL: https://news.ycombinator.com/item?id=45733707
-Points: 76
-# Comments: 25]]></summary>
-        <author>
-            <name>NotInOurNames</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Hi, It's Me, Wikipedia, and I Am Ready for Your Apology]]></title>
-        <id>https://news.ycombinator.com/item?id=45733430</id>
-        <link href="https://www.mcsweeneys.net/articles/hi-its-me-wikipedia-and-i-am-ready-for-your-apology"/>
-        <updated>2025-10-28T14:35:43.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.mcsweeneys.net/articles/hi-its-me-wikipedia-and-i-am-ready-for-your-apology
-Comments URL: https://news.ycombinator.com/item?id=45733430
-Points: 124
-# Comments: 85]]></summary>
-        <author>
-            <name>imichael</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A brief history of random numbers]]></title>
-        <id>https://news.ycombinator.com/item?id=45733412</id>
-        <link href="https://crates.io/crates/oorandom#a-brief-history-of-random-numbers"/>
-        <updated>2025-10-28T14:34:18.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://crates.io/crates/oorandom#a-brief-history-of-random-numbers
-Comments URL: https://news.ycombinator.com/item?id=45733412
-Points: 68
-# Comments: 12]]></summary>
-        <author>
-            <name>todsacerdoti</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The AirPods Pro 3 flight problem]]></title>
-        <id>https://news.ycombinator.com/item?id=45733329</id>
-        <link href="https://basicappleguy.com/basicappleblog/the-airpods-pro-3-flight-problem"/>
-        <updated>2025-10-28T14:27:37.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://basicappleguy.com/basicappleblog/the-airpods-pro-3-flight-problem
-Comments URL: https://news.ycombinator.com/item?id=45733329
-Points: 99
-# Comments: 57]]></summary>
-        <author>
-            <name>andrem</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Washington Post editorials omit a key disclosure: Bezos' financial ties]]></title>
-        <id>https://news.ycombinator.com/item?id=45733197</id>
-        <link href="https://www.npr.org/2025/10/28/nx-s1-5587932/washington-post-editorials-omit-a-key-disclosure-bezos-financial-ties"/>
-        <updated>2025-10-28T14:16:42.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.npr.org/2025/10/28/nx-s1-5587932/washington-post-editorials-omit-a-key-disclosure-bezos-financial-ties
-Comments URL: https://news.ycombinator.com/item?id=45733197
-Points: 117
-# Comments: 21]]></summary>
-        <author>
-            <name>ilamont</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Our LLM-controlled office robot can't pass butter]]></title>
-        <id>https://news.ycombinator.com/item?id=45733169</id>
-        <link href="https://andonlabs.com/evals/butter-bench"/>
-        <updated>2025-10-28T14:13:25.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://andonlabs.com/evals/butter-bench
-Comments URL: https://news.ycombinator.com/item?id=45733169
-Points: 51
-# Comments: 16]]></summary>
-        <author>
-            <name>lukaspetersson</name>
         </author>
     </entry>
 </feed>
