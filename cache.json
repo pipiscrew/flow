@@ -6,6 +6,26 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=46065015",
+          "author": "nxobject",
+          "description": "Article URL: https://www.nytimes.com/2025/11/26/us/trump-green-card-interview-arrests.html\nComments URL: https://news.ycombinator.com/item?id=46065015\nPoints: 87\n# Comments: 27",
+          "link": "https://www.nytimes.com/2025/11/26/us/trump-green-card-interview-arrests.html",
+          "publishedOn": "2025-11-27T02:51:31.000Z",
+          "wordCount": null,
+          "title": "Green Card Interviews End in Handcuffs for Spouses of U.S. Citizens",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46064757",
+          "author": "selvan",
+          "description": "Article URL: https://github.com/penpot/penpot\nComments URL: https://news.ycombinator.com/item?id=46064757\nPoints: 50\n# Comments: 6",
+          "link": "https://github.com/penpot/penpot",
+          "publishedOn": "2025-11-27T02:14:36.000Z",
+          "wordCount": 4086,
+          "title": "Penpot: The Open-Source Figma",
+          "imageUrl": "https://repository-images.githubusercontent.com/48769241/1e3fb75a-13e6-4d77-a658-e70e17fb1c6f"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=46064571",
           "author": "todsacerdoti",
           "description": "Article URL: https://ziglang.org/news/migrating-from-github-to-codeberg/\nComments URL: https://news.ycombinator.com/item?id=46064571\nPoints: 152\n# Comments: 62",
@@ -13,6 +33,16 @@
           "publishedOn": "2025-11-27T01:49:00.000Z",
           "wordCount": 682,
           "title": "Migrating the Main Zig Repository from GitHub to Codeberg",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46063915",
+          "author": "pabs3",
+          "description": "Article URL: https://www.youtube.com/watch?v=1q1hjmwLqe4\nComments URL: https://news.ycombinator.com/item?id=46063915\nPoints: 65\n# Comments: 14",
+          "link": "https://www.youtube.com/watch?v=1q1hjmwLqe4",
+          "publishedOn": "2025-11-27T00:20:37.000Z",
+          "wordCount": null,
+          "title": "AdBlock and Signal are for terrorists, according to French govt (2023) [video]",
           "imageUrl": null
         },
         {
@@ -12684,56 +12714,6 @@
           "wordCount": 1257,
           "title": "HOPL: The Human Only Public License",
           "imageUrl": "https://frederic.vanderessen.com/img/field-blue-small.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=45734865",
-          "author": "lchoquel",
-          "description": "We’re Robin, Louis, and Thomas. Pipelex is a DSL and a Python runtime for repeatable AI workflows. Think Dockerfile/SQL for multi-step LLM pipelines: you declare steps and interfaces; any model/provider can fill them.\nWhy this instead of yet another workflow builder?\n- Declarative, not glue code: you state what to do; the runtime figures out how.\n- Agent-first: each step carries natural-language context (purpose, inputs/outputs with meaning) so LLMs can follow, audit, and optimize. Our MCP server enables agents to run pipelines but also to build new pipelines on demand.\n- Open standard under MIT: language spec, runtime, API server, editor extensions, MCP server, n8n node.\n- Composable: pipes can call other pipes, created by you or shared in the community.\nWhy a domain-specific language?\n- …",
-          "link": "https://github.com/Pipelex/pipelex",
-          "publishedOn": "2025-10-28T16:19:26.000Z",
-          "wordCount": 7791,
-          "title": "Show HN: Pipelex – Declarative language for repeatable AI workflows",
-          "imageUrl": "https://repository-images.githubusercontent.com/990481429/98680429-f96e-48d5-84ed-cdc6bb841497"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=45734620",
-          "author": "zdw",
-          "description": "Article URL: https://www.experimental-history.com/p/the-decline-of-deviance\nComments URL: https://news.ycombinator.com/item?id=45734620\nPoints: 85\n# Comments: 83",
-          "link": "https://www.experimental-history.com/p/the-decline-of-deviance",
-          "publishedOn": "2025-10-28T16:01:00.000Z",
-          "wordCount": 14844,
-          "title": "The decline of deviance",
-          "imageUrl": "https://substackcdn.com/image/fetch/$s_!ct9q!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8d788070-ccb5-4cf6-8c1f-f8ee02fca241_1678x1167.jpeg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=45734582",
-          "author": "stevenhubertron",
-          "description": "Article URL: https://www.threads.com/@nthmonkey/post/DQVdAD1gHhw\nComments URL: https://news.ycombinator.com/item?id=45734582\nPoints: 59\n# Comments: 25",
-          "link": "https://www.threads.com/@nthmonkey/post/DQVdAD1gHhw",
-          "publishedOn": "2025-10-28T15:58:58.000Z",
-          "wordCount": 3970,
-          "title": "Using AI to negotiate a $195k hospital bill down to $33k",
-          "imageUrl": "https://scontent-sea5-1.cdninstagram.com/v/t51.2885-19/405221923_723107976383612_3895229411643499723_n.jpg?stp=dst-jpg_s640x640_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-sea5-1.cdninstagram.com&_nc_cat=1&_nc_oc=Q6cZ2QGLnezeat_jAXGO6dDcK5eNps9URVR88I-dho8Zv6W2r-KaYiFFO-55wQKo_VUZVrg&_nc_ohc=jfLtk89M164Q7kNvwF0HB7T&_nc_gid=xH8McWiGT084R5heBQ6xtQ&edm=APs17CUBAAAA&ccb=7-5&oh=00_AfdeJheh-zKepVNhdG3vO2to2XXnLcJ1EGADKbDbpW-BOg&oe=6906B67A&_nc_sid=10d13b"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=45734486",
-          "author": "kjhughes",
-          "description": "Article URL: https://www.cnbc.com/2025/10/28/nvidia-nokia-ai.html\nComments URL: https://news.ycombinator.com/item?id=45734486\nPoints: 55\n# Comments: 33",
-          "link": "https://www.cnbc.com/2025/10/28/nvidia-nokia-ai.html",
-          "publishedOn": "2025-10-28T15:53:52.000Z",
-          "wordCount": 24966,
-          "title": "Nvidia takes $1B stake in Nokia",
-          "imageUrl": "https://image.cnbcfm.com/api/v1/image/108217915-1761667540571-gettyimages-2240046307-DSC_6214.jpeg?v=1761667666&w=1920&h=1080"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=45734429",
-          "author": "kianN",
-          "description": "Hi Hacker News! I’m a Bayesian statistician that has been working on applying hierarchical mixture models (originally developed for genomics) to structure text data, and in the process, used these models to build (what started as a personal) tool for conducting literature reviews and deep research.\nMy literature review process starts with a broad search to find a few key papers/groups, and from there expands along their citation networks. I needed to conduct a few rounds of literature reviews during the course of my research and decided to build a tool to facilitate this process. The tool started as an experimental wrapper over low-level statistical software in C, quickly became a testing/iteration ground for our api, and is now my personal go-to for lit reviews.\nThe tool organizes corpuse…",
-          "link": "https://sturdystatistics.com/deepdive-search",
-          "publishedOn": "2025-10-28T15:49:51.000Z",
-          "wordCount": 721,
-          "title": "Show HN: Research Hacker News, ArXiv & Google with Hierarchical Bayesian Models",
-          "imageUrl": ""
         }
       ]
     }
