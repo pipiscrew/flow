@@ -2,10 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2025-11-27T17:21:33.148Z</updated>
+    <updated>2025-11-27T18:35:01.523Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Same-day upstream Linux support for Snapdragon 8 Elite Gen 5]]></title>
+        <id>https://news.ycombinator.com/item?id=46070668</id>
+        <link href="https://www.qualcomm.com/developer/blog/2025/10/same-day-snapdragon-8-elite-gen-5-upstream-linux-support"/>
+        <updated>2025-11-27T16:19:03.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.qualcomm.com/developer/blog/2025/10/same-day-snapdragon-8-elite-gen-5-upstream-linux-support
+Comments URL: https://news.ycombinator.com/item?id=46070668
+Points: 105
+# Comments: 67]]></summary>
+        <author>
+            <name>mfilion</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[We're Losing Our Voice to LLMs]]></title>
         <id>https://news.ycombinator.com/item?id=46069771</id>
@@ -17,6 +30,39 @@ Points: 58
 # Comments: 34]]></summary>
         <author>
             <name>TonyAlicea10</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Runprompt – run .prompt files from the command line]]></title>
+        <id>https://news.ycombinator.com/item?id=46069556</id>
+        <link href="https://github.com/chr15m/runprompt"/>
+        <updated>2025-11-27T14:26:35.000Z</updated>
+        <summary type="html"><![CDATA[I built a single-file Python script that lets you run LLM prompts from the command line with templating, structured outputs, and the ability to chain prompts together.
+When I discovered Google's Dotprompt format (frontmatter + Handlebars templates), I realized it was perfect for something I'd been wanting: treating prompts as first-class programs you can pipe together Unix-style. Google uses Dotprompt in Firebase Genkit and I wanted something simpler - just run a .prompt file directly on the command line.
+Here's what it looks like:
+---
+model: anthropic/claude-sonnet-4-20250514
+output:
+  format: json
+  schema:
+    sentiment: string, positive/negative/neutral
+    confidence: number, 0-1 score
+---
+Analyze the sentiment of: {{STDIN}}
+Running it:
+cat reviews.txt | ./runprompt sentiment.prompt | jq '.sentiment'
+The things I think are interesting:
+* Structured output schemas: Define JSON schemas in the frontmatter using a simple `field: type, description` syntax. The LLM reliably returns valid JSON you can pipe to other tools.
+* Prompt chaining: Pipe JSON output from one prompt as template variables into the next. This makes it easy to build multi-step agentic workflows as simple shell pipelines.
+* Zero dependencies: It's a single Python file that uses only stdlib. Just curl it down and run it.
+* Provider agnostic: Works with Anthropic, OpenAI, Google AI, and OpenRouter (which gives you access to dozens of models through one API key).
+You can use it to automate things like extracting structured data from unstructured text, generating reports from logs, and building small agentic workflows without spinning up a whole framework.
+Would love your feedback, and PRs are most welcome!
+Comments URL: https://news.ycombinator.com/item?id=46069556
+Points: 57
+# Comments: 22]]></summary>
+        <author>
+            <name>chr15m</name>
         </author>
     </entry>
     <entry>
@@ -108,6 +154,21 @@ Points: 51
 # Comments: 13]]></summary>
         <author>
             <name>Klaster_1</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Tell HN: Happy Thanksgiving]]></title>
+        <id>https://news.ycombinator.com/item?id=46065955</id>
+        <link href="https://news.ycombinator.com/item?id=46065955"/>
+        <updated>2025-11-27T05:21:16.000Z</updated>
+        <summary type="html"><![CDATA[I’ve been a part of this community for fifteen years. Despite the yearly bemoaning of HN’s quality compared to its mythical past, I’ve found that it’s the one community that has remained steadfast as a source of knowledge, cattiness, and good discussion.
+Thank you @dang and @tomhow.
+Here's to another year.
+Comments URL: https://news.ycombinator.com/item?id=46065955
+Points: 83
+# Comments: 17]]></summary>
+        <author>
+            <name>prodigycorp</name>
         </author>
     </entry>
     <entry>
@@ -16568,32 +16629,6 @@ Points: 105
 # Comments: 197]]></summary>
         <author>
             <name>philippta</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[When models manipulate manifolds: The geometry of a counting task]]></title>
-        <id>https://news.ycombinator.com/item?id=45743105</id>
-        <link href="https://transformer-circuits.pub/2025/linebreaks/index.html"/>
-        <updated>2025-10-29T05:50:56.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://transformer-circuits.pub/2025/linebreaks/index.html
-Comments URL: https://news.ycombinator.com/item?id=45743105
-Points: 50
-# Comments: 3]]></summary>
-        <author>
-            <name>vinhnx</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Jack Kerouac, Malcolm Cowley, and the difficult birth of On the Road]]></title>
-        <id>https://news.ycombinator.com/item?id=45742957</id>
-        <link href="https://theamericanscholar.org/scrolling-through/"/>
-        <updated>2025-10-29T05:27:42.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://theamericanscholar.org/scrolling-through/
-Comments URL: https://news.ycombinator.com/item?id=45742957
-Points: 51
-# Comments: 31]]></summary>
-        <author>
-            <name>samclemens</name>
         </author>
     </entry>
 </feed>

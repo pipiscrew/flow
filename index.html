@@ -22,8 +22,8 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2025-11-27 datetime="2025-11-27T14:51:01.000Z">2025-11-27</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2025-11-27 datetime="2025-11-27T14:51:01.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2025-11-27 datetime="2025-11-27T16:19:03.000Z">2025-11-27</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2025-11-27 datetime="2025-11-27T16:19:03.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
@@ -42,6 +42,27 @@
                       <details
                         class="article-expander"
                         data-action="toggle-native-accordion"
+                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;46070668"
+                        open
+                      >
+                        <summary class="article-expander__title">Same-day upstream Linux support for Snapdragon 8 Elite Gen 5</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.qualcomm.com/developer/blog/2025/10/same-day-snapdragon-8-elite-gen-5-upstream-linux-support">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://s7d1.scene7.com/is/image/dmqualcommprod/Kaanpali-hero" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Article URL: https://www.qualcomm.com/developer/blog/2025/10/same-day-snapdragon-8-elite-gen-5-upstream-linux-support
+Comments URL: https://news.ycombinator.com/item?id&#x3D;46070668
+Points: 105
+# Comments: 67</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
                         data-accordion-key="https://news.ycombinator.com/item?id&#x3D;46069771"
                         open
                       >
@@ -55,6 +76,49 @@ Comments URL: https://news.ycombinator.com/item?id&#x3D;46069771
 Points: 58
 # Comments: 34</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;3
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;46069556"
+                        open
+                      >
+                        <summary class="article-expander__title">Show HN: Runprompt – run .prompt files from the command line</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://github.com/chr15m/runprompt">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://opengraph.githubassets.com/60ef531ba5795e7d3d0520909352b7900027318d3c99e96176da85206b53d916/chr15m/runprompt" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>I built a single-file Python script that lets you run LLM prompts from the command line with templating, structured outputs, and the ability to chain prompts together.
+When I discovered Google&#x27;s Dotprompt format (frontmatter + Handlebars templates), I realized it was perfect for something I&#x27;d been wanting: treating prompts as first-class programs you can pipe together Unix-style. Google uses Dotprompt in Firebase Genkit and I wanted something simpler - just run a .prompt file directly on the command line.
+Here&#x27;s what it looks like:
+---
+model: anthropic/claude-sonnet-4-20250514
+output:
+  format: json
+  schema:
+    sentiment: string, positive/negative/neutral
+    confidence: number, 0-1 score
+---
+Analyze the sentiment of: {{STDIN}}
+Running it:
+cat reviews.txt | ./runprompt sentiment.prompt | jq &#x27;.sentiment&#x27;
+The things I think are interesting:
+* Structured output schemas: Define JSON schemas in the frontmatter using a simple &#x60;field: type, description&#x60; syntax. The LLM reliably returns valid JSON you can pipe to other tools.
+* Prompt chaining: Pipe JSON output from one prompt as template variables into the next. This makes it easy to build multi-step agentic workflows as simple shell pipelines.
+* Zero dependencies: It&#x27;s a single Python file that uses only stdlib. Just curl it down and run it.
+* Provider agnostic: Works with Anthropic, OpenAI, Google AI, and OpenRouter (which gives you access to dozens of models through one API key).
+You can use it to automate things like extracting structured data from unstructured text, generating reports from logs, and building small agentic workflows without spinning up a whole framework.
+Would love your feedback, and PRs are most welcome!
+Comments URL: https://news.ycombinator.com/item?id&#x3D;46069556
+Points: 57
+# Comments: 22</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;9
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -212,6 +276,30 @@ Comments URL: https://news.ycombinator.com/item?id&#x3D;46066255
 Points: 51
 # Comments: 13</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;46065955"
+                        open
+                      >
+                        <summary class="article-expander__title">Tell HN: Happy Thanksgiving</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://news.ycombinator.com/item?id&#x3D;46065955">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>I’ve been a part of this community for fifteen years. Despite the yearly bemoaning of HN’s quality compared to its mythical past, I’ve found that it’s the one community that has remained steadfast as a source of knowledge, cattiness, and good discussion.
+Thank you @dang and @tomhow.
+Here&#x27;s to another year.
+Comments URL: https://news.ycombinator.com/item?id&#x3D;46065955
+Points: 83
+# Comments: 17</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;3
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -29086,52 +29174,6 @@ Points: 105
                         </a>
                       </details>
                     </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;45743105"
-                        open
-                      >
-                        <summary class="article-expander__title">When models manipulate manifolds: The geometry of a counting task</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://transformer-circuits.pub/2025/linebreaks/index.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://transformer-circuits.pub/images/linebreaks-hero.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Article URL: https://transformer-circuits.pub/2025/linebreaks/index.html
-Comments URL: https://news.ycombinator.com/item?id&#x3D;45743105
-Points: 50
-# Comments: 3</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;77
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;45742957"
-                        open
-                      >
-                        <summary class="article-expander__title">Jack Kerouac, Malcolm Cowley, and the difficult birth of On the Road</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://theamericanscholar.org/scrolling-through/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://theamericanscholar.org/wp-content/uploads/2025/08/Howard-FULL.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Article URL: https://theamericanscholar.org/scrolling-through/
-Comments URL: https://news.ycombinator.com/item?id&#x3D;45742957
-Points: 51
-# Comments: 31</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;30
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
                 </section>
               </section>
             </li>
@@ -29139,8 +29181,8 @@ Points: 51
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/pipiscrew/flow/actions/runs/19743875475">
-        <time id="build-timestamp" datetime="2025-11-27T17:21:33.092Z">2025-11-27T17:21:33.092Z</time>
+      <a class="footer-link" href="https://github.com/pipiscrew/flow/actions/runs/19745286586">
+        <time id="build-timestamp" datetime="2025-11-27T18:35:01.453Z">2025-11-27T18:35:01.453Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
