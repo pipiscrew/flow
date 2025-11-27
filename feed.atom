@@ -2,10 +2,36 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2025-11-27T19:19:44.484Z</updated>
+    <updated>2025-11-27T20:25:27.296Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[AI CEO – Replace your boss before they replace you]]></title>
+        <id>https://news.ycombinator.com/item?id=46072002</id>
+        <link href="https://replaceyourboss.ai/"/>
+        <updated>2025-11-27T18:37:41.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://replaceyourboss.ai/
+Comments URL: https://news.ycombinator.com/item?id=46072002
+Points: 222
+# Comments: 69]]></summary>
+        <author>
+            <name>_tk_</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The input stack on Linux: An end-to-end architecture overview]]></title>
+        <id>https://news.ycombinator.com/item?id=46071030</id>
+        <link href="https://venam.net/blog/unix/2025/11/27/input_devices_linux.html"/>
+        <updated>2025-11-27T16:55:30.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://venam.net/blog/unix/2025/11/27/input_devices_linux.html
+Comments URL: https://news.ycombinator.com/item?id=46071030
+Points: 72
+# Comments: 3]]></summary>
+        <author>
+            <name>venamresm__</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Pakistan says rooftop solar output to exceed grid demand in some hubs next year]]></title>
         <id>https://news.ycombinator.com/item?id=46070915</id>
@@ -43,6 +69,19 @@ Points: 58
 # Comments: 34]]></summary>
         <author>
             <name>TonyAlicea10</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: SyncKit – Offline-first sync engine (Rust/WASM and TypeScript)]]></title>
+        <id>https://news.ycombinator.com/item?id=46069598</id>
+        <link href="https://github.com/Dancode-188/synckit"/>
+        <updated>2025-11-27T14:31:44.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://github.com/Dancode-188/synckit
+Comments URL: https://news.ycombinator.com/item?id=46069598
+Points: 50
+# Comments: 23]]></summary>
+        <author>
+            <name>danbitengo</name>
         </author>
     </entry>
     <entry>
@@ -89,6 +128,30 @@ Points: 97
 # Comments: 125]]></summary>
         <author>
             <name>vegasbrianc</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: MkSlides – Markdown to slides with a similar workflow to MkDocs]]></title>
+        <id>https://news.ycombinator.com/item?id=46068847</id>
+        <link href="https://github.com/MartenBE/mkslides"/>
+        <updated>2025-11-27T13:00:17.000Z</updated>
+        <summary type="html"><![CDATA[As a teacher, we keep our slides as markdown files in git repos and want to build these automatically so they can be viewed online (or offline if needed). To achieve this, I have created MkSlides. This tool converts all markdown in a folder to slides generated with Reveal.js.
+The workflow is very similar to MkDocs.
+Install: `pip install mkslides`
+Building slides: `mkslides build`
+Live preview during editing: `mkslides serve`
+Comparison with other tools like marp, slidev, ...:
+- This tool is a single command and easy to integrate in CI/CD pipelines.
+- It only needs Python.
+- The workflow is also very similar to MkDocs, which makes it easy to combine the two in a single GitHub/GitLab repo.
+- Generates an index landing page for multiple slideshows in a folder which is really convenient if you have e.g. a slideshow per chapter.
+- It is lightweight.
+- Everything is IaC.
+Comments URL: https://news.ycombinator.com/item?id=46068847
+Points: 54
+# Comments: 7]]></summary>
+        <author>
+            <name>MartenBE</name>
         </author>
     </entry>
     <entry>

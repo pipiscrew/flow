@@ -6,6 +6,26 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=46072002",
+          "author": "_tk_",
+          "description": "Article URL: https://replaceyourboss.ai/\nComments URL: https://news.ycombinator.com/item?id=46072002\nPoints: 222\n# Comments: 69",
+          "link": "https://replaceyourboss.ai/",
+          "publishedOn": "2025-11-27T18:37:41.000Z",
+          "wordCount": 24,
+          "title": "AI CEO – Replace your boss before they replace you",
+          "imageUrl": "/OGImage.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46071030",
+          "author": "venamresm__",
+          "description": "Article URL: https://venam.net/blog/unix/2025/11/27/input_devices_linux.html\nComments URL: https://news.ycombinator.com/item?id=46071030\nPoints: 72\n# Comments: 3",
+          "link": "https://venam.net/blog/unix/2025/11/27/input_devices_linux.html",
+          "publishedOn": "2025-11-27T16:55:30.000Z",
+          "wordCount": 30780,
+          "title": "The input stack on Linux: An end-to-end architecture overview",
+          "imageUrl": "https://venam.net/blog/assets/../assets/input_devices_linux/astrolabe_img.jpg "
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=46070915",
           "author": "toomuchtodo",
           "description": "Article URL: https://www.reuters.com/sustainability/boards-policy-regulation/pakistan-says-rooftop-solar-output-exceed-grid-demand-some-hubs-next-year-2025-11-22/\nComments URL: https://news.ycombinator.com/item?id=46070915\nPoints: 65\n# Comments: 41",
@@ -36,6 +56,16 @@
           "imageUrl": "https://tonyalicea.dev/assets/tonyalicea_card.png"
         },
         {
+          "id": "https://news.ycombinator.com/item?id=46069598",
+          "author": "danbitengo",
+          "description": "Article URL: https://github.com/Dancode-188/synckit\nComments URL: https://news.ycombinator.com/item?id=46069598\nPoints: 50\n# Comments: 23",
+          "link": "https://github.com/Dancode-188/synckit",
+          "publishedOn": "2025-11-27T14:31:44.000Z",
+          "wordCount": 9453,
+          "title": "Show HN: SyncKit – Offline-first sync engine (Rust/WASM and TypeScript)",
+          "imageUrl": "https://opengraph.githubassets.com/a9220dd9ef4d6265ae6ad187d9134a6df40bacaa11b9af392308fca67d0cc849/Dancode-188/synckit"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=46069556",
           "author": "chr15m",
           "description": "I built a single-file Python script that lets you run LLM prompts from the command line with templating, structured outputs, and the ability to chain prompts together.\nWhen I discovered Google's Dotprompt format (frontmatter + Handlebars templates), I realized it was perfect for something I'd been wanting: treating prompts as first-class programs you can pipe together Unix-style. Google uses Dotprompt in Firebase Genkit and I wanted something simpler - just run a .prompt file directly on the command line.\nHere's what it looks like:\n---\nmodel: anthropic/claude-sonnet-4-20250514\noutput:\n  format: json\n  schema:\n    sentiment: string, positive/negative/neutral\n    confidence: number, 0-1 score\n---\nAnalyze the sentiment of: {{STDIN}}\nRunning it:\ncat reviews.txt | ./runprompt sentiment.prompt | jq '.sentiment'\nThe things I think are interesting:\n* Structured output schemas: Define JSON schemas in the frontmatter using a simple `field: type, description` syntax. The LLM reliably returns valid JSON you can pipe to other tools.\n* Prompt chaining: Pipe JSON output from one prompt as template variables into the next. This makes it easy to build multi-step agentic workflows as simple shell pipelines.\n* Zero dependencies: It's a single Python file that uses only stdlib. Just curl it down and run it.\n* Provider agnostic: Works with Anthropic, OpenAI, Google AI, and OpenRouter (which gives you access to dozens of models through one API key).\nYou can use it to automate things like extracting structured data from unstructured text, generating reports from logs, and building small agentic workflows without spinning up a whole framework.\nWould love your feedback, and PRs are most welcome!\nComments URL: https://news.ycombinator.com/item?id=46069556\nPoints: 57\n# Comments: 22",
@@ -54,6 +84,16 @@
           "wordCount": 7400,
           "title": "TPUs vs. GPUs and why Google is positioned to win AI race in the long term",
           "imageUrl": "https://substackcdn.com/image/fetch/$s_!H_F9!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fff173524-b98d-4a2b-9f77-7a130ad395a7_1024x1024.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46068847",
+          "author": "MartenBE",
+          "description": "As a teacher, we keep our slides as markdown files in git repos and want to build these automatically so they can be viewed online (or offline if needed). To achieve this, I have created MkSlides. This tool converts all markdown in a folder to slides generated with Reveal.js.\nThe workflow is very similar to MkDocs.\nInstall: `pip install mkslides`\nBuilding slides: `mkslides build`\nLive preview during editing: `mkslides serve`\nComparison with other tools like marp, slidev, ...:\n- This tool is a single command and easy to integrate in CI/CD pipelines.\n- It only needs Python.\n- The workflow is also very similar to MkDocs, which makes it easy to combine the two in a single GitHub/GitLab repo.\n- Generates an index landing page for multiple slideshows in a folder which is really convenient if you have e.g. a slideshow per chapter.\n- It is lightweight.\n- Everything is IaC.\nComments URL: https://news.ycombinator.com/item?id=46068847\nPoints: 54\n# Comments: 7",
+          "link": "https://github.com/MartenBE/mkslides",
+          "publishedOn": "2025-11-27T13:00:17.000Z",
+          "wordCount": 5965,
+          "title": "Show HN: MkSlides – Markdown to slides with a similar workflow to MkDocs",
+          "imageUrl": "https://opengraph.githubassets.com/7a8df5b948e834b96868fba5dbf70381d472c57f02283fa065d3937061dc168b/MartenBE/mkslides"
         },
         {
           "id": "https://news.ycombinator.com/item?id=46068777",
