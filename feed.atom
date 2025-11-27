@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2025-11-27T20:25:27.296Z</updated>
+    <updated>2025-11-27T21:22:26.816Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
@@ -638,6 +638,19 @@ Points: 51
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Feedback doesn't scale]]></title>
+        <id>https://news.ycombinator.com/item?id=46058471</id>
+        <link href="https://another.rodeo/feedback/"/>
+        <updated>2025-11-26T15:40:14.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://another.rodeo/feedback/
+Comments URL: https://news.ycombinator.com/item?id=46058471
+Points: 53
+# Comments: 8]]></summary>
+        <author>
+            <name>ohjeez</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[OpenAI needs to raise at least $207B by 2030 so it can continue to lose money]]></title>
         <id>https://news.ycombinator.com/item?id=46058065</id>
         <link href="https://ft.com/content/23e54a28-6f63-4533-ab96-3756d9c88bad"/>
@@ -687,6 +700,19 @@ Points: 53
 # Comments: 23]]></summary>
         <author>
             <name>wjsdj2009</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Memories of .us]]></title>
+        <id>https://news.ycombinator.com/item?id=46057266</id>
+        <link href="https://computer.rip/2025-11-11-dot-us.html"/>
+        <updated>2025-11-26T13:36:19.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://computer.rip/2025-11-11-dot-us.html
+Comments URL: https://news.ycombinator.com/item?id=46057266
+Points: 55
+# Comments: 5]]></summary>
+        <author>
+            <name>sabas_ge</name>
         </author>
     </entry>
     <entry>
@@ -16716,34 +16742,6 @@ Points: 62
 # Comments: 22]]></summary>
         <author>
             <name>jjbinx007</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[SpiderMonkey Garbage Collector]]></title>
-        <id>https://news.ycombinator.com/item?id=45744395</id>
-        <link href="https://firefox-source-docs.mozilla.org/js/gc.html"/>
-        <updated>2025-10-29T09:06:36.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://firefox-source-docs.mozilla.org/js/gc.html
-Comments URL: https://news.ycombinator.com/item?id=45744395
-Points: 56
-# Comments: 2]]></summary>
-        <author>
-            <name>sebg</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ask HN: How to deal with long vibe-coded PRs?]]></title>
-        <id>https://news.ycombinator.com/item?id=45744209</id>
-        <link href="https://news.ycombinator.com/item?id=45744209"/>
-        <updated>2025-10-29T08:37:36.000Z</updated>
-        <summary type="html"><![CDATA[Today I came across a PR for a (in theory) relatively simple service.
-It span across 9000 LOC, 63 new files, including a DSL parser and much more.
-How would you go about reviewing a PR like this?
-Comments URL: https://news.ycombinator.com/item?id=45744209
-Points: 105
-# Comments: 197]]></summary>
-        <author>
-            <name>philippta</name>
         </author>
     </entry>
 </feed>
