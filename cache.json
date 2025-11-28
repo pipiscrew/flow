@@ -6,6 +6,26 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=46075882",
+          "author": "nullpxl",
+          "description": "Hi! Recently smart-glasses with cameras like the Meta Ray-bans seem to be getting more popular. As does some people's desire to remove/cover up the recording indicator LED. I wanted to see if there's a way to detect when people are recording with these types of glasses, so a little bit ago I started working this project. I've hit a little bit of a wall though so I'm very much open to ideas!\nI've written a bunch more on the link (+photos are there), but essentially this uses 2 fingerprinting approaches: \n- retro-reflectivity of the camera sensor by looking at IR reflections. mixed results here.\n- wireless traffic (primarily BLE, also looking into BTC and wifi)\nFor the latter, I'm currently just using an ESP32, and I can consistently detect when the Meta Raybans are 1) pairing, 2) first powered on, 3) (less consistently) when they're taken out of the charging case. When they do detect something, it plays a little jingle next to your ear.\nIdeally I want to be able to detect them when they're in use, and not just at boot. I've come across the nRF52840, which seems like it can follow directed BLE traffic beyond the initial broadcast, but from my understanding it would still need to catch the first CONNECT_REQ event regardless. On the bluetooth classic side of things, all the hardware looks really expensive! Any ideas are appreciated. Thanks!\nComments URL: https://news.ycombinator.com/item?id=46075882\nPoints: 97\n# Comments: 25",
+          "link": "https://github.com/NullPxl/banrays",
+          "publishedOn": "2025-11-28T05:52:38.000Z",
+          "wordCount": 2772,
+          "title": "Show HN: Glasses to detect smart-glasses that have cameras",
+          "imageUrl": "https://opengraph.githubassets.com/a192dbb4a491e9394ac8f876d83d72c47bd405b5adacf09d296bf743f17a1590/NullPxl/banrays"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46075628",
+          "author": "nateb2022",
+          "description": "Article URL: https://tigerstyle.dev/\nComments URL: https://news.ycombinator.com/item?id=46075628\nPoints: 58\n# Comments: 50",
+          "link": "https://tigerstyle.dev/",
+          "publishedOn": "2025-11-28T04:53:07.000Z",
+          "wordCount": 2345,
+          "title": "TigerStyle: Coding philosophy focused on safety, performance, dev experience",
+          "imageUrl": null
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=46075320",
           "author": "modinfo",
           "description": "Article URL: https://pocketbase.io/\nComments URL: https://news.ycombinator.com/item?id=46075320\nPoints: 79\n# Comments: 28",
@@ -12453,26 +12473,6 @@
           "publishedOn": "2025-10-29T21:22:50.000Z",
           "wordCount": 8906,
           "title": "How the U.S. National Science Foundation Enabled Software-Defined Networking",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=45751995",
-          "author": "todsacerdoti",
-          "description": "Article URL: https://rashil2000.me/blogs/tune-wezterm\nComments URL: https://news.ycombinator.com/item?id=45751995\nPoints: 58\n# Comments: 30",
-          "link": "https://rashil2000.me/blogs/tune-wezterm",
-          "publishedOn": "2025-10-29T19:39:57.000Z",
-          "wordCount": 3654,
-          "title": "How to Obsessively Tune WezTerm",
-          "imageUrl": "https://rashil2000.me/assets/images/blogs/tune-wezterm/neovim.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=45751868",
-          "author": "speckx",
-          "description": "Article URL: https://www.agwa.name/blog/post/verifying_go_reproducible_builds\nComments URL: https://news.ycombinator.com/item?id=45751868\nPoints: 61\n# Comments: 2",
-          "link": "https://www.agwa.name/blog/post/verifying_go_reproducible_builds",
-          "publishedOn": "2025-10-29T19:32:00.000Z",
-          "wordCount": 1529,
-          "title": "Independently verifying Go's reproducible builds",
           "imageUrl": null
         }
       ]

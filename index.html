@@ -22,8 +22,8 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2025-11-28 datetime="2025-11-28T03:45:04.000Z">2025-11-28</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2025-11-28 datetime="2025-11-28T03:45:04.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2025-11-28 datetime="2025-11-28T05:52:38.000Z">2025-11-28</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2025-11-28 datetime="2025-11-28T05:52:38.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
@@ -38,6 +38,56 @@
                   <a class="source-heading__link" href="https://news.ycombinator.com/">Open</a>
                 </h3>
                 <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;46075882"
+                        open
+                      >
+                        <summary class="article-expander__title">Show HN: Glasses to detect smart-glasses that have cameras</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://github.com/NullPxl/banrays">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://opengraph.githubassets.com/a192dbb4a491e9394ac8f876d83d72c47bd405b5adacf09d296bf743f17a1590/NullPxl/banrays" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Hi! Recently smart-glasses with cameras like the Meta Ray-bans seem to be getting more popular. As does some people&#x27;s desire to remove/cover up the recording indicator LED. I wanted to see if there&#x27;s a way to detect when people are recording with these types of glasses, so a little bit ago I started working this project. I&#x27;ve hit a little bit of a wall though so I&#x27;m very much open to ideas!
+I&#x27;ve written a bunch more on the link (+photos are there), but essentially this uses 2 fingerprinting approaches: 
+- retro-reflectivity of the camera sensor by looking at IR reflections. mixed results here.
+- wireless traffic (primarily BLE, also looking into BTC and wifi)
+For the latter, I&#x27;m currently just using an ESP32, and I can consistently detect when the Meta Raybans are 1) pairing, 2) first powered on, 3) (less consistently) when they&#x27;re taken out of the charging case. When they do detect something, it plays a little jingle next to your ear.
+Ideally I want to be able to detect them when they&#x27;re in use, and not just at boot. I&#x27;ve come across the nRF52840, which seems like it can follow directed BLE traffic beyond the initial broadcast, but from my understanding it would still need to catch the first CONNECT_REQ event regardless. On the bluetooth classic side of things, all the hardware looks really expensive! Any ideas are appreciated. Thanks!
+Comments URL: https://news.ycombinator.com/item?id&#x3D;46075882
+Points: 97
+# Comments: 25</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;9
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;46075628"
+                        open
+                      >
+                        <summary class="article-expander__title">TigerStyle: Coding philosophy focused on safety, performance, dev experience</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://tigerstyle.dev/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Article URL: https://tigerstyle.dev/
+Comments URL: https://news.ycombinator.com/item?id&#x3D;46075628
+Points: 58
+# Comments: 50</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;8
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
                     <article>
                       <details
                         class="article-expander"
@@ -28890,51 +28940,6 @@ Points: 51
                         </a>
                       </details>
                     </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;45751995"
-                        open
-                      >
-                        <summary class="article-expander__title">How to Obsessively Tune WezTerm</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://rashil2000.me/blogs/tune-wezterm">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://rashil2000.me/assets/images/blogs/tune-wezterm/neovim.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Article URL: https://rashil2000.me/blogs/tune-wezterm
-Comments URL: https://news.ycombinator.com/item?id&#x3D;45751995
-Points: 58
-# Comments: 30</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;12
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;45751868"
-                        open
-                      >
-                        <summary class="article-expander__title">Independently verifying Go&#x27;s reproducible builds</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.agwa.name/blog/post/verifying_go_reproducible_builds">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Article URL: https://www.agwa.name/blog/post/verifying_go_reproducible_builds
-Comments URL: https://news.ycombinator.com/item?id&#x3D;45751868
-Points: 61
-# Comments: 2</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;5
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
                 </section>
               </section>
             </li>
@@ -28942,8 +28947,8 @@ Points: 61
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/pipiscrew/flow/actions/runs/19757017275">
-        <time id="build-timestamp" datetime="2025-11-28T07:25:38.884Z">2025-11-28T07:25:38.884Z</time>
+      <a class="footer-link" href="https://github.com/pipiscrew/flow/actions/runs/19758388581">
+        <time id="build-timestamp" datetime="2025-11-28T08:35:03.719Z">2025-11-28T08:35:03.719Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>

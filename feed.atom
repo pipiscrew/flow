@@ -2,10 +2,41 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2025-11-28T07:25:38.934Z</updated>
+    <updated>2025-11-28T08:35:03.773Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Glasses to detect smart-glasses that have cameras]]></title>
+        <id>https://news.ycombinator.com/item?id=46075882</id>
+        <link href="https://github.com/NullPxl/banrays"/>
+        <updated>2025-11-28T05:52:38.000Z</updated>
+        <summary type="html"><![CDATA[Hi! Recently smart-glasses with cameras like the Meta Ray-bans seem to be getting more popular. As does some people's desire to remove/cover up the recording indicator LED. I wanted to see if there's a way to detect when people are recording with these types of glasses, so a little bit ago I started working this project. I've hit a little bit of a wall though so I'm very much open to ideas!
+I've written a bunch more on the link (+photos are there), but essentially this uses 2 fingerprinting approaches: 
+- retro-reflectivity of the camera sensor by looking at IR reflections. mixed results here.
+- wireless traffic (primarily BLE, also looking into BTC and wifi)
+For the latter, I'm currently just using an ESP32, and I can consistently detect when the Meta Raybans are 1) pairing, 2) first powered on, 3) (less consistently) when they're taken out of the charging case. When they do detect something, it plays a little jingle next to your ear.
+Ideally I want to be able to detect them when they're in use, and not just at boot. I've come across the nRF52840, which seems like it can follow directed BLE traffic beyond the initial broadcast, but from my understanding it would still need to catch the first CONNECT_REQ event regardless. On the bluetooth classic side of things, all the hardware looks really expensive! Any ideas are appreciated. Thanks!
+Comments URL: https://news.ycombinator.com/item?id=46075882
+Points: 97
+# Comments: 25]]></summary>
+        <author>
+            <name>nullpxl</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[TigerStyle: Coding philosophy focused on safety, performance, dev experience]]></title>
+        <id>https://news.ycombinator.com/item?id=46075628</id>
+        <link href="https://tigerstyle.dev/"/>
+        <updated>2025-11-28T04:53:07.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://tigerstyle.dev/
+Comments URL: https://news.ycombinator.com/item?id=46075628
+Points: 58
+# Comments: 50]]></summary>
+        <author>
+            <name>nateb2022</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Pocketbase – open-source realtime back end in 1 file]]></title>
         <id>https://news.ycombinator.com/item?id=46075320</id>
@@ -16438,32 +16469,6 @@ Points: 51
 # Comments: 8]]></summary>
         <author>
             <name>zdw</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How to Obsessively Tune WezTerm]]></title>
-        <id>https://news.ycombinator.com/item?id=45751995</id>
-        <link href="https://rashil2000.me/blogs/tune-wezterm"/>
-        <updated>2025-10-29T19:39:57.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://rashil2000.me/blogs/tune-wezterm
-Comments URL: https://news.ycombinator.com/item?id=45751995
-Points: 58
-# Comments: 30]]></summary>
-        <author>
-            <name>todsacerdoti</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Independently verifying Go's reproducible builds]]></title>
-        <id>https://news.ycombinator.com/item?id=45751868</id>
-        <link href="https://www.agwa.name/blog/post/verifying_go_reproducible_builds"/>
-        <updated>2025-10-29T19:32:00.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.agwa.name/blog/post/verifying_go_reproducible_builds
-Comments URL: https://news.ycombinator.com/item?id=45751868
-Points: 61
-# Comments: 2]]></summary>
-        <author>
-            <name>speckx</name>
         </author>
     </entry>
 </feed>
