@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2025-11-29T01:57:02.994Z</updated>
+    <updated>2025-11-29T03:17:30.634Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
@@ -151,6 +151,19 @@ Points: 73
 # Comments: 31]]></summary>
         <author>
             <name>dtj1123</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[JSON Schema Demystified: Dialects, Vocabularies and Metaschemas]]></title>
+        <id>https://news.ycombinator.com/item?id=46080769</id>
+        <link href="https://www.iankduncan.com/engineering/2025-11-24-json-schema-demystified/"/>
+        <updated>2025-11-28T17:34:26.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.iankduncan.com/engineering/2025-11-24-json-schema-demystified/
+Comments URL: https://news.ycombinator.com/item?id=46080769
+Points: 50
+# Comments: 22]]></summary>
+        <author>
+            <name>navigate8310</name>
         </author>
     </entry>
     <entry>
@@ -1533,6 +1546,19 @@ The idea is simple. WordPress keeps generating images normally. The plugin rewri
 I built this …]]></summary>
         <author>
             <name>cr1st1an</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Space: 1999 – Special Effects Techniques]]></title>
+        <id>https://news.ycombinator.com/item?id=46053017</id>
+        <link href="https://catacombs.space1999.net/main/pguide/upsfx.html"/>
+        <updated>2025-11-26T01:19:17.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://catacombs.space1999.net/main/pguide/upsfx.html
+Comments URL: https://news.ycombinator.com/item?id=46053017
+Points: 50
+# Comments: 21]]></summary>
+        <author>
+            <name>exvi</name>
         </author>
     </entry>
     <entry>
@@ -16678,66 +16704,6 @@ Points: 73
 # Comments: 36]]></summary>
         <author>
             <name>ryanvogel</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Free software scares normal people]]></title>
-        <id>https://news.ycombinator.com/item?id=45760878</id>
-        <link href="https://danieldelaney.net/normal/"/>
-        <updated>2025-10-30T15:07:15.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://danieldelaney.net/normal/
-Comments URL: https://news.ycombinator.com/item?id=45760878
-Points: 55
-# Comments: 39]]></summary>
-        <author>
-            <name>cryptophreak</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ventoy: Create Bootable USB Drive for ISO/WIM/IMG/VHD(x)/EFI Files]]></title>
-        <id>https://news.ycombinator.com/item?id=45760340</id>
-        <link href="https://github.com/ventoy/Ventoy"/>
-        <updated>2025-10-30T14:23:57.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://github.com/ventoy/Ventoy
-Comments URL: https://news.ycombinator.com/item?id=45760340
-Points: 59
-# Comments: 19]]></summary>
-        <author>
-            <name>wilsonfiifi</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[US declines to join more than 70 countries in signing UN cybercrime treaty]]></title>
-        <id>https://news.ycombinator.com/item?id=45760328</id>
-        <link href="https://therecord.media/us-declines-signing-cybercrime-treaty?"/>
-        <updated>2025-10-30T14:22:44.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://therecord.media/us-declines-signing-cybercrime-treaty?
-Comments URL: https://news.ycombinator.com/item?id=45760328
-Points: 56
-# Comments: 13]]></summary>
-        <author>
-            <name>pcaharrier</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: I made a heatmap diff viewer for code reviews]]></title>
-        <id>https://news.ycombinator.com/item?id=45760321</id>
-        <link href="https://0github.com/"/>
-        <updated>2025-10-30T14:21:58.000Z</updated>
-        <summary type="html"><![CDATA[0github.com is a pull request viewer that color-codes every diff line/token by how much human attention it probably needs. Unlike PR-review bots, we try to flag not just by "is it a bug?" but by "is it worth a second look?" (examples: hard-coded secret, weird crypto mode, gnarly logic, ugly code).
-To try it, replace github.com with 0github.com in any pull-request URL. Under the hood, we split the PR into individual files, and for each file, we ask an LLM to annotate each line with a data structure that we parse into a colored heatmap.
-Examples:
-https://0github.com/manaflow-ai/cmux/pull/666
-https://0github.com/stack-auth/stack-auth/pull/988
-https://0github.com/tinygrad/tinygrad/pull/12995
-https://0github.com/simonw/datasette/pull/2548
-Notice how all the example links have a 0 prepended before github.com. This navigates you to our custom diff viewer where we handle the same URL path parameters as github.com. Darker yellows indicate that an area might require more investigation. Hover on the highlights to see the LLM's explanation. There's also a slider on the top left to adjust the "should review" threshold.
-Repo (MIT license): https://github.com/manaflow-ai/cmux
-Comments URL: https://news.ycombinator.com/item?id=45760321
-Points: 75
-# Comments: 23]]></summary>
-        <author>
-            <name>lawrencechen</name>
         </author>
     </entry>
 </feed>

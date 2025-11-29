@@ -116,6 +116,16 @@
           "imageUrl": "https://molly.im/assets/images/og_main.webp"
         },
         {
+          "id": "https://news.ycombinator.com/item?id=46080769",
+          "author": "navigate8310",
+          "description": "Article URL: https://www.iankduncan.com/engineering/2025-11-24-json-schema-demystified/\nComments URL: https://news.ycombinator.com/item?id=46080769\nPoints: 50\n# Comments: 22",
+          "link": "https://www.iankduncan.com/engineering/2025-11-24-json-schema-demystified/",
+          "publishedOn": "2025-11-28T17:34:26.000Z",
+          "wordCount": 3663,
+          "title": "JSON Schema Demystified: Dialects, Vocabularies and Metaschemas",
+          "imageUrl": "https://iankduncan.com/portrait.jpg"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=46080597",
           "author": "mkagenius",
           "description": "Article URL: https://instavm.io/blog/llm-anti-patterns\nComments URL: https://news.ycombinator.com/item?id=46080597\nPoints: 52\n# Comments: 18",
@@ -1144,6 +1154,16 @@
           "wordCount": 3155,
           "title": "Show HN: A WordPress plugin that rewrites image URLs for near-zero-cost delivery",
           "imageUrl": "https://ps.w.org/bandwidth-saver/assets/banner-772x250.png?rev=3402062"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46053017",
+          "author": "exvi",
+          "description": "Article URL: https://catacombs.space1999.net/main/pguide/upsfx.html\nComments URL: https://news.ycombinator.com/item?id=46053017\nPoints: 50\n# Comments: 21",
+          "link": "https://catacombs.space1999.net/main/pguide/upsfx.html",
+          "publishedOn": "2025-11-26T01:19:17.000Z",
+          "wordCount": 490,
+          "title": "Space: 1999 – Special Effects Techniques",
+          "imageUrl": null
         },
         {
           "id": "https://news.ycombinator.com/item?id=46052685",
@@ -12634,46 +12654,6 @@
           "wordCount": 1136,
           "title": "PlanetScale Offering $5 Databases",
           "imageUrl": "https://planetscale.com/assets/5-dollar-planetscale-social-C3Uw7019.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=45760878",
-          "author": "cryptophreak",
-          "description": "Article URL: https://danieldelaney.net/normal/\nComments URL: https://news.ycombinator.com/item?id=45760878\nPoints: 55\n# Comments: 39",
-          "link": "https://danieldelaney.net/normal/",
-          "publishedOn": "2025-10-30T15:07:15.000Z",
-          "wordCount": 460,
-          "title": "Free software scares normal people",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=45760340",
-          "author": "wilsonfiifi",
-          "description": "Article URL: https://github.com/ventoy/Ventoy\nComments URL: https://news.ycombinator.com/item?id=45760340\nPoints: 59\n# Comments: 19",
-          "link": "https://github.com/ventoy/Ventoy",
-          "publishedOn": "2025-10-30T14:23:57.000Z",
-          "wordCount": 4506,
-          "title": "Ventoy: Create Bootable USB Drive for ISO/WIM/IMG/VHD(x)/EFI Files",
-          "imageUrl": "https://opengraph.githubassets.com/a7254e15536ce404f67b8df40bb84bc612f89402606f7a54b77d60b6415bb613/ventoy/Ventoy"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=45760328",
-          "author": "pcaharrier",
-          "description": "Article URL: https://therecord.media/us-declines-signing-cybercrime-treaty?\nComments URL: https://news.ycombinator.com/item?id=45760328\nPoints: 56\n# Comments: 13",
-          "link": "https://therecord.media/us-declines-signing-cybercrime-treaty?",
-          "publishedOn": "2025-10-30T14:22:44.000Z",
-          "wordCount": 2569,
-          "title": "US declines to join more than 70 countries in signing UN cybercrime treaty",
-          "imageUrl": "https://cms.therecord.media/uploads/format_webp/UN_cybercrime_1b626838d4.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=45760321",
-          "author": "lawrencechen",
-          "description": "0github.com is a pull request viewer that color-codes every diff line/token by how much human attention it probably needs. Unlike PR-review bots, we try to flag not just by \"is it a bug?\" but by \"is it worth a second look?\" (examples: hard-coded secret, weird crypto mode, gnarly logic, ugly code).\nTo try it, replace github.com with 0github.com in any pull-request URL. Under the hood, we split the PR into individual files, and for each file, we ask an LLM to annotate each line with a data structure that we parse into a colored heatmap.\nExamples:\nhttps://0github.com/manaflow-ai/cmux/pull/666\nhttps://0github.com/stack-auth/stack-auth/pull/988\nhttps://0github.com/tinygrad/tinygrad/pull/12995\nhttps://0github.com/simonw/datasette/pull/2548\nNotice how all the example links have a 0 prepended before github.com. This navigates you to our custom diff viewer where we handle the same URL path parameters as github.com. Darker yellows indicate that an area might require more investigation. Hover on the highlights to see the LLM's explanation. There's also a slider on the top left to adjust the \"should review\" threshold.\nRepo (MIT license): https://github.com/manaflow-ai/cmux\nComments URL: https://news.ycombinator.com/item?id=45760321\nPoints: 75\n# Comments: 23",
-          "link": "https://0github.com/",
-          "publishedOn": "2025-10-30T14:21:58.000Z",
-          "wordCount": 10182,
-          "title": "Show HN: I made a heatmap diff viewer for code reviews",
-          "imageUrl": null
         }
       ]
     }
