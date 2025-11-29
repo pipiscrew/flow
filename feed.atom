@@ -2,10 +2,46 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2025-11-29T22:23:38.991Z</updated>
+    <updated>2025-11-29T23:23:07.206Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Europe's New War on Privacy]]></title>
+        <id>https://news.ycombinator.com/item?id=46090794</id>
+        <link href="https://unherd.com/2025/11/europes-new-war-on-privacy/"/>
+        <updated>2025-11-29T21:10:15.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://unherd.com/2025/11/europes-new-war-on-privacy/
+Comments URL: https://news.ycombinator.com/item?id=46090794
+Points: 71
+# Comments: 16]]></summary>
+        <author>
+            <name>joecobb</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Nano PDF – A CLI Tool to Edit PDFs with Gemini's Nano Banana]]></title>
+        <id>https://news.ycombinator.com/item?id=46090619</id>
+        <link href="https://github.com/gavrielc/Nano-PDF"/>
+        <updated>2025-11-29T20:44:24.000Z</updated>
+        <summary type="html"><![CDATA[The new Gemini 3 Pro Image model (aka Nano Banana) is incredible at generating slides, so I thought it would be fun to build a CLI tool that lets you edit PDF presentations using plain English. The tool converts the page you want to edit into an image, sends it to the model API together with your prompt to generate an edited image, then converts the updated image back and stitches into the original document.
+Examples:
+- `nano-pdf edit deck.pdf 5 "Update the revenue chart to show Q3 at $2.5M"`
+- `nano-pdf add deck.pdf 15 "Create an executive summary slide with 5 bullet points"`
+Features:
+- Edit multiple pages in parallel
+- Add entirely new slides that match your deck's style
+- Google Search enabled by default so the model can look up current data
+- Preserves text layer for copy/paste and search
+It can work with any kind of PDF but I expect it would be most useful for a quick edit to a deck or something similar.
+GitHub: https://github.com/gavrielc/Nano-PDF
+Comments URL: https://news.ycombinator.com/item?id=46090619
+Points: 61
+# Comments: 11]]></summary>
+        <author>
+            <name>GavCo</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[All it takes is for one to work out]]></title>
         <id>https://news.ycombinator.com/item?id=46090433</id>
@@ -17,6 +53,19 @@ Points: 67
 # Comments: 28]]></summary>
         <author>
             <name>herbertl</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Learning Feynman's Trick for Integrals]]></title>
+        <id>https://news.ycombinator.com/item?id=46090269</id>
+        <link href="https://zackyzz.github.io/feynman.html"/>
+        <updated>2025-11-29T19:55:17.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://zackyzz.github.io/feynman.html
+Comments URL: https://news.ycombinator.com/item?id=46090269
+Points: 65
+# Comments: 9]]></summary>
+        <author>
+            <name>Zen1th</name>
         </author>
     </entry>
     <entry>
@@ -1780,6 +1829,19 @@ Points: 55
 # Comments: 5]]></summary>
         <author>
             <name>sabas_ge</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Post-mortem of Shai-Hulud attack on November 24th, 2025]]></title>
+        <id>https://news.ycombinator.com/item?id=46057141</id>
+        <link href="https://posthog.com/blog/nov-24-shai-hulud-attack-post-mortem"/>
+        <updated>2025-11-26T13:22:46.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://posthog.com/blog/nov-24-shai-hulud-attack-post-mortem
+Comments URL: https://news.ycombinator.com/item?id=46057141
+Points: 53
+# Comments: 39]]></summary>
+        <author>
+            <name>makepanic</name>
         </author>
     </entry>
     <entry>

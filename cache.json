@@ -6,6 +6,26 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=46090794",
+          "author": "joecobb",
+          "description": "Article URL: https://unherd.com/2025/11/europes-new-war-on-privacy/\nComments URL: https://news.ycombinator.com/item?id=46090794\nPoints: 71\n# Comments: 16",
+          "link": "https://unherd.com/2025/11/europes-new-war-on-privacy/",
+          "publishedOn": "2025-11-29T21:10:15.000Z",
+          "wordCount": 9972,
+          "title": "Europe's New War on Privacy",
+          "imageUrl": "https://unherd.com/wp-content/uploads/2025/11/1-2.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46090619",
+          "author": "GavCo",
+          "description": "The new Gemini 3 Pro Image model (aka Nano Banana) is incredible at generating slides, so I thought it would be fun to build a CLI tool that lets you edit PDF presentations using plain English. The tool converts the page you want to edit into an image, sends it to the model API together with your prompt to generate an edited image, then converts the updated image back and stitches into the original document.\nExamples:\n- `nano-pdf edit deck.pdf 5 \"Update the revenue chart to show Q3 at $2.5M\"`\n- `nano-pdf add deck.pdf 15 \"Create an executive summary slide with 5 bullet points\"`\nFeatures:\n- Edit multiple pages in parallel\n- Add entirely new slides that match your deck's style\n- Google Search enabled by default so the model can look up current data\n- Preserves text layer for copy/paste and search\nIt can work with any kind of PDF but I expect it would be most useful for a quick edit to a deck or something similar.\nGitHub: https://github.com/gavrielc/Nano-PDF\nComments URL: https://news.ycombinator.com/item?id=46090619\nPoints: 61\n# Comments: 11",
+          "link": "https://github.com/gavrielc/Nano-PDF",
+          "publishedOn": "2025-11-29T20:44:24.000Z",
+          "wordCount": 6257,
+          "title": "Show HN: Nano PDF – A CLI Tool to Edit PDFs with Gemini's Nano Banana",
+          "imageUrl": "https://repository-images.githubusercontent.com/1106183794/26bd3959-5e8f-425a-92e2-b82c2e50f496"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=46090433",
           "author": "herbertl",
           "description": "Article URL: https://alearningaday.blog/2025/11/28/all-it-takes-is-for-one-to-work-out-2/\nComments URL: https://news.ycombinator.com/item?id=46090433\nPoints: 67\n# Comments: 28",
@@ -14,6 +34,16 @@
           "wordCount": 3945,
           "title": "All it takes is for one to work out",
           "imageUrl": "https://alearningaday.blog/wp-content/uploads/2017/05/cropped-alearningadaylogov6.png?w=200"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46090269",
+          "author": "Zen1th",
+          "description": "Article URL: https://zackyzz.github.io/feynman.html\nComments URL: https://news.ycombinator.com/item?id=46090269\nPoints: 65\n# Comments: 9",
+          "link": "https://zackyzz.github.io/feynman.html",
+          "publishedOn": "2025-11-29T19:55:17.000Z",
+          "wordCount": 6579,
+          "title": "Learning Feynman's Trick for Integrals",
+          "imageUrl": null
         },
         {
           "id": "https://news.ycombinator.com/item?id=46090172",
@@ -1334,6 +1364,16 @@
           "wordCount": 3981,
           "title": "Memories of .us",
           "imageUrl": "https://computer.rip/static/social-icon.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46057141",
+          "author": "makepanic",
+          "description": "Article URL: https://posthog.com/blog/nov-24-shai-hulud-attack-post-mortem\nComments URL: https://news.ycombinator.com/item?id=46057141\nPoints: 53\n# Comments: 39",
+          "link": "https://posthog.com/blog/nov-24-shai-hulud-attack-post-mortem",
+          "publishedOn": "2025-11-26T13:22:46.000Z",
+          "wordCount": 11721,
+          "title": "Post-mortem of Shai-Hulud attack on November 24th, 2025",
+          "imageUrl": "https://d36j3rcgc2qfsv.cloudfront.net/blognov-24-shai-hulud-attack-post-mortem.jpeg"
         },
         {
           "id": "https://news.ycombinator.com/item?id=46056763",
