@@ -22,8 +22,8 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2025-11-30 datetime="2025-11-30T13:07:15.000Z">2025-11-30</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2025-11-30 datetime="2025-11-30T13:07:15.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2025-11-30 datetime="2025-11-30T14:11:40.000Z">2025-11-30</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2025-11-30 datetime="2025-11-30T14:11:40.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
@@ -38,6 +38,73 @@
                   <a class="source-heading__link" href="https://news.ycombinator.com/">Open</a>
                 </h3>
                 <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;46096800"
+                        open
+                      >
+                        <summary class="article-expander__title">Migrating Dillo from GitHub</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://dillo-browser.org/news/migration-from-github/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Article URL: https://dillo-browser.org/news/migration-from-github/
+Comments URL: https://news.ycombinator.com/item?id&#x3D;46096800
+Points: 54
+# Comments: 26</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;46096556"
+                        open
+                      >
+                        <summary class="article-expander__title">Windows drive letters are not limited to A-Z</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.ryanliptak.com/blog/windows-drive-letters-are-not-limited-to-a-z/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Article URL: https://www.ryanliptak.com/blog/windows-drive-letters-are-not-limited-to-a-z/
+Comments URL: https://news.ycombinator.com/item?id&#x3D;46096556
+Points: 66
+# Comments: 7</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;8
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;46096555"
+                        open
+                      >
+                        <summary class="article-expander__title">Norway wealth fund to vote for human rights report at Microsoft, against Nadella</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.cnbc.com/2025/11/30/norway-wealth-fund-to-vote-for-human-rights-report-at-microsoft-agm-against-management.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.cnbcfm.com/api/v1/image/108194599-1757020886905-gettyimages-2233036958-AI_EDUCATION_WH.jpeg?v&#x3D;1764490246&amp;w&#x3D;1920&amp;h&#x3D;1080" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Article URL: https://www.cnbc.com/2025/11/30/norway-wealth-fund-to-vote-for-human-rights-report-at-microsoft-agm-against-management.html
+Comments URL: https://news.ycombinator.com/item?id&#x3D;46096555
+Points: 104
+# Comments: 48</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;84
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
                     <article>
                       <details
                         class="article-expander"
@@ -3969,6 +4036,31 @@ I built a WordPress plugin called Bandwidth Saver. It takes the images your site
 The idea is simple. WordPress keeps generating images normally. The plugin rewrites the URLs on the frontend so images are served from a Cloudflare Worker. On the first request, the Worker fetches the original image and stores it in R2. After that, Cloudflare’s edge serves the image from its global cache with no egress charges. There’s no need to preload or sync anything, and if something fails, the original image loads. That’s the entire system.
 I built this …</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;11
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;46053076"
+                        open
+                      >
+                        <summary class="article-expander__title">Show HN: Real-time system that tracks how news spreads across 200k websites</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://yandori.io/news-flow/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>I built a system that monitors ~200,000 news RSS feeds in near real-time and clusters related articles to show how stories spread across the web.
+It uses Snowflake’s Arctic model for embeddings and HNSW for fast similarity search. Each “story cluster” shows who published first, how fast it propagated, and how the narrative evolved as more outlets picked it up.
+Would love feedback on the architecture, scaling approach, and any ways to make the clusters more accurate or useful.
+Live demo: https://yandori.io/news-flow/
+Comments URL: https://news.ycombinator.com/item?id&#x3D;46053076
+Points: 114
+# Comments: 29</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;12
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -29169,29 +29261,6 @@ Points: 51
                         </a>
                       </details>
                     </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;45778984"
-                        open
-                      >
-                        <summary class="article-expander__title">The profitable startup</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://linear.app/now/the-profitable-startup">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://webassets.linear.app/images/ornj730p/production/b16b28161c41672464ff5061af44a6f19c08a169-1200x600.png?q&#x3D;95&amp;auto&#x3D;format&amp;dpr&#x3D;2" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Article URL: https://linear.app/now/the-profitable-startup
-Comments URL: https://news.ycombinator.com/item?id&#x3D;45778984
-Points: 64
-# Comments: 20</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;80
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
                 </section>
               </section>
             </li>
@@ -29199,8 +29268,8 @@ Points: 64
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/pipiscrew/flow/actions/runs/19800243030">
-        <time id="build-timestamp" datetime="2025-11-30T14:22:36.118Z">2025-11-30T14:22:36.118Z</time>
+      <a class="footer-link" href="https://github.com/pipiscrew/flow/actions/runs/19800962917">
+        <time id="build-timestamp" datetime="2025-11-30T15:24:02.251Z">2025-11-30T15:24:02.251Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
