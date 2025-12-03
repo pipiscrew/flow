@@ -26,6 +26,26 @@
           "imageUrl": null
         },
         {
+          "id": "https://news.ycombinator.com/item?id=46137783",
+          "author": "simlevesque",
+          "description": "Article URL: https://investors.micron.com/news-releases/news-release-details/micron-announces-exit-crucial-consumer-business\nComments URL: https://news.ycombinator.com/item?id=46137783\nPoints: 92\n# Comments: 20",
+          "link": "https://investors.micron.com/news-releases/news-release-details/micron-announces-exit-crucial-consumer-business",
+          "publishedOn": "2025-12-03T18:04:32.000Z",
+          "wordCount": null,
+          "title": "Micron Announces Exit from Crucial Consumer Business",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46137548",
+          "author": "rushingcreek",
+          "description": "Hi HN,\nWe are launching Phind 3 (https://www.phind.com), an AI answer engine that instantly builds a complete mini-app to answer and visualize your questions in an interactive way. A Phind mini-app appears as a beautiful, interactive webpage — with images, charts, diagrams, maps, and other widgets. Phind 3 doesn’t just present information more beautifully; interacting with these widgets dynamically updates the content on the page and enables new functionality that wasn’t possible before.\nFor example, asking Phind for “options for a one-bedroom apartment in the Lower East Side” (https://www.phind.com/search/find-me-options-for-a-72e019ce-...) gives an interactive apartment-finding experience with customizable filters and a map view. And asking for a “recipe for bone-in chicken thighs” gives…",
+          "link": "https://news.ycombinator.com/item?id=46137548",
+          "publishedOn": "2025-12-03T17:47:15.000Z",
+          "wordCount": 3083,
+          "title": "Launch HN: Phind 3 (YC S22) – Every answer is a mini-app",
+          "imageUrl": null
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=46137514",
           "author": "bearsyankees",
           "description": "Article URL: https://alexschapiro.com/security/vulnerability/2025/12/02/filevine-api-100k\nComments URL: https://news.ycombinator.com/item?id=46137514\nPoints: 104\n# Comments: 19",
@@ -114,6 +134,16 @@
           "wordCount": 44851,
           "title": "Microsoft lowers AI software growth targets",
           "imageUrl": "https://media.zenfs.com/en/reuters-finance.com/d252c270728dc8de8df9a35aec010c91"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46135067",
+          "author": "_sinelaw_",
+          "description": "I built Fresh to challenge the status quo that terminal editing must require a steep learning curve or endless configuration. My goal was to create a fast, resource-efficient TUI editor with the usability and features of a modern GUI editor (like a command palette, mouse support, and LSP integration).\nCore Philosophy:\n- Ease-of-Use: Fundamentally non-modal. Prioritizes standard keybindings and a minimal learning curve.\n- Efficiency: Uses a lazy-loading piece tree to avoid loading huge files into RAM - reads only what's needed for user interactions. Coded in Rust.\n- Extensibility: Uses TypeScript (via Deno) for plugins, making it accessible to a large developer base.\nThe Performance Challenge:\nI focused on resource consumption and speed with large file support as a core feature. I did a quick benchmark loading a 2GB log file with ANSI color codes. Here is the comparison against other popular editors:\n  - Fresh:   Load Time: *~600ms*     | Memory: *~36 MB*\n  - Neovim:  Load Time: ~6.5 seconds | Memory: ~2 GB\n  - Emacs:   Load Time: ~10 seconds  | Memory: ~2 GB\n  - VS Code: Load Time: ~20 seconds  | Memory: OOM Killed (~4.3 GB available)\n\nDevelopment process:\nI embraced Claude Code and made an effort to get good mileage out of it. I gave it strong specific directions, especially in architecture / code structure / UX-sensitive areas. It required constant supervision and re-alignment, especially in the performance critical areas. Added very extensive tests (compared to my normal standards) to keep it aligned as the code grows. Especially, focused on end-to-end testing where I could easily enforce a specific behavior or user flow.\nFresh is an open-source project (GPL-2) seeking early adopters. You're welcome to send feedback, feature requests, and bug reports.\nWebsite: https://sinelaw.github.io/fresh/\nGitHub Repository: https://github.com/sinelaw/fresh\nComments URL: https://news.ycombinator.com/item?id=46135067\nPoints: 53\n# Comments: 34",
+          "link": "https://sinelaw.github.io/fresh/",
+          "publishedOn": "2025-12-03T14:45:26.000Z",
+          "wordCount": 1755,
+          "title": "Show HN: Fresh – A new terminal editor built in Rust",
+          "imageUrl": null
         },
         {
           "id": "https://news.ycombinator.com/item?id=46135008",
@@ -12983,26 +13013,6 @@
           "publishedOn": "2025-11-04T09:25:31.000Z",
           "wordCount": 1675,
           "title": "Bloom filters are good for search that does not scale",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=45808899",
-          "author": "vrnvu",
-          "description": "Article URL: https://purplesyringa.moe/blog/jvm-exceptions-are-weird-a-decompiler-perspective/\nComments URL: https://news.ycombinator.com/item?id=45808899\nPoints: 73\n# Comments: 14",
-          "link": "https://purplesyringa.moe/blog/jvm-exceptions-are-weird-a-decompiler-perspective/",
-          "publishedOn": "2025-11-04T09:08:23.000Z",
-          "wordCount": 2671,
-          "title": "JVM exceptions are weird: a decompiler perspective",
-          "imageUrl": "https://purplesyringa.moe/blog/jvm-exceptions-are-weird-a-decompiler-perspective/og.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=45808863",
-          "author": "pmbanugo",
-          "description": "Article URL: https://notes.eatonphil.com/2025-02-15-from-web-developer-to-database-developer-in-10-years.html\nComments URL: https://news.ycombinator.com/item?id=45808863\nPoints: 57\n# Comments: 17",
-          "link": "https://notes.eatonphil.com/2025-02-15-from-web-developer-to-database-developer-in-10-years.html",
-          "publishedOn": "2025-11-04T09:02:49.000Z",
-          "wordCount": 2977,
-          "title": "From web developer to database developer in 10 years",
           "imageUrl": null
         }
       ]

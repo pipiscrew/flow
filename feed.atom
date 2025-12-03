@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2025-12-03T20:31:05.067Z</updated>
+    <updated>2025-12-03T21:23:47.144Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
@@ -30,6 +30,31 @@ Points: 82
 # Comments: 2]]></summary>
         <author>
             <name>vrnvu</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Micron Announces Exit from Crucial Consumer Business]]></title>
+        <id>https://news.ycombinator.com/item?id=46137783</id>
+        <link href="https://investors.micron.com/news-releases/news-release-details/micron-announces-exit-crucial-consumer-business"/>
+        <updated>2025-12-03T18:04:32.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://investors.micron.com/news-releases/news-release-details/micron-announces-exit-crucial-consumer-business
+Comments URL: https://news.ycombinator.com/item?id=46137783
+Points: 92
+# Comments: 20]]></summary>
+        <author>
+            <name>simlevesque</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Launch HN: Phind 3 (YC S22) – Every answer is a mini-app]]></title>
+        <id>https://news.ycombinator.com/item?id=46137548</id>
+        <link href="https://news.ycombinator.com/item?id=46137548"/>
+        <updated>2025-12-03T17:47:15.000Z</updated>
+        <summary type="html"><![CDATA[Hi HN,
+We are launching Phind 3 (https://www.phind.com), an AI answer engine that instantly builds a complete mini-app to answer and visualize your questions in an interactive way. A Phind mini-app appears as a beautiful, interactive webpage — with images, charts, diagrams, maps, and other widgets. Phind 3 doesn’t just present information more beautifully; interacting with these widgets dynamically updates the content on the page and enables new functionality that wasn’t possible before.
+For example, asking Phind for “options for a one-bedroom apartment in the Lower East Side” (https://www.phind.com/search/find-me-options-for-a-72e019ce-...) gives an interactive apartment-finding experience with customizable filters and a map view. And asking for a “recipe for bone-in chicken thighs” gives…]]></summary>
+        <author>
+            <name>rushingcreek</name>
         </author>
     </entry>
     <entry>
@@ -147,6 +172,35 @@ Points: 72
 # Comments: 60]]></summary>
         <author>
             <name>ramoz</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Fresh – A new terminal editor built in Rust]]></title>
+        <id>https://news.ycombinator.com/item?id=46135067</id>
+        <link href="https://sinelaw.github.io/fresh/"/>
+        <updated>2025-12-03T14:45:26.000Z</updated>
+        <summary type="html"><![CDATA[I built Fresh to challenge the status quo that terminal editing must require a steep learning curve or endless configuration. My goal was to create a fast, resource-efficient TUI editor with the usability and features of a modern GUI editor (like a command palette, mouse support, and LSP integration).
+Core Philosophy:
+- Ease-of-Use: Fundamentally non-modal. Prioritizes standard keybindings and a minimal learning curve.
+- Efficiency: Uses a lazy-loading piece tree to avoid loading huge files into RAM - reads only what's needed for user interactions. Coded in Rust.
+- Extensibility: Uses TypeScript (via Deno) for plugins, making it accessible to a large developer base.
+The Performance Challenge:
+I focused on resource consumption and speed with large file support as a core feature. I did a quick benchmark loading a 2GB log file with ANSI color codes. Here is the comparison against other popular editors:
+  - Fresh:   Load Time: *~600ms*     | Memory: *~36 MB*
+  - Neovim:  Load Time: ~6.5 seconds | Memory: ~2 GB
+  - Emacs:   Load Time: ~10 seconds  | Memory: ~2 GB
+  - VS Code: Load Time: ~20 seconds  | Memory: OOM Killed (~4.3 GB available)
+
+Development process:
+I embraced Claude Code and made an effort to get good mileage out of it. I gave it strong specific directions, especially in architecture / code structure / UX-sensitive areas. It required constant supervision and re-alignment, especially in the performance critical areas. Added very extensive tests (compared to my normal standards) to keep it aligned as the code grows. Especially, focused on end-to-end testing where I could easily enforce a specific behavior or user flow.
+Fresh is an open-source project (GPL-2) seeking early adopters. You're welcome to send feedback, feature requests, and bug reports.
+Website: https://sinelaw.github.io/fresh/
+GitHub Repository: https://github.com/sinelaw/fresh
+Comments URL: https://news.ycombinator.com/item?id=46135067
+Points: 53
+# Comments: 34]]></summary>
+        <author>
+            <name>_sinelaw_</name>
         </author>
     </entry>
     <entry>
@@ -17132,32 +17186,6 @@ Points: 74
 # Comments: 9]]></summary>
         <author>
             <name>birdculture</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[JVM exceptions are weird: a decompiler perspective]]></title>
-        <id>https://news.ycombinator.com/item?id=45808899</id>
-        <link href="https://purplesyringa.moe/blog/jvm-exceptions-are-weird-a-decompiler-perspective/"/>
-        <updated>2025-11-04T09:08:23.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://purplesyringa.moe/blog/jvm-exceptions-are-weird-a-decompiler-perspective/
-Comments URL: https://news.ycombinator.com/item?id=45808899
-Points: 73
-# Comments: 14]]></summary>
-        <author>
-            <name>vrnvu</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[From web developer to database developer in 10 years]]></title>
-        <id>https://news.ycombinator.com/item?id=45808863</id>
-        <link href="https://notes.eatonphil.com/2025-02-15-from-web-developer-to-database-developer-in-10-years.html"/>
-        <updated>2025-11-04T09:02:49.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://notes.eatonphil.com/2025-02-15-from-web-developer-to-database-developer-in-10-years.html
-Comments URL: https://news.ycombinator.com/item?id=45808863
-Points: 57
-# Comments: 17]]></summary>
-        <author>
-            <name>pmbanugo</name>
         </author>
     </entry>
 </feed>
