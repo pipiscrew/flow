@@ -2,10 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2025-12-03T08:37:47.711Z</updated>
+    <updated>2025-12-03T09:30:43.530Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Zig quits GitHub, says Microsoft's AI obsession has ruined the service]]></title>
+        <id>https://news.ycombinator.com/item?id=46131406</id>
+        <link href="https://www.theregister.com/2025/12/02/zig_quits_github_microsoft_ai_obsession/"/>
+        <updated>2025-12-03T07:52:37.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.theregister.com/2025/12/02/zig_quits_github_microsoft_ai_obsession/
+Comments URL: https://news.ycombinator.com/item?id=46131406
+Points: 141
+# Comments: 60]]></summary>
+        <author>
+            <name>Brajeshwar</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Accepting US car standards would risk European lives]]></title>
         <id>https://news.ycombinator.com/item?id=46131330</id>
@@ -33,6 +46,19 @@ Points: 63
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Quad9 DOH HTTP/1.1 Retirement, December 15, 2025]]></title>
+        <id>https://news.ycombinator.com/item?id=46130784</id>
+        <link href="https://quad9.net/news/blog/doh-http-1-1-retirement/"/>
+        <updated>2025-12-03T06:07:22.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://quad9.net/news/blog/doh-http-1-1-retirement/
+Comments URL: https://news.ycombinator.com/item?id=46130784
+Points: 52
+# Comments: 12]]></summary>
+        <author>
+            <name>pickledoyster</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Interview with RollerCoaster Tycoon's Creator, Chris Sawyer (2024)]]></title>
         <id>https://news.ycombinator.com/item?id=46130335</id>
         <link href="https://medium.com/atari-club/interview-with-rollercoaster-tycoons-creator-chris-sawyer-684a0efb0f13"/>
@@ -43,6 +69,20 @@ Points: 56
 # Comments: 9]]></summary>
         <author>
             <name>areoform</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Understanding ECDSA]]></title>
+        <id>https://news.ycombinator.com/item?id=46130233</id>
+        <link href="https://avidthinker.github.io/2025/11/28/understanding-ecdsa/"/>
+        <updated>2025-12-03T04:13:41.000Z</updated>
+        <summary type="html"><![CDATA[This article is basically an exercise in understanding ECDSA (Elliptic Curve Digital Signature Algorithm) from scratch. All I assume is some basic math and a willingness to pick up a bit of abstract math along the way. I try to explain everything as intuitively as possible, but, despite that, the article still demands some serious effort from the reader.
+When I analyzed the Extended Euclidean Algorithm, one thing led to another, and I ended up writing a little intro to generating functions. You can even jump to that part and ignore the rest, if you want! Other readers may instead choose to skip that section altogether, as it's self-contained.
+Comments URL: https://news.ycombinator.com/item?id=46130233
+Points: 59
+# Comments: 8]]></summary>
+        <author>
+            <name>avidthinker</name>
         </author>
     </entry>
     <entry>
@@ -16940,58 +16980,6 @@ Points: 51
 # Comments: 14]]></summary>
         <author>
             <name>malmoeb</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[App Store web has exposed all its source code]]></title>
-        <id>https://news.ycombinator.com/item?id=45804664</id>
-        <link href="https://www.reddit.com/r/webdev/comments/1onnzlj/app_store_web_has_exposed_all_its_source_code/"/>
-        <updated>2025-11-03T21:27:56.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.reddit.com/r/webdev/comments/1onnzlj/app_store_web_has_exposed_all_its_source_code/
-Comments URL: https://news.ycombinator.com/item?id=45804664
-Points: 188
-# Comments: 52]]></summary>
-        <author>
-            <name>redbell</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Apple App Store frontend source code archive]]></title>
-        <id>https://news.ycombinator.com/item?id=45804664</id>
-        <link href="https://github.com/rxliuli/apps.apple.com"/>
-        <updated>2025-11-03T21:27:56.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://github.com/rxliuli/apps.apple.com
-Comments URL: https://news.ycombinator.com/item?id=45804664
-Points: 142
-# Comments: 18]]></summary>
-        <author>
-            <name>redbell</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AI's Dial-Up Era]]></title>
-        <id>https://news.ycombinator.com/item?id=45804377</id>
-        <link href="https://www.wreflection.com/p/ai-dial-up-era"/>
-        <updated>2025-11-03T21:01:09.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.wreflection.com/p/ai-dial-up-era
-Comments URL: https://news.ycombinator.com/item?id=45804377
-Points: 73
-# Comments: 62]]></summary>
-        <author>
-            <name>nowflux</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[CHIP8 – writing emulator, assembler, example game and VHDL hardware impl]]></title>
-        <id>https://news.ycombinator.com/item?id=45804295</id>
-        <link href="http://blog.dominikrudnik.pl/chip8-emulator-assembler-game-vhdl"/>
-        <updated>2025-11-03T20:52:50.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: http://blog.dominikrudnik.pl/chip8-emulator-assembler-game-vhdl
-Comments URL: https://news.ycombinator.com/item?id=45804295
-Points: 54
-# Comments: 3]]></summary>
-        <author>
-            <name>qikcik</name>
         </author>
     </entry>
 </feed>
