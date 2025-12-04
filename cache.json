@@ -6,6 +6,36 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=46140753",
+          "author": "JumpCrisscross",
+          "description": "Article URL: https://onlinelibrary.wiley.com/doi/10.1111/eth.70033\nComments URL: https://news.ycombinator.com/item?id=46140753\nPoints: 56\n# Comments: 38",
+          "link": "https://onlinelibrary.wiley.com/doi/10.1111/eth.70033",
+          "publishedOn": "2025-12-03T21:56:37.000Z",
+          "wordCount": null,
+          "title": "Greeting Vocalizations in Domestic Cats Are More Frequent with Male Caregivers",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46139782",
+          "author": "chmaynard",
+          "description": "Article URL: https://lwn.net/SubscriberLink/1046840/3eb9029084cc9e1e/\nComments URL: https://news.ycombinator.com/item?id=46139782\nPoints: 52\n# Comments: 21",
+          "link": "https://lwn.net/SubscriberLink/1046840/3eb9029084cc9e1e/",
+          "publishedOn": "2025-12-03T20:37:08.000Z",
+          "wordCount": 3218,
+          "title": "Checked-size array parameters in C",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46139761",
+          "author": "mhashemi",
+          "description": "When I bought my home, the big bank I'd been using for years quoted me 7% APR. A local credit union was offering 5.5% for the exact same mortgage.\nI was surprised until I learned that mortgages are basically standardized products – the government buys almost all of them (see Bits About Money: https://www.bitsaboutmoney.com/archive/mortgages-are-a-manuf...). So what's the price difference paying for? A recent Bloomberg Odd Lots episode makes the case that it's largely advertising and marketing (https://www.bloomberg.com/news/audio/2025-11-28/odd-lots-thi...). Credit unions are non-profits without big marketing budgets, so they can pass those savings on, but a lot of people don't know about them.\nI built this dashboard to make it easier to shop around. I pull public rates from 120+ credit union websites and compares against the weekly FRED national benchmark.\nFeatures:\n- Filter by loan type (30Y/15Y/etc.), eligibility (the hardest part tbh), and rate type\n- Payment calculator with refi mode (CUs can be a bit slower than big lenders, but that makes them great for refi)\n- Links to each CU's rates page and eligibility requirements\n- Toggle to show/hide statistical outliers\nAt the time of writing, the average CU rate is 5.91% vs. 6.23% national average. about $37k difference in total interest on a $500k loan. I actually used seaborn to visualize the rate spread against the four big banks: https://www.reddit.com/r/dataisbeautiful/comments/1pcj9t7/oc...\nStack: Python for the data/backend, Svelte/SvelteKit for the frontend. No signup, no ads, no referral fees.\nHappy to answer questions about the methodology or add CUs people suggest.\nComments URL: https://news.ycombinator.com/item?id=46139761\nPoints: 126\n# Comments: 43",
+          "link": "https://finfam.app/blog/credit-union-mortgages",
+          "publishedOn": "2025-12-03T20:35:27.000Z",
+          "wordCount": 984,
+          "title": "Show HN: I built a dashboard to compare mortgage rates across 120 credit unions",
+          "imageUrl": "https://finfam.app/og/og_finfam_2.png"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=46138952",
           "author": "mips_avatar",
           "description": "Article URL: https://jonready.com/blog/posts/everyone-in-seattle-hates-ai.html\nComments URL: https://news.ycombinator.com/item?id=46138952\nPoints: 121\n# Comments: 90",
@@ -44,6 +74,16 @@
           "wordCount": null,
           "title": "Micron Announces Exit from Crucial Consumer Business",
           "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46137746",
+          "author": "bumbailiff",
+          "description": "https://archive.ph/RlKoj\nComments URL: https://news.ycombinator.com/item?id=46137746\nPoints: 64\n# Comments: 30",
+          "link": "https://www.wired.com/story/poems-can-trick-ai-into-helping-you-make-a-nuclear-weapon/",
+          "publishedOn": "2025-12-03T18:01:11.000Z",
+          "wordCount": 29623,
+          "title": "Prompt Injection via Poetry",
+          "imageUrl": "https://media.wired.com/photos/6925f9abe38648aa0f225be3/191:100/w_1280,c_limit/sec-poetry-ai-nukes-517442570-522586638.jpg"
         },
         {
           "id": "https://news.ycombinator.com/item?id=46137548",
@@ -1464,6 +1504,16 @@
           "wordCount": 25064,
           "title": "Norway wealth fund to vote for human rights report at Microsoft, against Nadella",
           "imageUrl": "https://image.cnbcfm.com/api/v1/image/108194599-1757020886905-gettyimages-2233036958-AI_EDUCATION_WH.jpeg?v=1764490246&w=1920&h=1080"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46096552",
+          "author": "dcminter",
+          "description": "Article URL: https://www.lopaciuk.eu/2021/03/26/apple-adb-protocol.html\nComments URL: https://news.ycombinator.com/item?id=46096552\nPoints: 59\n# Comments: 10",
+          "link": "https://www.lopaciuk.eu/2021/03/26/apple-adb-protocol.html",
+          "publishedOn": "2025-11-30T13:39:52.000Z",
+          "wordCount": 2478,
+          "title": "Apple Desktop Bus Protocol (2021)",
+          "imageUrl": null
         },
         {
           "id": "https://news.ycombinator.com/item?id=46096337",
@@ -12843,126 +12893,6 @@
           "publishedOn": "2025-11-04T14:30:23.000Z",
           "wordCount": 5503,
           "title": "Solving Every Sudoku Puzzle (2006)",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=45811093",
-          "author": "rofko",
-          "description": "Article URL: https://terra.layoutit.com\nComments URL: https://news.ycombinator.com/item?id=45811093\nPoints: 94\n# Comments: 34",
-          "link": "https://terra.layoutit.com/",
-          "publishedOn": "2025-11-04T13:58:35.000Z",
-          "wordCount": 665,
-          "title": "Show HN: A CSS-Only Terrain Generator",
-          "imageUrl": "https://terra.layoutit.com/layoutit-terra.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=45810856",
-          "author": "zesfy",
-          "description": "Article URL: https://apps.apple.com/ca/app/to-do-list-planner-zesfy/id6479947874\nComments URL: https://news.ycombinator.com/item?id=45810856\nPoints: 53\n# Comments: 39",
-          "link": "https://apps.apple.com/ca/app/to-do-list-planner-zesfy/id6479947874",
-          "publishedOn": "2025-11-04T13:34:45.000Z",
-          "wordCount": 6443,
-          "title": "Show HN: I built a local-first daily planner for iOS",
-          "imageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/be/80/51/be8051bf-dc11-04b6-1f3f-a068902ba585/AppIcon-1x_U007ephone-0-1-85-220-0.png/1200x630wa.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=45810842",
-          "author": "n1sni",
-          "description": "Hi HN - I’m the developer of PingStalker, a macOS utility I built to see what’s really happening on the LAN/WLAN.\nI live in the CLI, but when it came to discovery and monitoring, I found it limiting. So I built a GUI that brings my favorite tools together in one place.\nPingStalker started because I wanted to know if something on the network was scanning my machine. I also wanted quick access to core details—external IP, Wi-Fi data, and local topology. Then I wanted more: fast, reliable scans using ARP tables and ICMP.\nAs a Wi-Fi engineer, I couldn’t stop there. I kept adding ways to surface what’s actually going on behind the scenes.\nA few highlights:\n- Performs ARP, ICMP, mDNS, and DNS scans to discover every device on your subnet, showing IP, MAC, vendor, and open ports.\n- Continuously m…",
-          "link": "https://www.pingstalker.com/?hn",
-          "publishedOn": "2025-11-04T13:33:11.000Z",
-          "wordCount": 682,
-          "title": "Show HN: PingStalker – A a macOS tool for network engineers",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=45810482",
-          "author": "BinaryIgor",
-          "description": "Article URL: https://binaryigor.com/modular-monolith-and-microservices-modularity-is-what-truly-matters.html\nComments URL: https://news.ycombinator.com/item?id=45810482\nPoints: 73\n# Comments: 46",
-          "link": "https://binaryigor.com/modular-monolith-and-microservices-modularity-is-what-truly-matters.html",
-          "publishedOn": "2025-11-04T12:57:48.000Z",
-          "wordCount": 7245,
-          "title": "Microservices? No, modularity is what matters",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=45810430",
-          "author": "shardullavekar",
-          "description": "Article URL: https://100x.bot/a/chaining-ffmpeg-with-browser-agent\nComments URL: https://news.ycombinator.com/item?id=45810430\nPoints: 53\n# Comments: 34",
-          "link": "https://100x.bot/a/chaining-ffmpeg-with-browser-agent",
-          "publishedOn": "2025-11-04T12:52:54.000Z",
-          "wordCount": 82,
-          "title": "Chaining FFmpeg with a Browser Agent",
-          "imageUrl": "https://100x.bot/asset/article/019a39f7-60fb-7e55-85e4-3dd46b2c6999/article_image"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=45810223",
-          "author": "phmx",
-          "description": "Article URL: https://mensfeld.pl/2025/11/ruby-ffi-gc-bug-hash-becomes-string/\nComments URL: https://news.ycombinator.com/item?id=45810223\nPoints: 51\n# Comments: 14",
-          "link": "https://mensfeld.pl/2025/11/ruby-ffi-gc-bug-hash-becomes-string/",
-          "publishedOn": "2025-11-04T12:36:49.000Z",
-          "wordCount": 5269,
-          "title": "When Your Hash Becomes a String: Hunting Ruby's Million-to-One Memory Bug",
-          "imageUrl": "https://cdn.mensfeld.pl/wp-content/uploads/2025/11/bug.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=45810116",
-          "author": "jerlendds",
-          "description": "Article URL: https://blog.tensorflow.org/2020/05/pose-animator-open-source-tool-to-bring-svg-characters-to-life.html\nComments URL: https://news.ycombinator.com/item?id=45810116\nPoints: 58\n# Comments: 4",
-          "link": "https://blog.tensorflow.org/2020/05/pose-animator-open-source-tool-to-bring-svg-characters-to-life.html",
-          "publishedOn": "2025-11-04T12:26:28.000Z",
-          "wordCount": 3737,
-          "title": "Pose Animator – An open source tool to bring SVG characters to life (2020)",
-          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjtZ6VXz_hF6aLYS-494KnbiPg-rStHJujKJ4V7uzxZ7AsuMCFwilkLlA3jMM7ZPHYY3lbqtX8Dwm_5Jr3cuf4y6nQogc0_vvsTpwsjFayukU5yjJg6TrmibQLZqjBlCuD4gY7Rcu908gs/w1200-h630-p-k-no-nu/movementgif.gif"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=45810048",
-          "author": "sohkamyung",
-          "description": "Article URL: https://remembersingapore.org/2025/10/30/soviet-made-cars-singapore-70s-to-90s/\nComments URL: https://news.ycombinator.com/item?id=45810048\nPoints: 74\n# Comments: 31",
-          "link": "https://remembersingapore.org/2025/10/30/soviet-made-cars-singapore-70s-to-90s/",
-          "publishedOn": "2025-11-04T12:16:54.000Z",
-          "wordCount": 10217,
-          "title": "When Soviet-made cars roamed Singapore roads",
-          "imageUrl": "https://remembersingapore.org/wp-content/uploads/2025/10/lada-1200-advert-1978-newspapersg.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=45809897",
-          "author": "exploraz",
-          "description": "Article URL: https://ladybird.org/newsletter/2025-10-31/\nComments URL: https://news.ycombinator.com/item?id=45809897\nPoints: 96\n# Comments: 10",
-          "link": "https://ladybird.org/newsletter/2025-10-31/",
-          "publishedOn": "2025-11-04T11:52:02.000Z",
-          "wordCount": 1220,
-          "title": "This Month in Ladybird – October 2025",
-          "imageUrl": "/assets/img/ladybird-purple-on-black.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=45809876",
-          "author": "signa11",
-          "description": "Article URL: https://www.theverge.com/news/812545/coda-studio-ghibli-sora-2-copyright-infringement\nComments URL: https://news.ycombinator.com/item?id=45809876\nPoints: 58\n# Comments: 46",
-          "link": "https://www.theverge.com/news/812545/coda-studio-ghibli-sora-2-copyright-infringement",
-          "publishedOn": "2025-11-04T11:47:46.000Z",
-          "wordCount": 7029,
-          "title": "Studio Ghibli, Bandai Namco, Square Enix Demand OpenAI to Stop Using Their IP",
-          "imageUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/08/STK149_AI_01.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=45809835",
-          "author": "ndhandala",
-          "description": "Article URL: https://oneuptime.com/blog/post/2025-11-03-opentelemetry-escape-from-observability-cartel/view\nComments URL: https://news.ycombinator.com/item?id=45809835\nPoints: 55\n# Comments: 44",
-          "link": "https://oneuptime.com/blog/post/2025-11-03-opentelemetry-escape-from-observability-cartel/view",
-          "publishedOn": "2025-11-04T11:42:10.000Z",
-          "wordCount": 2458,
-          "title": "OpenTelemetry: Escape Hatch from the Observability Cartel",
-          "imageUrl": "https://oneuptime.com/blog/post/2025-11-03-opentelemetry-escape-from-observability-cartel/social-media.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=45809782",
-          "author": "arnon",
-          "description": "Article URL: http://www.ai.mit.edu/courses/6.034f/psets/ps1/airtravel.pdf\nComments URL: https://news.ycombinator.com/item?id=45809782\nPoints: 52\n# Comments: 4",
-          "link": "http://www.ai.mit.edu/courses/6.034f/psets/ps1/airtravel.pdf",
-          "publishedOn": "2025-11-04T11:33:31.000Z",
-          "wordCount": 31999,
-          "title": "Computational Complexity of Air Travel Planning (2003) [pdf]",
           "imageUrl": null
         }
       ]
