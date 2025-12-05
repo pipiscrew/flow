@@ -2,10 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2025-12-05T06:39:48.802Z</updated>
+    <updated>2025-12-05T07:26:48.305Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[State Department to deny visas to fact checkers and others, citing 'censorship']]></title>
+        <id>https://news.ycombinator.com/item?id=46156979</id>
+        <link href="https://www.npr.org/2025/12/04/nx-s1-5633444/trump-content-moderation-visas-censorship"/>
+        <updated>2025-12-05T04:59:08.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.npr.org/2025/12/04/nx-s1-5633444/trump-content-moderation-visas-censorship
+Comments URL: https://news.ycombinator.com/item?id=46156979
+Points: 71
+# Comments: 23]]></summary>
+        <author>
+            <name>seattle_spring</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Netflix in exclusive talks to buy HBO]]></title>
         <id>https://news.ycombinator.com/item?id=46156880</id>
@@ -199,6 +212,19 @@ Points: 157
 # Comments: 156]]></summary>
         <author>
             <name>speckx</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[I have been writing a niche history blog for 15 years]]></title>
+        <id>https://news.ycombinator.com/item?id=46151299</id>
+        <link href="https://resobscura.substack.com/p/why-i-have-been-writing-a-niche-history"/>
+        <updated>2025-12-04T18:49:20.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://resobscura.substack.com/p/why-i-have-been-writing-a-niche-history
+Comments URL: https://news.ycombinator.com/item?id=46151299
+Points: 62
+# Comments: 10]]></summary>
+        <author>
+            <name>benbreen</name>
         </author>
     </entry>
     <entry>
@@ -16865,81 +16891,6 @@ Points: 96
 # Comments: 61]]></summary>
         <author>
             <name>CGMthrowaway</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Automating our home video imports]]></title>
-        <id>https://news.ycombinator.com/item?id=45826660</id>
-        <link href="https://pierce.dev/notes/automating-our-home-video-imports"/>
-        <updated>2025-11-05T19:13:30.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://pierce.dev/notes/automating-our-home-video-imports
-Comments URL: https://news.ycombinator.com/item?id=45826660
-Points: 58
-# Comments: 19]]></summary>
-        <author>
-            <name>icyfox</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Internet Archive's legal fights are over, but its founder mourns what was lost]]></title>
-        <id>https://news.ycombinator.com/item?id=45826500</id>
-        <link href="https://arstechnica.com/tech-policy/2025/11/the-internet-archive-survived-major-copyright-losses-whats-next/"/>
-        <updated>2025-11-05T18:59:39.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://arstechnica.com/tech-policy/2025/11/the-internet-archive-survived-major-copyright-losses-whats-next/
-Comments URL: https://news.ycombinator.com/item?id=45826500
-Points: 65
-# Comments: 24]]></summary>
-        <author>
-            <name>thinkcontext</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: See chords as flags – Visual harmony of top composers on musescore]]></title>
-        <id>https://news.ycombinator.com/item?id=45826472</id>
-        <link href="https://rawl.rocks/"/>
-        <updated>2025-11-05T18:57:09.000Z</updated>
-        <summary type="html"><![CDATA[I designed a relative piano-roll-based music notation. I used 12 colored arranged in a specific way to make visible the main effects and oppositions of Western  tonal harmony. The tonic is always white, so a manual annotation/interpretation is required for each MIDI file.
-All chords are flags of three to four colors. Minor mode is darker, major mode is lighter. Colors are arranged in thirds.
-I sorted the pieces from simple complex harmony. I also wrote a bit of text to explain what you may see. There's also a corpus of structures: hyperlinks of tags that allow you to find similar patterns throughout my corpus of 3000+ popular pieces.
-My method makes chord progressions memorizable and instantly visible in the scores. No preparation of Roman numeral analysis / chord symbols analysis is required. After a bit of training the chords will stare right in your eyes.
-It's not synesthesia, it's a missing script for tonal music which makes harmonically identical things look the same (or similar).
-I've also recorded lectures on my method in Russian (https://www.youtube.com/playlist?list=PLzQrZe3EemP5pVPYMwBJG...). I'm sorry I haven't yet found time to re-record in English.
-I've also sketched a friendlier intro: https://vpavlenko.github.io/d/
-Sorry, but this thing won't make any sense if you're color-blind.
-It's open-source: https://github.com/vpavlenko/rawl
-Earlier context: https://news.ycombinator.com/item?id=39165596
-(Back then colors were less logical, and there was no corpus of 3000+ piece annotated yet)
-Comments URL: https://news.ycombinator.com/item?id=45826472
-Points: 60
-# Comments: 6]]></summary>
-        <author>
-            <name>vitaly-pavlenko</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The state of SIMD in Rust in 2025]]></title>
-        <id>https://news.ycombinator.com/item?id=45826348</id>
-        <link href="https://shnatsel.medium.com/the-state-of-simd-in-rust-in-2025-32c263e5f53d"/>
-        <updated>2025-11-05T18:45:57.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://shnatsel.medium.com/the-state-of-simd-in-rust-in-2025-32c263e5f53d
-Comments URL: https://news.ycombinator.com/item?id=45826348
-Points: 52
-# Comments: 17]]></summary>
-        <author>
-            <name>ashvardanian</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Dillo, a multi-platform graphical web browser]]></title>
-        <id>https://news.ycombinator.com/item?id=45826266</id>
-        <link href="https://github.com/dillo-browser/dillo"/>
-        <updated>2025-11-05T18:40:32.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://github.com/dillo-browser/dillo
-Comments URL: https://news.ycombinator.com/item?id=45826266
-Points: 80
-# Comments: 33]]></summary>
-        <author>
-            <name>nazgulsenpai</name>
         </author>
     </entry>
 </feed>
