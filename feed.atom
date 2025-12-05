@@ -2,10 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2025-12-05T05:26:42.199Z</updated>
+    <updated>2025-12-05T06:39:48.802Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Netflix in exclusive talks to buy HBO]]></title>
+        <id>https://news.ycombinator.com/item?id=46156880</id>
+        <link href="https://www.cnn.com/2025/12/04/media/netflix-paramount-wbd-bidding-war-warner-bros-discovery"/>
+        <updated>2025-12-05T04:36:42.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.cnn.com/2025/12/04/media/netflix-paramount-wbd-bidding-war-warner-bros-discovery
+Comments URL: https://news.ycombinator.com/item?id=46156880
+Points: 60
+# Comments: 54]]></summary>
+        <author>
+            <name>mikeweiss</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[NeurIPS 2025 Best Paper Awards]]></title>
         <id>https://news.ycombinator.com/item?id=46155701</id>
@@ -82,6 +95,19 @@ Points: 154
 # Comments: 135]]></summary>
         <author>
             <name>cheeseblubber</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[StardustOS: Library operating system for building light-weight Unikernels]]></title>
+        <id>https://news.ycombinator.com/item?id=46154344</id>
+        <link href="https://github.com/StardustOS"/>
+        <updated>2025-12-04T22:56:08.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://github.com/StardustOS
+Comments URL: https://news.ycombinator.com/item?id=46154344
+Points: 55
+# Comments: 3]]></summary>
+        <author>
+            <name>transpute</name>
         </author>
     </entry>
     <entry>
@@ -16914,38 +16940,6 @@ Points: 80
 # Comments: 33]]></summary>
         <author>
             <name>nazgulsenpai</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[ChatGPT terms disallow its use in providing legal and medical advice to others]]></title>
-        <id>https://news.ycombinator.com/item?id=45825965</id>
-        <link href="https://www.ctvnews.ca/sci-tech/article/openai-updates-policies-so-chatgpt-wont-provide-medical-or-legal-advice/"/>
-        <updated>2025-11-05T18:11:16.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.ctvnews.ca/sci-tech/article/openai-updates-policies-so-chatgpt-wont-provide-medical-or-legal-advice/
-Comments URL: https://news.ycombinator.com/item?id=45825965
-Points: 94
-# Comments: 103]]></summary>
-        <author>
-            <name>randycupertino</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: I scraped 3B Goodreads reviews to train a better recommendation model]]></title>
-        <id>https://news.ycombinator.com/item?id=45825733</id>
-        <link href="https://book.sv/"/>
-        <updated>2025-11-05T17:50:45.000Z</updated>
-        <summary type="html"><![CDATA[Hi everyone,
-For the past couple months I've been working on a website with two main features:
-- https://book.sv - put in a list of books and get recommendations on what to read next from a model trained on over a billion reviews
-- https://book.sv/intersect - put in a list of books and find the users on Goodreads who have read them all (if you don't want to be included in these results, you can opt-out here: https://book.sv/remove-my-data)
-Technical info available here: https://book.sv/how-it-works
-Note 1: If you only provide one or two books, the model doesn't have a lot to work with and may include a handful of somewhat unrelated popular books in the results.  If you want recommendations based on just one book, click the "Similar" button next to the book after adding it to the input book list on the recommendations page.
-Note 2: This is uncommon, but if you get an unexpected non-English titled book in the results, it is probably not a mistake and it very likely has an English edition.  The "canonical" edition of a book I use for display is whatever one is the most popular, which is usually the English version, but this is not the case for all books, especially those by famous French or Russian authors.
-Comments URL: https://news.ycombinator.com/item?id=45825733
-Points: 73
-# Comments: 29]]></summary>
-        <author>
-            <name>costco</name>
         </author>
     </entry>
 </feed>
