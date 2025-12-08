@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2025-12-08T13:39:04.378Z</updated>
+    <updated>2025-12-08T14:28:40.311Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
@@ -56,6 +56,24 @@ Points: 56
 # Comments: 14]]></summary>
         <author>
             <name>robin_reala</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Lockenv – Simple encrypted secrets storage for Git]]></title>
+        <id>https://news.ycombinator.com/item?id=46189480</id>
+        <link href="https://github.com/illarion/lockenv"/>
+        <updated>2025-12-08T07:36:45.000Z</updated>
+        <summary type="html"><![CDATA[Hi!
+I got tired of setting up tools I can't explain to a team in a few words like sops or git-crypt, just to store few files with environment variables or secrets, so I built lockenv as a simple alternative.
+It's basically a password-protected vault file you commit to git. No gpg keys, no cloud, just lockenv init, set a password, and lock/unlock the secrets.
+This tool integrates with OS keyring, so you're not typing passwords constantly. Should work on Mac/Linux/Windows, but I tested it only on linux so far.
+I am not trying to replace any mature / robust solution, just making small tool for simple cases, where I want to stop sharing secrets via slack.
+Feel free to try, thank you!
+Comments URL: https://news.ycombinator.com/item?id=46189480
+Points: 53
+# Comments: 15]]></summary>
+        <author>
+            <name>shoemann</name>
         </author>
     </entry>
     <entry>
@@ -1525,6 +1543,19 @@ Points: 141
 # Comments: 91]]></summary>
         <author>
             <name>toss1</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The "confident idiot" problem: Why AI needs hard rules, not vibe checks]]></title>
+        <id>https://news.ycombinator.com/item?id=46152838</id>
+        <link href="https://steerlabs.substack.com/p/confident-idiot-problem"/>
+        <updated>2025-12-04T20:48:56.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://steerlabs.substack.com/p/confident-idiot-problem
+Comments URL: https://news.ycombinator.com/item?id=46152838
+Points: 99
+# Comments: 68]]></summary>
+        <author>
+            <name>steerlabs</name>
         </author>
     </entry>
     <entry>
@@ -17109,19 +17140,6 @@ Points: 66
 # Comments: 11]]></summary>
         <author>
             <name>sadeshmukh</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Comparing the Latitude of Europe and America]]></title>
-        <id>https://news.ycombinator.com/item?id=45862128</id>
-        <link href="https://vividmaps.com/comparing-latitude-of-europe-and-america/"/>
-        <updated>2025-11-09T01:44:26.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://vividmaps.com/comparing-latitude-of-europe-and-america/
-Comments URL: https://news.ycombinator.com/item?id=45862128
-Points: 52
-# Comments: 38]]></summary>
-        <author>
-            <name>mooreds</name>
         </author>
     </entry>
 </feed>

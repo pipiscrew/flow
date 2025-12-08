@@ -46,6 +46,16 @@
           "imageUrl": null
         },
         {
+          "id": "https://news.ycombinator.com/item?id=46189480",
+          "author": "shoemann",
+          "description": "Hi!\nI got tired of setting up tools I can't explain to a team in a few words like sops or git-crypt, just to store few files with environment variables or secrets, so I built lockenv as a simple alternative.\nIt's basically a password-protected vault file you commit to git. No gpg keys, no cloud, just lockenv init, set a password, and lock/unlock the secrets.\nThis tool integrates with OS keyring, so you're not typing passwords constantly. Should work on Mac/Linux/Windows, but I tested it only on linux so far.\nI am not trying to replace any mature / robust solution, just making small tool for simple cases, where I want to stop sharing secrets via slack.\nFeel free to try, thank you!\nComments URL: https://news.ycombinator.com/item?id=46189480\nPoints: 53\n# Comments: 15",
+          "link": "https://github.com/illarion/lockenv",
+          "publishedOn": "2025-12-08T07:36:45.000Z",
+          "wordCount": 9025,
+          "title": "Show HN: Lockenv – Simple encrypted secrets storage for Git",
+          "imageUrl": "https://opengraph.githubassets.com/50d381fee4d2748e7ed2959d333a2a18169f3f8d70aeb8352a55db22fabb3f5e/illarion/lockenv"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=46188451",
           "author": "Anon84",
           "description": "Article URL: https://247wallst.com/investing/2025/11/25/palantir-could-be-the-most-overvalued-company-that-ever-existed/\nComments URL: https://news.ycombinator.com/item?id=46188451\nPoints: 53\n# Comments: 21",
@@ -1174,6 +1184,16 @@
           "wordCount": 4815,
           "title": "Plane crashed after 3D-printed part collapsed",
           "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/28c4/live/af28cc40-d12f-11f0-91c0-a3ef1eb0ee2e.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46152838",
+          "author": "steerlabs",
+          "description": "Article URL: https://steerlabs.substack.com/p/confident-idiot-problem\nComments URL: https://news.ycombinator.com/item?id=46152838\nPoints: 99\n# Comments: 68",
+          "link": "https://steerlabs.substack.com/p/confident-idiot-problem",
+          "publishedOn": "2025-12-04T20:48:56.000Z",
+          "wordCount": null,
+          "title": "The \"confident idiot\" problem: Why AI needs hard rules, not vibe checks",
+          "imageUrl": null
         },
         {
           "id": "https://news.ycombinator.com/item?id=46152098",
@@ -12944,16 +12964,6 @@
           "wordCount": 17,
           "title": "Tabloid: The Clickbait Headline Programming Language",
           "imageUrl": "https://tabloid.thesephist.vercel.app/img/screenshot.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=45862128",
-          "author": "mooreds",
-          "description": "Article URL: https://vividmaps.com/comparing-latitude-of-europe-and-america/\nComments URL: https://news.ycombinator.com/item?id=45862128\nPoints: 52\n# Comments: 38",
-          "link": "https://vividmaps.com/comparing-latitude-of-europe-and-america/",
-          "publishedOn": "2025-11-09T01:44:26.000Z",
-          "wordCount": 4402,
-          "title": "Comparing the Latitude of Europe and America",
-          "imageUrl": "https://vividmaps.com/wp-content/uploads/2015/11/Capitals.jpg"
         }
       ]
     }
