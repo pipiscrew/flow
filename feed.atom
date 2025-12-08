@@ -2,10 +2,60 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2025-12-08T19:22:24.252Z</updated>
+    <updated>2025-12-08T20:30:09.715Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Jepsen: NATS 2.12.1]]></title>
+        <id>https://news.ycombinator.com/item?id=46196105</id>
+        <link href="https://jepsen.io/analyses/nats-2.12.1"/>
+        <updated>2025-12-08T18:51:03.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://jepsen.io/analyses/nats-2.12.1
+Comments URL: https://news.ycombinator.com/item?id=46196105
+Points: 86
+# Comments: 10]]></summary>
+        <author>
+            <name>aphyr</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Deep dive on Nvidia circular funding]]></title>
+        <id>https://news.ycombinator.com/item?id=46196076</id>
+        <link href="https://philippeoger.com/pages/deep-dive-into-nvidias-virtuous-cycle"/>
+        <updated>2025-12-08T18:48:27.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://philippeoger.com/pages/deep-dive-into-nvidias-virtuous-cycle
+Comments URL: https://news.ycombinator.com/item?id=46196076
+Points: 116
+# Comments: 53]]></summary>
+        <author>
+            <name>jeanloolz</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Quanta to publish popular math and physics books by Terence Tao and David Tong]]></title>
+        <id>https://news.ycombinator.com/item?id=46195225</id>
+        <link href="https://www.simonsfoundation.org/2025/12/08/quanta-books-to-publish-popular-math-and-physics-titles-by-terence-tao-and-david-tong/"/>
+        <updated>2025-12-08T17:39:55.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.simonsfoundation.org/2025/12/08/quanta-books-to-publish-popular-math-and-physics-titles-by-terence-tao-and-david-tong/
+Comments URL: https://news.ycombinator.com/item?id=46195225
+Points: 71
+# Comments: 15]]></summary>
+        <author>
+            <name>digital55</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Launch HN: Nia (YC S25) – Give better context to coding agents]]></title>
+        <id>https://news.ycombinator.com/item?id=46194828</id>
+        <link href="https://www.trynia.ai/"/>
+        <updated>2025-12-08T17:10:14.000Z</updated>
+        <summary type="html"><![CDATA[Hi HN, I am Arlan and I am building Nia (https://trynia.ai), a context layer for AI coding agents. Nia lets tools like Cursor, Claude Code, and other MCP clients index and query real codebases and documentation so they stop hallucinating against outdated or wrong sources, with applications beyond coding agents to any AI system that requires grounded context across domains.
+Coding agents are only as good as the context you give them. General models are trained on public code and documentation that is often old, and they usually have no idea what is inside your actual repo, internal wiki, or the exact version of a third party SDK you use. The result is very familiar: you paste URLs and code snippets into the prompt, the agent confidently uses an outdated API or the wrong framework version, a…]]></summary>
+        <author>
+            <name>jellyotsiro</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Microsoft has a problem: nobody wants to buy or use its shoddy AI products]]></title>
         <id>https://news.ycombinator.com/item?id=46194615</id>
@@ -17,6 +67,19 @@ Points: 196
 # Comments: 136]]></summary>
         <author>
             <name>mohi-kalantari</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A series of tricks and techniques I learned doing tiny GLSL demos]]></title>
+        <id>https://news.ycombinator.com/item?id=46194477</id>
+        <link href="https://blog.pkh.me/p/48-a-series-of-tricks-and-techniques-i-learned-doing-tiny-glsl-demos.html"/>
+        <updated>2025-12-08T16:44:42.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://blog.pkh.me/p/48-a-series-of-tricks-and-techniques-i-learned-doing-tiny-glsl-demos.html
+Comments URL: https://news.ycombinator.com/item?id=46194477
+Points: 59
+# Comments: 3]]></summary>
+        <author>
+            <name>ibobev</name>
         </author>
     </entry>
     <entry>
@@ -98,6 +161,19 @@ Points: 98
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[I successfully recreated the 1996 Space Jam website with Claude]]></title>
+        <id>https://news.ycombinator.com/item?id=46193412</id>
+        <link href="https://theahura.substack.com/p/i-successfully-recreated-the-1996"/>
+        <updated>2025-12-08T15:33:01.000Z</updated>
+        <summary type="html"><![CDATA[Recent and related: I failed to recreate the 1996 Space Jam website with Claude - https://news.ycombinator.com/item?id=46183294 (430 comments)
+Comments URL: https://news.ycombinator.com/item?id=46193412
+Points: 77
+# Comments: 69]]></summary>
+        <author>
+            <name>theahura</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Berkshire Hathaway Announces Leadership Appointments [pdf]]]></title>
         <id>https://news.ycombinator.com/item?id=46193116</id>
         <link href="https://berkshirehathaway.com/news/dec0825.pdf"/>
@@ -163,6 +239,19 @@ Points: 50
 # Comments: 53]]></summary>
         <author>
             <name>lattis</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Paramount launches hostile bid for Warner Bros]]></title>
+        <id>https://news.ycombinator.com/item?id=46192459</id>
+        <link href="https://www.cnbc.com/2025/12/08/paramount-skydance-hostile-bid-wbd-netflix.html"/>
+        <updated>2025-12-08T14:16:34.000Z</updated>
+        <summary type="html"><![CDATA[Previously: Netflix to Acquire Warner Bros - https://news.ycombinator.com/item?id=46160315 (1333 comments)
+Comments URL: https://news.ycombinator.com/item?id=46192459
+Points: 116
+# Comments: 95]]></summary>
+        <author>
+            <name>gniting</name>
         </author>
     </entry>
     <entry>
