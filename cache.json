@@ -6,6 +6,46 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=46199723",
+          "author": "pbui",
+          "description": "Article URL: https://andyljones.com/posts/horses.html\nComments URL: https://news.ycombinator.com/item?id=46199723\nPoints: 80\n# Comments: 39",
+          "link": "https://andyljones.com/posts/horses.html",
+          "publishedOn": "2025-12-09T00:26:35.000Z",
+          "wordCount": 1351,
+          "title": "Horses: AI progress is steady. Human equivalence is sudden",
+          "imageUrl": "https://andyljones.com/icons/robot-solid.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46199623",
+          "author": "lukeplato",
+          "description": "Article URL: https://arxiv.org/abs/2512.05117\nComments URL: https://news.ycombinator.com/item?id=46199623\nPoints: 53\n# Comments: 17",
+          "link": "https://arxiv.org/abs/2512.05117",
+          "publishedOn": "2025-12-09T00:16:46.000Z",
+          "wordCount": 722,
+          "title": "The Universal Weight Subspace Hypothesis",
+          "imageUrl": "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46199411",
+          "author": "JumpCrisscross",
+          "description": "Article URL: https://www.grocerydive.com/news/kroger-ocado-close-automated-fulfillment-centers-robotics-grocery-ecommerce/805931/\nComments URL: https://news.ycombinator.com/item?id=46199411\nPoints: 66\n# Comments: 58",
+          "link": "https://www.grocerydive.com/news/kroger-ocado-close-automated-fulfillment-centers-robotics-grocery-ecommerce/805931/",
+          "publishedOn": "2025-12-08T23:53:52.000Z",
+          "wordCount": 5825,
+          "title": "Kroger acknowledges that its bet on robotics went too far",
+          "imageUrl": "https://imgproxy.divecdn.com/f25ohK7ExO4gqsJ86gdnGfP_QY-4iktjuQNd72b1TQo/g:ce/rs:fit:770:435/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9Lcm9nZXJfT2NhZG8yMC5qcGc=.webp"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46197875",
+          "author": "mikhael",
+          "description": "Article URL: https://blockclubchicago.org/2025/12/08/delivery-robots-take-over-chicago-sidewalks-sparking-debate-and-a-petition-to-hit-pause/\nComments URL: https://news.ycombinator.com/item?id=46197875\nPoints: 75\n# Comments: 119",
+          "link": "https://blockclubchicago.org/2025/12/08/delivery-robots-take-over-chicago-sidewalks-sparking-debate-and-a-petition-to-hit-pause/",
+          "publishedOn": "2025-12-08T21:27:42.000Z",
+          "wordCount": 7292,
+          "title": "Delivery robots take over Chicago sidewalks",
+          "imageUrl": "https://bcc-newspack.s3.amazonaws.com/uploads/2025/11/112425-Robot-Delivery-Colin-Boyle-1923.jpg"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=46196831",
           "author": "samsolomon",
           "description": "Article URL: https://primer.style/accessibility/toasts/\nComments URL: https://news.ycombinator.com/item?id=46196831\nPoints: 51\n# Comments: 15",
@@ -24,6 +64,16 @@
           "wordCount": 838,
           "title": "Icons in Menus Everywhere – Send Help",
           "imageUrl": "https://cdn.jim-nielsen.com/blog/2025/context-menu-hig-donts.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46196308",
+          "author": "bikenaga",
+          "description": "Article URL: https://www.nber.org/papers/w34534\nComments URL: https://news.ycombinator.com/item?id=46196308\nPoints: 63\n# Comments: 28",
+          "link": "https://www.nber.org/papers/w34534",
+          "publishedOn": "2025-12-08T19:07:59.000Z",
+          "wordCount": 1102,
+          "title": "Trials avoid high risk patients and underestimate drug harms",
+          "imageUrl": "https://www.nber.org/sites/default/files/2022-06/NBER-FB-Share-Tile-1200.jpg"
         },
         {
           "id": "https://news.ycombinator.com/item?id=46196228",
@@ -13093,86 +13143,6 @@
           "publishedOn": "2025-11-09T14:44:06.000Z",
           "wordCount": 1512,
           "title": "About KeePassXC's Code Quality Control",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=45865546",
-          "author": "marcosiino",
-          "description": "Hello everyone,\nI’ve been building [Pipeflow-php](https://github.com/marcosiino/pipeflow-php), a PHP pipeline engine to automate anything — from content generation to backend and business logic workflows — using core modular stages and custom implemented stages (that can do anything), with the key power of using an easy to reason and read XML to define the pipeline logic, which every actor in a company, even non developers, can understand, maintain and edit.\nIt’s a *headless engine*: no UI is included, but it's designed to be easily wired into any backend interface (e.g. WordPress admin, CMS dashboard, custom panels), so *even non-developers can edit or configure the logic*.\nIt surely needs improvements, more core stages to be implemented and more features, but i'm already using it on two …",
-          "link": "https://github.com/marcosiino/pipeflow-php",
-          "publishedOn": "2025-11-09T13:40:43.000Z",
-          "wordCount": 4664,
-          "title": "Show HN: Pipeflow-PHP – Automate anything with pipelines even non-devs can edit",
-          "imageUrl": "https://opengraph.githubassets.com/49d5cb2e587878d324adad4c824edeb23cb925fab54166860e6809a774e65c09/marcosiino/pipeflow-php"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=45865327",
-          "author": "jaypatelani",
-          "description": "Article URL: https://blog.netbsd.org/tnf/entry/gsoc2025_bubblewrap_sandboxing\nComments URL: https://news.ycombinator.com/item?id=45865327\nPoints: 51\n# Comments: 16",
-          "link": "https://blog.netbsd.org/tnf/entry/gsoc2025_bubblewrap_sandboxing",
-          "publishedOn": "2025-11-09T13:09:22.000Z",
-          "wordCount": 1885,
-          "title": "Using bubblewrap to add sandboxing to NetBSD",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=45865289",
-          "author": "bilsbie",
-          "description": "Article URL: https://montananewsroom.com/montana-becomes-first-state-to-enshrine-right-to-compute-into-law/\nComments URL: https://news.ycombinator.com/item?id=45865289\nPoints: 52\n# Comments: 31",
-          "link": "https://montananewsroom.com/montana-becomes-first-state-to-enshrine-right-to-compute-into-law/",
-          "publishedOn": "2025-11-09T13:03:36.000Z",
-          "wordCount": 5550,
-          "title": "Montana Becomes First State to Enshrine 'Right to Compute' into Law",
-          "imageUrl": "https://montananewsroom.com/wp-content/uploads/2023/11/Montana-Capital-Dome-scaled.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=45865189",
-          "author": "japhyr",
-          "description": "Article URL: https://squidfunk.github.io/mkdocs-material/blog/2025/11/05/zensical/\nComments URL: https://news.ycombinator.com/item?id=45865189\nPoints: 63\n# Comments: 16",
-          "link": "https://squidfunk.github.io/mkdocs-material/blog/2025/11/05/zensical/",
-          "publishedOn": "2025-11-09T12:50:07.000Z",
-          "wordCount": 2802,
-          "title": "Zensical – A modern static site generator built by the Material for MkDocs team",
-          "imageUrl": "https://squidfunk.github.io/mkdocs-material/assets/images/social/blog/2025/11/05/zensical.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=45865159",
-          "author": "mwheeler",
-          "description": "Article URL: https://vejeta.com/reviving-classic-unix-games-a-20-year-journey-through-software-archaeology/\nComments URL: https://news.ycombinator.com/item?id=45865159\nPoints: 67\n# Comments: 15",
-          "link": "https://vejeta.com/reviving-classic-unix-games-a-20-year-journey-through-software-archaeology/",
-          "publishedOn": "2025-11-09T12:44:35.000Z",
-          "wordCount": 3881,
-          "title": "Reviving Classic Unix Games: A 20-Year Journey Through Software Archaeology",
-          "imageUrl": "https://vejeta.com/wp-content/uploads/2025/11/edificiorojo.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=45865098",
-          "author": "manbitesdog",
-          "description": "Article URL: https://alivetheory.net/\nComments URL: https://news.ycombinator.com/item?id=45865098\nPoints: 62\n# Comments: 28",
-          "link": "https://alivetheory.net/",
-          "publishedOn": "2025-11-09T12:33:38.000Z",
-          "wordCount": 5,
-          "title": "Alive internet theory",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=45865049",
-          "author": "tank-34",
-          "description": "Article URL: https://www.newsyeah.fun/voyager/\nComments URL: https://news.ycombinator.com/item?id=45865049\nPoints: 50\n# Comments: 9",
-          "link": "https://www.newsyeah.fun/voyager/",
-          "publishedOn": "2025-11-09T12:24:50.000Z",
-          "wordCount": 246,
-          "title": "Visualize FastAPI endpoints with FastAPI-Voyager",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=45864954",
-          "author": "alabhyajindal",
-          "description": "Article URL: https://www.jmeiners.com/think-in-math/\nComments URL: https://news.ycombinator.com/item?id=45864954\nPoints: 84\n# Comments: 36",
-          "link": "https://www.jmeiners.com/think-in-math/",
-          "publishedOn": "2025-11-09T12:03:15.000Z",
-          "wordCount": 2466,
-          "title": "Think in math, write in code",
           "imageUrl": null
         }
       ]

@@ -2,10 +2,62 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2025-12-08T23:24:51.137Z</updated>
+    <updated>2025-12-09T02:02:29.786Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Horses: AI progress is steady. Human equivalence is sudden]]></title>
+        <id>https://news.ycombinator.com/item?id=46199723</id>
+        <link href="https://andyljones.com/posts/horses.html"/>
+        <updated>2025-12-09T00:26:35.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://andyljones.com/posts/horses.html
+Comments URL: https://news.ycombinator.com/item?id=46199723
+Points: 80
+# Comments: 39]]></summary>
+        <author>
+            <name>pbui</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Universal Weight Subspace Hypothesis]]></title>
+        <id>https://news.ycombinator.com/item?id=46199623</id>
+        <link href="https://arxiv.org/abs/2512.05117"/>
+        <updated>2025-12-09T00:16:46.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://arxiv.org/abs/2512.05117
+Comments URL: https://news.ycombinator.com/item?id=46199623
+Points: 53
+# Comments: 17]]></summary>
+        <author>
+            <name>lukeplato</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Kroger acknowledges that its bet on robotics went too far]]></title>
+        <id>https://news.ycombinator.com/item?id=46199411</id>
+        <link href="https://www.grocerydive.com/news/kroger-ocado-close-automated-fulfillment-centers-robotics-grocery-ecommerce/805931/"/>
+        <updated>2025-12-08T23:53:52.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.grocerydive.com/news/kroger-ocado-close-automated-fulfillment-centers-robotics-grocery-ecommerce/805931/
+Comments URL: https://news.ycombinator.com/item?id=46199411
+Points: 66
+# Comments: 58]]></summary>
+        <author>
+            <name>JumpCrisscross</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Delivery robots take over Chicago sidewalks]]></title>
+        <id>https://news.ycombinator.com/item?id=46197875</id>
+        <link href="https://blockclubchicago.org/2025/12/08/delivery-robots-take-over-chicago-sidewalks-sparking-debate-and-a-petition-to-hit-pause/"/>
+        <updated>2025-12-08T21:27:42.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://blockclubchicago.org/2025/12/08/delivery-robots-take-over-chicago-sidewalks-sparking-debate-and-a-petition-to-hit-pause/
+Comments URL: https://news.ycombinator.com/item?id=46197875
+Points: 75
+# Comments: 119]]></summary>
+        <author>
+            <name>mikhael</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[GitHub no longer uses Toasts]]></title>
         <id>https://news.ycombinator.com/item?id=46196831</id>
@@ -30,6 +82,19 @@ Points: 65
 # Comments: 16]]></summary>
         <author>
             <name>ArmageddonIt</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Trials avoid high risk patients and underestimate drug harms]]></title>
+        <id>https://news.ycombinator.com/item?id=46196308</id>
+        <link href="https://www.nber.org/papers/w34534"/>
+        <updated>2025-12-08T19:07:59.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.nber.org/papers/w34534
+Comments URL: https://news.ycombinator.com/item?id=46196308
+Points: 63
+# Comments: 28]]></summary>
+        <author>
+            <name>bikenaga</name>
         </author>
     </entry>
     <entry>
@@ -17309,110 +17374,6 @@ Points: 54
 # Comments: 6]]></summary>
         <author>
             <name>haakon</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: Pipeflow-PHP – Automate anything with pipelines even non-devs can edit]]></title>
-        <id>https://news.ycombinator.com/item?id=45865546</id>
-        <link href="https://github.com/marcosiino/pipeflow-php"/>
-        <updated>2025-11-09T13:40:43.000Z</updated>
-        <summary type="html"><![CDATA[Hello everyone,
-I’ve been building [Pipeflow-php](https://github.com/marcosiino/pipeflow-php), a PHP pipeline engine to automate anything — from content generation to backend and business logic workflows — using core modular stages and custom implemented stages (that can do anything), with the key power of using an easy to reason and read XML to define the pipeline logic, which every actor in a company, even non developers, can understand, maintain and edit.
-It’s a *headless engine*: no UI is included, but it's designed to be easily wired into any backend interface (e.g. WordPress admin, CMS dashboard, custom panels), so *even non-developers can edit or configure the logic*.
-It surely needs improvements, more core stages to be implemented and more features, but i'm already using it on two …]]></summary>
-        <author>
-            <name>marcosiino</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Using bubblewrap to add sandboxing to NetBSD]]></title>
-        <id>https://news.ycombinator.com/item?id=45865327</id>
-        <link href="https://blog.netbsd.org/tnf/entry/gsoc2025_bubblewrap_sandboxing"/>
-        <updated>2025-11-09T13:09:22.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://blog.netbsd.org/tnf/entry/gsoc2025_bubblewrap_sandboxing
-Comments URL: https://news.ycombinator.com/item?id=45865327
-Points: 51
-# Comments: 16]]></summary>
-        <author>
-            <name>jaypatelani</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Montana Becomes First State to Enshrine 'Right to Compute' into Law]]></title>
-        <id>https://news.ycombinator.com/item?id=45865289</id>
-        <link href="https://montananewsroom.com/montana-becomes-first-state-to-enshrine-right-to-compute-into-law/"/>
-        <updated>2025-11-09T13:03:36.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://montananewsroom.com/montana-becomes-first-state-to-enshrine-right-to-compute-into-law/
-Comments URL: https://news.ycombinator.com/item?id=45865289
-Points: 52
-# Comments: 31]]></summary>
-        <author>
-            <name>bilsbie</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Zensical – A modern static site generator built by the Material for MkDocs team]]></title>
-        <id>https://news.ycombinator.com/item?id=45865189</id>
-        <link href="https://squidfunk.github.io/mkdocs-material/blog/2025/11/05/zensical/"/>
-        <updated>2025-11-09T12:50:07.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://squidfunk.github.io/mkdocs-material/blog/2025/11/05/zensical/
-Comments URL: https://news.ycombinator.com/item?id=45865189
-Points: 63
-# Comments: 16]]></summary>
-        <author>
-            <name>japhyr</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Reviving Classic Unix Games: A 20-Year Journey Through Software Archaeology]]></title>
-        <id>https://news.ycombinator.com/item?id=45865159</id>
-        <link href="https://vejeta.com/reviving-classic-unix-games-a-20-year-journey-through-software-archaeology/"/>
-        <updated>2025-11-09T12:44:35.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://vejeta.com/reviving-classic-unix-games-a-20-year-journey-through-software-archaeology/
-Comments URL: https://news.ycombinator.com/item?id=45865159
-Points: 67
-# Comments: 15]]></summary>
-        <author>
-            <name>mwheeler</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Alive internet theory]]></title>
-        <id>https://news.ycombinator.com/item?id=45865098</id>
-        <link href="https://alivetheory.net/"/>
-        <updated>2025-11-09T12:33:38.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://alivetheory.net/
-Comments URL: https://news.ycombinator.com/item?id=45865098
-Points: 62
-# Comments: 28]]></summary>
-        <author>
-            <name>manbitesdog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Visualize FastAPI endpoints with FastAPI-Voyager]]></title>
-        <id>https://news.ycombinator.com/item?id=45865049</id>
-        <link href="https://www.newsyeah.fun/voyager/"/>
-        <updated>2025-11-09T12:24:50.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.newsyeah.fun/voyager/
-Comments URL: https://news.ycombinator.com/item?id=45865049
-Points: 50
-# Comments: 9]]></summary>
-        <author>
-            <name>tank-34</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Think in math, write in code]]></title>
-        <id>https://news.ycombinator.com/item?id=45864954</id>
-        <link href="https://www.jmeiners.com/think-in-math/"/>
-        <updated>2025-11-09T12:03:15.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.jmeiners.com/think-in-math/
-Comments URL: https://news.ycombinator.com/item?id=45864954
-Points: 84
-# Comments: 36]]></summary>
-        <author>
-            <name>alabhyajindal</name>
         </author>
     </entry>
 </feed>
