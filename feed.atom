@@ -2,10 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2025-12-10T20:31:25.856Z</updated>
+    <updated>2025-12-10T21:28:58.955Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[I got an Nvidia GH200 server for €7.5k on Reddit and converted it to a desktop]]></title>
+        <id>https://news.ycombinator.com/item?id=46222237</id>
+        <link href="https://dnhkng.github.io/posts/hopper/"/>
+        <updated>2025-12-10T19:19:17.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://dnhkng.github.io/posts/hopper/
+Comments URL: https://news.ycombinator.com/item?id=46222237
+Points: 53
+# Comments: 9]]></summary>
+        <author>
+            <name>dnhkng</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Super Mario 64 for the PS1]]></title>
         <id>https://news.ycombinator.com/item?id=46221925</id>
@@ -17,6 +30,22 @@ Points: 58
 # Comments: 9]]></summary>
         <author>
             <name>LaserDiscMan</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Automated license plate reader coverage in the USA]]></title>
+        <id>https://news.ycombinator.com/item?id=46220794</id>
+        <link href="https://alpranalysis.com/"/>
+        <updated>2025-12-10T17:42:30.000Z</updated>
+        <summary type="html"><![CDATA[Built this over the last few days, based on a Rust codebase that parses the latest ALPR reports from OpenStreetMaps, calculates navigation statistics from every tagged residential building to nearby amenities, and tests each route for intersection with those ALPR cameras (Flock being the most widespread).
+These have gotten more controversial in recent months, due to their indiscriminate large scale data collection, with 404 Media publishing many original pieces (https://www.404media.co/tag/flock/) about their adoption and (ab)use across the country. I wanted to use open source datasets to track the rapid expansion, especially per-county, as this data can be crucial for 'deflock' movements to petition counties and city governments to ban and remove them.
+In some counties, the tracking becomes so widespread that most people can't go anywhere without being photographed. This includes possibly sensitive areas, like places of worship and medical facilities.
+The argument for their legality rests upon the notion that these cameras are equivalent to 'mere observation', but the enormous scope and data sharing agreements in place to share and access millions of records without warrants blurs the lines of the fourth amendment.
+Comments URL: https://news.ycombinator.com/item?id=46220794
+Points: 54
+# Comments: 29]]></summary>
+        <author>
+            <name>sodality2</name>
         </author>
     </entry>
     <entry>
@@ -2894,6 +2923,19 @@ Points: 69
 # Comments: 91]]></summary>
         <author>
             <name>delichon</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Super-Flat ASTs]]></title>
+        <id>https://news.ycombinator.com/item?id=46150677</id>
+        <link href="https://jhwlr.io/super-flat-ast/"/>
+        <updated>2025-12-04T18:01:09.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://jhwlr.io/super-flat-ast/
+Comments URL: https://news.ycombinator.com/item?id=46150677
+Points: 62
+# Comments: 13]]></summary>
+        <author>
+            <name>mmphosis</name>
         </author>
     </entry>
     <entry>
