@@ -2,10 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2025-12-11T09:32:00.153Z</updated>
+    <updated>2025-12-11T10:31:41.865Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[The Cost of a Closure in C]]></title>
+        <id>https://news.ycombinator.com/item?id=46228597</id>
+        <link href="https://thephd.dev/the-cost-of-a-closure-in-c-c2y"/>
+        <updated>2025-12-11T07:21:33.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://thephd.dev/the-cost-of-a-closure-in-c-c2y
+Comments URL: https://news.ycombinator.com/item?id=46228597
+Points: 63
+# Comments: 14]]></summary>
+        <author>
+            <name>ingve</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Incomplete list of mistakes in the design of CSS]]></title>
         <id>https://news.ycombinator.com/item?id=46227619</id>
@@ -242,6 +255,19 @@ Points: 79
 # Comments: 34]]></summary>
         <author>
             <name>pretext</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Launch HN: InspectMind (YC W24) – AI agent for reviewing construction drawings]]></title>
+        <id>https://news.ycombinator.com/item?id=46219386</id>
+        <link href="https://news.ycombinator.com/item?id=46219386"/>
+        <updated>2025-12-10T16:05:03.000Z</updated>
+        <summary type="html"><![CDATA[Hi HN, we're Aakash and Shuangling of InspectMind (https://www.inspectmind.ai/), an AI “plan checker” that finds issues in construction drawings, details, and specs.
+Construction drawings quietly go out with lots of errors: dimension conflicts, co-ordination gaps, material mismatches,  missing details and more. These errors turn into delays and hundreds of thousands of dollars of rework during construction. InspectMind reviews the full drawing set of a construction project in minutes. It cross-checks architecture, engineering, and specifications to catch issues that cause rework before building begins.
+Here’s a video with some examples: https://www.youtube.com/watch?v=Mvn1FyHRlLQ.
+Before this, I (Aakash) built an engineering firm that worked on ~10,000 buildings across the US. One thing th…]]></summary>
+        <author>
+            <name>aakashprasad91</name>
         </author>
     </entry>
     <entry>
@@ -1320,6 +1346,19 @@ Points: 50
 # Comments: 53]]></summary>
         <author>
             <name>lattis</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Python Workers redux: fast cold starts, packages, and a uv-first workflow]]></title>
+        <id>https://news.ycombinator.com/item?id=46192748</id>
+        <link href="https://blog.cloudflare.com/python-workers-advancements/"/>
+        <updated>2025-12-08T14:42:01.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://blog.cloudflare.com/python-workers-advancements/
+Comments URL: https://news.ycombinator.com/item?id=46192748
+Points: 53
+# Comments: 14]]></summary>
+        <author>
+            <name>dom96</name>
         </author>
     </entry>
     <entry>
@@ -17023,58 +17062,6 @@ Points: 73
 # Comments: 55]]></summary>
         <author>
             <name>vyrotek</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Four strange places to see London's Roman Wall]]></title>
-        <id>https://news.ycombinator.com/item?id=45893795</id>
-        <link href="https://diamondgeezer.blogspot.com/2025/11/odd-places-to-see-londons-roman-wall.html"/>
-        <updated>2025-11-11T22:31:41.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://diamondgeezer.blogspot.com/2025/11/odd-places-to-see-londons-roman-wall.html
-Comments URL: https://news.ycombinator.com/item?id=45893795
-Points: 62
-# Comments: 15]]></summary>
-        <author>
-            <name>zeristor</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Heroku Support for .NET 10]]></title>
-        <id>https://news.ycombinator.com/item?id=45893646</id>
-        <link href="https://www.heroku.com/blog/support-for-dotnet-10-lts-what-developers-need-know/"/>
-        <updated>2025-11-11T22:18:17.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.heroku.com/blog/support-for-dotnet-10-lts-what-developers-need-know/
-Comments URL: https://news.ycombinator.com/item?id=45893646
-Points: 53
-# Comments: 19]]></summary>
-        <author>
-            <name>runesoerensen</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ditch your (mut)ex, you deserve better]]></title>
-        <id>https://news.ycombinator.com/item?id=45893592</id>
-        <link href="https://chrispenner.ca/posts/mutexes"/>
-        <updated>2025-11-11T22:11:43.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://chrispenner.ca/posts/mutexes
-Comments URL: https://news.ycombinator.com/item?id=45893592
-Points: 103
-# Comments: 120]]></summary>
-        <author>
-            <name>commandersaki</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Runit Linux: Complete Guide to Unix Init Scheme with Service Supervision]]></title>
-        <id>https://news.ycombinator.com/item?id=45893471</id>
-        <link href="https://codelucky.com/runit-linux-init-service-supervision/"/>
-        <updated>2025-11-11T21:59:34.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://codelucky.com/runit-linux-init-service-supervision/
-Comments URL: https://news.ycombinator.com/item?id=45893471
-Points: 50
-# Comments: 25]]></summary>
-        <author>
-            <name>smartmic</name>
         </author>
     </entry>
 </feed>
