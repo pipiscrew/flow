@@ -6,6 +6,16 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=46231187",
+          "author": "gbugniot",
+          "description": "Article URL: https://www.youtube.com/watch?v=Na9VmMNJvsA\nComments URL: https://news.ycombinator.com/item?id=46231187\nPoints: 63\n# Comments: 33",
+          "link": "https://www.youtube.com/watch?v=Na9VmMNJvsA",
+          "publishedOn": "2025-12-11T13:35:55.000Z",
+          "wordCount": null,
+          "title": "French supermarket's Christmas advert is worldwide hit (without AI) [video]",
+          "imageUrl": null
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=46230072",
           "author": "ta988",
           "description": "Article URL: https://www.theguardian.com/global-development/2025/dec/11/meta-shuts-down-global-accounts-linked-to-abortion-advice-and-queer-content\nComments URL: https://news.ycombinator.com/item?id=46230072\nPoints: 53\n# Comments: 10",
@@ -274,6 +284,16 @@
           "wordCount": 2575,
           "title": "COM Like a Bomb: Rust Outlook Add-in",
           "imageUrl": "/static/blog-og-image/outlook.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46218101",
+          "author": "fcavallarin",
+          "description": "Hi HN!\nI'm building a JavaScript debugger called Wirebrowser. It combines network inspection, request rewriting, heap snapshots, and live object search.\nThe main experimental feature is BDHS (Breakpoint-Driven Heap Search): it hooks into the JavaScript debugger and automatically captures a heap snapshot at every pause and performs a targeted search for the value or structure of interest.\nThis reveals the moment a value appears in memory and the user-land function responsible for creating it.\nAnother interesting feature is the Live Object Search: it inspects runtime objects (not just snapshots), supports regex and object similarity, and lets you patch objects directly at runtime.\nWhitepaper:\nhttps://fcavallarin.github.io/wirebrowser/BDHS-Origin-Trace\nFeedback very welcome, especially on whether BDHS would help your debugging workflow.\nComments URL: https://news.ycombinator.com/item?id=46218101\nPoints: 52\n# Comments: 11",
+          "link": "https://github.com/fcavallarin/wirebrowser",
+          "publishedOn": "2025-12-10T14:30:43.000Z",
+          "wordCount": 5530,
+          "title": "Show HN: Wirebrowser – A JavaScript debugger with breakpoint-driven heap search",
+          "imageUrl": "https://opengraph.githubassets.com/f38641e983c01795e71b29e3ed8946b1f5b929e88dc1c18a70108776e5f5fe90/fcavallarin/wirebrowser"
         },
         {
           "id": "https://news.ycombinator.com/item?id=46217578",

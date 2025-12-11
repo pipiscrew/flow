@@ -2,10 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2025-12-11T14:27:52.056Z</updated>
+    <updated>2025-12-11T15:32:22.474Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[French supermarket's Christmas advert is worldwide hit (without AI) [video]]]></title>
+        <id>https://news.ycombinator.com/item?id=46231187</id>
+        <link href="https://www.youtube.com/watch?v=Na9VmMNJvsA"/>
+        <updated>2025-12-11T13:35:55.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.youtube.com/watch?v=Na9VmMNJvsA
+Comments URL: https://news.ycombinator.com/item?id=46231187
+Points: 63
+# Comments: 33]]></summary>
+        <author>
+            <name>gbugniot</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Meta shuts down global accounts linked to abortion advice and queer content]]></title>
         <id>https://news.ycombinator.com/item?id=46230072</id>
@@ -359,6 +372,26 @@ Points: 54
 # Comments: 27]]></summary>
         <author>
             <name>piker</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Wirebrowser – A JavaScript debugger with breakpoint-driven heap search]]></title>
+        <id>https://news.ycombinator.com/item?id=46218101</id>
+        <link href="https://github.com/fcavallarin/wirebrowser"/>
+        <updated>2025-12-10T14:30:43.000Z</updated>
+        <summary type="html"><![CDATA[Hi HN!
+I'm building a JavaScript debugger called Wirebrowser. It combines network inspection, request rewriting, heap snapshots, and live object search.
+The main experimental feature is BDHS (Breakpoint-Driven Heap Search): it hooks into the JavaScript debugger and automatically captures a heap snapshot at every pause and performs a targeted search for the value or structure of interest.
+This reveals the moment a value appears in memory and the user-land function responsible for creating it.
+Another interesting feature is the Live Object Search: it inspects runtime objects (not just snapshots), supports regex and object similarity, and lets you patch objects directly at runtime.
+Whitepaper:
+https://fcavallarin.github.io/wirebrowser/BDHS-Origin-Trace
+Feedback very welcome, especially on whether BDHS would help your debugging workflow.
+Comments URL: https://news.ycombinator.com/item?id=46218101
+Points: 52
+# Comments: 11]]></summary>
+        <author>
+            <name>fcavallarin</name>
         </author>
     </entry>
     <entry>
