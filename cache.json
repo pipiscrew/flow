@@ -6,6 +6,46 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=46233570",
+          "author": "casca",
+          "description": "Article URL: https://www.ithoughtaboutthatalot.com/2025/the-things-i-want-to-say-to-my-boss\nComments URL: https://news.ycombinator.com/item?id=46233570\nPoints: 79\n# Comments: 51",
+          "link": "https://www.ithoughtaboutthatalot.com/2025/the-things-i-want-to-say-to-my-boss",
+          "publishedOn": "2025-12-11T16:35:48.000Z",
+          "wordCount": 957,
+          "title": "Things I want to say to my boss",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46232528",
+          "author": "walterbell",
+          "description": "Article URL: https://www.youtube.com/watch?v=hksVvXONrIo\nComments URL: https://news.ycombinator.com/item?id=46232528\nPoints: 171\n# Comments: 123",
+          "link": "https://www.youtube.com/watch?v=hksVvXONrIo",
+          "publishedOn": "2025-12-11T15:25:43.000Z",
+          "wordCount": null,
+          "title": "iPhone Typos? It's Not Just You – The iOS Keyboard Is Broken [video]",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46231585",
+          "author": "tiahura",
+          "description": "Article URL: https://www.cnbc.com/2025/12/11/disney-openai-sora-characters-video.html\nComments URL: https://news.ycombinator.com/item?id=46231585\nPoints: 227\n# Comments: 185",
+          "link": "https://www.cnbc.com/2025/12/11/disney-openai-sora-characters-video.html",
+          "publishedOn": "2025-12-11T14:12:14.000Z",
+          "wordCount": 27735,
+          "title": "Disney making $1B investment in OpenAI, will allow characters on Sora AI",
+          "imageUrl": "https://image.cnbcfm.com/api/v1/image/108240674-1765470100195-Iger2.jpg?v=1765470328&w=1920&h=1080"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46231274",
+          "author": "lukeio",
+          "description": "Article URL: https://rapha.land/craft-software-that-makes-people-feel-something/\nComments URL: https://news.ycombinator.com/item?id=46231274\nPoints: 74\n# Comments: 27",
+          "link": "https://rapha.land/craft-software-that-makes-people-feel-something/",
+          "publishedOn": "2025-12-11T13:45:08.000Z",
+          "wordCount": 605,
+          "title": "Craft software that makes people feel something",
+          "imageUrl": "https://rapha.land/assets/images/banner.jpg"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=46231187",
           "author": "gbugniot",
           "description": "Article URL: https://www.youtube.com/watch?v=Na9VmMNJvsA\nComments URL: https://news.ycombinator.com/item?id=46231187\nPoints: 63\n# Comments: 33",
@@ -546,6 +586,16 @@
           "imageUrl": "https://www.anthropic.com/api/opengraph-illustration?name=Hand%20NodePair&backgroundColor=cactus"
         },
         {
+          "id": "https://news.ycombinator.com/item?id=46206591",
+          "author": "arnabkarsarkar",
+          "description": "OP here.\nI built this because I recently caught myself almost pasting a block of logs containing AWS keys into Claude.\nThe Problem: I need the reasoning capabilities of cloud models (GPT/Claude/Gemini), but I can't trust myself not to accidentally leak PII or secrets.\nThe Solution: A Chrome extension that acts as a local middleware. It intercepts the prompt and runs a local BERT model (via a Python FastAPI backend) to scrub names, emails, and keys before the request leaves the browser.\nA few notes up front (to set expectations clearly):\nEverything runs 100% locally.\nRegex detection happens in the extension itself.\nAdvanced detection (NER) uses a small transformer model running on localhost via FastAPI.\nNo data is ever sent to a server.\nYou can verify this in the code + DevTools network panel.\nThis is an early prototype.\nThere will be rough edges. I’m looking for feedback on UX, detection quality, and whether the local-agent approach makes sense.\nTech Stack:\n Manifest V3 Chrome Extension\n Python FastAPI (Localhost)\n HuggingFace dslim/bert-base-NER\n Roadmap / Request for Feedback:\nRight now, the Python backend adds some friction. I received feedback on Reddit yesterday suggesting I port the inference to transformer.js to run entirely in-browser via WASM.\nI decided to ship v1 with the Python backend for stability, but I'm actively looking into the ONNX/WASM route for v2 to remove the local server dependency. If anyone has experience running NER models via transformer.js in a Service Worker, I’d love to hear about the performance vs native Python.\nRepo is MIT licensed.\nVery open to ideas suggestions or alternative approaches.\nComments URL: https://news.ycombinator.com/item?id=46206591\nPoints: 69\n# Comments: 29",
+          "link": "https://github.com/privacyshield-ai/privacy-firewall",
+          "publishedOn": "2025-12-09T16:10:37.000Z",
+          "wordCount": 5394,
+          "title": "Show HN: Local Privacy Firewall-blocks PII and secrets before ChatGPT sees them",
+          "imageUrl": "https://repository-images.githubusercontent.com/1111333118/4a3f39ca-8b78-4b5e-8c84-9beec6797027"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=46206531",
           "author": "razzmataks",
           "description": "Article URL: https://bruno-simon.com/\nComments URL: https://news.ycombinator.com/item?id=46206531\nPoints: 63\n# Comments: 18",
@@ -783,6 +833,16 @@
           "publishedOn": "2025-12-08T22:21:26.000Z",
           "wordCount": 3,
           "title": "Show HN: I built a system for active note-taking in regular meetings like 1-1s",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46197930",
+          "author": "Gricha",
+          "description": "Article URL: https://gricha.dev/blog/the-highest-quality-codebase\nComments URL: https://news.ycombinator.com/item?id=46197930\nPoints: 200\n# Comments: 160",
+          "link": "https://gricha.dev/blog/the-highest-quality-codebase",
+          "publishedOn": "2025-12-08T21:33:09.000Z",
+          "wordCount": 2645,
+          "title": "Show HN: I've asked Claude to improve codebase quality 200 times",
           "imageUrl": null
         },
         {

@@ -2,10 +2,62 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2025-12-11T16:38:48.258Z</updated>
+    <updated>2025-12-11T17:31:23.469Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Things I want to say to my boss]]></title>
+        <id>https://news.ycombinator.com/item?id=46233570</id>
+        <link href="https://www.ithoughtaboutthatalot.com/2025/the-things-i-want-to-say-to-my-boss"/>
+        <updated>2025-12-11T16:35:48.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.ithoughtaboutthatalot.com/2025/the-things-i-want-to-say-to-my-boss
+Comments URL: https://news.ycombinator.com/item?id=46233570
+Points: 79
+# Comments: 51]]></summary>
+        <author>
+            <name>casca</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[iPhone Typos? It's Not Just You – The iOS Keyboard Is Broken [video]]]></title>
+        <id>https://news.ycombinator.com/item?id=46232528</id>
+        <link href="https://www.youtube.com/watch?v=hksVvXONrIo"/>
+        <updated>2025-12-11T15:25:43.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.youtube.com/watch?v=hksVvXONrIo
+Comments URL: https://news.ycombinator.com/item?id=46232528
+Points: 171
+# Comments: 123]]></summary>
+        <author>
+            <name>walterbell</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Disney making $1B investment in OpenAI, will allow characters on Sora AI]]></title>
+        <id>https://news.ycombinator.com/item?id=46231585</id>
+        <link href="https://www.cnbc.com/2025/12/11/disney-openai-sora-characters-video.html"/>
+        <updated>2025-12-11T14:12:14.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.cnbc.com/2025/12/11/disney-openai-sora-characters-video.html
+Comments URL: https://news.ycombinator.com/item?id=46231585
+Points: 227
+# Comments: 185]]></summary>
+        <author>
+            <name>tiahura</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Craft software that makes people feel something]]></title>
+        <id>https://news.ycombinator.com/item?id=46231274</id>
+        <link href="https://rapha.land/craft-software-that-makes-people-feel-something/"/>
+        <updated>2025-12-11T13:45:08.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://rapha.land/craft-software-that-makes-people-feel-something/
+Comments URL: https://news.ycombinator.com/item?id=46231274
+Points: 74
+# Comments: 27]]></summary>
+        <author>
+            <name>lukeio</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[French supermarket's Christmas advert is worldwide hit (without AI) [video]]]></title>
         <id>https://news.ycombinator.com/item?id=46231187</id>
@@ -721,6 +773,39 @@ Points: 55
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Show HN: Local Privacy Firewall-blocks PII and secrets before ChatGPT sees them]]></title>
+        <id>https://news.ycombinator.com/item?id=46206591</id>
+        <link href="https://github.com/privacyshield-ai/privacy-firewall"/>
+        <updated>2025-12-09T16:10:37.000Z</updated>
+        <summary type="html"><![CDATA[OP here.
+I built this because I recently caught myself almost pasting a block of logs containing AWS keys into Claude.
+The Problem: I need the reasoning capabilities of cloud models (GPT/Claude/Gemini), but I can't trust myself not to accidentally leak PII or secrets.
+The Solution: A Chrome extension that acts as a local middleware. It intercepts the prompt and runs a local BERT model (via a Python FastAPI backend) to scrub names, emails, and keys before the request leaves the browser.
+A few notes up front (to set expectations clearly):
+Everything runs 100% locally.
+Regex detection happens in the extension itself.
+Advanced detection (NER) uses a small transformer model running on localhost via FastAPI.
+No data is ever sent to a server.
+You can verify this in the code + DevTools network panel.
+This is an early prototype.
+There will be rough edges. I’m looking for feedback on UX, detection quality, and whether the local-agent approach makes sense.
+Tech Stack:
+ Manifest V3 Chrome Extension
+ Python FastAPI (Localhost)
+ HuggingFace dslim/bert-base-NER
+ Roadmap / Request for Feedback:
+Right now, the Python backend adds some friction. I received feedback on Reddit yesterday suggesting I port the inference to transformer.js to run entirely in-browser via WASM.
+I decided to ship v1 with the Python backend for stability, but I'm actively looking into the ONNX/WASM route for v2 to remove the local server dependency. If anyone has experience running NER models via transformer.js in a Service Worker, I’d love to hear about the performance vs native Python.
+Repo is MIT licensed.
+Very open to ideas suggestions or alternative approaches.
+Comments URL: https://news.ycombinator.com/item?id=46206591
+Points: 69
+# Comments: 29]]></summary>
+        <author>
+            <name>arnabkarsarkar</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Handsdown one of the coolest 3D websites]]></title>
         <id>https://news.ycombinator.com/item?id=46206531</id>
         <link href="https://bruno-simon.com/"/>
@@ -1046,6 +1131,19 @@ Points: 65
 # Comments: 32]]></summary>
         <author>
             <name>davnicwil</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: I've asked Claude to improve codebase quality 200 times]]></title>
+        <id>https://news.ycombinator.com/item?id=46197930</id>
+        <link href="https://gricha.dev/blog/the-highest-quality-codebase"/>
+        <updated>2025-12-08T21:33:09.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://gricha.dev/blog/the-highest-quality-codebase
+Comments URL: https://news.ycombinator.com/item?id=46197930
+Points: 200
+# Comments: 160]]></summary>
+        <author>
+            <name>Gricha</name>
         </author>
     </entry>
     <entry>
