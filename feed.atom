@@ -2,10 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2025-12-11T20:29:46.451Z</updated>
+    <updated>2025-12-11T21:28:24.861Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[My productivity app is a never-ending .txt file (2020)]]></title>
+        <id>https://news.ycombinator.com/item?id=46236037</id>
+        <link href="https://jeffhuang.com/productivity_text_file/"/>
+        <updated>2025-12-11T19:30:58.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://jeffhuang.com/productivity_text_file/
+Comments URL: https://news.ycombinator.com/item?id=46236037
+Points: 68
+# Comments: 45]]></summary>
+        <author>
+            <name>simonebrunozzi</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Pop_OS 24.04 LTS with COSMIC desktop environment]]></title>
         <id>https://news.ycombinator.com/item?id=46235618</id>
@@ -148,6 +161,20 @@ Points: 171
 # Comments: 123]]></summary>
         <author>
             <name>walterbell</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Launch HN: BrowserBook (YC F24) – IDE for deterministic browser automation]]></title>
+        <id>https://news.ycombinator.com/item?id=46232434</id>
+        <link href="https://news.ycombinator.com/item?id=46232434"/>
+        <updated>2025-12-11T15:18:51.000Z</updated>
+        <summary type="html"><![CDATA[Hey HN!  We’re Chris, Jorrie, and Evan of BrowserBook, an IDE for writing and debugging Playwright-based web automations. You can download it as a Mac app here: https://browserbook.com, and there’s a demo video at https://www.youtube.com/watch?v=ODGJBCNqGUI.
+Why we built this: When we were going through YC, we were a company that automated back-office healthcare workflows.  Since the interoperability ecosystem in healthcare is so fragmented, we started using browser agents to automate EMRs, practice management software, and payment portals directly through the web. When we did, we ran into a ton of problems:
+Speed: High latency on LLM calls vs. a scripting approach
+Cost: We burned through tokens with all the context we needed to make the automations reasonably accurate
+Reliability: Even wi…]]></summary>
+        <author>
+            <name>cschlaepfer</name>
         </author>
     </entry>
     <entry>
@@ -17246,19 +17273,6 @@ Points: 157
 # Comments: 49]]></summary>
         <author>
             <name>bertman</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[What happened to Transmeta, the last big dotcom IPO]]></title>
-        <id>https://news.ycombinator.com/item?id=45897935</id>
-        <link href="https://dfarq.homeip.net/what-happened-to-transmeta-the-last-big-dotcom-ipo/"/>
-        <updated>2025-11-12T09:01:41.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://dfarq.homeip.net/what-happened-to-transmeta-the-last-big-dotcom-ipo/
-Comments URL: https://news.ycombinator.com/item?id=45897935
-Points: 56
-# Comments: 25]]></summary>
-        <author>
-            <name>onename</name>
         </author>
     </entry>
 </feed>
