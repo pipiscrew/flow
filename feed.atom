@@ -2,10 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2025-12-13T08:31:52.712Z</updated>
+    <updated>2025-12-13T09:25:12.028Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Doxers Posing as Cops Are Tricking Big Tech Firms into Sharing People's Data]]></title>
+        <id>https://news.ycombinator.com/item?id=46252171</id>
+        <link href="https://www.wired.com/story/doxers-posing-as-cops-are-tricking-big-tech-firms-into-sharing-peoples-private-data/"/>
+        <updated>2025-12-13T05:06:59.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.wired.com/story/doxers-posing-as-cops-are-tricking-big-tech-firms-into-sharing-peoples-private-data/
+Comments URL: https://news.ycombinator.com/item?id=46252171
+Points: 55
+# Comments: 15]]></summary>
+        <author>
+            <name>iamnothere</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Apple has locked my Apple ID, and I have no recourse. A plea for help]]></title>
         <id>https://news.ycombinator.com/item?id=46252114</id>
@@ -17154,78 +17167,6 @@ Points: 69
 # Comments: 16]]></summary>
         <author>
             <name>tanelpoder</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Blue Origin lands New Glenn rocket booster on second try]]></title>
-        <id>https://news.ycombinator.com/item?id=45920748</id>
-        <link href="https://techcrunch.com/2025/11/13/blue-origin-lands-new-glenn-rocket-booster-on-second-try/"/>
-        <updated>2025-11-13T21:24:25.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://techcrunch.com/2025/11/13/blue-origin-lands-new-glenn-rocket-booster-on-second-try/
-Comments URL: https://news.ycombinator.com/item?id=45920748
-Points: 57
-# Comments: 11]]></summary>
-        <author>
-            <name>perihelions</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[OpenMANET Wi-Fi HaLow open-source project for Raspberry Pi–based MANET radios]]></title>
-        <id>https://news.ycombinator.com/item?id=45920677</id>
-        <link href="https://openmanet.net/"/>
-        <updated>2025-11-13T21:18:14.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://openmanet.net/
-Comments URL: https://news.ycombinator.com/item?id=45920677
-Points: 67
-# Comments: 21]]></summary>
-        <author>
-            <name>hexmiles</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Programming the Commodore 64 with .NET]]></title>
-        <id>https://news.ycombinator.com/item?id=45920490</id>
-        <link href="https://retroc64.github.io/"/>
-        <updated>2025-11-13T21:02:40.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://retroc64.github.io/
-Comments URL: https://news.ycombinator.com/item?id=45920490
-Points: 64
-# Comments: 8]]></summary>
-        <author>
-            <name>mariuz</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Needy Programs]]></title>
-        <id>https://news.ycombinator.com/item?id=45920307</id>
-        <link href="https://tonsky.me/blog/needy-programs/"/>
-        <updated>2025-11-13T20:46:47.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://tonsky.me/blog/needy-programs/
-Comments URL: https://news.ycombinator.com/item?id=45920307
-Points: 60
-# Comments: 6]]></summary>
-        <author>
-            <name>robenkleene</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: DBOS Java – Postgres-Backed Durable Workflows]]></title>
-        <id>https://news.ycombinator.com/item?id=45920156</id>
-        <link href="https://github.com/dbos-inc/dbos-transact-java"/>
-        <updated>2025-11-13T20:33:43.000Z</updated>
-        <summary type="html"><![CDATA[Hi HN - I’m Peter, here with Harry (devhawk), and we’re building DBOS Java, an open-source Java library for durable workflows, backed by Postgres.
-https://github.com/dbos-inc/dbos-transact-java
-Essentially, DBOS helps you write long-lived, reliable code that can survive failures, restarts, and crashes without losing state or duplicating work. As your workflows run, it checkpoints each step they take in a Postgres database. When a process stops (fails, restarts, or crashes), your program can recover from those checkpoints to restore its exact state and continue from where it left off, as if nothing happened.
-In practice, this makes it easier to build reliable systems for use cases like AI agents, payments, data synchronization, or anything that takes hours, days, or weeks to complete. Rather than bolting on ad-hoc retry logic and database checkpoints, durable workflows give you one consistent model for ensuring your programs can recover from any failure from exactly where they left off.
-This library contains all you need to add durable workflows to your program: there's no separate service or orchestrator or any external dependencies except Postgres. Because it's just a library, you can incrementally add it to your projects, and it works out of the box with frameworks like Spring. And because it's built on Postgres, it natively supports all the tooling you're familiar with (backups, GUIs, CLI tools) and works with any Postgres provider.
-If you want to try it out, check out the quickstart:
-https://docs.dbos.dev/quickstart?language=java
-We'd love to hear what you think! We’ll be in the comments for the rest of the day to answer any questions.
-Comments URL: https://news.ycombinator.com/item?id=45920156
-Points: 53
-# Comments: 29]]></summary>
-        <author>
-            <name>KraftyOne</name>
         </author>
     </entry>
 </feed>
