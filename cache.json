@@ -6,6 +6,36 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=46279123",
+          "author": "e_daigle",
+          "description": "Article URL: https://ericdaigle.ca/posts/super-secure-maga-messaging-app-leaks-everyones-phone-number/\nComments URL: https://news.ycombinator.com/item?id=46279123\nPoints: 220\n# Comments: 68",
+          "link": "https://ericdaigle.ca/posts/super-secure-maga-messaging-app-leaks-everyones-phone-number/",
+          "publishedOn": "2025-12-15T19:23:51.000Z",
+          "wordCount": 2448,
+          "title": "“Super secure” MAGA-themed messaging app leaks everyone's phone number",
+          "imageUrl": "https://ericdaigle.ca/og-image.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46279053",
+          "author": "makaimc",
+          "description": "Article URL: https://liveandletsfly.com/united-airlines-777-200-future/\nComments URL: https://news.ycombinator.com/item?id=46279053\nPoints: 59\n# Comments: 45",
+          "link": "https://liveandletsfly.com/united-airlines-777-200-future/",
+          "publishedOn": "2025-12-15T19:19:23.000Z",
+          "wordCount": 6624,
+          "title": "United 777-200 fleet faces an uncertain future after Dulles engine failure",
+          "imageUrl": "https://liveandletsfly.com/wp-content/uploads/2024/11/United-Airlines-777-200-Premium-Economy-Review-16.jpeg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46278857",
+          "author": "LorenDB",
+          "description": "Article URL: https://blog.vaxry.net/articles/2025-dbusSucks\nComments URL: https://news.ycombinator.com/item?id=46278857\nPoints: 161\n# Comments: 85",
+          "link": "https://blog.vaxry.net/articles/2025-dbusSucks",
+          "publishedOn": "2025-12-15T19:07:10.000Z",
+          "wordCount": 1852,
+          "title": "D-Bus is a disgrace to the Linux desktop",
+          "imageUrl": "https://blog.vaxry.net/resource/avatar.jpg"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=46277381",
           "author": "hn_acker",
           "description": "Article URL: https://pluralistic.net/2025/12/15/class-war-labor-peace/\nComments URL: https://news.ycombinator.com/item?id=46277381\nPoints: 56\n# Comments: 36",
@@ -24,6 +54,16 @@
           "wordCount": 568,
           "title": "US Tech Force",
           "imageUrl": "https://techforce.gov/images/og-image.webp"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46277090",
+          "author": "toomuchtodo",
+          "description": "Article URL: https://www.science.org/doi/10.1126/sciadv.adx7892\nComments URL: https://news.ycombinator.com/item?id=46277090\nPoints: 52\n# Comments: 10",
+          "link": "https://www.science.org/doi/10.1126/sciadv.adx7892",
+          "publishedOn": "2025-12-15T17:01:42.000Z",
+          "wordCount": null,
+          "title": "Cosmic-ray bath in a past supernova gives birth to Earth-like planets",
+          "imageUrl": null
         },
         {
           "id": "https://news.ycombinator.com/item?id=46276740",
@@ -374,6 +414,16 @@
           "wordCount": 2068,
           "title": "GraphQL: The enterprise honeymoon is over",
           "imageUrl": "https://cdn.sanity.io/images/gq0n5o36/production/b78d3be6a3c86ba719624ea47ddf70541542b173-1536x1024.png?rect=0,109,1536,806&w=1200&h=630"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46264657",
+          "author": "keepamovin",
+          "description": "Hello HN,\nI basically don't use notifications for anything. The noise is too much. Slack is too loud. Email is too slow. But sometimes you do need a note in your face.\nI found myself missing 1990s pagers. I wanted a digital equivalent - something that does one thing: beep until I ack it.\nSo I built UDP-7777.\nConcept:\n- 0% Cloud: It listens on UDP Port 7777. No accounts, no central servers. You don't need Tailscale/ZeroTier/WG/etc, it's just easy for device sets.\n- CAPCODES: It maps your IP address (LAN or Tailscale) to a retro 10-digit \"CAPCODE\" that looks like a phone number (e.g., (213) 070-6433 for loopback).\n- Minimalism: Bare-bones interface. Just a box, a few buttons, and a big red blinker.\nThe Tech:\nIt's a single binary written in Go (using Fyne). It implements \"burst fire\" UDP (sending packets 3x) to ensure delivery without the handshake overhead of TCP.\nNew in v2.2.7:\n- Frequency Tuning: Bind specifically to your Tailscale/ZeroTier interface.\n- Squelch: Optional shared-secret keys to ignore unauthorized packets.\n- Heartbeat: Visual/Audio alerts that persist until you physically click ACK.\nI built this for anyone looking to cut through the noise—DevOps teams handing off the \"on-call IP\", or deep-work focus where you only want interruptions from a\nhigh-trust circle.\nI'd love to hear your thoughts on the IP-to-Phone-Number mapping logic (it's purely visual, but I'm really into it).\nSite & Binaries (Signed for Mac/Win): https://udp7777.com\nComments URL: https://news.ycombinator.com/item?id=46264657\nPoints: 56\n# Comments: 25",
+          "link": "https://www.udp7777.com/",
+          "publishedOn": "2025-12-14T17:10:08.000Z",
+          "wordCount": 909,
+          "title": "Show HN: A pager",
+          "imageUrl": null
         },
         {
           "id": "https://news.ycombinator.com/item?id=46264492",
@@ -904,6 +954,16 @@
           "wordCount": 3408,
           "title": "50 years of proof assistants",
           "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46250259",
+          "author": "1659447091",
+          "description": "Article URL: https://www.bbc.com/news/articles/cp34442z25ko\nComments URL: https://news.ycombinator.com/item?id=46250259\nPoints: 81\n# Comments: 16",
+          "link": "https://www.bbc.com/news/articles/cp34442z25ko",
+          "publishedOn": "2025-12-12T23:21:02.000Z",
+          "wordCount": 5004,
+          "title": "US TikTok investors in limbo as deal set to be delayed again",
+          "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/2134/live/3e8e0eb0-d778-11f0-825e-eb4c8fb7e95e.jpg"
         },
         {
           "id": "https://news.ycombinator.com/item?id=46249538",
@@ -13194,16 +13254,6 @@
           "wordCount": null,
           "title": "Maybe You're Not Actually Trying",
           "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=45943486",
-          "author": "Fiveplus",
-          "description": "Article URL: https://www.dropbox.com/scl/fo/0e4qbvj7w8cwxdlpo010c/AHCMfNHmj03nPnJ-VKDYRvA?dl=0&e=1&noscript=1&preview=Facebook%2Btext%2Blog%2Bbetween%2BMark%2BZuckerberg%2Band%2BKevin%2BSystrom.pdf&rlkey=43f3smc5zi5v82h986hujmvfb\nComments URL: https://news.ycombinator.com/item?id=45943486\nPoints: 55\n# Comments: 4",
-          "link": "https://www.dropbox.com/scl/fo/0e4qbvj7w8cwxdlpo010c/AHCMfNHmj03nPnJ-VKDYRvA?dl=0&e=1&noscript=1&preview=Facebook%2Btext%2Blog%2Bbetween%2BMark%2BZuckerberg%2Band%2BKevin%2BSystrom.pdf&rlkey=43f3smc5zi5v82h986hujmvfb",
-          "publishedOn": "2025-11-16T07:55:09.000Z",
-          "wordCount": 2539,
-          "title": "Facebook Text Log Between Mark Zuckerberg and Kevin Systrom(Instagram Cofounder)",
-          "imageUrl": "https://www.dropbox.com/static/metaserver/static/images/opengraph/opengraph-content-icon-folder-dropbox-landscape.png"
         }
       ]
     }

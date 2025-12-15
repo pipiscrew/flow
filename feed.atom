@@ -2,10 +2,49 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2025-12-15T19:24:50.392Z</updated>
+    <updated>2025-12-15T20:31:27.369Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[“Super secure” MAGA-themed messaging app leaks everyone's phone number]]></title>
+        <id>https://news.ycombinator.com/item?id=46279123</id>
+        <link href="https://ericdaigle.ca/posts/super-secure-maga-messaging-app-leaks-everyones-phone-number/"/>
+        <updated>2025-12-15T19:23:51.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://ericdaigle.ca/posts/super-secure-maga-messaging-app-leaks-everyones-phone-number/
+Comments URL: https://news.ycombinator.com/item?id=46279123
+Points: 220
+# Comments: 68]]></summary>
+        <author>
+            <name>e_daigle</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[United 777-200 fleet faces an uncertain future after Dulles engine failure]]></title>
+        <id>https://news.ycombinator.com/item?id=46279053</id>
+        <link href="https://liveandletsfly.com/united-airlines-777-200-future/"/>
+        <updated>2025-12-15T19:19:23.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://liveandletsfly.com/united-airlines-777-200-future/
+Comments URL: https://news.ycombinator.com/item?id=46279053
+Points: 59
+# Comments: 45]]></summary>
+        <author>
+            <name>makaimc</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[D-Bus is a disgrace to the Linux desktop]]></title>
+        <id>https://news.ycombinator.com/item?id=46278857</id>
+        <link href="https://blog.vaxry.net/articles/2025-dbusSucks"/>
+        <updated>2025-12-15T19:07:10.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://blog.vaxry.net/articles/2025-dbusSucks
+Comments URL: https://news.ycombinator.com/item?id=46278857
+Points: 161
+# Comments: 85]]></summary>
+        <author>
+            <name>LorenDB</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Break up bad companies; replace bad union bosses]]></title>
         <id>https://news.ycombinator.com/item?id=46277381</id>
@@ -30,6 +69,19 @@ Points: 55
 # Comments: 75]]></summary>
         <author>
             <name>purple_ferret</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Cosmic-ray bath in a past supernova gives birth to Earth-like planets]]></title>
+        <id>https://news.ycombinator.com/item?id=46277090</id>
+        <link href="https://www.science.org/doi/10.1126/sciadv.adx7892"/>
+        <updated>2025-12-15T17:01:42.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.science.org/doi/10.1126/sciadv.adx7892
+Comments URL: https://news.ycombinator.com/item?id=46277090
+Points: 52
+# Comments: 10]]></summary>
+        <author>
+            <name>toomuchtodo</name>
         </author>
     </entry>
     <entry>
@@ -485,6 +537,36 @@ Points: 72
 # Comments: 55]]></summary>
         <author>
             <name>johnjames4214</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: A pager]]></title>
+        <id>https://news.ycombinator.com/item?id=46264657</id>
+        <link href="https://www.udp7777.com/"/>
+        <updated>2025-12-14T17:10:08.000Z</updated>
+        <summary type="html"><![CDATA[Hello HN,
+I basically don't use notifications for anything. The noise is too much. Slack is too loud. Email is too slow. But sometimes you do need a note in your face.
+I found myself missing 1990s pagers. I wanted a digital equivalent - something that does one thing: beep until I ack it.
+So I built UDP-7777.
+Concept:
+- 0% Cloud: It listens on UDP Port 7777. No accounts, no central servers. You don't need Tailscale/ZeroTier/WG/etc, it's just easy for device sets.
+- CAPCODES: It maps your IP address (LAN or Tailscale) to a retro 10-digit "CAPCODE" that looks like a phone number (e.g., (213) 070-6433 for loopback).
+- Minimalism: Bare-bones interface. Just a box, a few buttons, and a big red blinker.
+The Tech:
+It's a single binary written in Go (using Fyne). It implements "burst fire" UDP (sending packets 3x) to ensure delivery without the handshake overhead of TCP.
+New in v2.2.7:
+- Frequency Tuning: Bind specifically to your Tailscale/ZeroTier interface.
+- Squelch: Optional shared-secret keys to ignore unauthorized packets.
+- Heartbeat: Visual/Audio alerts that persist until you physically click ACK.
+I built this for anyone looking to cut through the noise—DevOps teams handing off the "on-call IP", or deep-work focus where you only want interruptions from a
+high-trust circle.
+I'd love to hear your thoughts on the IP-to-Phone-Number mapping logic (it's purely visual, but I'm really into it).
+Site & Binaries (Signed for Mac/Win): https://udp7777.com
+Comments URL: https://news.ycombinator.com/item?id=46264657
+Points: 56
+# Comments: 25]]></summary>
+        <author>
+            <name>keepamovin</name>
         </author>
     </entry>
     <entry>
@@ -1178,6 +1260,19 @@ Points: 50
 # Comments: 4]]></summary>
         <author>
             <name>baruchel</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[US TikTok investors in limbo as deal set to be delayed again]]></title>
+        <id>https://news.ycombinator.com/item?id=46250259</id>
+        <link href="https://www.bbc.com/news/articles/cp34442z25ko"/>
+        <updated>2025-12-12T23:21:02.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.bbc.com/news/articles/cp34442z25ko
+Comments URL: https://news.ycombinator.com/item?id=46250259
+Points: 81
+# Comments: 16]]></summary>
+        <author>
+            <name>1659447091</name>
         </author>
     </entry>
     <entry>
@@ -17478,19 +17573,6 @@ Points: 62
 # Comments: 25]]></summary>
         <author>
             <name>eatitraw</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Facebook Text Log Between Mark Zuckerberg and Kevin Systrom(Instagram Cofounder)]]></title>
-        <id>https://news.ycombinator.com/item?id=45943486</id>
-        <link href="https://www.dropbox.com/scl/fo/0e4qbvj7w8cwxdlpo010c/AHCMfNHmj03nPnJ-VKDYRvA?dl=0&amp;e=1&amp;noscript=1&amp;preview=Facebook%2Btext%2Blog%2Bbetween%2BMark%2BZuckerberg%2Band%2BKevin%2BSystrom.pdf&amp;rlkey=43f3smc5zi5v82h986hujmvfb"/>
-        <updated>2025-11-16T07:55:09.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.dropbox.com/scl/fo/0e4qbvj7w8cwxdlpo010c/AHCMfNHmj03nPnJ-VKDYRvA?dl=0&e=1&noscript=1&preview=Facebook%2Btext%2Blog%2Bbetween%2BMark%2BZuckerberg%2Band%2BKevin%2BSystrom.pdf&rlkey=43f3smc5zi5v82h986hujmvfb
-Comments URL: https://news.ycombinator.com/item?id=45943486
-Points: 55
-# Comments: 4]]></summary>
-        <author>
-            <name>Fiveplus</name>
         </author>
     </entry>
 </feed>
