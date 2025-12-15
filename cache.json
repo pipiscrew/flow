@@ -16,6 +16,36 @@
           "imageUrl": "https://media.wired.com/photos/69406460e98f502ba03d0bd9/191:100/w_1280,c_limit/Ford-Killing-All-Electric-F150-Gear-2210066233.jpg"
         },
         {
+          "id": "https://news.ycombinator.com/item?id=46281060",
+          "author": "jlian",
+          "description": "Article URL: https://johnlian.net/posts/hdmi-cec/\nComments URL: https://news.ycombinator.com/item?id=46281060\nPoints: 79\n# Comments: 27",
+          "link": "https://johnlian.net/posts/hdmi-cec/",
+          "publishedOn": "2025-12-15T21:37:09.000Z",
+          "wordCount": 3092,
+          "title": "Fix HDMI-CEC weirdness with a Raspberry Pi and a $7 cable",
+          "imageUrl": "https://johnlian.net/images/posts/hdmi-cec/featured.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46280887",
+          "author": "connor11528",
+          "description": "Article URL: https://www.thebignewsletter.com/p/secret-documents-show-pepsi-and-walmart\nComments URL: https://news.ycombinator.com/item?id=46280887\nPoints: 50\n# Comments: 10",
+          "link": "https://www.thebignewsletter.com/p/secret-documents-show-pepsi-and-walmart",
+          "publishedOn": "2025-12-15T21:24:06.000Z",
+          "wordCount": null,
+          "title": "Secret Documents Show Pepsi and Walmart Colluded to Raise Food Prices",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46280080",
+          "author": "bikenaga",
+          "description": "Article URL: https://arxiv.org/abs/2512.11146\nComments URL: https://news.ycombinator.com/item?id=46280080\nPoints: 57\n# Comments: 42",
+          "link": "https://arxiv.org/abs/2512.11146",
+          "publishedOn": "2025-12-15T20:25:18.000Z",
+          "wordCount": 664,
+          "title": "1/4 of US-Trained Scientists Eventually Leave. Is the US Giving Away Its Edge?",
+          "imageUrl": "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=46279241",
           "author": "schmuckonwheels",
           "description": "Article URL: https://community.letsencrypt.org/t/upcoming-changes-to-let-s-encrypt-certificates/243873\nComments URL: https://news.ycombinator.com/item?id=46279241\nPoints: 94\n# Comments: 26",
@@ -633,6 +663,16 @@
           "publishedOn": "2025-12-14T10:01:25.000Z",
           "wordCount": 640,
           "title": "Willison on Merchant's \"Copywriters reveal how AI has decimated their industry\"",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46261942",
+          "author": "jackzhuo",
+          "description": "I built this because I wanted a digital I Ching that honors the original math, rather than just Math.random().\nTechnical detail for the curious:\nThe simulation follows the traditional Yarrow Stalk algorithm (Da Yan). The core of this algorithm relies on modulo-4 arithmetic on the stalks remaining after a random split.\nTo make it physically realistic, I used a Box-Muller transform to simulate the user splitting the stalks with a Gaussian distribution (since humans naturally tend to split near the middle), rather than a uniform random split.\nI was worried this 'human bias' might skew the modulo probabilities, so I ran a 1-million-run Monte Carlo simulation to verify.\nThe Result: The remainders [0,1,2,3] still emerged with a near-perfect 25% distribution (deviation https://news.ycombinator.com/item?id=46261942\nPoints: 50\n# Comments: 32",
+          "link": "https://castiching.com/",
+          "publishedOn": "2025-12-14T09:44:13.000Z",
+          "wordCount": 868,
+          "title": "Show HN: I Ching simulator with accurate Yarrow Stalk probabilities",
           "imageUrl": null
         },
         {
@@ -13294,26 +13334,6 @@
           "wordCount": null,
           "title": "Anthropic's report smells a lot like bullshit",
           "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=45944158",
-          "author": "doener",
-          "description": "Article URL: https://www.iflscience.com/the-fall-of-icarus-you-have-never-seen-an-astrophotography-picture-like-this-81570\nComments URL: https://news.ycombinator.com/item?id=45944158\nPoints: 62\n# Comments: 16",
-          "link": "https://www.iflscience.com/the-fall-of-icarus-you-have-never-seen-an-astrophotography-picture-like-this-81570",
-          "publishedOn": "2025-11-16T11:02:25.000Z",
-          "wordCount": 3319,
-          "title": "Astrophotographer snaps skydiver falling in front of the sun",
-          "imageUrl": "https://assets.iflscience.com/assets/articleNo/81570/aImg/87551/fall-of-icarus-meta.jpeg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=45944056",
-          "author": "ksec",
-          "description": "Article URL: https://www.bbc.com/news/articles/c051y3d7myzo\nComments URL: https://news.ycombinator.com/item?id=45944056\nPoints: 51\n# Comments: 53",
-          "link": "https://www.bbc.com/news/articles/c051y3d7myzo",
-          "publishedOn": "2025-11-16T10:38:41.000Z",
-          "wordCount": 7167,
-          "title": "UK's first small nuclear power station to be built in north Wales",
-          "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/0f77/live/492b9290-c07e-11f0-ae46-bd64331f0fd4.jpg"
         }
       ]
     }
