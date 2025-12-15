@@ -2,10 +2,36 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2025-12-15T04:06:37.042Z</updated>
+    <updated>2025-12-15T05:31:30.954Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[SoundCloud just banned VPN access]]></title>
+        <id>https://news.ycombinator.com/item?id=46269891</id>
+        <link href="https://old.reddit.com/r/SoundCloudMusic/comments/1pltd19/soundcloud_just_banned_vpn_access/"/>
+        <updated>2025-12-15T02:51:24.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://old.reddit.com/r/SoundCloudMusic/comments/1pltd19/soundcloud_just_banned_vpn_access/
+Comments URL: https://news.ycombinator.com/item?id=46269891
+Points: 52
+# Comments: 28]]></summary>
+        <author>
+            <name>empressplay</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CapROS: Capability-Based Reliable Operating System]]></title>
+        <id>https://news.ycombinator.com/item?id=46268869</id>
+        <link href="https://www.capros.org/"/>
+        <updated>2025-12-15T00:39:31.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.capros.org/
+Comments URL: https://news.ycombinator.com/item?id=46268869
+Points: 62
+# Comments: 22]]></summary>
+        <author>
+            <name>gjvc</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Microsoft Copilot AI Comes to LG TVs, and Can't Be Deleted]]></title>
         <id>https://news.ycombinator.com/item?id=46268844</id>
@@ -1625,6 +1651,19 @@ Points: 65
 # Comments: 6]]></summary>
         <author>
             <name>philippemnoel</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Interview with Kent Overstreet (Bcachefs) [audio]]]></title>
+        <id>https://news.ycombinator.com/item?id=46231813</id>
+        <link href="https://linuxunplugged.com/644"/>
+        <updated>2025-12-11T14:29:16.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://linuxunplugged.com/644
+Comments URL: https://news.ycombinator.com/item?id=46231813
+Points: 53
+# Comments: 39]]></summary>
+        <author>
+            <name>teekert</name>
         </author>
     </entry>
     <entry>
@@ -17322,48 +17361,6 @@ Points: 76
 # Comments: 57]]></summary>
         <author>
             <name>Jimmc414</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Windhawk Windows classic theme mod for Windows 11]]></title>
-        <id>https://news.ycombinator.com/item?id=45938723</id>
-        <link href="https://windhawk.net/mods/classic-theme-enable"/>
-        <updated>2025-11-15T16:53:30.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://windhawk.net/mods/classic-theme-enable
-Comments URL: https://news.ycombinator.com/item?id=45938723
-Points: 65
-# Comments: 30]]></summary>
-        <author>
-            <name>znpy</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: Continuous Claude – run Claude Code in a loop]]></title>
-        <id>https://news.ycombinator.com/item?id=45938517</id>
-        <link href="https://github.com/AnandChowdhary/continuous-claude"/>
-        <updated>2025-11-15T16:27:49.000Z</updated>
-        <summary type="html"><![CDATA[Continuous Claude is a CLI wrapper I made that runs Claude Code in an iterative loop with persistent context, automatically driving a PR-based workflow. Each iteration creates a branch, applies a focused code change, generates a commit, opens a PR via GitHub's CLI, waits for required checks and reviews, merges if green, and records state into a shared notes file.
-This avoids the typical stateless one-shot pattern of current coding agents and enables multi-step changes without losing intermediate reasoning, test failures, or partial progress.
-The tool is useful for tasks that require many small, serial modifications: increasing test coverage, large refactors, dependency upgrades guided by release notes, or framework migrations.
-Blog post about this: https://anandchowdhary.com/blog/2025/running-claude-code-in-...
-Comments URL: https://news.ycombinator.com/item?id=45938517
-Points: 66
-# Comments: 31]]></summary>
-        <author>
-            <name>anandchowdhary</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Wealth]]></title>
-        <id>https://news.ycombinator.com/item?id=45938427</id>
-        <link href="https://saul.pw/mag/wealth/"/>
-        <updated>2025-11-15T16:16:42.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://saul.pw/mag/wealth/
-Comments URL: https://news.ycombinator.com/item?id=45938427
-Points: 69
-# Comments: 55]]></summary>
-        <author>
-            <name>andsoitis</name>
         </author>
     </entry>
 </feed>
