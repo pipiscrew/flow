@@ -6,6 +6,36 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=46301921",
+          "author": "uyzstvqs",
+          "description": "- HN errored on all authenticated requests with 502 Bad Gateway. It did still respond to a limited amount of unauthenticated requests with presumably cached pages, which did not get updated. The last post on /newest claimed \"0 minutes ago\", but was actually much older (1:32:57 PM GMT) and not the newest post.\n- This status page actually identified the outage: https://hackernews.onlineornot.com/ - Pages by Hund and Statuspal did not show the outage.\n- The last post before the outage was https://news.ycombinator.com/item?id=46301823 (1:39:59 PM GMT). The last comment was https://news.ycombinator.com/item?id=46301848 (1:41:54 PM GMT).\n- There was an average of ~4 seconds per comment just prior to the outage. Based on this, HN likely went down at 1:41:58 PM GMT.\nComments URL: https://news.ycombinator.com/item?id=46301921\nPoints: 126\n# Comments: 55",
+          "link": "https://news.ycombinator.com/item?id=46301921",
+          "publishedOn": "2025-12-17T16:48:18.000Z",
+          "wordCount": 2119,
+          "title": "Tell HN: HN Was Down",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46301903",
+          "author": "rozenmd",
+          "description": "Just trying to work out if it was just my user account (used for monitoring here: https://hackernews.onlineornot.com/incidents/yaz-eOJeARBL) or if others saw it too.\nComments URL: https://news.ycombinator.com/item?id=46301903\nPoints: 57\n# Comments: 29",
+          "link": "https://news.ycombinator.com/item?id=46301903",
+          "publishedOn": "2025-12-17T16:46:39.000Z",
+          "wordCount": 823,
+          "title": "Ask HN: Was HN just down for anyone else?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46301851",
+          "author": "meetpateltech",
+          "description": "Article URL: https://blog.google/products/gemini/gemini-3-flash/\nComments URL: https://news.ycombinator.com/item?id=46301851\nPoints: 163\n# Comments: 66",
+          "link": "https://blog.google/products/gemini/gemini-3-flash/",
+          "publishedOn": "2025-12-17T16:42:13.000Z",
+          "wordCount": 5139,
+          "title": "Gemini 3 Flash: frontier intelligence built for speed",
+          "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Gemini3Flash_Social.width-1300.png"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=46301346",
           "author": "throwaway019254",
           "description": "Article URL: https://investor.coursera.com/news/news-details/2025/Coursera-to-Combine-with-Udemy-to-Empower-the-Global-Workforce-with-Skills-for-the-AI-Era/default.aspx\nComments URL: https://news.ycombinator.com/item?id=46301346\nPoints: 66\n# Comments: 19",
@@ -13264,16 +13294,6 @@
           "wordCount": 6651,
           "title": "Google boss says AI investment boom has 'elements of irrationality'",
           "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/3315/live/e6697310-c47a-11f0-9b68-57906bffd3ed.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=45961481",
-          "author": "jnord",
-          "description": "Article URL: https://nautil.us/the-surprising-benefits-of-giving-up-1248362/\nComments URL: https://news.ycombinator.com/item?id=45961481\nPoints: 70\n# Comments: 56",
-          "link": "https://nautil.us/the-surprising-benefits-of-giving-up-1248362/",
-          "publishedOn": "2025-11-18T04:44:21.000Z",
-          "wordCount": 9125,
-          "title": "The surprising benefits of giving up",
-          "imageUrl": "https://assets.nautil.us/sites/3/nautilus/dvz7tMLk-Glick_HERO.png?auto=compress&fm=png&ixlib=php-3.3.1"
         }
       ]
     }

@@ -2,10 +2,52 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2025-12-17T16:36:44.370Z</updated>
+    <updated>2025-12-17T17:28:26.038Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Tell HN: HN Was Down]]></title>
+        <id>https://news.ycombinator.com/item?id=46301921</id>
+        <link href="https://news.ycombinator.com/item?id=46301921"/>
+        <updated>2025-12-17T16:48:18.000Z</updated>
+        <summary type="html"><![CDATA[- HN errored on all authenticated requests with 502 Bad Gateway. It did still respond to a limited amount of unauthenticated requests with presumably cached pages, which did not get updated. The last post on /newest claimed "0 minutes ago", but was actually much older (1:32:57 PM GMT) and not the newest post.
+- This status page actually identified the outage: https://hackernews.onlineornot.com/ - Pages by Hund and Statuspal did not show the outage.
+- The last post before the outage was https://news.ycombinator.com/item?id=46301823 (1:39:59 PM GMT). The last comment was https://news.ycombinator.com/item?id=46301848 (1:41:54 PM GMT).
+- There was an average of ~4 seconds per comment just prior to the outage. Based on this, HN likely went down at 1:41:58 PM GMT.
+Comments URL: https://news.ycombinator.com/item?id=46301921
+Points: 126
+# Comments: 55]]></summary>
+        <author>
+            <name>uyzstvqs</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Ask HN: Was HN just down for anyone else?]]></title>
+        <id>https://news.ycombinator.com/item?id=46301903</id>
+        <link href="https://news.ycombinator.com/item?id=46301903"/>
+        <updated>2025-12-17T16:46:39.000Z</updated>
+        <summary type="html"><![CDATA[Just trying to work out if it was just my user account (used for monitoring here: https://hackernews.onlineornot.com/incidents/yaz-eOJeARBL) or if others saw it too.
+Comments URL: https://news.ycombinator.com/item?id=46301903
+Points: 57
+# Comments: 29]]></summary>
+        <author>
+            <name>rozenmd</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Gemini 3 Flash: frontier intelligence built for speed]]></title>
+        <id>https://news.ycombinator.com/item?id=46301851</id>
+        <link href="https://blog.google/products/gemini/gemini-3-flash/"/>
+        <updated>2025-12-17T16:42:13.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://blog.google/products/gemini/gemini-3-flash/
+Comments URL: https://news.ycombinator.com/item?id=46301851
+Points: 163
+# Comments: 66]]></summary>
+        <author>
+            <name>meetpateltech</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Coursera to combine with Udemy]]></title>
         <id>https://news.ycombinator.com/item?id=46301346</id>
@@ -17596,19 +17638,6 @@ Points: 104
 # Comments: 211]]></summary>
         <author>
             <name>jillesvangurp</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The surprising benefits of giving up]]></title>
-        <id>https://news.ycombinator.com/item?id=45961481</id>
-        <link href="https://nautil.us/the-surprising-benefits-of-giving-up-1248362/"/>
-        <updated>2025-11-18T04:44:21.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://nautil.us/the-surprising-benefits-of-giving-up-1248362/
-Comments URL: https://news.ycombinator.com/item?id=45961481
-Points: 70
-# Comments: 56]]></summary>
-        <author>
-            <name>jnord</name>
         </author>
     </entry>
 </feed>
