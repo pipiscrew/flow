@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2025-12-17T05:29:21.780Z</updated>
+    <updated>2025-12-17T06:41:29.968Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
@@ -20,6 +20,39 @@ Points: 61
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Introduction to Software Development Tooling (2024)]]></title>
+        <id>https://news.ycombinator.com/item?id=46297127</id>
+        <link href="https://bernsteinbear.com/isdt/"/>
+        <updated>2025-12-17T01:26:14.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://bernsteinbear.com/isdt/
+Comments URL: https://news.ycombinator.com/item?id=46297127
+Points: 51
+# Comments: 4]]></summary>
+        <author>
+            <name>vismit2000</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Learn Japanese contextually while browsing]]></title>
+        <id>https://news.ycombinator.com/item?id=46296863</id>
+        <link href="https://lingoku.ai/learn-japanese"/>
+        <updated>2025-12-17T00:50:40.000Z</updated>
+        <summary type="html"><![CDATA[Hi HN,
+Just wanted to share a tool i've been working on to help with my own study routine. It’s a browser extension called Lingoku.
+The idea is simple: we spend hours browsing the web in English every day. This tool replaces some of the english words with Japanese vocabulary based on your japanese level (Similar to Toucan, but with a better user experience).
+It’s basically an attempt to make the "i+1" method actually passive, you understand the sentence because it's mostly english, but you pick up Japanese words naturally from the context. It uses an LLM in the backend to make sure the translations fit the context (so it distinguishes between different meanings of the same word).
+since it uses paid AI APIs for the words replacement, I couldn't make it 100% free (server costs are real, unfortunately). However, there is a "forever free" plan with daily credits that doesn't require a credit card. it should be enough for casual daily browsing.
+I built this because I struggle with Anki burnout and wanted a way to review words without feeling like i am "studying"
+It supports Chrome, Edge, and Firefox now. would love any feedback or feature requests!
+https://lingoku.ai/learn-japanese
+Comments URL: https://news.ycombinator.com/item?id=46296863
+Points: 50
+# Comments: 24]]></summary>
+        <author>
+            <name>englishcat</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[More than 100 rally against data centers at Michigan Capitol]]></title>
         <id>https://news.ycombinator.com/item?id=46296172</id>
         <link href="https://www.lansingstatejournal.com/story/news/local/2025/12/16/lansing-state-capitol-data-centers-rally-michigan/87792001007/"/>
@@ -30,6 +63,19 @@ Points: 53
 # Comments: 48]]></summary>
         <author>
             <name>rmason</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Dafny: Verification-Aware Programming Language]]></title>
+        <id>https://news.ycombinator.com/item?id=46295792</id>
+        <link href="https://dafny.org/"/>
+        <updated>2025-12-16T22:50:59.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://dafny.org/
+Comments URL: https://news.ycombinator.com/item?id=46295792
+Points: 55
+# Comments: 23]]></summary>
+        <author>
+            <name>handfuloflight</name>
         </author>
     </entry>
     <entry>
@@ -17683,71 +17729,6 @@ Points: 55
 # Comments: 21]]></summary>
         <author>
             <name>lilprince1218</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Towards Interplanetary QUIC Traffic]]></title>
-        <id>https://news.ycombinator.com/item?id=45956438</id>
-        <link href="https://ochagavia.nl/blog/towards-interplanetary-quic-traffic/"/>
-        <updated>2025-11-17T18:32:16.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://ochagavia.nl/blog/towards-interplanetary-quic-traffic/
-Comments URL: https://news.ycombinator.com/item?id=45956438
-Points: 55
-# Comments: 11]]></summary>
-        <author>
-            <name>wofo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[An official atlas of North Korea]]></title>
-        <id>https://news.ycombinator.com/item?id=45956176</id>
-        <link href="https://www.cartographerstale.com/p/an-official-atlas-of-north-korea"/>
-        <updated>2025-11-17T18:07:17.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.cartographerstale.com/p/an-official-atlas-of-north-korea
-Comments URL: https://news.ycombinator.com/item?id=45956176
-Points: 109
-# Comments: 50]]></summary>
-        <author>
-            <name>speckx</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Azure hit by 15 Tbps DDoS attack using 500k IP addresses]]></title>
-        <id>https://news.ycombinator.com/item?id=45955900</id>
-        <link href="https://www.bleepingcomputer.com/news/microsoft/microsoft-aisuru-botnet-used-500-000-ips-in-15-tbps-azure-ddos-attack/"/>
-        <updated>2025-11-17T17:39:15.000Z</updated>
-        <summary type="html"><![CDATA[https://techcommunity.microsoft.com/blog/azureinfrastructure...
-Comments URL: https://news.ycombinator.com/item?id=45955900
-Points: 97
-# Comments: 96]]></summary>
-        <author>
-            <name>speckx</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A new book about the origins of Effective Altruism]]></title>
-        <id>https://news.ycombinator.com/item?id=45955889</id>
-        <link href="https://newrepublic.com/article/202433/happened-effective-altruism"/>
-        <updated>2025-11-17T17:37:42.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://newrepublic.com/article/202433/happened-effective-altruism
-Comments URL: https://news.ycombinator.com/item?id=45955889
-Points: 50
-# Comments: 79]]></summary>
-        <author>
-            <name>Thevet</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[You only live once, self host a NAT Gateway]]></title>
-        <id>https://news.ycombinator.com/item?id=45955824</id>
-        <link href="https://www.awsistoohard.com/blog/self-hosting-nat-gateway"/>
-        <updated>2025-11-17T17:31:41.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.awsistoohard.com/blog/self-hosting-nat-gateway
-Comments URL: https://news.ycombinator.com/item?id=45955824
-Points: 70
-# Comments: 35]]></summary>
-        <author>
-            <name>veryrealsid</name>
         </author>
     </entry>
 </feed>
