@@ -6,6 +6,26 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=46309061",
+          "author": "1659447091",
+          "description": "Article URL: https://www.bbc.com/news/articles/clyzvpp8g3vo\nComments URL: https://news.ycombinator.com/item?id=46309061\nPoints: 69\n# Comments: 55",
+          "link": "https://www.bbc.com/news/articles/clyzvpp8g3vo",
+          "publishedOn": "2025-12-18T05:06:33.000Z",
+          "wordCount": 6677,
+          "title": "'Ghost jobs' are on the rise – and so are calls to ban them",
+          "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/9685/live/71183630-d101-11f0-a4c7-5dbeb8de769b.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46308893",
+          "author": "pabs3",
+          "description": "Article URL: https://www.theregister.com/2025/12/05/vizio_gpl_source_code_ruling/\nComments URL: https://news.ycombinator.com/item?id=46308893\nPoints: 68\n# Comments: 1",
+          "link": "https://www.theregister.com/2025/12/05/vizio_gpl_source_code_ruling/",
+          "publishedOn": "2025-12-18T04:27:53.000Z",
+          "wordCount": 1528,
+          "title": "Judge hints Vizio TV buyers may have rights to source code licensed under GPL",
+          "imageUrl": "https://regmedia.co.uk/2020/02/07/shutterstock_open_source_banner.jpg"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=46307973",
           "author": "cvbox",
           "description": "It's the time of the year again, so I'd be interested hear what new (and old) ideas have come up.\nPreviously asked on:\n2024 → https://news.ycombinator.com/item?id=42373343\n2023 → https://news.ycombinator.com/item?id=38467691\n2022 → https://news.ycombinator.com/item?id=34190421\n2021 → https://news.ycombinator.com/item?id=29667095\n2020 → https://news.ycombinator.com/item?id=24947167\n2019 → https://news.ycombinator.com/item?id=20899863\n2018 → https://news.ycombinator.com/item?id=17790306\n2017 → https://news.ycombinator.com/item?id=15148804\nComments URL: https://news.ycombinator.com/item?id=46307973\nPoints: 64\n# Comments: 11",
@@ -24,6 +44,16 @@
           "wordCount": 1099,
           "title": "TikTok unlawfully tracks shopping habits and use of dating apps?",
           "imageUrl": "https://noyb.eu/sites/default/files/styles/facebook/public/2025-12/shutterstock_2306948811.jpg?h=58c8a5e7&itok=pOlSvC6A"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46307306",
+          "author": "jannesblobel",
+          "description": "When working on my projects and talking to investors, I often hear:\n“Just post it on Hacker News or Reddit and show that people love it.”\nWhat I find strange is that Hacker News feels oddly opaque. I’ve never met anyone who can clearly explain how it works in practice. Not just the rules, but the dynamics: what’s repeatable, what’s luck, and what actually matters.\nBy using the Kevin Bacon-number idea: I can usually get within three degrees of separation of well-known technologists like Linus Torvalds, but I can’t seem to get within three steps of someone who confidently understands how HN works.\nSo I’m asking sincerely:\nDoes anyone here feel they understand Hacker News?\nIf so, what are the real levers, and what do people consistently misunderstand?\nPS: This question comes from a mix of genuine curiosity and personal frustration. I’m honestly trying to understand how HN works in practice.\nComments URL: https://news.ycombinator.com/item?id=46307306\nPoints: 67\n# Comments: 73",
+          "link": "https://news.ycombinator.com/item?id=46307306",
+          "publishedOn": "2025-12-17T23:58:40.000Z",
+          "wordCount": 6174,
+          "title": "Ask HN: Does anyone understand how Hacker News works?",
+          "imageUrl": null
         },
         {
           "id": "https://news.ycombinator.com/item?id=46306894",
@@ -404,6 +434,16 @@
           "wordCount": 6167,
           "title": "Letta Code",
           "imageUrl": "https://cdn.prod.website-files.com/66bb3d1f468f0f3848a20a84/69419caea50a5208e60e88d9_letta-code-blog-thumb.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46293564",
+          "author": "superstarryeyes",
+          "description": "Well, I certainly tried. I had to, because it has a certain quirk inspired by \"digital minimalism.\"\nThe quirk is that it only allows you to fetch new articles once per day (or X days).\nWhy? Let me explain...\nI want my internet content to be like a boring newspaper. You get it in the morning, and you read the whole thing while sipping your morning coffee, and then you're done! No more new information for today. No pings, no alerts, peace, quiet, zen, etc.\nBut with that, I needed it to be able to fetch all articles from my hundreds of feeds in one sitting. This is where Zig and curl optimisations come in. I tried to do all the tricks in the book. If I missed something, let me know!\nFirst off, I'm using curl multi for the network layer. The cool thing is it automatically does HTTP/2 multiplex…",
+          "link": "https://github.com/superstarryeyes/hys",
+          "publishedOn": "2025-12-16T19:55:56.000Z",
+          "wordCount": 4323,
+          "title": "Show HN: I built a fast RSS reader in Zig",
+          "imageUrl": "https://opengraph.githubassets.com/befaea68e8f0641495ef31a091a6141e6462fd11c42507501e9b06f2815586a7/superstarryeyes/hys"
         },
         {
           "id": "https://news.ycombinator.com/item?id=46293062",
@@ -13104,26 +13144,6 @@
           "wordCount": 5644,
           "title": "GitHub: Git operation failures",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=45971601",
-          "author": "busymom0",
-          "description": "https://archive.ph/Qdf2n\nComments URL: https://news.ycombinator.com/item?id=45971601\nPoints: 133\n# Comments: 71",
-          "link": "https://www.ft.com/content/064bbca0-1cb2-45ab-85f4-25fdfc318d89",
-          "publishedOn": "2025-11-18T20:29:35.000Z",
-          "wordCount": 2542,
-          "title": "Oracle is underwater on its $300B OpenAI deal",
-          "imageUrl": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F9b3bed24-4007-4ff0-9224-1d0bbdbe2a70.jpg?source=next-article&fit=scale-down&quality=highest&width=700&dpr=1"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=45970885",
-          "author": "SeenNotHeard",
-          "description": "Article URL: https://utcc.utoronto.ca/~cks/space/blog/unix/ShebangRelativePathSurprise\nComments URL: https://news.ycombinator.com/item?id=45970885\nPoints: 51\n# Comments: 42",
-          "link": "https://utcc.utoronto.ca/~cks/space/blog/unix/ShebangRelativePathSurprise",
-          "publishedOn": "2025-11-18T19:32:27.000Z",
-          "wordCount": 160,
-          "title": "A surprise with how '#!' handles its program argument in practice",
-          "imageUrl": null
         }
       ]
     }

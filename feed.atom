@@ -2,10 +2,36 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2025-12-18T07:27:32.799Z</updated>
+    <updated>2025-12-18T08:37:07.265Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA['Ghost jobs' are on the rise – and so are calls to ban them]]></title>
+        <id>https://news.ycombinator.com/item?id=46309061</id>
+        <link href="https://www.bbc.com/news/articles/clyzvpp8g3vo"/>
+        <updated>2025-12-18T05:06:33.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.bbc.com/news/articles/clyzvpp8g3vo
+Comments URL: https://news.ycombinator.com/item?id=46309061
+Points: 69
+# Comments: 55]]></summary>
+        <author>
+            <name>1659447091</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Judge hints Vizio TV buyers may have rights to source code licensed under GPL]]></title>
+        <id>https://news.ycombinator.com/item?id=46308893</id>
+        <link href="https://www.theregister.com/2025/12/05/vizio_gpl_source_code_ruling/"/>
+        <updated>2025-12-18T04:27:53.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.theregister.com/2025/12/05/vizio_gpl_source_code_ruling/
+Comments URL: https://news.ycombinator.com/item?id=46308893
+Points: 68
+# Comments: 1]]></summary>
+        <author>
+            <name>pabs3</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Ask HN: Those making $500/month on side projects in 2025 – Show and tell]]></title>
         <id>https://news.ycombinator.com/item?id=46307973</id>
@@ -39,6 +65,26 @@ Points: 58
 # Comments: 14]]></summary>
         <author>
             <name>doener</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Ask HN: Does anyone understand how Hacker News works?]]></title>
+        <id>https://news.ycombinator.com/item?id=46307306</id>
+        <link href="https://news.ycombinator.com/item?id=46307306"/>
+        <updated>2025-12-17T23:58:40.000Z</updated>
+        <summary type="html"><![CDATA[When working on my projects and talking to investors, I often hear:
+“Just post it on Hacker News or Reddit and show that people love it.”
+What I find strange is that Hacker News feels oddly opaque. I’ve never met anyone who can clearly explain how it works in practice. Not just the rules, but the dynamics: what’s repeatable, what’s luck, and what actually matters.
+By using the Kevin Bacon-number idea: I can usually get within three degrees of separation of well-known technologists like Linus Torvalds, but I can’t seem to get within three steps of someone who confidently understands how HN works.
+So I’m asking sincerely:
+Does anyone here feel they understand Hacker News?
+If so, what are the real levers, and what do people consistently misunderstand?
+PS: This question comes from a mix of genuine curiosity and personal frustration. I’m honestly trying to understand how HN works in practice.
+Comments URL: https://news.ycombinator.com/item?id=46307306
+Points: 67
+# Comments: 73]]></summary>
+        <author>
+            <name>jannesblobel</name>
         </author>
     </entry>
     <entry>
@@ -545,6 +591,21 @@ Points: 53
 # Comments: 26]]></summary>
         <author>
             <name>ascorbic</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: I built a fast RSS reader in Zig]]></title>
+        <id>https://news.ycombinator.com/item?id=46293564</id>
+        <link href="https://github.com/superstarryeyes/hys"/>
+        <updated>2025-12-16T19:55:56.000Z</updated>
+        <summary type="html"><![CDATA[Well, I certainly tried. I had to, because it has a certain quirk inspired by "digital minimalism."
+The quirk is that it only allows you to fetch new articles once per day (or X days).
+Why? Let me explain...
+I want my internet content to be like a boring newspaper. You get it in the morning, and you read the whole thing while sipping your morning coffee, and then you're done! No more new information for today. No pings, no alerts, peace, quiet, zen, etc.
+But with that, I needed it to be able to fetch all articles from my hundreds of feeds in one sitting. This is where Zig and curl optimisations come in. I tried to do all the tricks in the book. If I missed something, let me know!
+First off, I'm using curl multi for the network layer. The cool thing is it automatically does HTTP/2 multiplex…]]></summary>
+        <author>
+            <name>superstarryeyes</name>
         </author>
     </entry>
     <entry>
@@ -17387,32 +17448,6 @@ Points: 258
 # Comments: 220]]></summary>
         <author>
             <name>wilhelmklopp</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Oracle is underwater on its $300B OpenAI deal]]></title>
-        <id>https://news.ycombinator.com/item?id=45971601</id>
-        <link href="https://www.ft.com/content/064bbca0-1cb2-45ab-85f4-25fdfc318d89"/>
-        <updated>2025-11-18T20:29:35.000Z</updated>
-        <summary type="html"><![CDATA[https://archive.ph/Qdf2n
-Comments URL: https://news.ycombinator.com/item?id=45971601
-Points: 133
-# Comments: 71]]></summary>
-        <author>
-            <name>busymom0</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A surprise with how '#!' handles its program argument in practice]]></title>
-        <id>https://news.ycombinator.com/item?id=45970885</id>
-        <link href="https://utcc.utoronto.ca/~cks/space/blog/unix/ShebangRelativePathSurprise"/>
-        <updated>2025-11-18T19:32:27.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://utcc.utoronto.ca/~cks/space/blog/unix/ShebangRelativePathSurprise
-Comments URL: https://news.ycombinator.com/item?id=45970885
-Points: 51
-# Comments: 42]]></summary>
-        <author>
-            <name>SeenNotHeard</name>
         </author>
     </entry>
 </feed>
