@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2025-12-18T20:27:09.433Z</updated>
+    <updated>2025-12-18T21:22:27.098Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
@@ -17,6 +17,32 @@ Points: 117
 # Comments: 30]]></summary>
         <author>
             <name>hackermondev</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How China built its ‘Manhattan Project’ to rival the West in AI chips]]></title>
+        <id>https://news.ycombinator.com/item?id=46316907</id>
+        <link href="https://www.japantimes.co.jp/business/2025/12/18/tech/china-west-ai-chips/"/>
+        <updated>2025-12-18T18:55:34.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.japantimes.co.jp/business/2025/12/18/tech/china-west-ai-chips/
+Comments URL: https://news.ycombinator.com/item?id=46316907
+Points: 58
+# Comments: 59]]></summary>
+        <author>
+            <name>artninja1988</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[FunctionGemma 270M Model]]></title>
+        <id>https://news.ycombinator.com/item?id=46316533</id>
+        <link href="https://blog.google/technology/developers/functiongemma/"/>
+        <updated>2025-12-18T18:26:52.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://blog.google/technology/developers/functiongemma/
+Comments URL: https://news.ycombinator.com/item?id=46316533
+Points: 80
+# Comments: 26]]></summary>
+        <author>
+            <name>mariobm</name>
         </author>
     </entry>
     <entry>
@@ -56,6 +82,19 @@ Points: 84
 # Comments: 60]]></summary>
         <author>
             <name>adocomplete</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Valve Is Running Apple's Playbook in Reverse]]></title>
+        <id>https://news.ycombinator.com/item?id=46314109</id>
+        <link href="https://www.garbagecollected.dev/p/valve-the-reverse-apple"/>
+        <updated>2025-12-18T15:45:42.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.garbagecollected.dev/p/valve-the-reverse-apple
+Comments URL: https://news.ycombinator.com/item?id=46314109
+Points: 74
+# Comments: 100]]></summary>
+        <author>
+            <name>ee64a4a</name>
         </author>
     </entry>
     <entry>
@@ -545,6 +584,19 @@ Points: 93
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[How did IRC ping timeouts end up in a lawsuit?]]></title>
+        <id>https://news.ycombinator.com/item?id=46303406</id>
+        <link href="https://mjg59.dreamwidth.org/73777.html"/>
+        <updated>2025-12-17T18:25:29.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://mjg59.dreamwidth.org/73777.html
+Comments URL: https://news.ycombinator.com/item?id=46303406
+Points: 66
+# Comments: 8]]></summary>
+        <author>
+            <name>dvaun</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Doublespeed hacked, revealing what its AI-generated accounts are promoting]]></title>
         <id>https://news.ycombinator.com/item?id=46303291</id>
         <link href="https://www.404media.co/hack-reveals-the-a16z-backed-phone-farm-flooding-tiktok-with-ai-influencers/"/>
@@ -893,6 +945,19 @@ Points: 66
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Texas is suing all of the big TV makers for spying on what you watch]]></title>
+        <id>https://news.ycombinator.com/item?id=46294456</id>
+        <link href="https://www.theverge.com/news/845400/texas-tv-makers-lawsuit-samsung-sony-lg-hisense-tcl-spying"/>
+        <updated>2025-12-16T21:04:54.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.theverge.com/news/845400/texas-tv-makers-lawsuit-samsung-sony-lg-hisense-tcl-spying
+Comments URL: https://news.ycombinator.com/item?id=46294456
+Points: 143
+# Comments: 80]]></summary>
+        <author>
+            <name>tortilla</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Ty: A fast Python type checker and LSP]]></title>
         <id>https://news.ycombinator.com/item?id=46294289</id>
         <link href="https://astral.sh/blog/ty"/>
@@ -916,6 +981,28 @@ Points: 53
 # Comments: 26]]></summary>
         <author>
             <name>ascorbic</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Stop AI scrapers from hammering your self-hosted blog (using porn)]]></title>
+        <id>https://news.ycombinator.com/item?id=46294144</id>
+        <link href="https://github.com/vivienhenz24/fuzzy-canary"/>
+        <updated>2025-12-16T20:42:38.000Z</updated>
+        <summary type="html"><![CDATA[Alright so if you run a self-hosted blog, you've probably noticed AI companies scraping it for training data. And not just a little (RIP to your server bill).
+There isn't much you can do about it without cloudflare. These companies ignore robots.txt, and you're competing with teams with more resources than you. It's you vs the MJs of programming, you're not going to win.
+But there is a solution. Now I'm not going to say it's a great solution...but a solution is a solution. If your website contains content that will trigger their scraper's safeguards, it will get dropped from their data pipelines.
+So here's what fuzzycanary does: it injects hundreds of invisible links to porn websites in your HTML. The links are hidden from users but present in the DOM so that scrapers can ingest them and say "nope we won't scrape there again in the future".
+The problem with that approach is that it will absolutely nuke your website's SEO. So fuzzycanary also checks user agents and won't show the links to legitimate search engines, so Google and Bing won't see them.
+One caveat: if you're using a static site generator it will bake the links into your HTML for everyone, including googlebot. Does anyone have a work-around for this that doesn't involve using a proxy?
+Please try it out! Setup is one component or one import.
+(And don't tell me it's a terrible idea because I already know it is)
+package: https://www.npmjs.com/package/@fuzzycanary/core
+gh: https://github.com/vivienhenz24/fuzzy-canary
+Comments URL: https://news.ycombinator.com/item?id=46294144
+Points: 53
+# Comments: 12]]></summary>
+        <author>
+            <name>misterchocolat</name>
         </author>
     </entry>
     <entry>
@@ -957,6 +1044,19 @@ Points: 100
 # Comments: 88]]></summary>
         <author>
             <name>rom16384</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Meta Segment Anything Model Audio]]></title>
+        <id>https://news.ycombinator.com/item?id=46292266</id>
+        <link href="https://ai.meta.com/samaudio/"/>
+        <updated>2025-12-16T18:26:43.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://ai.meta.com/samaudio/
+Comments URL: https://news.ycombinator.com/item?id=46292266
+Points: 86
+# Comments: 9]]></summary>
+        <author>
+            <name>megaman821</name>
         </author>
     </entry>
     <entry>
@@ -17630,19 +17730,6 @@ Points: 57
 # Comments: 4]]></summary>
         <author>
             <name>lnyan</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Rust Performance Book (2020)]]></title>
-        <id>https://news.ycombinator.com/item?id=45977386</id>
-        <link href="https://nnethercote.github.io/perf-book/"/>
-        <updated>2025-11-19T09:08:10.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://nnethercote.github.io/perf-book/
-Comments URL: https://news.ycombinator.com/item?id=45977386
-Points: 65
-# Comments: 5]]></summary>
-        <author>
-            <name>vinhnx</name>
         </author>
     </entry>
 </feed>
