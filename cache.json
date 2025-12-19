@@ -6,6 +6,16 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=46324665",
+          "author": "moh_quz",
+          "description": "Hi HN, I'm Mohammed, a technical founder who loves shipping and giving back to the community. I'm open-sourcing the full-stack engine that powers my B2B product, apflow.co.\nWhat it is: A production B2B starter with a Go backend and Next.js frontend. Both are fully Dockerized with separate containers. No Vercel. No Supabase. Deploy the whole thing on a $6 VPS, or split frontend and backend across different providers. You own the infrastructure.\nThe problem I was solving:\nEvery SaaS starter I evaluated had the same issue: they locked me into someone else's platform. Vercel for hosting. PlanetScale for the database. Serverless functions billing per invocation. Fine for prototypes, but costs become unpredictable at scale and migrating away is painful.\nI wanted something I could deploy on any L…",
+          "link": "https://github.com/moasq/production-saas-starter",
+          "publishedOn": "2025-12-19T11:34:11.000Z",
+          "wordCount": 2841,
+          "title": "Show HN: I open-sourced my Go and Next B2B SaaS Starter (deploy anywhere, MIT)",
+          "imageUrl": "https://opengraph.githubassets.com/80b3b5d1c9509d279ba4efc406e4894108dfcc60988236f19c3764c1ce46ebc6/moasq/production-saas-starter"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=46324579",
           "author": "keepamovin",
           "description": "Article URL: https://dosaygo-studio.github.io/hn-front-page-2035/news-max.html\nComments URL: https://news.ycombinator.com/item?id=46324579\nPoints: 70\n# Comments: 27",
@@ -13134,16 +13144,6 @@
           "wordCount": 4763,
           "title": "Details about the shebang/hash-bang mechanism on various Unix flavours (2001)",
           "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=45988278",
-          "author": "todsacerdoti",
-          "description": "Article URL: https://mastodon.sdf.org/@fvzappa/115574872559813280\nComments URL: https://news.ycombinator.com/item?id=45988278\nPoints: 51\n# Comments: 9",
-          "link": "https://mastodon.sdf.org/@fvzappa/115574872559813280",
-          "publishedOn": "2025-11-20T02:47:13.000Z",
-          "wordCount": 127,
-          "title": "50th Anniversary of BitBLT",
-          "imageUrl": "https://mastodon.sdf.org/system/media_attachments/files/115/574/841/963/931/495/original/e6afce9277eff7f7.png"
         }
       ]
     }

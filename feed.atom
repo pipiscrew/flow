@@ -2,10 +2,24 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2025-12-19T14:27:59.422Z</updated>
+    <updated>2025-12-19T15:29:13.124Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Show HN: I open-sourced my Go and Next B2B SaaS Starter (deploy anywhere, MIT)]]></title>
+        <id>https://news.ycombinator.com/item?id=46324665</id>
+        <link href="https://github.com/moasq/production-saas-starter"/>
+        <updated>2025-12-19T11:34:11.000Z</updated>
+        <summary type="html"><![CDATA[Hi HN, I'm Mohammed, a technical founder who loves shipping and giving back to the community. I'm open-sourcing the full-stack engine that powers my B2B product, apflow.co.
+What it is: A production B2B starter with a Go backend and Next.js frontend. Both are fully Dockerized with separate containers. No Vercel. No Supabase. Deploy the whole thing on a $6 VPS, or split frontend and backend across different providers. You own the infrastructure.
+The problem I was solving:
+Every SaaS starter I evaluated had the same issue: they locked me into someone else's platform. Vercel for hosting. PlanetScale for the database. Serverless functions billing per invocation. Fine for prototypes, but costs become unpredictable at scale and migrating away is painful.
+I wanted something I could deploy on any L…]]></summary>
+        <author>
+            <name>moh_quz</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Show HN: Hacker News, but every headline is hysterical clickbait]]></title>
         <id>https://news.ycombinator.com/item?id=46324579</id>
@@ -17450,19 +17464,6 @@ Points: 51
 # Comments: 13]]></summary>
         <author>
             <name>js2</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[50th Anniversary of BitBLT]]></title>
-        <id>https://news.ycombinator.com/item?id=45988278</id>
-        <link href="https://mastodon.sdf.org/@fvzappa/115574872559813280"/>
-        <updated>2025-11-20T02:47:13.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://mastodon.sdf.org/@fvzappa/115574872559813280
-Comments URL: https://news.ycombinator.com/item?id=45988278
-Points: 51
-# Comments: 9]]></summary>
-        <author>
-            <name>todsacerdoti</name>
         </author>
     </entry>
 </feed>
