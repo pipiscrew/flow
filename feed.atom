@@ -2,10 +2,36 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2025-12-20T05:26:26.100Z</updated>
+    <updated>2025-12-20T06:37:38.192Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Android introduces $2-4 install fee and 10–20% cut for US external content links]]></title>
+        <id>https://news.ycombinator.com/item?id=46333734</id>
+        <link href="https://support.google.com/googleplay/android-developer/answer/16470497?hl=en"/>
+        <updated>2025-12-20T05:00:55.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://support.google.com/googleplay/android-developer/answer/16470497?hl=en
+Comments URL: https://news.ycombinator.com/item?id=46333734
+Points: 62
+# Comments: 24]]></summary>
+        <author>
+            <name>radley</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Build Your Own React]]></title>
+        <id>https://news.ycombinator.com/item?id=46332526</id>
+        <link href="https://pomb.us/build-your-own-react/"/>
+        <updated>2025-12-20T00:16:13.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://pomb.us/build-your-own-react/
+Comments URL: https://news.ycombinator.com/item?id=46332526
+Points: 53
+# Comments: 4]]></summary>
+        <author>
+            <name>howToTestFE</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[PBS News Hour West to go dark after ASU discontinues contract]]></title>
         <id>https://news.ycombinator.com/item?id=46332400</id>
@@ -43,6 +69,19 @@ Points: 81
 # Comments: 16]]></summary>
         <author>
             <name>frizlab</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Buteyko Method]]></title>
+        <id>https://news.ycombinator.com/item?id=46331379</id>
+        <link href="https://en.wikipedia.org/wiki/Buteyko_method"/>
+        <updated>2025-12-19T21:52:07.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://en.wikipedia.org/wiki/Buteyko_method
+Comments URL: https://news.ycombinator.com/item?id=46331379
+Points: 51
+# Comments: 33]]></summary>
+        <author>
+            <name>rzk</name>
         </author>
     </entry>
     <entry>
@@ -17564,56 +17603,6 @@ Points: 76
 # Comments: 45]]></summary>
         <author>
             <name>todsacerdoti</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[NTSB Preliminary Report – UPS Boeing MD-11F Crash [pdf]]]></title>
-        <id>https://news.ycombinator.com/item?id=45995834</id>
-        <link href="https://www.ntsb.gov/Documents/Prelimiary%20Report%20DCA26MA024.pdf"/>
-        <updated>2025-11-20T18:20:59.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.ntsb.gov/Documents/Prelimiary%20Report%20DCA26MA024.pdf
-Comments URL: https://news.ycombinator.com/item?id=45995834
-Points: 73
-# Comments: 67]]></summary>
-        <author>
-            <name>gregsadetsky</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Lions Operating System]]></title>
-        <id>https://news.ycombinator.com/item?id=45995816</id>
-        <link href="https://lionsos.org/"/>
-        <updated>2025-11-20T18:19:31.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://lionsos.org
-Comments URL: https://news.ycombinator.com/item?id=45995816
-Points: 64
-# Comments: 8]]></summary>
-        <author>
-            <name>plunderer</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Microsoft makes Zork open-source]]></title>
-        <id>https://news.ycombinator.com/item?id=45995740</id>
-        <link href="https://opensource.microsoft.com/blog/2025/11/20/preserving-code-that-shaped-generations-zork-i-ii-and-iii-go-open-source"/>
-        <updated>2025-11-20T18:13:39.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://opensource.microsoft.com/blog/2025/11/20/preserving-code-that-shaped-generations-zork-i-ii-and-iii-go-open-source
-Comments URL: https://news.ycombinator.com/item?id=45995740
-Points: 132
-# Comments: 43]]></summary>
-        <author>
-            <name>tabletcorry</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Launch HN: Poly (YC S22) – Cursor for Files]]></title>
-        <id>https://news.ycombinator.com/item?id=45995394</id>
-        <link href="https://news.ycombinator.com/item?id=45995394"/>
-        <updated>2025-11-20T17:47:06.000Z</updated>
-        <summary type="html"><![CDATA[Hello world, this is Abhay from Poly (https://poly.app). We’re building an app to replace Finder/File Explorer with something more intelligent and searchable. Think of it like Dropbox + NotebookLM + Perplexity for terabytes of your files. Here’s a quick demo: https://www.youtube.com/watch?v=RsqCySU4Ln0.
-Poly can search your content in natural language, across a broad range of file types and down to the page, paragraph, pixel, or point in time. We also provide an integrated agent that can take actions on your files such as creating, editing, summarizing, and researching. Any action that you can take, the agent can also take, from renaming, moving, tagging, annotating, and organizing files for you. The agent can also read URLs, youtube links, and can search the web and even download files fo…]]></summary>
-        <author>
-            <name>aabhay</name>
         </author>
     </entry>
 </feed>
