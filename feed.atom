@@ -2,10 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2025-12-20T08:32:19.483Z</updated>
+    <updated>2025-12-20T09:26:12.548Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Privacy doesn't mean anything anymore, anonymity does]]></title>
+        <id>https://news.ycombinator.com/item?id=46334025</id>
+        <link href="https://servury.com/blog/privacy-is-marketing-anonymity-is-architecture/"/>
+        <updated>2025-12-20T06:21:05.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://servury.com/blog/privacy-is-marketing-anonymity-is-architecture/
+Comments URL: https://news.ycombinator.com/item?id=46334025
+Points: 59
+# Comments: 38]]></summary>
+        <author>
+            <name>ybceo</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Charles Proxy]]></title>
         <id>https://news.ycombinator.com/item?id=46333983</id>
@@ -2936,6 +2949,34 @@ Points: 124
 # Comments: 69]]></summary>
         <author>
             <name>pablo24602</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Carolina Cloud – One third the cost of AWS for data science workloads]]></title>
+        <id>https://news.ycombinator.com/item?id=46267283</id>
+        <link href="https://carolinacloud.io/"/>
+        <updated>2025-12-14T21:43:35.000Z</updated>
+        <summary type="html"><![CDATA[We're Carolina Cloud - managed data science infrastructure at ~1/3 the cost of AWS.
+I left my job earlier this year after watching companies get crushed by cloud bills for workloads that didn't need hyperscaler complexity. Some examples from my previous life:
+- $1k/month for a basic 16 vCPU VM
+- $50k/month for a high-RAM instance
+- Over $1k/month for notebook platform start-stop execution
+We built Carolina Cloud for data scientists and small teams who need serious compute without the sticker shock. Our sweet spot: if you're running VMs, notebooks, or RStudio and not deeply tied to AWS/Azure/GCP service ecosystems, we can save you a lot of money.
+What we offer:
+- Standard Ubuntu VMs
+- One-click Marimo notebooks
+- One-click RStudio Server and Shiny hosting
+- S3-compatible object storage (launching soon)
+- Prepay discounts for commitments as short as 2 weeks
+- SOC2-certified, HIPAA-compliant datacenter in Charlotte, NC
+Simple pricing: $0.005/vCPU/hr, $0.005/GiB RAM/hr, and $0.0001/GiB of hot storage/hr on AMD EPYC Turin processors. A 32 vCPU, 128GB RAM instance runs ~$240/month vs $800+ on AWS.
+We're not trying to replicate every AWS service - if you need Lambda + Secrets Manager + S3 with pre-signed URLs, stick with AWS. But if you're a hedge fund running backtests, a biotech team analyzing genomics data, or a researcher who just needs a beefy VM without surprise egress fees, we're 1/3 the price.
+Check us out at console.carolinacloud.io - happy to answer questions about our infrastructure, pricing, or why we think there's room for regional clouds built on owned hardware.
+Comments URL: https://news.ycombinator.com/item?id=46267283
+Points: 93
+# Comments: 39]]></summary>
+        <author>
+            <name>bojangleslover</name>
         </author>
     </entry>
     <entry>
@@ -17525,32 +17566,6 @@ Points: 50
 # Comments: 20]]></summary>
         <author>
             <name>tonyhb</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New Glenn Update – Blue Origin]]></title>
-        <id>https://news.ycombinator.com/item?id=45997914</id>
-        <link href="https://www.blueorigin.com/news/new-glenn-upgraded-engines-subcooled-components-drive-enhanced-performance"/>
-        <updated>2025-11-20T21:21:08.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.blueorigin.com/news/new-glenn-upgraded-engines-subcooled-components-drive-enhanced-performance
-Comments URL: https://news.ycombinator.com/item?id=45997914
-Points: 63
-# Comments: 21]]></summary>
-        <author>
-            <name>rbanffy</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Run Docker containers natively in Proxmox 9.1 (OCI images)]]></title>
-        <id>https://news.ycombinator.com/item?id=45997722</id>
-        <link href="https://raymii.org/s/tutorials/Finally_run_Docker_containers_natively_in_Proxmox_9.1.html"/>
-        <updated>2025-11-20T21:05:12.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://raymii.org/s/tutorials/Finally_run_Docker_containers_natively_in_Proxmox_9.1.html
-Comments URL: https://news.ycombinator.com/item?id=45997722
-Points: 81
-# Comments: 21]]></summary>
-        <author>
-            <name>jandeboevrie</name>
         </author>
     </entry>
 </feed>
