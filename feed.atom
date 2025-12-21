@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2025-12-21T20:28:11.500Z</updated>
+    <updated>2025-12-21T21:22:49.839Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
@@ -59,6 +59,19 @@ Points: 69
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Get an AI code review in 10 seconds]]></title>
+        <id>https://news.ycombinator.com/item?id=46346391</id>
+        <link href="https://oldmanrahul.com/2025/12/19/ai-code-review-trick/"/>
+        <updated>2025-12-21T17:21:05.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://oldmanrahul.com/2025/12/19/ai-code-review-trick/
+Comments URL: https://news.ycombinator.com/item?id=46346391
+Points: 52
+# Comments: 22]]></summary>
+        <author>
+            <name>oldmanrahul</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Show HN: Books mentioned on Hacker News in 2025]]></title>
         <id>https://news.ycombinator.com/item?id=46345897</id>
         <link href="https://hackernews-readings-613604506318.us-west1.run.app/"/>
@@ -95,6 +108,19 @@ Points: 56
 # Comments: 4]]></summary>
         <author>
             <name>surprisetalk</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CO2 batteries that store grid energy take off globally]]></title>
+        <id>https://news.ycombinator.com/item?id=46345506</id>
+        <link href="https://spectrum.ieee.org/co2-battery-energy-storage"/>
+        <updated>2025-12-21T15:27:36.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://spectrum.ieee.org/co2-battery-energy-storage
+Comments URL: https://news.ycombinator.com/item?id=46345506
+Points: 64
+# Comments: 57]]></summary>
+        <author>
+            <name>rbanffy</name>
         </author>
     </entry>
     <entry>
@@ -150,6 +176,31 @@ Points: 55
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Show HN: RenderCV – Open-source CV/resume generator, YAML to PDF]]></title>
+        <id>https://news.ycombinator.com/item?id=46344616</id>
+        <link href="https://github.com/rendercv/rendercv"/>
+        <updated>2025-12-21T13:15:28.000Z</updated>
+        <summary type="html"><![CDATA[I built RenderCV because Word kept breaking my layout and LaTeX was overkill. I wanted my CV as a single YAML file (content, design, margins, everything) that I could render with one command.
+Run rendercv render cv.yaml → get a perfectly typeset PDF.
+Highlights:
+1. Version-controllable: Your CV is just text. Diff it, tag it.
+2. LLM-friendly: Paste into ChatGPT, tailor to a job description, paste back, render. Batch-produce variants with terminal AI agents.
+3. Perfect typography: Typst under the hood handles pixel-perfect alignment and spacing.
+4. Full design control: Margins, fonts, colors, and more; tweak everything in YAML.
+5. Comes with JSON Schema: Autocompletion and inline docs in your editor.
+Battle-tested for 2+ years, thousands of users, 120k+ total PyPI downloads, 100% test coverage, actively maintained.
+GitHub: https://github.com/rendercv/rendercv
+Docs: https://docs.rendercv.com
+Overview on RenderCV's software design (Pydantic + Jinja2 + Typst): https://docs.rendercv.com/developer_guide/understanding_rend...
+I also wrote up the internals as an educational resource on maintaining Python projects (GitHub Actions, packaging, Docker, JSON Schema, deploying docs, etc.): https://docs.rendercv.com/developer_guide/
+Comments URL: https://news.ycombinator.com/item?id=46344616
+Points: 55
+# Comments: 29]]></summary>
+        <author>
+            <name>sinaatalay</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Coarse Is Better]]></title>
         <id>https://news.ycombinator.com/item?id=46344514</id>
         <link href="https://borretti.me/article/coarse-is-better"/>
@@ -190,6 +241,19 @@ Points: 50
 # Comments: 12]]></summary>
         <author>
             <name>Pavlinbg</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New mathematical framework reshapes debate over simulation hypothesis]]></title>
+        <id>https://news.ycombinator.com/item?id=46344022</id>
+        <link href="https://www.santafe.edu/news-center/news/new-mathematical-framework-reshapes-debate-over-simulation-hypothesis"/>
+        <updated>2025-12-21T11:21:01.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.santafe.edu/news-center/news/new-mathematical-framework-reshapes-debate-over-simulation-hypothesis
+Comments URL: https://news.ycombinator.com/item?id=46344022
+Points: 61
+# Comments: 81]]></summary>
+        <author>
+            <name>Gooblebrai</name>
         </author>
     </entry>
     <entry>
