@@ -6,6 +6,16 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=46350641",
+          "author": "rekireki",
+          "description": "Some time ago I decided to try building an Android app using Rust. After a few weeks I got it working. There was a new iced release recently, so I've just updated the example to new iced and wgpu. I'd like to share my experience to attract more attention to Rust on Android.\nFirst things, I want to thank all the people who work on the foundational crates and tools such as:\n- https://github.com/rust-mobile/android-activity\n- https://github.com/jni-rs/jni-rs\n- https://github.com/gfx-rs/wgpu\n- https://github.com/rust-windowing/winit\n- and many others\nWhen I started I had to learn what tools and examples already exist. Luckily, there's a good set of examples using both NativeActivity and GameActivity:\nhttps://github.com/rust-mobile/rust-android-examples\nThe basic approach is that we take androi…",
+          "link": "https://github.com/ibaryshnikov/android-iced-example",
+          "publishedOn": "2025-12-22T02:14:32.000Z",
+          "wordCount": 1709,
+          "title": "Build Android apps using Rust and Iced",
+          "imageUrl": "https://opengraph.githubassets.com/761c9de3cc2416ba8d3cdfeb5a5142bf33e3825de5870ab989804527f4266ccf/ibaryshnikov/android-iced-example"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=46350477",
           "author": "chungy",
           "description": "Article URL: https://86box.net/2025/12/21/86box-v5-3.html\nComments URL: https://news.ycombinator.com/item?id=46350477\nPoints: 52\n# Comments: 1",
@@ -13194,16 +13204,6 @@
           "wordCount": 2571,
           "title": "Markdown is holding you back",
           "imageUrl": "https://image-generator.buttondown.email/api/emphasize-newsletter?subject=Issue%2045%20-%20Markdown%20is%20Holding%20You%20Back&author=Code%2C%20Content%2C%20and%20Career%20with%20Brian%20Hogan&date=2025-09-30&img=https%3A//buttondown-attachments.s3.us-west-2.amazonaws.com/images/13893aef-0747-4d6d-a3b4-cfb1be8542d6.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46017175",
-          "author": "foxbarrington",
-          "description": "This started as a reaction to a conversational trope. Despite being a tranquil place, even conversations at my yoga studio often start with, \"Can you believe what's going on right now?\" with that angry/scared undertone.\nI'm a news avoider, so I usually feel some smug self-satisfaction in those instances, but I wondered if there was a way to satisfy the urge to doomscroll without the anxiety.\nMy hypothesis: Apply a 40-year latency buffer. You get the intellectual stimulation of \"Big Events\" without the fog of war, because you know the world didn't end.\n40 years creates a mirror between the Reagan Era and today. The parallels include celebrity populism, Cold War tensions (Soviets vs. Russia), and inflation economics.\nThe system ingests raw newspaper scans and uses a multi-step LLM pipeline t…",
-          "link": "https://forty.news/",
-          "publishedOn": "2025-11-22T18:47:08.000Z",
-          "wordCount": 4,
-          "title": "Show HN: Forty.News – Daily news, but on a 40-year delay",
-          "imageUrl": "https://forty.news/unfurl.png"
         }
       ]
     }
