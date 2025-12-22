@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2025-12-22T15:29:04.196Z</updated>
+    <updated>2025-12-22T16:34:10.577Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
@@ -56,6 +56,19 @@ Points: 60
 # Comments: 23]]></summary>
         <author>
             <name>lumpa</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Well being in times of algorithms]]></title>
+        <id>https://news.ycombinator.com/item?id=46352747</id>
+        <link href="https://www.ssp.sh/blog/well-being-algorithms/"/>
+        <updated>2025-12-22T09:58:50.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.ssp.sh/blog/well-being-algorithms/
+Comments URL: https://news.ycombinator.com/item?id=46352747
+Points: 59
+# Comments: 36]]></summary>
+        <author>
+            <name>articsputnik</name>
         </author>
     </entry>
     <entry>
@@ -1109,6 +1122,26 @@ Points: 51
 # Comments: 33]]></summary>
         <author>
             <name>rzk</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Netrinos – A keep it simple Mesh VPN for small teams]]></title>
+        <id>https://news.ycombinator.com/item?id=46331364</id>
+        <link href="https://netrinos.com/"/>
+        <updated>2025-12-19T21:50:52.000Z</updated>
+        <summary type="html"><![CDATA[I'm the founder at Netrinos. I built a WireGuard-based mesh VPN because remote access has always been a pain. After years of SSH tunnels, IPsec headaches, and the ssh log horror movie, I wanted something simpler: install, sign in, get work done.
+Netrinos creates a LAN-like overlay network across your devices. Connections are direct P2P via WireGuard, with no central server routing traffic. Each device gets a stable IP and DNS name (pc.you.netrinos.com). When direct connections fail, they fall back to a relay server that's still encrypted end-to-end. We can't see your traffic.
+The most challenging problem to solve was NAT traversal. UDP hole punching works most of the time. The rest is a cocktail of symmetric NAT, CGNAT, and serial NATs. We use STUN-style discovery and relay fallback for the edge cases. I was surprised by how unreliable low-end ISP routers really are, and how much technical wizardry it takes to hide that behind a clean, simple UX.
+Our stack is a Go backend for client and server, WireGuard kernel mode for Linux and Windows (macOS is userspace), Wails.io for cross-platform UI. WireGuard does all the heavy lifting. Go ties it all together.
+Popular use cases include: RDP to home PCs, accessing NAS without exposing it, and SSH into headless Linux boxes. One customer manages hundreds of IoT devices in the field, eliminating the need to deal with customer routers.
+We just released Pro with multi-user, access control, and remote gateway routing. Personal is free (up to 100 devices).
+I'd love to hear what you expect from a simple mesh VPN, what's missing from current tools, and what's lacking from your remote access setup. Use code HNPRO26 for a 30-day trial of Pro.
+https://netrinos.com
+Comments URL: https://news.ycombinator.com/item?id=46331364
+Points: 50
+# Comments: 19]]></summary>
+        <author>
+            <name>pcarroll</name>
         </author>
     </entry>
     <entry>
@@ -17480,58 +17513,6 @@ Points: 52
 # Comments: 10]]></summary>
         <author>
             <name>eln1</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Hardening the C++ Standard Library at scale]]></title>
-        <id>https://news.ycombinator.com/item?id=46020730</id>
-        <link href="https://queue.acm.org/detail.cfm?id=3773097"/>
-        <updated>2025-11-23T04:22:41.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://queue.acm.org/detail.cfm?id=3773097
-Comments URL: https://news.ycombinator.com/item?id=46020730
-Points: 70
-# Comments: 26]]></summary>
-        <author>
-            <name>ndesaulniers</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A cryptography research body held an election and they can't decrypt the results]]></title>
-        <id>https://news.ycombinator.com/item?id=46020596</id>
-        <link href="https://www.nytimes.com/2025/11/21/world/cryptography-group-lost-election-results.html"/>
-        <updated>2025-11-23T03:47:17.000Z</updated>
-        <summary type="html"><![CDATA[https://archive.is/NOnfx
-Comments URL: https://news.ycombinator.com/item?id=46020596
-Points: 53
-# Comments: 14]]></summary>
-        <author>
-            <name>FabHK</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How to make precise sheet metal parts (photochemical machining) [video]]]></title>
-        <id>https://news.ycombinator.com/item?id=46020561</id>
-        <link href="https://www.youtube.com/watch?v=bR9EN3kUlfg"/>
-        <updated>2025-11-23T03:37:49.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.youtube.com/watch?v=bR9EN3kUlfg
-Comments URL: https://news.ycombinator.com/item?id=46020561
-Points: 52
-# Comments: 4]]></summary>
-        <author>
-            <name>surprisetalk</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Unusual circuits in the Intel 386's standard cell logic]]></title>
-        <id>https://news.ycombinator.com/item?id=46020543</id>
-        <link href="https://www.righto.com/2025/11/unusual-386-standard-cell-circuits.html"/>
-        <updated>2025-11-23T03:33:42.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.righto.com/2025/11/unusual-386-standard-cell-circuits.html
-Comments URL: https://news.ycombinator.com/item?id=46020543
-Points: 54
-# Comments: 10]]></summary>
-        <author>
-            <name>Stratoscope</name>
         </author>
     </entry>
 </feed>

@@ -46,6 +46,16 @@
           "imageUrl": "https://lucumr.pocoo.org/social/2025-12-22-a-year-of-vibes-social.png"
         },
         {
+          "id": "https://news.ycombinator.com/item?id=46352747",
+          "author": "articsputnik",
+          "description": "Article URL: https://www.ssp.sh/blog/well-being-algorithms/\nComments URL: https://news.ycombinator.com/item?id=46352747\nPoints: 59\n# Comments: 36",
+          "link": "https://www.ssp.sh/blog/well-being-algorithms/",
+          "publishedOn": "2025-12-22T09:58:50.000Z",
+          "wordCount": 2851,
+          "title": "Well being in times of algorithms",
+          "imageUrl": "https://www.ssp.sh/blog/well-being-algorithms/featured-image.png"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=46352565",
           "author": "1659447091",
           "description": "Article URL: https://www.bbc.com/culture/article/20251219-the-ancient-monuments-saluting-the-winter-solstice\nComments URL: https://news.ycombinator.com/item?id=46352565\nPoints: 53\n# Comments: 32",
@@ -824,6 +834,16 @@
           "wordCount": null,
           "title": "Buteyko Method",
           "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46331364",
+          "author": "pcarroll",
+          "description": "I'm the founder at Netrinos. I built a WireGuard-based mesh VPN because remote access has always been a pain. After years of SSH tunnels, IPsec headaches, and the ssh log horror movie, I wanted something simpler: install, sign in, get work done.\nNetrinos creates a LAN-like overlay network across your devices. Connections are direct P2P via WireGuard, with no central server routing traffic. Each device gets a stable IP and DNS name (pc.you.netrinos.com). When direct connections fail, they fall back to a relay server that's still encrypted end-to-end. We can't see your traffic.\nThe most challenging problem to solve was NAT traversal. UDP hole punching works most of the time. The rest is a cocktail of symmetric NAT, CGNAT, and serial NATs. We use STUN-style discovery and relay fallback for the edge cases. I was surprised by how unreliable low-end ISP routers really are, and how much technical wizardry it takes to hide that behind a clean, simple UX.\nOur stack is a Go backend for client and server, WireGuard kernel mode for Linux and Windows (macOS is userspace), Wails.io for cross-platform UI. WireGuard does all the heavy lifting. Go ties it all together.\nPopular use cases include: RDP to home PCs, accessing NAS without exposing it, and SSH into headless Linux boxes. One customer manages hundreds of IoT devices in the field, eliminating the need to deal with customer routers.\nWe just released Pro with multi-user, access control, and remote gateway routing. Personal is free (up to 100 devices).\nI'd love to hear what you expect from a simple mesh VPN, what's missing from current tools, and what's lacking from your remote access setup. Use code HNPRO26 for a 30-day trial of Pro.\nhttps://netrinos.com\nComments URL: https://news.ycombinator.com/item?id=46331364\nPoints: 50\n# Comments: 19",
+          "link": "https://netrinos.com/",
+          "publishedOn": "2025-12-19T21:50:52.000Z",
+          "wordCount": 320,
+          "title": "Show HN: Netrinos – A keep it simple Mesh VPN for small teams",
+          "imageUrl": "https://netrinos.com/cdn/images/og-netrinos-banner.webp"
         },
         {
           "id": "https://news.ycombinator.com/item?id=46331292",
@@ -13124,46 +13144,6 @@
           "wordCount": 5572,
           "title": "Google Revisits JPEG XL in Chromium After Earlier Removal",
           "imageUrl": "https://windowsreport.com/wp-content/uploads/2025/11/chromium-supporting-JPEG-XL-on-test-site.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46020730",
-          "author": "ndesaulniers",
-          "description": "Article URL: https://queue.acm.org/detail.cfm?id=3773097\nComments URL: https://news.ycombinator.com/item?id=46020730\nPoints: 70\n# Comments: 26",
-          "link": "https://queue.acm.org/detail.cfm?id=3773097",
-          "publishedOn": "2025-11-23T04:22:41.000Z",
-          "wordCount": null,
-          "title": "Hardening the C++ Standard Library at scale",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46020596",
-          "author": "FabHK",
-          "description": "https://archive.is/NOnfx\nComments URL: https://news.ycombinator.com/item?id=46020596\nPoints: 53\n# Comments: 14",
-          "link": "https://www.nytimes.com/2025/11/21/world/cryptography-group-lost-election-results.html",
-          "publishedOn": "2025-11-23T03:47:17.000Z",
-          "wordCount": null,
-          "title": "A cryptography research body held an election and they can't decrypt the results",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46020561",
-          "author": "surprisetalk",
-          "description": "Article URL: https://www.youtube.com/watch?v=bR9EN3kUlfg\nComments URL: https://news.ycombinator.com/item?id=46020561\nPoints: 52\n# Comments: 4",
-          "link": "https://www.youtube.com/watch?v=bR9EN3kUlfg",
-          "publishedOn": "2025-11-23T03:37:49.000Z",
-          "wordCount": null,
-          "title": "How to make precise sheet metal parts (photochemical machining) [video]",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46020543",
-          "author": "Stratoscope",
-          "description": "Article URL: https://www.righto.com/2025/11/unusual-386-standard-cell-circuits.html\nComments URL: https://news.ycombinator.com/item?id=46020543\nPoints: 54\n# Comments: 10",
-          "link": "https://www.righto.com/2025/11/unusual-386-standard-cell-circuits.html",
-          "publishedOn": "2025-11-23T03:33:42.000Z",
-          "wordCount": 8236,
-          "title": "Unusual circuits in the Intel 386's standard cell logic",
-          "imageUrl": "https://lh3.googleusercontent.com/blogger_img_proxy/AEn0k_sHEs77-md-8JpdwaSV2qfrUiDDAiGV7qut1flInr3kyAGR09bHqHyO18DfkxiBbBkaSmoKO1MLht0nuRuVDbYHfS215MN4QM1FZTNSydIl9YQsHIHajzhudhTZjtQ894iQzGq2BxIv_Q=w1200-h630-p-k-no-nu"
         }
       ]
     }
