@@ -6,6 +6,26 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=46350075",
+          "author": "Two_hands",
+          "description": "Article URL: https://ym2132.github.io/ONNX_MLProgram_NN_exploration\nComments URL: https://news.ycombinator.com/item?id=46350075\nPoints: 51\n# Comments: 5",
+          "link": "https://ym2132.github.io/ONNX_MLProgram_NN_exploration",
+          "publishedOn": "2025-12-22T00:27:04.000Z",
+          "wordCount": 7440,
+          "title": "ONNX Runtime and CoreML May Silently Convert Your Model to FP16",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46349808",
+          "author": "swah",
+          "description": "Article URL: https://borretti.me/article/i-wish-people-were-more-public\nComments URL: https://news.ycombinator.com/item?id=46349808\nPoints: 52\n# Comments: 34",
+          "link": "https://borretti.me/article/i-wish-people-were-more-public",
+          "publishedOn": "2025-12-21T23:42:34.000Z",
+          "wordCount": 1153,
+          "title": "I wish people were more public",
+          "imageUrl": "https://borretti.me/assets/card/i-wish-people-were-more-public.webp"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=46348847",
           "author": "ChrisArchitect",
           "description": "Article URL: https://disneyparksblog.com/disney-experiences/robotic-olaf-marks-new-era-of-disney-innovation/\nComments URL: https://news.ycombinator.com/item?id=46348847\nPoints: 77\n# Comments: 32",
@@ -2153,6 +2173,16 @@
           "publishedOn": "2025-12-16T12:48:12.000Z",
           "wordCount": null,
           "title": "Gemini 3 Pro vs. 2.5 Pro in Pokemon Crystal",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46287253",
+          "author": "lemper",
+          "description": "Article URL: https://jyn.dev/i-m-just-having-fun/\nComments URL: https://news.ycombinator.com/item?id=46287253\nPoints: 244\n# Comments: 74",
+          "link": "https://jyn.dev/i-m-just-having-fun/",
+          "publishedOn": "2025-12-16T11:19:29.000Z",
+          "wordCount": 751,
+          "title": "I'm just having fun",
           "imageUrl": null
         },
         {
@@ -13214,36 +13244,6 @@
           "wordCount": 500,
           "title": "Java Decompiler",
           "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46016288",
-          "author": "radeeyate",
-          "description": "Hi HN - My name is Andrew, and I'm a high school student.\nThis is a write-up on StratoSpore, a payload I designed and launched to the stratosphere. The goal was to test if we could estimate physical altitude based on algae fluorescence (using a lightweight ML model trained on the sensor data).\nThe blog post covers the full engineering mess/process, including:\n- The Hardware: Designing PCBs for the AS7263 spectral sensor and Pi Zero 2 W.\n-The biological altimeter: How I tried to correlate biological stress (fluorescence) with altitude.\n- The Communications: A custom lossy compression algorithm I wrote to smash 1080p images down to 18x10 pixels so I could transmit them over LoRA (915 Mhz) in semi-real-time.\nThe payload is currently lost in a forest, but the telemetry data survived. The code and hardware designs are open source on GitHub: https://github.com/radeeyate/stratospore\nI'm happy to answer technical questions about the payload, software, or anything else you are curious about! Critique also appreciated!\nComments URL: https://news.ycombinator.com/item?id=46016288\nPoints: 62\n# Comments: 7",
-          "link": "https://radi8.dev/blog/stratospore/",
-          "publishedOn": "2025-11-22T17:11:52.000Z",
-          "wordCount": null,
-          "title": "Show HN: I turned algae into a bio-altimeter and put it on a weather balloon",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46016249",
-          "author": "ingve",
-          "description": "Article URL: https://kevinboone.me/fingerprinting.html\nComments URL: https://news.ycombinator.com/item?id=46016249\nPoints: 108\n# Comments: 68",
-          "link": "https://kevinboone.me/fingerprinting.html",
-          "publishedOn": "2025-11-22T17:08:36.000Z",
-          "wordCount": 2321,
-          "title": "The privacy nightmare of browser fingerprinting",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46015763",
-          "author": "nairteashop",
-          "description": "Article URL: https://www.wsj.com/us-news/in-a-u-s-first-new-mexico-opens-doors-to-free-child-care-for-all-2dfdea96\nComments URL: https://news.ycombinator.com/item?id=46015763\nPoints: 102\n# Comments: 43",
-          "link": "https://www.wsj.com/us-news/in-a-u-s-first-new-mexico-opens-doors-to-free-child-care-for-all-2dfdea96",
-          "publishedOn": "2025-11-22T16:11:12.000Z",
-          "wordCount": 8709,
-          "title": "In a U.S. First, New Mexico Opens Doors to Free Child Care for All",
-          "imageUrl": "https://images.wsj.net/im-82914693/social"
         }
       ]
     }

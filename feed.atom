@@ -2,10 +2,36 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2025-12-22T04:07:07.875Z</updated>
+    <updated>2025-12-22T05:30:01.463Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[ONNX Runtime and CoreML May Silently Convert Your Model to FP16]]></title>
+        <id>https://news.ycombinator.com/item?id=46350075</id>
+        <link href="https://ym2132.github.io/ONNX_MLProgram_NN_exploration"/>
+        <updated>2025-12-22T00:27:04.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://ym2132.github.io/ONNX_MLProgram_NN_exploration
+Comments URL: https://news.ycombinator.com/item?id=46350075
+Points: 51
+# Comments: 5]]></summary>
+        <author>
+            <name>Two_hands</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[I wish people were more public]]></title>
+        <id>https://news.ycombinator.com/item?id=46349808</id>
+        <link href="https://borretti.me/article/i-wish-people-were-more-public"/>
+        <updated>2025-12-21T23:42:34.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://borretti.me/article/i-wish-people-were-more-public
+Comments URL: https://news.ycombinator.com/item?id=46349808
+Points: 52
+# Comments: 34]]></summary>
+        <author>
+            <name>swah</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Disney Imagineering Debuts Next-Generation Robotic Character, Olaf]]></title>
         <id>https://news.ycombinator.com/item?id=46348847</id>
@@ -2880,6 +2906,19 @@ Points: 185
 # Comments: 57]]></summary>
         <author>
             <name>alphabetting</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[I'm just having fun]]></title>
+        <id>https://news.ycombinator.com/item?id=46287253</id>
+        <link href="https://jyn.dev/i-m-just-having-fun/"/>
+        <updated>2025-12-16T11:19:29.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://jyn.dev/i-m-just-having-fun/
+Comments URL: https://news.ycombinator.com/item?id=46287253
+Points: 244
+# Comments: 74]]></summary>
+        <author>
+            <name>lemper</name>
         </author>
     </entry>
     <entry>
@@ -17592,52 +17631,6 @@ Points: 93
 # Comments: 41]]></summary>
         <author>
             <name>mooreds</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: I turned algae into a bio-altimeter and put it on a weather balloon]]></title>
-        <id>https://news.ycombinator.com/item?id=46016288</id>
-        <link href="https://radi8.dev/blog/stratospore/"/>
-        <updated>2025-11-22T17:11:52.000Z</updated>
-        <summary type="html"><![CDATA[Hi HN - My name is Andrew, and I'm a high school student.
-This is a write-up on StratoSpore, a payload I designed and launched to the stratosphere. The goal was to test if we could estimate physical altitude based on algae fluorescence (using a lightweight ML model trained on the sensor data).
-The blog post covers the full engineering mess/process, including:
-- The Hardware: Designing PCBs for the AS7263 spectral sensor and Pi Zero 2 W.
--The biological altimeter: How I tried to correlate biological stress (fluorescence) with altitude.
-- The Communications: A custom lossy compression algorithm I wrote to smash 1080p images down to 18x10 pixels so I could transmit them over LoRA (915 Mhz) in semi-real-time.
-The payload is currently lost in a forest, but the telemetry data survived. The code and hardware designs are open source on GitHub: https://github.com/radeeyate/stratospore
-I'm happy to answer technical questions about the payload, software, or anything else you are curious about! Critique also appreciated!
-Comments URL: https://news.ycombinator.com/item?id=46016288
-Points: 62
-# Comments: 7]]></summary>
-        <author>
-            <name>radeeyate</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The privacy nightmare of browser fingerprinting]]></title>
-        <id>https://news.ycombinator.com/item?id=46016249</id>
-        <link href="https://kevinboone.me/fingerprinting.html"/>
-        <updated>2025-11-22T17:08:36.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://kevinboone.me/fingerprinting.html
-Comments URL: https://news.ycombinator.com/item?id=46016249
-Points: 108
-# Comments: 68]]></summary>
-        <author>
-            <name>ingve</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[In a U.S. First, New Mexico Opens Doors to Free Child Care for All]]></title>
-        <id>https://news.ycombinator.com/item?id=46015763</id>
-        <link href="https://www.wsj.com/us-news/in-a-u-s-first-new-mexico-opens-doors-to-free-child-care-for-all-2dfdea96"/>
-        <updated>2025-11-22T16:11:12.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.wsj.com/us-news/in-a-u-s-first-new-mexico-opens-doors-to-free-child-care-for-all-2dfdea96
-Comments URL: https://news.ycombinator.com/item?id=46015763
-Points: 102
-# Comments: 43]]></summary>
-        <author>
-            <name>nairteashop</name>
         </author>
     </entry>
 </feed>
