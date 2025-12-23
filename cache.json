@@ -1706,6 +1706,16 @@
           "imageUrl": null
         },
         {
+          "id": "https://news.ycombinator.com/item?id=46313962",
+          "author": "tosh",
+          "description": "Article URL: https://computerhistory.org/blog/adobe-photoshop-source-code/\nComments URL: https://news.ycombinator.com/item?id=46313962\nPoints: 57\n# Comments: 3",
+          "link": "https://computerhistory.org/blog/adobe-photoshop-source-code/",
+          "publishedOn": "2025-12-18T15:37:18.000Z",
+          "wordCount": 2775,
+          "title": "Adobe Photoshop 1.0 Source Code (2013)",
+          "imageUrl": "https://computerhistory.org/wp-content/uploads/2019/08/photoshop-source-code-splashscreen.jpg"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=46313390",
           "author": "pember",
           "description": "Article URL: https://mistral.ai/news/mistral-ocr-3\nComments URL: https://news.ycombinator.com/item?id=46313390\nPoints: 52\n# Comments: 0",
@@ -13204,66 +13214,6 @@
           "wordCount": 20762,
           "title": "X's new country-of-origin feature reveals many 'US' accounts to be foreign-run",
           "imageUrl": "https://www.hindustantimes.com/ht-img/img/2025/11/23/1600x900/logo/X-OUTAGES--0_1763858923898_1763858955787.JPG"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46027962",
-          "author": "t9nzin",
-          "description": "A fun toy memory allocator (not thread safe, that's a future TODO). I also wanted to explain how I approached it, so I also wrote a tutorial blog post (~20 minute read) covering the code which you can find the link to in the README.\nComments URL: https://news.ycombinator.com/item?id=46027962\nPoints: 62\n# Comments: 11",
-          "link": "https://github.com/t9nzin/memory",
-          "publishedOn": "2025-11-23T22:25:36.000Z",
-          "wordCount": 2604,
-          "title": "Show HN: I wrote a minimal memory allocator in C",
-          "imageUrl": "https://opengraph.githubassets.com/8c1f79a7e269b6867ae99757af313b1b7a3625239a5265417ea19d2c40be79e0/t9nzin/memory"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46027947",
-          "author": "mercat",
-          "description": "Article URL: https://github.com/coder/mux\nComments URL: https://news.ycombinator.com/item?id=46027947\nPoints: 52\n# Comments: 22",
-          "link": "https://github.com/coder/mux",
-          "publishedOn": "2025-11-23T22:24:23.000Z",
-          "wordCount": 2396,
-          "title": "A desktop app for isolated, parallel agentic development",
-          "imageUrl": "https://opengraph.githubassets.com/07a7acdb8f08b6fe1a135e3fa976757945e67e576457f253f8585a232ee17856/coder/mux"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46027878",
-          "author": "kevinslin",
-          "description": "This past quarter has been awash with sophisticated npm supply chain attacks like [Shai-Hulud](https://www.cisa.gov/news-events/alerts/2025/09/23/widesprea...() and the [Chalk/debug Compromise](https://www.wiz.io/blog/widespread-npm-supply-chain-attack-b...). This CLI helps protect users from recently compromised packages by only downloading packages that have been public for a while (default is 90 days or older).\nInstall: npm install -g @dendronhq/safe-npm\nUsage: safe-npm install react@^18 lodash\nHow it works:\n- Queries npm registry for all versions matching your semver range\n- Filters out anything published in the last 90 days\n- Installs the newest \"aged\" version\nLimitations:\n- Won't protect against packages malicious from day one\n- Doesn't control transitive dependencies (yet - looking into overrides)\n- Delays access to legitimate new features\nThis is meant as a 80/20 measure against recently compromised NPM packages and is not a silver bullet. Please give it a try and let me know if you have feedback.\nComments URL: https://news.ycombinator.com/item?id=46027878\nPoints: 51\n# Comments: 32",
-          "link": "https://github.com/kevinslin/safe-npm",
-          "publishedOn": "2025-11-23T22:14:14.000Z",
-          "wordCount": 5948,
-          "title": "Show HN: Safe-NPM – only install packages that are +90 days old",
-          "imageUrl": "https://opengraph.githubassets.com/2fcd4562b67b0b2e4f37512b291a3a1d714f23bb1c79404233b739e1a73e88a3/kevinslin/safe-npm"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46027833",
-          "author": "bookofjoe",
-          "description": "Article URL: https://www.nytimes.com/2025/11/18/climate/iowa-city-free-buses.html\nComments URL: https://news.ycombinator.com/item?id=46027833\nPoints: 51\n# Comments: 11",
-          "link": "https://www.nytimes.com/2025/11/18/climate/iowa-city-free-buses.html",
-          "publishedOn": "2025-11-23T22:06:44.000Z",
-          "wordCount": null,
-          "title": "Iowa City Made Its Buses Free. Traffic Cleared, and So Did the Air",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46027722",
-          "author": "StromFLIX",
-          "description": "Article URL: https://sandbox-science.com/particle-life\nComments URL: https://news.ycombinator.com/item?id=46027722\nPoints: 51\n# Comments: 5",
-          "link": "https://sandbox-science.com/particle-life",
-          "publishedOn": "2025-11-23T21:54:32.000Z",
-          "wordCount": 240,
-          "title": "Particle Life",
-          "imageUrl": "https://sandbox-science.com/og-image.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46027709",
-          "author": "byko3y",
-          "description": "Article URL: https://bykozy.me/blog/rust-is-a-disappointment/\nComments URL: https://news.ycombinator.com/item?id=46027709\nPoints: 65\n# Comments: 36",
-          "link": "https://bykozy.me/blog/rust-is-a-disappointment/",
-          "publishedOn": "2025-11-23T21:52:48.000Z",
-          "wordCount": 1542,
-          "title": "Rust is a disappointment",
-          "imageUrl": null
         }
       ]
     }
