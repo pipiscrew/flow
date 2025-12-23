@@ -2,10 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2025-12-23T21:24:52.403Z</updated>
+    <updated>2025-12-23T22:25:43.487Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Terrence Malick's Disciples]]></title>
+        <id>https://news.ycombinator.com/item?id=46368557</id>
+        <link href="https://yalereview.org/article/bilge-ebiri-terrence-malick"/>
+        <updated>2025-12-23T19:35:20.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://yalereview.org/article/bilge-ebiri-terrence-malick
+Comments URL: https://news.ycombinator.com/item?id=46368557
+Points: 53
+# Comments: 8]]></summary>
+        <author>
+            <name>prismatic</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[An initial analysis of the discovered Unix V4 tape]]></title>
         <id>https://news.ycombinator.com/item?id=46367744</id>
@@ -30,6 +43,19 @@ Points: 92
 # Comments: 49]]></summary>
         <author>
             <name>quesobob</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Towards a secure peer-to-peer app platform for Clan]]></title>
+        <id>https://news.ycombinator.com/item?id=46367232</id>
+        <link href="https://clan.lol/blog/towards-app-platform-vmtech/"/>
+        <updated>2025-12-23T17:34:22.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://clan.lol/blog/towards-app-platform-vmtech/
+Comments URL: https://news.ycombinator.com/item?id=46367232
+Points: 58
+# Comments: 12]]></summary>
+        <author>
+            <name>throawayonthe</name>
         </author>
     </entry>
     <entry>
@@ -1660,6 +1686,19 @@ Points: 52
 # Comments: 18]]></summary>
         <author>
             <name>schaum</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Perfect Software – Software for an Audience of One]]></title>
+        <id>https://news.ycombinator.com/item?id=46334206</id>
+        <link href="https://outofdesk.netlify.app/blog/perfect-software"/>
+        <updated>2025-12-20T07:14:53.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://outofdesk.netlify.app/blog/perfect-software
+Comments URL: https://news.ycombinator.com/item?id=46334206
+Points: 52
+# Comments: 12]]></summary>
+        <author>
+            <name>ggauravr</name>
         </author>
     </entry>
     <entry>
@@ -17634,46 +17673,6 @@ Points: 51
 # Comments: 36]]></summary>
         <author>
             <name>singiamtel</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A fast EDN (Extensible Data Notation) reader written in C11 with SIMD boost]]></title>
-        <id>https://news.ycombinator.com/item?id=46032230</id>
-        <link href="https://github.com/DotFox/edn.c"/>
-        <updated>2025-11-24T09:51:45.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://github.com/DotFox/edn.c
-Comments URL: https://news.ycombinator.com/item?id=46032230
-Points: 55
-# Comments: 6]]></summary>
-        <author>
-            <name>delaguardo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Fifty Shades of OOP]]></title>
-        <id>https://news.ycombinator.com/item?id=46032148</id>
-        <link href="https://lesleylai.info/en/fifty_shades_of_oop/"/>
-        <updated>2025-11-24T09:40:32.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://lesleylai.info/en/fifty_shades_of_oop/
-Comments URL: https://news.ycombinator.com/item?id=46032148
-Points: 56
-# Comments: 12]]></summary>
-        <author>
-            <name>todsacerdoti</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: Network Monitor – a GUI to spot anomalous connections on your Linux]]></title>
-        <id>https://news.ycombinator.com/item?id=46032074</id>
-        <link href="https://news.ycombinator.com/item?id=46032074"/>
-        <updated>2025-11-24T09:30:40.000Z</updated>
-        <summary type="html"><![CDATA[A real-time network connection monitoring tool built with Rust and GTK4, displaying active connections with live I/O statistics in a modern graphical interface.
-https://github.com/grigio/network-monitor
-Comments URL: https://news.ycombinator.com/item?id=46032074
-Points: 53
-# Comments: 17]]></summary>
-        <author>
-            <name>grigio</name>
         </author>
     </entry>
 </feed>
