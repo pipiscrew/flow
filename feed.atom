@@ -2,10 +2,36 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2025-12-23T23:24:44.985Z</updated>
+    <updated>2025-12-24T02:04:49.728Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Is Northern Virginia still the least reliable AWS region?]]></title>
+        <id>https://news.ycombinator.com/item?id=46370592</id>
+        <link href="https://statusgator.com/blog/aws-least-reliable-region-in-2025/"/>
+        <updated>2025-12-23T23:12:03.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://statusgator.com/blog/aws-least-reliable-region-in-2025/
+Comments URL: https://news.ycombinator.com/item?id=46370592
+Points: 51
+# Comments: 21]]></summary>
+        <author>
+            <name>colinbartlett</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Texas app store age verification law blocked by federal judge]]></title>
+        <id>https://news.ycombinator.com/item?id=46370012</id>
+        <link href="https://www.macrumors.com/2025/12/23/texas-app-store-law-blocked/"/>
+        <updated>2025-12-23T22:03:46.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.macrumors.com/2025/12/23/texas-app-store-law-blocked/
+Comments URL: https://news.ycombinator.com/item?id=46370012
+Points: 119
+# Comments: 78]]></summary>
+        <author>
+            <name>danso</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[X-ray: a Python library for finding bad redactions in PDF documents]]></title>
         <id>https://news.ycombinator.com/item?id=46369923</id>
@@ -30,6 +56,34 @@ Points: 54
 # Comments: 32]]></summary>
         <author>
             <name>fcpguru</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Some Epstein file redactions are being undone with hacks]]></title>
+        <id>https://news.ycombinator.com/item?id=46368946</id>
+        <link href="https://www.theguardian.com/us-news/2025/dec/23/epstein-unredacted-files-social-media"/>
+        <updated>2025-12-23T20:10:30.000Z</updated>
+        <summary type="html"><![CDATA[Related: https://xcancel.com/vmfunc/status/2003292986650853825
+https://old.reddit.com/r/law/comments/1ptlms6/some_epstein_f...
+https://krassencast.com/p/breaking-we-just-unredacted-the-ep...
+Comments URL: https://news.ycombinator.com/item?id=46368946
+Points: 85
+# Comments: 52]]></summary>
+        <author>
+            <name>vinni2</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[HTTP Caching, a Refresher]]></title>
+        <id>https://news.ycombinator.com/item?id=46368616</id>
+        <link href="https://danburzo.ro/http-caching-refresher/"/>
+        <updated>2025-12-23T19:41:39.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://danburzo.ro/http-caching-refresher/
+Comments URL: https://news.ycombinator.com/item?id=46368616
+Points: 62
+# Comments: 5]]></summary>
+        <author>
+            <name>danburzo</name>
         </author>
     </entry>
     <entry>
@@ -17600,105 +17654,6 @@ Points: 54
 # Comments: 11]]></summary>
         <author>
             <name>creata</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: Cynthia – Reliably play MIDI music files – MIT / Portable / Windows]]></title>
-        <id>https://news.ycombinator.com/item?id=46034145</id>
-        <link href="https://www.blaizenterprises.com/cynthia.html"/>
-        <updated>2025-11-24T13:58:05.000Z</updated>
-        <summary type="html"><![CDATA[Easy to use, portable app to play midi music files on all flavours of Microsoft Windows.
-Brief Background - Used midi playback way back in the days of Windows 95 for some fun and entertaining apps, but as Windows progressed, it seemed their midi support (for Win32 anyway) regressed in both startup speed and reliability.  Midi playback used to be near instant on Windows 95, but on later versions of Windows this was delayed to about 5-7 seconds.  And reliability became somewhat patchy.  This made working with midi a real headache.
-Cynthia was built to test and enjoy midi music once again.  It's taken over a year of solid coding, recoding, testing, re-testing, and a lot more testing, and some hair pulling along the way, but finally Cynthia works pretty solidly on Windows now.
-Some of Cynthia's Key Features:
-* 25 built-in sample midis on a virtual disk - play right out-of-the box
-* Play Modes: Once, Repeat One, Repeat All, All Once, Random
-* Play ".mid", ".midi" and ".rmi" midi files in 0 and 1 formats
-* Realtime track data indicators, channel output volume indicators with peak hold, 128 note usage indicators
-* Volume Bars to display realtime average volume and bass volume levels
-* Use an Xbox Controller to control Cynthia's main functions 
-* Large list capacity for handling thousands of midi files
-* Switch between up to 10 midi playback devices in realtime
-* Playback through a single midi device, or multiple simultaneous midi devices with lag and channel output support
-* Custom built midi playback engine for high playback stability
-* Custom built codebase for low-level work to GUI level
-* Also runs on Linux/Mac (including apple silicon) via Wine
-* Smart Source Code - compiles in Borland Delphi 3 and Lazarus 2 
-* MIT License
-YouTube Video of Cynthia playing a midi:
-https://youtu.be/IDEOQUboTvQ
-GitHub Repo:
-https://github.com/blaiz2023/Cynthia
-Comments URL: https://news.ycombinator.com/item?id=46034145
-Points: 57
-# Comments: 17]]></summary>
-        <author>
-            <name>blaiz2025</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Fast Lua runtime written in Rust]]></title>
-        <id>https://news.ycombinator.com/item?id=46034142</id>
-        <link href="https://astra.arkforge.net/"/>
-        <updated>2025-11-24T13:57:53.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://astra.arkforge.net/
-Comments URL: https://news.ycombinator.com/item?id=46034142
-Points: 62
-# Comments: 29]]></summary>
-        <author>
-            <name>akagusu</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Technical Deflation]]></title>
-        <id>https://news.ycombinator.com/item?id=46033472</id>
-        <link href="https://benanderson.work/blog/technical-deflation/"/>
-        <updated>2025-11-24T12:39:10.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://benanderson.work/blog/technical-deflation/
-Comments URL: https://news.ycombinator.com/item?id=46033472
-Points: 51
-# Comments: 46]]></summary>
-        <author>
-            <name>0x79de</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Bureau of Meteorology's new boss asked to examine $96M bill for website redesign]]></title>
-        <id>https://news.ycombinator.com/item?id=46033435</id>
-        <link href="https://www.abc.net.au/news/2025-11-23/bureau-of-meteorology-new-website-cost-blowout-to-96-million/106042202"/>
-        <updated>2025-11-24T12:35:15.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.abc.net.au/news/2025-11-23/bureau-of-meteorology-new-website-cost-blowout-to-96-million/106042202
-Comments URL: https://news.ycombinator.com/item?id=46033435
-Points: 61
-# Comments: 41]]></summary>
-        <author>
-            <name>OuterVale</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Chrome Jpegxl Issue Reopened]]></title>
-        <id>https://news.ycombinator.com/item?id=46033330</id>
-        <link href="https://issues.chromium.org/issues/40168998"/>
-        <updated>2025-11-24T12:23:02.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://issues.chromium.org/issues/40168998
-Comments URL: https://news.ycombinator.com/item?id=46033330
-Points: 83
-# Comments: 17]]></summary>
-        <author>
-            <name>markdog12</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[NSA and IETF, part 3: Dodging the issues at hand]]></title>
-        <id>https://news.ycombinator.com/item?id=46033151</id>
-        <link href="https://blog.cr.yp.to/20251123-dodging.html"/>
-        <updated>2025-11-24T12:00:55.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://blog.cr.yp.to/20251123-dodging.html
-Comments URL: https://news.ycombinator.com/item?id=46033151
-Points: 67
-# Comments: 13]]></summary>
-        <author>
-            <name>upofadown</name>
         </author>
     </entry>
 </feed>

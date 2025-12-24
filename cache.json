@@ -6,6 +6,26 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=46370592",
+          "author": "colinbartlett",
+          "description": "Article URL: https://statusgator.com/blog/aws-least-reliable-region-in-2025/\nComments URL: https://news.ycombinator.com/item?id=46370592\nPoints: 51\n# Comments: 21",
+          "link": "https://statusgator.com/blog/aws-least-reliable-region-in-2025/",
+          "publishedOn": "2025-12-23T23:12:03.000Z",
+          "wordCount": 4436,
+          "title": "Is Northern Virginia still the least reliable AWS region?",
+          "imageUrl": "https://statusgator.com/blog/wp-content/uploads/2025/12/Blog-thumbnail-7.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46370012",
+          "author": "danso",
+          "description": "Article URL: https://www.macrumors.com/2025/12/23/texas-app-store-law-blocked/\nComments URL: https://news.ycombinator.com/item?id=46370012\nPoints: 119\n# Comments: 78",
+          "link": "https://www.macrumors.com/2025/12/23/texas-app-store-law-blocked/",
+          "publishedOn": "2025-12-23T22:03:46.000Z",
+          "wordCount": 2998,
+          "title": "Texas app store age verification law blocked by federal judge",
+          "imageUrl": "https://images.macrumors.com/t/on82wv5858RI4ckSlMLJ1hrpSPY=/2250x/article-new/2022/01/iOS-App-Store-General-Feature-Desaturated.jpg"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=46369923",
           "author": "rendx",
           "description": "Article URL: https://github.com/freelawproject/x-ray\nComments URL: https://news.ycombinator.com/item?id=46369923\nPoints: 73\n# Comments: 22",
@@ -24,6 +44,26 @@
           "wordCount": 4259,
           "title": "I didn't realize my LG TV was spying on me until I turned off this setting",
           "imageUrl": "https://static0.pocketlintimages.com/wordpress/wp-content/uploads/wm/2025/12/lg-tv-hero-1.jpg?w=1600&h=900&fit=crop"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46368946",
+          "author": "vinni2",
+          "description": "Related: https://xcancel.com/vmfunc/status/2003292986650853825\nhttps://old.reddit.com/r/law/comments/1ptlms6/some_epstein_f...\nhttps://krassencast.com/p/breaking-we-just-unredacted-the-ep...\nComments URL: https://news.ycombinator.com/item?id=46368946\nPoints: 85\n# Comments: 52",
+          "link": "https://www.theguardian.com/us-news/2025/dec/23/epstein-unredacted-files-social-media",
+          "publishedOn": "2025-12-23T20:10:30.000Z",
+          "wordCount": 4209,
+          "title": "Some Epstein file redactions are being undone with hacks",
+          "imageUrl": "https://i.guim.co.uk/img/media/4c77e9fd23505a7cb1fd806c84613896c3478f05/0_0_3000_2400/master/3000.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=9f59a07d44d402ffe06351655451834b"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46368616",
+          "author": "danburzo",
+          "description": "Article URL: https://danburzo.ro/http-caching-refresher/\nComments URL: https://news.ycombinator.com/item?id=46368616\nPoints: 62\n# Comments: 5",
+          "link": "https://danburzo.ro/http-caching-refresher/",
+          "publishedOn": "2025-12-23T19:41:39.000Z",
+          "wordCount": 2941,
+          "title": "HTTP Caching, a Refresher",
+          "imageUrl": null
         },
         {
           "id": "https://news.ycombinator.com/item?id=46368557",
@@ -13224,66 +13264,6 @@
           "wordCount": 17,
           "title": "WebR – R in the Browser",
           "imageUrl": "https://webr.sh/assets/banner.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46034145",
-          "author": "blaiz2025",
-          "description": "Easy to use, portable app to play midi music files on all flavours of Microsoft Windows.\nBrief Background - Used midi playback way back in the days of Windows 95 for some fun and entertaining apps, but as Windows progressed, it seemed their midi support (for Win32 anyway) regressed in both startup speed and reliability.  Midi playback used to be near instant on Windows 95, but on later versions of Windows this was delayed to about 5-7 seconds.  And reliability became somewhat patchy.  This made working with midi a real headache.\nCynthia was built to test and enjoy midi music once again.  It's taken over a year of solid coding, recoding, testing, re-testing, and a lot more testing, and some hair pulling along the way, but finally Cynthia works pretty solidly on Windows now.\nSome of Cynthia's Key Features:\n* 25 built-in sample midis on a virtual disk - play right out-of-the box\n* Play Modes: Once, Repeat One, Repeat All, All Once, Random\n* Play \".mid\", \".midi\" and \".rmi\" midi files in 0 and 1 formats\n* Realtime track data indicators, channel output volume indicators with peak hold, 128 note usage indicators\n* Volume Bars to display realtime average volume and bass volume levels\n* Use an Xbox Controller to control Cynthia's main functions \n* Large list capacity for handling thousands of midi files\n* Switch between up to 10 midi playback devices in realtime\n* Playback through a single midi device, or multiple simultaneous midi devices with lag and channel output support\n* Custom built midi playback engine for high playback stability\n* Custom built codebase for low-level work to GUI level\n* Also runs on Linux/Mac (including apple silicon) via Wine\n* Smart Source Code - compiles in Borland Delphi 3 and Lazarus 2 \n* MIT License\nYouTube Video of Cynthia playing a midi:\nhttps://youtu.be/IDEOQUboTvQ\nGitHub Repo:\nhttps://github.com/blaiz2023/Cynthia\nComments URL: https://news.ycombinator.com/item?id=46034145\nPoints: 57\n# Comments: 17",
-          "link": "https://www.blaizenterprises.com/cynthia.html",
-          "publishedOn": "2025-11-24T13:58:05.000Z",
-          "wordCount": 11437,
-          "title": "Show HN: Cynthia – Reliably play MIDI music files – MIT / Portable / Windows",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46034142",
-          "author": "akagusu",
-          "description": "Article URL: https://astra.arkforge.net/\nComments URL: https://news.ycombinator.com/item?id=46034142\nPoints: 62\n# Comments: 29",
-          "link": "https://astra.arkforge.net/",
-          "publishedOn": "2025-11-24T13:57:53.000Z",
-          "wordCount": 192,
-          "title": "Fast Lua runtime written in Rust",
-          "imageUrl": "https://astra.arkforge.net/banner.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46033472",
-          "author": "0x79de",
-          "description": "Article URL: https://benanderson.work/blog/technical-deflation/\nComments URL: https://news.ycombinator.com/item?id=46033472\nPoints: 51\n# Comments: 46",
-          "link": "https://benanderson.work/blog/technical-deflation/",
-          "publishedOn": "2025-11-24T12:39:10.000Z",
-          "wordCount": 1493,
-          "title": "Technical Deflation",
-          "imageUrl": "https://benanderson.work/images/display_card.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46033435",
-          "author": "OuterVale",
-          "description": "Article URL: https://www.abc.net.au/news/2025-11-23/bureau-of-meteorology-new-website-cost-blowout-to-96-million/106042202\nComments URL: https://news.ycombinator.com/item?id=46033435\nPoints: 61\n# Comments: 41",
-          "link": "https://www.abc.net.au/news/2025-11-23/bureau-of-meteorology-new-website-cost-blowout-to-96-million/106042202",
-          "publishedOn": "2025-11-24T12:35:15.000Z",
-          "wordCount": 3477,
-          "title": "Bureau of Meteorology's new boss asked to examine $96M bill for website redesign",
-          "imageUrl": "https://live-production.wcms.abc-cdn.net.au/5ae88c89fc883b39342b53597c98dea2?impolicy=wcms_watermark_news&cropH=2813&cropW=5000&xPos=0&yPos=337&width=862&height=485&imformat=generic"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46033330",
-          "author": "markdog12",
-          "description": "Article URL: https://issues.chromium.org/issues/40168998\nComments URL: https://news.ycombinator.com/item?id=46033330\nPoints: 83\n# Comments: 17",
-          "link": "https://issues.chromium.org/issues/40168998",
-          "publishedOn": "2025-11-24T12:23:02.000Z",
-          "wordCount": 3121,
-          "title": "Chrome Jpegxl Issue Reopened",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46033151",
-          "author": "upofadown",
-          "description": "Article URL: https://blog.cr.yp.to/20251123-dodging.html\nComments URL: https://news.ycombinator.com/item?id=46033151\nPoints: 67\n# Comments: 13",
-          "link": "https://blog.cr.yp.to/20251123-dodging.html",
-          "publishedOn": "2025-11-24T12:00:55.000Z",
-          "wordCount": 6548,
-          "title": "NSA and IETF, part 3: Dodging the issues at hand",
-          "imageUrl": null
         }
       ]
     }
