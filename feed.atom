@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2025-12-25T12:54:07.077Z</updated>
+    <updated>2025-12-25T13:36:22.603Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
@@ -56,6 +56,19 @@ Points: 89
 # Comments: 7]]></summary>
         <author>
             <name>FBISurveillance</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The next-gen mainboard designed with amigaos4 and morphos in mind]]></title>
+        <id>https://news.ycombinator.com/item?id=46380953</id>
+        <link href="https://mirari.vitasys.nl/our-story/"/>
+        <updated>2025-12-25T00:38:09.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://mirari.vitasys.nl/our-story/
+Comments URL: https://news.ycombinator.com/item?id=46380953
+Points: 52
+# Comments: 11]]></summary>
+        <author>
+            <name>todsacerdoti</name>
         </author>
     </entry>
     <entry>
@@ -2533,6 +2546,19 @@ Points: 62
 # Comments: 24]]></summary>
         <author>
             <name>radley</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Prototaxites]]></title>
+        <id>https://news.ycombinator.com/item?id=46332568</id>
+        <link href="https://astrobiology.com/2025/03/ancient-prototaxites-dont-belong-to-any-living-lineage-possibly-a-distinct-branch-of-multicellular-earth-life.html"/>
+        <updated>2025-12-20T00:22:26.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://astrobiology.com/2025/03/ancient-prototaxites-dont-belong-to-any-living-lineage-possibly-a-distinct-branch-of-multicellular-earth-life.html
+Comments URL: https://news.ycombinator.com/item?id=46332568
+Points: 52
+# Comments: 6]]></summary>
+        <author>
+            <name>andsoitis</name>
         </author>
     </entry>
     <entry>
@@ -17495,35 +17521,6 @@ The idea is simple. WordPress keeps generating images normally. The plugin rewri
 I built this …]]></summary>
         <author>
             <name>cr1st1an</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: Real-time system that tracks how news spreads across 200k websites]]></title>
-        <id>https://news.ycombinator.com/item?id=46053076</id>
-        <link href="https://yandori.io/news-flow/"/>
-        <updated>2025-11-26T01:27:16.000Z</updated>
-        <summary type="html"><![CDATA[I built a system that monitors ~200,000 news RSS feeds in near real-time and clusters related articles to show how stories spread across the web.
-It uses Snowflake’s Arctic model for embeddings and HNSW for fast similarity search. Each “story cluster” shows who published first, how fast it propagated, and how the narrative evolved as more outlets picked it up.
-Would love feedback on the architecture, scaling approach, and any ways to make the clusters more accurate or useful.
-Live demo: https://yandori.io/news-flow/
-Comments URL: https://news.ycombinator.com/item?id=46053076
-Points: 114
-# Comments: 29]]></summary>
-        <author>
-            <name>antiochIst</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Space: 1999 – Special Effects Techniques]]></title>
-        <id>https://news.ycombinator.com/item?id=46053017</id>
-        <link href="https://catacombs.space1999.net/main/pguide/upsfx.html"/>
-        <updated>2025-11-26T01:19:17.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://catacombs.space1999.net/main/pguide/upsfx.html
-Comments URL: https://news.ycombinator.com/item?id=46053017
-Points: 50
-# Comments: 21]]></summary>
-        <author>
-            <name>exvi</name>
         </author>
     </entry>
 </feed>
