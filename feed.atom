@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2025-12-25T13:36:22.603Z</updated>
+    <updated>2025-12-25T14:25:57.292Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
@@ -17508,19 +17508,6 @@ Points: 56
 # Comments: 15]]></summary>
         <author>
             <name>exvi</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: A WordPress plugin that rewrites image URLs for near-zero-cost delivery]]></title>
-        <id>https://news.ycombinator.com/item?id=46053385</id>
-        <link href="https://wordpress.org/plugins/bandwidth-saver/"/>
-        <updated>2025-11-26T02:05:36.000Z</updated>
-        <summary type="html"><![CDATA[Hi HN,
-I built a WordPress plugin called Bandwidth Saver. It takes the images your site already has and serves them through Cloudflare R2 and Workers, which means zero egress fees and extremely low storage cost. The goal is to make image delivery fast and cheap without adding any of the complexity of traditional optimization plugins.
-The idea is simple. WordPress keeps generating images normally. The plugin rewrites the URLs on the frontend so images are served from a Cloudflare Worker. On the first request, the Worker fetches the original image and stores it in R2. After that, Cloudflare’s edge serves the image from its global cache with no egress charges. There’s no need to preload or sync anything, and if something fails, the original image loads. That’s the entire system.
-I built this …]]></summary>
-        <author>
-            <name>cr1st1an</name>
         </author>
     </entry>
 </feed>
