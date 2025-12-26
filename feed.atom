@@ -2,10 +2,36 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2025-12-26T13:36:21.072Z</updated>
+    <updated>2025-12-26T14:26:36.732Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Package managers keep using Git as a database, it never works out]]></title>
+        <id>https://news.ycombinator.com/item?id=46391514</id>
+        <link href="https://nesbitt.io/2025/12/24/package-managers-keep-using-git-as-a-database.html"/>
+        <updated>2025-12-26T12:46:36.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://nesbitt.io/2025/12/24/package-managers-keep-using-git-as-a-database.html
+Comments URL: https://news.ycombinator.com/item?id=46391514
+Points: 75
+# Comments: 26]]></summary>
+        <author>
+            <name>birdculture</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ChatGPT conversations still lack timestamps after years of requests]]></title>
+        <id>https://news.ycombinator.com/item?id=46391472</id>
+        <link href="https://community.openai.com/t/timestamps-for-chats-in-chatgpt/440107?page=3"/>
+        <updated>2025-12-26T12:39:32.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://community.openai.com/t/timestamps-for-chats-in-chatgpt/440107?page=3
+Comments URL: https://news.ycombinator.com/item?id=46391472
+Points: 56
+# Comments: 34]]></summary>
+        <author>
+            <name>Valid3840</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[I'm a laptop weirdo and that's why I like my new Framework 13]]></title>
         <id>https://news.ycombinator.com/item?id=46391410</id>
@@ -1116,6 +1142,24 @@ Points: 70
 # Comments: 44]]></summary>
         <author>
             <name>nishilpatel</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: GeneGuessr – a daily biology web puzzle]]></title>
+        <id>https://news.ycombinator.com/item?id=46363870</id>
+        <link href="https://geneguessr.brinedew.bio/"/>
+        <updated>2025-12-23T09:40:37.000Z</updated>
+        <summary type="html"><![CDATA[I made a web game inspired by Geoguessr and Wordle, where you get shown a 3D model of a random human protein each day, and you have to triangulate its gene name using similarity clues.
+My background is in wet lab molecular biology and I intend this game to be engaging mostly to other biologists. But if you're outside the field, I'm interested to know if you can still solve it with browser use LLMs, and if you learned something interesting doing so. Let me know what you think.
+I made it with Claude over the last 2 months. My coding experience is limited to basic python data analysis and figure making. I've seen people online asking, "Now that we have coding AI, why isn't there a deluge of awesome AI-generated apps made by non-coders?" - if this sounds like you, check out Geneguessr to understand what a web app by a non-coder looks like.
+I might write more about the process if there's a demand, but what really unlocked the project for Claude was Linear MCP, where it could put each individual issue on a shared Kanban board. This, and Playwright MCP for testing on live site, were the two workhorses that got me through this. For bugs Claude couldn't one-shot, Linear was great for consolidating issue information so that I could dump it into ChatGPT Codex - it would usually think for like half an hour, output very confusing explanations, but the bug was gone.
+Game is free, no log-in required, sorry if you run into any mobile bugs - didn't test it much there.
+https://geneguessr.brinedew.bio/
+Comments URL: https://news.ycombinator.com/item?id=46363870
+Points: 57
+# Comments: 11]]></summary>
+        <author>
+            <name>brinedew</name>
         </author>
     </entry>
     <entry>
@@ -17297,45 +17341,6 @@ Points: 87
 # Comments: 27]]></summary>
         <author>
             <name>nxobject</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Penpot: The Open-Source Figma]]></title>
-        <id>https://news.ycombinator.com/item?id=46064757</id>
-        <link href="https://github.com/penpot/penpot"/>
-        <updated>2025-11-27T02:14:36.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://github.com/penpot/penpot
-Comments URL: https://news.ycombinator.com/item?id=46064757
-Points: 50
-# Comments: 6]]></summary>
-        <author>
-            <name>selvan</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Functional Data Structures and Algorithms: a Proof Assistant Approach]]></title>
-        <id>https://news.ycombinator.com/item?id=46064680</id>
-        <link href="https://fdsa-book.net/"/>
-        <updated>2025-11-27T02:04:57.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://fdsa-book.net/
-Comments URL: https://news.ycombinator.com/item?id=46064680
-Points: 57
-# Comments: 8]]></summary>
-        <author>
-            <name>SchwKatze</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Migrating the Main Zig Repository from GitHub to Codeberg]]></title>
-        <id>https://news.ycombinator.com/item?id=46064571</id>
-        <link href="https://ziglang.org/news/migrating-from-github-to-codeberg/"/>
-        <updated>2025-11-27T01:49:00.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://ziglang.org/news/migrating-from-github-to-codeberg/
-Comments URL: https://news.ycombinator.com/item?id=46064571
-Points: 152
-# Comments: 62]]></summary>
-        <author>
-            <name>todsacerdoti</name>
         </author>
     </entry>
 </feed>

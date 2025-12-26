@@ -6,6 +6,26 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=46391514",
+          "author": "birdculture",
+          "description": "Article URL: https://nesbitt.io/2025/12/24/package-managers-keep-using-git-as-a-database.html\nComments URL: https://news.ycombinator.com/item?id=46391514\nPoints: 75\n# Comments: 26",
+          "link": "https://nesbitt.io/2025/12/24/package-managers-keep-using-git-as-a-database.html",
+          "publishedOn": "2025-12-26T12:46:36.000Z",
+          "wordCount": 1759,
+          "title": "Package managers keep using Git as a database, it never works out",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46391472",
+          "author": "Valid3840",
+          "description": "Article URL: https://community.openai.com/t/timestamps-for-chats-in-chatgpt/440107?page=3\nComments URL: https://news.ycombinator.com/item?id=46391472\nPoints: 56\n# Comments: 34",
+          "link": "https://community.openai.com/t/timestamps-for-chats-in-chatgpt/440107?page=3",
+          "publishedOn": "2025-12-26T12:39:32.000Z",
+          "wordCount": null,
+          "title": "ChatGPT conversations still lack timestamps after years of requests",
+          "imageUrl": null
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=46391410",
           "author": "todsacerdoti",
           "description": "Article URL: https://blog.matthewbrunelle.com/im-a-laptop-weirdo-and-thats-why-i-like-my-new-framework-13/\nComments URL: https://news.ycombinator.com/item?id=46391410\nPoints: 55\n# Comments: 28",
@@ -824,6 +844,16 @@
           "wordCount": 1587,
           "title": "What are the best engineering blogs with real-world depth (no fluff)?",
           "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46363870",
+          "author": "brinedew",
+          "description": "I made a web game inspired by Geoguessr and Wordle, where you get shown a 3D model of a random human protein each day, and you have to triangulate its gene name using similarity clues.\nMy background is in wet lab molecular biology and I intend this game to be engaging mostly to other biologists. But if you're outside the field, I'm interested to know if you can still solve it with browser use LLMs, and if you learned something interesting doing so. Let me know what you think.\nI made it with Claude over the last 2 months. My coding experience is limited to basic python data analysis and figure making. I've seen people online asking, \"Now that we have coding AI, why isn't there a deluge of awesome AI-generated apps made by non-coders?\" - if this sounds like you, check out Geneguessr to understand what a web app by a non-coder looks like.\nI might write more about the process if there's a demand, but what really unlocked the project for Claude was Linear MCP, where it could put each individual issue on a shared Kanban board. This, and Playwright MCP for testing on live site, were the two workhorses that got me through this. For bugs Claude couldn't one-shot, Linear was great for consolidating issue information so that I could dump it into ChatGPT Codex - it would usually think for like half an hour, output very confusing explanations, but the bug was gone.\nGame is free, no log-in required, sorry if you run into any mobile bugs - didn't test it much there.\nhttps://geneguessr.brinedew.bio/\nComments URL: https://news.ycombinator.com/item?id=46363870\nPoints: 57\n# Comments: 11",
+          "link": "https://geneguessr.brinedew.bio/",
+          "publishedOn": "2025-12-23T09:40:37.000Z",
+          "wordCount": 611,
+          "title": "Show HN: GeneGuessr – a daily biology web puzzle",
+          "imageUrl": "https://brinedew.bio/static/geneguessr/og-image.png"
         },
         {
           "id": "https://news.ycombinator.com/item?id=46363751",
@@ -12963,36 +12993,6 @@
           "publishedOn": "2025-11-27T02:51:31.000Z",
           "wordCount": null,
           "title": "Green Card Interviews End in Handcuffs for Spouses of U.S. Citizens",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46064757",
-          "author": "selvan",
-          "description": "Article URL: https://github.com/penpot/penpot\nComments URL: https://news.ycombinator.com/item?id=46064757\nPoints: 50\n# Comments: 6",
-          "link": "https://github.com/penpot/penpot",
-          "publishedOn": "2025-11-27T02:14:36.000Z",
-          "wordCount": 4086,
-          "title": "Penpot: The Open-Source Figma",
-          "imageUrl": "https://repository-images.githubusercontent.com/48769241/1e3fb75a-13e6-4d77-a658-e70e17fb1c6f"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46064680",
-          "author": "SchwKatze",
-          "description": "Article URL: https://fdsa-book.net/\nComments URL: https://news.ycombinator.com/item?id=46064680\nPoints: 57\n# Comments: 8",
-          "link": "https://fdsa-book.net/",
-          "publishedOn": "2025-11-27T02:04:57.000Z",
-          "wordCount": 133,
-          "title": "Functional Data Structures and Algorithms: a Proof Assistant Approach",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46064571",
-          "author": "todsacerdoti",
-          "description": "Article URL: https://ziglang.org/news/migrating-from-github-to-codeberg/\nComments URL: https://news.ycombinator.com/item?id=46064571\nPoints: 152\n# Comments: 62",
-          "link": "https://ziglang.org/news/migrating-from-github-to-codeberg/",
-          "publishedOn": "2025-11-27T01:49:00.000Z",
-          "wordCount": 682,
-          "title": "Migrating the Main Zig Repository from GitHub to Codeberg",
           "imageUrl": null
         }
       ]
