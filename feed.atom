@@ -2,10 +2,49 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2025-12-26T19:20:51.503Z</updated>
+    <updated>2025-12-26T20:28:15.277Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[My insulin pump controller uses the Linux kernel. It also violates the GPL]]></title>
+        <id>https://news.ycombinator.com/item?id=46395184</id>
+        <link href="https://old.reddit.com/r/linux/comments/1puojsr/the_device_that_controls_my_insulin_pump_uses_the/"/>
+        <updated>2025-12-26T19:13:22.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://old.reddit.com/r/linux/comments/1puojsr/the_device_that_controls_my_insulin_pump_uses_the/
+Comments URL: https://news.ycombinator.com/item?id=46395184
+Points: 68
+# Comments: 10]]></summary>
+        <author>
+            <name>davisr</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Rob Pike got spammed with an AI slop "act of kindness"]]></title>
+        <id>https://news.ycombinator.com/item?id=46394867</id>
+        <link href="https://simonwillison.net/2025/Dec/26/slop-acts-of-kindness/"/>
+        <updated>2025-12-26T18:42:13.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://simonwillison.net/2025/Dec/26/slop-acts-of-kindness/
+Comments URL: https://news.ycombinator.com/item?id=46394867
+Points: 175
+# Comments: 88]]></summary>
+        <author>
+            <name>nabla9</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[FFmpeg has issued a DMCA takedown on GitHub]]></title>
+        <id>https://news.ycombinator.com/item?id=46394327</id>
+        <link href="https://twitter.com/FFmpeg/status/2004599109559496984"/>
+        <updated>2025-12-26T17:48:25.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://twitter.com/FFmpeg/status/2004599109559496984
+Comments URL: https://news.ycombinator.com/item?id=46394327
+Points: 157
+# Comments: 15]]></summary>
+        <author>
+            <name>merlindru</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[ICE's interest in high-tech gear raises new questions: 'What is it for?']]></title>
         <id>https://news.ycombinator.com/item?id=46394228</id>
@@ -33,6 +72,32 @@ Points: 61
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Experts Explore New Mushroom Which Causes Fairytale-Like Hallucinations]]></title>
+        <id>https://news.ycombinator.com/item?id=46393936</id>
+        <link href="https://nhmu.utah.edu/articles/experts-explore-new-mushroom-which-causes-fairytale-hallucinations"/>
+        <updated>2025-12-26T17:07:53.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://nhmu.utah.edu/articles/experts-explore-new-mushroom-which-causes-fairytale-hallucinations
+Comments URL: https://news.ycombinator.com/item?id=46393936
+Points: 135
+# Comments: 47]]></summary>
+        <author>
+            <name>astronads</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: AutoLISP interpreter in Rust/WASM – a CAD workflow invented 33 yrs ago]]></title>
+        <id>https://news.ycombinator.com/item?id=46393271</id>
+        <link href="https://acadlisp.de/noscript.html"/>
+        <updated>2025-12-26T15:56:52.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://acadlisp.de/noscript.html
+Comments URL: https://news.ycombinator.com/item?id=46393271
+Points: 54
+# Comments: 27]]></summary>
+        <author>
+            <name>holg</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[High School Student Discovers 1.5M Potential New Astronomical Objects]]></title>
         <id>https://news.ycombinator.com/item?id=46392815</id>
         <link href="https://www.smithsonianmag.com/smart-news/high-school-student-discovers-1-5-million-potential-new-astronomical-objects-by-developing-an-ai-algorithm-180986429/"/>
@@ -43,6 +108,36 @@ Points: 57
 # Comments: 56]]></summary>
         <author>
             <name>mhb</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Xcc700: Self-hosting mini C compiler for ESP32 (Xtensa) in 700 lines]]></title>
+        <id>https://news.ycombinator.com/item?id=46392736</id>
+        <link href="https://github.com/valdanylchuk/xcc700"/>
+        <updated>2025-12-26T15:07:01.000Z</updated>
+        <summary type="html"><![CDATA[Repo: https://github.com/valdanylchuk/xcc700
+Hi Everyone! I just wrote my first compiler!
+- single pass, recursive descent, direct emission
+- generates REL ELF binaries, runnable using ESP-IDF elf_loader
+- very basic features only, just enough for self-hosting
+- treats the Xtensa CPU as a stack machine for simplicity, no register allocation / window usage
+- compilable on Mac, probably also Linux, can cross-compile for esp32 there
+- wrote for fun / cyberdeck project
+Sample output from esp32:
+    xcc700.elf xcc700.c -o /d/cc.elf
+    
+    [ xcc700 ] BUILD COMPLETED > OK
+    > IN  : 700 Lines / 7977 Tokens
+    > SYM : 69 Funcs / 91 Globals
+    > REL : 152 Literals / 1027 Patches
+    > MEM : 1041 B .rodata / 17120 B .bss
+    > OUT : 27735 B .text / 33300 B ELF
+    [ 40 ms ] >> 17500 Lines/sec 
+Comments URL: https://news.ycombinator.com/item?id=46392736
+Points: 52
+# Comments: 13]]></summary>
+        <author>
+            <name>isitcontent</name>
         </author>
     </entry>
     <entry>
@@ -17313,45 +17408,6 @@ Points: 75
 # Comments: 14]]></summary>
         <author>
             <name>pseudolus</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[RL is more information inefficient than you thought]]></title>
-        <id>https://news.ycombinator.com/item?id=46067011</id>
-        <link href="https://www.dwarkesh.com/p/bits-per-sample"/>
-        <updated>2025-11-27T08:23:03.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.dwarkesh.com/p/bits-per-sample
-Comments URL: https://news.ycombinator.com/item?id=46067011
-Points: 52
-# Comments: 13]]></summary>
-        <author>
-            <name>cubefox</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ray Marching Soft Shadows in 2D]]></title>
-        <id>https://news.ycombinator.com/item?id=46066695</id>
-        <link href="https://www.rykap.com/2020/09/23/distance-fields/"/>
-        <updated>2025-11-27T07:31:24.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.rykap.com/2020/09/23/distance-fields/
-Comments URL: https://news.ycombinator.com/item?id=46066695
-Points: 54
-# Comments: 5]]></summary>
-        <author>
-            <name>memalign</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[An LED panel that shows the aviation around you]]></title>
-        <id>https://news.ycombinator.com/item?id=46066640</id>
-        <link href="https://github.com/AxisNimble/TheFlightWall_OSS"/>
-        <updated>2025-11-27T07:22:31.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://github.com/AxisNimble/TheFlightWall_OSS
-Comments URL: https://news.ycombinator.com/item?id=46066640
-Points: 67
-# Comments: 17]]></summary>
-        <author>
-            <name>yzydserd</name>
         </author>
     </entry>
 </feed>
