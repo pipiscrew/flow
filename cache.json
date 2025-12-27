@@ -6,6 +6,16 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=46401539",
+          "author": "SG-",
+          "description": "Article URL: https://github.com/apple/ml-sharp\nComments URL: https://news.ycombinator.com/item?id=46401539\nPoints: 91\n# Comments: 30",
+          "link": "https://github.com/apple/ml-sharp",
+          "publishedOn": "2025-12-27T12:58:12.000Z",
+          "wordCount": 2691,
+          "title": "Apple releases open-source model that instantly turns 2D photos into 3D views",
+          "imageUrl": "https://opengraph.githubassets.com/9bb7057cb9dd97389e72229846fd127ed2c6de02bfdddf46481555817ec6adf3/apple/ml-sharp"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=46400251",
           "author": "josharsh",
           "description": "I built a CLI tool that lets you do common video/audio operations without remembering ffmpeg syntax.\nInstead of:\nffmpeg -i video.mp4 -vf \"fps=15,scale=480:-1:flags=lanczos\" -loop 0 output.gif\nYou write:\n  ff convert video.mp4 to gif\nMore examples:\n  ff compress video.mp4 to 10mb\n  ff trim video.mp4 from 0:30 to 1:00\n  ff extract audio from video.mp4\n  ff resize video.mp4 to 720p\n  ff speed up video.mp4 by 2x\n  ff reverse video.mp4\nThere are similar tools that use LLMs (wtffmpeg, llmpeg, ai-ffmpeg-cli), but they require API keys, cost money, and have latency.\nEz FFmpeg is different:\n  - No AI – just regex pattern matching\n  - Instant – no API calls\n  - Free – no tokens\n  - Offline – works without internet\nIt handles ~20 common operations that cover 90% of what developers actually do with ffmpeg. For edge cases, you still need ffmpeg directly.\nInteractive mode (just type ff) shows media files in your current folder with typeahead search.\nnpm install -g ezff\nComments URL: https://news.ycombinator.com/item?id=46400251\nPoints: 53\n# Comments: 17",
@@ -1166,6 +1176,16 @@
           "imageUrl": "https://physicalintelligence.company/images/olympics-og.png"
         },
         {
+          "id": "https://news.ycombinator.com/item?id=46365105",
+          "author": "bahaAbunojaim",
+          "description": "Hey HN! I'm Baha, creator of Mysti.\nThe problem: I pay for Claude Pro, ChatGPT Plus, and Gemini but only one could help at a time. On tricky architecture decisions, I wanted a second opinion.\nThe solution: Mysti lets you pick any two AI agents (Claude Code, Codex, Gemini) to collaborate. They each analyze your request, debate approaches, then synthesize the best solution.\nYour prompt → Agent 1 analyzes → Agent 2 analyzes → Discussion → Synthesized solution\nWhy this matters: each model has different training and blind spots. Two perspectives catch edge cases one would miss. It's like pair programming with two senior devs who actually discuss before answering.\nWhat you get:\n* Use your existing subscriptions (no new accounts, just your CLI tools)\n* 16 personas (Architect, Debugger, Security Expert, etc)\n* Full permission control from read-only to autonomous\n* Unified context when switching agents\nTech: TypeScript, VS Code Extension API, shells out to claude-code/codex-cli/gemini-cli\nLicense: BSL 1.1, free for personal and educational use, converts to MIT in 2030 (would love input on this, does it make sense to just go MIT?)\nGitHub: https://github.com/DeepMyst/Mysti\nWould love feedback on the brainstorm mode. Is multi-agent collaboration actually useful or am I just solving my own niche problem?\nComments URL: https://news.ycombinator.com/item?id=46365105\nPoints: 62\n# Comments: 64",
+          "link": "https://github.com/DeepMyst/Mysti",
+          "publishedOn": "2025-12-23T13:18:32.000Z",
+          "wordCount": 6631,
+          "title": "Show HN: Mysti – Claude, Codex, and Gemini debate your code, then synthesize",
+          "imageUrl": "https://opengraph.githubassets.com/99883bc24fc561517c462793c233737d395e239ae7809f427170e9c1d6a83a1b/DeepMyst/Mysti"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=46364973",
           "author": "alpaylan",
           "description": "Article URL: https://alperenkeles.com/posts/test-dont-verify/\nComments URL: https://news.ycombinator.com/item?id=46364973\nPoints: 55\n# Comments: 20",
@@ -1174,6 +1194,16 @@
           "wordCount": 2748,
           "title": "Test, don't (just) verify",
           "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46364567",
+          "author": "saithound",
+          "description": "Article URL: https://github.com/James-Hanson/junk-theorems-in-lean\nComments URL: https://news.ycombinator.com/item?id=46364567\nPoints: 52\n# Comments: 33",
+          "link": "https://github.com/James-Hanson/junk-theorems-in-lean",
+          "publishedOn": "2025-12-23T11:53:19.000Z",
+          "wordCount": 4059,
+          "title": "Some Junk Theorems in Lean",
+          "imageUrl": "https://opengraph.githubassets.com/ba28cc1d560b593692b5dbc46dc42583933eced2bfee765b3f59b075f2ed0258/James-Hanson/junk-theorems-in-lean"
         },
         {
           "id": "https://news.ycombinator.com/item?id=46364272",

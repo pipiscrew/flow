@@ -2,10 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2025-12-27T14:23:48.804Z</updated>
+    <updated>2025-12-27T15:24:59.224Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Apple releases open-source model that instantly turns 2D photos into 3D views]]></title>
+        <id>https://news.ycombinator.com/item?id=46401539</id>
+        <link href="https://github.com/apple/ml-sharp"/>
+        <updated>2025-12-27T12:58:12.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://github.com/apple/ml-sharp
+Comments URL: https://news.ycombinator.com/item?id=46401539
+Points: 91
+# Comments: 30]]></summary>
+        <author>
+            <name>SG-</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Show HN: Ez FFmpeg – Video editing in plain English]]></title>
         <id>https://news.ycombinator.com/item?id=46400251</id>
@@ -1598,6 +1611,32 @@ Points: 54
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Show HN: Mysti – Claude, Codex, and Gemini debate your code, then synthesize]]></title>
+        <id>https://news.ycombinator.com/item?id=46365105</id>
+        <link href="https://github.com/DeepMyst/Mysti"/>
+        <updated>2025-12-23T13:18:32.000Z</updated>
+        <summary type="html"><![CDATA[Hey HN! I'm Baha, creator of Mysti.
+The problem: I pay for Claude Pro, ChatGPT Plus, and Gemini but only one could help at a time. On tricky architecture decisions, I wanted a second opinion.
+The solution: Mysti lets you pick any two AI agents (Claude Code, Codex, Gemini) to collaborate. They each analyze your request, debate approaches, then synthesize the best solution.
+Your prompt → Agent 1 analyzes → Agent 2 analyzes → Discussion → Synthesized solution
+Why this matters: each model has different training and blind spots. Two perspectives catch edge cases one would miss. It's like pair programming with two senior devs who actually discuss before answering.
+What you get:
+* Use your existing subscriptions (no new accounts, just your CLI tools)
+* 16 personas (Architect, Debugger, Security Expert, etc)
+* Full permission control from read-only to autonomous
+* Unified context when switching agents
+Tech: TypeScript, VS Code Extension API, shells out to claude-code/codex-cli/gemini-cli
+License: BSL 1.1, free for personal and educational use, converts to MIT in 2030 (would love input on this, does it make sense to just go MIT?)
+GitHub: https://github.com/DeepMyst/Mysti
+Would love feedback on the brainstorm mode. Is multi-agent collaboration actually useful or am I just solving my own niche problem?
+Comments URL: https://news.ycombinator.com/item?id=46365105
+Points: 62
+# Comments: 64]]></summary>
+        <author>
+            <name>bahaAbunojaim</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Test, don't (just) verify]]></title>
         <id>https://news.ycombinator.com/item?id=46364973</id>
         <link href="https://alperenkeles.com/posts/test-dont-verify/"/>
@@ -1608,6 +1647,19 @@ Points: 55
 # Comments: 20]]></summary>
         <author>
             <name>alpaylan</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Some Junk Theorems in Lean]]></title>
+        <id>https://news.ycombinator.com/item?id=46364567</id>
+        <link href="https://github.com/James-Hanson/junk-theorems-in-lean"/>
+        <updated>2025-12-23T11:53:19.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://github.com/James-Hanson/junk-theorems-in-lean
+Comments URL: https://news.ycombinator.com/item?id=46364567
+Points: 52
+# Comments: 33]]></summary>
+        <author>
+            <name>saithound</name>
         </author>
     </entry>
     <entry>
