@@ -6,6 +6,26 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=46400251",
+          "author": "josharsh",
+          "description": "I built a CLI tool that lets you do common video/audio operations without remembering ffmpeg syntax.\nInstead of:\nffmpeg -i video.mp4 -vf \"fps=15,scale=480:-1:flags=lanczos\" -loop 0 output.gif\nYou write:\n  ff convert video.mp4 to gif\nMore examples:\n  ff compress video.mp4 to 10mb\n  ff trim video.mp4 from 0:30 to 1:00\n  ff extract audio from video.mp4\n  ff resize video.mp4 to 720p\n  ff speed up video.mp4 by 2x\n  ff reverse video.mp4\nThere are similar tools that use LLMs (wtffmpeg, llmpeg, ai-ffmpeg-cli), but they require API keys, cost money, and have latency.\nEz FFmpeg is different:\n  - No AI – just regex pattern matching\n  - Instant – no API calls\n  - Free – no tokens\n  - Offline – works without internet\nIt handles ~20 common operations that cover 90% of what developers actually do with ffmpeg. For edge cases, you still need ffmpeg directly.\nInteractive mode (just type ff) shows media files in your current folder with typeahead search.\nnpm install -g ezff\nComments URL: https://news.ycombinator.com/item?id=46400251\nPoints: 53\n# Comments: 17",
+          "link": "http://npmjs.com/package/ezff",
+          "publishedOn": "2025-12-27T08:45:46.000Z",
+          "wordCount": null,
+          "title": "Show HN: Ez FFmpeg – Video editing in plain English",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46398906",
+          "author": "todsacerdoti",
+          "description": "Article URL: https://jyn.dev/pre-commit-hooks-are-fundamentally-broken/\nComments URL: https://news.ycombinator.com/item?id=46398906\nPoints: 58\n# Comments: 30",
+          "link": "https://jyn.dev/pre-commit-hooks-are-fundamentally-broken/",
+          "publishedOn": "2025-12-27T03:45:20.000Z",
+          "wordCount": 1546,
+          "title": "Pre-commit hooks are fundamentally broken",
+          "imageUrl": null
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=46398752",
           "author": "healsdata",
           "description": "Article URL: https://www.justice.gov/opa/pr/ceo-health-care-software-company-sentenced-1b-fraud-conspiracy\nComments URL: https://news.ycombinator.com/item?id=46398752\nPoints: 58\n# Comments: 38",
