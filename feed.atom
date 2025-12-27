@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2025-12-27T02:03:50.170Z</updated>
+    <updated>2025-12-27T03:57:12.842Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
@@ -30,6 +30,32 @@ Points: 70
 # Comments: 32]]></summary>
         <author>
             <name>jesseduffield</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[T-Ruby is Ruby with syntax for types]]></title>
+        <id>https://news.ycombinator.com/item?id=46395871</id>
+        <link href="https://type-ruby.github.io/"/>
+        <updated>2025-12-26T20:27:50.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://type-ruby.github.io/
+Comments URL: https://news.ycombinator.com/item?id=46395871
+Points: 69
+# Comments: 35]]></summary>
+        <author>
+            <name>thunderbong</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Gaussian Splatting 3 Ways]]></title>
+        <id>https://news.ycombinator.com/item?id=46395273</id>
+        <link href="https://github.com/NullandKale/NullSplats"/>
+        <updated>2025-12-26T19:23:28.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://github.com/NullandKale/NullSplats
+Comments URL: https://news.ycombinator.com/item?id=46395273
+Points: 50
+# Comments: 4]]></summary>
+        <author>
+            <name>nullandkale</name>
         </author>
     </entry>
     <entry>
@@ -17422,78 +17448,6 @@ Points: 52
 # Comments: 10]]></summary>
         <author>
             <name>surprisetalk</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GitLab discovers widespread NPM supply chain attack]]></title>
-        <id>https://news.ycombinator.com/item?id=46070203</id>
-        <link href="https://about.gitlab.com/blog/gitlab-discovers-widespread-npm-supply-chain-attack/"/>
-        <updated>2025-11-27T15:36:56.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://about.gitlab.com/blog/gitlab-discovers-widespread-npm-supply-chain-attack/
-Comments URL: https://news.ycombinator.com/item?id=46070203
-Points: 70
-# Comments: 26]]></summary>
-        <author>
-            <name>OuterVale</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[We're Losing Our Voice to LLMs]]></title>
-        <id>https://news.ycombinator.com/item?id=46069771</id>
-        <link href="https://tonyalicea.dev/blog/were-losing-our-voice-to-llms/"/>
-        <updated>2025-11-27T14:51:01.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://tonyalicea.dev/blog/were-losing-our-voice-to-llms/
-Comments URL: https://news.ycombinator.com/item?id=46069771
-Points: 58
-# Comments: 34]]></summary>
-        <author>
-            <name>TonyAlicea10</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: SyncKit – Offline-first sync engine (Rust/WASM and TypeScript)]]></title>
-        <id>https://news.ycombinator.com/item?id=46069598</id>
-        <link href="https://github.com/Dancode-188/synckit"/>
-        <updated>2025-11-27T14:31:44.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://github.com/Dancode-188/synckit
-Comments URL: https://news.ycombinator.com/item?id=46069598
-Points: 50
-# Comments: 23]]></summary>
-        <author>
-            <name>danbitengo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: Runprompt – run .prompt files from the command line]]></title>
-        <id>https://news.ycombinator.com/item?id=46069556</id>
-        <link href="https://github.com/chr15m/runprompt"/>
-        <updated>2025-11-27T14:26:35.000Z</updated>
-        <summary type="html"><![CDATA[I built a single-file Python script that lets you run LLM prompts from the command line with templating, structured outputs, and the ability to chain prompts together.
-When I discovered Google's Dotprompt format (frontmatter + Handlebars templates), I realized it was perfect for something I'd been wanting: treating prompts as first-class programs you can pipe together Unix-style. Google uses Dotprompt in Firebase Genkit and I wanted something simpler - just run a .prompt file directly on the command line.
-Here's what it looks like:
----
-model: anthropic/claude-sonnet-4-20250514
-output:
-  format: json
-  schema:
-    sentiment: string, positive/negative/neutral
-    confidence: number, 0-1 score
----
-Analyze the sentiment of: {{STDIN}}
-Running it:
-cat reviews.txt | ./runprompt sentiment.prompt | jq '.sentiment'
-The things I think are interesting:
-* Structured output schemas: Define JSON schemas in the frontmatter using a simple `field: type, description` syntax. The LLM reliably returns valid JSON you can pipe to other tools.
-* Prompt chaining: Pipe JSON output from one prompt as template variables into the next. This makes it easy to build multi-step agentic workflows as simple shell pipelines.
-* Zero dependencies: It's a single Python file that uses only stdlib. Just curl it down and run it.
-* Provider agnostic: Works with Anthropic, OpenAI, Google AI, and OpenRouter (which gives you access to dozens of models through one API key).
-You can use it to automate things like extracting structured data from unstructured text, generating reports from logs, and building small agentic workflows without spinning up a whole framework.
-Would love your feedback, and PRs are most welcome!
-Comments URL: https://news.ycombinator.com/item?id=46069556
-Points: 57
-# Comments: 22]]></summary>
-        <author>
-            <name>chr15m</name>
         </author>
     </entry>
 </feed>

@@ -26,6 +26,26 @@
           "imageUrl": null
         },
         {
+          "id": "https://news.ycombinator.com/item?id=46395871",
+          "author": "thunderbong",
+          "description": "Article URL: https://type-ruby.github.io/\nComments URL: https://news.ycombinator.com/item?id=46395871\nPoints: 69\n# Comments: 35",
+          "link": "https://type-ruby.github.io/",
+          "publishedOn": "2025-12-26T20:27:50.000Z",
+          "wordCount": 408,
+          "title": "T-Ruby is Ruby with syntax for types",
+          "imageUrl": "https://type-ruby.github.io/img/t-ruby-social-card.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46395273",
+          "author": "nullandkale",
+          "description": "Article URL: https://github.com/NullandKale/NullSplats\nComments URL: https://news.ycombinator.com/item?id=46395273\nPoints: 50\n# Comments: 4",
+          "link": "https://github.com/NullandKale/NullSplats",
+          "publishedOn": "2025-12-26T19:23:28.000Z",
+          "wordCount": 7350,
+          "title": "Gaussian Splatting 3 Ways",
+          "imageUrl": "https://opengraph.githubassets.com/ef7213d70187b1a09a96fb0f29f94695a0744259d2d8c3176ce84881c3fa5b71/NullandKale/NullSplats"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=46395184",
           "author": "davisr",
           "description": "Article URL: https://old.reddit.com/r/linux/comments/1puojsr/the_device_that_controls_my_insulin_pump_uses_the/\nComments URL: https://news.ycombinator.com/item?id=46395184\nPoints: 68\n# Comments: 10",
@@ -13064,46 +13084,6 @@
           "wordCount": 1560,
           "title": "The Easiest Way to Build a Type Checker",
           "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46070203",
-          "author": "OuterVale",
-          "description": "Article URL: https://about.gitlab.com/blog/gitlab-discovers-widespread-npm-supply-chain-attack/\nComments URL: https://news.ycombinator.com/item?id=46070203\nPoints: 70\n# Comments: 26",
-          "link": "https://about.gitlab.com/blog/gitlab-discovers-widespread-npm-supply-chain-attack/",
-          "publishedOn": "2025-11-27T15:36:56.000Z",
-          "wordCount": 2924,
-          "title": "GitLab discovers widespread NPM supply chain attack",
-          "imageUrl": "https://res.cloudinary.com/about-gitlab-com/image/upload/v1749665667/Blog/Hero%20Images/built-in-security.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46069771",
-          "author": "TonyAlicea10",
-          "description": "Article URL: https://tonyalicea.dev/blog/were-losing-our-voice-to-llms/\nComments URL: https://news.ycombinator.com/item?id=46069771\nPoints: 58\n# Comments: 34",
-          "link": "https://tonyalicea.dev/blog/were-losing-our-voice-to-llms/",
-          "publishedOn": "2025-11-27T14:51:01.000Z",
-          "wordCount": 783,
-          "title": "We're Losing Our Voice to LLMs",
-          "imageUrl": "https://tonyalicea.dev/assets/tonyalicea_card.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46069598",
-          "author": "danbitengo",
-          "description": "Article URL: https://github.com/Dancode-188/synckit\nComments URL: https://news.ycombinator.com/item?id=46069598\nPoints: 50\n# Comments: 23",
-          "link": "https://github.com/Dancode-188/synckit",
-          "publishedOn": "2025-11-27T14:31:44.000Z",
-          "wordCount": 9453,
-          "title": "Show HN: SyncKit – Offline-first sync engine (Rust/WASM and TypeScript)",
-          "imageUrl": "https://opengraph.githubassets.com/a9220dd9ef4d6265ae6ad187d9134a6df40bacaa11b9af392308fca67d0cc849/Dancode-188/synckit"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46069556",
-          "author": "chr15m",
-          "description": "I built a single-file Python script that lets you run LLM prompts from the command line with templating, structured outputs, and the ability to chain prompts together.\nWhen I discovered Google's Dotprompt format (frontmatter + Handlebars templates), I realized it was perfect for something I'd been wanting: treating prompts as first-class programs you can pipe together Unix-style. Google uses Dotprompt in Firebase Genkit and I wanted something simpler - just run a .prompt file directly on the command line.\nHere's what it looks like:\n---\nmodel: anthropic/claude-sonnet-4-20250514\noutput:\n  format: json\n  schema:\n    sentiment: string, positive/negative/neutral\n    confidence: number, 0-1 score\n---\nAnalyze the sentiment of: {{STDIN}}\nRunning it:\ncat reviews.txt | ./runprompt sentiment.prompt | jq '.sentiment'\nThe things I think are interesting:\n* Structured output schemas: Define JSON schemas in the frontmatter using a simple `field: type, description` syntax. The LLM reliably returns valid JSON you can pipe to other tools.\n* Prompt chaining: Pipe JSON output from one prompt as template variables into the next. This makes it easy to build multi-step agentic workflows as simple shell pipelines.\n* Zero dependencies: It's a single Python file that uses only stdlib. Just curl it down and run it.\n* Provider agnostic: Works with Anthropic, OpenAI, Google AI, and OpenRouter (which gives you access to dozens of models through one API key).\nYou can use it to automate things like extracting structured data from unstructured text, generating reports from logs, and building small agentic workflows without spinning up a whole framework.\nWould love your feedback, and PRs are most welcome!\nComments URL: https://news.ycombinator.com/item?id=46069556\nPoints: 57\n# Comments: 22",
-          "link": "https://github.com/chr15m/runprompt",
-          "publishedOn": "2025-11-27T14:26:35.000Z",
-          "wordCount": 2694,
-          "title": "Show HN: Runprompt – run .prompt files from the command line",
-          "imageUrl": "https://opengraph.githubassets.com/60ef531ba5795e7d3d0520909352b7900027318d3c99e96176da85206b53d916/chr15m/runprompt"
         }
       ]
     }
