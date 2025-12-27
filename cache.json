@@ -6,6 +6,26 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=46403291",
+          "author": "montalbano",
+          "description": "Article URL: https://devblogs.microsoft.com/oldnewthing/20220816-00/?p=106994\nComments URL: https://news.ycombinator.com/item?id=46403291\nPoints: 58\n# Comments: 16",
+          "link": "https://devblogs.microsoft.com/oldnewthing/20220816-00/?p=106994",
+          "publishedOn": "2025-12-27T17:16:08.000Z",
+          "wordCount": 8526,
+          "title": "Janet Jackson had the power to crash laptop computers (2022)",
+          "imageUrl": "https://devblogs.microsoft.com/oldnewthing/wp-content/uploads/sites/38/2019/02/ShowCover.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46403041",
+          "author": "joshcsimmons",
+          "description": "Article URL: https://blog.drjoshcsimmons.com/p/nvidia-just-paid-20-billion-for-a\nComments URL: https://news.ycombinator.com/item?id=46403041\nPoints: 142\n# Comments: 95",
+          "link": "https://blog.drjoshcsimmons.com/p/nvidia-just-paid-20-billion-for-a",
+          "publishedOn": "2025-12-27T16:47:13.000Z",
+          "wordCount": 8810,
+          "title": "Nvidia just paid $20B for a company that missed its revenue target by 75%",
+          "imageUrl": "https://substackcdn.com/image/fetch/$s_!7ppM!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9a099433-4de1-45a1-9804-cfcede6b28da_5064x2704.png"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=46402327",
           "author": "caseysoftware",
           "description": "Article URL: https://ndstudio.gov/posts/automating-federal-retirements\nComments URL: https://news.ycombinator.com/item?id=46402327\nPoints: 57\n# Comments: 42",
@@ -2024,6 +2044,16 @@
           "wordCount": 6142,
           "title": "Logging Sucks",
           "imageUrl": "https://loggingsucks.com/og-image.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46346648",
+          "author": "sieep",
+          "description": "Hi!\nI run a small custom software company in Michigan.\nI want to get better at outbound sales beyond just cold emailing or messaging people through LinkedIn.\nWe’re about to start publishing case studies and doing some outreach, so I want to take some time to study outbound sales and improve my skills.\nAny recommended courses, books, or frameworks for B2B outbound sales, consultative selling, or building effective outreach pipelines?\nThanks!\nComments URL: https://news.ycombinator.com/item?id=46346648\nPoints: 64\n# Comments: 23",
+          "link": "https://news.ycombinator.com/item?id=46346648",
+          "publishedOn": "2025-12-21T17:49:36.000Z",
+          "wordCount": 2434,
+          "title": "Ask HN: Resources to get better at outbound sales?",
+          "imageUrl": null
         },
         {
           "id": "https://news.ycombinator.com/item?id=46346391",
@@ -13024,16 +13054,6 @@
           "wordCount": 3426,
           "title": "SQLite as an Application File Format",
           "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46075882",
-          "author": "nullpxl",
-          "description": "Hi! Recently smart-glasses with cameras like the Meta Ray-bans seem to be getting more popular. As does some people's desire to remove/cover up the recording indicator LED. I wanted to see if there's a way to detect when people are recording with these types of glasses, so a little bit ago I started working this project. I've hit a little bit of a wall though so I'm very much open to ideas!\nI've written a bunch more on the link (+photos are there), but essentially this uses 2 fingerprinting approaches: \n- retro-reflectivity of the camera sensor by looking at IR reflections. mixed results here.\n- wireless traffic (primarily BLE, also looking into BTC and wifi)\nFor the latter, I'm currently just using an ESP32, and I can consistently detect when the Meta Raybans are 1) pairing, 2) first powered on, 3) (less consistently) when they're taken out of the charging case. When they do detect something, it plays a little jingle next to your ear.\nIdeally I want to be able to detect them when they're in use, and not just at boot. I've come across the nRF52840, which seems like it can follow directed BLE traffic beyond the initial broadcast, but from my understanding it would still need to catch the first CONNECT_REQ event regardless. On the bluetooth classic side of things, all the hardware looks really expensive! Any ideas are appreciated. Thanks!\nComments URL: https://news.ycombinator.com/item?id=46075882\nPoints: 97\n# Comments: 25",
-          "link": "https://github.com/NullPxl/banrays",
-          "publishedOn": "2025-11-28T05:52:38.000Z",
-          "wordCount": 2772,
-          "title": "Show HN: Glasses to detect smart-glasses that have cameras",
-          "imageUrl": "https://opengraph.githubassets.com/a192dbb4a491e9394ac8f876d83d72c47bd405b5adacf09d296bf743f17a1590/NullPxl/banrays"
         }
       ]
     }
