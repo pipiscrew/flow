@@ -65,6 +65,56 @@ Points: 53
                       <details
                         class="article-expander"
                         data-action="toggle-native-accordion"
+                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;46417815"
+                        open
+                      >
+                        <summary class="article-expander__title">Show HN: Z80-μLM, a &#x27;Conversational AI&#x27; That Fits in 40KB</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://github.com/HarryR/z80ai">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://opengraph.githubassets.com/6d5ac500c041567764e09a28ab65acde5f7ab436f4b46e1d8eb98835b670bd08/HarryR/z80ai" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>How small can a language model be while still doing something useful? I wanted to find out, and had some spare time over the holidays.
+Z80-μLM is a character-level language model with 2-bit quantized weights ({-2,-1,0,+1}) that runs on a Z80 with 64KB RAM. The entire thing: inference, weights, chat UI, it all fits in a 40KB .COM file that you can run in a CP/M emulator and hopefully even real hardware!
+It won&#x27;t write your emails, but it can be trained to play a stripped down version of 20 Questions, and is sometimes able to maintain the illusion of having simple but terse conversations with a distinct personality.
+--
+The extreme constraints nerd-sniped me and forced interesting trade-offs: trigram hashing (typo-tolerant, loses word order), 16-bit integer math, and some careful massaging of the training data meant I could keep the examples &#x27;interesting&#x27;.
+The key was quantization-aware training that accurately models the inference code limitations. The training loop runs both float and integer-quantized forward passes in parallel, scoring the model on how well its knowledge survives quantization. The weights are progressively pushed toward the 2-bit grid using straight-through estimators, with overflow penalties matching the Z80&#x27;s 16-bit accumulator limits. By the end of training, the model has already adapted to its constraints, so no post-hoc quantization collapse.
+Eventually I ended up spending a few dollars on Claude API to generate 20 questions data (see examples/guess/GUESS.COM), I hope Anthropic won&#x27;t send me a C&amp;D for distilling their model against the ToS ;P
+But anyway, happy code-golf season everybody :)
+Comments URL: https://news.ycombinator.com/item?id&#x3D;46417815
+Points: 86
+# Comments: 24</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;13
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;46417252"
+                        open
+                      >
+                        <summary class="article-expander__title">Why I think Valve’s retiring the Steam Deck LCD</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://gardinerbryant.com/why-valves-retiring-the-steam-deck-lcd/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Article URL: https://gardinerbryant.com/why-valves-retiring-the-steam-deck-lcd/
+Comments URL: https://news.ycombinator.com/item?id&#x3D;46417252
+Points: 51
+# Comments: 46</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
                         data-accordion-key="https://news.ycombinator.com/item?id&#x3D;46416945"
                         open
                       >
@@ -118,8 +168,8 @@ Points: 64
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2025-12-28 datetime="2025-12-28T23:11:50.000Z">2025-12-28</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2025-12-28 datetime="2025-12-28T23:11:50.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2025-12-28 datetime="2025-12-28T23:23:21.000Z">2025-12-28</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2025-12-28 datetime="2025-12-28T23:23:21.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
@@ -134,6 +184,28 @@ Points: 64
                   <a class="source-heading__link" href="https://news.ycombinator.com/">Open</a>
                 </h3>
                 <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;46415522"
+                        open
+                      >
+                        <summary class="article-expander__title">How to complain (2024)</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://outerproduct.net/trivial/2024-03-25_complain.html">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Article URL: https://outerproduct.net/trivial/2024-03-25_complain.html
+Comments URL: https://news.ycombinator.com/item?id&#x3D;46415522
+Points: 57
+# Comments: 10</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
                     <article>
                       <details
                         class="article-expander"
@@ -30233,96 +30305,6 @@ Points: 61
                         </a>
                       </details>
                     </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;46090433"
-                        open
-                      >
-                        <summary class="article-expander__title">All it takes is for one to work out</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://alearningaday.blog/2025/11/28/all-it-takes-is-for-one-to-work-out-2/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://alearningaday.blog/wp-content/uploads/2017/05/cropped-alearningadaylogov6.png?w&#x3D;200" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Article URL: https://alearningaday.blog/2025/11/28/all-it-takes-is-for-one-to-work-out-2/
-Comments URL: https://news.ycombinator.com/item?id&#x3D;46090433
-Points: 67
-# Comments: 28</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;13
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;46090294"
-                        open
-                      >
-                        <summary class="article-expander__title">The Origins of Scala (2009)</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.artima.com/articles/the-origins-of-scala">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Article URL: https://www.artima.com/articles/the-origins-of-scala
-Comments URL: https://news.ycombinator.com/item?id&#x3D;46090294
-Points: 51
-# Comments: 27</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;8
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;46090269"
-                        open
-                      >
-                        <summary class="article-expander__title">Learning Feynman&#x27;s Trick for Integrals</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://zackyzz.github.io/feynman.html">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Article URL: https://zackyzz.github.io/feynman.html
-Comments URL: https://news.ycombinator.com/item?id&#x3D;46090269
-Points: 65
-# Comments: 9</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;22
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;46090172"
-                        open
-                      >
-                        <summary class="article-expander__title">Be Like Clippy</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://be-clippy.com/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="/clippys/clippy.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Article URL: https://be-clippy.com/
-Comments URL: https://news.ycombinator.com/item?id&#x3D;46090172
-Points: 65
-# Comments: 41</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
                 </section>
               </section>
             </li>
@@ -30330,8 +30312,8 @@ Points: 65
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/pipiscrew/flow/actions/runs/20567481255">
-        <time id="build-timestamp" datetime="2025-12-29T07:31:32.666Z">2025-12-29T07:31:32.666Z</time>
+      <a class="footer-link" href="https://github.com/pipiscrew/flow/actions/runs/20568587788">
+        <time id="build-timestamp" datetime="2025-12-29T08:39:20.554Z">2025-12-29T08:39:20.554Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>

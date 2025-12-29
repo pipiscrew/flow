@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2025-12-29T07:31:32.719Z</updated>
+    <updated>2025-12-29T08:39:20.609Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
@@ -17,6 +17,39 @@ Points: 53
 # Comments: 10]]></summary>
         <author>
             <name>ggeorgovassilis</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Z80-μLM, a 'Conversational AI' That Fits in 40KB]]></title>
+        <id>https://news.ycombinator.com/item?id=46417815</id>
+        <link href="https://github.com/HarryR/z80ai"/>
+        <updated>2025-12-29T05:41:24.000Z</updated>
+        <summary type="html"><![CDATA[How small can a language model be while still doing something useful? I wanted to find out, and had some spare time over the holidays.
+Z80-μLM is a character-level language model with 2-bit quantized weights ({-2,-1,0,+1}) that runs on a Z80 with 64KB RAM. The entire thing: inference, weights, chat UI, it all fits in a 40KB .COM file that you can run in a CP/M emulator and hopefully even real hardware!
+It won't write your emails, but it can be trained to play a stripped down version of 20 Questions, and is sometimes able to maintain the illusion of having simple but terse conversations with a distinct personality.
+--
+The extreme constraints nerd-sniped me and forced interesting trade-offs: trigram hashing (typo-tolerant, loses word order), 16-bit integer math, and some careful massaging of the training data meant I could keep the examples 'interesting'.
+The key was quantization-aware training that accurately models the inference code limitations. The training loop runs both float and integer-quantized forward passes in parallel, scoring the model on how well its knowledge survives quantization. The weights are progressively pushed toward the 2-bit grid using straight-through estimators, with overflow penalties matching the Z80's 16-bit accumulator limits. By the end of training, the model has already adapted to its constraints, so no post-hoc quantization collapse.
+Eventually I ended up spending a few dollars on Claude API to generate 20 questions data (see examples/guess/GUESS.COM), I hope Anthropic won't send me a C&D for distilling their model against the ToS ;P
+But anyway, happy code-golf season everybody :)
+Comments URL: https://news.ycombinator.com/item?id=46417815
+Points: 86
+# Comments: 24]]></summary>
+        <author>
+            <name>quesomaster9000</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Why I think Valve’s retiring the Steam Deck LCD]]></title>
+        <id>https://news.ycombinator.com/item?id=46417252</id>
+        <link href="https://gardinerbryant.com/why-valves-retiring-the-steam-deck-lcd/"/>
+        <updated>2025-12-29T03:44:12.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://gardinerbryant.com/why-valves-retiring-the-steam-deck-lcd/
+Comments URL: https://news.ycombinator.com/item?id=46417252
+Points: 51
+# Comments: 46]]></summary>
+        <author>
+            <name>Ariarule</name>
         </author>
     </entry>
     <entry>
@@ -43,6 +76,19 @@ Points: 64
 # Comments: 12]]></summary>
         <author>
             <name>wahnfrieden</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to complain (2024)]]></title>
+        <id>https://news.ycombinator.com/item?id=46415522</id>
+        <link href="https://outerproduct.net/trivial/2024-03-25_complain.html"/>
+        <updated>2025-12-28T23:23:21.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://outerproduct.net/trivial/2024-03-25_complain.html
+Comments URL: https://news.ycombinator.com/item?id=46415522
+Points: 57
+# Comments: 10]]></summary>
+        <author>
+            <name>ysangkok</name>
         </author>
     </entry>
     <entry>
@@ -17291,58 +17337,6 @@ Points: 61
 # Comments: 11]]></summary>
         <author>
             <name>GavCo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[All it takes is for one to work out]]></title>
-        <id>https://news.ycombinator.com/item?id=46090433</id>
-        <link href="https://alearningaday.blog/2025/11/28/all-it-takes-is-for-one-to-work-out-2/"/>
-        <updated>2025-11-29T20:22:44.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://alearningaday.blog/2025/11/28/all-it-takes-is-for-one-to-work-out-2/
-Comments URL: https://news.ycombinator.com/item?id=46090433
-Points: 67
-# Comments: 28]]></summary>
-        <author>
-            <name>herbertl</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Origins of Scala (2009)]]></title>
-        <id>https://news.ycombinator.com/item?id=46090294</id>
-        <link href="https://www.artima.com/articles/the-origins-of-scala"/>
-        <updated>2025-11-29T19:59:12.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.artima.com/articles/the-origins-of-scala
-Comments URL: https://news.ycombinator.com/item?id=46090294
-Points: 51
-# Comments: 27]]></summary>
-        <author>
-            <name>todsacerdoti</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Learning Feynman's Trick for Integrals]]></title>
-        <id>https://news.ycombinator.com/item?id=46090269</id>
-        <link href="https://zackyzz.github.io/feynman.html"/>
-        <updated>2025-11-29T19:55:17.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://zackyzz.github.io/feynman.html
-Comments URL: https://news.ycombinator.com/item?id=46090269
-Points: 65
-# Comments: 9]]></summary>
-        <author>
-            <name>Zen1th</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Be Like Clippy]]></title>
-        <id>https://news.ycombinator.com/item?id=46090172</id>
-        <link href="https://be-clippy.com/"/>
-        <updated>2025-11-29T19:41:55.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://be-clippy.com/
-Comments URL: https://news.ycombinator.com/item?id=46090172
-Points: 65
-# Comments: 41]]></summary>
-        <author>
-            <name>Aloha</name>
         </author>
     </entry>
 </feed>

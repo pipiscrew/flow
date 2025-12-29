@@ -16,6 +16,26 @@
           "imageUrl": "https://forum.torproject.org/uploads/default/original/2X/7/7ba3eeb4bd12624922b10dd57b1b986cb32f15bf.jpeg"
         },
         {
+          "id": "https://news.ycombinator.com/item?id=46417815",
+          "author": "quesomaster9000",
+          "description": "How small can a language model be while still doing something useful? I wanted to find out, and had some spare time over the holidays.\nZ80-μLM is a character-level language model with 2-bit quantized weights ({-2,-1,0,+1}) that runs on a Z80 with 64KB RAM. The entire thing: inference, weights, chat UI, it all fits in a 40KB .COM file that you can run in a CP/M emulator and hopefully even real hardware!\nIt won't write your emails, but it can be trained to play a stripped down version of 20 Questions, and is sometimes able to maintain the illusion of having simple but terse conversations with a distinct personality.\n--\nThe extreme constraints nerd-sniped me and forced interesting trade-offs: trigram hashing (typo-tolerant, loses word order), 16-bit integer math, and some careful massaging of the training data meant I could keep the examples 'interesting'.\nThe key was quantization-aware training that accurately models the inference code limitations. The training loop runs both float and integer-quantized forward passes in parallel, scoring the model on how well its knowledge survives quantization. The weights are progressively pushed toward the 2-bit grid using straight-through estimators, with overflow penalties matching the Z80's 16-bit accumulator limits. By the end of training, the model has already adapted to its constraints, so no post-hoc quantization collapse.\nEventually I ended up spending a few dollars on Claude API to generate 20 questions data (see examples/guess/GUESS.COM), I hope Anthropic won't send me a C&D for distilling their model against the ToS ;P\nBut anyway, happy code-golf season everybody :)\nComments URL: https://news.ycombinator.com/item?id=46417815\nPoints: 86\n# Comments: 24",
+          "link": "https://github.com/HarryR/z80ai",
+          "publishedOn": "2025-12-29T05:41:24.000Z",
+          "wordCount": 3795,
+          "title": "Show HN: Z80-μLM, a 'Conversational AI' That Fits in 40KB",
+          "imageUrl": "https://opengraph.githubassets.com/6d5ac500c041567764e09a28ab65acde5f7ab436f4b46e1d8eb98835b670bd08/HarryR/z80ai"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46417252",
+          "author": "Ariarule",
+          "description": "Article URL: https://gardinerbryant.com/why-valves-retiring-the-steam-deck-lcd/\nComments URL: https://news.ycombinator.com/item?id=46417252\nPoints: 51\n# Comments: 46",
+          "link": "https://gardinerbryant.com/why-valves-retiring-the-steam-deck-lcd/",
+          "publishedOn": "2025-12-29T03:44:12.000Z",
+          "wordCount": null,
+          "title": "Why I think Valve’s retiring the Steam Deck LCD",
+          "imageUrl": null
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=46416945",
           "author": "todsacerdoti",
           "description": "Article URL: https://maurycyz.com/misc/make-up-tags/\nComments URL: https://news.ycombinator.com/item?id=46416945\nPoints: 54\n# Comments: 16",
@@ -34,6 +54,16 @@
           "wordCount": 6625,
           "title": "Show HN: My app just won best iOS Japanese learning tool of 2025 award (blog)",
           "imageUrl": "https://images.unsplash.com/photo-1545569341-9eb8b30979d9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDF8fGphcGFufGVufDB8fHx8MTc2NTE1Njc1NXww&ixlib=rb-4.1.0&q=80&w=2000"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46415522",
+          "author": "ysangkok",
+          "description": "Article URL: https://outerproduct.net/trivial/2024-03-25_complain.html\nComments URL: https://news.ycombinator.com/item?id=46415522\nPoints: 57\n# Comments: 10",
+          "link": "https://outerproduct.net/trivial/2024-03-25_complain.html",
+          "publishedOn": "2025-12-28T23:23:21.000Z",
+          "wordCount": 436,
+          "title": "How to complain (2024)",
+          "imageUrl": null
         },
         {
           "id": "https://news.ycombinator.com/item?id=46415458",
@@ -12944,46 +12974,6 @@
           "wordCount": 6257,
           "title": "Show HN: Nano PDF – A CLI Tool to Edit PDFs with Gemini's Nano Banana",
           "imageUrl": "https://repository-images.githubusercontent.com/1106183794/26bd3959-5e8f-425a-92e2-b82c2e50f496"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46090433",
-          "author": "herbertl",
-          "description": "Article URL: https://alearningaday.blog/2025/11/28/all-it-takes-is-for-one-to-work-out-2/\nComments URL: https://news.ycombinator.com/item?id=46090433\nPoints: 67\n# Comments: 28",
-          "link": "https://alearningaday.blog/2025/11/28/all-it-takes-is-for-one-to-work-out-2/",
-          "publishedOn": "2025-11-29T20:22:44.000Z",
-          "wordCount": 3945,
-          "title": "All it takes is for one to work out",
-          "imageUrl": "https://alearningaday.blog/wp-content/uploads/2017/05/cropped-alearningadaylogov6.png?w=200"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46090294",
-          "author": "todsacerdoti",
-          "description": "Article URL: https://www.artima.com/articles/the-origins-of-scala\nComments URL: https://news.ycombinator.com/item?id=46090294\nPoints: 51\n# Comments: 27",
-          "link": "https://www.artima.com/articles/the-origins-of-scala",
-          "publishedOn": "2025-11-29T19:59:12.000Z",
-          "wordCount": 2461,
-          "title": "The Origins of Scala (2009)",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46090269",
-          "author": "Zen1th",
-          "description": "Article URL: https://zackyzz.github.io/feynman.html\nComments URL: https://news.ycombinator.com/item?id=46090269\nPoints: 65\n# Comments: 9",
-          "link": "https://zackyzz.github.io/feynman.html",
-          "publishedOn": "2025-11-29T19:55:17.000Z",
-          "wordCount": 6579,
-          "title": "Learning Feynman's Trick for Integrals",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46090172",
-          "author": "Aloha",
-          "description": "Article URL: https://be-clippy.com/\nComments URL: https://news.ycombinator.com/item?id=46090172\nPoints: 65\n# Comments: 41",
-          "link": "https://be-clippy.com/",
-          "publishedOn": "2025-11-29T19:41:55.000Z",
-          "wordCount": 165,
-          "title": "Be Like Clippy",
-          "imageUrl": "/clippys/clippy.png"
         }
       ]
     }
