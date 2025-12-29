@@ -6,6 +6,16 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=46426534",
+          "author": "gniting",
+          "description": "Article URL: https://manus.im/blog/manus-joins-meta-for-next-era-of-innovation\nComments URL: https://news.ycombinator.com/item?id=46426534\nPoints: 50\n# Comments: 34",
+          "link": "https://manus.im/blog/manus-joins-meta-for-next-era-of-innovation",
+          "publishedOn": "2025-12-29T22:24:22.000Z",
+          "wordCount": 1067,
+          "title": "ManusAI Joins Meta",
+          "imageUrl": "https://files.manuscdn.com/assets/dashboard/materials/2025/12/29/be24830250b19286eda97af3b8f076bc3e0f835a3fa818bb4c3095354c351cfe.webp"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=46425198",
           "author": "tomjuggler",
           "description": "Article URL: https://www.circusscientist.com/2025/12/29/google-is-dead-where-do-we-go-now/\nComments URL: https://news.ycombinator.com/item?id=46425198\nPoints: 108\n# Comments: 84",
@@ -16,6 +26,16 @@
           "imageUrl": null
         },
         {
+          "id": "https://news.ycombinator.com/item?id=46424892",
+          "author": "ilamont",
+          "description": "Article URL: https://www.web3isgoinggreat.com/?id=trust-wallet-hack\nComments URL: https://news.ycombinator.com/item?id=46424892\nPoints: 79\n# Comments: 10",
+          "link": "https://www.web3isgoinggreat.com/?id=trust-wallet-hack",
+          "publishedOn": "2025-12-29T20:04:50.000Z",
+          "wordCount": 9710,
+          "title": "Binance's Trust Wallet extension hacked; users lose $7M",
+          "imageUrl": "https://primary-cdn.web3isgoinggreat.com/entryImages/logos/resized/trust-wallet_300.webp"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=46424733",
           "author": "zdw",
           "description": "Article URL: https://www.businessinsider.com/meta-ai-generating-bizarre-ads-advantage-plus-2025-10\nComments URL: https://news.ycombinator.com/item?id=46424733\nPoints: 74\n# Comments: 44",
@@ -24,6 +44,16 @@
           "wordCount": 6238,
           "title": "Meta's ads tools started switching out top-performing ads with AI-generated ones",
           "imageUrl": "https://i.insider.com/690273690be9845f2dc556e8?width=1200&format=jpeg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46424460",
+          "author": "jger15",
+          "description": "Article URL: https://www.getflack.com/p/responding-to-negative-feedback\nComments URL: https://news.ycombinator.com/item?id=46424460\nPoints: 58\n# Comments: 54",
+          "link": "https://www.getflack.com/p/responding-to-negative-feedback",
+          "publishedOn": "2025-12-29T19:30:40.000Z",
+          "wordCount": 4038,
+          "title": "When someone says they hate your product",
+          "imageUrl": "https://substackcdn.com/image/fetch/$s_!SRle!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F067f837f-ca5d-4341-a2dc-3f9c81cf3d94_1178x1146.png"
         },
         {
           "id": "https://news.ycombinator.com/item?id=46424262",
@@ -44,6 +74,16 @@
           "wordCount": 4358,
           "title": "The future of software development is software developers",
           "imageUrl": "https://codemanship.wordpress.com/wp-content/uploads/2025/11/image-7.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46424200",
+          "author": "sgk284",
+          "description": "Article URL: https://bits.logic.inc/p/ai-is-forcing-us-to-write-good-code\nComments URL: https://news.ycombinator.com/item?id=46424200\nPoints: 54\n# Comments: 32",
+          "link": "https://bits.logic.inc/p/ai-is-forcing-us-to-write-good-code",
+          "publishedOn": "2025-12-29T19:11:26.000Z",
+          "wordCount": 4566,
+          "title": "AI is forcing us to write good code",
+          "imageUrl": "https://substackcdn.com/image/fetch/$s_!M5s0!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff0d94e7a-5c6a-4801-a96c-4e2104f96419_2752x1536.jpeg"
         },
         {
           "id": "https://news.ycombinator.com/item?id=46423566",
@@ -1374,6 +1414,16 @@
           "wordCount": 649,
           "title": "Memory Safety",
           "imageUrl": "https://www.memorysafety.org/images/ProssimoSocialShare.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46386878",
+          "author": "Sakura-sx",
+          "description": "TL;DR explanation (go to https://github.com/Sakura-sx/Aroma?tab=readme-ov-file#tldr-e... if you want the formatted version)\nThis is done by measuring the minimum TCP RTT (client.socket.tcpi_min_rtt) seen and the smoothed TCP RTT (client.socket.tcpi_rtt). I am getting this data by using Fastly Custom VCL, they get this data from the Linux kernel (struct tcp_info -> tcpi_min_rtt and tcpi_rtt). I am using Fastly for the Demo since they have PoPs all around the world and they expose TCP socket data to me.\nThe score is calculated by doing tcpi_min_rtt/tcpi_rtt. It's simple but it's what worked best for this with the data Fastly gives me. Based on my testing, 1-0.7 is normal, 0.7-0.3 is normal if the connection is somewhat unstable (WiFi, mobile data, satellite...), 0.3-0.1 is low and may be a proxy, anything lower than 0.1 is flagged as TCP proxy by the current code.\nComments URL: https://news.ycombinator.com/item?id=46386878\nPoints: 51\n# Comments: 27",
+          "link": "https://github.com/Sakura-sx/Aroma",
+          "publishedOn": "2025-12-25T20:34:59.000Z",
+          "wordCount": 3759,
+          "title": "Show HN: Aroma: Every TCP Proxy Is Detectable with RTT Fingerprinting",
+          "imageUrl": "https://opengraph.githubassets.com/61b772649c104b1253e50419afdfec32002843311473915424578536ed57c8dd/Sakura-sx/Aroma"
         },
         {
           "id": "https://news.ycombinator.com/item?id=46386761",
@@ -13054,26 +13104,6 @@
           "wordCount": 5083,
           "title": "Z-Image: Powerful and highly efficient image generation model with 6B parameters",
           "imageUrl": "https://opengraph.githubassets.com/42809bde0ec0f66625b6372aafae8fc1d297d418ea961080c07aa40731449d56/Tongyi-MAI/Z-Image"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46095662",
-          "author": "amruthreddi",
-          "description": "Article URL: https://beej.us/guide/bglcs/\nComments URL: https://news.ycombinator.com/item?id=46095662\nPoints: 102\n# Comments: 35",
-          "link": "https://beej.us/guide/bglcs/",
-          "publishedOn": "2025-11-30T11:03:13.000Z",
-          "wordCount": 146,
-          "title": "Beej's Guide to Learning Computer Science",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46095585",
-          "author": "doener",
-          "description": "Article URL: https://cachyos.org/\nComments URL: https://news.ycombinator.com/item?id=46095585\nPoints: 63\n# Comments: 66",
-          "link": "https://cachyos.org/",
-          "publishedOn": "2025-11-30T10:47:27.000Z",
-          "wordCount": 674,
-          "title": "CachyOS: Fast and Customizable Linux Distribution",
-          "imageUrl": "https://cachyos.org/_astro/default.5U7vyYzn_1FXMgi.webp"
         }
       ]
     }
