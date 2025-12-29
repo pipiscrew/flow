@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2025-12-29T08:39:20.609Z</updated>
+    <updated>2025-12-29T09:36:56.785Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
@@ -37,6 +37,35 @@ Points: 86
 # Comments: 24]]></summary>
         <author>
             <name>quesomaster9000</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Panoramas of Star Trek Sets]]></title>
+        <id>https://news.ycombinator.com/item?id=46417752</id>
+        <link href="https://mijofr.github.io/st-panorama/"/>
+        <updated>2025-12-29T05:26:43.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://mijofr.github.io/st-panorama/
+Comments URL: https://news.ycombinator.com/item?id=46417752
+Points: 65
+# Comments: 11]]></summary>
+        <author>
+            <name>jfil</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: My not-for-profit search engine with no ads, no AI, & all DDG bangs]]></title>
+        <id>https://news.ycombinator.com/item?id=46417748</id>
+        <link href="https://nilch.org/"/>
+        <updated>2025-12-29T05:25:25.000Z</updated>
+        <summary type="html"><![CDATA[I've been working on a little open source [1] search engine, nilch. I noticed that nearly all well known search engines, including the alternative ones, tend to be run by companies of various sizes with the goal to make money, so they either fill your results with ads or charge you money, and I dislike this because search is the backbone of the internet and should not be commercial, so it runs in a not-for-profit style and aims to survive on donations. Additionally I'm personally really sick of AI in my search results so I got rid of that, and I wanted DuckDuckGo bangs so it supports all of them. Like many alternative search engines, it is fully private.
+Sadly, it currently does not have its own index but rather uses the Brave search API. Once I'm in a financial position that it's possible, I would absolutely love to build a completely new index from the ground up which is open source, as well as an open source ranking and search algorithm, to back it.
+I posted on Reddit and got an amazing amount of feedback which I implemented a number of feature requests, so I would really like your ideas, critiques, and bug reports as well. Thank you and sorry for the long post!
+[1] https://github.com/UnmappedStack/nilch
+Comments URL: https://news.ycombinator.com/item?id=46417748
+Points: 66
+# Comments: 33]]></summary>
+        <author>
+            <name>UnmappedStack</name>
         </author>
     </entry>
     <entry>
@@ -102,6 +131,19 @@ Points: 67
 # Comments: 7]]></summary>
         <author>
             <name>Natfan</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Slaughtering Competition Problems with Quantifier Elimination (2021)]]></title>
+        <id>https://news.ycombinator.com/item?id=46415448</id>
+        <link href="https://grossack.site/2021/12/22/qe-competition.html"/>
+        <updated>2025-12-28T23:10:13.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://grossack.site/2021/12/22/qe-competition.html
+Comments URL: https://news.ycombinator.com/item?id=46415448
+Points: 51
+# Comments: 0]]></summary>
+        <author>
+            <name>todsacerdoti</name>
         </author>
     </entry>
     <entry>
@@ -17288,55 +17330,6 @@ Points: 53
 # Comments: 6]]></summary>
         <author>
             <name>mstep</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Landlock-Ing Linux]]></title>
-        <id>https://news.ycombinator.com/item?id=46090969</id>
-        <link href="https://blog.prizrak.me/post/landlock/"/>
-        <updated>2025-11-29T21:30:53.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://blog.prizrak.me/post/landlock/
-Comments URL: https://news.ycombinator.com/item?id=46090969
-Points: 113
-# Comments: 32]]></summary>
-        <author>
-            <name>razighter777</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Europe's New War on Privacy]]></title>
-        <id>https://news.ycombinator.com/item?id=46090794</id>
-        <link href="https://unherd.com/2025/11/europes-new-war-on-privacy/"/>
-        <updated>2025-11-29T21:10:15.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://unherd.com/2025/11/europes-new-war-on-privacy/
-Comments URL: https://news.ycombinator.com/item?id=46090794
-Points: 71
-# Comments: 16]]></summary>
-        <author>
-            <name>joecobb</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: Nano PDF – A CLI Tool to Edit PDFs with Gemini's Nano Banana]]></title>
-        <id>https://news.ycombinator.com/item?id=46090619</id>
-        <link href="https://github.com/gavrielc/Nano-PDF"/>
-        <updated>2025-11-29T20:44:24.000Z</updated>
-        <summary type="html"><![CDATA[The new Gemini 3 Pro Image model (aka Nano Banana) is incredible at generating slides, so I thought it would be fun to build a CLI tool that lets you edit PDF presentations using plain English. The tool converts the page you want to edit into an image, sends it to the model API together with your prompt to generate an edited image, then converts the updated image back and stitches into the original document.
-Examples:
-- `nano-pdf edit deck.pdf 5 "Update the revenue chart to show Q3 at $2.5M"`
-- `nano-pdf add deck.pdf 15 "Create an executive summary slide with 5 bullet points"`
-Features:
-- Edit multiple pages in parallel
-- Add entirely new slides that match your deck's style
-- Google Search enabled by default so the model can look up current data
-- Preserves text layer for copy/paste and search
-It can work with any kind of PDF but I expect it would be most useful for a quick edit to a deck or something similar.
-GitHub: https://github.com/gavrielc/Nano-PDF
-Comments URL: https://news.ycombinator.com/item?id=46090619
-Points: 61
-# Comments: 11]]></summary>
-        <author>
-            <name>GavCo</name>
         </author>
     </entry>
 </feed>

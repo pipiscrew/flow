@@ -26,6 +26,26 @@
           "imageUrl": "https://opengraph.githubassets.com/6d5ac500c041567764e09a28ab65acde5f7ab436f4b46e1d8eb98835b670bd08/HarryR/z80ai"
         },
         {
+          "id": "https://news.ycombinator.com/item?id=46417752",
+          "author": "jfil",
+          "description": "Article URL: https://mijofr.github.io/st-panorama/\nComments URL: https://news.ycombinator.com/item?id=46417752\nPoints: 65\n# Comments: 11",
+          "link": "https://mijofr.github.io/st-panorama/",
+          "publishedOn": "2025-12-29T05:26:43.000Z",
+          "wordCount": 172,
+          "title": "Panoramas of Star Trek Sets",
+          "imageUrl": "https://mijofr.github.io/st-panorama/images/thumbnail.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46417748",
+          "author": "UnmappedStack",
+          "description": "I've been working on a little open source [1] search engine, nilch. I noticed that nearly all well known search engines, including the alternative ones, tend to be run by companies of various sizes with the goal to make money, so they either fill your results with ads or charge you money, and I dislike this because search is the backbone of the internet and should not be commercial, so it runs in a not-for-profit style and aims to survive on donations. Additionally I'm personally really sick of AI in my search results so I got rid of that, and I wanted DuckDuckGo bangs so it supports all of them. Like many alternative search engines, it is fully private.\nSadly, it currently does not have its own index but rather uses the Brave search API. Once I'm in a financial position that it's possible, I would absolutely love to build a completely new index from the ground up which is open source, as well as an open source ranking and search algorithm, to back it.\nI posted on Reddit and got an amazing amount of feedback which I implemented a number of feature requests, so I would really like your ideas, critiques, and bug reports as well. Thank you and sorry for the long post!\n[1] https://github.com/UnmappedStack/nilch\nComments URL: https://news.ycombinator.com/item?id=46417748\nPoints: 66\n# Comments: 33",
+          "link": "https://nilch.org/",
+          "publishedOn": "2025-12-29T05:25:25.000Z",
+          "wordCount": 545,
+          "title": "Show HN: My not-for-profit search engine with no ads, no AI, & all DDG bangs",
+          "imageUrl": null
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=46417252",
           "author": "Ariarule",
           "description": "Article URL: https://gardinerbryant.com/why-valves-retiring-the-steam-deck-lcd/\nComments URL: https://news.ycombinator.com/item?id=46417252\nPoints: 51\n# Comments: 46",
@@ -74,6 +94,16 @@
           "wordCount": null,
           "title": "Spherical Cow",
           "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46415448",
+          "author": "todsacerdoti",
+          "description": "Article URL: https://grossack.site/2021/12/22/qe-competition.html\nComments URL: https://news.ycombinator.com/item?id=46415448\nPoints: 51\n# Comments: 0",
+          "link": "https://grossack.site/2021/12/22/qe-competition.html",
+          "publishedOn": "2025-12-28T23:10:13.000Z",
+          "wordCount": 1768,
+          "title": "Slaughtering Competition Problems with Quantifier Elimination (2021)",
+          "imageUrl": "https://grossack.site/assets/images/default_og.png"
         },
         {
           "id": "https://news.ycombinator.com/item?id=46415426",
@@ -12944,36 +12974,6 @@
           "wordCount": 6695,
           "title": "Tom Stoppard has died",
           "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/ebce/live/5c3f61d0-cd54-11f0-9fb5-5f3a3703a365.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46090969",
-          "author": "razighter777",
-          "description": "Article URL: https://blog.prizrak.me/post/landlock/\nComments URL: https://news.ycombinator.com/item?id=46090969\nPoints: 113\n# Comments: 32",
-          "link": "https://blog.prizrak.me/post/landlock/",
-          "publishedOn": "2025-11-29T21:30:53.000Z",
-          "wordCount": 1169,
-          "title": "Landlock-Ing Linux",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46090794",
-          "author": "joecobb",
-          "description": "Article URL: https://unherd.com/2025/11/europes-new-war-on-privacy/\nComments URL: https://news.ycombinator.com/item?id=46090794\nPoints: 71\n# Comments: 16",
-          "link": "https://unherd.com/2025/11/europes-new-war-on-privacy/",
-          "publishedOn": "2025-11-29T21:10:15.000Z",
-          "wordCount": 9972,
-          "title": "Europe's New War on Privacy",
-          "imageUrl": "https://unherd.com/wp-content/uploads/2025/11/1-2.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46090619",
-          "author": "GavCo",
-          "description": "The new Gemini 3 Pro Image model (aka Nano Banana) is incredible at generating slides, so I thought it would be fun to build a CLI tool that lets you edit PDF presentations using plain English. The tool converts the page you want to edit into an image, sends it to the model API together with your prompt to generate an edited image, then converts the updated image back and stitches into the original document.\nExamples:\n- `nano-pdf edit deck.pdf 5 \"Update the revenue chart to show Q3 at $2.5M\"`\n- `nano-pdf add deck.pdf 15 \"Create an executive summary slide with 5 bullet points\"`\nFeatures:\n- Edit multiple pages in parallel\n- Add entirely new slides that match your deck's style\n- Google Search enabled by default so the model can look up current data\n- Preserves text layer for copy/paste and search\nIt can work with any kind of PDF but I expect it would be most useful for a quick edit to a deck or something similar.\nGitHub: https://github.com/gavrielc/Nano-PDF\nComments URL: https://news.ycombinator.com/item?id=46090619\nPoints: 61\n# Comments: 11",
-          "link": "https://github.com/gavrielc/Nano-PDF",
-          "publishedOn": "2025-11-29T20:44:24.000Z",
-          "wordCount": 6257,
-          "title": "Show HN: Nano PDF – A CLI Tool to Edit PDFs with Gemini's Nano Banana",
-          "imageUrl": "https://repository-images.githubusercontent.com/1106183794/26bd3959-5e8f-425a-92e2-b82c2e50f496"
         }
       ]
     }
