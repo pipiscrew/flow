@@ -2,10 +2,32 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2025-12-29T23:25:14.218Z</updated>
+    <updated>2025-12-30T02:07:40.079Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Stop Claude Code from forgetting everything]]></title>
+        <id>https://news.ycombinator.com/item?id=46426624</id>
+        <link href="https://github.com/mutable-state-inc/ensue-skill"/>
+        <updated>2025-12-29T22:30:25.000Z</updated>
+        <summary type="html"><![CDATA[I got tired of Claude Code forgetting all my context every time I open a new session: set-up decisions, how I like my margins, decision history. etc.
+We built a shared memory layer you can drop in as a Claude Code Skill. It’s basically a tiny memory DB with recall that remembers your sessions. Not magic. Not AGI. Just state.
+Install in Claude Code:
+  /plugin marketplace add https://github.com/mutable-state-inc/ensue-skill
+  /plugin install ensue-memory
+  # restart Claude Code
+
+What it doesn’t do: - it won’t read your mind - it’s alpha; it might break if you throw a couch at it
+Repo: https://github.com/mutable-state-inc/ensue-skill
+If you try it and it sucks, tell me why so I can fix it. Don't be kind, tia
+Comments URL: https://news.ycombinator.com/item?id=46426624
+Points: 68
+# Comments: 94]]></summary>
+        <author>
+            <name>austinbaggio</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[ManusAI Joins Meta]]></title>
         <id>https://news.ycombinator.com/item?id=46426534</id>
@@ -2745,6 +2767,21 @@ Points: 85
 # Comments: 52]]></summary>
         <author>
             <name>vinni2</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Superset – Terminal to run 10 parallel coding agents]]></title>
+        <id>https://news.ycombinator.com/item?id=46368739</id>
+        <link href="https://superset.sh/"/>
+        <updated>2025-12-23T19:52:30.000Z</updated>
+        <summary type="html"><![CDATA[Hey HN, we’re Avi, Kiet, and Satya. We’re building Superset, an open-source terminal made for managing a bunch of coding agents (Claude Code, Codex, etc) in parallel.
+- Superset makes it easy to spin up git worktrees and automatically setup your environment
+- Agents and terminal tabs are isolated to worktrees, preventing conflicts
+- Built-in hooks [0] to notify when your coding agents are done/needs attention,
+- A diff viewer to review the changes and make PRs quickly
+We’re three engineers who’ve built and maintained large codebases, and kept wanting to work on as many features in parallel as possible. Git worktrees [1] have been a useful solution for this task but they’re annoying to spin up and manage. We started superset as a tool that uses the best practices we’ve discovered running pa…]]></summary>
+        <author>
+            <name>avipeltz</name>
         </author>
     </entry>
     <entry>
@@ -17454,71 +17491,6 @@ Points: 63
 # Comments: 54]]></summary>
         <author>
             <name>makerdiety</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Windows drive letters are not limited to A-Z]]></title>
-        <id>https://news.ycombinator.com/item?id=46096556</id>
-        <link href="https://www.ryanliptak.com/blog/windows-drive-letters-are-not-limited-to-a-z/"/>
-        <updated>2025-11-30T13:40:17.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.ryanliptak.com/blog/windows-drive-letters-are-not-limited-to-a-z/
-Comments URL: https://news.ycombinator.com/item?id=46096556
-Points: 66
-# Comments: 7]]></summary>
-        <author>
-            <name>LorenDB</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Norway wealth fund to vote for human rights report at Microsoft, against Nadella]]></title>
-        <id>https://news.ycombinator.com/item?id=46096555</id>
-        <link href="https://www.cnbc.com/2025/11/30/norway-wealth-fund-to-vote-for-human-rights-report-at-microsoft-agm-against-management.html"/>
-        <updated>2025-11-30T13:40:09.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.cnbc.com/2025/11/30/norway-wealth-fund-to-vote-for-human-rights-report-at-microsoft-agm-against-management.html
-Comments URL: https://news.ycombinator.com/item?id=46096555
-Points: 104
-# Comments: 48]]></summary>
-        <author>
-            <name>saubeidl</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Apple Desktop Bus Protocol (2021)]]></title>
-        <id>https://news.ycombinator.com/item?id=46096552</id>
-        <link href="https://www.lopaciuk.eu/2021/03/26/apple-adb-protocol.html"/>
-        <updated>2025-11-30T13:39:52.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.lopaciuk.eu/2021/03/26/apple-adb-protocol.html
-Comments URL: https://news.ycombinator.com/item?id=46096552
-Points: 59
-# Comments: 10]]></summary>
-        <author>
-            <name>dcminter</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Advent of Code 2025]]></title>
-        <id>https://news.ycombinator.com/item?id=46096337</id>
-        <link href="https://adventofcode.com/2025/about"/>
-        <updated>2025-11-30T13:07:15.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://adventofcode.com/2025/about
-Comments URL: https://news.ycombinator.com/item?id=46096337
-Points: 69
-# Comments: 29]]></summary>
-        <author>
-            <name>vismit2000</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Z-Image: Powerful and highly efficient image generation model with 6B parameters]]></title>
-        <id>https://news.ycombinator.com/item?id=46095817</id>
-        <link href="https://github.com/Tongyi-MAI/Z-Image"/>
-        <updated>2025-11-30T11:36:34.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://github.com/Tongyi-MAI/Z-Image
-Comments URL: https://news.ycombinator.com/item?id=46095817
-Points: 120
-# Comments: 43]]></summary>
-        <author>
-            <name>doener</name>
         </author>
     </entry>
 </feed>

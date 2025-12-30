@@ -6,6 +6,16 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=46426624",
+          "author": "austinbaggio",
+          "description": "I got tired of Claude Code forgetting all my context every time I open a new session: set-up decisions, how I like my margins, decision history. etc.\nWe built a shared memory layer you can drop in as a Claude Code Skill. It’s basically a tiny memory DB with recall that remembers your sessions. Not magic. Not AGI. Just state.\nInstall in Claude Code:\n  /plugin marketplace add https://github.com/mutable-state-inc/ensue-skill\n  /plugin install ensue-memory\n  # restart Claude Code\n\nWhat it doesn’t do: - it won’t read your mind - it’s alpha; it might break if you throw a couch at it\nRepo: https://github.com/mutable-state-inc/ensue-skill\nIf you try it and it sucks, tell me why so I can fix it. Don't be kind, tia\nComments URL: https://news.ycombinator.com/item?id=46426624\nPoints: 68\n# Comments: 94",
+          "link": "https://github.com/mutable-state-inc/ensue-skill",
+          "publishedOn": "2025-12-29T22:30:25.000Z",
+          "wordCount": 1662,
+          "title": "Show HN: Stop Claude Code from forgetting everything",
+          "imageUrl": "https://opengraph.githubassets.com/bb61860b817a149fb0f30840b1aaaadd4c6492375684b9295b0359894bb2d005/mutable-state-inc/ensue-skill"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=46426534",
           "author": "gniting",
           "description": "Article URL: https://manus.im/blog/manus-joins-meta-for-next-era-of-innovation\nComments URL: https://news.ycombinator.com/item?id=46426534\nPoints: 50\n# Comments: 34",
@@ -2024,6 +2034,16 @@
           "wordCount": 4209,
           "title": "Some Epstein file redactions are being undone with hacks",
           "imageUrl": "https://i.guim.co.uk/img/media/4c77e9fd23505a7cb1fd806c84613896c3478f05/0_0_3000_2400/master/3000.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=9f59a07d44d402ffe06351655451834b"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46368739",
+          "author": "avipeltz",
+          "description": "Hey HN, we’re Avi, Kiet, and Satya. We’re building Superset, an open-source terminal made for managing a bunch of coding agents (Claude Code, Codex, etc) in parallel.\n- Superset makes it easy to spin up git worktrees and automatically setup your environment\n- Agents and terminal tabs are isolated to worktrees, preventing conflicts\n- Built-in hooks [0] to notify when your coding agents are done/needs attention,\n- A diff viewer to review the changes and make PRs quickly\nWe’re three engineers who’ve built and maintained large codebases, and kept wanting to work on as many features in parallel as possible. Git worktrees [1] have been a useful solution for this task but they’re annoying to spin up and manage. We started superset as a tool that uses the best practices we’ve discovered running pa…",
+          "link": "https://superset.sh/",
+          "publishedOn": "2025-12-23T19:52:30.000Z",
+          "wordCount": 397,
+          "title": "Show HN: Superset – Terminal to run 10 parallel coding agents",
+          "imageUrl": null
         },
         {
           "id": "https://news.ycombinator.com/item?id=46368616",
@@ -13054,56 +13074,6 @@
           "wordCount": 4702,
           "title": "Don't throw away your old PC–it makes a better NAS than anything you can buy",
           "imageUrl": "https://static0.howtogeekimages.com/wordpress/wp-content/uploads/wm/2025/11/52675662149_dd10c0c7a4_o.jpg?w=1600&h=900&fit=crop"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46096556",
-          "author": "LorenDB",
-          "description": "Article URL: https://www.ryanliptak.com/blog/windows-drive-letters-are-not-limited-to-a-z/\nComments URL: https://news.ycombinator.com/item?id=46096556\nPoints: 66\n# Comments: 7",
-          "link": "https://www.ryanliptak.com/blog/windows-drive-letters-are-not-limited-to-a-z/",
-          "publishedOn": "2025-11-30T13:40:17.000Z",
-          "wordCount": 2319,
-          "title": "Windows drive letters are not limited to A-Z",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46096555",
-          "author": "saubeidl",
-          "description": "Article URL: https://www.cnbc.com/2025/11/30/norway-wealth-fund-to-vote-for-human-rights-report-at-microsoft-agm-against-management.html\nComments URL: https://news.ycombinator.com/item?id=46096555\nPoints: 104\n# Comments: 48",
-          "link": "https://www.cnbc.com/2025/11/30/norway-wealth-fund-to-vote-for-human-rights-report-at-microsoft-agm-against-management.html",
-          "publishedOn": "2025-11-30T13:40:09.000Z",
-          "wordCount": 25064,
-          "title": "Norway wealth fund to vote for human rights report at Microsoft, against Nadella",
-          "imageUrl": "https://image.cnbcfm.com/api/v1/image/108194599-1757020886905-gettyimages-2233036958-AI_EDUCATION_WH.jpeg?v=1764490246&w=1920&h=1080"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46096552",
-          "author": "dcminter",
-          "description": "Article URL: https://www.lopaciuk.eu/2021/03/26/apple-adb-protocol.html\nComments URL: https://news.ycombinator.com/item?id=46096552\nPoints: 59\n# Comments: 10",
-          "link": "https://www.lopaciuk.eu/2021/03/26/apple-adb-protocol.html",
-          "publishedOn": "2025-11-30T13:39:52.000Z",
-          "wordCount": 2478,
-          "title": "Apple Desktop Bus Protocol (2021)",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46096337",
-          "author": "vismit2000",
-          "description": "Article URL: https://adventofcode.com/2025/about\nComments URL: https://news.ycombinator.com/item?id=46096337\nPoints: 69\n# Comments: 29",
-          "link": "https://adventofcode.com/2025/about",
-          "publishedOn": "2025-11-30T13:07:15.000Z",
-          "wordCount": 1344,
-          "title": "Advent of Code 2025",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46095817",
-          "author": "doener",
-          "description": "Article URL: https://github.com/Tongyi-MAI/Z-Image\nComments URL: https://news.ycombinator.com/item?id=46095817\nPoints: 120\n# Comments: 43",
-          "link": "https://github.com/Tongyi-MAI/Z-Image",
-          "publishedOn": "2025-11-30T11:36:34.000Z",
-          "wordCount": 5083,
-          "title": "Z-Image: Powerful and highly efficient image generation model with 6B parameters",
-          "imageUrl": "https://opengraph.githubassets.com/42809bde0ec0f66625b6372aafae8fc1d297d418ea961080c07aa40731449d56/Tongyi-MAI/Z-Image"
         }
       ]
     }
