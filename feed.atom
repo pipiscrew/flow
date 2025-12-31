@@ -2,10 +2,42 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2025-12-31T10:28:26.586Z</updated>
+    <updated>2025-12-31T11:23:59.908Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[The rise of industrial software]]></title>
+        <id>https://news.ycombinator.com/item?id=46442597</id>
+        <link href="https://chrisloy.dev/post/2025/12/30/the-rise-of-industrial-software"/>
+        <updated>2025-12-31T09:09:28.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://chrisloy.dev/post/2025/12/30/the-rise-of-industrial-software
+Comments URL: https://news.ycombinator.com/item?id=46442597
+Points: 73
+# Comments: 49]]></summary>
+        <author>
+            <name>chrisloy</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Use Claude Code to Query 600 GB Indexes over Hacker News, ArXiv, etc.]]></title>
+        <id>https://news.ycombinator.com/item?id=46442245</id>
+        <link href="https://exopriors.com/scry"/>
+        <updated>2025-12-31T07:47:44.000Z</updated>
+        <summary type="html"><![CDATA[Paste in my prompt to Claude Code with an embedded API key for accessing my public readonly SQL+vector database, and you have a state-of-the-art research tool over Hacker News, arXiv, LessWrong, and dozens of other high-quality public commons sites. Claude whips up the monster SQL queries that safely run on my machine, to answer your most nuanced questions.
+There's also an Alerts functionality, where you can just ask Claude to submit a SQL query as an alert, and you'll be emailed when the ultra nuanced criteria is met (and the output changes). Like I want to know when somebody posts about "estrogen" in a psychoactive context, or enough biology metaphors when talking about building infrastructure.
+Currently have embedded: 
+posts: 1.4M / 4.6M
+comments: 15.6M / 38M
+That's with Voyage-3.5-lite. And you can do amazing compositional vector search, like search @FTX_crisis - (@guilt_tone - @guilt_topic) to find writing that was about the FTX crisis and distinctly without guilty tones, but that can mention "guilt".
+I can embed everything and all the other sources for cheap, I just literally don't have the money.
+Comments URL: https://news.ycombinator.com/item?id=46442245
+Points: 64
+# Comments: 17]]></summary>
+        <author>
+            <name>Xyra</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Google Opal]]></title>
         <id>https://news.ycombinator.com/item?id=46441068</id>
@@ -17020,19 +17052,6 @@ Points: 110
 # Comments: 66]]></summary>
         <author>
             <name>bpierre</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Last Week on My Mac: Losing confidence]]></title>
-        <id>https://news.ycombinator.com/item?id=46114599</id>
-        <link href="https://eclecticlight.co/2025/11/30/last-week-on-my-mac-losing-confidence/"/>
-        <updated>2025-12-01T22:56:16.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://eclecticlight.co/2025/11/30/last-week-on-my-mac-losing-confidence/
-Comments URL: https://news.ycombinator.com/item?id=46114599
-Points: 213
-# Comments: 71]]></summary>
-        <author>
-            <name>frizlab</name>
         </author>
     </entry>
 </feed>
