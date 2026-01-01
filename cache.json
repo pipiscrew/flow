@@ -6,6 +6,26 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=46454763",
+          "author": "leglock",
+          "description": "Article URL: https://www.acm.org/articles/bulletins/2026/january/acm-open-access\nComments URL: https://news.ycombinator.com/item?id=46454763\nPoints: 102\n# Comments: 12",
+          "link": "https://www.acm.org/articles/bulletins/2026/january/acm-open-access",
+          "publishedOn": "2026-01-01T15:19:26.000Z",
+          "wordCount": null,
+          "title": "ACM Is Now Open Access",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46454693",
+          "author": "max_lt",
+          "description": "Article URL: https://openworkers.com/introducing-openworkers\nComments URL: https://news.ycombinator.com/item?id=46454693\nPoints: 58\n# Comments: 11",
+          "link": "https://openworkers.com/introducing-openworkers",
+          "publishedOn": "2026-01-01T15:09:06.000Z",
+          "wordCount": 566,
+          "title": "OpenWorkers: Self-Hosted Cloudflare Workers in Rust",
+          "imageUrl": null
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=46453582",
           "author": "wtcactus",
           "description": "Article URL: https://sherwood.news/tech/rather-than-fully-cracking-down-on-scam-ads-meta-worked-to-make-them-harder/\nComments URL: https://news.ycombinator.com/item?id=46453582\nPoints: 85\n# Comments: 15",
@@ -1814,6 +1834,16 @@
           "wordCount": 3610,
           "title": "Why is calling my asm function from Rust slower than calling it from C?",
           "imageUrl": "https://ohadravid.github.io/2025-12-rav1d-faster-asm/asm_side_by_side.webp"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46401763",
+          "author": "nchagnet",
+          "description": "Article URL: https://nchagnet.pages.dev/blog/pokemon-team-optimization/\nComments URL: https://news.ycombinator.com/item?id=46401763\nPoints: 126\n# Comments: 52",
+          "link": "https://nchagnet.pages.dev/blog/pokemon-team-optimization/",
+          "publishedOn": "2025-12-27T13:38:01.000Z",
+          "wordCount": 3509,
+          "title": "Pokémon Team Optimization",
+          "imageUrl": "https://nchagnet.pages.dev/og-image/pokemon-team-optimization.png"
         },
         {
           "id": "https://news.ycombinator.com/item?id=46401612",
@@ -12694,46 +12724,6 @@
           "wordCount": 160,
           "title": "Sending DMARC reports is somewhat hazardous",
           "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46130335",
-          "author": "areoform",
-          "description": "Article URL: https://medium.com/atari-club/interview-with-rollercoaster-tycoons-creator-chris-sawyer-684a0efb0f13\nComments URL: https://news.ycombinator.com/item?id=46130335\nPoints: 56\n# Comments: 9",
-          "link": "https://medium.com/atari-club/interview-with-rollercoaster-tycoons-creator-chris-sawyer-684a0efb0f13",
-          "publishedOn": "2025-12-03T04:32:16.000Z",
-          "wordCount": null,
-          "title": "Interview with RollerCoaster Tycoon's Creator, Chris Sawyer (2024)",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46130260",
-          "author": "mohamad08",
-          "description": "Hey everyone! I just built a mobile app using Expo (React Native) for a platform that moves $6M/month. It’s a neobank used by 6,500+ nonprofit organizations across the world.\nOne of my biggest challenges, while juggling being a full-time student, was getting permission from Apple/Google to use advanced native features such as Tap to Pay (for in-person donations) and Push Provisioning (for adding your card to your digital wallet). It was months of back-and-forth emails, test case recordings, and also compliance checks.\nEven after securing Apple/Google’s permission, any minor fix required publishing a new build, which was time-consuming. After dealing with this for a while, I adopted the idea of “over the air updates” using Expo’s EAS update service. This allowed me to remotely trigger updates without needing a new app build.\nThe 250 hours I spent building this app were an INSANE learning experience, but it was also a whole lot of fun. Give the app a try, and I’d love any feedback you have on it!\nbtw, back in March, we open-sourced this nonprofit neobank on GitHub.\nhttps://news.ycombinator.com/item?id=43519802\nComments URL: https://news.ycombinator.com/item?id=46130260\nPoints: 54\n# Comments: 11",
-          "link": "https://hackclub.com/fiscal-sponsorship/mobile/",
-          "publishedOn": "2025-12-03T04:20:44.000Z",
-          "wordCount": 1049,
-          "title": "Show HN: HCB Mobile – financial app built by 17 y/o, processing $6M/month",
-          "imageUrl": "https://hc-cdn.hel1.your-objectstorage.com/s/v3/9fc32ee8cbc1a6a1ce93609b9822d6bae394dc7a_opengraph.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46130233",
-          "author": "avidthinker",
-          "description": "This article is basically an exercise in understanding ECDSA (Elliptic Curve Digital Signature Algorithm) from scratch. All I assume is some basic math and a willingness to pick up a bit of abstract math along the way. I try to explain everything as intuitively as possible, but, despite that, the article still demands some serious effort from the reader.\nWhen I analyzed the Extended Euclidean Algorithm, one thing led to another, and I ended up writing a little intro to generating functions. You can even jump to that part and ignore the rest, if you want! Other readers may instead choose to skip that section altogether, as it's self-contained.\nComments URL: https://news.ycombinator.com/item?id=46130233\nPoints: 59\n# Comments: 8",
-          "link": "https://avidthinker.github.io/2025/11/28/understanding-ecdsa/",
-          "publishedOn": "2025-12-03T04:13:41.000Z",
-          "wordCount": 11161,
-          "title": "Understanding ECDSA",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46130187",
-          "author": "zdw",
-          "description": "Article URL: https://www.gamesindustry.biz/japanese-devs-face-font-licensing-dilemma-as-leading-provider-increases-annual-plan-price-from-380-to-20000\nComments URL: https://news.ycombinator.com/item?id=46130187\nPoints: 102\n# Comments: 42",
-          "link": "https://www.gamesindustry.biz/japanese-devs-face-font-licensing-dilemma-as-leading-provider-increases-annual-plan-price-from-380-to-20000",
-          "publishedOn": "2025-12-03T04:03:56.000Z",
-          "wordCount": 5890,
-          "title": "Japanese game devs face font dilemma as license increases from $380 to $20k",
-          "imageUrl": "https://assetsio.gnwcdn.com/Screenshot-2025-04-10-at-20.43.19.png?width=1200&height=630&fit=crop&enable=upscale&auto=webp"
         }
       ]
     }
