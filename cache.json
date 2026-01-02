@@ -6,6 +6,36 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=46460440",
+          "author": "apetresc",
+          "description": "Article URL: https://publicdomainreview.org/blog/2026/01/public-domain-day-2026/\nComments URL: https://news.ycombinator.com/item?id=46460440\nPoints: 105\n# Comments: 10",
+          "link": "https://publicdomainreview.org/blog/2026/01/public-domain-day-2026/",
+          "publishedOn": "2026-01-02T01:42:16.000Z",
+          "wordCount": 15735,
+          "title": "Happy Public Domain Day 2026",
+          "imageUrl": "https://pdr-assets.b-cdn.net/blog/2026/public-domain-in-2026.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46460319",
+          "author": "xpe",
+          "description": "Article URL: https://github.com/ghostty-org/ghostty/issues/3558\nComments URL: https://news.ycombinator.com/item?id=46460319\nPoints: 59\n# Comments: 22",
+          "link": "https://github.com/ghostty-org/ghostty/issues/3558",
+          "publishedOn": "2026-01-02T01:24:51.000Z",
+          "wordCount": 1721,
+          "title": "Why users cannot create Issues directly",
+          "imageUrl": "https://opengraph.githubassets.com/4cfd6d53bf09b6cf107374eb07cf115de75cbbc602c83f64c5358798bf44e622/ghostty-org/ghostty/issues/3558"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46458624",
+          "author": "ArmageddonIt",
+          "description": "Article URL: https://nullprogram.com/blog/2026/01/01/\nComments URL: https://news.ycombinator.com/item?id=46458624\nPoints: 50\n# Comments: 0",
+          "link": "https://nullprogram.com/blog/2026/01/01/",
+          "publishedOn": "2026-01-01T22:09:16.000Z",
+          "wordCount": 2597,
+          "title": "WebAssembly as a Python Extension Platform",
+          "imageUrl": null
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=46458302",
           "author": "ibobev",
           "description": "Article URL: https://tenderlovemaking.com/2025/12/29/can-bundler-be-as-fast-as-uv/\nComments URL: https://news.ycombinator.com/item?id=46458302\nPoints: 71\n# Comments: 22",
@@ -294,6 +324,16 @@
           "wordCount": 2754,
           "title": "Pixar's True Story",
           "imageUrl": "https://computerhistory.org/wp-content/uploads/2025/12/2025-11-Infinity-Beyond-Pixar-DM-2341-scaled.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46449852",
+          "author": "_mig5",
+          "description": "Happy new year folks!\nThis tool was born out of a situation where I had 'inherited' a bunch of servers that were not under any form of config management. Oh, the horror...\nEnroll 'harvests' system information such as what packages are installed, what services are running, what files have 'differed' from their out-of-the-box defaults, and what other custom snowflake data might exist.\nThe harvest state data can be kept as its own sort of SBOM, but also can be converted in a mere second or two into fully-functional Ansible roles/playbooks/inventory.\nIt can be run remotely over SSH or locally on the machine. Debian and Redhat-like systems are supported.\nThere is also a 'diff' mode to detect drift over time. (Years ago I used Puppet instead of Ansible and miss the agent/server model where it would check in and re-align to the expected state, in case people were being silly and side-stepping the config management altogether). For now, diff mode doesn't 'enforce' but is just capable of notification (webhook, email, stdout) if changes occur.\nSince making the tool, I've found that it's even useful for systems where you already have in Ansible, in that it can detect stuff you forgot to put into Ansible in the first place. I'm now starting to use it as a 'DR strategy' of sorts: still favoring my normal Ansible roles day-to-day (they are more bespoke and easier to read), but running enroll with '--dangerous --sops' in the background periodically as a 'dragnet' catch-all, just in case I ever need it.\nBonus: it also can use my other tool JinjaTurtle, which converts native config files into Jinja2 templates / Ansible vars. That one too was born out of frustration, converting a massive TOML file into Ansible :)\nAnyway, hope it's useful to someone other than me! The website has some demos and more documentation. Have fun every(any)-one.\nComments URL: https://news.ycombinator.com/item?id=46449852\nPoints: 87\n# Comments: 20",
+          "link": "https://enroll.sh/",
+          "publishedOn": "2026-01-01T00:23:54.000Z",
+          "wordCount": 627,
+          "title": "Show HN: Enroll, a tool to reverse-engineer servers into Ansible config mgmt",
+          "imageUrl": null
         },
         {
           "id": "https://news.ycombinator.com/item?id=46449812",
@@ -2454,6 +2494,16 @@
           "wordCount": 11,
           "title": "Rob Pike Goes Nuclear over GenAI",
           "imageUrl": "https://cdn.bsky.app/img/avatar/plain/did:plc:vsgr3rwyckhiavgqzdcuzm6i/bafkreig5vsojzvkwmf5liew6brmd6jhp6gxlwvo5cqbmt2asloj2gg6rhq@jpeg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46392095",
+          "author": "thetechstech",
+          "description": "Article URL: https://zelang-dev.github.io/c-events/\nComments URL: https://news.ycombinator.com/item?id=46392095\nPoints: 64\n# Comments: 11",
+          "link": "https://zelang-dev.github.io/c-events/",
+          "publishedOn": "2025-12-26T14:06:47.000Z",
+          "wordCount": 3778,
+          "title": "C-events, yet another event loop, simpler, smaller, faster, safer",
+          "imageUrl": null
         },
         {
           "id": "https://news.ycombinator.com/item?id=46391599",
@@ -12684,116 +12734,6 @@
           "wordCount": 6975,
           "title": "Steam Deck lead reveals Valve is funding ARM compatibility of Windows games",
           "imageUrl": "https://frvr.com/wp-content/uploads/2025/11/steam-deck-automatic-updates.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46136067",
-          "author": "gonepivoting",
-          "description": "Article URL: https://www.wiz.io/blog/critical-vulnerability-in-react-cve-2025-55182\nComments URL: https://news.ycombinator.com/item?id=46136067\nPoints: 104\n# Comments: 42",
-          "link": "https://www.wiz.io/blog/critical-vulnerability-in-react-cve-2025-55182",
-          "publishedOn": "2025-12-03T16:03:27.000Z",
-          "wordCount": 12584,
-          "title": "Critical RCE Vulnerabilities in React and Next.js",
-          "imageUrl": "https://www.datocms-assets.com/75231/1764778120-react-next.png?fm=webp"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46136059",
-          "author": "PaulHoule",
-          "description": "Article URL: https://petapixel.com/2025/11/13/this-guy-built-a-compact-camera-using-an-optical-mouse/\nComments URL: https://news.ycombinator.com/item?id=46136059\nPoints: 60\n# Comments: 9",
-          "link": "https://petapixel.com/2025/11/13/this-guy-built-a-compact-camera-using-an-optical-mouse/",
-          "publishedOn": "2025-12-03T16:02:29.000Z",
-          "wordCount": 1908,
-          "title": "Guy Built a Compact Camera Using an Optical Mouse",
-          "imageUrl": "https://petapixel.com/assets/uploads/2025/11/optical-mouse-camera-featured.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46136026",
-          "author": "rayhaanj",
-          "description": "Article URL: https://github.com/vercel/next.js/security/advisories/GHSA-9qr9-h5gf-34mp\nComments URL: https://news.ycombinator.com/item?id=46136026\nPoints: 127\n# Comments: 34",
-          "link": "https://github.com/vercel/next.js/security/advisories/GHSA-9qr9-h5gf-34mp",
-          "publishedOn": "2025-12-03T16:00:23.000Z",
-          "wordCount": 681,
-          "title": "RCE Vulnerability in React and Next.js",
-          "imageUrl": "https://opengraph.githubassets.com/d290ade319ea1d0682476b293a1f03bd20cb5658aea2647de98a1a6d6128dd91/vercel/next.js/security/advisories/GHSA-9qr9-h5gf-34mp"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46136023",
-          "author": "hajtom",
-          "description": "Article URL: https://github.com/minio/minio/commit/27742d469462e1561c776f88ca7a1f26816d69e2\nComments URL: https://news.ycombinator.com/item?id=46136023\nPoints: 128\n# Comments: 73",
-          "link": "https://github.com/minio/minio/commit/27742d469462e1561c776f88ca7a1f26816d69e2",
-          "publishedOn": "2025-12-03T16:00:19.000Z",
-          "wordCount": 752,
-          "title": "MinIO is now in maintenance-mode",
-          "imageUrl": "https://opengraph.githubassets.com/453d6162c39f2847835c5e30fd8d81b85e7345dce03a2cbc967887b57521f2e8/minio/minio/commit/27742d469462e1561c776f88ca7a1f26816d69e2"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46135661",
-          "author": "ksenzee",
-          "description": "Article URL: https://www.washingtonpost.com/investigations/2025/12/03/veterans-administration-va-hospitals-health/\nComments URL: https://news.ycombinator.com/item?id=46135661\nPoints: 64\n# Comments: 10",
-          "link": "https://www.washingtonpost.com/investigations/2025/12/03/veterans-administration-va-hospitals-health/",
-          "publishedOn": "2025-12-03T15:32:57.000Z",
-          "wordCount": null,
-          "title": "VA staff flag dangerous errors in Oracle-built electronic health record",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46135627",
-          "author": "pacificat0r",
-          "description": "Article URL: https://alexene.dev/2025/12/03/Why-do-my-headphones-buzz-when-i-run-my-game.html\nComments URL: https://news.ycombinator.com/item?id=46135627\nPoints: 63\n# Comments: 50",
-          "link": "https://alexene.dev/2025/12/03/Why-do-my-headphones-buzz-when-i-run-my-game.html",
-          "publishedOn": "2025-12-03T15:30:30.000Z",
-          "wordCount": 802,
-          "title": "Why are my headphones buzzing whenever I run my game?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46135388",
-          "author": "ramoz",
-          "description": "Article URL: https://finance.yahoo.com/news/microsoft-lowers-ai-software-sales-141531121.html\nComments URL: https://news.ycombinator.com/item?id=46135388\nPoints: 72\n# Comments: 60",
-          "link": "https://finance.yahoo.com/news/microsoft-lowers-ai-software-sales-141531121.html",
-          "publishedOn": "2025-12-03T15:11:58.000Z",
-          "wordCount": 44851,
-          "title": "Microsoft lowers AI software growth targets",
-          "imageUrl": "https://media.zenfs.com/en/reuters-finance.com/d252c270728dc8de8df9a35aec010c91"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46135145",
-          "author": "FragrantRiver",
-          "description": "Article URL: https://emilkowal.ski/ui/building-a-toast-component\nComments URL: https://news.ycombinator.com/item?id=46135145\nPoints: 52\n# Comments: 20",
-          "link": "https://emilkowal.ski/ui/building-a-toast-component",
-          "publishedOn": "2025-12-03T14:51:54.000Z",
-          "wordCount": 5087,
-          "title": "Building a Toast Component",
-          "imageUrl": "https://emilkowal.ski/ui/building-a-toast-component/opengraph-image.png?7c4ec38342a7708e"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46135067",
-          "author": "_sinelaw_",
-          "description": "I built Fresh to challenge the status quo that terminal editing must require a steep learning curve or endless configuration. My goal was to create a fast, resource-efficient TUI editor with the usability and features of a modern GUI editor (like a command palette, mouse support, and LSP integration).\nCore Philosophy:\n- Ease-of-Use: Fundamentally non-modal. Prioritizes standard keybindings and a minimal learning curve.\n- Efficiency: Uses a lazy-loading piece tree to avoid loading huge files into RAM - reads only what's needed for user interactions. Coded in Rust.\n- Extensibility: Uses TypeScript (via Deno) for plugins, making it accessible to a large developer base.\nThe Performance Challenge:\nI focused on resource consumption and speed with large file support as a core feature. I did a quick benchmark loading a 2GB log file with ANSI color codes. Here is the comparison against other popular editors:\n  - Fresh:   Load Time: *~600ms*     | Memory: *~36 MB*\n  - Neovim:  Load Time: ~6.5 seconds | Memory: ~2 GB\n  - Emacs:   Load Time: ~10 seconds  | Memory: ~2 GB\n  - VS Code: Load Time: ~20 seconds  | Memory: OOM Killed (~4.3 GB available)\n\nDevelopment process:\nI embraced Claude Code and made an effort to get good mileage out of it. I gave it strong specific directions, especially in architecture / code structure / UX-sensitive areas. It required constant supervision and re-alignment, especially in the performance critical areas. Added very extensive tests (compared to my normal standards) to keep it aligned as the code grows. Especially, focused on end-to-end testing where I could easily enforce a specific behavior or user flow.\nFresh is an open-source project (GPL-2) seeking early adopters. You're welcome to send feedback, feature requests, and bug reports.\nWebsite: https://sinelaw.github.io/fresh/\nGitHub Repository: https://github.com/sinelaw/fresh\nComments URL: https://news.ycombinator.com/item?id=46135067\nPoints: 53\n# Comments: 34",
-          "link": "https://sinelaw.github.io/fresh/",
-          "publishedOn": "2025-12-03T14:45:26.000Z",
-          "wordCount": 1755,
-          "title": "Show HN: Fresh – A new terminal editor built in Rust",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46135008",
-          "author": "brandonb",
-          "description": "Article URL: https://healthisotherpeople.substack.com/p/an-abominable-creature\nComments URL: https://news.ycombinator.com/item?id=46135008\nPoints: 65\n# Comments: 44",
-          "link": "https://healthisotherpeople.substack.com/p/an-abominable-creature",
-          "publishedOn": "2025-12-03T14:42:02.000Z",
-          "wordCount": null,
-          "title": "Mapping Every Dollar of America's $5T Healthcare System",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46134991",
-          "author": "klaussilveira",
-          "description": "Article URL: https://yunfan.zone/gswt_webpage/\nComments URL: https://news.ycombinator.com/item?id=46134991\nPoints: 52\n# Comments: 13",
-          "link": "https://yunfan.zone/gswt_webpage/",
-          "publishedOn": "2025-12-03T14:40:25.000Z",
-          "wordCount": 400,
-          "title": "GSWT: Gaussian Splatting Wang Tiles",
-          "imageUrl": null
         }
       ]
     }

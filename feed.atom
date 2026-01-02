@@ -2,10 +2,49 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-01-02T02:09:27.956Z</updated>
+    <updated>2026-01-02T04:06:05.494Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Happy Public Domain Day 2026]]></title>
+        <id>https://news.ycombinator.com/item?id=46460440</id>
+        <link href="https://publicdomainreview.org/blog/2026/01/public-domain-day-2026/"/>
+        <updated>2026-01-02T01:42:16.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://publicdomainreview.org/blog/2026/01/public-domain-day-2026/
+Comments URL: https://news.ycombinator.com/item?id=46460440
+Points: 105
+# Comments: 10]]></summary>
+        <author>
+            <name>apetresc</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Why users cannot create Issues directly]]></title>
+        <id>https://news.ycombinator.com/item?id=46460319</id>
+        <link href="https://github.com/ghostty-org/ghostty/issues/3558"/>
+        <updated>2026-01-02T01:24:51.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://github.com/ghostty-org/ghostty/issues/3558
+Comments URL: https://news.ycombinator.com/item?id=46460319
+Points: 59
+# Comments: 22]]></summary>
+        <author>
+            <name>xpe</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[WebAssembly as a Python Extension Platform]]></title>
+        <id>https://news.ycombinator.com/item?id=46458624</id>
+        <link href="https://nullprogram.com/blog/2026/01/01/"/>
+        <updated>2026-01-01T22:09:16.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://nullprogram.com/blog/2026/01/01/
+Comments URL: https://news.ycombinator.com/item?id=46458624
+Points: 50
+# Comments: 0]]></summary>
+        <author>
+            <name>ArmageddonIt</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Can Bundler be as fast as uv?]]></title>
         <id>https://news.ycombinator.com/item?id=46458302</id>
@@ -381,6 +420,27 @@ Points: 50
 # Comments: 10]]></summary>
         <author>
             <name>kristianp</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Enroll, a tool to reverse-engineer servers into Ansible config mgmt]]></title>
+        <id>https://news.ycombinator.com/item?id=46449852</id>
+        <link href="https://enroll.sh/"/>
+        <updated>2026-01-01T00:23:54.000Z</updated>
+        <summary type="html"><![CDATA[Happy new year folks!
+This tool was born out of a situation where I had 'inherited' a bunch of servers that were not under any form of config management. Oh, the horror...
+Enroll 'harvests' system information such as what packages are installed, what services are running, what files have 'differed' from their out-of-the-box defaults, and what other custom snowflake data might exist.
+The harvest state data can be kept as its own sort of SBOM, but also can be converted in a mere second or two into fully-functional Ansible roles/playbooks/inventory.
+It can be run remotely over SSH or locally on the machine. Debian and Redhat-like systems are supported.
+There is also a 'diff' mode to detect drift over time. (Years ago I used Puppet instead of Ansible and miss the agent/server model where it would check in and re-align to the expected state, in case people were being silly and side-stepping the config management altogether). For now, diff mode doesn't 'enforce' but is just capable of notification (webhook, email, stdout) if changes occur.
+Since making the tool, I've found that it's even useful for systems where you already have in Ansible, in that it can detect stuff you forgot to put into Ansible in the first place. I'm now starting to use it as a 'DR strategy' of sorts: still favoring my normal Ansible roles day-to-day (they are more bespoke and easier to read), but running enroll with '--dangerous --sops' in the background periodically as a 'dragnet' catch-all, just in case I ever need it.
+Bonus: it also can use my other tool JinjaTurtle, which converts native config files into Jinja2 templates / Ansible vars. That one too was born out of frustration, converting a massive TOML file into Ansible :)
+Anyway, hope it's useful to someone other than me! The website has some demos and more documentation. Have fun every(any)-one.
+Comments URL: https://news.ycombinator.com/item?id=46449852
+Points: 87
+# Comments: 20]]></summary>
+        <author>
+            <name>_mig5</name>
         </author>
     </entry>
     <entry>
@@ -3276,6 +3336,19 @@ Points: 285
 # Comments: 268]]></summary>
         <author>
             <name>christoph-heiss</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[C-events, yet another event loop, simpler, smaller, faster, safer]]></title>
+        <id>https://news.ycombinator.com/item?id=46392095</id>
+        <link href="https://zelang-dev.github.io/c-events/"/>
+        <updated>2025-12-26T14:06:47.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://zelang-dev.github.io/c-events/
+Comments URL: https://news.ycombinator.com/item?id=46392095
+Points: 64
+# Comments: 11]]></summary>
+        <author>
+            <name>thetechstech</name>
         </author>
     </entry>
     <entry>
@@ -16938,165 +17011,6 @@ Points: 50
 # Comments: 12]]></summary>
         <author>
             <name>OsrsNeedsf2P</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Critical RCE Vulnerabilities in React and Next.js]]></title>
-        <id>https://news.ycombinator.com/item?id=46136067</id>
-        <link href="https://www.wiz.io/blog/critical-vulnerability-in-react-cve-2025-55182"/>
-        <updated>2025-12-03T16:03:27.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.wiz.io/blog/critical-vulnerability-in-react-cve-2025-55182
-Comments URL: https://news.ycombinator.com/item?id=46136067
-Points: 104
-# Comments: 42]]></summary>
-        <author>
-            <name>gonepivoting</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Guy Built a Compact Camera Using an Optical Mouse]]></title>
-        <id>https://news.ycombinator.com/item?id=46136059</id>
-        <link href="https://petapixel.com/2025/11/13/this-guy-built-a-compact-camera-using-an-optical-mouse/"/>
-        <updated>2025-12-03T16:02:29.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://petapixel.com/2025/11/13/this-guy-built-a-compact-camera-using-an-optical-mouse/
-Comments URL: https://news.ycombinator.com/item?id=46136059
-Points: 60
-# Comments: 9]]></summary>
-        <author>
-            <name>PaulHoule</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[RCE Vulnerability in React and Next.js]]></title>
-        <id>https://news.ycombinator.com/item?id=46136026</id>
-        <link href="https://github.com/vercel/next.js/security/advisories/GHSA-9qr9-h5gf-34mp"/>
-        <updated>2025-12-03T16:00:23.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://github.com/vercel/next.js/security/advisories/GHSA-9qr9-h5gf-34mp
-Comments URL: https://news.ycombinator.com/item?id=46136026
-Points: 127
-# Comments: 34]]></summary>
-        <author>
-            <name>rayhaanj</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[MinIO is now in maintenance-mode]]></title>
-        <id>https://news.ycombinator.com/item?id=46136023</id>
-        <link href="https://github.com/minio/minio/commit/27742d469462e1561c776f88ca7a1f26816d69e2"/>
-        <updated>2025-12-03T16:00:19.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://github.com/minio/minio/commit/27742d469462e1561c776f88ca7a1f26816d69e2
-Comments URL: https://news.ycombinator.com/item?id=46136023
-Points: 128
-# Comments: 73]]></summary>
-        <author>
-            <name>hajtom</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[VA staff flag dangerous errors in Oracle-built electronic health record]]></title>
-        <id>https://news.ycombinator.com/item?id=46135661</id>
-        <link href="https://www.washingtonpost.com/investigations/2025/12/03/veterans-administration-va-hospitals-health/"/>
-        <updated>2025-12-03T15:32:57.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.washingtonpost.com/investigations/2025/12/03/veterans-administration-va-hospitals-health/
-Comments URL: https://news.ycombinator.com/item?id=46135661
-Points: 64
-# Comments: 10]]></summary>
-        <author>
-            <name>ksenzee</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Why are my headphones buzzing whenever I run my game?]]></title>
-        <id>https://news.ycombinator.com/item?id=46135627</id>
-        <link href="https://alexene.dev/2025/12/03/Why-do-my-headphones-buzz-when-i-run-my-game.html"/>
-        <updated>2025-12-03T15:30:30.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://alexene.dev/2025/12/03/Why-do-my-headphones-buzz-when-i-run-my-game.html
-Comments URL: https://news.ycombinator.com/item?id=46135627
-Points: 63
-# Comments: 50]]></summary>
-        <author>
-            <name>pacificat0r</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Microsoft lowers AI software growth targets]]></title>
-        <id>https://news.ycombinator.com/item?id=46135388</id>
-        <link href="https://finance.yahoo.com/news/microsoft-lowers-ai-software-sales-141531121.html"/>
-        <updated>2025-12-03T15:11:58.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://finance.yahoo.com/news/microsoft-lowers-ai-software-sales-141531121.html
-Comments URL: https://news.ycombinator.com/item?id=46135388
-Points: 72
-# Comments: 60]]></summary>
-        <author>
-            <name>ramoz</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Building a Toast Component]]></title>
-        <id>https://news.ycombinator.com/item?id=46135145</id>
-        <link href="https://emilkowal.ski/ui/building-a-toast-component"/>
-        <updated>2025-12-03T14:51:54.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://emilkowal.ski/ui/building-a-toast-component
-Comments URL: https://news.ycombinator.com/item?id=46135145
-Points: 52
-# Comments: 20]]></summary>
-        <author>
-            <name>FragrantRiver</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: Fresh – A new terminal editor built in Rust]]></title>
-        <id>https://news.ycombinator.com/item?id=46135067</id>
-        <link href="https://sinelaw.github.io/fresh/"/>
-        <updated>2025-12-03T14:45:26.000Z</updated>
-        <summary type="html"><![CDATA[I built Fresh to challenge the status quo that terminal editing must require a steep learning curve or endless configuration. My goal was to create a fast, resource-efficient TUI editor with the usability and features of a modern GUI editor (like a command palette, mouse support, and LSP integration).
-Core Philosophy:
-- Ease-of-Use: Fundamentally non-modal. Prioritizes standard keybindings and a minimal learning curve.
-- Efficiency: Uses a lazy-loading piece tree to avoid loading huge files into RAM - reads only what's needed for user interactions. Coded in Rust.
-- Extensibility: Uses TypeScript (via Deno) for plugins, making it accessible to a large developer base.
-The Performance Challenge:
-I focused on resource consumption and speed with large file support as a core feature. I did a quick benchmark loading a 2GB log file with ANSI color codes. Here is the comparison against other popular editors:
-  - Fresh:   Load Time: *~600ms*     | Memory: *~36 MB*
-  - Neovim:  Load Time: ~6.5 seconds | Memory: ~2 GB
-  - Emacs:   Load Time: ~10 seconds  | Memory: ~2 GB
-  - VS Code: Load Time: ~20 seconds  | Memory: OOM Killed (~4.3 GB available)
-
-Development process:
-I embraced Claude Code and made an effort to get good mileage out of it. I gave it strong specific directions, especially in architecture / code structure / UX-sensitive areas. It required constant supervision and re-alignment, especially in the performance critical areas. Added very extensive tests (compared to my normal standards) to keep it aligned as the code grows. Especially, focused on end-to-end testing where I could easily enforce a specific behavior or user flow.
-Fresh is an open-source project (GPL-2) seeking early adopters. You're welcome to send feedback, feature requests, and bug reports.
-Website: https://sinelaw.github.io/fresh/
-GitHub Repository: https://github.com/sinelaw/fresh
-Comments URL: https://news.ycombinator.com/item?id=46135067
-Points: 53
-# Comments: 34]]></summary>
-        <author>
-            <name>_sinelaw_</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Mapping Every Dollar of America's $5T Healthcare System]]></title>
-        <id>https://news.ycombinator.com/item?id=46135008</id>
-        <link href="https://healthisotherpeople.substack.com/p/an-abominable-creature"/>
-        <updated>2025-12-03T14:42:02.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://healthisotherpeople.substack.com/p/an-abominable-creature
-Comments URL: https://news.ycombinator.com/item?id=46135008
-Points: 65
-# Comments: 44]]></summary>
-        <author>
-            <name>brandonb</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GSWT: Gaussian Splatting Wang Tiles]]></title>
-        <id>https://news.ycombinator.com/item?id=46134991</id>
-        <link href="https://yunfan.zone/gswt_webpage/"/>
-        <updated>2025-12-03T14:40:25.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://yunfan.zone/gswt_webpage/
-Comments URL: https://news.ycombinator.com/item?id=46134991
-Points: 52
-# Comments: 13]]></summary>
-        <author>
-            <name>klaussilveira</name>
         </author>
     </entry>
 </feed>
