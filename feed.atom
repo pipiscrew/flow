@@ -2,10 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-01-02T07:29:38.577Z</updated>
+    <updated>2026-01-02T08:36:37.815Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Real Biological Clock Is You're Going to Die (2018)]]></title>
+        <id>https://news.ycombinator.com/item?id=46461778</id>
+        <link href="https://hmmdaily.com/2018/10/18/your-real-biological-clock-is-youre-going-to-die/"/>
+        <updated>2026-01-02T05:39:13.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://hmmdaily.com/2018/10/18/your-real-biological-clock-is-youre-going-to-die/
+Comments URL: https://news.ycombinator.com/item?id=46461778
+Points: 54
+# Comments: 34]]></summary>
+        <author>
+            <name>moultano</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[A confession from a mainstream food delivery app engineer]]></title>
         <id>https://news.ycombinator.com/item?id=46461578</id>
@@ -16872,42 +16885,6 @@ Points: 52
 # Comments: 21]]></summary>
         <author>
             <name>chmaynard</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: I built a dashboard to compare mortgage rates across 120 credit unions]]></title>
-        <id>https://news.ycombinator.com/item?id=46139761</id>
-        <link href="https://finfam.app/blog/credit-union-mortgages"/>
-        <updated>2025-12-03T20:35:27.000Z</updated>
-        <summary type="html"><![CDATA[When I bought my home, the big bank I'd been using for years quoted me 7% APR. A local credit union was offering 5.5% for the exact same mortgage.
-I was surprised until I learned that mortgages are basically standardized products – the government buys almost all of them (see Bits About Money: https://www.bitsaboutmoney.com/archive/mortgages-are-a-manuf...). So what's the price difference paying for? A recent Bloomberg Odd Lots episode makes the case that it's largely advertising and marketing (https://www.bloomberg.com/news/audio/2025-11-28/odd-lots-thi...). Credit unions are non-profits without big marketing budgets, so they can pass those savings on, but a lot of people don't know about them.
-I built this dashboard to make it easier to shop around. I pull public rates from 120+ credit union websites and compares against the weekly FRED national benchmark.
-Features:
-- Filter by loan type (30Y/15Y/etc.), eligibility (the hardest part tbh), and rate type
-- Payment calculator with refi mode (CUs can be a bit slower than big lenders, but that makes them great for refi)
-- Links to each CU's rates page and eligibility requirements
-- Toggle to show/hide statistical outliers
-At the time of writing, the average CU rate is 5.91% vs. 6.23% national average. about $37k difference in total interest on a $500k loan. I actually used seaborn to visualize the rate spread against the four big banks: https://www.reddit.com/r/dataisbeautiful/comments/1pcj9t7/oc...
-Stack: Python for the data/backend, Svelte/SvelteKit for the frontend. No signup, no ads, no referral fees.
-Happy to answer questions about the methodology or add CUs people suggest.
-Comments URL: https://news.ycombinator.com/item?id=46139761
-Points: 126
-# Comments: 43]]></summary>
-        <author>
-            <name>mhashemi</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Everyone in Seattle hates AI]]></title>
-        <id>https://news.ycombinator.com/item?id=46138952</id>
-        <link href="https://jonready.com/blog/posts/everyone-in-seattle-hates-ai.html"/>
-        <updated>2025-12-03T19:37:25.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://jonready.com/blog/posts/everyone-in-seattle-hates-ai.html
-Comments URL: https://news.ycombinator.com/item?id=46138952
-Points: 121
-# Comments: 90]]></summary>
-        <author>
-            <name>mips_avatar</name>
         </author>
     </entry>
 </feed>

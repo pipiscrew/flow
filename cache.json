@@ -6,6 +6,16 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=46461778",
+          "author": "moultano",
+          "description": "Article URL: https://hmmdaily.com/2018/10/18/your-real-biological-clock-is-youre-going-to-die/\nComments URL: https://news.ycombinator.com/item?id=46461778\nPoints: 54\n# Comments: 34",
+          "link": "https://hmmdaily.com/2018/10/18/your-real-biological-clock-is-youre-going-to-die/",
+          "publishedOn": "2026-01-02T05:39:13.000Z",
+          "wordCount": 2844,
+          "title": "Real Biological Clock Is You're Going to Die (2018)",
+          "imageUrl": "https://hmmdaily.com/wp-content/uploads/2018/07/AP_110506061933_upsampled_EDITflat.jpg?resize=1200,630"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=46461578",
           "author": "taurath",
           "description": "Article URL: https://www.reddit.com/r/confession/s/gbrh2zxeou\nComments URL: https://news.ycombinator.com/item?id=46461578\nPoints: 100\n# Comments: 23",
@@ -12633,26 +12643,6 @@
           "publishedOn": "2025-12-03T20:37:08.000Z",
           "wordCount": 3218,
           "title": "Checked-size array parameters in C",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46139761",
-          "author": "mhashemi",
-          "description": "When I bought my home, the big bank I'd been using for years quoted me 7% APR. A local credit union was offering 5.5% for the exact same mortgage.\nI was surprised until I learned that mortgages are basically standardized products – the government buys almost all of them (see Bits About Money: https://www.bitsaboutmoney.com/archive/mortgages-are-a-manuf...). So what's the price difference paying for? A recent Bloomberg Odd Lots episode makes the case that it's largely advertising and marketing (https://www.bloomberg.com/news/audio/2025-11-28/odd-lots-thi...). Credit unions are non-profits without big marketing budgets, so they can pass those savings on, but a lot of people don't know about them.\nI built this dashboard to make it easier to shop around. I pull public rates from 120+ credit union websites and compares against the weekly FRED national benchmark.\nFeatures:\n- Filter by loan type (30Y/15Y/etc.), eligibility (the hardest part tbh), and rate type\n- Payment calculator with refi mode (CUs can be a bit slower than big lenders, but that makes them great for refi)\n- Links to each CU's rates page and eligibility requirements\n- Toggle to show/hide statistical outliers\nAt the time of writing, the average CU rate is 5.91% vs. 6.23% national average. about $37k difference in total interest on a $500k loan. I actually used seaborn to visualize the rate spread against the four big banks: https://www.reddit.com/r/dataisbeautiful/comments/1pcj9t7/oc...\nStack: Python for the data/backend, Svelte/SvelteKit for the frontend. No signup, no ads, no referral fees.\nHappy to answer questions about the methodology or add CUs people suggest.\nComments URL: https://news.ycombinator.com/item?id=46139761\nPoints: 126\n# Comments: 43",
-          "link": "https://finfam.app/blog/credit-union-mortgages",
-          "publishedOn": "2025-12-03T20:35:27.000Z",
-          "wordCount": 984,
-          "title": "Show HN: I built a dashboard to compare mortgage rates across 120 credit unions",
-          "imageUrl": "https://finfam.app/og/og_finfam_2.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46138952",
-          "author": "mips_avatar",
-          "description": "Article URL: https://jonready.com/blog/posts/everyone-in-seattle-hates-ai.html\nComments URL: https://news.ycombinator.com/item?id=46138952\nPoints: 121\n# Comments: 90",
-          "link": "https://jonready.com/blog/posts/everyone-in-seattle-hates-ai.html",
-          "publishedOn": "2025-12-03T19:37:25.000Z",
-          "wordCount": 995,
-          "title": "Everyone in Seattle hates AI",
           "imageUrl": null
         }
       ]
