@@ -2,10 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-01-03T19:20:13.049Z</updated>
+    <updated>2026-01-03T20:29:00.549Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Microsoft kills official way to activate Windows 11/10 without internet]]></title>
+        <id>https://news.ycombinator.com/item?id=46480156</id>
+        <link href="https://www.neowin.net/news/report-microsoft-quietly-kills-official-way-to-activate-windows-1110-without-internet/#google_vignette"/>
+        <updated>2026-01-03T18:53:10.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.neowin.net/news/report-microsoft-quietly-kills-official-way-to-activate-windows-1110-without-internet/#google_vignette
+Comments URL: https://news.ycombinator.com/item?id=46480156
+Points: 105
+# Comments: 52]]></summary>
+        <author>
+            <name>taubek</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[The C3 Programming Language]]></title>
         <id>https://news.ycombinator.com/item?id=46478647</id>
@@ -30,6 +43,31 @@ Points: 122
 # Comments: 26]]></summary>
         <author>
             <name>mtlynch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Offline tiles and routing and geocoding in one Docker Compose stack]]></title>
+        <id>https://news.ycombinator.com/item?id=46478061</id>
+        <link href="https://www.corviont.com/"/>
+        <updated>2026-01-03T15:55:16.000Z</updated>
+        <summary type="html"><![CDATA[Hi HN,
+I’m building Corviont, a self-hosted offline maps appliance (tiles + routing + search) for edge/on-prem devices.
+Hosted demo (no install): https://demo.corviont.com/
+Self-host (Docker Compose repo): https://github.com/corviont/monaco-demo
+Docs: https://www.corviont.com/docs
+What’s inside:
+  - Vector tiles served locally (PMTiles)
+  - Routing served locally (Valhalla)
+  - Offline geocoding/search + reverse (SQLite Nominatim-based index)
+  - MapLibre UI wired to the local endpoints
+
+Next (if people need it): a signed on-device updater for regional datasets (verify → atomic swap → reload).
+I’d love feedback: where offline maps/routing/search matters for you, and what constraints bite (hardware, fleet size, update windows, regions, deployment style).
+Comments URL: https://news.ycombinator.com/item?id=46478061
+Points: 56
+# Comments: 13]]></summary>
+        <author>
+            <name>packet_mover</name>
         </author>
     </entry>
     <entry>

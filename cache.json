@@ -6,6 +6,16 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=46480156",
+          "author": "taubek",
+          "description": "Article URL: https://www.neowin.net/news/report-microsoft-quietly-kills-official-way-to-activate-windows-1110-without-internet/#google_vignette\nComments URL: https://news.ycombinator.com/item?id=46480156\nPoints: 105\n# Comments: 52",
+          "link": "https://www.neowin.net/news/report-microsoft-quietly-kills-official-way-to-activate-windows-1110-without-internet/#google_vignette",
+          "publishedOn": "2026-01-03T18:53:10.000Z",
+          "wordCount": null,
+          "title": "Microsoft kills official way to activate Windows 11/10 without internet",
+          "imageUrl": null
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=46478647",
           "author": "y1n0",
           "description": "Article URL: https://c3-lang.org\nComments URL: https://news.ycombinator.com/item?id=46478647\nPoints: 98\n# Comments: 39",
@@ -24,6 +34,16 @@
           "wordCount": 1261,
           "title": "The Most Popular Blogs of Hacker News in 2025",
           "imageUrl": "https://refactoringenglish.com/blog/2025-hn-top-5/cover.webp"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46478061",
+          "author": "packet_mover",
+          "description": "Hi HN,\nI’m building Corviont, a self-hosted offline maps appliance (tiles + routing + search) for edge/on-prem devices.\nHosted demo (no install): https://demo.corviont.com/\nSelf-host (Docker Compose repo): https://github.com/corviont/monaco-demo\nDocs: https://www.corviont.com/docs\nWhat’s inside:\n  - Vector tiles served locally (PMTiles)\n  - Routing served locally (Valhalla)\n  - Offline geocoding/search + reverse (SQLite Nominatim-based index)\n  - MapLibre UI wired to the local endpoints\n\nNext (if people need it): a signed on-device updater for regional datasets (verify → atomic swap → reload).\nI’d love feedback: where offline maps/routing/search matters for you, and what constraints bite (hardware, fleet size, update windows, regions, deployment style).\nComments URL: https://news.ycombinator.com/item?id=46478061\nPoints: 56\n# Comments: 13",
+          "link": "https://www.corviont.com/",
+          "publishedOn": "2026-01-03T15:55:16.000Z",
+          "wordCount": 1078,
+          "title": "Show HN: Offline tiles and routing and geocoding in one Docker Compose stack",
+          "imageUrl": "https://unicorn-images.b-cdn.net/ac60ebeb-ae8b-40a6-987a-22530d3da0c1?optimizer=gif"
         },
         {
           "id": "https://news.ycombinator.com/item?id=46475437",
