@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-01-05T13:48:37.471Z</updated>
+    <updated>2026-01-05T14:31:26.377Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
@@ -2140,6 +2140,21 @@ Points: 133
 # Comments: 166]]></summary>
         <author>
             <name>speckx</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Circuit Artist – Circuit simulator with propagation animation, rewind]]></title>
+        <id>https://news.ycombinator.com/item?id=46445412</id>
+        <link href="https://github.com/lets-all-be-stupid-forever/circuit-artist"/>
+        <updated>2025-12-31T16:12:20.000Z</updated>
+        <summary type="html"><![CDATA[Hello,
+Circuit Artist is a game about drawing digital circuits as pixel art — like MS Paint, but pixels are wires and little triangles are NANDs. Hit play and the simulation runs in real time. It's fully white-box: every wire's state is visible.
+I launched it last year with a unit-delay simulation that ran until convergence on each update. It worked, but I realized it had some fundamental problems:
+(i) It hid what was actually happening. Players couldn't tell the difference between a ripple carry adder and a look-ahead adder — everything just resolved instantly.
+(ii) Design bugs became "game bugs." When players had non-converging wires (like A = not(A)), the game couldn't explain why or where the error was.
+(iii) Layout didn't matter. A NAND on one side of the map would instantly propagate…]]></summary>
+        <author>
+            <name>rafinha</name>
         </author>
     </entry>
     <entry>

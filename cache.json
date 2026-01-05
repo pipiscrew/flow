@@ -1606,6 +1606,16 @@
           "imageUrl": "https://cdn.mos.cms.futurecdn.net/oufEx2VJJSiJJpD745PddN-2560-80.jpg"
         },
         {
+          "id": "https://news.ycombinator.com/item?id=46445412",
+          "author": "rafinha",
+          "description": "Hello,\nCircuit Artist is a game about drawing digital circuits as pixel art — like MS Paint, but pixels are wires and little triangles are NANDs. Hit play and the simulation runs in real time. It's fully white-box: every wire's state is visible.\nI launched it last year with a unit-delay simulation that ran until convergence on each update. It worked, but I realized it had some fundamental problems:\n(i) It hid what was actually happening. Players couldn't tell the difference between a ripple carry adder and a look-ahead adder — everything just resolved instantly.\n(ii) Design bugs became \"game bugs.\" When players had non-converging wires (like A = not(A)), the game couldn't explain why or where the error was.\n(iii) Layout didn't matter. A NAND on one side of the map would instantly propagate…",
+          "link": "https://github.com/lets-all-be-stupid-forever/circuit-artist",
+          "publishedOn": "2025-12-31T16:12:20.000Z",
+          "wordCount": 2178,
+          "title": "Show HN: Circuit Artist – Circuit simulator with propagation animation, rewind",
+          "imageUrl": "https://opengraph.githubassets.com/165f395016b0d4e7c674eab0be7f0f39ebdb06e79d233b068ca69e9dce4ebc54/lets-all-be-stupid-forever/circuit-artist"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=46445393",
           "author": "msephton",
           "description": "Article URL: https://www.youtube.com/watch?v=qjWkNZ0SXfo\nComments URL: https://news.ycombinator.com/item?id=46445393\nPoints: 51\n# Comments: 12",
