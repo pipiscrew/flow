@@ -1326,6 +1326,16 @@
           "imageUrl": "https://computerhistory.org/wp-content/uploads/2025/12/2025-11-Infinity-Beyond-Pixar-DM-2341-scaled.jpg"
         },
         {
+          "id": "https://news.ycombinator.com/item?id=46450625",
+          "author": "dsubburam",
+          "description": "Article URL: https://www.worksinprogress.news/p/english-prose-has-become-much-easier\nComments URL: https://news.ycombinator.com/item?id=46450625\nPoints: 51\n# Comments: 38",
+          "link": "https://www.worksinprogress.news/p/english-prose-has-become-much-easier",
+          "publishedOn": "2026-01-01T02:19:14.000Z",
+          "wordCount": 14350,
+          "title": "The great shift of English prose",
+          "imageUrl": "https://substackcdn.com/image/fetch/$s_!A5Nq!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fbfbf9565-a017-40a4-b579-f99463999648_2640x1760.jpeg"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=46449852",
           "author": "_mig5",
           "description": "Happy new year folks!\nThis tool was born out of a situation where I had 'inherited' a bunch of servers that were not under any form of config management. Oh, the horror...\nEnroll 'harvests' system information such as what packages are installed, what services are running, what files have 'differed' from their out-of-the-box defaults, and what other custom snowflake data might exist.\nThe harvest state data can be kept as its own sort of SBOM, but also can be converted in a mere second or two into fully-functional Ansible roles/playbooks/inventory.\nIt can be run remotely over SSH or locally on the machine. Debian and Redhat-like systems are supported.\nThere is also a 'diff' mode to detect drift over time. (Years ago I used Puppet instead of Ansible and miss the agent/server model where it would check in and re-align to the expected state, in case people were being silly and side-stepping the config management altogether). For now, diff mode doesn't 'enforce' but is just capable of notification (webhook, email, stdout) if changes occur.\nSince making the tool, I've found that it's even useful for systems where you already have in Ansible, in that it can detect stuff you forgot to put into Ansible in the first place. I'm now starting to use it as a 'DR strategy' of sorts: still favoring my normal Ansible roles day-to-day (they are more bespoke and easier to read), but running enroll with '--dangerous --sops' in the background periodically as a 'dragnet' catch-all, just in case I ever need it.\nBonus: it also can use my other tool JinjaTurtle, which converts native config files into Jinja2 templates / Ansible vars. That one too was born out of frustration, converting a massive TOML file into Ansible :)\nAnyway, hope it's useful to someone other than me! The website has some demos and more documentation. Have fun every(any)-one.\nComments URL: https://news.ycombinator.com/item?id=46449852\nPoints: 87\n# Comments: 20",
@@ -12543,26 +12553,6 @@
           "publishedOn": "2025-12-06T19:47:13.000Z",
           "wordCount": null,
           "title": "The general who refused to crush Tiananmen's protesters",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46175888",
-          "author": "bookofjoe",
-          "description": "Article URL: https://gwern.net/doc/technology/2008-sower.pdf\nComments URL: https://news.ycombinator.com/item?id=46175888\nPoints: 77\n# Comments: 27",
-          "link": "https://gwern.net/doc/technology/2008-sower.pdf",
-          "publishedOn": "2025-12-06T19:21:50.000Z",
-          "wordCount": 1964,
-          "title": "Formula One Handovers and Handovers From Surgery to Intensive Care (2008) [pdf]",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46175826",
-          "author": "kerim-ca",
-          "description": "Article URL: https://sites.gatech.edu/omscsopencourseware/\nComments URL: https://news.ycombinator.com/item?id=46175826\nPoints: 58\n# Comments: 22",
-          "link": "https://sites.gatech.edu/omscsopencourseware/",
-          "publishedOn": "2025-12-06T19:14:35.000Z",
-          "wordCount": 1426,
-          "title": "OMSCS Open Courseware",
           "imageUrl": null
         }
       ]
