@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-01-06T07:31:34.819Z</updated>
+    <updated>2026-01-06T08:38:57.330Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
@@ -865,6 +865,22 @@ Points: 99
 # Comments: 51]]></summary>
         <author>
             <name>csmantle</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: I replaced Beads with a faster, simpler Markdown-based task tracker]]></title>
+        <id>https://news.ycombinator.com/item?id=46487580</id>
+        <link href="https://github.com/wedow/ticket"/>
+        <updated>2026-01-04T13:08:12.000Z</updated>
+        <summary type="html"><![CDATA[I've been running long duration coding agents with Claude Code for about 6 months now. Steve Yegge released Beads back in October and I found that giving Claude tools for proper task tracking was a massive unlock. But Beads grew massively in a short time and every release made it slower and more frustrating to use. I started battling it several times a week as its background daemon took to syncing the wrong things at the wrong times.
+Over the holidays I finally ripped it out and wrote ticket as a replacement. It keeps the core concept I actually cared about (graph-based task dependencies) but drops everything else.
+ticket a single file bash script built on coreutils managing flat files. You don't need to index everything with SQLite when you have awk. It's just a small plumbing utility that gets out of your way so you can get to work.
+Would love feedback on gaps. I built this for my own agent workflows so there are probably use cases I haven't thought about.
+Comments URL: https://news.ycombinator.com/item?id=46487580
+Points: 54
+# Comments: 26]]></summary>
+        <author>
+            <name>wild_egg</name>
         </author>
     </entry>
     <entry>
@@ -16992,32 +17008,6 @@ Points: 70
 # Comments: 44]]></summary>
         <author>
             <name>belter</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Syncthing-Android have had a change of owner/maintainer]]></title>
-        <id>https://news.ycombinator.com/item?id=46184730</id>
-        <link href="https://github.com/researchxxl/syncthing-android/issues/16"/>
-        <updated>2025-12-07T20:15:26.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://github.com/researchxxl/syncthing-android/issues/16
-Comments URL: https://news.ycombinator.com/item?id=46184730
-Points: 76
-# Comments: 15]]></summary>
-        <author>
-            <name>embedding-shape</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Evidence from the One Laptop per Child program in rural Peru]]></title>
-        <id>https://news.ycombinator.com/item?id=46184575</id>
-        <link href="https://www.nber.org/papers/w34495"/>
-        <updated>2025-12-07T19:56:03.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.nber.org/papers/w34495
-Comments URL: https://news.ycombinator.com/item?id=46184575
-Points: 96
-# Comments: 81]]></summary>
-        <author>
-            <name>danso</name>
         </author>
     </entry>
 </feed>

@@ -666,6 +666,16 @@
           "imageUrl": null
         },
         {
+          "id": "https://news.ycombinator.com/item?id=46487580",
+          "author": "wild_egg",
+          "description": "I've been running long duration coding agents with Claude Code for about 6 months now. Steve Yegge released Beads back in October and I found that giving Claude tools for proper task tracking was a massive unlock. But Beads grew massively in a short time and every release made it slower and more frustrating to use. I started battling it several times a week as its background daemon took to syncing the wrong things at the wrong times.\nOver the holidays I finally ripped it out and wrote ticket as a replacement. It keeps the core concept I actually cared about (graph-based task dependencies) but drops everything else.\nticket a single file bash script built on coreutils managing flat files. You don't need to index everything with SQLite when you have awk. It's just a small plumbing utility that gets out of your way so you can get to work.\nWould love feedback on gaps. I built this for my own agent workflows so there are probably use cases I haven't thought about.\nComments URL: https://news.ycombinator.com/item?id=46487580\nPoints: 54\n# Comments: 26",
+          "link": "https://github.com/wedow/ticket",
+          "publishedOn": "2026-01-04T13:08:12.000Z",
+          "wordCount": 2770,
+          "title": "Show HN: I replaced Beads with a faster, simpler Markdown-based task tracker",
+          "imageUrl": "https://opengraph.githubassets.com/a1bbb98ee80abe4c9b927c8462dfa635ec4ed99a625f660789aba804e09e8595/wedow/ticket"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=46487498",
           "author": "mikece",
           "description": "Article URL: https://www.jeffgeerling.com/blog/2026/migrated-to-hugo/\nComments URL: https://news.ycombinator.com/item?id=46487498\nPoints: 87\n# Comments: 74",
@@ -12704,26 +12714,6 @@
           "wordCount": null,
           "title": "XKeyscore",
           "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46184730",
-          "author": "embedding-shape",
-          "description": "Article URL: https://github.com/researchxxl/syncthing-android/issues/16\nComments URL: https://news.ycombinator.com/item?id=46184730\nPoints: 76\n# Comments: 15",
-          "link": "https://github.com/researchxxl/syncthing-android/issues/16",
-          "publishedOn": "2025-12-07T20:15:26.000Z",
-          "wordCount": 3982,
-          "title": "Syncthing-Android have had a change of owner/maintainer",
-          "imageUrl": "https://opengraph.githubassets.com/190115e3f9ed3c32be23ed8089a4949f508be95de39e4cc942fbec19c2b28e39/researchxxl/syncthing-android/issues/16"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46184575",
-          "author": "danso",
-          "description": "Article URL: https://www.nber.org/papers/w34495\nComments URL: https://news.ycombinator.com/item?id=46184575\nPoints: 96\n# Comments: 81",
-          "link": "https://www.nber.org/papers/w34495",
-          "publishedOn": "2025-12-07T19:56:03.000Z",
-          "wordCount": 1088,
-          "title": "Evidence from the One Laptop per Child program in rural Peru",
-          "imageUrl": "https://www.nber.org/sites/default/files/2022-06/NBER-FB-Share-Tile-1200.jpg"
         }
       ]
     }
