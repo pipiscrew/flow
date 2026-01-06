@@ -2,10 +2,49 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-01-06T19:22:04.956Z</updated>
+    <updated>2026-01-06T20:31:07.614Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Stop Doom Scrolling, Start Doom Coding: Build via the terminal from your phone]]></title>
+        <id>https://news.ycombinator.com/item?id=46517458</id>
+        <link href="https://github.com/rberg27/doom-coding"/>
+        <updated>2026-01-06T19:38:32.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://github.com/rberg27/doom-coding
+Comments URL: https://news.ycombinator.com/item?id=46517458
+Points: 68
+# Comments: 48]]></summary>
+        <author>
+            <name>rbergamini27</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Jax-JS, array library in JavaScript targeting WebGPU]]></title>
+        <id>https://news.ycombinator.com/item?id=46516267</id>
+        <link href="https://ss.ekzhang.com/p/jax-js-an-ml-library-for-the-web"/>
+        <updated>2026-01-06T18:19:31.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://ss.ekzhang.com/p/jax-js-an-ml-library-for-the-web
+Comments URL: https://news.ycombinator.com/item?id=46516267
+Points: 55
+# Comments: 9]]></summary>
+        <author>
+            <name>ekzhang</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Passing of Joe Mancuso author of Masonite (Python web framework)]]></title>
+        <id>https://news.ycombinator.com/item?id=46516137</id>
+        <link href="https://github.com/MasoniteFramework/masonite/discussions/853"/>
+        <updated>2026-01-06T18:11:51.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://github.com/MasoniteFramework/masonite/discussions/853
+Comments URL: https://news.ycombinator.com/item?id=46516137
+Points: 60
+# Comments: 4]]></summary>
+        <author>
+            <name>wilsonfiifi</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Volkswagen Brings Back Physical Buttons]]></title>
         <id>https://news.ycombinator.com/item?id=46514913</id>
@@ -17042,76 +17081,6 @@ Points: 87
 # Comments: 40]]></summary>
         <author>
             <name>wseqyrku</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GitHub Actions Has a Package Manager, and It Might Be the Worst]]></title>
-        <id>https://news.ycombinator.com/item?id=46189692</id>
-        <link href="https://nesbitt.io/2025/12/06/github-actions-package-manager.html"/>
-        <updated>2025-12-08T08:15:32.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://nesbitt.io/2025/12/06/github-actions-package-manager.html
-Comments URL: https://news.ycombinator.com/item?id=46189692
-Points: 56
-# Comments: 14]]></summary>
-        <author>
-            <name>robin_reala</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Why Startups Die]]></title>
-        <id>https://news.ycombinator.com/item?id=46189632</id>
-        <link href="https://www.techfounderstack.com/p/why-startups-die"/>
-        <updated>2025-12-08T08:04:51.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.techfounderstack.com/p/why-startups-die
-Comments URL: https://news.ycombinator.com/item?id=46189632
-Points: 57
-# Comments: 37]]></summary>
-        <author>
-            <name>makle</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[From Azure Functions to FreeBSD]]></title>
-        <id>https://news.ycombinator.com/item?id=46189616</id>
-        <link href="https://jmmv.dev/2025/12/from-azure-functions-to-freebsd.html"/>
-        <updated>2025-12-08T08:02:08.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://jmmv.dev/2025/12/from-azure-functions-to-freebsd.html
-Comments URL: https://news.ycombinator.com/item?id=46189616
-Points: 54
-# Comments: 3]]></summary>
-        <author>
-            <name>todsacerdoti</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: Lockenv – Simple encrypted secrets storage for Git]]></title>
-        <id>https://news.ycombinator.com/item?id=46189480</id>
-        <link href="https://github.com/illarion/lockenv"/>
-        <updated>2025-12-08T07:36:45.000Z</updated>
-        <summary type="html"><![CDATA[Hi!
-I got tired of setting up tools I can't explain to a team in a few words like sops or git-crypt, just to store few files with environment variables or secrets, so I built lockenv as a simple alternative.
-It's basically a password-protected vault file you commit to git. No gpg keys, no cloud, just lockenv init, set a password, and lock/unlock the secrets.
-This tool integrates with OS keyring, so you're not typing passwords constantly. Should work on Mac/Linux/Windows, but I tested it only on linux so far.
-I am not trying to replace any mature / robust solution, just making small tool for simple cases, where I want to stop sharing secrets via slack.
-Feel free to try, thank you!
-Comments URL: https://news.ycombinator.com/item?id=46189480
-Points: 53
-# Comments: 15]]></summary>
-        <author>
-            <name>shoemann</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Microservices Should Form a Polytree]]></title>
-        <id>https://news.ycombinator.com/item?id=46189395</id>
-        <link href="https://bytesauna.com/post/microservices"/>
-        <updated>2025-12-08T07:24:49.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://bytesauna.com/post/microservices
-Comments URL: https://news.ycombinator.com/item?id=46189395
-Points: 52
-# Comments: 49]]></summary>
-        <author>
-            <name>mapehe</name>
         </author>
     </entry>
 </feed>

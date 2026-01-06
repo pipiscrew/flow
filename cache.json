@@ -6,6 +6,36 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=46517458",
+          "author": "rbergamini27",
+          "description": "Article URL: https://github.com/rberg27/doom-coding\nComments URL: https://news.ycombinator.com/item?id=46517458\nPoints: 68\n# Comments: 48",
+          "link": "https://github.com/rberg27/doom-coding",
+          "publishedOn": "2026-01-06T19:38:32.000Z",
+          "wordCount": 3638,
+          "title": "Stop Doom Scrolling, Start Doom Coding: Build via the terminal from your phone",
+          "imageUrl": "https://opengraph.githubassets.com/8f79674f14e5a7ff174afc73e75d55715bee808f77357b1b42d13cffc487cd8e/rberg27/doom-coding"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46516267",
+          "author": "ekzhang",
+          "description": "Article URL: https://ss.ekzhang.com/p/jax-js-an-ml-library-for-the-web\nComments URL: https://news.ycombinator.com/item?id=46516267\nPoints: 55\n# Comments: 9",
+          "link": "https://ss.ekzhang.com/p/jax-js-an-ml-library-for-the-web",
+          "publishedOn": "2026-01-06T18:19:31.000Z",
+          "wordCount": 8202,
+          "title": "Show HN: Jax-JS, array library in JavaScript targeting WebGPU",
+          "imageUrl": "https://substackcdn.com/image/fetch/$s_!7bb1!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1466b600-4dc2-4a2c-9639-843f5a1c700a_1196x450.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46516137",
+          "author": "wilsonfiifi",
+          "description": "Article URL: https://github.com/MasoniteFramework/masonite/discussions/853\nComments URL: https://news.ycombinator.com/item?id=46516137\nPoints: 60\n# Comments: 4",
+          "link": "https://github.com/MasoniteFramework/masonite/discussions/853",
+          "publishedOn": "2026-01-06T18:11:51.000Z",
+          "wordCount": 885,
+          "title": "Passing of Joe Mancuso author of Masonite (Python web framework)",
+          "imageUrl": "https://opengraph.githubassets.com/9f970283b6363b51035ed184f4d910f31972584e311d91ae939827f461f9ea38/MasoniteFramework/masonite/discussions/853"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=46514913",
           "author": "stephc_int13",
           "description": "Article URL: https://www.caranddriver.com/news/a69916699/volkswagen-interior-physical-buttons-return/\nComments URL: https://news.ycombinator.com/item?id=46514913\nPoints: 90\n# Comments: 62",
@@ -12744,56 +12774,6 @@
           "wordCount": 36264,
           "title": "In the Beginning was the Command Line (1999)",
           "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46189692",
-          "author": "robin_reala",
-          "description": "Article URL: https://nesbitt.io/2025/12/06/github-actions-package-manager.html\nComments URL: https://news.ycombinator.com/item?id=46189692\nPoints: 56\n# Comments: 14",
-          "link": "https://nesbitt.io/2025/12/06/github-actions-package-manager.html",
-          "publishedOn": "2025-12-08T08:15:32.000Z",
-          "wordCount": 1800,
-          "title": "GitHub Actions Has a Package Manager, and It Might Be the Worst",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46189632",
-          "author": "makle",
-          "description": "Article URL: https://www.techfounderstack.com/p/why-startups-die\nComments URL: https://news.ycombinator.com/item?id=46189632\nPoints: 57\n# Comments: 37",
-          "link": "https://www.techfounderstack.com/p/why-startups-die",
-          "publishedOn": "2025-12-08T08:04:51.000Z",
-          "wordCount": 6076,
-          "title": "Why Startups Die",
-          "imageUrl": "https://substackcdn.com/image/fetch/$s_!YE9U!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa4a1ba20-ff84-48c6-8382-87cf576a8315_1024x608.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46189616",
-          "author": "todsacerdoti",
-          "description": "Article URL: https://jmmv.dev/2025/12/from-azure-functions-to-freebsd.html\nComments URL: https://news.ycombinator.com/item?id=46189616\nPoints: 54\n# Comments: 3",
-          "link": "https://jmmv.dev/2025/12/from-azure-functions-to-freebsd.html",
-          "publishedOn": "2025-12-08T08:02:08.000Z",
-          "wordCount": 3718,
-          "title": "From Azure Functions to FreeBSD",
-          "imageUrl": "/images/2025-12-07-azure-vs-freebsd.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46189480",
-          "author": "shoemann",
-          "description": "Hi!\nI got tired of setting up tools I can't explain to a team in a few words like sops or git-crypt, just to store few files with environment variables or secrets, so I built lockenv as a simple alternative.\nIt's basically a password-protected vault file you commit to git. No gpg keys, no cloud, just lockenv init, set a password, and lock/unlock the secrets.\nThis tool integrates with OS keyring, so you're not typing passwords constantly. Should work on Mac/Linux/Windows, but I tested it only on linux so far.\nI am not trying to replace any mature / robust solution, just making small tool for simple cases, where I want to stop sharing secrets via slack.\nFeel free to try, thank you!\nComments URL: https://news.ycombinator.com/item?id=46189480\nPoints: 53\n# Comments: 15",
-          "link": "https://github.com/illarion/lockenv",
-          "publishedOn": "2025-12-08T07:36:45.000Z",
-          "wordCount": 9025,
-          "title": "Show HN: Lockenv – Simple encrypted secrets storage for Git",
-          "imageUrl": "https://opengraph.githubassets.com/50d381fee4d2748e7ed2959d333a2a18169f3f8d70aeb8352a55db22fabb3f5e/illarion/lockenv"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46189395",
-          "author": "mapehe",
-          "description": "Article URL: https://bytesauna.com/post/microservices\nComments URL: https://news.ycombinator.com/item?id=46189395\nPoints: 52\n# Comments: 49",
-          "link": "https://bytesauna.com/post/microservices",
-          "publishedOn": "2025-12-08T07:24:49.000Z",
-          "wordCount": 1916,
-          "title": "Microservices Should Form a Polytree",
-          "imageUrl": "https://bytesauna.com/logo.png"
         }
       ]
     }
