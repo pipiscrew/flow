@@ -36,6 +36,16 @@
           "imageUrl": null
         },
         {
+          "id": "https://news.ycombinator.com/item?id=46521084",
+          "author": "csuwldcat",
+          "description": "Article URL: https://backalleycoder.com/posts/passseeds-an-experiment-in-hijacking-passkeys-to-unlock-cryptographic-use-cases/\nComments URL: https://news.ycombinator.com/item?id=46521084\nPoints: 50\n# Comments: 32",
+          "link": "https://backalleycoder.com/posts/passseeds-an-experiment-in-hijacking-passkeys-to-unlock-cryptographic-use-cases/",
+          "publishedOn": "2026-01-07T00:50:58.000Z",
+          "wordCount": 4245,
+          "title": "PassSeeds – hijacking Passkeys to unlock new cryptographic use cases",
+          "imageUrl": "https://csuwildcat.github.io/_astro/passseed-logo.Dtrp9Ve4.jpg"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=46521029",
           "author": "ptorrone",
           "description": "Article URL: https://blog.adafruit.com/2026/01/06/we-recreated-steve-jobss-1975-atari-horoscope-program-and-you-can-run-it/\nComments URL: https://news.ycombinator.com/item?id=46521029\nPoints: 52\n# Comments: 11",
@@ -54,6 +64,16 @@
           "wordCount": null,
           "title": "Electronic nose for indoor mold detection and identification",
           "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46520926",
+          "author": "lobito25",
+          "description": "A fast SOCKS5 proxy that tunnels your traffic through what looks like normal SMTP email, bypassing Deep Packet Inspection firewalls.\nHow it works:\n- Client runs a local SOCKS5 proxy (127.0.0.1:1080)\n- Traffic is sent to server disguised as SMTP (EHLO, STARTTLS, AUTH)\n- DPI sees legitimate email session, not a VPN/proxy\nFeatures:\n- One-liner install on any Linux VPS\n- Multi-user with per-user secrets and IP whitelists\n- Auto-generated client packages (just double-click to run)\n- Auto-reconnect on connection loss\n- Works with any app that supports SOCKS5\nTech: Python/asyncio, TLS 1.2+, HMAC-SHA256 auth\nGitHub: https://github.com/x011/smtp-tunnel-proxy\nComments URL: https://news.ycombinator.com/item?id=46520926\nPoints: 52\n# Comments: 18",
+          "link": "https://github.com/x011/smtp-tunnel-proxy",
+          "publishedOn": "2026-01-07T00:30:09.000Z",
+          "wordCount": 8596,
+          "title": "Show HN: SMTP Tunnel – A SOCKS5 proxy disguised as email traffic to bypass DPI",
+          "imageUrl": "https://opengraph.githubassets.com/34a7aa21ea8e1bb25f4d73f27e15db96b91cceacddaa82974c8e02286e9d006e/x011/smtp-tunnel-proxy"
         },
         {
           "id": "https://news.ycombinator.com/item?id=46520879",
@@ -12574,26 +12594,6 @@
           "wordCount": null,
           "title": "Running on Empty: Copper",
           "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46197930",
-          "author": "Gricha",
-          "description": "Article URL: https://gricha.dev/blog/the-highest-quality-codebase\nComments URL: https://news.ycombinator.com/item?id=46197930\nPoints: 200\n# Comments: 160",
-          "link": "https://gricha.dev/blog/the-highest-quality-codebase",
-          "publishedOn": "2025-12-08T21:33:09.000Z",
-          "wordCount": 2645,
-          "title": "Show HN: I've asked Claude to improve codebase quality 200 times",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46197875",
-          "author": "mikhael",
-          "description": "Article URL: https://blockclubchicago.org/2025/12/08/delivery-robots-take-over-chicago-sidewalks-sparking-debate-and-a-petition-to-hit-pause/\nComments URL: https://news.ycombinator.com/item?id=46197875\nPoints: 75\n# Comments: 119",
-          "link": "https://blockclubchicago.org/2025/12/08/delivery-robots-take-over-chicago-sidewalks-sparking-debate-and-a-petition-to-hit-pause/",
-          "publishedOn": "2025-12-08T21:27:42.000Z",
-          "wordCount": 7292,
-          "title": "Delivery robots take over Chicago sidewalks",
-          "imageUrl": "https://bcc-newspack.s3.amazonaws.com/uploads/2025/11/112425-Robot-Delivery-Colin-Boyle-1923.jpg"
         }
       ]
     }

@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-01-07T08:38:52.809Z</updated>
+    <updated>2026-01-07T09:34:34.607Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
@@ -46,6 +46,19 @@ Points: 71
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[PassSeeds – hijacking Passkeys to unlock new cryptographic use cases]]></title>
+        <id>https://news.ycombinator.com/item?id=46521084</id>
+        <link href="https://backalleycoder.com/posts/passseeds-an-experiment-in-hijacking-passkeys-to-unlock-cryptographic-use-cases/"/>
+        <updated>2026-01-07T00:50:58.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://backalleycoder.com/posts/passseeds-an-experiment-in-hijacking-passkeys-to-unlock-cryptographic-use-cases/
+Comments URL: https://news.ycombinator.com/item?id=46521084
+Points: 50
+# Comments: 32]]></summary>
+        <author>
+            <name>csuwldcat</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[We recreated Steve Jobs's 1975 Atari horoscope program]]></title>
         <id>https://news.ycombinator.com/item?id=46521029</id>
         <link href="https://blog.adafruit.com/2026/01/06/we-recreated-steve-jobss-1975-atari-horoscope-program-and-you-can-run-it/"/>
@@ -69,6 +82,31 @@ Points: 57
 # Comments: 34]]></summary>
         <author>
             <name>PaulHoule</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: SMTP Tunnel – A SOCKS5 proxy disguised as email traffic to bypass DPI]]></title>
+        <id>https://news.ycombinator.com/item?id=46520926</id>
+        <link href="https://github.com/x011/smtp-tunnel-proxy"/>
+        <updated>2026-01-07T00:30:09.000Z</updated>
+        <summary type="html"><![CDATA[A fast SOCKS5 proxy that tunnels your traffic through what looks like normal SMTP email, bypassing Deep Packet Inspection firewalls.
+How it works:
+- Client runs a local SOCKS5 proxy (127.0.0.1:1080)
+- Traffic is sent to server disguised as SMTP (EHLO, STARTTLS, AUTH)
+- DPI sees legitimate email session, not a VPN/proxy
+Features:
+- One-liner install on any Linux VPS
+- Multi-user with per-user secrets and IP whitelists
+- Auto-generated client packages (just double-click to run)
+- Auto-reconnect on connection loss
+- Works with any app that supports SOCKS5
+Tech: Python/asyncio, TLS 1.2+, HMAC-SHA256 auth
+GitHub: https://github.com/x011/smtp-tunnel-proxy
+Comments URL: https://news.ycombinator.com/item?id=46520926
+Points: 52
+# Comments: 18]]></summary>
+        <author>
+            <name>lobito25</name>
         </author>
     </entry>
     <entry>
@@ -16819,32 +16857,6 @@ Points: 50
 # Comments: 41]]></summary>
         <author>
             <name>the-needful</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: I've asked Claude to improve codebase quality 200 times]]></title>
-        <id>https://news.ycombinator.com/item?id=46197930</id>
-        <link href="https://gricha.dev/blog/the-highest-quality-codebase"/>
-        <updated>2025-12-08T21:33:09.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://gricha.dev/blog/the-highest-quality-codebase
-Comments URL: https://news.ycombinator.com/item?id=46197930
-Points: 200
-# Comments: 160]]></summary>
-        <author>
-            <name>Gricha</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Delivery robots take over Chicago sidewalks]]></title>
-        <id>https://news.ycombinator.com/item?id=46197875</id>
-        <link href="https://blockclubchicago.org/2025/12/08/delivery-robots-take-over-chicago-sidewalks-sparking-debate-and-a-petition-to-hit-pause/"/>
-        <updated>2025-12-08T21:27:42.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://blockclubchicago.org/2025/12/08/delivery-robots-take-over-chicago-sidewalks-sparking-debate-and-a-petition-to-hit-pause/
-Comments URL: https://news.ycombinator.com/item?id=46197875
-Points: 75
-# Comments: 119]]></summary>
-        <author>
-            <name>mikhael</name>
         </author>
     </entry>
 </feed>
