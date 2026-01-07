@@ -16,6 +16,16 @@
           "imageUrl": null
         },
         {
+          "id": "https://news.ycombinator.com/item?id=46520935",
+          "author": "PaulHoule",
+          "description": "Article URL: https://advanced.onlinelibrary.wiley.com/doi/10.1002/adsr.202500124\nComments URL: https://news.ycombinator.com/item?id=46520935\nPoints: 57\n# Comments: 34",
+          "link": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/adsr.202500124",
+          "publishedOn": "2026-01-07T00:31:01.000Z",
+          "wordCount": null,
+          "title": "Electronic nose for indoor mold detection and identification",
+          "imageUrl": null
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=46520879",
           "author": "todsacerdoti",
           "description": "Article URL: https://hecate.pink/blog/2026/trans-flag-emoji/\nComments URL: https://news.ycombinator.com/item?id=46520879\nPoints: 60\n# Comments: 10",
@@ -294,6 +304,16 @@
           "wordCount": 1636,
           "title": "Gemini Protocol Deployment Statistics",
           "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46512182",
+          "author": "marcoaapfortes",
+          "description": "Author here! Some context: I published this 48 hours ago and it was auto-listed on MCPMarket (the MCP tools directory). Got 700+ organic downloads with zero marketing—developers were actively searching for exactly this solution.\nThe \"Git Accelerator\" optimization story:\nInitially used a file walker that took 6.6s on Chromium. Profiling showed 90% was filesystem I/O. The fix: git ls-files returns 480k paths in ~200ms. Added smart heuristics for untracked files (only scan dirs   Cursor: npx mantic.sh@latest\n  VS Code: npx mantic.sh@latest\n  CLI: npm i -g mantic.sh\n\nHappy to answer questions!\nComments URL: https://news.ycombinator.com/item?id=46512182\nPoints: 57\n# Comments: 20",
+          "link": "https://github.com/marcoaapfortes/Mantic.sh",
+          "publishedOn": "2026-01-06T13:48:27.000Z",
+          "wordCount": 4795,
+          "title": "Show HN: Mantic.sh – A structural code search engine for AI agents",
+          "imageUrl": "https://opengraph.githubassets.com/b1572c7cb32e7b97a7eca00a79ad86932890e0ef907607e5bfa85a8c0375eff0/marcoaapfortes/Mantic.sh"
         },
         {
           "id": "https://news.ycombinator.com/item?id=46511470",
@@ -1506,6 +1526,16 @@
           "imageUrl": "/static/browse/0.3.4/images/arxiv-logo-fb.png"
         },
         {
+          "id": "https://news.ycombinator.com/item?id=46470017",
+          "author": "KothuRoti",
+          "description": "Article URL: https://twitter.com/bcherny/status/2007179832300581177\nComments URL: https://news.ycombinator.com/item?id=46470017\nPoints: 77\n# Comments: 30",
+          "link": "https://twitter.com/bcherny/status/2007179832300581177",
+          "publishedOn": "2026-01-02T22:07:50.000Z",
+          "wordCount": 767,
+          "title": "The creator of Claude Code's Claude setup",
+          "imageUrl": null
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=46469877",
           "author": "caminanteblanco",
           "description": "Article URL: https://idiallo.com/blog/18000-dollars-static-web-page\nComments URL: https://news.ycombinator.com/item?id=46469877\nPoints: 74\n# Comments: 13",
@@ -2224,6 +2254,16 @@
           "wordCount": 4280,
           "title": "Scientists Uncover the Universal Geometry of Geology (2020)",
           "imageUrl": "https://d2r55xnwy6nx47.cloudfront.net/uploads/2020/11/CubeWorld_1200_social.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46452641",
+          "author": "iancmceachern",
+          "description": "Article URL: https://www.inc.com/jessica-stillman/google-co-founder-sergey-brins-unretirement-is-a-lesson-for-the-rest-of-us/91280208\nComments URL: https://news.ycombinator.com/item?id=46452641\nPoints: 56\n# Comments: 49",
+          "link": "https://www.inc.com/jessica-stillman/google-co-founder-sergey-brins-unretirement-is-a-lesson-for-the-rest-of-us/91280208",
+          "publishedOn": "2026-01-01T09:30:28.000Z",
+          "wordCount": null,
+          "title": "Sergey Brin's Unretirement",
+          "imageUrl": null
         },
         {
           "id": "https://news.ycombinator.com/item?id=46451768",
@@ -12614,126 +12654,6 @@
           "wordCount": 8838,
           "title": "We collected 10k hours of neuro-language data in our basement",
           "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46195068",
-          "author": "gaocegege",
-          "description": "Article URL: https://blog.vectorchord.ai/how-we-made-100m-vector-indexing-in-20-minutes-possible-on-postgresql\nComments URL: https://news.ycombinator.com/item?id=46195068\nPoints: 58\n# Comments: 9",
-          "link": "https://blog.vectorchord.ai/how-we-made-100m-vector-indexing-in-20-minutes-possible-on-postgresql",
-          "publishedOn": "2025-12-08T17:30:15.000Z",
-          "wordCount": null,
-          "title": "Indexing 100M vectors in 20 minutes on PostgreSQL with 12GB RAM",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46195007",
-          "author": "dm03514",
-          "description": "Hello Everyone! We built SQLFlow as a lightweight stream processing engine.\nWe leverage DuckDB as the stream processing engine, which gives SQLFlow the ability to process 10's of thousands of messages a second using ~250MiB of memory!\nDuckDB also supports a rich ecosystem of sinks and connectors!\nhttps://sql-flow.com/docs/category/tutorials/\nhttps://github.com/turbolytics/sql-flow\nWe were tired of running JVM's for simple stream processing, and also of bespoke one off stream processors\nI would love your feedback, criticisms and/or experiences!\nThank you\nComments URL: https://news.ycombinator.com/item?id=46195007\nPoints: 54\n# Comments: 12",
-          "link": "https://sql-flow.com/docs/tutorials/intro/",
-          "publishedOn": "2025-12-08T17:25:54.000Z",
-          "wordCount": 378,
-          "title": "Show HN: DuckDB for Kafka Stream Processing",
-          "imageUrl": "https://sql-flow.com/img/logo.svg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46194828",
-          "author": "jellyotsiro",
-          "description": "Hi HN, I am Arlan and I am building Nia (https://trynia.ai), a context layer for AI coding agents. Nia lets tools like Cursor, Claude Code, and other MCP clients index and query real codebases and documentation so they stop hallucinating against outdated or wrong sources, with applications beyond coding agents to any AI system that requires grounded context across domains.\nCoding agents are only as good as the context you give them. General models are trained on public code and documentation that is often old, and they usually have no idea what is inside your actual repo, internal wiki, or the exact version of a third party SDK you use. The result is very familiar: you paste URLs and code snippets into the prompt, the agent confidently uses an outdated API or the wrong framework version, a…",
-          "link": "https://www.trynia.ai/",
-          "publishedOn": "2025-12-08T17:10:14.000Z",
-          "wordCount": null,
-          "title": "Launch HN: Nia (YC S25) – Give better context to coding agents",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46194615",
-          "author": "mohi-kalantari",
-          "description": "Article URL: https://www.windowscentral.com/artificial-intelligence/microsoft-has-a-problem-nobody-wants-to-buy-or-use-its-shoddy-ai\nComments URL: https://news.ycombinator.com/item?id=46194615\nPoints: 196\n# Comments: 136",
-          "link": "https://www.windowscentral.com/artificial-intelligence/microsoft-has-a-problem-nobody-wants-to-buy-or-use-its-shoddy-ai",
-          "publishedOn": "2025-12-08T16:54:31.000Z",
-          "wordCount": 32610,
-          "title": "Microsoft has a problem: nobody wants to buy or use its shoddy AI products",
-          "imageUrl": "https://cdn.mos.cms.futurecdn.net/omkaTWDEPcQfgNNjFhyon8-2560-80.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46194477",
-          "author": "ibobev",
-          "description": "Article URL: https://blog.pkh.me/p/48-a-series-of-tricks-and-techniques-i-learned-doing-tiny-glsl-demos.html\nComments URL: https://news.ycombinator.com/item?id=46194477\nPoints: 59\n# Comments: 3",
-          "link": "https://blog.pkh.me/p/48-a-series-of-tricks-and-techniques-i-learned-doing-tiny-glsl-demos.html",
-          "publishedOn": "2025-12-08T16:44:42.000Z",
-          "wordCount": 2567,
-          "title": "A series of tricks and techniques I learned doing tiny GLSL demos",
-          "imageUrl": "https://blog.pkh.me/img/demo-tricks/thumb.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46194384",
-          "author": "Bezod",
-          "description": "Article URL: https://nkinternet.com/2025/12/08/hunting-for-north-korean-fiber-optic-cables/\nComments URL: https://news.ycombinator.com/item?id=46194384\nPoints: 94\n# Comments: 8",
-          "link": "https://nkinternet.com/2025/12/08/hunting-for-north-korean-fiber-optic-cables/",
-          "publishedOn": "2025-12-08T16:38:08.000Z",
-          "wordCount": 5115,
-          "title": "Hunting for North Korean Fiber Optic Cables",
-          "imageUrl": "https://nkinternet.com/wp-content/uploads/2025/12/d3e27ea5-25f1-49ed-9392-e38cb466b732.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46194337",
-          "author": "Quizzical4230",
-          "description": "Article URL: https://tailscale.com/blog/tailscale-jailbroken-kindle\nComments URL: https://news.ycombinator.com/item?id=46194337\nPoints: 77\n# Comments: 13",
-          "link": "https://tailscale.com/blog/tailscale-jailbroken-kindle",
-          "publishedOn": "2025-12-08T16:34:08.000Z",
-          "wordCount": 3677,
-          "title": "Let's put Tailscale on a jailbroken Kindle",
-          "imageUrl": "https://cdn.sanity.io/images/w77i7m8x/production/10c4876ce3b53177e2f90146d25815e8d88745ba-2304x1187.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46194315",
-          "author": "mohi-kalantari",
-          "description": "Article URL: https://www.forbes.com/sites/zakdoffman/2025/12/08/google-confirms-android-attacks-no-fix-for-most-samsung-users/\nComments URL: https://news.ycombinator.com/item?id=46194315\nPoints: 52\n# Comments: 30",
-          "link": "https://www.forbes.com/sites/zakdoffman/2025/12/08/google-confirms-android-attacks-no-fix-for-most-samsung-users/",
-          "publishedOn": "2025-12-08T16:32:50.000Z",
-          "wordCount": 18905,
-          "title": "Google Confirms Android Attacks-No Fix for Most Samsung Users",
-          "imageUrl": "https://imageio.forbes.com/specials-images/imageserve/6645bf2f5153e46c85df85cb/0x0.jpg?format=jpg&crop=1646,925,x186,y104,safe&height=900&width=1600&fit=bounds"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46194302",
-          "author": "ecliptik",
-          "description": "Article URL: https://www.theverge.com/cs/features/810002/influencers-creator-economy-special-series\nComments URL: https://news.ycombinator.com/item?id=46194302\nPoints: 50\n# Comments: 20",
-          "link": "https://www.theverge.com/cs/features/810002/influencers-creator-economy-special-series",
-          "publishedOn": "2025-12-08T16:32:12.000Z",
-          "wordCount": 2006,
-          "title": "How the Creator Economy Destroyed the Internet",
-          "imageUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/12/mouth-spot-still.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46194245",
-          "author": "ColinWright",
-          "description": "Article URL: https://www.johndcook.com/blog/2025/12/08/dandelion/\nComments URL: https://news.ycombinator.com/item?id=46194245\nPoints: 50\n# Comments: 1",
-          "link": "https://www.johndcook.com/blog/2025/12/08/dandelion/",
-          "publishedOn": "2025-12-08T16:27:29.000Z",
-          "wordCount": 1644,
-          "title": "Obscuring P2P Nodes with Dandelion",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46194063",
-          "author": "speckx",
-          "description": "Article URL: https://zerokspot.com/weblog/2025/12/05/no-more-oreilly-subscriptions-for-me/\nComments URL: https://news.ycombinator.com/item?id=46194063\nPoints: 64\n# Comments: 70",
-          "link": "https://zerokspot.com/weblog/2025/12/05/no-more-oreilly-subscriptions-for-me/",
-          "publishedOn": "2025-12-08T16:14:52.000Z",
-          "wordCount": 419,
-          "title": "No more O'Reilly subscriptions for me",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46193931",
-          "author": "ibobev",
-          "description": "Article URL: https://thegeeko.me/blog/amd-gpu-debugging/\nComments URL: https://news.ycombinator.com/item?id=46193931\nPoints: 58\n# Comments: 0",
-          "link": "https://thegeeko.me/blog/amd-gpu-debugging/",
-          "publishedOn": "2025-12-08T16:06:14.000Z",
-          "wordCount": 10002,
-          "title": "AMD GPU Debugger",
-          "imageUrl": "https://thegeeko.me/open-graph/amd-gpu-debugging.png"
         }
       ]
     }

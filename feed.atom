@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-01-07T04:04:47.602Z</updated>
+    <updated>2026-01-07T05:31:37.350Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
@@ -17,6 +17,19 @@ Points: 71
 # Comments: 38]]></summary>
         <author>
             <name>jasoneckert</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Electronic nose for indoor mold detection and identification]]></title>
+        <id>https://news.ycombinator.com/item?id=46520935</id>
+        <link href="https://advanced.onlinelibrary.wiley.com/doi/10.1002/adsr.202500124"/>
+        <updated>2026-01-07T00:31:01.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://advanced.onlinelibrary.wiley.com/doi/10.1002/adsr.202500124
+Comments URL: https://news.ycombinator.com/item?id=46520935
+Points: 57
+# Comments: 34]]></summary>
+        <author>
+            <name>PaulHoule</name>
         </author>
     </entry>
     <entry>
@@ -381,6 +394,25 @@ Points: 55
 # Comments: 8]]></summary>
         <author>
             <name>rickcarlino</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Mantic.sh – A structural code search engine for AI agents]]></title>
+        <id>https://news.ycombinator.com/item?id=46512182</id>
+        <link href="https://github.com/marcoaapfortes/Mantic.sh"/>
+        <updated>2026-01-06T13:48:27.000Z</updated>
+        <summary type="html"><![CDATA[Author here! Some context: I published this 48 hours ago and it was auto-listed on MCPMarket (the MCP tools directory). Got 700+ organic downloads with zero marketing—developers were actively searching for exactly this solution.
+The "Git Accelerator" optimization story:
+Initially used a file walker that took 6.6s on Chromium. Profiling showed 90% was filesystem I/O. The fix: git ls-files returns 480k paths in ~200ms. Added smart heuristics for untracked files (only scan dirs   Cursor: npx mantic.sh@latest
+  VS Code: npx mantic.sh@latest
+  CLI: npm i -g mantic.sh
+
+Happy to answer questions!
+Comments URL: https://news.ycombinator.com/item?id=46512182
+Points: 57
+# Comments: 20]]></summary>
+        <author>
+            <name>marcoaapfortes</name>
         </author>
     </entry>
     <entry>
@@ -1987,6 +2019,19 @@ Points: 53
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[The creator of Claude Code's Claude setup]]></title>
+        <id>https://news.ycombinator.com/item?id=46470017</id>
+        <link href="https://twitter.com/bcherny/status/2007179832300581177"/>
+        <updated>2026-01-02T22:07:50.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://twitter.com/bcherny/status/2007179832300581177
+Comments URL: https://news.ycombinator.com/item?id=46470017
+Points: 77
+# Comments: 30]]></summary>
+        <author>
+            <name>KothuRoti</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[I charged $18k for a Static HTML Page (2019)]]></title>
         <id>https://news.ycombinator.com/item?id=46469877</id>
         <link href="https://idiallo.com/blog/18000-dollars-static-web-page"/>
@@ -2944,6 +2989,19 @@ Points: 50
 # Comments: 10]]></summary>
         <author>
             <name>fanf2</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Sergey Brin's Unretirement]]></title>
+        <id>https://news.ycombinator.com/item?id=46452641</id>
+        <link href="https://www.inc.com/jessica-stillman/google-co-founder-sergey-brins-unretirement-is-a-lesson-for-the-rest-of-us/91280208"/>
+        <updated>2026-01-01T09:30:28.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.inc.com/jessica-stillman/google-co-founder-sergey-brins-unretirement-is-a-lesson-for-the-rest-of-us/91280208
+Comments URL: https://news.ycombinator.com/item?id=46452641
+Points: 56
+# Comments: 49]]></summary>
+        <author>
+            <name>iancmceachern</name>
         </author>
     </entry>
     <entry>
@@ -16865,167 +16923,6 @@ Points: 61
 # Comments: 46]]></summary>
         <author>
             <name>nee1r</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Indexing 100M vectors in 20 minutes on PostgreSQL with 12GB RAM]]></title>
-        <id>https://news.ycombinator.com/item?id=46195068</id>
-        <link href="https://blog.vectorchord.ai/how-we-made-100m-vector-indexing-in-20-minutes-possible-on-postgresql"/>
-        <updated>2025-12-08T17:30:15.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://blog.vectorchord.ai/how-we-made-100m-vector-indexing-in-20-minutes-possible-on-postgresql
-Comments URL: https://news.ycombinator.com/item?id=46195068
-Points: 58
-# Comments: 9]]></summary>
-        <author>
-            <name>gaocegege</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: DuckDB for Kafka Stream Processing]]></title>
-        <id>https://news.ycombinator.com/item?id=46195007</id>
-        <link href="https://sql-flow.com/docs/tutorials/intro/"/>
-        <updated>2025-12-08T17:25:54.000Z</updated>
-        <summary type="html"><![CDATA[Hello Everyone! We built SQLFlow as a lightweight stream processing engine.
-We leverage DuckDB as the stream processing engine, which gives SQLFlow the ability to process 10's of thousands of messages a second using ~250MiB of memory!
-DuckDB also supports a rich ecosystem of sinks and connectors!
-https://sql-flow.com/docs/category/tutorials/
-https://github.com/turbolytics/sql-flow
-We were tired of running JVM's for simple stream processing, and also of bespoke one off stream processors
-I would love your feedback, criticisms and/or experiences!
-Thank you
-Comments URL: https://news.ycombinator.com/item?id=46195007
-Points: 54
-# Comments: 12]]></summary>
-        <author>
-            <name>dm03514</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Launch HN: Nia (YC S25) – Give better context to coding agents]]></title>
-        <id>https://news.ycombinator.com/item?id=46194828</id>
-        <link href="https://www.trynia.ai/"/>
-        <updated>2025-12-08T17:10:14.000Z</updated>
-        <summary type="html"><![CDATA[Hi HN, I am Arlan and I am building Nia (https://trynia.ai), a context layer for AI coding agents. Nia lets tools like Cursor, Claude Code, and other MCP clients index and query real codebases and documentation so they stop hallucinating against outdated or wrong sources, with applications beyond coding agents to any AI system that requires grounded context across domains.
-Coding agents are only as good as the context you give them. General models are trained on public code and documentation that is often old, and they usually have no idea what is inside your actual repo, internal wiki, or the exact version of a third party SDK you use. The result is very familiar: you paste URLs and code snippets into the prompt, the agent confidently uses an outdated API or the wrong framework version, a…]]></summary>
-        <author>
-            <name>jellyotsiro</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Microsoft has a problem: nobody wants to buy or use its shoddy AI products]]></title>
-        <id>https://news.ycombinator.com/item?id=46194615</id>
-        <link href="https://www.windowscentral.com/artificial-intelligence/microsoft-has-a-problem-nobody-wants-to-buy-or-use-its-shoddy-ai"/>
-        <updated>2025-12-08T16:54:31.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.windowscentral.com/artificial-intelligence/microsoft-has-a-problem-nobody-wants-to-buy-or-use-its-shoddy-ai
-Comments URL: https://news.ycombinator.com/item?id=46194615
-Points: 196
-# Comments: 136]]></summary>
-        <author>
-            <name>mohi-kalantari</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A series of tricks and techniques I learned doing tiny GLSL demos]]></title>
-        <id>https://news.ycombinator.com/item?id=46194477</id>
-        <link href="https://blog.pkh.me/p/48-a-series-of-tricks-and-techniques-i-learned-doing-tiny-glsl-demos.html"/>
-        <updated>2025-12-08T16:44:42.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://blog.pkh.me/p/48-a-series-of-tricks-and-techniques-i-learned-doing-tiny-glsl-demos.html
-Comments URL: https://news.ycombinator.com/item?id=46194477
-Points: 59
-# Comments: 3]]></summary>
-        <author>
-            <name>ibobev</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Hunting for North Korean Fiber Optic Cables]]></title>
-        <id>https://news.ycombinator.com/item?id=46194384</id>
-        <link href="https://nkinternet.com/2025/12/08/hunting-for-north-korean-fiber-optic-cables/"/>
-        <updated>2025-12-08T16:38:08.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://nkinternet.com/2025/12/08/hunting-for-north-korean-fiber-optic-cables/
-Comments URL: https://news.ycombinator.com/item?id=46194384
-Points: 94
-# Comments: 8]]></summary>
-        <author>
-            <name>Bezod</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Let's put Tailscale on a jailbroken Kindle]]></title>
-        <id>https://news.ycombinator.com/item?id=46194337</id>
-        <link href="https://tailscale.com/blog/tailscale-jailbroken-kindle"/>
-        <updated>2025-12-08T16:34:08.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://tailscale.com/blog/tailscale-jailbroken-kindle
-Comments URL: https://news.ycombinator.com/item?id=46194337
-Points: 77
-# Comments: 13]]></summary>
-        <author>
-            <name>Quizzical4230</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Google Confirms Android Attacks-No Fix for Most Samsung Users]]></title>
-        <id>https://news.ycombinator.com/item?id=46194315</id>
-        <link href="https://www.forbes.com/sites/zakdoffman/2025/12/08/google-confirms-android-attacks-no-fix-for-most-samsung-users/"/>
-        <updated>2025-12-08T16:32:50.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.forbes.com/sites/zakdoffman/2025/12/08/google-confirms-android-attacks-no-fix-for-most-samsung-users/
-Comments URL: https://news.ycombinator.com/item?id=46194315
-Points: 52
-# Comments: 30]]></summary>
-        <author>
-            <name>mohi-kalantari</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How the Creator Economy Destroyed the Internet]]></title>
-        <id>https://news.ycombinator.com/item?id=46194302</id>
-        <link href="https://www.theverge.com/cs/features/810002/influencers-creator-economy-special-series"/>
-        <updated>2025-12-08T16:32:12.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.theverge.com/cs/features/810002/influencers-creator-economy-special-series
-Comments URL: https://news.ycombinator.com/item?id=46194302
-Points: 50
-# Comments: 20]]></summary>
-        <author>
-            <name>ecliptik</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Obscuring P2P Nodes with Dandelion]]></title>
-        <id>https://news.ycombinator.com/item?id=46194245</id>
-        <link href="https://www.johndcook.com/blog/2025/12/08/dandelion/"/>
-        <updated>2025-12-08T16:27:29.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.johndcook.com/blog/2025/12/08/dandelion/
-Comments URL: https://news.ycombinator.com/item?id=46194245
-Points: 50
-# Comments: 1]]></summary>
-        <author>
-            <name>ColinWright</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[No more O'Reilly subscriptions for me]]></title>
-        <id>https://news.ycombinator.com/item?id=46194063</id>
-        <link href="https://zerokspot.com/weblog/2025/12/05/no-more-oreilly-subscriptions-for-me/"/>
-        <updated>2025-12-08T16:14:52.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://zerokspot.com/weblog/2025/12/05/no-more-oreilly-subscriptions-for-me/
-Comments URL: https://news.ycombinator.com/item?id=46194063
-Points: 64
-# Comments: 70]]></summary>
-        <author>
-            <name>speckx</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AMD GPU Debugger]]></title>
-        <id>https://news.ycombinator.com/item?id=46193931</id>
-        <link href="https://thegeeko.me/blog/amd-gpu-debugging/"/>
-        <updated>2025-12-08T16:06:14.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://thegeeko.me/blog/amd-gpu-debugging/
-Comments URL: https://news.ycombinator.com/item?id=46193931
-Points: 58
-# Comments: 0]]></summary>
-        <author>
-            <name>ibobev</name>
         </author>
     </entry>
 </feed>
