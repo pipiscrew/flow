@@ -336,6 +336,16 @@
           "imageUrl": "https://opengraph.githubassets.com/4eee2a0faa0536aff36ca59c2e1fc13400ab73e83473875f430bd13ae1c6eb31/bigskysoftware/htmx"
         },
         {
+          "id": "https://news.ycombinator.com/item?id=46523887",
+          "author": "yashsngh",
+          "description": "Article URL: https://arpitbhayani.me/blogs/qkv-matrices/\nComments URL: https://news.ycombinator.com/item?id=46523887\nPoints: 72\n# Comments: 35",
+          "link": "https://arpitbhayani.me/blogs/qkv-matrices/",
+          "publishedOn": "2026-01-07T08:18:09.000Z",
+          "wordCount": 2232,
+          "title": "The Q, K, V Matrices",
+          "imageUrl": "https://edge.arpitbhayani.me/img/covers/general-cover.jpg"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=46523029",
           "author": "ekropotin",
           "description": "Article URL: https://www.newsweek.com/eliminate-h1b-visa-program-congress-bill-marjorie-taylor-greene-11312655\nComments URL: https://news.ycombinator.com/item?id=46523029\nPoints: 50\n# Comments: 34",
@@ -12714,66 +12724,6 @@
           "wordCount": 6810,
           "title": "\"The Matilda Effect\": Pioneering Women Scientists Written Out of Science History",
           "imageUrl": "https://cdn8.openculture.com/2025/12/07212351/Otto_Hahn_und_Lise_Meitner.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46207727",
-          "author": "harambae",
-          "description": "Article URL: https://www.theatlantic.com/ideas/2025/12/private-equity-housing-changes/685138/\nComments URL: https://news.ycombinator.com/item?id=46207727\nPoints: 69\n# Comments: 146",
-          "link": "https://www.theatlantic.com/ideas/2025/12/private-equity-housing-changes/685138/",
-          "publishedOn": "2025-12-09T17:26:33.000Z",
-          "wordCount": 2987,
-          "title": "How private equity is changing housing",
-          "imageUrl": "https://cdn.theatlantic.com/thumbor/iNdEVXrz2BWV2SsM6-F4QEpCvr4=/0x100:4712x2554/1200x625/media/img/mt/2025/12/2025_12_4_Private_Equity_Responsible_for_the_Housing_Crisis_/original.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46207505",
-          "author": "sramsay",
-          "description": "Article URL: https://stephenramsay.net/posts/vibe-coding.html\nComments URL: https://news.ycombinator.com/item?id=46207505\nPoints: 103\n# Comments: 108",
-          "link": "https://stephenramsay.net/posts/vibe-coding.html",
-          "publishedOn": "2025-12-09T17:11:09.000Z",
-          "wordCount": 1873,
-          "title": "If you're going to vibe code, why not do it in C?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46207464",
-          "author": "fsflover",
-          "description": "Article URL: https://www.digitalpublicgoods.net/r/peertube\nComments URL: https://news.ycombinator.com/item?id=46207464\nPoints: 105\n# Comments: 12",
-          "link": "https://www.digitalpublicgoods.net/r/peertube",
-          "publishedOn": "2025-12-09T17:08:37.000Z",
-          "wordCount": 2183,
-          "title": "PeerTube is recognized as a digital public good by Digital Public Goods Alliance",
-          "imageUrl": "https://app.digitalpublicgoods.net/storage/images/peertube.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46207425",
-          "author": "meetpateltech",
-          "description": "Article URL: https://www.anthropic.com/news/donating-the-model-context-protocol-and-establishing-of-the-agentic-ai-foundation\nComments URL: https://news.ycombinator.com/item?id=46207425\nPoints: 55\n# Comments: 24",
-          "link": "https://www.anthropic.com/news/donating-the-model-context-protocol-and-establishing-of-the-agentic-ai-foundation",
-          "publishedOn": "2025-12-09T17:05:42.000Z",
-          "wordCount": 1659,
-          "title": "Donating the Model Context Protocol and Establishing the Agentic AI Foundation",
-          "imageUrl": "https://www.anthropic.com/api/opengraph-illustration?name=Hand%20NodePair&backgroundColor=cactus"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46206591",
-          "author": "arnabkarsarkar",
-          "description": "OP here.\nI built this because I recently caught myself almost pasting a block of logs containing AWS keys into Claude.\nThe Problem: I need the reasoning capabilities of cloud models (GPT/Claude/Gemini), but I can't trust myself not to accidentally leak PII or secrets.\nThe Solution: A Chrome extension that acts as a local middleware. It intercepts the prompt and runs a local BERT model (via a Python FastAPI backend) to scrub names, emails, and keys before the request leaves the browser.\nA few notes up front (to set expectations clearly):\nEverything runs 100% locally.\nRegex detection happens in the extension itself.\nAdvanced detection (NER) uses a small transformer model running on localhost via FastAPI.\nNo data is ever sent to a server.\nYou can verify this in the code + DevTools network panel.\nThis is an early prototype.\nThere will be rough edges. I’m looking for feedback on UX, detection quality, and whether the local-agent approach makes sense.\nTech Stack:\n Manifest V3 Chrome Extension\n Python FastAPI (Localhost)\n HuggingFace dslim/bert-base-NER\n Roadmap / Request for Feedback:\nRight now, the Python backend adds some friction. I received feedback on Reddit yesterday suggesting I port the inference to transformer.js to run entirely in-browser via WASM.\nI decided to ship v1 with the Python backend for stability, but I'm actively looking into the ONNX/WASM route for v2 to remove the local server dependency. If anyone has experience running NER models via transformer.js in a Service Worker, I’d love to hear about the performance vs native Python.\nRepo is MIT licensed.\nVery open to ideas suggestions or alternative approaches.\nComments URL: https://news.ycombinator.com/item?id=46206591\nPoints: 69\n# Comments: 29",
-          "link": "https://github.com/privacyshield-ai/privacy-firewall",
-          "publishedOn": "2025-12-09T16:10:37.000Z",
-          "wordCount": 5394,
-          "title": "Show HN: Local Privacy Firewall-blocks PII and secrets before ChatGPT sees them",
-          "imageUrl": "https://repository-images.githubusercontent.com/1111333118/4a3f39ca-8b78-4b5e-8c84-9beec6797027"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46206531",
-          "author": "razzmataks",
-          "description": "Article URL: https://bruno-simon.com/\nComments URL: https://news.ycombinator.com/item?id=46206531\nPoints: 63\n# Comments: 18",
-          "link": "https://bruno-simon.com/",
-          "publishedOn": "2025-12-09T16:06:58.000Z",
-          "wordCount": 568,
-          "title": "Handsdown one of the coolest 3D websites",
-          "imageUrl": "https://bruno-simon.com/social/share-image.png?cb=a"
         }
       ]
     }

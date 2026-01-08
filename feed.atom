@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-01-08T04:04:26.455Z</updated>
+    <updated>2026-01-08T05:31:10.606Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
@@ -440,6 +440,19 @@ Points: 51
 # Comments: 30]]></summary>
         <author>
             <name>tosh</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Q, K, V Matrices]]></title>
+        <id>https://news.ycombinator.com/item?id=46523887</id>
+        <link href="https://arpitbhayani.me/blogs/qkv-matrices/"/>
+        <updated>2026-01-07T08:18:09.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://arpitbhayani.me/blogs/qkv-matrices/
+Comments URL: https://news.ycombinator.com/item?id=46523887
+Points: 72
+# Comments: 35]]></summary>
+        <author>
+            <name>yashsngh</name>
         </author>
     </entry>
     <entry>
@@ -16984,104 +16997,6 @@ Points: 67
 # Comments: 14]]></summary>
         <author>
             <name>binning</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How private equity is changing housing]]></title>
-        <id>https://news.ycombinator.com/item?id=46207727</id>
-        <link href="https://www.theatlantic.com/ideas/2025/12/private-equity-housing-changes/685138/"/>
-        <updated>2025-12-09T17:26:33.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.theatlantic.com/ideas/2025/12/private-equity-housing-changes/685138/
-Comments URL: https://news.ycombinator.com/item?id=46207727
-Points: 69
-# Comments: 146]]></summary>
-        <author>
-            <name>harambae</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[If you're going to vibe code, why not do it in C?]]></title>
-        <id>https://news.ycombinator.com/item?id=46207505</id>
-        <link href="https://stephenramsay.net/posts/vibe-coding.html"/>
-        <updated>2025-12-09T17:11:09.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://stephenramsay.net/posts/vibe-coding.html
-Comments URL: https://news.ycombinator.com/item?id=46207505
-Points: 103
-# Comments: 108]]></summary>
-        <author>
-            <name>sramsay</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[PeerTube is recognized as a digital public good by Digital Public Goods Alliance]]></title>
-        <id>https://news.ycombinator.com/item?id=46207464</id>
-        <link href="https://www.digitalpublicgoods.net/r/peertube"/>
-        <updated>2025-12-09T17:08:37.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.digitalpublicgoods.net/r/peertube
-Comments URL: https://news.ycombinator.com/item?id=46207464
-Points: 105
-# Comments: 12]]></summary>
-        <author>
-            <name>fsflover</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Donating the Model Context Protocol and Establishing the Agentic AI Foundation]]></title>
-        <id>https://news.ycombinator.com/item?id=46207425</id>
-        <link href="https://www.anthropic.com/news/donating-the-model-context-protocol-and-establishing-of-the-agentic-ai-foundation"/>
-        <updated>2025-12-09T17:05:42.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.anthropic.com/news/donating-the-model-context-protocol-and-establishing-of-the-agentic-ai-foundation
-Comments URL: https://news.ycombinator.com/item?id=46207425
-Points: 55
-# Comments: 24]]></summary>
-        <author>
-            <name>meetpateltech</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: Local Privacy Firewall-blocks PII and secrets before ChatGPT sees them]]></title>
-        <id>https://news.ycombinator.com/item?id=46206591</id>
-        <link href="https://github.com/privacyshield-ai/privacy-firewall"/>
-        <updated>2025-12-09T16:10:37.000Z</updated>
-        <summary type="html"><![CDATA[OP here.
-I built this because I recently caught myself almost pasting a block of logs containing AWS keys into Claude.
-The Problem: I need the reasoning capabilities of cloud models (GPT/Claude/Gemini), but I can't trust myself not to accidentally leak PII or secrets.
-The Solution: A Chrome extension that acts as a local middleware. It intercepts the prompt and runs a local BERT model (via a Python FastAPI backend) to scrub names, emails, and keys before the request leaves the browser.
-A few notes up front (to set expectations clearly):
-Everything runs 100% locally.
-Regex detection happens in the extension itself.
-Advanced detection (NER) uses a small transformer model running on localhost via FastAPI.
-No data is ever sent to a server.
-You can verify this in the code + DevTools network panel.
-This is an early prototype.
-There will be rough edges. I’m looking for feedback on UX, detection quality, and whether the local-agent approach makes sense.
-Tech Stack:
- Manifest V3 Chrome Extension
- Python FastAPI (Localhost)
- HuggingFace dslim/bert-base-NER
- Roadmap / Request for Feedback:
-Right now, the Python backend adds some friction. I received feedback on Reddit yesterday suggesting I port the inference to transformer.js to run entirely in-browser via WASM.
-I decided to ship v1 with the Python backend for stability, but I'm actively looking into the ONNX/WASM route for v2 to remove the local server dependency. If anyone has experience running NER models via transformer.js in a Service Worker, I’d love to hear about the performance vs native Python.
-Repo is MIT licensed.
-Very open to ideas suggestions or alternative approaches.
-Comments URL: https://news.ycombinator.com/item?id=46206591
-Points: 69
-# Comments: 29]]></summary>
-        <author>
-            <name>arnabkarsarkar</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Handsdown one of the coolest 3D websites]]></title>
-        <id>https://news.ycombinator.com/item?id=46206531</id>
-        <link href="https://bruno-simon.com/"/>
-        <updated>2025-12-09T16:06:58.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://bruno-simon.com/
-Comments URL: https://news.ycombinator.com/item?id=46206531
-Points: 63
-# Comments: 18]]></summary>
-        <author>
-            <name>razzmataks</name>
         </author>
     </entry>
 </feed>
