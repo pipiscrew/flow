@@ -6,6 +6,16 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=46548940",
+          "author": "erutuon",
+          "description": "Article URL: https://kueda.net/blog/2026/01/06/why-i-left-inat/\nComments URL: https://news.ycombinator.com/item?id=46548940\nPoints: 102\n# Comments: 22",
+          "link": "https://kueda.net/blog/2026/01/06/why-i-left-inat/",
+          "publishedOn": "2026-01-09T01:17:51.000Z",
+          "wordCount": 3370,
+          "title": "Why I Left iNaturalist",
+          "imageUrl": null
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=46547740",
           "author": "birdculture",
           "description": "Article URL: https://github.com/embassy-rs/embassy\nComments URL: https://news.ycombinator.com/item?id=46547740\nPoints: 92\n# Comments: 30",
@@ -53,6 +63,16 @@
           "publishedOn": "2026-01-08T19:54:26.000Z",
           "wordCount": 2207,
           "title": "How to Code Claude Code in 200 Lines of Code",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46545587",
+          "author": "amarble",
+          "description": "Article URL: https://www.marble.onl/posts/tapping/index.html\nComments URL: https://news.ycombinator.com/item?id=46545587\nPoints: 51\n# Comments: 15",
+          "link": "https://www.marble.onl/posts/tapping/index.html",
+          "publishedOn": "2026-01-08T19:51:47.000Z",
+          "wordCount": 2770,
+          "title": "Task-free intelligence testing of LLMs",
           "imageUrl": null
         },
         {
@@ -12784,66 +12804,6 @@
           "wordCount": 3372,
           "title": "Launch HN: InspectMind (YC W24) – AI agent for reviewing construction drawings",
           "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46219346",
-          "author": "eatonphil",
-          "description": "Article URL: https://neal.fun/size-of-life/\nComments URL: https://news.ycombinator.com/item?id=46219346\nPoints: 215\n# Comments: 50",
-          "link": "https://neal.fun/size-of-life/",
-          "publishedOn": "2025-12-10T16:02:57.000Z",
-          "wordCount": null,
-          "title": "Size of Life",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46218782",
-          "author": "smurda",
-          "description": "Article URL: https://phys.org/news/2025-12-robocrop-robots-tomatoes.html\nComments URL: https://news.ycombinator.com/item?id=46218782\nPoints: 52\n# Comments: 25",
-          "link": "https://phys.org/news/2025-12-robocrop-robots-tomatoes.html",
-          "publishedOn": "2025-12-10T15:29:14.000Z",
-          "wordCount": 2876,
-          "title": "RoboCrop: Teaching robots how to pick tomatoes",
-          "imageUrl": "https://scx2.b-cdn.net/gfx/news/hires/2025/robocrop-teaching-robo.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46218725",
-          "author": "Brajeshwar",
-          "description": "Article URL: https://e360.yale.edu/digest/new-york-congestion-pricing-pollution\nComments URL: https://news.ycombinator.com/item?id=46218725\nPoints: 189\n# Comments: 126",
-          "link": "https://e360.yale.edu/digest/new-york-congestion-pricing-pollution",
-          "publishedOn": "2025-12-10T15:25:05.000Z",
-          "wordCount": 735,
-          "title": "In New York City, congestion pricing leads to marked drop in pollution",
-          "imageUrl": "https://yale-threesixty.transforms.svdcdn.com/production/NY-Street_Pexels.jpg?w=1200&q=60&auto=format&fit=max&dm=1765283167&s=b9b5b054a749596d891176d3c89640ad"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46218640",
-          "author": "cramsession",
-          "description": "Article URL: https://the307.substack.com/p/revealed-israel-used-palantir-technologies\nComments URL: https://news.ycombinator.com/item?id=46218640\nPoints: 119\n# Comments: 53",
-          "link": "https://the307.substack.com/p/revealed-israel-used-palantir-technologies",
-          "publishedOn": "2025-12-10T15:18:47.000Z",
-          "wordCount": null,
-          "title": "Israel used Palantir technologies in pager attack in Lebanon",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46218538",
-          "author": "piker",
-          "description": "Article URL: https://tritium.legal/blog/outlook\nComments URL: https://news.ycombinator.com/item?id=46218538\nPoints: 54\n# Comments: 27",
-          "link": "https://tritium.legal/blog/outlook",
-          "publishedOn": "2025-12-10T15:10:36.000Z",
-          "wordCount": 2575,
-          "title": "COM Like a Bomb: Rust Outlook Add-in",
-          "imageUrl": "/static/blog-og-image/outlook.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46218101",
-          "author": "fcavallarin",
-          "description": "Hi HN!\nI'm building a JavaScript debugger called Wirebrowser. It combines network inspection, request rewriting, heap snapshots, and live object search.\nThe main experimental feature is BDHS (Breakpoint-Driven Heap Search): it hooks into the JavaScript debugger and automatically captures a heap snapshot at every pause and performs a targeted search for the value or structure of interest.\nThis reveals the moment a value appears in memory and the user-land function responsible for creating it.\nAnother interesting feature is the Live Object Search: it inspects runtime objects (not just snapshots), supports regex and object similarity, and lets you patch objects directly at runtime.\nWhitepaper:\nhttps://fcavallarin.github.io/wirebrowser/BDHS-Origin-Trace\nFeedback very welcome, especially on whether BDHS would help your debugging workflow.\nComments URL: https://news.ycombinator.com/item?id=46218101\nPoints: 52\n# Comments: 11",
-          "link": "https://github.com/fcavallarin/wirebrowser",
-          "publishedOn": "2025-12-10T14:30:43.000Z",
-          "wordCount": 5530,
-          "title": "Show HN: Wirebrowser – A JavaScript debugger with breakpoint-driven heap search",
-          "imageUrl": "https://opengraph.githubassets.com/f38641e983c01795e71b29e3ed8946b1f5b929e88dc1c18a70108776e5f5fe90/fcavallarin/wirebrowser"
         }
       ]
     }
