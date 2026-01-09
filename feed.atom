@@ -2,10 +2,56 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-01-09T21:27:19.196Z</updated>
+    <updated>2026-01-09T22:27:31.210Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[RTX 5090 and Raspberry Pi: Can It Game?]]></title>
+        <id>https://news.ycombinator.com/item?id=46558148</id>
+        <link href="https://scottjg.com/posts/2026-01-08-crappy-computer-showdown/"/>
+        <updated>2026-01-09T19:33:47.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://scottjg.com/posts/2026-01-08-crappy-computer-showdown/
+Comments URL: https://news.ycombinator.com/item?id=46558148
+Points: 56
+# Comments: 19]]></summary>
+        <author>
+            <name>scottjg</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Rocket Launch and Orbit Simulator]]></title>
+        <id>https://news.ycombinator.com/item?id=46557879</id>
+        <link href="https://www.donutthejedi.com/"/>
+        <updated>2026-01-09T19:15:21.000Z</updated>
+        <summary type="html"><![CDATA[I (17y/o) have been developing a rocket launch simulation that allows the user to explore what it's like launching a rocket from earth and putting it into orbit. This idea originally started as an educational simulation but as i've gone more down the rabbit hole the more i've wanted to make it realistic. The problem is that I've never had a formal orbital mechanics class or anything like that so I don't know what I'm missing, what I currently have implemented is:
+  Variable gravity
+  Variable Atmospheric drag (US Standard Atmosphere 1976)
+  Multi-stage rockets
+  Closed-loop guidance / pitch programs (works well within ranges 350km to 600km)
+  Orbital prediction and thrusting options to change your orbit.
+
+Current code and physics can be found at: https://github.com/donutTheJedi/Rocket-Launch-Simulation
+Comments URL: https://news.ycombinator.com/item?id=46557879
+Points: 55
+# Comments: 21]]></summary>
+        <author>
+            <name>donutthejedi</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[JavaScript Demos in 140 Characters]]></title>
+        <id>https://news.ycombinator.com/item?id=46557489</id>
+        <link href="https://beta.dwitter.net/"/>
+        <updated>2026-01-09T18:48:30.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://beta.dwitter.net
+Comments URL: https://news.ycombinator.com/item?id=46557489
+Points: 99
+# Comments: 20]]></summary>
+        <author>
+            <name>themanmaran</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[JavaScript Demos in 140 Characters]]></title>
         <id>https://news.ycombinator.com/item?id=46557489</id>
@@ -2561,6 +2607,19 @@ Points: 60
 # Comments: 11]]></summary>
         <author>
             <name>speckx</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The (likely?) cheapest home-made Michelson interferometer]]></title>
+        <id>https://news.ycombinator.com/item?id=46492019</id>
+        <link href="https://guille.site/posts/3d-printed-michelson/"/>
+        <updated>2026-01-04T20:49:19.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://guille.site/posts/3d-printed-michelson/
+Comments URL: https://news.ycombinator.com/item?id=46492019
+Points: 54
+# Comments: 19]]></summary>
+        <author>
+            <name>LolWolf</name>
         </author>
     </entry>
     <entry>
@@ -17159,34 +17218,6 @@ Points: 53
 # Comments: 10]]></summary>
         <author>
             <name>ta988</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A “frozen” dictionary for Python]]></title>
-        <id>https://news.ycombinator.com/item?id=46229467</id>
-        <link href="https://lwn.net/SubscriberLink/1047238/25c270b077849dc0/"/>
-        <updated>2025-12-11T09:51:47.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://lwn.net/SubscriberLink/1047238/25c270b077849dc0/
-Comments URL: https://news.ycombinator.com/item?id=46229467
-Points: 82
-# Comments: 52]]></summary>
-        <author>
-            <name>jwilk</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: Tripwire: A new anti evil maid defense]]></title>
-        <id>https://news.ycombinator.com/item?id=46229437</id>
-        <link href="https://github.com/fr33-sh/Tripwire"/>
-        <updated>2025-12-11T09:46:56.000Z</updated>
-        <summary type="html"><![CDATA[If you have heard of [Haven](https://github.com/guardianproject/haven), then Tripwire fills in the void for a robust anti evil maid solution after Haven went dormant.
-The GitHub repo describes both the concept and the setup process in great details. For a quick overview, read up to the demo video.
-There is also a presentation of Tripwire available on the Counter Surveil podcast: https://www.youtube.com/watch?v=s-wPrOTm5qo
-Comments URL: https://news.ycombinator.com/item?id=46229437
-Points: 58
-# Comments: 32]]></summary>
-        <author>
-            <name>DoctorFreeman</name>
         </author>
     </entry>
 </feed>

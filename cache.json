@@ -6,6 +6,36 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=46558148",
+          "author": "scottjg",
+          "description": "Article URL: https://scottjg.com/posts/2026-01-08-crappy-computer-showdown/\nComments URL: https://news.ycombinator.com/item?id=46558148\nPoints: 56\n# Comments: 19",
+          "link": "https://scottjg.com/posts/2026-01-08-crappy-computer-showdown/",
+          "publishedOn": "2026-01-09T19:33:47.000Z",
+          "wordCount": 4276,
+          "title": "RTX 5090 and Raspberry Pi: Can It Game?",
+          "imageUrl": "https://scottjg.com/hero-5090-and-rpi5.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46557879",
+          "author": "donutthejedi",
+          "description": "I (17y/o) have been developing a rocket launch simulation that allows the user to explore what it's like launching a rocket from earth and putting it into orbit. This idea originally started as an educational simulation but as i've gone more down the rabbit hole the more i've wanted to make it realistic. The problem is that I've never had a formal orbital mechanics class or anything like that so I don't know what I'm missing, what I currently have implemented is:\n  Variable gravity\n  Variable Atmospheric drag (US Standard Atmosphere 1976)\n  Multi-stage rockets\n  Closed-loop guidance / pitch programs (works well within ranges 350km to 600km)\n  Orbital prediction and thrusting options to change your orbit.\n\nCurrent code and physics can be found at: https://github.com/donutTheJedi/Rocket-Launch-Simulation\nComments URL: https://news.ycombinator.com/item?id=46557879\nPoints: 55\n# Comments: 21",
+          "link": "https://www.donutthejedi.com/",
+          "publishedOn": "2026-01-09T19:15:21.000Z",
+          "wordCount": 155,
+          "title": "Show HN: Rocket Launch and Orbit Simulator",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46557489",
+          "author": "themanmaran",
+          "description": "Article URL: https://beta.dwitter.net\nComments URL: https://news.ycombinator.com/item?id=46557489\nPoints: 99\n# Comments: 20",
+          "link": "https://beta.dwitter.net/",
+          "publishedOn": "2026-01-09T18:48:30.000Z",
+          "wordCount": 49,
+          "title": "JavaScript Demos in 140 Characters",
+          "imageUrl": null
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=46557489",
           "author": "themanmaran",
           "description": "Article URL: https://www.dwitter.net/top\nComments URL: https://news.ycombinator.com/item?id=46557489\nPoints: 53\n# Comments: 12",
@@ -1904,6 +1934,16 @@
           "wordCount": 4427,
           "title": "Eurostar AI vulnerability: when a chatbot goes off the rails",
           "imageUrl": "https://www.pentestpartners.com/wp-content/uploads/2025/12/Ross-Ai-eurostar-headlinev3-1024x576.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46492019",
+          "author": "LolWolf",
+          "description": "Article URL: https://guille.site/posts/3d-printed-michelson/\nComments URL: https://news.ycombinator.com/item?id=46492019\nPoints: 54\n# Comments: 19",
+          "link": "https://guille.site/posts/3d-printed-michelson/",
+          "publishedOn": "2026-01-04T20:49:19.000Z",
+          "wordCount": 1490,
+          "title": "The (likely?) cheapest home-made Michelson interferometer",
+          "imageUrl": null
         },
         {
           "id": "https://news.ycombinator.com/item?id=46491821",
@@ -12814,26 +12854,6 @@
           "wordCount": 5253,
           "title": "Meta shuts down global accounts linked to abortion advice and queer content",
           "imageUrl": "https://i.guim.co.uk/img/media/a7067d7cdd917bc7889ffec5c07e310dc86e6495/446_0_4109_3286/master/4109.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=65d4847fb511da52968a6e3575f8aa90"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46229467",
-          "author": "jwilk",
-          "description": "Article URL: https://lwn.net/SubscriberLink/1047238/25c270b077849dc0/\nComments URL: https://news.ycombinator.com/item?id=46229467\nPoints: 82\n# Comments: 52",
-          "link": "https://lwn.net/SubscriberLink/1047238/25c270b077849dc0/",
-          "publishedOn": "2025-12-11T09:51:47.000Z",
-          "wordCount": 2115,
-          "title": "A “frozen” dictionary for Python",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46229437",
-          "author": "DoctorFreeman",
-          "description": "If you have heard of [Haven](https://github.com/guardianproject/haven), then Tripwire fills in the void for a robust anti evil maid solution after Haven went dormant.\nThe GitHub repo describes both the concept and the setup process in great details. For a quick overview, read up to the demo video.\nThere is also a presentation of Tripwire available on the Counter Surveil podcast: https://www.youtube.com/watch?v=s-wPrOTm5qo\nComments URL: https://news.ycombinator.com/item?id=46229437\nPoints: 58\n# Comments: 32",
-          "link": "https://github.com/fr33-sh/Tripwire",
-          "publishedOn": "2025-12-11T09:46:56.000Z",
-          "wordCount": 12727,
-          "title": "Show HN: Tripwire: A new anti evil maid defense",
-          "imageUrl": "https://opengraph.githubassets.com/c0983bb66fc92c7c97d01083e8cf4c04d5270bf62da55094239520df7d4ca094/fr33-sh/Tripwire"
         }
       ]
     }
