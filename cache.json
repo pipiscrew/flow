@@ -6,6 +6,16 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=46550231",
+          "author": "guerrilla",
+          "description": "Article URL: https://old.reddit.com/r/LocalLLaMA/comments/1q7qcux/the_no_fakes_act_has_a_fingerprinting_trap_that/\nComments URL: https://news.ycombinator.com/item?id=46550231\nPoints: 81\n# Comments: 20",
+          "link": "https://old.reddit.com/r/LocalLLaMA/comments/1q7qcux/the_no_fakes_act_has_a_fingerprinting_trap_that/",
+          "publishedOn": "2026-01-09T05:01:24.000Z",
+          "wordCount": null,
+          "title": "The No Fakes Act Has a \"Fingerprinting\" Trap That Kills Open Source",
+          "imageUrl": null
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=46549823",
           "author": "sergiotapia",
           "description": "Article URL: https://github.com/anomalyco/opencode/issues/7410\nComments URL: https://news.ycombinator.com/item?id=46549823\nPoints: 173\n# Comments: 99",
@@ -54,6 +64,16 @@
           "wordCount": 21,
           "title": "SQL Studio",
           "imageUrl": "https://s3.sql.studio/meta-img.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46546349",
+          "author": "Adrian-ChatLocl",
+          "description": "My name is Adrian. I'm a Software Engineer and I spent 6 years developing a perimeter-based geofence-based social media app.\nWhat it does:\n- Allows you to load a custom perimeter anywhere on the geographic map (180° E and W longitude and 90° N and S latitude), to cover area any area of interest\n- Chat rooms get loaded within the perimeter\n- You can chat with people within the perimeter\nI developed a mobile app that uses an advanced geofence-based networking system from 2013 to 2019. My goal was to connect users within polygon geofences anywhere in the world. The app is capable of loading millions of polygon geofences anywhere in the world.\nhttps://enterpriseandroidfoundation.com/assets/images/other/...\nBut people didn't really have a need for this. So after failing, I spent the next 6 years trying new ideas to use FencedIn for. I tried a location-based video app and a place-based app that had multiple features. Nothing worked, but now I'm almost finished developing ChatLocal, an app that allows you to load a perimeter anywhere on the geographic map, which loads chat rooms.\nThe tech stack is 100% Java (low-level mostly). I have a backend, commons library and an Android app. Java was the natural choice back in 2013. However, I still wouldn't choose anything else today. Java is the best for long-term large-scale projects. (I'm also using WildFly. PostgreSQL and a Linux server.)\nThis app is still not fully finished, but I think the impact on society might be tremendous.\nThe previous app to ChatLocal, LocalVideo, is fully up on the Google Play store and can be tested. It has 88% of the features of ChatLocal, including especially the perimeter-based loading system.\nThe feedback I'm mostly looking for is new ideas and concepts to add to this location-based social media app. And how strong of a value proposition does the app have for society.\nComments URL: https://news.ycombinator.com/item?id=46546349\nPoints: 54\n# Comments: 32",
+          "link": "https://www.localvideoapp.com/",
+          "publishedOn": "2026-01-08T20:56:32.000Z",
+          "wordCount": 5944,
+          "title": "Show HN: A geofence-based social network app 6 years in development",
+          "imageUrl": null
         },
         {
           "id": "https://news.ycombinator.com/item?id=46546113",
@@ -12694,46 +12714,6 @@
           "wordCount": 4284,
           "title": "Super Mario 64 for the PS1",
           "imageUrl": "https://opengraph.githubassets.com/5dcf9ac6f61b6842fafb18e1f0826c35aedd754cccdfd10b3d3d849c1f5d23b0/malucard/sm64-psx"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46221594",
-          "author": "kelseyfrog",
-          "description": "Article URL: https://arxiv.org/abs/2512.08309\nComments URL: https://news.ycombinator.com/item?id=46221594\nPoints: 68\n# Comments: 10",
-          "link": "https://arxiv.org/abs/2512.08309",
-          "publishedOn": "2025-12-10T18:37:27.000Z",
-          "wordCount": 692,
-          "title": "Terrain Diffusion: A Diffusion-Based Successor to Perlin Noise",
-          "imageUrl": "/static/browse/0.3.4/images/arxiv-logo-fb.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46221016",
-          "author": "romannikolaev",
-          "description": "Article URL: https://highimpactengineering.substack.com/p/the-illusion-of-shared-understanding\nComments URL: https://news.ycombinator.com/item?id=46221016\nPoints: 60\n# Comments: 33",
-          "link": "https://highimpactengineering.substack.com/p/the-illusion-of-shared-understanding",
-          "publishedOn": "2025-12-10T17:57:43.000Z",
-          "wordCount": null,
-          "title": "Internal RFCs saved us months of wasted work",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46220902",
-          "author": "QWERTYmini",
-          "description": "Mobile keyboards today are almost entirely based on the 26-key, 3-row QWERTY layout.\nHere’s a new 2-row, 16-key alternative designed specifically for smartphones.\nComments URL: https://news.ycombinator.com/item?id=46220902\nPoints: 54\n# Comments: 48",
-          "link": "https://k-keyboard.com/Why-QWERTY-mini",
-          "publishedOn": "2025-12-10T17:49:28.000Z",
-          "wordCount": 6903,
-          "title": "Show HN: A 2-row, 16-key keyboard designed for smartphones",
-          "imageUrl": "https://storage.googleapis.com/cr-resource/image/6aa63f786b231ea8ad58ca17ab42c84a/1575553/650/204289ba431ce24de2aa8ab991145e93.png?_1765425542"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46220794",
-          "author": "sodality2",
-          "description": "Built this over the last few days, based on a Rust codebase that parses the latest ALPR reports from OpenStreetMaps, calculates navigation statistics from every tagged residential building to nearby amenities, and tests each route for intersection with those ALPR cameras (Flock being the most widespread).\nThese have gotten more controversial in recent months, due to their indiscriminate large scale data collection, with 404 Media publishing many original pieces (https://www.404media.co/tag/flock/) about their adoption and (ab)use across the country. I wanted to use open source datasets to track the rapid expansion, especially per-county, as this data can be crucial for 'deflock' movements to petition counties and city governments to ban and remove them.\nIn some counties, the tracking becomes so widespread that most people can't go anywhere without being photographed. This includes possibly sensitive areas, like places of worship and medical facilities.\nThe argument for their legality rests upon the notion that these cameras are equivalent to 'mere observation', but the enormous scope and data sharing agreements in place to share and access millions of records without warrants blurs the lines of the fourth amendment.\nComments URL: https://news.ycombinator.com/item?id=46220794\nPoints: 54\n# Comments: 29",
-          "link": "https://alpranalysis.com/",
-          "publishedOn": "2025-12-10T17:42:30.000Z",
-          "wordCount": 10,
-          "title": "Show HN: Automated license plate reader coverage in the USA",
-          "imageUrl": null
         }
       ]
     }
