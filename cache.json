@@ -6,6 +6,36 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=46557489",
+          "author": "themanmaran",
+          "description": "Article URL: https://www.dwitter.net/top\nComments URL: https://news.ycombinator.com/item?id=46557489\nPoints: 53\n# Comments: 12",
+          "link": "https://www.dwitter.net/top",
+          "publishedOn": "2026-01-09T18:48:30.000Z",
+          "wordCount": 1466,
+          "title": "JavaScript Demos in 140 Characters",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46557233",
+          "author": "mustaphah",
+          "description": "Article URL: https://www.sciencedaily.com/releases/2026/01/260107225516.htm\nComments URL: https://news.ycombinator.com/item?id=46557233\nPoints: 67\n# Comments: 32",
+          "link": "https://www.sciencedaily.com/releases/2026/01/260107225516.htm",
+          "publishedOn": "2026-01-09T18:29:35.000Z",
+          "wordCount": 1773,
+          "title": "Exercise can be nearly as effective as therapy for depression",
+          "imageUrl": "https://www.sciencedaily.com/images/1920/overcoming-depression.webp"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46557029",
+          "author": "sdan",
+          "description": "Hey - I've been playing with LLMs since GPT-2 and recently experimented with fully generative UIs where the HTML/Canvas are generated just-in-time.\nEvery post on the feed( on slop/duck/storytime) you see is streamed and generated just-in-time with HTML and into a Canvas with Gemini 3 Flash.\nComments and DMs are bidirectionally linked with a Cloudflare Workers Durable Object which is why they feel so fast. Every generated post is saved into a DO SQLite which is then served into the \"Following\" feed so it can be served quicker.\nThis was inspired by Wikitok, a VSCode Extension I made around brainrot, and another fully generative UI site I made.\nComments URL: https://news.ycombinator.com/item?id=46557029\nPoints: 77\n# Comments: 12",
+          "link": "https://quack.sdan.io/",
+          "publishedOn": "2026-01-09T18:15:16.000Z",
+          "wordCount": 42,
+          "title": "Show HN: Scroll Wikipedia like TikTok",
+          "imageUrl": "https://quack.sdan.io/og.jpg"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=46556210",
           "author": "vunderba",
           "description": "Article URL: https://lend-me-your-ears.specr.net\nComments URL: https://news.ycombinator.com/item?id=46556210\nPoints: 66\n# Comments: 20",
@@ -38,12 +68,42 @@
         {
           "id": "https://news.ycombinator.com/item?id=46555615",
           "author": "mecredis",
+          "description": "Article URL: https://fredbenenson.com/blog/2026/01/09/sendgrid-isnt-emailing-you-about-ice-or-blm-its-a-phishing-attack/\nComments URL: https://news.ycombinator.com/item?id=46555615\nPoints: 112\n# Comments: 69",
+          "link": "https://fredbenenson.com/blog/2026/01/09/sendgrid-isnt-emailing-you-about-ice-or-blm-its-a-phishing-attack/",
+          "publishedOn": "2026-01-09T16:36:48.000Z",
+          "wordCount": 2748,
+          "title": "SendGrid isn’t emailing about ICE or BLM – it’s a phishing attack",
+          "imageUrl": "https://fredbenenson.com/wp-content/uploads/2026/01/Screenshot-2026-01-09-at-7.54.28-AM.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46555615",
+          "author": "mecredis",
           "description": "Article URL: https://fredbenenson.com/blog/2026/01/09/why-is-sendgrid-emailing-me-about-supporting-ice/\nComments URL: https://news.ycombinator.com/item?id=46555615\nPoints: 96\n# Comments: 50",
           "link": "https://fredbenenson.com/blog/2026/01/09/why-is-sendgrid-emailing-me-about-supporting-ice/",
           "publishedOn": "2026-01-09T16:36:48.000Z",
           "wordCount": 2740,
           "title": "Why is SendGrid emailing me about supporting ICE?",
           "imageUrl": "https://fredbenenson.com/wp-content/uploads/2026/01/Screenshot-2026-01-09-at-7.54.28-AM.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46555512",
+          "author": "LorenDB",
+          "description": "Article URL: https://www.phoronix.com/news/Steam-OS-Beta-NTSYNC\nComments URL: https://news.ycombinator.com/item?id=46555512\nPoints: 70\n# Comments: 22",
+          "link": "https://www.phoronix.com/news/Steam-OS-Beta-NTSYNC",
+          "publishedOn": "2026-01-09T16:27:19.000Z",
+          "wordCount": 1765,
+          "title": "Latest SteamOS Beta Now Includes Ntsync Kernel Driver",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46554652",
+          "author": "kurinikku",
+          "description": "Article URL: https://ezzeriesa.notion.site/How-to-store-a-chess-position-in-26-bytes-using-bit-level-magic-df1fdb5364eb42fdac11eb23b25e9605\nComments URL: https://news.ycombinator.com/item?id=46554652\nPoints: 53\n# Comments: 38",
+          "link": "https://ezzeriesa.notion.site/How-to-store-a-chess-position-in-26-bytes-using-bit-level-magic-df1fdb5364eb42fdac11eb23b25e9605",
+          "publishedOn": "2026-01-09T15:07:17.000Z",
+          "wordCount": 162,
+          "title": "How to store a chess position in 26 bytes (2022)",
+          "imageUrl": "https://www.notion.so/images/meta/default.png"
         },
         {
           "id": "https://news.ycombinator.com/item?id=46554462",
@@ -1226,6 +1286,16 @@
           "imageUrl": "https://opengraph.githubassets.com/b1572c7cb32e7b97a7eca00a79ad86932890e0ef907607e5bfa85a8c0375eff0/marcoaapfortes/Mantic.sh"
         },
         {
+          "id": "https://news.ycombinator.com/item?id=46511903",
+          "author": "puzer",
+          "description": "GitHub profile analysis\n - Build your embedding from your Stars\n - Compare and discover popular people with similar interests and share yours\n - Generate a Skill Radar\n - Recommend repositories you might like\nComments URL: https://news.ycombinator.com/item?id=46511903\nPoints: 66\n# Comments: 27",
+          "link": "https://puzer.github.io/github_recommender/",
+          "publishedOn": "2026-01-06T13:23:39.000Z",
+          "wordCount": 3,
+          "title": "Show HN: Similarity = cosine(your_GitHub_stars, Karpathy) Client-side",
+          "imageUrl": null
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=46511470",
           "author": "alexpadula",
           "description": "Article URL: https://sqlite.org/whyc.html\nComments URL: https://news.ycombinator.com/item?id=46511470\nPoints: 115\n# Comments: 93",
@@ -1354,6 +1424,16 @@
           "wordCount": 3080,
           "title": "Strange.website",
           "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46506143",
+          "author": "apurvamehta",
+          "description": "Article URL: https://www.bitsxpages.com/p/sorted-string-tables-sst-from-first\nComments URL: https://news.ycombinator.com/item?id=46506143\nPoints: 51\n# Comments: 4",
+          "link": "https://www.bitsxpages.com/p/sorted-string-tables-sst-from-first",
+          "publishedOn": "2026-01-05T22:41:33.000Z",
+          "wordCount": 9623,
+          "title": "Sorted string tables (SST) from first principles",
+          "imageUrl": "https://substackcdn.com/image/fetch/$s_!ZRFn!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fbb889d77-4989-402c-b401-a9111a33d428_1200x628.png"
         },
         {
           "id": "https://news.ycombinator.com/item?id=46505975",

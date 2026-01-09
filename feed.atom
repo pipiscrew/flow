@@ -2,10 +2,52 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-01-09T19:25:04.366Z</updated>
+    <updated>2026-01-09T20:31:44.330Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[JavaScript Demos in 140 Characters]]></title>
+        <id>https://news.ycombinator.com/item?id=46557489</id>
+        <link href="https://www.dwitter.net/top"/>
+        <updated>2026-01-09T18:48:30.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.dwitter.net/top
+Comments URL: https://news.ycombinator.com/item?id=46557489
+Points: 53
+# Comments: 12]]></summary>
+        <author>
+            <name>themanmaran</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Exercise can be nearly as effective as therapy for depression]]></title>
+        <id>https://news.ycombinator.com/item?id=46557233</id>
+        <link href="https://www.sciencedaily.com/releases/2026/01/260107225516.htm"/>
+        <updated>2026-01-09T18:29:35.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.sciencedaily.com/releases/2026/01/260107225516.htm
+Comments URL: https://news.ycombinator.com/item?id=46557233
+Points: 67
+# Comments: 32]]></summary>
+        <author>
+            <name>mustaphah</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Scroll Wikipedia like TikTok]]></title>
+        <id>https://news.ycombinator.com/item?id=46557029</id>
+        <link href="https://quack.sdan.io/"/>
+        <updated>2026-01-09T18:15:16.000Z</updated>
+        <summary type="html"><![CDATA[Hey - I've been playing with LLMs since GPT-2 and recently experimented with fully generative UIs where the HTML/Canvas are generated just-in-time.
+Every post on the feed( on slop/duck/storytime) you see is streamed and generated just-in-time with HTML and into a Canvas with Gemini 3 Flash.
+Comments and DMs are bidirectionally linked with a Cloudflare Workers Durable Object which is why they feel so fast. Every generated post is saved into a DO SQLite which is then served into the "Following" feed so it can be served quicker.
+This was inspired by Wikitok, a VSCode Extension I made around brainrot, and another fully generative UI site I made.
+Comments URL: https://news.ycombinator.com/item?id=46557029
+Points: 77
+# Comments: 12]]></summary>
+        <author>
+            <name>sdan</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Show HN: I made a memory game to teach you to play piano by ear]]></title>
         <id>https://news.ycombinator.com/item?id=46556210</id>
@@ -46,6 +88,19 @@ Points: 55
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[SendGrid isn’t emailing about ICE or BLM – it’s a phishing attack]]></title>
+        <id>https://news.ycombinator.com/item?id=46555615</id>
+        <link href="https://fredbenenson.com/blog/2026/01/09/sendgrid-isnt-emailing-you-about-ice-or-blm-its-a-phishing-attack/"/>
+        <updated>2026-01-09T16:36:48.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://fredbenenson.com/blog/2026/01/09/sendgrid-isnt-emailing-you-about-ice-or-blm-its-a-phishing-attack/
+Comments URL: https://news.ycombinator.com/item?id=46555615
+Points: 112
+# Comments: 69]]></summary>
+        <author>
+            <name>mecredis</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Why is SendGrid emailing me about supporting ICE?]]></title>
         <id>https://news.ycombinator.com/item?id=46555615</id>
         <link href="https://fredbenenson.com/blog/2026/01/09/why-is-sendgrid-emailing-me-about-supporting-ice/"/>
@@ -56,6 +111,32 @@ Points: 96
 # Comments: 50]]></summary>
         <author>
             <name>mecredis</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Latest SteamOS Beta Now Includes Ntsync Kernel Driver]]></title>
+        <id>https://news.ycombinator.com/item?id=46555512</id>
+        <link href="https://www.phoronix.com/news/Steam-OS-Beta-NTSYNC"/>
+        <updated>2026-01-09T16:27:19.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.phoronix.com/news/Steam-OS-Beta-NTSYNC
+Comments URL: https://news.ycombinator.com/item?id=46555512
+Points: 70
+# Comments: 22]]></summary>
+        <author>
+            <name>LorenDB</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to store a chess position in 26 bytes (2022)]]></title>
+        <id>https://news.ycombinator.com/item?id=46554652</id>
+        <link href="https://ezzeriesa.notion.site/How-to-store-a-chess-position-in-26-bytes-using-bit-level-magic-df1fdb5364eb42fdac11eb23b25e9605"/>
+        <updated>2026-01-09T15:07:17.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://ezzeriesa.notion.site/How-to-store-a-chess-position-in-26-bytes-using-bit-level-magic-df1fdb5364eb42fdac11eb23b25e9605
+Comments URL: https://news.ycombinator.com/item?id=46554652
+Points: 53
+# Comments: 38]]></summary>
+        <author>
+            <name>kurinikku</name>
         </author>
     </entry>
     <entry>
@@ -1670,6 +1751,23 @@ Points: 57
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Show HN: Similarity = cosine(your_GitHub_stars, Karpathy) Client-side]]></title>
+        <id>https://news.ycombinator.com/item?id=46511903</id>
+        <link href="https://puzer.github.io/github_recommender/"/>
+        <updated>2026-01-06T13:23:39.000Z</updated>
+        <summary type="html"><![CDATA[GitHub profile analysis
+ - Build your embedding from your Stars
+ - Compare and discover popular people with similar interests and share yours
+ - Generate a Skill Radar
+ - Recommend repositories you might like
+Comments URL: https://news.ycombinator.com/item?id=46511903
+Points: 66
+# Comments: 27]]></summary>
+        <author>
+            <name>puzer</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[C Is Best]]></title>
         <id>https://news.ycombinator.com/item?id=46511470</id>
         <link href="https://sqlite.org/whyc.html"/>
@@ -1836,6 +1934,19 @@ Points: 52
 # Comments: 8]]></summary>
         <author>
             <name>abelanger</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Sorted string tables (SST) from first principles]]></title>
+        <id>https://news.ycombinator.com/item?id=46506143</id>
+        <link href="https://www.bitsxpages.com/p/sorted-string-tables-sst-from-first"/>
+        <updated>2026-01-05T22:41:33.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.bitsxpages.com/p/sorted-string-tables-sst-from-first
+Comments URL: https://news.ycombinator.com/item?id=46506143
+Points: 51
+# Comments: 4]]></summary>
+        <author>
+            <name>apurvamehta</name>
         </author>
     </entry>
     <entry>
