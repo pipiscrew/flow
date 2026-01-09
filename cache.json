@@ -6,6 +6,16 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=46552254",
+          "author": "risemlbill",
+          "description": "Article URL: https://tombedor.dev/mcp-is-a-fad/\nComments URL: https://news.ycombinator.com/item?id=46552254\nPoints: 98\n# Comments: 72",
+          "link": "https://tombedor.dev/mcp-is-a-fad/",
+          "publishedOn": "2026-01-09T10:27:11.000Z",
+          "wordCount": 2459,
+          "title": "MCP is a fad",
+          "imageUrl": "https://tombedor.dev/img/icon-1024.png"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=46551855",
           "author": "kekqqq",
           "description": "Article URL: https://www.surveillancewatch.io\nComments URL: https://news.ycombinator.com/item?id=46551855\nPoints: 85\n# Comments: 14",
@@ -74,6 +84,16 @@
           "wordCount": 1747,
           "title": "Anthropic blocks third-party use of Claude Code subscriptions",
           "imageUrl": "https://opengraph.githubassets.com/f14c53a9afda0d5703e56cb7000cee02fd4ce49f37560edfa484b47fc76dbcd1/anomalyco/opencode/issues/7410"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46549444",
+          "author": "jedwhite",
+          "description": "I wanted to run markdown files like shell scripts. So I built an open source tool that lets you use a shebang to pipe them through Claude Code with full stdin/stdout support.\ntask.md:\n    #!/usr/bin/env claude-run\n\n    Analyze this codebase and summarize the architecture.\n\n    chmod +x task.md\n\n    ./task.md\n\nA script that runs your tests and reports results (`run_tests.md`):\n    #!/usr/bin/env claude-run --permission-mode bypassPermissions\n\n    Run ./test/run_tests.sh and summarize what passed and failed.\n\n    cat data.json | ./analyze.md > results.txt\n\n    git log -10 | ./summarize.md\n\n    ./generate.md | ./review.md > final.txt\n\n    for f in logs/\\*.txt; do\n\n        cat \"$f\" | ./analyze.md >> summary.txt\n\n    done\n\nOne thing we didn't expect is that these are more auditable (and shareable) than shell scripts. Install scripts like `curl -fsSL https://bun.com/install | bash` could become:\n    `curl -fsSL https://bun.com/install.md | claude-run`\n\nThe (really cool) executable markdown idea and auditability examples are from Pete Koomen (@koomen on X). As Pete says: \"Markdown feels increasingly important in a way I'm not sure most people have wrapped their heads around yet.\"\nWe implemented it and added Unix pipe semantics. Currently works with Claude Code - hoping to support other AI coding tools too. You can also route scripts through different cloud providers (AWS Bedrock, etc.) if you want separate billing for automated jobs.\nGitHub: https://github.com/andisearch/claude-switcher\nWhat workflows would you use this for?\nComments URL: https://news.ycombinator.com/item?id=46549444\nPoints: 55\n# Comments: 48",
+          "link": "https://news.ycombinator.com/item?id=46549444",
+          "publishedOn": "2026-01-09T02:29:12.000Z",
+          "wordCount": 3791,
+          "title": "Show HN: Executable Markdown files with Unix pipes",
+          "imageUrl": null
         },
         {
           "id": "https://news.ycombinator.com/item?id=46548940",
@@ -12644,36 +12664,6 @@
           "wordCount": 1133,
           "title": "Patterns.dev",
           "imageUrl": "https://res.cloudinary.com/ddxwdqwkr/image/upload/c_scale,f_auto,w_1600/v1704232232/patterns.dev/PostPreview_3x.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46226068",
-          "author": "aadillpickle",
-          "description": "Article URL: https://www.aadillpickle.com/blog/midjourney-is-alemwjsl\nComments URL: https://news.ycombinator.com/item?id=46226068\nPoints: 103\n# Comments: 40",
-          "link": "https://www.aadillpickle.com/blog/midjourney-is-alemwjsl",
-          "publishedOn": "2025-12-11T00:25:57.000Z",
-          "wordCount": 3204,
-          "title": "Midjourney is alemwjsl",
-          "imageUrl": "https://aadillpickle.com/img/aadil-site-opengraph.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46225950",
-          "author": "herbertl",
-          "description": "Article URL: https://seths.blog/2025/12/understanding-carriage/\nComments URL: https://news.ycombinator.com/item?id=46225950\nPoints: 50\n# Comments: 11",
-          "link": "https://seths.blog/2025/12/understanding-carriage/",
-          "publishedOn": "2025-12-11T00:11:32.000Z",
-          "wordCount": 2361,
-          "title": "Understanding carriage",
-          "imageUrl": "https://seths.blog/wp-content/uploads/2018/06/seth_godin_ogimages_v02_180613-1.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46225803",
-          "author": "fiatjaf",
-          "description": "Article URL: https://newsletter.squishy.computer/p/natures-many-attempts-to-evolve-a\nComments URL: https://news.ycombinator.com/item?id=46225803\nPoints: 167\n# Comments: 87",
-          "link": "https://newsletter.squishy.computer/p/natures-many-attempts-to-evolve-a",
-          "publishedOn": "2025-12-10T23:54:34.000Z",
-          "wordCount": 5273,
-          "title": "Nature's many attempts to evolve a Nostr",
-          "imageUrl": "https://substackcdn.com/image/fetch/$s_!R5iM!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd4ae2da3-3850-4334-aa53-dac34850e5d4_1500x1000.png"
         }
       ]
     }

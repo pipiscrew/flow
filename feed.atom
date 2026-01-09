@@ -2,10 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-01-09T11:25:43.773Z</updated>
+    <updated>2026-01-09T12:58:06.918Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[MCP is a fad]]></title>
+        <id>https://news.ycombinator.com/item?id=46552254</id>
+        <link href="https://tombedor.dev/mcp-is-a-fad/"/>
+        <updated>2026-01-09T10:27:11.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://tombedor.dev/mcp-is-a-fad/
+Comments URL: https://news.ycombinator.com/item?id=46552254
+Points: 98
+# Comments: 72]]></summary>
+        <author>
+            <name>risemlbill</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Surveillance Watch – a map that shows connections between surveillance companies]]></title>
         <id>https://news.ycombinator.com/item?id=46551855</id>
@@ -95,6 +108,52 @@ Points: 173
 # Comments: 99]]></summary>
         <author>
             <name>sergiotapia</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Executable Markdown files with Unix pipes]]></title>
+        <id>https://news.ycombinator.com/item?id=46549444</id>
+        <link href="https://news.ycombinator.com/item?id=46549444"/>
+        <updated>2026-01-09T02:29:12.000Z</updated>
+        <summary type="html"><![CDATA[I wanted to run markdown files like shell scripts. So I built an open source tool that lets you use a shebang to pipe them through Claude Code with full stdin/stdout support.
+task.md:
+    #!/usr/bin/env claude-run
+
+    Analyze this codebase and summarize the architecture.
+
+    chmod +x task.md
+
+    ./task.md
+
+A script that runs your tests and reports results (`run_tests.md`):
+    #!/usr/bin/env claude-run --permission-mode bypassPermissions
+
+    Run ./test/run_tests.sh and summarize what passed and failed.
+
+    cat data.json | ./analyze.md > results.txt
+
+    git log -10 | ./summarize.md
+
+    ./generate.md | ./review.md > final.txt
+
+    for f in logs/\*.txt; do
+
+        cat "$f" | ./analyze.md >> summary.txt
+
+    done
+
+One thing we didn't expect is that these are more auditable (and shareable) than shell scripts. Install scripts like `curl -fsSL https://bun.com/install | bash` could become:
+    `curl -fsSL https://bun.com/install.md | claude-run`
+
+The (really cool) executable markdown idea and auditability examples are from Pete Koomen (@koomen on X). As Pete says: "Markdown feels increasingly important in a way I'm not sure most people have wrapped their heads around yet."
+We implemented it and added Unix pipe semantics. Currently works with Claude Code - hoping to support other AI coding tools too. You can also route scripts through different cloud providers (AWS Bedrock, etc.) if you want separate billing for automated jobs.
+GitHub: https://github.com/andisearch/claude-switcher
+What workflows would you use this for?
+Comments URL: https://news.ycombinator.com/item?id=46549444
+Points: 55
+# Comments: 48]]></summary>
+        <author>
+            <name>jedwhite</name>
         </author>
     </entry>
     <entry>
@@ -16900,45 +16959,6 @@ Points: 63
 # Comments: 24]]></summary>
         <author>
             <name>handfuloflight</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Midjourney is alemwjsl]]></title>
-        <id>https://news.ycombinator.com/item?id=46226068</id>
-        <link href="https://www.aadillpickle.com/blog/midjourney-is-alemwjsl"/>
-        <updated>2025-12-11T00:25:57.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.aadillpickle.com/blog/midjourney-is-alemwjsl
-Comments URL: https://news.ycombinator.com/item?id=46226068
-Points: 103
-# Comments: 40]]></summary>
-        <author>
-            <name>aadillpickle</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Understanding carriage]]></title>
-        <id>https://news.ycombinator.com/item?id=46225950</id>
-        <link href="https://seths.blog/2025/12/understanding-carriage/"/>
-        <updated>2025-12-11T00:11:32.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://seths.blog/2025/12/understanding-carriage/
-Comments URL: https://news.ycombinator.com/item?id=46225950
-Points: 50
-# Comments: 11]]></summary>
-        <author>
-            <name>herbertl</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Nature's many attempts to evolve a Nostr]]></title>
-        <id>https://news.ycombinator.com/item?id=46225803</id>
-        <link href="https://newsletter.squishy.computer/p/natures-many-attempts-to-evolve-a"/>
-        <updated>2025-12-10T23:54:34.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://newsletter.squishy.computer/p/natures-many-attempts-to-evolve-a
-Comments URL: https://news.ycombinator.com/item?id=46225803
-Points: 167
-# Comments: 87]]></summary>
-        <author>
-            <name>fiatjaf</name>
         </author>
     </entry>
 </feed>
