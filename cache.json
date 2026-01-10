@@ -346,6 +346,16 @@
           "imageUrl": null
         },
         {
+          "id": "https://news.ycombinator.com/item?id=46549333",
+          "author": "nickponline",
+          "description": "I deal with a lot of geometry stuff at work with computer vision and photogrammetry, which usually comes from the real world. It's seldom clean and neat, and I'm often trying to find a way to \"make it nice\" or \"make it pretty\". I've always struggled with what that really means formally.\nThat led me to shape regularization (a technique used in computational geometry to clean up geometric data). CGAL had implemented a few methods for that, but there are more ways to do it, which I thought were nice. Also I typically work in Python, so it was nice to have a pure Python library could handle this.\nI struggled to get the first version working as a QP. At a high level most of these boil down to minimizing a cost A + B where A is the cost associated the geometry and goes up the more you move it, and B is the cost associated \"niceness\" or rather the constraints you impose, and goes down the more you impose them. Then you try and minimize A + B or rather HA + (1-H)B where H is a hyper-parameter that controls the relative importance of A and B.\nI needed a Python implementation so started with the examples implemented in CGAL then added a couple more for snap and joint regularization and metric regularization.\nComments URL: https://news.ycombinator.com/item?id=46549333\nPoints: 64\n# Comments: 4",
+          "link": "https://github.com/nickponline/shreg",
+          "publishedOn": "2026-01-09T02:13:01.000Z",
+          "wordCount": 9504,
+          "title": "Show HN: Various shape regularization algorithms",
+          "imageUrl": "https://opengraph.githubassets.com/fd390bd8d724cf3c6558dfc198ea9ef5af9c1be461d092cd29227131dc1e580d/nickponline/shreg"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=46548940",
           "author": "erutuon",
           "description": "Article URL: https://kueda.net/blog/2026/01/06/why-i-left-inat/\nComments URL: https://news.ycombinator.com/item?id=46548940\nPoints: 102\n# Comments: 22",

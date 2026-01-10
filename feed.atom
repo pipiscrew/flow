@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-01-10T10:26:57.252Z</updated>
+    <updated>2026-01-10T11:21:46.776Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
@@ -497,6 +497,22 @@ Points: 55
 # Comments: 48]]></summary>
         <author>
             <name>jedwhite</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Various shape regularization algorithms]]></title>
+        <id>https://news.ycombinator.com/item?id=46549333</id>
+        <link href="https://github.com/nickponline/shreg"/>
+        <updated>2026-01-09T02:13:01.000Z</updated>
+        <summary type="html"><![CDATA[I deal with a lot of geometry stuff at work with computer vision and photogrammetry, which usually comes from the real world. It's seldom clean and neat, and I'm often trying to find a way to "make it nice" or "make it pretty". I've always struggled with what that really means formally.
+That led me to shape regularization (a technique used in computational geometry to clean up geometric data). CGAL had implemented a few methods for that, but there are more ways to do it, which I thought were nice. Also I typically work in Python, so it was nice to have a pure Python library could handle this.
+I struggled to get the first version working as a QP. At a high level most of these boil down to minimizing a cost A + B where A is the cost associated the geometry and goes up the more you move it, and B is the cost associated "niceness" or rather the constraints you impose, and goes down the more you impose them. Then you try and minimize A + B or rather HA + (1-H)B where H is a hyper-parameter that controls the relative importance of A and B.
+I needed a Python implementation so started with the examples implemented in CGAL then added a couple more for snap and joint regularization and metric regularization.
+Comments URL: https://news.ycombinator.com/item?id=46549333
+Points: 64
+# Comments: 4]]></summary>
+        <author>
+            <name>nickponline</name>
         </author>
     </entry>
     <entry>
