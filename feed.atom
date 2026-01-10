@@ -2,10 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-01-09T23:26:14.891Z</updated>
+    <updated>2026-01-10T02:06:19.459Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[“Erdos problem #728 was solved more or less autonomously by AI”]]></title>
+        <id>https://news.ycombinator.com/item?id=46560445</id>
+        <link href="https://mathstodon.xyz/@tao/115855840223258103"/>
+        <updated>2026-01-09T22:39:15.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://mathstodon.xyz/@tao/115855840223258103
+Comments URL: https://news.ycombinator.com/item?id=46560445
+Points: 216
+# Comments: 155]]></summary>
+        <author>
+            <name>cod1r</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[RTX 5090 and Raspberry Pi: Can It Game?]]></title>
         <id>https://news.ycombinator.com/item?id=46558148</id>
@@ -40,6 +53,27 @@ Points: 55
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Show HN: EuConform – Offline-first EU AI Act compliance tool (open source)]]></title>
+        <id>https://news.ycombinator.com/item?id=46557823</id>
+        <link href="https://github.com/Hiepler/EuConform"/>
+        <updated>2026-01-09T19:11:57.000Z</updated>
+        <summary type="html"><![CDATA[I built this as a personal open-source project to explore how EU AI Act
+requirements can be translated into concrete, inspectable technical checks.
+The core idea is local-first compliance:
+– risk classification (Articles 5–15, incl. prohibited use cases)
+– bias evaluation using CrowS-Pairs
+– automatic Annex IV–oriented PDF reports
+– no cloud services or external APIs (browser-based + Ollama)
+I’m especially interested in feedback on whether this kind of
+technical framing of AI regulation makes sense in real-world projects.
+Comments URL: https://news.ycombinator.com/item?id=46557823
+Points: 56
+# Comments: 33]]></summary>
+        <author>
+            <name>hiepler</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[JavaScript Demos in 140 Characters]]></title>
         <id>https://news.ycombinator.com/item?id=46557489</id>
         <link href="https://beta.dwitter.net/"/>
@@ -66,6 +100,19 @@ Points: 53
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Turn a single image into a navigable 3D Gaussian Splat with depth]]></title>
+        <id>https://news.ycombinator.com/item?id=46557352</id>
+        <link href="https://lab.revelium.studio/ml-sharp"/>
+        <updated>2026-01-09T18:38:34.000Z</updated>
+        <summary type="html"><![CDATA[https://x.com/revelium_studio/status/2009570090568577045
+Comments URL: https://news.ycombinator.com/item?id=46557352
+Points: 55
+# Comments: 38]]></summary>
+        <author>
+            <name>ytpete</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Exercise can be nearly as effective as therapy for depression]]></title>
         <id>https://news.ycombinator.com/item?id=46557233</id>
         <link href="https://www.sciencedaily.com/releases/2026/01/260107225516.htm"/>
@@ -76,6 +123,19 @@ Points: 67
 # Comments: 32]]></summary>
         <author>
             <name>mustaphah</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[My article on why AI is great (or terrible) or how to use it]]></title>
+        <id>https://news.ycombinator.com/item?id=46557057</id>
+        <link href="https://matthewrocklin.com/ai-zealotry/"/>
+        <updated>2026-01-09T18:17:24.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://matthewrocklin.com/ai-zealotry/
+Comments URL: https://news.ycombinator.com/item?id=46557057
+Points: 62
+# Comments: 115]]></summary>
+        <author>
+            <name>akshayka</name>
         </author>
     </entry>
     <entry>
@@ -3130,6 +3190,27 @@ Points: 50
 # Comments: 18]]></summary>
         <author>
             <name>Bayram</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: I built a tool to create AI agents that live in iMessage]]></title>
+        <id>https://news.ycombinator.com/item?id=46484808</id>
+        <link href="https://tryflux.ai/"/>
+        <updated>2026-01-04T04:10:06.000Z</updated>
+        <summary type="html"><![CDATA[Hey everyone, I made this thing:
+https://tryflux.ai/. Here's a demo video: https://screen.studio/share/1y2EnC26
+Context: I've tried probably 15 different AI apps over the past year. ChatGPT, note-taking apps, productivity apps, all of it. But most of them are just clutter on my iphone.
+They live in some app I have to deliberately open. And I just... don't. But you know what I open 50 times a day without thinking? iMessage. So out of mild frustration with the "AI app graveyard" on my phone, I built Flux.
+What it does: - You describe a personality and what you want the agent to do - In about 2 minutes, you have a live AI agent in iMessage - Blue bars. Native. No app download for whoever texts it.
+The thesis that got us here: AI is already smart enough. The bottleneck is interaction. Dashboards get forgotten. Texts get answered.
+This was also my first time hitting #1 on Product Hunt, which was surreal.
+It's still rough and probably broke something. If you try it, feedback is super welcome, weird edge cases, "this doesn't work," or "why would anyone use this" comments all help.
+That's all. Happy to answer questions.
+Comments URL: https://news.ycombinator.com/item?id=46484808
+Points: 50
+# Comments: 23]]></summary>
+        <author>
+            <name>danielsdk</name>
         </author>
     </entry>
     <entry>
@@ -17179,71 +17260,6 @@ Points: 227
 # Comments: 185]]></summary>
         <author>
             <name>tiahura</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Walt Disney Company and OpenAI Partner on Sora]]></title>
-        <id>https://news.ycombinator.com/item?id=46231493</id>
-        <link href="https://openai.com/index/disney-sora-agreement/"/>
-        <updated>2025-12-11T14:05:16.000Z</updated>
-        <summary type="html"><![CDATA[https://www.cnbc.com/2025/12/11/disney-openai-sora-character...
-Comments URL: https://news.ycombinator.com/item?id=46231493
-Points: 96
-# Comments: 370]]></summary>
-        <author>
-            <name>inesranzo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Craft software that makes people feel something]]></title>
-        <id>https://news.ycombinator.com/item?id=46231274</id>
-        <link href="https://rapha.land/craft-software-that-makes-people-feel-something/"/>
-        <updated>2025-12-11T13:45:08.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://rapha.land/craft-software-that-makes-people-feel-something/
-Comments URL: https://news.ycombinator.com/item?id=46231274
-Points: 74
-# Comments: 27]]></summary>
-        <author>
-            <name>lukeio</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[French supermarket's Christmas advert is worldwide hit (without AI) [video]]]></title>
-        <id>https://news.ycombinator.com/item?id=46231187</id>
-        <link href="https://www.youtube.com/watch?v=Na9VmMNJvsA"/>
-        <updated>2025-12-11T13:35:55.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.youtube.com/watch?v=Na9VmMNJvsA
-Comments URL: https://news.ycombinator.com/item?id=46231187
-Points: 63
-# Comments: 33]]></summary>
-        <author>
-            <name>gbugniot</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[VA Linux: The biggest dotcom IPO]]></title>
-        <id>https://news.ycombinator.com/item?id=46230456</id>
-        <link href="https://dfarq.homeip.net/va-linux-the-biggest-dotcom-ipo/"/>
-        <updated>2025-12-11T12:17:53.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://dfarq.homeip.net/va-linux-the-biggest-dotcom-ipo/
-Comments URL: https://news.ycombinator.com/item?id=46230456
-Points: 56
-# Comments: 15]]></summary>
-        <author>
-            <name>giuliomagnifico</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Meta shuts down global accounts linked to abortion advice and queer content]]></title>
-        <id>https://news.ycombinator.com/item?id=46230072</id>
-        <link href="https://www.theguardian.com/global-development/2025/dec/11/meta-shuts-down-global-accounts-linked-to-abortion-advice-and-queer-content"/>
-        <updated>2025-12-11T11:26:45.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.theguardian.com/global-development/2025/dec/11/meta-shuts-down-global-accounts-linked-to-abortion-advice-and-queer-content
-Comments URL: https://news.ycombinator.com/item?id=46230072
-Points: 53
-# Comments: 10]]></summary>
-        <author>
-            <name>ta988</name>
         </author>
     </entry>
 </feed>

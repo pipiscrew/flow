@@ -6,6 +6,16 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=46560445",
+          "author": "cod1r",
+          "description": "Article URL: https://mathstodon.xyz/@tao/115855840223258103\nComments URL: https://news.ycombinator.com/item?id=46560445\nPoints: 216\n# Comments: 155",
+          "link": "https://mathstodon.xyz/@tao/115855840223258103",
+          "publishedOn": "2026-01-09T22:39:15.000Z",
+          "wordCount": 349,
+          "title": "“Erdos problem #728 was solved more or less autonomously by AI”",
+          "imageUrl": null
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=46558148",
           "author": "scottjg",
           "description": "Article URL: https://scottjg.com/posts/2026-01-08-crappy-computer-showdown/\nComments URL: https://news.ycombinator.com/item?id=46558148\nPoints: 56\n# Comments: 19",
@@ -24,6 +34,16 @@
           "wordCount": 155,
           "title": "Show HN: Rocket Launch and Orbit Simulator",
           "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46557823",
+          "author": "hiepler",
+          "description": "I built this as a personal open-source project to explore how EU AI Act\nrequirements can be translated into concrete, inspectable technical checks.\nThe core idea is local-first compliance:\n– risk classification (Articles 5–15, incl. prohibited use cases)\n– bias evaluation using CrowS-Pairs\n– automatic Annex IV–oriented PDF reports\n– no cloud services or external APIs (browser-based + Ollama)\nI’m especially interested in feedback on whether this kind of\ntechnical framing of AI regulation makes sense in real-world projects.\nComments URL: https://news.ycombinator.com/item?id=46557823\nPoints: 56\n# Comments: 33",
+          "link": "https://github.com/Hiepler/EuConform",
+          "publishedOn": "2026-01-09T19:11:57.000Z",
+          "wordCount": 5088,
+          "title": "Show HN: EuConform – Offline-first EU AI Act compliance tool (open source)",
+          "imageUrl": "https://opengraph.githubassets.com/32e7ff7ebfaa761da1d77b7dcfae8fadb9ec6832fc9479c25f687a96dcca98a3/Hiepler/EuConform"
         },
         {
           "id": "https://news.ycombinator.com/item?id=46557489",
@@ -46,6 +66,16 @@
           "imageUrl": null
         },
         {
+          "id": "https://news.ycombinator.com/item?id=46557352",
+          "author": "ytpete",
+          "description": "https://x.com/revelium_studio/status/2009570090568577045\nComments URL: https://news.ycombinator.com/item?id=46557352\nPoints: 55\n# Comments: 38",
+          "link": "https://lab.revelium.studio/ml-sharp",
+          "publishedOn": "2026-01-09T18:38:34.000Z",
+          "wordCount": null,
+          "title": "Turn a single image into a navigable 3D Gaussian Splat with depth",
+          "imageUrl": null
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=46557233",
           "author": "mustaphah",
           "description": "Article URL: https://www.sciencedaily.com/releases/2026/01/260107225516.htm\nComments URL: https://news.ycombinator.com/item?id=46557233\nPoints: 67\n# Comments: 32",
@@ -54,6 +84,16 @@
           "wordCount": 1773,
           "title": "Exercise can be nearly as effective as therapy for depression",
           "imageUrl": "https://www.sciencedaily.com/images/1920/overcoming-depression.webp"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46557057",
+          "author": "akshayka",
+          "description": "Article URL: https://matthewrocklin.com/ai-zealotry/\nComments URL: https://news.ycombinator.com/item?id=46557057\nPoints: 62\n# Comments: 115",
+          "link": "https://matthewrocklin.com/ai-zealotry/",
+          "publishedOn": "2026-01-09T18:17:24.000Z",
+          "wordCount": 3327,
+          "title": "My article on why AI is great (or terrible) or how to use it",
+          "imageUrl": "https://matthewrocklin.com/assets/images/social/ai-zealotry.png"
         },
         {
           "id": "https://news.ycombinator.com/item?id=46557029",
@@ -2334,6 +2374,16 @@
           "wordCount": 4524,
           "title": "Show HN: Claude Reflect – Auto-turn Claude corrections into project config",
           "imageUrl": "https://opengraph.githubassets.com/1d62daf48d972237fd3db3f5ca54a1d759049ba2c4c289bbd70166e994e0c103/BayramAnnakov/claude-reflect"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46484808",
+          "author": "danielsdk",
+          "description": "Hey everyone, I made this thing:\nhttps://tryflux.ai/. Here's a demo video: https://screen.studio/share/1y2EnC26\nContext: I've tried probably 15 different AI apps over the past year. ChatGPT, note-taking apps, productivity apps, all of it. But most of them are just clutter on my iphone.\nThey live in some app I have to deliberately open. And I just... don't. But you know what I open 50 times a day without thinking? iMessage. So out of mild frustration with the \"AI app graveyard\" on my phone, I built Flux.\nWhat it does: - You describe a personality and what you want the agent to do - In about 2 minutes, you have a live AI agent in iMessage - Blue bars. Native. No app download for whoever texts it.\nThe thesis that got us here: AI is already smart enough. The bottleneck is interaction. Dashboards get forgotten. Texts get answered.\nThis was also my first time hitting #1 on Product Hunt, which was surreal.\nIt's still rough and probably broke something. If you try it, feedback is super welcome, weird edge cases, \"this doesn't work,\" or \"why would anyone use this\" comments all help.\nThat's all. Happy to answer questions.\nComments URL: https://news.ycombinator.com/item?id=46484808\nPoints: 50\n# Comments: 23",
+          "link": "https://tryflux.ai/",
+          "publishedOn": "2026-01-04T04:10:06.000Z",
+          "wordCount": 61,
+          "title": "Show HN: I built a tool to create AI agents that live in iMessage",
+          "imageUrl": null
         },
         {
           "id": "https://news.ycombinator.com/item?id=46484662",
@@ -12824,56 +12874,6 @@
           "wordCount": 27735,
           "title": "Disney making $1B investment in OpenAI, will allow characters on Sora AI",
           "imageUrl": "https://image.cnbcfm.com/api/v1/image/108240674-1765470100195-Iger2.jpg?v=1765470328&w=1920&h=1080"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46231493",
-          "author": "inesranzo",
-          "description": "https://www.cnbc.com/2025/12/11/disney-openai-sora-character...\nComments URL: https://news.ycombinator.com/item?id=46231493\nPoints: 96\n# Comments: 370",
-          "link": "https://openai.com/index/disney-sora-agreement/",
-          "publishedOn": "2025-12-11T14:05:16.000Z",
-          "wordCount": null,
-          "title": "The Walt Disney Company and OpenAI Partner on Sora",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46231274",
-          "author": "lukeio",
-          "description": "Article URL: https://rapha.land/craft-software-that-makes-people-feel-something/\nComments URL: https://news.ycombinator.com/item?id=46231274\nPoints: 74\n# Comments: 27",
-          "link": "https://rapha.land/craft-software-that-makes-people-feel-something/",
-          "publishedOn": "2025-12-11T13:45:08.000Z",
-          "wordCount": 605,
-          "title": "Craft software that makes people feel something",
-          "imageUrl": "https://rapha.land/assets/images/banner.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46231187",
-          "author": "gbugniot",
-          "description": "Article URL: https://www.youtube.com/watch?v=Na9VmMNJvsA\nComments URL: https://news.ycombinator.com/item?id=46231187\nPoints: 63\n# Comments: 33",
-          "link": "https://www.youtube.com/watch?v=Na9VmMNJvsA",
-          "publishedOn": "2025-12-11T13:35:55.000Z",
-          "wordCount": null,
-          "title": "French supermarket's Christmas advert is worldwide hit (without AI) [video]",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46230456",
-          "author": "giuliomagnifico",
-          "description": "Article URL: https://dfarq.homeip.net/va-linux-the-biggest-dotcom-ipo/\nComments URL: https://news.ycombinator.com/item?id=46230456\nPoints: 56\n# Comments: 15",
-          "link": "https://dfarq.homeip.net/va-linux-the-biggest-dotcom-ipo/",
-          "publishedOn": "2025-12-11T12:17:53.000Z",
-          "wordCount": 3687,
-          "title": "VA Linux: The biggest dotcom IPO",
-          "imageUrl": "https://i0.wp.com/dfarq.homeip.net/wp-content/uploads/2024/11/va-linux-social.jpg?fit=892%2C501&ssl=1"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46230072",
-          "author": "ta988",
-          "description": "Article URL: https://www.theguardian.com/global-development/2025/dec/11/meta-shuts-down-global-accounts-linked-to-abortion-advice-and-queer-content\nComments URL: https://news.ycombinator.com/item?id=46230072\nPoints: 53\n# Comments: 10",
-          "link": "https://www.theguardian.com/global-development/2025/dec/11/meta-shuts-down-global-accounts-linked-to-abortion-advice-and-queer-content",
-          "publishedOn": "2025-12-11T11:26:45.000Z",
-          "wordCount": 5253,
-          "title": "Meta shuts down global accounts linked to abortion advice and queer content",
-          "imageUrl": "https://i.guim.co.uk/img/media/a7067d7cdd917bc7889ffec5c07e310dc86e6495/446_0_4109_3286/master/4109.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=65d4847fb511da52968a6e3575f8aa90"
         }
       ]
     }
