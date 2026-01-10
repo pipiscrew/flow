@@ -2,10 +2,77 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-01-10T21:23:54.877Z</updated>
+    <updated>2026-01-10T22:25:50.421Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Worst of Breed Software]]></title>
+        <id>https://news.ycombinator.com/item?id=46569749</id>
+        <link href="https://worstofbreed.net/"/>
+        <updated>2026-01-10T20:45:22.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://worstofbreed.net/
+Comments URL: https://news.ycombinator.com/item?id=46569749
+Points: 50
+# Comments: 12]]></summary>
+        <author>
+            <name>facundo_olano</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Finding and Fixing Ghostty's Largest Memory Leak]]></title>
+        <id>https://news.ycombinator.com/item?id=46568794</id>
+        <link href="https://mitchellh.com/writing/ghostty-memory-leak-fix"/>
+        <updated>2026-01-10T18:58:37.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://mitchellh.com/writing/ghostty-memory-leak-fix
+Comments URL: https://news.ycombinator.com/item?id=46568794
+Points: 86
+# Comments: 22]]></summary>
+        <author>
+            <name>thorel</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Rats caught on camera hunting flying bats]]></title>
+        <id>https://news.ycombinator.com/item?id=46568662</id>
+        <link href="https://scienceclock.com/rats-caught-on-camera-hunting-flying-bats-for-the-first-time/"/>
+        <updated>2026-01-10T18:44:46.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://scienceclock.com/rats-caught-on-camera-hunting-flying-bats-for-the-first-time/
+Comments URL: https://news.ycombinator.com/item?id=46568662
+Points: 52
+# Comments: 6]]></summary>
+        <author>
+            <name>akg130522</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: I used Claude Code to discover connections between 100 books]]></title>
+        <id>https://news.ycombinator.com/item?id=46567400</id>
+        <link href="https://trails.pieterma.es/"/>
+        <updated>2026-01-10T16:56:55.000Z</updated>
+        <summary type="html"><![CDATA[I think LLMs are overused to summarise and underused to help us read deeper.
+I built a system for Claude Code to browse 100 non-fiction books and find interesting connections between them.
+I started out with a pipeline in stages, chaining together LLM calls to build up a context of the library. 
+I was mainly getting back the insight that I was baking into the prompts, and the results weren't particularly surprising.
+On a whim, I gave CC access to my debug CLI tools and found that it wiped the floor with that approach. 
+It gave actually interesting results and required very little orchestration in comparison.
+One of my favourite trail of excerpts goes from Jobs’ reality distortion field to Theranos’ fake demos, to Thiel on startup cults, to Hoffer on mass movement charlatans (https://trails.pieterma.es/trail/useful-lies/).
+A fun tendency is that Claude kept getting distracted by topics of secrecy, conspiracy, and hidden systems - as if the task itself summoned a Foucault’s Pendulum mindset.
+Details:
+* The books are picked from HN’s favourites (which I collected before: https://hnbooks.pieterma.es/).
+* Chunks are indexed by topic using Gemini Flash Lite. The whole library cost about £10.
+* Topics are organised into a tree structure using recursive Leiden partitioning and LLM labels. This gives a high-level sense of the themes.
+* There are several ways to browse. The most useful are embedding similarity, topic tree siblings, and topics cooccurring within a chunk window.
+* Everything is stored in SQLite and manipulated using a set of CLI tools.
+I wrote more about the process here: https://pieterma.es/syntopic-reading-claude/
+I’m curious if this way of reading resonates for anyone else - LLM-mediated or not.
+Comments URL: https://news.ycombinator.com/item?id=46567400
+Points: 96
+# Comments: 22]]></summary>
+        <author>
+            <name>pmaze</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[AI is a business model stress test]]></title>
         <id>https://news.ycombinator.com/item?id=46567392</id>
@@ -258,6 +325,19 @@ Points: 55
 # Comments: 21]]></summary>
         <author>
             <name>donutthejedi</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Code and Let Live]]></title>
+        <id>https://news.ycombinator.com/item?id=46557825</id>
+        <link href="https://fly.io/blog/code-and-let-live/"/>
+        <updated>2026-01-09T19:11:59.000Z</updated>
+        <summary type="html"><![CDATA[https://sprites.dev/
+Comments URL: https://news.ycombinator.com/item?id=46557825
+Points: 148
+# Comments: 44]]></summary>
+        <author>
+            <name>usrme</name>
         </author>
     </entry>
     <entry>
@@ -1091,6 +1171,19 @@ Points: 100
 # Comments: 33]]></summary>
         <author>
             <name>ravenical</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ASCII-Driven Development]]></title>
+        <id>https://news.ycombinator.com/item?id=46538628</id>
+        <link href="https://medium.com/@calufa/ascii-driven-development-850f66661351"/>
+        <updated>2026-01-08T08:18:17.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://medium.com/@calufa/ascii-driven-development-850f66661351
+Comments URL: https://news.ycombinator.com/item?id=46538628
+Points: 60
+# Comments: 35]]></summary>
+        <author>
+            <name>_hfqa</name>
         </author>
     </entry>
     <entry>

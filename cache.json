@@ -6,6 +6,46 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=46569749",
+          "author": "facundo_olano",
+          "description": "Article URL: https://worstofbreed.net/\nComments URL: https://news.ycombinator.com/item?id=46569749\nPoints: 50\n# Comments: 12",
+          "link": "https://worstofbreed.net/",
+          "publishedOn": "2026-01-10T20:45:22.000Z",
+          "wordCount": 665,
+          "title": "Worst of Breed Software",
+          "imageUrl": "https://worstofbreed.net/web-app-manifest-512x512.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46568794",
+          "author": "thorel",
+          "description": "Article URL: https://mitchellh.com/writing/ghostty-memory-leak-fix\nComments URL: https://news.ycombinator.com/item?id=46568794\nPoints: 86\n# Comments: 22",
+          "link": "https://mitchellh.com/writing/ghostty-memory-leak-fix",
+          "publishedOn": "2026-01-10T18:58:37.000Z",
+          "wordCount": 3048,
+          "title": "Finding and Fixing Ghostty's Largest Memory Leak",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46568662",
+          "author": "akg130522",
+          "description": "Article URL: https://scienceclock.com/rats-caught-on-camera-hunting-flying-bats-for-the-first-time/\nComments URL: https://news.ycombinator.com/item?id=46568662\nPoints: 52\n# Comments: 6",
+          "link": "https://scienceclock.com/rats-caught-on-camera-hunting-flying-bats-for-the-first-time/",
+          "publishedOn": "2026-01-10T18:44:46.000Z",
+          "wordCount": 4753,
+          "title": "Rats caught on camera hunting flying bats",
+          "imageUrl": "https://scienceclock.com/wp-content/uploads/2025/10/Rats-catching-bats.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46567400",
+          "author": "pmaze",
+          "description": "I think LLMs are overused to summarise and underused to help us read deeper.\nI built a system for Claude Code to browse 100 non-fiction books and find interesting connections between them.\nI started out with a pipeline in stages, chaining together LLM calls to build up a context of the library. \nI was mainly getting back the insight that I was baking into the prompts, and the results weren't particularly surprising.\nOn a whim, I gave CC access to my debug CLI tools and found that it wiped the floor with that approach. \nIt gave actually interesting results and required very little orchestration in comparison.\nOne of my favourite trail of excerpts goes from Jobs’ reality distortion field to Theranos’ fake demos, to Thiel on startup cults, to Hoffer on mass movement charlatans (https://trails.pieterma.es/trail/useful-lies/).\nA fun tendency is that Claude kept getting distracted by topics of secrecy, conspiracy, and hidden systems - as if the task itself summoned a Foucault’s Pendulum mindset.\nDetails:\n* The books are picked from HN’s favourites (which I collected before: https://hnbooks.pieterma.es/).\n* Chunks are indexed by topic using Gemini Flash Lite. The whole library cost about £10.\n* Topics are organised into a tree structure using recursive Leiden partitioning and LLM labels. This gives a high-level sense of the themes.\n* There are several ways to browse. The most useful are embedding similarity, topic tree siblings, and topics cooccurring within a chunk window.\n* Everything is stored in SQLite and manipulated using a set of CLI tools.\nI wrote more about the process here: https://pieterma.es/syntopic-reading-claude/\nI’m curious if this way of reading resonates for anyone else - LLM-mediated or not.\nComments URL: https://news.ycombinator.com/item?id=46567400\nPoints: 96\n# Comments: 22",
+          "link": "https://trails.pieterma.es/",
+          "publishedOn": "2026-01-10T16:56:55.000Z",
+          "wordCount": 27156,
+          "title": "Show HN: I used Claude Code to discover connections between 100 books",
+          "imageUrl": "https://trails.pieterma.es/og-image.png"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=46567392",
           "author": "amarsahinovic",
           "description": "Article URL: https://dri.es/ai-is-a-business-model-stress-test\nComments URL: https://news.ycombinator.com/item?id=46567392\nPoints: 55\n# Comments: 75",
@@ -194,6 +234,16 @@
           "wordCount": 155,
           "title": "Show HN: Rocket Launch and Orbit Simulator",
           "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46557825",
+          "author": "usrme",
+          "description": "https://sprites.dev/\nComments URL: https://news.ycombinator.com/item?id=46557825\nPoints: 148\n# Comments: 44",
+          "link": "https://fly.io/blog/code-and-let-live/",
+          "publishedOn": "2026-01-09T19:11:59.000Z",
+          "wordCount": 2248,
+          "title": "Code and Let Live",
+          "imageUrl": "https://fly.io/blog/code-and-let-live/assets/sprites.jpg"
         },
         {
           "id": "https://news.ycombinator.com/item?id=46557823",
@@ -784,6 +834,16 @@
           "wordCount": 4518,
           "title": "The Jeff Dean Facts",
           "imageUrl": "https://opengraph.githubassets.com/274fbf25827e217ac33b889906de2010bd05d3badb42d6ad7315e8ce004f38dd/LRitzdorf/TheJeffDeanFacts"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46538628",
+          "author": "_hfqa",
+          "description": "Article URL: https://medium.com/@calufa/ascii-driven-development-850f66661351\nComments URL: https://news.ycombinator.com/item?id=46538628\nPoints: 60\n# Comments: 35",
+          "link": "https://medium.com/@calufa/ascii-driven-development-850f66661351",
+          "publishedOn": "2026-01-08T08:18:17.000Z",
+          "wordCount": null,
+          "title": "ASCII-Driven Development",
+          "imageUrl": null
         },
         {
           "id": "https://news.ycombinator.com/item?id=46538001",

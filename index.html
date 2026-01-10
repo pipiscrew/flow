@@ -22,8 +22,8 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2026-01-10 datetime="2026-01-10T16:56:34.000Z">2026-01-10</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2026-01-10 datetime="2026-01-10T16:56:34.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2026-01-10 datetime="2026-01-10T20:45:22.000Z">2026-01-10</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2026-01-10 datetime="2026-01-10T20:45:22.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
@@ -38,6 +38,112 @@
                   <a class="source-heading__link" href="https://news.ycombinator.com/">Open</a>
                 </h3>
                 <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;46569749"
+                        open
+                      >
+                        <summary class="article-expander__title">Worst of Breed Software</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://worstofbreed.net/">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://worstofbreed.net/web-app-manifest-512x512.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Article URL: https://worstofbreed.net/
+Comments URL: https://news.ycombinator.com/item?id&#x3D;46569749
+Points: 50
+# Comments: 12</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;46568794"
+                        open
+                      >
+                        <summary class="article-expander__title">Finding and Fixing Ghostty&#x27;s Largest Memory Leak</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://mitchellh.com/writing/ghostty-memory-leak-fix">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Article URL: https://mitchellh.com/writing/ghostty-memory-leak-fix
+Comments URL: https://news.ycombinator.com/item?id&#x3D;46568794
+Points: 86
+# Comments: 22</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;10
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;46568662"
+                        open
+                      >
+                        <summary class="article-expander__title">Rats caught on camera hunting flying bats</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://scienceclock.com/rats-caught-on-camera-hunting-flying-bats-for-the-first-time/">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://scienceclock.com/wp-content/uploads/2025/10/Rats-catching-bats.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Article URL: https://scienceclock.com/rats-caught-on-camera-hunting-flying-bats-for-the-first-time/
+Comments URL: https://news.ycombinator.com/item?id&#x3D;46568662
+Points: 52
+# Comments: 6</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;16
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;46567400"
+                        open
+                      >
+                        <summary class="article-expander__title">Show HN: I used Claude Code to discover connections between 100 books</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://trails.pieterma.es/">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://trails.pieterma.es/og-image.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>I think LLMs are overused to summarise and underused to help us read deeper.
+I built a system for Claude Code to browse 100 non-fiction books and find interesting connections between them.
+I started out with a pipeline in stages, chaining together LLM calls to build up a context of the library. 
+I was mainly getting back the insight that I was baking into the prompts, and the results weren&#x27;t particularly surprising.
+On a whim, I gave CC access to my debug CLI tools and found that it wiped the floor with that approach. 
+It gave actually interesting results and required very little orchestration in comparison.
+One of my favourite trail of excerpts goes from Jobs’ reality distortion field to Theranos’ fake demos, to Thiel on startup cults, to Hoffer on mass movement charlatans (https://trails.pieterma.es/trail/useful-lies/).
+A fun tendency is that Claude kept getting distracted by topics of secrecy, conspiracy, and hidden systems - as if the task itself summoned a Foucault’s Pendulum mindset.
+Details:
+* The books are picked from HN’s favourites (which I collected before: https://hnbooks.pieterma.es/).
+* Chunks are indexed by topic using Gemini Flash Lite. The whole library cost about £10.
+* Topics are organised into a tree structure using recursive Leiden partitioning and LLM labels. This gives a high-level sense of the themes.
+* There are several ways to browse. The most useful are embedding similarity, topic tree siblings, and topics cooccurring within a chunk window.
+* Everything is stored in SQLite and manipulated using a set of CLI tools.
+I wrote more about the process here: https://pieterma.es/syntopic-reading-claude/
+I’m curious if this way of reading resonates for anyone else - LLM-mediated or not.
+Comments URL: https://news.ycombinator.com/item?id&#x3D;46567400
+Points: 96
+# Comments: 22</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;91
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
                     <article>
                       <details
                         class="article-expander"
@@ -492,6 +598,29 @@ Comments URL: https://news.ycombinator.com/item?id&#x3D;46557879
 Points: 55
 # Comments: 21</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;46557825"
+                        open
+                      >
+                        <summary class="article-expander__title">Code and Let Live</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://fly.io/blog/code-and-let-live/">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://fly.io/blog/code-and-let-live/assets/sprites.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>https://sprites.dev/
+Comments URL: https://news.ycombinator.com/item?id&#x3D;46557825
+Points: 148
+# Comments: 44</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;7
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -1897,6 +2026,26 @@ Points: 100
 # Comments: 33</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;15
                                   min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;46538628"
+                        open
+                      >
+                        <summary class="article-expander__title">ASCII-Driven Development</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://medium.com/@calufa/ascii-driven-development-850f66661351">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Article URL: https://medium.com/@calufa/ascii-driven-development-850f66661351
+Comments URL: https://news.ycombinator.com/item?id&#x3D;46538628
+Points: 60
+# Comments: 35</span>
                             </span>
                           </div>
                         </a>
@@ -29770,8 +29919,8 @@ Points: 56
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/pipiscrew/flow/actions/runs/20884599184">
-        <time id="build-timestamp" datetime="2026-01-10T21:23:54.817Z">2026-01-10T21:23:54.817Z</time>
+      <a class="footer-link" href="https://github.com/pipiscrew/flow/actions/runs/20885312459">
+        <time id="build-timestamp" datetime="2026-01-10T22:25:50.362Z">2026-01-10T22:25:50.362Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
