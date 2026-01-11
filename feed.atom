@@ -2,10 +2,33 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-01-11T04:13:02.601Z</updated>
+    <updated>2026-01-11T05:31:38.654Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Ferrite – Markdown editor in Rust with native Mermaid diagram rendering]]></title>
+        <id>https://news.ycombinator.com/item?id=46571980</id>
+        <link href="https://github.com/OlaProeis/Ferrite"/>
+        <updated>2026-01-11T01:50:01.000Z</updated>
+        <summary type="html"><![CDATA[Ferrite: Fast Markdown/Text/Code editor in Rust with native Mermaid diagrams
+Built a Markdown editor using Rust + egui. v0.2.1 just dropped with major Mermaid improvements:
+→ Native Mermaid diagrams - Flowcharts, sequence, state, ER, git graphs - pure Rust, no JS
+→ Split view - Raw + rendered side-by-side with sync scrolling
+→ Syntax highlighting - 40+ languages with large file optimization
+→ JSON/YAML/TOML tree viewer - Structured editing with expand/collapse
+→ Git integration - File tree shows modified/staged/untracked status
+Also: minimap, zen mode, auto-save, session restore, code folding indicators.
+~15MB binary, instant startup. Windows/Linux/macOS.
+GitHub: https://github.com/OlaProeis/Ferrite
+v0.2.2 coming soon with performance improvements for large files. Looking for feedback!
+Comments URL: https://news.ycombinator.com/item?id=46571980
+Points: 84
+# Comments: 25]]></summary>
+        <author>
+            <name>OlaProis</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Bob Weir has died]]></title>
         <id>https://news.ycombinator.com/item?id=46571707</id>
@@ -1908,6 +1931,19 @@ Points: 71
 # Comments: 38]]></summary>
         <author>
             <name>jasoneckert</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Brands upset Buy For Me is featuring their products on Amazon without permission]]></title>
+        <id>https://news.ycombinator.com/item?id=46521823</id>
+        <link href="https://www.modernretail.co/technology/brands-are-upset-that-buy-for-me-is-featuring-their-products-on-amazon-without-permission/"/>
+        <updated>2026-01-07T02:32:10.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.modernretail.co/technology/brands-are-upset-that-buy-for-me-is-featuring-their-products-on-amazon-without-permission/
+Comments URL: https://news.ycombinator.com/item?id=46521823
+Points: 62
+# Comments: 27]]></summary>
+        <author>
+            <name>spenvo</name>
         </author>
     </entry>
     <entry>
@@ -17054,84 +17090,6 @@ Points: 62
 # Comments: 62]]></summary>
         <author>
             <name>mpweiher</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Oracle made a $300B bet on OpenAI. It's paying the price]]></title>
-        <id>https://news.ycombinator.com/item?id=46246031</id>
-        <link href="https://finance.yahoo.com/news/oracle-made-a-300-billion-bet-on-openai-its-paying-the-price-205441863.html"/>
-        <updated>2025-12-12T17:01:07.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://finance.yahoo.com/news/oracle-made-a-300-billion-bet-on-openai-its-paying-the-price-205441863.html
-Comments URL: https://news.ycombinator.com/item?id=46246031
-Points: 55
-# Comments: 33]]></summary>
-        <author>
-            <name>pera</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Japan law opening phone app stores to go into effect dec.18th]]></title>
-        <id>https://news.ycombinator.com/item?id=46246006</id>
-        <link href="https://www3.nhk.or.jp/nhkworld/en/news/20251210_B1/"/>
-        <updated>2025-12-12T16:59:04.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www3.nhk.or.jp/nhkworld/en/news/20251210_B1/
-Comments URL: https://news.ycombinator.com/item?id=46246006
-Points: 76
-# Comments: 13]]></summary>
-        <author>
-            <name>shlip</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Async DNS]]></title>
-        <id>https://news.ycombinator.com/item?id=46245923</id>
-        <link href="https://flak.tedunangst.com/post/async-dns"/>
-        <updated>2025-12-12T16:52:41.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://flak.tedunangst.com/post/async-dns
-Comments URL: https://news.ycombinator.com/item?id=46245923
-Points: 67
-# Comments: 16]]></summary>
-        <author>
-            <name>todsacerdoti</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Senator endorses discredited book that claims chemical treats autism, cancer]]></title>
-        <id>https://news.ycombinator.com/item?id=46245763</id>
-        <link href="https://www.propublica.org/article/ron-johnson-wisconsin-chlorine-dioxide-pierre-kory-endorsement"/>
-        <updated>2025-12-12T16:37:04.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.propublica.org/article/ron-johnson-wisconsin-chlorine-dioxide-pierre-kory-endorsement
-Comments URL: https://news.ycombinator.com/item?id=46245763
-Points: 54
-# Comments: 19]]></summary>
-        <author>
-            <name>duxup</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Secondary school maths showing that AI systems don't think]]></title>
-        <id>https://news.ycombinator.com/item?id=46245731</id>
-        <link href="https://www.raspberrypi.org/blog/secondary-school-maths-showing-that-ai-systems-dont-think/"/>
-        <updated>2025-12-12T16:32:43.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.raspberrypi.org/blog/secondary-school-maths-showing-that-ai-systems-dont-think/
-Comments URL: https://news.ycombinator.com/item?id=46245731
-Points: 54
-# Comments: 114]]></summary>
-        <author>
-            <name>zdw</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[String Theory Inspires a Brilliant, Baffling New Math Proof]]></title>
-        <id>https://news.ycombinator.com/item?id=46245622</id>
-        <link href="https://www.quantamagazine.org/string-theory-inspires-a-brilliant-baffling-new-math-proof-20251212/"/>
-        <updated>2025-12-12T16:23:10.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.quantamagazine.org/string-theory-inspires-a-brilliant-baffling-new-math-proof-20251212/
-Comments URL: https://news.ycombinator.com/item?id=46245622
-Points: 55
-# Comments: 41]]></summary>
-        <author>
-            <name>ArmageddonIt</name>
         </author>
     </entry>
 </feed>
