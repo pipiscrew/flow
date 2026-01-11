@@ -6,6 +6,26 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=46571149",
+          "author": "jamesponddotco",
+          "description": "TLDR: Librario is a book metadata API that aggregates data from Google Books, ISBNDB, and Hardcover into a single response, solving the problem of no single source having complete book information. It's currently pre-alpha, AGPL-licensed, and available to try now[0].\nMy wife and I have a personal library with around 1,800 books. I started working on a library management tool for us, but I quickly realized I needed a source of data for book information, and none of the solutions available provided all the data I needed. One might provide the series, the other might provide genres, and another might provide a good cover, but none provided everything.\nSo I started working on Librario, a book metadata aggregation API written in Go. It fetches information about books from multiple sources (Goog…",
+          "link": "https://news.ycombinator.com/item?id=46571149",
+          "publishedOn": "2026-01-10T23:45:25.000Z",
+          "wordCount": 1330,
+          "title": "Show HN: Librario, a book metadata API that aggregates G Books, ISBNDB, and more",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46571095",
+          "author": "hhs",
+          "description": "Article URL: https://www.brown.edu/news/2026-01-07/private-equity-autism-centers\nComments URL: https://news.ycombinator.com/item?id=46571095\nPoints: 193\n# Comments: 114",
+          "link": "https://www.brown.edu/news/2026-01-07/private-equity-autism-centers",
+          "publishedOn": "2026-01-10T23:36:16.000Z",
+          "wordCount": 1111,
+          "title": "Private equity firms acquired more than 500 autism centers in past decade: study",
+          "imageUrl": "https://www.brown.edu/sites/default/files/styles/wide_lrg/public/2026-01/autism-center.gif?h=ec6e0f78&itok=BLGrekur"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=46569749",
           "author": "facundo_olano",
           "description": "Article URL: https://worstofbreed.net/\nComments URL: https://news.ycombinator.com/item?id=46569749\nPoints: 50\n# Comments: 12",
@@ -14,6 +34,16 @@
           "wordCount": 665,
           "title": "Worst of Breed Software",
           "imageUrl": "https://worstofbreed.net/web-app-manifest-512x512.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46569061",
+          "author": "projectyang",
+          "description": "I was curious to see how some of the latest models behaved and played no limit texas holdem.\nI built this website which allows you to:\nSpectate: Watch different models play against each other.\nPlay: Create your own table and play hands against the agents directly.\nComments URL: https://news.ycombinator.com/item?id=46569061\nPoints: 70\n# Comments: 42",
+          "link": "https://llmholdem.com/",
+          "publishedOn": "2026-01-10T19:27:39.000Z",
+          "wordCount": 10,
+          "title": "Show HN: Play poker with LLMs, or watch them play against each other",
+          "imageUrl": null
         },
         {
           "id": "https://news.ycombinator.com/item?id=46568794",
@@ -2034,6 +2064,16 @@
           "wordCount": 1873,
           "title": "Observability's past, present, and future",
           "imageUrl": "https://bear-images.sfo2.cdn.digitaloceanspaces.com/herman-1683556668-0.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46500873",
+          "author": "zdw",
+          "description": "Article URL: https://bigthink.com/starts-with-a-bang/8-ways-elements-made/\nComments URL: https://news.ycombinator.com/item?id=46500873\nPoints: 50\n# Comments: 26",
+          "link": "https://bigthink.com/starts-with-a-bang/8-ways-elements-made/",
+          "publishedOn": "2026-01-05T16:32:52.000Z",
+          "wordCount": 2901,
+          "title": "The eight ways that all the elements in the Universe are made (2021)",
+          "imageUrl": "https://bigthink.com/wp-content/uploads/2021/11/1280px-Artists_impression_of_strontium_emerging_from_a_neutron_star_merger-e1715117352265.jpg?resize=1200,630"
         },
         {
           "id": "https://news.ycombinator.com/item?id=46500798",
@@ -12744,46 +12784,6 @@
           "wordCount": 1065,
           "title": "CM0 – a new Raspberry Pi you can't buy",
           "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46243904",
-          "author": "upmostly",
-          "description": "Article URL: https://www.dbpro.app/blog/sqlite-json-virtual-columns-indexing\nComments URL: https://news.ycombinator.com/item?id=46243904\nPoints: 75\n# Comments: 23",
-          "link": "https://www.dbpro.app/blog/sqlite-json-virtual-columns-indexing",
-          "publishedOn": "2025-12-12T13:25:19.000Z",
-          "wordCount": 2731,
-          "title": "SQLite JSON at Full Index Speed Using Generated Columns",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46243883",
-          "author": "cernocky",
-          "description": "Article URL: https://fedorarepository.org/\nComments URL: https://news.ycombinator.com/item?id=46243883\nPoints: 56\n# Comments: 31",
-          "link": "https://fedorarepository.org/",
-          "publishedOn": "2025-12-12T13:23:31.000Z",
-          "wordCount": 4469,
-          "title": "Fedora: Open-source repository for long-term digital preservation",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46243655",
-          "author": "fleahunter",
-          "description": "Article URL: https://arstechnica.com/gadgets/2025/12/the-ars-technica-guide-to-dumb-tvs/\nComments URL: https://news.ycombinator.com/item?id=46243655\nPoints: 102\n# Comments: 121",
-          "link": "https://arstechnica.com/gadgets/2025/12/the-ars-technica-guide-to-dumb-tvs/",
-          "publishedOn": "2025-12-12T12:51:40.000Z",
-          "wordCount": 5336,
-          "title": "Sick of smart TVs? Here are your best options",
-          "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2025/11/smart-dumb-tv-1152x648.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46243543",
-          "author": "giuliomagnifico",
-          "description": "Article URL: https://itsfoss.com/news/tor-rust-rewrite-progress/\nComments URL: https://news.ycombinator.com/item?id=46243543\nPoints: 72\n# Comments: 27",
-          "link": "https://itsfoss.com/news/tor-rust-rewrite-progress/",
-          "publishedOn": "2025-12-12T12:35:57.000Z",
-          "wordCount": 2493,
-          "title": "The Tor Project is switching to Rust",
-          "imageUrl": "https://itsfoss.com/content/images/2025/12/tor-rust-transition-progress-banner.png"
         }
       ]
     }

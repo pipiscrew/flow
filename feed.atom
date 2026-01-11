@@ -2,10 +2,35 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-01-10T23:24:50.147Z</updated>
+    <updated>2026-01-11T02:25:56.085Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Librario, a book metadata API that aggregates G Books, ISBNDB, and more]]></title>
+        <id>https://news.ycombinator.com/item?id=46571149</id>
+        <link href="https://news.ycombinator.com/item?id=46571149"/>
+        <updated>2026-01-10T23:45:25.000Z</updated>
+        <summary type="html"><![CDATA[TLDR: Librario is a book metadata API that aggregates data from Google Books, ISBNDB, and Hardcover into a single response, solving the problem of no single source having complete book information. It's currently pre-alpha, AGPL-licensed, and available to try now[0].
+My wife and I have a personal library with around 1,800 books. I started working on a library management tool for us, but I quickly realized I needed a source of data for book information, and none of the solutions available provided all the data I needed. One might provide the series, the other might provide genres, and another might provide a good cover, but none provided everything.
+So I started working on Librario, a book metadata aggregation API written in Go. It fetches information about books from multiple sources (Goog…]]></summary>
+        <author>
+            <name>jamesponddotco</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Private equity firms acquired more than 500 autism centers in past decade: study]]></title>
+        <id>https://news.ycombinator.com/item?id=46571095</id>
+        <link href="https://www.brown.edu/news/2026-01-07/private-equity-autism-centers"/>
+        <updated>2026-01-10T23:36:16.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.brown.edu/news/2026-01-07/private-equity-autism-centers
+Comments URL: https://news.ycombinator.com/item?id=46571095
+Points: 193
+# Comments: 114]]></summary>
+        <author>
+            <name>hhs</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Worst of Breed Software]]></title>
         <id>https://news.ycombinator.com/item?id=46569749</id>
@@ -17,6 +42,22 @@ Points: 50
 # Comments: 12]]></summary>
         <author>
             <name>facundo_olano</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Play poker with LLMs, or watch them play against each other]]></title>
+        <id>https://news.ycombinator.com/item?id=46569061</id>
+        <link href="https://llmholdem.com/"/>
+        <updated>2026-01-10T19:27:39.000Z</updated>
+        <summary type="html"><![CDATA[I was curious to see how some of the latest models behaved and played no limit texas holdem.
+I built this website which allows you to:
+Spectate: Watch different models play against each other.
+Play: Create your own table and play hands against the agents directly.
+Comments URL: https://news.ycombinator.com/item?id=46569061
+Points: 70
+# Comments: 42]]></summary>
+        <author>
+            <name>projectyang</name>
         </author>
     </entry>
     <entry>
@@ -2760,6 +2801,19 @@ Points: 51
 # Comments: 20]]></summary>
         <author>
             <name>shcallaway</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The eight ways that all the elements in the Universe are made (2021)]]></title>
+        <id>https://news.ycombinator.com/item?id=46500873</id>
+        <link href="https://bigthink.com/starts-with-a-bang/8-ways-elements-made/"/>
+        <updated>2026-01-05T16:32:52.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://bigthink.com/starts-with-a-bang/8-ways-elements-made/
+Comments URL: https://news.ycombinator.com/item?id=46500873
+Points: 50
+# Comments: 26]]></summary>
+        <author>
+            <name>zdw</name>
         </author>
     </entry>
     <entry>
@@ -17104,58 +17158,6 @@ Points: 73
 # Comments: 6]]></summary>
         <author>
             <name>speckx</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[SQLite JSON at Full Index Speed Using Generated Columns]]></title>
-        <id>https://news.ycombinator.com/item?id=46243904</id>
-        <link href="https://www.dbpro.app/blog/sqlite-json-virtual-columns-indexing"/>
-        <updated>2025-12-12T13:25:19.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.dbpro.app/blog/sqlite-json-virtual-columns-indexing
-Comments URL: https://news.ycombinator.com/item?id=46243904
-Points: 75
-# Comments: 23]]></summary>
-        <author>
-            <name>upmostly</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Fedora: Open-source repository for long-term digital preservation]]></title>
-        <id>https://news.ycombinator.com/item?id=46243883</id>
-        <link href="https://fedorarepository.org/"/>
-        <updated>2025-12-12T13:23:31.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://fedorarepository.org/
-Comments URL: https://news.ycombinator.com/item?id=46243883
-Points: 56
-# Comments: 31]]></summary>
-        <author>
-            <name>cernocky</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Sick of smart TVs? Here are your best options]]></title>
-        <id>https://news.ycombinator.com/item?id=46243655</id>
-        <link href="https://arstechnica.com/gadgets/2025/12/the-ars-technica-guide-to-dumb-tvs/"/>
-        <updated>2025-12-12T12:51:40.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://arstechnica.com/gadgets/2025/12/the-ars-technica-guide-to-dumb-tvs/
-Comments URL: https://news.ycombinator.com/item?id=46243655
-Points: 102
-# Comments: 121]]></summary>
-        <author>
-            <name>fleahunter</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Tor Project is switching to Rust]]></title>
-        <id>https://news.ycombinator.com/item?id=46243543</id>
-        <link href="https://itsfoss.com/news/tor-rust-rewrite-progress/"/>
-        <updated>2025-12-12T12:35:57.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://itsfoss.com/news/tor-rust-rewrite-progress/
-Comments URL: https://news.ycombinator.com/item?id=46243543
-Points: 72
-# Comments: 27]]></summary>
-        <author>
-            <name>giuliomagnifico</name>
         </author>
     </entry>
 </feed>
