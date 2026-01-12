@@ -6,6 +6,26 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=46593802",
+          "author": "everlier",
+          "description": "Article URL: https://www.bellard.org/ts_zip/\nComments URL: https://news.ycombinator.com/item?id=46593802\nPoints: 52\n# Comments: 15",
+          "link": "https://www.bellard.org/ts_zip/",
+          "publishedOn": "2026-01-12T20:26:47.000Z",
+          "wordCount": 376,
+          "title": "Fabrice Bellard's TS Zip (2024)",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46593395",
+          "author": "cjaackie",
+          "description": "Article URL: https://www.youtube.com/watch?v=c0mLhHDcY3I\nComments URL: https://news.ycombinator.com/item?id=46593395\nPoints: 89\n# Comments: 30",
+          "link": "https://www.youtube.com/watch?v=c0mLhHDcY3I",
+          "publishedOn": "2026-01-12T19:57:37.000Z",
+          "wordCount": null,
+          "title": "The chess bot on Delta Air Lines will destroy you (2024) [video]",
+          "imageUrl": null
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=46593022",
           "author": "adocomplete",
           "description": "Article URL: https://claude.com/blog/cowork-research-preview\nComments URL: https://news.ycombinator.com/item?id=46593022\nPoints: 130\n# Comments: 70",
@@ -12944,56 +12964,6 @@
           "wordCount": 3111,
           "title": "Europeans' health data sold to US firm run by ex-Israeli spies",
           "imageUrl": "https://www.ftm.eu/uploads/media_filter/68c40c17d4381/article_1400_nocrop/Spy_Header.jpg?v=0"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46262031",
-          "author": "triska",
-          "description": "Article URL: https://github.com/danja/dogalog\nComments URL: https://news.ycombinator.com/item?id=46262031\nPoints: 58\n# Comments: 15",
-          "link": "https://github.com/danja/dogalog",
-          "publishedOn": "2025-12-14T10:08:42.000Z",
-          "wordCount": 6919,
-          "title": "Dogalog: A realtime Prolog-based livecoding music environment",
-          "imageUrl": "https://opengraph.githubassets.com/175d7a61ae1d2cec2b1e4747268fd99e331d8b95c3eb6cbdbe2a36dae8dae2af/danja/dogalog"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46262021",
-          "author": "nkko",
-          "description": "Article URL: https://trigger.dev/blog/shai-hulud-postmortem\nComments URL: https://news.ycombinator.com/item?id=46262021\nPoints: 70\n# Comments: 47",
-          "link": "https://trigger.dev/blog/shai-hulud-postmortem",
-          "publishedOn": "2025-12-14T10:07:00.000Z",
-          "wordCount": 9521,
-          "title": "Shai-Hulud compromised a dev machine and raided GitHub org access: a post-mortem",
-          "imageUrl": "https://trigger.dev/blog/shai-hulud-postmortem/shai-hulud-postmortem.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46261998",
-          "author": "planckscnst",
-          "description": "Article URL: https://simonwillison.net/2025/Dec/14/copywriters-reveal-how-ai-has-decimated-their-industry/\nComments URL: https://news.ycombinator.com/item?id=46261998\nPoints: 55\n# Comments: 39",
-          "link": "https://simonwillison.net/2025/Dec/14/copywriters-reveal-how-ai-has-decimated-their-industry/",
-          "publishedOn": "2025-12-14T10:01:25.000Z",
-          "wordCount": 640,
-          "title": "Willison on Merchant's \"Copywriters reveal how AI has decimated their industry\"",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46261942",
-          "author": "jackzhuo",
-          "description": "I built this because I wanted a digital I Ching that honors the original math, rather than just Math.random().\nTechnical detail for the curious:\nThe simulation follows the traditional Yarrow Stalk algorithm (Da Yan). The core of this algorithm relies on modulo-4 arithmetic on the stalks remaining after a random split.\nTo make it physically realistic, I used a Box-Muller transform to simulate the user splitting the stalks with a Gaussian distribution (since humans naturally tend to split near the middle), rather than a uniform random split.\nI was worried this 'human bias' might skew the modulo probabilities, so I ran a 1-million-run Monte Carlo simulation to verify.\nThe Result: The remainders [0,1,2,3] still emerged with a near-perfect 25% distribution (deviation https://news.ycombinator.com/item?id=46261942\nPoints: 50\n# Comments: 32",
-          "link": "https://castiching.com/",
-          "publishedOn": "2025-12-14T09:44:13.000Z",
-          "wordCount": 868,
-          "title": "Show HN: I Ching simulator with accurate Yarrow Stalk probabilities",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46261884",
-          "author": "klevo",
-          "description": "Stepped is a Rails engine, extracted out of Envirobly where it powers tasks like application deployment, that involve complex, out-of-the-band tasks like DNS provisioning, retries, waiting for instances to boot, running health checks and all the fun stuff of a highly distributed networked system.\nComments URL: https://news.ycombinator.com/item?id=46261884\nPoints: 55\n# Comments: 9",
-          "link": "https://github.com/envirobly/stepped",
-          "publishedOn": "2025-12-14T09:29:47.000Z",
-          "wordCount": 6574,
-          "title": "Show HN: Stepped Actions – distributed workflow orchestration for Rails",
-          "imageUrl": "https://opengraph.githubassets.com/8b17d128fa54da49500f3d2ba31c003e44d60bca3ff93ac23d9f031be01cfa9c/envirobly/stepped"
         }
       ]
     }

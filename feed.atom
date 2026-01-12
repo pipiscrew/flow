@@ -2,10 +2,36 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-01-12T21:27:42.156Z</updated>
+    <updated>2026-01-12T22:24:53.269Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Fabrice Bellard's TS Zip (2024)]]></title>
+        <id>https://news.ycombinator.com/item?id=46593802</id>
+        <link href="https://www.bellard.org/ts_zip/"/>
+        <updated>2026-01-12T20:26:47.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.bellard.org/ts_zip/
+Comments URL: https://news.ycombinator.com/item?id=46593802
+Points: 52
+# Comments: 15]]></summary>
+        <author>
+            <name>everlier</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The chess bot on Delta Air Lines will destroy you (2024) [video]]]></title>
+        <id>https://news.ycombinator.com/item?id=46593395</id>
+        <link href="https://www.youtube.com/watch?v=c0mLhHDcY3I"/>
+        <updated>2026-01-12T19:57:37.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.youtube.com/watch?v=c0mLhHDcY3I
+Comments URL: https://news.ycombinator.com/item?id=46593395
+Points: 89
+# Comments: 30]]></summary>
+        <author>
+            <name>cjaackie</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Cowork: Claude Code for the rest of your work]]></title>
         <id>https://news.ycombinator.com/item?id=46593022</id>
@@ -17389,75 +17415,6 @@ Points: 118
 # Comments: 45]]></summary>
         <author>
             <name>Fnoord</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Dogalog: A realtime Prolog-based livecoding music environment]]></title>
-        <id>https://news.ycombinator.com/item?id=46262031</id>
-        <link href="https://github.com/danja/dogalog"/>
-        <updated>2025-12-14T10:08:42.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://github.com/danja/dogalog
-Comments URL: https://news.ycombinator.com/item?id=46262031
-Points: 58
-# Comments: 15]]></summary>
-        <author>
-            <name>triska</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Shai-Hulud compromised a dev machine and raided GitHub org access: a post-mortem]]></title>
-        <id>https://news.ycombinator.com/item?id=46262021</id>
-        <link href="https://trigger.dev/blog/shai-hulud-postmortem"/>
-        <updated>2025-12-14T10:07:00.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://trigger.dev/blog/shai-hulud-postmortem
-Comments URL: https://news.ycombinator.com/item?id=46262021
-Points: 70
-# Comments: 47]]></summary>
-        <author>
-            <name>nkko</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Willison on Merchant's "Copywriters reveal how AI has decimated their industry"]]></title>
-        <id>https://news.ycombinator.com/item?id=46261998</id>
-        <link href="https://simonwillison.net/2025/Dec/14/copywriters-reveal-how-ai-has-decimated-their-industry/"/>
-        <updated>2025-12-14T10:01:25.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://simonwillison.net/2025/Dec/14/copywriters-reveal-how-ai-has-decimated-their-industry/
-Comments URL: https://news.ycombinator.com/item?id=46261998
-Points: 55
-# Comments: 39]]></summary>
-        <author>
-            <name>planckscnst</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: I Ching simulator with accurate Yarrow Stalk probabilities]]></title>
-        <id>https://news.ycombinator.com/item?id=46261942</id>
-        <link href="https://castiching.com/"/>
-        <updated>2025-12-14T09:44:13.000Z</updated>
-        <summary type="html"><![CDATA[I built this because I wanted a digital I Ching that honors the original math, rather than just Math.random().
-Technical detail for the curious:
-The simulation follows the traditional Yarrow Stalk algorithm (Da Yan). The core of this algorithm relies on modulo-4 arithmetic on the stalks remaining after a random split.
-To make it physically realistic, I used a Box-Muller transform to simulate the user splitting the stalks with a Gaussian distribution (since humans naturally tend to split near the middle), rather than a uniform random split.
-I was worried this 'human bias' might skew the modulo probabilities, so I ran a 1-million-run Monte Carlo simulation to verify.
-The Result: The remainders [0,1,2,3] still emerged with a near-perfect 25% distribution (deviation https://news.ycombinator.com/item?id=46261942
-Points: 50
-# Comments: 32]]></summary>
-        <author>
-            <name>jackzhuo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: Stepped Actions – distributed workflow orchestration for Rails]]></title>
-        <id>https://news.ycombinator.com/item?id=46261884</id>
-        <link href="https://github.com/envirobly/stepped"/>
-        <updated>2025-12-14T09:29:47.000Z</updated>
-        <summary type="html"><![CDATA[Stepped is a Rails engine, extracted out of Envirobly where it powers tasks like application deployment, that involve complex, out-of-the-band tasks like DNS provisioning, retries, waiting for instances to boot, running health checks and all the fun stuff of a highly distributed networked system.
-Comments URL: https://news.ycombinator.com/item?id=46261884
-Points: 55
-# Comments: 9]]></summary>
-        <author>
-            <name>klevo</name>
         </author>
     </entry>
 </feed>
