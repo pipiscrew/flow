@@ -2,10 +2,36 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-01-12T19:25:40.970Z</updated>
+    <updated>2026-01-12T20:31:49.245Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Cowork: Claude Code for the rest of your work]]></title>
+        <id>https://news.ycombinator.com/item?id=46593022</id>
+        <link href="https://claude.com/blog/cowork-research-preview"/>
+        <updated>2026-01-12T19:27:19.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://claude.com/blog/cowork-research-preview
+Comments URL: https://news.ycombinator.com/item?id=46593022
+Points: 130
+# Comments: 70]]></summary>
+        <author>
+            <name>adocomplete</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[X Didn't Fix Grok's 'Undressing' Problem. It Just Makes People Pay for It]]></title>
+        <id>https://news.ycombinator.com/item?id=46592827</id>
+        <link href="https://www.wired.com/story/x-didnt-fix-groks-undressing-problem-it-just-makes-people-pay-for-it/"/>
+        <updated>2026-01-12T19:11:33.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.wired.com/story/x-didnt-fix-groks-undressing-problem-it-just-makes-people-pay-for-it/
+Comments URL: https://news.ycombinator.com/item?id=46592827
+Points: 110
+# Comments: 86]]></summary>
+        <author>
+            <name>pavel_lishin</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Iran has now been offline for 96 hours]]></title>
         <id>https://news.ycombinator.com/item?id=46591974</id>
@@ -30,6 +56,41 @@ Points: 64
 # Comments: 33]]></summary>
         <author>
             <name>The28thDuck</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Message Queues: A Simple Guide with Analogies]]></title>
+        <id>https://news.ycombinator.com/item?id=46591402</id>
+        <link href="https://www.cloudamqp.com/blog/message-queues-exaplined-with-analogies.html"/>
+        <updated>2026-01-12T17:17:09.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.cloudamqp.com/blog/message-queues-exaplined-with-analogies.html
+Comments URL: https://news.ycombinator.com/item?id=46591402
+Points: 52
+# Comments: 16]]></summary>
+        <author>
+            <name>byt3h3ad</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: AI in SolidWorks]]></title>
+        <id>https://news.ycombinator.com/item?id=46591100</id>
+        <link href="https://www.trylad.com/"/>
+        <updated>2026-01-12T16:56:17.000Z</updated>
+        <summary type="html"><![CDATA[Hey HN! We’re Will and Jorge, and we’ve built LAD (Language-Aided Design), a SolidWorks add-in that uses LLMs to create sketches, features, assemblies, and macros from conversational inputs (https://www.trylad.com/).
+We come from software engineering backgrounds where tools like Claude Code and Cursor have come to dominate, but when poking around CAD systems a few months back we realized there's no way to go from a text prompt input to a modeling output in any of the major CAD systems. In our testing, the LLMs aren't as good at making 3D objects as they are are writing code, but we think they'll get a lot better in the upcoming months and years.
+To bridge this gap, we've created LAD, an add-in in SolidWorks to turn conversational input and uploaded documents/images into parts, assemblies, and macros. It includes:
+- Dozens of tools the LLM can call to create sketches, features, and other objects in parts.
+- Assembly tools the LLM can call to turn parts into assemblies.
+- File system tools the LLM can use to create, save, search, and read SolidWorks files and documentation.
+- Macro writing/running tools plus a SolidWorks API documentation search so the LLM can use macros.
+- Automatic screenshots and feature tree parsing to provide the LLM context on the current state.
+- Checkpointing to roll back unwanted edits and permissioning to determine which commands wait for user permission.
+You can try LAD at https://www.trylad.com/ and let us know what features would make it more useful for your work. To be honest, the LLMs aren't great at CAD right now, but we're mostly curious to hear if people would want and use this if it worked well.
+Comments URL: https://news.ycombinator.com/item?id=46591100
+Points: 70
+# Comments: 36]]></summary>
+        <author>
+            <name>WillNickols</name>
         </author>
     </entry>
     <entry>
@@ -355,6 +416,19 @@ Points: 50
 # Comments: 22]]></summary>
         <author>
             <name>rib3ye</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Unauthenticated remote code execution in OpenCode]]></title>
+        <id>https://news.ycombinator.com/item?id=46581095</id>
+        <link href="https://cy.md/opencode-rce/"/>
+        <updated>2026-01-11T22:33:32.000Z</updated>
+        <summary type="html"><![CDATA[Previous versions of OpenCode started a server which allowed any website visited in a web browser to execute arbitrary commands on the local machine. Make sure you are using v1.1.10 or newer; see link for more details.
+Comments URL: https://news.ycombinator.com/item?id=46581095
+Points: 94
+# Comments: 18]]></summary>
+        <author>
+            <name>CyberShadow</name>
         </author>
     </entry>
     <entry>
@@ -17371,32 +17445,6 @@ Points: 55
 # Comments: 9]]></summary>
         <author>
             <name>klevo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Bye, Mom]]></title>
-        <id>https://news.ycombinator.com/item?id=46261616</id>
-        <link href="https://aella.substack.com/p/bye-mom"/>
-        <updated>2025-12-14T08:21:59.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://aella.substack.com/p/bye-mom
-Comments URL: https://news.ycombinator.com/item?id=46261616
-Points: 70
-# Comments: 14]]></summary>
-        <author>
-            <name>reducesuffering</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Compiler Engineering in Practice]]></title>
-        <id>https://news.ycombinator.com/item?id=46261452</id>
-        <link href="https://chisophugis.github.io/2025/12/08/compiler-engineering-in-practice-part-1-what-is-a-compiler.html"/>
-        <updated>2025-12-14T07:45:15.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://chisophugis.github.io/2025/12/08/compiler-engineering-in-practice-part-1-what-is-a-compiler.html
-Comments URL: https://news.ycombinator.com/item?id=46261452
-Points: 51
-# Comments: 7]]></summary>
-        <author>
-            <name>dhruv3006</name>
         </author>
     </entry>
 </feed>
