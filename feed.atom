@@ -2,10 +2,36 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-01-12T11:26:22.147Z</updated>
+    <updated>2026-01-12T13:00:36.279Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Fossil versus Git]]></title>
+        <id>https://news.ycombinator.com/item?id=46586385</id>
+        <link href="https://fossil-scm.org/home/doc/trunk/www/fossil-v-git.wiki"/>
+        <updated>2026-01-12T10:10:05.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://fossil-scm.org/home/doc/trunk/www/fossil-v-git.wiki
+Comments URL: https://news.ycombinator.com/item?id=46586385
+Points: 55
+# Comments: 43]]></summary>
+        <author>
+            <name>vednig</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Lightpanda migrate DOM implementation to Zig]]></title>
+        <id>https://news.ycombinator.com/item?id=46586179</id>
+        <link href="https://lightpanda.io/blog/posts/migrating-our-dom-to-zig"/>
+        <updated>2026-01-12T09:42:49.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://lightpanda.io/blog/posts/migrating-our-dom-to-zig
+Comments URL: https://news.ycombinator.com/item?id=46586179
+Points: 78
+# Comments: 29]]></summary>
+        <author>
+            <name>gearnode</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Xfce is great]]></title>
         <id>https://news.ycombinator.com/item?id=46584173</id>
@@ -2490,6 +2516,19 @@ Points: 103
 # Comments: 26]]></summary>
         <author>
             <name>zahrevsky</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[JRR Tolkien reads from The Hobbit for 30 Minutes (1952)]]></title>
+        <id>https://news.ycombinator.com/item?id=46526896</id>
+        <link href="https://www.openculture.com/2026/01/j-r-r-tolkien-reads-from-the-hobbit-for-30-minutes-1952.html"/>
+        <updated>2026-01-07T14:43:16.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.openculture.com/2026/01/j-r-r-tolkien-reads-from-the-hobbit-for-30-minutes-1952.html
+Comments URL: https://news.ycombinator.com/item?id=46526896
+Points: 150
+# Comments: 42]]></summary>
+        <author>
+            <name>bookofjoe</name>
         </author>
     </entry>
     <entry>
@@ -17189,59 +17228,6 @@ Points: 55
 # Comments: 3]]></summary>
         <author>
             <name>pseudolus</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[An Implementation of J]]></title>
-        <id>https://news.ycombinator.com/item?id=46259702</id>
-        <link href="https://www.jsoftware.com/ioj/ioj.htm"/>
-        <updated>2025-12-14T00:34:56.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.jsoftware.com/ioj/ioj.htm
-Comments URL: https://news.ycombinator.com/item?id=46259702
-Points: 54
-# Comments: 20]]></summary>
-        <author>
-            <name>ofalkaed</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: Interactive Common Lisp: An Enhanced REPL]]></title>
-        <id>https://news.ycombinator.com/item?id=46259671</id>
-        <link href="https://github.com/atgreen/icl"/>
-        <updated>2025-12-14T00:31:02.000Z</updated>
-        <summary type="html"><![CDATA[I created this because sometimes I want more than rlwrap but less than emacs. icl aims to hit that middle sweet spot.
-It's a terminal application with context-aware auto-complete, an interactive object inspector, auto-indentation, syntax colouring, persistent history, and much more.  It uses sly to communicate with the child lisp process and aims to be compatible with any sly-supporting implementation. I hope others find it useful!
-Comments URL: https://news.ycombinator.com/item?id=46259671
-Points: 55
-# Comments: 3]]></summary>
-        <author>
-            <name>atgreen</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[From Zero to QED: An informal introduction to formality with Lean 4]]></title>
-        <id>https://news.ycombinator.com/item?id=46259343</id>
-        <link href="https://sdiehl.github.io/zero-to-qed/01_introduction.html"/>
-        <updated>2025-12-13T23:42:03.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://sdiehl.github.io/zero-to-qed/01_introduction.html
-Comments URL: https://news.ycombinator.com/item?id=46259343
-Points: 86
-# Comments: 11]]></summary>
-        <author>
-            <name>rwosync</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Closures as Win32 Window Procedures]]></title>
-        <id>https://news.ycombinator.com/item?id=46259334</id>
-        <link href="https://nullprogram.com/blog/2025/12/12/"/>
-        <updated>2025-12-13T23:39:48.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://nullprogram.com/blog/2025/12/12/
-Comments URL: https://news.ycombinator.com/item?id=46259334
-Points: 52
-# Comments: 5]]></summary>
-        <author>
-            <name>ibobev</name>
         </author>
     </entry>
 </feed>
