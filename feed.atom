@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-01-13T04:04:46.509Z</updated>
+    <updated>2026-01-13T05:31:36.878Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
@@ -17256,114 +17256,6 @@ Points: 50
 # Comments: 16]]></summary>
         <author>
             <name>birdculture</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GraphQL: The enterprise honeymoon is over]]></title>
-        <id>https://news.ycombinator.com/item?id=46264704</id>
-        <link href="https://johnjames.blog/posts/graphql-the-enterprise-honeymoon-is-over"/>
-        <updated>2025-12-14T17:13:30.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://johnjames.blog/posts/graphql-the-enterprise-honeymoon-is-over
-Comments URL: https://news.ycombinator.com/item?id=46264704
-Points: 72
-# Comments: 55]]></summary>
-        <author>
-            <name>johnjames4214</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: A pager]]></title>
-        <id>https://news.ycombinator.com/item?id=46264657</id>
-        <link href="https://www.udp7777.com/"/>
-        <updated>2025-12-14T17:10:08.000Z</updated>
-        <summary type="html"><![CDATA[Hello HN,
-I basically don't use notifications for anything. The noise is too much. Slack is too loud. Email is too slow. But sometimes you do need a note in your face.
-I found myself missing 1990s pagers. I wanted a digital equivalent - something that does one thing: beep until I ack it.
-So I built UDP-7777.
-Concept:
-- 0% Cloud: It listens on UDP Port 7777. No accounts, no central servers. You don't need Tailscale/ZeroTier/WG/etc, it's just easy for device sets.
-- CAPCODES: It maps your IP address (LAN or Tailscale) to a retro 10-digit "CAPCODE" that looks like a phone number (e.g., (213) 070-6433 for loopback).
-- Minimalism: Bare-bones interface. Just a box, a few buttons, and a big red blinker.
-The Tech:
-It's a single binary written in Go (using Fyne). It implements "burst fire" UDP (sending packets 3x) to ensure delivery without the handshake overhead of TCP.
-New in v2.2.7:
-- Frequency Tuning: Bind specifically to your Tailscale/ZeroTier interface.
-- Squelch: Optional shared-secret keys to ignore unauthorized packets.
-- Heartbeat: Visual/Audio alerts that persist until you physically click ACK.
-I built this for anyone looking to cut through the noise—DevOps teams handing off the "on-call IP", or deep-work focus where you only want interruptions from a
-high-trust circle.
-I'd love to hear your thoughts on the IP-to-Phone-Number mapping logic (it's purely visual, but I'm really into it).
-Site & Binaries (Signed for Mac/Win): https://udp7777.com
-Comments URL: https://news.ycombinator.com/item?id=46264657
-Points: 56
-# Comments: 25]]></summary>
-        <author>
-            <name>keepamovin</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Hashcards: A Plain-Text Spaced Repetition System]]></title>
-        <id>https://news.ycombinator.com/item?id=46264492</id>
-        <link href="https://borretti.me/article/hashcards-plain-text-spaced-repetition"/>
-        <updated>2025-12-14T16:55:29.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://borretti.me/article/hashcards-plain-text-spaced-repetition
-Comments URL: https://news.ycombinator.com/item?id=46264492
-Points: 52
-# Comments: 9]]></summary>
-        <author>
-            <name>thomascountz</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ask HN: What Are You Working On? (December 2025)]]></title>
-        <id>https://news.ycombinator.com/item?id=46264491</id>
-        <link href="https://news.ycombinator.com/item?id=46264491"/>
-        <updated>2025-12-14T16:55:25.000Z</updated>
-        <summary type="html"><![CDATA[What are you working on?  Any new ideas that you're thinking about?
-Comments URL: https://news.ycombinator.com/item?id=46264491
-Points: 71
-# Comments: 190]]></summary>
-        <author>
-            <name>david927</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Rust Coreutils 0.5.0 Release: 87.75% compatibility with GNU Coreutils]]></title>
-        <id>https://news.ycombinator.com/item?id=46264329</id>
-        <link href="https://github.com/uutils/coreutils/releases/tag/0.5.0"/>
-        <updated>2025-12-14T16:40:40.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://github.com/uutils/coreutils/releases/tag/0.5.0
-Comments URL: https://news.ycombinator.com/item?id=46264329
-Points: 72
-# Comments: 47]]></summary>
-        <author>
-            <name>maxloh</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Update Now: iOS 26.2 Fixes 20 Security Vulnerabilities, 2 Actively Exploited]]></title>
-        <id>https://news.ycombinator.com/item?id=46264101</id>
-        <link href="https://www.macrumors.com/2025/12/12/ios-26-2-security-vulnerabilities/"/>
-        <updated>2025-12-14T16:13:55.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.macrumors.com/2025/12/12/ios-26-2-security-vulnerabilities/
-Comments URL: https://news.ycombinator.com/item?id=46264101
-Points: 57
-# Comments: 40]]></summary>
-        <author>
-            <name>akyuu</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Price of a bot army revealed across online platforms]]></title>
-        <id>https://news.ycombinator.com/item?id=46264068</id>
-        <link href="https://www.cam.ac.uk/stories/price-bot-army-global-index"/>
-        <updated>2025-12-14T16:09:44.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.cam.ac.uk/stories/price-bot-army-global-index
-Comments URL: https://news.ycombinator.com/item?id=46264068
-Points: 51
-# Comments: 10]]></summary>
-        <author>
-            <name>teleforce</name>
         </author>
     </entry>
 </feed>
