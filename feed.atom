@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-01-13T09:34:30.043Z</updated>
+    <updated>2026-01-13T10:31:27.770Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
@@ -17137,47 +17137,6 @@ Points: 53
 # Comments: 15]]></summary>
         <author>
             <name>measurablefunc</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Anthropic Outage for Opus 4.5 and Sonnet 4/4.5 across all services]]></title>
-        <id>https://news.ycombinator.com/item?id=46267385</id>
-        <link href="https://status.claude.com/incidents/9g6qpr72ttbr"/>
-        <updated>2025-12-14T21:53:13.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://status.claude.com/incidents/9g6qpr72ttbr
-Comments URL: https://news.ycombinator.com/item?id=46267385
-Points: 124
-# Comments: 69]]></summary>
-        <author>
-            <name>pablo24602</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Carolina Cloud – One third the cost of AWS for data science workloads]]></title>
-        <id>https://news.ycombinator.com/item?id=46267283</id>
-        <link href="https://carolinacloud.io/"/>
-        <updated>2025-12-14T21:43:35.000Z</updated>
-        <summary type="html"><![CDATA[We're Carolina Cloud - managed data science infrastructure at ~1/3 the cost of AWS.
-I left my job earlier this year after watching companies get crushed by cloud bills for workloads that didn't need hyperscaler complexity. Some examples from my previous life:
-- $1k/month for a basic 16 vCPU VM
-- $50k/month for a high-RAM instance
-- Over $1k/month for notebook platform start-stop execution
-We built Carolina Cloud for data scientists and small teams who need serious compute without the sticker shock. Our sweet spot: if you're running VMs, notebooks, or RStudio and not deeply tied to AWS/Azure/GCP service ecosystems, we can save you a lot of money.
-What we offer:
-- Standard Ubuntu VMs
-- One-click Marimo notebooks
-- One-click RStudio Server and Shiny hosting
-- S3-compatible object storage (launching soon)
-- Prepay discounts for commitments as short as 2 weeks
-- SOC2-certified, HIPAA-compliant datacenter in Charlotte, NC
-Simple pricing: $0.005/vCPU/hr, $0.005/GiB RAM/hr, and $0.0001/GiB of hot storage/hr on AMD EPYC Turin processors. A 32 vCPU, 128GB RAM instance runs ~$240/month vs $800+ on AWS.
-We're not trying to replicate every AWS service - if you need Lambda + Secrets Manager + S3 with pre-signed URLs, stick with AWS. But if you're a hedge fund running backtests, a biotech team analyzing genomics data, or a researcher who just needs a beefy VM without surprise egress fees, we're 1/3 the price.
-Check us out at console.carolinacloud.io - happy to answer questions about our infrastructure, pricing, or why we think there's room for regional clouds built on owned hardware.
-Comments URL: https://news.ycombinator.com/item?id=46267283
-Points: 93
-# Comments: 39]]></summary>
-        <author>
-            <name>bojangleslover</name>
         </author>
     </entry>
 </feed>

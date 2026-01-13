@@ -12774,26 +12774,6 @@
           "wordCount": 72,
           "title": "History of Declarative Programming (2021)",
           "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46267385",
-          "author": "pablo24602",
-          "description": "Article URL: https://status.claude.com/incidents/9g6qpr72ttbr\nComments URL: https://news.ycombinator.com/item?id=46267385\nPoints: 124\n# Comments: 69",
-          "link": "https://status.claude.com/incidents/9g6qpr72ttbr",
-          "publishedOn": "2025-12-14T21:53:13.000Z",
-          "wordCount": 3877,
-          "title": "Anthropic Outage for Opus 4.5 and Sonnet 4/4.5 across all services",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46267283",
-          "author": "bojangleslover",
-          "description": "We're Carolina Cloud - managed data science infrastructure at ~1/3 the cost of AWS.\nI left my job earlier this year after watching companies get crushed by cloud bills for workloads that didn't need hyperscaler complexity. Some examples from my previous life:\n- $1k/month for a basic 16 vCPU VM\n- $50k/month for a high-RAM instance\n- Over $1k/month for notebook platform start-stop execution\nWe built Carolina Cloud for data scientists and small teams who need serious compute without the sticker shock. Our sweet spot: if you're running VMs, notebooks, or RStudio and not deeply tied to AWS/Azure/GCP service ecosystems, we can save you a lot of money.\nWhat we offer:\n- Standard Ubuntu VMs\n- One-click Marimo notebooks\n- One-click RStudio Server and Shiny hosting\n- S3-compatible object storage (launching soon)\n- Prepay discounts for commitments as short as 2 weeks\n- SOC2-certified, HIPAA-compliant datacenter in Charlotte, NC\nSimple pricing: $0.005/vCPU/hr, $0.005/GiB RAM/hr, and $0.0001/GiB of hot storage/hr on AMD EPYC Turin processors. A 32 vCPU, 128GB RAM instance runs ~$240/month vs $800+ on AWS.\nWe're not trying to replicate every AWS service - if you need Lambda + Secrets Manager + S3 with pre-signed URLs, stick with AWS. But if you're a hedge fund running backtests, a biotech team analyzing genomics data, or a researcher who just needs a beefy VM without surprise egress fees, we're 1/3 the price.\nCheck us out at console.carolinacloud.io - happy to answer questions about our infrastructure, pricing, or why we think there's room for regional clouds built on owned hardware.\nComments URL: https://news.ycombinator.com/item?id=46267283\nPoints: 93\n# Comments: 39",
-          "link": "https://carolinacloud.io/",
-          "publishedOn": "2025-12-14T21:43:35.000Z",
-          "wordCount": 4,
-          "title": "Carolina Cloud – One third the cost of AWS for data science workloads",
-          "imageUrl": "https://carolinacloud.io/imessage-preview.webp"
         }
       ]
     }
