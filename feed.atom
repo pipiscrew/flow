@@ -2,10 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-01-12T23:22:09.980Z</updated>
+    <updated>2026-01-13T02:06:56.745Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Google removes AI health summaries after investigation finds dangerous flaws]]></title>
+        <id>https://news.ycombinator.com/item?id=46595419</id>
+        <link href="https://arstechnica.com/ai/2026/01/google-removes-some-ai-health-summaries-after-investigation-finds-dangerous-flaws/"/>
+        <updated>2026-01-12T23:05:04.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://arstechnica.com/ai/2026/01/google-removes-some-ai-health-summaries-after-investigation-finds-dangerous-flaws/
+Comments URL: https://news.ycombinator.com/item?id=46595419
+Points: 75
+# Comments: 37]]></summary>
+        <author>
+            <name>barishnamazov</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Fabrice Bellard's TS Zip (2024)]]></title>
         <id>https://news.ycombinator.com/item?id=46593802</id>
@@ -195,6 +208,20 @@ Points: 58
 # Comments: 20]]></summary>
         <author>
             <name>tortilla</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Agent-of-empires: OpenCode and Claude Code session manager]]></title>
+        <id>https://news.ycombinator.com/item?id=46588905</id>
+        <link href="https://github.com/njbrake/agent-of-empires"/>
+        <updated>2026-01-12T14:23:07.000Z</updated>
+        <summary type="html"><![CDATA[Hi! I’m Nathan: an ML Engineer at Mozilla.ai: I built agent-of-empires (aoe): a CLI application to help you manage all of your running Claude Code/Opencode sessions and know when they are waiting for you.
+- Written in rust and relies on tmux for security and reliability
+- Monitors state of cli sessions to tell you when an agent is running vs idle vs waiting for your input
+- Manage sessions by naming them, grouping them, configuring profiles for various settings
+I'm passionate about getting self-hosted open-weight LLMs to be valid options to compete with proprietary closed models. One roadblock for me is that although tools like opencode allow you to connect to Local LLMs (Ollama, lm studio, etc), they generally run muuuuuch slower than models hosted by Anthropic and OpenAI. I would start a…]]></summary>
+        <author>
+            <name>river_otter</name>
         </author>
     </entry>
     <entry>
@@ -2655,6 +2682,19 @@ Points: 56
 # Comments: 57]]></summary>
         <author>
             <name>borisandcrispin</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Ansible battle tested hardening for Linux, SSH, Nginx, MySQL]]></title>
+        <id>https://news.ycombinator.com/item?id=46529507</id>
+        <link href="https://github.com/dev-sec/ansible-collection-hardening"/>
+        <updated>2026-01-07T17:38:53.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://github.com/dev-sec/ansible-collection-hardening
+Comments URL: https://news.ycombinator.com/item?id=46529507
+Points: 52
+# Comments: 11]]></summary>
+        <author>
+            <name>walterbell</name>
         </author>
     </entry>
     <entry>
@@ -17324,97 +17364,6 @@ Points: 50
 # Comments: 4]]></summary>
         <author>
             <name>ckennelly</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Apple Maps claims it's 29,905 miles away]]></title>
-        <id>https://news.ycombinator.com/item?id=46262950</id>
-        <link href="https://mathstodon.xyz/@dpiponi/115651419771418748"/>
-        <updated>2025-12-14T13:45:41.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://mathstodon.xyz/@dpiponi/115651419771418748
-Comments URL: https://news.ycombinator.com/item?id=46262950
-Points: 61
-# Comments: 35]]></summary>
-        <author>
-            <name>ColinWright</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AI and the ironies of automation – Part 2]]></title>
-        <id>https://news.ycombinator.com/item?id=46262816</id>
-        <link href="https://www.ufried.com/blog/ironies_of_ai_2/"/>
-        <updated>2025-12-14T13:19:15.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.ufried.com/blog/ironies_of_ai_2/
-Comments URL: https://news.ycombinator.com/item?id=46262816
-Points: 65
-# Comments: 10]]></summary>
-        <author>
-            <name>BinaryIgor</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Vacuum Is a Lie: About Your Indexes]]></title>
-        <id>https://news.ycombinator.com/item?id=46262777</id>
-        <link href="https://boringsql.com/posts/vacuum-is-lie/"/>
-        <updated>2025-12-14T13:13:41.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://boringsql.com/posts/vacuum-is-lie/
-Comments URL: https://news.ycombinator.com/item?id=46262777
-Points: 55
-# Comments: 35]]></summary>
-        <author>
-            <name>birdculture</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Kimi K2 1T model runs on 2 512GB M3 Ultras]]></title>
-        <id>https://news.ycombinator.com/item?id=46262734</id>
-        <link href="https://twitter.com/awnihannun/status/1943723599971443134"/>
-        <updated>2025-12-14T13:04:34.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://twitter.com/awnihannun/status/1943723599971443134
-Comments URL: https://news.ycombinator.com/item?id=46262734
-Points: 64
-# Comments: 29]]></summary>
-        <author>
-            <name>jeudesprits</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Baumol's Cost Disease]]></title>
-        <id>https://news.ycombinator.com/item?id=46262592</id>
-        <link href="https://en.wikipedia.org/wiki/Baumol_effect"/>
-        <updated>2025-12-14T12:34:35.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://en.wikipedia.org/wiki/Baumol_effect
-Comments URL: https://news.ycombinator.com/item?id=46262592
-Points: 57
-# Comments: 67]]></summary>
-        <author>
-            <name>drra</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Gorman Paradox: Where Are All the AI-Generated Apps?]]></title>
-        <id>https://news.ycombinator.com/item?id=46262545</id>
-        <link href="https://codemanship.wordpress.com/2025/12/14/the-gorman-paradox-where-are-all-the-ai-generated-apps/"/>
-        <updated>2025-12-14T12:18:59.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://codemanship.wordpress.com/2025/12/14/the-gorman-paradox-where-are-all-the-ai-generated-apps/
-Comments URL: https://news.ycombinator.com/item?id=46262545
-Points: 60
-# Comments: 87]]></summary>
-        <author>
-            <name>ArmageddonIt</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Europeans' health data sold to US firm run by ex-Israeli spies]]></title>
-        <id>https://news.ycombinator.com/item?id=46262524</id>
-        <link href="https://www.ftm.eu/articles/europe-health-data-us-firm-israel-spies"/>
-        <updated>2025-12-14T12:15:09.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.ftm.eu/articles/europe-health-data-us-firm-israel-spies
-Comments URL: https://news.ycombinator.com/item?id=46262524
-Points: 118
-# Comments: 45]]></summary>
-        <author>
-            <name>Fnoord</name>
         </author>
     </entry>
 </feed>

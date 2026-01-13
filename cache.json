@@ -6,6 +6,16 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=46595419",
+          "author": "barishnamazov",
+          "description": "Article URL: https://arstechnica.com/ai/2026/01/google-removes-some-ai-health-summaries-after-investigation-finds-dangerous-flaws/\nComments URL: https://news.ycombinator.com/item?id=46595419\nPoints: 75\n# Comments: 37",
+          "link": "https://arstechnica.com/ai/2026/01/google-removes-some-ai-health-summaries-after-investigation-finds-dangerous-flaws/",
+          "publishedOn": "2026-01-12T23:05:04.000Z",
+          "wordCount": 2428,
+          "title": "Google removes AI health summaries after investigation finds dangerous flaws",
+          "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2024/05/GettyImages-1488311999-1152x648.jpg"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=46593802",
           "author": "everlier",
           "description": "Article URL: https://www.bellard.org/ts_zip/\nComments URL: https://news.ycombinator.com/item?id=46593802\nPoints: 52\n# Comments: 15",
@@ -144,6 +154,16 @@
           "wordCount": 4745,
           "title": "Keychron's Nape Pro turns your keyboard into a laptop‑style trackball rig",
           "imageUrl": "https://www.yankodesign.com/images/design_news/2026/01/auto-draft/keychron_nape_pro_1.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46588905",
+          "author": "river_otter",
+          "description": "Hi! I’m Nathan: an ML Engineer at Mozilla.ai: I built agent-of-empires (aoe): a CLI application to help you manage all of your running Claude Code/Opencode sessions and know when they are waiting for you.\n- Written in rust and relies on tmux for security and reliability\n- Monitors state of cli sessions to tell you when an agent is running vs idle vs waiting for your input\n- Manage sessions by naming them, grouping them, configuring profiles for various settings\nI'm passionate about getting self-hosted open-weight LLMs to be valid options to compete with proprietary closed models. One roadblock for me is that although tools like opencode allow you to connect to Local LLMs (Ollama, lm studio, etc), they generally run muuuuuch slower than models hosted by Anthropic and OpenAI. I would start a…",
+          "link": "https://github.com/njbrake/agent-of-empires",
+          "publishedOn": "2026-01-12T14:23:07.000Z",
+          "wordCount": 3429,
+          "title": "Show HN: Agent-of-empires: OpenCode and Claude Code session manager",
+          "imageUrl": "https://opengraph.githubassets.com/f302ad80c3906f050718518c00ce77e158a702ce35baad4e874c679f1659c3d0/njbrake/agent-of-empires"
         },
         {
           "id": "https://news.ycombinator.com/item?id=46588837",
@@ -1944,6 +1964,16 @@
           "wordCount": 769,
           "title": "A tab hoarder's journey to sanity",
           "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46529507",
+          "author": "walterbell",
+          "description": "Article URL: https://github.com/dev-sec/ansible-collection-hardening\nComments URL: https://news.ycombinator.com/item?id=46529507\nPoints: 52\n# Comments: 11",
+          "link": "https://github.com/dev-sec/ansible-collection-hardening",
+          "publishedOn": "2026-01-07T17:38:53.000Z",
+          "wordCount": 2613,
+          "title": "Ansible battle tested hardening for Linux, SSH, Nginx, MySQL",
+          "imageUrl": "https://opengraph.githubassets.com/ecad8d7cb7bb9c6abf2f349f2dcf50776d0a54899ad77074e026ebf7b7ed3a1e/dev-sec/ansible-collection-hardening"
         },
         {
           "id": "https://news.ycombinator.com/item?id=46529257",
@@ -12894,76 +12924,6 @@
           "wordCount": 3558,
           "title": "Illuminating the processor core with LLVM-mca",
           "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46262950",
-          "author": "ColinWright",
-          "description": "Article URL: https://mathstodon.xyz/@dpiponi/115651419771418748\nComments URL: https://news.ycombinator.com/item?id=46262950\nPoints: 61\n# Comments: 35",
-          "link": "https://mathstodon.xyz/@dpiponi/115651419771418748",
-          "publishedOn": "2025-12-14T13:45:41.000Z",
-          "wordCount": 159,
-          "title": "Apple Maps claims it's 29,905 miles away",
-          "imageUrl": "https://media.mathstodon.xyz/media_attachments/files/115/651/410/686/396/887/original/e3aafa4be0036a27.jpeg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46262816",
-          "author": "BinaryIgor",
-          "description": "Article URL: https://www.ufried.com/blog/ironies_of_ai_2/\nComments URL: https://news.ycombinator.com/item?id=46262816\nPoints: 65\n# Comments: 10",
-          "link": "https://www.ufried.com/blog/ironies_of_ai_2/",
-          "publishedOn": "2025-12-14T13:19:15.000Z",
-          "wordCount": 3512,
-          "title": "AI and the ironies of automation – Part 2",
-          "imageUrl": "https://ufried.com//images/logo.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46262777",
-          "author": "birdculture",
-          "description": "Article URL: https://boringsql.com/posts/vacuum-is-lie/\nComments URL: https://news.ycombinator.com/item?id=46262777\nPoints: 55\n# Comments: 35",
-          "link": "https://boringsql.com/posts/vacuum-is-lie/",
-          "publishedOn": "2025-12-14T13:13:41.000Z",
-          "wordCount": 2951,
-          "title": "Vacuum Is a Lie: About Your Indexes",
-          "imageUrl": "https://boringsql.com/og-images/vacuum-is-lie-og.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46262734",
-          "author": "jeudesprits",
-          "description": "Article URL: https://twitter.com/awnihannun/status/1943723599971443134\nComments URL: https://news.ycombinator.com/item?id=46262734\nPoints: 64\n# Comments: 29",
-          "link": "https://twitter.com/awnihannun/status/1943723599971443134",
-          "publishedOn": "2025-12-14T13:04:34.000Z",
-          "wordCount": 755,
-          "title": "Kimi K2 1T model runs on 2 512GB M3 Ultras",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46262592",
-          "author": "drra",
-          "description": "Article URL: https://en.wikipedia.org/wiki/Baumol_effect\nComments URL: https://news.ycombinator.com/item?id=46262592\nPoints: 57\n# Comments: 67",
-          "link": "https://en.wikipedia.org/wiki/Baumol_effect",
-          "publishedOn": "2025-12-14T12:34:35.000Z",
-          "wordCount": null,
-          "title": "Baumol's Cost Disease",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46262545",
-          "author": "ArmageddonIt",
-          "description": "Article URL: https://codemanship.wordpress.com/2025/12/14/the-gorman-paradox-where-are-all-the-ai-generated-apps/\nComments URL: https://news.ycombinator.com/item?id=46262545\nPoints: 60\n# Comments: 87",
-          "link": "https://codemanship.wordpress.com/2025/12/14/the-gorman-paradox-where-are-all-the-ai-generated-apps/",
-          "publishedOn": "2025-12-14T12:18:59.000Z",
-          "wordCount": 3098,
-          "title": "The Gorman Paradox: Where Are All the AI-Generated Apps?",
-          "imageUrl": "https://i0.wp.com/codemanship.wordpress.com/wp-content/uploads/2025/12/image-2.png?fit=1200%2C800&ssl=1"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46262524",
-          "author": "Fnoord",
-          "description": "Article URL: https://www.ftm.eu/articles/europe-health-data-us-firm-israel-spies\nComments URL: https://news.ycombinator.com/item?id=46262524\nPoints: 118\n# Comments: 45",
-          "link": "https://www.ftm.eu/articles/europe-health-data-us-firm-israel-spies",
-          "publishedOn": "2025-12-14T12:15:09.000Z",
-          "wordCount": 3111,
-          "title": "Europeans' health data sold to US firm run by ex-Israeli spies",
-          "imageUrl": "https://www.ftm.eu/uploads/media_filter/68c40c17d4381/article_1400_nocrop/Spy_Header.jpg?v=0"
         }
       ]
     }
