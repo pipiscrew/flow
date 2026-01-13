@@ -16,6 +16,16 @@
           "imageUrl": "https://assets-prd.ignimgs.com/2025/11/08/wh500worlds-vcms-thumbs-recovered-1762612481618.jpg?width=1280&format=jpg&auto=webp&quality=80"
         },
         {
+          "id": "https://news.ycombinator.com/item?id=46605854",
+          "author": "tonioab",
+          "description": "Article URL: https://www.ablg.io/blog/no-management-needed\nComments URL: https://news.ycombinator.com/item?id=46605854\nPoints: 61\n# Comments: 73",
+          "link": "https://www.ablg.io/blog/no-management-needed",
+          "publishedOn": "2026-01-13T18:54:30.000Z",
+          "wordCount": 3672,
+          "title": "No management needed: anti-patterns in early-stage engineering teams",
+          "imageUrl": "https://www.ablg.io/og?title=No%20management%20needed%3A%20anti-patterns%20in%20early-stage%20engineering%20teams"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=46605553",
           "author": "speckx",
           "description": "Article URL: https://coywolf.com/news/productivity/signal-president-and-vp-warn-agentic-ai-is-insecure-unreliable-and-a-surveillance-nightmare/\nComments URL: https://news.ycombinator.com/item?id=46605553\nPoints: 120\n# Comments: 28",
@@ -164,6 +174,16 @@
           "wordCount": null,
           "title": "The UK is shaping a future of Precrime and dissent management",
           "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46600092",
+          "author": "lalitgehani",
+          "description": "Hi HN, I’m the creator of SnackBase.\nI built this because I work in Healthcare and Life Sciences domain and was tired of spending months building the same \"compliant\" infrastructure (Audit Logs, Row-Level Security, PII Masking, Auth) before writing any actual product code.\nThe Problem: Existing BaaS tools (Supabase, Appwrite) are amazing, but they are hard to validate for GxP (FDA regulations) and often force you into a JS/Go ecosystem. I wanted something native to the Python tools I already use.\nThe Solution: SnackBase is a self-hosted Python (FastAPI + SQLAlchemy) backend that includes:\nCompliance Core: Immutable audit logs with blockchain-style hashing (prev_hash) for integrity.\nNative Python Hooks: You can write business logic in pure Python (no webhooks or JS runtimes required).\nClean Architecture: Strict separation of layers. No business logic in the API routes.\nThe Stack:\nPython 3.12 + FastAPI\nSQLAlchemy 2.0 (Async)\nReact 19 (Admin UI)\nLinks:\nLive Demo: https://demo.snackbase.dev\nRepo: https://github.com/lalitgehani/snackbase\nThe demo resets every hour. I’d love feedback on the DSL implementation or the audit logging approach.\nComments URL: https://news.ycombinator.com/item?id=46600092\nPoints: 52\n# Comments: 6",
+          "link": "https://snackbase.dev/",
+          "publishedOn": "2026-01-13T12:27:53.000Z",
+          "wordCount": 7035,
+          "title": "Show HN: SnackBase – Open-source, GxP-compliant back end for Python teams",
+          "imageUrl": "https://lg-15da013d.mintlify.app/mintlify-assets/_next/image?url=%2F_mintlify%2Fapi%2Fog%3Fdivision%3DGetting%2BStarted%26appearance%3Ddark%26title%3DSnackBase%26description%3D%2B%26primaryColor%3D%252316A34A%26lightColor%3D%252307C983%26darkColor%3D%252315803D%26backgroundLight%3D%2523ffffff%26backgroundDark%3D%2523090d0d&w=1200&q=100"
         },
         {
           "id": "https://news.ycombinator.com/item?id=46599897",
@@ -12864,16 +12884,6 @@
           "wordCount": null,
           "title": "I'm Kenyan. I Don't Write Like ChatGPT. ChatGPT Writes Like Me",
           "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46272487",
-          "author": "pil0u",
-          "description": "Article URL: https://andyatkinson.com/avoid-uuid-version-4-primary-keys\nComments URL: https://news.ycombinator.com/item?id=46272487\nPoints: 102\n# Comments: 99",
-          "link": "https://andyatkinson.com/avoid-uuid-version-4-primary-keys",
-          "publishedOn": "2025-12-15T10:08:02.000Z",
-          "wordCount": 3226,
-          "title": "Avoid UUIDv4 Primary Keys",
-          "imageUrl": "https://andyatkinson.com/assets/images/authorimagenew.jpg"
         }
       ]
     }
