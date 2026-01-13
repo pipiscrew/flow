@@ -66,6 +66,16 @@
           "imageUrl": "https://scotthelme.co.uk/content/images/size/w1200/2026/01/2025-energy.webp"
         },
         {
+          "id": "https://news.ycombinator.com/item?id=46602324",
+          "author": "19-84",
+          "description": "Reddit's API is effectively dead for archival. Third-party apps are gone. Reddit has threatened to cut off access to the Pushshift dataset multiple times. But 3.28TB of Reddit history exists as a torrent right now, and I built a tool to turn it into something you can browse on your own hardware.\nThe key point: This doesn't touch Reddit's servers. Ever. Download the Pushshift dataset, run my tool locally, get a fully browsable archive. Works on an air-gapped machine. Works on a Raspberry Pi serving your LAN. Works on a USB drive you hand to someone.\nWhat it does: Takes compressed data dumps from Reddit (.zst), Voat (SQL), and Ruqqus (.7z) and generates static HTML. No JavaScript, no external requests, no tracking. Open index.html and browse. Want search? Run the optional Docker stack with P…",
+          "link": "https://github.com/19-84/redd-archiver",
+          "publishedOn": "2026-01-13T15:35:09.000Z",
+          "wordCount": 17186,
+          "title": "Show HN: Self-host Reddit – 2.38B posts, works offline, yours forever",
+          "imageUrl": "https://opengraph.githubassets.com/cfe0c0e88ce81bb7cfbf8482c0456036481f0404d6a935422712b61253fe52b6/19-84/redd-archiver"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=46602102",
           "author": "ekianjo",
           "description": "Article URL: https://www.youtube.com/watch?v=Rs_JrOIo3SE\nComments URL: https://news.ycombinator.com/item?id=46602102\nPoints: 294\n# Comments: 663",

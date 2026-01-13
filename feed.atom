@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-01-13T19:25:51.028Z</updated>
+    <updated>2026-01-13T20:32:28.747Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
@@ -82,6 +82,18 @@ Points: 123
 # Comments: 123]]></summary>
         <author>
             <name>MattSayar</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Self-host Reddit – 2.38B posts, works offline, yours forever]]></title>
+        <id>https://news.ycombinator.com/item?id=46602324</id>
+        <link href="https://github.com/19-84/redd-archiver"/>
+        <updated>2026-01-13T15:35:09.000Z</updated>
+        <summary type="html"><![CDATA[Reddit's API is effectively dead for archival. Third-party apps are gone. Reddit has threatened to cut off access to the Pushshift dataset multiple times. But 3.28TB of Reddit history exists as a torrent right now, and I built a tool to turn it into something you can browse on your own hardware.
+The key point: This doesn't touch Reddit's servers. Ever. Download the Pushshift dataset, run my tool locally, get a fully browsable archive. Works on an air-gapped machine. Works on a Raspberry Pi serving your LAN. Works on a USB drive you hand to someone.
+What it does: Takes compressed data dumps from Reddit (.zst), Voat (SQL), and Ruqqus (.7z) and generates static HTML. No JavaScript, no external requests, no tracking. Open index.html and browse. Want search? Run the optional Docker stack with P…]]></summary>
+        <author>
+            <name>19-84</name>
         </author>
     </entry>
     <entry>
