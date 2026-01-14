@@ -6,6 +6,56 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=46619030",
+          "author": "hn_acker",
+          "description": "Article URL: https://www.eff.org/deeplinks/2026/01/so-youve-hit-age-gate-what-now\nComments URL: https://news.ycombinator.com/item?id=46619030\nPoints: 78\n# Comments: 46",
+          "link": "https://www.eff.org/deeplinks/2026/01/so-youve-hit-age-gate-what-now",
+          "publishedOn": "2026-01-14T17:27:22.000Z",
+          "wordCount": 5035,
+          "title": "So, You've Hit an Age Gate. What Now?",
+          "imageUrl": "https://www.eff.org/files/banner_library/ageverificationbanner-2.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46618901",
+          "author": "MBCook",
+          "description": "Article URL: https://electrek.co/2026/01/13/ford-f150-lightning-outsold-tesla-cybertruck-canceled-not-selling-enough/\nComments URL: https://news.ycombinator.com/item?id=46618901\nPoints: 103\n# Comments: 92",
+          "link": "https://electrek.co/2026/01/13/ford-f150-lightning-outsold-tesla-cybertruck-canceled-not-selling-enough/",
+          "publishedOn": "2026-01-14T17:20:09.000Z",
+          "wordCount": 3312,
+          "title": "Ford F-150 Lightning outsold the Cybertruck and was then canceled for poor sales",
+          "imageUrl": "https://i0.wp.com/electrek.co/wp-content/uploads/sites/3/2026/01/Tesla-Cybertruck-sales.png?resize=1200%2C628&quality=82&strip=all&ssl=1"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46618544",
+          "author": "mrzool",
+          "description": "Article URL: https://www.the-berliner.com/english-news-berlin/4000-tons-of-potatoes-to-be-given-away-for-free/\nComments URL: https://news.ycombinator.com/item?id=46618544\nPoints: 96\n# Comments: 79",
+          "link": "https://www.the-berliner.com/english-news-berlin/4000-tons-of-potatoes-to-be-given-away-for-free/",
+          "publishedOn": "2026-01-14T16:57:07.000Z",
+          "wordCount": 3693,
+          "title": "4k tons of potatoes to be given away for free in Berlin",
+          "imageUrl": "https://www.the-berliner.com/wp-content/uploads/2026/01/410886459_1768233023_v16_9_1600.webp"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46618272",
+          "author": "srameshc",
+          "description": "Article URL: https://www.npr.org/2026/01/14/nx-s1-5638908/walmart-prices-inflation-affordability-shrinkflation\nComments URL: https://news.ycombinator.com/item?id=46618272\nPoints: 75\n# Comments: 40",
+          "link": "https://www.npr.org/2026/01/14/nx-s1-5638908/walmart-prices-inflation-affordability-shrinkflation",
+          "publishedOn": "2026-01-14T16:39:43.000Z",
+          "wordCount": 2234,
+          "title": "How have prices changed in a year? NPR checked 114 items at Walmart",
+          "imageUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/2112x1188+0+0/resize/1400/quality/85/format/png/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F53%2F8e%2F08c0e7614f25804303558c24653b%2Fwalmart-lead-separated.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46617744",
+          "author": "binarylogic",
+          "description": "Article URL: https://usetero.com/blog/the-question-your-observability-vendor-wont-answer\nComments URL: https://news.ycombinator.com/item?id=46617744\nPoints: 54\n# Comments: 23",
+          "link": "https://usetero.com/blog/the-question-your-observability-vendor-wont-answer",
+          "publishedOn": "2026-01-14T16:07:34.000Z",
+          "wordCount": 1849,
+          "title": "I built Vector. Now I'm answering the question your observability vendor won't",
+          "imageUrl": "https://usetero.com/blog/the-question-your-observability-vendor-wont-answer.jpg"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=46617668",
           "author": "bahmboo",
           "description": "Article URL: https://starlink.com/support/article/58c9c8b7-474e-246f-7e3c-06db3221d34d\nComments URL: https://news.ycombinator.com/item?id=46617668\nPoints: 59\n# Comments: 9",
@@ -14,6 +64,16 @@
           "wordCount": 7583,
           "title": "Starlink roam 50GB is now 100GB with unlimited slow speed after that",
           "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46617360",
+          "author": "thinkingemote",
+          "description": "Article URL: https://www.ismypubfucked.com/\nComments URL: https://news.ycombinator.com/item?id=46617360\nPoints: 73\n# Comments: 32",
+          "link": "https://www.ismypubfucked.com/",
+          "publishedOn": "2026-01-14T15:44:22.000Z",
+          "wordCount": 342,
+          "title": "Find a pub that needs you",
+          "imageUrl": "https://ismypubfucked.com/og-default.png"
         },
         {
           "id": "https://news.ycombinator.com/item?id=46617149",
@@ -12814,36 +12874,6 @@
           "wordCount": null,
           "title": "A linear-time alternative for Dimensionality Reduction and fast visualisation",
           "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46285424",
-          "author": "sueszli",
-          "description": "built a tiny pytorch clone in c after going through prof. vijay janapa reddi's mlsys book: mlsysbook.ai/tinytorch/\nperfect for learning how ml frameworks work under the hood :)\nComments URL: https://news.ycombinator.com/item?id=46285424\nPoints: 77\n# Comments: 8",
-          "link": "https://github.com/sueszli/autograd.c",
-          "publishedOn": "2025-12-16T06:26:01.000Z",
-          "wordCount": 1189,
-          "title": "Show HN: Autograd.c – A tiny ML framework built from scratch",
-          "imageUrl": "https://opengraph.githubassets.com/8d475a63bf40204a786b47a9d43866a71d96912fa6a7dc04d45fba58e7587a0f/sueszli/autograd.c"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46285376",
-          "author": "1659447091",
-          "description": "Article URL: https://www.bbc.com/news/articles/ckgz318y8elo\nComments URL: https://news.ycombinator.com/item?id=46285376\nPoints: 93\n# Comments: 30",
-          "link": "https://www.bbc.com/news/articles/ckgz318y8elo",
-          "publishedOn": "2025-12-16T06:17:37.000Z",
-          "wordCount": 11079,
-          "title": "Children with cancer scammed out of millions fundraised for their treatment",
-          "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/0b73/live/a6481a60-d6a0-11f0-9fb5-5f3a3703a365.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46285319",
-          "author": "jesse__",
-          "description": "Article URL: https://github.com/scallyw4g/bonsai\nComments URL: https://news.ycombinator.com/item?id=46285319\nPoints: 55\n# Comments: 6",
-          "link": "https://github.com/scallyw4g/bonsai",
-          "publishedOn": "2025-12-16T06:06:43.000Z",
-          "wordCount": 4479,
-          "title": "Bonsai: A Voxel Engine, from scratch",
-          "imageUrl": "https://repository-images.githubusercontent.com/74796411/91e9a674-39a6-4b7a-8eef-c5150dc57beb"
         }
       ]
     }
