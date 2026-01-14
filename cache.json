@@ -66,6 +66,16 @@
           "imageUrl": "https://media.firstcoastnews.com/assets/CCT/images/bc8b8353-1e98-4251-9865-26715af6fd1d/bc8b8353-1e98-4251-9865-26715af6fd1d_1140x641.jpg"
         },
         {
+          "id": "https://news.ycombinator.com/item?id=46620673",
+          "author": "suprasam",
+          "description": "Article URL: https://www.zettalane.com/blog/openzfs-summit-2025-mayanas-objbacker.html\nComments URL: https://news.ycombinator.com/item?id=46620673\nPoints: 56\n# Comments: 8",
+          "link": "https://www.zettalane.com/blog/openzfs-summit-2025-mayanas-objbacker.html",
+          "publishedOn": "2026-01-14T18:49:37.000Z",
+          "wordCount": 1585,
+          "title": "Native ZFS VDEV for Object Storage (OpenZFS Summit)",
+          "imageUrl": null
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=46619030",
           "author": "hn_acker",
           "description": "Article URL: https://www.eff.org/deeplinks/2026/01/so-youve-hit-age-gate-what-now\nComments URL: https://news.ycombinator.com/item?id=46619030\nPoints: 78\n# Comments: 46",
@@ -224,6 +234,16 @@
           "wordCount": 5906,
           "title": "SparkFun Officially Dropping AdaFruit due to CoC Violation",
           "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46616481",
+          "author": "cosinusalpha",
+          "description": "Hi HN, I built webctl because I was frustrated by the gap between curl and full browser automation frameworks like Playwright.\nI initially built this to solve a personal headache: I wanted an AI agent to handle project management tasks on my company’s intranet. I needed it to persist cookies across sessions (to handle SSO) and then scrape a Kanban board.\nExisting AI browser tools (like current MCP implementations) often force unsolicited data into the context window—dumping the full accessibility tree, console logs, and network errors whether you asked for them or not.\nwebctl is an attempt to solve this with a Unix-style CLI:\n- Filter before context: You pipe the output to standard tools. webctl snapshot --interactive-only | head -n 20 means the LLM only sees exactly what I want it to see.\n- Daemon Architecture: It runs a persistent background process. The goal is to keep the browser state (cookies/session) alive while you run discrete, stateless CLI commands.\n- Semantic targeting: It uses ARIA roles (e.g., role=button name~=\"Submit\") rather than fragile CSS selectors.\nDisclaimer: The daemon logic for state persistence is still a bit experimental, but the architecture feels like the right direction for building local, token-efficient agents.\nIt’s basically \"Playwright for the terminal.\"\nComments URL: https://news.ycombinator.com/item?id=46616481\nPoints: 51\n# Comments: 7",
+          "link": "https://github.com/cosinusalpha/webctl",
+          "publishedOn": "2026-01-14T14:34:40.000Z",
+          "wordCount": 5336,
+          "title": "Show HN: Webctl – Browser automation for agents based on CLI instead of MCP",
+          "imageUrl": "https://opengraph.githubassets.com/ac184d0e3630769851769e73dc63905b9a4edf5ab9c25b6edc8ffd96d9d5e84d/cosinusalpha/webctl"
         },
         {
           "id": "https://news.ycombinator.com/item?id=46615374",
@@ -1684,6 +1704,16 @@
           "wordCount": 4753,
           "title": "Rats caught on camera hunting flying bats",
           "imageUrl": "https://scienceclock.com/wp-content/uploads/2025/10/Rats-catching-bats.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46568472",
+          "author": "surprisetalk",
+          "description": "Article URL: https://www.jefftk.com/p/you-can-just-buy-far-uvc\nComments URL: https://news.ycombinator.com/item?id=46568472\nPoints: 52\n# Comments: 70",
+          "link": "https://www.jefftk.com/p/you-can-just-buy-far-uvc",
+          "publishedOn": "2026-01-10T18:26:56.000Z",
+          "wordCount": 2220,
+          "title": "You Can Just Buy Far-UVC",
+          "imageUrl": "https://www.jefftk.com/far-uvc-at-bida-big.jpg"
         },
         {
           "id": "https://news.ycombinator.com/item?id=46567400",
@@ -12913,26 +12943,6 @@
           "publishedOn": "2025-12-16T12:48:12.000Z",
           "wordCount": null,
           "title": "Gemini 3 Pro vs. 2.5 Pro in Pokemon Crystal",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46287253",
-          "author": "lemper",
-          "description": "Article URL: https://jyn.dev/i-m-just-having-fun/\nComments URL: https://news.ycombinator.com/item?id=46287253\nPoints: 244\n# Comments: 74",
-          "link": "https://jyn.dev/i-m-just-having-fun/",
-          "publishedOn": "2025-12-16T11:19:29.000Z",
-          "wordCount": 751,
-          "title": "I'm just having fun",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46286935",
-          "author": "birdculture",
-          "description": "Article URL: https://nakst.gitlab.io/tutorial/ui-part-1.html\nComments URL: https://news.ycombinator.com/item?id=46286935\nPoints: 69\n# Comments: 5",
-          "link": "https://nakst.gitlab.io/tutorial/ui-part-1.html",
-          "publishedOn": "2025-12-16T10:31:40.000Z",
-          "wordCount": 634,
-          "title": "Let's write a toy UI library",
           "imageUrl": null
         }
       ]
