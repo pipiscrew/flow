@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-01-15T06:42:33.024Z</updated>
+    <updated>2026-01-15T07:30:46.556Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
@@ -79,6 +79,19 @@ Points: 71
 # Comments: 17]]></summary>
         <author>
             <name>rabinovich</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ChromaDB Explorer]]></title>
+        <id>https://news.ycombinator.com/item?id=46624731</id>
+        <link href="https://www.chroma-explorer.com/"/>
+        <updated>2026-01-14T22:30:16.000Z</updated>
+        <summary type="html"><![CDATA[https://github.com/stepandel/chroma-explorer
+Comments URL: https://news.ycombinator.com/item?id=46624731
+Points: 50
+# Comments: 3]]></summary>
+        <author>
+            <name>arsentjev</name>
         </author>
     </entry>
     <entry>
@@ -17222,32 +17235,6 @@ But with that, I needed it to be able to fetch all articles from my hundreds of 
 First off, I'm using curl multi for the network layer. The cool thing is it automatically does HTTP/2 multiplex…]]></summary>
         <author>
             <name>superstarryeyes</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[No Graphics API]]></title>
-        <id>https://news.ycombinator.com/item?id=46293062</id>
-        <link href="https://www.sebastianaaltonen.com/blog/no-graphics-api"/>
-        <updated>2025-12-16T19:20:17.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.sebastianaaltonen.com/blog/no-graphics-api
-Comments URL: https://news.ycombinator.com/item?id=46293062
-Points: 99
-# Comments: 24]]></summary>
-        <author>
-            <name>ryandrake</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[I've been writing ring buffers wrong all these years (2016)]]></title>
-        <id>https://news.ycombinator.com/item?id=46292937</id>
-        <link href="https://www.snellman.net/blog/archive/2016-12-13-ring-buffers/"/>
-        <updated>2025-12-16T19:11:47.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.snellman.net/blog/archive/2016-12-13-ring-buffers/
-Comments URL: https://news.ycombinator.com/item?id=46292937
-Points: 98
-# Comments: 36]]></summary>
-        <author>
-            <name>flaghacker</name>
         </author>
     </entry>
 </feed>
