@@ -2,10 +2,62 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-01-14T23:23:27.522Z</updated>
+    <updated>2026-01-15T02:08:47.983Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Anthropic Explicitly Blocking OpenCode]]></title>
+        <id>https://news.ycombinator.com/item?id=46625918</id>
+        <link href="https://gist.github.com/R44VC0RP/bd391f6a23185c0fed6c6b5fb2bac50e"/>
+        <updated>2026-01-15T00:04:24.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://gist.github.com/R44VC0RP/bd391f6a23185c0fed6c6b5fb2bac50e
+Comments URL: https://news.ycombinator.com/item?id=46625918
+Points: 103
+# Comments: 68]]></summary>
+        <author>
+            <name>ryanvogel</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Scaling long-running autonomous coding]]></title>
+        <id>https://news.ycombinator.com/item?id=46624541</id>
+        <link href="https://cursor.com/blog/scaling-agents"/>
+        <updated>2026-01-14T22:18:04.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://cursor.com/blog/scaling-agents
+Comments URL: https://news.ycombinator.com/item?id=46624541
+Points: 110
+# Comments: 61]]></summary>
+        <author>
+            <name>samwillis</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The State of OpenSSL for pyca/cryptography]]></title>
+        <id>https://news.ycombinator.com/item?id=46624352</id>
+        <link href="https://cryptography.io/en/latest/statements/state-of-openssl/"/>
+        <updated>2026-01-14T22:04:10.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://cryptography.io/en/latest/statements/state-of-openssl/
+Comments URL: https://news.ycombinator.com/item?id=46624352
+Points: 70
+# Comments: 16]]></summary>
+        <author>
+            <name>SGran</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Sun Position Calculator]]></title>
+        <id>https://news.ycombinator.com/item?id=46623761</id>
+        <link href="https://drajmarsh.bitbucket.io/earthsun.html"/>
+        <updated>2026-01-14T21:26:51.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://drajmarsh.bitbucket.io/earthsun.html
+Comments URL: https://news.ycombinator.com/item?id=46623761
+Points: 62
+# Comments: 13]]></summary>
+        <author>
+            <name>sanbor</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[The Influentists: AI hype without proof]]></title>
         <id>https://news.ycombinator.com/item?id=46623195</id>
@@ -69,6 +121,28 @@ Points: 60
 # Comments: 27]]></summary>
         <author>
             <name>barishnamazov</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Ask HN: How do you safely give LLMs SSH/DB access?]]></title>
+        <id>https://news.ycombinator.com/item?id=46620990</id>
+        <link href="https://news.ycombinator.com/item?id=46620990"/>
+        <updated>2026-01-14T19:06:23.000Z</updated>
+        <summary type="html"><![CDATA[I have been using Claude Code for DevOps style tasks like SSHing into servers, grepping logs, inspecting files, and querying databases
+Overall it's been great. However, I find myself having to review every single command, a lot of which are repetitive. It still saves me a ton of time, but it's quickly becoming a bit tedious
+I wish I could give the agent some more autonomy. Like giving it a list of pre-approved commands or actions that it is allowed to run over ssh
+For example:
+    OK: ls, grep, cat, tail
+    Not OK: rm, mv, chmod, etc
+    OK: SELECT queries
+    Not OK: INSERT, DELETE, DROP, TRUNCATE
+
+What setups have actually worked for you, and where do you draw the line between autonomy and risk?
+Comments URL: https://news.ycombinator.com/item?id=46620990
+Points: 58
+# Comments: 83]]></summary>
+        <author>
+            <name>nico</name>
         </author>
     </entry>
     <entry>
@@ -17272,123 +17346,6 @@ Points: 55
 # Comments: 15]]></summary>
         <author>
             <name>JumpCrisscross</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Mozilla appoints new CEO Anthony Enzor-Demeo]]></title>
-        <id>https://news.ycombinator.com/item?id=46288491</id>
-        <link href="https://blog.mozilla.org/en/mozilla/leadership/mozillas-next-chapter-anthony-enzor-demeo-new-ceo/"/>
-        <updated>2025-12-16T13:53:14.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://blog.mozilla.org/en/mozilla/leadership/mozillas-next-chapter-anthony-enzor-demeo-new-ceo/
-Comments URL: https://news.ycombinator.com/item?id=46288491
-Points: 127
-# Comments: 187]]></summary>
-        <author>
-            <name>recvonline</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[40 percent of MRI signals do not correspond to actual brain activity]]></title>
-        <id>https://news.ycombinator.com/item?id=46288415</id>
-        <link href="https://www.tum.de/en/news-and-events/all-news/press-releases/details/40-percent-of-mri-signals-do-not-correspond-to-actual-brain-activity"/>
-        <updated>2025-12-16T13:46:57.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.tum.de/en/news-and-events/all-news/press-releases/details/40-percent-of-mri-signals-do-not-correspond-to-actual-brain-activity
-Comments URL: https://news.ycombinator.com/item?id=46288415
-Points: 53
-# Comments: 11]]></summary>
-        <author>
-            <name>geox</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A brief history of Times New Roman]]></title>
-        <id>https://news.ycombinator.com/item?id=46288414</id>
-        <link href="https://typographyforlawyers.com/a-brief-history-of-times-new-roman.html"/>
-        <updated>2025-12-16T13:46:55.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://typographyforlawyers.com/a-brief-history-of-times-new-roman.html
-Comments URL: https://news.ycombinator.com/item?id=46288414
-Points: 71
-# Comments: 30]]></summary>
-        <author>
-            <name>tosh</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[This is not the future]]></title>
-        <id>https://news.ycombinator.com/item?id=46288371</id>
-        <link href="https://blog.mathieui.net/this-is-not-the-future.html"/>
-        <updated>2025-12-16T13:42:24.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://blog.mathieui.net/this-is-not-the-future.html
-Comments URL: https://news.ycombinator.com/item?id=46288371
-Points: 71
-# Comments: 16]]></summary>
-        <author>
-            <name>ericdanielski</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Rust GCC back end: Why and how]]></title>
-        <id>https://news.ycombinator.com/item?id=46288291</id>
-        <link href="https://blog.guillaume-gomez.fr/articles/2025-12-15+Rust+GCC+backend%3A+Why+and+how"/>
-        <updated>2025-12-16T13:33:25.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://blog.guillaume-gomez.fr/articles/2025-12-15+Rust+GCC+backend%3A+Why+and+how
-Comments URL: https://news.ycombinator.com/item?id=46288291
-Points: 65
-# Comments: 30]]></summary>
-        <author>
-            <name>ahlCVA</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Put a ring on it: a lock-free MPMC ring buffer]]></title>
-        <id>https://news.ycombinator.com/item?id=46288286</id>
-        <link href="https://h4x0r.org/ring/"/>
-        <updated>2025-12-16T13:32:42.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://h4x0r.org/ring/
-Comments URL: https://news.ycombinator.com/item?id=46288286
-Points: 53
-# Comments: 20]]></summary>
-        <author>
-            <name>signa11</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Microsoft will kill obsolete cipher that has wreaked decades of havoc]]></title>
-        <id>https://news.ycombinator.com/item?id=46288042</id>
-        <link href="https://arstechnica.com/security/2025/12/microsoft-will-finally-kill-obsolete-cipher-that-has-wreaked-decades-of-havoc/"/>
-        <updated>2025-12-16T13:08:46.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://arstechnica.com/security/2025/12/microsoft-will-finally-kill-obsolete-cipher-that-has-wreaked-decades-of-havoc/
-Comments URL: https://news.ycombinator.com/item?id=46288042
-Points: 101
-# Comments: 57]]></summary>
-        <author>
-            <name>signa11</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Sega Channel: VGHF Recovers over 100 Sega Channel ROMs (and More)]]></title>
-        <id>https://news.ycombinator.com/item?id=46288024</id>
-        <link href="https://gamehistory.org/segachannel/"/>
-        <updated>2025-12-16T13:07:14.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://gamehistory.org/segachannel/
-Comments URL: https://news.ycombinator.com/item?id=46288024
-Points: 69
-# Comments: 6]]></summary>
-        <author>
-            <name>wicket</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Gemini 3 Pro vs. 2.5 Pro in Pokemon Crystal]]></title>
-        <id>https://news.ycombinator.com/item?id=46287848</id>
-        <link href="https://blog.jcz.dev/gemini-3-pro-vs-25-pro-in-pokemon-crystal"/>
-        <updated>2025-12-16T12:48:12.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://blog.jcz.dev/gemini-3-pro-vs-25-pro-in-pokemon-crystal
-Comments URL: https://news.ycombinator.com/item?id=46287848
-Points: 185
-# Comments: 57]]></summary>
-        <author>
-            <name>alphabetting</name>
         </author>
     </entry>
 </feed>

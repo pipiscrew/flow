@@ -6,6 +6,46 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=46625918",
+          "author": "ryanvogel",
+          "description": "Article URL: https://gist.github.com/R44VC0RP/bd391f6a23185c0fed6c6b5fb2bac50e\nComments URL: https://news.ycombinator.com/item?id=46625918\nPoints: 103\n# Comments: 68",
+          "link": "https://gist.github.com/R44VC0RP/bd391f6a23185c0fed6c6b5fb2bac50e",
+          "publishedOn": "2026-01-15T00:04:24.000Z",
+          "wordCount": 1111,
+          "title": "Anthropic Explicitly Blocking OpenCode",
+          "imageUrl": "https://github.githubassets.com/assets/gist-og-image-54fd7dc0713e.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46624541",
+          "author": "samwillis",
+          "description": "Article URL: https://cursor.com/blog/scaling-agents\nComments URL: https://news.ycombinator.com/item?id=46624541\nPoints: 110\n# Comments: 61",
+          "link": "https://cursor.com/blog/scaling-agents",
+          "publishedOn": "2026-01-14T22:18:04.000Z",
+          "wordCount": 4028,
+          "title": "Scaling long-running autonomous coding",
+          "imageUrl": "https://ptht05hbb1ssoooe.public.blob.vercel-storage.com/assets/blog/long-running-agents-og.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46624352",
+          "author": "SGran",
+          "description": "Article URL: https://cryptography.io/en/latest/statements/state-of-openssl/\nComments URL: https://news.ycombinator.com/item?id=46624352\nPoints: 70\n# Comments: 16",
+          "link": "https://cryptography.io/en/latest/statements/state-of-openssl/",
+          "publishedOn": "2026-01-14T22:04:10.000Z",
+          "wordCount": 2064,
+          "title": "The State of OpenSSL for pyca/cryptography",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46623761",
+          "author": "sanbor",
+          "description": "Article URL: https://drajmarsh.bitbucket.io/earthsun.html\nComments URL: https://news.ycombinator.com/item?id=46623761\nPoints: 62\n# Comments: 13",
+          "link": "https://drajmarsh.bitbucket.io/earthsun.html",
+          "publishedOn": "2026-01-14T21:26:51.000Z",
+          "wordCount": 1852,
+          "title": "Sun Position Calculator",
+          "imageUrl": null
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=46623195",
           "author": "LucidLynx",
           "description": "Article URL: https://carette.xyz/posts/influentists/\nComments URL: https://news.ycombinator.com/item?id=46623195\nPoints: 120\n# Comments: 57",
@@ -53,6 +93,16 @@
           "publishedOn": "2026-01-14T19:39:27.000Z",
           "wordCount": null,
           "title": "US to suspend immigrant visa processing for 75 nations, State Department says",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46620990",
+          "author": "nico",
+          "description": "I have been using Claude Code for DevOps style tasks like SSHing into servers, grepping logs, inspecting files, and querying databases\nOverall it's been great. However, I find myself having to review every single command, a lot of which are repetitive. It still saves me a ton of time, but it's quickly becoming a bit tedious\nI wish I could give the agent some more autonomy. Like giving it a list of pre-approved commands or actions that it is allowed to run over ssh\nFor example:\n    OK: ls, grep, cat, tail\n    Not OK: rm, mv, chmod, etc\n    OK: SELECT queries\n    Not OK: INSERT, DELETE, DROP, TRUNCATE\n\nWhat setups have actually worked for you, and where do you draw the line between autonomy and risk?\nComments URL: https://news.ycombinator.com/item?id=46620990\nPoints: 58\n# Comments: 83",
+          "link": "https://news.ycombinator.com/item?id=46620990",
+          "publishedOn": "2026-01-14T19:06:23.000Z",
+          "wordCount": 5387,
+          "title": "Ask HN: How do you safely give LLMs SSH/DB access?",
           "imageUrl": null
         },
         {
@@ -12853,96 +12903,6 @@
           "publishedOn": "2025-12-16T14:11:08.000Z",
           "wordCount": null,
           "title": "U.S. unemployment rose in November despite job gains",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46288491",
-          "author": "recvonline",
-          "description": "Article URL: https://blog.mozilla.org/en/mozilla/leadership/mozillas-next-chapter-anthony-enzor-demeo-new-ceo/\nComments URL: https://news.ycombinator.com/item?id=46288491\nPoints: 127\n# Comments: 187",
-          "link": "https://blog.mozilla.org/en/mozilla/leadership/mozillas-next-chapter-anthony-enzor-demeo-new-ceo/",
-          "publishedOn": "2025-12-16T13:53:14.000Z",
-          "wordCount": 1873,
-          "title": "Mozilla appoints new CEO Anthony Enzor-Demeo",
-          "imageUrl": "https://blog.mozilla.org/wp-content/blogs.dir/278/files/2025/12/Distilled_Header_Anthony-1080x720.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46288415",
-          "author": "geox",
-          "description": "Article URL: https://www.tum.de/en/news-and-events/all-news/press-releases/details/40-percent-of-mri-signals-do-not-correspond-to-actual-brain-activity\nComments URL: https://news.ycombinator.com/item?id=46288415\nPoints: 53\n# Comments: 11",
-          "link": "https://www.tum.de/en/news-and-events/all-news/press-releases/details/40-percent-of-mri-signals-do-not-correspond-to-actual-brain-activity",
-          "publishedOn": "2025-12-16T13:46:57.000Z",
-          "wordCount": 3513,
-          "title": "40 percent of MRI signals do not correspond to actual brain activity",
-          "imageUrl": "https://www.tum.de/fileadmin/user_upload_87/_processed_/7/c/csm_Foto_Riedl_Epp_Gabriel_Castrillon_-_quer_2ca96e8977.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46288414",
-          "author": "tosh",
-          "description": "Article URL: https://typographyforlawyers.com/a-brief-history-of-times-new-roman.html\nComments URL: https://news.ycombinator.com/item?id=46288414\nPoints: 71\n# Comments: 30",
-          "link": "https://typographyforlawyers.com/a-brief-history-of-times-new-roman.html",
-          "publishedOn": "2025-12-16T13:46:55.000Z",
-          "wordCount": 517,
-          "title": "A brief history of Times New Roman",
-          "imageUrl": "https://typographyforlawyers.com/images/og-image.jpg?1763668221"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46288371",
-          "author": "ericdanielski",
-          "description": "Article URL: https://blog.mathieui.net/this-is-not-the-future.html\nComments URL: https://news.ycombinator.com/item?id=46288371\nPoints: 71\n# Comments: 16",
-          "link": "https://blog.mathieui.net/this-is-not-the-future.html",
-          "publishedOn": "2025-12-16T13:42:24.000Z",
-          "wordCount": 738,
-          "title": "This is not the future",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46288291",
-          "author": "ahlCVA",
-          "description": "Article URL: https://blog.guillaume-gomez.fr/articles/2025-12-15+Rust+GCC+backend%3A+Why+and+how\nComments URL: https://news.ycombinator.com/item?id=46288291\nPoints: 65\n# Comments: 30",
-          "link": "https://blog.guillaume-gomez.fr/articles/2025-12-15+Rust+GCC+backend%3A+Why+and+how",
-          "publishedOn": "2025-12-16T13:33:25.000Z",
-          "wordCount": 1533,
-          "title": "Rust GCC back end: Why and how",
-          "imageUrl": "https://guillaume-gomez.fr/image/eye.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46288286",
-          "author": "signa11",
-          "description": "Article URL: https://h4x0r.org/ring/\nComments URL: https://news.ycombinator.com/item?id=46288286\nPoints: 53\n# Comments: 20",
-          "link": "https://h4x0r.org/ring/",
-          "publishedOn": "2025-12-16T13:32:42.000Z",
-          "wordCount": 10042,
-          "title": "Put a ring on it: a lock-free MPMC ring buffer",
-          "imageUrl": "https://h4x0r.org/img/default-seo-image.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46288042",
-          "author": "signa11",
-          "description": "Article URL: https://arstechnica.com/security/2025/12/microsoft-will-finally-kill-obsolete-cipher-that-has-wreaked-decades-of-havoc/\nComments URL: https://news.ycombinator.com/item?id=46288042\nPoints: 101\n# Comments: 57",
-          "link": "https://arstechnica.com/security/2025/12/microsoft-will-finally-kill-obsolete-cipher-that-has-wreaked-decades-of-havoc/",
-          "publishedOn": "2025-12-16T13:08:46.000Z",
-          "wordCount": 2713,
-          "title": "Microsoft will kill obsolete cipher that has wreaked decades of havoc",
-          "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2025/09/microsoft-logo-1024x648.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46288024",
-          "author": "wicket",
-          "description": "Article URL: https://gamehistory.org/segachannel/\nComments URL: https://news.ycombinator.com/item?id=46288024\nPoints: 69\n# Comments: 6",
-          "link": "https://gamehistory.org/segachannel/",
-          "publishedOn": "2025-12-16T13:07:14.000Z",
-          "wordCount": 3778,
-          "title": "Sega Channel: VGHF Recovers over 100 Sega Channel ROMs (and More)",
-          "imageUrl": "https://gamehistory.org/wp-content/uploads/2025/12/segachannel_preview.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46287848",
-          "author": "alphabetting",
-          "description": "Article URL: https://blog.jcz.dev/gemini-3-pro-vs-25-pro-in-pokemon-crystal\nComments URL: https://news.ycombinator.com/item?id=46287848\nPoints: 185\n# Comments: 57",
-          "link": "https://blog.jcz.dev/gemini-3-pro-vs-25-pro-in-pokemon-crystal",
-          "publishedOn": "2025-12-16T12:48:12.000Z",
-          "wordCount": null,
-          "title": "Gemini 3 Pro vs. 2.5 Pro in Pokemon Crystal",
           "imageUrl": null
         }
       ]
