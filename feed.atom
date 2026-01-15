@@ -2,10 +2,49 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-01-15T18:45:51.404Z</updated>
+    <updated>2026-01-15T19:30:15.184Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA['Elite': The Palantir App ICE Uses to Find Neighborhoods to Raid]]></title>
+        <id>https://news.ycombinator.com/item?id=46637127</id>
+        <link href="https://werd.io/elite-the-palantir-app-ice-uses-to-find-neighborhoods-to-raid/"/>
+        <updated>2026-01-15T18:42:46.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://werd.io/elite-the-palantir-app-ice-uses-to-find-neighborhoods-to-raid/
+Comments URL: https://news.ycombinator.com/item?id=46637127
+Points: 100
+# Comments: 26]]></summary>
+        <author>
+            <name>sdoering</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Denmark's struggle to break up with Silicon Valley]]></title>
+        <id>https://news.ycombinator.com/item?id=46636445</id>
+        <link href="https://www.politico.eu/article/denmark-declared-war-against-big-tech-digital-sovereignty/"/>
+        <updated>2026-01-15T17:55:59.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.politico.eu/article/denmark-declared-war-against-big-tech-digital-sovereignty/
+Comments URL: https://news.ycombinator.com/item?id=46636445
+Points: 77
+# Comments: 68]]></summary>
+        <author>
+            <name>giuliomagnifico</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CVEs Affecting the Svelte Ecosystem]]></title>
+        <id>https://news.ycombinator.com/item?id=46636387</id>
+        <link href="https://svelte.dev/blog/cves-affecting-the-svelte-ecosystem"/>
+        <updated>2026-01-15T17:51:24.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://svelte.dev/blog/cves-affecting-the-svelte-ecosystem
+Comments URL: https://news.ycombinator.com/item?id=46636387
+Points: 71
+# Comments: 11]]></summary>
+        <author>
+            <name>tobr</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[GitHub Incident]]></title>
         <id>https://news.ycombinator.com/item?id=46635550</id>
@@ -20,6 +59,19 @@ Points: 81
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Ask HN: How can we solve the loneliness epidemic?]]></title>
+        <id>https://news.ycombinator.com/item?id=46635345</id>
+        <link href="https://news.ycombinator.com/item?id=46635345"/>
+        <updated>2026-01-15T16:49:13.000Z</updated>
+        <summary type="html"><![CDATA[Countless voiceless people sit alone every day and have no one to talk to, people of all ages, who don't feel that they can join any local groups. So they sit on social media all day when they're not at work or school. How can we solve this?
+Comments URL: https://news.ycombinator.com/item?id=46635345
+Points: 84
+# Comments: 141]]></summary>
+        <author>
+            <name>publicdebates</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Design and Implementation of Sprites]]></title>
         <id>https://news.ycombinator.com/item?id=46634450</id>
         <link href="https://fly.io/blog/design-and-implementation/"/>
@@ -30,6 +82,19 @@ Points: 50
 # Comments: 17]]></summary>
         <author>
             <name>sethev</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Found: Medieval Cargo Ship – Largest Vessel of Its Kind Ever]]></title>
+        <id>https://news.ycombinator.com/item?id=46633574</id>
+        <link href="https://www.smithsonianmag.com/smart-news/archaeologists-say-theyve-unearthed-a-massive-medieval-cargo-ship-thats-the-largest-vessel-of-its-kind-ever-found-180987984/"/>
+        <updated>2026-01-15T15:09:16.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.smithsonianmag.com/smart-news/archaeologists-say-theyve-unearthed-a-massive-medieval-cargo-ship-thats-the-largest-vessel-of-its-kind-ever-found-180987984/
+Comments URL: https://news.ycombinator.com/item?id=46633574
+Points: 62
+# Comments: 11]]></summary>
+        <author>
+            <name>bookofjoe</name>
         </author>
     </entry>
     <entry>
@@ -495,6 +560,21 @@ Points: 56
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Show HN: Tabstack – Browser infrastructure for AI agents (by Mozilla)]]></title>
+        <id>https://news.ycombinator.com/item?id=46620358</id>
+        <link href="https://news.ycombinator.com/item?id=46620358"/>
+        <updated>2026-01-14T18:33:56.000Z</updated>
+        <summary type="html"><![CDATA[Hi HN,
+My team and I are building Tabstack to handle the "web layer" for AI agents. Launch Post: https://tabstack.ai/blog/intro-browsing-infrastructure-ai-ag...
+Maintaining a complex infrastructure stack for web browsing is one of the biggest bottlenecks in building reliable agents. You start with a simple fetch, but quickly end up managing a complex stack of proxies, handling client-side hydration, and debugging brittle selectors. and writing custom parsing logic for every site.
+Tabstack is an API that abstracts that infrastructure. You send a URL and an intent; we handle the rendering and return clean, structured data for the LLM.
+How it works under the hood:
+- Escalation Logic: We don't spin up a full browser instance for every request (which is slow and expensive). We attempt lightweig…]]></summary>
+        <author>
+            <name>MrTravisB</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Show HN: Sparrow-1 – Audio-native model for human-level turn-taking without ASR]]></title>
         <id>https://news.ycombinator.com/item?id=46619614</id>
         <link href="https://www.tavus.io/post/sparrow-1-human-level-conversational-timing-in-real-time-voice"/>
@@ -864,6 +944,19 @@ Points: 110
 # Comments: 42]]></summary>
         <author>
             <name>amalinovic</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Inside The Internet Archive's Infrastructure]]></title>
+        <id>https://news.ycombinator.com/item?id=46613324</id>
+        <link href="https://hackernoon.com/the-long-now-of-the-web-inside-the-internet-archives-fight-against-forgetting"/>
+        <updated>2026-01-14T07:26:52.000Z</updated>
+        <summary type="html"><![CDATA[https://github.com/internetarchive/heritrix3
+Comments URL: https://news.ycombinator.com/item?id=46613324
+Points: 59
+# Comments: 4]]></summary>
+        <author>
+            <name>dvrp</name>
         </author>
     </entry>
     <entry>
