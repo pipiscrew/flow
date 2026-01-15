@@ -16,6 +16,16 @@
           "imageUrl": "https://i0.wp.com/electrek.co/wp-content/uploads/sites/3/2024/11/doggerbank-15.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1"
         },
         {
+          "id": "https://news.ycombinator.com/item?id=46637165",
+          "author": "tosh",
+          "description": "Article URL: https://github.com/juicedata/juicefs\nComments URL: https://news.ycombinator.com/item?id=46637165\nPoints: 60\n# Comments: 36",
+          "link": "https://github.com/juicedata/juicefs",
+          "publishedOn": "2026-01-15T18:45:18.000Z",
+          "wordCount": 6892,
+          "title": "JuiceFS is a distributed POSIX file system built on top of Redis and S3",
+          "imageUrl": "https://repository-images.githubusercontent.com/327859577/df8ae009-eea8-40cd-8584-6b41ea00764b"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=46637127",
           "author": "sdoering",
           "description": "Article URL: https://werd.io/elite-the-palantir-app-ice-uses-to-find-neighborhoods-to-raid/\nComments URL: https://news.ycombinator.com/item?id=46637127\nPoints: 100\n# Comments: 26",
@@ -44,6 +54,16 @@
           "wordCount": 1682,
           "title": "CVEs Affecting the Svelte Ecosystem",
           "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46636093",
+          "author": "uvuv",
+          "description": "Article URL: https://www.wiz.io/blog/wiz-research-codebreach-vulnerability-aws-codebuild\nComments URL: https://news.ycombinator.com/item?id=46636093\nPoints: 55\n# Comments: 7",
+          "link": "https://www.wiz.io/blog/wiz-research-codebreach-vulnerability-aws-codebuild",
+          "publishedOn": "2026-01-15T17:30:10.000Z",
+          "wordCount": 18295,
+          "title": "Supply Chain Vuln Compromised Core AWS GitHub Repos & Threatened the AWS Console",
+          "imageUrl": "https://www.datocms-assets.com/75231/1768487317-aws-supply-chain-copy-2-2x-100.jpg?fm=webp"
         },
         {
           "id": "https://news.ycombinator.com/item?id=46635550",
@@ -726,6 +746,16 @@
           "imageUrl": "https://hackernoon.imgix.net/images/bI3BzyBanbVxEZqmLV7jRnw6d9o2-yn0373q.png"
         },
         {
+          "id": "https://news.ycombinator.com/item?id=46613304",
+          "author": "jumploops",
+          "description": "Article URL: https://gist.github.com/simonw/35732f187edbe4fbd0bf976d013f22c8\nComments URL: https://news.ycombinator.com/item?id=46613304\nPoints: 56\n# Comments: 24",
+          "link": "https://gist.github.com/simonw/35732f187edbe4fbd0bf976d013f22c8",
+          "publishedOn": "2026-01-14T07:21:54.000Z",
+          "wordCount": 1856,
+          "title": "Claude Cowork runs Linux VM via Apple virtualization framework",
+          "imageUrl": "https://github.githubassets.com/assets/gist-og-image-54fd7dc0713e.png"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=46612919",
           "author": "stosssik",
           "description": "Article URL: https://simonw.substack.com/p/first-impressions-of-claude-cowork\nComments URL: https://news.ycombinator.com/item?id=46612919\nPoints: 72\n# Comments: 32",
@@ -734,6 +764,16 @@
           "wordCount": null,
           "title": "First impressions of Claude Cowork",
           "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46612494",
+          "author": "ben_talent",
+          "description": "hi hn,\ni built openwork, an open-source, local-first system inspired by claude cowork.\nit’s a native desktop app that runs on top of opencode (opencode.ai).\nit’s basically an alternative gui for opencode, which (at least until now) has been more focused on technical folks.\nthe original seed for openwork was simple: i have a home server, and i wanted my wife and i to be able to run privileged workflows. things like controlling home assistant, or deploying custom web apps (e.g. our customs recipe app recipes.benjaminshafii.com), legal torrents, without living in a terminal.\nour initial setup was running the opencode web server directly and sharing credentials to it. that worked, but i found the web ui unreliable and very unfriendly for non-technical users.\nthe goal with openwork is to bring the kind of workflows i’m used to running in the cli into a gui, while keeping a very deep extensibility mindset. ideally this grows into something closer to an obsidian-style ecosystem, but for agentic work.\nsome core principles i had in mind:\n- open by design: no black boxes, no hosted lock-in. everything runs locally or on your own servers. (models don’t run locally yet, but both opencode and openwork are built with that future in mind.)\n- hyper extensible: skills are installable modules via a skill/package manager, using the native opencode plugin ecosystem.\n- non-technical by default: plans, progress, permissions, and artifacts are surfaced in the ui, not buried in logs.\nyou can already try it:\n- there’s an unsigned dmg\n- or you can clone the repo, install deps, and if you already have opencode running it should work right away\nit’s very alpha, lots of rough edges. i’d love feedback on what feels the roughest or most confusing.\nhappy to answer questions.\nComments URL: https://news.ycombinator.com/item?id=46612494\nPoints: 67\n# Comments: 18",
+          "link": "https://github.com/different-ai/openwork",
+          "publishedOn": "2026-01-14T04:55:04.000Z",
+          "wordCount": 3470,
+          "title": "Show HN: OpenWork – an open-source alternative to Claude Cowork",
+          "imageUrl": "https://opengraph.githubassets.com/2c1325d368316f7c2f1747773733da8262214a896e12e34cfd29a022b027af2c/different-ai/openwork"
         },
         {
           "id": "https://news.ycombinator.com/item?id=46611823",
@@ -12964,16 +13004,6 @@
           "wordCount": 1138,
           "title": "Is Mozilla trying hard to kill itself?",
           "imageUrl": "https://infosec.press/img/avatars/b.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46299552",
-          "author": "firefoxd",
-          "description": "Article URL: https://msanroman.io/blog/ai-consumption-paradigm\nComments URL: https://news.ycombinator.com/item?id=46299552\nPoints: 55\n# Comments: 39",
-          "link": "https://msanroman.io/blog/ai-consumption-paradigm",
-          "publishedOn": "2025-12-17T08:34:00.000Z",
-          "wordCount": 1799,
-          "title": "AI's real superpower: consuming, not creating",
-          "imageUrl": "https://msanroman.io/api/og?title=AI's%20real%20superpower%3A%20consuming%2C%20not%20creating"
         }
       ]
     }

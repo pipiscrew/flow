@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-01-15T20:33:18.336Z</updated>
+    <updated>2026-01-15T21:28:05.137Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
@@ -17,6 +17,19 @@ Points: 69
 # Comments: 22]]></summary>
         <author>
             <name>doener</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[JuiceFS is a distributed POSIX file system built on top of Redis and S3]]></title>
+        <id>https://news.ycombinator.com/item?id=46637165</id>
+        <link href="https://github.com/juicedata/juicefs"/>
+        <updated>2026-01-15T18:45:18.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://github.com/juicedata/juicefs
+Comments URL: https://news.ycombinator.com/item?id=46637165
+Points: 60
+# Comments: 36]]></summary>
+        <author>
+            <name>tosh</name>
         </author>
     </entry>
     <entry>
@@ -56,6 +69,19 @@ Points: 71
 # Comments: 11]]></summary>
         <author>
             <name>tobr</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Supply Chain Vuln Compromised Core AWS GitHub Repos & Threatened the AWS Console]]></title>
+        <id>https://news.ycombinator.com/item?id=46636093</id>
+        <link href="https://www.wiz.io/blog/wiz-research-codebreach-vulnerability-aws-codebuild"/>
+        <updated>2026-01-15T17:30:10.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.wiz.io/blog/wiz-research-codebreach-vulnerability-aws-codebuild
+Comments URL: https://news.ycombinator.com/item?id=46636093
+Points: 55
+# Comments: 7]]></summary>
+        <author>
+            <name>uvuv</name>
         </author>
     </entry>
     <entry>
@@ -986,6 +1012,19 @@ Points: 59
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Claude Cowork runs Linux VM via Apple virtualization framework]]></title>
+        <id>https://news.ycombinator.com/item?id=46613304</id>
+        <link href="https://gist.github.com/simonw/35732f187edbe4fbd0bf976d013f22c8"/>
+        <updated>2026-01-14T07:21:54.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://gist.github.com/simonw/35732f187edbe4fbd0bf976d013f22c8
+Comments URL: https://news.ycombinator.com/item?id=46613304
+Points: 56
+# Comments: 24]]></summary>
+        <author>
+            <name>jumploops</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[First impressions of Claude Cowork]]></title>
         <id>https://news.ycombinator.com/item?id=46612919</id>
         <link href="https://simonw.substack.com/p/first-impressions-of-claude-cowork"/>
@@ -996,6 +1035,34 @@ Points: 72
 # Comments: 32]]></summary>
         <author>
             <name>stosssik</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: OpenWork – an open-source alternative to Claude Cowork]]></title>
+        <id>https://news.ycombinator.com/item?id=46612494</id>
+        <link href="https://github.com/different-ai/openwork"/>
+        <updated>2026-01-14T04:55:04.000Z</updated>
+        <summary type="html"><![CDATA[hi hn,
+i built openwork, an open-source, local-first system inspired by claude cowork.
+it’s a native desktop app that runs on top of opencode (opencode.ai).
+it’s basically an alternative gui for opencode, which (at least until now) has been more focused on technical folks.
+the original seed for openwork was simple: i have a home server, and i wanted my wife and i to be able to run privileged workflows. things like controlling home assistant, or deploying custom web apps (e.g. our customs recipe app recipes.benjaminshafii.com), legal torrents, without living in a terminal.
+our initial setup was running the opencode web server directly and sharing credentials to it. that worked, but i found the web ui unreliable and very unfriendly for non-technical users.
+the goal with openwork is to bring the kind of workflows i’m used to running in the cli into a gui, while keeping a very deep extensibility mindset. ideally this grows into something closer to an obsidian-style ecosystem, but for agentic work.
+some core principles i had in mind:
+- open by design: no black boxes, no hosted lock-in. everything runs locally or on your own servers. (models don’t run locally yet, but both opencode and openwork are built with that future in mind.)
+- hyper extensible: skills are installable modules via a skill/package manager, using the native opencode plugin ecosystem.
+- non-technical by default: plans, progress, permissions, and artifacts are surfaced in the ui, not buried in logs.
+you can already try it:
+- there’s an unsigned dmg
+- or you can clone the repo, install deps, and if you already have opencode running it should work right away
+it’s very alpha, lots of rough edges. i’d love feedback on what feels the roughest or most confusing.
+happy to answer questions.
+Comments URL: https://news.ycombinator.com/item?id=46612494
+Points: 67
+# Comments: 18]]></summary>
+        <author>
+            <name>ben_talent</name>
         </author>
     </entry>
     <entry>
@@ -17422,19 +17489,6 @@ Points: 80
 # Comments: 42]]></summary>
         <author>
             <name>pabs3</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AI's real superpower: consuming, not creating]]></title>
-        <id>https://news.ycombinator.com/item?id=46299552</id>
-        <link href="https://msanroman.io/blog/ai-consumption-paradigm"/>
-        <updated>2025-12-17T08:34:00.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://msanroman.io/blog/ai-consumption-paradigm
-Comments URL: https://news.ycombinator.com/item?id=46299552
-Points: 55
-# Comments: 39]]></summary>
-        <author>
-            <name>firefoxd</name>
         </author>
     </entry>
 </feed>
