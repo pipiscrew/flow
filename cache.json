@@ -16,6 +16,16 @@
           "imageUrl": "https://creepylink.com/opengraph2.png"
         },
         {
+          "id": "https://news.ycombinator.com/item?id=46626836",
+          "author": "0o_MrPatrick_o0",
+          "description": "Article URL: https://patrickmccanna.net/a-better-way-to-limit-claude-code-and-other-coding-agents-access-to-secrets/\nComments URL: https://news.ycombinator.com/item?id=46626836\nPoints: 58\n# Comments: 49",
+          "link": "https://patrickmccanna.net/a-better-way-to-limit-claude-code-and-other-coding-agents-access-to-secrets/",
+          "publishedOn": "2026-01-15T01:45:22.000Z",
+          "wordCount": 3783,
+          "title": "Bubblewrap: A nimble way to prevent agents from accessing your .env files",
+          "imageUrl": null
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=46626410",
           "author": "written-beyond",
           "description": "Article URL: https://furiosa.ai/blog/introducing-rngd-server-efficient-ai-inference-at-data-center-scale\nComments URL: https://news.ycombinator.com/item?id=46626410\nPoints: 91\n# Comments: 44",
@@ -34,6 +44,26 @@
           "wordCount": 1111,
           "title": "Anthropic Explicitly Blocking OpenCode",
           "imageUrl": "https://github.githubassets.com/assets/gist-og-image-54fd7dc0713e.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46624740",
+          "author": "rabinovich",
+          "description": "archive.today has recently (I noticed this, like, 3 days ago) started automatically making requests to someone's personal blog on their CAPTCHA page.  Here's a screenshot of what I'm talking about: https://files.catbox.moe/20jsle.png\nThe relevant JS is:\n   setInterval(function() {\n     fetch(\"https://gyrovague.com/?s=\" + Math.round(new Date().getTime() % 10000000), {\n       referrerPolicy: \"no-referrer\",\n       mode: \"no-cors\"\n     });\n   }, 300);\n\nSo perhaps this is some kind of revenge/DOS attack attempt/deliberately wasting their bandwidth in response to this article?  Maybe an attempt to silence them and force to delete their article?  But if it is, then I have so many questions.  Like, why would the owner of the archive do that 2.5 years after the article was published?  Or why would they even do that in the first place, do they not know about Streisand effect?\nI'm confused.\nComments URL: https://news.ycombinator.com/item?id=46624740\nPoints: 71\n# Comments: 17",
+          "link": "https://news.ycombinator.com/item?id=46624740",
+          "publishedOn": "2026-01-14T22:30:40.000Z",
+          "wordCount": 1083,
+          "title": "Ask HN: Weird archive.today behavior?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46624658",
+          "author": "tosh",
+          "description": "Article URL: https://craftinginterpreters.com/\nComments URL: https://news.ycombinator.com/item?id=46624658\nPoints: 60\n# Comments: 8",
+          "link": "https://craftinginterpreters.com/",
+          "publishedOn": "2026-01-14T22:26:17.000Z",
+          "wordCount": 407,
+          "title": "Crafting Interpreters",
+          "imageUrl": null
         },
         {
           "id": "https://news.ycombinator.com/item?id=46624541",
@@ -284,6 +314,16 @@
           "wordCount": 2299,
           "title": "Never-before-seen Linux malware is \"more advanced than typical\"",
           "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2023/07/exploit-vulnerability-security.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46616529",
+          "author": "tmaly",
+          "description": "I am curious how people are doing RAG locally with minimal dependencies for internal code or complex documents?\nAre you using a vector database, some type of semantic search, a knowledge graph, a hypergraph?\nComments URL: https://news.ycombinator.com/item?id=46616529\nPoints: 68\n# Comments: 21",
+          "link": "https://news.ycombinator.com/item?id=46616529",
+          "publishedOn": "2026-01-14T14:38:29.000Z",
+          "wordCount": 708,
+          "title": "Ask HN: How are you doing RAG locally?",
+          "imageUrl": null
         },
         {
           "id": "https://news.ycombinator.com/item?id=46616496",
@@ -12784,66 +12824,6 @@
           "wordCount": 5203,
           "title": "I've been writing ring buffers wrong all these years (2016)",
           "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46292365",
-          "author": "rom16384",
-          "description": "Article URL: https://www.tabulamag.com/p/too-fast-to-think-the-hidden-fatigue\nComments URL: https://news.ycombinator.com/item?id=46292365\nPoints: 100\n# Comments: 88",
-          "link": "https://www.tabulamag.com/p/too-fast-to-think-the-hidden-fatigue",
-          "publishedOn": "2025-12-16T18:32:46.000Z",
-          "wordCount": 3295,
-          "title": "Vibe coding creates fatigue?",
-          "imageUrl": "https://substackcdn.com/image/fetch/$s_!9BCU!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6754724e-cd49-4ce5-91bd-35cce738c763_1024x1024.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46292266",
-          "author": "megaman821",
-          "description": "Article URL: https://ai.meta.com/samaudio/\nComments URL: https://news.ycombinator.com/item?id=46292266\nPoints: 86\n# Comments: 9",
-          "link": "https://ai.meta.com/samaudio/",
-          "publishedOn": "2025-12-16T18:26:43.000Z",
-          "wordCount": 1922,
-          "title": "Meta Segment Anything Model Audio",
-          "imageUrl": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.2365-6/384127954_1010009116964035_2906046058102555347_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=aa6a2f&_nc_ohc=PG6Qi38x3IkQ7kNvwEV5hLt&_nc_oc=Admiy-3JH1zA_rTmnsNUqY7u2gRcmvFbqaMmxzuQPJEfsae2JkXbzjLdiOy5Sz2v9Bs&_nc_zt=14&_nc_ht=scontent-lga3-2.xx&_nc_gid=KWtFuWGImP5ogD3zcZACGQ&oh=00_AfkqBrzbI5Az913cHFTcdspiiDvSRvI5j5P4xa6SaSdTGQ&oe=694A2405"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46291941",
-          "author": "charlierguo",
-          "description": "https://platform.openai.com/docs/models/gpt-image-1.5\nComments URL: https://news.ycombinator.com/item?id=46291941\nPoints: 89\n# Comments: 38",
-          "link": "https://openai.com/index/new-chatgpt-images-is-here/",
-          "publishedOn": "2025-12-16T18:07:07.000Z",
-          "wordCount": null,
-          "title": "GPT Image 1.5",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46291504",
-          "author": "cratermoon",
-          "description": "Article URL: https://restofworld.org/2025/engineering-graduates-ai-job-losses/\nComments URL: https://news.ycombinator.com/item?id=46291504\nPoints: 50\n# Comments: 38",
-          "link": "https://restofworld.org/2025/engineering-graduates-ai-job-losses/",
-          "publishedOn": "2025-12-16T17:37:41.000Z",
-          "wordCount": 1908,
-          "title": "AI is wiping out entry-level tech jobs, leaving graduates stranded",
-          "imageUrl": "https://restofworld.org/wp-content/uploads/2025/11/AI-take-over_Green-300ppi-1600x900.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46291500",
-          "author": "adityajp",
-          "description": "Article URL: https://www.blacksmith.sh/blog/actions-pricing\nComments URL: https://news.ycombinator.com/item?id=46291500\nPoints: 67\n# Comments: 5",
-          "link": "https://www.blacksmith.sh/blog/actions-pricing",
-          "publishedOn": "2025-12-16T17:37:34.000Z",
-          "wordCount": 1529,
-          "title": "The GitHub Actions control plane is no longer free",
-          "imageUrl": "https://cdn.prod.website-files.com/68232df8de1a79da2c32a09e/6940645783dd546d6a5cde56_Control_Plane.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46291414",
-          "author": "nklow",
-          "description": "Article URL: https://github.blog/changelog/2025-12-16-coming-soon-simpler-pricing-and-a-better-experience-for-github-actions/\nComments URL: https://news.ycombinator.com/item?id=46291414\nPoints: 53\n# Comments: 1",
-          "link": "https://github.blog/changelog/2025-12-16-coming-soon-simpler-pricing-and-a-better-experience-for-github-actions/",
-          "publishedOn": "2025-12-16T17:32:38.000Z",
-          "wordCount": 1521,
-          "title": "GitHub will begin charging for self-hosted action runners on March 2026",
-          "imageUrl": "https://github.blog/wp-content/themes/github-2021-child/dist/img/social-v3-new-releases.jpg"
         }
       ]
     }

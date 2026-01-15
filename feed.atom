@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-01-15T05:32:22.070Z</updated>
+    <updated>2026-01-15T06:42:33.024Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
@@ -17,6 +17,19 @@ Points: 86
 # Comments: 23]]></summary>
         <author>
             <name>dreadsword</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Bubblewrap: A nimble way to prevent agents from accessing your .env files]]></title>
+        <id>https://news.ycombinator.com/item?id=46626836</id>
+        <link href="https://patrickmccanna.net/a-better-way-to-limit-claude-code-and-other-coding-agents-access-to-secrets/"/>
+        <updated>2026-01-15T01:45:22.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://patrickmccanna.net/a-better-way-to-limit-claude-code-and-other-coding-agents-access-to-secrets/
+Comments URL: https://news.ycombinator.com/item?id=46626836
+Points: 58
+# Comments: 49]]></summary>
+        <author>
+            <name>0o_MrPatrick_o0</name>
         </author>
     </entry>
     <entry>
@@ -43,6 +56,42 @@ Points: 103
 # Comments: 68]]></summary>
         <author>
             <name>ryanvogel</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Ask HN: Weird archive.today behavior?]]></title>
+        <id>https://news.ycombinator.com/item?id=46624740</id>
+        <link href="https://news.ycombinator.com/item?id=46624740"/>
+        <updated>2026-01-14T22:30:40.000Z</updated>
+        <summary type="html"><![CDATA[archive.today has recently (I noticed this, like, 3 days ago) started automatically making requests to someone's personal blog on their CAPTCHA page.  Here's a screenshot of what I'm talking about: https://files.catbox.moe/20jsle.png
+The relevant JS is:
+   setInterval(function() {
+     fetch("https://gyrovague.com/?s=" + Math.round(new Date().getTime() % 10000000), {
+       referrerPolicy: "no-referrer",
+       mode: "no-cors"
+     });
+   }, 300);
+
+So perhaps this is some kind of revenge/DOS attack attempt/deliberately wasting their bandwidth in response to this article?  Maybe an attempt to silence them and force to delete their article?  But if it is, then I have so many questions.  Like, why would the owner of the archive do that 2.5 years after the article was published?  Or why would they even do that in the first place, do they not know about Streisand effect?
+I'm confused.
+Comments URL: https://news.ycombinator.com/item?id=46624740
+Points: 71
+# Comments: 17]]></summary>
+        <author>
+            <name>rabinovich</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Crafting Interpreters]]></title>
+        <id>https://news.ycombinator.com/item?id=46624658</id>
+        <link href="https://craftinginterpreters.com/"/>
+        <updated>2026-01-14T22:26:17.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://craftinginterpreters.com/
+Comments URL: https://news.ycombinator.com/item?id=46624658
+Points: 60
+# Comments: 8]]></summary>
+        <author>
+            <name>tosh</name>
         </author>
     </entry>
     <entry>
@@ -382,6 +431,20 @@ Points: 68
 # Comments: 18]]></summary>
         <author>
             <name>Brajeshwar</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Ask HN: How are you doing RAG locally?]]></title>
+        <id>https://news.ycombinator.com/item?id=46616529</id>
+        <link href="https://news.ycombinator.com/item?id=46616529"/>
+        <updated>2026-01-14T14:38:29.000Z</updated>
+        <summary type="html"><![CDATA[I am curious how people are doing RAG locally with minimal dependencies for internal code or complex documents?
+Are you using a vector database, some type of semantic search, a knowledge graph, a hypergraph?
+Comments URL: https://news.ycombinator.com/item?id=46616529
+Points: 68
+# Comments: 21]]></summary>
+        <author>
+            <name>tmaly</name>
         </author>
     </entry>
     <entry>
@@ -17185,84 +17248,6 @@ Points: 98
 # Comments: 36]]></summary>
         <author>
             <name>flaghacker</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Vibe coding creates fatigue?]]></title>
-        <id>https://news.ycombinator.com/item?id=46292365</id>
-        <link href="https://www.tabulamag.com/p/too-fast-to-think-the-hidden-fatigue"/>
-        <updated>2025-12-16T18:32:46.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.tabulamag.com/p/too-fast-to-think-the-hidden-fatigue
-Comments URL: https://news.ycombinator.com/item?id=46292365
-Points: 100
-# Comments: 88]]></summary>
-        <author>
-            <name>rom16384</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Meta Segment Anything Model Audio]]></title>
-        <id>https://news.ycombinator.com/item?id=46292266</id>
-        <link href="https://ai.meta.com/samaudio/"/>
-        <updated>2025-12-16T18:26:43.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://ai.meta.com/samaudio/
-Comments URL: https://news.ycombinator.com/item?id=46292266
-Points: 86
-# Comments: 9]]></summary>
-        <author>
-            <name>megaman821</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GPT Image 1.5]]></title>
-        <id>https://news.ycombinator.com/item?id=46291941</id>
-        <link href="https://openai.com/index/new-chatgpt-images-is-here/"/>
-        <updated>2025-12-16T18:07:07.000Z</updated>
-        <summary type="html"><![CDATA[https://platform.openai.com/docs/models/gpt-image-1.5
-Comments URL: https://news.ycombinator.com/item?id=46291941
-Points: 89
-# Comments: 38]]></summary>
-        <author>
-            <name>charlierguo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AI is wiping out entry-level tech jobs, leaving graduates stranded]]></title>
-        <id>https://news.ycombinator.com/item?id=46291504</id>
-        <link href="https://restofworld.org/2025/engineering-graduates-ai-job-losses/"/>
-        <updated>2025-12-16T17:37:41.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://restofworld.org/2025/engineering-graduates-ai-job-losses/
-Comments URL: https://news.ycombinator.com/item?id=46291504
-Points: 50
-# Comments: 38]]></summary>
-        <author>
-            <name>cratermoon</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The GitHub Actions control plane is no longer free]]></title>
-        <id>https://news.ycombinator.com/item?id=46291500</id>
-        <link href="https://www.blacksmith.sh/blog/actions-pricing"/>
-        <updated>2025-12-16T17:37:34.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.blacksmith.sh/blog/actions-pricing
-Comments URL: https://news.ycombinator.com/item?id=46291500
-Points: 67
-# Comments: 5]]></summary>
-        <author>
-            <name>adityajp</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GitHub will begin charging for self-hosted action runners on March 2026]]></title>
-        <id>https://news.ycombinator.com/item?id=46291414</id>
-        <link href="https://github.blog/changelog/2025-12-16-coming-soon-simpler-pricing-and-a-better-experience-for-github-actions/"/>
-        <updated>2025-12-16T17:32:38.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://github.blog/changelog/2025-12-16-coming-soon-simpler-pricing-and-a-better-experience-for-github-actions/
-Comments URL: https://news.ycombinator.com/item?id=46291414
-Points: 53
-# Comments: 1]]></summary>
-        <author>
-            <name>nklow</name>
         </author>
     </entry>
 </feed>
