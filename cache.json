@@ -36,6 +36,16 @@
           "imageUrl": null
         },
         {
+          "id": "https://news.ycombinator.com/item?id=46626210",
+          "author": "feross",
+          "description": "Article URL: https://webkit.org/blog/17746/new-safari-developer-tools-provide-insight-into-css-grid-lanes/\nComments URL: https://news.ycombinator.com/item?id=46626210\nPoints: 52\n# Comments: 19",
+          "link": "https://webkit.org/blog/17746/new-safari-developer-tools-provide-insight-into-css-grid-lanes/",
+          "publishedOn": "2026-01-15T00:34:59.000Z",
+          "wordCount": 1256,
+          "title": "New Safari developer tools provide insight into CSS Grid Lanes",
+          "imageUrl": "https://webkit.org/wp-content/uploads/grid-lanes-photos-light-scaled.webp"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=46625918",
           "author": "ryanvogel",
           "description": "Article URL: https://gist.github.com/R44VC0RP/bd391f6a23185c0fed6c6b5fb2bac50e\nComments URL: https://news.ycombinator.com/item?id=46625918\nPoints: 103\n# Comments: 68",
@@ -183,6 +193,26 @@
           "publishedOn": "2026-01-14T18:49:37.000Z",
           "wordCount": 1585,
           "title": "Native ZFS VDEV for Object Storage (OpenZFS Summit)",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46619614",
+          "author": "code_brian",
+          "description": "For the past year I've been working to rethink how AI manages timing in conversation at Tavus. I've spent a lot of time listening to conversations. Today we're announcing the release of Sparrow-1, the most advanced conversational flow model in the world.\nSome technical details:\n- Predicts conversational floor ownership, not speech endpoints\n- Audio-native streaming model, no ASR dependency\n- Human-timed responses without silence-based delays\n- Zero interruptions at sub-100ms median latency\n- In benchmarks Sparrow-1 beats all existing models at real world turn-taking baselines\nI wrote more about the work here: https://www.tavus.io/post/sparrow-1-human-level-conversation...\nComments URL: https://news.ycombinator.com/item?id=46619614\nPoints: 65\n# Comments: 14",
+          "link": "https://www.tavus.io/post/sparrow-1-human-level-conversational-timing-in-real-time-voice",
+          "publishedOn": "2026-01-14T18:01:23.000Z",
+          "wordCount": 7233,
+          "title": "Show HN: Sparrow-1 – Audio-native model for human-level turn-taking without ASR",
+          "imageUrl": "https://cdn.prod.website-files.com/68c8e57d6e512b9573db147f/6965b91ae4d9714025045033_Hero222.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46619464",
+          "author": "blahaj",
+          "description": "Doesn't matter what domain and how big or small.\nComments URL: https://news.ycombinator.com/item?id=46619464\nPoints: 72\n# Comments: 88",
+          "link": "https://news.ycombinator.com/item?id=46619464",
+          "publishedOn": "2026-01-14T17:54:25.000Z",
+          "wordCount": 5707,
+          "title": "Ask HN: What did you find out or explore today?",
           "imageUrl": null
         },
         {
@@ -12794,26 +12824,6 @@
           "wordCount": 2212,
           "title": "Show HN: Stop AI scrapers from hammering your self-hosted blog (using porn)",
           "imageUrl": "https://opengraph.githubassets.com/a06cd2fb0e7cce5d094696f1dbd301d8df3a13e1ac626d5828a5df385854fb07/vivienhenz24/fuzzy-canary"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46293932",
-          "author": "ushakov",
-          "description": "Article URL: https://about.fb.com/news/2025/12/our-new-sam-audio-model-transforms-audio-editing/\nComments URL: https://news.ycombinator.com/item?id=46293932\nPoints: 115\n# Comments: 44",
-          "link": "https://about.fb.com/news/2025/12/our-new-sam-audio-model-transforms-audio-editing/",
-          "publishedOn": "2025-12-16T20:25:04.000Z",
-          "wordCount": 8711,
-          "title": "Our New Sam Audio Model Transforms Audio Editing",
-          "imageUrl": "https://about.fb.com/wp-content/uploads/2025/12/SAM-Audio_Social-Share.jpg?w=1200"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46293564",
-          "author": "superstarryeyes",
-          "description": "Well, I certainly tried. I had to, because it has a certain quirk inspired by \"digital minimalism.\"\nThe quirk is that it only allows you to fetch new articles once per day (or X days).\nWhy? Let me explain...\nI want my internet content to be like a boring newspaper. You get it in the morning, and you read the whole thing while sipping your morning coffee, and then you're done! No more new information for today. No pings, no alerts, peace, quiet, zen, etc.\nBut with that, I needed it to be able to fetch all articles from my hundreds of feeds in one sitting. This is where Zig and curl optimisations come in. I tried to do all the tricks in the book. If I missed something, let me know!\nFirst off, I'm using curl multi for the network layer. The cool thing is it automatically does HTTP/2 multiplex…",
-          "link": "https://github.com/superstarryeyes/hys",
-          "publishedOn": "2025-12-16T19:55:56.000Z",
-          "wordCount": 4323,
-          "title": "Show HN: I built a fast RSS reader in Zig",
-          "imageUrl": "https://opengraph.githubassets.com/befaea68e8f0641495ef31a091a6141e6462fd11c42507501e9b06f2815586a7/superstarryeyes/hys"
         }
       ]
     }

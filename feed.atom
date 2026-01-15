@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-01-15T07:30:46.556Z</updated>
+    <updated>2026-01-15T08:38:43.177Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
@@ -43,6 +43,19 @@ Points: 91
 # Comments: 44]]></summary>
         <author>
             <name>written-beyond</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New Safari developer tools provide insight into CSS Grid Lanes]]></title>
+        <id>https://news.ycombinator.com/item?id=46626210</id>
+        <link href="https://webkit.org/blog/17746/new-safari-developer-tools-provide-insight-into-css-grid-lanes/"/>
+        <updated>2026-01-15T00:34:59.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://webkit.org/blog/17746/new-safari-developer-tools-provide-insight-into-css-grid-lanes/
+Comments URL: https://news.ycombinator.com/item?id=46626210
+Points: 52
+# Comments: 19]]></summary>
+        <author>
+            <name>feross</name>
         </author>
     </entry>
     <entry>
@@ -257,6 +270,39 @@ Points: 56
 # Comments: 8]]></summary>
         <author>
             <name>suprasam</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Sparrow-1 – Audio-native model for human-level turn-taking without ASR]]></title>
+        <id>https://news.ycombinator.com/item?id=46619614</id>
+        <link href="https://www.tavus.io/post/sparrow-1-human-level-conversational-timing-in-real-time-voice"/>
+        <updated>2026-01-14T18:01:23.000Z</updated>
+        <summary type="html"><![CDATA[For the past year I've been working to rethink how AI manages timing in conversation at Tavus. I've spent a lot of time listening to conversations. Today we're announcing the release of Sparrow-1, the most advanced conversational flow model in the world.
+Some technical details:
+- Predicts conversational floor ownership, not speech endpoints
+- Audio-native streaming model, no ASR dependency
+- Human-timed responses without silence-based delays
+- Zero interruptions at sub-100ms median latency
+- In benchmarks Sparrow-1 beats all existing models at real world turn-taking baselines
+I wrote more about the work here: https://www.tavus.io/post/sparrow-1-human-level-conversation...
+Comments URL: https://news.ycombinator.com/item?id=46619614
+Points: 65
+# Comments: 14]]></summary>
+        <author>
+            <name>code_brian</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Ask HN: What did you find out or explore today?]]></title>
+        <id>https://news.ycombinator.com/item?id=46619464</id>
+        <link href="https://news.ycombinator.com/item?id=46619464"/>
+        <updated>2026-01-14T17:54:25.000Z</updated>
+        <summary type="html"><![CDATA[Doesn't matter what domain and how big or small.
+Comments URL: https://news.ycombinator.com/item?id=46619464
+Points: 72
+# Comments: 88]]></summary>
+        <author>
+            <name>blahaj</name>
         </author>
     </entry>
     <entry>
@@ -17207,34 +17253,6 @@ Points: 53
 # Comments: 12]]></summary>
         <author>
             <name>misterchocolat</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Our New Sam Audio Model Transforms Audio Editing]]></title>
-        <id>https://news.ycombinator.com/item?id=46293932</id>
-        <link href="https://about.fb.com/news/2025/12/our-new-sam-audio-model-transforms-audio-editing/"/>
-        <updated>2025-12-16T20:25:04.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://about.fb.com/news/2025/12/our-new-sam-audio-model-transforms-audio-editing/
-Comments URL: https://news.ycombinator.com/item?id=46293932
-Points: 115
-# Comments: 44]]></summary>
-        <author>
-            <name>ushakov</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: I built a fast RSS reader in Zig]]></title>
-        <id>https://news.ycombinator.com/item?id=46293564</id>
-        <link href="https://github.com/superstarryeyes/hys"/>
-        <updated>2025-12-16T19:55:56.000Z</updated>
-        <summary type="html"><![CDATA[Well, I certainly tried. I had to, because it has a certain quirk inspired by "digital minimalism."
-The quirk is that it only allows you to fetch new articles once per day (or X days).
-Why? Let me explain...
-I want my internet content to be like a boring newspaper. You get it in the morning, and you read the whole thing while sipping your morning coffee, and then you're done! No more new information for today. No pings, no alerts, peace, quiet, zen, etc.
-But with that, I needed it to be able to fetch all articles from my hundreds of feeds in one sitting. This is where Zig and curl optimisations come in. I tried to do all the tricks in the book. If I missed something, let me know!
-First off, I'm using curl multi for the network layer. The cool thing is it automatically does HTTP/2 multiplex…]]></summary>
-        <author>
-            <name>superstarryeyes</name>
         </author>
     </entry>
 </feed>
