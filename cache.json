@@ -996,6 +996,16 @@
           "imageUrl": null
         },
         {
+          "id": "https://news.ycombinator.com/item?id=46612727",
+          "author": "msephton",
+          "description": "Article URL: https://lysiwyg.mataroa.blog/blog/bringing-the-predators-to-life-in-mame/\nComments URL: https://news.ycombinator.com/item?id=46612727\nPoints: 51\n# Comments: 9",
+          "link": "https://lysiwyg.mataroa.blog/blog/bringing-the-predators-to-life-in-mame/",
+          "publishedOn": "2026-01-14T05:38:08.000Z",
+          "wordCount": 6438,
+          "title": "Bringing the Predators to Life in MAME",
+          "imageUrl": null
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=46612494",
           "author": "ben_talent",
           "description": "hi hn,\ni built openwork, an open-source, local-first system inspired by claude cowork.\nit’s a native desktop app that runs on top of opencode (opencode.ai).\nit’s basically an alternative gui for opencode, which (at least until now) has been more focused on technical folks.\nthe original seed for openwork was simple: i have a home server, and i wanted my wife and i to be able to run privileged workflows. things like controlling home assistant, or deploying custom web apps (e.g. our customs recipe app recipes.benjaminshafii.com), legal torrents, without living in a terminal.\nour initial setup was running the opencode web server directly and sharing credentials to it. that worked, but i found the web ui unreliable and very unfriendly for non-technical users.\nthe goal with openwork is to bring the kind of workflows i’m used to running in the cli into a gui, while keeping a very deep extensibility mindset. ideally this grows into something closer to an obsidian-style ecosystem, but for agentic work.\nsome core principles i had in mind:\n- open by design: no black boxes, no hosted lock-in. everything runs locally or on your own servers. (models don’t run locally yet, but both opencode and openwork are built with that future in mind.)\n- hyper extensible: skills are installable modules via a skill/package manager, using the native opencode plugin ecosystem.\n- non-technical by default: plans, progress, permissions, and artifacts are surfaced in the ui, not buried in logs.\nyou can already try it:\n- there’s an unsigned dmg\n- or you can clone the repo, install deps, and if you already have opencode running it should work right away\nit’s very alpha, lots of rough edges. i’d love feedback on what feels the roughest or most confusing.\nhappy to answer questions.\nComments URL: https://news.ycombinator.com/item?id=46612494\nPoints: 67\n# Comments: 18",
@@ -1674,6 +1684,16 @@
           "wordCount": 1539,
           "title": "Reproducing DeepSeek's MHC: When Residual Connections Explode",
           "imageUrl": "https://taylorkolasinski.com/og-image.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46588379",
+          "author": "p44v9n",
+          "description": "Article URL: https://github.com/etinaude/Lock-Picking-Robot\nComments URL: https://news.ycombinator.com/item?id=46588379\nPoints: 67\n# Comments: 24",
+          "link": "https://github.com/etinaude/Lock-Picking-Robot",
+          "publishedOn": "2026-01-12T13:42:42.000Z",
+          "wordCount": 3592,
+          "title": "Lock-Picking Robot",
+          "imageUrl": "https://opengraph.githubassets.com/243226835e7160d4d1c8f8fbcd68e54dfa3664d7dafbfb7378464b12a9153ac0/etinaude/Lock-Picking-Robot"
         },
         {
           "id": "https://news.ycombinator.com/item?id=46588319",
@@ -12874,16 +12894,6 @@
           "wordCount": 9099,
           "title": "Fifty problems with standard web APIs in 2025",
           "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46308893",
-          "author": "pabs3",
-          "description": "Article URL: https://www.theregister.com/2025/12/05/vizio_gpl_source_code_ruling/\nComments URL: https://news.ycombinator.com/item?id=46308893\nPoints: 68\n# Comments: 1",
-          "link": "https://www.theregister.com/2025/12/05/vizio_gpl_source_code_ruling/",
-          "publishedOn": "2025-12-18T04:27:53.000Z",
-          "wordCount": 1528,
-          "title": "Judge hints Vizio TV buyers may have rights to source code licensed under GPL",
-          "imageUrl": "https://regmedia.co.uk/2020/02/07/shutterstock_open_source_banner.jpg"
         }
       ]
     }
