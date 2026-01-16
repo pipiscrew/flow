@@ -2,10 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-01-16T04:04:51.243Z</updated>
+    <updated>2026-01-16T05:31:57.667Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Boeing knew of flaw in part linked to UPS plane crash]]></title>
+        <id>https://news.ycombinator.com/item?id=46642920</id>
+        <link href="https://www.bbc.com/news/articles/cly56w0p9e1o"/>
+        <updated>2026-01-16T04:11:17.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.bbc.com/news/articles/cly56w0p9e1o
+Comments URL: https://news.ycombinator.com/item?id=46642920
+Points: 53
+# Comments: 17]]></summary>
+        <author>
+            <name>1659447091</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[OpenBSD-current now runs as guest under Apple Hypervisor]]></title>
         <id>https://news.ycombinator.com/item?id=46642560</id>
@@ -17,6 +30,50 @@ Points: 51
 # Comments: 1]]></summary>
         <author>
             <name>gpi</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SETI Home Flags 100 Signals After Sorting 12B Others]]></title>
+        <id>https://news.ycombinator.com/item?id=46642414</id>
+        <link href="https://news.berkeley.edu/2026/01/12/for-21-years-enthusiasts-used-their-home-computers-to-search-for-et-uc-berkeley-scientists-are-homing-in-on-100-signals-they-found/"/>
+        <updated>2026-01-16T02:45:15.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://news.berkeley.edu/2026/01/12/for-21-years-enthusiasts-used-their-home-computers-to-search-for-et-uc-berkeley-scientists-are-homing-in-on-100-signals-they-found/
+Comments URL: https://news.ycombinator.com/item?id=46642414
+Points: 55
+# Comments: 13]]></summary>
+        <author>
+            <name>TMEHpodcast</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Gambit, an open-source agent harness for building reliable AI agents]]></title>
+        <id>https://news.ycombinator.com/item?id=46641362</id>
+        <link href="https://github.com/bolt-foundry/gambit"/>
+        <updated>2026-01-16T00:13:25.000Z</updated>
+        <summary type="html"><![CDATA[Hey HN!
+Wanted to show our open source agent harness called Gambit.
+If you’re not familiar, agent harnesses are sort of like an operating system for an agent... they handle tool calling, planning, context window management, and don’t require as much developer orchestration.
+Normally you might see an agent orchestration framework pipeline like:
+compute -> compute -> compute -> LLM -> compute -> compute -> LLM
+we invert this so with an agent harness, it’s more like:
+LLM -> LLM -> LLM -> compute -> LLM -> LLM -> compute -> LLM
+Essentially you describe each agent in either a self contained markdown file, or as a typescript program. Your root agent can bring in other agents as needed, and we create a typesafe way for you to define the interfaces between those agents. We call these decks.
+Agents…]]></summary>
+        <author>
+            <name>randall</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[My Gripes with Prolog]]></title>
+        <id>https://news.ycombinator.com/item?id=46641348</id>
+        <link href="https://buttondown.com/hillelwayne/archive/my-gripes-with-prolog/"/>
+        <updated>2026-01-16T00:11:28.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://buttondown.com/hillelwayne/archive/my-gripes-with-prolog/
+Comments URL: https://news.ycombinator.com/item?id=46641348
+Points: 54
+# Comments: 36]]></summary>
+        <author>
+            <name>azhenley</name>
         </author>
     </entry>
     <entry>
@@ -17408,100 +17465,6 @@ Points: 53
 # Comments: 14]]></summary>
         <author>
             <name>jmsflknr</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Linux Kernel Rust Code Sees Its First CVE Vulnerability]]></title>
-        <id>https://news.ycombinator.com/item?id=46302621</id>
-        <link href="https://www.phoronix.com/news/First-Linux-Rust-CVE"/>
-        <updated>2025-12-17T17:30:02.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.phoronix.com/news/First-Linux-Rust-CVE
-Comments URL: https://news.ycombinator.com/item?id=46302621
-Points: 73
-# Comments: 67]]></summary>
-        <author>
-            <name>weinzierl</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A Safer Container Ecosystem with Docker: Free Docker Hardened Images]]></title>
-        <id>https://news.ycombinator.com/item?id=46302337</id>
-        <link href="https://www.docker.com/blog/docker-hardened-images-for-every-developer/"/>
-        <updated>2025-12-17T17:13:03.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.docker.com/blog/docker-hardened-images-for-every-developer/
-Comments URL: https://news.ycombinator.com/item?id=46302337
-Points: 102
-# Comments: 15]]></summary>
-        <author>
-            <name>anttiharju</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AWS CEO says replacing junior devs with AI is 'one of the dumbest ideas']]></title>
-        <id>https://news.ycombinator.com/item?id=46302267</id>
-        <link href="https://www.finalroundai.com/blog/aws-ceo-ai-cannot-replace-junior-developers"/>
-        <updated>2025-12-17T17:08:35.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.finalroundai.com/blog/aws-ceo-ai-cannot-replace-junior-developers
-Comments URL: https://news.ycombinator.com/item?id=46302267
-Points: 240
-# Comments: 140]]></summary>
-        <author>
-            <name>birdculture</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Tell HN: HN Was Down]]></title>
-        <id>https://news.ycombinator.com/item?id=46301921</id>
-        <link href="https://news.ycombinator.com/item?id=46301921"/>
-        <updated>2025-12-17T16:48:18.000Z</updated>
-        <summary type="html"><![CDATA[- HN errored on all authenticated requests with 502 Bad Gateway. It did still respond to a limited amount of unauthenticated requests with presumably cached pages, which did not get updated. The last post on /newest claimed "0 minutes ago", but was actually much older (1:32:57 PM GMT) and not the newest post.
-- This status page actually identified the outage: https://hackernews.onlineornot.com/ - Pages by Hund and Statuspal did not show the outage.
-- The last post before the outage was https://news.ycombinator.com/item?id=46301823 (1:39:59 PM GMT). The last comment was https://news.ycombinator.com/item?id=46301848 (1:41:54 PM GMT).
-- There was an average of ~4 seconds per comment just prior to the outage. Based on this, HN likely went down at 1:41:58 PM GMT.
-Comments URL: https://news.ycombinator.com/item?id=46301921
-Points: 126
-# Comments: 55]]></summary>
-        <author>
-            <name>uyzstvqs</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ask HN: Was HN just down for anyone else?]]></title>
-        <id>https://news.ycombinator.com/item?id=46301903</id>
-        <link href="https://news.ycombinator.com/item?id=46301903"/>
-        <updated>2025-12-17T16:46:39.000Z</updated>
-        <summary type="html"><![CDATA[Just trying to work out if it was just my user account (used for monitoring here: https://hackernews.onlineornot.com/incidents/yaz-eOJeARBL) or if others saw it too.
-Comments URL: https://news.ycombinator.com/item?id=46301903
-Points: 57
-# Comments: 29]]></summary>
-        <author>
-            <name>rozenmd</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The State of AI Coding Report 2025]]></title>
-        <id>https://news.ycombinator.com/item?id=46301886</id>
-        <link href="https://www.greptile.com/state-of-ai-coding-2025"/>
-        <updated>2025-12-17T16:45:35.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.greptile.com/state-of-ai-coding-2025
-Comments URL: https://news.ycombinator.com/item?id=46301886
-Points: 52
-# Comments: 62]]></summary>
-        <author>
-            <name>dakshgupta</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Gemini 3 Flash: frontier intelligence built for speed]]></title>
-        <id>https://news.ycombinator.com/item?id=46301851</id>
-        <link href="https://blog.google/products/gemini/gemini-3-flash/"/>
-        <updated>2025-12-17T16:42:13.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://blog.google/products/gemini/gemini-3-flash/
-Comments URL: https://news.ycombinator.com/item?id=46301851
-Points: 163
-# Comments: 66]]></summary>
-        <author>
-            <name>meetpateltech</name>
         </author>
     </entry>
 </feed>

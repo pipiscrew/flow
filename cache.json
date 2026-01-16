@@ -6,6 +6,16 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=46642920",
+          "author": "1659447091",
+          "description": "Article URL: https://www.bbc.com/news/articles/cly56w0p9e1o\nComments URL: https://news.ycombinator.com/item?id=46642920\nPoints: 53\n# Comments: 17",
+          "link": "https://www.bbc.com/news/articles/cly56w0p9e1o",
+          "publishedOn": "2026-01-16T04:11:17.000Z",
+          "wordCount": 5346,
+          "title": "Boeing knew of flaw in part linked to UPS plane crash",
+          "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/de8f/live/564b6150-f20e-11f0-9024-9b4621e849d3.jpg"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=46642560",
           "author": "gpi",
           "description": "Article URL: https://www.undeadly.org/cgi?action=article;sid=20260115203619\nComments URL: https://news.ycombinator.com/item?id=46642560\nPoints: 51\n# Comments: 1",
@@ -14,6 +24,36 @@
           "wordCount": 515,
           "title": "OpenBSD-current now runs as guest under Apple Hypervisor",
           "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46642414",
+          "author": "TMEHpodcast",
+          "description": "Article URL: https://news.berkeley.edu/2026/01/12/for-21-years-enthusiasts-used-their-home-computers-to-search-for-et-uc-berkeley-scientists-are-homing-in-on-100-signals-they-found/\nComments URL: https://news.ycombinator.com/item?id=46642414\nPoints: 55\n# Comments: 13",
+          "link": "https://news.berkeley.edu/2026/01/12/for-21-years-enthusiasts-used-their-home-computers-to-search-for-et-uc-berkeley-scientists-are-homing-in-on-100-signals-they-found/",
+          "publishedOn": "2026-01-16T02:45:15.000Z",
+          "wordCount": 2590,
+          "title": "SETI Home Flags 100 Signals After Sorting 12B Others",
+          "imageUrl": "https://news.berkeley.edu/wp-content/uploads/2026/01/screenshot-cropped.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46641362",
+          "author": "randall",
+          "description": "Hey HN!\nWanted to show our open source agent harness called Gambit.\nIf you’re not familiar, agent harnesses are sort of like an operating system for an agent... they handle tool calling, planning, context window management, and don’t require as much developer orchestration.\nNormally you might see an agent orchestration framework pipeline like:\ncompute -> compute -> compute -> LLM -> compute -> compute -> LLM\nwe invert this so with an agent harness, it’s more like:\nLLM -> LLM -> LLM -> compute -> LLM -> LLM -> compute -> LLM\nEssentially you describe each agent in either a self contained markdown file, or as a typescript program. Your root agent can bring in other agents as needed, and we create a typesafe way for you to define the interfaces between those agents. We call these decks.\nAgents…",
+          "link": "https://github.com/bolt-foundry/gambit",
+          "publishedOn": "2026-01-16T00:13:25.000Z",
+          "wordCount": 3827,
+          "title": "Show HN: Gambit, an open-source agent harness for building reliable AI agents",
+          "imageUrl": "https://opengraph.githubassets.com/2c2d3cf5f05d8732a64b190a564028954229e8277c4964157d3e9836b6533b10/bolt-foundry/gambit"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46641348",
+          "author": "azhenley",
+          "description": "Article URL: https://buttondown.com/hillelwayne/archive/my-gripes-with-prolog/\nComments URL: https://news.ycombinator.com/item?id=46641348\nPoints: 54\n# Comments: 36",
+          "link": "https://buttondown.com/hillelwayne/archive/my-gripes-with-prolog/",
+          "publishedOn": "2026-01-16T00:11:28.000Z",
+          "wordCount": 2754,
+          "title": "My Gripes with Prolog",
+          "imageUrl": "https://image-generator.buttondown.email/api/emphasize-subject?subject=My%20Gripes%20with%20Prolog&author=Computer%20Things&date=2026-01-14&img="
         },
         {
           "id": "https://news.ycombinator.com/item?id=46640366",
@@ -12944,76 +12984,6 @@
           "wordCount": null,
           "title": "FCC chair suggests agency isn't independent, word cut from mission statement",
           "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46302621",
-          "author": "weinzierl",
-          "description": "Article URL: https://www.phoronix.com/news/First-Linux-Rust-CVE\nComments URL: https://news.ycombinator.com/item?id=46302621\nPoints: 73\n# Comments: 67",
-          "link": "https://www.phoronix.com/news/First-Linux-Rust-CVE",
-          "publishedOn": "2025-12-17T17:30:02.000Z",
-          "wordCount": 1713,
-          "title": "Linux Kernel Rust Code Sees Its First CVE Vulnerability",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46302337",
-          "author": "anttiharju",
-          "description": "Article URL: https://www.docker.com/blog/docker-hardened-images-for-every-developer/\nComments URL: https://news.ycombinator.com/item?id=46302337\nPoints: 102\n# Comments: 15",
-          "link": "https://www.docker.com/blog/docker-hardened-images-for-every-developer/",
-          "publishedOn": "2025-12-17T17:13:03.000Z",
-          "wordCount": 5391,
-          "title": "A Safer Container Ecosystem with Docker: Free Docker Hardened Images",
-          "imageUrl": "https://www.docker.com/app/uploads/2025/03/image.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46302267",
-          "author": "birdculture",
-          "description": "Article URL: https://www.finalroundai.com/blog/aws-ceo-ai-cannot-replace-junior-developers\nComments URL: https://news.ycombinator.com/item?id=46302267\nPoints: 240\n# Comments: 140",
-          "link": "https://www.finalroundai.com/blog/aws-ceo-ai-cannot-replace-junior-developers",
-          "publishedOn": "2025-12-17T17:08:35.000Z",
-          "wordCount": 4323,
-          "title": "AWS CEO says replacing junior devs with AI is 'one of the dumbest ideas'",
-          "imageUrl": "https://cdn.prod.website-files.com/6660a5bfdcf6c5fbf039f446/69428e2d7c764c046536a548_AWS%20CEO%20Junior%20Developers%20AI.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46301921",
-          "author": "uyzstvqs",
-          "description": "- HN errored on all authenticated requests with 502 Bad Gateway. It did still respond to a limited amount of unauthenticated requests with presumably cached pages, which did not get updated. The last post on /newest claimed \"0 minutes ago\", but was actually much older (1:32:57 PM GMT) and not the newest post.\n- This status page actually identified the outage: https://hackernews.onlineornot.com/ - Pages by Hund and Statuspal did not show the outage.\n- The last post before the outage was https://news.ycombinator.com/item?id=46301823 (1:39:59 PM GMT). The last comment was https://news.ycombinator.com/item?id=46301848 (1:41:54 PM GMT).\n- There was an average of ~4 seconds per comment just prior to the outage. Based on this, HN likely went down at 1:41:58 PM GMT.\nComments URL: https://news.ycombinator.com/item?id=46301921\nPoints: 126\n# Comments: 55",
-          "link": "https://news.ycombinator.com/item?id=46301921",
-          "publishedOn": "2025-12-17T16:48:18.000Z",
-          "wordCount": 2119,
-          "title": "Tell HN: HN Was Down",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46301903",
-          "author": "rozenmd",
-          "description": "Just trying to work out if it was just my user account (used for monitoring here: https://hackernews.onlineornot.com/incidents/yaz-eOJeARBL) or if others saw it too.\nComments URL: https://news.ycombinator.com/item?id=46301903\nPoints: 57\n# Comments: 29",
-          "link": "https://news.ycombinator.com/item?id=46301903",
-          "publishedOn": "2025-12-17T16:46:39.000Z",
-          "wordCount": 823,
-          "title": "Ask HN: Was HN just down for anyone else?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46301886",
-          "author": "dakshgupta",
-          "description": "Article URL: https://www.greptile.com/state-of-ai-coding-2025\nComments URL: https://news.ycombinator.com/item?id=46301886\nPoints: 52\n# Comments: 62",
-          "link": "https://www.greptile.com/state-of-ai-coding-2025",
-          "publishedOn": "2025-12-17T16:45:35.000Z",
-          "wordCount": 6275,
-          "title": "The State of AI Coding Report 2025",
-          "imageUrl": "https://www.greptile.com/state-of-ai-report-og.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46301851",
-          "author": "meetpateltech",
-          "description": "Article URL: https://blog.google/products/gemini/gemini-3-flash/\nComments URL: https://news.ycombinator.com/item?id=46301851\nPoints: 163\n# Comments: 66",
-          "link": "https://blog.google/products/gemini/gemini-3-flash/",
-          "publishedOn": "2025-12-17T16:42:13.000Z",
-          "wordCount": 5139,
-          "title": "Gemini 3 Flash: frontier intelligence built for speed",
-          "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Gemini3Flash_Social.width-1300.png"
         }
       ]
     }
