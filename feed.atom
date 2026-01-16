@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-01-16T08:37:52.035Z</updated>
+    <updated>2026-01-16T09:33:10.601Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
@@ -43,6 +43,22 @@ Points: 55
 # Comments: 13]]></summary>
         <author>
             <name>TMEHpodcast</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Reversing YouTube’s “Most Replayed” Graph]]></title>
+        <id>https://news.ycombinator.com/item?id=46642173</id>
+        <link href="https://priyavr.at/blog/reversing-most-replayed/"/>
+        <updated>2026-01-16T02:06:11.000Z</updated>
+        <summary type="html"><![CDATA[Hi HN,
+I recently noticed a recurring visual artifact in the "Most Replayed" heatmap on the YouTube player. The highest peaks were always surrounded by two dips. I got curious about why they were there, so I decided to reverse engineer the feature to find out.
+This post documents the deep dive. It starts with a system design recreation, reverse engineering the rendering code, and ends with the mathematics.
+This is also my first attempt at writing an interactive article. I would love to hear your thoughts on the investigation and the format.
+Comments URL: https://news.ycombinator.com/item?id=46642173
+Points: 50
+# Comments: 17]]></summary>
+        <author>
+            <name>prvt</name>
         </author>
     </entry>
     <entry>
@@ -17307,71 +17323,6 @@ Points: 62
 # Comments: 23]]></summary>
         <author>
             <name>ksec</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[I got hacked: My Hetzner server started mining Monero]]></title>
-        <id>https://news.ycombinator.com/item?id=46305585</id>
-        <link href="https://blog.jakesaunders.dev/my-server-started-mining-monero-this-morning/"/>
-        <updated>2025-12-17T21:13:33.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://blog.jakesaunders.dev/my-server-started-mining-monero-this-morning/
-Comments URL: https://news.ycombinator.com/item?id=46305585
-Points: 60
-# Comments: 50]]></summary>
-        <author>
-            <name>jakelsaunders94</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[OBS Studio Gets a New Renderer]]></title>
-        <id>https://news.ycombinator.com/item?id=46305428</id>
-        <link href="https://obsproject.com/blog/obs-studio-gets-a-new-renderer"/>
-        <updated>2025-12-17T20:59:29.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://obsproject.com/blog/obs-studio-gets-a-new-renderer
-Comments URL: https://news.ycombinator.com/item?id=46305428
-Points: 107
-# Comments: 26]]></summary>
-        <author>
-            <name>aizk</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AI Isn't Just Spying on You. It's Tricking You into Spending More]]></title>
-        <id>https://news.ycombinator.com/item?id=46305409</id>
-        <link href="https://newrepublic.com/article/204525/artificial-intelligence-consumers-data-dynamic-pricing"/>
-        <updated>2025-12-17T20:58:09.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://newrepublic.com/article/204525/artificial-intelligence-consumers-data-dynamic-pricing
-Comments URL: https://news.ycombinator.com/item?id=46305409
-Points: 58
-# Comments: 26]]></summary>
-        <author>
-            <name>c420</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Inside PostHog: SSRF, ClickHouse SQL Escape and Default Postgres Creds to RCE]]></title>
-        <id>https://news.ycombinator.com/item?id=46305321</id>
-        <link href="https://mdisec.com/inside-posthog-how-ssrf-a-clickhouse-sql-escaping-0day-and-default-postgresql-credentials-formed-an-rce-chain-zdi-25-099-zdi-25-097-zdi-25-096/"/>
-        <updated>2025-12-17T20:50:13.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://mdisec.com/inside-posthog-how-ssrf-a-clickhouse-sql-escaping-0day-and-default-postgresql-credentials-formed-an-rce-chain-zdi-25-099-zdi-25-097-zdi-25-096/
-Comments URL: https://news.ycombinator.com/item?id=46305321
-Points: 71
-# Comments: 19]]></summary>
-        <author>
-            <name>arwt</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[VRChat: “There are more Japanese creators than all other countries combined”]]></title>
-        <id>https://news.ycombinator.com/item?id=46305172</id>
-        <link href="https://twitter.com/chyadosensei/status/2001356290531156159"/>
-        <updated>2025-12-17T20:38:06.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://twitter.com/chyadosensei/status/2001356290531156159
-Comments URL: https://news.ycombinator.com/item?id=46305172
-Points: 56
-# Comments: 31]]></summary>
-        <author>
-            <name>numpad0</name>
         </author>
     </entry>
 </feed>

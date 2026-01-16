@@ -36,6 +36,16 @@
           "imageUrl": "https://news.berkeley.edu/wp-content/uploads/2026/01/screenshot-cropped.jpg"
         },
         {
+          "id": "https://news.ycombinator.com/item?id=46642173",
+          "author": "prvt",
+          "description": "Hi HN,\nI recently noticed a recurring visual artifact in the \"Most Replayed\" heatmap on the YouTube player. The highest peaks were always surrounded by two dips. I got curious about why they were there, so I decided to reverse engineer the feature to find out.\nThis post documents the deep dive. It starts with a system design recreation, reverse engineering the rendering code, and ends with the mathematics.\nThis is also my first attempt at writing an interactive article. I would love to hear your thoughts on the investigation and the format.\nComments URL: https://news.ycombinator.com/item?id=46642173\nPoints: 50\n# Comments: 17",
+          "link": "https://priyavr.at/blog/reversing-most-replayed/",
+          "publishedOn": "2026-01-16T02:06:11.000Z",
+          "wordCount": 7118,
+          "title": "Show HN: Reversing YouTube’s “Most Replayed” Graph",
+          "imageUrl": "https://priyavr.at/reversing-most-replayed/googleSearch.webp"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=46641362",
           "author": "randall",
           "description": "Hey HN!\nWanted to show our open source agent harness called Gambit.\nIf you’re not familiar, agent harnesses are sort of like an operating system for an agent... they handle tool calling, planning, context window management, and don’t require as much developer orchestration.\nNormally you might see an agent orchestration framework pipeline like:\ncompute -> compute -> compute -> LLM -> compute -> compute -> LLM\nwe invert this so with an agent harness, it’s more like:\nLLM -> LLM -> LLM -> compute -> LLM -> LLM -> compute -> LLM\nEssentially you describe each agent in either a self contained markdown file, or as a typescript program. Your root agent can bring in other agents as needed, and we create a typesafe way for you to define the interfaces between those agents. We call these decks.\nAgents…",
@@ -12863,56 +12873,6 @@
           "publishedOn": "2025-12-17T21:44:22.000Z",
           "wordCount": null,
           "title": "Cloudflare Radar 2025 Year in Review",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46305585",
-          "author": "jakelsaunders94",
-          "description": "Article URL: https://blog.jakesaunders.dev/my-server-started-mining-monero-this-morning/\nComments URL: https://news.ycombinator.com/item?id=46305585\nPoints: 60\n# Comments: 50",
-          "link": "https://blog.jakesaunders.dev/my-server-started-mining-monero-this-morning/",
-          "publishedOn": "2025-12-17T21:13:33.000Z",
-          "wordCount": 2284,
-          "title": "I got hacked: My Hetzner server started mining Monero",
-          "imageUrl": "https://blog.jakesaunders.dev/assets/images/posts/side-eye.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46305428",
-          "author": "aizk",
-          "description": "Article URL: https://obsproject.com/blog/obs-studio-gets-a-new-renderer\nComments URL: https://news.ycombinator.com/item?id=46305428\nPoints: 107\n# Comments: 26",
-          "link": "https://obsproject.com/blog/obs-studio-gets-a-new-renderer",
-          "publishedOn": "2025-12-17T20:59:29.000Z",
-          "wordCount": 5339,
-          "title": "OBS Studio Gets a New Renderer",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46305409",
-          "author": "c420",
-          "description": "Article URL: https://newrepublic.com/article/204525/artificial-intelligence-consumers-data-dynamic-pricing\nComments URL: https://news.ycombinator.com/item?id=46305409\nPoints: 58\n# Comments: 26",
-          "link": "https://newrepublic.com/article/204525/artificial-intelligence-consumers-data-dynamic-pricing",
-          "publishedOn": "2025-12-17T20:58:09.000Z",
-          "wordCount": 3569,
-          "title": "AI Isn't Just Spying on You. It's Tricking You into Spending More",
-          "imageUrl": "https://images.newrepublic.com/3470d1f1f85bb0c685f0f4ae7b90bc6cf0597e9a.jpeg?w=1200&h=630&crop=faces&fit=crop&fm=jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46305321",
-          "author": "arwt",
-          "description": "Article URL: https://mdisec.com/inside-posthog-how-ssrf-a-clickhouse-sql-escaping-0day-and-default-postgresql-credentials-formed-an-rce-chain-zdi-25-099-zdi-25-097-zdi-25-096/\nComments URL: https://news.ycombinator.com/item?id=46305321\nPoints: 71\n# Comments: 19",
-          "link": "https://mdisec.com/inside-posthog-how-ssrf-a-clickhouse-sql-escaping-0day-and-default-postgresql-credentials-formed-an-rce-chain-zdi-25-099-zdi-25-097-zdi-25-096/",
-          "publishedOn": "2025-12-17T20:50:13.000Z",
-          "wordCount": 5488,
-          "title": "Inside PostHog: SSRF, ClickHouse SQL Escape and Default Postgres Creds to RCE",
-          "imageUrl": "https://mdisec.com/wp-content/uploads/2025/12/posthog-e1765557833411.webp"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46305172",
-          "author": "numpad0",
-          "description": "Article URL: https://twitter.com/chyadosensei/status/2001356290531156159\nComments URL: https://news.ycombinator.com/item?id=46305172\nPoints: 56\n# Comments: 31",
-          "link": "https://twitter.com/chyadosensei/status/2001356290531156159",
-          "publishedOn": "2025-12-17T20:38:06.000Z",
-          "wordCount": 756,
-          "title": "VRChat: “There are more Japanese creators than all other countries combined”",
           "imageUrl": null
         }
       ]
