@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-01-18T20:29:18.266Z</updated>
+    <updated>2026-01-18T21:23:39.429Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
@@ -33,6 +33,22 @@ Points: 74
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Show HN: Lume 0.2 – Build and Run macOS VMs with unattended setup]]></title>
+        <id>https://news.ycombinator.com/item?id=46670181</id>
+        <link href="https://cua.ai/docs/lume/guide/getting-started/introduction"/>
+        <updated>2026-01-18T17:53:21.000Z</updated>
+        <summary type="html"><![CDATA[Hey HN, Lume is an open-source CLI for running macOS and Linux VMs on Apple Silicon. Since launch (https://news.ycombinator.com/item?id=42908061), we've been using it to run AI agents in isolated macOS environments. We needed VMs that could set themselves up, so we built that.
+Here's what's new in 0.2:
+*Unattended Setup* – Go from IPSW to a fully configured VM without touching the keyboard. We built a VNC + OCR system that clicks through macOS Setup Assistant automatically. No more manual setup before pushing to a registry:
+  lume create my-vm --os macos --ipsw latest --unattended tahoe
+
+*HTTP API + Daemon* – A REST API on port 7777 that runs as a background service. Your scripts and CI pipelines can manage VMs that persist even if your terminal closes:
+  curl -X POST localhost:7777/lume/v…]]></summary>
+        <author>
+            <name>frabonacci</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Gaussian Splatting – A$AP Rocky Helicopter Music Video]]></title>
         <id>https://news.ycombinator.com/item?id=46670024</id>
         <link href="https://radiancefields.com/a-ap-rocky-releases-helicopter-music-video-featuring-gaussian-splatting"/>
@@ -43,6 +59,19 @@ Points: 113
 # Comments: 37]]></summary>
         <author>
             <name>ChrisArchitect</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Sins of the Children (Adrian Tchaikovsky)]]></title>
+        <id>https://news.ycombinator.com/item?id=46669663</id>
+        <link href="https://asteriskmag.com/issues/07/sins-of-the-children"/>
+        <updated>2026-01-18T17:08:58.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://asteriskmag.com/issues/07/sins-of-the-children
+Comments URL: https://news.ycombinator.com/item?id=46669663
+Points: 56
+# Comments: 25]]></summary>
+        <author>
+            <name>maxall4</name>
         </author>
     </entry>
     <entry>
@@ -2390,6 +2419,19 @@ Points: 59
 # Comments: 46]]></summary>
         <author>
             <name>xlii</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[More sustainable epoxy thanks to phosphorus]]></title>
+        <id>https://news.ycombinator.com/item?id=46614487</id>
+        <link href="https://www.empa.ch/web/s604/flamm-hemmendes-epoxidharz-nachhaltiger-machen"/>
+        <updated>2026-01-14T10:43:31.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.empa.ch/web/s604/flamm-hemmendes-epoxidharz-nachhaltiger-machen
+Comments URL: https://news.ycombinator.com/item?id=46614487
+Points: 57
+# Comments: 23]]></summary>
+        <author>
+            <name>JeanKage</name>
         </author>
     </entry>
     <entry>
@@ -17183,19 +17225,6 @@ Points: 64
 # Comments: 81]]></summary>
         <author>
             <name>danielfalbo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Airbus to migrate critical apps to a sovereign Euro cloud]]></title>
-        <id>https://news.ycombinator.com/item?id=46334533</id>
-        <link href="https://www.theregister.com/2025/12/19/airbus_sovereign_cloud/"/>
-        <updated>2025-12-20T08:36:52.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.theregister.com/2025/12/19/airbus_sovereign_cloud/
-Comments URL: https://news.ycombinator.com/item?id=46334533
-Points: 72
-# Comments: 7]]></summary>
-        <author>
-            <name>saubeidl</name>
         </author>
     </entry>
 </feed>

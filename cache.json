@@ -26,6 +26,16 @@
           "imageUrl": "https://opengraph.githubassets.com/d7a8e181fde63c2fe706a6bb4f3d5265eef911b32beb4d4eefcdcb32de2eec17/antirez/flux2.c"
         },
         {
+          "id": "https://news.ycombinator.com/item?id=46670181",
+          "author": "frabonacci",
+          "description": "Hey HN, Lume is an open-source CLI for running macOS and Linux VMs on Apple Silicon. Since launch (https://news.ycombinator.com/item?id=42908061), we've been using it to run AI agents in isolated macOS environments. We needed VMs that could set themselves up, so we built that.\nHere's what's new in 0.2:\n*Unattended Setup* – Go from IPSW to a fully configured VM without touching the keyboard. We built a VNC + OCR system that clicks through macOS Setup Assistant automatically. No more manual setup before pushing to a registry:\n  lume create my-vm --os macos --ipsw latest --unattended tahoe\n\n*HTTP API + Daemon* – A REST API on port 7777 that runs as a background service. Your scripts and CI pipelines can manage VMs that persist even if your terminal closes:\n  curl -X POST localhost:7777/lume/v…",
+          "link": "https://cua.ai/docs/lume/guide/getting-started/introduction",
+          "publishedOn": "2026-01-18T17:53:21.000Z",
+          "wordCount": 3440,
+          "title": "Show HN: Lume 0.2 – Build and Run macOS VMs with unattended setup",
+          "imageUrl": null
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=46670024",
           "author": "ChrisArchitect",
           "description": "Article URL: https://radiancefields.com/a-ap-rocky-releases-helicopter-music-video-featuring-gaussian-splatting\nComments URL: https://news.ycombinator.com/item?id=46670024\nPoints: 113\n# Comments: 37",
@@ -34,6 +44,16 @@
           "wordCount": 23100,
           "title": "Gaussian Splatting – A$AP Rocky Helicopter Music Video",
           "imageUrl": "https://framerusercontent.com/images/xq2rgCx9bmnMK3Rzi8zgLEoE.jpg?width=1280&height=720"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46669663",
+          "author": "maxall4",
+          "description": "Article URL: https://asteriskmag.com/issues/07/sins-of-the-children\nComments URL: https://news.ycombinator.com/item?id=46669663\nPoints: 56\n# Comments: 25",
+          "link": "https://asteriskmag.com/issues/07/sins-of-the-children",
+          "publishedOn": "2026-01-18T17:08:58.000Z",
+          "wordCount": 5804,
+          "title": "Sins of the Children (Adrian Tchaikovsky)",
+          "imageUrl": null
         },
         {
           "id": "https://news.ycombinator.com/item?id=46669404",
@@ -1773,6 +1793,16 @@
           "publishedOn": "2026-01-14T10:53:13.000Z",
           "wordCount": 1044,
           "title": "I Hate GitHub Actions with Passion",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46614487",
+          "author": "JeanKage",
+          "description": "Article URL: https://www.empa.ch/web/s604/flamm-hemmendes-epoxidharz-nachhaltiger-machen\nComments URL: https://news.ycombinator.com/item?id=46614487\nPoints: 57\n# Comments: 23",
+          "link": "https://www.empa.ch/web/s604/flamm-hemmendes-epoxidharz-nachhaltiger-machen",
+          "publishedOn": "2026-01-14T10:43:31.000Z",
+          "wordCount": null,
+          "title": "More sustainable epoxy thanks to phosphorus",
           "imageUrl": null
         },
         {
@@ -12764,16 +12794,6 @@
           "wordCount": 761,
           "title": "Reflections on AI at the End of 2025",
           "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46334533",
-          "author": "saubeidl",
-          "description": "Article URL: https://www.theregister.com/2025/12/19/airbus_sovereign_cloud/\nComments URL: https://news.ycombinator.com/item?id=46334533\nPoints: 72\n# Comments: 7",
-          "link": "https://www.theregister.com/2025/12/19/airbus_sovereign_cloud/",
-          "publishedOn": "2025-12-20T08:36:52.000Z",
-          "wordCount": 1362,
-          "title": "Airbus to migrate critical apps to a sovereign Euro cloud",
-          "imageUrl": "https://regmedia.co.uk/2017/10/13/eurocloud_shutterstock.jpg"
         }
       ]
     }
