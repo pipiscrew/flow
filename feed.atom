@@ -2,10 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-01-18T17:22:55.949Z</updated>
+    <updated>2026-01-18T18:35:39.355Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[The Nobel Prize and the Laureate Are Inseparable]]></title>
+        <id>https://news.ycombinator.com/item?id=46669404</id>
+        <link href="https://www.nobelpeaceprize.org/press/press-releases/the-nobel-prize-and-the-laureate-are-inseparable"/>
+        <updated>2026-01-18T16:50:37.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.nobelpeaceprize.org/press/press-releases/the-nobel-prize-and-the-laureate-are-inseparable
+Comments URL: https://news.ycombinator.com/item?id=46669404
+Points: 232
+# Comments: 145]]></summary>
+        <author>
+            <name>karakoram</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[The A in AGI Stands for Ads]]></title>
         <id>https://news.ycombinator.com/item?id=46668021</id>
@@ -98,6 +111,27 @@ Points: 74
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Show HN: GibRAM an in-memory ephemeral GraphRAG runtime for retrieval]]></title>
+        <id>https://news.ycombinator.com/item?id=46665393</id>
+        <link href="https://github.com/gibram-io/gibram"/>
+        <updated>2026-01-18T06:47:17.000Z</updated>
+        <summary type="html"><![CDATA[Hi HN,
+I have been working with regulation-heavy documents lately, and one thing kept bothering me. Flat RAG pipelines often fail to retrieve related articles together, even when they are clearly connected through references, definitions, or clauses.
+After trying several RAG setups, I subjectively felt that GraphRAG was a better mental model for this kind of data. The Microsoft GraphRAG paper and reference implementation were helpful starting points. However, in practice, I found one recurring friction point: graph storage and vector indexing are usually handled by separate systems, which felt unnecessarily heavy for short-lived analysis tasks.
+To explore this tradeoff, I built GibRAM (Graph in-buffer Retrieval and Associative Memory). It is an experimental, in-memory GraphRAG runtime where entities, relationships, text units, and embeddings live side by side in a single process.
+GibRAM is intentionally ephemeral. It is designed for exploratory tasks like summarization or conversational querying over a bounded document set. Data lives in memory, scoped by session, and is automatically cleaned up via TTL. There are no durability guarantees, and recomputation is considered cheaper than persistence for the intended use cases.
+This is not a database and not a production-ready system. It is a casual project, largely vibe-coded, meant to explore what GraphRAG looks like when memory is the primary constraint instead of storage. Technical debt exists, and many tradeoffs are explicit.
+The project is open source, and I would really appreciate feedback, especially from people working on RAG, search infrastructure, or graph-based retrieval.
+GitHub: https://github.com/gibram-io/gibram
+Happy to answer questions or hear why this approach might be flawed.
+Comments URL: https://news.ycombinator.com/item?id=46665393
+Points: 53
+# Comments: 10]]></summary>
+        <author>
+            <name>ktyptorio</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[ThinkNext Design]]></title>
         <id>https://news.ycombinator.com/item?id=46665310</id>
         <link href="https://thinknextdesign.com/home.html"/>
@@ -108,6 +142,25 @@ Points: 60
 # Comments: 17]]></summary>
         <author>
             <name>__patchbit__</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Figma-use – CLI to control Figma for AI agents]]></title>
+        <id>https://news.ycombinator.com/item?id=46665169</id>
+        <link href="https://github.com/dannote/figma-use"/>
+        <updated>2026-01-18T05:55:48.000Z</updated>
+        <summary type="html"><![CDATA[I'm Dan, and I built a CLI that lets AI agents design in Figma.
+What it does: 100 commands to create shapes, text, frames, components, modify styles, export assets. JSX importing that's ~100x faster than any plugin API import. Works with any LLM coding assistant.
+Why I built it: The official Figma MCP server can only read files. I wanted AI to actually design — create buttons, build layouts, generate entire component systems. Existing solutions were either read-only or required verbose JSON schemas that burn through tokens.
+Demo (45 sec): https://youtu.be/9eSYVZRle7o
+Tech stack: Bun + Citty for CLI, Elysia WebSocket proxy, Figma plugin. The render command connects to Figma's internal multiplayer protocol via Chrome DevTools for extra performance when dealing with large groups of objects.
+Try it: bun install -g @dannote/figma-use
+Looking for feedback on CLI ergonomics, missing commands, and whether the JSX syntax feels natural.
+Comments URL: https://news.ycombinator.com/item?id=46665169
+Points: 58
+# Comments: 26]]></summary>
+        <author>
+            <name>dannote</name>
         </author>
     </entry>
     <entry>
@@ -17156,45 +17209,6 @@ Points: 52
 # Comments: 12]]></summary>
         <author>
             <name>ggauravr</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Privacy doesn't mean anything anymore, anonymity does]]></title>
-        <id>https://news.ycombinator.com/item?id=46334025</id>
-        <link href="https://servury.com/blog/privacy-is-marketing-anonymity-is-architecture/"/>
-        <updated>2025-12-20T06:21:05.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://servury.com/blog/privacy-is-marketing-anonymity-is-architecture/
-Comments URL: https://news.ycombinator.com/item?id=46334025
-Points: 59
-# Comments: 38]]></summary>
-        <author>
-            <name>ybceo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Charles Proxy]]></title>
-        <id>https://news.ycombinator.com/item?id=46333983</id>
-        <link href="https://www.charlesproxy.com/"/>
-        <updated>2025-12-20T06:09:17.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.charlesproxy.com/
-Comments URL: https://news.ycombinator.com/item?id=46333983
-Points: 86
-# Comments: 33]]></summary>
-        <author>
-            <name>handfuloflight</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Deviancy Signal: Having "Nothing to Hide" Is a Threat to Us All]]></title>
-        <id>https://news.ycombinator.com/item?id=46333830</id>
-        <link href="https://thompson2026.com/blog/deviancy-signal/"/>
-        <updated>2025-12-20T05:24:21.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://thompson2026.com/blog/deviancy-signal/
-Comments URL: https://news.ycombinator.com/item?id=46333830
-Points: 64
-# Comments: 40]]></summary>
-        <author>
-            <name>NickForLiberty</name>
         </author>
     </entry>
 </feed>

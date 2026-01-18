@@ -6,6 +6,16 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=46669404",
+          "author": "karakoram",
+          "description": "Article URL: https://www.nobelpeaceprize.org/press/press-releases/the-nobel-prize-and-the-laureate-are-inseparable\nComments URL: https://news.ycombinator.com/item?id=46669404\nPoints: 232\n# Comments: 145",
+          "link": "https://www.nobelpeaceprize.org/press/press-releases/the-nobel-prize-and-the-laureate-are-inseparable",
+          "publishedOn": "2026-01-18T16:50:37.000Z",
+          "wordCount": 1053,
+          "title": "The Nobel Prize and the Laureate Are Inseparable",
+          "imageUrl": ""
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=46668021",
           "author": "calcifer",
           "description": "Article URL: https://ossa-ma.github.io/blog/openads\nComments URL: https://news.ycombinator.com/item?id=46668021\nPoints: 120\n# Comments: 70",
@@ -76,6 +86,16 @@
           "imageUrl": "https://icon-sets.iconify.design/og-image.png"
         },
         {
+          "id": "https://news.ycombinator.com/item?id=46665393",
+          "author": "ktyptorio",
+          "description": "Hi HN,\nI have been working with regulation-heavy documents lately, and one thing kept bothering me. Flat RAG pipelines often fail to retrieve related articles together, even when they are clearly connected through references, definitions, or clauses.\nAfter trying several RAG setups, I subjectively felt that GraphRAG was a better mental model for this kind of data. The Microsoft GraphRAG paper and reference implementation were helpful starting points. However, in practice, I found one recurring friction point: graph storage and vector indexing are usually handled by separate systems, which felt unnecessarily heavy for short-lived analysis tasks.\nTo explore this tradeoff, I built GibRAM (Graph in-buffer Retrieval and Associative Memory). It is an experimental, in-memory GraphRAG runtime where entities, relationships, text units, and embeddings live side by side in a single process.\nGibRAM is intentionally ephemeral. It is designed for exploratory tasks like summarization or conversational querying over a bounded document set. Data lives in memory, scoped by session, and is automatically cleaned up via TTL. There are no durability guarantees, and recomputation is considered cheaper than persistence for the intended use cases.\nThis is not a database and not a production-ready system. It is a casual project, largely vibe-coded, meant to explore what GraphRAG looks like when memory is the primary constraint instead of storage. Technical debt exists, and many tradeoffs are explicit.\nThe project is open source, and I would really appreciate feedback, especially from people working on RAG, search infrastructure, or graph-based retrieval.\nGitHub: https://github.com/gibram-io/gibram\nHappy to answer questions or hear why this approach might be flawed.\nComments URL: https://news.ycombinator.com/item?id=46665393\nPoints: 53\n# Comments: 10",
+          "link": "https://github.com/gibram-io/gibram",
+          "publishedOn": "2026-01-18T06:47:17.000Z",
+          "wordCount": 2240,
+          "title": "Show HN: GibRAM an in-memory ephemeral GraphRAG runtime for retrieval",
+          "imageUrl": "https://opengraph.githubassets.com/07c83edcc074c03ec20a4894c4cf12f0f3580fdeaea606847633125ea0fb3e7e/gibram-io/gibram"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=46665310",
           "author": "__patchbit__",
           "description": "Article URL: https://thinknextdesign.com/home.html\nComments URL: https://news.ycombinator.com/item?id=46665310\nPoints: 60\n# Comments: 17",
@@ -84,6 +104,16 @@
           "wordCount": 3172,
           "title": "ThinkNext Design",
           "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46665169",
+          "author": "dannote",
+          "description": "I'm Dan, and I built a CLI that lets AI agents design in Figma.\nWhat it does: 100 commands to create shapes, text, frames, components, modify styles, export assets. JSX importing that's ~100x faster than any plugin API import. Works with any LLM coding assistant.\nWhy I built it: The official Figma MCP server can only read files. I wanted AI to actually design — create buttons, build layouts, generate entire component systems. Existing solutions were either read-only or required verbose JSON schemas that burn through tokens.\nDemo (45 sec): https://youtu.be/9eSYVZRle7o\nTech stack: Bun + Citty for CLI, Elysia WebSocket proxy, Figma plugin. The render command connects to Figma's internal multiplayer protocol via Chrome DevTools for extra performance when dealing with large groups of objects.\nTry it: bun install -g @dannote/figma-use\nLooking for feedback on CLI ergonomics, missing commands, and whether the JSX syntax feels natural.\nComments URL: https://news.ycombinator.com/item?id=46665169\nPoints: 58\n# Comments: 26",
+          "link": "https://github.com/dannote/figma-use",
+          "publishedOn": "2026-01-18T05:55:48.000Z",
+          "wordCount": 7769,
+          "title": "Show HN: Figma-use – CLI to control Figma for AI agents",
+          "imageUrl": "https://opengraph.githubassets.com/49d319a030ae11731fae48aa9cdfca1e3677484e290238e95396e9d9bc591fef/dannote/figma-use"
         },
         {
           "id": "https://news.ycombinator.com/item?id=46664755",
@@ -12754,36 +12784,6 @@
           "wordCount": 2006,
           "title": "Perfect Software – Software for an Audience of One",
           "imageUrl": "https://outofdesk.netlify.app/../images/perfect-software.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46334025",
-          "author": "ybceo",
-          "description": "Article URL: https://servury.com/blog/privacy-is-marketing-anonymity-is-architecture/\nComments URL: https://news.ycombinator.com/item?id=46334025\nPoints: 59\n# Comments: 38",
-          "link": "https://servury.com/blog/privacy-is-marketing-anonymity-is-architecture/",
-          "publishedOn": "2025-12-20T06:21:05.000Z",
-          "wordCount": null,
-          "title": "Privacy doesn't mean anything anymore, anonymity does",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46333983",
-          "author": "handfuloflight",
-          "description": "Article URL: https://www.charlesproxy.com/\nComments URL: https://news.ycombinator.com/item?id=46333983\nPoints: 86\n# Comments: 33",
-          "link": "https://www.charlesproxy.com/",
-          "publishedOn": "2025-12-20T06:09:17.000Z",
-          "wordCount": 2045,
-          "title": "Charles Proxy",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46333830",
-          "author": "NickForLiberty",
-          "description": "Article URL: https://thompson2026.com/blog/deviancy-signal/\nComments URL: https://news.ycombinator.com/item?id=46333830\nPoints: 64\n# Comments: 40",
-          "link": "https://thompson2026.com/blog/deviancy-signal/",
-          "publishedOn": "2025-12-20T05:24:21.000Z",
-          "wordCount": 837,
-          "title": "The Deviancy Signal: Having \"Nothing to Hide\" Is a Threat to Us All",
-          "imageUrl": "/resources/external/dbc3ad95bbd7.webp"
         }
       ]
     }
