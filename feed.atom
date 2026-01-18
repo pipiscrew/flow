@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-01-18T09:27:46.682Z</updated>
+    <updated>2026-01-18T10:27:37.919Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
@@ -17182,78 +17182,6 @@ Points: 54
 # Comments: 53]]></summary>
         <author>
             <name>jp8585</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[CSS Grid Lanes]]></title>
-        <id>https://news.ycombinator.com/item?id=46331586</id>
-        <link href="https://webkit.org/blog/17660/introducing-css-grid-lanes/"/>
-        <updated>2025-12-19T22:13:06.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://webkit.org/blog/17660/introducing-css-grid-lanes/
-Comments URL: https://news.ycombinator.com/item?id=46331586
-Points: 81
-# Comments: 16]]></summary>
-        <author>
-            <name>frizlab</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Buteyko Method]]></title>
-        <id>https://news.ycombinator.com/item?id=46331379</id>
-        <link href="https://en.wikipedia.org/wiki/Buteyko_method"/>
-        <updated>2025-12-19T21:52:07.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://en.wikipedia.org/wiki/Buteyko_method
-Comments URL: https://news.ycombinator.com/item?id=46331379
-Points: 51
-# Comments: 33]]></summary>
-        <author>
-            <name>rzk</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: Netrinos – A keep it simple Mesh VPN for small teams]]></title>
-        <id>https://news.ycombinator.com/item?id=46331364</id>
-        <link href="https://netrinos.com/"/>
-        <updated>2025-12-19T21:50:52.000Z</updated>
-        <summary type="html"><![CDATA[I'm the founder at Netrinos. I built a WireGuard-based mesh VPN because remote access has always been a pain. After years of SSH tunnels, IPsec headaches, and the ssh log horror movie, I wanted something simpler: install, sign in, get work done.
-Netrinos creates a LAN-like overlay network across your devices. Connections are direct P2P via WireGuard, with no central server routing traffic. Each device gets a stable IP and DNS name (pc.you.netrinos.com). When direct connections fail, they fall back to a relay server that's still encrypted end-to-end. We can't see your traffic.
-The most challenging problem to solve was NAT traversal. UDP hole punching works most of the time. The rest is a cocktail of symmetric NAT, CGNAT, and serial NATs. We use STUN-style discovery and relay fallback for the edge cases. I was surprised by how unreliable low-end ISP routers really are, and how much technical wizardry it takes to hide that behind a clean, simple UX.
-Our stack is a Go backend for client and server, WireGuard kernel mode for Linux and Windows (macOS is userspace), Wails.io for cross-platform UI. WireGuard does all the heavy lifting. Go ties it all together.
-Popular use cases include: RDP to home PCs, accessing NAS without exposing it, and SSH into headless Linux boxes. One customer manages hundreds of IoT devices in the field, eliminating the need to deal with customer routers.
-We just released Pro with multi-user, access control, and remote gateway routing. Personal is free (up to 100 devices).
-I'd love to hear what you expect from a simple mesh VPN, what's missing from current tools, and what's lacking from your remote access setup. Use code HNPRO26 for a 30-day trial of Pro.
-https://netrinos.com
-Comments URL: https://news.ycombinator.com/item?id=46331364
-Points: 50
-# Comments: 19]]></summary>
-        <author>
-            <name>pcarroll</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Kernighan's Lever]]></title>
-        <id>https://news.ycombinator.com/item?id=46331292</id>
-        <link href="https://linusakesson.net/programming/kernighans-lever/index.php"/>
-        <updated>2025-12-19T21:42:55.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://linusakesson.net/programming/kernighans-lever/index.php
-Comments URL: https://news.ycombinator.com/item?id=46331292
-Points: 54
-# Comments: 16]]></summary>
-        <author>
-            <name>xk3</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A Better Zip Bomb]]></title>
-        <id>https://news.ycombinator.com/item?id=46331216</id>
-        <link href="https://www.bamsoftware.com/hacks/zipbomb/"/>
-        <updated>2025-12-19T21:34:10.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.bamsoftware.com/hacks/zipbomb/
-Comments URL: https://news.ycombinator.com/item?id=46331216
-Points: 79
-# Comments: 28]]></summary>
-        <author>
-            <name>kekqqq</name>
         </author>
     </entry>
 </feed>
