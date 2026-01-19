@@ -2,10 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-01-19T04:15:17.201Z</updated>
+    <updated>2026-01-19T05:36:23.626Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[At least 21 killed in Spain after crash involving high-speed trains]]></title>
+        <id>https://news.ycombinator.com/item?id=46673453</id>
+        <link href="https://www.bbc.com/news/articles/cedw6ylpynyo"/>
+        <updated>2026-01-18T23:54:43.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.bbc.com/news/articles/cedw6ylpynyo
+Comments URL: https://news.ycombinator.com/item?id=46673453
+Points: 50
+# Comments: 31]]></summary>
+        <author>
+            <name>akyuu</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Prediction: Microsoft will eventually ship a Windows-themed Linux distro]]></title>
         <id>https://news.ycombinator.com/item?id=46673264</id>
@@ -17,6 +30,30 @@ Points: 65
 # Comments: 65]]></summary>
         <author>
             <name>AndyKelley</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Beats, a web-based drum machine]]></title>
+        <id>https://news.ycombinator.com/item?id=46672181</id>
+        <link href="https://beats.lasagna.pizza/"/>
+        <updated>2026-01-18T21:10:08.000Z</updated>
+        <summary type="html"><![CDATA[Hello all!
+I've been an avid fan of Pocket Operators by Teenage Engineering since I found out about them. I even own an EP-133 K.O. II today, which I love.
+A couple of months ago, Reddit user andiam03 shared a Google Sheet with some drum patterns [1]. I thought it was a very cool way to share and understand beats.
+During the weekend I coded a basic version of this app I am sharing today. I iterated over it in my free time, and yesterday I felt like I had a pretty good version to share with y'all.
+It's not meant to be a sequencer but rather a way to experiment with beats and basic sounds, save them, and use them in your songs. It also has a sharing feature with a link.
+It was built using Tone.js [2], Stimulus [3] and deployed in Render [4] as a static website. I used an LLM to read the Tone.js documentation and generate sounds, since I have no knowledge about sound production, and modified from there.
+Anyway, hope you like it! I had a blast building it.
+[0]: https://teenage.engineering
+[1]: https://docs.google.com/spreadsheets/d/1GMRWxEqcZGdBzJg52soe...
+[2]: https://tonejs.github.io
+[3]: https://stimulus.hotwired.dev
+[4]: http://render.com
+Comments URL: https://news.ycombinator.com/item?id=46672181
+Points: 53
+# Comments: 12]]></summary>
+        <author>
+            <name>kinduff</name>
         </author>
     </entry>
     <entry>
@@ -752,6 +789,19 @@ Points: 71
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Provide agents with automated feedback]]></title>
+        <id>https://news.ycombinator.com/item?id=46656897</id>
+        <link href="https://banay.me/dont-waste-your-backpressure/"/>
+        <updated>2026-01-17T10:26:18.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://banay.me/dont-waste-your-backpressure/
+Comments URL: https://news.ycombinator.com/item?id=46656897
+Points: 67
+# Comments: 21]]></summary>
+        <author>
+            <name>ghuntley</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Map To Poster – Create Art of your favourite city]]></title>
         <id>https://news.ycombinator.com/item?id=46656834</id>
         <link href="https://github.com/originalankur/maptoposter"/>
@@ -1153,6 +1203,19 @@ Points: 52
 # Comments: 18]]></summary>
         <author>
             <name>tanelpoder</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Fil-Qt: A Qt Base build with Fil-C experience]]></title>
+        <id>https://news.ycombinator.com/item?id=46646080</id>
+        <link href="https://git.qt.io/cradam/fil-qt"/>
+        <updated>2026-01-16T13:19:03.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://git.qt.io/cradam/fil-qt
+Comments URL: https://news.ycombinator.com/item?id=46646080
+Points: 54
+# Comments: 31]]></summary>
+        <author>
+            <name>pjmlp</name>
         </author>
     </entry>
     <entry>
@@ -2941,6 +3004,19 @@ Points: 105
 # Comments: 26]]></summary>
         <author>
             <name>abhishaike</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Using proxies to hide secrets from Claude Code]]></title>
+        <id>https://news.ycombinator.com/item?id=46605155</id>
+        <link href="https://www.joinformal.com/blog/using-proxies-to-hide-secrets-from-claude-code/"/>
+        <updated>2026-01-13T18:12:09.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.joinformal.com/blog/using-proxies-to-hide-secrets-from-claude-code/
+Comments URL: https://news.ycombinator.com/item?id=46605155
+Points: 51
+# Comments: 24]]></summary>
+        <author>
+            <name>drewgregory</name>
         </author>
     </entry>
     <entry>
@@ -17127,32 +17203,6 @@ Points: 100
 # Comments: 71]]></summary>
         <author>
             <name>c0nsumer</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[You have reached the end of the internet (2006)]]></title>
-        <id>https://news.ycombinator.com/item?id=46337656</id>
-        <link href="https://hmpg.net/"/>
-        <updated>2025-12-20T17:10:06.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://hmpg.net/
-Comments URL: https://news.ycombinator.com/item?id=46337656
-Points: 54
-# Comments: 7]]></summary>
-        <author>
-            <name>raytopia</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Pure Silicon Demo Coding: No CPU, No Memory, Just 4k Gates]]></title>
-        <id>https://news.ycombinator.com/item?id=46337438</id>
-        <link href="https://www.a1k0n.net/2025/12/19/tiny-tapeout-demo.html"/>
-        <updated>2025-12-20T16:45:48.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.a1k0n.net/2025/12/19/tiny-tapeout-demo.html
-Comments URL: https://news.ycombinator.com/item?id=46337438
-Points: 98
-# Comments: 4]]></summary>
-        <author>
-            <name>a1k0n</name>
         </author>
     </entry>
 </feed>
