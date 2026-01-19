@@ -2,10 +2,36 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-01-19T19:24:18.925Z</updated>
+    <updated>2026-01-19T20:31:35.193Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Nonviolence]]></title>
+        <id>https://news.ycombinator.com/item?id=46683410</id>
+        <link href="https://kinginstitute.stanford.edu/nonviolence"/>
+        <updated>2026-01-19T19:33:22.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://kinginstitute.stanford.edu/nonviolence
+Comments URL: https://news.ycombinator.com/item?id=46683410
+Points: 67
+# Comments: 31]]></summary>
+        <author>
+            <name>rkp8000</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Letter from a Birmingham Jail [King, Jr.] (1963)]]></title>
+        <id>https://news.ycombinator.com/item?id=46683205</id>
+        <link href="https://www.africa.upenn.edu/Articles_Gen/Letter_Birmingham.html"/>
+        <updated>2026-01-19T19:17:52.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.africa.upenn.edu/Articles_Gen/Letter_Birmingham.html
+Comments URL: https://news.ycombinator.com/item?id=46683205
+Points: 232
+# Comments: 52]]></summary>
+        <author>
+            <name>hn_acker</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[What came first: the CNAME or the A record?]]></title>
         <id>https://news.ycombinator.com/item?id=46681611</id>
@@ -17,6 +43,19 @@ Points: 85
 # Comments: 29]]></summary>
         <author>
             <name>linolevan</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Fix Your Robots.txt or Your Site Disappears from Google]]></title>
+        <id>https://news.ycombinator.com/item?id=46681454</id>
+        <link href="https://www.alanwsmith.com/en/37/wa/jz/s1/"/>
+        <updated>2026-01-19T17:03:38.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.alanwsmith.com/en/37/wa/jz/s1/
+Comments URL: https://news.ycombinator.com/item?id=46681454
+Points: 75
+# Comments: 51]]></summary>
+        <author>
+            <name>bobbiechen</name>
         </author>
     </entry>
     <entry>
@@ -43,6 +82,24 @@ Points: 149
 # Comments: 87]]></summary>
         <author>
             <name>ksec</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Pipenet – A Modern Alternative to Localtunnel]]></title>
+        <id>https://news.ycombinator.com/item?id=46680597</id>
+        <link href="https://pipenet.dev/"/>
+        <updated>2026-01-19T16:10:28.000Z</updated>
+        <summary type="html"><![CDATA[Hey HN!
+localtunnel's server needs random ports per client. That doesn't work on Fly.io or behind strict firewalls.
+We rewrote it in TypeScript and added multiplexing over a single port. Open-source and 100% self-hostable.
+Public instance at *.pipenet.dev if you don't want to self-host.
+Built at Glama for our MCP Inspector, but it's a generic tunnel with no ties to our infra.
+https://github.com/punkpeye/pipenet
+Comments URL: https://news.ycombinator.com/item?id=46680597
+Points: 66
+# Comments: 11]]></summary>
+        <author>
+            <name>punkpeye</name>
         </author>
     </entry>
     <entry>
@@ -252,6 +309,27 @@ Points: 115
 # Comments: 49]]></summary>
         <author>
             <name>no_creativity_</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Bypassing Gemma and Qwen safety with raw strings]]></title>
+        <id>https://news.ycombinator.com/item?id=46675271</id>
+        <link href="https://teendifferent.substack.com/p/apply_chat_template-is-the-safety"/>
+        <updated>2026-01-19T05:11:24.000Z</updated>
+        <summary type="html"><![CDATA[OP here. I spent the weekend red-teaming small-scale open weights models (Qwen2.5-1.5B, Qwen3-1.7B, Gemma-3-1b-it, and SmolLM2-1.7B).
+I found a consistent vulnerability across all of them: Safety alignment relies almost entirely on the presence of the chat template.
+When I stripped the  / instruction tokens and passed raw strings:
+Gemma-3 refusal rates dropped from 100% → 60%.
+Qwen3 refusal rates dropped from 80% → 40%.
+SmolLM2 showed 0% refusal (pure obedience).
+Qualitative failures were stark: models that previously refused to generate explosives tutorials or explicit fiction immediately complied when the "Assistant" persona wasn't triggered by the template.
+It seems we are treating client-side string formatting as a load-bearing safety wall. Full logs, the apply_chat_template ablation code, and heatmaps are in the post.
+Read the full analysis: https://teendifferent.substack.com/p/apply_chat_template-is-...
+Comments URL: https://news.ycombinator.com/item?id=46675271
+Points: 66
+# Comments: 10]]></summary>
+        <author>
+            <name>teendifferent</name>
         </author>
     </entry>
     <entry>
@@ -2045,6 +2123,19 @@ Points: 67
 # Comments: 11]]></summary>
         <author>
             <name>inflam52</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Iterative image reconstruction using random cubic bézier strokes]]></title>
+        <id>https://news.ycombinator.com/item?id=46632184</id>
+        <link href="https://tangled.org/luthenwald.tngl.sh/splined"/>
+        <updated>2026-01-15T13:27:09.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://tangled.org/luthenwald.tngl.sh/splined
+Comments URL: https://news.ycombinator.com/item?id=46632184
+Points: 55
+# Comments: 15]]></summary>
+        <author>
+            <name>luthenwald</name>
         </author>
     </entry>
     <entry>
@@ -17336,19 +17427,6 @@ Points: 50
 # Comments: 4]]></summary>
         <author>
             <name>amindiro</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Inca Stone Masonry]]></title>
-        <id>https://news.ycombinator.com/item?id=46342950</id>
-        <link href="https://www.earthasweknowit.com/pages/inca_construction"/>
-        <updated>2025-12-21T07:26:39.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.earthasweknowit.com/pages/inca_construction
-Comments URL: https://news.ycombinator.com/item?id=46342950
-Points: 54
-# Comments: 11]]></summary>
-        <author>
-            <name>jppope</name>
         </author>
     </entry>
 </feed>

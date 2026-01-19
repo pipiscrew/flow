@@ -6,6 +6,26 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=46683410",
+          "author": "rkp8000",
+          "description": "Article URL: https://kinginstitute.stanford.edu/nonviolence\nComments URL: https://news.ycombinator.com/item?id=46683410\nPoints: 67\n# Comments: 31",
+          "link": "https://kinginstitute.stanford.edu/nonviolence",
+          "publishedOn": "2026-01-19T19:33:22.000Z",
+          "wordCount": 1232,
+          "title": "Nonviolence",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46683205",
+          "author": "hn_acker",
+          "description": "Article URL: https://www.africa.upenn.edu/Articles_Gen/Letter_Birmingham.html\nComments URL: https://news.ycombinator.com/item?id=46683205\nPoints: 232\n# Comments: 52",
+          "link": "https://www.africa.upenn.edu/Articles_Gen/Letter_Birmingham.html",
+          "publishedOn": "2026-01-19T19:17:52.000Z",
+          "wordCount": null,
+          "title": "Letter from a Birmingham Jail [King, Jr.] (1963)",
+          "imageUrl": null
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=46681611",
           "author": "linolevan",
           "description": "Article URL: https://blog.cloudflare.com/cname-a-record-order-dns-standards/\nComments URL: https://news.ycombinator.com/item?id=46681611\nPoints: 85\n# Comments: 29",
@@ -14,6 +34,16 @@
           "wordCount": 2717,
           "title": "What came first: the CNAME or the A record?",
           "imageUrl": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/4z0yCrFGmJHm2Hg2ZH0zMj/4c975397c739e20c18b70c41379f0c04/What_came_first-_the_CNAME_or_the_A_record-OG.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46681454",
+          "author": "bobbiechen",
+          "description": "Article URL: https://www.alanwsmith.com/en/37/wa/jz/s1/\nComments URL: https://news.ycombinator.com/item?id=46681454\nPoints: 75\n# Comments: 51",
+          "link": "https://www.alanwsmith.com/en/37/wa/jz/s1/",
+          "publishedOn": "2026-01-19T17:03:38.000Z",
+          "wordCount": 1405,
+          "title": "Fix Your Robots.txt or Your Site Disappears from Google",
+          "imageUrl": "https://www.alanwsmith.com/neo-files/theme-files/og-images/main-og-image.jpg"
         },
         {
           "id": "https://news.ycombinator.com/item?id=46681153",
@@ -34,6 +64,16 @@
           "wordCount": 2906,
           "title": "Apple testing new App Store design that blurs the line between ads and results",
           "imageUrl": "https://i0.wp.com/9to5mac.com/wp-content/uploads/sites/6/2026/01/app-store-search-ads.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46680597",
+          "author": "punkpeye",
+          "description": "Hey HN!\nlocaltunnel's server needs random ports per client. That doesn't work on Fly.io or behind strict firewalls.\nWe rewrote it in TypeScript and added multiplexing over a single port. Open-source and 100% self-hostable.\nPublic instance at *.pipenet.dev if you don't want to self-host.\nBuilt at Glama for our MCP Inspector, but it's a generic tunnel with no ties to our infra.\nhttps://github.com/punkpeye/pipenet\nComments URL: https://news.ycombinator.com/item?id=46680597\nPoints: 66\n# Comments: 11",
+          "link": "https://pipenet.dev/",
+          "publishedOn": "2026-01-19T16:10:28.000Z",
+          "wordCount": 1167,
+          "title": "Show HN: Pipenet – A Modern Alternative to Localtunnel",
+          "imageUrl": null
         },
         {
           "id": "https://news.ycombinator.com/item?id=46680515",
@@ -193,6 +233,16 @@
           "publishedOn": "2026-01-19T07:14:19.000Z",
           "wordCount": 404,
           "title": "A decentralized peer-to-peer messaging application that operates over Bluetooth",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46675271",
+          "author": "teendifferent",
+          "description": "OP here. I spent the weekend red-teaming small-scale open weights models (Qwen2.5-1.5B, Qwen3-1.7B, Gemma-3-1b-it, and SmolLM2-1.7B).\nI found a consistent vulnerability across all of them: Safety alignment relies almost entirely on the presence of the chat template.\nWhen I stripped the  / instruction tokens and passed raw strings:\nGemma-3 refusal rates dropped from 100% → 60%.\nQwen3 refusal rates dropped from 80% → 40%.\nSmolLM2 showed 0% refusal (pure obedience).\nQualitative failures were stark: models that previously refused to generate explosives tutorials or explicit fiction immediately complied when the \"Assistant\" persona wasn't triggered by the template.\nIt seems we are treating client-side string formatting as a load-bearing safety wall. Full logs, the apply_chat_template ablation code, and heatmaps are in the post.\nRead the full analysis: https://teendifferent.substack.com/p/apply_chat_template-is-...\nComments URL: https://news.ycombinator.com/item?id=46675271\nPoints: 66\n# Comments: 10",
+          "link": "https://teendifferent.substack.com/p/apply_chat_template-is-the-safety",
+          "publishedOn": "2026-01-19T05:11:24.000Z",
+          "wordCount": null,
+          "title": "Bypassing Gemma and Qwen safety with raw strings",
           "imageUrl": null
         },
         {
@@ -1524,6 +1574,16 @@
           "wordCount": 1458,
           "title": "Show HN: TinyCity – A tiny city SIM for MicroPython (Thumby micro console)",
           "imageUrl": "https://opengraph.githubassets.com/ff3ae1a92f67d43e676450221949b5d9712b8e089324e2991924deff53c8a6bb/chrisdiana/TinyCity"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46632184",
+          "author": "luthenwald",
+          "description": "Article URL: https://tangled.org/luthenwald.tngl.sh/splined\nComments URL: https://news.ycombinator.com/item?id=46632184\nPoints: 55\n# Comments: 15",
+          "link": "https://tangled.org/luthenwald.tngl.sh/splined",
+          "publishedOn": "2026-01-15T13:27:09.000Z",
+          "wordCount": 703,
+          "title": "Iterative image reconstruction using random cubic bézier strokes",
+          "imageUrl": "https://tangled.org/luthenwald.tngl.sh/splined/opengraph"
         },
         {
           "id": "https://news.ycombinator.com/item?id=46632023",
@@ -12874,16 +12934,6 @@
           "wordCount": 10273,
           "title": "I rebuilt FlashAttention in Triton to understand the performance archaeology",
           "imageUrl": "https://aminediro.com/"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46342950",
-          "author": "jppope",
-          "description": "Article URL: https://www.earthasweknowit.com/pages/inca_construction\nComments URL: https://news.ycombinator.com/item?id=46342950\nPoints: 54\n# Comments: 11",
-          "link": "https://www.earthasweknowit.com/pages/inca_construction",
-          "publishedOn": "2025-12-21T07:26:39.000Z",
-          "wordCount": 12666,
-          "title": "Inca Stone Masonry",
-          "imageUrl": "https://www.earthasweknowit.com/image/peru_ollantaytambo_stonework.jpg?s=medium"
         }
       ]
     }
