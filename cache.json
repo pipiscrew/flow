@@ -1416,6 +1416,16 @@
           "imageUrl": "https://github.githubassets.com/assets/gist-og-image-54fd7dc0713e.png"
         },
         {
+          "id": "https://news.ycombinator.com/item?id=46624883",
+          "author": "alilleybrinker",
+          "description": "Article URL: https://www.alilleybrinker.com/mini/gas-town-decoded/\nComments URL: https://news.ycombinator.com/item?id=46624883\nPoints: 71\n# Comments: 69",
+          "link": "https://www.alilleybrinker.com/mini/gas-town-decoded/",
+          "publishedOn": "2026-01-14T22:39:33.000Z",
+          "wordCount": 430,
+          "title": "Gas Town Decoded",
+          "imageUrl": null
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=46624740",
           "author": "rabinovich",
           "description": "archive.today has recently (I noticed this, like, 3 days ago) started automatically making requests to someone's personal blog on their CAPTCHA page.  Here's a screenshot of what I'm talking about: https://files.catbox.moe/20jsle.png\nThe relevant JS is:\n   setInterval(function() {\n     fetch(\"https://gyrovague.com/?s=\" + Math.round(new Date().getTime() % 10000000), {\n       referrerPolicy: \"no-referrer\",\n       mode: \"no-cors\"\n     });\n   }, 300);\n\nSo perhaps this is some kind of revenge/DOS attack attempt/deliberately wasting their bandwidth in response to this article?  Maybe an attempt to silence them and force to delete their article?  But if it is, then I have so many questions.  Like, why would the owner of the archive do that 2.5 years after the article was published?  Or why would they even do that in the first place, do they not know about Streisand effect?\nI'm confused.\nComments URL: https://news.ycombinator.com/item?id=46624740\nPoints: 71\n# Comments: 17",
@@ -12734,56 +12744,6 @@
           "wordCount": 8519,
           "title": "Pure Silicon Demo Coding: No CPU, No Memory, Just 4k Gates",
           "imageUrl": "https://www.a1k0n.net/img/tt08-vgademo.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46337134",
-          "author": "sedboyz",
-          "description": "Article URL: https://shkspr.mobi/blog/2025/12/why-do-people-leave-comments-on-openbenches/\nComments URL: https://news.ycombinator.com/item?id=46337134\nPoints: 57\n# Comments: 3",
-          "link": "https://shkspr.mobi/blog/2025/12/why-do-people-leave-comments-on-openbenches/",
-          "publishedOn": "2025-12-20T16:08:17.000Z",
-          "wordCount": null,
-          "title": "Why do people leave comments on OpenBenches?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46337123",
-          "author": "bookofjoe",
-          "description": "Article URL: https://www.facs.org/media-center/press-releases/2025/over-40-of-deceased-drivers-in-motor-vehicle-crashes-test-positive-for-thc-study-shows/\nComments URL: https://news.ycombinator.com/item?id=46337123\nPoints: 88\n# Comments: 110",
-          "link": "https://www.facs.org/media-center/press-releases/2025/over-40-of-deceased-drivers-in-motor-vehicle-crashes-test-positive-for-thc-study-shows/",
-          "publishedOn": "2025-12-20T16:07:24.000Z",
-          "wordCount": 1969,
-          "title": "Over 40% of Deceased Drivers in Vehicle Crashes Test Positive for THC: Study",
-          "imageUrl": "https://www.facs.org/media/pg4dguq5/1127827793.jpg?v=1d8595daebe5750"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46336947",
-          "author": "pavel_lishin",
-          "description": "Article URL: https://pierce.dev/notes/go-ahead-self-host-postgres#user-content-fn-1\nComments URL: https://news.ycombinator.com/item?id=46336947\nPoints: 126\n# Comments: 88",
-          "link": "https://pierce.dev/notes/go-ahead-self-host-postgres#user-content-fn-1",
-          "publishedOn": "2025-12-20T15:43:15.000Z",
-          "wordCount": 3534,
-          "title": "Go ahead, self-host Postgres",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46336743",
-          "author": "surprisetalk",
-          "description": "Article URL: https://www.youtube.com/watch?v=z4_GxPHwqkA\nComments URL: https://news.ycombinator.com/item?id=46336743\nPoints: 58\n# Comments: 21",
-          "link": "https://www.youtube.com/watch?v=z4_GxPHwqkA",
-          "publishedOn": "2025-12-20T15:13:02.000Z",
-          "wordCount": null,
-          "title": "Perfect Aircrete, Kitchen Ingredients [video]",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46336577",
-          "author": "thm",
-          "description": "Article URL: https://www.newyorker.com/news/press-room/the-entire-new-yorker-archive-is-now-fully-digitized\nComments URL: https://news.ycombinator.com/item?id=46336577\nPoints: 81\n# Comments: 9",
-          "link": "https://www.newyorker.com/news/press-room/the-entire-new-yorker-archive-is-now-fully-digitized",
-          "publishedOn": "2025-12-20T14:49:39.000Z",
-          "wordCount": 35635,
-          "title": "The entire New Yorker Archive Is Now Fully Digitized",
-          "imageUrl": "https://media.newyorker.com/photos/69279c9b5d73ed1f5de69b15/16:9/w_1280,c_limit/COVER_ARCHIVE_STILL.jpg"
         }
       ]
     }
