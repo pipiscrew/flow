@@ -6,6 +6,36 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=46686640",
+          "author": "m463",
+          "description": "Article URL: https://newsroom.porsche.com/en/2026/company/porsche-deliveries-2025-41516.html\nComments URL: https://news.ycombinator.com/item?id=46686640\nPoints: 57\n# Comments: 22",
+          "link": "https://newsroom.porsche.com/en/2026/company/porsche-deliveries-2025-41516.html",
+          "publishedOn": "2026-01-20T01:01:36.000Z",
+          "wordCount": 2204,
+          "title": "Porsche Sold More Electrified Cars in Europe in 2025 Than Pure Gas-Powered Cars",
+          "imageUrl": "https://porschepictures.flowcenter.de/pmdb/thumbnail.cgi?id=329688&w=700&h=467&crop=0&public=1&cs=86045ab5c54b56a2"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46684958",
+          "author": "Scramblejams",
+          "description": "Article URL: https://github.com/jordanhubbard/nanolang\nComments URL: https://news.ycombinator.com/item?id=46684958\nPoints: 70\n# Comments: 36",
+          "link": "https://github.com/jordanhubbard/nanolang",
+          "publishedOn": "2026-01-19T21:48:07.000Z",
+          "wordCount": 7452,
+          "title": "Nanolang: A tiny experimental language designed to be targeted by coding LLMs",
+          "imageUrl": "https://repository-images.githubusercontent.com/1066847926/62062dd8-4653-4c88-91e4-f17493091431"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46684708",
+          "author": "mfiguiere",
+          "description": "Article URL: https://www.anthropic.com/research/assistant-axis\nComments URL: https://news.ycombinator.com/item?id=46684708\nPoints: 53\n# Comments: 9",
+          "link": "https://www.anthropic.com/research/assistant-axis",
+          "publishedOn": "2026-01-19T21:25:16.000Z",
+          "wordCount": 7915,
+          "title": "The assistant axis: situating and stabilizing the character of LLMs",
+          "imageUrl": "https://cdn.sanity.io/images/4zrzovbb/website/021f5a89f9b3ba1755f9a2315bc63be855259532-3840x1762.png"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=46684335",
           "author": "praptak",
           "description": "Article URL: https://www.cia.gov/static/5c875f3ec660e092cf893f60b4a288df/SimpleSabotage.pdf\nComments URL: https://news.ycombinator.com/item?id=46684335\nPoints: 54\n# Comments: 31",
@@ -284,6 +314,16 @@
           "wordCount": 5071,
           "title": "MTOTP: Wouldn't it be nice if you were the 2FA device?",
           "imageUrl": "https://opengraph.githubassets.com/b4a2571010f0d0c4f9146c5d3cbb2770e84304b8f67d43e82ac7ab1bf02f1b49/VBranimir/mTOTP"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46676081",
+          "author": "long",
+          "description": "Article URL: https://sean.heelan.io/2026/01/18/on-the-coming-industrialisation-of-exploit-generation-with-llms/\nComments URL: https://news.ycombinator.com/item?id=46676081\nPoints: 71\n# Comments: 55",
+          "link": "https://sean.heelan.io/2026/01/18/on-the-coming-industrialisation-of-exploit-generation-with-llms/",
+          "publishedOn": "2026-01-19T07:57:04.000Z",
+          "wordCount": 5099,
+          "title": "The coming industrialisation of exploit generation with LLMs",
+          "imageUrl": "https://sean.heelan.io/wp-content/uploads/2009/05/cropped-oxford_7602.jpg?w=200"
         },
         {
           "id": "https://news.ycombinator.com/item?id=46675853",
@@ -1104,6 +1144,16 @@
           "wordCount": 1886,
           "title": "Reading across books with Claude Code",
           "imageUrl": "https://pieterma.es/og/syntopic-reading-claude.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46649781",
+          "author": "evakhoury",
+          "description": "Article URL: https://www.youtube.com/watch?v=WYTOykSqf2Y\nComments URL: https://news.ycombinator.com/item?id=46649781\nPoints: 56\n# Comments: 11",
+          "link": "https://www.youtube.com/watch?v=WYTOykSqf2Y",
+          "publishedOn": "2026-01-16T18:15:52.000Z",
+          "wordCount": null,
+          "title": "Graphics In Flatland – 2D ray tracing [video]",
+          "imageUrl": null
         },
         {
           "id": "https://news.ycombinator.com/item?id=46649577",
@@ -12934,76 +12984,6 @@
           "wordCount": 1142,
           "title": "Three Ways to Solve Problems",
           "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46344616",
-          "author": "sinaatalay",
-          "description": "I built RenderCV because Word kept breaking my layout and LaTeX was overkill. I wanted my CV as a single YAML file (content, design, margins, everything) that I could render with one command.\nRun rendercv render cv.yaml → get a perfectly typeset PDF.\nHighlights:\n1. Version-controllable: Your CV is just text. Diff it, tag it.\n2. LLM-friendly: Paste into ChatGPT, tailor to a job description, paste back, render. Batch-produce variants with terminal AI agents.\n3. Perfect typography: Typst under the hood handles pixel-perfect alignment and spacing.\n4. Full design control: Margins, fonts, colors, and more; tweak everything in YAML.\n5. Comes with JSON Schema: Autocompletion and inline docs in your editor.\nBattle-tested for 2+ years, thousands of users, 120k+ total PyPI downloads, 100% test coverage, actively maintained.\nGitHub: https://github.com/rendercv/rendercv\nDocs: https://docs.rendercv.com\nOverview on RenderCV's software design (Pydantic + Jinja2 + Typst): https://docs.rendercv.com/developer_guide/understanding_rend...\nI also wrote up the internals as an educational resource on maintaining Python projects (GitHub Actions, packaging, Docker, JSON Schema, deploying docs, etc.): https://docs.rendercv.com/developer_guide/\nComments URL: https://news.ycombinator.com/item?id=46344616\nPoints: 55\n# Comments: 29",
-          "link": "https://github.com/rendercv/rendercv",
-          "publishedOn": "2025-12-21T13:15:28.000Z",
-          "wordCount": 2588,
-          "title": "Show HN: RenderCV – Open-source CV/resume generator, YAML to PDF",
-          "imageUrl": "https://opengraph.githubassets.com/5e87b438c72897f4dcc048017490489542d028b485d354b10127666c4fc11d80/rendercv/rendercv"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46344573",
-          "author": "ChaosOp",
-          "description": "Hi HN,\nI’ve been working on Gaming Couch, a web-based game platform where up to 8 players use their smartphones as controllers to play real-time action mini-games on a central browser screen.\nTL;DR:\n- 18 competitive mini-games for up to 8 players\n- Runs entirely in the browser\n- Phones act as controllers (no apps, no accounts required)\n- Focused on fast, chaotic, real-time party games (no trivia)\n- Currently in public early access\nTry it here: https://gamingcouch.com. Open the link on a computer, host a session, scan the QR code with your phone(s) and play!\nWhat is it?\nGaming Couch is a party game platform where friends play short competitive action games together on one screen, using their phones as controllers (there's also support for physical gamepads if that's more your thing!)\nI inte…",
-          "link": "https://gamingcouch.com/",
-          "publishedOn": "2025-12-21T13:08:36.000Z",
-          "wordCount": 1925,
-          "title": "Show HN: Gaming Couch – a local multiplayer party game platform for 8 players",
-          "imageUrl": "https://gamingcouch.com/og-preview.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46344514",
-          "author": "_dain_",
-          "description": "Article URL: https://borretti.me/article/coarse-is-better\nComments URL: https://news.ycombinator.com/item?id=46344514\nPoints: 62\n# Comments: 22",
-          "link": "https://borretti.me/article/coarse-is-better",
-          "publishedOn": "2025-12-21T12:57:44.000Z",
-          "wordCount": 945,
-          "title": "Coarse Is Better",
-          "imageUrl": "https://borretti.me/assets/card/coarse-is-better.webp"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46344381",
-          "author": "sdovan1",
-          "description": "Article URL: https://github.com/FOBshippingpoint/shittp\nComments URL: https://news.ycombinator.com/item?id=46344381\nPoints: 56\n# Comments: 12",
-          "link": "https://github.com/FOBshippingpoint/shittp",
-          "publishedOn": "2025-12-21T12:33:11.000Z",
-          "wordCount": 2936,
-          "title": "Show HN: Shittp – Volatile Dotfiles over SSH",
-          "imageUrl": "https://opengraph.githubassets.com/d4e5e834041feff7c22742945314e92bf8ddb11f8c22adb7aca4974db2703cfc/FOBshippingpoint/shittp"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46344270",
-          "author": "Pavlinbg",
-          "description": "Hi HN,\nI’m a junior developer. I wanted to share a side project I’ve been working on.\nThe national railway carrier (BDZ) has no public API. They have an official map but the UI is quite dated, often lags, and doesn't show the full route context.\nI wrote a short write-up about the process here: https://www.pavlinbg.com/posts/bg-train-tracker\nI know it's still rough around the edges (I'm still working on it), but I’d love to hear your feedback or suggestions!\nComments URL: https://news.ycombinator.com/item?id=46344270\nPoints: 50\n# Comments: 12",
-          "link": "https://www.bdzmap.com/",
-          "publishedOn": "2025-12-21T12:15:59.000Z",
-          "wordCount": 107,
-          "title": "Show HN: The Official National Train Map Sucked, So I Made My Own",
-          "imageUrl": "https://bdzmap.com/bdz_map.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46344222",
-          "author": "giuliomagnifico",
-          "description": "Article URL: https://www.nature.com/articles/s41586-025-09827-w\nComments URL: https://news.ycombinator.com/item?id=46344222\nPoints: 55\n# Comments: 35",
-          "link": "https://www.nature.com/articles/s41586-025-09827-w",
-          "publishedOn": "2025-12-21T12:07:44.000Z",
-          "wordCount": 8747,
-          "title": "An 11-qubit atom processor in silicon with all fidelities from 99.10% to 99.99%",
-          "imageUrl": "https://media.springernature.com/m685/springer-static/image/art%3A10.1038%2Fs41586-025-09827-w/MediaObjects/41586_2025_9827_Fig1_HTML.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46344104",
-          "author": "helsinkiandrew",
-          "description": "Article URL: https://loreandordure.com/2025/12/16/jingle-bells/\nComments URL: https://news.ycombinator.com/item?id=46344104\nPoints: 62\n# Comments: 21",
-          "link": "https://loreandordure.com/2025/12/16/jingle-bells/",
-          "publishedOn": "2025-12-21T11:38:48.000Z",
-          "wordCount": 7084,
-          "title": "Jingle Bells (Batman Smells): An incomplete festive folk-rhyme taxonomy",
-          "imageUrl": "https://i0.wp.com/loreandordure.com/wp-content/uploads/2025/12/jinglebellsinfograph.png?fit=1200%2C960&ssl=1"
         }
       ]
     }

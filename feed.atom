@@ -2,10 +2,49 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-01-19T23:27:02.166Z</updated>
+    <updated>2026-01-20T02:10:40.374Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Porsche Sold More Electrified Cars in Europe in 2025 Than Pure Gas-Powered Cars]]></title>
+        <id>https://news.ycombinator.com/item?id=46686640</id>
+        <link href="https://newsroom.porsche.com/en/2026/company/porsche-deliveries-2025-41516.html"/>
+        <updated>2026-01-20T01:01:36.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://newsroom.porsche.com/en/2026/company/porsche-deliveries-2025-41516.html
+Comments URL: https://news.ycombinator.com/item?id=46686640
+Points: 57
+# Comments: 22]]></summary>
+        <author>
+            <name>m463</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Nanolang: A tiny experimental language designed to be targeted by coding LLMs]]></title>
+        <id>https://news.ycombinator.com/item?id=46684958</id>
+        <link href="https://github.com/jordanhubbard/nanolang"/>
+        <updated>2026-01-19T21:48:07.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://github.com/jordanhubbard/nanolang
+Comments URL: https://news.ycombinator.com/item?id=46684958
+Points: 70
+# Comments: 36]]></summary>
+        <author>
+            <name>Scramblejams</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The assistant axis: situating and stabilizing the character of LLMs]]></title>
+        <id>https://news.ycombinator.com/item?id=46684708</id>
+        <link href="https://www.anthropic.com/research/assistant-axis"/>
+        <updated>2026-01-19T21:25:16.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.anthropic.com/research/assistant-axis
+Comments URL: https://news.ycombinator.com/item?id=46684708
+Points: 53
+# Comments: 9]]></summary>
+        <author>
+            <name>mfiguiere</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Simple Sabotage Field Manual (1944) [pdf]]]></title>
         <id>https://news.ycombinator.com/item?id=46684335</id>
@@ -374,6 +413,19 @@ Points: 57
 # Comments: 78]]></summary>
         <author>
             <name>brna-2</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The coming industrialisation of exploit generation with LLMs]]></title>
+        <id>https://news.ycombinator.com/item?id=46676081</id>
+        <link href="https://sean.heelan.io/2026/01/18/on-the-coming-industrialisation-of-exploit-generation-with-llms/"/>
+        <updated>2026-01-19T07:57:04.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://sean.heelan.io/2026/01/18/on-the-coming-industrialisation-of-exploit-generation-with-llms/
+Comments URL: https://news.ycombinator.com/item?id=46676081
+Points: 71
+# Comments: 55]]></summary>
+        <author>
+            <name>long</name>
         </author>
     </entry>
     <entry>
@@ -1492,6 +1544,19 @@ Points: 61
 # Comments: 18]]></summary>
         <author>
             <name>gmays</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Graphics In Flatland – 2D ray tracing [video]]]></title>
+        <id>https://news.ycombinator.com/item?id=46649781</id>
+        <link href="https://www.youtube.com/watch?v=WYTOykSqf2Y"/>
+        <updated>2026-01-16T18:15:52.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.youtube.com/watch?v=WYTOykSqf2Y
+Comments URL: https://news.ycombinator.com/item?id=46649781
+Points: 56
+# Comments: 11]]></summary>
+        <author>
+            <name>evakhoury</name>
         </author>
     </entry>
     <entry>
@@ -17403,121 +17468,6 @@ Points: 55
 # Comments: 12]]></summary>
         <author>
             <name>42point2</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: RenderCV – Open-source CV/resume generator, YAML to PDF]]></title>
-        <id>https://news.ycombinator.com/item?id=46344616</id>
-        <link href="https://github.com/rendercv/rendercv"/>
-        <updated>2025-12-21T13:15:28.000Z</updated>
-        <summary type="html"><![CDATA[I built RenderCV because Word kept breaking my layout and LaTeX was overkill. I wanted my CV as a single YAML file (content, design, margins, everything) that I could render with one command.
-Run rendercv render cv.yaml → get a perfectly typeset PDF.
-Highlights:
-1. Version-controllable: Your CV is just text. Diff it, tag it.
-2. LLM-friendly: Paste into ChatGPT, tailor to a job description, paste back, render. Batch-produce variants with terminal AI agents.
-3. Perfect typography: Typst under the hood handles pixel-perfect alignment and spacing.
-4. Full design control: Margins, fonts, colors, and more; tweak everything in YAML.
-5. Comes with JSON Schema: Autocompletion and inline docs in your editor.
-Battle-tested for 2+ years, thousands of users, 120k+ total PyPI downloads, 100% test coverage, actively maintained.
-GitHub: https://github.com/rendercv/rendercv
-Docs: https://docs.rendercv.com
-Overview on RenderCV's software design (Pydantic + Jinja2 + Typst): https://docs.rendercv.com/developer_guide/understanding_rend...
-I also wrote up the internals as an educational resource on maintaining Python projects (GitHub Actions, packaging, Docker, JSON Schema, deploying docs, etc.): https://docs.rendercv.com/developer_guide/
-Comments URL: https://news.ycombinator.com/item?id=46344616
-Points: 55
-# Comments: 29]]></summary>
-        <author>
-            <name>sinaatalay</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: Gaming Couch – a local multiplayer party game platform for 8 players]]></title>
-        <id>https://news.ycombinator.com/item?id=46344573</id>
-        <link href="https://gamingcouch.com/"/>
-        <updated>2025-12-21T13:08:36.000Z</updated>
-        <summary type="html"><![CDATA[Hi HN,
-I’ve been working on Gaming Couch, a web-based game platform where up to 8 players use their smartphones as controllers to play real-time action mini-games on a central browser screen.
-TL;DR:
-- 18 competitive mini-games for up to 8 players
-- Runs entirely in the browser
-- Phones act as controllers (no apps, no accounts required)
-- Focused on fast, chaotic, real-time party games (no trivia)
-- Currently in public early access
-Try it here: https://gamingcouch.com. Open the link on a computer, host a session, scan the QR code with your phone(s) and play!
-What is it?
-Gaming Couch is a party game platform where friends play short competitive action games together on one screen, using their phones as controllers (there's also support for physical gamepads if that's more your thing!)
-I inte…]]></summary>
-        <author>
-            <name>ChaosOp</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Coarse Is Better]]></title>
-        <id>https://news.ycombinator.com/item?id=46344514</id>
-        <link href="https://borretti.me/article/coarse-is-better"/>
-        <updated>2025-12-21T12:57:44.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://borretti.me/article/coarse-is-better
-Comments URL: https://news.ycombinator.com/item?id=46344514
-Points: 62
-# Comments: 22]]></summary>
-        <author>
-            <name>_dain_</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: Shittp – Volatile Dotfiles over SSH]]></title>
-        <id>https://news.ycombinator.com/item?id=46344381</id>
-        <link href="https://github.com/FOBshippingpoint/shittp"/>
-        <updated>2025-12-21T12:33:11.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://github.com/FOBshippingpoint/shittp
-Comments URL: https://news.ycombinator.com/item?id=46344381
-Points: 56
-# Comments: 12]]></summary>
-        <author>
-            <name>sdovan1</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: The Official National Train Map Sucked, So I Made My Own]]></title>
-        <id>https://news.ycombinator.com/item?id=46344270</id>
-        <link href="https://www.bdzmap.com/"/>
-        <updated>2025-12-21T12:15:59.000Z</updated>
-        <summary type="html"><![CDATA[Hi HN,
-I’m a junior developer. I wanted to share a side project I’ve been working on.
-The national railway carrier (BDZ) has no public API. They have an official map but the UI is quite dated, often lags, and doesn't show the full route context.
-I wrote a short write-up about the process here: https://www.pavlinbg.com/posts/bg-train-tracker
-I know it's still rough around the edges (I'm still working on it), but I’d love to hear your feedback or suggestions!
-Comments URL: https://news.ycombinator.com/item?id=46344270
-Points: 50
-# Comments: 12]]></summary>
-        <author>
-            <name>Pavlinbg</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[An 11-qubit atom processor in silicon with all fidelities from 99.10% to 99.99%]]></title>
-        <id>https://news.ycombinator.com/item?id=46344222</id>
-        <link href="https://www.nature.com/articles/s41586-025-09827-w"/>
-        <updated>2025-12-21T12:07:44.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.nature.com/articles/s41586-025-09827-w
-Comments URL: https://news.ycombinator.com/item?id=46344222
-Points: 55
-# Comments: 35]]></summary>
-        <author>
-            <name>giuliomagnifico</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Jingle Bells (Batman Smells): An incomplete festive folk-rhyme taxonomy]]></title>
-        <id>https://news.ycombinator.com/item?id=46344104</id>
-        <link href="https://loreandordure.com/2025/12/16/jingle-bells/"/>
-        <updated>2025-12-21T11:38:48.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://loreandordure.com/2025/12/16/jingle-bells/
-Comments URL: https://news.ycombinator.com/item?id=46344104
-Points: 62
-# Comments: 21]]></summary>
-        <author>
-            <name>helsinkiandrew</name>
         </author>
     </entry>
 </feed>
