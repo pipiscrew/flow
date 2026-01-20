@@ -6,6 +6,16 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=46698660",
+          "author": "thnaks",
+          "description": "Article URL: https://www.latimes.com/california/story/2026-01-09/california-has-no-areas-of-dryness-first-time-in-25-years\nComments URL: https://news.ycombinator.com/item?id=46698660\nPoints: 75\n# Comments: 30",
+          "link": "https://www.latimes.com/california/story/2026-01-09/california-has-no-areas-of-dryness-first-time-in-25-years",
+          "publishedOn": "2026-01-20T22:39:26.000Z",
+          "wordCount": 5488,
+          "title": "California is free of drought for the first time in 25 years",
+          "imageUrl": "https://ca-times.brightspotcdn.com/dims4/default/3763eb2/2147483647/strip/true/crop/4232x2222+0+438/resize/1200x630!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F3b%2F7d%2F2d1dc1bc48768d49bb4fe97d0079%2F1536447-me-beaches-advisory-storm-ajs-16.jpg"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=46696357",
           "author": "KORraN",
           "description": "Article URL: https://novalauncher.com/nova-is-here-to-stay\nComments URL: https://news.ycombinator.com/item?id=46696357\nPoints: 72\n# Comments: 46",
@@ -54,6 +64,16 @@
           "wordCount": 587,
           "title": "The Unix Pipe Card Game",
           "imageUrl": "https://punkx.org/unix-pipe-game/photos/deck.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46693959",
+          "author": "calcsam",
+          "description": "Hi HN, we're Sam, Shane, and Abhi.\nAlmost a year ago, we first shared Mastra here (https://news.ycombinator.com/item?id=43103073). It’s kind of fun looking back since we were only a few months into building at the time. The HN community gave a lot of enthusiasm and some helpful feedback.\nToday, we released Mastra 1.0 in stable, so we wanted to come back and talk about what’s changed.\nIf you’re new to Mastra, it's an open-source TypeScript agent framework that also lets you create multi-agent workflows, run evals, inspect in a local studio, and emit observability.\nSince our last post, Mastra has grown to over 300k weekly npm downloads and 19.4k GitHub stars. It’s now Apache 2.0 licensed and runs in prod at companies like Replit, PayPal, and Sanity.\nAgent development is changing quickly, so …",
+          "link": "https://github.com/mastra-ai/mastra",
+          "publishedOn": "2026-01-20T16:38:56.000Z",
+          "wordCount": 2736,
+          "title": "Show HN: Mastra 1.0, open-source JavaScript agent framework from the Gatsby devs",
+          "imageUrl": "https://opengraph.githubassets.com/b9504cb5ebad2125c2124c2f4bdd0468f07b7400a9946afa0999745551d20a8d/mastra-ai/mastra"
         },
         {
           "id": "https://news.ycombinator.com/item?id=46693346",
@@ -2564,6 +2584,16 @@
           "wordCount": 2651,
           "title": "Project SkyWatch (a.k.a. Wescam at Home)",
           "imageUrl": "https://ianservin.com/wp-content/uploads/2026/01/20260113-SkyWatch-cover-image-scaled.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46618472",
+          "author": "rodricios",
+          "description": "wxpath is a declarative web crawler where web crawling and scraping are expressed directly in XPath.\nInstead of writing imperative crawl loops, you describe what to follow and what to extract in a single expression:\n    import wxpath\n\n    # Crawl, extract fields, build a Wikipedia knowledge graph\n    path_expr = \"\"\"\n    url('https://en.wikipedia.org/wiki/Expression_language')\n         ///url(//main//a/@href[starts-with(., '/wiki/') and not(contains(., ':'))])\n             /map{\n                'title': (//span[contains(@class, \"mw-page-title-main\")]/text())[1] ! string(.),\n                'url': string(base-uri(.)),\n                'short_description': //div[contains(@class, 'shortdescription')]/text() ! string(.),\n                'forward_links': //div[@id=\"mw-content-text\"]//a/@href ! string(.)\n             }\n    \"\"\"\n\n    for item in wxpath.wxpath_async_blocking_iter(path_expr, max_depth=1):\n        print(item)\n\nFeatures:\n- Async/concurrent crawling with streaming results\n- Scrapy-inspired auto-throttle and polite crawling\n- Hook system for custom processing\n- CLI for quick experiments\nAnother example, paginating through HN comments (via \"follow=\" argument) pages and extracting data:\n    url('https://news.ycombinator.com',\n        follow=//a[text()='comments']/@href | //a[@class='morelink']/@href)\n        //tr[@class='athing']\n          /map {\n            'text': .//div[@class='comment']//text(),\n            'user': .//a[@class='hnuser']/@href,\n            'parent_post': .//span[@class='onstory']/a/@href\n          }\n\nGitHub: https://github.com/rodricios/wxpath\nPyPI: pip install wxpath\nI'd love feedback on the expression syntax and any use cases this might unlock.\nThanks!\nComments URL: https://news.ycombinator.com/item?id=46618472\nPoints: 52\n# Comments: 8",
+          "link": "https://github.com/rodricios/wxpath",
+          "publishedOn": "2026-01-14T16:52:34.000Z",
+          "wordCount": 8890,
+          "title": "Show HN: wxpath – Declarative web crawling in XPath",
+          "imageUrl": "https://opengraph.githubassets.com/7fc0504f3cac7b5f1228a5eb62b677f091488b9b057c094ad89dc097b0cfa9b2/rodricios/wxpath"
         },
         {
           "id": "https://news.ycombinator.com/item?id=46618272",
@@ -12854,26 +12884,6 @@
           "wordCount": 3746,
           "title": "The biggest CRT ever made: Sony's PVM-4300",
           "imageUrl": "https://i0.wp.com/dfarq.homeip.net/wp-content/uploads/2024/06/sony-pvm-4300-social.jpg?fit=706%2C398&ssl=1"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46353261",
-          "author": "amarcheschi",
-          "description": "Article URL: https://en.agcm.it/en/media/press-releases/2025/12/A561\nComments URL: https://news.ycombinator.com/item?id=46353261\nPoints: 61\n# Comments: 50",
-          "link": "https://en.agcm.it/en/media/press-releases/2025/12/A561",
-          "publishedOn": "2025-12-22T11:22:14.000Z",
-          "wordCount": null,
-          "title": "Italian Competition Authority Fines Apple $115M for Abusing Dominant Position",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46353257",
-          "author": "vismit2000",
-          "description": "Article URL: https://docs.python.org/3.15/library/profiling.sampling.html\nComments URL: https://news.ycombinator.com/item?id=46353257\nPoints: 57\n# Comments: 2",
-          "link": "https://docs.python.org/3.15/library/profiling.sampling.html",
-          "publishedOn": "2025-12-22T11:21:42.000Z",
-          "wordCount": 7728,
-          "title": "Tachyon: High frequency statistical sampling profiler",
-          "imageUrl": "https://docs.python.org/3.15/_images/social_previews/summary_library_profiling.sampling_150a7363.png"
         }
       ]
     }

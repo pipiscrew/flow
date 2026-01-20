@@ -2,10 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-01-20T22:28:29.627Z</updated>
+    <updated>2026-01-20T23:29:02.557Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[California is free of drought for the first time in 25 years]]></title>
+        <id>https://news.ycombinator.com/item?id=46698660</id>
+        <link href="https://www.latimes.com/california/story/2026-01-09/california-has-no-areas-of-dryness-first-time-in-25-years"/>
+        <updated>2026-01-20T22:39:26.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.latimes.com/california/story/2026-01-09/california-has-no-areas-of-dryness-first-time-in-25-years
+Comments URL: https://news.ycombinator.com/item?id=46698660
+Points: 75
+# Comments: 30]]></summary>
+        <author>
+            <name>thnaks</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Instabridge has acquired Nova Launcher]]></title>
         <id>https://news.ycombinator.com/item?id=46696357</id>
@@ -69,6 +82,21 @@ Points: 57
 # Comments: 15]]></summary>
         <author>
             <name>kykeonaut</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Mastra 1.0, open-source JavaScript agent framework from the Gatsby devs]]></title>
+        <id>https://news.ycombinator.com/item?id=46693959</id>
+        <link href="https://github.com/mastra-ai/mastra"/>
+        <updated>2026-01-20T16:38:56.000Z</updated>
+        <summary type="html"><![CDATA[Hi HN, we're Sam, Shane, and Abhi.
+Almost a year ago, we first shared Mastra here (https://news.ycombinator.com/item?id=43103073). It’s kind of fun looking back since we were only a few months into building at the time. The HN community gave a lot of enthusiasm and some helpful feedback.
+Today, we released Mastra 1.0 in stable, so we wanted to come back and talk about what’s changed.
+If you’re new to Mastra, it's an open-source TypeScript agent framework that also lets you create multi-agent workflows, run evals, inspect in a local studio, and emit observability.
+Since our last post, Mastra has grown to over 300k weekly npm downloads and 19.4k GitHub stars. It’s now Apache 2.0 licensed and runs in prod at companies like Replit, PayPal, and Sanity.
+Agent development is changing quickly, so …]]></summary>
+        <author>
+            <name>calcsam</name>
         </author>
     </entry>
     <entry>
@@ -3444,6 +3472,56 @@ Points: 53
 # Comments: 11]]></summary>
         <author>
             <name>jjwiseman</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: wxpath – Declarative web crawling in XPath]]></title>
+        <id>https://news.ycombinator.com/item?id=46618472</id>
+        <link href="https://github.com/rodricios/wxpath"/>
+        <updated>2026-01-14T16:52:34.000Z</updated>
+        <summary type="html"><![CDATA[wxpath is a declarative web crawler where web crawling and scraping are expressed directly in XPath.
+Instead of writing imperative crawl loops, you describe what to follow and what to extract in a single expression:
+    import wxpath
+
+    # Crawl, extract fields, build a Wikipedia knowledge graph
+    path_expr = """
+    url('https://en.wikipedia.org/wiki/Expression_language')
+         ///url(//main//a/@href[starts-with(., '/wiki/') and not(contains(., ':'))])
+             /map{
+                'title': (//span[contains(@class, "mw-page-title-main")]/text())[1] ! string(.),
+                'url': string(base-uri(.)),
+                'short_description': //div[contains(@class, 'shortdescription')]/text() ! string(.),
+                'forward_links': //div[@id="mw-content-text"]//a/@href ! string(.)
+             }
+    """
+
+    for item in wxpath.wxpath_async_blocking_iter(path_expr, max_depth=1):
+        print(item)
+
+Features:
+- Async/concurrent crawling with streaming results
+- Scrapy-inspired auto-throttle and polite crawling
+- Hook system for custom processing
+- CLI for quick experiments
+Another example, paginating through HN comments (via "follow=" argument) pages and extracting data:
+    url('https://news.ycombinator.com',
+        follow=//a[text()='comments']/@href | //a[@class='morelink']/@href)
+        //tr[@class='athing']
+          /map {
+            'text': .//div[@class='comment']//text(),
+            'user': .//a[@class='hnuser']/@href,
+            'parent_post': .//span[@class='onstory']/a/@href
+          }
+
+GitHub: https://github.com/rodricios/wxpath
+PyPI: pip install wxpath
+I'd love feedback on the expression syntax and any use cases this might unlock.
+Thanks!
+Comments URL: https://news.ycombinator.com/item?id=46618472
+Points: 52
+# Comments: 8]]></summary>
+        <author>
+            <name>rodricios</name>
         </author>
     </entry>
     <entry>
@@ -17284,32 +17362,6 @@ Points: 79
 # Comments: 42]]></summary>
         <author>
             <name>giuliomagnifico</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Italian Competition Authority Fines Apple $115M for Abusing Dominant Position]]></title>
-        <id>https://news.ycombinator.com/item?id=46353261</id>
-        <link href="https://en.agcm.it/en/media/press-releases/2025/12/A561"/>
-        <updated>2025-12-22T11:22:14.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://en.agcm.it/en/media/press-releases/2025/12/A561
-Comments URL: https://news.ycombinator.com/item?id=46353261
-Points: 61
-# Comments: 50]]></summary>
-        <author>
-            <name>amarcheschi</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Tachyon: High frequency statistical sampling profiler]]></title>
-        <id>https://news.ycombinator.com/item?id=46353257</id>
-        <link href="https://docs.python.org/3.15/library/profiling.sampling.html"/>
-        <updated>2025-12-22T11:21:42.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://docs.python.org/3.15/library/profiling.sampling.html
-Comments URL: https://news.ycombinator.com/item?id=46353257
-Points: 57
-# Comments: 2]]></summary>
-        <author>
-            <name>vismit2000</name>
         </author>
     </entry>
 </feed>
