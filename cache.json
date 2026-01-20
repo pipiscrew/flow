@@ -6,6 +6,26 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=46690907",
+          "author": "emilburzo",
+          "description": "Article URL: https://blog.emilburzo.com/2026/01/running-claude-code-dangerously-safely/\nComments URL: https://news.ycombinator.com/item?id=46690907\nPoints: 97\n# Comments: 75",
+          "link": "https://blog.emilburzo.com/2026/01/running-claude-code-dangerously-safely/",
+          "publishedOn": "2026-01-20T11:58:34.000Z",
+          "wordCount": 1155,
+          "title": "Running Claude Code dangerously (safely)",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46690402",
+          "author": "swah",
+          "description": "Article URL: https://www.seangoedecke.com/addicted-to-being-useful/\nComments URL: https://news.ycombinator.com/item?id=46690402\nPoints: 117\n# Comments: 68",
+          "link": "https://www.seangoedecke.com/addicted-to-being-useful/",
+          "publishedOn": "2026-01-20T10:47:25.000Z",
+          "wordCount": 1156,
+          "title": "I'm addicted to being useful",
+          "imageUrl": "https://seangoedecke.comog-image.jpeg"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=46689204",
           "author": "madjam002",
           "description": "Article URL: https://www.iqair.com/world-air-quality-ranking\nComments URL: https://news.ycombinator.com/item?id=46689204\nPoints: 73\n# Comments: 67",
@@ -12853,36 +12873,6 @@
           "publishedOn": "2025-12-22T04:04:04.000Z",
           "wordCount": 2282,
           "title": "Your Inbox Is a Bandit",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46350641",
-          "author": "rekireki",
-          "description": "Some time ago I decided to try building an Android app using Rust. After a few weeks I got it working. There was a new iced release recently, so I've just updated the example to new iced and wgpu. I'd like to share my experience to attract more attention to Rust on Android.\nFirst things, I want to thank all the people who work on the foundational crates and tools such as:\n- https://github.com/rust-mobile/android-activity\n- https://github.com/jni-rs/jni-rs\n- https://github.com/gfx-rs/wgpu\n- https://github.com/rust-windowing/winit\n- and many others\nWhen I started I had to learn what tools and examples already exist. Luckily, there's a good set of examples using both NativeActivity and GameActivity:\nhttps://github.com/rust-mobile/rust-android-examples\nThe basic approach is that we take androi…",
-          "link": "https://github.com/ibaryshnikov/android-iced-example",
-          "publishedOn": "2025-12-22T02:14:32.000Z",
-          "wordCount": 1709,
-          "title": "Build Android apps using Rust and Iced",
-          "imageUrl": "https://opengraph.githubassets.com/761c9de3cc2416ba8d3cdfeb5a5142bf33e3825de5870ab989804527f4266ccf/ibaryshnikov/android-iced-example"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46350477",
-          "author": "chungy",
-          "description": "Article URL: https://86box.net/2025/12/21/86box-v5-3.html\nComments URL: https://news.ycombinator.com/item?id=46350477\nPoints: 52\n# Comments: 1",
-          "link": "https://86box.net/2025/12/21/86box-v5-3.html",
-          "publishedOn": "2025-12-22T01:43:40.000Z",
-          "wordCount": 1192,
-          "title": "86Box v5.3",
-          "imageUrl": "http://86box.net/assets/images/v5.3/hero.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46350476",
-          "author": "ofalkaed",
-          "description": "Article URL: https://www.youtube.com/watch?v=8kUQWuK1L4w\nComments URL: https://news.ycombinator.com/item?id=46350476\nPoints: 52\n# Comments: 9",
-          "link": "https://www.youtube.com/watch?v=8kUQWuK1L4w",
-          "publishedOn": "2025-12-22T01:43:29.000Z",
-          "wordCount": null,
-          "title": "The Origins of APL (1974) [video]",
           "imageUrl": null
         }
       ]
