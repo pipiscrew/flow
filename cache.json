@@ -6,6 +6,36 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=46707699",
+          "author": "Daemon404",
+          "description": "As expected. Almost the whole company is gone, less than 15 people left in engineering.\nComments URL: https://news.ycombinator.com/item?id=46707699\nPoints: 52\n# Comments: 15",
+          "link": "https://news.ycombinator.com/item?id=46707699",
+          "publishedOn": "2026-01-21T16:14:39.000Z",
+          "wordCount": 955,
+          "title": "Bending Spoons laid off almost everybody at Vimeo yesterday",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46706947",
+          "author": "ofrzeta",
+          "description": "Article URL: https://docs.smartos.org/\nComments URL: https://news.ycombinator.com/item?id=46706947\nPoints: 50\n# Comments: 17",
+          "link": "https://docs.smartos.org/",
+          "publishedOn": "2026-01-21T15:23:18.000Z",
+          "wordCount": 1106,
+          "title": "SmartOS",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46706528",
+          "author": "huntergemmer",
+          "description": "Creator here. I built ChartGPU because I kept hitting the same wall: charting libraries that claim to be \"fast\" but choke past 100K data points.\nThe core insight: Canvas2D is fundamentally CPU-bound. Even WebGL chart libraries still do most computation on the CPU. So I moved everything to the GPU via WebGPU:\n- LTTB downsampling runs as a compute shader\n- Hit-testing for tooltips/hover is GPU-accelerated\n- Rendering uses instanced draws (one draw call per series)\nThe result: 1M points at 60fps with smooth zoom/pan.\nLive demo: https://chartgpu.github.io/ChartGPU/examples/million-points/\nCurrently supports line, area, bar, scatter, pie, and candlestick charts. MIT licensed, available on npm: `npm install chartgpu`\nHappy to answer questions about WebGPU internals or architecture decisions.\nComments URL: https://news.ycombinator.com/item?id=46706528\nPoints: 163\n# Comments: 61",
+          "link": "https://github.com/ChartGPU/ChartGPU",
+          "publishedOn": "2026-01-21T14:54:56.000Z",
+          "wordCount": 3705,
+          "title": "Show HN: ChartGPU – WebGPU-powered charting library (1M points at 60fps)",
+          "imageUrl": "https://opengraph.githubassets.com/41ac39ae755fe6eef004d09ba9496ee80d5981f69c6c0f6c701ab7b715da977d/ChartGPU/ChartGPU"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=46705715",
           "author": "jjgreen",
           "description": "Article URL: https://www.theregister.com/2026/01/21/ireland_wants_to_give_police/\nComments URL: https://news.ycombinator.com/item?id=46705715\nPoints: 61\n# Comments: 11",
@@ -94,6 +124,16 @@
           "wordCount": 3059,
           "title": "EU–INC – One Europe. One Standard. – Pan-European Legal Entity",
           "imageUrl": "https://framerusercontent.com/images/DywwAp236AdnECpow4p9VcGluY.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46703317",
+          "author": "signa11",
+          "description": "Article URL: https://atempleton.bearblog.dev/i-made-zig-compute-33-million-satellite-positions-in-3-seconds-no-gpu-required/\nComments URL: https://news.ycombinator.com/item?id=46703317\nPoints: 56\n# Comments: 5",
+          "link": "https://atempleton.bearblog.dev/i-made-zig-compute-33-million-satellite-positions-in-3-seconds-no-gpu-required/",
+          "publishedOn": "2026-01-21T09:51:27.000Z",
+          "wordCount": 3952,
+          "title": "I Made Zig Compute 33M Satellite Positions in 3 Seconds. No GPU Required",
+          "imageUrl": "https://bear-images.sfo2.cdn.digitaloceanspaces.com/herman-1683556668-0.png"
         },
         {
           "id": "https://news.ycombinator.com/item?id=46703301",
@@ -1393,6 +1433,16 @@
           "publishedOn": "2026-01-18T02:17:25.000Z",
           "wordCount": 20727,
           "title": "Profession by Isaac Asimov",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46663931",
+          "author": "ipnon",
+          "description": "Article URL: https://elliotarledge.com/blog/batmobile\nComments URL: https://news.ycombinator.com/item?id=46663931\nPoints: 63\n# Comments: 10",
+          "link": "https://elliotarledge.com/blog/batmobile",
+          "publishedOn": "2026-01-18T01:29:42.000Z",
+          "wordCount": 2081,
+          "title": "Batmobile: 10-20x Faster CUDA Kernels for Equivariant Graph Neural Networks",
           "imageUrl": null
         },
         {
@@ -12794,26 +12844,6 @@
           "wordCount": 2821,
           "title": "Show HN: CineCLI – Browse and torrent movies directly from your terminal",
           "imageUrl": "https://opengraph.githubassets.com/f4e8e70b1322e04966ee843b5c1673c1e86eb54091f526a781beeb7ac32212b8/eyeblech/cinecli"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46362275",
-          "author": "Espressosaurus",
-          "description": "Article URL: https://docs.fcc.gov/public/attachments/DOC-416839A1.pdf\nComments URL: https://news.ycombinator.com/item?id=46362275\nPoints: 51\n# Comments: 25",
-          "link": "https://docs.fcc.gov/public/attachments/DOC-416839A1.pdf",
-          "publishedOn": "2025-12-23T03:57:02.000Z",
-          "wordCount": null,
-          "title": "FCC Updates Covered List to Include Foreign UAS and UAS Critical Components [pdf]",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46362214",
-          "author": "m-hodges",
-          "description": "Article URL: https://www.404media.co/archivists-posted-the-60-minutes-cecot-segment-bari-weiss-killed/\nComments URL: https://news.ycombinator.com/item?id=46362214\nPoints: 93\n# Comments: 3",
-          "link": "https://www.404media.co/archivists-posted-the-60-minutes-cecot-segment-bari-weiss-killed/",
-          "publishedOn": "2025-12-23T03:44:22.000Z",
-          "wordCount": 1014,
-          "title": "Archivists Posted the 60 Minutes Cecot Segment Bari Weiss Killed",
-          "imageUrl": "https://www.404media.co/content/images/size/w1200/2025/12/fp.png"
         }
       ]
     }
