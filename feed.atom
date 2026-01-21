@@ -2,10 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-01-20T23:29:02.557Z</updated>
+    <updated>2026-01-21T02:20:08.879Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Claude Chill: Fix Claude Code's Flickering in Terminal]]></title>
+        <id>https://news.ycombinator.com/item?id=46699072</id>
+        <link href="https://github.com/davidbeesley/claude-chill"/>
+        <updated>2026-01-20T23:26:06.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://github.com/davidbeesley/claude-chill
+Comments URL: https://news.ycombinator.com/item?id=46699072
+Points: 70
+# Comments: 32]]></summary>
+        <author>
+            <name>behnamoh</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[California is free of drought for the first time in 25 years]]></title>
         <id>https://news.ycombinator.com/item?id=46698660</id>
@@ -17,6 +30,45 @@ Points: 75
 # Comments: 30]]></summary>
         <author>
             <name>thnaks</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The challenges of soft delete]]></title>
+        <id>https://news.ycombinator.com/item?id=46698061</id>
+        <link href="https://atlas9.dev/blog/soft-delete.html"/>
+        <updated>2026-01-20T21:36:34.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://atlas9.dev/blog/soft-delete.html
+Comments URL: https://news.ycombinator.com/item?id=46698061
+Points: 85
+# Comments: 57]]></summary>
+        <author>
+            <name>buchanae</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The world of Japanese snack bars]]></title>
+        <id>https://news.ycombinator.com/item?id=46698038</id>
+        <link href="https://www.bbc.com/travel/article/20260116-inside-the-secret-world-of-japanese-snack-bars"/>
+        <updated>2026-01-20T21:34:06.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.bbc.com/travel/article/20260116-inside-the-secret-world-of-japanese-snack-bars
+Comments URL: https://news.ycombinator.com/item?id=46698038
+Points: 101
+# Comments: 63]]></summary>
+        <author>
+            <name>rmason</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Our approach to age prediction]]></title>
+        <id>https://news.ycombinator.com/item?id=46696699</id>
+        <link href="https://openai.com/index/our-approach-to-age-prediction/"/>
+        <updated>2026-01-20T19:34:48.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://openai.com/index/our-approach-to-age-prediction/
+Comments URL: https://news.ycombinator.com/item?id=46696699
+Points: 62
+# Comments: 121]]></summary>
+        <author>
+            <name>pretext</name>
         </author>
     </entry>
     <entry>
@@ -43,6 +95,19 @@ Points: 50
 # Comments: 21]]></summary>
         <author>
             <name>lorey</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Maintenance: Of Everything, Part One]]></title>
+        <id>https://news.ycombinator.com/item?id=46696276</id>
+        <link href="https://press.stripe.com/maintenance-part-one"/>
+        <updated>2026-01-20T19:01:30.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://press.stripe.com/maintenance-part-one
+Comments URL: https://news.ycombinator.com/item?id=46696276
+Points: 72
+# Comments: 13]]></summary>
+        <author>
+            <name>mitchbob</name>
         </author>
     </entry>
     <entry>
@@ -97,6 +162,19 @@ Since our last post, Mastra has grown to over 300k weekly npm downloads and 19.4
 Agent development is changing quickly, so …]]></summary>
         <author>
             <name>calcsam</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Cloudflare zero-day: Accessing any host globally]]></title>
+        <id>https://news.ycombinator.com/item?id=46693728</id>
+        <link href="https://fearsoff.org/research/cloudflare-acme"/>
+        <updated>2026-01-20T16:25:33.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://fearsoff.org/research/cloudflare-acme
+Comments URL: https://news.ycombinator.com/item?id=46693728
+Points: 52
+# Comments: 12]]></summary>
+        <author>
+            <name>2bluesc</name>
         </author>
     </entry>
     <entry>
@@ -188,6 +266,28 @@ Points: 50
 # Comments: 13]]></summary>
         <author>
             <name>adammajcher</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Ask HN: Do you have any evidence that agentic coding works?]]></title>
+        <id>https://news.ycombinator.com/item?id=46691243</id>
+        <link href="https://news.ycombinator.com/item?id=46691243"/>
+        <updated>2026-01-20T12:45:57.000Z</updated>
+        <summary type="html"><![CDATA[I've been trying to get agentic coding to work, but the dissonance between what I'm seeing online and what I'm able to achieve is doing my head in.
+Is there real evidence, beyond hype, that agentic coding produces net-positive results? If any of you have actually got it to work, could you share (in detail) how you did it?
+By "getting it to work" I mean:
+ * creating more value than technical debt, and
+ * producing code that’s structurally sound enough for someone responsible for the architecture to sign off on.
+Lately I’ve seen a push toward minimal or nonexistent code review, with the claim that we should move from “validating architecture” to “validating behavior.” In practice, this seems to mean: don’t look at the code; if tests and CI pass, ship it. I can’t see how this holds up long-term. My expectation is that you end up with "spaghetti" code that works on the happy path but accumulates subtle, hard-to-debug failures over time.
+When I tried using Codex on my existing codebases, with or without guardrails, half of my time went into fixing the subtle mistakes it made or the duplication it introduced.
+Last weekend I tried building an iOS app for pet feeding reminders from scratch. I instructed Codex to research and propose an architectural blueprint for SwiftUI first. Then, I worked with it to write a spec describing what should be implemented and how.
+The first implementation pass was surprisingly good, although it had a number of bugs. Things went downhill fast, however. I spent the rest of my weekend getting Codex to make things work, fix bugs without introducing new ones, and research best practices instead of making stuff up. Although I made it record new guidelines and guardrails as I found them, things didn't improve. In the end I just gave up.
+I personally can't accept shipping unreviewed code. It feels wrong. The product has to work, but the code must also be high-quality.
+Comments URL: https://news.ycombinator.com/item?id=46691243
+Points: 107
+# Comments: 107]]></summary>
+        <author>
+            <name>terabytest</name>
         </author>
     </entry>
     <entry>
@@ -17323,45 +17423,6 @@ Points: 71
 # Comments: 7]]></summary>
         <author>
             <name>squidhunter</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[One year of keeping a tada list]]></title>
-        <id>https://news.ycombinator.com/item?id=46354282</id>
-        <link href="https://www.ducktyped.org/p/one-year-of-keeping-a-tada-list"/>
-        <updated>2025-12-22T14:16:40.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.ducktyped.org/p/one-year-of-keeping-a-tada-list
-Comments URL: https://news.ycombinator.com/item?id=46354282
-Points: 61
-# Comments: 23]]></summary>
-        <author>
-            <name>egonschiele</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Project Vend: Phase Two]]></title>
-        <id>https://news.ycombinator.com/item?id=46354050</id>
-        <link href="https://www.anthropic.com/research/project-vend-2"/>
-        <updated>2025-12-22T13:44:14.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.anthropic.com/research/project-vend-2
-Comments URL: https://news.ycombinator.com/item?id=46354050
-Points: 62
-# Comments: 19]]></summary>
-        <author>
-            <name>kubami</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The biggest CRT ever made: Sony's PVM-4300]]></title>
-        <id>https://news.ycombinator.com/item?id=46353777</id>
-        <link href="https://dfarq.homeip.net/the-biggest-crt-ever-made-sonys-pvm-4300/"/>
-        <updated>2025-12-22T12:54:29.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://dfarq.homeip.net/the-biggest-crt-ever-made-sonys-pvm-4300/
-Comments URL: https://news.ycombinator.com/item?id=46353777
-Points: 79
-# Comments: 42]]></summary>
-        <author>
-            <name>giuliomagnifico</name>
         </author>
     </entry>
 </feed>
