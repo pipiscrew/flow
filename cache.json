@@ -6,6 +6,16 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=46711574",
+          "author": "bdcravens",
+          "description": "Article URL: https://www.valueaddedresource.net/ebay-bans-ai-agents-updates-arbitration-user-agreement-feb-2026/\nComments URL: https://news.ycombinator.com/item?id=46711574\nPoints: 66\n# Comments: 33",
+          "link": "https://www.valueaddedresource.net/ebay-bans-ai-agents-updates-arbitration-user-agreement-feb-2026/",
+          "publishedOn": "2026-01-21T21:07:47.000Z",
+          "wordCount": 3515,
+          "title": "eBay explicitly bans AI \"buy for me\" agents in user agreement update",
+          "imageUrl": "https://www.valueaddedresource.net/content/images/2026/01/ebayua12126.jpg"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=46709727",
           "author": "Alupis",
           "description": "Article URL: https://www.linuxfromscratch.org/lfs/view/stable/\nComments URL: https://news.ycombinator.com/item?id=46709727\nPoints: 191\n# Comments: 38",
@@ -13,6 +23,16 @@
           "publishedOn": "2026-01-21T18:44:40.000Z",
           "wordCount": 490,
           "title": "Linux from Scratch",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46709548",
+          "author": "T-A",
+          "description": "https://www.blueorigin.com/terawave\nhttps://arstechnica.com/space/2026/01/blue-origin-we-want-to...\nComments URL: https://news.ycombinator.com/item?id=46709548\nPoints: 97\n# Comments: 62",
+          "link": "https://www.blueorigin.com/news/blue-origin-introduces-terawave-space-based-network-for-global-connectivity",
+          "publishedOn": "2026-01-21T18:31:58.000Z",
+          "wordCount": null,
+          "title": "TeraWave Satellite Communications Network",
           "imageUrl": null
         },
         {
@@ -1634,6 +1654,16 @@
           "wordCount": 25,
           "title": "EmuDevz: A game about developing emulators",
           "imageUrl": "https://afska.github.io/emudevz/assets/logo.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46662247",
+          "author": "mfru",
+          "description": "Article URL: https://github.com/soegaard/webracket\nComments URL: https://news.ycombinator.com/item?id=46662247\nPoints: 61\n# Comments: 13",
+          "link": "https://github.com/soegaard/webracket",
+          "publishedOn": "2026-01-17T21:23:58.000Z",
+          "wordCount": 7320,
+          "title": "The WebRacket language is a subset of Racket that compiles to WebAssembly",
+          "imageUrl": "https://opengraph.githubassets.com/a2ea27e2ca0e16ce9e6702b3fe24fad2fd0a81a5e4a80169df90339b36b62811/soegaard/webracket"
         },
         {
           "id": "https://news.ycombinator.com/item?id=46662078",
@@ -12894,36 +12924,6 @@
           "wordCount": 4569,
           "title": "Ryanair fined €256M over ‘abusive strategy’ to limit ticket sales by OTAs",
           "imageUrl": "https://i.guim.co.uk/img/media/0c0d402539470b70559e972804fa15cf214418f2/0_0_3780_3024/master/3780.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=7c1defa81df212662b7a9cbe6ef7b527"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46364131",
-          "author": "california-og",
-          "description": "Article URL: https://blog.glyphdrawing.club/font-with-built-in-syntax-highlighting/\nComments URL: https://news.ycombinator.com/item?id=46364131\nPoints: 61\n# Comments: 9",
-          "link": "https://blog.glyphdrawing.club/font-with-built-in-syntax-highlighting/",
-          "publishedOn": "2025-12-23T10:28:09.000Z",
-          "wordCount": 3707,
-          "title": "Font with Built-In Syntax Highlighting (2024)",
-          "imageUrl": "/assets/f3KmrWOM5Z-300.jpeg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46363921",
-          "author": "nishilpatel",
-          "description": "I’m looking for examples of high-quality engineering blog posts—especially from tech company blogs, that go beyond surface-level explanations.\nSpecifically interested in posts that:\n1. Explain technical concepts clearly and concisely\n2. Show real implementation details, trade-offs, and failures\n3. Are well-structured and readable\n4. Tie engineering decisions back to business or product outcomes\nAny standout blogs, posts, or platforms you regularly learn from?\nComments URL: https://news.ycombinator.com/item?id=46363921\nPoints: 70\n# Comments: 44",
-          "link": "https://news.ycombinator.com/item?id=46363921",
-          "publishedOn": "2025-12-23T09:50:31.000Z",
-          "wordCount": 1587,
-          "title": "What are the best engineering blogs with real-world depth (no fluff)?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46363870",
-          "author": "brinedew",
-          "description": "I made a web game inspired by Geoguessr and Wordle, where you get shown a 3D model of a random human protein each day, and you have to triangulate its gene name using similarity clues.\nMy background is in wet lab molecular biology and I intend this game to be engaging mostly to other biologists. But if you're outside the field, I'm interested to know if you can still solve it with browser use LLMs, and if you learned something interesting doing so. Let me know what you think.\nI made it with Claude over the last 2 months. My coding experience is limited to basic python data analysis and figure making. I've seen people online asking, \"Now that we have coding AI, why isn't there a deluge of awesome AI-generated apps made by non-coders?\" - if this sounds like you, check out Geneguessr to understand what a web app by a non-coder looks like.\nI might write more about the process if there's a demand, but what really unlocked the project for Claude was Linear MCP, where it could put each individual issue on a shared Kanban board. This, and Playwright MCP for testing on live site, were the two workhorses that got me through this. For bugs Claude couldn't one-shot, Linear was great for consolidating issue information so that I could dump it into ChatGPT Codex - it would usually think for like half an hour, output very confusing explanations, but the bug was gone.\nGame is free, no log-in required, sorry if you run into any mobile bugs - didn't test it much there.\nhttps://geneguessr.brinedew.bio/\nComments URL: https://news.ycombinator.com/item?id=46363870\nPoints: 57\n# Comments: 11",
-          "link": "https://geneguessr.brinedew.bio/",
-          "publishedOn": "2025-12-23T09:40:37.000Z",
-          "wordCount": 611,
-          "title": "Show HN: GeneGuessr – a daily biology web puzzle",
-          "imageUrl": "https://brinedew.bio/static/geneguessr/og-image.png"
         }
       ]
     }

@@ -2,10 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-01-21T21:33:46.125Z</updated>
+    <updated>2026-01-21T22:31:39.305Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[eBay explicitly bans AI "buy for me" agents in user agreement update]]></title>
+        <id>https://news.ycombinator.com/item?id=46711574</id>
+        <link href="https://www.valueaddedresource.net/ebay-bans-ai-agents-updates-arbitration-user-agreement-feb-2026/"/>
+        <updated>2026-01-21T21:07:47.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.valueaddedresource.net/ebay-bans-ai-agents-updates-arbitration-user-agreement-feb-2026/
+Comments URL: https://news.ycombinator.com/item?id=46711574
+Points: 66
+# Comments: 33]]></summary>
+        <author>
+            <name>bdcravens</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Linux from Scratch]]></title>
         <id>https://news.ycombinator.com/item?id=46709727</id>
@@ -17,6 +30,20 @@ Points: 191
 # Comments: 38]]></summary>
         <author>
             <name>Alupis</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[TeraWave Satellite Communications Network]]></title>
+        <id>https://news.ycombinator.com/item?id=46709548</id>
+        <link href="https://www.blueorigin.com/news/blue-origin-introduces-terawave-space-based-network-for-global-connectivity"/>
+        <updated>2026-01-21T18:31:58.000Z</updated>
+        <summary type="html"><![CDATA[https://www.blueorigin.com/terawave
+https://arstechnica.com/space/2026/01/blue-origin-we-want-to...
+Comments URL: https://news.ycombinator.com/item?id=46709548
+Points: 97
+# Comments: 62]]></summary>
+        <author>
+            <name>T-A</name>
         </author>
     </entry>
     <entry>
@@ -2192,6 +2219,19 @@ Points: 61
 # Comments: 8]]></summary>
         <author>
             <name>ingve</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The WebRacket language is a subset of Racket that compiles to WebAssembly]]></title>
+        <id>https://news.ycombinator.com/item?id=46662247</id>
+        <link href="https://github.com/soegaard/webracket"/>
+        <updated>2026-01-17T21:23:58.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://github.com/soegaard/webracket
+Comments URL: https://news.ycombinator.com/item?id=46662247
+Points: 61
+# Comments: 13]]></summary>
+        <author>
+            <name>mfru</name>
         </author>
     </entry>
     <entry>
@@ -17366,56 +17406,6 @@ Points: 63
 # Comments: 82]]></summary>
         <author>
             <name>aquir</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Font with Built-In Syntax Highlighting (2024)]]></title>
-        <id>https://news.ycombinator.com/item?id=46364131</id>
-        <link href="https://blog.glyphdrawing.club/font-with-built-in-syntax-highlighting/"/>
-        <updated>2025-12-23T10:28:09.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://blog.glyphdrawing.club/font-with-built-in-syntax-highlighting/
-Comments URL: https://news.ycombinator.com/item?id=46364131
-Points: 61
-# Comments: 9]]></summary>
-        <author>
-            <name>california-og</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[What are the best engineering blogs with real-world depth (no fluff)?]]></title>
-        <id>https://news.ycombinator.com/item?id=46363921</id>
-        <link href="https://news.ycombinator.com/item?id=46363921"/>
-        <updated>2025-12-23T09:50:31.000Z</updated>
-        <summary type="html"><![CDATA[I’m looking for examples of high-quality engineering blog posts—especially from tech company blogs, that go beyond surface-level explanations.
-Specifically interested in posts that:
-1. Explain technical concepts clearly and concisely
-2. Show real implementation details, trade-offs, and failures
-3. Are well-structured and readable
-4. Tie engineering decisions back to business or product outcomes
-Any standout blogs, posts, or platforms you regularly learn from?
-Comments URL: https://news.ycombinator.com/item?id=46363921
-Points: 70
-# Comments: 44]]></summary>
-        <author>
-            <name>nishilpatel</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: GeneGuessr – a daily biology web puzzle]]></title>
-        <id>https://news.ycombinator.com/item?id=46363870</id>
-        <link href="https://geneguessr.brinedew.bio/"/>
-        <updated>2025-12-23T09:40:37.000Z</updated>
-        <summary type="html"><![CDATA[I made a web game inspired by Geoguessr and Wordle, where you get shown a 3D model of a random human protein each day, and you have to triangulate its gene name using similarity clues.
-My background is in wet lab molecular biology and I intend this game to be engaging mostly to other biologists. But if you're outside the field, I'm interested to know if you can still solve it with browser use LLMs, and if you learned something interesting doing so. Let me know what you think.
-I made it with Claude over the last 2 months. My coding experience is limited to basic python data analysis and figure making. I've seen people online asking, "Now that we have coding AI, why isn't there a deluge of awesome AI-generated apps made by non-coders?" - if this sounds like you, check out Geneguessr to understand what a web app by a non-coder looks like.
-I might write more about the process if there's a demand, but what really unlocked the project for Claude was Linear MCP, where it could put each individual issue on a shared Kanban board. This, and Playwright MCP for testing on live site, were the two workhorses that got me through this. For bugs Claude couldn't one-shot, Linear was great for consolidating issue information so that I could dump it into ChatGPT Codex - it would usually think for like half an hour, output very confusing explanations, but the bug was gone.
-Game is free, no log-in required, sorry if you run into any mobile bugs - didn't test it much there.
-https://geneguessr.brinedew.bio/
-Comments URL: https://news.ycombinator.com/item?id=46363870
-Points: 57
-# Comments: 11]]></summary>
-        <author>
-            <name>brinedew</name>
         </author>
     </entry>
 </feed>
