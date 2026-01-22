@@ -146,6 +146,16 @@
           "imageUrl": "https://cdn.adtidy.org/blog/new/qjgeytrust-tunnel.png?mw=1200&mh=630"
         },
         {
+          "id": "https://news.ycombinator.com/item?id=46708351",
+          "author": "HermitX",
+          "description": "Article URL: https://www.starrocks.io/blog/inside-starrocks-why-joins-are-faster-than-youd-expect\nComments URL: https://news.ycombinator.com/item?id=46708351\nPoints: 52\n# Comments: 12",
+          "link": "https://www.starrocks.io/blog/inside-starrocks-why-joins-are-faster-than-youd-expect",
+          "publishedOn": "2026-01-21T17:03:31.000Z",
+          "wordCount": 5517,
+          "title": "Challenges in join optimization",
+          "imageUrl": "https://21782839.fs1.hubspotusercontent-na1.net/hubfs/21782839/Group%201142813890.png"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=46708096",
           "author": "rbanffy",
           "description": "Article URL: https://www.yyzkevin.com/picopcmcia/\nComments URL: https://news.ycombinator.com/item?id=46708096\nPoints: 54\n# Comments: 11",
@@ -164,6 +174,16 @@
           "wordCount": 112,
           "title": "JPEG XL Test Page",
           "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46707708",
+          "author": "charles_irl",
+          "description": "Article URL: https://modal.com/llm-almanac/workloads\nComments URL: https://news.ycombinator.com/item?id=46707708\nPoints: 50\n# Comments: 4",
+          "link": "https://modal.com/llm-almanac/workloads",
+          "publishedOn": "2026-01-21T16:15:06.000Z",
+          "wordCount": 4350,
+          "title": "Three types of LLM workloads and how to serve them",
+          "imageUrl": "https://modal-cdn.com/llm-almanac/preview-image.png"
         },
         {
           "id": "https://news.ycombinator.com/item?id=46707699",
@@ -224,6 +244,16 @@
           "wordCount": 1813,
           "title": "Ireland wants to give its cops spyware, ability to crack encrypted messages",
           "imageUrl": "https://regmedia.co.uk/2016/06/10/shutterstock_garda_editorial_only.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46705676",
+          "author": "oliverjanssen",
+          "description": "Hi,\nI started Muky in April 2024. Classic side project that got out of hand. We have two kids - the younger one is happy with the Toniebox, but our older one outgrew it. She started asking for specific songs, audiobooks that aren't available as figurines, and \"the music from that movie.\"\nWe had an old iPad Mini lying around and already pay for Apple Music. Felt dumb to keep buying €17/$20 figurines for 30-45 minutes of content when we have 100 million songs.\nNow at version 4.0 after ~20 updates. Some lessons:\nOn the hardware vs app tradeoff:\nToniebox and Yoto are brilliant for little ones – tactile, simple, no screen needed. But they hit a wall once kids want more. And handing a 5-year-old Apple Music means infinite scrolling and \"Dad, what's this song about?\" Muky sits in between – full l…",
+          "link": "https://news.ycombinator.com/item?id=46705676",
+          "publishedOn": "2026-01-21T13:49:07.000Z",
+          "wordCount": 3235,
+          "title": "Tell HN: 2 years building a kids audio app as a solo dev – lessons learned",
+          "imageUrl": null
         },
         {
           "id": "https://news.ycombinator.com/item?id=46705606",
@@ -1246,6 +1276,16 @@
           "imageUrl": null
         },
         {
+          "id": "https://news.ycombinator.com/item?id=46675583",
+          "author": "gsf_emergency_6",
+          "description": "Article URL: https://www.poetryfoundation.org/poetry-news/69208/new-research-opening-line-of-beowulf-is-not-what-weve-eternally-thunk\nComments URL: https://news.ycombinator.com/item?id=46675583\nPoints: 54\n# Comments: 43",
+          "link": "https://www.poetryfoundation.org/poetry-news/69208/new-research-opening-line-of-beowulf-is-not-what-weve-eternally-thunk",
+          "publishedOn": "2026-01-19T06:19:53.000Z",
+          "wordCount": null,
+          "title": "Beowulf's opening \"What\" is no interjection (2013)",
+          "imageUrl": null
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=46675271",
           "author": "teendifferent",
           "description": "OP here. I spent the weekend red-teaming small-scale open weights models (Qwen2.5-1.5B, Qwen3-1.7B, Gemma-3-1b-it, and SmolLM2-1.7B).\nI found a consistent vulnerability across all of them: Safety alignment relies almost entirely on the presence of the chat template.\nWhen I stripped the  / instruction tokens and passed raw strings:\nGemma-3 refusal rates dropped from 100% → 60%.\nQwen3 refusal rates dropped from 80% → 40%.\nSmolLM2 showed 0% refusal (pure obedience).\nQualitative failures were stark: models that previously refused to generate explosives tutorials or explicit fiction immediately complied when the \"Assistant\" persona wasn't triggered by the template.\nIt seems we are treating client-side string formatting as a load-bearing safety wall. Full logs, the apply_chat_template ablation code, and heatmaps are in the post.\nRead the full analysis: https://teendifferent.substack.com/p/apply_chat_template-is-...\nComments URL: https://news.ycombinator.com/item?id=46675271\nPoints: 66\n# Comments: 10",
@@ -1854,6 +1894,16 @@
           "wordCount": 1497,
           "title": "Show HN: RatatuiRuby wraps Rust Ratatui as a RubyGem – TUIs with the joy of Ruby",
           "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46658128",
+          "author": "redbell",
+          "description": "Article URL: https://arxiv.org/abs/2201.01174\nComments URL: https://news.ycombinator.com/item?id=46658128\nPoints: 58\n# Comments: 3",
+          "link": "https://arxiv.org/abs/2201.01174",
+          "publishedOn": "2026-01-17T14:02:17.000Z",
+          "wordCount": 713,
+          "title": "Binary fuse filters: Fast and smaller than xor filters (2022)",
+          "imageUrl": "/static/browse/0.3.4/images/arxiv-logo-fb.png"
         },
         {
           "id": "https://news.ycombinator.com/item?id=46658014",
@@ -12943,26 +12993,6 @@
           "publishedOn": "2025-12-23T17:08:34.000Z",
           "wordCount": 1852,
           "title": "Meta is using the Linux scheduler designed for Valve's Steam Deck on its servers",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46366285",
-          "author": "bradley_taunt",
-          "description": "https://ficd.sh/blog/your-project-sucks/\nComments URL: https://news.ycombinator.com/item?id=46366285\nPoints: 68\n# Comments: 89",
-          "link": "https://stopslopware.net/",
-          "publishedOn": "2025-12-23T15:51:17.000Z",
-          "wordCount": 348,
-          "title": "Stop Slopware",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46365726",
-          "author": "adityaathalye",
-          "description": "Article URL: https://blog.fogus.me/2025/12/23/the-best-things-and-stuff-of-2025.html\nComments URL: https://news.ycombinator.com/item?id=46365726\nPoints: 119\n# Comments: 13",
-          "link": "https://blog.fogus.me/2025/12/23/the-best-things-and-stuff-of-2025.html",
-          "publishedOn": "2025-12-23T14:51:33.000Z",
-          "wordCount": 5585,
-          "title": "The Best Things and Stuff of 2025",
           "imageUrl": null
         }
       ]
