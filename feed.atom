@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-01-22T04:12:46.225Z</updated>
+    <updated>2026-01-22T05:34:46.446Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
@@ -30,6 +30,50 @@ Points: 150
 # Comments: 90]]></summary>
         <author>
             <name>WaitWaitWha</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[I'll pass on your zoom call]]></title>
+        <id>https://news.ycombinator.com/item?id=46713704</id>
+        <link href="https://operand.online/chronicle/pass.zoom"/>
+        <updated>2026-01-22T00:34:20.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://operand.online/chronicle/pass.zoom
+Comments URL: https://news.ycombinator.com/item?id=46713704
+Points: 54
+# Comments: 36]]></summary>
+        <author>
+            <name>c4lliope</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Threat actors expand abuse of Microsoft Visual Studio Code]]></title>
+        <id>https://news.ycombinator.com/item?id=46713526</id>
+        <link href="https://www.jamf.com/blog/threat-actors-expand-abuse-of-visual-studio-code/"/>
+        <updated>2026-01-22T00:12:00.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.jamf.com/blog/threat-actors-expand-abuse-of-visual-studio-code/
+Comments URL: https://news.ycombinator.com/item?id=46713526
+Points: 92
+# Comments: 54]]></summary>
+        <author>
+            <name>vinnyglennon</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Sweep, Open-weights 1.5B model for next-edit autocomplete]]></title>
+        <id>https://news.ycombinator.com/item?id=46713106</id>
+        <link href="https://huggingface.co/sweepai/sweep-next-edit-1.5B"/>
+        <updated>2026-01-21T23:22:40.000Z</updated>
+        <summary type="html"><![CDATA[Hey HN, we trained and open-sourced a 1.5B model that predicts your next edits, similar to Cursor. You can download the weights here (https://huggingface.co/sweepai/sweep-next-edit-1.5b) or try it in our JetBrains plugin (https://plugins.jetbrains.com/plugin/26860-sweep-ai-autocomp...).
+Next-edit autocomplete differs from standard autocomplete by using your recent edits as context when predicting completions. The model is small enough to run locally while outperforming models 4x its size on both speed and accuracy.
+We tested against Mercury (Inception), Zeta (Zed), and Instinct (Continue) across five benchmarks: next-edit above/below cursor, tab-to-jump for distant changes, standard FIM, and noisiness. We found exact-match accuracy correlates best with real usability because code is fairly precise and the solution space is small.
+Prompt format turned out to matter more than we expected. We ran a genetic algorithm over 30+ diff formats and found simple `original`/`updated` blocks beat unified diffs. The verbose format is just easier for smaller models to understand.
+Training was SFT on ~100k examples from permissively-licensed repos (4hrs on 8xH100), then RL for 2000 steps with tree-sitter parse checking and size regularization. The RL step fixes edge cases SFT can’t like, generating code that doesn’t parse or overly verbose outputs.
+We're open-sourcing the weights so the community can build fast, privacy-preserving autocomplete for any editor. If you're building for VSCode, Neovim, or something else, we'd love to see what you make with it!
+Comments URL: https://news.ycombinator.com/item?id=46713106
+Points: 71
+# Comments: 11]]></summary>
+        <author>
+            <name>williamzeng0</name>
         </author>
     </entry>
     <entry>
@@ -17438,58 +17482,6 @@ Points: 92
 # Comments: 49]]></summary>
         <author>
             <name>quesobob</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Towards a secure peer-to-peer app platform for Clan]]></title>
-        <id>https://news.ycombinator.com/item?id=46367232</id>
-        <link href="https://clan.lol/blog/towards-app-platform-vmtech/"/>
-        <updated>2025-12-23T17:34:22.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://clan.lol/blog/towards-app-platform-vmtech/
-Comments URL: https://news.ycombinator.com/item?id=46367232
-Points: 58
-# Comments: 12]]></summary>
-        <author>
-            <name>throawayonthe</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Fabrice Bellard Releases MicroQuickJS]]></title>
-        <id>https://news.ycombinator.com/item?id=46367224</id>
-        <link href="https://github.com/bellard/mquickjs/blob/main/README.md"/>
-        <updated>2025-12-23T17:33:42.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://github.com/bellard/mquickjs/blob/main/README.md
-Comments URL: https://news.ycombinator.com/item?id=46367224
-Points: 204
-# Comments: 39]]></summary>
-        <author>
-            <name>Aissen</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AI Police Reports: Year in Review]]></title>
-        <id>https://news.ycombinator.com/item?id=46367195</id>
-        <link href="https://www.eff.org/deeplinks/2025/12/ai-police-reports-year-review"/>
-        <updated>2025-12-23T17:30:15.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.eff.org/deeplinks/2025/12/ai-police-reports-year-review
-Comments URL: https://news.ycombinator.com/item?id=46367195
-Points: 62
-# Comments: 17]]></summary>
-        <author>
-            <name>hn_acker</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Meta is using the Linux scheduler designed for Valve's Steam Deck on its servers]]></title>
-        <id>https://news.ycombinator.com/item?id=46366998</id>
-        <link href="https://www.phoronix.com/news/Meta-SCX-LAVD-Steam-Deck-Server"/>
-        <updated>2025-12-23T17:08:34.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.phoronix.com/news/Meta-SCX-LAVD-Steam-Deck-Server
-Comments URL: https://news.ycombinator.com/item?id=46366998
-Points: 158
-# Comments: 55]]></summary>
-        <author>
-            <name>yellow_lead</name>
         </author>
     </entry>
 </feed>

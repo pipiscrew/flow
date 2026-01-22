@@ -26,6 +26,36 @@
           "imageUrl": null
         },
         {
+          "id": "https://news.ycombinator.com/item?id=46713704",
+          "author": "c4lliope",
+          "description": "Article URL: https://operand.online/chronicle/pass.zoom\nComments URL: https://news.ycombinator.com/item?id=46713704\nPoints: 54\n# Comments: 36",
+          "link": "https://operand.online/chronicle/pass.zoom",
+          "publishedOn": "2026-01-22T00:34:20.000Z",
+          "wordCount": 930,
+          "title": "I'll pass on your zoom call",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46713526",
+          "author": "vinnyglennon",
+          "description": "Article URL: https://www.jamf.com/blog/threat-actors-expand-abuse-of-visual-studio-code/\nComments URL: https://news.ycombinator.com/item?id=46713526\nPoints: 92\n# Comments: 54",
+          "link": "https://www.jamf.com/blog/threat-actors-expand-abuse-of-visual-studio-code/",
+          "publishedOn": "2026-01-22T00:12:00.000Z",
+          "wordCount": 3910,
+          "title": "Threat actors expand abuse of Microsoft Visual Studio Code",
+          "imageUrl": "https://media.jamf.com/images/icons/jamf-og-image.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46713106",
+          "author": "williamzeng0",
+          "description": "Hey HN, we trained and open-sourced a 1.5B model that predicts your next edits, similar to Cursor. You can download the weights here (https://huggingface.co/sweepai/sweep-next-edit-1.5b) or try it in our JetBrains plugin (https://plugins.jetbrains.com/plugin/26860-sweep-ai-autocomp...).\nNext-edit autocomplete differs from standard autocomplete by using your recent edits as context when predicting completions. The model is small enough to run locally while outperforming models 4x its size on both speed and accuracy.\nWe tested against Mercury (Inception), Zeta (Zed), and Instinct (Continue) across five benchmarks: next-edit above/below cursor, tab-to-jump for distant changes, standard FIM, and noisiness. We found exact-match accuracy correlates best with real usability because code is fairly precise and the solution space is small.\nPrompt format turned out to matter more than we expected. We ran a genetic algorithm over 30+ diff formats and found simple `original`/`updated` blocks beat unified diffs. The verbose format is just easier for smaller models to understand.\nTraining was SFT on ~100k examples from permissively-licensed repos (4hrs on 8xH100), then RL for 2000 steps with tree-sitter parse checking and size regularization. The RL step fixes edge cases SFT can’t like, generating code that doesn’t parse or overly verbose outputs.\nWe're open-sourcing the weights so the community can build fast, privacy-preserving autocomplete for any editor. If you're building for VSCode, Neovim, or something else, we'd love to see what you make with it!\nComments URL: https://news.ycombinator.com/item?id=46713106\nPoints: 71\n# Comments: 11",
+          "link": "https://huggingface.co/sweepai/sweep-next-edit-1.5B",
+          "publishedOn": "2026-01-21T23:22:40.000Z",
+          "wordCount": 322,
+          "title": "Show HN: Sweep, Open-weights 1.5B model for next-edit autocomplete",
+          "imageUrl": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/sweepai/sweep-next-edit-1.5B.png"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=46712815",
           "author": "dp-hackernews",
           "description": "Article URL: https://github.com/freedomofpress/dangerzone\nComments URL: https://news.ycombinator.com/item?id=46712815\nPoints: 84\n# Comments: 29",
@@ -12954,46 +12984,6 @@
           "wordCount": 3993,
           "title": "We replaced H.264 streaming with JPEG screenshots (and it worked better)",
           "imageUrl": "https://substackcdn.com/image/fetch/$s_!W55L!,f_auto,q_auto:best,fl_progressive:steep/https%3A%2F%2Fhelixml.substack.com%2Ftwitter%2Fsubscribe-card.jpg%3Fv%3D1200176364%26version%3D9"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46367232",
-          "author": "throawayonthe",
-          "description": "Article URL: https://clan.lol/blog/towards-app-platform-vmtech/\nComments URL: https://news.ycombinator.com/item?id=46367232\nPoints: 58\n# Comments: 12",
-          "link": "https://clan.lol/blog/towards-app-platform-vmtech/",
-          "publishedOn": "2025-12-23T17:34:22.000Z",
-          "wordCount": 1766,
-          "title": "Towards a secure peer-to-peer app platform for Clan",
-          "imageUrl": "https://clan.lol//images/blogpost-image-idea_hu_1a3415773c4ffc2d.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46367224",
-          "author": "Aissen",
-          "description": "Article URL: https://github.com/bellard/mquickjs/blob/main/README.md\nComments URL: https://news.ycombinator.com/item?id=46367224\nPoints: 204\n# Comments: 39",
-          "link": "https://github.com/bellard/mquickjs/blob/main/README.md",
-          "publishedOn": "2025-12-23T17:33:42.000Z",
-          "wordCount": 4480,
-          "title": "Fabrice Bellard Releases MicroQuickJS",
-          "imageUrl": "https://opengraph.githubassets.com/a6cf8e2858c6995432df8fb7ba9eecbddb51eb2de335ee704a5e40bf5c372be7/bellard/mquickjs"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46367195",
-          "author": "hn_acker",
-          "description": "Article URL: https://www.eff.org/deeplinks/2025/12/ai-police-reports-year-review\nComments URL: https://news.ycombinator.com/item?id=46367195\nPoints: 62\n# Comments: 17",
-          "link": "https://www.eff.org/deeplinks/2025/12/ai-police-reports-year-review",
-          "publishedOn": "2025-12-23T17:30:15.000Z",
-          "wordCount": 2032,
-          "title": "AI Police Reports: Year in Review",
-          "imageUrl": "https://www.eff.org/files/banner_library/yearinreview_1200x600px_banner_2025.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46366998",
-          "author": "yellow_lead",
-          "description": "Article URL: https://www.phoronix.com/news/Meta-SCX-LAVD-Steam-Deck-Server\nComments URL: https://news.ycombinator.com/item?id=46366998\nPoints: 158\n# Comments: 55",
-          "link": "https://www.phoronix.com/news/Meta-SCX-LAVD-Steam-Deck-Server",
-          "publishedOn": "2025-12-23T17:08:34.000Z",
-          "wordCount": 1852,
-          "title": "Meta is using the Linux scheduler designed for Valve's Steam Deck on its servers",
-          "imageUrl": null
         }
       ]
     }
