@@ -2,10 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-01-23T05:34:01.112Z</updated>
+    <updated>2026-01-23T06:44:23.708Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Talking to LLMs has improved my thinking]]></title>
+        <id>https://news.ycombinator.com/item?id=46728197</id>
+        <link href="https://philipotoole.com/why-talking-to-llms-has-improved-my-thinking/"/>
+        <updated>2026-01-23T03:52:06.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://philipotoole.com/why-talking-to-llms-has-improved-my-thinking/
+Comments URL: https://news.ycombinator.com/item?id=46728197
+Points: 69
+# Comments: 40]]></summary>
+        <author>
+            <name>otoolep</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Bugs Apple Loves]]></title>
         <id>https://news.ycombinator.com/item?id=46727587</id>
@@ -17,6 +30,19 @@ Points: 250
 # Comments: 72]]></summary>
         <author>
             <name>nhod</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Stunnel]]></title>
+        <id>https://news.ycombinator.com/item?id=46726916</id>
+        <link href="https://www.stunnel.org/"/>
+        <updated>2026-01-23T00:30:20.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.stunnel.org/
+Comments URL: https://news.ycombinator.com/item?id=46726916
+Points: 54
+# Comments: 16]]></summary>
+        <author>
+            <name>firesteelrain</name>
         </author>
     </entry>
     <entry>
@@ -188,6 +214,19 @@ Why train a model from scratch?
 We shipped our first model in January 2024 (pre-Sora) as a 180p, 1-second GIF bot, bootstrapped off Stable Diffusion XL. Im…]]></summary>
         <author>
             <name>schopra909</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: BrowserOS – "Claude Cowork" in the browser]]></title>
+        <id>https://news.ycombinator.com/item?id=46721474</id>
+        <link href="https://github.com/browseros-ai/BrowserOS"/>
+        <updated>2026-01-22T16:30:58.000Z</updated>
+        <summary type="html"><![CDATA[Hey HN! We're Nithin and Nikhil, twin brothers building BrowserOS (YC S24). We're an open-source, privacy-first alternative to the AI browsers from big labs.
+The big differentiator: on BrowserOS you can use local LLMs or BYOK and run the agent entirely on the client side, so your company/sensitive data stays on your machine!
+Today we're launching filesystem access... just like Claude Cowork, our browser agent can read files, write files, run shell commands! But honestly, we didn't plan for this. It turns out the privacy decision we made 9 months ago accidentally positioned us for this moment.
+The architectural bet we made 9 months ago: Unlike other AI browsers (ChatGPT Atlas, Perplexity Comet) where the agent loop runs server-side, we decided early on to run our agent entirely on your mach…]]></summary>
+        <author>
+            <name>felarof</name>
         </author>
     </entry>
     <entry>
@@ -17546,48 +17585,6 @@ Points: 59
 # Comments: 4]]></summary>
         <author>
             <name>kmstout</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Fabrice Bellard: Biography [pdf]]]></title>
-        <id>https://news.ycombinator.com/item?id=46377862</id>
-        <link href="https://www.ipaidia.gr/wp-content/uploads/2020/12/117-2020-fabrice-bellard.pdf"/>
-        <updated>2025-12-24T18:17:47.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.ipaidia.gr/wp-content/uploads/2020/12/117-2020-fabrice-bellard.pdf
-Comments URL: https://news.ycombinator.com/item?id=46377862
-Points: 62
-# Comments: 11]]></summary>
-        <author>
-            <name>lioeters</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Researchers achieved 1,270 Wh/L in an anode-free lithium metal battery]]></title>
-        <id>https://news.ycombinator.com/item?id=46377796</id>
-        <link href="https://postech.ac.kr/eng/research/research_results.do?mode=view&amp;articleNo=43617&amp;title=Anode-Free+Battery+Doubles+Electric+Vehicle+Driving+Range"/>
-        <updated>2025-12-24T18:09:42.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://postech.ac.kr/eng/research/research_results.do?mode=view&articleNo=43617&title=Anode-Free+Battery+Doubles+Electric+Vehicle+Driving+Range
-Comments URL: https://news.ycombinator.com/item?id=46377796
-Points: 70
-# Comments: 32]]></summary>
-        <author>
-            <name>giuliomagnifico</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: Vibium – Browser automation for AI and humans, by Selenium's creator]]></title>
-        <id>https://news.ycombinator.com/item?id=46377597</id>
-        <link href="https://github.com/VibiumDev/vibium"/>
-        <updated>2025-12-24T17:49:02.000Z</updated>
-        <summary type="html"><![CDATA[i started the selenium project 21 years ago. vibium is what i'd build if i started over today with ai agents in mind.
-go binary under the hood (handles browser, bidi, mcp) but devs never see it. just npm install vibium. python/java coming.
-for claude code: claude mcp add vibium -- npx -y vibium
-v1 ships today. ama.
-Comments URL: https://news.ycombinator.com/item?id=46377597
-Points: 86
-# Comments: 43]]></summary>
-        <author>
-            <name>hugs</name>
         </author>
     </entry>
 </feed>

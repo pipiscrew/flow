@@ -6,6 +6,16 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=46728197",
+          "author": "otoolep",
+          "description": "Article URL: https://philipotoole.com/why-talking-to-llms-has-improved-my-thinking/\nComments URL: https://news.ycombinator.com/item?id=46728197\nPoints: 69\n# Comments: 40",
+          "link": "https://philipotoole.com/why-talking-to-llms-has-improved-my-thinking/",
+          "publishedOn": "2026-01-23T03:52:06.000Z",
+          "wordCount": 4269,
+          "title": "Talking to LLMs has improved my thinking",
+          "imageUrl": null
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=46727587",
           "author": "nhod",
           "description": "Article URL: https://www.bugsappleloves.com\nComments URL: https://news.ycombinator.com/item?id=46727587\nPoints: 250\n# Comments: 72",
@@ -14,6 +24,16 @@
           "wordCount": 185,
           "title": "Bugs Apple Loves",
           "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46726916",
+          "author": "firesteelrain",
+          "description": "Article URL: https://www.stunnel.org/\nComments URL: https://news.ycombinator.com/item?id=46726916\nPoints: 54\n# Comments: 16",
+          "link": "https://www.stunnel.org/",
+          "publishedOn": "2026-01-23T00:30:20.000Z",
+          "wordCount": 197,
+          "title": "Stunnel",
+          "imageUrl": "https://www.stunnel.org/img/tunnel.jpg"
         },
         {
           "id": "https://news.ycombinator.com/item?id=46726857",
@@ -144,6 +164,16 @@
           "wordCount": 176,
           "title": "Show HN: Text-to-video model from scratch (2 brothers, 2 years, 2B params)",
           "imageUrl": "https://cdn-thumbnails.huggingface.co/social-thumbnails/collections/Linum-AI/linum-v2-2b-text-to-video-696bda16289e9ebd71501957.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46721474",
+          "author": "felarof",
+          "description": "Hey HN! We're Nithin and Nikhil, twin brothers building BrowserOS (YC S24). We're an open-source, privacy-first alternative to the AI browsers from big labs.\nThe big differentiator: on BrowserOS you can use local LLMs or BYOK and run the agent entirely on the client side, so your company/sensitive data stays on your machine!\nToday we're launching filesystem access... just like Claude Cowork, our browser agent can read files, write files, run shell commands! But honestly, we didn't plan for this. It turns out the privacy decision we made 9 months ago accidentally positioned us for this moment.\nThe architectural bet we made 9 months ago: Unlike other AI browsers (ChatGPT Atlas, Perplexity Comet) where the agent loop runs server-side, we decided early on to run our agent entirely on your mach…",
+          "link": "https://github.com/browseros-ai/BrowserOS",
+          "publishedOn": "2026-01-22T16:30:58.000Z",
+          "wordCount": 3474,
+          "title": "Show HN: BrowserOS – \"Claude Cowork\" in the browser",
+          "imageUrl": "https://opengraph.githubassets.com/159465427ab2dbffa91583fdec786ae0dfc4a43e09c3de37aeaffbc8c0565008/browseros-ai/BrowserOS"
         },
         {
           "id": "https://news.ycombinator.com/item?id=46721179",
@@ -13034,36 +13064,6 @@
           "wordCount": 432,
           "title": "Looking for Decent Conversation?",
           "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46377862",
-          "author": "lioeters",
-          "description": "Article URL: https://www.ipaidia.gr/wp-content/uploads/2020/12/117-2020-fabrice-bellard.pdf\nComments URL: https://news.ycombinator.com/item?id=46377862\nPoints: 62\n# Comments: 11",
-          "link": "https://www.ipaidia.gr/wp-content/uploads/2020/12/117-2020-fabrice-bellard.pdf",
-          "publishedOn": "2025-12-24T18:17:47.000Z",
-          "wordCount": 4506,
-          "title": "Fabrice Bellard: Biography [pdf]",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46377796",
-          "author": "giuliomagnifico",
-          "description": "Article URL: https://postech.ac.kr/eng/research/research_results.do?mode=view&articleNo=43617&title=Anode-Free+Battery+Doubles+Electric+Vehicle+Driving+Range\nComments URL: https://news.ycombinator.com/item?id=46377796\nPoints: 70\n# Comments: 32",
-          "link": "https://postech.ac.kr/eng/research/research_results.do?mode=view&articleNo=43617&title=Anode-Free+Battery+Doubles+Electric+Vehicle+Driving+Range",
-          "publishedOn": "2025-12-24T18:09:42.000Z",
-          "wordCount": null,
-          "title": "Researchers achieved 1,270 Wh/L in an anode-free lithium metal battery",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46377597",
-          "author": "hugs",
-          "description": "i started the selenium project 21 years ago. vibium is what i'd build if i started over today with ai agents in mind.\ngo binary under the hood (handles browser, bidi, mcp) but devs never see it. just npm install vibium. python/java coming.\nfor claude code: claude mcp add vibium -- npx -y vibium\nv1 ships today. ama.\nComments URL: https://news.ycombinator.com/item?id=46377597\nPoints: 86\n# Comments: 43",
-          "link": "https://github.com/VibiumDev/vibium",
-          "publishedOn": "2025-12-24T17:49:02.000Z",
-          "wordCount": 3807,
-          "title": "Show HN: Vibium – Browser automation for AI and humans, by Selenium's creator",
-          "imageUrl": "https://opengraph.githubassets.com/ac9b7b852f6e0ef8ab257e50fb9c5b47c51ef770a316b5766286f4a966610dbb/VibiumDev/vibium"
         }
       ]
     }
