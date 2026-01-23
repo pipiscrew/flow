@@ -136,6 +136,16 @@
           "imageUrl": null
         },
         {
+          "id": "https://news.ycombinator.com/item?id=46721488",
+          "author": "schopra909",
+          "description": "Writeup (includes good/bad sample generations): https://www.linum.ai/field-notes/launch-linum-v2\nWe're Sahil and Manu, two brothers who spent the last 2 years training text-to-video models from scratch. Today we're releasing them under Apache 2.0.\nThese are 2B param models capable of generating 2-5 seconds of footage at either 360p or 720p. In terms of model size, the closest comparison is Alibaba's Wan 2.1 1.3B. From our testing, we get significantly better motion capture and aesthetics.\nWe're not claiming to have reached the frontier. For us, this is a stepping stone towards SOTA - proof we can train these models end-to-end ourselves.\nWhy train a model from scratch?\nWe shipped our first model in January 2024 (pre-Sora) as a 180p, 1-second GIF bot, bootstrapped off Stable Diffusion XL. Im…",
+          "link": "https://huggingface.co/collections/Linum-AI/linum-v2-2b-text-to-video",
+          "publishedOn": "2026-01-22T16:31:47.000Z",
+          "wordCount": 176,
+          "title": "Show HN: Text-to-video model from scratch (2 brothers, 2 years, 2B params)",
+          "imageUrl": "https://cdn-thumbnails.huggingface.co/social-thumbnails/collections/Linum-AI/linum-v2-2b-text-to-video-696bda16289e9ebd71501957.png"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=46721179",
           "author": "nickswalker",
           "description": "Article URL: https://github.com/google-gemini/gemini-cli/issues/16728\nComments URL: https://news.ycombinator.com/item?id=46721179\nPoints: 122\n# Comments: 32",

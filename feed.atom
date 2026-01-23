@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-01-23T04:07:26.179Z</updated>
+    <updated>2026-01-23T05:34:01.112Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
@@ -173,6 +173,21 @@ Points: 105
 # Comments: 36]]></summary>
         <author>
             <name>cannoneyed</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Text-to-video model from scratch (2 brothers, 2 years, 2B params)]]></title>
+        <id>https://news.ycombinator.com/item?id=46721488</id>
+        <link href="https://huggingface.co/collections/Linum-AI/linum-v2-2b-text-to-video"/>
+        <updated>2026-01-22T16:31:47.000Z</updated>
+        <summary type="html"><![CDATA[Writeup (includes good/bad sample generations): https://www.linum.ai/field-notes/launch-linum-v2
+We're Sahil and Manu, two brothers who spent the last 2 years training text-to-video models from scratch. Today we're releasing them under Apache 2.0.
+These are 2B param models capable of generating 2-5 seconds of footage at either 360p or 720p. In terms of model size, the closest comparison is Alibaba's Wan 2.1 1.3B. From our testing, we get significantly better motion capture and aesthetics.
+We're not claiming to have reached the frontier. For us, this is a stepping stone towards SOTA - proof we can train these models end-to-end ourselves.
+Why train a model from scratch?
+We shipped our first model in January 2024 (pre-Sora) as a 180p, 1-second GIF bot, bootstrapped off Stable Diffusion XL. Im…]]></summary>
+        <author>
+            <name>schopra909</name>
         </author>
     </entry>
     <entry>
