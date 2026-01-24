@@ -6,6 +6,16 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=46739078",
+          "author": "coloneltcb",
+          "description": "Article URL: https://www.wired.com/story/tiktok-new-privacy-policy/\nComments URL: https://news.ycombinator.com/item?id=46739078\nPoints: 99\n# Comments: 46",
+          "link": "https://www.wired.com/story/tiktok-new-privacy-policy/",
+          "publishedOn": "2026-01-23T22:51:41.000Z",
+          "wordCount": 30572,
+          "title": "TikTok Is Now Collecting More Data About Its Users",
+          "imageUrl": "https://media.wired.com/photos/6973ce90b45c9c900b2aa2a1/191:100/w_1280,c_limit/TikTok-New-Policy-Gear-2257704792.jpg"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=46737630",
           "author": "tosh",
           "description": "Article URL: https://openai.com/index/unrolling-the-codex-agent-loop/\nComments URL: https://news.ycombinator.com/item?id=46737630\nPoints: 81\n# Comments: 37",
@@ -224,6 +234,16 @@
           "wordCount": 4263,
           "title": "Show HN: Whosthere: A LAN discovery tool with a modern TUI, written in Go",
           "imageUrl": "https://opengraph.githubassets.com/9a3bdac9dd4a88cb530146d8613ffb7d220700e74e2c03b74380c7e05467cd98/ramonvermeulen/whosthere"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46731068",
+          "author": "dsrtslnd23",
+          "description": "I’m trying to do the “voice assistant” thing fully locally: mic → model → speaker, low latency, ideally streaming + interruptible (barge-in).\nQwen3 Omni looks perfect on paper (“real-time”, speech-to-speech, etc). But I’ve been poking around and I can’t find a single reproducible “here’s how I got the open weights doing real speech-to-speech locally” writeup. Lots of “speech in → text out” or “audio out after the model finishes”, but not a usable realtime voice loop. Feels like either (a) the tooling isn’t there yet, or (b) I’m missing the secret sauce.\nWhat are people actually using in 2026 if they want open + local voice?\nIs anyone doing true end-to-end speech models locally (streaming audio out), or is the SOTA still “streaming ASR + LLM + streaming TTS” glued together?\nIf you did get Qwen3 Omni speech-to-speech working: what stack (transformers / vLLM-omni / something else), what hardware, and is it actually realtime?\nWhat’s the most “works today” combo on a single GPU?\nBonus: rough numbers people see for mic → first audio back\nWould love pointers to repos, configs, or “this is the one that finally worked for me” war stories.\nComments URL: https://news.ycombinator.com/item?id=46731068\nPoints: 57\n# Comments: 14",
+          "link": "https://news.ycombinator.com/item?id=46731068",
+          "publishedOn": "2026-01-23T11:04:18.000Z",
+          "wordCount": 1004,
+          "title": "Ask HN: What's the current best local/open speech-to-speech setup?",
+          "imageUrl": null
         },
         {
           "id": "https://news.ycombinator.com/item?id=46730885",
@@ -13164,26 +13184,6 @@
           "wordCount": 880,
           "title": "Asahi Linux with Sway on the MacBook Air M2",
           "imageUrl": "https://i.dllu.net/2024-12-01-19-14-32_DSCF3120_58a0af3f29ead0118ef194dbccea00f020dbe0f8_a168a62312d435a9-2400.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46384167",
-          "author": "lumpa",
-          "description": "Article URL: https://fidget-spinner.github.io/posts/no-longer-sorry.html\nComments URL: https://news.ycombinator.com/item?id=46384167\nPoints: 71\n# Comments: 14",
-          "link": "https://fidget-spinner.github.io/posts/no-longer-sorry.html",
-          "publishedOn": "2025-12-25T13:02:46.000Z",
-          "wordCount": 1843,
-          "title": "Python 3.15’s interpreter for Windows x86-64 should hopefully be 15% faster",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46384153",
-          "author": "pbhn",
-          "description": "Article URL: https://baecher.dev/stdout/incremental-backups-of-gmail-takeouts/\nComments URL: https://news.ycombinator.com/item?id=46384153\nPoints: 102\n# Comments: 47",
-          "link": "https://baecher.dev/stdout/incremental-backups-of-gmail-takeouts/",
-          "publishedOn": "2025-12-25T12:59:55.000Z",
-          "wordCount": 628,
-          "title": "Incremental Backups of Gmail Takeouts",
-          "imageUrl": null
         }
       ]
     }

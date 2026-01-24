@@ -2,10 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-01-23T23:28:01.519Z</updated>
+    <updated>2026-01-24T02:06:56.498Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[TikTok Is Now Collecting More Data About Its Users]]></title>
+        <id>https://news.ycombinator.com/item?id=46739078</id>
+        <link href="https://www.wired.com/story/tiktok-new-privacy-policy/"/>
+        <updated>2026-01-23T22:51:41.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.wired.com/story/tiktok-new-privacy-policy/
+Comments URL: https://news.ycombinator.com/item?id=46739078
+Points: 99
+# Comments: 46]]></summary>
+        <author>
+            <name>coloneltcb</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Unrolling the Codex agent loop]]></title>
         <id>https://news.ycombinator.com/item?id=46737630</id>
@@ -290,6 +303,26 @@ Points: 85
 # Comments: 28]]></summary>
         <author>
             <name>rvermeulen98</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Ask HN: What's the current best local/open speech-to-speech setup?]]></title>
+        <id>https://news.ycombinator.com/item?id=46731068</id>
+        <link href="https://news.ycombinator.com/item?id=46731068"/>
+        <updated>2026-01-23T11:04:18.000Z</updated>
+        <summary type="html"><![CDATA[I’m trying to do the “voice assistant” thing fully locally: mic → model → speaker, low latency, ideally streaming + interruptible (barge-in).
+Qwen3 Omni looks perfect on paper (“real-time”, speech-to-speech, etc). But I’ve been poking around and I can’t find a single reproducible “here’s how I got the open weights doing real speech-to-speech locally” writeup. Lots of “speech in → text out” or “audio out after the model finishes”, but not a usable realtime voice loop. Feels like either (a) the tooling isn’t there yet, or (b) I’m missing the secret sauce.
+What are people actually using in 2026 if they want open + local voice?
+Is anyone doing true end-to-end speech models locally (streaming audio out), or is the SOTA still “streaming ASR + LLM + streaming TTS” glued together?
+If you did get Qwen3 Omni speech-to-speech working: what stack (transformers / vLLM-omni / something else), what hardware, and is it actually realtime?
+What’s the most “works today” combo on a single GPU?
+Bonus: rough numbers people see for mic → first audio back
+Would love pointers to repos, configs, or “this is the one that finally worked for me” war stories.
+Comments URL: https://news.ycombinator.com/item?id=46731068
+Points: 57
+# Comments: 14]]></summary>
+        <author>
+            <name>dsrtslnd23</name>
         </author>
     </entry>
     <entry>
@@ -17690,32 +17723,6 @@ Points: 58
 # Comments: 28]]></summary>
         <author>
             <name>andsoitis</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Python 3.15’s interpreter for Windows x86-64 should hopefully be 15% faster]]></title>
-        <id>https://news.ycombinator.com/item?id=46384167</id>
-        <link href="https://fidget-spinner.github.io/posts/no-longer-sorry.html"/>
-        <updated>2025-12-25T13:02:46.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://fidget-spinner.github.io/posts/no-longer-sorry.html
-Comments URL: https://news.ycombinator.com/item?id=46384167
-Points: 71
-# Comments: 14]]></summary>
-        <author>
-            <name>lumpa</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Incremental Backups of Gmail Takeouts]]></title>
-        <id>https://news.ycombinator.com/item?id=46384153</id>
-        <link href="https://baecher.dev/stdout/incremental-backups-of-gmail-takeouts/"/>
-        <updated>2025-12-25T12:59:55.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://baecher.dev/stdout/incremental-backups-of-gmail-takeouts/
-Comments URL: https://news.ycombinator.com/item?id=46384153
-Points: 102
-# Comments: 47]]></summary>
-        <author>
-            <name>pbhn</name>
         </author>
     </entry>
 </feed>
