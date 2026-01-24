@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-01-24T13:34:43.894Z</updated>
+    <updated>2026-01-24T14:25:54.574Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
@@ -17,6 +17,22 @@ Points: 56
 # Comments: 19]]></summary>
         <author>
             <name>user5994461</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: I built a space travel calculator using Vanilla JavaScript]]></title>
+        <id>https://news.ycombinator.com/item?id=46742285</id>
+        <link href="https://cosmic-odometer.vercel.app/"/>
+        <updated>2026-01-24T09:55:44.000Z</updated>
+        <summary type="html"><![CDATA[I built this because measuring my age in years felt boring—I wanted to see the kilometers.
+The first version only used Earth's orbital speed (~30km/s), but the number moved too slowly. To get the "existential dread" feeling, I switched to using the Milky Way's velocity relative to the CMB (~600km/s). The math takes some liberties (using scalar sum instead of vector) to make the speed feel "fast," but it gets the point across.
+Under the hood, it's a single HTML file with zero dependencies. No React, no build step. The main challenge was the canvas starfield—I had to pre-allocate the star objects to stop the garbage collector from causing stutters on mobile.
+Let me know if the physics makes you angry or if the stars run smooth on your device.
+Comments URL: https://news.ycombinator.com/item?id=46742285
+Points: 51
+# Comments: 29]]></summary>
+        <author>
+            <name>captainnemo729</name>
         </author>
     </entry>
     <entry>
@@ -2037,6 +2053,19 @@ Points: 107
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[When employees feel slighted, they work less]]></title>
+        <id>https://news.ycombinator.com/item?id=46691108</id>
+        <link href="https://penntoday.upenn.edu/news/penn-wharton-when-employees-feel-slighted-they-work-less"/>
+        <updated>2026-01-20T12:28:13.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://penntoday.upenn.edu/news/penn-wharton-when-employees-feel-slighted-they-work-less
+Comments URL: https://news.ycombinator.com/item?id=46691108
+Points: 52
+# Comments: 46]]></summary>
+        <author>
+            <name>consumer451</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Running Claude Code dangerously (safely)]]></title>
         <id>https://news.ycombinator.com/item?id=46690907</id>
         <link href="https://blog.emilburzo.com/2026/01/running-claude-code-dangerously-safely/"/>
@@ -2833,6 +2862,19 @@ Points: 71
 # Comments: 55]]></summary>
         <author>
             <name>long</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Traintrackr – Live LED Maps]]></title>
+        <id>https://news.ycombinator.com/item?id=46676061</id>
+        <link href="https://www.traintrackr.co.uk/"/>
+        <updated>2026-01-19T07:53:17.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.traintrackr.co.uk/
+Comments URL: https://news.ycombinator.com/item?id=46676061
+Points: 65
+# Comments: 24]]></summary>
+        <author>
+            <name>recursion</name>
         </author>
     </entry>
     <entry>
