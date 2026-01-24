@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-01-24T08:34:26.327Z</updated>
+    <updated>2026-01-24T09:27:08.738Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
@@ -43,6 +43,19 @@ Points: 99
 # Comments: 46]]></summary>
         <author>
             <name>coloneltcb</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Wilson Lin on FastRender: a browser built by parallel agents]]></title>
+        <id>https://news.ycombinator.com/item?id=46738853</id>
+        <link href="https://simonwillison.net/2026/Jan/23/fastrender/"/>
+        <updated>2026-01-23T22:28:01.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://simonwillison.net/2026/Jan/23/fastrender/
+Comments URL: https://news.ycombinator.com/item?id=46738853
+Points: 50
+# Comments: 16]]></summary>
+        <author>
+            <name>lumpa</name>
         </author>
     </entry>
     <entry>
@@ -2533,6 +2546,19 @@ Points: 114
 # Comments: 21]]></summary>
         <author>
             <name>scrlk</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Losing 1½ Million Lines of Go]]></title>
+        <id>https://news.ycombinator.com/item?id=46679802</id>
+        <link href="https://www.tbray.org/ongoing/When/202x/2026/01/14/Unicode-Properties"/>
+        <updated>2026-01-19T15:06:51.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.tbray.org/ongoing/When/202x/2026/01/14/Unicode-Properties
+Comments URL: https://news.ycombinator.com/item?id=46679802
+Points: 87
+# Comments: 8]]></summary>
+        <author>
+            <name>moks</name>
         </author>
     </entry>
     <entry>
@@ -17653,21 +17679,6 @@ Points: 63
 # Comments: 96]]></summary>
         <author>
             <name>pmaddams</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: Aroma: Every TCP Proxy Is Detectable with RTT Fingerprinting]]></title>
-        <id>https://news.ycombinator.com/item?id=46386878</id>
-        <link href="https://github.com/Sakura-sx/Aroma"/>
-        <updated>2025-12-25T20:34:59.000Z</updated>
-        <summary type="html"><![CDATA[TL;DR explanation (go to https://github.com/Sakura-sx/Aroma?tab=readme-ov-file#tldr-e... if you want the formatted version)
-This is done by measuring the minimum TCP RTT (client.socket.tcpi_min_rtt) seen and the smoothed TCP RTT (client.socket.tcpi_rtt). I am getting this data by using Fastly Custom VCL, they get this data from the Linux kernel (struct tcp_info -> tcpi_min_rtt and tcpi_rtt). I am using Fastly for the Demo since they have PoPs all around the world and they expose TCP socket data to me.
-The score is calculated by doing tcpi_min_rtt/tcpi_rtt. It's simple but it's what worked best for this with the data Fastly gives me. Based on my testing, 1-0.7 is normal, 0.7-0.3 is normal if the connection is somewhat unstable (WiFi, mobile data, satellite...), 0.3-0.1 is low and may be a proxy, anything lower than 0.1 is flagged as TCP proxy by the current code.
-Comments URL: https://news.ycombinator.com/item?id=46386878
-Points: 51
-# Comments: 27]]></summary>
-        <author>
-            <name>Sakura-sx</name>
         </author>
     </entry>
 </feed>

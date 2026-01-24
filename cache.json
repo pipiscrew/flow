@@ -36,6 +36,16 @@
           "imageUrl": "https://media.wired.com/photos/6973ce90b45c9c900b2aa2a1/191:100/w_1280,c_limit/TikTok-New-Policy-Gear-2257704792.jpg"
         },
         {
+          "id": "https://news.ycombinator.com/item?id=46738853",
+          "author": "lumpa",
+          "description": "Article URL: https://simonwillison.net/2026/Jan/23/fastrender/\nComments URL: https://news.ycombinator.com/item?id=46738853\nPoints: 50\n# Comments: 16",
+          "link": "https://simonwillison.net/2026/Jan/23/fastrender/",
+          "publishedOn": "2026-01-23T22:28:01.000Z",
+          "wordCount": 2792,
+          "title": "Wilson Lin on FastRender: a browser built by parallel agents",
+          "imageUrl": "https://static.simonwillison.net/static/2026/fastrender-card.jpg"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=46737957",
           "author": "hahahacorn",
           "description": "Article URL: https://fs.blog/mental-models/\nComments URL: https://news.ycombinator.com/item?id=46737957\nPoints: 56\n# Comments: 9",
@@ -1914,6 +1924,16 @@
           "wordCount": 1084,
           "title": "GLM-4.7-Flash",
           "imageUrl": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/zai-org/GLM-4.7-Flash.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46679802",
+          "author": "moks",
+          "description": "Article URL: https://www.tbray.org/ongoing/When/202x/2026/01/14/Unicode-Properties\nComments URL: https://news.ycombinator.com/item?id=46679802\nPoints: 87\n# Comments: 8",
+          "link": "https://www.tbray.org/ongoing/When/202x/2026/01/14/Unicode-Properties",
+          "publishedOn": "2026-01-19T15:06:51.000Z",
+          "wordCount": 1489,
+          "title": "Losing 1½ Million Lines of Go",
+          "imageUrl": "/ongoing/misc/podcast-default.jpg"
         },
         {
           "id": "https://news.ycombinator.com/item?id=46679657",
@@ -13144,16 +13164,6 @@
           "wordCount": 649,
           "title": "Memory Safety",
           "imageUrl": "https://www.memorysafety.org/images/ProssimoSocialShare.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46386878",
-          "author": "Sakura-sx",
-          "description": "TL;DR explanation (go to https://github.com/Sakura-sx/Aroma?tab=readme-ov-file#tldr-e... if you want the formatted version)\nThis is done by measuring the minimum TCP RTT (client.socket.tcpi_min_rtt) seen and the smoothed TCP RTT (client.socket.tcpi_rtt). I am getting this data by using Fastly Custom VCL, they get this data from the Linux kernel (struct tcp_info -> tcpi_min_rtt and tcpi_rtt). I am using Fastly for the Demo since they have PoPs all around the world and they expose TCP socket data to me.\nThe score is calculated by doing tcpi_min_rtt/tcpi_rtt. It's simple but it's what worked best for this with the data Fastly gives me. Based on my testing, 1-0.7 is normal, 0.7-0.3 is normal if the connection is somewhat unstable (WiFi, mobile data, satellite...), 0.3-0.1 is low and may be a proxy, anything lower than 0.1 is flagged as TCP proxy by the current code.\nComments URL: https://news.ycombinator.com/item?id=46386878\nPoints: 51\n# Comments: 27",
-          "link": "https://github.com/Sakura-sx/Aroma",
-          "publishedOn": "2025-12-25T20:34:59.000Z",
-          "wordCount": 3759,
-          "title": "Show HN: Aroma: Every TCP Proxy Is Detectable with RTT Fingerprinting",
-          "imageUrl": "https://opengraph.githubassets.com/61b772649c104b1253e50419afdfec32002843311473915424578536ed57c8dd/Sakura-sx/Aroma"
         }
       ]
     }
