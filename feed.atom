@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-01-24T11:22:56.224Z</updated>
+    <updated>2026-01-24T12:53:35.762Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
@@ -17,6 +17,19 @@ Points: 56
 # Comments: 19]]></summary>
         <author>
             <name>user5994461</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[80386 Multiplication and Division]]></title>
+        <id>https://news.ycombinator.com/item?id=46741482</id>
+        <link href="https://nand2mario.github.io/posts/2026/80386_multiplication_and_division/"/>
+        <updated>2026-01-24T06:11:42.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://nand2mario.github.io/posts/2026/80386_multiplication_and_division/
+Comments URL: https://news.ycombinator.com/item?id=46741482
+Points: 56
+# Comments: 10]]></summary>
+        <author>
+            <name>nand2mario</name>
         </author>
     </entry>
     <entry>
@@ -1789,6 +1802,19 @@ Points: 50
 # Comments: 21]]></summary>
         <author>
             <name>lorey</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Coi – A language that compiles to WASM, beats React/Vue]]></title>
+        <id>https://news.ycombinator.com/item?id=46696283</id>
+        <link href="https://news.ycombinator.com/item?id=46696283"/>
+        <updated>2026-01-20T19:01:53.000Z</updated>
+        <summary type="html"><![CDATA[I usually build web games in C++, but using Emscripten always felt like overkill for what I was doing. I don't need full POSIX emulation or a massive standard library just to render some stuff to a canvas and handle basic UI.
+The main thing I wanted to solve was the JS/WASM interop bottleneck. Instead of using the standard glue code for every call, I moved everything to a Shared Memory architecture using Command and Event buffers.
+The way it works is that I batch all the instructions in WASM and then just send a single "flush" signal to JS. The JS side then reads everything directly out of Shared Memory in one go. It’s way more efficient, I ran a benchmark rendering 10k rectangles on a canvas and the difference was huge: Emscripten hit around 40 FPS, while my setup hit 100 FPS.
+But writing…]]></summary>
+        <author>
+            <name>io_eric</name>
         </author>
     </entry>
     <entry>
@@ -17640,32 +17666,6 @@ Points: 51
 # Comments: 20]]></summary>
         <author>
             <name>110</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[When a driver challenges the kernel's assumptions]]></title>
-        <id>https://news.ycombinator.com/item?id=46388059</id>
-        <link href="http://miod.online.fr/software/openbsd/stories/udl.html"/>
-        <updated>2025-12-26T00:32:15.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: http://miod.online.fr/software/openbsd/stories/udl.html
-Comments URL: https://news.ycombinator.com/item?id=46388059
-Points: 55
-# Comments: 13]]></summary>
-        <author>
-            <name>todsacerdoti</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Seven Diabetes Patients Die Due to Undisclosed Bug in Abbott's Glucose Monitors]]></title>
-        <id>https://news.ycombinator.com/item?id=46388040</id>
-        <link href="https://sfconservancy.org/blog/2025/dec/23/seven-abbott-freestyle-libre-cgm-patients-dead/"/>
-        <updated>2025-12-26T00:29:40.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://sfconservancy.org/blog/2025/dec/23/seven-abbott-freestyle-libre-cgm-patients-dead/
-Comments URL: https://news.ycombinator.com/item?id=46388040
-Points: 92
-# Comments: 36]]></summary>
-        <author>
-            <name>pabs3</name>
         </author>
     </entry>
 </feed>
