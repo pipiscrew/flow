@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-01-25T13:36:35.192Z</updated>
+    <updated>2026-01-25T14:25:49.315Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
@@ -2419,6 +2419,19 @@ Points: 52
 # Comments: 12]]></summary>
         <author>
             <name>2bluesc</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[I built a 2x faster lexer, then discovered I/O was the real bottleneck]]></title>
+        <id>https://news.ycombinator.com/item?id=46693460</id>
+        <link href="https://modulovalue.com/blog/syscall-overhead-tar-gz-io-performance/"/>
+        <updated>2026-01-20T16:10:01.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://modulovalue.com/blog/syscall-overhead-tar-gz-io-performance/
+Comments URL: https://news.ycombinator.com/item?id=46693460
+Points: 58
+# Comments: 31]]></summary>
+        <author>
+            <name>modulovalue</name>
         </author>
     </entry>
     <entry>
