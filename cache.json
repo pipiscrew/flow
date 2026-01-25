@@ -13234,46 +13234,6 @@
           "wordCount": 1940,
           "title": "ZJIT is now available in Ruby 4.0",
           "imageUrl": "https://railsatscale.com/2025-12-24-launch-zjit/72bca59f7ad87072e57ded2ddc5c7ddc5f00ba46.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46393271",
-          "author": "holg",
-          "description": "Article URL: https://acadlisp.de/noscript.html\nComments URL: https://news.ycombinator.com/item?id=46393271\nPoints: 54\n# Comments: 27",
-          "link": "https://acadlisp.de/noscript.html",
-          "publishedOn": "2025-12-26T15:56:52.000Z",
-          "wordCount": 415,
-          "title": "Show HN: AutoLISP interpreter in Rust/WASM – a CAD workflow invented 33 yrs ago",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46392910",
-          "author": "pranshuparmar",
-          "description": "Hi HN,\nI built a small Linux CLI tool called witr (Why Is This Running?).\nThe idea came from a situation most of us have hit: you log into a machine, see a process or port running, and immediately wonder why it exists, who started it, and what is keeping it alive right now.\nwitr traces a process, service, or port back to its origin and responsibility chain and explains it in a way that’s quick to read, especially when you’re debugging under pressure.\nThis is v0.1.0. It’s intentionally small and focused.\nFeedback, criticism, and edge cases are very welcome.\nRepo: https://github.com/pranshuparmar/witr\nComments URL: https://news.ycombinator.com/item?id=46392910\nPoints: 71\n# Comments: 9",
-          "link": "https://github.com/pranshuparmar/witr",
-          "publishedOn": "2025-12-26T15:20:36.000Z",
-          "wordCount": 7653,
-          "title": "Show HN: Witr – Explain why a process is running on your Linux system",
-          "imageUrl": "https://opengraph.githubassets.com/c0c224d69a16bef831903edd98a542592c5332bcab7714c056339a7c09152bc3/pranshuparmar/witr"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46392815",
-          "author": "mhb",
-          "description": "Article URL: https://www.smithsonianmag.com/smart-news/high-school-student-discovers-1-5-million-potential-new-astronomical-objects-by-developing-an-ai-algorithm-180986429/\nComments URL: https://news.ycombinator.com/item?id=46392815\nPoints: 57\n# Comments: 56",
-          "link": "https://www.smithsonianmag.com/smart-news/high-school-student-discovers-1-5-million-potential-new-astronomical-objects-by-developing-an-ai-algorithm-180986429/",
-          "publishedOn": "2025-12-26T15:13:21.000Z",
-          "wordCount": 1879,
-          "title": "High School Student Discovers 1.5M Potential New Astronomical Objects",
-          "imageUrl": "https://th-thumbnailer.cdn-si-edu.com/xYbAarAyNOQZPDCPmkiqCNiV95Q=/fit-in/1600x0/filters:focal(628x579:629x580)/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer_public/a1/ef/a1ef3086-c94a-44b4-b90d-9ddea46cd251/exploring-space-with-a.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46392736",
-          "author": "isitcontent",
-          "description": "Repo: https://github.com/valdanylchuk/xcc700\nHi Everyone! I just wrote my first compiler!\n- single pass, recursive descent, direct emission\n- generates REL ELF binaries, runnable using ESP-IDF elf_loader\n- very basic features only, just enough for self-hosting\n- treats the Xtensa CPU as a stack machine for simplicity, no register allocation / window usage\n- compilable on Mac, probably also Linux, can cross-compile for esp32 there\n- wrote for fun / cyberdeck project\nSample output from esp32:\n    xcc700.elf xcc700.c -o /d/cc.elf\n    \n    [ xcc700 ] BUILD COMPLETED > OK\n    > IN  : 700 Lines / 7977 Tokens\n    > SYM : 69 Funcs / 91 Globals\n    > REL : 152 Literals / 1027 Patches\n    > MEM : 1041 B .rodata / 17120 B .bss\n    > OUT : 27735 B .text / 33300 B ELF\n    [ 40 ms ] >> 17500 Lines/sec \nComments URL: https://news.ycombinator.com/item?id=46392736\nPoints: 52\n# Comments: 13",
-          "link": "https://github.com/valdanylchuk/xcc700",
-          "publishedOn": "2025-12-26T15:07:01.000Z",
-          "wordCount": 3107,
-          "title": "Show HN: Xcc700: Self-hosting mini C compiler for ESP32 (Xtensa) in 700 lines",
-          "imageUrl": "https://opengraph.githubassets.com/891449bf66342c15279a8a94544c2ddc3fb1c42edd66bba23ca37367b6939c2a/valdanylchuk/xcc700"
         }
       ]
     }
