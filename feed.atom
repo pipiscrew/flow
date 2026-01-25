@@ -2,10 +2,49 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-01-25T20:30:47.083Z</updated>
+    <updated>2026-01-25T21:25:24.162Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[OnePlus update blocks downgrades and custom ROMs by blowing a fuse]]></title>
+        <id>https://news.ycombinator.com/item?id=46757944</id>
+        <link href="https://consumerrights.wiki/w/Oneplus_phone_update_introduces_hardware_anti-rollback"/>
+        <updated>2026-01-25T20:39:25.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://consumerrights.wiki/w/Oneplus_phone_update_introduces_hardware_anti-rollback
+Comments URL: https://news.ycombinator.com/item?id=46757944
+Points: 51
+# Comments: 2]]></summary>
+        <author>
+            <name>validatori</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Spanish track was fractured before high-speed train disaster, report finds]]></title>
+        <id>https://news.ycombinator.com/item?id=46757162</id>
+        <link href="https://www.bbc.com/news/articles/c1m77dmxlvlo"/>
+        <updated>2026-01-25T19:12:50.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.bbc.com/news/articles/c1m77dmxlvlo
+Comments URL: https://news.ycombinator.com/item?id=46757162
+Points: 55
+# Comments: 37]]></summary>
+        <author>
+            <name>Rygian</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[First, make me care]]></title>
+        <id>https://news.ycombinator.com/item?id=46757067</id>
+        <link href="https://gwern.net/blog/2026/make-me-care"/>
+        <updated>2026-01-25T19:03:40.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://gwern.net/blog/2026/make-me-care
+Comments URL: https://news.ycombinator.com/item?id=46757067
+Points: 116
+# Comments: 46]]></summary>
+        <author>
+            <name>andsoitis</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[ICE Using Palantir Tool That Feeds on Medicaid Data]]></title>
         <id>https://news.ycombinator.com/item?id=46756117</id>
@@ -17,6 +56,19 @@ Points: 178
 # Comments: 59]]></summary>
         <author>
             <name>JKCalhoun</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[FAA institutes nationwide drone no-fly zones around ICE operations]]></title>
+        <id>https://news.ycombinator.com/item?id=46755999</id>
+        <link href="https://www.aerotime.aero/articles/faa-drone-no-fly-zone-ice-dhs"/>
+        <updated>2026-01-25T17:24:42.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.aerotime.aero/articles/faa-drone-no-fly-zone-ice-dhs
+Comments URL: https://news.ycombinator.com/item?id=46755999
+Points: 158
+# Comments: 100]]></summary>
+        <author>
+            <name>dayofthedaleks</name>
         </author>
     </entry>
     <entry>
@@ -149,6 +201,19 @@ Points: 55
 # Comments: 15]]></summary>
         <author>
             <name>mitjafelicijan</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[150k lines of vibe coded Elixir: The good, the bad and the ugly]]></title>
+        <id>https://news.ycombinator.com/item?id=46752907</id>
+        <link href="https://getboothiq.com/blog/150k-lines-vibe-coded-elixir-good-bad-ugly"/>
+        <updated>2026-01-25T10:54:29.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://getboothiq.com/blog/150k-lines-vibe-coded-elixir-good-bad-ugly
+Comments URL: https://news.ycombinator.com/item?id=46752907
+Points: 57
+# Comments: 45]]></summary>
+        <author>
+            <name>InternetGiant</name>
         </author>
     </entry>
     <entry>
@@ -17785,39 +17850,6 @@ Points: 50
 # Comments: 7]]></summary>
         <author>
             <name>gudzpoz</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: Ez FFmpeg – Video editing in plain English]]></title>
-        <id>https://news.ycombinator.com/item?id=46400251</id>
-        <link href="http://npmjs.com/package/ezff"/>
-        <updated>2025-12-27T08:45:46.000Z</updated>
-        <summary type="html"><![CDATA[I built a CLI tool that lets you do common video/audio operations without remembering ffmpeg syntax.
-Instead of:
-ffmpeg -i video.mp4 -vf "fps=15,scale=480:-1:flags=lanczos" -loop 0 output.gif
-You write:
-  ff convert video.mp4 to gif
-More examples:
-  ff compress video.mp4 to 10mb
-  ff trim video.mp4 from 0:30 to 1:00
-  ff extract audio from video.mp4
-  ff resize video.mp4 to 720p
-  ff speed up video.mp4 by 2x
-  ff reverse video.mp4
-There are similar tools that use LLMs (wtffmpeg, llmpeg, ai-ffmpeg-cli), but they require API keys, cost money, and have latency.
-Ez FFmpeg is different:
-  - No AI – just regex pattern matching
-  - Instant – no API calls
-  - Free – no tokens
-  - Offline – works without internet
-It handles ~20 common operations that cover 90% of what developers actually do with ffmpeg. For edge cases, you still need ffmpeg directly.
-Interactive mode (just type ff) shows media files in your current folder with typeahead search.
-npm install -g ezff
-Comments URL: https://news.ycombinator.com/item?id=46400251
-Points: 53
-# Comments: 17]]></summary>
-        <author>
-            <name>josharsh</name>
         </author>
     </entry>
 </feed>

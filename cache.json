@@ -6,6 +6,36 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=46757944",
+          "author": "validatori",
+          "description": "Article URL: https://consumerrights.wiki/w/Oneplus_phone_update_introduces_hardware_anti-rollback\nComments URL: https://news.ycombinator.com/item?id=46757944\nPoints: 51\n# Comments: 2",
+          "link": "https://consumerrights.wiki/w/Oneplus_phone_update_introduces_hardware_anti-rollback",
+          "publishedOn": "2026-01-25T20:39:25.000Z",
+          "wordCount": null,
+          "title": "OnePlus update blocks downgrades and custom ROMs by blowing a fuse",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46757162",
+          "author": "Rygian",
+          "description": "Article URL: https://www.bbc.com/news/articles/c1m77dmxlvlo\nComments URL: https://news.ycombinator.com/item?id=46757162\nPoints: 55\n# Comments: 37",
+          "link": "https://www.bbc.com/news/articles/c1m77dmxlvlo",
+          "publishedOn": "2026-01-25T19:12:50.000Z",
+          "wordCount": 4777,
+          "title": "Spanish track was fractured before high-speed train disaster, report finds",
+          "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/9868/live/c4cb4e60-f86c-11f0-9796-05e6aeca39b2.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46757067",
+          "author": "andsoitis",
+          "description": "Article URL: https://gwern.net/blog/2026/make-me-care\nComments URL: https://news.ycombinator.com/item?id=46757067\nPoints: 116\n# Comments: 46",
+          "link": "https://gwern.net/blog/2026/make-me-care",
+          "publishedOn": "2026-01-25T19:03:40.000Z",
+          "wordCount": 125,
+          "title": "First, make me care",
+          "imageUrl": null
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=46756117",
           "author": "JKCalhoun",
           "description": "Article URL: https://www.eff.org/deeplinks/2026/01/report-ice-using-palantir-tool-feeds-medicaid-data\nComments URL: https://news.ycombinator.com/item?id=46756117\nPoints: 178\n# Comments: 59",
@@ -14,6 +44,16 @@
           "wordCount": 1754,
           "title": "ICE Using Palantir Tool That Feeds on Medicaid Data",
           "imageUrl": "https://www.eff.org/files/banner_library/surveillance-og-2.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46755999",
+          "author": "dayofthedaleks",
+          "description": "Article URL: https://www.aerotime.aero/articles/faa-drone-no-fly-zone-ice-dhs\nComments URL: https://news.ycombinator.com/item?id=46755999\nPoints: 158\n# Comments: 100",
+          "link": "https://www.aerotime.aero/articles/faa-drone-no-fly-zone-ice-dhs",
+          "publishedOn": "2026-01-25T17:24:42.000Z",
+          "wordCount": 8421,
+          "title": "FAA institutes nationwide drone no-fly zones around ICE operations",
+          "imageUrl": "https://www.aerotime.aero/images/2026/01/content_170201_DJI_0247.jpg"
         },
         {
           "id": "https://news.ycombinator.com/item?id=46755734",
@@ -114,6 +154,16 @@
           "wordCount": 2310,
           "title": "Show HN: TUI for managing XDG default applications",
           "imageUrl": "https://opengraph.githubassets.com/ad02f03d7827eb18e42285e3150831bc4f92a9c7bbb470f9d23243e7af006610/mitjafelicijan/xdgctl"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46752907",
+          "author": "InternetGiant",
+          "description": "Article URL: https://getboothiq.com/blog/150k-lines-vibe-coded-elixir-good-bad-ugly\nComments URL: https://news.ycombinator.com/item?id=46752907\nPoints: 57\n# Comments: 45",
+          "link": "https://getboothiq.com/blog/150k-lines-vibe-coded-elixir-good-bad-ugly",
+          "publishedOn": "2026-01-25T10:54:29.000Z",
+          "wordCount": 1672,
+          "title": "150k lines of vibe coded Elixir: The good, the bad and the ugly",
+          "imageUrl": "https://getboothiq.com/images/open_graph_image.png"
         },
         {
           "id": "https://news.ycombinator.com/item?id=46752261",
@@ -13273,16 +13323,6 @@
           "publishedOn": "2025-12-27T11:30:40.000Z",
           "wordCount": 1355,
           "title": "Flame Graphs vs. Tree Maps vs. Sunburst (2017)",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46400251",
-          "author": "josharsh",
-          "description": "I built a CLI tool that lets you do common video/audio operations without remembering ffmpeg syntax.\nInstead of:\nffmpeg -i video.mp4 -vf \"fps=15,scale=480:-1:flags=lanczos\" -loop 0 output.gif\nYou write:\n  ff convert video.mp4 to gif\nMore examples:\n  ff compress video.mp4 to 10mb\n  ff trim video.mp4 from 0:30 to 1:00\n  ff extract audio from video.mp4\n  ff resize video.mp4 to 720p\n  ff speed up video.mp4 by 2x\n  ff reverse video.mp4\nThere are similar tools that use LLMs (wtffmpeg, llmpeg, ai-ffmpeg-cli), but they require API keys, cost money, and have latency.\nEz FFmpeg is different:\n  - No AI – just regex pattern matching\n  - Instant – no API calls\n  - Free – no tokens\n  - Offline – works without internet\nIt handles ~20 common operations that cover 90% of what developers actually do with ffmpeg. For edge cases, you still need ffmpeg directly.\nInteractive mode (just type ff) shows media files in your current folder with typeahead search.\nnpm install -g ezff\nComments URL: https://news.ycombinator.com/item?id=46400251\nPoints: 53\n# Comments: 17",
-          "link": "http://npmjs.com/package/ezff",
-          "publishedOn": "2025-12-27T08:45:46.000Z",
-          "wordCount": null,
-          "title": "Show HN: Ez FFmpeg – Video editing in plain English",
           "imageUrl": null
         }
       ]
