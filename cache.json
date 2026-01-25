@@ -6,6 +6,16 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=46758450",
+          "author": "choult",
+          "description": "Article URL: https://www.bbc.com/future/article/20190513-it-only-takes-35-of-people-to-change-the-world\nComments URL: https://news.ycombinator.com/item?id=46758450\nPoints: 97\n# Comments: 69",
+          "link": "https://www.bbc.com/future/article/20190513-it-only-takes-35-of-people-to-change-the-world",
+          "publishedOn": "2026-01-25T21:27:11.000Z",
+          "wordCount": 11149,
+          "title": "The '3.5% rule': How a small minority can change the world (2019)",
+          "imageUrl": "https://ychef.files.bbci.co.uk/624x351/p0792jvk.jpg"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=46757944",
           "author": "validatori",
           "description": "Article URL: https://consumerrights.wiki/w/Oneplus_phone_update_introduces_hardware_anti-rollback\nComments URL: https://news.ycombinator.com/item?id=46757944\nPoints: 51\n# Comments: 2",
@@ -2014,6 +2024,16 @@
           "wordCount": 1960,
           "title": "The 26,000-Year Astronomical Monument Hidden in Plain Sight",
           "imageUrl": "https://static.longnow.org/2022/04/1-QpK0dPz4sOtgKfQYShhF1A.gif"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46695467",
+          "author": "jy-tan",
+          "description": "Hi HN!\nFence wraps any command in a sandbox that blocks network by default and restricts filesystem writes. Useful for running semi-trusted code (package installs, build scripts, unfamiliar repos) with controlled side effects, or even just blocking tools that phone home.\n> fence curl https://example.com  # -> blocked\n> fence -t code -- npm install        # -> template with registries allowed\n> fence -m -- npm install               # -> monitor mode: see what gets blocked\nOne use-case is to use it with AI coding agents to reduce the risk of running agents with fewer interactive permission prompts:\n> fence -t code -- claude --dangerously-skip-permissions\nYou can import existing Claude Code permissions with `fence import --claude`.\nFence uses OS-native sandboxing (macOS sandbox-exec, Linux bubblewrap) + local HTTP/SOCKS proxies for domain filtering.\nWhy I built this: I work on Tusk Drift, a system to record and replay real traffic as API tests (https://github.com/Use-Tusk/tusk-drift-cli). I needed a way to sandbox the service under test during replays to block localhost outbound connections (Postgres, Redis) and force the app to use mocks instead of real services. I quickly realized that this could be a general purpose tool that would also be useful as a permission manager across CLI agents.\nLimitations: Not strong containment against malware. Proxy-based filtering requires programs to respect `HTTP_PROXY`.\nCurious if others have run into similar needs, and happy to answer any questions!\nComments URL: https://news.ycombinator.com/item?id=46695467\nPoints: 55\n# Comments: 12",
+          "link": "https://github.com/Use-Tusk/fence",
+          "publishedOn": "2026-01-20T18:05:03.000Z",
+          "wordCount": 2385,
+          "title": "Show HN: Fence – Sandbox CLI commands with network/filesystem restrictions",
+          "imageUrl": "https://repository-images.githubusercontent.com/1119154862/e959ed88-03d6-4f54-9101-28a1f42beac6"
         },
         {
           "id": "https://news.ycombinator.com/item?id=46694618",

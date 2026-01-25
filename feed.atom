@@ -2,10 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-01-25T22:27:01.911Z</updated>
+    <updated>2026-01-25T23:26:22.758Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[The '3.5% rule': How a small minority can change the world (2019)]]></title>
+        <id>https://news.ycombinator.com/item?id=46758450</id>
+        <link href="https://www.bbc.com/future/article/20190513-it-only-takes-35-of-people-to-change-the-world"/>
+        <updated>2026-01-25T21:27:11.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.bbc.com/future/article/20190513-it-only-takes-35-of-people-to-change-the-world
+Comments URL: https://news.ycombinator.com/item?id=46758450
+Points: 97
+# Comments: 69]]></summary>
+        <author>
+            <name>choult</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[OnePlus update blocks downgrades and custom ROMs by blowing a fuse]]></title>
         <id>https://news.ycombinator.com/item?id=46757944</id>
@@ -2653,6 +2666,30 @@ Points: 141
 # Comments: 23]]></summary>
         <author>
             <name>mkmk</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Fence – Sandbox CLI commands with network/filesystem restrictions]]></title>
+        <id>https://news.ycombinator.com/item?id=46695467</id>
+        <link href="https://github.com/Use-Tusk/fence"/>
+        <updated>2026-01-20T18:05:03.000Z</updated>
+        <summary type="html"><![CDATA[Hi HN!
+Fence wraps any command in a sandbox that blocks network by default and restricts filesystem writes. Useful for running semi-trusted code (package installs, build scripts, unfamiliar repos) with controlled side effects, or even just blocking tools that phone home.
+> fence curl https://example.com  # -> blocked
+> fence -t code -- npm install        # -> template with registries allowed
+> fence -m -- npm install               # -> monitor mode: see what gets blocked
+One use-case is to use it with AI coding agents to reduce the risk of running agents with fewer interactive permission prompts:
+> fence -t code -- claude --dangerously-skip-permissions
+You can import existing Claude Code permissions with `fence import --claude`.
+Fence uses OS-native sandboxing (macOS sandbox-exec, Linux bubblewrap) + local HTTP/SOCKS proxies for domain filtering.
+Why I built this: I work on Tusk Drift, a system to record and replay real traffic as API tests (https://github.com/Use-Tusk/tusk-drift-cli). I needed a way to sandbox the service under test during replays to block localhost outbound connections (Postgres, Redis) and force the app to use mocks instead of real services. I quickly realized that this could be a general purpose tool that would also be useful as a permission manager across CLI agents.
+Limitations: Not strong containment against malware. Proxy-based filtering requires programs to respect `HTTP_PROXY`.
+Curious if others have run into similar needs, and happy to answer any questions!
+Comments URL: https://news.ycombinator.com/item?id=46695467
+Points: 55
+# Comments: 12]]></summary>
+        <author>
+            <name>jy-tan</name>
         </author>
     </entry>
     <entry>
