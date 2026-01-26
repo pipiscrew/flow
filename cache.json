@@ -16,6 +16,36 @@
           "imageUrl": "https://opengraph.githubassets.com/166fb7fef4e069cd1136e06f2f5cea0208f76f3b809bf0f5377947de0b439902/clawdbot/clawdbot"
         },
         {
+          "id": "https://news.ycombinator.com/item?id=46760099",
+          "author": "mikhael",
+          "description": "Original paper: https://www.nature.com/articles/s41467-025-67657-w\nComments URL: https://news.ycombinator.com/item?id=46760099\nPoints: 88\n# Comments: 16",
+          "link": "https://www.sciencealert.com/scientists-identify-brain-waves-that-define-the-limits-of-you",
+          "publishedOn": "2026-01-26T00:10:42.000Z",
+          "wordCount": 3632,
+          "title": "Scientists identify brain waves that define the limits of 'you'",
+          "imageUrl": "https://www.sciencealert.com/images/2026/01/Brain-You.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46759520",
+          "author": "jcparkyn",
+          "description": "This is a hobby project of mine that I started a few years ago to learn about programming language implementation. It was created 95% without AI, although a few recent commits include code from Gemini CLI.\nI started out following Crafting Interpreters, but gradually branched off that until I had almost nothing left in common.\nTech stack: Rust, Cranelift (JIT compilation), LALRPOP (parser).\nOriginal title: \"A small programming language where everything is a value\" (edited based on comments)\nComments URL: https://news.ycombinator.com/item?id=46759520\nPoints: 55\n# Comments: 32",
+          "link": "https://github.com/Jcparkyn/herd",
+          "publishedOn": "2026-01-25T23:01:06.000Z",
+          "wordCount": 7761,
+          "title": "Show HN: A small programming language where everything is pass-by-value",
+          "imageUrl": "https://opengraph.githubassets.com/b3c667708218c6abfe637975160daf9d487cf9880f52ba5c8a82950e2483e87c/Jcparkyn/herd"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46759352",
+          "author": "musculus",
+          "description": "Article URL: https://tomaszmachnik.pl/case-study-math-en.html\nComments URL: https://news.ycombinator.com/item?id=46759352\nPoints: 55\n# Comments: 32",
+          "link": "https://tomaszmachnik.pl/case-study-math-en.html",
+          "publishedOn": "2026-01-25T22:44:50.000Z",
+          "wordCount": 843,
+          "title": "Case study: Creative math – How AI fakes proofs",
+          "imageUrl": null
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=46758450",
           "author": "choult",
           "description": "Article URL: https://www.bbc.com/future/article/20190513-it-only-takes-35-of-people-to-change-the-world\nComments URL: https://news.ycombinator.com/item?id=46758450\nPoints: 97\n# Comments: 69",
@@ -83,6 +113,16 @@
           "publishedOn": "2026-01-25T19:03:40.000Z",
           "wordCount": 125,
           "title": "First, make me care",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46756427",
+          "author": "idd2",
+          "description": "This is an interactive map of US navigational aids and lighthouses, which indicates their location, color, characteristic and any remarks the Coast Guard has attached.\nI was sick at home with the flu this weekend, and went on a bit of a Wikipedia deep dive about active American lighthouses. Searching around a bit, it was very hard to find a single source or interactive map of active beacons, and a description of what the \"characteristic\" meant. The Coast Guard maintains a list of active lights though, that they publish annually (https://www.navcen.uscg.gov/light-list-annual-publication). With some help from Claude Code, it wasn't hard to extract the lat/long and put together a small webapp that shows a map of these light stations and illustrates their characteristic with an animated visualization..\nOf course, this shouldn't be used as a navigational aid, merely for informational purposes! Though having lived in Seattle and San Francisco I thought it was quite interesting.\nComments URL: https://news.ycombinator.com/item?id=46756427\nPoints: 51\n# Comments: 14",
+          "link": "https://www.lighthouses.app/",
+          "publishedOn": "2026-01-25T18:06:26.000Z",
+          "wordCount": 179,
+          "title": "Show HN: An interactive map of US lighthouses and navigational aids",
           "imageUrl": null
         },
         {
@@ -13264,46 +13304,6 @@
           "wordCount": 8810,
           "title": "Nvidia just paid $20B for a company that missed its revenue target by 75%",
           "imageUrl": "https://substackcdn.com/image/fetch/$s_!7ppM!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9a099433-4de1-45a1-9804-cfcede6b28da_5064x2704.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46402620",
-          "author": "ingve",
-          "description": "Article URL: https://www.youtube.com/watch?v=jlbcKuDEBw8\nComments URL: https://news.ycombinator.com/item?id=46402620\nPoints: 52\n# Comments: 7",
-          "link": "https://www.youtube.com/watch?v=jlbcKuDEBw8",
-          "publishedOn": "2025-12-27T15:43:53.000Z",
-          "wordCount": null,
-          "title": "So I started cloning the Wii U gamepad [video]",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46402327",
-          "author": "caseysoftware",
-          "description": "Article URL: https://ndstudio.gov/posts/automating-federal-retirements\nComments URL: https://news.ycombinator.com/item?id=46402327\nPoints: 57\n# Comments: 42",
-          "link": "https://ndstudio.gov/posts/automating-federal-retirements",
-          "publishedOn": "2025-12-27T15:02:30.000Z",
-          "wordCount": 5517,
-          "title": "We Automated Federal Retirements",
-          "imageUrl": "https://assets.ndstudio.gov/mine.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46402202",
-          "author": "todsacerdoti",
-          "description": "Article URL: https://blog.phronemophobic.com/easel-one-year.html\nComments URL: https://news.ycombinator.com/item?id=46402202\nPoints: 58\n# Comments: 2",
-          "link": "https://blog.phronemophobic.com/easel-one-year.html",
-          "publishedOn": "2025-12-27T14:46:16.000Z",
-          "wordCount": 1653,
-          "title": "Easel Turns One One year of building my own IDE in Clojure",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46402132",
-          "author": "signa11",
-          "description": "Article URL: https://bluuewhale.github.io/posts/concurrent-hashmap-designs/\nComments URL: https://news.ycombinator.com/item?id=46402132\nPoints: 51\n# Comments: 6",
-          "link": "https://bluuewhale.github.io/posts/concurrent-hashmap-designs/",
-          "publishedOn": "2025-12-27T14:36:43.000Z",
-          "wordCount": 12480,
-          "title": "Concurrent Hash Table Designs",
-          "imageUrl": "https://bluuewhale.github.io/images/concurrent-hashmap-designs/markword.png"
         }
       ]
     }

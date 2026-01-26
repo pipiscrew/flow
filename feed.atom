@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-01-26T02:27:13.388Z</updated>
+    <updated>2026-01-26T04:19:32.826Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
@@ -17,6 +17,48 @@ Points: 97
 # Comments: 51]]></summary>
         <author>
             <name>KuzeyAbi</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Scientists identify brain waves that define the limits of 'you']]></title>
+        <id>https://news.ycombinator.com/item?id=46760099</id>
+        <link href="https://www.sciencealert.com/scientists-identify-brain-waves-that-define-the-limits-of-you"/>
+        <updated>2026-01-26T00:10:42.000Z</updated>
+        <summary type="html"><![CDATA[Original paper: https://www.nature.com/articles/s41467-025-67657-w
+Comments URL: https://news.ycombinator.com/item?id=46760099
+Points: 88
+# Comments: 16]]></summary>
+        <author>
+            <name>mikhael</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: A small programming language where everything is pass-by-value]]></title>
+        <id>https://news.ycombinator.com/item?id=46759520</id>
+        <link href="https://github.com/Jcparkyn/herd"/>
+        <updated>2026-01-25T23:01:06.000Z</updated>
+        <summary type="html"><![CDATA[This is a hobby project of mine that I started a few years ago to learn about programming language implementation. It was created 95% without AI, although a few recent commits include code from Gemini CLI.
+I started out following Crafting Interpreters, but gradually branched off that until I had almost nothing left in common.
+Tech stack: Rust, Cranelift (JIT compilation), LALRPOP (parser).
+Original title: "A small programming language where everything is a value" (edited based on comments)
+Comments URL: https://news.ycombinator.com/item?id=46759520
+Points: 55
+# Comments: 32]]></summary>
+        <author>
+            <name>jcparkyn</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Case study: Creative math – How AI fakes proofs]]></title>
+        <id>https://news.ycombinator.com/item?id=46759352</id>
+        <link href="https://tomaszmachnik.pl/case-study-math-en.html"/>
+        <updated>2026-01-25T22:44:50.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://tomaszmachnik.pl/case-study-math-en.html
+Comments URL: https://news.ycombinator.com/item?id=46759352
+Points: 55
+# Comments: 32]]></summary>
+        <author>
+            <name>musculus</name>
         </author>
     </entry>
     <entry>
@@ -108,6 +150,21 @@ Points: 116
 # Comments: 46]]></summary>
         <author>
             <name>andsoitis</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: An interactive map of US lighthouses and navigational aids]]></title>
+        <id>https://news.ycombinator.com/item?id=46756427</id>
+        <link href="https://www.lighthouses.app/"/>
+        <updated>2026-01-25T18:06:26.000Z</updated>
+        <summary type="html"><![CDATA[This is an interactive map of US navigational aids and lighthouses, which indicates their location, color, characteristic and any remarks the Coast Guard has attached.
+I was sick at home with the flu this weekend, and went on a bit of a Wikipedia deep dive about active American lighthouses. Searching around a bit, it was very hard to find a single source or interactive map of active beacons, and a description of what the "characteristic" meant. The Coast Guard maintains a list of active lights though, that they publish annually (https://www.navcen.uscg.gov/light-list-annual-publication). With some help from Claude Code, it wasn't hard to extract the lat/long and put together a small webapp that shows a map of these light stations and illustrates their characteristic with an animated visualization..
+Of course, this shouldn't be used as a navigational aid, merely for informational purposes! Though having lived in Seattle and San Francisco I thought it was quite interesting.
+Comments URL: https://news.ycombinator.com/item?id=46756427
+Points: 51
+# Comments: 14]]></summary>
+        <author>
+            <name>idd2</name>
         </author>
     </entry>
     <entry>
@@ -17782,58 +17839,6 @@ Points: 142
 # Comments: 95]]></summary>
         <author>
             <name>joshcsimmons</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[So I started cloning the Wii U gamepad [video]]]></title>
-        <id>https://news.ycombinator.com/item?id=46402620</id>
-        <link href="https://www.youtube.com/watch?v=jlbcKuDEBw8"/>
-        <updated>2025-12-27T15:43:53.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.youtube.com/watch?v=jlbcKuDEBw8
-Comments URL: https://news.ycombinator.com/item?id=46402620
-Points: 52
-# Comments: 7]]></summary>
-        <author>
-            <name>ingve</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[We Automated Federal Retirements]]></title>
-        <id>https://news.ycombinator.com/item?id=46402327</id>
-        <link href="https://ndstudio.gov/posts/automating-federal-retirements"/>
-        <updated>2025-12-27T15:02:30.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://ndstudio.gov/posts/automating-federal-retirements
-Comments URL: https://news.ycombinator.com/item?id=46402327
-Points: 57
-# Comments: 42]]></summary>
-        <author>
-            <name>caseysoftware</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Easel Turns One One year of building my own IDE in Clojure]]></title>
-        <id>https://news.ycombinator.com/item?id=46402202</id>
-        <link href="https://blog.phronemophobic.com/easel-one-year.html"/>
-        <updated>2025-12-27T14:46:16.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://blog.phronemophobic.com/easel-one-year.html
-Comments URL: https://news.ycombinator.com/item?id=46402202
-Points: 58
-# Comments: 2]]></summary>
-        <author>
-            <name>todsacerdoti</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Concurrent Hash Table Designs]]></title>
-        <id>https://news.ycombinator.com/item?id=46402132</id>
-        <link href="https://bluuewhale.github.io/posts/concurrent-hashmap-designs/"/>
-        <updated>2025-12-27T14:36:43.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://bluuewhale.github.io/posts/concurrent-hashmap-designs/
-Comments URL: https://news.ycombinator.com/item?id=46402132
-Points: 51
-# Comments: 6]]></summary>
-        <author>
-            <name>signa11</name>
         </author>
     </entry>
 </feed>
