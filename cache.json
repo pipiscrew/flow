@@ -8,11 +8,31 @@
         {
           "id": "https://news.ycombinator.com/item?id=46781707",
           "author": "gmays",
+          "description": "https://www.wsj.com/business/retail/amazon-to-shut-down-all-...\nComments URL: https://news.ycombinator.com/item?id=46781707\nPoints: 195\n# Comments: 163",
+          "link": "https://www.cnn.com/2026/01/27/food/amazon-fresh-go-closures",
+          "publishedOn": "2026-01-27T15:58:05.000Z",
+          "wordCount": null,
+          "title": "Amazon to shut down Go and Fresh stores",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46781707",
+          "author": "gmays",
           "description": "Article URL: https://www.wsj.com/business/retail/amazon-to-shut-down-all-amazon-go-and-amazon-fresh-stores-0301dfb7\nComments URL: https://news.ycombinator.com/item?id=46781707\nPoints: 115\n# Comments: 82",
           "link": "https://www.wsj.com/business/retail/amazon-to-shut-down-all-amazon-go-and-amazon-fresh-stores-0301dfb7",
           "publishedOn": "2026-01-27T15:58:05.000Z",
           "wordCount": null,
           "title": "Amazon to Shut Down All Amazon Go and Amazon Fresh Stores",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46781530",
+          "author": "bookofjoe",
+          "description": "https://archive.ph/mHlUT\nhttps://apnews.com/article/oldest-wooden-tools-marathousa-1-...\nhttps://archaeologymag.com/2026/01/430000-year-old-wooden-to...\nComments URL: https://news.ycombinator.com/item?id=46781530\nPoints: 148\n# Comments: 90",
+          "link": "https://www.nytimes.com/2026/01/26/science/archaeology-neanderthals-tools.html",
+          "publishedOn": "2026-01-27T15:46:29.000Z",
+          "wordCount": null,
+          "title": "430k-year-old well-preserved wooden tools are the oldest ever found",
           "imageUrl": null
         },
         {
@@ -2564,6 +2584,16 @@
           "wordCount": 694,
           "title": "SETI@home is in hiberation",
           "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46702948",
+          "author": "maybe-tomorrow",
+          "description": "Article URL: https://soupof.life\nComments URL: https://news.ycombinator.com/item?id=46702948\nPoints: 53\n# Comments: 21",
+          "link": "https://soupof.life/",
+          "publishedOn": "2026-01-21T09:01:03.000Z",
+          "wordCount": 12,
+          "title": "A simulation where life unfolds in real time",
+          "imageUrl": "https://soupof.life/og.png"
         },
         {
           "id": "https://news.ycombinator.com/item?id=46702411",
@@ -13313,36 +13343,6 @@
           "publishedOn": "2025-12-29T07:54:19.000Z",
           "wordCount": 1729,
           "title": "You can't design software you don't work on",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46417844",
-          "author": "ggeorgovassilis",
-          "description": "Article URL: https://forum.torproject.org/t/staying-ahead-of-censors-in-2025-what-weve-learned-from-fighting-censorship-in-iran-and-russia/20898\nComments URL: https://news.ycombinator.com/item?id=46417844\nPoints: 53\n# Comments: 10",
-          "link": "https://forum.torproject.org/t/staying-ahead-of-censors-in-2025-what-weve-learned-from-fighting-censorship-in-iran-and-russia/20898",
-          "publishedOn": "2025-12-29T05:47:40.000Z",
-          "wordCount": 1330,
-          "title": "Staying ahead of censors in 2025",
-          "imageUrl": "https://forum.torproject.org/uploads/default/original/2X/7/7ba3eeb4bd12624922b10dd57b1b986cb32f15bf.jpeg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46417815",
-          "author": "quesomaster9000",
-          "description": "How small can a language model be while still doing something useful? I wanted to find out, and had some spare time over the holidays.\nZ80-μLM is a character-level language model with 2-bit quantized weights ({-2,-1,0,+1}) that runs on a Z80 with 64KB RAM. The entire thing: inference, weights, chat UI, it all fits in a 40KB .COM file that you can run in a CP/M emulator and hopefully even real hardware!\nIt won't write your emails, but it can be trained to play a stripped down version of 20 Questions, and is sometimes able to maintain the illusion of having simple but terse conversations with a distinct personality.\n--\nThe extreme constraints nerd-sniped me and forced interesting trade-offs: trigram hashing (typo-tolerant, loses word order), 16-bit integer math, and some careful massaging of the training data meant I could keep the examples 'interesting'.\nThe key was quantization-aware training that accurately models the inference code limitations. The training loop runs both float and integer-quantized forward passes in parallel, scoring the model on how well its knowledge survives quantization. The weights are progressively pushed toward the 2-bit grid using straight-through estimators, with overflow penalties matching the Z80's 16-bit accumulator limits. By the end of training, the model has already adapted to its constraints, so no post-hoc quantization collapse.\nEventually I ended up spending a few dollars on Claude API to generate 20 questions data (see examples/guess/GUESS.COM), I hope Anthropic won't send me a C&D for distilling their model against the ToS ;P\nBut anyway, happy code-golf season everybody :)\nComments URL: https://news.ycombinator.com/item?id=46417815\nPoints: 86\n# Comments: 24",
-          "link": "https://github.com/HarryR/z80ai",
-          "publishedOn": "2025-12-29T05:41:24.000Z",
-          "wordCount": 3795,
-          "title": "Show HN: Z80-μLM, a 'Conversational AI' That Fits in 40KB",
-          "imageUrl": "https://opengraph.githubassets.com/6d5ac500c041567764e09a28ab65acde5f7ab436f4b46e1d8eb98835b670bd08/HarryR/z80ai"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46417791",
-          "author": "todsacerdoti",
-          "description": "Article URL: https://fzakaria.com/2025/12/28/huge-binaries\nComments URL: https://news.ycombinator.com/item?id=46417791\nPoints: 51\n# Comments: 21",
-          "link": "https://fzakaria.com/2025/12/28/huge-binaries",
-          "publishedOn": "2025-12-29T05:35:17.000Z",
-          "wordCount": 1267,
-          "title": "Binaries",
           "imageUrl": null
         }
       ]
