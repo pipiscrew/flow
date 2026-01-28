@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-01-28T17:37:42.834Z</updated>
+    <updated>2026-01-28T18:45:49.882Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
@@ -43,6 +43,36 @@ Points: 138
 # Comments: 101]]></summary>
         <author>
             <name>bobsterlobster</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: I built a small browser engine from scratch in C++]]></title>
+        <id>https://news.ycombinator.com/item?id=46795540</id>
+        <link href="https://github.com/beginner-jhj/mini_browser"/>
+        <updated>2026-01-28T14:03:28.000Z</updated>
+        <summary type="html"><![CDATA[Hi HN! Korean high school senior here, about to start CS in college.
+I built a browser engine from scratch in C++ to understand how browsers work. First time using C++, 8 weeks of development, lots of debugging—but it works!
+Features:
+- HTML parsing with error correction
+- CSS cascade and inheritance
+- Block/inline layout engine
+- Async image loading + caching
+- Link navigation + history
+Hardest parts:
+- String parsing(html, css)
+- Rendering
+- Image Caching & Layout Reflowing
+What I learned (beyond code):
+- Systematic debugging is crucial
+- Ship with known bugs rather than chase perfection
+- The Power of "Why?"
+~3,000 lines of C++17/Qt6. Would love feedback on code architecture and C++ best practices!
+GitHub: https://github.com/beginner-jhj/mini_browser
+Comments URL: https://news.ycombinator.com/item?id=46795540
+Points: 60
+# Comments: 12]]></summary>
+        <author>
+            <name>crediblejhj</name>
         </author>
     </entry>
     <entry>
@@ -2918,6 +2948,19 @@ Points: 69
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[I Overengineered a Spinning Top]]></title>
+        <id>https://news.ycombinator.com/item?id=46728070</id>
+        <link href="https://www.youtube.com/watch?v=Wp5NodfvvF4"/>
+        <updated>2026-01-23T03:32:26.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.youtube.com/watch?v=Wp5NodfvvF4
+Comments URL: https://news.ycombinator.com/item?id=46728070
+Points: 57
+# Comments: 17]]></summary>
+        <author>
+            <name>bane</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Bugs Apple Loves]]></title>
         <id>https://news.ycombinator.com/item?id=46727587</id>
         <link href="https://www.bugsappleloves.com/"/>
@@ -2967,6 +3010,19 @@ Points: 70
 # Comments: 2]]></summary>
         <author>
             <name>timsneath</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SVG Path Editor]]></title>
+        <id>https://news.ycombinator.com/item?id=46726269</id>
+        <link href="https://yqnn.github.io/svg-path-editor/"/>
+        <updated>2026-01-22T23:06:05.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://yqnn.github.io/svg-path-editor/
+Comments URL: https://news.ycombinator.com/item?id=46726269
+Points: 201
+# Comments: 33]]></summary>
+        <author>
+            <name>gurjeet</name>
         </author>
     </entry>
     <entry>
