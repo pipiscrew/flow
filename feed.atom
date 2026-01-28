@@ -2,10 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-01-28T09:40:16.026Z</updated>
+    <updated>2026-01-28T10:35:53.390Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[I Stopped Following the News]]></title>
+        <id>https://news.ycombinator.com/item?id=46792580</id>
+        <link href="https://mertbulan.com/2026/01/28/why-i-stopped-following-the-news/"/>
+        <updated>2026-01-28T08:33:57.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://mertbulan.com/2026/01/28/why-i-stopped-following-the-news/
+Comments URL: https://news.ycombinator.com/item?id=46792580
+Points: 83
+# Comments: 79]]></summary>
+        <author>
+            <name>mertbio</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[ASML firing 1700 people, mostly managers]]></title>
         <id>https://news.ycombinator.com/item?id=46792370</id>
@@ -17,6 +30,19 @@ Points: 108
 # Comments: 76]]></summary>
         <author>
             <name>dep_b</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Make.ts]]></title>
+        <id>https://news.ycombinator.com/item?id=46792194</id>
+        <link href="https://matklad.github.io/2026/01/27/make-ts.html"/>
+        <updated>2026-01-28T07:35:51.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://matklad.github.io/2026/01/27/make-ts.html
+Comments URL: https://news.ycombinator.com/item?id=46792194
+Points: 62
+# Comments: 32]]></summary>
+        <author>
+            <name>ingve</name>
         </author>
     </entry>
     <entry>
@@ -17856,54 +17882,6 @@ Points: 52
 # Comments: 3]]></summary>
         <author>
             <name>birdculture</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: Stop Claude Code from forgetting everything]]></title>
-        <id>https://news.ycombinator.com/item?id=46426624</id>
-        <link href="https://github.com/mutable-state-inc/ensue-skill"/>
-        <updated>2025-12-29T22:30:25.000Z</updated>
-        <summary type="html"><![CDATA[I got tired of Claude Code forgetting all my context every time I open a new session: set-up decisions, how I like my margins, decision history. etc.
-We built a shared memory layer you can drop in as a Claude Code Skill. It’s basically a tiny memory DB with recall that remembers your sessions. Not magic. Not AGI. Just state.
-Install in Claude Code:
-  /plugin marketplace add https://github.com/mutable-state-inc/ensue-skill
-  /plugin install ensue-memory
-  # restart Claude Code
-
-What it doesn’t do: - it won’t read your mind - it’s alpha; it might break if you throw a couch at it
-Repo: https://github.com/mutable-state-inc/ensue-skill
-If you try it and it sucks, tell me why so I can fix it. Don't be kind, tia
-Comments URL: https://news.ycombinator.com/item?id=46426624
-Points: 68
-# Comments: 94]]></summary>
-        <author>
-            <name>austinbaggio</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Late Arrival of 16-Bit CP/M]]></title>
-        <id>https://news.ycombinator.com/item?id=46426614</id>
-        <link href="https://nemanjatrifunovic.substack.com/p/the-late-arrival-of-16-bit-cpm"/>
-        <updated>2025-12-29T22:30:04.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://nemanjatrifunovic.substack.com/p/the-late-arrival-of-16-bit-cpm
-Comments URL: https://news.ycombinator.com/item?id=46426614
-Points: 53
-# Comments: 5]]></summary>
-        <author>
-            <name>rbanffy</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[ManusAI Joins Meta]]></title>
-        <id>https://news.ycombinator.com/item?id=46426534</id>
-        <link href="https://manus.im/blog/manus-joins-meta-for-next-era-of-innovation"/>
-        <updated>2025-12-29T22:24:22.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://manus.im/blog/manus-joins-meta-for-next-era-of-innovation
-Comments URL: https://news.ycombinator.com/item?id=46426534
-Points: 50
-# Comments: 34]]></summary>
-        <author>
-            <name>gniting</name>
         </author>
     </entry>
 </feed>
