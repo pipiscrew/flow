@@ -16,6 +16,16 @@
           "imageUrl": "https://primary-cdn.web3isgoinggreat.com/monkey-og.png"
         },
         {
+          "id": "https://news.ycombinator.com/item?id=46786618",
+          "author": "alecf",
+          "description": "I grew up on the Infocom games and when microsoft actually open-sourced Zork 1/2/3 I really wanted to figure out how to use LLMs to let you type whatever you want, I always found the amount language that the games \"understood\" to be so limiting - even if it was pretty state of the art at the time.\nSo I figured out how to wrap it with Tambo.. (and run the game engine in the browser) basically whatever you type gets \"translated\" into zork-speak and passed to the game - and then the LLM takes the game's output and optionally adds flavor. (the little \">_\" button at the top exposes the actual game input)\nWhat was a big surprise to me is multi-turn instructions - you can ask it to \"Explore all the rooms in the house until you can't find any more\" and it will plug away at the game for 10+ \"turns\" at a time... like Claude Code for Zork or something\nComments URL: https://news.ycombinator.com/item?id=46786618\nPoints: 70\n# Comments: 44",
+          "link": "https://infocom.tambo.co/",
+          "publishedOn": "2026-01-27T20:59:49.000Z",
+          "wordCount": 4,
+          "title": "Show HN: I wrapped the Zorks with an LLM",
+          "imageUrl": null
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=46786237",
           "author": "ourmandave",
           "description": "Article URL: https://www.bbc.com/news/articles/c24g8v6qr1mo\nComments URL: https://news.ycombinator.com/item?id=46786237\nPoints: 66\n# Comments: 56",
@@ -46,6 +56,16 @@
           "imageUrl": "https://opengraph.githubassets.com/eb81a4758910258d5cd9292e3a55875ba737b4e3b1b4d819fbb08d6ffe9e011f/kangtastic/timestation"
         },
         {
+          "id": "https://news.ycombinator.com/item?id=46784977",
+          "author": "linolevan",
+          "description": "Article URL: https://www.joshtumath.uk/posts/2026-01-27-try-text-scaling-support-in-chrome-canary/\nComments URL: https://news.ycombinator.com/item?id=46784977\nPoints: 75\n# Comments: 19",
+          "link": "https://www.joshtumath.uk/posts/2026-01-27-try-text-scaling-support-in-chrome-canary/",
+          "publishedOn": "2026-01-27T19:20:24.000Z",
+          "wordCount": null,
+          "title": "Try text scaling support in Chrome Canary",
+          "imageUrl": null
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=46784572",
           "author": "hornedhob",
           "description": "Article URL: https://amutable.com/about\nComments URL: https://news.ycombinator.com/item?id=46784572\nPoints: 58\n# Comments: 37",
@@ -64,6 +84,16 @@
           "wordCount": null,
           "title": "U.S. government has lost more than 10k STEM PhDs since Trump took office",
           "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46784210",
+          "author": "jmtulloss",
+          "description": "Article URL: https://falconer.com/notes/llm-as-a-courtroom/\nComments URL: https://news.ycombinator.com/item?id=46784210\nPoints: 52\n# Comments: 23",
+          "link": "https://falconer.com/notes/llm-as-a-courtroom/",
+          "publishedOn": "2026-01-27T18:32:36.000Z",
+          "wordCount": 2652,
+          "title": "LLM-as-a-Courtroom",
+          "imageUrl": "https://mkt.falconer.com/og-image.png"
         },
         {
           "id": "https://news.ycombinator.com/item?id=46783863",
@@ -13434,76 +13464,6 @@
           "wordCount": 2779,
           "title": "Swapping SIM cards used to be easy, and then came eSIM",
           "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2025/11/nanoSIM-card-1152x648.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46420672",
-          "author": "drpaneas",
-          "description": "Article URL: https://github.com/drpaneas/libgodc\nComments URL: https://news.ycombinator.com/item?id=46420672\nPoints: 77\n# Comments: 22",
-          "link": "https://github.com/drpaneas/libgodc",
-          "publishedOn": "2025-12-29T13:43:29.000Z",
-          "wordCount": 1828,
-          "title": "Libgodc: Write Go Programs for Sega Dreamcast",
-          "imageUrl": "https://repository-images.githubusercontent.com/1121325047/e6781749-9b62-4eeb-9913-e592cefa4054"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46420453",
-          "author": "balajmarius",
-          "description": "Article URL: https://balajmarius.com/writings/vibe-coding-a-bookshelf-with-claude-code/\nComments URL: https://news.ycombinator.com/item?id=46420453\nPoints: 53\n# Comments: 24",
-          "link": "https://balajmarius.com/writings/vibe-coding-a-bookshelf-with-claude-code/",
-          "publishedOn": "2025-12-29T13:22:59.000Z",
-          "wordCount": 3152,
-          "title": "Show HN: Vibe coding a bookshelf with Claude Code",
-          "imageUrl": "/og-image.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46420289",
-          "author": "beardyw",
-          "description": "Article URL: https://www.theguardian.com/business/2025/dec/29/uk-accounting-remote-exams-ai-cheating-acca\nComments URL: https://news.ycombinator.com/item?id=46420289\nPoints: 60\n# Comments: 33",
-          "link": "https://www.theguardian.com/business/2025/dec/29/uk-accounting-remote-exams-ai-cheating-acca",
-          "publishedOn": "2025-12-29T13:06:49.000Z",
-          "wordCount": 4496,
-          "title": "UK accounting body to halt remote exams amid AI cheating",
-          "imageUrl": "https://i.guim.co.uk/img/media/f23da26f8402f91bc06b7a051a59f632f7c7cde6/424_0_2581_2065/master/2581.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=e81c03d0f4a8f09f84377c187c4e998a"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46419970",
-          "author": "JeremyTheo",
-          "description": "Article URL: https://www.theocharis.dev/blog/kidnapped-by-deutsche-bahn/\nComments URL: https://news.ycombinator.com/item?id=46419970\nPoints: 84\n# Comments: 52",
-          "link": "https://www.theocharis.dev/blog/kidnapped-by-deutsche-bahn/",
-          "publishedOn": "2025-12-29T12:24:00.000Z",
-          "wordCount": 750,
-          "title": "Kidnapped by Deutsche Bahn",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46419968",
-          "author": "prmoustache",
-          "description": "Article URL: https://linuxdaw.org/\nComments URL: https://news.ycombinator.com/item?id=46419968\nPoints: 50\n# Comments: 25",
-          "link": "https://linuxdaw.org/",
-          "publishedOn": "2025-12-29T12:23:49.000Z",
-          "wordCount": 4,
-          "title": "Linux DAW: Help Linux musicians to quickly and easily find the tools they need",
-          "imageUrl": "https://linuxdaw.org/img/screenshot.webp"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46419822",
-          "author": "bwb",
-          "description": "Hi HN,\nEvery year, we ask thousands of readers (and authors) to share their 3 favorite reads of the year.\nNow you can enter a book/author you love and see what books readers loved who also loved that book/author.\nTry it here:\nhttps://shepherd.com/bboy/2025\nThis goes wide and doesn't try to limit itself to the genre, so you get some interesting results.\nWhat do you think?\nBackground:\nI want better recommendations based on my reading history. I'm incredibly frustrated with what is out there.\nThis system is based on 5,000 readers voting on their 3 favorite reads from 2023 to 2025. So, this covers ~15,000 books and is a high-quality vote. We wanted to keep the dataset small for now while we play with approaches.\nWe are building a full Book DNA app that pulls in your Goodreads history and delivers deeply personalized book recommendations based on people who like similar books (a significant challenge).\nYou can sign up to beta test it here if you want to help me with that:\nhttps://docs.google.com/forms/d/1VOm8XOMU0ygMSTSKi9F0nExnGwo...\nThe first beta is coming out in late January, but it's pretty basic to start.\nPast Show HNs as we've built Shepherd:\nhttps://news.ycombinator.com/item?id=40084193\nhttps://news.ycombinator.com/item?id=38600246\nhttps://news.ycombinator.com/item?id=26871660\nThanks, looking forward to your comments :)\nBen\nComments URL: https://news.ycombinator.com/item?id=46419822\nPoints: 56\n# Comments: 13",
-          "link": "https://shepherd.com/bboy/2025",
-          "publishedOn": "2025-12-29T11:58:09.000Z",
-          "wordCount": null,
-          "title": "Show HN: See what readers who loved your favorite book/author also loved to read",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46419659",
-          "author": "fsmunoz",
-          "description": "Article URL: https://interlaye.red/kubernetes_002degress_002dsquid.html\nComments URL: https://news.ycombinator.com/item?id=46419659\nPoints: 53\n# Comments: 28",
-          "link": "https://interlaye.red/kubernetes_002degress_002dsquid.html",
-          "publishedOn": "2025-12-29T11:33:46.000Z",
-          "wordCount": 2049,
-          "title": "Kubernetes egress control with squid proxy",
-          "imageUrl": null
         }
       ]
     }
