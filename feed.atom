@@ -2,10 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-01-29T17:42:10.954Z</updated>
+    <updated>2026-01-29T18:57:02.636Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Project Genie: Experimenting with infinite, interactive worlds]]></title>
+        <id>https://news.ycombinator.com/item?id=46812933</id>
+        <link href="https://blog.google/innovation-and-ai/models-and-research/google-deepmind/project-genie/"/>
+        <updated>2026-01-29T17:02:39.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://blog.google/innovation-and-ai/models-and-research/google-deepmind/project-genie/
+Comments URL: https://news.ycombinator.com/item?id=46812933
+Points: 104
+# Comments: 40]]></summary>
+        <author>
+            <name>meetpateltech</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Mozilla is building an AI 'rebel alliance' to take on OpenAI, Anthropic]]></title>
         <id>https://news.ycombinator.com/item?id=46812653</id>
@@ -20,6 +33,27 @@ Points: 60
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Launch HN: AgentMail (YC S25) – An API that gives agents their own email inboxes]]></title>
+        <id>https://news.ycombinator.com/item?id=46812608</id>
+        <link href="https://news.ycombinator.com/item?id=46812608"/>
+        <updated>2026-01-29T16:42:33.000Z</updated>
+        <summary type="html"><![CDATA[Hey HN, we're Haakam, Michael, and Adi. We're building AgentMail (https://agentmail.to), the email inbox API for agents. We’re not talking about AI for your email, this is email for your AI.
+Email is an optimal interface for long-running agents. It’s multithreaded and asynchronous with full support for rich text and files. It’s a universal protocol with identity and authentication built in. Moreover, a lot of workflow critical context already lives in email.
+We wanted to build email agents that you can forward your work to and get back a completed task. The agents could act entirely autonomously as you wouldn't need to delegate your identity. If they did get stuck they could just send you, or anyone else, an email.
+Using Gmail, we kept getting stuck on the limitations of their API. No way to create inboxes programmatically. Rate and sending limits. OAuth for every single inbox. Keyword search that doesn't understand context. Per-seat pricing that doesn't work for agents.
+So we built what we wished existed: an email provider for developers. APIs for creating inboxes and configuring domains. Email parsing and threading. Text extraction from attachments. Realtime webhooks and websockets. Semantic search across inboxes. Usage-based pricing that works for agents.
+Developers, startups, and enterprises are already deploying email agents with AgentMail. Agents that convert conversations and documents into structured data. Agents that source quotes, negotiate prices, and get the best deals. Agents that emulate internet users for training models on end-to-end tasks.
+Here's demo of Clawdbots communicating using AgentMail: https://youtu.be/Y0MfUWS3LKQ
+You can get started with AgentMail for free at https://agentmail.to
+Looking forward to hearing your thoughts and feedback.
+Comments URL: https://news.ycombinator.com/item?id=46812608
+Points: 55
+# Comments: 50]]></summary>
+        <author>
+            <name>Haakam21</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[US cybersecurity chief leaked sensitive government files to ChatGPT: Report]]></title>
         <id>https://news.ycombinator.com/item?id=46812173</id>
         <link href="https://www.dexerto.com/entertainment/us-cybersecurity-chief-leaked-sensitive-government-files-to-chatgpt-report-3311462/"/>
@@ -30,6 +64,32 @@ Points: 146
 # Comments: 90]]></summary>
         <author>
             <name>randycupertino</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Drug trio found to block tumour resistance in pancreatic cancer]]></title>
+        <id>https://news.ycombinator.com/item?id=46812159</id>
+        <link href="https://www.drugtargetreview.com/news/192714/drug-trio-found-to-block-tumour-resistance-in-pancreatic-cancer/"/>
+        <updated>2026-01-29T16:11:04.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.drugtargetreview.com/news/192714/drug-trio-found-to-block-tumour-resistance-in-pancreatic-cancer/
+Comments URL: https://news.ycombinator.com/item?id=46812159
+Points: 58
+# Comments: 28]]></summary>
+        <author>
+            <name>axiomdata316</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Is the RAM shortage killing small VPS hosts?]]></title>
+        <id>https://news.ycombinator.com/item?id=46811664</id>
+        <link href="https://www.fourplex.net/2026/01/29/is-the-ram-shortage-killing-small-vps-hosts/"/>
+        <updated>2026-01-29T15:42:57.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.fourplex.net/2026/01/29/is-the-ram-shortage-killing-small-vps-hosts/
+Comments URL: https://news.ycombinator.com/item?id=46811664
+Points: 50
+# Comments: 34]]></summary>
+        <author>
+            <name>neelc</name>
         </author>
     </entry>
     <entry>
@@ -69,6 +129,19 @@ Points: 55
 # Comments: 29]]></summary>
         <author>
             <name>kruuuder</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Run Clawdbot/Moltbot on Cloudflare with Moltworker]]></title>
+        <id>https://news.ycombinator.com/item?id=46810828</id>
+        <link href="https://blog.cloudflare.com/moltworker-self-hosted-ai-agent/"/>
+        <updated>2026-01-29T14:43:07.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://blog.cloudflare.com/moltworker-self-hosted-ai-agent/
+Comments URL: https://news.ycombinator.com/item?id=46810828
+Points: 63
+# Comments: 23]]></summary>
+        <author>
+            <name>ghostwriternr</name>
         </author>
     </entry>
     <entry>
@@ -199,6 +272,19 @@ Points: 58
 # Comments: 5]]></summary>
         <author>
             <name>NaOH</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Render Mermaid diagrams as SVGs or ASCII art]]></title>
+        <id>https://news.ycombinator.com/item?id=46804828</id>
+        <link href="https://github.com/AlexanderGrooff/mermaid-ascii"/>
+        <updated>2026-01-29T02:08:40.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://github.com/AlexanderGrooff/mermaid-ascii
+Comments URL: https://news.ycombinator.com/item?id=46804828
+Points: 371
+# Comments: 58]]></summary>
+        <author>
+            <name>mellosouls</name>
         </author>
     </entry>
     <entry>
@@ -1358,6 +1444,19 @@ Points: 84
 # Comments: 103]]></summary>
         <author>
             <name>xd1936</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Making niche solutions is the point]]></title>
+        <id>https://news.ycombinator.com/item?id=46772132</id>
+        <link href="https://ntietz.com/blog/making-niche-solutions-is-the-point/"/>
+        <updated>2026-01-26T21:56:05.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://ntietz.com/blog/making-niche-solutions-is-the-point/
+Comments URL: https://news.ycombinator.com/item?id=46772132
+Points: 56
+# Comments: 19]]></summary>
+        <author>
+            <name>evakhoury</name>
         </author>
     </entry>
     <entry>
@@ -18130,19 +18229,6 @@ Points: 50
 # Comments: 22]]></summary>
         <author>
             <name>ingve</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Sirius DB]]></title>
-        <id>https://news.ycombinator.com/item?id=46441781</id>
-        <link href="https://www.sirius-db.com/"/>
-        <updated>2025-12-31T05:54:06.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.sirius-db.com/
-Comments URL: https://news.ycombinator.com/item?id=46441781
-Points: 58
-# Comments: 8]]></summary>
-        <author>
-            <name>manoji</name>
         </author>
     </entry>
 </feed>
