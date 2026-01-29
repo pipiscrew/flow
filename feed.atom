@@ -2,10 +2,49 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-01-29T16:51:58.275Z</updated>
+    <updated>2026-01-29T17:42:10.954Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Mozilla is building an AI 'rebel alliance' to take on OpenAI, Anthropic]]></title>
+        <id>https://news.ycombinator.com/item?id=46812653</id>
+        <link href="https://www.cnbc.com/2026/01/27/mozilla-building-an-ai-rebel-alliance-to-take-on-openai-anthropic-.html"/>
+        <updated>2026-01-29T16:46:21.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.cnbc.com/2026/01/27/mozilla-building-an-ai-rebel-alliance-to-take-on-openai-anthropic-.html
+Comments URL: https://news.ycombinator.com/item?id=46812653
+Points: 60
+# Comments: 50]]></summary>
+        <author>
+            <name>donutshop</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[US cybersecurity chief leaked sensitive government files to ChatGPT: Report]]></title>
+        <id>https://news.ycombinator.com/item?id=46812173</id>
+        <link href="https://www.dexerto.com/entertainment/us-cybersecurity-chief-leaked-sensitive-government-files-to-chatgpt-report-3311462/"/>
+        <updated>2026-01-29T16:12:19.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.dexerto.com/entertainment/us-cybersecurity-chief-leaked-sensitive-government-files-to-chatgpt-report-3311462/
+Comments URL: https://news.ycombinator.com/item?id=46812173
+Points: 146
+# Comments: 90]]></summary>
+        <author>
+            <name>randycupertino</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[OTelBench: AI struggles with simple SRE tasks (Opus 4.5 scores only 29%)]]></title>
+        <id>https://news.ycombinator.com/item?id=46811588</id>
+        <link href="https://quesma.com/blog/introducing-otel-bench/"/>
+        <updated>2026-01-29T15:37:21.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://quesma.com/blog/introducing-otel-bench/
+Comments URL: https://news.ycombinator.com/item?id=46811588
+Points: 62
+# Comments: 42]]></summary>
+        <author>
+            <name>stared</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Deep dive into Turso, the "SQLite rewrite in Rust"]]></title>
         <id>https://news.ycombinator.com/item?id=46810950</id>
@@ -33,6 +72,19 @@ Points: 55
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Waymo robotaxi hits a child near an elementary school in Santa Monica]]></title>
+        <id>https://news.ycombinator.com/item?id=46810401</id>
+        <link href="https://techcrunch.com/2026/01/29/waymo-robotaxi-hits-a-child-near-an-elementary-school-in-santa-monica/"/>
+        <updated>2026-01-29T14:08:56.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://techcrunch.com/2026/01/29/waymo-robotaxi-hits-a-child-near-an-elementary-school-in-santa-monica/
+Comments URL: https://news.ycombinator.com/item?id=46810401
+Points: 78
+# Comments: 105]]></summary>
+        <author>
+            <name>voxadam</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Claude Code Daily Benchmarks for Degradation Tracking]]></title>
         <id>https://news.ycombinator.com/item?id=46810282</id>
         <link href="https://marginlab.ai/trackers/claude-code/"/>
@@ -56,6 +108,19 @@ Points: 88
 # Comments: 49]]></summary>
         <author>
             <name>bookofjoe</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Sovereign Tech Fund Invests in Scala]]></title>
+        <id>https://news.ycombinator.com/item?id=46809420</id>
+        <link href="https://www.scala-lang.org/blog/2026/01/27/sta-invests-in-scala.html"/>
+        <updated>2026-01-29T12:42:58.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.scala-lang.org/blog/2026/01/27/sta-invests-in-scala.html
+Comments URL: https://news.ycombinator.com/item?id=46809420
+Points: 50
+# Comments: 35]]></summary>
+        <author>
+            <name>bishabosha</name>
         </author>
     </entry>
     <entry>
@@ -1017,6 +1082,48 @@ Points: 66
 # Comments: 47]]></summary>
         <author>
             <name>cmkr</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: ShapedQL – A SQL engine for multi-stage ranking and RAG]]></title>
+        <id>https://news.ycombinator.com/item?id=46779922</id>
+        <link href="https://playground.shaped.ai/"/>
+        <updated>2026-01-27T13:54:09.000Z</updated>
+        <summary type="html"><![CDATA[Hi HN,
+I’m Tullie, founder of Shaped. Previously, I was a researcher at Meta AI, worked on ranking for Instagram Reels, and was a contributor to PyTorch Lightning.
+We built ShapedQL because we noticed that while retrieval (finding 1,000 items) has been commoditized by vector DBs, ranking (finding the best 10 items) is still an infrastructure problem.
+To build a decent for you feed or a RAG system with long-term memory, you usually have to put together a vector DB (Pinecone/Milvus), a feature store (Redis), an inference service, and thousands of lines of Python to handle business logic and reranking.
+We built an engine that consolidates this into a single SQL dialect. It compiles declarative queries into high-performance, multi-stage ranking pipelines.
+HOW IT WORKS:
+Instead of just SELECT , ShapedQL operates in four stages native to recommendation systems:
+RETRIEVE: Fetch candidates via Hybrid Search (Keywords + Vectors) or Collaborative Filtering.
+FILTER: Apply hard constraints (e.g., "inventory > 0").
+SCORE: Rank results using real-time models (e.g., p(click) or p(relevance)).
+REORDER: Apply diversity logic so your Agent/User doesn’t see 10 nearly identical results.
+THE SYNTAX: Here is what a RAG query looks like. This replaces about 500 lines of standard Python/LangChain code:
+SELECT item_id, description, price
+FROM
+  -- Retrieval: Hybrid search across multiple indexes
+
+  search_flights("$param.user_prompt", "$param.context"),
+
+  search_hotels("$param.user_prompt", "$param.context")
+
+  -- Filtering: Hard business constraints
+
+  price 
+  -- Scoring: Real-time reranking (Personalization + Relevance)
+
+  0.5 * preference_score(user, item) +
+
+  0.3 * relevance_score(item, "$param.user_prompt")
+
+If you don’t like SQL, you can also use our Python and Typescript SDKs. I’d love to know what you think of the syntax and the abstraction layer!
+Comments URL: https://news.ycombinator.com/item?id=46779922
+Points: 57
+# Comments: 20]]></summary>
+        <author>
+            <name>tullie</name>
         </author>
     </entry>
     <entry>

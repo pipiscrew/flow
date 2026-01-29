@@ -6,6 +6,36 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=46812653",
+          "author": "donutshop",
+          "description": "Article URL: https://www.cnbc.com/2026/01/27/mozilla-building-an-ai-rebel-alliance-to-take-on-openai-anthropic-.html\nComments URL: https://news.ycombinator.com/item?id=46812653\nPoints: 60\n# Comments: 50",
+          "link": "https://www.cnbc.com/2026/01/27/mozilla-building-an-ai-rebel-alliance-to-take-on-openai-anthropic-.html",
+          "publishedOn": "2026-01-29T16:46:21.000Z",
+          "wordCount": 19157,
+          "title": "Mozilla is building an AI 'rebel alliance' to take on OpenAI, Anthropic",
+          "imageUrl": "https://image.cnbcfm.com/api/v1/image/108256999-17694382042024-05-22t152740z_1366190081_rc2rv7a1td5a_rtrmadp_0_wsj-future-of-everything.jpeg?v=1769438219&w=1920&h=1080"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46812173",
+          "author": "randycupertino",
+          "description": "Article URL: https://www.dexerto.com/entertainment/us-cybersecurity-chief-leaked-sensitive-government-files-to-chatgpt-report-3311462/\nComments URL: https://news.ycombinator.com/item?id=46812173\nPoints: 146\n# Comments: 90",
+          "link": "https://www.dexerto.com/entertainment/us-cybersecurity-chief-leaked-sensitive-government-files-to-chatgpt-report-3311462/",
+          "publishedOn": "2026-01-29T16:12:19.000Z",
+          "wordCount": 3511,
+          "title": "US cybersecurity chief leaked sensitive government files to ChatGPT: Report",
+          "imageUrl": "https://www.dexerto.com/cdn-image/wp-content/uploads/2025/08/28/ChatGPT-suicide-cropped.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46811588",
+          "author": "stared",
+          "description": "Article URL: https://quesma.com/blog/introducing-otel-bench/\nComments URL: https://news.ycombinator.com/item?id=46811588\nPoints: 62\n# Comments: 42",
+          "link": "https://quesma.com/blog/introducing-otel-bench/",
+          "publishedOn": "2026-01-29T15:37:21.000Z",
+          "wordCount": 2421,
+          "title": "OTelBench: AI struggles with simple SRE tasks (Opus 4.5 scores only 29%)",
+          "imageUrl": "https://quesma.com/_astro/thumbnail_piotr.CjJxCeZg.jpg"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=46810950",
           "author": "unsolved73",
           "description": "Article URL: https://kerkour.com/turso-sqlite\nComments URL: https://news.ycombinator.com/item?id=46810950\nPoints: 57\n# Comments: 24",
@@ -26,6 +56,16 @@
           "imageUrl": null
         },
         {
+          "id": "https://news.ycombinator.com/item?id=46810401",
+          "author": "voxadam",
+          "description": "Article URL: https://techcrunch.com/2026/01/29/waymo-robotaxi-hits-a-child-near-an-elementary-school-in-santa-monica/\nComments URL: https://news.ycombinator.com/item?id=46810401\nPoints: 78\n# Comments: 105",
+          "link": "https://techcrunch.com/2026/01/29/waymo-robotaxi-hits-a-child-near-an-elementary-school-in-santa-monica/",
+          "publishedOn": "2026-01-29T14:08:56.000Z",
+          "wordCount": 3294,
+          "title": "Waymo robotaxi hits a child near an elementary school in Santa Monica",
+          "imageUrl": "https://techcrunch.com/wp-content/uploads/2025/10/waymo-nyc.jpg?w=1121"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=46810282",
           "author": "qwesr123",
           "description": "Article URL: https://marginlab.ai/trackers/claude-code/\nComments URL: https://news.ycombinator.com/item?id=46810282\nPoints: 98\n# Comments: 34",
@@ -44,6 +84,16 @@
           "wordCount": null,
           "title": "A lot of population numbers are fake",
           "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46809420",
+          "author": "bishabosha",
+          "description": "Article URL: https://www.scala-lang.org/blog/2026/01/27/sta-invests-in-scala.html\nComments URL: https://news.ycombinator.com/item?id=46809420\nPoints: 50\n# Comments: 35",
+          "link": "https://www.scala-lang.org/blog/2026/01/27/sta-invests-in-scala.html",
+          "publishedOn": "2026-01-29T12:42:58.000Z",
+          "wordCount": 898,
+          "title": "The Sovereign Tech Fund Invests in Scala",
+          "imageUrl": "https://www.scala-lang.org/resources/img/scala-spiral-3d-2-toned-down.png"
         },
         {
           "id": "https://news.ycombinator.com/item?id=46809069",
@@ -764,6 +814,16 @@
           "wordCount": 2993,
           "title": "Show HN: We Built the 1. EU-Sovereignty Audit for Websites",
           "imageUrl": "https://lightwaves.io/images/news/ship-europe-first/eu-privacy-shield.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46779922",
+          "author": "tullie",
+          "description": "Hi HN,\nI’m Tullie, founder of Shaped. Previously, I was a researcher at Meta AI, worked on ranking for Instagram Reels, and was a contributor to PyTorch Lightning.\nWe built ShapedQL because we noticed that while retrieval (finding 1,000 items) has been commoditized by vector DBs, ranking (finding the best 10 items) is still an infrastructure problem.\nTo build a decent for you feed or a RAG system with long-term memory, you usually have to put together a vector DB (Pinecone/Milvus), a feature store (Redis), an inference service, and thousands of lines of Python to handle business logic and reranking.\nWe built an engine that consolidates this into a single SQL dialect. It compiles declarative queries into high-performance, multi-stage ranking pipelines.\nHOW IT WORKS:\nInstead of just SELECT , ShapedQL operates in four stages native to recommendation systems:\nRETRIEVE: Fetch candidates via Hybrid Search (Keywords + Vectors) or Collaborative Filtering.\nFILTER: Apply hard constraints (e.g., \"inventory > 0\").\nSCORE: Rank results using real-time models (e.g., p(click) or p(relevance)).\nREORDER: Apply diversity logic so your Agent/User doesn’t see 10 nearly identical results.\nTHE SYNTAX: Here is what a RAG query looks like. This replaces about 500 lines of standard Python/LangChain code:\nSELECT item_id, description, price\nFROM\n  -- Retrieval: Hybrid search across multiple indexes\n\n  search_flights(\"$param.user_prompt\", \"$param.context\"),\n\n  search_hotels(\"$param.user_prompt\", \"$param.context\")\n\n  -- Filtering: Hard business constraints\n\n  price \n  -- Scoring: Real-time reranking (Personalization + Relevance)\n\n  0.5 * preference_score(user, item) +\n\n  0.3 * relevance_score(item, \"$param.user_prompt\")\n\nIf you don’t like SQL, you can also use our Python and Typescript SDKs. I’d love to know what you think of the syntax and the abstraction layer!\nComments URL: https://news.ycombinator.com/item?id=46779922\nPoints: 57\n# Comments: 20",
+          "link": "https://playground.shaped.ai/",
+          "publishedOn": "2026-01-27T13:54:09.000Z",
+          "wordCount": 49,
+          "title": "Show HN: ShapedQL – A SQL engine for multi-stage ranking and RAG",
+          "imageUrl": null
         },
         {
           "id": "https://news.ycombinator.com/item?id=46779809",
