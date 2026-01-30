@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-01-30T02:35:53.941Z</updated>
+    <updated>2026-01-30T04:45:15.079Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
@@ -983,6 +983,19 @@ Points: 57
 # Comments: 8]]></summary>
         <author>
             <name>pavel_lishin</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CISA’s acting head uploaded sensitive files into public version of ChatGPT]]></title>
+        <id>https://news.ycombinator.com/item?id=46786672</id>
+        <link href="https://www.politico.com/news/2026/01/27/cisa-madhu-gottumukkala-chatgpt-00749361"/>
+        <updated>2026-01-27T21:02:36.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.politico.com/news/2026/01/27/cisa-madhu-gottumukkala-chatgpt-00749361
+Comments URL: https://news.ycombinator.com/item?id=46786672
+Points: 79
+# Comments: 191]]></summary>
+        <author>
+            <name>rurp</name>
         </author>
     </entry>
     <entry>
@@ -3550,6 +3563,19 @@ Points: 55
 # Comments: 6]]></summary>
         <author>
             <name>elpocko</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Where to Sleep in LAX]]></title>
+        <id>https://news.ycombinator.com/item?id=46735023</id>
+        <link href="https://cadence.moe/blog/2025-12-30-where-to-sleep-in-lax"/>
+        <updated>2026-01-23T17:17:40.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://cadence.moe/blog/2025-12-30-where-to-sleep-in-lax
+Comments URL: https://news.ycombinator.com/item?id=46735023
+Points: 111
+# Comments: 75]]></summary>
+        <author>
+            <name>surprisetalk</name>
         </author>
     </entry>
     <entry>
@@ -18092,125 +18118,6 @@ Points: 80
 # Comments: 28]]></summary>
         <author>
             <name>spankibalt</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[2025 was a disaster for Windows 11]]></title>
-        <id>https://news.ycombinator.com/item?id=46445491</id>
-        <link href="https://www.windowscentral.com/microsoft/windows-11/2025-has-been-an-awful-year-for-windows-11-with-infuriating-bugs-and-constant-unwanted-features"/>
-        <updated>2025-12-31T16:20:08.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.windowscentral.com/microsoft/windows-11/2025-has-been-an-awful-year-for-windows-11-with-infuriating-bugs-and-constant-unwanted-features
-Comments URL: https://news.ycombinator.com/item?id=46445491
-Points: 133
-# Comments: 166]]></summary>
-        <author>
-            <name>speckx</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: Circuit Artist – Circuit simulator with propagation animation, rewind]]></title>
-        <id>https://news.ycombinator.com/item?id=46445412</id>
-        <link href="https://github.com/lets-all-be-stupid-forever/circuit-artist"/>
-        <updated>2025-12-31T16:12:20.000Z</updated>
-        <summary type="html"><![CDATA[Hello,
-Circuit Artist is a game about drawing digital circuits as pixel art — like MS Paint, but pixels are wires and little triangles are NANDs. Hit play and the simulation runs in real time. It's fully white-box: every wire's state is visible.
-I launched it last year with a unit-delay simulation that ran until convergence on each update. It worked, but I realized it had some fundamental problems:
-(i) It hid what was actually happening. Players couldn't tell the difference between a ripple carry adder and a look-ahead adder — everything just resolved instantly.
-(ii) Design bugs became "game bugs." When players had non-converging wires (like A = not(A)), the game couldn't explain why or where the error was.
-(iii) Layout didn't matter. A NAND on one side of the map would instantly propagate…]]></summary>
-        <author>
-            <name>rafinha</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[One Formula That Demystifies 3D Graphics]]></title>
-        <id>https://news.ycombinator.com/item?id=46445393</id>
-        <link href="https://www.youtube.com/watch?v=qjWkNZ0SXfo"/>
-        <updated>2025-12-31T16:10:52.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.youtube.com/watch?v=qjWkNZ0SXfo
-Comments URL: https://news.ycombinator.com/item?id=46445393
-Points: 51
-# Comments: 12]]></summary>
-        <author>
-            <name>msephton</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[2026: The Year of Java in the Terminal?]]></title>
-        <id>https://news.ycombinator.com/item?id=46445229</id>
-        <link href="https://xam.dk/blog/lets-make-2026-the-year-of-java-in-the-terminal/"/>
-        <updated>2025-12-31T15:55:14.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://xam.dk/blog/lets-make-2026-the-year-of-java-in-the-terminal/
-Comments URL: https://news.ycombinator.com/item?id=46445229
-Points: 59
-# Comments: 85]]></summary>
-        <author>
-            <name>based2</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Scaffolding to Superhuman: How Curriculum Learning Solved 2048 and Tetris]]></title>
-        <id>https://news.ycombinator.com/item?id=46445195</id>
-        <link href="https://kywch.github.io/blog/2025/12/curriculum-learning-2048-tetris/"/>
-        <updated>2025-12-31T15:52:51.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://kywch.github.io/blog/2025/12/curriculum-learning-2048-tetris/
-Comments URL: https://news.ycombinator.com/item?id=46445195
-Points: 71
-# Comments: 12]]></summary>
-        <author>
-            <name>a1k0n</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The compiler is your best friend]]></title>
-        <id>https://news.ycombinator.com/item?id=46445131</id>
-        <link href="https://blog.daniel-beskin.com/2025-12-22-the-compiler-is-your-best-friend-stop-lying-to-it"/>
-        <updated>2025-12-31T15:46:34.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://blog.daniel-beskin.com/2025-12-22-the-compiler-is-your-best-friend-stop-lying-to-it
-Comments URL: https://news.ycombinator.com/item?id=46445131
-Points: 58
-# Comments: 22]]></summary>
-        <author>
-            <name>based2</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Stardew Valley developer made a $125k donation to the FOSS C# framework MonoGame]]></title>
-        <id>https://news.ycombinator.com/item?id=46445068</id>
-        <link href="https://monogame.net/blog/2025-12-30-385-new-sponsor-announcement/"/>
-        <updated>2025-12-31T15:39:58.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://monogame.net/blog/2025-12-30-385-new-sponsor-announcement/
-Comments URL: https://news.ycombinator.com/item?id=46445068
-Points: 155
-# Comments: 56]]></summary>
-        <author>
-            <name>haunter</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[France targets Australia-style social media ban for children next year]]></title>
-        <id>https://news.ycombinator.com/item?id=46444743</id>
-        <link href="https://www.theguardian.com/world/2025/dec/31/france-plans-social-media-ban-for-under-15s-from-september-2026"/>
-        <updated>2025-12-31T15:06:52.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.theguardian.com/world/2025/dec/31/france-plans-social-media-ban-for-under-15s-from-september-2026
-Comments URL: https://news.ycombinator.com/item?id=46444743
-Points: 64
-# Comments: 74]]></summary>
-        <author>
-            <name>belter</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Drugmakers raise US prices on 350 medicines despite pressure]]></title>
-        <id>https://news.ycombinator.com/item?id=46444564</id>
-        <link href="https://www.reuters.com/business/healthcare-pharmaceuticals/drugmakers-raise-us-prices-350-medicines-despite-pressure-trump-2025-12-31/"/>
-        <updated>2025-12-31T14:51:28.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.reuters.com/business/healthcare-pharmaceuticals/drugmakers-raise-us-prices-350-medicines-despite-pressure-trump-2025-12-31/
-Comments URL: https://news.ycombinator.com/item?id=46444564
-Points: 57
-# Comments: 44]]></summary>
-        <author>
-            <name>JumpCrisscross</name>
         </author>
     </entry>
 </feed>

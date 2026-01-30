@@ -736,6 +736,16 @@
           "imageUrl": "https://primary-cdn.web3isgoinggreat.com/monkey-og.png"
         },
         {
+          "id": "https://news.ycombinator.com/item?id=46786672",
+          "author": "rurp",
+          "description": "Article URL: https://www.politico.com/news/2026/01/27/cisa-madhu-gottumukkala-chatgpt-00749361\nComments URL: https://news.ycombinator.com/item?id=46786672\nPoints: 79\n# Comments: 191",
+          "link": "https://www.politico.com/news/2026/01/27/cisa-madhu-gottumukkala-chatgpt-00749361",
+          "publishedOn": "2026-01-27T21:02:36.000Z",
+          "wordCount": null,
+          "title": "CISA’s acting head uploaded sensitive files into public version of ChatGPT",
+          "imageUrl": null
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=46786618",
           "author": "alecf",
           "description": "I grew up on the Infocom games and when microsoft actually open-sourced Zork 1/2/3 I really wanted to figure out how to use LLMs to let you type whatever you want, I always found the amount language that the games \"understood\" to be so limiting - even if it was pretty state of the art at the time.\nSo I figured out how to wrap it with Tambo.. (and run the game engine in the browser) basically whatever you type gets \"translated\" into zork-speak and passed to the game - and then the LLM takes the game's output and optionally adds flavor. (the little \">_\" button at the top exposes the actual game input)\nWhat was a big surprise to me is multi-turn instructions - you can ask it to \"Explore all the rooms in the house until you can't find any more\" and it will plug away at the game for 10+ \"turns\" at a time... like Claude Code for Zork or something\nComments URL: https://news.ycombinator.com/item?id=46786618\nPoints: 70\n# Comments: 44",
@@ -2674,6 +2684,16 @@
           "wordCount": 8346,
           "title": "Notes on the Intel 8086 processor's arithmetic-logic unit",
           "imageUrl": "https://lh3.googleusercontent.com/blogger_img_proxy/AEn0k_sLSiP0keJ838MrDYWjCpIkFBEFUt3gtu51FMFHfs9drXdR6yxTsUquC5MoTDjUsu9nU04bxyK9YIgaTB5bgdvGViNeaY-XDcCBqF9IEMnIum0RpzhgpKnjIdRAwfR-C978cneeW_8=w1200-h630-p-k-no-nu"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46735023",
+          "author": "surprisetalk",
+          "description": "Article URL: https://cadence.moe/blog/2025-12-30-where-to-sleep-in-lax\nComments URL: https://news.ycombinator.com/item?id=46735023\nPoints: 111\n# Comments: 75",
+          "link": "https://cadence.moe/blog/2025-12-30-where-to-sleep-in-lax",
+          "publishedOn": "2026-01-23T17:17:40.000Z",
+          "wordCount": 2309,
+          "title": "Where to Sleep in LAX",
+          "imageUrl": null
         },
         {
           "id": "https://news.ycombinator.com/item?id=46734641",
@@ -13484,96 +13504,6 @@
           "wordCount": 2083,
           "title": "Stewart Cheifet, creator of The Computer Chronicles, has died",
           "imageUrl": "https://cdn.tukioswebsites.com/social/facebook/fb_3/4a930d13-799b-4273-b37d-41a4cb288132/0839acc61ba6f3166e00aaff01eff0ec_63ada4c0dffda546c9dd7467deca243e"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46445491",
-          "author": "speckx",
-          "description": "Article URL: https://www.windowscentral.com/microsoft/windows-11/2025-has-been-an-awful-year-for-windows-11-with-infuriating-bugs-and-constant-unwanted-features\nComments URL: https://news.ycombinator.com/item?id=46445491\nPoints: 133\n# Comments: 166",
-          "link": "https://www.windowscentral.com/microsoft/windows-11/2025-has-been-an-awful-year-for-windows-11-with-infuriating-bugs-and-constant-unwanted-features",
-          "publishedOn": "2025-12-31T16:20:08.000Z",
-          "wordCount": 34874,
-          "title": "2025 was a disaster for Windows 11",
-          "imageUrl": "https://cdn.mos.cms.futurecdn.net/oufEx2VJJSiJJpD745PddN-2560-80.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46445412",
-          "author": "rafinha",
-          "description": "Hello,\nCircuit Artist is a game about drawing digital circuits as pixel art — like MS Paint, but pixels are wires and little triangles are NANDs. Hit play and the simulation runs in real time. It's fully white-box: every wire's state is visible.\nI launched it last year with a unit-delay simulation that ran until convergence on each update. It worked, but I realized it had some fundamental problems:\n(i) It hid what was actually happening. Players couldn't tell the difference between a ripple carry adder and a look-ahead adder — everything just resolved instantly.\n(ii) Design bugs became \"game bugs.\" When players had non-converging wires (like A = not(A)), the game couldn't explain why or where the error was.\n(iii) Layout didn't matter. A NAND on one side of the map would instantly propagate…",
-          "link": "https://github.com/lets-all-be-stupid-forever/circuit-artist",
-          "publishedOn": "2025-12-31T16:12:20.000Z",
-          "wordCount": 2178,
-          "title": "Show HN: Circuit Artist – Circuit simulator with propagation animation, rewind",
-          "imageUrl": "https://opengraph.githubassets.com/165f395016b0d4e7c674eab0be7f0f39ebdb06e79d233b068ca69e9dce4ebc54/lets-all-be-stupid-forever/circuit-artist"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46445393",
-          "author": "msephton",
-          "description": "Article URL: https://www.youtube.com/watch?v=qjWkNZ0SXfo\nComments URL: https://news.ycombinator.com/item?id=46445393\nPoints: 51\n# Comments: 12",
-          "link": "https://www.youtube.com/watch?v=qjWkNZ0SXfo",
-          "publishedOn": "2025-12-31T16:10:52.000Z",
-          "wordCount": null,
-          "title": "One Formula That Demystifies 3D Graphics",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46445229",
-          "author": "based2",
-          "description": "Article URL: https://xam.dk/blog/lets-make-2026-the-year-of-java-in-the-terminal/\nComments URL: https://news.ycombinator.com/item?id=46445229\nPoints: 59\n# Comments: 85",
-          "link": "https://xam.dk/blog/lets-make-2026-the-year-of-java-in-the-terminal/",
-          "publishedOn": "2025-12-31T15:55:14.000Z",
-          "wordCount": null,
-          "title": "2026: The Year of Java in the Terminal?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46445195",
-          "author": "a1k0n",
-          "description": "Article URL: https://kywch.github.io/blog/2025/12/curriculum-learning-2048-tetris/\nComments URL: https://news.ycombinator.com/item?id=46445195\nPoints: 71\n# Comments: 12",
-          "link": "https://kywch.github.io/blog/2025/12/curriculum-learning-2048-tetris/",
-          "publishedOn": "2025-12-31T15:52:51.000Z",
-          "wordCount": 1426,
-          "title": "Scaffolding to Superhuman: How Curriculum Learning Solved 2048 and Tetris",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46445131",
-          "author": "based2",
-          "description": "Article URL: https://blog.daniel-beskin.com/2025-12-22-the-compiler-is-your-best-friend-stop-lying-to-it\nComments URL: https://news.ycombinator.com/item?id=46445131\nPoints: 58\n# Comments: 22",
-          "link": "https://blog.daniel-beskin.com/2025-12-22-the-compiler-is-your-best-friend-stop-lying-to-it",
-          "publishedOn": "2025-12-31T15:46:34.000Z",
-          "wordCount": 10775,
-          "title": "The compiler is your best friend",
-          "imageUrl": "https://blog.daniel-beskin.com/social-cards/2025-12-22-the-compiler-is-your-best-friend-stop-lying-to-it.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46445068",
-          "author": "haunter",
-          "description": "Article URL: https://monogame.net/blog/2025-12-30-385-new-sponsor-announcement/\nComments URL: https://news.ycombinator.com/item?id=46445068\nPoints: 155\n# Comments: 56",
-          "link": "https://monogame.net/blog/2025-12-30-385-new-sponsor-announcement/",
-          "publishedOn": "2025-12-31T15:39:58.000Z",
-          "wordCount": 146,
-          "title": "Stardew Valley developer made a $125k donation to the FOSS C# framework MonoGame",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46444743",
-          "author": "belter",
-          "description": "Article URL: https://www.theguardian.com/world/2025/dec/31/france-plans-social-media-ban-for-under-15s-from-september-2026\nComments URL: https://news.ycombinator.com/item?id=46444743\nPoints: 64\n# Comments: 74",
-          "link": "https://www.theguardian.com/world/2025/dec/31/france-plans-social-media-ban-for-under-15s-from-september-2026",
-          "publishedOn": "2025-12-31T15:06:52.000Z",
-          "wordCount": 4447,
-          "title": "France targets Australia-style social media ban for children next year",
-          "imageUrl": "https://i.guim.co.uk/img/media/dc59826af60da0130b8976aa385e9791a5a76cfa/579_0_5488_4393/master/5488.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=74deb30bab077ed4d043e3a124d1242f"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46444564",
-          "author": "JumpCrisscross",
-          "description": "Article URL: https://www.reuters.com/business/healthcare-pharmaceuticals/drugmakers-raise-us-prices-350-medicines-despite-pressure-trump-2025-12-31/\nComments URL: https://news.ycombinator.com/item?id=46444564\nPoints: 57\n# Comments: 44",
-          "link": "https://www.reuters.com/business/healthcare-pharmaceuticals/drugmakers-raise-us-prices-350-medicines-despite-pressure-trump-2025-12-31/",
-          "publishedOn": "2025-12-31T14:51:28.000Z",
-          "wordCount": null,
-          "title": "Drugmakers raise US prices on 350 medicines despite pressure",
-          "imageUrl": null
         }
       ]
     }
