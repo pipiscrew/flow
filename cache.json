@@ -6,6 +6,16 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=46822632",
+          "author": "breve",
+          "description": "Article URL: https://electrek.co/2026/01/29/teslas-own-robotaxi-data-confirms-crash-rate-3x-worse-than-humans-even-with-monitor/\nComments URL: https://news.ycombinator.com/item?id=46822632\nPoints: 137\n# Comments: 51",
+          "link": "https://electrek.co/2026/01/29/teslas-own-robotaxi-data-confirms-crash-rate-3x-worse-than-humans-even-with-monitor/",
+          "publishedOn": "2026-01-30T10:14:31.000Z",
+          "wordCount": 3452,
+          "title": "Tesla's Robotaxi data confirms crash rate 3x worse than humans even with monitor",
+          "imageUrl": null
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=46821774",
           "author": "franczesko",
           "description": "Article URL: https://www.xda-developers.com/gog-calls-linux-the-next-major-frontier-for-gaming-as-it-works-on-a-native-client/\nComments URL: https://news.ycombinator.com/item?id=46821774\nPoints: 75\n# Comments: 28",
@@ -13464,46 +13474,6 @@
           "wordCount": 14350,
           "title": "The great shift of English prose",
           "imageUrl": "https://substackcdn.com/image/fetch/$s_!A5Nq!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fbfbf9565-a017-40a4-b579-f99463999648_2640x1760.jpeg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46449852",
-          "author": "_mig5",
-          "description": "Happy new year folks!\nThis tool was born out of a situation where I had 'inherited' a bunch of servers that were not under any form of config management. Oh, the horror...\nEnroll 'harvests' system information such as what packages are installed, what services are running, what files have 'differed' from their out-of-the-box defaults, and what other custom snowflake data might exist.\nThe harvest state data can be kept as its own sort of SBOM, but also can be converted in a mere second or two into fully-functional Ansible roles/playbooks/inventory.\nIt can be run remotely over SSH or locally on the machine. Debian and Redhat-like systems are supported.\nThere is also a 'diff' mode to detect drift over time. (Years ago I used Puppet instead of Ansible and miss the agent/server model where it would check in and re-align to the expected state, in case people were being silly and side-stepping the config management altogether). For now, diff mode doesn't 'enforce' but is just capable of notification (webhook, email, stdout) if changes occur.\nSince making the tool, I've found that it's even useful for systems where you already have in Ansible, in that it can detect stuff you forgot to put into Ansible in the first place. I'm now starting to use it as a 'DR strategy' of sorts: still favoring my normal Ansible roles day-to-day (they are more bespoke and easier to read), but running enroll with '--dangerous --sops' in the background periodically as a 'dragnet' catch-all, just in case I ever need it.\nBonus: it also can use my other tool JinjaTurtle, which converts native config files into Jinja2 templates / Ansible vars. That one too was born out of frustration, converting a massive TOML file into Ansible :)\nAnyway, hope it's useful to someone other than me! The website has some demos and more documentation. Have fun every(any)-one.\nComments URL: https://news.ycombinator.com/item?id=46449852\nPoints: 87\n# Comments: 20",
-          "link": "https://enroll.sh/",
-          "publishedOn": "2026-01-01T00:23:54.000Z",
-          "wordCount": 627,
-          "title": "Show HN: Enroll, a tool to reverse-engineer servers into Ansible config mgmt",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46449812",
-          "author": "jbaptiste",
-          "description": "Article URL: https://bustermq.sh/\nComments URL: https://news.ycombinator.com/item?id=46449812\nPoints: 51\n# Comments: 6",
-          "link": "https://bustermq.sh/",
-          "publishedOn": "2026-01-01T00:18:43.000Z",
-          "wordCount": 675,
-          "title": "Show HN: BusterMQ, Thread-per-core NATS server in Zig with io_uring",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46449694",
-          "author": "weaksauce",
-          "description": "Article URL: https://privacy.ca.gov/drop/about-drop-and-the-delete-act/\nComments URL: https://news.ycombinator.com/item?id=46449694\nPoints: 98\n# Comments: 51",
-          "link": "https://privacy.ca.gov/drop/about-drop-and-the-delete-act/",
-          "publishedOn": "2026-01-01T00:02:14.000Z",
-          "wordCount": 6881,
-          "title": "The Delete Act",
-          "imageUrl": "https://privacy.ca.gov/wp-content/uploads/sites/357/2025/10/Meta-Privacy.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46449643",
-          "author": "simonw",
-          "description": "Article URL: https://simonwillison.net/2025/Dec/31/the-year-in-llms/\nComments URL: https://news.ycombinator.com/item?id=46449643\nPoints: 92\n# Comments: 38",
-          "link": "https://simonwillison.net/2025/Dec/31/the-year-in-llms/",
-          "publishedOn": "2025-12-31T23:54:46.000Z",
-          "wordCount": 8241,
-          "title": "2025: The Year in LLMs",
-          "imageUrl": "https://static.simonwillison.net/static/2025/metr-long-task-2025.jpg"
         }
       ]
     }

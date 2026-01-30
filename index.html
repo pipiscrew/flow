@@ -22,8 +22,8 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2026-01-30 datetime="2026-01-30T08:09:41.000Z">2026-01-30</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2026-01-30 datetime="2026-01-30T08:09:41.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2026-01-30 datetime="2026-01-30T10:14:31.000Z">2026-01-30</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2026-01-30 datetime="2026-01-30T10:14:31.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
@@ -38,6 +38,28 @@
                   <a class="source-heading__link" href="https://news.ycombinator.com/">Open</a>
                 </h3>
                 <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;46822632"
+                        open
+                      >
+                        <summary class="article-expander__title">Tesla&#x27;s Robotaxi data confirms crash rate 3x worse than humans even with monitor</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://electrek.co/2026/01/29/teslas-own-robotaxi-data-confirms-crash-rate-3x-worse-than-humans-even-with-monitor/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Article URL: https://electrek.co/2026/01/29/teslas-own-robotaxi-data-confirms-crash-rate-3x-worse-than-humans-even-with-monitor/
+Comments URL: https://news.ycombinator.com/item?id&#x3D;46822632
+Points: 137
+# Comments: 51</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;12
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
                     <article>
                       <details
                         class="article-expander"
@@ -31370,132 +31392,6 @@ Points: 51
                         </a>
                       </details>
                     </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;46449852"
-                        open
-                      >
-                        <summary class="article-expander__title">Show HN: Enroll, a tool to reverse-engineer servers into Ansible config mgmt</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://enroll.sh/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Happy new year folks!
-This tool was born out of a situation where I had &#x27;inherited&#x27; a bunch of servers that were not under any form of config management. Oh, the horror...
-Enroll &#x27;harvests&#x27; system information such as what packages are installed, what services are running, what files have &#x27;differed&#x27; from their out-of-the-box defaults, and what other custom snowflake data might exist.
-The harvest state data can be kept as its own sort of SBOM, but also can be converted in a mere second or two into fully-functional Ansible roles/playbooks/inventory.
-It can be run remotely over SSH or locally on the machine. Debian and Redhat-like systems are supported.
-There is also a &#x27;diff&#x27; mode to detect drift over time. (Years ago I used Puppet instead of Ansible and miss the agent/server model where it would check in and re-align to the expected state, in case people were being silly and side-stepping the config management altogether). For now, diff mode doesn&#x27;t &#x27;enforce&#x27; but is just capable of notification (webhook, email, stdout) if changes occur.
-Since making the tool, I&#x27;ve found that it&#x27;s even useful for systems where you already have in Ansible, in that it can detect stuff you forgot to put into Ansible in the first place. I&#x27;m now starting to use it as a &#x27;DR strategy&#x27; of sorts: still favoring my normal Ansible roles day-to-day (they are more bespoke and easier to read), but running enroll with &#x27;--dangerous --sops&#x27; in the background periodically as a &#x27;dragnet&#x27; catch-all, just in case I ever need it.
-Bonus: it also can use my other tool JinjaTurtle, which converts native config files into Jinja2 templates / Ansible vars. That one too was born out of frustration, converting a massive TOML file into Ansible :)
-Anyway, hope it&#x27;s useful to someone other than me! The website has some demos and more documentation. Have fun every(any)-one.
-Comments URL: https://news.ycombinator.com/item?id&#x3D;46449852
-Points: 87
-# Comments: 20</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;46449812"
-                        open
-                      >
-                        <summary class="article-expander__title">Show HN: BusterMQ, Thread-per-core NATS server in Zig with io_uring</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://bustermq.sh/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Article URL: https://bustermq.sh/
-Comments URL: https://news.ycombinator.com/item?id&#x3D;46449812
-Points: 51
-# Comments: 6</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;46449694"
-                        open
-                      >
-                        <summary class="article-expander__title">The Delete Act</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://privacy.ca.gov/drop/about-drop-and-the-delete-act/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://privacy.ca.gov/wp-content/uploads/sites/357/2025/10/Meta-Privacy.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Article URL: https://privacy.ca.gov/drop/about-drop-and-the-delete-act/
-Comments URL: https://news.ycombinator.com/item?id&#x3D;46449694
-Points: 98
-# Comments: 51</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;23
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2025-12-31 datetime="2025-12-31T23:54:46.000Z">2025-12-31</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2025-12-31 datetime="2025-12-31T23:54:46.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Hacker News: Front Page</button>
-                  <a class="source-heading__link" href="https://news.ycombinator.com/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;46449643"
-                        open
-                      >
-                        <summary class="article-expander__title">2025: The Year in LLMs</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://simonwillison.net/2025/Dec/31/the-year-in-llms/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://static.simonwillison.net/static/2025/metr-long-task-2025.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Article URL: https://simonwillison.net/2025/Dec/31/the-year-in-llms/
-Comments URL: https://news.ycombinator.com/item?id&#x3D;46449643
-Points: 92
-# Comments: 38</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;27
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
                 </section>
               </section>
             </li>
@@ -31503,8 +31399,8 @@ Points: 92
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/pipiscrew/flow/actions/runs/21514417780">
-        <time id="build-timestamp" datetime="2026-01-30T11:34:33.810Z">2026-01-30T11:34:33.810Z</time>
+      <a class="footer-link" href="https://github.com/pipiscrew/flow/actions/runs/21516935951">
+        <time id="build-timestamp" datetime="2026-01-30T13:10:09.094Z">2026-01-30T13:10:09.094Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
