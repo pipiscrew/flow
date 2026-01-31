@@ -6,6 +6,26 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=46832074",
+          "author": "simedw",
+          "description": "Built this because tones are killing my spoken Mandarin and I can't reliably hear my own mistakes.\nIt's a 9M Conformer-CTC model trained on ~300h (AISHELL + Primewords), quantized to INT8 (11 MB), runs 100% in-browser via ONNX Runtime Web.\nGrades per-syllable pronunciation + tones with Viterbi forced alignment.\nTry it here: https://simedw.com/projects/ear/\nComments URL: https://news.ycombinator.com/item?id=46832074\nPoints: 66\n# Comments: 13",
+          "link": "https://simedw.com/2026/01/31/ear-pronunication-via-ctc/",
+          "publishedOn": "2026-01-31T00:51:27.000Z",
+          "wordCount": 1324,
+          "title": "Show HN: I trained a 9M speech model to fix my Mandarin tones",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46831702",
+          "author": "pixelesque",
+          "description": "Article URL: https://www.wsj.com/tech/ai/the-100-billion-megadeal-between-openai-and-nvidia-is-on-ice-aa3025e3\nComments URL: https://news.ycombinator.com/item?id=46831702\nPoints: 142\n# Comments: 42",
+          "link": "https://www.wsj.com/tech/ai/the-100-billion-megadeal-between-openai-and-nvidia-is-on-ice-aa3025e3",
+          "publishedOn": "2026-01-31T00:02:30.000Z",
+          "wordCount": null,
+          "title": "The $100B megadeal between OpenAI and Nvidia is on ice",
+          "imageUrl": null
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=46830667",
           "author": "brandonb",
           "description": "Article URL: https://www.empirical.health/blog/vitamin-d-heart/\nComments URL: https://news.ycombinator.com/item?id=46830667\nPoints: 50\n# Comments: 22",
@@ -94,6 +114,16 @@
           "wordCount": 385,
           "title": "Kimi K2.5 Technical Report [pdf]",
           "imageUrl": "https://opengraph.githubassets.com/3cab6bde62f533de2e1adf286f58eeaec0d4ca42d83ccca0d499a0de120d37cc/MoonshotAI/Kimi-K2.5"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46826277",
+          "author": "item007",
+          "description": "Hi HN — I’m exploring an idea and would love your feedback.\nI’m a builder and user of Obsidian, validating a concept called Concerns. Today it’s only a landing page + short survey (no product yet) to test whether this pain is real.\nThe core idea (2–3 bullets):\n- Many of us capture tons of useful info (notes/links/docs), but it rarely becomes shipped work.\n- Instead of better “organization” (tags/folders), I’m exploring an “action engine” that:\n  1.detects what you’re actively targetting/working on (“active projects”)\n\n  2.surfaces relevant saved material at the right moment\n\n  3.proposes a concrete next action (ideally pushed into your existing task tool)\n\nBefore writing code, I’m trying to pin down two things:\n- Project context signals (repo/PRs? issues? tasks? calendar? a “project doc”?)\n- How to close the loop: ingest knowledge → rank against active projects → emit a small set of next-actions into an existing todo tool → learn from outcomes (done/ignored/edited) and optionally write back the minimal state. The open question: what’s the cleanest feedback signal without creating noise or privacy risk? (explicit ratings vs completion events vs doc-based write-back)\nWhat I’m asking from you:\n1.Where does your “second brain” break down the most?\ncapture / organization / retrieval / execution\n(If you can, share a concrete recent example.)\n2.What best represents “active project context” for you today?\n  task project (Todoist/Things/Reminders)\n\n  issues/boards (GitHub/Linear/Jira)\n\n  a doc/wiki page (Notion/Docs)\n\n  calendar\n\n  \"in my head\"\n\n3.What’s your hard “no” for an AI that suggests actions from your notes/links? (pick 1–2)\n  privacy/data retention\n\n  noisy suggestions / interruption\n\n  hallucinations / wrong suggestions\n\n  workflow change / migration cost\n\n  pricing\n\n  others\n\n\nComments URL: https://news.ycombinator.com/item?id=46826277\nPoints: 111\n# Comments: 45",
+          "link": "https://news.ycombinator.com/item?id=46826277",
+          "publishedOn": "2026-01-30T16:22:05.000Z",
+          "wordCount": 5340,
+          "title": "Ask HN: Do you also \"hoard\" notes/links but struggle to turn them into actions?",
+          "imageUrl": null
         },
         {
           "id": "https://news.ycombinator.com/item?id=46825828",
@@ -203,6 +233,16 @@
           "publishedOn": "2026-01-30T10:14:31.000Z",
           "wordCount": 3452,
           "title": "Tesla's Robotaxi data confirms crash rate 3x worse than humans even with monitor",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46822630",
+          "author": "Wilsoniumite",
+          "description": "Article URL: https://wilsoniumite.com/2026/01/27/surely-it-has-to-be-soon/\nComments URL: https://news.ycombinator.com/item?id=46822630\nPoints: 165\n# Comments: 268",
+          "link": "https://wilsoniumite.com/2026/01/27/surely-it-has-to-be-soon/",
+          "publishedOn": "2026-01-30T10:14:23.000Z",
+          "wordCount": 1251,
+          "title": "Surely the crash of the US economy has to be soon",
           "imageUrl": null
         },
         {
@@ -334,6 +374,16 @@
           "wordCount": 6459,
           "title": "Backseat Software",
           "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46816644",
+          "author": "emschwartz",
+          "description": "Article URL: https://emschwartz.me/building-docs-like-a-product/\nComments URL: https://news.ycombinator.com/item?id=46816644\nPoints: 52\n# Comments: 5",
+          "link": "https://emschwartz.me/building-docs-like-a-product/",
+          "publishedOn": "2026-01-29T21:11:41.000Z",
+          "wordCount": 1963,
+          "title": "Building docs like a product",
+          "imageUrl": "https://bear-images.sfo2.cdn.digitaloceanspaces.com/emschwartz-1723634231.webp"
         },
         {
           "id": "https://news.ycombinator.com/item?id=46816539",
@@ -1274,6 +1324,16 @@
           "wordCount": null,
           "title": "The National Herbarium of Ireland digital collection of Irish plants",
           "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46782357",
+          "author": "surprisetalk",
+          "description": "Article URL: https://blog.emojipedia.org/emoji-design-convergence-review-2018-2026/\nComments URL: https://news.ycombinator.com/item?id=46782357\nPoints: 50\n# Comments: 34",
+          "link": "https://blog.emojipedia.org/emoji-design-convergence-review-2018-2026/",
+          "publishedOn": "2026-01-27T16:39:27.000Z",
+          "wordCount": 4174,
+          "title": "Emoji Design Convergence Review: 2018-2026",
+          "imageUrl": "https://blog.emojipedia.org/content/images/size/w1200/2026/01/Emojipedia-Design-Convergence-2026-Review-Header-Image-3.jpg"
         },
         {
           "id": "https://news.ycombinator.com/item?id=46782091",
@@ -13624,26 +13684,6 @@
           "wordCount": null,
           "title": "2025 Letter",
           "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46453950",
-          "author": "eklavya",
-          "description": "Article URL: https://developer.apple.com/support/alternative-browser-engines-jp/\nComments URL: https://news.ycombinator.com/item?id=46453950\nPoints: 123\n# Comments: 57",
-          "link": "https://developer.apple.com/support/alternative-browser-engines-jp/",
-          "publishedOn": "2026-01-01T13:30:45.000Z",
-          "wordCount": 3440,
-          "title": "iOS allows alternative browser engines in Japan",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46453582",
-          "author": "wtcactus",
-          "description": "Article URL: https://sherwood.news/tech/rather-than-fully-cracking-down-on-scam-ads-meta-worked-to-make-them-harder/\nComments URL: https://news.ycombinator.com/item?id=46453582\nPoints: 85\n# Comments: 15",
-          "link": "https://sherwood.news/tech/rather-than-fully-cracking-down-on-scam-ads-meta-worked-to-make-them-harder/",
-          "publishedOn": "2026-01-01T12:29:01.000Z",
-          "wordCount": 18349,
-          "title": "Meta made scam ads harder to find instead of removing them",
-          "imageUrl": "https://sherwoodnews.imgix.net/mwphzyq69oso/en-US/assets/files/2208520872_santa-monica-ca-mark-zuckerberg-and-priscilla-chan-attend-the-11-th-annual-breakthrough-prize.jpg?auto=compress%2Cformat&cs=srgb"
         }
       ]
     }

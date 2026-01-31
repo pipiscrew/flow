@@ -22,6 +22,79 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2026-01-31 datetime="2026-01-31T00:51:27.000Z">2026-01-31</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2026-01-31 datetime="2026-01-31T00:51:27.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Hacker News: Front Page</button>
+                  <a class="source-heading__link" href="https://news.ycombinator.com/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;46832074"
+                        open
+                      >
+                        <summary class="article-expander__title">Show HN: I trained a 9M speech model to fix my Mandarin tones</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://simedw.com/2026/01/31/ear-pronunication-via-ctc/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Built this because tones are killing my spoken Mandarin and I can&#x27;t reliably hear my own mistakes.
+It&#x27;s a 9M Conformer-CTC model trained on ~300h (AISHELL + Primewords), quantized to INT8 (11 MB), runs 100% in-browser via ONNX Runtime Web.
+Grades per-syllable pronunciation + tones with Viterbi forced alignment.
+Try it here: https://simedw.com/projects/ear/
+Comments URL: https://news.ycombinator.com/item?id&#x3D;46832074
+Points: 66
+# Comments: 13</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;4
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;46831702"
+                        open
+                      >
+                        <summary class="article-expander__title">The $100B megadeal between OpenAI and Nvidia is on ice</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.wsj.com/tech/ai/the-100-billion-megadeal-between-openai-and-nvidia-is-on-ice-aa3025e3">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Article URL: https://www.wsj.com/tech/ai/the-100-billion-megadeal-between-openai-and-nvidia-is-on-ice-aa3025e3
+Comments URL: https://news.ycombinator.com/item?id&#x3D;46831702
+Points: 142
+# Comments: 42</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
             <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2026-01-30 datetime="2026-01-30T22:13:05.000Z">2026-01-30</time>
             <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2026-01-30 datetime="2026-01-30T22:13:05.000Z"></time>
           </button>
@@ -238,6 +311,70 @@ Comments URL: https://news.ycombinator.com/item?id&#x3D;46826597
 Points: 86
 # Comments: 35</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;46826277"
+                        open
+                      >
+                        <summary class="article-expander__title">Ask HN: Do you also &quot;hoard&quot; notes/links but struggle to turn them into actions?</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://news.ycombinator.com/item?id&#x3D;46826277">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Hi HN — I’m exploring an idea and would love your feedback.
+I’m a builder and user of Obsidian, validating a concept called Concerns. Today it’s only a landing page + short survey (no product yet) to test whether this pain is real.
+The core idea (2–3 bullets):
+- Many of us capture tons of useful info (notes/links/docs), but it rarely becomes shipped work.
+- Instead of better “organization” (tags/folders), I’m exploring an “action engine” that:
+  1.detects what you’re actively targetting/working on (“active projects”)
+
+  2.surfaces relevant saved material at the right moment
+
+  3.proposes a concrete next action (ideally pushed into your existing task tool)
+
+Before writing code, I’m trying to pin down two things:
+- Project context signals (repo/PRs? issues? tasks? calendar? a “project doc”?)
+- How to close the loop: ingest knowledge → rank against active projects → emit a small set of next-actions into an existing todo tool → learn from outcomes (done/ignored/edited) and optionally write back the minimal state. The open question: what’s the cleanest feedback signal without creating noise or privacy risk? (explicit ratings vs completion events vs doc-based write-back)
+What I’m asking from you:
+1.Where does your “second brain” break down the most?
+capture / organization / retrieval / execution
+(If you can, share a concrete recent example.)
+2.What best represents “active project context” for you today?
+  task project (Todoist/Things/Reminders)
+
+  issues/boards (GitHub/Linear/Jira)
+
+  a doc/wiki page (Notion/Docs)
+
+  calendar
+
+  &quot;in my head&quot;
+
+3.What’s your hard “no” for an AI that suggests actions from your notes/links? (pick 1–2)
+  privacy/data retention
+
+  noisy suggestions / interruption
+
+  hallucinations / wrong suggestions
+
+  workflow change / migration cost
+
+  pricing
+
+  others
+
+
+Comments URL: https://news.ycombinator.com/item?id&#x3D;46826277
+Points: 111
+# Comments: 45</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;18
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -490,6 +627,28 @@ Comments URL: https://news.ycombinator.com/item?id&#x3D;46822632
 Points: 137
 # Comments: 51</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;12
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;46822630"
+                        open
+                      >
+                        <summary class="article-expander__title">Surely the crash of the US economy has to be soon</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://wilsoniumite.com/2026/01/27/surely-it-has-to-be-soon/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Article URL: https://wilsoniumite.com/2026/01/27/surely-it-has-to-be-soon/
+Comments URL: https://news.ycombinator.com/item?id&#x3D;46822630
+Points: 165
+# Comments: 268</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;4
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -812,6 +971,29 @@ Comments URL: https://news.ycombinator.com/item?id&#x3D;46817452
 Points: 56
 # Comments: 2</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;22
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;46816644"
+                        open
+                      >
+                        <summary class="article-expander__title">Building docs like a product</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://emschwartz.me/building-docs-like-a-product/">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://bear-images.sfo2.cdn.digitaloceanspaces.com/emschwartz-1723634231.webp" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Article URL: https://emschwartz.me/building-docs-like-a-product/
+Comments URL: https://news.ycombinator.com/item?id&#x3D;46816644
+Points: 52
+# Comments: 5</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;7
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -3010,6 +3192,29 @@ Points: 57
 Comments URL: https://news.ycombinator.com/item?id&#x3D;46782412
 Points: 66
 # Comments: 6</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;46782357"
+                        open
+                      >
+                        <summary class="article-expander__title">Emoji Design Convergence Review: 2018-2026</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://blog.emojipedia.org/emoji-design-convergence-review-2018-2026/">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://blog.emojipedia.org/content/images/size/w1200/2026/01/Emojipedia-Design-Convergence-2026-Review-Header-Image-3.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Article URL: https://blog.emojipedia.org/emoji-design-convergence-review-2018-2026/
+Comments URL: https://news.ycombinator.com/item?id&#x3D;46782357
+Points: 50
+# Comments: 34</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;14
+                                  min&hairsp;)</span>
                             </span>
                           </div>
                         </a>
@@ -31742,51 +31947,6 @@ Points: 69
                         </a>
                       </details>
                     </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;46453950"
-                        open
-                      >
-                        <summary class="article-expander__title">iOS allows alternative browser engines in Japan</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://developer.apple.com/support/alternative-browser-engines-jp/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Article URL: https://developer.apple.com/support/alternative-browser-engines-jp/
-Comments URL: https://news.ycombinator.com/item?id&#x3D;46453950
-Points: 123
-# Comments: 57</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;11
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;46453582"
-                        open
-                      >
-                        <summary class="article-expander__title">Meta made scam ads harder to find instead of removing them</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://sherwood.news/tech/rather-than-fully-cracking-down-on-scam-ads-meta-worked-to-make-them-harder/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://sherwoodnews.imgix.net/mwphzyq69oso/en-US/assets/files/2208520872_santa-monica-ca-mark-zuckerberg-and-priscilla-chan-attend-the-11-th-annual-breakthrough-prize.jpg?auto&#x3D;compress%2Cformat&amp;cs&#x3D;srgb" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Article URL: https://sherwood.news/tech/rather-than-fully-cracking-down-on-scam-ads-meta-worked-to-make-them-harder/
-Comments URL: https://news.ycombinator.com/item?id&#x3D;46453582
-Points: 85
-# Comments: 15</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;61
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
                 </section>
               </section>
             </li>
@@ -31794,8 +31954,8 @@ Points: 85
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/pipiscrew/flow/actions/runs/21534332893">
-        <time id="build-timestamp" datetime="2026-01-30T23:32:12.493Z">2026-01-30T23:32:12.493Z</time>
+      <a class="footer-link" href="https://github.com/pipiscrew/flow/actions/runs/21537250475">
+        <time id="build-timestamp" datetime="2026-01-31T02:31:38.770Z">2026-01-31T02:31:38.770Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>

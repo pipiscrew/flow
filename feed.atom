@@ -2,10 +2,39 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-01-30T23:32:12.545Z</updated>
+    <updated>2026-01-31T02:31:38.830Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Show HN: I trained a 9M speech model to fix my Mandarin tones]]></title>
+        <id>https://news.ycombinator.com/item?id=46832074</id>
+        <link href="https://simedw.com/2026/01/31/ear-pronunication-via-ctc/"/>
+        <updated>2026-01-31T00:51:27.000Z</updated>
+        <summary type="html"><![CDATA[Built this because tones are killing my spoken Mandarin and I can't reliably hear my own mistakes.
+It's a 9M Conformer-CTC model trained on ~300h (AISHELL + Primewords), quantized to INT8 (11 MB), runs 100% in-browser via ONNX Runtime Web.
+Grades per-syllable pronunciation + tones with Viterbi forced alignment.
+Try it here: https://simedw.com/projects/ear/
+Comments URL: https://news.ycombinator.com/item?id=46832074
+Points: 66
+# Comments: 13]]></summary>
+        <author>
+            <name>simedw</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The $100B megadeal between OpenAI and Nvidia is on ice]]></title>
+        <id>https://news.ycombinator.com/item?id=46831702</id>
+        <link href="https://www.wsj.com/tech/ai/the-100-billion-megadeal-between-openai-and-nvidia-is-on-ice-aa3025e3"/>
+        <updated>2026-01-31T00:02:30.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.wsj.com/tech/ai/the-100-billion-megadeal-between-openai-and-nvidia-is-on-ice-aa3025e3
+Comments URL: https://news.ycombinator.com/item?id=46831702
+Points: 142
+# Comments: 42]]></summary>
+        <author>
+            <name>pixelesque</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Vitamin D supplements cut heart attack risk by 52%. Why?]]></title>
         <id>https://news.ycombinator.com/item?id=46830667</id>
@@ -121,6 +150,61 @@ Points: 86
 # Comments: 35]]></summary>
         <author>
             <name>vinhnx</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Ask HN: Do you also "hoard" notes/links but struggle to turn them into actions?]]></title>
+        <id>https://news.ycombinator.com/item?id=46826277</id>
+        <link href="https://news.ycombinator.com/item?id=46826277"/>
+        <updated>2026-01-30T16:22:05.000Z</updated>
+        <summary type="html"><![CDATA[Hi HN — I’m exploring an idea and would love your feedback.
+I’m a builder and user of Obsidian, validating a concept called Concerns. Today it’s only a landing page + short survey (no product yet) to test whether this pain is real.
+The core idea (2–3 bullets):
+- Many of us capture tons of useful info (notes/links/docs), but it rarely becomes shipped work.
+- Instead of better “organization” (tags/folders), I’m exploring an “action engine” that:
+  1.detects what you’re actively targetting/working on (“active projects”)
+
+  2.surfaces relevant saved material at the right moment
+
+  3.proposes a concrete next action (ideally pushed into your existing task tool)
+
+Before writing code, I’m trying to pin down two things:
+- Project context signals (repo/PRs? issues? tasks? calendar? a “project doc”?)
+- How to close the loop: ingest knowledge → rank against active projects → emit a small set of next-actions into an existing todo tool → learn from outcomes (done/ignored/edited) and optionally write back the minimal state. The open question: what’s the cleanest feedback signal without creating noise or privacy risk? (explicit ratings vs completion events vs doc-based write-back)
+What I’m asking from you:
+1.Where does your “second brain” break down the most?
+capture / organization / retrieval / execution
+(If you can, share a concrete recent example.)
+2.What best represents “active project context” for you today?
+  task project (Todoist/Things/Reminders)
+
+  issues/boards (GitHub/Linear/Jira)
+
+  a doc/wiki page (Notion/Docs)
+
+  calendar
+
+  "in my head"
+
+3.What’s your hard “no” for an AI that suggests actions from your notes/links? (pick 1–2)
+  privacy/data retention
+
+  noisy suggestions / interruption
+
+  hallucinations / wrong suggestions
+
+  workflow change / migration cost
+
+  pricing
+
+  others
+
+
+Comments URL: https://news.ycombinator.com/item?id=46826277
+Points: 111
+# Comments: 45]]></summary>
+        <author>
+            <name>item007</name>
         </author>
     </entry>
     <entry>
@@ -266,6 +350,19 @@ Points: 137
 # Comments: 51]]></summary>
         <author>
             <name>breve</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Surely the crash of the US economy has to be soon]]></title>
+        <id>https://news.ycombinator.com/item?id=46822630</id>
+        <link href="https://wilsoniumite.com/2026/01/27/surely-it-has-to-be-soon/"/>
+        <updated>2026-01-30T10:14:23.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://wilsoniumite.com/2026/01/27/surely-it-has-to-be-soon/
+Comments URL: https://news.ycombinator.com/item?id=46822630
+Points: 165
+# Comments: 268]]></summary>
+        <author>
+            <name>Wilsoniumite</name>
         </author>
     </entry>
     <entry>
@@ -435,6 +532,19 @@ Points: 56
 # Comments: 2]]></summary>
         <author>
             <name>zdw</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Building docs like a product]]></title>
+        <id>https://news.ycombinator.com/item?id=46816644</id>
+        <link href="https://emschwartz.me/building-docs-like-a-product/"/>
+        <updated>2026-01-29T21:11:41.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://emschwartz.me/building-docs-like-a-product/
+Comments URL: https://news.ycombinator.com/item?id=46816644
+Points: 52
+# Comments: 5]]></summary>
+        <author>
+            <name>emschwartz</name>
         </author>
     </entry>
     <entry>
@@ -1696,6 +1806,19 @@ Points: 66
 # Comments: 6]]></summary>
         <author>
             <name>gnabgib</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Emoji Design Convergence Review: 2018-2026]]></title>
+        <id>https://news.ycombinator.com/item?id=46782357</id>
+        <link href="https://blog.emojipedia.org/emoji-design-convergence-review-2018-2026/"/>
+        <updated>2026-01-27T16:39:27.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://blog.emojipedia.org/emoji-design-convergence-review-2018-2026/
+Comments URL: https://news.ycombinator.com/item?id=46782357
+Points: 50
+# Comments: 34]]></summary>
+        <author>
+            <name>surprisetalk</name>
         </author>
     </entry>
     <entry>
@@ -18276,32 +18399,6 @@ Points: 69
 # Comments: 25]]></summary>
         <author>
             <name>Amorymeltzer</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[iOS allows alternative browser engines in Japan]]></title>
-        <id>https://news.ycombinator.com/item?id=46453950</id>
-        <link href="https://developer.apple.com/support/alternative-browser-engines-jp/"/>
-        <updated>2026-01-01T13:30:45.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://developer.apple.com/support/alternative-browser-engines-jp/
-Comments URL: https://news.ycombinator.com/item?id=46453950
-Points: 123
-# Comments: 57]]></summary>
-        <author>
-            <name>eklavya</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Meta made scam ads harder to find instead of removing them]]></title>
-        <id>https://news.ycombinator.com/item?id=46453582</id>
-        <link href="https://sherwood.news/tech/rather-than-fully-cracking-down-on-scam-ads-meta-worked-to-make-them-harder/"/>
-        <updated>2026-01-01T12:29:01.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://sherwood.news/tech/rather-than-fully-cracking-down-on-scam-ads-meta-worked-to-make-them-harder/
-Comments URL: https://news.ycombinator.com/item?id=46453582
-Points: 85
-# Comments: 15]]></summary>
-        <author>
-            <name>wtcactus</name>
         </author>
     </entry>
 </feed>
