@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-02-01T22:32:03.072Z</updated>
+    <updated>2026-02-01T23:31:56.876Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
@@ -30,6 +30,32 @@ Points: 93
 # Comments: 38]]></summary>
         <author>
             <name>zdw</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Defeating a 40-year-old copy protection dongle]]></title>
+        <id>https://news.ycombinator.com/item?id=46849567</id>
+        <link href="https://dmitrybrant.com/2026/02/01/defeating-a-40-year-old-copy-protection-dongle"/>
+        <updated>2026-02-01T21:30:51.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://dmitrybrant.com/2026/02/01/defeating-a-40-year-old-copy-protection-dongle
+Comments URL: https://news.ycombinator.com/item?id=46849567
+Points: 113
+# Comments: 15]]></summary>
+        <author>
+            <name>zdw</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[My thousand dollar iPhone can't do math]]></title>
+        <id>https://news.ycombinator.com/item?id=46849258</id>
+        <link href="https://journal.rafaelcosta.me/my-thousand-dollar-iphone-cant-do-math/"/>
+        <updated>2026-02-01T20:51:56.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://journal.rafaelcosta.me/my-thousand-dollar-iphone-cant-do-math/
+Comments URL: https://news.ycombinator.com/item?id=46849258
+Points: 54
+# Comments: 20]]></summary>
+        <author>
+            <name>rafaelcosta</name>
         </author>
     </entry>
     <entry>
@@ -1256,6 +1282,52 @@ Points: 105
 # Comments: 33]]></summary>
         <author>
             <name>ed</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: ÆTHRA – Writing Music as Code]]></title>
+        <id>https://news.ycombinator.com/item?id=46820691</id>
+        <link href="https://news.ycombinator.com/item?id=46820691"/>
+        <updated>2026-01-30T04:59:37.000Z</updated>
+        <summary type="html"><![CDATA[Hi HN
+I’m building ÆTHRA — a programming language designed specifically for composing music and emotional soundscapes.
+Instead of focusing on general-purpose programming, ÆTHRA is a pure DSL where code directly represents musical intent: tempo, mood, chords, progression, dynamics, and instruments.
+The goal is to make music composition feel closer to writing a story or emotion, rather than manipulating low-level audio APIs.
+Key ideas:
+- Text-based music composition
+- Chords and progressions as first-class concepts
+- Time, tempo, and structure handled by the language
+- Designed for ambient, cinematic, emotional, and minimal music
+- Interpreter written in C# (.NET)
+Example ÆTHRA code (simplified):
+tempo 60
+instrument guitar
+chord Am for 4
+chord F for 4
+chord C for 4
+chord G for 4
+This generates a slow, melancholic progression suitable for ambient or cinematic scenes.
+ÆTHRA currently:
+- Generates WAV audio
+- Supports notes, chords, tempo, duration, velocity
+- Uses a simple interpreter (no external DAWs or MIDI tools)
+- Is intentionally minimal and readable
+What it is NOT:
+- Not a DAW replacement
+- Not MIDI-focused
+Why I made it:
+I wanted a language where music is the primary output — not an afterthought. Something between code, emotion, and sound design.
+The project is open-source and early-stage (v0.8). I’m mainly looking for:
+- Feedback on the language design
+- Ideas for musical features worth adding
+- Thoughts from people into PL design, audio, or generative art
+Repo: https://github.com/TanmayCzax/AETHRA>
+Thanks for reading — happy to answer questions or discuss ideas.
+Comments URL: https://news.ycombinator.com/item?id=46820691
+Points: 51
+# Comments: 12]]></summary>
+        <author>
+            <name>CzaxTanmay</name>
         </author>
     </entry>
     <entry>
@@ -18324,58 +18396,6 @@ Points: 65
 # Comments: 15]]></summary>
         <author>
             <name>hleb_dev</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Recursive Language Models]]></title>
-        <id>https://news.ycombinator.com/item?id=46475395</id>
-        <link href="https://arxiv.org/abs/2512.24601"/>
-        <updated>2026-01-03T11:29:33.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://arxiv.org/abs/2512.24601
-Comments URL: https://news.ycombinator.com/item?id=46475395
-Points: 54
-# Comments: 7]]></summary>
-        <author>
-            <name>schmuhblaster</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Profiling with Ctrl-C (2024)]]></title>
-        <id>https://news.ycombinator.com/item?id=46475296</id>
-        <link href="https://yosefk.com/blog/profiling-with-ctrl-c.html"/>
-        <updated>2026-01-03T11:13:48.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://yosefk.com/blog/profiling-with-ctrl-c.html
-Comments URL: https://news.ycombinator.com/item?id=46475296
-Points: 54
-# Comments: 9]]></summary>
-        <author>
-            <name>hun3</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA['Doomsday fish': Once-in-a-lifetime sea creature encountered in Monterey Bay]]></title>
-        <id>https://news.ycombinator.com/item?id=46475222</id>
-        <link href="https://www.sfgate.com/centralcoast/article/rare-deep-sea-fish-spotted-monterey-bay-21270815.php"/>
-        <updated>2026-01-03T11:02:58.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.sfgate.com/centralcoast/article/rare-deep-sea-fish-spotted-monterey-bay-21270815.php
-Comments URL: https://news.ycombinator.com/item?id=46475222
-Points: 53
-# Comments: 17]]></summary>
-        <author>
-            <name>sipofwater</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Tally – A tool to help agents classify your bank transactions]]></title>
-        <id>https://news.ycombinator.com/item?id=46475218</id>
-        <link href="https://tallyai.money/"/>
-        <updated>2026-01-03T11:02:33.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://tallyai.money/
-Comments URL: https://news.ycombinator.com/item?id=46475218
-Points: 63
-# Comments: 48]]></summary>
-        <author>
-            <name>ahmedatia</name>
         </author>
     </entry>
 </feed>

@@ -26,6 +26,26 @@
           "imageUrl": "https://asymco.com/wp-content/uploads/2026/02/image-5.png"
         },
         {
+          "id": "https://news.ycombinator.com/item?id=46849567",
+          "author": "zdw",
+          "description": "Article URL: https://dmitrybrant.com/2026/02/01/defeating-a-40-year-old-copy-protection-dongle\nComments URL: https://news.ycombinator.com/item?id=46849567\nPoints: 113\n# Comments: 15",
+          "link": "https://dmitrybrant.com/2026/02/01/defeating-a-40-year-old-copy-protection-dongle",
+          "publishedOn": "2026-02-01T21:30:51.000Z",
+          "wordCount": 2337,
+          "title": "Defeating a 40-year-old copy protection dongle",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46849258",
+          "author": "rafaelcosta",
+          "description": "Article URL: https://journal.rafaelcosta.me/my-thousand-dollar-iphone-cant-do-math/\nComments URL: https://news.ycombinator.com/item?id=46849258\nPoints: 54\n# Comments: 20",
+          "link": "https://journal.rafaelcosta.me/my-thousand-dollar-iphone-cant-do-math/",
+          "publishedOn": "2026-02-01T20:51:56.000Z",
+          "wordCount": 2329,
+          "title": "My thousand dollar iPhone can't do math",
+          "imageUrl": "https://journal.rafaelcosta.me/content/images/2026/01/ios-26-iphone-16-pro-trust-this-computer-alert-mac-crop-1.png"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=46848769",
           "author": "arwt",
           "description": "Article URL: https://depthfirst.com/post/1-click-rce-to-steal-your-moltbot-data-and-keys\nComments URL: https://news.ycombinator.com/item?id=46848769\nPoints: 114\n# Comments: 46",
@@ -914,6 +934,16 @@
           "wordCount": 724,
           "title": "OpenClaw – Moltbot Renamed Again",
           "imageUrl": "https://openclaw.ai/og-image.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46820691",
+          "author": "CzaxTanmay",
+          "description": "Hi HN\nI’m building ÆTHRA — a programming language designed specifically for composing music and emotional soundscapes.\nInstead of focusing on general-purpose programming, ÆTHRA is a pure DSL where code directly represents musical intent: tempo, mood, chords, progression, dynamics, and instruments.\nThe goal is to make music composition feel closer to writing a story or emotion, rather than manipulating low-level audio APIs.\nKey ideas:\n- Text-based music composition\n- Chords and progressions as first-class concepts\n- Time, tempo, and structure handled by the language\n- Designed for ambient, cinematic, emotional, and minimal music\n- Interpreter written in C# (.NET)\nExample ÆTHRA code (simplified):\ntempo 60\ninstrument guitar\nchord Am for 4\nchord F for 4\nchord C for 4\nchord G for 4\nThis generates a slow, melancholic progression suitable for ambient or cinematic scenes.\nÆTHRA currently:\n- Generates WAV audio\n- Supports notes, chords, tempo, duration, velocity\n- Uses a simple interpreter (no external DAWs or MIDI tools)\n- Is intentionally minimal and readable\nWhat it is NOT:\n- Not a DAW replacement\n- Not MIDI-focused\nWhy I made it:\nI wanted a language where music is the primary output — not an afterthought. Something between code, emotion, and sound design.\nThe project is open-source and early-stage (v0.8). I’m mainly looking for:\n- Feedback on the language design\n- Ideas for musical features worth adding\n- Thoughts from people into PL design, audio, or generative art\nRepo: https://github.com/TanmayCzax/AETHRA>\nThanks for reading — happy to answer questions or discuss ideas.\nComments URL: https://news.ycombinator.com/item?id=46820691\nPoints: 51\n# Comments: 12",
+          "link": "https://news.ycombinator.com/item?id=46820691",
+          "publishedOn": "2026-01-30T04:59:37.000Z",
+          "wordCount": 880,
+          "title": "Show HN: ÆTHRA – Writing Music as Code",
+          "imageUrl": null
         },
         {
           "id": "https://news.ycombinator.com/item?id=46820468",
@@ -13634,46 +13664,6 @@
           "wordCount": null,
           "title": "X-Clacks-Overhead",
           "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46475395",
-          "author": "schmuhblaster",
-          "description": "Article URL: https://arxiv.org/abs/2512.24601\nComments URL: https://news.ycombinator.com/item?id=46475395\nPoints: 54\n# Comments: 7",
-          "link": "https://arxiv.org/abs/2512.24601",
-          "publishedOn": "2026-01-03T11:29:33.000Z",
-          "wordCount": 609,
-          "title": "Recursive Language Models",
-          "imageUrl": "/static/browse/0.3.4/images/arxiv-logo-fb.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46475296",
-          "author": "hun3",
-          "description": "Article URL: https://yosefk.com/blog/profiling-with-ctrl-c.html\nComments URL: https://news.ycombinator.com/item?id=46475296\nPoints: 54\n# Comments: 9",
-          "link": "https://yosefk.com/blog/profiling-with-ctrl-c.html",
-          "publishedOn": "2026-01-03T11:13:48.000Z",
-          "wordCount": 2306,
-          "title": "Profiling with Ctrl-C (2024)",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46475222",
-          "author": "sipofwater",
-          "description": "Article URL: https://www.sfgate.com/centralcoast/article/rare-deep-sea-fish-spotted-monterey-bay-21270815.php\nComments URL: https://news.ycombinator.com/item?id=46475222\nPoints: 53\n# Comments: 17",
-          "link": "https://www.sfgate.com/centralcoast/article/rare-deep-sea-fish-spotted-monterey-bay-21270815.php",
-          "publishedOn": "2026-01-03T11:02:58.000Z",
-          "wordCount": null,
-          "title": "'Doomsday fish': Once-in-a-lifetime sea creature encountered in Monterey Bay",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46475218",
-          "author": "ahmedatia",
-          "description": "Article URL: https://tallyai.money/\nComments URL: https://news.ycombinator.com/item?id=46475218\nPoints: 63\n# Comments: 48",
-          "link": "https://tallyai.money/",
-          "publishedOn": "2026-01-03T11:02:33.000Z",
-          "wordCount": 1137,
-          "title": "Tally – A tool to help agents classify your bank transactions",
-          "imageUrl": "https://tallyai.money/screenshot.png"
         }
       ]
     }
