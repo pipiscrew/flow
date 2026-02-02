@@ -2,10 +2,38 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-02-01T23:31:56.876Z</updated>
+    <updated>2026-02-02T02:47:09.610Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Notepad++ hijacked by state-sponsored actors]]></title>
+        <id>https://news.ycombinator.com/item?id=46851548</id>
+        <link href="https://notepad-plus-plus.org/news/hijacked-incident-info-update/"/>
+        <updated>2026-02-02T01:59:56.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://notepad-plus-plus.org/news/hijacked-incident-info-update/
+Comments URL: https://news.ycombinator.com/item?id=46851548
+Points: 146
+# Comments: 35]]></summary>
+        <author>
+            <name>mysterydip</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: NanoClaw – “Clawdbot” in 500 lines of TS with Apple container isolation]]></title>
+        <id>https://news.ycombinator.com/item?id=46850205</id>
+        <link href="https://github.com/gavrielc/nanoclaw"/>
+        <updated>2026-02-01T22:49:22.000Z</updated>
+        <summary type="html"><![CDATA[I’ve been running Clawdbot for the last couple weeks and have genuinely found it useful but running it scares the crap out of me.
+OpenClaw has 52+ modules and runs agents with near-unlimited permissions in a single Node process. NanoClaw is ~500 lines of core code, agents run in actual Apple containers with filesystem isolation. Each chat gets its own sandboxed context.
+This is not a swiss army knife. It’s built to match my exact needs. Fork it and make it yours.
+Comments URL: https://news.ycombinator.com/item?id=46850205
+Points: 191
+# Comments: 56]]></summary>
+        <author>
+            <name>jimminyx</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Iran summons families of exiled journalists to halt their activities]]></title>
         <id>https://news.ycombinator.com/item?id=46849715</id>
@@ -17,6 +45,19 @@ Points: 59
 # Comments: 43]]></summary>
         <author>
             <name>ukblewis</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[MRI scans show exercise can make the brain look younger]]></title>
+        <id>https://news.ycombinator.com/item?id=46849630</id>
+        <link href="https://www.sciencedaily.com/releases/2026/01/260121034130.htm"/>
+        <updated>2026-02-01T21:37:00.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.sciencedaily.com/releases/2026/01/260121034130.htm
+Comments URL: https://news.ycombinator.com/item?id=46849630
+Points: 79
+# Comments: 25]]></summary>
+        <author>
+            <name>amichail</name>
         </author>
     </entry>
     <entry>
@@ -95,6 +136,19 @@ Points: 172
 # Comments: 30]]></summary>
         <author>
             <name>firefoxd</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A Crisis comes to Wordle: Reusing old words]]></title>
+        <id>https://news.ycombinator.com/item?id=46847924</id>
+        <link href="https://forkingmad.blog/wordle-crisis/"/>
+        <updated>2026-02-01T17:54:55.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://forkingmad.blog/wordle-crisis/
+Comments URL: https://news.ycombinator.com/item?id=46847924
+Points: 53
+# Comments: 68]]></summary>
+        <author>
+            <name>cyanbane</name>
         </author>
     </entry>
     <entry>
@@ -1269,6 +1323,19 @@ Points: 55
 # Comments: 8]]></summary>
         <author>
             <name>vismit2000</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Typechecking is undecidable when 'type' is a type (1989) [pdf]]]></title>
+        <id>https://news.ycombinator.com/item?id=46820874</id>
+        <link href="https://dspace.mit.edu/bitstream/handle/1721.1/149366/MIT-LCS-TR-458.pdf?sequence=6"/>
+        <updated>2026-01-30T05:31:29.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://dspace.mit.edu/bitstream/handle/1721.1/149366/MIT-LCS-TR-458.pdf?sequence=6
+Comments URL: https://news.ycombinator.com/item?id=46820874
+Points: 57
+# Comments: 33]]></summary>
+        <author>
+            <name>zem</name>
         </author>
     </entry>
     <entry>
@@ -18383,19 +18450,6 @@ Points: 50
 # Comments: 49]]></summary>
         <author>
             <name>surprisetalk</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[X-Clacks-Overhead]]></title>
-        <id>https://news.ycombinator.com/item?id=46475437</id>
-        <link href="https://hleb.dev/post/x-clacks-overhead/"/>
-        <updated>2026-01-03T11:37:07.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://hleb.dev/post/x-clacks-overhead/
-Comments URL: https://news.ycombinator.com/item?id=46475437
-Points: 65
-# Comments: 15]]></summary>
-        <author>
-            <name>hleb_dev</name>
         </author>
     </entry>
 </feed>
