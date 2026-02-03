@@ -26,6 +26,16 @@
           "imageUrl": "https://rentahuman.ai/opengraph-image?a4c7f013580cef37"
         },
         {
+          "id": "https://news.ycombinator.com/item?id=46868479",
+          "author": "tinuviel",
+          "description": "After reading \"During Helene, I Just Wanted a Plain Text Website\" on Sparkbox (https://news.ycombinator.com/item?id=46494734) , I built safe-now.live – a text-first emergency info site for USA and Canada. No JavaScript, no images, under 10KB. Pulls live FEMA disasters, NWS alerts, weather, and local resources. This is my first live website ever so looking for critical feedback on the website. Please feel free to look around.\nhttps://safe-now.live\nComments URL: https://news.ycombinator.com/item?id=46868479\nPoints: 85\n# Comments: 19",
+          "link": "https://safe-now.live/",
+          "publishedOn": "2026-02-03T09:06:04.000Z",
+          "wordCount": 633,
+          "title": "Show HN: Safe-now.live – Ultra-light emergency info site (<10KB)",
+          "imageUrl": null
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=46868287",
           "author": "jbotz",
           "description": "Article URL: https://onlinelibrary.wiley.com/doi/10.1111/1468-0009.70066\nComments URL: https://news.ycombinator.com/item?id=46868287\nPoints: 58\n# Comments: 68",
@@ -34,6 +44,16 @@
           "wordCount": null,
           "title": "From Tobacco to Ultraprocessed Food: How Industry Fuels Preventable Disease",
           "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46867947",
+          "author": "whispem",
+          "description": "Hi HN,\nI'm Emilie, I have a literature background (which explains the well-written documentation!) and I've been learning Rust and distributed systems by building minikv over the past few months. \nIt recently got featured in Programmez! magazine: https://www.programmez.com/actualites/minikv-un-key-value-st...\nminikv is an open-source, distributed storage engine built for learning, experimentation, and self-hosted setups. \nIt combines a strongly-consistent key-value database (Raft), S3-compatible object storage, and basic multi-tenancy.\nFeatures/highlights:\n- Raft consensus with automatic failover and sharding\n- S3-compatible HTTP API (plus REST/gRPC APIs)\n- Pluggable storage backends: in-memory, RocksDB, Sled\n- Multi-tenant: per-tenant namespaces, role-based access, quotas, and audit\n- Metrics (Prometheus), TLS, JWT-based API keys\n- Easy to deploy (single binary, works with Docker/Kubernetes)\nQuick demo (single node):\n```bash\ngit clone https://github.com/whispem/minikv.git\ncd minikv\ncargo run --release -- --config config.example.toml\ncurl localhost:8080/health/ready\n# S3 upload + read\ncurl -X PUT localhost:8080/s3/mybucket/hello -d \"hi HN\"\ncurl localhost:8080/s3/mybucket/hello\nDocs, cluster setup, and architecture details are in the repo. \nI’d love to hear feedback, questions, ideas, or your stories running distributed infra in Rust!\nRepo: https://github.com/whispem/minikv\nCrate: https://crates.io/crates/minikv\nComments URL: https://news.ycombinator.com/item?id=46867947\nPoints: 50\n# Comments: 17",
+          "link": "https://github.com/whispem/minikv",
+          "publishedOn": "2026-02-03T08:00:19.000Z",
+          "wordCount": 4781,
+          "title": "Show HN: Minikv – Distributed key-value and object store in Rust (Raft, S3 API)",
+          "imageUrl": "https://opengraph.githubassets.com/414e0a04cda4a86747adf4a7552f3e7a1cf876eb9f74370fc4745ad08803554b/whispem/minikv"
         },
         {
           "id": "https://news.ycombinator.com/item?id=46866544",
@@ -13654,16 +13674,6 @@
           "wordCount": null,
           "title": "California residents can now request all data brokers delete personal info",
           "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46494734",
-          "author": "CqtGLRGcukpy",
-          "description": "Article URL: https://sparkbox.com/foundry/helene_and_mobile_web_performance\nComments URL: https://news.ycombinator.com/item?id=46494734\nPoints: 92\n# Comments: 50",
-          "link": "https://sparkbox.com/foundry/helene_and_mobile_web_performance",
-          "publishedOn": "2026-01-05T02:36:20.000Z",
-          "wordCount": 2935,
-          "title": "During Helene, I just wanted a plain text website",
-          "imageUrl": "https://images.ctfassets.net/fczckc3dt6mv/4Shcl6IRqCmg5VYJkRqzV9/5100e6c51ba572f9b75b5589f77bb1b6/j-winn_11-19.png"
         }
       ]
     }

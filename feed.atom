@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-02-03T13:15:12.682Z</updated>
+    <updated>2026-02-03T14:52:00.223Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
@@ -33,6 +33,20 @@ Points: 55
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Show HN: Safe-now.live – Ultra-light emergency info site (<10KB)]]></title>
+        <id>https://news.ycombinator.com/item?id=46868479</id>
+        <link href="https://safe-now.live/"/>
+        <updated>2026-02-03T09:06:04.000Z</updated>
+        <summary type="html"><![CDATA[After reading "During Helene, I Just Wanted a Plain Text Website" on Sparkbox (https://news.ycombinator.com/item?id=46494734) , I built safe-now.live – a text-first emergency info site for USA and Canada. No JavaScript, no images, under 10KB. Pulls live FEMA disasters, NWS alerts, weather, and local resources. This is my first live website ever so looking for critical feedback on the website. Please feel free to look around.
+https://safe-now.live
+Comments URL: https://news.ycombinator.com/item?id=46868479
+Points: 85
+# Comments: 19]]></summary>
+        <author>
+            <name>tinuviel</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[From Tobacco to Ultraprocessed Food: How Industry Fuels Preventable Disease]]></title>
         <id>https://news.ycombinator.com/item?id=46868287</id>
         <link href="https://onlinelibrary.wiley.com/doi/10.1111/1468-0009.70066"/>
@@ -43,6 +57,43 @@ Points: 58
 # Comments: 68]]></summary>
         <author>
             <name>jbotz</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Minikv – Distributed key-value and object store in Rust (Raft, S3 API)]]></title>
+        <id>https://news.ycombinator.com/item?id=46867947</id>
+        <link href="https://github.com/whispem/minikv"/>
+        <updated>2026-02-03T08:00:19.000Z</updated>
+        <summary type="html"><![CDATA[Hi HN,
+I'm Emilie, I have a literature background (which explains the well-written documentation!) and I've been learning Rust and distributed systems by building minikv over the past few months. 
+It recently got featured in Programmez! magazine: https://www.programmez.com/actualites/minikv-un-key-value-st...
+minikv is an open-source, distributed storage engine built for learning, experimentation, and self-hosted setups. 
+It combines a strongly-consistent key-value database (Raft), S3-compatible object storage, and basic multi-tenancy.
+Features/highlights:
+- Raft consensus with automatic failover and sharding
+- S3-compatible HTTP API (plus REST/gRPC APIs)
+- Pluggable storage backends: in-memory, RocksDB, Sled
+- Multi-tenant: per-tenant namespaces, role-based access, quotas, and audit
+- Metrics (Prometheus), TLS, JWT-based API keys
+- Easy to deploy (single binary, works with Docker/Kubernetes)
+Quick demo (single node):
+```bash
+git clone https://github.com/whispem/minikv.git
+cd minikv
+cargo run --release -- --config config.example.toml
+curl localhost:8080/health/ready
+# S3 upload + read
+curl -X PUT localhost:8080/s3/mybucket/hello -d "hi HN"
+curl localhost:8080/s3/mybucket/hello
+Docs, cluster setup, and architecture details are in the repo. 
+I’d love to hear feedback, questions, ideas, or your stories running distributed infra in Rust!
+Repo: https://github.com/whispem/minikv
+Crate: https://crates.io/crates/minikv
+Comments URL: https://news.ycombinator.com/item?id=46867947
+Points: 50
+# Comments: 17]]></summary>
+        <author>
+            <name>whispem</name>
         </author>
     </entry>
     <entry>
@@ -18383,19 +18434,6 @@ Points: 123
 # Comments: 30]]></summary>
         <author>
             <name>memalign</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[During Helene, I just wanted a plain text website]]></title>
-        <id>https://news.ycombinator.com/item?id=46494734</id>
-        <link href="https://sparkbox.com/foundry/helene_and_mobile_web_performance"/>
-        <updated>2026-01-05T02:36:20.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://sparkbox.com/foundry/helene_and_mobile_web_performance
-Comments URL: https://news.ycombinator.com/item?id=46494734
-Points: 92
-# Comments: 50]]></summary>
-        <author>
-            <name>CqtGLRGcukpy</name>
         </author>
     </entry>
 </feed>
