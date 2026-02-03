@@ -6,6 +6,16 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=46875228",
+          "author": "baotiao",
+          "description": "Article URL: https://github.com/alibaba/AliSQL\nComments URL: https://news.ycombinator.com/item?id=46875228\nPoints: 63\n# Comments: 5",
+          "link": "https://github.com/alibaba/AliSQL",
+          "publishedOn": "2026-02-03T18:40:18.000Z",
+          "wordCount": 2710,
+          "title": "AliSQL: Alibaba's open-source MySQL with vector and DuckDB engines",
+          "imageUrl": "https://opengraph.githubassets.com/4ec8cee9b0bd93aee854f79fd1ee54829a0642ed40e41a15f88b960cec874ef1/alibaba/AliSQL"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=46874619",
           "author": "davidbarker",
           "description": "Article URL: https://www.apple.com/newsroom/2026/02/xcode-26-point-3-unlocks-the-power-of-agentic-coding/\nComments URL: https://news.ycombinator.com/item?id=46874619\nPoints: 73\n# Comments: 43",
@@ -26,6 +36,16 @@
           "imageUrl": "https://deno.com/blog/introducing-deno-sandbox/og.webp"
         },
         {
+          "id": "https://news.ycombinator.com/item?id=46873574",
+          "author": "mecredis",
+          "description": "Article URL: https://fredbenenson.com/blog/2026/02/03/221-cannon-is-not-for-sale/\nComments URL: https://news.ycombinator.com/item?id=46873574\nPoints: 105\n# Comments: 80",
+          "link": "https://fredbenenson.com/blog/2026/02/03/221-cannon-is-not-for-sale/",
+          "publishedOn": "2026-02-03T16:56:06.000Z",
+          "wordCount": 3414,
+          "title": "221 Cannon Road Is Not for Sale",
+          "imageUrl": "https://fredbenenson.com/wp-content/uploads/2026/02/IMG_0173-150x150.png"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=46873294",
           "author": "AareyBaba",
           "description": "Article URL: https://apnews.com/article/europe-digital-sovereignty-big-tech-9f5388b68a0648514cebc8d92f682060\nComments URL: https://news.ycombinator.com/item?id=46873294\nPoints: 265\n# Comments: 129",
@@ -44,6 +64,16 @@
           "wordCount": 4169,
           "title": "Prek: A better, faster, drop-in pre-commit replacement, engineered in Rust",
           "imageUrl": "https://opengraph.githubassets.com/778e4f63024ff4be4938967523fb3851da90a66568d64d869f4866dccbf47e22/j178/prek"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46872894",
+          "author": "labrador",
+          "description": "Article URL: https://apnews.com/article/france-x-investigation-seach-elon-musk-1116be84d84201011219086ecfd4e0bc\nComments URL: https://news.ycombinator.com/item?id=46872894\nPoints: 154\n# Comments: 112",
+          "link": "https://apnews.com/article/france-x-investigation-seach-elon-musk-1116be84d84201011219086ecfd4e0bc",
+          "publishedOn": "2026-02-03T16:14:17.000Z",
+          "wordCount": 11842,
+          "title": "X offices raided in France",
+          "imageUrl": "https://dims.apnews.com/dims4/default/a38bc68/2147483647/strip/true/crop/7681x5118+0+1/resize/980x653!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F22%2Fd0%2F47e3b063ae6efd879a729a33596e%2F255b9d2c8cd447a5ab63ce0bc23df02b"
         },
         {
           "id": "https://news.ycombinator.com/item?id=46872706",
@@ -74,6 +104,16 @@
           "wordCount": 30924,
           "title": "Data Brokers Can Fuel Violence Against Public Servants",
           "imageUrl": "https://media.wired.com/photos/697d55e413c39f45f09e613f/191:100/w_1280,c_limit/security_data_public_servant_violence.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46871387",
+          "author": "mavdol04",
+          "description": "Hi everyone,\nI built a runtime to isolate untrusted code using wasm sandboxes.\nBasically, it protects your host system from problems that untrusted code can cause. We’ve had a great discussion about sandboxing in Python lately that elaborates a bit more on the problem [1]. In TypeScript, wasm integration is even more natural thanks to the close proximity between both ecosystems.\nThe core is built in Rust. On top of that, I use WASI 0.2 via wasmtime and the component model, along with custom SDKs that keep things as idiomatic as possible.\nFor example, in Python we have a simple decorator:\n  from capsule import task\n\n  @task(\n      name=\"analyze_data\", \n      compute=\"MEDIUM\",\n      ram=\"512mb\",\n      allowed_files=[\"./authorized-folder/\"],\n      timeout=\"30s\", \n      max_retries=1\n  )\n  def analyze_data(dataset: list) -> dict:\n      \"\"\"Process data in an isolated, resource-controlled environment.\"\"\"\n      # Your code runs safely in a Wasm sandbox\n      return {\"processed\": len(dataset), \"status\": \"complete\"}\n\n  import { task } from \"@capsule-run/sdk\"\n\n  export const analyze = task({\n      name: \"analyzeData\", \n      compute: \"MEDIUM\", \n      ram: \"512mb\",\n      allowedFiles: [\"./authorized-folder/\"],\n      timeout: 30000, \n      maxRetries: 1\n  }, (dataset: number[]) => {\n      return {processed: dataset.length, status: \"complete\"}\n  });\n\nIt's still quite early, but I'd love feedback. I’ll be around to answer questions.\nGitHub: https://github.com/mavdol/capsule\n[1] https://news.ycombinator.com/item?id=46500510\nComments URL: https://news.ycombinator.com/item?id=46871387\nPoints: 52\n# Comments: 18",
+          "link": "https://github.com/mavdol/capsule",
+          "publishedOn": "2026-02-03T14:28:01.000Z",
+          "wordCount": 7642,
+          "title": "Show HN: Sandboxing untrusted code using WebAssembly",
+          "imageUrl": "https://opengraph.githubassets.com/dc25052b95e17880b01a67fffa706d1c72efc688ea3d3f8d812ef9b364a19308/mavdol/capsule"
         },
         {
           "id": "https://news.ycombinator.com/item?id=46871179",
@@ -13743,36 +13783,6 @@
           "publishedOn": "2026-01-05T10:23:32.000Z",
           "wordCount": 1413,
           "title": "Anna's Archive Loses .Org Domain After Surprise Suspension",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46496494",
-          "author": "todsacerdoti",
-          "description": "Article URL: https://www.dlp.rip/decorative-cryptography\nComments URL: https://news.ycombinator.com/item?id=46496494\nPoints: 60\n# Comments: 13",
-          "link": "https://www.dlp.rip/decorative-cryptography",
-          "publishedOn": "2026-01-05T08:29:38.000Z",
-          "wordCount": 1552,
-          "title": "Decorative Cryptography",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46496103",
-          "author": "viveknathani_",
-          "description": "Article URL: https://www.cs.cmu.edu/~pavlo/blog/2026/01/2025-databases-retrospective.html\nComments URL: https://news.ycombinator.com/item?id=46496103\nPoints: 54\n# Comments: 6",
-          "link": "https://www.cs.cmu.edu/~pavlo/blog/2026/01/2025-databases-retrospective.html",
-          "publishedOn": "2026-01-05T07:14:30.000Z",
-          "wordCount": 6548,
-          "title": "Databases in 2025: A Year in Review",
-          "imageUrl": "https://www.gravatar.com/avatar/75219a26e1b5940510ad17df0d8c42d3?s=400"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46496054",
-          "author": "juanplusjuan",
-          "description": "Article URL: https://www.nytimes.com/2025/11/08/science/biggest-spiderweb-sulfur-cave.html\nComments URL: https://news.ycombinator.com/item?id=46496054\nPoints: 72\n# Comments: 23",
-          "link": "https://www.nytimes.com/2025/11/08/science/biggest-spiderweb-sulfur-cave.html",
-          "publishedOn": "2026-01-05T07:06:22.000Z",
-          "wordCount": null,
-          "title": "A spider web unlike any seen before",
           "imageUrl": null
         }
       ]

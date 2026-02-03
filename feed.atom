@@ -2,10 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-02-03T19:03:47.216Z</updated>
+    <updated>2026-02-03T20:45:59.887Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[AliSQL: Alibaba's open-source MySQL with vector and DuckDB engines]]></title>
+        <id>https://news.ycombinator.com/item?id=46875228</id>
+        <link href="https://github.com/alibaba/AliSQL"/>
+        <updated>2026-02-03T18:40:18.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://github.com/alibaba/AliSQL
+Comments URL: https://news.ycombinator.com/item?id=46875228
+Points: 63
+# Comments: 5]]></summary>
+        <author>
+            <name>baotiao</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Xcode 26.3 unlocks the power of agentic coding]]></title>
         <id>https://news.ycombinator.com/item?id=46874619</id>
@@ -33,6 +46,19 @@ Points: 92
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[221 Cannon Road Is Not for Sale]]></title>
+        <id>https://news.ycombinator.com/item?id=46873574</id>
+        <link href="https://fredbenenson.com/blog/2026/02/03/221-cannon-is-not-for-sale/"/>
+        <updated>2026-02-03T16:56:06.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://fredbenenson.com/blog/2026/02/03/221-cannon-is-not-for-sale/
+Comments URL: https://news.ycombinator.com/item?id=46873574
+Points: 105
+# Comments: 80]]></summary>
+        <author>
+            <name>mecredis</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[France dumps Zoom and Teams as Europe seeks digital autonomy from the US]]></title>
         <id>https://news.ycombinator.com/item?id=46873294</id>
         <link href="https://apnews.com/article/europe-digital-sovereignty-big-tech-9f5388b68a0648514cebc8d92f682060"/>
@@ -56,6 +82,19 @@ Points: 82
 # Comments: 47]]></summary>
         <author>
             <name>fortuitous-frog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[X offices raided in France]]></title>
+        <id>https://news.ycombinator.com/item?id=46872894</id>
+        <link href="https://apnews.com/article/france-x-investigation-seach-elon-musk-1116be84d84201011219086ecfd4e0bc"/>
+        <updated>2026-02-03T16:14:17.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://apnews.com/article/france-x-investigation-seach-elon-musk-1116be84d84201011219086ecfd4e0bc
+Comments URL: https://news.ycombinator.com/item?id=46872894
+Points: 154
+# Comments: 112]]></summary>
+        <author>
+            <name>labrador</name>
         </author>
     </entry>
     <entry>
@@ -95,6 +134,54 @@ Points: 74
 # Comments: 34]]></summary>
         <author>
             <name>achristmascarl</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Sandboxing untrusted code using WebAssembly]]></title>
+        <id>https://news.ycombinator.com/item?id=46871387</id>
+        <link href="https://github.com/mavdol/capsule"/>
+        <updated>2026-02-03T14:28:01.000Z</updated>
+        <summary type="html"><![CDATA[Hi everyone,
+I built a runtime to isolate untrusted code using wasm sandboxes.
+Basically, it protects your host system from problems that untrusted code can cause. We’ve had a great discussion about sandboxing in Python lately that elaborates a bit more on the problem [1]. In TypeScript, wasm integration is even more natural thanks to the close proximity between both ecosystems.
+The core is built in Rust. On top of that, I use WASI 0.2 via wasmtime and the component model, along with custom SDKs that keep things as idiomatic as possible.
+For example, in Python we have a simple decorator:
+  from capsule import task
+
+  @task(
+      name="analyze_data", 
+      compute="MEDIUM",
+      ram="512mb",
+      allowed_files=["./authorized-folder/"],
+      timeout="30s", 
+      max_retries=1
+  )
+  def analyze_data(dataset: list) -> dict:
+      """Process data in an isolated, resource-controlled environment."""
+      # Your code runs safely in a Wasm sandbox
+      return {"processed": len(dataset), "status": "complete"}
+
+  import { task } from "@capsule-run/sdk"
+
+  export const analyze = task({
+      name: "analyzeData", 
+      compute: "MEDIUM", 
+      ram: "512mb",
+      allowedFiles: ["./authorized-folder/"],
+      timeout: 30000, 
+      maxRetries: 1
+  }, (dataset: number[]) => {
+      return {processed: dataset.length, status: "complete"}
+  });
+
+It's still quite early, but I'd love feedback. I’ll be around to answer questions.
+GitHub: https://github.com/mavdol/capsule
+[1] https://news.ycombinator.com/item?id=46500510
+Comments URL: https://news.ycombinator.com/item?id=46871387
+Points: 52
+# Comments: 18]]></summary>
+        <author>
+            <name>mavdol04</name>
         </author>
     </entry>
     <entry>
@@ -18526,45 +18613,6 @@ Points: 156
 # Comments: 45]]></summary>
         <author>
             <name>CTOSian</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Decorative Cryptography]]></title>
-        <id>https://news.ycombinator.com/item?id=46496494</id>
-        <link href="https://www.dlp.rip/decorative-cryptography"/>
-        <updated>2026-01-05T08:29:38.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.dlp.rip/decorative-cryptography
-Comments URL: https://news.ycombinator.com/item?id=46496494
-Points: 60
-# Comments: 13]]></summary>
-        <author>
-            <name>todsacerdoti</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Databases in 2025: A Year in Review]]></title>
-        <id>https://news.ycombinator.com/item?id=46496103</id>
-        <link href="https://www.cs.cmu.edu/~pavlo/blog/2026/01/2025-databases-retrospective.html"/>
-        <updated>2026-01-05T07:14:30.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.cs.cmu.edu/~pavlo/blog/2026/01/2025-databases-retrospective.html
-Comments URL: https://news.ycombinator.com/item?id=46496103
-Points: 54
-# Comments: 6]]></summary>
-        <author>
-            <name>viveknathani_</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A spider web unlike any seen before]]></title>
-        <id>https://news.ycombinator.com/item?id=46496054</id>
-        <link href="https://www.nytimes.com/2025/11/08/science/biggest-spiderweb-sulfur-cave.html"/>
-        <updated>2026-01-05T07:06:22.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.nytimes.com/2025/11/08/science/biggest-spiderweb-sulfur-cave.html
-Comments URL: https://news.ycombinator.com/item?id=46496054
-Points: 72
-# Comments: 23]]></summary>
-        <author>
-            <name>juanplusjuan</name>
         </author>
     </entry>
 </feed>
