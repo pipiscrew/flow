@@ -6,6 +6,26 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=46878338",
+          "author": "natebc",
+          "description": "Article URL: https://securelist.com/notepad-supply-chain-attack/118708/\nComments URL: https://news.ycombinator.com/item?id=46878338\nPoints: 180\n# Comments: 83",
+          "link": "https://securelist.com/notepad-supply-chain-attack/118708/",
+          "publishedOn": "2026-02-03T22:35:27.000Z",
+          "wordCount": 4739,
+          "title": "Notepad++ supply chain attack breakdown",
+          "imageUrl": "https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2026/02/03072543/notepad-supply-chain-attack-featured-image.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46877403",
+          "author": "matt_d",
+          "description": "Article URL: https://dl.acm.org/doi/10.1145/3774934.3786425\nComments URL: https://news.ycombinator.com/item?id=46877403\nPoints: 76\n# Comments: 40",
+          "link": "https://dl.acm.org/doi/10.1145/3774934.3786425",
+          "publishedOn": "2026-02-03T21:15:48.000Z",
+          "wordCount": null,
+          "title": "FlashAttention-T: Towards Tensorized Attention",
+          "imageUrl": null
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=46877075",
           "author": "insuranceguru",
           "description": "Article URL: https://www.schneier.com/blog/archives/2023/12/ai-and-trust.html\nComments URL: https://news.ycombinator.com/item?id=46877075\nPoints: 63\n# Comments: 8",
@@ -74,6 +94,16 @@
           "wordCount": 2710,
           "title": "AliSQL: Alibaba's open-source MySQL with vector and DuckDB engines",
           "imageUrl": "https://opengraph.githubassets.com/4ec8cee9b0bd93aee854f79fd1ee54829a0642ed40e41a15f88b960cec874ef1/alibaba/AliSQL"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46875033",
+          "author": "shscs911",
+          "description": "Article URL: https://fortune.com/2026/02/03/famed-startup-incubator-y-combinator-to-let-founders-receive-funds-in-stablecoins/\nComments URL: https://news.ycombinator.com/item?id=46875033\nPoints: 81\n# Comments: 101",
+          "link": "https://fortune.com/2026/02/03/famed-startup-incubator-y-combinator-to-let-founders-receive-funds-in-stablecoins/",
+          "publishedOn": "2026-02-03T18:28:48.000Z",
+          "wordCount": 6145,
+          "title": "Y Combinator will let founders receive funds in stablecoins",
+          "imageUrl": "https://fortune.com/img-assets/wp-content/uploads/2026/02/GettyImages-2151668652-e1770125503609.jpg?resize=1200,600"
         },
         {
           "id": "https://news.ycombinator.com/item?id=46874619",
@@ -206,6 +236,16 @@
           "imageUrl": "https://media.wired.com/photos/697d55e413c39f45f09e613f/191:100/w_1280,c_limit/security_data_public_servant_violence.jpg"
         },
         {
+          "id": "https://news.ycombinator.com/item?id=46871473",
+          "author": "rbbydotdev",
+          "description": "Article URL: https://blog.rbby.dev/posts/github-ai-contribution-blame-for-pull-requests/\nComments URL: https://news.ycombinator.com/item?id=46871473\nPoints: 56\n# Comments: 29",
+          "link": "https://blog.rbby.dev/posts/github-ai-contribution-blame-for-pull-requests/",
+          "publishedOn": "2026-02-03T14:35:25.000Z",
+          "wordCount": 1950,
+          "title": "GitHub Browser Plugin for AI Contribution Blame in Pull Requests",
+          "imageUrl": "https://blog.rbby.dev/og-base_hu_b9eeea61e6fcdc88.png"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=46871387",
           "author": "mavdol04",
           "description": "Hi everyone,\nI built a runtime to isolate untrusted code using wasm sandboxes.\nBasically, it protects your host system from problems that untrusted code can cause. We’ve had a great discussion about sandboxing in Python lately that elaborates a bit more on the problem [1]. In TypeScript, wasm integration is even more natural thanks to the close proximity between both ecosystems.\nThe core is built in Rust. On top of that, I use WASI 0.2 via wasmtime and the component model, along with custom SDKs that keep things as idiomatic as possible.\nFor example, in Python we have a simple decorator:\n  from capsule import task\n\n  @task(\n      name=\"analyze_data\", \n      compute=\"MEDIUM\",\n      ram=\"512mb\",\n      allowed_files=[\"./authorized-folder/\"],\n      timeout=\"30s\", \n      max_retries=1\n  )\n  def analyze_data(dataset: list) -> dict:\n      \"\"\"Process data in an isolated, resource-controlled environment.\"\"\"\n      # Your code runs safely in a Wasm sandbox\n      return {\"processed\": len(dataset), \"status\": \"complete\"}\n\n  import { task } from \"@capsule-run/sdk\"\n\n  export const analyze = task({\n      name: \"analyzeData\", \n      compute: \"MEDIUM\", \n      ram: \"512mb\",\n      allowedFiles: [\"./authorized-folder/\"],\n      timeout: 30000, \n      maxRetries: 1\n  }, (dataset: number[]) => {\n      return {processed: dataset.length, status: \"complete\"}\n  });\n\nIt's still quite early, but I'd love feedback. I’ll be around to answer questions.\nGitHub: https://github.com/mavdol/capsule\n[1] https://news.ycombinator.com/item?id=46500510\nComments URL: https://news.ycombinator.com/item?id=46871387\nPoints: 52\n# Comments: 18",
@@ -244,6 +284,16 @@
           "wordCount": 10621,
           "title": "Bunny Database",
           "imageUrl": "https://bunny.net/blog/content/images/2026/02/Bunny-Dataase-SQL-service-that-just-works.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46868998",
+          "author": "vikaveri",
+          "description": "Article URL: https://www.bbc.com/news/articles/ce3ex92557jo\nComments URL: https://news.ycombinator.com/item?id=46868998\nPoints: 224\n# Comments: 429",
+          "link": "https://www.bbc.com/news/articles/ce3ex92557jo",
+          "publishedOn": "2026-02-03T10:08:52.000Z",
+          "wordCount": 5225,
+          "title": "X offices raided in France as UK opens fresh investigation into Grok",
+          "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/96f8/live/12bc3eb0-00ea-11f1-8974-f3140348ffed.jpg"
         },
         {
           "id": "https://news.ycombinator.com/item?id=46868759",
@@ -13814,76 +13864,6 @@
           "wordCount": 1471,
           "title": "Dealing with abandonware (2024)",
           "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46498775",
-          "author": "CyMonk",
-          "description": "Article URL: https://www.gog.com/en/patrons\nComments URL: https://news.ycombinator.com/item?id=46498775\nPoints: 50\n# Comments: 21",
-          "link": "https://www.gog.com/en/patrons",
-          "publishedOn": "2026-01-05T13:57:08.000Z",
-          "wordCount": 7342,
-          "title": "GOG Patrons- Join gamers keeping classics alive",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46498735",
-          "author": "r4victor",
-          "description": "Article URL: https://tenthousandmeters.com/blog/i-switched-from-vscode-to-zed/\nComments URL: https://news.ycombinator.com/item?id=46498735\nPoints: 80\n# Comments: 77",
-          "link": "https://tenthousandmeters.com/blog/i-switched-from-vscode-to-zed/",
-          "publishedOn": "2026-01-05T13:52:17.000Z",
-          "wordCount": 1356,
-          "title": "I switched from VSCode to Zed",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46498662",
-          "author": "RickJWagner",
-          "description": "Article URL: https://scottsumner.substack.com/p/imagine-130000000-washing-machines\nComments URL: https://news.ycombinator.com/item?id=46498662\nPoints: 52\n# Comments: 83",
-          "link": "https://scottsumner.substack.com/p/imagine-130000000-washing-machines",
-          "publishedOn": "2026-01-05T13:46:12.000Z",
-          "wordCount": null,
-          "title": "Imagine 130M Washing Machines",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46498658",
-          "author": "matheuzsec",
-          "description": "Article URL: https://github.com/MatheuZSecurity/Singularity\nComments URL: https://news.ycombinator.com/item?id=46498658\nPoints: 50\n# Comments: 15",
-          "link": "https://github.com/MatheuZSecurity/Singularity",
-          "publishedOn": "2026-01-05T13:45:50.000Z",
-          "wordCount": 7754,
-          "title": "Singularity Rootkit: SELinux bypass and netlink filter (ss/conntrack hidden)",
-          "imageUrl": "https://repository-images.githubusercontent.com/1062196393/a2149a49-9fd4-44e6-8ffa-76845a998d60"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46498651",
-          "author": "Brajeshwar",
-          "description": "Article URL: https://idiallo.com/blog/all-ai-videos-are-harmful\nComments URL: https://news.ycombinator.com/item?id=46498651\nPoints: 118\n# Comments: 83",
-          "link": "https://idiallo.com/blog/all-ai-videos-are-harmful",
-          "publishedOn": "2026-01-05T13:44:59.000Z",
-          "wordCount": 4387,
-          "title": "All AI Videos Are Harmful (2025)",
-          "imageUrl": "https://cdn.idiallo.com/images/assets/594/thumb.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46498309",
-          "author": "alecco",
-          "description": "Article URL: https://www.barchart.com/story/news/36862423/weve-done-our-country-a-great-disservice-by-offshoring-nvidias-jensen-huang-says-we-have-to-create-prosperity-for-all-not-just-phds\nComments URL: https://news.ycombinator.com/item?id=46498309\nPoints: 83\n# Comments: 84",
-          "link": "https://www.barchart.com/story/news/36862423/weve-done-our-country-a-great-disservice-by-offshoring-nvidias-jensen-huang-says-we-have-to-create-prosperity-for-all-not-just-phds",
-          "publishedOn": "2026-01-05T13:02:52.000Z",
-          "wordCount": 17881,
-          "title": "Jensen: 'We've done our country a great disservice' by offshoring",
-          "imageUrl": "https://media.barchart.com/contributors-admin/common-images/images/Famous%20People/Image%20of%20Jensen%20Huang%20by%20El%20editorial%20via%20Shutterstock.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46497712",
-          "author": "lylejantzi3rd",
-          "description": "Article URL: https://tonsky.me/blog/tahoe-icons/\nComments URL: https://news.ycombinator.com/item?id=46497712\nPoints: 156\n# Comments: 68",
-          "link": "https://tonsky.me/blog/tahoe-icons/",
-          "publishedOn": "2026-01-05T11:51:42.000Z",
-          "wordCount": 2874,
-          "title": "It's hard to justify Tahoe icons",
-          "imageUrl": "https://tonsky.me/blog/tahoe-icons/open_graph_facebook_smol.png?t=1767611340"
         }
       ]
     }
