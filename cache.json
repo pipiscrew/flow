@@ -996,6 +996,16 @@
           "imageUrl": "https://scx2.b-cdn.net/gfx/news/2026/muscle-stem-cells-buil.jpg"
         },
         {
+          "id": "https://news.ycombinator.com/item?id=46847690",
+          "author": "deofoo",
+          "description": "My wife was planning to open a micro-bakery. We looked at production management software and it was all either expensive or way too generic. The actual workflows for a small-batch manufacturer aren't that complex, so I built one and open-sourced it.\nCraftplan handles recipes (versioned BOMs with cost rollups), inventory (lot traceability, demand forecasting, allergen tracking), orders, production batch planning, and purchasing. Built with Elixir, Ash Framework, Phoenix LiveView, and PostgreSQL.\nLive demo: https://craftplan.fly.dev (test@test.com / Aa123123123123)\nGitHub: https://github.com/puemos/craftplan\nComments URL: https://news.ycombinator.com/item?id=46847690\nPoints: 160\n# Comments: 21",
+          "link": "https://github.com/puemos/craftplan",
+          "publishedOn": "2026-02-01T17:25:39.000Z",
+          "wordCount": 3001,
+          "title": "Show HN: Craftplan – I built my wife a production management tool for her bakery",
+          "imageUrl": "https://repository-images.githubusercontent.com/907760604/9f68b8cd-8533-4f57-8b17-6a72cc612ed9"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=46847039",
           "author": "cmsefton",
           "description": "Article URL: https://yaledailynews.com/articles/english-professors-double-down-on-requiring-printed-copies-of-readings\nComments URL: https://news.ycombinator.com/item?id=46847039\nPoints: 76\n# Comments: 113",
@@ -13784,86 +13794,6 @@
           "wordCount": 6949,
           "title": "Show HN: Tailsnitch – A Security Auditor for Tailscale",
           "imageUrl": "https://opengraph.githubassets.com/25189e771e6cd53c1df173889da2d7ce67b76de6e140fc839fe76aa0660538f1/Adversis/tailsnitch"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46500900",
-          "author": "shcallaway",
-          "description": "Article URL: https://blog.sherwoodcallaway.com/observability-s-past-present-and-future/\nComments URL: https://news.ycombinator.com/item?id=46500900\nPoints: 51\n# Comments: 20",
-          "link": "https://blog.sherwoodcallaway.com/observability-s-past-present-and-future/",
-          "publishedOn": "2026-01-05T16:34:22.000Z",
-          "wordCount": 1873,
-          "title": "Observability's past, present, and future",
-          "imageUrl": "https://bear-images.sfo2.cdn.digitaloceanspaces.com/herman-1683556668-0.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46500873",
-          "author": "zdw",
-          "description": "Article URL: https://bigthink.com/starts-with-a-bang/8-ways-elements-made/\nComments URL: https://news.ycombinator.com/item?id=46500873\nPoints: 50\n# Comments: 26",
-          "link": "https://bigthink.com/starts-with-a-bang/8-ways-elements-made/",
-          "publishedOn": "2026-01-05T16:32:52.000Z",
-          "wordCount": 2901,
-          "title": "The eight ways that all the elements in the Universe are made (2021)",
-          "imageUrl": "https://bigthink.com/wp-content/uploads/2021/11/1280px-Artists_impression_of_strontium_emerging_from_a_neutron_star_merger-e1715117352265.jpg?resize=1200,630"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46500798",
-          "author": "mooreds",
-          "description": "Article URL: https://www.economist.com/christmas-specials/2025/12/18/how-wolves-became-dogs\nComments URL: https://news.ycombinator.com/item?id=46500798\nPoints: 70\n# Comments: 48",
-          "link": "https://www.economist.com/christmas-specials/2025/12/18/how-wolves-became-dogs",
-          "publishedOn": "2026-01-05T16:29:10.000Z",
-          "wordCount": null,
-          "title": "How wolves became dogs",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46500022",
-          "author": "Brajeshwar",
-          "description": "Article URL: https://idiallo.com/blog/learn-css\nComments URL: https://news.ycombinator.com/item?id=46500022\nPoints: 83\n# Comments: 93",
-          "link": "https://idiallo.com/blog/learn-css",
-          "publishedOn": "2026-01-05T15:37:38.000Z",
-          "wordCount": 4010,
-          "title": "CSS sucks because we don't bother learning it (2022)",
-          "imageUrl": "https://cdn.idiallo.com/images/assets/thumb/default-thumb-1.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46499983",
-          "author": "randycupertino",
-          "description": "Article URL: https://arstechnica.com/tech-policy/2025/12/openai-refuses-to-say-where-chatgpt-logs-go-when-users-die/\nComments URL: https://news.ycombinator.com/item?id=46499983\nPoints: 78\n# Comments: 21",
-          "link": "https://arstechnica.com/tech-policy/2025/12/openai-refuses-to-say-where-chatgpt-logs-go-when-users-die/",
-          "publishedOn": "2026-01-05T15:34:40.000Z",
-          "wordCount": 3068,
-          "title": "Murder-suicide case shows OpenAI selectively hides data after users die",
-          "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2025/12/Stein-Erik-Soelberg-and-Suzanne-Adams-via-complaint-1152x648-1765827196.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46499976",
-          "author": "red-polygon",
-          "description": "RevisionDojo is a YC-backed test prep company ($3.4M raised) that sells International Baccalaureate (IB) test prep. Over the past year, users on r/IBO sub-reddit have documented a pattern of unethical marketing practices:\n*Astroturfing:* Coordinated campaigns where accounts pose as students sharing \"cheatsheets\" and \"predicted exam leaks.\" Other accounts then upvote, leave supportive comments, and ask follow-up questions—creating the illusion of organic student excitement. Multiple threads have exposed this pattern [1][2][3].\n*Paid fake posts:* High school students report being offered payment to write promotional Reddit posts [4].\n*Pressuring critics:* Users who post negative reviews report being contacted directly by company representatives, told it's \"a shame\" they're posting publicly […",
-          "link": "https://news.ycombinator.com/item?id=46499976",
-          "publishedOn": "2026-01-05T15:34:14.000Z",
-          "wordCount": 535,
-          "title": "RevisionDojo, a YC startup, is running astroturfing campaigns targeting kids",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46499646",
-          "author": "awaaz",
-          "description": "Why - I got sick of apps abusing notifications on my Android phone. While the OS does give you the ability to switch off notifications based on channels, most apps either don't use it or abuse it intentionally. In my case, I live in a gated society that uses an app called MyGate to allow visitors, and the app intentionally pushes ads through the same channels since you cannot block them.\nWhat - DoNotNotify is an app that logs all incoming notifications, and displays them grouped by app. It also captures the action behind the notification, which can be triggered from the app itself. From this log, you can create rules to whitelist/blacklist notifications from apps depending on their notification content. These filters can even be regex expressions, which allows for more complicated use-cases. The app ships with some pre-defined rules for popular apps like Facebook, Amazon, Instagram, Netflix, TikTok, Reddit etc.\nWhere - The website is at https://donotnotify.com/.\nWould also like to call out that the app runs purely on your device, never communicates with anything on the Internet, and only requires notifications access to work. It is completely free, and there is no advertising or hidden gotchas.\nComments URL: https://news.ycombinator.com/item?id=46499646\nPoints: 82\n# Comments: 25",
-          "link": "https://donotnotify.com/",
-          "publishedOn": "2026-01-05T15:10:47.000Z",
-          "wordCount": 144,
-          "title": "Show HN: DoNotNotify – log and intelligently block notifications on Android",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46499425",
-          "author": "mondobe",
-          "description": "Article URL: https://blog.hris.to/./dealing-with-abandonware.html\nComments URL: https://news.ycombinator.com/item?id=46499425\nPoints: 55\n# Comments: 10",
-          "link": "https://blog.hris.to/dealing-with-abandonware.html",
-          "publishedOn": "2026-01-05T14:53:23.000Z",
-          "wordCount": 1471,
-          "title": "Dealing with abandonware (2024)",
-          "imageUrl": null
         }
       ]
     }
