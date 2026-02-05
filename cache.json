@@ -6,6 +6,16 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=46897737",
+          "author": "ms7892",
+          "description": "Article URL: https://github.com/HKUDS/nanobot\nComments URL: https://news.ycombinator.com/item?id=46897737\nPoints: 54\n# Comments: 28",
+          "link": "https://github.com/HKUDS/nanobot",
+          "publishedOn": "2026-02-05T09:39:11.000Z",
+          "wordCount": 5889,
+          "title": "Nanobot: Ultra-Lightweight Alternative to OpenClaw",
+          "imageUrl": "https://opengraph.githubassets.com/64a873a26d0ba1ce3acf09bec017d57c40c28e93ae98b783037fe38c44e35be4/HKUDS/nanobot"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=46897620",
           "author": "jacquesm",
           "description": "Article URL: https://jacquesmattheij.com/if-you-have-nothing-to-hide/\nComments URL: https://news.ycombinator.com/item?id=46897620\nPoints: 53\n# Comments: 47",
@@ -13594,66 +13604,6 @@
           "wordCount": 1809,
           "title": "Polymarket refuses to pay bets that US would 'invade' Venezuela",
           "imageUrl": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F21b20a45-7187-4aa3-92fe-15d0b61358f2.jpg?source=next-barrier-page"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46521084",
-          "author": "csuwldcat",
-          "description": "Article URL: https://backalleycoder.com/posts/passseeds-an-experiment-in-hijacking-passkeys-to-unlock-cryptographic-use-cases/\nComments URL: https://news.ycombinator.com/item?id=46521084\nPoints: 50\n# Comments: 32",
-          "link": "https://backalleycoder.com/posts/passseeds-an-experiment-in-hijacking-passkeys-to-unlock-cryptographic-use-cases/",
-          "publishedOn": "2026-01-07T00:50:58.000Z",
-          "wordCount": 4245,
-          "title": "PassSeeds – hijacking Passkeys to unlock new cryptographic use cases",
-          "imageUrl": "https://csuwildcat.github.io/_astro/passseed-logo.Dtrp9Ve4.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46521029",
-          "author": "ptorrone",
-          "description": "Article URL: https://blog.adafruit.com/2026/01/06/we-recreated-steve-jobss-1975-atari-horoscope-program-and-you-can-run-it/\nComments URL: https://news.ycombinator.com/item?id=46521029\nPoints: 52\n# Comments: 11",
-          "link": "https://blog.adafruit.com/2026/01/06/we-recreated-steve-jobss-1975-atari-horoscope-program-and-you-can-run-it/",
-          "publishedOn": "2026-01-07T00:44:43.000Z",
-          "wordCount": null,
-          "title": "We recreated Steve Jobs's 1975 Atari horoscope program",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46520935",
-          "author": "PaulHoule",
-          "description": "Article URL: https://advanced.onlinelibrary.wiley.com/doi/10.1002/adsr.202500124\nComments URL: https://news.ycombinator.com/item?id=46520935\nPoints: 57\n# Comments: 34",
-          "link": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/adsr.202500124",
-          "publishedOn": "2026-01-07T00:31:01.000Z",
-          "wordCount": null,
-          "title": "Electronic nose for indoor mold detection and identification",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46520926",
-          "author": "lobito25",
-          "description": "A fast SOCKS5 proxy that tunnels your traffic through what looks like normal SMTP email, bypassing Deep Packet Inspection firewalls.\nHow it works:\n- Client runs a local SOCKS5 proxy (127.0.0.1:1080)\n- Traffic is sent to server disguised as SMTP (EHLO, STARTTLS, AUTH)\n- DPI sees legitimate email session, not a VPN/proxy\nFeatures:\n- One-liner install on any Linux VPS\n- Multi-user with per-user secrets and IP whitelists\n- Auto-generated client packages (just double-click to run)\n- Auto-reconnect on connection loss\n- Works with any app that supports SOCKS5\nTech: Python/asyncio, TLS 1.2+, HMAC-SHA256 auth\nGitHub: https://github.com/x011/smtp-tunnel-proxy\nComments URL: https://news.ycombinator.com/item?id=46520926\nPoints: 52\n# Comments: 18",
-          "link": "https://github.com/x011/smtp-tunnel-proxy",
-          "publishedOn": "2026-01-07T00:30:09.000Z",
-          "wordCount": 8596,
-          "title": "Show HN: SMTP Tunnel – A SOCKS5 proxy disguised as email traffic to bypass DPI",
-          "imageUrl": "https://opengraph.githubassets.com/34a7aa21ea8e1bb25f4d73f27e15db96b91cceacddaa82974c8e02286e9d006e/x011/smtp-tunnel-proxy"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46520879",
-          "author": "todsacerdoti",
-          "description": "Article URL: https://hecate.pink/blog/2026/trans-flag-emoji/\nComments URL: https://news.ycombinator.com/item?id=46520879\nPoints: 60\n# Comments: 10",
-          "link": "https://hecate.pink/blog/2026/trans-flag-emoji/",
-          "publishedOn": "2026-01-07T00:22:06.000Z",
-          "wordCount": 1241,
-          "title": "Why the trans flag emoji is the 5-codepoint sequence it is",
-          "imageUrl": "https://hecate.pink/favicon.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46520508",
-          "author": "surprisetalk",
-          "description": "Article URL: https://www.youtube.com/watch?v=9e0SQn9uUlw\nComments URL: https://news.ycombinator.com/item?id=46520508\nPoints: 92\n# Comments: 63",
-          "link": "https://www.youtube.com/watch?v=9e0SQn9uUlw",
-          "publishedOn": "2026-01-06T23:40:03.000Z",
-          "wordCount": null,
-          "title": "Hyundai Introduces Its Next-Gen Atlas Robot at CES 2026 [video]",
-          "imageUrl": null
         }
       ]
     }
