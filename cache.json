@@ -26,6 +26,16 @@
           "imageUrl": null
         },
         {
+          "id": "https://news.ycombinator.com/item?id=46909037",
+          "author": "bsgeraci",
+          "description": "I'm a software engineer who keeps getting pulled into DevOps no matter how hard I try to escape it. I recently moved into a Lead DevOps Engineer role writing tooling to automate a lot of the pain away. On my own time outside of work, I built Artifact Keeper — a self-hosted artifact registry that supports 45+ package formats. Security scanning, SSO, replication, WASM plugins — it's all in the MIT-licensed release. No enterprise tier. No feature gates. No surprise invoices.\nYour package managers — pip, npm, docker, cargo, helm, go, all of them — talk directly to it using their native protocols. Security scanning with Trivy, Grype, and OpenSCAP is built in, with a policy engine that can quarantine bad artifacts before they hit your builds. And if you need a format it doesn't support yet, ther…",
+          "link": "https://github.com/artifact-keeper",
+          "publishedOn": "2026-02-06T04:12:59.000Z",
+          "wordCount": 1307,
+          "title": "Show HN: Artifact Keeper – Open-Source Artifactory/Nexus Alternative in Rust",
+          "imageUrl": "https://avatars.githubusercontent.com/u/258666557?s=280&v=4"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=46908671",
           "author": "svespalec",
           "description": "Article URL: https://vespalec.com/blog/tower-of-flaws/\nComments URL: https://news.ycombinator.com/item?id=46908671\nPoints: 52\n# Comments: 19",

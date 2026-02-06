@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-02-06T08:53:20.250Z</updated>
+    <updated>2026-02-06T09:52:25.669Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
@@ -30,6 +30,17 @@ Points: 66
 # Comments: 28]]></summary>
         <author>
             <name>r4um</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Artifact Keeper – Open-Source Artifactory/Nexus Alternative in Rust]]></title>
+        <id>https://news.ycombinator.com/item?id=46909037</id>
+        <link href="https://github.com/artifact-keeper"/>
+        <updated>2026-02-06T04:12:59.000Z</updated>
+        <summary type="html"><![CDATA[I'm a software engineer who keeps getting pulled into DevOps no matter how hard I try to escape it. I recently moved into a Lead DevOps Engineer role writing tooling to automate a lot of the pain away. On my own time outside of work, I built Artifact Keeper — a self-hosted artifact registry that supports 45+ package formats. Security scanning, SSO, replication, WASM plugins — it's all in the MIT-licensed release. No enterprise tier. No feature gates. No surprise invoices.
+Your package managers — pip, npm, docker, cargo, helm, go, all of them — talk directly to it using their native protocols. Security scanning with Trivy, Grype, and OpenSCAP is built in, with a policy engine that can quarantine bad artifacts before they hit your builds. And if you need a format it doesn't support yet, ther…]]></summary>
+        <author>
+            <name>bsgeraci</name>
         </author>
     </entry>
     <entry>
