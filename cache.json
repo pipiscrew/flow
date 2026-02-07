@@ -26,6 +26,26 @@
           "imageUrl": null
         },
         {
+          "id": "https://news.ycombinator.com/item?id=46918429",
+          "author": "isitcontent",
+          "description": "Example repo: https://github.com/valdanylchuk/breezydemo\nThe underlying ESP-IDF component: https://github.com/valdanylchuk/breezybox\nIt is something like Raspberry Pi, but without the overhead of a full server-grade OS.\nIt captures a lot of the old school DOS era coding experience. I created a custom fast text mode driver, plan to add VGA-like graphics next. ANSI text demos run smooth, as you can see in the demo video featured in the Readme.\nApp installs also work smoothly. The first time it installed 6 apps from my git repo with one command, felt like, \"OMG, I got homebrew to run on a toaster!\" And best of all, it can install from any repo, no approvals or waiting, you just publish a compatible ELF file in your release.\nCoverage:\nHackaday: https://hackaday.com/2026/02/06/breezybox-a-busybox-like-she...\nHackster.io: https://www.hackster.io/news/valentyn-danylchuk-s-breezybox-...\nReddit: https://www.reddit.com/r/esp32/comments/1qq503c/i_made_an_in...\nComments URL: https://news.ycombinator.com/item?id=46918429\nPoints: 131\n# Comments: 13",
+          "link": "https://github.com/valdanylchuk/breezydemo",
+          "publishedOn": "2026-02-06T21:33:11.000Z",
+          "wordCount": 2668,
+          "title": "Show HN: Look Ma, No Linux: Shell, App Installer, Vi, Cc on ESP32-S3 / BreezyBox",
+          "imageUrl": "https://opengraph.githubassets.com/e858ccc3f0639b81cd1a040a7076cc02d33953dd0cdea60df137d629f1819e55/valdanylchuk/breezydemo"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46918254",
+          "author": "dmpetrov",
+          "description": "Article URL: https://github.com/pydantic/monty\nComments URL: https://news.ycombinator.com/item?id=46918254\nPoints: 109\n# Comments: 49",
+          "link": "https://github.com/pydantic/monty",
+          "publishedOn": "2026-02-06T21:16:36.000Z",
+          "wordCount": 6574,
+          "title": "Monty: A minimal, secure Python interpreter written in Rust for use by AI",
+          "imageUrl": "https://opengraph.githubassets.com/633726463c719993a0ccfb64d06d2bb9eb00ab9a0fa11ba71a17a2ce8be934ef/pydantic/monty"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=46917033",
           "author": "vecti",
           "description": "Hello everyone!\nI'm a solo developer who's been doing UI/UX work since 2007. Over the years, I watched design tools evolve from lightweight products into bloated feature-heavy platforms. I kept finding myself using a small amount of the features while the rest just mostly got in the way.\nSo a few years ago I set out to build a design tool just like I wanted. So I built Vecti with what I actually need: pixel-perfect grid snapping, a performant canvas renderer, shared asset libraries, and export/presentation features. No collaborative whiteboarding. No plugin ecosystem. No enterprise features. Just the design loop.\nFour years later, I can proudly show it off. Built and hosted in the EU with European privacy regulations. Free tier available (no credit card, one editor forever).\nOn privacy: I use some basic analytics (page views, referrers) but zero tracking inside the app itself. No session recordings, no behavior analytics, no third-party scripts beyond the essentials.\nIf you're a solo designer or small team who wants a tool that stays out of your way, I'd genuinely appreciate your feedback:\nhttps://vecti.com\nHappy to answer questions about the tech stack, architecture decisions, why certain features didn't make the cut, or what's next.\nComments URL: https://news.ycombinator.com/item?id=46917033\nPoints: 79\n# Comments: 35",
@@ -13674,46 +13694,6 @@
           "wordCount": 3741,
           "title": "ChatGPT Health is a marketplace, guess who is the product?",
           "imageUrl": "https://consciousdigital.org/wp-content/uploads/2026/01/chatgpt-health.jpeg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46540660",
-          "author": "fruitbarrel",
-          "description": "I forked a PyTorch DeepDream implementation and added video support with temporal consistency. It produces smooth DeepDream videos with minimal flickering, and is highly flexible including many parameters and supports multiple pretrained image classifiers including GoogLeNet. Check out the repo for sample videos!\nFeatures:\n- Optical flow warps previous hallucinations into the current frame\n- Occlusion masking prevents ghosting and hallucination transfer when objects move\n- Advanced parameters (layers, octaves, iterations) still work\n- Works on GPU, CPU, and Apple Silicon\nComments URL: https://news.ycombinator.com/item?id=46540660\nPoints: 50\n# Comments: 17",
-          "link": "https://github.com/jeremicna/deepdream-video-pytorch",
-          "publishedOn": "2026-01-08T13:21:59.000Z",
-          "wordCount": 5364,
-          "title": "Show HN: DeepDream for Video with Temporal Consistency",
-          "imageUrl": "https://opengraph.githubassets.com/01c9c0cfe4bee55936607bd6ac909425dda050e1ae1e49786aef6a603d5a6df8/jeremicna/deepdream-video-pytorch"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46540559",
-          "author": "thelastgallon",
-          "description": "Article URL: https://www.construction-physics.com/p/how-did-tvs-get-so-cheap\nComments URL: https://news.ycombinator.com/item?id=46540559\nPoints: 50\n# Comments: 72",
-          "link": "https://www.construction-physics.com/p/how-did-tvs-get-so-cheap",
-          "publishedOn": "2026-01-08T13:11:18.000Z",
-          "wordCount": 6721,
-          "title": "How Did TVs Get So Cheap?",
-          "imageUrl": "https://substackcdn.com/image/fetch/$s_!pj70!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3552d046-2d55-408c-9059-b35d8c4d3ee0_1220x984.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46540498",
-          "author": "ravenical",
-          "description": "Article URL: https://github.com/LRitzdorf/TheJeffDeanFacts\nComments URL: https://news.ycombinator.com/item?id=46540498\nPoints: 100\n# Comments: 33",
-          "link": "https://github.com/LRitzdorf/TheJeffDeanFacts",
-          "publishedOn": "2026-01-08T13:02:05.000Z",
-          "wordCount": 4518,
-          "title": "The Jeff Dean Facts",
-          "imageUrl": "https://opengraph.githubassets.com/274fbf25827e217ac33b889906de2010bd05d3badb42d6ad7315e8ce004f38dd/LRitzdorf/TheJeffDeanFacts"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46540126",
-          "author": "Growtika",
-          "description": "Article URL: https://www.nature.com/articles/d41586-025-04150-w\nComments URL: https://news.ycombinator.com/item?id=46540126\nPoints: 145\n# Comments: 69",
-          "link": "https://www.nature.com/articles/d41586-025-04150-w",
-          "publishedOn": "2026-01-08T12:07:31.000Z",
-          "wordCount": 4679,
-          "title": "Some ecologists fear their field is losing touch with nature",
-          "imageUrl": "https://media.nature.com/lw1200/magazine-assets/d41586-025-04150-w/d41586-025-04150-w_51839806.jpg"
         }
       ]
     }
