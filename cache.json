@@ -6,6 +6,16 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=46922049",
+          "author": "jesperordrup",
+          "description": "Article URL: https://jesperordrup.github.io/vocal-guide/\nComments URL: https://news.ycombinator.com/item?id=46922049\nPoints: 107\n# Comments: 38",
+          "link": "https://jesperordrup.github.io/vocal-guide/",
+          "publishedOn": "2026-02-07T07:37:03.000Z",
+          "wordCount": 8615,
+          "title": "Vocal Guide – belt sing without killing yourself",
+          "imageUrl": "https://jesperordrup.github.io/vocal-guide/og-image.svg"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=46920487",
           "author": "SerCe",
           "description": "Article URL: https://www.brendangregg.com/blog/2026-02-07/why-i-joined-openai.html\nComments URL: https://news.ycombinator.com/item?id=46920487\nPoints: 85\n# Comments: 67",
@@ -13473,36 +13483,6 @@
           "publishedOn": "2026-01-09T03:24:12.000Z",
           "wordCount": null,
           "title": "Implementing a web server in a single printf() call (2014)",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46549444",
-          "author": "jedwhite",
-          "description": "I wanted to run markdown files like shell scripts. So I built an open source tool that lets you use a shebang to pipe them through Claude Code with full stdin/stdout support.\ntask.md:\n    #!/usr/bin/env claude-run\n\n    Analyze this codebase and summarize the architecture.\n\n    chmod +x task.md\n\n    ./task.md\n\nA script that runs your tests and reports results (`run_tests.md`):\n    #!/usr/bin/env claude-run --permission-mode bypassPermissions\n\n    Run ./test/run_tests.sh and summarize what passed and failed.\n\n    cat data.json | ./analyze.md > results.txt\n\n    git log -10 | ./summarize.md\n\n    ./generate.md | ./review.md > final.txt\n\n    for f in logs/\\*.txt; do\n\n        cat \"$f\" | ./analyze.md >> summary.txt\n\n    done\n\nOne thing we didn't expect is that these are more auditable (and shareable) than shell scripts. Install scripts like `curl -fsSL https://bun.com/install | bash` could become:\n    `curl -fsSL https://bun.com/install.md | claude-run`\n\nThe (really cool) executable markdown idea and auditability examples are from Pete Koomen (@koomen on X). As Pete says: \"Markdown feels increasingly important in a way I'm not sure most people have wrapped their heads around yet.\"\nWe implemented it and added Unix pipe semantics. Currently works with Claude Code - hoping to support other AI coding tools too. You can also route scripts through different cloud providers (AWS Bedrock, etc.) if you want separate billing for automated jobs.\nGitHub: https://github.com/andisearch/claude-switcher\nWhat workflows would you use this for?\nComments URL: https://news.ycombinator.com/item?id=46549444\nPoints: 55\n# Comments: 48",
-          "link": "https://news.ycombinator.com/item?id=46549444",
-          "publishedOn": "2026-01-09T02:29:12.000Z",
-          "wordCount": 3791,
-          "title": "Show HN: Executable Markdown files with Unix pipes",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46549333",
-          "author": "nickponline",
-          "description": "I deal with a lot of geometry stuff at work with computer vision and photogrammetry, which usually comes from the real world. It's seldom clean and neat, and I'm often trying to find a way to \"make it nice\" or \"make it pretty\". I've always struggled with what that really means formally.\nThat led me to shape regularization (a technique used in computational geometry to clean up geometric data). CGAL had implemented a few methods for that, but there are more ways to do it, which I thought were nice. Also I typically work in Python, so it was nice to have a pure Python library could handle this.\nI struggled to get the first version working as a QP. At a high level most of these boil down to minimizing a cost A + B where A is the cost associated the geometry and goes up the more you move it, and B is the cost associated \"niceness\" or rather the constraints you impose, and goes down the more you impose them. Then you try and minimize A + B or rather HA + (1-H)B where H is a hyper-parameter that controls the relative importance of A and B.\nI needed a Python implementation so started with the examples implemented in CGAL then added a couple more for snap and joint regularization and metric regularization.\nComments URL: https://news.ycombinator.com/item?id=46549333\nPoints: 64\n# Comments: 4",
-          "link": "https://github.com/nickponline/shreg",
-          "publishedOn": "2026-01-09T02:13:01.000Z",
-          "wordCount": 9504,
-          "title": "Show HN: Various shape regularization algorithms",
-          "imageUrl": "https://opengraph.githubassets.com/fd390bd8d724cf3c6558dfc198ea9ef5af9c1be461d092cd29227131dc1e580d/nickponline/shreg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46548940",
-          "author": "erutuon",
-          "description": "Article URL: https://kueda.net/blog/2026/01/06/why-i-left-inat/\nComments URL: https://news.ycombinator.com/item?id=46548940\nPoints: 102\n# Comments: 22",
-          "link": "https://kueda.net/blog/2026/01/06/why-i-left-inat/",
-          "publishedOn": "2026-01-09T01:17:51.000Z",
-          "wordCount": 3370,
-          "title": "Why I Left iNaturalist",
           "imageUrl": null
         }
       ]

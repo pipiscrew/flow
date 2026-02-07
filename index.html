@@ -22,8 +22,8 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2026-02-07 datetime="2026-02-07T01:45:04.000Z">2026-02-07</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2026-02-07 datetime="2026-02-07T01:45:04.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2026-02-07 datetime="2026-02-07T07:37:03.000Z">2026-02-07</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2026-02-07 datetime="2026-02-07T07:37:03.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
@@ -38,6 +38,29 @@
                   <a class="source-heading__link" href="https://news.ycombinator.com/">Open</a>
                 </h3>
                 <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;46922049"
+                        open
+                      >
+                        <summary class="article-expander__title">Vocal Guide – belt sing without killing yourself</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://jesperordrup.github.io/vocal-guide/">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://jesperordrup.github.io/vocal-guide/og-image.svg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Article URL: https://jesperordrup.github.io/vocal-guide/
+Comments URL: https://news.ycombinator.com/item?id&#x3D;46922049
+Points: 107
+# Comments: 38</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;29
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
                     <article>
                       <details
                         class="article-expander"
@@ -31517,109 +31540,6 @@ Points: 56
                         </a>
                       </details>
                     </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;46549444"
-                        open
-                      >
-                        <summary class="article-expander__title">Show HN: Executable Markdown files with Unix pipes</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://news.ycombinator.com/item?id&#x3D;46549444">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>I wanted to run markdown files like shell scripts. So I built an open source tool that lets you use a shebang to pipe them through Claude Code with full stdin/stdout support.
-task.md:
-    #!/usr/bin/env claude-run
-
-    Analyze this codebase and summarize the architecture.
-
-    chmod +x task.md
-
-    ./task.md
-
-A script that runs your tests and reports results (&#x60;run_tests.md&#x60;):
-    #!/usr/bin/env claude-run --permission-mode bypassPermissions
-
-    Run ./test/run_tests.sh and summarize what passed and failed.
-
-    cat data.json | ./analyze.md &gt; results.txt
-
-    git log -10 | ./summarize.md
-
-    ./generate.md | ./review.md &gt; final.txt
-
-    for f in logs/\*.txt; do
-
-        cat &quot;$f&quot; | ./analyze.md &gt;&gt; summary.txt
-
-    done
-
-One thing we didn&#x27;t expect is that these are more auditable (and shareable) than shell scripts. Install scripts like &#x60;curl -fsSL https://bun.com/install | bash&#x60; could become:
-    &#x60;curl -fsSL https://bun.com/install.md | claude-run&#x60;
-
-The (really cool) executable markdown idea and auditability examples are from Pete Koomen (@koomen on X). As Pete says: &quot;Markdown feels increasingly important in a way I&#x27;m not sure most people have wrapped their heads around yet.&quot;
-We implemented it and added Unix pipe semantics. Currently works with Claude Code - hoping to support other AI coding tools too. You can also route scripts through different cloud providers (AWS Bedrock, etc.) if you want separate billing for automated jobs.
-GitHub: https://github.com/andisearch/claude-switcher
-What workflows would you use this for?
-Comments URL: https://news.ycombinator.com/item?id&#x3D;46549444
-Points: 55
-# Comments: 48</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;13
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;46549333"
-                        open
-                      >
-                        <summary class="article-expander__title">Show HN: Various shape regularization algorithms</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://github.com/nickponline/shreg">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://opengraph.githubassets.com/fd390bd8d724cf3c6558dfc198ea9ef5af9c1be461d092cd29227131dc1e580d/nickponline/shreg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>I deal with a lot of geometry stuff at work with computer vision and photogrammetry, which usually comes from the real world. It&#x27;s seldom clean and neat, and I&#x27;m often trying to find a way to &quot;make it nice&quot; or &quot;make it pretty&quot;. I&#x27;ve always struggled with what that really means formally.
-That led me to shape regularization (a technique used in computational geometry to clean up geometric data). CGAL had implemented a few methods for that, but there are more ways to do it, which I thought were nice. Also I typically work in Python, so it was nice to have a pure Python library could handle this.
-I struggled to get the first version working as a QP. At a high level most of these boil down to minimizing a cost A + B where A is the cost associated the geometry and goes up the more you move it, and B is the cost associated &quot;niceness&quot; or rather the constraints you impose, and goes down the more you impose them. Then you try and minimize A + B or rather HA + (1-H)B where H is a hyper-parameter that controls the relative importance of A and B.
-I needed a Python implementation so started with the examples implemented in CGAL then added a couple more for snap and joint regularization and metric regularization.
-Comments URL: https://news.ycombinator.com/item?id&#x3D;46549333
-Points: 64
-# Comments: 4</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;32
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;46548940"
-                        open
-                      >
-                        <summary class="article-expander__title">Why I Left iNaturalist</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://kueda.net/blog/2026/01/06/why-i-left-inat/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Article URL: https://kueda.net/blog/2026/01/06/why-i-left-inat/
-Comments URL: https://news.ycombinator.com/item?id&#x3D;46548940
-Points: 102
-# Comments: 22</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;11
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
                 </section>
               </section>
             </li>
@@ -31627,8 +31547,8 @@ Points: 102
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/pipiscrew/flow/actions/runs/21780522165">
-        <time id="build-timestamp" datetime="2026-02-07T13:03:12.211Z">2026-02-07T13:03:12.211Z</time>
+      <a class="footer-link" href="https://github.com/pipiscrew/flow/actions/runs/21781647045">
+        <time id="build-timestamp" datetime="2026-02-07T14:33:01.291Z">2026-02-07T14:33:01.291Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
