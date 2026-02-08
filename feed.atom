@@ -2,10 +2,62 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-02-08T03:18:28.658Z</updated>
+    <updated>2026-02-08T05:25:39.405Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Homeland Security Spying on Reddit Users]]></title>
+        <id>https://news.ycombinator.com/item?id=46931213</id>
+        <link href="https://www.kenklippenstein.com/p/homeland-security-spies-on-reddit"/>
+        <updated>2026-02-08T03:59:24.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.kenklippenstein.com/p/homeland-security-spies-on-reddit
+Comments URL: https://news.ycombinator.com/item?id=46931213
+Points: 50
+# Comments: 11]]></summary>
+        <author>
+            <name>duxup</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Vouch]]></title>
+        <id>https://news.ycombinator.com/item?id=46930961</id>
+        <link href="https://twitter.com/mitchellh/status/2020252149117313349"/>
+        <updated>2026-02-08T03:09:28.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://twitter.com/mitchellh/status/2020252149117313349
+Comments URL: https://news.ycombinator.com/item?id=46930961
+Points: 54
+# Comments: 9]]></summary>
+        <author>
+            <name>chwtutha</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: LocalGPT – A local-first AI assistant in Rust with persistent memory]]></title>
+        <id>https://news.ycombinator.com/item?id=46930391</id>
+        <link href="https://github.com/localgpt-app/localgpt"/>
+        <updated>2026-02-08T01:26:38.000Z</updated>
+        <summary type="html"><![CDATA[I built LocalGPT over 4 nights as a Rust reimagining of the OpenClaw assistant pattern (markdown-based persistent memory, autonomous heartbeat tasks, skills system).
+It compiles to a single ~27MB binary — no Node.js, Docker, or Python required.
+Key features:
+- Persistent memory via markdown files (MEMORY, HEARTBEAT, SOUL markdown files) — compatible with OpenClaw's format
+- Full-text search (SQLite FTS5) + semantic search (local embeddings, no API key needed)
+- Autonomous heartbeat runner that checks tasks on a configurable interval
+- CLI + web interface + desktop GUI
+- Multi-provider: Anthropic, OpenAI, Ollama etc
+- Apache 2.0
+Install: `cargo install localgpt`
+I use it daily as a knowledge accumulator, research assistant, and autonomous task runner for my side projects. The memory compounds — every session makes the next one better.
+GitHub: https://github.com/localgpt-app/localgpt
+Website: https://localgpt.app
+Would love feedback on the architecture or feature ideas.
+Comments URL: https://news.ycombinator.com/item?id=46930391
+Points: 109
+# Comments: 29]]></summary>
+        <author>
+            <name>yi_wang</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[The silent death of good code]]></title>
         <id>https://news.ycombinator.com/item?id=46929391</id>
@@ -18148,123 +18200,6 @@ Points: 82
 # Comments: 57]]></summary>
         <author>
             <name>zdw</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: I made a memory game to teach you to play piano by ear]]></title>
-        <id>https://news.ycombinator.com/item?id=46556210</id>
-        <link href="https://lend-me-your-ears.specr.net/"/>
-        <updated>2026-01-09T17:17:28.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://lend-me-your-ears.specr.net
-Comments URL: https://news.ycombinator.com/item?id=46556210
-Points: 66
-# Comments: 20]]></summary>
-        <author>
-            <name>vunderba</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Vietnam government has banned rooted phones from using any banking app]]></title>
-        <id>https://news.ycombinator.com/item?id=46555963</id>
-        <link href="https://xdaforums.com/t/discussion-the-root-and-mod-hiding-fingerprint-spoofing-keybox-stealing-cat-and-mouse-game.4425939/page-118"/>
-        <updated>2026-01-09T17:00:11.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://xdaforums.com/t/discussion-the-root-and-mod-hiding-fingerprint-spoofing-keybox-stealing-cat-and-mouse-game.4425939/page-118
-Comments URL: https://news.ycombinator.com/item?id=46555963
-Points: 193
-# Comments: 203]]></summary>
-        <author>
-            <name>Magnusmaster</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Flock Hardcoded the Password for America's Surveillance Infrastructure 53 Times]]></title>
-        <id>https://news.ycombinator.com/item?id=46555807</id>
-        <link href="https://nexanet.ai/blog/53-times-flocksafety-hardcoded-the-password-for-americas-surveillance-infrastructure"/>
-        <updated>2026-01-09T16:49:59.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://nexanet.ai/blog/53-times-flocksafety-hardcoded-the-password-for-americas-surveillance-infrastructure
-Comments URL: https://news.ycombinator.com/item?id=46555807
-Points: 68
-# Comments: 26]]></summary>
-        <author>
-            <name>fuck_flock</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Cloudflare CEO on the Italy Fines]]></title>
-        <id>https://news.ycombinator.com/item?id=46555760</id>
-        <link href="https://twitter.com/eastdakota/status/2009654937303896492"/>
-        <updated>2026-01-09T16:46:48.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://twitter.com/eastdakota/status/2009654937303896492
-Comments URL: https://news.ycombinator.com/item?id=46555760
-Points: 55
-# Comments: 30]]></summary>
-        <author>
-            <name>sidcool</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[SendGrid isn’t emailing about ICE or BLM – it’s a phishing attack]]></title>
-        <id>https://news.ycombinator.com/item?id=46555615</id>
-        <link href="https://fredbenenson.com/blog/2026/01/09/sendgrid-isnt-emailing-you-about-ice-or-blm-its-a-phishing-attack/"/>
-        <updated>2026-01-09T16:36:48.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://fredbenenson.com/blog/2026/01/09/sendgrid-isnt-emailing-you-about-ice-or-blm-its-a-phishing-attack/
-Comments URL: https://news.ycombinator.com/item?id=46555615
-Points: 112
-# Comments: 69]]></summary>
-        <author>
-            <name>mecredis</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Why is SendGrid emailing me about supporting ICE?]]></title>
-        <id>https://news.ycombinator.com/item?id=46555615</id>
-        <link href="https://fredbenenson.com/blog/2026/01/09/why-is-sendgrid-emailing-me-about-supporting-ice/"/>
-        <updated>2026-01-09T16:36:48.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://fredbenenson.com/blog/2026/01/09/why-is-sendgrid-emailing-me-about-supporting-ice/
-Comments URL: https://news.ycombinator.com/item?id=46555615
-Points: 96
-# Comments: 50]]></summary>
-        <author>
-            <name>mecredis</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Latest SteamOS Beta Now Includes Ntsync Kernel Driver]]></title>
-        <id>https://news.ycombinator.com/item?id=46555512</id>
-        <link href="https://www.phoronix.com/news/Steam-OS-Beta-NTSYNC"/>
-        <updated>2026-01-09T16:27:19.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.phoronix.com/news/Steam-OS-Beta-NTSYNC
-Comments URL: https://news.ycombinator.com/item?id=46555512
-Points: 70
-# Comments: 22]]></summary>
-        <author>
-            <name>LorenDB</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Putting the "You" in CPU (2023)]]></title>
-        <id>https://news.ycombinator.com/item?id=46554982</id>
-        <link href="https://cpu.land/"/>
-        <updated>2026-01-09T15:38:17.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://cpu.land/
-Comments URL: https://news.ycombinator.com/item?id=46554982
-Points: 57
-# Comments: 5]]></summary>
-        <author>
-            <name>vinhnx</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Amiga Pointer Archive]]></title>
-        <id>https://news.ycombinator.com/item?id=46554897</id>
-        <link href="https://heckmeck.de/pointers/"/>
-        <updated>2026-01-09T15:29:37.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://heckmeck.de/pointers/
-Comments URL: https://news.ycombinator.com/item?id=46554897
-Points: 54
-# Comments: 18]]></summary>
-        <author>
-            <name>erickhill</name>
         </author>
     </entry>
 </feed>

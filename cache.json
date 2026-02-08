@@ -6,6 +6,36 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=46931213",
+          "author": "duxup",
+          "description": "Article URL: https://www.kenklippenstein.com/p/homeland-security-spies-on-reddit\nComments URL: https://news.ycombinator.com/item?id=46931213\nPoints: 50\n# Comments: 11",
+          "link": "https://www.kenklippenstein.com/p/homeland-security-spies-on-reddit",
+          "publishedOn": "2026-02-08T03:59:24.000Z",
+          "wordCount": 3111,
+          "title": "Homeland Security Spying on Reddit Users",
+          "imageUrl": "https://substackcdn.com/image/fetch/$s_!9abv!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb0fe9948-1e39-4d37-92b0-b89619c807a7_1536x1024.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46930961",
+          "author": "chwtutha",
+          "description": "Article URL: https://twitter.com/mitchellh/status/2020252149117313349\nComments URL: https://news.ycombinator.com/item?id=46930961\nPoints: 54\n# Comments: 9",
+          "link": "https://twitter.com/mitchellh/status/2020252149117313349",
+          "publishedOn": "2026-02-08T03:09:28.000Z",
+          "wordCount": 772,
+          "title": "Vouch",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46930391",
+          "author": "yi_wang",
+          "description": "I built LocalGPT over 4 nights as a Rust reimagining of the OpenClaw assistant pattern (markdown-based persistent memory, autonomous heartbeat tasks, skills system).\nIt compiles to a single ~27MB binary — no Node.js, Docker, or Python required.\nKey features:\n- Persistent memory via markdown files (MEMORY, HEARTBEAT, SOUL markdown files) — compatible with OpenClaw's format\n- Full-text search (SQLite FTS5) + semantic search (local embeddings, no API key needed)\n- Autonomous heartbeat runner that checks tasks on a configurable interval\n- CLI + web interface + desktop GUI\n- Multi-provider: Anthropic, OpenAI, Ollama etc\n- Apache 2.0\nInstall: `cargo install localgpt`\nI use it daily as a knowledge accumulator, research assistant, and autonomous task runner for my side projects. The memory compounds — every session makes the next one better.\nGitHub: https://github.com/localgpt-app/localgpt\nWebsite: https://localgpt.app\nWould love feedback on the architecture or feature ideas.\nComments URL: https://news.ycombinator.com/item?id=46930391\nPoints: 109\n# Comments: 29",
+          "link": "https://github.com/localgpt-app/localgpt",
+          "publishedOn": "2026-02-08T01:26:38.000Z",
+          "wordCount": 2933,
+          "title": "Show HN: LocalGPT – A local-first AI assistant in Rust with persistent memory",
+          "imageUrl": "https://opengraph.githubassets.com/d9b36490e52eb873ce0304616bf9bcdd314bc719fdf787346f474877d1b902a6/localgpt-app/localgpt"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=46929391",
           "author": "amitprasad",
           "description": "Article URL: https://amit.prasad.me/blog/rip-good-code\nComments URL: https://news.ycombinator.com/item?id=46929391\nPoints: 71\n# Comments: 73",
@@ -13474,96 +13504,6 @@
           "wordCount": 5369,
           "title": "How Markdown took over the world",
           "imageUrl": "/images/imac-g4-markdown.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46556210",
-          "author": "vunderba",
-          "description": "Article URL: https://lend-me-your-ears.specr.net\nComments URL: https://news.ycombinator.com/item?id=46556210\nPoints: 66\n# Comments: 20",
-          "link": "https://lend-me-your-ears.specr.net/",
-          "publishedOn": "2026-01-09T17:17:28.000Z",
-          "wordCount": 6,
-          "title": "Show HN: I made a memory game to teach you to play piano by ear",
-          "imageUrl": "https://lend-me-your-ears.specr.net/assets/opengraph-banner-image.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46555963",
-          "author": "Magnusmaster",
-          "description": "Article URL: https://xdaforums.com/t/discussion-the-root-and-mod-hiding-fingerprint-spoofing-keybox-stealing-cat-and-mouse-game.4425939/page-118\nComments URL: https://news.ycombinator.com/item?id=46555963\nPoints: 193\n# Comments: 203",
-          "link": "https://xdaforums.com/t/discussion-the-root-and-mod-hiding-fingerprint-spoofing-keybox-stealing-cat-and-mouse-game.4425939/page-118",
-          "publishedOn": "2026-01-09T17:00:11.000Z",
-          "wordCount": 7680,
-          "title": "The Vietnam government has banned rooted phones from using any banking app",
-          "imageUrl": "https://xdaforums.com/data/assets/logo/header-forum.jpeg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46555807",
-          "author": "fuck_flock",
-          "description": "Article URL: https://nexanet.ai/blog/53-times-flocksafety-hardcoded-the-password-for-americas-surveillance-infrastructure\nComments URL: https://news.ycombinator.com/item?id=46555807\nPoints: 68\n# Comments: 26",
-          "link": "https://nexanet.ai/blog/53-times-flocksafety-hardcoded-the-password-for-americas-surveillance-infrastructure",
-          "publishedOn": "2026-01-09T16:49:59.000Z",
-          "wordCount": 5820,
-          "title": "Flock Hardcoded the Password for America's Surveillance Infrastructure 53 Times",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46555760",
-          "author": "sidcool",
-          "description": "Article URL: https://twitter.com/eastdakota/status/2009654937303896492\nComments URL: https://news.ycombinator.com/item?id=46555760\nPoints: 55\n# Comments: 30",
-          "link": "https://twitter.com/eastdakota/status/2009654937303896492",
-          "publishedOn": "2026-01-09T16:46:48.000Z",
-          "wordCount": 769,
-          "title": "Cloudflare CEO on the Italy Fines",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46555615",
-          "author": "mecredis",
-          "description": "Article URL: https://fredbenenson.com/blog/2026/01/09/sendgrid-isnt-emailing-you-about-ice-or-blm-its-a-phishing-attack/\nComments URL: https://news.ycombinator.com/item?id=46555615\nPoints: 112\n# Comments: 69",
-          "link": "https://fredbenenson.com/blog/2026/01/09/sendgrid-isnt-emailing-you-about-ice-or-blm-its-a-phishing-attack/",
-          "publishedOn": "2026-01-09T16:36:48.000Z",
-          "wordCount": 2748,
-          "title": "SendGrid isn’t emailing about ICE or BLM – it’s a phishing attack",
-          "imageUrl": "https://fredbenenson.com/wp-content/uploads/2026/01/Screenshot-2026-01-09-at-7.54.28-AM.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46555615",
-          "author": "mecredis",
-          "description": "Article URL: https://fredbenenson.com/blog/2026/01/09/why-is-sendgrid-emailing-me-about-supporting-ice/\nComments URL: https://news.ycombinator.com/item?id=46555615\nPoints: 96\n# Comments: 50",
-          "link": "https://fredbenenson.com/blog/2026/01/09/why-is-sendgrid-emailing-me-about-supporting-ice/",
-          "publishedOn": "2026-01-09T16:36:48.000Z",
-          "wordCount": 2740,
-          "title": "Why is SendGrid emailing me about supporting ICE?",
-          "imageUrl": "https://fredbenenson.com/wp-content/uploads/2026/01/Screenshot-2026-01-09-at-7.54.28-AM.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46555512",
-          "author": "LorenDB",
-          "description": "Article URL: https://www.phoronix.com/news/Steam-OS-Beta-NTSYNC\nComments URL: https://news.ycombinator.com/item?id=46555512\nPoints: 70\n# Comments: 22",
-          "link": "https://www.phoronix.com/news/Steam-OS-Beta-NTSYNC",
-          "publishedOn": "2026-01-09T16:27:19.000Z",
-          "wordCount": 1765,
-          "title": "Latest SteamOS Beta Now Includes Ntsync Kernel Driver",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46554982",
-          "author": "vinhnx",
-          "description": "Article URL: https://cpu.land/\nComments URL: https://news.ycombinator.com/item?id=46554982\nPoints: 57\n# Comments: 5",
-          "link": "https://cpu.land/",
-          "publishedOn": "2026-01-09T15:38:17.000Z",
-          "wordCount": 393,
-          "title": "Putting the \"You\" in CPU (2023)",
-          "imageUrl": "https://cpu.land/banner.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46554897",
-          "author": "erickhill",
-          "description": "Article URL: https://heckmeck.de/pointers/\nComments URL: https://news.ycombinator.com/item?id=46554897\nPoints: 54\n# Comments: 18",
-          "link": "https://heckmeck.de/pointers/",
-          "publishedOn": "2026-01-09T15:29:37.000Z",
-          "wordCount": 555,
-          "title": "Amiga Pointer Archive",
-          "imageUrl": "https://heckmeck.de/pointers/og-preview-image.png"
         }
       ]
     }
