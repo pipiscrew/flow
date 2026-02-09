@@ -2,10 +2,44 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-02-09T13:23:14.531Z</updated>
+    <updated>2026-02-09T14:58:37.741Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Browse Internet Infrastructure]]></title>
+        <id>https://news.ycombinator.com/item?id=46944555</id>
+        <link href="https://www.wirewiki.com/"/>
+        <updated>2026-02-09T12:35:19.000Z</updated>
+        <summary type="html"><![CDATA[I'm launching Wirewiki.com today!
+Wirewiki makes the internet’s hidden infrastructure browsable.
+I quit my job 5 years ago to scale Nslookup.io. But after reaching 600k monthly users, I hit a ceiling. I couldn't naturally expand beyond DNS because of the domain name.
+So I went back to the drawing board: how would I make it today? Not as a collection of tools, but as a browsable graph.
+I've spent hundreds of hours and commits building that. It's not even at 10% of what I want it to be, but more than enough to be useful, and (in my biased opinion) much better than what's out there.
+Wirewiki launches with DNS lookup, propagation, zone transfer and SPF checking. It also scans the entire IPv4 space for DNS servers and indexes them.
+I'm working on adding more data and tools.
+I feel like I've developed tunnel vision, so if you see anything that feels off, let me know!
+I'll keep Wirewiki open and free. Once it has a substantial amount of users, I'll open it up to sponsorship / brand integration from hosting providers, registrars and CDNs, as users will likely be in the market for those. But my goal is to keep Wirewiki free from display ads. I'm confident that's viable.
+Comments URL: https://news.ycombinator.com/item?id=46944555
+Points: 71
+# Comments: 15]]></summary>
+        <author>
+            <name>pul</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Matrix messaging gaining ground in government IT]]></title>
+        <id>https://news.ycombinator.com/item?id=46944245</id>
+        <link href="https://www.theregister.com/2026/02/09/matrix_element_secure_chat/"/>
+        <updated>2026-02-09T11:53:13.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.theregister.com/2026/02/09/matrix_element_secure_chat/
+Comments URL: https://news.ycombinator.com/item?id=46944245
+Points: 109
+# Comments: 75]]></summary>
+        <author>
+            <name>rbanffy</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Offpunk 3.0]]></title>
         <id>https://news.ycombinator.com/item?id=46943752</id>
@@ -2040,6 +2074,19 @@ Points: 83
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Thought-Terminating Cliché]]></title>
+        <id>https://news.ycombinator.com/item?id=46893069</id>
+        <link href="https://en.wikipedia.org/wiki/Thought-terminating_clich%C3%A9"/>
+        <updated>2026-02-04T22:54:55.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://en.wikipedia.org/wiki/Thought-terminating_clich%C3%A9
+Comments URL: https://news.ycombinator.com/item?id=46893069
+Points: 86
+# Comments: 83]]></summary>
+        <author>
+            <name>walterbell</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[As Rocks May Think]]></title>
         <id>https://news.ycombinator.com/item?id=46893018</id>
         <link href="https://evjang.com/2026/02/04/rocks.html"/>
@@ -2154,6 +2201,19 @@ Points: 57
 # Comments: 15]]></summary>
         <author>
             <name>thm</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[LispE: Lisp Interpreter with Pattern Programming and Lazy Evaluation]]></title>
+        <id>https://news.ycombinator.com/item?id=46889710</id>
+        <link href="https://github.com/naver/lispe"/>
+        <updated>2026-02-04T18:34:29.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://github.com/naver/lispe
+Comments URL: https://news.ycombinator.com/item?id=46889710
+Points: 78
+# Comments: 15]]></summary>
+        <author>
+            <name>PaulHoule</name>
         </author>
     </entry>
     <entry>
@@ -2388,6 +2448,19 @@ Points: 86
 # Comments: 26]]></summary>
         <author>
             <name>bookofjoe</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Custom Firmware for the MZ-RH1 – Ready for Testing]]></title>
+        <id>https://news.ycombinator.com/item?id=46885841</id>
+        <link href="https://sir68k.re/posts/rh1-firmware-available/"/>
+        <updated>2026-02-04T13:57:39.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://sir68k.re/posts/rh1-firmware-available/
+Comments URL: https://news.ycombinator.com/item?id=46885841
+Points: 73
+# Comments: 18]]></summary>
+        <author>
+            <name>jimbauwens</name>
         </author>
     </entry>
     <entry>
@@ -18189,68 +18262,6 @@ Points: 65
 # Comments: 5]]></summary>
         <author>
             <name>SilverElfin</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Why some clothes shrink in the wash – and how to 'unshrink' them]]></title>
-        <id>https://news.ycombinator.com/item?id=46572307</id>
-        <link href="https://www.swinburne.edu.au/news/2025/08/why-some-clothes-shrink-in-the-wash-and-how-to-unshrink-them/"/>
-        <updated>2026-01-11T02:58:36.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.swinburne.edu.au/news/2025/08/why-some-clothes-shrink-in-the-wash-and-how-to-unshrink-them/
-Comments URL: https://news.ycombinator.com/item?id=46572307
-Points: 105
-# Comments: 51]]></summary>
-        <author>
-            <name>OptionOfT</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[What a Programmer Does (1967) [pdf]]]></title>
-        <id>https://news.ycombinator.com/item?id=46572089</id>
-        <link href="http://archive.computerhistory.org/resources/text/Knuth_Don_X4100/PDF_index/k-9-pdf/k-9-u2769-1-Baker-What-Programmer-Does.pdf"/>
-        <updated>2026-01-11T02:15:33.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: http://archive.computerhistory.org/resources/text/Knuth_Don_X4100/PDF_index/k-9-pdf/k-9-u2769-1-Baker-What-Programmer-Does.pdf
-Comments URL: https://news.ycombinator.com/item?id=46572089
-Points: 75
-# Comments: 8]]></summary>
-        <author>
-            <name>nz</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A Year of Work on the Arch Linux Package Management (ALPM) Project]]></title>
-        <id>https://news.ycombinator.com/item?id=46572060</id>
-        <link href="https://devblog.archlinux.page/2026/a-year-of-work-on-the-alpm-project/"/>
-        <updated>2026-01-11T02:08:14.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://devblog.archlinux.page/2026/a-year-of-work-on-the-alpm-project/
-Comments URL: https://news.ycombinator.com/item?id=46572060
-Points: 52
-# Comments: 3]]></summary>
-        <author>
-            <name>susam</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: Ferrite – Markdown editor in Rust with native Mermaid diagram rendering]]></title>
-        <id>https://news.ycombinator.com/item?id=46571980</id>
-        <link href="https://github.com/OlaProeis/Ferrite"/>
-        <updated>2026-01-11T01:50:01.000Z</updated>
-        <summary type="html"><![CDATA[Ferrite: Fast Markdown/Text/Code editor in Rust with native Mermaid diagrams
-Built a Markdown editor using Rust + egui. v0.2.1 just dropped with major Mermaid improvements:
-→ Native Mermaid diagrams - Flowcharts, sequence, state, ER, git graphs - pure Rust, no JS
-→ Split view - Raw + rendered side-by-side with sync scrolling
-→ Syntax highlighting - 40+ languages with large file optimization
-→ JSON/YAML/TOML tree viewer - Structured editing with expand/collapse
-→ Git integration - File tree shows modified/staged/untracked status
-Also: minimap, zen mode, auto-save, session restore, code folding indicators.
-~15MB binary, instant startup. Windows/Linux/macOS.
-GitHub: https://github.com/OlaProeis/Ferrite
-v0.2.2 coming soon with performance improvements for large files. Looking for feedback!
-Comments URL: https://news.ycombinator.com/item?id=46571980
-Points: 84
-# Comments: 25]]></summary>
-        <author>
-            <name>OlaProis</name>
         </author>
     </entry>
 </feed>
