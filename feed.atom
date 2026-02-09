@@ -2,10 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-02-09T02:47:27.718Z</updated>
+    <updated>2026-02-09T05:06:21.040Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Every book recommended on the Odd Lots Discord]]></title>
+        <id>https://news.ycombinator.com/item?id=46939685</id>
+        <link href="https://odd-lots-books.netlify.app/"/>
+        <updated>2026-02-08T23:27:59.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://odd-lots-books.netlify.app/
+Comments URL: https://news.ycombinator.com/item?id=46939685
+Points: 52
+# Comments: 16]]></summary>
+        <author>
+            <name>muggermuch</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[AI makes the easy part easier and the hard part harder]]></title>
         <id>https://news.ycombinator.com/item?id=46939593</id>
@@ -17,6 +30,32 @@ Points: 144
 # Comments: 124]]></summary>
         <author>
             <name>weaksauce</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Reverse Engineering the Prom for the SGI O2]]></title>
+        <id>https://news.ycombinator.com/item?id=46939187</id>
+        <link href="https://mattst88.com/blog/2026/02/08/Reverse_Engineering_the_PROM_for_the_SGI_O2/"/>
+        <updated>2026-02-08T22:25:25.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://mattst88.com/blog/2026/02/08/Reverse_Engineering_the_PROM_for_the_SGI_O2/
+Comments URL: https://news.ycombinator.com/item?id=46939187
+Points: 68
+# Comments: 13]]></summary>
+        <author>
+            <name>mattst88</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Stop Generating, Start Thinking]]></title>
+        <id>https://news.ycombinator.com/item?id=46938958</id>
+        <link href="https://localghost.dev/blog/stop-generating-start-thinking/"/>
+        <updated>2026-02-08T21:58:19.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://localghost.dev/blog/stop-generating-start-thinking/
+Comments URL: https://news.ycombinator.com/item?id=46938958
+Points: 57
+# Comments: 25]]></summary>
+        <author>
+            <name>frizlab</name>
         </author>
     </entry>
     <entry>
@@ -43,6 +82,19 @@ Points: 58
 # Comments: 27]]></summary>
         <author>
             <name>idw</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Art of Roads in Games]]></title>
+        <id>https://news.ycombinator.com/item?id=46938511</id>
+        <link href="https://sandboxspirit.com/blog/art-of-roads-in-games/"/>
+        <updated>2026-02-08T21:05:24.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://sandboxspirit.com/blog/art-of-roads-in-games/
+Comments URL: https://news.ycombinator.com/item?id=46938511
+Points: 135
+# Comments: 42]]></summary>
+        <author>
+            <name>linolevan</name>
         </author>
     </entry>
     <entry>
@@ -108,6 +160,19 @@ Points: 53
 # Comments: 12]]></summary>
         <author>
             <name>nullcathedral</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Experts Have World Models. LLMs Have Word Models]]></title>
+        <id>https://news.ycombinator.com/item?id=46936920</id>
+        <link href="https://www.latent.space/p/adversarial-reasoning"/>
+        <updated>2026-02-08T18:13:48.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.latent.space/p/adversarial-reasoning
+Comments URL: https://news.ycombinator.com/item?id=46936920
+Points: 50
+# Comments: 80]]></summary>
+        <author>
+            <name>aaronng91</name>
         </author>
     </entry>
     <entry>
@@ -18258,112 +18323,6 @@ Points: 52
 # Comments: 70]]></summary>
         <author>
             <name>surprisetalk</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: I used Claude Code to discover connections between 100 books]]></title>
-        <id>https://news.ycombinator.com/item?id=46567400</id>
-        <link href="https://trails.pieterma.es/"/>
-        <updated>2026-01-10T16:56:55.000Z</updated>
-        <summary type="html"><![CDATA[I think LLMs are overused to summarise and underused to help us read deeper.
-I built a system for Claude Code to browse 100 non-fiction books and find interesting connections between them.
-I started out with a pipeline in stages, chaining together LLM calls to build up a context of the library. 
-I was mainly getting back the insight that I was baking into the prompts, and the results weren't particularly surprising.
-On a whim, I gave CC access to my debug CLI tools and found that it wiped the floor with that approach. 
-It gave actually interesting results and required very little orchestration in comparison.
-One of my favourite trail of excerpts goes from Jobs’ reality distortion field to Theranos’ fake demos, to Thiel on startup cults, to Hoffer on mass movement charlatans (https://trails.pieterma.es/trail/useful-lies/).
-A fun tendency is that Claude kept getting distracted by topics of secrecy, conspiracy, and hidden systems - as if the task itself summoned a Foucault’s Pendulum mindset.
-Details:
-* The books are picked from HN’s favourites (which I collected before: https://hnbooks.pieterma.es/).
-* Chunks are indexed by topic using Gemini Flash Lite. The whole library cost about £10.
-* Topics are organised into a tree structure using recursive Leiden partitioning and LLM labels. This gives a high-level sense of the themes.
-* There are several ways to browse. The most useful are embedding similarity, topic tree siblings, and topics cooccurring within a chunk window.
-* Everything is stored in SQLite and manipulated using a set of CLI tools.
-I wrote more about the process here: https://pieterma.es/syntopic-reading-claude/
-I’m curious if this way of reading resonates for anyone else - LLM-mediated or not.
-Comments URL: https://news.ycombinator.com/item?id=46567400
-Points: 96
-# Comments: 22]]></summary>
-        <author>
-            <name>pmaze</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AI is a business model stress test]]></title>
-        <id>https://news.ycombinator.com/item?id=46567392</id>
-        <link href="https://dri.es/ai-is-a-business-model-stress-test"/>
-        <updated>2026-01-10T16:56:34.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://dri.es/ai-is-a-business-model-stress-test
-Comments URL: https://news.ycombinator.com/item?id=46567392
-Points: 55
-# Comments: 75]]></summary>
-        <author>
-            <name>amarsahinovic</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Drones that recharge directly on transmission lines]]></title>
-        <id>https://news.ycombinator.com/item?id=46567218</id>
-        <link href="https://www.ycombinator.com/companies/voltair"/>
-        <updated>2026-01-10T16:43:19.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.ycombinator.com/companies/voltair
-Comments URL: https://news.ycombinator.com/item?id=46567218
-Points: 85
-# Comments: 58]]></summary>
-        <author>
-            <name>alphabetatango</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Microsoft May Have Created the Slowest Windows in 25 Years with Windows 11]]></title>
-        <id>https://news.ycombinator.com/item?id=46567138</id>
-        <link href="https://www.eteknix.com/microsoft-may-have-created-the-slowest-windows-in-25-years-with-windows-11/"/>
-        <updated>2026-01-10T16:36:56.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.eteknix.com/microsoft-may-have-created-the-slowest-windows-in-25-years-with-windows-11/
-Comments URL: https://news.ycombinator.com/item?id=46567138
-Points: 69
-# Comments: 50]]></summary>
-        <author>
-            <name>nabla9</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Generate QR Codes with Pure SQL in PostgreSQL]]></title>
-        <id>https://news.ycombinator.com/item?id=46566974</id>
-        <link href="https://tanelpoder.com/posts/generate-qr-code-with-pure-sql-in-postgres/"/>
-        <updated>2026-01-10T16:19:42.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://tanelpoder.com/posts/generate-qr-code-with-pure-sql-in-postgres/
-Comments URL: https://news.ycombinator.com/item?id=46566974
-Points: 60
-# Comments: 3]]></summary>
-        <author>
-            <name>tanelpoder</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Open Chaos: A self-evolving open-source project]]></title>
-        <id>https://news.ycombinator.com/item?id=46566812</id>
-        <link href="https://www.openchaos.dev/"/>
-        <updated>2026-01-10T16:03:55.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.openchaos.dev/
-Comments URL: https://news.ycombinator.com/item?id=46566812
-Points: 66
-# Comments: 8]]></summary>
-        <author>
-            <name>stefanvdw1</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[I replaced Windows with Linux and everything's going great]]></title>
-        <id>https://news.ycombinator.com/item?id=46566465</id>
-        <link href="https://www.theverge.com/tech/858910/linux-diary-gaming-desktop"/>
-        <updated>2026-01-10T15:26:26.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.theverge.com/tech/858910/linux-diary-gaming-desktop
-Comments URL: https://news.ycombinator.com/item?id=46566465
-Points: 127
-# Comments: 62]]></summary>
-        <author>
-            <name>rorylawless</name>
         </author>
     </entry>
 </feed>
