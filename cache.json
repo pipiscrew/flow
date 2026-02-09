@@ -6,6 +6,26 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=46943752",
+          "author": "todsacerdoti",
+          "description": "Article URL: https://ploum.net/2026-02-09-offpunk3.html\nComments URL: https://news.ycombinator.com/item?id=46943752\nPoints: 55\n# Comments: 14",
+          "link": "https://ploum.net/2026-02-09-offpunk3.html",
+          "publishedOn": "2026-02-09T10:37:20.000Z",
+          "wordCount": 1203,
+          "title": "Offpunk 3.0",
+          "imageUrl": "https://ploum.net/files/decvt220.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46943568",
+          "author": "tombh",
+          "description": "We're Tom and Ryan and we teamed up to build an algorithm with Rust and SIMD to exhaustively search for the longest line of sight on the planet. We can confirm that a previously speculated view between Pik Dankova in Kyrgyzstan and the Hindu Kush in China is indeed the longest, at 530km.\nWe go into all the details at https://alltheviews.world\nAnd there's an interactive map with over 1 billion longest lines, covering the whole world at https://map.alltheviews.world Just click on any point and it'll load its longest line of sight.\nSome of you may remember Tom's post[1] from a few months ago about how to efficiently pack visibility tiles for computing the entire planet. Well now it's done. The compute run itself took 100s of AMD Turin cores, 100s of GBs of RAM, a few TBs of disk and 2 days of constant runtime on multiple machines.\nIf you are interested in the technical details, Ryan and I have written extensively about the algorithm and pipeline that got us here:\n* Tom's blog post: https://tombh.co.uk/longest-line-of-sight\n* Ryan's technical breakdown: https://ryan.berge.rs/posts/total-viewshed-algorithm\nThis was a labor of love and we hope it inspires you both technically and naturally, to get you out seeing some of these vast views for yourselves!\n1. https://news.ycombinator.com/item?id=45485227\nComments URL: https://news.ycombinator.com/item?id=46943568\nPoints: 98\n# Comments: 40",
+          "link": "https://alltheviews.world/",
+          "publishedOn": "2026-02-09T10:05:55.000Z",
+          "wordCount": 375,
+          "title": "Show HN: Algorithmically Finding the Longest Line of Sight on Earth",
+          "imageUrl": null
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=46941882",
           "author": "azhenley",
           "description": "Article URL: https://surfingcomplexity.blog/2026/02/08/nobody-knows-how-the-whole-system-works/\nComments URL: https://news.ycombinator.com/item?id=46941882\nPoints: 52\n# Comments: 38",
@@ -13544,16 +13564,6 @@
           "wordCount": 5999,
           "title": "Show HN: Ferrite – Markdown editor in Rust with native Mermaid diagram rendering",
           "imageUrl": "https://opengraph.githubassets.com/ff58c054404f3f4d6640940e4c6f6ed66ee94bd571ed53935ae5834bb292b79e/OlaProeis/Ferrite"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46571707",
-          "author": "asix66",
-          "description": "Article URL: https://www.rollingstone.com/music/music-news/bob-weir-grateful-dead-dead-obituary-1234810106/\nComments URL: https://news.ycombinator.com/item?id=46571707\nPoints: 74\n# Comments: 12",
-          "link": "https://www.rollingstone.com/music/music-news/bob-weir-grateful-dead-dead-obituary-1234810106/",
-          "publishedOn": "2026-01-11T01:04:58.000Z",
-          "wordCount": 10663,
-          "title": "Bob Weir has died",
-          "imageUrl": "https://www.rollingstone.com/wp-content/uploads/2026/01/bob-weir-obit.jpg?w=1600&h=900&crop=1"
         }
       ]
     }

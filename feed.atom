@@ -2,10 +2,44 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-02-09T11:53:05.944Z</updated>
+    <updated>2026-02-09T13:23:14.531Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Offpunk 3.0]]></title>
+        <id>https://news.ycombinator.com/item?id=46943752</id>
+        <link href="https://ploum.net/2026-02-09-offpunk3.html"/>
+        <updated>2026-02-09T10:37:20.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://ploum.net/2026-02-09-offpunk3.html
+Comments URL: https://news.ycombinator.com/item?id=46943752
+Points: 55
+# Comments: 14]]></summary>
+        <author>
+            <name>todsacerdoti</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Algorithmically Finding the Longest Line of Sight on Earth]]></title>
+        <id>https://news.ycombinator.com/item?id=46943568</id>
+        <link href="https://alltheviews.world/"/>
+        <updated>2026-02-09T10:05:55.000Z</updated>
+        <summary type="html"><![CDATA[We're Tom and Ryan and we teamed up to build an algorithm with Rust and SIMD to exhaustively search for the longest line of sight on the planet. We can confirm that a previously speculated view between Pik Dankova in Kyrgyzstan and the Hindu Kush in China is indeed the longest, at 530km.
+We go into all the details at https://alltheviews.world
+And there's an interactive map with over 1 billion longest lines, covering the whole world at https://map.alltheviews.world Just click on any point and it'll load its longest line of sight.
+Some of you may remember Tom's post[1] from a few months ago about how to efficiently pack visibility tiles for computing the entire planet. Well now it's done. The compute run itself took 100s of AMD Turin cores, 100s of GBs of RAM, a few TBs of disk and 2 days of constant runtime on multiple machines.
+If you are interested in the technical details, Ryan and I have written extensively about the algorithm and pipeline that got us here:
+* Tom's blog post: https://tombh.co.uk/longest-line-of-sight
+* Ryan's technical breakdown: https://ryan.berge.rs/posts/total-viewshed-algorithm
+This was a labor of love and we hope it inspires you both technically and naturally, to get you out seeing some of these vast views for yourselves!
+1. https://news.ycombinator.com/item?id=45485227
+Comments URL: https://news.ycombinator.com/item?id=46943568
+Points: 98
+# Comments: 40]]></summary>
+        <author>
+            <name>tombh</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Nobody knows how the whole system works]]></title>
         <id>https://news.ycombinator.com/item?id=46941882</id>
@@ -18217,19 +18251,6 @@ Points: 84
 # Comments: 25]]></summary>
         <author>
             <name>OlaProis</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Bob Weir has died]]></title>
-        <id>https://news.ycombinator.com/item?id=46571707</id>
-        <link href="https://www.rollingstone.com/music/music-news/bob-weir-grateful-dead-dead-obituary-1234810106/"/>
-        <updated>2026-01-11T01:04:58.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.rollingstone.com/music/music-news/bob-weir-grateful-dead-dead-obituary-1234810106/
-Comments URL: https://news.ycombinator.com/item?id=46571707
-Points: 74
-# Comments: 12]]></summary>
-        <author>
-            <name>asix66</name>
         </author>
     </entry>
 </feed>
