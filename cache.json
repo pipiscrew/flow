@@ -6,6 +6,16 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=46966209",
+          "author": "Jonathanfishner",
+          "description": "We recently started to use agents to update some documentation across our codebase on a weekly basis, and everything quickly turned into cron jobs, logs, and terminal output.\nit worked, but was hard to tell what agents were doing, why something failed, or whether a workflow was actually progressing.\nWe thought it would be more interesting to treat agents as long-lived workers with state and responsibilities and explicit handoffs. Something you can actually see and reason about, instead of just tailing logs.\nSo we built Clawe, a small coordination layer on top of OpenClaw that lets agent workflows run, pause, retry, and hand control back to a human at specific points.\nThis started as an experiment in how agent systems might feel to operate, but we're starting to see real potential for it, especially for content review and maintenance workflows in marketing. Curious what abstractions make sense, what feels unnecessary, and what breaks first.\nRepo: https://github.com/getclawe/clawe\nComments URL: https://news.ycombinator.com/item?id=46966209\nPoints: 53\n# Comments: 33",
+          "link": "https://github.com/getclawe/clawe",
+          "publishedOn": "2026-02-10T20:17:45.000Z",
+          "wordCount": 4856,
+          "title": "Show HN: Clawe – open-source Trello for agent teams",
+          "imageUrl": "https://repository-images.githubusercontent.com/1148062975/a3cb6033-37f1-4593-b2f4-cb0b9e4a2203"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=46965776",
           "author": "marysminefnuf",
           "description": "Article URL: https://www.airuniversity.af.edu/Wild-Blue-Yonder/Articles/Article-Display/Article/3600155/toyotas-and-terrorists-why-are-isiss-trucks-better-than-ours-said-the-american/\nComments URL: https://news.ycombinator.com/item?id=46965776\nPoints: 54\n# Comments: 48",
@@ -14,6 +24,16 @@
           "wordCount": null,
           "title": "Toyotas and Terrorists: \"Why are ISIS's trucks better than ours?\"",
           "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46965440",
+          "author": "ingve",
+          "description": "Article URL: https://devblogs.microsoft.com/oldnewthing/20260210-00/?p=112052\nComments URL: https://news.ycombinator.com/item?id=46965440\nPoints: 77\n# Comments: 50",
+          "link": "https://devblogs.microsoft.com/oldnewthing/20260210-00/?p=112052",
+          "publishedOn": "2026-02-10T19:25:55.000Z",
+          "wordCount": 7468,
+          "title": "How did Windows 95 get permission to put the Weezer video Buddy Holly on the CD?",
+          "imageUrl": "https://devblogs.microsoft.com/oldnewthing/wp-content/uploads/sites/38/2019/02/ShowCover.jpg"
         },
         {
           "id": "https://news.ycombinator.com/item?id=46964159",
@@ -34,6 +54,16 @@
           "wordCount": 2516,
           "title": "Show HN: Showboat and Rodney, so agents can demo what they've built",
           "imageUrl": "https://static.simonwillison.net/static/2026/showboat-vs-code-card.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46963865",
+          "author": "taf2",
+          "description": "Article URL: https://github.com/taf2/mdvi\nComments URL: https://news.ycombinator.com/item?id=46963865\nPoints: 51\n# Comments: 18",
+          "link": "https://github.com/taf2/mdvi",
+          "publishedOn": "2026-02-10T17:51:10.000Z",
+          "wordCount": 2364,
+          "title": "Markdown CLI viewer with VI keybindings",
+          "imageUrl": "https://opengraph.githubassets.com/828a51acf0e32e702d2c3200216a6378d79372ea57099e4f769e8b18aab51781/taf2/mdvi"
         },
         {
           "id": "https://news.ycombinator.com/item?id=46963804",
@@ -1193,6 +1223,16 @@
           "publishedOn": "2026-02-07T23:23:01.000Z",
           "wordCount": 593,
           "title": "The silent death of good code",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46928920",
+          "author": "iancmceachern",
+          "description": "Article URL: https://people.com/waymo-exec-reveals-company-uses-operators-in-the-philippines-to-assist-autonomous-vehicles-11900507\nComments URL: https://news.ycombinator.com/item?id=46928920\nPoints: 105\n# Comments: 91",
+          "link": "https://people.com/waymo-exec-reveals-company-uses-operators-in-the-philippines-to-assist-autonomous-vehicles-11900507",
+          "publishedOn": "2026-02-07T22:36:41.000Z",
+          "wordCount": null,
+          "title": "Waymo exec reveals company uses remote workers in the Philippines",
           "imageUrl": null
         },
         {
@@ -13654,16 +13694,6 @@
           "wordCount": 720,
           "title": "Impeccable Style",
           "imageUrl": "https://impeccable.style/og-image.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46586766",
-          "author": "codesparkle",
-          "description": "Article URL: https://archaeologist.dev/artifacts/anthropic\nComments URL: https://news.ycombinator.com/item?id=46586766\nPoints: 96\n# Comments: 92",
-          "link": "https://archaeologist.dev/artifacts/anthropic",
-          "publishedOn": "2026-01-12T10:57:29.000Z",
-          "wordCount": 2316,
-          "title": "Anthropic made a mistake in cutting off third-party clients",
-          "imageUrl": null
         }
       ]
     }
