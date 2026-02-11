@@ -2,10 +2,49 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-02-11T15:00:24.375Z</updated>
+    <updated>2026-02-11T17:10:11.228Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[U.S. had almost no job growth in 2025]]></title>
+        <id>https://news.ycombinator.com/item?id=46976751</id>
+        <link href="https://www.nbcnews.com/business/economy/january-jobs-revisions-trump-rcna258398"/>
+        <updated>2026-02-11T16:11:19.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.nbcnews.com/business/economy/january-jobs-revisions-trump-rcna258398
+Comments URL: https://news.ycombinator.com/item?id=46976751
+Points: 52
+# Comments: 15]]></summary>
+        <author>
+            <name>ceejayoz</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Railway (PaaS) Global Outage]]></title>
+        <id>https://news.ycombinator.com/item?id=46976466</id>
+        <link href="https://status.railway.com/"/>
+        <updated>2026-02-11T15:51:11.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://status.railway.com
+Comments URL: https://news.ycombinator.com/item?id=46976466
+Points: 50
+# Comments: 35]]></summary>
+        <author>
+            <name>TealMyEal</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Why Vampires Live Forever]]></title>
+        <id>https://news.ycombinator.com/item?id=46976443</id>
+        <link href="https://machielreyneke.com/blog/vampires-longevity/"/>
+        <updated>2026-02-11T15:50:04.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://machielreyneke.com/blog/vampires-longevity/
+Comments URL: https://news.ycombinator.com/item?id=46976443
+Points: 67
+# Comments: 14]]></summary>
+        <author>
+            <name>machielrey</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[GLM5 Released on Z.ai Platform]]></title>
         <id>https://news.ycombinator.com/item?id=46974853</id>
@@ -69,6 +108,19 @@ Points: 150
 # Comments: 55]]></summary>
         <author>
             <name>qcontinuum1</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[FAA Halts All Flights at El Paso Airport for 10 Days]]></title>
+        <id>https://news.ycombinator.com/item?id=46972610</id>
+        <link href="https://www.nytimes.com/2026/02/11/us/faa-el-paso-flight-restrictions.html"/>
+        <updated>2026-02-11T09:04:00.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.nytimes.com/2026/02/11/us/faa-el-paso-flight-restrictions.html
+Comments URL: https://news.ycombinator.com/item?id=46972610
+Points: 191
+# Comments: 384]]></summary>
+        <author>
+            <name>edward</name>
         </author>
     </entry>
     <entry>
@@ -941,6 +993,26 @@ Points: 210
 # Comments: 124]]></summary>
         <author>
             <name>MattIPv4</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: AI agents play SimCity through a REST API]]></title>
+        <id>https://news.ycombinator.com/item?id=46946593</id>
+        <link href="https://hallucinatingsplines.com/"/>
+        <updated>2026-02-09T15:54:33.000Z</updated>
+        <summary type="html"><![CDATA[This is a weekend project that spiraled out of control. I was originally trying to get Claude to play a ROM of the SNES SimCity. I struggled with it and that led me to Micropolis (the open-sourced SimCity engine) and was able to get it to work by bolting on an API.
+The weekend hack turned into a headless city simulation platform where anyone can get an API key (no signup) and have their AI agent play mayor. The simulation runs the real Micropolis engine inside Cloudflare Durable Objects, one per city. Every city is public and browsable on the site.
+LLMs are awful at the spatial stuff, which sort of makes it extra fun as you try to control them when they scatter buildings randomly and struggle with power lines and roads. A little like dealing with a toddler.
+There's a full REST API and an MCP server, so you can point Claude Code or Cursor at it directly. You can usually get agents building in seconds.
+Website: https://hallucinatingsplines.com
+API docs: https://hallucinatingsplines.com/docs
+GitHub: https://github.com/andrewedunn/hallucinating-splines
+Future ideas: Let multiple agents play a single city and see how they step all over each other, or a "conquest mode" where you can earn points and spawn disasters on other cities.
+Comments URL: https://news.ycombinator.com/item?id=46946593
+Points: 95
+# Comments: 32]]></summary>
+        <author>
+            <name>aed</name>
         </author>
     </entry>
     <entry>
@@ -2145,6 +2217,19 @@ Points: 53
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[GLM-OCR: Accurate × Fast × Comprehensive]]></title>
+        <id>https://news.ycombinator.com/item?id=46924075</id>
+        <link href="https://github.com/zai-org/GLM-OCR"/>
+        <updated>2026-02-07T14:15:36.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://github.com/zai-org/GLM-OCR
+Comments URL: https://news.ycombinator.com/item?id=46924075
+Points: 81
+# Comments: 30]]></summary>
+        <author>
+            <name>ms7892</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[France's homegrown open source online office suite]]></title>
         <id>https://news.ycombinator.com/item?id=46923736</id>
         <link href="https://github.com/suitenumerique"/>
@@ -2223,6 +2308,19 @@ Points: 67
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Rome is studded with cannon balls (2022)]]></title>
+        <id>https://news.ycombinator.com/item?id=46922453</id>
+        <link href="https://essenceofrome.com/rome-is-studded-with-cannon-balls"/>
+        <updated>2026-02-07T09:10:26.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://essenceofrome.com/rome-is-studded-with-cannon-balls
+Comments URL: https://news.ycombinator.com/item?id=46922453
+Points: 57
+# Comments: 4]]></summary>
+        <author>
+            <name>thomassmith65</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Vocal Guide – belt sing without killing yourself]]></title>
         <id>https://news.ycombinator.com/item?id=46922049</id>
         <link href="https://jesperordrup.github.io/vocal-guide/"/>
@@ -2259,6 +2357,19 @@ Points: 85
 # Comments: 67]]></summary>
         <author>
             <name>SerCe</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[WiFi Could Become an Invisible Mass Surveillance System]]></title>
+        <id>https://news.ycombinator.com/item?id=46920315</id>
+        <link href="https://scitechdaily.com/researchers-warn-wifi-could-become-an-invisible-mass-surveillance-system/"/>
+        <updated>2026-02-07T01:16:42.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://scitechdaily.com/researchers-warn-wifi-could-become-an-invisible-mass-surveillance-system/
+Comments URL: https://news.ycombinator.com/item?id=46920315
+Points: 89
+# Comments: 48]]></summary>
+        <author>
+            <name>mgh2</name>
         </author>
     </entry>
     <entry>

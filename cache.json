@@ -6,6 +6,36 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=46976751",
+          "author": "ceejayoz",
+          "description": "Article URL: https://www.nbcnews.com/business/economy/january-jobs-revisions-trump-rcna258398\nComments URL: https://news.ycombinator.com/item?id=46976751\nPoints: 52\n# Comments: 15",
+          "link": "https://www.nbcnews.com/business/economy/january-jobs-revisions-trump-rcna258398",
+          "publishedOn": "2026-02-11T16:11:19.000Z",
+          "wordCount": 10267,
+          "title": "U.S. had almost no job growth in 2025",
+          "imageUrl": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2026-02/260210-job-fair-ch-1516-c93ac0.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46976466",
+          "author": "TealMyEal",
+          "description": "Article URL: https://status.railway.com\nComments URL: https://news.ycombinator.com/item?id=46976466\nPoints: 50\n# Comments: 35",
+          "link": "https://status.railway.com/",
+          "publishedOn": "2026-02-11T15:51:11.000Z",
+          "wordCount": 3490,
+          "title": "Railway (PaaS) Global Outage",
+          "imageUrl": "https://railway.instatus.com/api/og"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46976443",
+          "author": "machielrey",
+          "description": "Article URL: https://machielreyneke.com/blog/vampires-longevity/\nComments URL: https://news.ycombinator.com/item?id=46976443\nPoints: 67\n# Comments: 14",
+          "link": "https://machielreyneke.com/blog/vampires-longevity/",
+          "publishedOn": "2026-02-11T15:50:04.000Z",
+          "wordCount": null,
+          "title": "Why Vampires Live Forever",
+          "imageUrl": null
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=46974853",
           "author": "CuriouslyC",
           "description": "Article URL: https://chat.z.ai/\nComments URL: https://news.ycombinator.com/item?id=46974853\nPoints: 78\n# Comments: 48",
@@ -53,6 +83,16 @@
           "publishedOn": "2026-02-11T10:00:56.000Z",
           "wordCount": null,
           "title": "Chrome extensions spying on 37M users' browsing data",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46972610",
+          "author": "edward",
+          "description": "Article URL: https://www.nytimes.com/2026/02/11/us/faa-el-paso-flight-restrictions.html\nComments URL: https://news.ycombinator.com/item?id=46972610\nPoints: 191\n# Comments: 384",
+          "link": "https://www.nytimes.com/2026/02/11/us/faa-el-paso-flight-restrictions.html",
+          "publishedOn": "2026-02-11T09:04:00.000Z",
+          "wordCount": null,
+          "title": "FAA Halts All Flights at El Paso Airport for 10 Days",
           "imageUrl": null
         },
         {
@@ -714,6 +754,16 @@
           "wordCount": 5526,
           "title": "It's not you; GitHub is down again",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46946593",
+          "author": "aed",
+          "description": "This is a weekend project that spiraled out of control. I was originally trying to get Claude to play a ROM of the SNES SimCity. I struggled with it and that led me to Micropolis (the open-sourced SimCity engine) and was able to get it to work by bolting on an API.\nThe weekend hack turned into a headless city simulation platform where anyone can get an API key (no signup) and have their AI agent play mayor. The simulation runs the real Micropolis engine inside Cloudflare Durable Objects, one per city. Every city is public and browsable on the site.\nLLMs are awful at the spatial stuff, which sort of makes it extra fun as you try to control them when they scatter buildings randomly and struggle with power lines and roads. A little like dealing with a toddler.\nThere's a full REST API and an MCP server, so you can point Claude Code or Cursor at it directly. You can usually get agents building in seconds.\nWebsite: https://hallucinatingsplines.com\nAPI docs: https://hallucinatingsplines.com/docs\nGitHub: https://github.com/andrewedunn/hallucinating-splines\nFuture ideas: Let multiple agents play a single city and see how they step all over each other, or a \"conquest mode\" where you can earn points and spawn disasters on other cities.\nComments URL: https://news.ycombinator.com/item?id=46946593\nPoints: 95\n# Comments: 32",
+          "link": "https://hallucinatingsplines.com/",
+          "publishedOn": "2026-02-09T15:54:33.000Z",
+          "wordCount": 877,
+          "title": "Show HN: AI agents play SimCity through a REST API",
+          "imageUrl": null
         },
         {
           "id": "https://news.ycombinator.com/item?id=46946401",
@@ -1606,6 +1656,16 @@
           "imageUrl": null
         },
         {
+          "id": "https://news.ycombinator.com/item?id=46924075",
+          "author": "ms7892",
+          "description": "Article URL: https://github.com/zai-org/GLM-OCR\nComments URL: https://news.ycombinator.com/item?id=46924075\nPoints: 81\n# Comments: 30",
+          "link": "https://github.com/zai-org/GLM-OCR",
+          "publishedOn": "2026-02-07T14:15:36.000Z",
+          "wordCount": 5829,
+          "title": "GLM-OCR: Accurate × Fast × Comprehensive",
+          "imageUrl": "https://opengraph.githubassets.com/c31908216def221c09f001d17957ecae4303d021fd807902eb59665b824c79f3/zai-org/GLM-OCR"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=46923736",
           "author": "nar001",
           "description": "Article URL: https://github.com/suitenumerique\nComments URL: https://news.ycombinator.com/item?id=46923736\nPoints: 135\n# Comments: 73",
@@ -1666,6 +1726,16 @@
           "imageUrl": null
         },
         {
+          "id": "https://news.ycombinator.com/item?id=46922453",
+          "author": "thomassmith65",
+          "description": "Article URL: https://essenceofrome.com/rome-is-studded-with-cannon-balls\nComments URL: https://news.ycombinator.com/item?id=46922453\nPoints: 57\n# Comments: 4",
+          "link": "https://essenceofrome.com/rome-is-studded-with-cannon-balls",
+          "publishedOn": "2026-02-07T09:10:26.000Z",
+          "wordCount": 1275,
+          "title": "Rome is studded with cannon balls (2022)",
+          "imageUrl": "https://www.essenceofrome.com/root/wp-content/uploads/2022/11/Header.jpg"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=46922049",
           "author": "jesperordrup",
           "description": "Article URL: https://jesperordrup.github.io/vocal-guide/\nComments URL: https://news.ycombinator.com/item?id=46922049\nPoints: 107\n# Comments: 38",
@@ -1693,6 +1763,16 @@
           "publishedOn": "2026-02-07T01:45:04.000Z",
           "wordCount": 1982,
           "title": "Why I Joined OpenAI",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46920315",
+          "author": "mgh2",
+          "description": "Article URL: https://scitechdaily.com/researchers-warn-wifi-could-become-an-invisible-mass-surveillance-system/\nComments URL: https://news.ycombinator.com/item?id=46920315\nPoints: 89\n# Comments: 48",
+          "link": "https://scitechdaily.com/researchers-warn-wifi-could-become-an-invisible-mass-surveillance-system/",
+          "publishedOn": "2026-02-07T01:16:42.000Z",
+          "wordCount": null,
+          "title": "WiFi Could Become an Invisible Mass Surveillance System",
           "imageUrl": null
         },
         {
