@@ -6,6 +6,26 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=46967772",
+          "author": "pjf",
+          "description": "Article URL: https://www.labs.greynoise.io/grimoire/2026-02-10-telnet-falls-silent/\nComments URL: https://news.ycombinator.com/item?id=46967772\nPoints: 212\n# Comments: 136",
+          "link": "https://www.labs.greynoise.io/grimoire/2026-02-10-telnet-falls-silent/",
+          "publishedOn": "2026-02-10T22:20:40.000Z",
+          "wordCount": 3583,
+          "title": "The Day the Telnet Died",
+          "imageUrl": "https://www.labs.greynoise.io/grimoire/2026-02-10-telnet-falls-silent/media/cover.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46966605",
+          "author": "scapecast",
+          "description": "Article URL: https://www.scottishcanals.co.uk/visit/canals/visit-the-forth-clyde-canal/attractions/the-falkirk-wheel\nComments URL: https://news.ycombinator.com/item?id=46966605\nPoints: 50\n# Comments: 18",
+          "link": "https://www.scottishcanals.co.uk/visit/canals/visit-the-forth-clyde-canal/attractions/the-falkirk-wheel",
+          "publishedOn": "2026-02-10T20:42:20.000Z",
+          "wordCount": 2169,
+          "title": "The Falkirk Wheel",
+          "imageUrl": null
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=46966209",
           "author": "Jonathanfishner",
           "description": "We recently started to use agents to update some documentation across our codebase on a weekly basis, and everything quickly turned into cron jobs, logs, and terminal output.\nit worked, but was hard to tell what agents were doing, why something failed, or whether a workflow was actually progressing.\nWe thought it would be more interesting to treat agents as long-lived workers with state and responsibilities and explicit handoffs. Something you can actually see and reason about, instead of just tailing logs.\nSo we built Clawe, a small coordination layer on top of OpenClaw that lets agent workflows run, pause, retry, and hand control back to a human at specific points.\nThis started as an experiment in how agent systems might feel to operate, but we're starting to see real potential for it, especially for content review and maintenance workflows in marketing. Curious what abstractions make sense, what feels unnecessary, and what breaks first.\nRepo: https://github.com/getclawe/clawe\nComments URL: https://news.ycombinator.com/item?id=46966209\nPoints: 53\n# Comments: 33",
@@ -14,6 +34,16 @@
           "wordCount": 4856,
           "title": "Show HN: Clawe – open-source Trello for agent teams",
           "imageUrl": "https://repository-images.githubusercontent.com/1148062975/a3cb6033-37f1-4593-b2f4-cb0b9e4a2203"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46966182",
+          "author": "grouchy",
+          "description": "Hi HN — cofounder Michael here.\nWe've been building Tambo for about a year, and just released our 1.0.\nWe make are making it easier to register React components with Zod schemas, a build an agent picks the right one and renders the right props.\nWe handle many of the complications with building generative user interfaces like: managing state between the user, the agent, and react component, rendering partial props, and we handle auth between your user, and MCP. We also support adding MCP servers and most of the spec.\nWe are 100% open-source and currently have 8k+ GitHub stars, thousands of developers, and over half-millions messages processed by our hosted service.\nIf you're building AI agents with generative UI, we'd like to hear from you.\nComments URL: https://news.ycombinator.com/item?id=46966182\nPoints: 59\n# Comments: 16",
+          "link": "https://github.com/tambo-ai/tambo",
+          "publishedOn": "2026-02-10T20:16:12.000Z",
+          "wordCount": 5933,
+          "title": "Tambo 1.0: Open-source toolkit for agents that render React components",
+          "imageUrl": "https://opengraph.githubassets.com/c65a092f907741caf57976701f71fc208183d5682f07e93984f9c20baaa6f198/tambo-ai/tambo"
         },
         {
           "id": "https://news.ycombinator.com/item?id=46965776",
@@ -76,6 +106,16 @@
           "imageUrl": "https://theintercept.com/wp-content/uploads/2026/02/GettyImages-2259269004.jpg?fit=4000%2C2666&w=1200&h=800"
         },
         {
+          "id": "https://news.ycombinator.com/item?id=46963177",
+          "author": "prasoonds",
+          "description": "Hey HN, stripe-no-webhooks is an open-source library that syncs your Stripe payments data to your own Postgres database:\nhttps://github.com/pretzelai/stripe-no-webhooks.\nHere's a demo video: https://youtu.be/cyEgW7wElcs\nWhy is this useful? (1) You don't have to figure out which webhooks you need or write listeners for each one. The library handles all of that. This follows the approach of libraries like dj-stripe in the Django world (https://dj-stripe.dev/). (2) Stripe's API has a 100 rpm rate limit. If you're checking subscription status frequently or building internal tools, you'll hit it. Querying your own Postgres doesn't have this problem. (3) You can give an AI agent read access to the stripe.* schema to debug payment issues—failed charges, refunds, whatever—without handing over Stri…",
+          "link": "https://github.com/pretzelai/stripe-no-webhooks",
+          "publishedOn": "2026-02-10T17:14:48.000Z",
+          "wordCount": 5896,
+          "title": "Show HN: Stripe-no-webhooks – Sync your Stripe data to your Postgres DB",
+          "imageUrl": "https://opengraph.githubassets.com/e34216bf19e901d2d17551d8cead95b17afc16421d215179fa3a63a4d6a280db/pretzelai/stripe-no-webhooks"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=46962996",
           "author": "ecto",
           "description": "Article URL: https://campedersen.com/singularity\nComments URL: https://news.ycombinator.com/item?id=46962996\nPoints: 185\n# Comments: 108",
@@ -114,6 +154,16 @@
           "wordCount": 17584,
           "title": "Mathematicians disagree on the essential structure of the complex numbers",
           "imageUrl": "https://substackcdn.com/image/fetch/$s_!LLOP!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fbfa08af5-c9c1-47dc-b75b-73edff9ba33f_1792x1024.webp"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46961726",
+          "author": "tonioab",
+          "description": "Article URL: https://www.ablg.io/blog/competition-is-not-validation\nComments URL: https://news.ycombinator.com/item?id=46961726\nPoints: 67\n# Comments: 25",
+          "link": "https://www.ablg.io/blog/competition-is-not-validation",
+          "publishedOn": "2026-02-10T16:04:21.000Z",
+          "wordCount": 2601,
+          "title": "Competition is not market validation",
+          "imageUrl": "https://www.ablg.io/og?title=Competition%20is%20not%20market%20validation"
         },
         {
           "id": "https://news.ycombinator.com/item?id=46961345",
@@ -234,6 +284,16 @@
           "wordCount": 995,
           "title": "RLHF from Scratch",
           "imageUrl": "https://opengraph.githubassets.com/edb8bddbe69bdd2a365da1ce03823164717d5dde8cce5c6e8819722a1f798f41/ashworks1706/rlhf-from-scratch"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46958345",
+          "author": "rramadass",
+          "description": "Article URL: https://www.feynmanlectures.caltech.edu/\nComments URL: https://news.ycombinator.com/item?id=46958345\nPoints: 118\n# Comments: 27",
+          "link": "https://www.feynmanlectures.caltech.edu/",
+          "publishedOn": "2026-02-10T11:36:14.000Z",
+          "wordCount": null,
+          "title": "The Feynman Lectures on Physics (1961-1964)",
+          "imageUrl": null
         },
         {
           "id": "https://news.ycombinator.com/item?id=46958231",
@@ -13534,166 +13594,6 @@
           "wordCount": 1595,
           "title": "Statement from Federal Reserve Chair",
           "imageUrl": "https://www.federalreserve.gov/images/social-media/social-default-image-opengraph.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46589279",
-          "author": "tortilla",
-          "description": "Article URL: https://www.yankodesign.com/2026/01/08/keychrons-nape-pro-turns-your-mechanical-keyboard-into-a-laptop-style-trackball-rig-hands-on-at-ces-2026/\nComments URL: https://news.ycombinator.com/item?id=46589279\nPoints: 58\n# Comments: 20",
-          "link": "https://www.yankodesign.com/2026/01/08/keychrons-nape-pro-turns-your-mechanical-keyboard-into-a-laptop-style-trackball-rig-hands-on-at-ces-2026/",
-          "publishedOn": "2026-01-12T14:50:24.000Z",
-          "wordCount": 4745,
-          "title": "Keychron's Nape Pro turns your keyboard into a laptop‑style trackball rig",
-          "imageUrl": "https://www.yankodesign.com/images/design_news/2026/01/auto-draft/keychron_nape_pro_1.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46588972",
-          "author": "iamwil",
-          "description": "Article URL: https://labs.ramp.com/rct\nComments URL: https://news.ycombinator.com/item?id=46588972\nPoints: 86\n# Comments: 26",
-          "link": "https://labs.ramp.com/rct",
-          "publishedOn": "2026-01-12T14:28:17.000Z",
-          "wordCount": 336,
-          "title": "We Put Claude Code in Rollercoaster Tycoon",
-          "imageUrl": "https://labs.ramp.com/rct/og-image-sized.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46588905",
-          "author": "river_otter",
-          "description": "Hi! I’m Nathan: an ML Engineer at Mozilla.ai: I built agent-of-empires (aoe): a CLI application to help you manage all of your running Claude Code/Opencode sessions and know when they are waiting for you.\n- Written in rust and relies on tmux for security and reliability\n- Monitors state of cli sessions to tell you when an agent is running vs idle vs waiting for your input\n- Manage sessions by naming them, grouping them, configuring profiles for various settings\nI'm passionate about getting self-hosted open-weight LLMs to be valid options to compete with proprietary closed models. One roadblock for me is that although tools like opencode allow you to connect to Local LLMs (Ollama, lm studio, etc), they generally run muuuuuch slower than models hosted by Anthropic and OpenAI. I would start a…",
-          "link": "https://github.com/njbrake/agent-of-empires",
-          "publishedOn": "2026-01-12T14:23:07.000Z",
-          "wordCount": 3429,
-          "title": "Show HN: Agent-of-empires: OpenCode and Claude Code session manager",
-          "imageUrl": "https://opengraph.githubassets.com/f302ad80c3906f050718518c00ce77e158a702ce35baad4e874c679f1659c3d0/njbrake/agent-of-empires"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46588837",
-          "author": "vitaut",
-          "description": "Article URL: https://www.npopov.com/2026/01/11/LLVM-The-bad-parts.html\nComments URL: https://news.ycombinator.com/item?id=46588837\nPoints: 95\n# Comments: 9",
-          "link": "https://www.npopov.com/2026/01/11/LLVM-The-bad-parts.html",
-          "publishedOn": "2026-01-12T14:18:13.000Z",
-          "wordCount": 3859,
-          "title": "LLVM: The Bad Parts",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46588572",
-          "author": "taykolasinski",
-          "description": "Article URL: https://taylorkolasinski.com/notes/mhc-reproduction/\nComments URL: https://news.ycombinator.com/item?id=46588572\nPoints: 57\n# Comments: 18",
-          "link": "https://taylorkolasinski.com/notes/mhc-reproduction/",
-          "publishedOn": "2026-01-12T13:57:32.000Z",
-          "wordCount": 1539,
-          "title": "Reproducing DeepSeek's MHC: When Residual Connections Explode",
-          "imageUrl": "https://taylorkolasinski.com/og-image.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46588379",
-          "author": "p44v9n",
-          "description": "Article URL: https://github.com/etinaude/Lock-Picking-Robot\nComments URL: https://news.ycombinator.com/item?id=46588379\nPoints: 67\n# Comments: 24",
-          "link": "https://github.com/etinaude/Lock-Picking-Robot",
-          "publishedOn": "2026-01-12T13:42:42.000Z",
-          "wordCount": 3592,
-          "title": "Lock-Picking Robot",
-          "imageUrl": "https://opengraph.githubassets.com/243226835e7160d4d1c8f8fbcd68e54dfa3664d7dafbfb7378464b12a9153ac0/etinaude/Lock-Picking-Robot"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46588319",
-          "author": "mooreds",
-          "description": "Article URL: https://www.irishtimes.com/ireland/2026/01/07/call-to-fast-track-bill-targeting-ai-deepfakes-and-identity-hijacking/\nComments URL: https://news.ycombinator.com/item?id=46588319\nPoints: 62\n# Comments: 35",
-          "link": "https://www.irishtimes.com/ireland/2026/01/07/call-to-fast-track-bill-targeting-ai-deepfakes-and-identity-hijacking/",
-          "publishedOn": "2026-01-12T13:38:36.000Z",
-          "wordCount": 9935,
-          "title": "Ireland fast tracks Bill to criminalise harmful voice or image misuse",
-          "imageUrl": "https://www.irishtimes.com/resizer/v2/M6Y4ID5A3FBRPHOTNKNCORPO7Q.jpg?smart=true&auth=1aa1f9975ce873c0cea0af2df4d9cfce4d0280ee00f788a8778a71fc1f35721f&width=1200&height=630"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46588243",
-          "author": "Oxodao",
-          "description": "Article URL: https://github.com/syncguy/go-legacy-winxp/tree/winxp-compat\nComments URL: https://news.ycombinator.com/item?id=46588243\nPoints: 69\n# Comments: 25",
-          "link": "https://github.com/syncguy/go-legacy-winxp/tree/winxp-compat",
-          "publishedOn": "2026-01-12T13:32:42.000Z",
-          "wordCount": 2666,
-          "title": "Go-legacy-winxp: Compile Golang 1.24 code for Windows XP",
-          "imageUrl": "https://opengraph.githubassets.com/530dece026964168c4ff5275827948a1c59e298e52e18caa8c987f6e9ce292df/syncguy/go-legacy-winxp"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46588159",
-          "author": "fork-bomber",
-          "description": "Article URL: https://www.cnx-software.com/2026/01/12/milk-v-titan-a-329-octa-core-64-bit-risc-v-mini-itx-motherboard-with-a-pcie-gen4-x16-slot/\nComments URL: https://news.ycombinator.com/item?id=46588159\nPoints: 56\n# Comments: 27",
-          "link": "https://www.cnx-software.com/2026/01/12/milk-v-titan-a-329-octa-core-64-bit-risc-v-mini-itx-motherboard-with-a-pcie-gen4-x16-slot/",
-          "publishedOn": "2026-01-12T13:25:22.000Z",
-          "wordCount": 5815,
-          "title": "Milk-V Titan: A $329 8-Core 64-bit RISC-V mini-ITX board with PCIe Gen4x16",
-          "imageUrl": "https://www.cnx-software.com/wp-content/uploads/2026/01/Milk-V-Titan-mini-ITX-motherboard.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46588132",
-          "author": "edent",
-          "description": "Article URL: https://github.com/er-bharat/Win8DE\nComments URL: https://news.ycombinator.com/item?id=46588132\nPoints: 75\n# Comments: 47",
-          "link": "https://github.com/er-bharat/Win8DE",
-          "publishedOn": "2026-01-12T13:22:44.000Z",
-          "wordCount": 2791,
-          "title": "Windows 8 Desktop Environment for Linux",
-          "imageUrl": "https://opengraph.githubassets.com/d19c2ae1f593f9a815506518b824b9fe042098cf2bfa057b9a3030b1bf62ead6/er-bharat/Win8DE"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46587934",
-          "author": "mchro",
-          "description": "Article URL: https://blog.smartere.dk/2026/01/floppy-disks-the-best-tv-remote-for-kids/\nComments URL: https://news.ycombinator.com/item?id=46587934\nPoints: 126\n# Comments: 48",
-          "link": "https://blog.smartere.dk/2026/01/floppy-disks-the-best-tv-remote-for-kids/",
-          "publishedOn": "2026-01-12T13:07:49.000Z",
-          "wordCount": 2065,
-          "title": "Floppy disks turn out to be the greatest TV remote for kids",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46587844",
-          "author": "svilen_dobrev",
-          "description": "Article URL: https://cacm.acm.org/opinion/the-five-orders-of-ignorance/\nComments URL: https://news.ycombinator.com/item?id=46587844\nPoints: 51\n# Comments: 16",
-          "link": "https://cacm.acm.org/opinion/the-five-orders-of-ignorance/",
-          "publishedOn": "2026-01-12T13:00:21.000Z",
-          "wordCount": null,
-          "title": "The five orders of ignorance (2000)",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46587804",
-          "author": "simonpure",
-          "description": "Article URL: https://github.com/z-libs/Zen-C\nComments URL: https://news.ycombinator.com/item?id=46587804\nPoints: 60\n# Comments: 51",
-          "link": "https://github.com/z-libs/Zen-C",
-          "publishedOn": "2026-01-12T12:57:44.000Z",
-          "wordCount": 9911,
-          "title": "Zen-C: Write like a high-level language, run like C",
-          "imageUrl": "https://opengraph.githubassets.com/d9df054d9f3c4d76d3882137d6e272427dd089b43986d9547b238288a0c9fdf7/z-libs/Zen-C"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46587536",
-          "author": "giuliomagnifico",
-          "description": "Article URL: https://news.cornell.edu/stories/2025/12/ozempic-changing-foods-americans-buy\nComments URL: https://news.ycombinator.com/item?id=46587536\nPoints: 130\n# Comments: 201",
-          "link": "https://news.cornell.edu/stories/2025/12/ozempic-changing-foods-americans-buy",
-          "publishedOn": "2026-01-12T12:29:00.000Z",
-          "wordCount": 1051,
-          "title": "Ozempic reduced grocery spending by an average of 5.3% in the US",
-          "imageUrl": "https://news.cornell.edu/sites/default/files/styles/story_thumbnail_lg/public/2025-12/1219_ozempic_tnd.jpg?itok=ONd6v2pM"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46587498",
-          "author": "martinpeck",
-          "description": "Article URL: https://blog.gripdev.xyz/2026/01/10/actions-terminal-on-failure-for-debugging/\nComments URL: https://news.ycombinator.com/item?id=46587498\nPoints: 60\n# Comments: 8",
-          "link": "https://blog.gripdev.xyz/2026/01/10/actions-terminal-on-failure-for-debugging/",
-          "publishedOn": "2026-01-12T12:25:27.000Z",
-          "wordCount": 1907,
-          "title": "Launch a Debugging Terminal into GitHub Actions",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46587284",
-          "author": "noemit",
-          "description": "Article URL: https://impeccable.style\nComments URL: https://news.ycombinator.com/item?id=46587284\nPoints: 61\n# Comments: 34",
-          "link": "https://impeccable.style/",
-          "publishedOn": "2026-01-12T12:03:00.000Z",
-          "wordCount": 720,
-          "title": "Impeccable Style",
-          "imageUrl": "https://impeccable.style/og-image.png"
         }
       ]
     }

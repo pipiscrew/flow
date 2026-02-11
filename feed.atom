@@ -2,10 +2,36 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-02-10T23:44:03.482Z</updated>
+    <updated>2026-02-11T02:53:10.839Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[The Day the Telnet Died]]></title>
+        <id>https://news.ycombinator.com/item?id=46967772</id>
+        <link href="https://www.labs.greynoise.io/grimoire/2026-02-10-telnet-falls-silent/"/>
+        <updated>2026-02-10T22:20:40.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.labs.greynoise.io/grimoire/2026-02-10-telnet-falls-silent/
+Comments URL: https://news.ycombinator.com/item?id=46967772
+Points: 212
+# Comments: 136]]></summary>
+        <author>
+            <name>pjf</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Falkirk Wheel]]></title>
+        <id>https://news.ycombinator.com/item?id=46966605</id>
+        <link href="https://www.scottishcanals.co.uk/visit/canals/visit-the-forth-clyde-canal/attractions/the-falkirk-wheel"/>
+        <updated>2026-02-10T20:42:20.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.scottishcanals.co.uk/visit/canals/visit-the-forth-clyde-canal/attractions/the-falkirk-wheel
+Comments URL: https://news.ycombinator.com/item?id=46966605
+Points: 50
+# Comments: 18]]></summary>
+        <author>
+            <name>scapecast</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Show HN: Clawe – open-source Trello for agent teams]]></title>
         <id>https://news.ycombinator.com/item?id=46966209</id>
@@ -22,6 +48,24 @@ Points: 53
 # Comments: 33]]></summary>
         <author>
             <name>Jonathanfishner</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Tambo 1.0: Open-source toolkit for agents that render React components]]></title>
+        <id>https://news.ycombinator.com/item?id=46966182</id>
+        <link href="https://github.com/tambo-ai/tambo"/>
+        <updated>2026-02-10T20:16:12.000Z</updated>
+        <summary type="html"><![CDATA[Hi HN — cofounder Michael here.
+We've been building Tambo for about a year, and just released our 1.0.
+We make are making it easier to register React components with Zod schemas, a build an agent picks the right one and renders the right props.
+We handle many of the complications with building generative user interfaces like: managing state between the user, the agent, and react component, rendering partial props, and we handle auth between your user, and MCP. We also support adding MCP servers and most of the spec.
+We are 100% open-source and currently have 8k+ GitHub stars, thousands of developers, and over half-millions messages processed by our hosted service.
+If you're building AI agents with generative UI, we'd like to hear from you.
+Comments URL: https://news.ycombinator.com/item?id=46966182
+Points: 59
+# Comments: 16]]></summary>
+        <author>
+            <name>grouchy</name>
         </author>
     </entry>
     <entry>
@@ -103,6 +147,19 @@ Points: 206
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Show HN: Stripe-no-webhooks – Sync your Stripe data to your Postgres DB]]></title>
+        <id>https://news.ycombinator.com/item?id=46963177</id>
+        <link href="https://github.com/pretzelai/stripe-no-webhooks"/>
+        <updated>2026-02-10T17:14:48.000Z</updated>
+        <summary type="html"><![CDATA[Hey HN, stripe-no-webhooks is an open-source library that syncs your Stripe payments data to your own Postgres database:
+https://github.com/pretzelai/stripe-no-webhooks.
+Here's a demo video: https://youtu.be/cyEgW7wElcs
+Why is this useful? (1) You don't have to figure out which webhooks you need or write listeners for each one. The library handles all of that. This follows the approach of libraries like dj-stripe in the Django world (https://dj-stripe.dev/). (2) Stripe's API has a 100 rpm rate limit. If you're checking subscription status frequently or building internal tools, you'll hit it. Querying your own Postgres doesn't have this problem. (3) You can give an AI agent read access to the stripe.* schema to debug payment issues—failed charges, refunds, whatever—without handing over Stri…]]></summary>
+        <author>
+            <name>prasoonds</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[The Singularity will occur on a Tuesday]]></title>
         <id>https://news.ycombinator.com/item?id=46962996</id>
         <link href="https://campedersen.com/singularity"/>
@@ -154,6 +211,19 @@ Points: 68
 # Comments: 50]]></summary>
         <author>
             <name>FillMaths</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Competition is not market validation]]></title>
+        <id>https://news.ycombinator.com/item?id=46961726</id>
+        <link href="https://www.ablg.io/blog/competition-is-not-validation"/>
+        <updated>2026-02-10T16:04:21.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.ablg.io/blog/competition-is-not-validation
+Comments URL: https://news.ycombinator.com/item?id=46961726
+Points: 67
+# Comments: 25]]></summary>
+        <author>
+            <name>tonioab</name>
         </author>
     </entry>
     <entry>
@@ -310,6 +380,19 @@ Points: 51
 # Comments: 1]]></summary>
         <author>
             <name>onurkanbkrc</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Feynman Lectures on Physics (1961-1964)]]></title>
+        <id>https://news.ycombinator.com/item?id=46958345</id>
+        <link href="https://www.feynmanlectures.caltech.edu/"/>
+        <updated>2026-02-10T11:36:14.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.feynmanlectures.caltech.edu/
+Comments URL: https://news.ycombinator.com/item?id=46958345
+Points: 118
+# Comments: 27]]></summary>
+        <author>
+            <name>rramadass</name>
         </author>
     </entry>
     <entry>
@@ -18213,215 +18296,6 @@ Points: 109
 # Comments: 4]]></summary>
         <author>
             <name>nikhizzle</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Keychron's Nape Pro turns your keyboard into a laptop‑style trackball rig]]></title>
-        <id>https://news.ycombinator.com/item?id=46589279</id>
-        <link href="https://www.yankodesign.com/2026/01/08/keychrons-nape-pro-turns-your-mechanical-keyboard-into-a-laptop-style-trackball-rig-hands-on-at-ces-2026/"/>
-        <updated>2026-01-12T14:50:24.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.yankodesign.com/2026/01/08/keychrons-nape-pro-turns-your-mechanical-keyboard-into-a-laptop-style-trackball-rig-hands-on-at-ces-2026/
-Comments URL: https://news.ycombinator.com/item?id=46589279
-Points: 58
-# Comments: 20]]></summary>
-        <author>
-            <name>tortilla</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[We Put Claude Code in Rollercoaster Tycoon]]></title>
-        <id>https://news.ycombinator.com/item?id=46588972</id>
-        <link href="https://labs.ramp.com/rct"/>
-        <updated>2026-01-12T14:28:17.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://labs.ramp.com/rct
-Comments URL: https://news.ycombinator.com/item?id=46588972
-Points: 86
-# Comments: 26]]></summary>
-        <author>
-            <name>iamwil</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: Agent-of-empires: OpenCode and Claude Code session manager]]></title>
-        <id>https://news.ycombinator.com/item?id=46588905</id>
-        <link href="https://github.com/njbrake/agent-of-empires"/>
-        <updated>2026-01-12T14:23:07.000Z</updated>
-        <summary type="html"><![CDATA[Hi! I’m Nathan: an ML Engineer at Mozilla.ai: I built agent-of-empires (aoe): a CLI application to help you manage all of your running Claude Code/Opencode sessions and know when they are waiting for you.
-- Written in rust and relies on tmux for security and reliability
-- Monitors state of cli sessions to tell you when an agent is running vs idle vs waiting for your input
-- Manage sessions by naming them, grouping them, configuring profiles for various settings
-I'm passionate about getting self-hosted open-weight LLMs to be valid options to compete with proprietary closed models. One roadblock for me is that although tools like opencode allow you to connect to Local LLMs (Ollama, lm studio, etc), they generally run muuuuuch slower than models hosted by Anthropic and OpenAI. I would start a…]]></summary>
-        <author>
-            <name>river_otter</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[LLVM: The Bad Parts]]></title>
-        <id>https://news.ycombinator.com/item?id=46588837</id>
-        <link href="https://www.npopov.com/2026/01/11/LLVM-The-bad-parts.html"/>
-        <updated>2026-01-12T14:18:13.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.npopov.com/2026/01/11/LLVM-The-bad-parts.html
-Comments URL: https://news.ycombinator.com/item?id=46588837
-Points: 95
-# Comments: 9]]></summary>
-        <author>
-            <name>vitaut</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Reproducing DeepSeek's MHC: When Residual Connections Explode]]></title>
-        <id>https://news.ycombinator.com/item?id=46588572</id>
-        <link href="https://taylorkolasinski.com/notes/mhc-reproduction/"/>
-        <updated>2026-01-12T13:57:32.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://taylorkolasinski.com/notes/mhc-reproduction/
-Comments URL: https://news.ycombinator.com/item?id=46588572
-Points: 57
-# Comments: 18]]></summary>
-        <author>
-            <name>taykolasinski</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Lock-Picking Robot]]></title>
-        <id>https://news.ycombinator.com/item?id=46588379</id>
-        <link href="https://github.com/etinaude/Lock-Picking-Robot"/>
-        <updated>2026-01-12T13:42:42.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://github.com/etinaude/Lock-Picking-Robot
-Comments URL: https://news.ycombinator.com/item?id=46588379
-Points: 67
-# Comments: 24]]></summary>
-        <author>
-            <name>p44v9n</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ireland fast tracks Bill to criminalise harmful voice or image misuse]]></title>
-        <id>https://news.ycombinator.com/item?id=46588319</id>
-        <link href="https://www.irishtimes.com/ireland/2026/01/07/call-to-fast-track-bill-targeting-ai-deepfakes-and-identity-hijacking/"/>
-        <updated>2026-01-12T13:38:36.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.irishtimes.com/ireland/2026/01/07/call-to-fast-track-bill-targeting-ai-deepfakes-and-identity-hijacking/
-Comments URL: https://news.ycombinator.com/item?id=46588319
-Points: 62
-# Comments: 35]]></summary>
-        <author>
-            <name>mooreds</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Go-legacy-winxp: Compile Golang 1.24 code for Windows XP]]></title>
-        <id>https://news.ycombinator.com/item?id=46588243</id>
-        <link href="https://github.com/syncguy/go-legacy-winxp/tree/winxp-compat"/>
-        <updated>2026-01-12T13:32:42.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://github.com/syncguy/go-legacy-winxp/tree/winxp-compat
-Comments URL: https://news.ycombinator.com/item?id=46588243
-Points: 69
-# Comments: 25]]></summary>
-        <author>
-            <name>Oxodao</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Milk-V Titan: A $329 8-Core 64-bit RISC-V mini-ITX board with PCIe Gen4x16]]></title>
-        <id>https://news.ycombinator.com/item?id=46588159</id>
-        <link href="https://www.cnx-software.com/2026/01/12/milk-v-titan-a-329-octa-core-64-bit-risc-v-mini-itx-motherboard-with-a-pcie-gen4-x16-slot/"/>
-        <updated>2026-01-12T13:25:22.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.cnx-software.com/2026/01/12/milk-v-titan-a-329-octa-core-64-bit-risc-v-mini-itx-motherboard-with-a-pcie-gen4-x16-slot/
-Comments URL: https://news.ycombinator.com/item?id=46588159
-Points: 56
-# Comments: 27]]></summary>
-        <author>
-            <name>fork-bomber</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Windows 8 Desktop Environment for Linux]]></title>
-        <id>https://news.ycombinator.com/item?id=46588132</id>
-        <link href="https://github.com/er-bharat/Win8DE"/>
-        <updated>2026-01-12T13:22:44.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://github.com/er-bharat/Win8DE
-Comments URL: https://news.ycombinator.com/item?id=46588132
-Points: 75
-# Comments: 47]]></summary>
-        <author>
-            <name>edent</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Floppy disks turn out to be the greatest TV remote for kids]]></title>
-        <id>https://news.ycombinator.com/item?id=46587934</id>
-        <link href="https://blog.smartere.dk/2026/01/floppy-disks-the-best-tv-remote-for-kids/"/>
-        <updated>2026-01-12T13:07:49.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://blog.smartere.dk/2026/01/floppy-disks-the-best-tv-remote-for-kids/
-Comments URL: https://news.ycombinator.com/item?id=46587934
-Points: 126
-# Comments: 48]]></summary>
-        <author>
-            <name>mchro</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The five orders of ignorance (2000)]]></title>
-        <id>https://news.ycombinator.com/item?id=46587844</id>
-        <link href="https://cacm.acm.org/opinion/the-five-orders-of-ignorance/"/>
-        <updated>2026-01-12T13:00:21.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://cacm.acm.org/opinion/the-five-orders-of-ignorance/
-Comments URL: https://news.ycombinator.com/item?id=46587844
-Points: 51
-# Comments: 16]]></summary>
-        <author>
-            <name>svilen_dobrev</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Zen-C: Write like a high-level language, run like C]]></title>
-        <id>https://news.ycombinator.com/item?id=46587804</id>
-        <link href="https://github.com/z-libs/Zen-C"/>
-        <updated>2026-01-12T12:57:44.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://github.com/z-libs/Zen-C
-Comments URL: https://news.ycombinator.com/item?id=46587804
-Points: 60
-# Comments: 51]]></summary>
-        <author>
-            <name>simonpure</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ozempic reduced grocery spending by an average of 5.3% in the US]]></title>
-        <id>https://news.ycombinator.com/item?id=46587536</id>
-        <link href="https://news.cornell.edu/stories/2025/12/ozempic-changing-foods-americans-buy"/>
-        <updated>2026-01-12T12:29:00.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://news.cornell.edu/stories/2025/12/ozempic-changing-foods-americans-buy
-Comments URL: https://news.ycombinator.com/item?id=46587536
-Points: 130
-# Comments: 201]]></summary>
-        <author>
-            <name>giuliomagnifico</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Launch a Debugging Terminal into GitHub Actions]]></title>
-        <id>https://news.ycombinator.com/item?id=46587498</id>
-        <link href="https://blog.gripdev.xyz/2026/01/10/actions-terminal-on-failure-for-debugging/"/>
-        <updated>2026-01-12T12:25:27.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://blog.gripdev.xyz/2026/01/10/actions-terminal-on-failure-for-debugging/
-Comments URL: https://news.ycombinator.com/item?id=46587498
-Points: 60
-# Comments: 8]]></summary>
-        <author>
-            <name>martinpeck</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Impeccable Style]]></title>
-        <id>https://news.ycombinator.com/item?id=46587284</id>
-        <link href="https://impeccable.style/"/>
-        <updated>2026-01-12T12:03:00.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://impeccable.style
-Comments URL: https://news.ycombinator.com/item?id=46587284
-Points: 61
-# Comments: 34]]></summary>
-        <author>
-            <name>noemit</name>
         </author>
     </entry>
 </feed>
