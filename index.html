@@ -22,6 +22,57 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2026-02-11 datetime="2026-02-11T01:00:15.000Z">2026-02-11</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2026-02-11 datetime="2026-02-11T01:00:15.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Hacker News: Front Page</button>
+                  <a class="source-heading__link" href="https://news.ycombinator.com/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;46969399"
+                        open
+                      >
+                        <summary class="article-expander__title">Rivian R2: Electric Mid-Size SUV</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://rivian.com/r2">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://images.ctfassets.net/2md5qhoeajym/3LK8680NgbasQQeELWS3GN/7e6f16252fa78f9e57929afe7253b409/9da72c1a6013bc2513693e2e4cc41189.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Article URL: https://rivian.com/r2
+Comments URL: https://news.ycombinator.com/item?id&#x3D;46969399
+Points: 66
+# Comments: 76</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;7
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
             <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2026-02-10 datetime="2026-02-10T22:20:40.000Z">2026-02-10</time>
             <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2026-02-10 datetime="2026-02-10T22:20:40.000Z"></time>
           </button>
@@ -1306,6 +1357,31 @@ Comments URL: https://news.ycombinator.com/item?id&#x3D;46947501
 Points: 55
 # Comments: 14</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;12
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;46947229"
+                        open
+                      >
+                        <summary class="article-expander__title">Show HN: JavaScript-first, open-source WYSIWYG DOCX editor</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://github.com/eigenpal/docx-js-editor">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://opengraph.githubassets.com/2eea2d5414596423ef8eb9b50a87bf43e6f5d0df1c5d8abd431d14e06a921f3c/eigenpal/docx-js-editor" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>We needed a JS-first WYSIWYG DOCX editor and couldn&#x27;t find a solid OSS option, most were either commercial or abandoned.
+As an experiment, we gave Claude Code the OOXML spec, a concrete editor architecture, and a Playwright-based test suite. The agent iterated in a (Ralph) loop over a few nights and produced a working editor from scratch.
+Core text editing works today. Tables and images are functional but still incomplete. MIT licensed.
+Comments URL: https://news.ycombinator.com/item?id&#x3D;46947229
+Points: 62
+# Comments: 18</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;9
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -31602,198 +31678,6 @@ Points: 52
                         </a>
                       </details>
                     </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;46591100"
-                        open
-                      >
-                        <summary class="article-expander__title">Show HN: AI in SolidWorks</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.trylad.com/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Hey HN! We’re Will and Jorge, and we’ve built LAD (Language-Aided Design), a SolidWorks add-in that uses LLMs to create sketches, features, assemblies, and macros from conversational inputs (https://www.trylad.com/).
-We come from software engineering backgrounds where tools like Claude Code and Cursor have come to dominate, but when poking around CAD systems a few months back we realized there&#x27;s no way to go from a text prompt input to a modeling output in any of the major CAD systems. In our testing, the LLMs aren&#x27;t as good at making 3D objects as they are are writing code, but we think they&#x27;ll get a lot better in the upcoming months and years.
-To bridge this gap, we&#x27;ve created LAD, an add-in in SolidWorks to turn conversational input and uploaded documents/images into parts, assemblies, and macros. It includes:
-- Dozens of tools the LLM can call to create sketches, features, and other objects in parts.
-- Assembly tools the LLM can call to turn parts into assemblies.
-- File system tools the LLM can use to create, save, search, and read SolidWorks files and documentation.
-- Macro writing/running tools plus a SolidWorks API documentation search so the LLM can use macros.
-- Automatic screenshots and feature tree parsing to provide the LLM context on the current state.
-- Checkpointing to roll back unwanted edits and permissioning to determine which commands wait for user permission.
-You can try LAD at https://www.trylad.com/ and let us know what features would make it more useful for your work. To be honest, the LLMs aren&#x27;t great at CAD right now, but we&#x27;re mostly curious to hear if people would want and use this if it worked well.
-Comments URL: https://news.ycombinator.com/item?id&#x3D;46591100
-Points: 70
-# Comments: 36</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;46590541"
-                        open
-                      >
-                        <summary class="article-expander__title">Building a 25 Gbit/s workstation for the SCION Association</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://github.com/scionassociation/blog-25gbit-workstation">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://opengraph.githubassets.com/b33fe6dc98a5a86908b00be9dc5e232f22477299eafe071646ce20528c4b7adc/scionassociation/blog-25gbit-workstation" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Article URL: https://github.com/scionassociation/blog-25gbit-workstation
-Comments URL: https://news.ycombinator.com/item?id&#x3D;46590541
-Points: 53
-# Comments: 17</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;52
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;46590404"
-                        open
-                      >
-                        <summary class="article-expander__title">Experts Warn of Growing Parrot Crisis in Canada</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.ctvnews.ca/ottawa/video/2026/01/06/experts-warn-of-growing-parrot-crisis-in-canada/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://www.ctvnews.ca/resizer/v2/https%3A%2F%2Fd3g70guqh4mw9g.cloudfront.net%2F01-07-2026%2Ft_a3dd3e92b1ef4e59b5f1d12e85d6e4b1_name_CJOH010626_PARROTS.jpeg?smart&#x3D;true&amp;auth&#x3D;17097a41bc73891163d3b1ce230a1cfc1278e8dec1491b6b798373811f20ff12&amp;width&#x3D;1200&amp;height&#x3D;630" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Article URL: https://www.ctvnews.ca/ottawa/video/2026/01/06/experts-warn-of-growing-parrot-crisis-in-canada/
-Comments URL: https://news.ycombinator.com/item?id&#x3D;46590404
-Points: 55
-# Comments: 24</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;6
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;46590280"
-                        open
-                      >
-                        <summary class="article-expander__title">TimeCapsuleLLM: LLM trained only on data from 1800-1875</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://github.com/haykgrigo3/TimeCapsuleLLM">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://opengraph.githubassets.com/b54368a061b98e2d8cec99e09d369d3fbd6985fd1f45ec2904fc1efb380a0150/haykgrigo3/TimeCapsuleLLM" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Article URL: https://github.com/haykgrigo3/TimeCapsuleLLM
-Comments URL: https://news.ycombinator.com/item?id&#x3D;46590280
-Points: 124
-# Comments: 58</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;21
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;46589842"
-                        open
-                      >
-                        <summary class="article-expander__title">Why we built our own background agent</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://builders.ramp.com/post/why-we-built-our-background-agent">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://builders.ramp.com/articles/why-we-built-our-background-agent/twitter-hero.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Article URL: https://builders.ramp.com/post/why-we-built-our-background-agent
-Comments URL: https://news.ycombinator.com/item?id&#x3D;46589842
-Points: 61
-# Comments: 5</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;46589675"
-                        open
-                      >
-                        <summary class="article-expander__title">Apple picks Google&#x27;s Gemini to power Siri</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.cnbc.com/2026/01/12/apple-google-ai-siri-gemini.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.cnbcfm.com/api/v1/image/108251190-1768231661465-gettyimages-2252639381-dellatorre-notitle251222_npwev.jpeg?v&#x3D;1768231683&amp;w&#x3D;1920&amp;h&#x3D;1080" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Article URL: https://www.cnbc.com/2026/01/12/apple-google-ai-siri-gemini.html
-Comments URL: https://news.ycombinator.com/item?id&#x3D;46589675
-Points: 80
-# Comments: 52</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;85
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;46589658"
-                        open
-                      >
-                        <summary class="article-expander__title">Date is out, Temporal is in</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://piccalil.li/blog/date-is-out-and-temporal-is-in/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://piccalil.b-cdn.net/api/og-image?slug&#x3D;date-is-out-and-temporal-is-in/" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Article URL: https://piccalil.li/blog/date-is-out-and-temporal-is-in/
-Comments URL: https://news.ycombinator.com/item?id&#x3D;46589658
-Points: 86
-# Comments: 26</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;14
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;46589489"
-                        open
-                      >
-                        <summary class="article-expander__title">Statement from Federal Reserve Chair</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.federalreserve.gov/newsevents/speech/powell20260111a.htm?mod&#x3D;ANLink">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://www.federalreserve.gov/images/social-media/social-default-image-opengraph.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Article URL: https://www.federalreserve.gov/newsevents/speech/powell20260111a.htm?mod&#x3D;ANLink
-Comments URL: https://news.ycombinator.com/item?id&#x3D;46589489
-Points: 109
-# Comments: 4</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;5
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
                 </section>
               </section>
             </li>
@@ -31801,8 +31685,8 @@ Points: 109
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/pipiscrew/flow/actions/runs/21890943485">
-        <time id="build-timestamp" datetime="2026-02-11T02:53:10.777Z">2026-02-11T02:53:10.777Z</time>
+      <a class="footer-link" href="https://github.com/pipiscrew/flow/actions/runs/21893472737">
+        <time id="build-timestamp" datetime="2026-02-11T05:07:51.566Z">2026-02-11T05:07:51.566Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>

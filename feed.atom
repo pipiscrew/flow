@@ -2,10 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-02-11T02:53:10.839Z</updated>
+    <updated>2026-02-11T05:07:51.627Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Rivian R2: Electric Mid-Size SUV]]></title>
+        <id>https://news.ycombinator.com/item?id=46969399</id>
+        <link href="https://rivian.com/r2"/>
+        <updated>2026-02-11T01:00:15.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://rivian.com/r2
+Comments URL: https://news.ycombinator.com/item?id=46969399
+Points: 66
+# Comments: 76]]></summary>
+        <author>
+            <name>socialcommenter</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[The Day the Telnet Died]]></title>
         <id>https://news.ycombinator.com/item?id=46967772</id>
@@ -731,6 +744,21 @@ Points: 55
 # Comments: 14]]></summary>
         <author>
             <name>cauliflower99</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: JavaScript-first, open-source WYSIWYG DOCX editor]]></title>
+        <id>https://news.ycombinator.com/item?id=46947229</id>
+        <link href="https://github.com/eigenpal/docx-js-editor"/>
+        <updated>2026-02-09T16:33:38.000Z</updated>
+        <summary type="html"><![CDATA[We needed a JS-first WYSIWYG DOCX editor and couldn't find a solid OSS option, most were either commercial or abandoned.
+As an experiment, we gave Claude Code the OOXML spec, a concrete editor architecture, and a Playwright-based test suite. The agent iterated in a (Ralph) loop over a few nights and produced a working editor from scratch.
+Core text editing works today. Tables and images are functional but still incomplete. MIT licensed.
+Comments URL: https://news.ycombinator.com/item?id=46947229
+Points: 62
+# Comments: 18]]></summary>
+        <author>
+            <name>thisisjedr</name>
         </author>
     </entry>
     <entry>
@@ -18183,119 +18211,6 @@ Points: 52
 # Comments: 16]]></summary>
         <author>
             <name>byt3h3ad</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: AI in SolidWorks]]></title>
-        <id>https://news.ycombinator.com/item?id=46591100</id>
-        <link href="https://www.trylad.com/"/>
-        <updated>2026-01-12T16:56:17.000Z</updated>
-        <summary type="html"><![CDATA[Hey HN! We’re Will and Jorge, and we’ve built LAD (Language-Aided Design), a SolidWorks add-in that uses LLMs to create sketches, features, assemblies, and macros from conversational inputs (https://www.trylad.com/).
-We come from software engineering backgrounds where tools like Claude Code and Cursor have come to dominate, but when poking around CAD systems a few months back we realized there's no way to go from a text prompt input to a modeling output in any of the major CAD systems. In our testing, the LLMs aren't as good at making 3D objects as they are are writing code, but we think they'll get a lot better in the upcoming months and years.
-To bridge this gap, we've created LAD, an add-in in SolidWorks to turn conversational input and uploaded documents/images into parts, assemblies, and macros. It includes:
-- Dozens of tools the LLM can call to create sketches, features, and other objects in parts.
-- Assembly tools the LLM can call to turn parts into assemblies.
-- File system tools the LLM can use to create, save, search, and read SolidWorks files and documentation.
-- Macro writing/running tools plus a SolidWorks API documentation search so the LLM can use macros.
-- Automatic screenshots and feature tree parsing to provide the LLM context on the current state.
-- Checkpointing to roll back unwanted edits and permissioning to determine which commands wait for user permission.
-You can try LAD at https://www.trylad.com/ and let us know what features would make it more useful for your work. To be honest, the LLMs aren't great at CAD right now, but we're mostly curious to hear if people would want and use this if it worked well.
-Comments URL: https://news.ycombinator.com/item?id=46591100
-Points: 70
-# Comments: 36]]></summary>
-        <author>
-            <name>WillNickols</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Building a 25 Gbit/s workstation for the SCION Association]]></title>
-        <id>https://news.ycombinator.com/item?id=46590541</id>
-        <link href="https://github.com/scionassociation/blog-25gbit-workstation"/>
-        <updated>2026-01-12T16:20:16.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://github.com/scionassociation/blog-25gbit-workstation
-Comments URL: https://news.ycombinator.com/item?id=46590541
-Points: 53
-# Comments: 17]]></summary>
-        <author>
-            <name>romshark</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Experts Warn of Growing Parrot Crisis in Canada]]></title>
-        <id>https://news.ycombinator.com/item?id=46590404</id>
-        <link href="https://www.ctvnews.ca/ottawa/video/2026/01/06/experts-warn-of-growing-parrot-crisis-in-canada/"/>
-        <updated>2026-01-12T16:12:27.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.ctvnews.ca/ottawa/video/2026/01/06/experts-warn-of-growing-parrot-crisis-in-canada/
-Comments URL: https://news.ycombinator.com/item?id=46590404
-Points: 55
-# Comments: 24]]></summary>
-        <author>
-            <name>debo_</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[TimeCapsuleLLM: LLM trained only on data from 1800-1875]]></title>
-        <id>https://news.ycombinator.com/item?id=46590280</id>
-        <link href="https://github.com/haykgrigo3/TimeCapsuleLLM"/>
-        <updated>2026-01-12T16:04:27.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://github.com/haykgrigo3/TimeCapsuleLLM
-Comments URL: https://news.ycombinator.com/item?id=46590280
-Points: 124
-# Comments: 58]]></summary>
-        <author>
-            <name>admp</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Why we built our own background agent]]></title>
-        <id>https://news.ycombinator.com/item?id=46589842</id>
-        <link href="https://builders.ramp.com/post/why-we-built-our-background-agent"/>
-        <updated>2026-01-12T15:36:36.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://builders.ramp.com/post/why-we-built-our-background-agent
-Comments URL: https://news.ycombinator.com/item?id=46589842
-Points: 61
-# Comments: 5]]></summary>
-        <author>
-            <name>jrsj</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Apple picks Google's Gemini to power Siri]]></title>
-        <id>https://news.ycombinator.com/item?id=46589675</id>
-        <link href="https://www.cnbc.com/2026/01/12/apple-google-ai-siri-gemini.html"/>
-        <updated>2026-01-12T15:22:21.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.cnbc.com/2026/01/12/apple-google-ai-siri-gemini.html
-Comments URL: https://news.ycombinator.com/item?id=46589675
-Points: 80
-# Comments: 52]]></summary>
-        <author>
-            <name>stygiansonic</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Date is out, Temporal is in]]></title>
-        <id>https://news.ycombinator.com/item?id=46589658</id>
-        <link href="https://piccalil.li/blog/date-is-out-and-temporal-is-in/"/>
-        <updated>2026-01-12T15:20:36.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://piccalil.li/blog/date-is-out-and-temporal-is-in/
-Comments URL: https://news.ycombinator.com/item?id=46589658
-Points: 86
-# Comments: 26]]></summary>
-        <author>
-            <name>alexanderameye</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Statement from Federal Reserve Chair]]></title>
-        <id>https://news.ycombinator.com/item?id=46589489</id>
-        <link href="https://www.federalreserve.gov/newsevents/speech/powell20260111a.htm?mod=ANLink"/>
-        <updated>2026-01-12T15:05:51.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.federalreserve.gov/newsevents/speech/powell20260111a.htm?mod=ANLink
-Comments URL: https://news.ycombinator.com/item?id=46589489
-Points: 109
-# Comments: 4]]></summary>
-        <author>
-            <name>nikhizzle</name>
         </author>
     </entry>
 </feed>

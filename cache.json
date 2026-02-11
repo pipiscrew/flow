@@ -6,6 +6,16 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=46969399",
+          "author": "socialcommenter",
+          "description": "Article URL: https://rivian.com/r2\nComments URL: https://news.ycombinator.com/item?id=46969399\nPoints: 66\n# Comments: 76",
+          "link": "https://rivian.com/r2",
+          "publishedOn": "2026-02-11T01:00:15.000Z",
+          "wordCount": 2186,
+          "title": "Rivian R2: Electric Mid-Size SUV",
+          "imageUrl": "https://images.ctfassets.net/2md5qhoeajym/3LK8680NgbasQQeELWS3GN/7e6f16252fa78f9e57929afe7253b409/9da72c1a6013bc2513693e2e4cc41189.png"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=46967772",
           "author": "pjf",
           "description": "Article URL: https://www.labs.greynoise.io/grimoire/2026-02-10-telnet-falls-silent/\nComments URL: https://news.ycombinator.com/item?id=46967772\nPoints: 212\n# Comments: 136",
@@ -554,6 +564,16 @@
           "wordCount": 3540,
           "title": "Irish man detained by ICE for 5 months",
           "imageUrl": "https://www.rte.ie/images/0023de2a-1600.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46947229",
+          "author": "thisisjedr",
+          "description": "We needed a JS-first WYSIWYG DOCX editor and couldn't find a solid OSS option, most were either commercial or abandoned.\nAs an experiment, we gave Claude Code the OOXML spec, a concrete editor architecture, and a Playwright-based test suite. The agent iterated in a (Ralph) loop over a few nights and produced a working editor from scratch.\nCore text editing works today. Tables and images are functional but still incomplete. MIT licensed.\nComments URL: https://news.ycombinator.com/item?id=46947229\nPoints: 62\n# Comments: 18",
+          "link": "https://github.com/eigenpal/docx-js-editor",
+          "publishedOn": "2026-02-09T16:33:38.000Z",
+          "wordCount": 2817,
+          "title": "Show HN: JavaScript-first, open-source WYSIWYG DOCX editor",
+          "imageUrl": "https://opengraph.githubassets.com/2eea2d5414596423ef8eb9b50a87bf43e6f5d0df1c5d8abd431d14e06a921f3c/eigenpal/docx-js-editor"
         },
         {
           "id": "https://news.ycombinator.com/item?id=46947210",
@@ -13514,86 +13534,6 @@
           "wordCount": 1333,
           "title": "Message Queues: A Simple Guide with Analogies",
           "imageUrl": "https://www.cloudamqp.com/img/blog/message-queues/message-queues-header.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46591100",
-          "author": "WillNickols",
-          "description": "Hey HN! We’re Will and Jorge, and we’ve built LAD (Language-Aided Design), a SolidWorks add-in that uses LLMs to create sketches, features, assemblies, and macros from conversational inputs (https://www.trylad.com/).\nWe come from software engineering backgrounds where tools like Claude Code and Cursor have come to dominate, but when poking around CAD systems a few months back we realized there's no way to go from a text prompt input to a modeling output in any of the major CAD systems. In our testing, the LLMs aren't as good at making 3D objects as they are are writing code, but we think they'll get a lot better in the upcoming months and years.\nTo bridge this gap, we've created LAD, an add-in in SolidWorks to turn conversational input and uploaded documents/images into parts, assemblies, and macros. It includes:\n- Dozens of tools the LLM can call to create sketches, features, and other objects in parts.\n- Assembly tools the LLM can call to turn parts into assemblies.\n- File system tools the LLM can use to create, save, search, and read SolidWorks files and documentation.\n- Macro writing/running tools plus a SolidWorks API documentation search so the LLM can use macros.\n- Automatic screenshots and feature tree parsing to provide the LLM context on the current state.\n- Checkpointing to roll back unwanted edits and permissioning to determine which commands wait for user permission.\nYou can try LAD at https://www.trylad.com/ and let us know what features would make it more useful for your work. To be honest, the LLMs aren't great at CAD right now, but we're mostly curious to hear if people would want and use this if it worked well.\nComments URL: https://news.ycombinator.com/item?id=46591100\nPoints: 70\n# Comments: 36",
-          "link": "https://www.trylad.com/",
-          "publishedOn": "2026-01-12T16:56:17.000Z",
-          "wordCount": 443,
-          "title": "Show HN: AI in SolidWorks",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46590541",
-          "author": "romshark",
-          "description": "Article URL: https://github.com/scionassociation/blog-25gbit-workstation\nComments URL: https://news.ycombinator.com/item?id=46590541\nPoints: 53\n# Comments: 17",
-          "link": "https://github.com/scionassociation/blog-25gbit-workstation",
-          "publishedOn": "2026-01-12T16:20:16.000Z",
-          "wordCount": 15617,
-          "title": "Building a 25 Gbit/s workstation for the SCION Association",
-          "imageUrl": "https://opengraph.githubassets.com/b33fe6dc98a5a86908b00be9dc5e232f22477299eafe071646ce20528c4b7adc/scionassociation/blog-25gbit-workstation"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46590404",
-          "author": "debo_",
-          "description": "Article URL: https://www.ctvnews.ca/ottawa/video/2026/01/06/experts-warn-of-growing-parrot-crisis-in-canada/\nComments URL: https://news.ycombinator.com/item?id=46590404\nPoints: 55\n# Comments: 24",
-          "link": "https://www.ctvnews.ca/ottawa/video/2026/01/06/experts-warn-of-growing-parrot-crisis-in-canada/",
-          "publishedOn": "2026-01-12T16:12:27.000Z",
-          "wordCount": 1698,
-          "title": "Experts Warn of Growing Parrot Crisis in Canada",
-          "imageUrl": "https://www.ctvnews.ca/resizer/v2/https%3A%2F%2Fd3g70guqh4mw9g.cloudfront.net%2F01-07-2026%2Ft_a3dd3e92b1ef4e59b5f1d12e85d6e4b1_name_CJOH010626_PARROTS.jpeg?smart=true&auth=17097a41bc73891163d3b1ce230a1cfc1278e8dec1491b6b798373811f20ff12&width=1200&height=630"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46590280",
-          "author": "admp",
-          "description": "Article URL: https://github.com/haykgrigo3/TimeCapsuleLLM\nComments URL: https://news.ycombinator.com/item?id=46590280\nPoints: 124\n# Comments: 58",
-          "link": "https://github.com/haykgrigo3/TimeCapsuleLLM",
-          "publishedOn": "2026-01-12T16:04:27.000Z",
-          "wordCount": 6419,
-          "title": "TimeCapsuleLLM: LLM trained only on data from 1800-1875",
-          "imageUrl": "https://opengraph.githubassets.com/b54368a061b98e2d8cec99e09d369d3fbd6985fd1f45ec2904fc1efb380a0150/haykgrigo3/TimeCapsuleLLM"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46589842",
-          "author": "jrsj",
-          "description": "Article URL: https://builders.ramp.com/post/why-we-built-our-background-agent\nComments URL: https://news.ycombinator.com/item?id=46589842\nPoints: 61\n# Comments: 5",
-          "link": "https://builders.ramp.com/post/why-we-built-our-background-agent",
-          "publishedOn": "2026-01-12T15:36:36.000Z",
-          "wordCount": 173,
-          "title": "Why we built our own background agent",
-          "imageUrl": "https://builders.ramp.com/articles/why-we-built-our-background-agent/twitter-hero.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46589675",
-          "author": "stygiansonic",
-          "description": "Article URL: https://www.cnbc.com/2026/01/12/apple-google-ai-siri-gemini.html\nComments URL: https://news.ycombinator.com/item?id=46589675\nPoints: 80\n# Comments: 52",
-          "link": "https://www.cnbc.com/2026/01/12/apple-google-ai-siri-gemini.html",
-          "publishedOn": "2026-01-12T15:22:21.000Z",
-          "wordCount": 25403,
-          "title": "Apple picks Google's Gemini to power Siri",
-          "imageUrl": "https://image.cnbcfm.com/api/v1/image/108251190-1768231661465-gettyimages-2252639381-dellatorre-notitle251222_npwev.jpeg?v=1768231683&w=1920&h=1080"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46589658",
-          "author": "alexanderameye",
-          "description": "Article URL: https://piccalil.li/blog/date-is-out-and-temporal-is-in/\nComments URL: https://news.ycombinator.com/item?id=46589658\nPoints: 86\n# Comments: 26",
-          "link": "https://piccalil.li/blog/date-is-out-and-temporal-is-in/",
-          "publishedOn": "2026-01-12T15:20:36.000Z",
-          "wordCount": 4090,
-          "title": "Date is out, Temporal is in",
-          "imageUrl": "https://piccalil.b-cdn.net/api/og-image?slug=date-is-out-and-temporal-is-in/"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46589489",
-          "author": "nikhizzle",
-          "description": "Article URL: https://www.federalreserve.gov/newsevents/speech/powell20260111a.htm?mod=ANLink\nComments URL: https://news.ycombinator.com/item?id=46589489\nPoints: 109\n# Comments: 4",
-          "link": "https://www.federalreserve.gov/newsevents/speech/powell20260111a.htm?mod=ANLink",
-          "publishedOn": "2026-01-12T15:05:51.000Z",
-          "wordCount": 1595,
-          "title": "Statement from Federal Reserve Chair",
-          "imageUrl": "https://www.federalreserve.gov/images/social-media/social-default-image-opengraph.jpg"
         }
       ]
     }
