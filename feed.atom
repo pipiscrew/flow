@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-02-12T07:10:08.884Z</updated>
+    <updated>2026-02-12T08:56:05.347Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
@@ -17,6 +17,19 @@ Points: 88
 # Comments: 22]]></summary>
         <author>
             <name>doppp</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[D Programming Language]]></title>
+        <id>https://news.ycombinator.com/item?id=46985147</id>
+        <link href="https://dlang.org/"/>
+        <updated>2026-02-12T05:18:09.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://dlang.org/
+Comments URL: https://news.ycombinator.com/item?id=46985147
+Points: 92
+# Comments: 69]]></summary>
+        <author>
+            <name>arcadia_leak</name>
         </author>
     </entry>
     <entry>
@@ -370,6 +383,19 @@ Points: 78
 # Comments: 48]]></summary>
         <author>
             <name>CuriouslyC</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: CodeRLM – Tree-sitter-backed code indexing for LLM agents]]></title>
+        <id>https://news.ycombinator.com/item?id=46974515</id>
+        <link href="https://github.com/JaredStewart/coderlm/blob/main/server/REPL_to_API.md"/>
+        <updated>2026-02-11T13:10:23.000Z</updated>
+        <summary type="html"><![CDATA[I've been building a tool that changes how LLM coding agents explore codebases, and I wanted to share it along with some early observations.
+Typically claude code globs directories, greps for patterns, and reads files with minimal guidance. It works in kind of the same way you'd learn to navigate a city by walking every street. You'll eventually build a mental map, but claude never does - at least not any that persists across different contexts.
+The Recursive Language Models paper from Zhang, Kraska, and Khattab at MIT CSAIL introduced a cleaner framing. Instead of cramming everything into context, the model gets a searchable environment. The model can then query just for what it needs and can drill deeper where needed.
+coderlm is my implementation of that idea for codebases. A Rust server…]]></summary>
+        <author>
+            <name>jared_stewart</name>
         </author>
     </entry>
     <entry>
@@ -18280,19 +18306,6 @@ Points: 52
 # Comments: 56]]></summary>
         <author>
             <name>1970-01-01</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Games Workshop bans staff from using AI, management not excited about the tech]]></title>
-        <id>https://news.ycombinator.com/item?id=46607681</id>
-        <link href="https://www.ign.com/articles/warhammer-maker-games-workshop-bans-its-staff-from-using-ai-in-its-content-or-designs-says-none-of-its-senior-managers-are-currently-excited-about-the-tech"/>
-        <updated>2026-01-13T20:45:43.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.ign.com/articles/warhammer-maker-games-workshop-bans-its-staff-from-using-ai-in-its-content-or-designs-says-none-of-its-senior-managers-are-currently-excited-about-the-tech
-Comments URL: https://news.ycombinator.com/item?id=46607681
-Points: 54
-# Comments: 15]]></summary>
-        <author>
-            <name>jsheard</name>
         </author>
     </entry>
 </feed>

@@ -16,6 +16,16 @@
           "imageUrl": "https://opengraph.githubassets.com/befa760820db55acbeec8c616933780c0fa48aa72ac7a72a3e968420016612e7/tonyyont/peon-ping"
         },
         {
+          "id": "https://news.ycombinator.com/item?id=46985147",
+          "author": "arcadia_leak",
+          "description": "Article URL: https://dlang.org/\nComments URL: https://news.ycombinator.com/item?id=46985147\nPoints: 92\n# Comments: 69",
+          "link": "https://dlang.org/",
+          "publishedOn": "2026-02-12T05:18:09.000Z",
+          "wordCount": 2705,
+          "title": "D Programming Language",
+          "imageUrl": "https://dlang.org/images/dlogo_opengraph.png"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=46984735",
           "author": "gwintrob",
           "description": "Article URL: https://essays.fnnch.com/make-a-living\nComments URL: https://news.ycombinator.com/item?id=46984735\nPoints: 58\n# Comments: 24",
@@ -284,6 +294,16 @@
           "wordCount": 1045,
           "title": "GLM5 Released on Z.ai Platform",
           "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46974515",
+          "author": "jared_stewart",
+          "description": "I've been building a tool that changes how LLM coding agents explore codebases, and I wanted to share it along with some early observations.\nTypically claude code globs directories, greps for patterns, and reads files with minimal guidance. It works in kind of the same way you'd learn to navigate a city by walking every street. You'll eventually build a mental map, but claude never does - at least not any that persists across different contexts.\nThe Recursive Language Models paper from Zhang, Kraska, and Khattab at MIT CSAIL introduced a cleaner framing. Instead of cramming everything into context, the model gets a searchable environment. The model can then query just for what it needs and can drill deeper where needed.\ncoderlm is my implementation of that idea for codebases. A Rust server…",
+          "link": "https://github.com/JaredStewart/coderlm/blob/main/server/REPL_to_API.md",
+          "publishedOn": "2026-02-11T13:10:23.000Z",
+          "wordCount": 7023,
+          "title": "Show HN: CodeRLM – Tree-sitter-backed code indexing for LLM agents",
+          "imageUrl": "https://opengraph.githubassets.com/dd3928e42a8c0e8032e95c23d98c0b59dcae7cb616589f38e9d487f7d41401d5/JaredStewart/coderlm"
         },
         {
           "id": "https://news.ycombinator.com/item?id=46973647",
@@ -13594,16 +13614,6 @@
           "wordCount": null,
           "title": "Two Concepts of Intelligence",
           "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46607681",
-          "author": "jsheard",
-          "description": "Article URL: https://www.ign.com/articles/warhammer-maker-games-workshop-bans-its-staff-from-using-ai-in-its-content-or-designs-says-none-of-its-senior-managers-are-currently-excited-about-the-tech\nComments URL: https://news.ycombinator.com/item?id=46607681\nPoints: 54\n# Comments: 15",
-          "link": "https://www.ign.com/articles/warhammer-maker-games-workshop-bans-its-staff-from-using-ai-in-its-content-or-designs-says-none-of-its-senior-managers-are-currently-excited-about-the-tech",
-          "publishedOn": "2026-01-13T20:45:43.000Z",
-          "wordCount": 4782,
-          "title": "Games Workshop bans staff from using AI, management not excited about the tech",
-          "imageUrl": "https://assets-prd.ignimgs.com/2025/11/08/wh500worlds-vcms-thumbs-recovered-1762612481618.jpg?width=1280&format=jpg&auto=webp&quality=80"
         }
       ]
     }
