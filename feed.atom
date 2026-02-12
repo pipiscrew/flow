@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-02-12T10:58:31.351Z</updated>
+    <updated>2026-02-12T11:50:08.488Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
@@ -43,6 +43,23 @@ Points: 58
 # Comments: 24]]></summary>
         <author>
             <name>gwintrob</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Hologram v0.7.0: Milestone release for Elixir-to-JavaScript porting initiative]]></title>
+        <id>https://news.ycombinator.com/item?id=46982943</id>
+        <link href="https://hologram.page/blog/porting-initiative-delivers-hologram-v0-7-0"/>
+        <updated>2026-02-11T23:54:59.000Z</updated>
+        <summary type="html"><![CDATA[Creator here. Hologram compiles Elixir to JavaScript to run in the browser, enabling full-stack development in pure Elixir - and soon, Local-First applications.
+This release is a milestone for our porting initiative. 49 contributors ported 150 Erlang functions across 19 modules, pushing client-side Erlang runtime coverage from 34% to 96% and overall Elixir standard library readiness from 74% to 87%.
+This means the vast majority of Elixir standard library functions needed for full-stack web and basic local-first apps now work in the browser - string processing, collections, sets, binary operations, Unicode normalization, math, time operations, file path handling, and more.
+Beyond porting, the release includes enhancements, bug fixes, and infrastructure groundwork.
+Happy to answer any questions!
+Comments URL: https://news.ycombinator.com/item?id=46982943
+Points: 50
+# Comments: 9]]></summary>
+        <author>
+            <name>bartblast</name>
         </author>
     </entry>
     <entry>
@@ -1431,6 +1448,19 @@ Points: 81
 # Comments: 21]]></summary>
         <author>
             <name>waihtis</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[HeyWhatsThat]]></title>
+        <id>https://news.ycombinator.com/item?id=46945907</id>
+        <link href="https://www.heywhatsthat.com/faq.html"/>
+        <updated>2026-02-09T14:57:25.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.heywhatsthat.com/faq.html
+Comments URL: https://news.ycombinator.com/item?id=46945907
+Points: 59
+# Comments: 12]]></summary>
+        <author>
+            <name>1970-01-01</name>
         </author>
     </entry>
     <entry>
@@ -18228,19 +18258,6 @@ Points: 69
 # Comments: 10]]></summary>
         <author>
             <name>dang</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A 40-line fix eliminated a 400x performance gap]]></title>
-        <id>https://news.ycombinator.com/item?id=46609630</id>
-        <link href="https://questdb.com/blog/jvm-current-thread-user-time/"/>
-        <updated>2026-01-13T23:00:36.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://questdb.com/blog/jvm-current-thread-user-time/
-Comments URL: https://news.ycombinator.com/item?id=46609630
-Points: 123
-# Comments: 26]]></summary>
-        <author>
-            <name>bluestreak</name>
         </author>
     </entry>
 </feed>
