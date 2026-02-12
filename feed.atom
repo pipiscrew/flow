@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-02-12T02:49:12.725Z</updated>
+    <updated>2026-02-12T05:04:03.763Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
@@ -30,6 +30,19 @@ Points: 89
 # Comments: 13]]></summary>
         <author>
             <name>JustSkyfall</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Covering electricity price increases from our data centers]]></title>
+        <id>https://news.ycombinator.com/item?id=46981058</id>
+        <link href="https://www.anthropic.com/news/covering-electricity-price-increases"/>
+        <updated>2026-02-11T21:12:59.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.anthropic.com/news/covering-electricity-price-increases
+Comments URL: https://news.ycombinator.com/item?id=46981058
+Points: 63
+# Comments: 28]]></summary>
+        <author>
+            <name>ryanhn</name>
         </author>
     </entry>
     <entry>
@@ -72,6 +85,32 @@ Points: 87
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Reports of Telnet's death have been greatly exaggerated]]></title>
+        <id>https://news.ycombinator.com/item?id=46980355</id>
+        <link href="https://www.terracenetworks.com/blog/2026-02-11-telnet-routing"/>
+        <updated>2026-02-11T20:20:48.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.terracenetworks.com/blog/2026-02-11-telnet-routing
+Comments URL: https://news.ycombinator.com/item?id=46980355
+Points: 75
+# Comments: 23]]></summary>
+        <author>
+            <name>ericpauley</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Apple's latest attempt to launch the new Siri runs into snags]]></title>
+        <id>https://news.ycombinator.com/item?id=46980039</id>
+        <link href="https://www.bloomberg.com/news/articles/2026-02-11/apple-s-ios-26-4-siri-update-runs-into-snags-in-internal-testing-ios-26-5-27"/>
+        <updated>2026-02-11T19:59:17.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.bloomberg.com/news/articles/2026-02-11/apple-s-ios-26-4-siri-update-runs-into-snags-in-internal-testing-ios-26-5-27
+Comments URL: https://news.ycombinator.com/item?id=46980039
+Points: 53
+# Comments: 56]]></summary>
+        <author>
+            <name>petethomas</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Microwave Oven Failure: Spontaneously turned on by its LED display (2024)]]></title>
         <id>https://news.ycombinator.com/item?id=46979936</id>
         <link href="https://blog.stuffedcow.net/2024/06/microwave-failure-spontaneously-turns-on/"/>
@@ -95,6 +134,21 @@ Points: 62
 # Comments: 18]]></summary>
         <author>
             <name>CGMthrowaway</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Agent framework that generates its own topology and evolves at runtime]]></title>
+        <id>https://news.ycombinator.com/item?id=46979781</id>
+        <link href="https://github.com/adenhq/hive/blob/main/README.md"/>
+        <updated>2026-02-11T19:39:43.000Z</updated>
+        <summary type="html"><![CDATA[Hi HN,
+I’m Vincent from Aden. We spent 4 years building ERP automation for construction (PO/invoice reconciliation). We had real enterprise customers but hit a technical wall: Chatbots aren't for real work. Accountants don't want to chat; they want the ledger reconciled while they sleep. They want services, not tools.
+Existing agent frameworks (LangChain, AutoGPT) failed in production - brittle, looping, and unable to handle messy data. General Computer Use (GCU) frameworks were even worse. My reflections:
+1. The "Toy App" Ceiling & GCU Trap
+Most frameworks assume synchronous sessions. If the tab closes, state is lost. You can't fit 2 weeks of asynchronous business state into an ephemeral chat session.
+The GCU hype (agents "looking" at screens) is skeuomorphic. It’s slow (screenshots), exp…]]></summary>
+        <author>
+            <name>vincentjiang</name>
         </author>
     </entry>
     <entry>
@@ -1069,6 +1123,19 @@ Points: 62
 # Comments: 26]]></summary>
         <author>
             <name>bear_with_me</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Using an engineering notebook]]></title>
+        <id>https://news.ycombinator.com/item?id=46949814</id>
+        <link href="https://ntietz.com/blog/using-an-engineering-notebook/"/>
+        <updated>2026-02-09T19:29:53.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://ntietz.com/blog/using-an-engineering-notebook/
+Comments URL: https://news.ycombinator.com/item?id=46949814
+Points: 57
+# Comments: 17]]></summary>
+        <author>
+            <name>evakhoury</name>
         </author>
     </entry>
     <entry>
@@ -2604,6 +2671,19 @@ Points: 107
 # Comments: 38]]></summary>
         <author>
             <name>jesperordrup</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Kanchipuram Saris and Thinking Machines]]></title>
+        <id>https://news.ycombinator.com/item?id=46921757</id>
+        <link href="https://altermag.com/articles/kanchipuram-saris-and-thinking-machines"/>
+        <updated>2026-02-07T06:19:05.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://altermag.com/articles/kanchipuram-saris-and-thinking-machines
+Comments URL: https://news.ycombinator.com/item?id=46921757
+Points: 76
+# Comments: 11]]></summary>
+        <author>
+            <name>trojanalert</name>
         </author>
     </entry>
     <entry>
@@ -18318,122 +18398,6 @@ Points: 79
 # Comments: 19]]></summary>
         <author>
             <name>apitman</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Influencers and OnlyFans models are dominating U.S. O-1 visa requests]]></title>
-        <id>https://news.ycombinator.com/item?id=46603535</id>
-        <link href="https://www.theguardian.com/us-news/2026/jan/11/onlyfans-influencers-us-o-1-visa"/>
-        <updated>2026-01-13T16:47:39.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.theguardian.com/us-news/2026/jan/11/onlyfans-influencers-us-o-1-visa
-Comments URL: https://news.ycombinator.com/item?id=46603535
-Points: 192
-# Comments: 120]]></summary>
-        <author>
-            <name>bookofjoe</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Scott Adams has died]]></title>
-        <id>https://news.ycombinator.com/item?id=46603431</id>
-        <link href="https://www.usatoday.com/story/entertainment/celebrities/2026/01/13/scott-adams-dead-dilbert-creator-prostate-cancer/88158828007/"/>
-        <updated>2026-01-13T16:41:40.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.usatoday.com/story/entertainment/celebrities/2026/01/13/scott-adams-dead-dilbert-creator-prostate-cancer/88158828007/
-Comments URL: https://news.ycombinator.com/item?id=46603431
-Points: 209
-# Comments: 85]]></summary>
-        <author>
-            <name>schmuckonwheels</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Are two heads better than one?]]></title>
-        <id>https://news.ycombinator.com/item?id=46603111</id>
-        <link href="https://eieio.games/blog/two-heads-arent-better-than-one/"/>
-        <updated>2026-01-13T16:22:59.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://eieio.games/blog/two-heads-arent-better-than-one/
-Comments URL: https://news.ycombinator.com/item?id=46603111
-Points: 68
-# Comments: 10]]></summary>
-        <author>
-            <name>evakhoury</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[vLLM large scale serving: DeepSeek 2.2k tok/s/h200 with wide-ep]]></title>
-        <id>https://news.ycombinator.com/item?id=46602737</id>
-        <link href="https://blog.vllm.ai/2025/12/17/large-scale-serving.html"/>
-        <updated>2026-01-13T15:59:59.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://blog.vllm.ai/2025/12/17/large-scale-serving.html
-Comments URL: https://news.ycombinator.com/item?id=46602737
-Points: 57
-# Comments: 5]]></summary>
-        <author>
-            <name>robertnishihara</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Every GitHub object has two IDs]]></title>
-        <id>https://news.ycombinator.com/item?id=46602591</id>
-        <link href="https://www.greptile.com/blog/github-ids"/>
-        <updated>2026-01-13T15:52:33.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.greptile.com/blog/github-ids
-Comments URL: https://news.ycombinator.com/item?id=46602591
-Points: 96
-# Comments: 17]]></summary>
-        <author>
-            <name>dakshgupta</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[What a year of solar and batteries saved us in 2025]]></title>
-        <id>https://news.ycombinator.com/item?id=46602532</id>
-        <link href="https://scotthelme.co.uk/what-a-year-of-solar-and-batteries-really-saved-us-in-2025/"/>
-        <updated>2026-01-13T15:49:27.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://scotthelme.co.uk/what-a-year-of-solar-and-batteries-really-saved-us-in-2025/
-Comments URL: https://news.ycombinator.com/item?id=46602532
-Points: 123
-# Comments: 123]]></summary>
-        <author>
-            <name>MattSayar</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: Self-host Reddit – 2.38B posts, works offline, yours forever]]></title>
-        <id>https://news.ycombinator.com/item?id=46602324</id>
-        <link href="https://github.com/19-84/redd-archiver"/>
-        <updated>2026-01-13T15:35:09.000Z</updated>
-        <summary type="html"><![CDATA[Reddit's API is effectively dead for archival. Third-party apps are gone. Reddit has threatened to cut off access to the Pushshift dataset multiple times. But 3.28TB of Reddit history exists as a torrent right now, and I built a tool to turn it into something you can browse on your own hardware.
-The key point: This doesn't touch Reddit's servers. Ever. Download the Pushshift dataset, run my tool locally, get a fully browsable archive. Works on an air-gapped machine. Works on a Raspberry Pi serving your LAN. Works on a USB drive you hand to someone.
-What it does: Takes compressed data dumps from Reddit (.zst), Voat (SQL), and Ruqqus (.7z) and generates static HTML. No JavaScript, no external requests, no tracking. Open index.html and browse. Want search? Run the optional Docker stack with P…]]></summary>
-        <author>
-            <name>19-84</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Scott Adams has died]]></title>
-        <id>https://news.ycombinator.com/item?id=46602102</id>
-        <link href="https://www.youtube.com/watch?v=Rs_JrOIo3SE"/>
-        <updated>2026-01-13T15:18:43.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.youtube.com/watch?v=Rs_JrOIo3SE
-Comments URL: https://news.ycombinator.com/item?id=46602102
-Points: 294
-# Comments: 663]]></summary>
-        <author>
-            <name>ekianjo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Anthropic has made a large contribution to the Python Software Foundation]]></title>
-        <id>https://news.ycombinator.com/item?id=46601902</id>
-        <link href="https://discuss.python.org/t/anthropic-has-made-a-large-contribution-to-the-python-software-foundation-and-open-source-security/105694"/>
-        <updated>2026-01-13T15:03:58.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://discuss.python.org/t/anthropic-has-made-a-large-contribution-to-the-python-software-foundation-and-open-source-security/105694
-Comments URL: https://news.ycombinator.com/item?id=46601902
-Points: 135
-# Comments: 53]]></summary>
-        <author>
-            <name>ayhanfuat</name>
         </author>
     </entry>
 </feed>
