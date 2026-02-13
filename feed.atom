@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-02-13T21:42:09.036Z</updated>
+    <updated>2026-02-13T22:39:51.206Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
@@ -20,6 +20,18 @@ Points: 66
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Show HN: Skill that lets Claude Code/Codex spin up VMs and GPUs]]></title>
+        <id>https://news.ycombinator.com/item?id=47006393</id>
+        <link href="https://cloudrouter.dev/"/>
+        <updated>2026-02-13T19:02:17.000Z</updated>
+        <summary type="html"><![CDATA[I've been working on CloudRouter, a skill + CLI that gives coding agents like Claude Code and Codex the ability to start cloud VMs and GPUs.
+When an agent writes code, it usually needs to start a dev server, run tests, open a browser to verify its work. Today that all happens on your local machine. This works fine for a single task, but the agent is sharing your computer: your ports, RAM, screen. If you run multiple agents in parallel, it gets a bit chaotic. Docker helps with isolation, but it still uses your machine's resources, and doesn't give the agent a browser, a desktop, or a GPU to close the loop properly. The agent could handle all of this on its own if it had a primitive for starting VMs.
+CloudRouter is that primitive — a skill that gives the agent its own machines. The agent can…]]></summary>
+        <author>
+            <name>austinwang115</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Age of Empires: 25 years of pathfinding problems with C++ [video]]]></title>
         <id>https://news.ycombinator.com/item?id=47006316</id>
         <link href="https://www.youtube.com/watch?v=lEBQveBCtKY"/>
@@ -30,6 +42,19 @@ Points: 56
 # Comments: 8]]></summary>
         <author>
             <name>CharlesW</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Building a TUI is easy now]]></title>
+        <id>https://news.ycombinator.com/item?id=47005509</id>
+        <link href="https://hatchet.run/blog/tuis-are-easy-now"/>
+        <updated>2026-02-13T17:50:54.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://hatchet.run/blog/tuis-are-easy-now
+Comments URL: https://news.ycombinator.com/item?id=47005509
+Points: 60
+# Comments: 51]]></summary>
+        <author>
+            <name>abelanger</name>
         </author>
     </entry>
     <entry>
@@ -18010,19 +18035,6 @@ Points: 65
 # Comments: 26]]></summary>
         <author>
             <name>suioir</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Photos Capture the Breathtaking Scale of China's Wind and Solar Buildout]]></title>
-        <id>https://news.ycombinator.com/item?id=46630369</id>
-        <link href="https://e360.yale.edu/digest/china-renewable-photo-essay"/>
-        <updated>2026-01-15T09:54:10.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://e360.yale.edu/digest/china-renewable-photo-essay
-Comments URL: https://news.ycombinator.com/item?id=46630369
-Points: 148
-# Comments: 80]]></summary>
-        <author>
-            <name>mrtksn</name>
         </author>
     </entry>
 </feed>

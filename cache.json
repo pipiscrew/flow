@@ -16,6 +16,16 @@
           "imageUrl": null
         },
         {
+          "id": "https://news.ycombinator.com/item?id=47006393",
+          "author": "austinwang115",
+          "description": "I've been working on CloudRouter, a skill + CLI that gives coding agents like Claude Code and Codex the ability to start cloud VMs and GPUs.\nWhen an agent writes code, it usually needs to start a dev server, run tests, open a browser to verify its work. Today that all happens on your local machine. This works fine for a single task, but the agent is sharing your computer: your ports, RAM, screen. If you run multiple agents in parallel, it gets a bit chaotic. Docker helps with isolation, but it still uses your machine's resources, and doesn't give the agent a browser, a desktop, or a GPU to close the loop properly. The agent could handle all of this on its own if it had a primitive for starting VMs.\nCloudRouter is that primitive — a skill that gives the agent its own machines. The agent can…",
+          "link": "https://cloudrouter.dev/",
+          "publishedOn": "2026-02-13T19:02:17.000Z",
+          "wordCount": 26794,
+          "title": "Show HN: Skill that lets Claude Code/Codex spin up VMs and GPUs",
+          "imageUrl": null
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=47006316",
           "author": "CharlesW",
           "description": "Article URL: https://www.youtube.com/watch?v=lEBQveBCtKY\nComments URL: https://news.ycombinator.com/item?id=47006316\nPoints: 56\n# Comments: 8",
@@ -24,6 +34,16 @@
           "wordCount": null,
           "title": "Age of Empires: 25 years of pathfinding problems with C++ [video]",
           "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47005509",
+          "author": "abelanger",
+          "description": "Article URL: https://hatchet.run/blog/tuis-are-easy-now\nComments URL: https://news.ycombinator.com/item?id=47005509\nPoints: 60\n# Comments: 51",
+          "link": "https://hatchet.run/blog/tuis-are-easy-now",
+          "publishedOn": "2026-02-13T17:50:54.000Z",
+          "wordCount": 1606,
+          "title": "Building a TUI is easy now",
+          "imageUrl": "/assets/og-PqKfvZWg.png"
         },
         {
           "id": "https://news.ycombinator.com/item?id=47005081",
@@ -13464,16 +13484,6 @@
           "wordCount": 6718,
           "title": "The 3D Software Rendering Technology of 1998's Thief: The Dark Project (2019)",
           "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46630369",
-          "author": "mrtksn",
-          "description": "Article URL: https://e360.yale.edu/digest/china-renewable-photo-essay\nComments URL: https://news.ycombinator.com/item?id=46630369\nPoints: 148\n# Comments: 80",
-          "link": "https://e360.yale.edu/digest/china-renewable-photo-essay",
-          "publishedOn": "2026-01-15T09:54:10.000Z",
-          "wordCount": 775,
-          "title": "Photos Capture the Breathtaking Scale of China's Wind and Solar Buildout",
-          "imageUrl": "https://yale-threesixty.transforms.svdcdn.com/production/Heidu-Mountain_Weimin-Chu.jpg?w=1200&q=60&auto=format&fit=max&dm=1765975252&s=d896cddeccde74862a981bfca6c95aec"
         }
       ]
     }
