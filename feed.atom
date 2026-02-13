@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-02-13T04:58:24.968Z</updated>
+    <updated>2026-02-13T06:07:36.731Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
@@ -69,6 +69,26 @@ Points: 207
 # Comments: 91]]></summary>
         <author>
             <name>c420</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Tell HN: Ralph Giles has died (Xiph.org| Rust@Mozilla | Ghostscript)]]></title>
+        <id>https://news.ycombinator.com/item?id=46996490</id>
+        <link href="https://news.ycombinator.com/item?id=46996490"/>
+        <updated>2026-02-12T22:58:58.000Z</updated>
+        <summary type="html"><![CDATA[It's with much sadness that we announce the passing of our friend and colleague Ralph Giles, or rillian as he was known on IRC.
+Ralph began contributing to Xiph.org in 2000 and became a core Ghostscript developer in 2001[1]. Ralph made many contributions to the royalty-free media ecosystem, whether it was as a project lead on Theora, serving as release manager for multiple Xiph libraries or maintaining Xiph infrastructure that has been used across the industry by codec engineers and researchers[2].
+He was also the first to ship Rust code in Firefox[3] during his time at Mozilla, which was a major milestone for both the language and Firefox itself.
+Ralph was a great contributor, a kind colleague and will be greatly missed.
+Official Announcement: https://www.linkedin.com/feed/update/urn:li:activity:7427730...
+[1]: http://www.wizards-of-os.org/archiv/sprecher/g_h/ralph_giles...
+[2]: https://media.xiph.org/
+[3]: https://medium.com/mozilla-tech/deploying-rust-in-a-large-co...
+Comments URL: https://news.ycombinator.com/item?id=46996490
+Points: 81
+# Comments: 4]]></summary>
+        <author>
+            <name>ffworld</name>
         </author>
     </entry>
     <entry>
@@ -2106,6 +2126,19 @@ Points: 71
 # Comments: 15]]></summary>
         <author>
             <name>pul</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Partial 8-Piece Tablebase]]></title>
+        <id>https://news.ycombinator.com/item?id=46944376</id>
+        <link href="https://lichess.org/@/Lichess/blog/op1-partial-8-piece-tablebase-available/1ptPBDpC"/>
+        <updated>2026-02-09T12:09:59.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://lichess.org/@/Lichess/blog/op1-partial-8-piece-tablebase-available/1ptPBDpC
+Comments URL: https://news.ycombinator.com/item?id=46944376
+Points: 52
+# Comments: 1]]></summary>
+        <author>
+            <name>qsort</name>
         </author>
     </entry>
     <entry>
@@ -18086,109 +18119,6 @@ How it works under the hood:
 - Escalation Logic: We don't spin up a full browser instance for every request (which is slow and expensive). We attempt lightweig…]]></summary>
         <author>
             <name>MrTravisB</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: Sparrow-1 – Audio-native model for human-level turn-taking without ASR]]></title>
-        <id>https://news.ycombinator.com/item?id=46619614</id>
-        <link href="https://www.tavus.io/post/sparrow-1-human-level-conversational-timing-in-real-time-voice"/>
-        <updated>2026-01-14T18:01:23.000Z</updated>
-        <summary type="html"><![CDATA[For the past year I've been working to rethink how AI manages timing in conversation at Tavus. I've spent a lot of time listening to conversations. Today we're announcing the release of Sparrow-1, the most advanced conversational flow model in the world.
-Some technical details:
-- Predicts conversational floor ownership, not speech endpoints
-- Audio-native streaming model, no ASR dependency
-- Human-timed responses without silence-based delays
-- Zero interruptions at sub-100ms median latency
-- In benchmarks Sparrow-1 beats all existing models at real world turn-taking baselines
-I wrote more about the work here: https://www.tavus.io/post/sparrow-1-human-level-conversation...
-Comments URL: https://news.ycombinator.com/item?id=46619614
-Points: 65
-# Comments: 14]]></summary>
-        <author>
-            <name>code_brian</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ask HN: What did you find out or explore today?]]></title>
-        <id>https://news.ycombinator.com/item?id=46619464</id>
-        <link href="https://news.ycombinator.com/item?id=46619464"/>
-        <updated>2026-01-14T17:54:25.000Z</updated>
-        <summary type="html"><![CDATA[Doesn't matter what domain and how big or small.
-Comments URL: https://news.ycombinator.com/item?id=46619464
-Points: 72
-# Comments: 88]]></summary>
-        <author>
-            <name>blahaj</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Luxury Yacht is a desktop app for managing Kubernetes clusters]]></title>
-        <id>https://news.ycombinator.com/item?id=46619391</id>
-        <link href="https://github.com/luxury-yacht/app"/>
-        <updated>2026-01-14T17:49:38.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://github.com/luxury-yacht/app
-Comments URL: https://news.ycombinator.com/item?id=46619391
-Points: 50
-# Comments: 19]]></summary>
-        <author>
-            <name>mooreds</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Xous Operating System]]></title>
-        <id>https://news.ycombinator.com/item?id=46619059</id>
-        <link href="https://xous.dev/"/>
-        <updated>2026-01-14T17:29:09.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://xous.dev/
-Comments URL: https://news.ycombinator.com/item?id=46619059
-Points: 75
-# Comments: 23]]></summary>
-        <author>
-            <name>eustoria</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[So, You've Hit an Age Gate. What Now?]]></title>
-        <id>https://news.ycombinator.com/item?id=46619030</id>
-        <link href="https://www.eff.org/deeplinks/2026/01/so-youve-hit-age-gate-what-now"/>
-        <updated>2026-01-14T17:27:22.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.eff.org/deeplinks/2026/01/so-youve-hit-age-gate-what-now
-Comments URL: https://news.ycombinator.com/item?id=46619030
-Points: 78
-# Comments: 46]]></summary>
-        <author>
-            <name>hn_acker</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ford F-150 Lightning outsold the Cybertruck and was then canceled for poor sales]]></title>
-        <id>https://news.ycombinator.com/item?id=46618901</id>
-        <link href="https://electrek.co/2026/01/13/ford-f150-lightning-outsold-tesla-cybertruck-canceled-not-selling-enough/"/>
-        <updated>2026-01-14T17:20:09.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://electrek.co/2026/01/13/ford-f150-lightning-outsold-tesla-cybertruck-canceled-not-selling-enough/
-Comments URL: https://news.ycombinator.com/item?id=46618901
-Points: 103
-# Comments: 92]]></summary>
-        <author>
-            <name>MBCook</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ask HN: Could you share your personal website here?]]></title>
-        <id>https://news.ycombinator.com/item?id=46618714</id>
-        <link href="https://news.ycombinator.com/item?id=46618714"/>
-        <updated>2026-01-14T17:07:42.000Z</updated>
-        <summary type="html"><![CDATA[Hello HN!  I am putting together a community-maintained directory of personal websites at 
-.  More details about the project can be found in the README at 
-.As you can see, the directory currently has only a handful of entries.  I need your help to grow it.  If you have a personal website, I would be glad if you shared it here.  If your website is hosted on a web space where you have full control over its design and content, and if it has been well received in past HN discussions, I might add it to the directory.  Just drop a link in the comments.  Please let me know if you do not want your website to be included in the directory.
-Also, I intend this to be a community maintained resource, so if you would like to join the GitHub project as a maintainer, please let me know either here or via the IRC link in the README.
-By the way, see also 'Ask HN: Could you share your personal blog here?' - https://news.ycombinator.com/item?id=36575081 - July 2023 - (1014 points, 1940 comments).  In this post, the scope is not restricted to blogs though.  Any personal website is welcome, whether it is a blog, digital garden, personal wiki or something else entirely.
-UPDATE: It is going to take a while to go through all the submissions and add them.  If you'd like to help with the process, please send a PR directly to this project: https://github.com/hnpwd/hnpwd.github.io
-Comments URL: https://news.ycombinator.com/item?id=46618714
-Points: 99
-# Comments: 327]]></summary>
-        <author>
-            <name>susam</name>
         </author>
     </entry>
 </feed>

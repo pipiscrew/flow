@@ -56,6 +56,16 @@
           "imageUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/02/STKS525_MASS_SURVEILLANCE.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
         },
         {
+          "id": "https://news.ycombinator.com/item?id=46996490",
+          "author": "ffworld",
+          "description": "It's with much sadness that we announce the passing of our friend and colleague Ralph Giles, or rillian as he was known on IRC.\nRalph began contributing to Xiph.org in 2000 and became a core Ghostscript developer in 2001[1]. Ralph made many contributions to the royalty-free media ecosystem, whether it was as a project lead on Theora, serving as release manager for multiple Xiph libraries or maintaining Xiph infrastructure that has been used across the industry by codec engineers and researchers[2].\nHe was also the first to ship Rust code in Firefox[3] during his time at Mozilla, which was a major milestone for both the language and Firefox itself.\nRalph was a great contributor, a kind colleague and will be greatly missed.\nOfficial Announcement: https://www.linkedin.com/feed/update/urn:li:activity:7427730...\n[1]: http://www.wizards-of-os.org/archiv/sprecher/g_h/ralph_giles...\n[2]: https://media.xiph.org/\n[3]: https://medium.com/mozilla-tech/deploying-rust-in-a-large-co...\nComments URL: https://news.ycombinator.com/item?id=46996490\nPoints: 81\n# Comments: 4",
+          "link": "https://news.ycombinator.com/item?id=46996490",
+          "publishedOn": "2026-02-12T22:58:58.000Z",
+          "wordCount": 291,
+          "title": "Tell HN: Ralph Giles has died (Xiph.org| Rust@Mozilla | Ghostscript)",
+          "imageUrl": null
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=46995046",
           "author": "foresto",
           "description": "Article URL: https://matrix.org/blog/2026/02/welcome-discord/\nComments URL: https://news.ycombinator.com/item?id=46995046\nPoints: 63\n# Comments: 25",
@@ -1594,6 +1604,16 @@
           "wordCount": 274,
           "title": "Show HN: Browse Internet Infrastructure",
           "imageUrl": "https://www.wirewiki.com/img/og-image.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46944376",
+          "author": "qsort",
+          "description": "Article URL: https://lichess.org/@/Lichess/blog/op1-partial-8-piece-tablebase-available/1ptPBDpC\nComments URL: https://news.ycombinator.com/item?id=46944376\nPoints: 52\n# Comments: 1",
+          "link": "https://lichess.org/@/Lichess/blog/op1-partial-8-piece-tablebase-available/1ptPBDpC",
+          "publishedOn": "2026-02-09T12:09:59.000Z",
+          "wordCount": 3054,
+          "title": "Partial 8-Piece Tablebase",
+          "imageUrl": "https://image.lichess1.org/display?fmt=webp&h=550&op=thumbnail&path=5S0RZ0wwpEvp.webp&w=880&sig=7c1311b7c480f3a22a7b3dc8687eb79e9b0f360e"
         },
         {
           "id": "https://news.ycombinator.com/item?id=46944365",
@@ -13513,76 +13533,6 @@
           "publishedOn": "2026-01-14T18:33:56.000Z",
           "wordCount": 772,
           "title": "Show HN: Tabstack – Browser infrastructure for AI agents (by Mozilla)",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46619614",
-          "author": "code_brian",
-          "description": "For the past year I've been working to rethink how AI manages timing in conversation at Tavus. I've spent a lot of time listening to conversations. Today we're announcing the release of Sparrow-1, the most advanced conversational flow model in the world.\nSome technical details:\n- Predicts conversational floor ownership, not speech endpoints\n- Audio-native streaming model, no ASR dependency\n- Human-timed responses without silence-based delays\n- Zero interruptions at sub-100ms median latency\n- In benchmarks Sparrow-1 beats all existing models at real world turn-taking baselines\nI wrote more about the work here: https://www.tavus.io/post/sparrow-1-human-level-conversation...\nComments URL: https://news.ycombinator.com/item?id=46619614\nPoints: 65\n# Comments: 14",
-          "link": "https://www.tavus.io/post/sparrow-1-human-level-conversational-timing-in-real-time-voice",
-          "publishedOn": "2026-01-14T18:01:23.000Z",
-          "wordCount": 7233,
-          "title": "Show HN: Sparrow-1 – Audio-native model for human-level turn-taking without ASR",
-          "imageUrl": "https://cdn.prod.website-files.com/68c8e57d6e512b9573db147f/6965b91ae4d9714025045033_Hero222.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46619464",
-          "author": "blahaj",
-          "description": "Doesn't matter what domain and how big or small.\nComments URL: https://news.ycombinator.com/item?id=46619464\nPoints: 72\n# Comments: 88",
-          "link": "https://news.ycombinator.com/item?id=46619464",
-          "publishedOn": "2026-01-14T17:54:25.000Z",
-          "wordCount": 5707,
-          "title": "Ask HN: What did you find out or explore today?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46619391",
-          "author": "mooreds",
-          "description": "Article URL: https://github.com/luxury-yacht/app\nComments URL: https://news.ycombinator.com/item?id=46619391\nPoints: 50\n# Comments: 19",
-          "link": "https://github.com/luxury-yacht/app",
-          "publishedOn": "2026-01-14T17:49:38.000Z",
-          "wordCount": 4287,
-          "title": "Luxury Yacht is a desktop app for managing Kubernetes clusters",
-          "imageUrl": "https://opengraph.githubassets.com/6796f4169416224da33d08adcb9eda3bd245588f70b603275402e5ab7e375063/luxury-yacht/app"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46619059",
-          "author": "eustoria",
-          "description": "Article URL: https://xous.dev/\nComments URL: https://news.ycombinator.com/item?id=46619059\nPoints: 75\n# Comments: 23",
-          "link": "https://xous.dev/",
-          "publishedOn": "2026-01-14T17:29:09.000Z",
-          "wordCount": 100,
-          "title": "Xous Operating System",
-          "imageUrl": "https://xous.dev/img/author.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46619030",
-          "author": "hn_acker",
-          "description": "Article URL: https://www.eff.org/deeplinks/2026/01/so-youve-hit-age-gate-what-now\nComments URL: https://news.ycombinator.com/item?id=46619030\nPoints: 78\n# Comments: 46",
-          "link": "https://www.eff.org/deeplinks/2026/01/so-youve-hit-age-gate-what-now",
-          "publishedOn": "2026-01-14T17:27:22.000Z",
-          "wordCount": 5035,
-          "title": "So, You've Hit an Age Gate. What Now?",
-          "imageUrl": "https://www.eff.org/files/banner_library/ageverificationbanner-2.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46618901",
-          "author": "MBCook",
-          "description": "Article URL: https://electrek.co/2026/01/13/ford-f150-lightning-outsold-tesla-cybertruck-canceled-not-selling-enough/\nComments URL: https://news.ycombinator.com/item?id=46618901\nPoints: 103\n# Comments: 92",
-          "link": "https://electrek.co/2026/01/13/ford-f150-lightning-outsold-tesla-cybertruck-canceled-not-selling-enough/",
-          "publishedOn": "2026-01-14T17:20:09.000Z",
-          "wordCount": 3312,
-          "title": "Ford F-150 Lightning outsold the Cybertruck and was then canceled for poor sales",
-          "imageUrl": "https://i0.wp.com/electrek.co/wp-content/uploads/sites/3/2026/01/Tesla-Cybertruck-sales.png?resize=1200%2C628&quality=82&strip=all&ssl=1"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46618714",
-          "author": "susam",
-          "description": "Hello HN!  I am putting together a community-maintained directory of personal websites at \n.  More details about the project can be found in the README at \n.As you can see, the directory currently has only a handful of entries.  I need your help to grow it.  If you have a personal website, I would be glad if you shared it here.  If your website is hosted on a web space where you have full control over its design and content, and if it has been well received in past HN discussions, I might add it to the directory.  Just drop a link in the comments.  Please let me know if you do not want your website to be included in the directory.\nAlso, I intend this to be a community maintained resource, so if you would like to join the GitHub project as a maintainer, please let me know either here or via the IRC link in the README.\nBy the way, see also 'Ask HN: Could you share your personal blog here?' - https://news.ycombinator.com/item?id=36575081 - July 2023 - (1014 points, 1940 comments).  In this post, the scope is not restricted to blogs though.  Any personal website is welcome, whether it is a blog, digital garden, personal wiki or something else entirely.\nUPDATE: It is going to take a while to go through all the submissions and add them.  If you'd like to help with the process, please send a PR directly to this project: https://github.com/hnpwd/hnpwd.github.io\nComments URL: https://news.ycombinator.com/item?id=46618714\nPoints: 99\n# Comments: 327",
-          "link": "https://news.ycombinator.com/item?id=46618714",
-          "publishedOn": "2026-01-14T17:07:42.000Z",
-          "wordCount": 4355,
-          "title": "Ask HN: Could you share your personal website here?",
           "imageUrl": null
         }
       ]
