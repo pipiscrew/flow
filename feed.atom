@@ -2,10 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-02-13T02:49:34.775Z</updated>
+    <updated>2026-02-13T04:58:24.968Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Inside Epstein’s network: what 1.4M emails reveal]]></title>
+        <id>https://news.ycombinator.com/item?id=46997658</id>
+        <link href="https://www.economist.com/interactive/international/2026/02/12/inside-epsteins-network"/>
+        <updated>2026-02-13T01:09:37.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.economist.com/interactive/international/2026/02/12/inside-epsteins-network
+Comments URL: https://news.ycombinator.com/item?id=46997658
+Points: 67
+# Comments: 58]]></summary>
+        <author>
+            <name>doener</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Skip the Tips: A game to select "No Tip" but dark patterns try to stop you]]></title>
         <id>https://news.ycombinator.com/item?id=46997519</id>
@@ -18176,225 +18189,6 @@ Points: 99
 # Comments: 327]]></summary>
         <author>
             <name>susam</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[4k tons of potatoes to be given away for free in Berlin]]></title>
-        <id>https://news.ycombinator.com/item?id=46618544</id>
-        <link href="https://www.the-berliner.com/english-news-berlin/4000-tons-of-potatoes-to-be-given-away-for-free/"/>
-        <updated>2026-01-14T16:57:07.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.the-berliner.com/english-news-berlin/4000-tons-of-potatoes-to-be-given-away-for-free/
-Comments URL: https://news.ycombinator.com/item?id=46618544
-Points: 96
-# Comments: 79]]></summary>
-        <author>
-            <name>mrzool</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Project SkyWatch (a.k.a. Wescam at Home)]]></title>
-        <id>https://news.ycombinator.com/item?id=46618503</id>
-        <link href="https://ianservin.com/2026/01/13/project-skywatch-aka-wescam-at-home/"/>
-        <updated>2026-01-14T16:54:40.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://ianservin.com/2026/01/13/project-skywatch-aka-wescam-at-home/
-Comments URL: https://news.ycombinator.com/item?id=46618503
-Points: 53
-# Comments: 11]]></summary>
-        <author>
-            <name>jjwiseman</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: wxpath – Declarative web crawling in XPath]]></title>
-        <id>https://news.ycombinator.com/item?id=46618472</id>
-        <link href="https://github.com/rodricios/wxpath"/>
-        <updated>2026-01-14T16:52:34.000Z</updated>
-        <summary type="html"><![CDATA[wxpath is a declarative web crawler where web crawling and scraping are expressed directly in XPath.
-Instead of writing imperative crawl loops, you describe what to follow and what to extract in a single expression:
-    import wxpath
-
-    # Crawl, extract fields, build a Wikipedia knowledge graph
-    path_expr = """
-    url('https://en.wikipedia.org/wiki/Expression_language')
-         ///url(//main//a/@href[starts-with(., '/wiki/') and not(contains(., ':'))])
-             /map{
-                'title': (//span[contains(@class, "mw-page-title-main")]/text())[1] ! string(.),
-                'url': string(base-uri(.)),
-                'short_description': //div[contains(@class, 'shortdescription')]/text() ! string(.),
-                'forward_links': //div[@id="mw-content-text"]//a/@href ! string(.)
-             }
-    """
-
-    for item in wxpath.wxpath_async_blocking_iter(path_expr, max_depth=1):
-        print(item)
-
-Features:
-- Async/concurrent crawling with streaming results
-- Scrapy-inspired auto-throttle and polite crawling
-- Hook system for custom processing
-- CLI for quick experiments
-Another example, paginating through HN comments (via "follow=" argument) pages and extracting data:
-    url('https://news.ycombinator.com',
-        follow=//a[text()='comments']/@href | //a[@class='morelink']/@href)
-        //tr[@class='athing']
-          /map {
-            'text': .//div[@class='comment']//text(),
-            'user': .//a[@class='hnuser']/@href,
-            'parent_post': .//span[@class='onstory']/a/@href
-          }
-
-GitHub: https://github.com/rodricios/wxpath
-PyPI: pip install wxpath
-I'd love feedback on the expression syntax and any use cases this might unlock.
-Thanks!
-Comments URL: https://news.ycombinator.com/item?id=46618472
-Points: 52
-# Comments: 8]]></summary>
-        <author>
-            <name>rodricios</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How have prices changed in a year? NPR checked 114 items at Walmart]]></title>
-        <id>https://news.ycombinator.com/item?id=46618272</id>
-        <link href="https://www.npr.org/2026/01/14/nx-s1-5638908/walmart-prices-inflation-affordability-shrinkflation"/>
-        <updated>2026-01-14T16:39:43.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.npr.org/2026/01/14/nx-s1-5638908/walmart-prices-inflation-affordability-shrinkflation
-Comments URL: https://news.ycombinator.com/item?id=46618272
-Points: 75
-# Comments: 40]]></summary>
-        <author>
-            <name>srameshc</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[HTTP RateLimit Headers]]></title>
-        <id>https://news.ycombinator.com/item?id=46618105</id>
-        <link href="https://dotat.at/@/2026-01-13-http-ratelimit.html"/>
-        <updated>2026-01-14T16:29:50.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://dotat.at/@/2026-01-13-http-ratelimit.html
-Comments URL: https://news.ycombinator.com/item?id=46618105
-Points: 55
-# Comments: 13]]></summary>
-        <author>
-            <name>zdw</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Unbearable Frustration of Figuring Out APIs]]></title>
-        <id>https://news.ycombinator.com/item?id=46618087</id>
-        <link href="https://blog.ar-ms.me/thoughts/translation-cli/"/>
-        <updated>2026-01-14T16:28:53.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://blog.ar-ms.me/thoughts/translation-cli/
-Comments URL: https://news.ycombinator.com/item?id=46618087
-Points: 53
-# Comments: 28]]></summary>
-        <author>
-            <name>ezekg</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Claude is good at assembling blocks, but still falls apart at creating them]]></title>
-        <id>https://news.ycombinator.com/item?id=46618042</id>
-        <link href="https://www.approachwithalacrity.com/claude-ne/"/>
-        <updated>2026-01-14T16:26:11.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.approachwithalacrity.com/claude-ne/
-Comments URL: https://news.ycombinator.com/item?id=46618042
-Points: 67
-# Comments: 44]]></summary>
-        <author>
-            <name>bblcla</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GitHub should charge everyone $1 more per month to fund open source]]></title>
-        <id>https://news.ycombinator.com/item?id=46618027</id>
-        <link href="https://blog.greg.technology/2025/11/27/github-should-charge-1-dollar-more-per-month.html"/>
-        <updated>2026-01-14T16:25:07.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://blog.greg.technology/2025/11/27/github-should-charge-1-dollar-more-per-month.html
-Comments URL: https://news.ycombinator.com/item?id=46618027
-Points: 70
-# Comments: 76]]></summary>
-        <author>
-            <name>evakhoury</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[I built Vector. Now I'm answering the question your observability vendor won't]]></title>
-        <id>https://news.ycombinator.com/item?id=46617744</id>
-        <link href="https://usetero.com/blog/the-question-your-observability-vendor-wont-answer"/>
-        <updated>2026-01-14T16:07:34.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://usetero.com/blog/the-question-your-observability-vendor-wont-answer
-Comments URL: https://news.ycombinator.com/item?id=46617744
-Points: 54
-# Comments: 23]]></summary>
-        <author>
-            <name>binarylogic</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: A 10KiB kernel for cloud apps]]></title>
-        <id>https://news.ycombinator.com/item?id=46617705</id>
-        <link href="https://github.com/ReturnInfinity/BareMetal-Cloud"/>
-        <updated>2026-01-14T16:04:53.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://github.com/ReturnInfinity/BareMetal-Cloud
-Comments URL: https://news.ycombinator.com/item?id=46617705
-Points: 53
-# Comments: 7]]></summary>
-        <author>
-            <name>ianseyler</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Starlink roam 50GB is now 100GB with unlimited slow speed after that]]></title>
-        <id>https://news.ycombinator.com/item?id=46617668</id>
-        <link href="https://starlink.com/support/article/58c9c8b7-474e-246f-7e3c-06db3221d34d"/>
-        <updated>2026-01-14T16:03:11.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://starlink.com/support/article/58c9c8b7-474e-246f-7e3c-06db3221d34d
-Comments URL: https://news.ycombinator.com/item?id=46617668
-Points: 59
-# Comments: 9]]></summary>
-        <author>
-            <name>bahmboo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Find a pub that needs you]]></title>
-        <id>https://news.ycombinator.com/item?id=46617360</id>
-        <link href="https://www.ismypubfucked.com/"/>
-        <updated>2026-01-14T15:44:22.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.ismypubfucked.com/
-Comments URL: https://news.ycombinator.com/item?id=46617360
-Points: 73
-# Comments: 32]]></summary>
-        <author>
-            <name>thinkingemote</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Government drops plans for mandatory digital ID to work in UK]]></title>
-        <id>https://news.ycombinator.com/item?id=46617149</id>
-        <link href="https://www.bbc.com/news/articles/c3385zrrx73o"/>
-        <updated>2026-01-14T15:29:59.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.bbc.com/news/articles/c3385zrrx73o
-Comments URL: https://news.ycombinator.com/item?id=46617149
-Points: 58
-# Comments: 13]]></summary>
-        <author>
-            <name>FridayoLeary</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[FBI raids Washington Post reporter's home in 'highly unusual and aggressive' act]]></title>
-        <id>https://news.ycombinator.com/item?id=46616745</id>
-        <link href="https://www.theguardian.com/us-news/2026/jan/14/fbi-raid-washington-post-hannah-natanson"/>
-        <updated>2026-01-14T14:57:30.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.theguardian.com/us-news/2026/jan/14/fbi-raid-washington-post-hannah-natanson
-Comments URL: https://news.ycombinator.com/item?id=46616745
-Points: 78
-# Comments: 9]]></summary>
-        <author>
-            <name>echelon_musk</name>
         </author>
     </entry>
 </feed>

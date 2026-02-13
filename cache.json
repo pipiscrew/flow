@@ -6,6 +6,16 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=46997658",
+          "author": "doener",
+          "description": "Article URL: https://www.economist.com/interactive/international/2026/02/12/inside-epsteins-network\nComments URL: https://news.ycombinator.com/item?id=46997658\nPoints: 67\n# Comments: 58",
+          "link": "https://www.economist.com/interactive/international/2026/02/12/inside-epsteins-network",
+          "publishedOn": "2026-02-13T01:09:37.000Z",
+          "wordCount": null,
+          "title": "Inside Epstein’s network: what 1.4M emails reveal",
+          "imageUrl": null
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=46997519",
           "author": "randycupertino",
           "description": "Article URL: https://skipthe.tips/\nComments URL: https://news.ycombinator.com/item?id=46997519\nPoints: 54\n# Comments: 13",
@@ -13574,146 +13584,6 @@
           "wordCount": 4355,
           "title": "Ask HN: Could you share your personal website here?",
           "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46618544",
-          "author": "mrzool",
-          "description": "Article URL: https://www.the-berliner.com/english-news-berlin/4000-tons-of-potatoes-to-be-given-away-for-free/\nComments URL: https://news.ycombinator.com/item?id=46618544\nPoints: 96\n# Comments: 79",
-          "link": "https://www.the-berliner.com/english-news-berlin/4000-tons-of-potatoes-to-be-given-away-for-free/",
-          "publishedOn": "2026-01-14T16:57:07.000Z",
-          "wordCount": 3693,
-          "title": "4k tons of potatoes to be given away for free in Berlin",
-          "imageUrl": "https://www.the-berliner.com/wp-content/uploads/2026/01/410886459_1768233023_v16_9_1600.webp"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46618503",
-          "author": "jjwiseman",
-          "description": "Article URL: https://ianservin.com/2026/01/13/project-skywatch-aka-wescam-at-home/\nComments URL: https://news.ycombinator.com/item?id=46618503\nPoints: 53\n# Comments: 11",
-          "link": "https://ianservin.com/2026/01/13/project-skywatch-aka-wescam-at-home/",
-          "publishedOn": "2026-01-14T16:54:40.000Z",
-          "wordCount": 2651,
-          "title": "Project SkyWatch (a.k.a. Wescam at Home)",
-          "imageUrl": "https://ianservin.com/wp-content/uploads/2026/01/20260113-SkyWatch-cover-image-scaled.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46618472",
-          "author": "rodricios",
-          "description": "wxpath is a declarative web crawler where web crawling and scraping are expressed directly in XPath.\nInstead of writing imperative crawl loops, you describe what to follow and what to extract in a single expression:\n    import wxpath\n\n    # Crawl, extract fields, build a Wikipedia knowledge graph\n    path_expr = \"\"\"\n    url('https://en.wikipedia.org/wiki/Expression_language')\n         ///url(//main//a/@href[starts-with(., '/wiki/') and not(contains(., ':'))])\n             /map{\n                'title': (//span[contains(@class, \"mw-page-title-main\")]/text())[1] ! string(.),\n                'url': string(base-uri(.)),\n                'short_description': //div[contains(@class, 'shortdescription')]/text() ! string(.),\n                'forward_links': //div[@id=\"mw-content-text\"]//a/@href ! string(.)\n             }\n    \"\"\"\n\n    for item in wxpath.wxpath_async_blocking_iter(path_expr, max_depth=1):\n        print(item)\n\nFeatures:\n- Async/concurrent crawling with streaming results\n- Scrapy-inspired auto-throttle and polite crawling\n- Hook system for custom processing\n- CLI for quick experiments\nAnother example, paginating through HN comments (via \"follow=\" argument) pages and extracting data:\n    url('https://news.ycombinator.com',\n        follow=//a[text()='comments']/@href | //a[@class='morelink']/@href)\n        //tr[@class='athing']\n          /map {\n            'text': .//div[@class='comment']//text(),\n            'user': .//a[@class='hnuser']/@href,\n            'parent_post': .//span[@class='onstory']/a/@href\n          }\n\nGitHub: https://github.com/rodricios/wxpath\nPyPI: pip install wxpath\nI'd love feedback on the expression syntax and any use cases this might unlock.\nThanks!\nComments URL: https://news.ycombinator.com/item?id=46618472\nPoints: 52\n# Comments: 8",
-          "link": "https://github.com/rodricios/wxpath",
-          "publishedOn": "2026-01-14T16:52:34.000Z",
-          "wordCount": 8890,
-          "title": "Show HN: wxpath – Declarative web crawling in XPath",
-          "imageUrl": "https://opengraph.githubassets.com/7fc0504f3cac7b5f1228a5eb62b677f091488b9b057c094ad89dc097b0cfa9b2/rodricios/wxpath"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46618272",
-          "author": "srameshc",
-          "description": "Article URL: https://www.npr.org/2026/01/14/nx-s1-5638908/walmart-prices-inflation-affordability-shrinkflation\nComments URL: https://news.ycombinator.com/item?id=46618272\nPoints: 75\n# Comments: 40",
-          "link": "https://www.npr.org/2026/01/14/nx-s1-5638908/walmart-prices-inflation-affordability-shrinkflation",
-          "publishedOn": "2026-01-14T16:39:43.000Z",
-          "wordCount": 2234,
-          "title": "How have prices changed in a year? NPR checked 114 items at Walmart",
-          "imageUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/2112x1188+0+0/resize/1400/quality/85/format/png/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F53%2F8e%2F08c0e7614f25804303558c24653b%2Fwalmart-lead-separated.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46618105",
-          "author": "zdw",
-          "description": "Article URL: https://dotat.at/@/2026-01-13-http-ratelimit.html\nComments URL: https://news.ycombinator.com/item?id=46618105\nPoints: 55\n# Comments: 13",
-          "link": "https://dotat.at/@/2026-01-13-http-ratelimit.html",
-          "publishedOn": "2026-01-14T16:29:50.000Z",
-          "wordCount": 2201,
-          "title": "HTTP RateLimit Headers",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46618087",
-          "author": "ezekg",
-          "description": "Article URL: https://blog.ar-ms.me/thoughts/translation-cli/\nComments URL: https://news.ycombinator.com/item?id=46618087\nPoints: 53\n# Comments: 28",
-          "link": "https://blog.ar-ms.me/thoughts/translation-cli/",
-          "publishedOn": "2026-01-14T16:28:53.000Z",
-          "wordCount": 2463,
-          "title": "The Unbearable Frustration of Figuring Out APIs",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46618042",
-          "author": "bblcla",
-          "description": "Article URL: https://www.approachwithalacrity.com/claude-ne/\nComments URL: https://news.ycombinator.com/item?id=46618042\nPoints: 67\n# Comments: 44",
-          "link": "https://www.approachwithalacrity.com/claude-ne/",
-          "publishedOn": "2026-01-14T16:26:11.000Z",
-          "wordCount": 1810,
-          "title": "Claude is good at assembling blocks, but still falls apart at creating them",
-          "imageUrl": "https://www.approachwithalacrity.com/content/images/size/w1200/2026/01/Screenshot-2026-01-11-at-10.26.29---PM.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46618027",
-          "author": "evakhoury",
-          "description": "Article URL: https://blog.greg.technology/2025/11/27/github-should-charge-1-dollar-more-per-month.html\nComments URL: https://news.ycombinator.com/item?id=46618027\nPoints: 70\n# Comments: 76",
-          "link": "https://blog.greg.technology/2025/11/27/github-should-charge-1-dollar-more-per-month.html",
-          "publishedOn": "2026-01-14T16:25:07.000Z",
-          "wordCount": 506,
-          "title": "GitHub should charge everyone $1 more per month to fund open source",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46617744",
-          "author": "binarylogic",
-          "description": "Article URL: https://usetero.com/blog/the-question-your-observability-vendor-wont-answer\nComments URL: https://news.ycombinator.com/item?id=46617744\nPoints: 54\n# Comments: 23",
-          "link": "https://usetero.com/blog/the-question-your-observability-vendor-wont-answer",
-          "publishedOn": "2026-01-14T16:07:34.000Z",
-          "wordCount": 1849,
-          "title": "I built Vector. Now I'm answering the question your observability vendor won't",
-          "imageUrl": "https://usetero.com/blog/the-question-your-observability-vendor-wont-answer.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46617705",
-          "author": "ianseyler",
-          "description": "Article URL: https://github.com/ReturnInfinity/BareMetal-Cloud\nComments URL: https://news.ycombinator.com/item?id=46617705\nPoints: 53\n# Comments: 7",
-          "link": "https://github.com/ReturnInfinity/BareMetal-Cloud",
-          "publishedOn": "2026-01-14T16:04:53.000Z",
-          "wordCount": 3489,
-          "title": "Show HN: A 10KiB kernel for cloud apps",
-          "imageUrl": "https://opengraph.githubassets.com/832044cf2c36c4e33fac8cbcb901e3b39db00a8ab6773ad1cce37829b1edd78b/ReturnInfinity/BareMetal-Cloud"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46617668",
-          "author": "bahmboo",
-          "description": "Article URL: https://starlink.com/support/article/58c9c8b7-474e-246f-7e3c-06db3221d34d\nComments URL: https://news.ycombinator.com/item?id=46617668\nPoints: 59\n# Comments: 9",
-          "link": "https://starlink.com/support/article/58c9c8b7-474e-246f-7e3c-06db3221d34d",
-          "publishedOn": "2026-01-14T16:03:11.000Z",
-          "wordCount": 7583,
-          "title": "Starlink roam 50GB is now 100GB with unlimited slow speed after that",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46617360",
-          "author": "thinkingemote",
-          "description": "Article URL: https://www.ismypubfucked.com/\nComments URL: https://news.ycombinator.com/item?id=46617360\nPoints: 73\n# Comments: 32",
-          "link": "https://www.ismypubfucked.com/",
-          "publishedOn": "2026-01-14T15:44:22.000Z",
-          "wordCount": 342,
-          "title": "Find a pub that needs you",
-          "imageUrl": "https://ismypubfucked.com/og-default.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46617149",
-          "author": "FridayoLeary",
-          "description": "Article URL: https://www.bbc.com/news/articles/c3385zrrx73o\nComments URL: https://news.ycombinator.com/item?id=46617149\nPoints: 58\n# Comments: 13",
-          "link": "https://www.bbc.com/news/articles/c3385zrrx73o",
-          "publishedOn": "2026-01-14T15:29:59.000Z",
-          "wordCount": 7253,
-          "title": "Government drops plans for mandatory digital ID to work in UK",
-          "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/3c37/live/d30648d0-f11f-11f0-b385-5f48925de19a.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46616745",
-          "author": "echelon_musk",
-          "description": "Article URL: https://www.theguardian.com/us-news/2026/jan/14/fbi-raid-washington-post-hannah-natanson\nComments URL: https://news.ycombinator.com/item?id=46616745\nPoints: 78\n# Comments: 9",
-          "link": "https://www.theguardian.com/us-news/2026/jan/14/fbi-raid-washington-post-hannah-natanson",
-          "publishedOn": "2026-01-14T14:57:30.000Z",
-          "wordCount": 4076,
-          "title": "FBI raids Washington Post reporter's home in 'highly unusual and aggressive' act",
-          "imageUrl": "https://i.guim.co.uk/img/media/e9c63c9bc377336cbf31486c2a7dfab61e9798d6/868_854_2265_1812/master/2265.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=2b6406bd96c762b9b47f5538c3bc4349"
         }
       ]
     }
