@@ -2,10 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-02-14T20:33:58.971Z</updated>
+    <updated>2026-02-14T21:30:49.667Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[You can't trust the internet anymore]]></title>
+        <id>https://news.ycombinator.com/item?id=47017727</id>
+        <link href="https://nicole.express/2026/not-my-casual-hobby.html"/>
+        <updated>2026-02-14T19:51:25.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://nicole.express/2026/not-my-casual-hobby.html
+Comments URL: https://news.ycombinator.com/item?id=47017727
+Points: 96
+# Comments: 66]]></summary>
+        <author>
+            <name>panic</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Gemini 3 Deep Think drew me a good SVG of a pelican riding a bicycle]]></title>
         <id>https://news.ycombinator.com/item?id=47017682</id>
@@ -17,6 +30,19 @@ Points: 65
 # Comments: 17]]></summary>
         <author>
             <name>stared</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Descent, ported to the web]]></title>
+        <id>https://news.ycombinator.com/item?id=47017545</id>
+        <link href="https://mrdoob.github.io/three-descent/"/>
+        <updated>2026-02-14T19:33:24.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://mrdoob.github.io/three-descent/
+Comments URL: https://news.ycombinator.com/item?id=47017545
+Points: 70
+# Comments: 12]]></summary>
+        <author>
+            <name>memalign</name>
         </author>
     </entry>
     <entry>
@@ -43,6 +69,41 @@ Points: 149
 # Comments: 47]]></summary>
         <author>
             <name>i5heu</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Arcmark – macOS bookmark manager that attaches to browser as sidebar]]></title>
+        <id>https://news.ycombinator.com/item?id=47016058</id>
+        <link href="https://github.com/Geek-1001/arcmark"/>
+        <updated>2026-02-14T16:55:24.000Z</updated>
+        <summary type="html"><![CDATA[Hey HN! I was a long-time Arc browser user and loved how its sidebar organized tabs and bookmarks into workspaces. I wanted to switch to other browsers without losing that workflow. So I built Arcmark, it's a macOS bookmark manager (Swift/AppKit) that floats as a sidebar attached to any browser window. It uses macOS accessibility API to follow the browser window around.
+You get workspace-based links/bookmarks organization with nested folders, drag-and-drop reordering, and custom workspace colors. For the most part I tried replicating Arc's sidebar UX as close as possible.
+1. Local-first: all data lives in a single JSON file ( ~/Library/Application Support/Arcmark/data.json). No accounts, no cloud sync.
+2. Works with any browser: Chrome, Safari, Brave, Arc, etc. Or use it standalone as a bookmark manager with a regular window.
+3. Import pinned tab and spaces from Arc: it parses Arc's  StorableSidebar.json to recreate the exact workspace/folder structure.
+4. Built with swift-bundler rather than Xcode.
+There's a demo video in the README showing the sidebar attachment in action.
+The DMG is available on the releases page (macOS 13+), or you can build from source.
+This is v0.1.0 so it's a very early version. Would appreciate any feedback or thoughts
+GitHub: https://github.com/Geek-1001/arcmark
+Comments URL: https://news.ycombinator.com/item?id=47016058
+Points: 50
+# Comments: 12]]></summary>
+        <author>
+            <name>ahmed_sulajman</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Amsterdam Compiler Kit]]></title>
+        <id>https://news.ycombinator.com/item?id=47016008</id>
+        <link href="https://github.com/davidgiven/ack"/>
+        <updated>2026-02-14T16:50:47.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://github.com/davidgiven/ack
+Comments URL: https://news.ycombinator.com/item?id=47016008
+Points: 64
+# Comments: 13]]></summary>
+        <author>
+            <name>andsoitis</name>
         </author>
     </entry>
     <entry>
@@ -255,6 +316,19 @@ Points: 149
 # Comments: 74]]></summary>
         <author>
             <name>scottshambaugh</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[IBM tripling entry-level jobs after finding the limits of AI adoption]]></title>
+        <id>https://news.ycombinator.com/item?id=47009327</id>
+        <link href="https://fortune.com/2026/02/13/tech-giant-ibm-tripling-gen-z-entry-level-hiring-according-to-chro-rewriting-jobs-ai-era/"/>
+        <updated>2026-02-13T23:34:09.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://fortune.com/2026/02/13/tech-giant-ibm-tripling-gen-z-entry-level-hiring-according-to-chro-rewriting-jobs-ai-era/
+Comments URL: https://news.ycombinator.com/item?id=47009327
+Points: 58
+# Comments: 17]]></summary>
+        <author>
+            <name>WhatsTheBigIdea</name>
         </author>
     </entry>
     <entry>
@@ -18041,19 +18115,6 @@ Points: 53
 # Comments: 20]]></summary>
         <author>
             <name>barishnamazov</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The spectrum of isolation: From bare metal to WebAssembly]]></title>
-        <id>https://news.ycombinator.com/item?id=46644661</id>
-        <link href="https://buildsoftwaresystems.com/post/guide-to-execution-environments/"/>
-        <updated>2026-01-16T09:27:03.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://buildsoftwaresystems.com/post/guide-to-execution-environments/
-Comments URL: https://news.ycombinator.com/item?id=46644661
-Points: 50
-# Comments: 18]]></summary>
-        <author>
-            <name>ThierryBuilds</name>
         </author>
     </entry>
 </feed>

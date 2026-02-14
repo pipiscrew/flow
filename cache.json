@@ -6,6 +6,16 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=47017727",
+          "author": "panic",
+          "description": "Article URL: https://nicole.express/2026/not-my-casual-hobby.html\nComments URL: https://news.ycombinator.com/item?id=47017727\nPoints: 96\n# Comments: 66",
+          "link": "https://nicole.express/2026/not-my-casual-hobby.html",
+          "publishedOn": "2026-02-14T19:51:25.000Z",
+          "wordCount": 1498,
+          "title": "You can't trust the internet anymore",
+          "imageUrl": "https://nicole.express/assets/img/ai-is-bad/ps1987-2.jpeg"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=47017682",
           "author": "stared",
           "description": "Article URL: https://simonwillison.net/2026/Feb/12/gemini-3-deep-think/\nComments URL: https://news.ycombinator.com/item?id=47017682\nPoints: 65\n# Comments: 17",
@@ -14,6 +24,16 @@
           "wordCount": 844,
           "title": "Gemini 3 Deep Think drew me a good SVG of a pelican riding a bicycle",
           "imageUrl": "https://static.simonwillison.net/static/2026/gemini-3-deep-think-card.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47017545",
+          "author": "memalign",
+          "description": "Article URL: https://mrdoob.github.io/three-descent/\nComments URL: https://news.ycombinator.com/item?id=47017545\nPoints: 70\n# Comments: 12",
+          "link": "https://mrdoob.github.io/three-descent/",
+          "publishedOn": "2026-02-14T19:33:24.000Z",
+          "wordCount": 55,
+          "title": "Descent, ported to the web",
+          "imageUrl": null
         },
         {
           "id": "https://news.ycombinator.com/item?id=47017138",
@@ -34,6 +54,26 @@
           "wordCount": 1473,
           "title": "uBlock filter list to hide all YouTube Shorts",
           "imageUrl": "https://opengraph.githubassets.com/38e51ef2fac5bec647ce0032fb050e0a5744d461466677a5b70415419f985a10/i5heu/ublock-hide-yt-shorts"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47016058",
+          "author": "ahmed_sulajman",
+          "description": "Hey HN! I was a long-time Arc browser user and loved how its sidebar organized tabs and bookmarks into workspaces. I wanted to switch to other browsers without losing that workflow. So I built Arcmark, it's a macOS bookmark manager (Swift/AppKit) that floats as a sidebar attached to any browser window. It uses macOS accessibility API to follow the browser window around.\nYou get workspace-based links/bookmarks organization with nested folders, drag-and-drop reordering, and custom workspace colors. For the most part I tried replicating Arc's sidebar UX as close as possible.\n1. Local-first: all data lives in a single JSON file ( ~/Library/Application Support/Arcmark/data.json). No accounts, no cloud sync.\n2. Works with any browser: Chrome, Safari, Brave, Arc, etc. Or use it standalone as a bookmark manager with a regular window.\n3. Import pinned tab and spaces from Arc: it parses Arc's  StorableSidebar.json to recreate the exact workspace/folder structure.\n4. Built with swift-bundler rather than Xcode.\nThere's a demo video in the README showing the sidebar attachment in action.\nThe DMG is available on the releases page (macOS 13+), or you can build from source.\nThis is v0.1.0 so it's a very early version. Would appreciate any feedback or thoughts\nGitHub: https://github.com/Geek-1001/arcmark\nComments URL: https://news.ycombinator.com/item?id=47016058\nPoints: 50\n# Comments: 12",
+          "link": "https://github.com/Geek-1001/arcmark",
+          "publishedOn": "2026-02-14T16:55:24.000Z",
+          "wordCount": 3660,
+          "title": "Show HN: Arcmark – macOS bookmark manager that attaches to browser as sidebar",
+          "imageUrl": "https://opengraph.githubassets.com/66d632439c8bece3a44601e7f54e93aefb28226867b253def8802dbaf7018c53/Geek-1001/arcmark"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47016008",
+          "author": "andsoitis",
+          "description": "Article URL: https://github.com/davidgiven/ack\nComments URL: https://news.ycombinator.com/item?id=47016008\nPoints: 64\n# Comments: 13",
+          "link": "https://github.com/davidgiven/ack",
+          "publishedOn": "2026-02-14T16:50:47.000Z",
+          "wordCount": 2119,
+          "title": "Amsterdam Compiler Kit",
+          "imageUrl": "https://opengraph.githubassets.com/2748894c6af2ead1c342db2e61a2c01e3718bef3bff03217b9d28890e3447ac3/davidgiven/ack"
         },
         {
           "id": "https://news.ycombinator.com/item?id=47015406",
@@ -194,6 +234,16 @@
           "wordCount": null,
           "title": "An AI Agent Published a Hit Piece on Me – More Things Have Happened",
           "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47009327",
+          "author": "WhatsTheBigIdea",
+          "description": "Article URL: https://fortune.com/2026/02/13/tech-giant-ibm-tripling-gen-z-entry-level-hiring-according-to-chro-rewriting-jobs-ai-era/\nComments URL: https://news.ycombinator.com/item?id=47009327\nPoints: 58\n# Comments: 17",
+          "link": "https://fortune.com/2026/02/13/tech-giant-ibm-tripling-gen-z-entry-level-hiring-according-to-chro-rewriting-jobs-ai-era/",
+          "publishedOn": "2026-02-13T23:34:09.000Z",
+          "wordCount": 8127,
+          "title": "IBM tripling entry-level jobs after finding the limits of AI adoption",
+          "imageUrl": "https://fortune.com/img-assets/wp-content/uploads/2026/02/GettyImages-2215326599-e1771000637949.jpg?resize=1200,600"
         },
         {
           "id": "https://news.ycombinator.com/item?id=47008560",
@@ -13494,16 +13544,6 @@
           "wordCount": 80992,
           "title": "On Being a Human Being in the Time of Collapse (2022) [pdf]",
           "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46644661",
-          "author": "ThierryBuilds",
-          "description": "Article URL: https://buildsoftwaresystems.com/post/guide-to-execution-environments/\nComments URL: https://news.ycombinator.com/item?id=46644661\nPoints: 50\n# Comments: 18",
-          "link": "https://buildsoftwaresystems.com/post/guide-to-execution-environments/",
-          "publishedOn": "2026-01-16T09:27:03.000Z",
-          "wordCount": 3537,
-          "title": "The spectrum of isolation: From bare metal to WebAssembly",
-          "imageUrl": "https://buildsoftwaresystems.com/post/guide-to-execution-environments/computer_software_execution_paradigms.png"
         }
       ]
     }
