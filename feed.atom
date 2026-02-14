@@ -2,10 +2,40 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-02-14T15:32:16.931Z</updated>
+    <updated>2026-02-14T16:38:04.003Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Homeland Security has sent out subpoenas to identify ICE critics]]></title>
+        <id>https://news.ycombinator.com/item?id=47015084</id>
+        <link href="https://www.engadget.com/big-tech/homeland-security-has-reportedly-sent-out-hundreds-of-subpoenas-to-identify-ice-critics-online-135245457.html"/>
+        <updated>2026-02-14T15:10:23.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.engadget.com/big-tech/homeland-security-has-reportedly-sent-out-hundreds-of-subpoenas-to-identify-ice-critics-online-135245457.html
+Comments URL: https://news.ycombinator.com/item?id=47015084
+Points: 96
+# Comments: 5]]></summary>
+        <author>
+            <name>OutOfHere</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Sameshi – a ~1200 Elo chess engine that fits within 2KB]]></title>
+        <id>https://news.ycombinator.com/item?id=47014500</id>
+        <link href="https://github.com/datavorous/sameshi"/>
+        <updated>2026-02-14T13:47:44.000Z</updated>
+        <summary type="html"><![CDATA[I made a chess engine today, and made it fit within 2KB.
+I used a variant of MinMax called Negamax, with alpha beta pruning. For the board representation I have used a 120-cell "mailbox". I managed to squeeze in checkmate/stalemate in there, after trimming out some edge cases.
+I am a great fan of demoscene (computer art subculture) since middle school, and hence it was a ritual i had to perform.
+For estimating the Elo, I measured 240 automated games against Stockfish Elo levels (1320 to 1600) under fixed depth-5 and some constrained rules, using equal color distribution.
+Then converted pooled win/draw/loss scores to Elo through some standard logistic formula with binomial 95% confidence interval.
+Comments URL: https://news.ycombinator.com/item?id=47014500
+Points: 75
+# Comments: 29]]></summary>
+        <author>
+            <name>datavorous_</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Ooh.directory: a place to find good blogs that interest you]]></title>
         <id>https://news.ycombinator.com/item?id=47014449</id>
@@ -17920,19 +17950,6 @@ Points: 57
 # Comments: 6]]></summary>
         <author>
             <name>rbanffy</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Boeing knew of flaw in part linked to UPS plane crash]]></title>
-        <id>https://news.ycombinator.com/item?id=46642920</id>
-        <link href="https://www.bbc.com/news/articles/cly56w0p9e1o"/>
-        <updated>2026-01-16T04:11:17.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.bbc.com/news/articles/cly56w0p9e1o
-Comments URL: https://news.ycombinator.com/item?id=46642920
-Points: 53
-# Comments: 17]]></summary>
-        <author>
-            <name>1659447091</name>
         </author>
     </entry>
 </feed>

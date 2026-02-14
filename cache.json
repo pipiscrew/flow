@@ -6,6 +6,26 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=47015084",
+          "author": "OutOfHere",
+          "description": "Article URL: https://www.engadget.com/big-tech/homeland-security-has-reportedly-sent-out-hundreds-of-subpoenas-to-identify-ice-critics-online-135245457.html\nComments URL: https://news.ycombinator.com/item?id=47015084\nPoints: 96\n# Comments: 5",
+          "link": "https://www.engadget.com/big-tech/homeland-security-has-reportedly-sent-out-hundreds-of-subpoenas-to-identify-ice-critics-online-135245457.html",
+          "publishedOn": "2026-02-14T15:10:23.000Z",
+          "wordCount": 5360,
+          "title": "Homeland Security has sent out subpoenas to identify ICE critics",
+          "imageUrl": "https://s.yimg.com/ny/api/res/1.2/3mEFtDs8RT1Ap7Y2gWtSrg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD03OTg-/https://d29szjachogqwa.cloudfront.net/images/2026-02/ee54c21f-b8d9-4753-9db4-e895a85ab140"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47014500",
+          "author": "datavorous_",
+          "description": "I made a chess engine today, and made it fit within 2KB.\nI used a variant of MinMax called Negamax, with alpha beta pruning. For the board representation I have used a 120-cell \"mailbox\". I managed to squeeze in checkmate/stalemate in there, after trimming out some edge cases.\nI am a great fan of demoscene (computer art subculture) since middle school, and hence it was a ritual i had to perform.\nFor estimating the Elo, I measured 240 automated games against Stockfish Elo levels (1320 to 1600) under fixed depth-5 and some constrained rules, using equal color distribution.\nThen converted pooled win/draw/loss scores to Elo through some standard logistic formula with binomial 95% confidence interval.\nComments URL: https://news.ycombinator.com/item?id=47014500\nPoints: 75\n# Comments: 29",
+          "link": "https://github.com/datavorous/sameshi",
+          "publishedOn": "2026-02-14T13:47:44.000Z",
+          "wordCount": 1017,
+          "title": "Show HN: Sameshi – a ~1200 Elo chess engine that fits within 2KB",
+          "imageUrl": "https://opengraph.githubassets.com/ca54e51d8516261d52134945253e53a7d01fef1a3487daec674dd2f3368ec362/datavorous/sameshi"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=47014449",
           "author": "hisamafahri",
           "description": "Article URL: https://ooh.directory/\nComments URL: https://news.ycombinator.com/item?id=47014449\nPoints: 105\n# Comments: 28",
@@ -13404,16 +13424,6 @@
           "wordCount": 4385,
           "title": "How we made Python's packaging library 3x faster",
           "imageUrl": "https://iscinumpy.dev/images/avatar.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46642920",
-          "author": "1659447091",
-          "description": "Article URL: https://www.bbc.com/news/articles/cly56w0p9e1o\nComments URL: https://news.ycombinator.com/item?id=46642920\nPoints: 53\n# Comments: 17",
-          "link": "https://www.bbc.com/news/articles/cly56w0p9e1o",
-          "publishedOn": "2026-01-16T04:11:17.000Z",
-          "wordCount": 5346,
-          "title": "Boeing knew of flaw in part linked to UPS plane crash",
-          "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/de8f/live/564b6150-f20e-11f0-9024-9b4621e849d3.jpg"
         }
       ]
     }
