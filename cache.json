@@ -1836,6 +1836,16 @@
           "imageUrl": null
         },
         {
+          "id": "https://news.ycombinator.com/item?id=46948097",
+          "author": "zdw",
+          "description": "Article URL: https://animationobsessive.substack.com/p/how-the-little-guy-moved\nComments URL: https://news.ycombinator.com/item?id=46948097\nPoints: 63\n# Comments: 3",
+          "link": "https://animationobsessive.substack.com/p/how-the-little-guy-moved",
+          "publishedOn": "2026-02-09T17:30:27.000Z",
+          "wordCount": null,
+          "title": "How the Little Guy Moved",
+          "imageUrl": null
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=46947777",
           "author": "aleyan",
           "description": "Article URL: https://research.google/blog/hard-braking-events-as-indicators-of-road-segment-crash-risk/\nComments URL: https://news.ycombinator.com/item?id=46947777\nPoints: 76\n# Comments: 93",
@@ -2326,6 +2336,16 @@
           "imageUrl": null
         },
         {
+          "id": "https://news.ycombinator.com/item?id=46936671",
+          "author": "valyala",
+          "description": "Article URL: https://internals-for-interns.com/posts/the-go-linker/\nComments URL: https://news.ycombinator.com/item?id=46936671\nPoints: 121\n# Comments: 27",
+          "link": "https://internals-for-interns.com/posts/the-go-linker/",
+          "publishedOn": "2026-02-08T17:46:46.000Z",
+          "wordCount": 6054,
+          "title": "Understanding the Go Compiler: The Linker",
+          "imageUrl": "https://internals-for-interns.com/images/go-header.png"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=46936595",
           "author": "tosh",
           "description": "Article URL: https://bun.com/blog/bun-v1.3.9\nComments URL: https://news.ycombinator.com/item?id=46936595\nPoints: 51\n# Comments: 17",
@@ -2764,6 +2784,16 @@
           "wordCount": 2933,
           "title": "Show HN: LocalGPT – A local-first AI assistant in Rust with persistent memory",
           "imageUrl": "https://opengraph.githubassets.com/d9b36490e52eb873ce0304616bf9bcdd314bc719fdf787346f474877d1b902a6/localgpt-app/localgpt"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46930181",
+          "author": "krapp",
+          "description": "Article URL: https://mccloskeybr.com/articles/font_rendering.html\nComments URL: https://news.ycombinator.com/item?id=46930181\nPoints: 175\n# Comments: 32",
+          "link": "https://mccloskeybr.com/articles/font_rendering.html",
+          "publishedOn": "2026-02-08T00:58:29.000Z",
+          "wordCount": 3364,
+          "title": "Font Rendering from First Principles",
+          "imageUrl": null
         },
         {
           "id": "https://news.ycombinator.com/item?id=46929391",
@@ -13384,26 +13414,6 @@
           "wordCount": 2590,
           "title": "SETI Home Flags 100 Signals After Sorting 12B Others",
           "imageUrl": "https://news.berkeley.edu/wp-content/uploads/2026/01/screenshot-cropped.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46642173",
-          "author": "prvt",
-          "description": "Hi HN,\nI recently noticed a recurring visual artifact in the \"Most Replayed\" heatmap on the YouTube player. The highest peaks were always surrounded by two dips. I got curious about why they were there, so I decided to reverse engineer the feature to find out.\nThis post documents the deep dive. It starts with a system design recreation, reverse engineering the rendering code, and ends with the mathematics.\nThis is also my first attempt at writing an interactive article. I would love to hear your thoughts on the investigation and the format.\nComments URL: https://news.ycombinator.com/item?id=46642173\nPoints: 50\n# Comments: 17",
-          "link": "https://priyavr.at/blog/reversing-most-replayed/",
-          "publishedOn": "2026-01-16T02:06:11.000Z",
-          "wordCount": 7118,
-          "title": "Show HN: Reversing YouTube’s “Most Replayed” Graph",
-          "imageUrl": "https://priyavr.at/reversing-most-replayed/googleSearch.webp"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46641992",
-          "author": "Core_Dev",
-          "description": "I am a solo developer, and I built Core MBA because I was frustrated with the \"video course\" default in business education.\nI wanted to build a \"compiler for business logic\"—a tool where I could read a concept in 5 minutes and immediately test it in a hostile environment to see if my strategy actually compiles or throws a runtime error.\nThe project is a business simulator built on React 19 and TypeScript.\nThe core technical innovation isn't just using AI; it's the architecture of a closed loop between a deterministic economic engine and a generative AI validation layer.\nThe biggest technical hurdle was building the Market Engine.\nI needed it to be mathematically rigorous, not a hallucinating chatbot. I wrote a custom `useMarketEngine.ts` hook that runs a discrete-event simulation. Every \"r…",
-          "link": "https://www.core-mba.pro/",
-          "publishedOn": "2026-01-16T01:41:55.000Z",
-          "wordCount": 1154,
-          "title": "Show HN: I built a text-based business simulator to replace video courses",
-          "imageUrl": "https://www.core-mba.pro/og-image.jpg"
         }
       ]
     }

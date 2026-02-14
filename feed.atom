@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-02-14T13:03:05.269Z</updated>
+    <updated>2026-02-14T14:33:25.459Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
@@ -2421,6 +2421,19 @@ Points: 54
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[How the Little Guy Moved]]></title>
+        <id>https://news.ycombinator.com/item?id=46948097</id>
+        <link href="https://animationobsessive.substack.com/p/how-the-little-guy-moved"/>
+        <updated>2026-02-09T17:30:27.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://animationobsessive.substack.com/p/how-the-little-guy-moved
+Comments URL: https://news.ycombinator.com/item?id=46948097
+Points: 63
+# Comments: 3]]></summary>
+        <author>
+            <name>zdw</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Hard-braking events as indicators of road segment crash risk]]></title>
         <id>https://news.ycombinator.com/item?id=46947777</id>
         <link href="https://research.google/blog/hard-braking-events-as-indicators-of-road-segment-crash-risk/"/>
@@ -3093,6 +3106,19 @@ Points: 57
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Understanding the Go Compiler: The Linker]]></title>
+        <id>https://news.ycombinator.com/item?id=46936671</id>
+        <link href="https://internals-for-interns.com/posts/the-go-linker/"/>
+        <updated>2026-02-08T17:46:46.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://internals-for-interns.com/posts/the-go-linker/
+Comments URL: https://news.ycombinator.com/item?id=46936671
+Points: 121
+# Comments: 27]]></summary>
+        <author>
+            <name>valyala</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Bun v1.3.9]]></title>
         <id>https://news.ycombinator.com/item?id=46936595</id>
         <link href="https://bun.com/blog/bun-v1.3.9"/>
@@ -3676,6 +3702,19 @@ Points: 109
 # Comments: 29]]></summary>
         <author>
             <name>yi_wang</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Font Rendering from First Principles]]></title>
+        <id>https://news.ycombinator.com/item?id=46930181</id>
+        <link href="https://mccloskeybr.com/articles/font_rendering.html"/>
+        <updated>2026-02-08T00:58:29.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://mccloskeybr.com/articles/font_rendering.html
+Comments URL: https://news.ycombinator.com/item?id=46930181
+Points: 175
+# Comments: 32]]></summary>
+        <author>
+            <name>krapp</name>
         </author>
     </entry>
     <entry>
@@ -17894,37 +17933,6 @@ Points: 55
 # Comments: 13]]></summary>
         <author>
             <name>TMEHpodcast</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: Reversing YouTube’s “Most Replayed” Graph]]></title>
-        <id>https://news.ycombinator.com/item?id=46642173</id>
-        <link href="https://priyavr.at/blog/reversing-most-replayed/"/>
-        <updated>2026-01-16T02:06:11.000Z</updated>
-        <summary type="html"><![CDATA[Hi HN,
-I recently noticed a recurring visual artifact in the "Most Replayed" heatmap on the YouTube player. The highest peaks were always surrounded by two dips. I got curious about why they were there, so I decided to reverse engineer the feature to find out.
-This post documents the deep dive. It starts with a system design recreation, reverse engineering the rendering code, and ends with the mathematics.
-This is also my first attempt at writing an interactive article. I would love to hear your thoughts on the investigation and the format.
-Comments URL: https://news.ycombinator.com/item?id=46642173
-Points: 50
-# Comments: 17]]></summary>
-        <author>
-            <name>prvt</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: I built a text-based business simulator to replace video courses]]></title>
-        <id>https://news.ycombinator.com/item?id=46641992</id>
-        <link href="https://www.core-mba.pro/"/>
-        <updated>2026-01-16T01:41:55.000Z</updated>
-        <summary type="html"><![CDATA[I am a solo developer, and I built Core MBA because I was frustrated with the "video course" default in business education.
-I wanted to build a "compiler for business logic"—a tool where I could read a concept in 5 minutes and immediately test it in a hostile environment to see if my strategy actually compiles or throws a runtime error.
-The project is a business simulator built on React 19 and TypeScript.
-The core technical innovation isn't just using AI; it's the architecture of a closed loop between a deterministic economic engine and a generative AI validation layer.
-The biggest technical hurdle was building the Market Engine.
-I needed it to be mathematically rigorous, not a hallucinating chatbot. I wrote a custom `useMarketEngine.ts` hook that runs a discrete-event simulation. Every "r…]]></summary>
-        <author>
-            <name>Core_Dev</name>
         </author>
     </entry>
 </feed>
