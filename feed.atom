@@ -2,10 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-02-14T06:55:36.427Z</updated>
+    <updated>2026-02-14T07:38:37.162Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Show HN: SQL-tap – Real-time SQL traffic viewer for PostgreSQL and MySQL]]></title>
+        <id>https://news.ycombinator.com/item?id=47011567</id>
+        <link href="https://github.com/mickamy/sql-tap"/>
+        <updated>2026-02-14T04:27:35.000Z</updated>
+        <summary type="html"><![CDATA[sql-tap is a transparent proxy that captures SQL queries by parsing the PostgreSQL/MySQL wire protocol and displays them in a terminal UI. You can run EXPLAIN on any captured query. No application code changes needed — just change the port.
+Comments URL: https://news.ycombinator.com/item?id=47011567
+Points: 55
+# Comments: 7]]></summary>
+        <author>
+            <name>mickamy</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[NPMX – a fast, modern browser for the NPM registry]]></title>
         <id>https://news.ycombinator.com/item?id=47010823</id>
@@ -17943,54 +17956,6 @@ Points: 52
 # Comments: 31]]></summary>
         <author>
             <name>messh</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Briar keeps Iran connected via Bluetooth and Wi-Fi when the internet goes dark]]></title>
-        <id>https://news.ycombinator.com/item?id=46638013</id>
-        <link href="https://briarproject.org/manual/fa/"/>
-        <updated>2026-01-15T19:38:02.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://briarproject.org/manual/fa/
-Comments URL: https://news.ycombinator.com/item?id=46638013
-Points: 115
-# Comments: 45]]></summary>
-        <author>
-            <name>us321</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: 1Code – Open-source Cursor-like UI for Claude Code]]></title>
-        <id>https://news.ycombinator.com/item?id=46637723</id>
-        <link href="https://github.com/21st-dev/1code"/>
-        <updated>2026-01-15T19:20:48.000Z</updated>
-        <summary type="html"><![CDATA[Hi, we're Sergey and Serafim. We've been building dev tools at 21st.dev and recently open-sourced 1Code (https://1code.dev), a local UI for Claude Code.
-Here's a video of the product: https://www.youtube.com/watch?v=Sgk9Z-nAjC0
-Claude Code has been our go-to for 4 months. When Opus 4.5 dropped, parallel agents stopped needing so much babysitting. We started trusting it with more: building features end to end, adding tests, refactors. Stuff you'd normally hand off to a developer. We started running 3-4 at once. Then the CLI became annoying: too many terminals, hard to track what's where, diffs scattered everywhere.
-So we built 1Code.dev, an app to run your Claude Code agents in parallel that works on Mac and Web. On Mac: run locally, with or without worktrees. On Web: run in remote sandboxes with live previews of your app, mobile included, so you can check on agents from anywhere.
-Running multiple Claude Codes in parallel dramatically sped up how we build features.
-What’s next: Bug bot for identifying issues based on your changes; QA Agent, that checks that new features don't break anything; Adding OpenCode, Codex, other models and coding agents. 
-API for starting Claude Codes in remote sandboxes.
-Try it out! We're open-source, so you can just bun build it.
-If you want something hosted, Pro ($20/mo) gives you web with live browser previews hosted on remote sandboxes. We’re also working on API access for running Claude Code sessions programmatically.
-We'd love to hear your feedback!
-Comments URL: https://news.ycombinator.com/item?id=46637723
-Points: 52
-# Comments: 29]]></summary>
-        <author>
-            <name>Bunas</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[UK offshore wind prices come in 40% cheaper than gas in record auction]]></title>
-        <id>https://news.ycombinator.com/item?id=46637399</id>
-        <link href="https://electrek.co/2026/01/14/uk-offshore-wind-record-auction/"/>
-        <updated>2026-01-15T19:00:37.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://electrek.co/2026/01/14/uk-offshore-wind-record-auction/
-Comments URL: https://news.ycombinator.com/item?id=46637399
-Points: 69
-# Comments: 22]]></summary>
-        <author>
-            <name>doener</name>
         </author>
     </entry>
 </feed>
