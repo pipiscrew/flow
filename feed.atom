@@ -2,10 +2,36 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-02-14T11:28:21.228Z</updated>
+    <updated>2026-02-14T13:03:05.269Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Ars Technica makes up quotes from Matplotlib maintainer; pulls story]]></title>
+        <id>https://news.ycombinator.com/item?id=47013059</id>
+        <link href="https://infosec.exchange/@mttaggart/116065340523529645"/>
+        <updated>2026-02-14T09:28:45.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://infosec.exchange/@mttaggart/116065340523529645
+Comments URL: https://news.ycombinator.com/item?id=47013059
+Points: 85
+# Comments: 22]]></summary>
+        <author>
+            <name>robin_reala</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[YouTube as Storage]]></title>
+        <id>https://news.ycombinator.com/item?id=47012964</id>
+        <link href="https://github.com/PulseBeat02/yt-media-storage"/>
+        <updated>2026-02-14T09:10:15.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://github.com/PulseBeat02/yt-media-storage
+Comments URL: https://news.ycombinator.com/item?id=47012964
+Points: 69
+# Comments: 53]]></summary>
+        <author>
+            <name>saswatms</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Zig – io_uring and Grand Central Dispatch std.Io implementations landed]]></title>
         <id>https://news.ycombinator.com/item?id=47012717</id>
@@ -17899,89 +17925,6 @@ The biggest technical hurdle was building the Market Engine.
 I needed it to be mathematically rigorous, not a hallucinating chatbot. I wrote a custom `useMarketEngine.ts` hook that runs a discrete-event simulation. Every "r…]]></summary>
         <author>
             <name>Core_Dev</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: Gambit, an open-source agent harness for building reliable AI agents]]></title>
-        <id>https://news.ycombinator.com/item?id=46641362</id>
-        <link href="https://github.com/bolt-foundry/gambit"/>
-        <updated>2026-01-16T00:13:25.000Z</updated>
-        <summary type="html"><![CDATA[Hey HN!
-Wanted to show our open source agent harness called Gambit.
-If you’re not familiar, agent harnesses are sort of like an operating system for an agent... they handle tool calling, planning, context window management, and don’t require as much developer orchestration.
-Normally you might see an agent orchestration framework pipeline like:
-compute -> compute -> compute -> LLM -> compute -> compute -> LLM
-we invert this so with an agent harness, it’s more like:
-LLM -> LLM -> LLM -> compute -> LLM -> LLM -> compute -> LLM
-Essentially you describe each agent in either a self contained markdown file, or as a typescript program. Your root agent can bring in other agents as needed, and we create a typesafe way for you to define the interfaces between those agents. We call these decks.
-Agents…]]></summary>
-        <author>
-            <name>randall</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[My Gripes with Prolog]]></title>
-        <id>https://news.ycombinator.com/item?id=46641348</id>
-        <link href="https://buttondown.com/hillelwayne/archive/my-gripes-with-prolog/"/>
-        <updated>2026-01-16T00:11:28.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://buttondown.com/hillelwayne/archive/my-gripes-with-prolog/
-Comments URL: https://news.ycombinator.com/item?id=46641348
-Points: 54
-# Comments: 36]]></summary>
-        <author>
-            <name>azhenley</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[List of individual trees]]></title>
-        <id>https://news.ycombinator.com/item?id=46641284</id>
-        <link href="https://en.wikipedia.org/wiki/List_of_individual_trees"/>
-        <updated>2026-01-16T00:05:01.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://en.wikipedia.org/wiki/List_of_individual_trees
-Comments URL: https://news.ycombinator.com/item?id=46641284
-Points: 79
-# Comments: 22]]></summary>
-        <author>
-            <name>wilson090</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[All 23-Bit Still Lifes Are Glider Constructible]]></title>
-        <id>https://news.ycombinator.com/item?id=46641239</id>
-        <link href="https://mvr.github.io/posts/xs23.html"/>
-        <updated>2026-01-15T23:59:06.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://mvr.github.io/posts/xs23.html
-Comments URL: https://news.ycombinator.com/item?id=46641239
-Points: 52
-# Comments: 6]]></summary>
-        <author>
-            <name>HeliumHydride</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Tldraw pauses external contributions due to AI slop]]></title>
-        <id>https://news.ycombinator.com/item?id=46641042</id>
-        <link href="https://github.com/tldraw/tldraw/issues/7695"/>
-        <updated>2026-01-15T23:37:42.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://github.com/tldraw/tldraw/issues/7695
-Comments URL: https://news.ycombinator.com/item?id=46641042
-Points: 74
-# Comments: 24]]></summary>
-        <author>
-            <name>pranav_rajs</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[From Nevada to Kansas by Glider]]></title>
-        <id>https://news.ycombinator.com/item?id=46641036</id>
-        <link href="https://www.weglide.org/flight/978820"/>
-        <updated>2026-01-15T23:36:40.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.weglide.org/flight/978820
-Comments URL: https://news.ycombinator.com/item?id=46641036
-Points: 51
-# Comments: 6]]></summary>
-        <author>
-            <name>sammelaugust</name>
         </author>
     </entry>
 </feed>

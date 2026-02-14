@@ -6,6 +6,26 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=47013059",
+          "author": "robin_reala",
+          "description": "Article URL: https://infosec.exchange/@mttaggart/116065340523529645\nComments URL: https://news.ycombinator.com/item?id=47013059\nPoints: 85\n# Comments: 22",
+          "link": "https://infosec.exchange/@mttaggart/116065340523529645",
+          "publishedOn": "2026-02-14T09:28:45.000Z",
+          "wordCount": 283,
+          "title": "Ars Technica makes up quotes from Matplotlib maintainer; pulls story",
+          "imageUrl": "https://media.infosec.exchange/infosec.exchange/media_attachments/files/116/065/340/502/333/928/original/a1fc3a10cd6c90ae.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47012964",
+          "author": "saswatms",
+          "description": "Article URL: https://github.com/PulseBeat02/yt-media-storage\nComments URL: https://news.ycombinator.com/item?id=47012964\nPoints: 69\n# Comments: 53",
+          "link": "https://github.com/PulseBeat02/yt-media-storage",
+          "publishedOn": "2026-02-14T09:10:15.000Z",
+          "wordCount": 4119,
+          "title": "YouTube as Storage",
+          "imageUrl": "https://opengraph.githubassets.com/a2b766fb07b69ea80e787d1bd6e33627240c8cd77ebb353f0ba877a5eb41143c/PulseBeat02/yt-media-storage"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=47012717",
           "author": "Retro_Dev",
           "description": "Article URL: https://ziglang.org/devlog/2026/#2026-02-13\nComments URL: https://news.ycombinator.com/item?id=47012717\nPoints: 50\n# Comments: 5",
@@ -13384,66 +13404,6 @@
           "wordCount": 1154,
           "title": "Show HN: I built a text-based business simulator to replace video courses",
           "imageUrl": "https://www.core-mba.pro/og-image.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46641362",
-          "author": "randall",
-          "description": "Hey HN!\nWanted to show our open source agent harness called Gambit.\nIf you’re not familiar, agent harnesses are sort of like an operating system for an agent... they handle tool calling, planning, context window management, and don’t require as much developer orchestration.\nNormally you might see an agent orchestration framework pipeline like:\ncompute -> compute -> compute -> LLM -> compute -> compute -> LLM\nwe invert this so with an agent harness, it’s more like:\nLLM -> LLM -> LLM -> compute -> LLM -> LLM -> compute -> LLM\nEssentially you describe each agent in either a self contained markdown file, or as a typescript program. Your root agent can bring in other agents as needed, and we create a typesafe way for you to define the interfaces between those agents. We call these decks.\nAgents…",
-          "link": "https://github.com/bolt-foundry/gambit",
-          "publishedOn": "2026-01-16T00:13:25.000Z",
-          "wordCount": 3827,
-          "title": "Show HN: Gambit, an open-source agent harness for building reliable AI agents",
-          "imageUrl": "https://opengraph.githubassets.com/2c2d3cf5f05d8732a64b190a564028954229e8277c4964157d3e9836b6533b10/bolt-foundry/gambit"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46641348",
-          "author": "azhenley",
-          "description": "Article URL: https://buttondown.com/hillelwayne/archive/my-gripes-with-prolog/\nComments URL: https://news.ycombinator.com/item?id=46641348\nPoints: 54\n# Comments: 36",
-          "link": "https://buttondown.com/hillelwayne/archive/my-gripes-with-prolog/",
-          "publishedOn": "2026-01-16T00:11:28.000Z",
-          "wordCount": 2754,
-          "title": "My Gripes with Prolog",
-          "imageUrl": "https://image-generator.buttondown.email/api/emphasize-subject?subject=My%20Gripes%20with%20Prolog&author=Computer%20Things&date=2026-01-14&img="
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46641284",
-          "author": "wilson090",
-          "description": "Article URL: https://en.wikipedia.org/wiki/List_of_individual_trees\nComments URL: https://news.ycombinator.com/item?id=46641284\nPoints: 79\n# Comments: 22",
-          "link": "https://en.wikipedia.org/wiki/List_of_individual_trees",
-          "publishedOn": "2026-01-16T00:05:01.000Z",
-          "wordCount": null,
-          "title": "List of individual trees",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46641239",
-          "author": "HeliumHydride",
-          "description": "Article URL: https://mvr.github.io/posts/xs23.html\nComments URL: https://news.ycombinator.com/item?id=46641239\nPoints: 52\n# Comments: 6",
-          "link": "https://mvr.github.io/posts/xs23.html",
-          "publishedOn": "2026-01-15T23:59:06.000Z",
-          "wordCount": 2740,
-          "title": "All 23-Bit Still Lifes Are Glider Constructible",
-          "imageUrl": "https://mvr.github.io/cards/default.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46641042",
-          "author": "pranav_rajs",
-          "description": "Article URL: https://github.com/tldraw/tldraw/issues/7695\nComments URL: https://news.ycombinator.com/item?id=46641042\nPoints: 74\n# Comments: 24",
-          "link": "https://github.com/tldraw/tldraw/issues/7695",
-          "publishedOn": "2026-01-15T23:37:42.000Z",
-          "wordCount": 2163,
-          "title": "Tldraw pauses external contributions due to AI slop",
-          "imageUrl": "https://opengraph.githubassets.com/25194bf6b82890cfcb23d9371e75ceebaf569806462e4eaf98cfe4c861d24a7e/tldraw/tldraw/issues/7695"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46641036",
-          "author": "sammelaugust",
-          "description": "Article URL: https://www.weglide.org/flight/978820\nComments URL: https://news.ycombinator.com/item?id=46641036\nPoints: 51\n# Comments: 6",
-          "link": "https://www.weglide.org/flight/978820",
-          "publishedOn": "2026-01-15T23:36:40.000Z",
-          "wordCount": 364,
-          "title": "From Nevada to Kansas by Glider",
-          "imageUrl": "/img/WeGlide.jpg"
         }
       ]
     }
