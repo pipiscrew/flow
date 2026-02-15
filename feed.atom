@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-02-15T02:50:30.472Z</updated>
+    <updated>2026-02-15T04:59:21.599Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
@@ -17,6 +17,35 @@ Points: 55
 # Comments: 16]]></summary>
         <author>
             <name>nvader</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[I love the work of the ArchWiki maintainers]]></title>
+        <id>https://news.ycombinator.com/item?id=47020191</id>
+        <link href="https://k7r.eu/i-love-the-work-of-the-archwiki-maintainers/"/>
+        <updated>2026-02-15T01:20:58.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://k7r.eu/i-love-the-work-of-the-archwiki-maintainers/
+Comments URL: https://news.ycombinator.com/item?id=47020191
+Points: 106
+# Comments: 17]]></summary>
+        <author>
+            <name>panic</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Off Grid – Run AI text, image gen, vision offline on your phone]]></title>
+        <id>https://news.ycombinator.com/item?id=47019133</id>
+        <link href="https://github.com/alichherawalla/off-grid-mobile"/>
+        <updated>2026-02-14T22:39:24.000Z</updated>
+        <summary type="html"><![CDATA[Your phone has a GPU more powerful than most 2018 laptops. Right now it sits idle while you pay monthly subscriptions to run AI on someone else's server, sending your conversations, your photos, your voice to companies whose privacy policy you've never read. Off Grid is an open-source app that puts that hardware to work. Text generation, image generation, vision AI, voice transcription — all running on your phone, all offline, nothing ever uploaded.
+That means you can use AI on a flight with no wifi. In a country with internet censorship. In a hospital where cloud services are a compliance nightmare. Or just because you'd rather not have your journal entries sitting in someone's training data.
+The tech: llama.cpp for text (15-30 tok/s, any GGUF model), Stable Diffusion for images (5-10s on Snapdragon NPU), Whisper for voice, SmolVLM/Qwen3-VL for vision. Hardware-accelerated on both Android (QNN, OpenCL) and iOS (Core ML, ANE, Metal).
+MIT licensed. Android APK on GitHub Releases. Build from source for iOS.
+Comments URL: https://news.ycombinator.com/item?id=47019133
+Points: 60
+# Comments: 26]]></summary>
+        <author>
+            <name>ali_chherawalla</name>
         </author>
     </entry>
     <entry>
@@ -254,6 +283,19 @@ Points: 52
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Unicorn Jelly]]></title>
+        <id>https://news.ycombinator.com/item?id=47014260</id>
+        <link href="https://unicornjelly.com/"/>
+        <updated>2026-02-14T13:08:35.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://unicornjelly.com/
+Comments URL: https://news.ycombinator.com/item?id=47014260
+Points: 52
+# Comments: 12]]></summary>
+        <author>
+            <name>avaer</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Ars Technica makes up quotes from Matplotlib maintainer; pulls story]]></title>
         <id>https://news.ycombinator.com/item?id=47013059</id>
         <link href="https://infosec.exchange/@mttaggart/116065340523529645"/>
@@ -397,6 +439,19 @@ Points: 58
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Launching Interop 2026]]></title>
+        <id>https://news.ycombinator.com/item?id=47008821</id>
+        <link href="https://hacks.mozilla.org/2026/02/launching-interop-2026/"/>
+        <updated>2026-02-13T22:40:28.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://hacks.mozilla.org/2026/02/launching-interop-2026/
+Comments URL: https://news.ycombinator.com/item?id=47008821
+Points: 56
+# Comments: 3]]></summary>
+        <author>
+            <name>linolevan</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[How often do full-body MRIs find cancer?]]></title>
         <id>https://news.ycombinator.com/item?id=47008607</id>
         <link href="https://www.usatoday.com/story/life/health-wellness/2026/02/11/full-body-mris-cancer-aneurysm/88396037007/"/>
@@ -525,6 +580,19 @@ Points: 56
 # Comments: 8]]></summary>
         <author>
             <name>CharlesW</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The consequences of task switching in supervisory programming]]></title>
+        <id>https://news.ycombinator.com/item?id=47005856</id>
+        <link href="https://martinfowler.com/fragments/2026-02-13.html"/>
+        <updated>2026-02-13T18:18:48.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://martinfowler.com/fragments/2026-02-13.html
+Comments URL: https://news.ycombinator.com/item?id=47005856
+Points: 56
+# Comments: 26]]></summary>
+        <author>
+            <name>bigwheels</name>
         </author>
     </entry>
     <entry>
@@ -18075,59 +18143,6 @@ Points: 73
 # Comments: 32]]></summary>
         <author>
             <name>1970-01-01</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Launch HN: Indy (YC S21) – A support app designed for ADHD brains]]></title>
-        <id>https://news.ycombinator.com/item?id=46648144</id>
-        <link href="https://www.shimmer.care/indy-redirect"/>
-        <updated>2026-01-16T16:20:21.000Z</updated>
-        <summary type="html"><![CDATA[Hi I’m Chris, one of the co-founders of Shimmer, and today we’re launching our new app called Indy (https://www.shimmer.care/indy). Indy is an ADHD app for structured planning, reflection, and self-awareness exercises. 
-Here’s a demo: https://www.youtube.com/watch?v=zDSDxyXv6i4.
-We started Shimmer in 2022 after my adult ADHD diagnosis, and have shipped several iterations of ADHD support since then (1:1 coaching, web tools, body doubling, and AI-assisted coaching).
-Across these launches and 80k coaching sessions, we kept running into the same constraint: “knowing what to do” is rarely the problem for people with ADHD. The harder problem is actually doing it consistently over time, especially when attention, motivation, and emotional state fluctuate.
-That maps to a useful distinction that is…]]></summary>
-        <author>
-            <name>christalwang</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[6-Day and IP Address Certificates Are Generally Available]]></title>
-        <id>https://news.ycombinator.com/item?id=46647491</id>
-        <link href="https://letsencrypt.org/2026/01/15/6day-and-ip-general-availability"/>
-        <updated>2026-01-16T15:37:19.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://letsencrypt.org/2026/01/15/6day-and-ip-general-availability
-Comments URL: https://news.ycombinator.com/item?id=46647491
-Points: 116
-# Comments: 37]]></summary>
-        <author>
-            <name>jaas</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Read_once(), Write_once(), but Not for Rust]]></title>
-        <id>https://news.ycombinator.com/item?id=46647059</id>
-        <link href="https://lwn.net/SubscriberLink/1053142/8ec93e58d5d3cc06/"/>
-        <updated>2026-01-16T15:04:22.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://lwn.net/SubscriberLink/1053142/8ec93e58d5d3cc06/
-Comments URL: https://news.ycombinator.com/item?id=46647059
-Points: 68
-# Comments: 17]]></summary>
-        <author>
-            <name>todsacerdoti</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Can You Disable Spotlight and Siri in macOS Tahoe?]]></title>
-        <id>https://news.ycombinator.com/item?id=46646958</id>
-        <link href="https://eclecticlight.co/2026/01/16/can-you-disable-spotlight-and-siri-in-macos-tahoe/"/>
-        <updated>2026-01-16T14:56:12.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://eclecticlight.co/2026/01/16/can-you-disable-spotlight-and-siri-in-macos-tahoe/
-Comments URL: https://news.ycombinator.com/item?id=46646958
-Points: 51
-# Comments: 36]]></summary>
-        <author>
-            <name>chmaynard</name>
         </author>
     </entry>
 </feed>
