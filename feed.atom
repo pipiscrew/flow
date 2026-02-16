@@ -2,10 +2,36 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-02-15T23:34:15.808Z</updated>
+    <updated>2026-02-16T02:45:54.576Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Pink noise reduces REM sleep and may harm sleep quality]]></title>
+        <id>https://news.ycombinator.com/item?id=47029397</id>
+        <link href="https://www.pennmedicine.org/news/pink-noise-reduces-rem-sleep-and-may-harm-sleep-quality"/>
+        <updated>2026-02-16T00:35:12.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.pennmedicine.org/news/pink-noise-reduces-rem-sleep-and-may-harm-sleep-quality
+Comments URL: https://news.ycombinator.com/item?id=47029397
+Points: 51
+# Comments: 26]]></summary>
+        <author>
+            <name>gnabgib</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Magnus Carlsen Wins the Freestyle (Chess960) World Championship]]></title>
+        <id>https://news.ycombinator.com/item?id=47028227</id>
+        <link href="https://www.fide.com/magnus-carlsen-wins-2026-fide-freestyle-world-championship/"/>
+        <updated>2026-02-15T22:17:10.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.fide.com/magnus-carlsen-wins-2026-fide-freestyle-world-championship/
+Comments URL: https://news.ycombinator.com/item?id=47028227
+Points: 137
+# Comments: 61]]></summary>
+        <author>
+            <name>prophylaxis</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[I’m joining OpenAI]]></title>
         <id>https://news.ycombinator.com/item?id=47028013</id>
@@ -17,6 +43,19 @@ Points: 130
 # Comments: 61]]></summary>
         <author>
             <name>mfiguiere</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GNU Pies – Program Invocation and Execution Supervisor]]></title>
+        <id>https://news.ycombinator.com/item?id=47027427</id>
+        <link href="https://www.gnu.org.ua/software/pies/"/>
+        <updated>2026-02-15T20:53:26.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.gnu.org.ua/software/pies/
+Comments URL: https://news.ycombinator.com/item?id=47027427
+Points: 64
+# Comments: 46]]></summary>
+        <author>
+            <name>smartmic</name>
         </author>
     </entry>
     <entry>
@@ -183,6 +222,19 @@ Points: 74
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Pocketblue – Fedora Atomic for mobile devices]]></title>
+        <id>https://news.ycombinator.com/item?id=47025085</id>
+        <link href="https://github.com/pocketblue/pocketblue"/>
+        <updated>2026-02-15T16:40:13.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://github.com/pocketblue/pocketblue
+Comments URL: https://news.ycombinator.com/item?id=47025085
+Points: 58
+# Comments: 12]]></summary>
+        <author>
+            <name>nikodunk</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Hideki Sato, designer of all Sega's consoles, has died]]></title>
         <id>https://news.ycombinator.com/item?id=47024907</id>
         <link href="https://www.videogameschronicle.com/news/hideki-sato-designer-of-segas-consoles-dies-age-75/"/>
@@ -284,6 +336,23 @@ Points: 182
 # Comments: 79]]></summary>
         <author>
             <name>deevus</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Pangolin: Open-source identity-based VPN (Twingate/Zscaler alternative)]]></title>
+        <id>https://news.ycombinator.com/item?id=47022745</id>
+        <link href="https://github.com/fosrl/pangolin"/>
+        <updated>2026-02-15T10:50:18.000Z</updated>
+        <summary type="html"><![CDATA[Pangolin (https://github.com/fosrl/pangolin) is an open-source tool for identity-based remote access to internal resources - an alternative to Cloudflare ZTNA, Zscaler, and Twingate.
+It’s different than existing approaches: mesh VPNs (Tailscale, ZeroTier, etc.) create flat overlay networks where ACL and IP space management becomes complex at scale and every device can talk to every other device, while corporate ZTNA solutions (Zscaler, Cato, Netskope etc.) are closed-source and add latency by forcing traffic through a central server.
+Pangolin takes a resource-centric approach. You deploy lightweight connectors that bridge to specific resources (private web apps, SSH, databases, CIDR ranges). Admins delegate resource-access to specific users and roles. It uses WireGuard with NAT hole-punching for peer-to-peer connections and traffic goes directly between the user and connector instead of through a central server. It supports native clients (Mac/Windows/Linux/iOS/Android) plus identity-aware, browser-based access when a client isn’t required.
+Pangolin has a cloud and is optionally self-hosted. The Community Edition is AGPLv3. The Enterprise Edition is also open-source under the commercial license which enables free personal/small business use.
+Everything, from the server to the clients, is fully open-source and you can even self-host the whole stack. We’d love to hear what you think and I'm happy to answer any questions!
+Comments URL: https://news.ycombinator.com/item?id=47022745
+Points: 50
+# Comments: 20]]></summary>
+        <author>
+            <name>miloschwartz</name>
         </author>
     </entry>
     <entry>
@@ -1029,6 +1098,19 @@ Points: 83
 # Comments: 12]]></summary>
         <author>
             <name>tkp-415</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[I gave Claude access to my pen plotter]]></title>
+        <id>https://news.ycombinator.com/item?id=47004384</id>
+        <link href="https://harmonique.one/posts/i-gave-claude-access-to-my-pen-plotter"/>
+        <updated>2026-02-13T16:15:58.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://harmonique.one/posts/i-gave-claude-access-to-my-pen-plotter
+Comments URL: https://news.ycombinator.com/item?id=47004384
+Points: 97
+# Comments: 41]]></summary>
+        <author>
+            <name>futurecat</name>
         </author>
     </entry>
     <entry>
@@ -18085,97 +18167,6 @@ Points: 57
 # Comments: 24]]></summary>
         <author>
             <name>phi-system</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The recurring dream of replacing developers]]></title>
-        <id>https://news.ycombinator.com/item?id=46658345</id>
-        <link href="https://www.caimito.net/en/blog/2025/12/07/the-recurring-dream-of-replacing-developers.html"/>
-        <updated>2026-01-17T14:31:33.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.caimito.net/en/blog/2025/12/07/the-recurring-dream-of-replacing-developers.html
-Comments URL: https://news.ycombinator.com/item?id=46658345
-Points: 51
-# Comments: 34]]></summary>
-        <author>
-            <name>glimshe</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: RatatuiRuby wraps Rust Ratatui as a RubyGem – TUIs with the joy of Ruby]]></title>
-        <id>https://news.ycombinator.com/item?id=46658133</id>
-        <link href="https://www.ratatui-ruby.dev/"/>
-        <updated>2026-01-17T14:03:00.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.ratatui-ruby.dev/
-Comments URL: https://news.ycombinator.com/item?id=46658133
-Points: 75
-# Comments: 6]]></summary>
-        <author>
-            <name>Kerrick</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Binary fuse filters: Fast and smaller than xor filters (2022)]]></title>
-        <id>https://news.ycombinator.com/item?id=46658128</id>
-        <link href="https://arxiv.org/abs/2201.01174"/>
-        <updated>2026-01-17T14:02:17.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://arxiv.org/abs/2201.01174
-Comments URL: https://news.ycombinator.com/item?id=46658128
-Points: 58
-# Comments: 3]]></summary>
-        <author>
-            <name>redbell</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Italy investigates Activision Blizzard for pushing in-game purchases]]></title>
-        <id>https://news.ycombinator.com/item?id=46658014</id>
-        <link href="https://techcrunch.com/2026/01/16/italy-investigates-activision-blizzard-for-pushing-in-game-purchases/"/>
-        <updated>2026-01-17T13:44:02.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://techcrunch.com/2026/01/16/italy-investigates-activision-blizzard-for-pushing-in-game-purchases/
-Comments URL: https://news.ycombinator.com/item?id=46658014
-Points: 62
-# Comments: 11]]></summary>
-        <author>
-            <name>7777777phil</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Folding NASA Experience into an Origamist's Toolkit]]></title>
-        <id>https://news.ycombinator.com/item?id=46658003</id>
-        <link href="https://spinoff.nasa.gov/Folding_NASA_Experience_into_an_Origamist%E2%80%99s_Toolkit"/>
-        <updated>2026-01-17T13:42:14.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://spinoff.nasa.gov/Folding_NASA_Experience_into_an_Origamist%E2%80%99s_Toolkit
-Comments URL: https://news.ycombinator.com/item?id=46658003
-Points: 58
-# Comments: 4]]></summary>
-        <author>
-            <name>andsoitis</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Risks of AI in Schools Outweigh the Benefits, Report Says]]></title>
-        <id>https://news.ycombinator.com/item?id=46657719</id>
-        <link href="https://www.npr.org/2026/01/14/nx-s1-5674741/ai-schools-education"/>
-        <updated>2026-01-17T12:59:35.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.npr.org/2026/01/14/nx-s1-5674741/ai-schools-education
-Comments URL: https://news.ycombinator.com/item?id=46657719
-Points: 57
-# Comments: 22]]></summary>
-        <author>
-            <name>backpackerBMW</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The 600-year-old origins of the word 'hello']]></title>
-        <id>https://news.ycombinator.com/item?id=46657296</id>
-        <link href="https://www.bbc.com/culture/article/20260113-hello-hiya-aloha-what-our-greetings-reveal"/>
-        <updated>2026-01-17T11:51:44.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.bbc.com/culture/article/20260113-hello-hiya-aloha-what-our-greetings-reveal
-Comments URL: https://news.ycombinator.com/item?id=46657296
-Points: 51
-# Comments: 21]]></summary>
-        <author>
-            <name>1659447091</name>
         </author>
     </entry>
 </feed>

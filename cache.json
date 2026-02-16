@@ -6,6 +6,26 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=47029397",
+          "author": "gnabgib",
+          "description": "Article URL: https://www.pennmedicine.org/news/pink-noise-reduces-rem-sleep-and-may-harm-sleep-quality\nComments URL: https://news.ycombinator.com/item?id=47029397\nPoints: 51\n# Comments: 26",
+          "link": "https://www.pennmedicine.org/news/pink-noise-reduces-rem-sleep-and-may-harm-sleep-quality",
+          "publishedOn": "2026-02-16T00:35:12.000Z",
+          "wordCount": 4599,
+          "title": "Pink noise reduces REM sleep and may harm sleep quality",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47028227",
+          "author": "prophylaxis",
+          "description": "Article URL: https://www.fide.com/magnus-carlsen-wins-2026-fide-freestyle-world-championship/\nComments URL: https://news.ycombinator.com/item?id=47028227\nPoints: 137\n# Comments: 61",
+          "link": "https://www.fide.com/magnus-carlsen-wins-2026-fide-freestyle-world-championship/",
+          "publishedOn": "2026-02-15T22:17:10.000Z",
+          "wordCount": 5479,
+          "title": "Magnus Carlsen Wins the Freestyle (Chess960) World Championship",
+          "imageUrl": null
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=47028013",
           "author": "mfiguiere",
           "description": "Article URL: https://steipete.me/posts/2026/openclaw\nComments URL: https://news.ycombinator.com/item?id=47028013\nPoints: 130\n# Comments: 61",
@@ -14,6 +34,16 @@
           "wordCount": 2122,
           "title": "I’m joining OpenAI",
           "imageUrl": "https://steipete.me/posts/2026/openclaw/index.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47027427",
+          "author": "smartmic",
+          "description": "Article URL: https://www.gnu.org.ua/software/pies/\nComments URL: https://news.ycombinator.com/item?id=47027427\nPoints: 64\n# Comments: 46",
+          "link": "https://www.gnu.org.ua/software/pies/",
+          "publishedOn": "2026-02-15T20:53:26.000Z",
+          "wordCount": 231,
+          "title": "GNU Pies – Program Invocation and Execution Supervisor",
+          "imageUrl": null
         },
         {
           "id": "https://news.ycombinator.com/item?id=47026848",
@@ -136,6 +166,16 @@
           "imageUrl": "https://heise.cloudimg.io/bound/1200x1200/q85.png-lossy-85.webp-lossy-85.foil1/_www-heise-de_/imgs/18/5/0/2/7/7/7/1/Screenshot_2026-02-13_at_19.57.24-85c7b3432095e315.png"
         },
         {
+          "id": "https://news.ycombinator.com/item?id=47025085",
+          "author": "nikodunk",
+          "description": "Article URL: https://github.com/pocketblue/pocketblue\nComments URL: https://news.ycombinator.com/item?id=47025085\nPoints: 58\n# Comments: 12",
+          "link": "https://github.com/pocketblue/pocketblue",
+          "publishedOn": "2026-02-15T16:40:13.000Z",
+          "wordCount": 1536,
+          "title": "Pocketblue – Fedora Atomic for mobile devices",
+          "imageUrl": "https://opengraph.githubassets.com/25c86734336faec753e774d3739ba1df4dc365e2de358abb2ddbb53987552cc6/pocketblue/pocketblue"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=47024907",
           "author": "magoghm",
           "description": "Article URL: https://www.videogameschronicle.com/news/hideki-sato-designer-of-segas-consoles-dies-age-75/\nComments URL: https://news.ycombinator.com/item?id=47024907\nPoints: 63\n# Comments: 1",
@@ -214,6 +254,16 @@
           "wordCount": 1507,
           "title": "I Fixed Windows Native Development",
           "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47022745",
+          "author": "miloschwartz",
+          "description": "Pangolin (https://github.com/fosrl/pangolin) is an open-source tool for identity-based remote access to internal resources - an alternative to Cloudflare ZTNA, Zscaler, and Twingate.\nIt’s different than existing approaches: mesh VPNs (Tailscale, ZeroTier, etc.) create flat overlay networks where ACL and IP space management becomes complex at scale and every device can talk to every other device, while corporate ZTNA solutions (Zscaler, Cato, Netskope etc.) are closed-source and add latency by forcing traffic through a central server.\nPangolin takes a resource-centric approach. You deploy lightweight connectors that bridge to specific resources (private web apps, SSH, databases, CIDR ranges). Admins delegate resource-access to specific users and roles. It uses WireGuard with NAT hole-punching for peer-to-peer connections and traffic goes directly between the user and connector instead of through a central server. It supports native clients (Mac/Windows/Linux/iOS/Android) plus identity-aware, browser-based access when a client isn’t required.\nPangolin has a cloud and is optionally self-hosted. The Community Edition is AGPLv3. The Enterprise Edition is also open-source under the commercial license which enables free personal/small business use.\nEverything, from the server to the clients, is fully open-source and you can even self-host the whole stack. We’d love to hear what you think and I'm happy to answer any questions!\nComments URL: https://news.ycombinator.com/item?id=47022745\nPoints: 50\n# Comments: 20",
+          "link": "https://github.com/fosrl/pangolin",
+          "publishedOn": "2026-02-15T10:50:18.000Z",
+          "wordCount": 2920,
+          "title": "Show HN: Pangolin: Open-source identity-based VPN (Twingate/Zscaler alternative)",
+          "imageUrl": "https://repository-images.githubusercontent.com/863835427/5545fba0-d1e4-4422-b48b-f5111ba6fb61"
         },
         {
           "id": "https://news.ycombinator.com/item?id=47022329",
@@ -773,6 +823,16 @@
           "publishedOn": "2026-02-13T16:42:04.000Z",
           "wordCount": null,
           "title": "Instagram's URL Blackhole",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47004384",
+          "author": "futurecat",
+          "description": "Article URL: https://harmonique.one/posts/i-gave-claude-access-to-my-pen-plotter\nComments URL: https://news.ycombinator.com/item?id=47004384\nPoints: 97\n# Comments: 41",
+          "link": "https://harmonique.one/posts/i-gave-claude-access-to-my-pen-plotter",
+          "publishedOn": "2026-02-13T16:15:58.000Z",
+          "wordCount": 4068,
+          "title": "I gave Claude access to my pen plotter",
           "imageUrl": null
         },
         {
@@ -13514,76 +13574,6 @@
           "wordCount": 3561,
           "title": "Gathering Linux Syscall Numbers in a C Table",
           "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46658345",
-          "author": "glimshe",
-          "description": "Article URL: https://www.caimito.net/en/blog/2025/12/07/the-recurring-dream-of-replacing-developers.html\nComments URL: https://news.ycombinator.com/item?id=46658345\nPoints: 51\n# Comments: 34",
-          "link": "https://www.caimito.net/en/blog/2025/12/07/the-recurring-dream-of-replacing-developers.html",
-          "publishedOn": "2026-01-17T14:31:33.000Z",
-          "wordCount": 2586,
-          "title": "The recurring dream of replacing developers",
-          "imageUrl": "https://www.caimito.net/img/blog/the-recurring-dream-of-replacing-developers.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46658133",
-          "author": "Kerrick",
-          "description": "Article URL: https://www.ratatui-ruby.dev/\nComments URL: https://news.ycombinator.com/item?id=46658133\nPoints: 75\n# Comments: 6",
-          "link": "https://www.ratatui-ruby.dev/",
-          "publishedOn": "2026-01-17T14:03:00.000Z",
-          "wordCount": 1497,
-          "title": "Show HN: RatatuiRuby wraps Rust Ratatui as a RubyGem – TUIs with the joy of Ruby",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46658128",
-          "author": "redbell",
-          "description": "Article URL: https://arxiv.org/abs/2201.01174\nComments URL: https://news.ycombinator.com/item?id=46658128\nPoints: 58\n# Comments: 3",
-          "link": "https://arxiv.org/abs/2201.01174",
-          "publishedOn": "2026-01-17T14:02:17.000Z",
-          "wordCount": 713,
-          "title": "Binary fuse filters: Fast and smaller than xor filters (2022)",
-          "imageUrl": "/static/browse/0.3.4/images/arxiv-logo-fb.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46658014",
-          "author": "7777777phil",
-          "description": "Article URL: https://techcrunch.com/2026/01/16/italy-investigates-activision-blizzard-for-pushing-in-game-purchases/\nComments URL: https://news.ycombinator.com/item?id=46658014\nPoints: 62\n# Comments: 11",
-          "link": "https://techcrunch.com/2026/01/16/italy-investigates-activision-blizzard-for-pushing-in-game-purchases/",
-          "publishedOn": "2026-01-17T13:44:02.000Z",
-          "wordCount": 3196,
-          "title": "Italy investigates Activision Blizzard for pushing in-game purchases",
-          "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/01/GettyImages-2153523498.jpg?resize=1200,800"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46658003",
-          "author": "andsoitis",
-          "description": "Article URL: https://spinoff.nasa.gov/Folding_NASA_Experience_into_an_Origamist%E2%80%99s_Toolkit\nComments URL: https://news.ycombinator.com/item?id=46658003\nPoints: 58\n# Comments: 4",
-          "link": "https://spinoff.nasa.gov/Folding_NASA_Experience_into_an_Origamist%E2%80%99s_Toolkit",
-          "publishedOn": "2026-01-17T13:42:14.000Z",
-          "wordCount": 1821,
-          "title": "Folding NASA Experience into an Origamist's Toolkit",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46657719",
-          "author": "backpackerBMW",
-          "description": "Article URL: https://www.npr.org/2026/01/14/nx-s1-5674741/ai-schools-education\nComments URL: https://news.ycombinator.com/item?id=46657719\nPoints: 57\n# Comments: 22",
-          "link": "https://www.npr.org/2026/01/14/nx-s1-5674741/ai-schools-education",
-          "publishedOn": "2026-01-17T12:59:35.000Z",
-          "wordCount": 2213,
-          "title": "The Risks of AI in Schools Outweigh the Benefits, Report Says",
-          "imageUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5183x2915+0+271/resize/1400/quality/85/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Ffa%2Fa4%2F85df40f840c7be6fd286745ddc20%2Fgettyimages-2219686550.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46657296",
-          "author": "1659447091",
-          "description": "Article URL: https://www.bbc.com/culture/article/20260113-hello-hiya-aloha-what-our-greetings-reveal\nComments URL: https://news.ycombinator.com/item?id=46657296\nPoints: 51\n# Comments: 21",
-          "link": "https://www.bbc.com/culture/article/20260113-hello-hiya-aloha-what-our-greetings-reveal",
-          "publishedOn": "2026-01-17T11:51:44.000Z",
-          "wordCount": 9326,
-          "title": "The 600-year-old origins of the word 'hello'",
-          "imageUrl": "https://ychef.files.bbci.co.uk/624x351/p0mtt2qy.jpg"
         }
       ]
     }
