@@ -6,6 +6,16 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=47037628",
+          "author": "NM-Super",
+          "description": "Article URL: https://anthony.noided.media/blog/ai/programming/2026/02/14/i-guess-i-kinda-get-why-people-hate-ai.html\nComments URL: https://news.ycombinator.com/item?id=47037628\nPoints: 89\n# Comments: 84",
+          "link": "https://anthony.noided.media/blog/ai/programming/2026/02/14/i-guess-i-kinda-get-why-people-hate-ai.html",
+          "publishedOn": "2026-02-16T17:22:02.000Z",
+          "wordCount": 3370,
+          "title": "I guess I kinda get why people hate AI",
+          "imageUrl": null
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=47035718",
           "author": "tosh",
           "description": "Article URL: https://www.macrumors.com/2026/02/16/apple-plans-snow-leopard-cleanup-ios-27/\nComments URL: https://news.ycombinator.com/item?id=47035718\nPoints: 81\n# Comments: 51",
@@ -1236,6 +1246,16 @@
           "imageUrl": "https://skipthe.tips/og-image.png"
         },
         {
+          "id": "https://news.ycombinator.com/item?id=46997356",
+          "author": "gurjeet",
+          "description": "Article URL: https://github.com/preservim/vim-pencil\nComments URL: https://news.ycombinator.com/item?id=46997356\nPoints: 114\n# Comments: 41",
+          "link": "https://github.com/preservim/vim-pencil",
+          "publishedOn": "2026-02-13T00:35:23.000Z",
+          "wordCount": 10413,
+          "title": "Vim-pencil: Rethinking Vim as a tool for writing",
+          "imageUrl": "https://opengraph.githubassets.com/1e6013e939535626f5dffd42c33da2b78f8a624632850428801c15572bd362f7/preservim/vim-pencil"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=46997133",
           "author": "sitole",
           "description": "Article URL: https://github.com/aws/aws-sdk-go-v2/commit/3dca5e45d5ad05460b93410087833cbaa624754e\nComments URL: https://news.ycombinator.com/item?id=46997133\nPoints: 76\n# Comments: 33",
@@ -1574,6 +1594,16 @@
           "wordCount": 1627,
           "title": "Improving 15 LLMs at Coding in One Afternoon. Only the Harness Changed",
           "imageUrl": "https://blog.can.ac/2026/02/12/the-harness-problem/og.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=46988538",
+          "author": "mpcsb",
+          "description": "Article URL: https://christopherkrapu.com/blog/2026/ocr-textbooks-modal-deepseek/\nComments URL: https://news.ycombinator.com/item?id=46988538\nPoints: 85\n# Comments: 42",
+          "link": "https://christopherkrapu.com/blog/2026/ocr-textbooks-modal-deepseek/",
+          "publishedOn": "2026-02-12T13:23:22.000Z",
+          "wordCount": 1861,
+          "title": "Rolling your own serverless OCR in 40 lines of code",
+          "imageUrl": null
         },
         {
           "id": "https://news.ycombinator.com/item?id=46988462",
@@ -13444,46 +13474,6 @@
           "wordCount": 371056,
           "title": "A Social Filesystem",
           "imageUrl": "https://overreacted.io/a-social-filesystem/opengraph-image?5b0b970dfd19bb8c"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46665411",
-          "author": "sea-gold",
-          "description": "Article URL: https://icon-sets.iconify.design/\nComments URL: https://news.ycombinator.com/item?id=46665411\nPoints: 74\n# Comments: 9",
-          "link": "https://icon-sets.iconify.design/",
-          "publishedOn": "2026-01-18T06:53:36.000Z",
-          "wordCount": 672,
-          "title": "Iconify: Library of Open Source Icons",
-          "imageUrl": "https://icon-sets.iconify.design/og-image.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46665393",
-          "author": "ktyptorio",
-          "description": "Hi HN,\nI have been working with regulation-heavy documents lately, and one thing kept bothering me. Flat RAG pipelines often fail to retrieve related articles together, even when they are clearly connected through references, definitions, or clauses.\nAfter trying several RAG setups, I subjectively felt that GraphRAG was a better mental model for this kind of data. The Microsoft GraphRAG paper and reference implementation were helpful starting points. However, in practice, I found one recurring friction point: graph storage and vector indexing are usually handled by separate systems, which felt unnecessarily heavy for short-lived analysis tasks.\nTo explore this tradeoff, I built GibRAM (Graph in-buffer Retrieval and Associative Memory). It is an experimental, in-memory GraphRAG runtime where entities, relationships, text units, and embeddings live side by side in a single process.\nGibRAM is intentionally ephemeral. It is designed for exploratory tasks like summarization or conversational querying over a bounded document set. Data lives in memory, scoped by session, and is automatically cleaned up via TTL. There are no durability guarantees, and recomputation is considered cheaper than persistence for the intended use cases.\nThis is not a database and not a production-ready system. It is a casual project, largely vibe-coded, meant to explore what GraphRAG looks like when memory is the primary constraint instead of storage. Technical debt exists, and many tradeoffs are explicit.\nThe project is open source, and I would really appreciate feedback, especially from people working on RAG, search infrastructure, or graph-based retrieval.\nGitHub: https://github.com/gibram-io/gibram\nHappy to answer questions or hear why this approach might be flawed.\nComments URL: https://news.ycombinator.com/item?id=46665393\nPoints: 53\n# Comments: 10",
-          "link": "https://github.com/gibram-io/gibram",
-          "publishedOn": "2026-01-18T06:47:17.000Z",
-          "wordCount": 2240,
-          "title": "Show HN: GibRAM an in-memory ephemeral GraphRAG runtime for retrieval",
-          "imageUrl": "https://opengraph.githubassets.com/07c83edcc074c03ec20a4894c4cf12f0f3580fdeaea606847633125ea0fb3e7e/gibram-io/gibram"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46665310",
-          "author": "__patchbit__",
-          "description": "Article URL: https://thinknextdesign.com/home.html\nComments URL: https://news.ycombinator.com/item?id=46665310\nPoints: 60\n# Comments: 17",
-          "link": "https://thinknextdesign.com/home.html",
-          "publishedOn": "2026-01-18T06:27:24.000Z",
-          "wordCount": 3172,
-          "title": "ThinkNext Design",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46665169",
-          "author": "dannote",
-          "description": "I'm Dan, and I built a CLI that lets AI agents design in Figma.\nWhat it does: 100 commands to create shapes, text, frames, components, modify styles, export assets. JSX importing that's ~100x faster than any plugin API import. Works with any LLM coding assistant.\nWhy I built it: The official Figma MCP server can only read files. I wanted AI to actually design — create buttons, build layouts, generate entire component systems. Existing solutions were either read-only or required verbose JSON schemas that burn through tokens.\nDemo (45 sec): https://youtu.be/9eSYVZRle7o\nTech stack: Bun + Citty for CLI, Elysia WebSocket proxy, Figma plugin. The render command connects to Figma's internal multiplayer protocol via Chrome DevTools for extra performance when dealing with large groups of objects.\nTry it: bun install -g @dannote/figma-use\nLooking for feedback on CLI ergonomics, missing commands, and whether the JSX syntax feels natural.\nComments URL: https://news.ycombinator.com/item?id=46665169\nPoints: 58\n# Comments: 26",
-          "link": "https://github.com/dannote/figma-use",
-          "publishedOn": "2026-01-18T05:55:48.000Z",
-          "wordCount": 7769,
-          "title": "Show HN: Figma-use – CLI to control Figma for AI agents",
-          "imageUrl": "https://opengraph.githubassets.com/49d319a030ae11731fae48aa9cdfca1e3677484e290238e95396e9d9bc591fef/dannote/figma-use"
         }
       ]
     }

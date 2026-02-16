@@ -2,10 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-02-16T17:42:13.728Z</updated>
+    <updated>2026-02-16T18:54:08.819Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[I guess I kinda get why people hate AI]]></title>
+        <id>https://news.ycombinator.com/item?id=47037628</id>
+        <link href="https://anthony.noided.media/blog/ai/programming/2026/02/14/i-guess-i-kinda-get-why-people-hate-ai.html"/>
+        <updated>2026-02-16T17:22:02.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://anthony.noided.media/blog/ai/programming/2026/02/14/i-guess-i-kinda-get-why-people-hate-ai.html
+Comments URL: https://news.ycombinator.com/item?id=47037628
+Points: 89
+# Comments: 84]]></summary>
+        <author>
+            <name>NM-Super</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[iOS 27 'Rave' Update to Clean Up Code, Could Boost Battery Life]]></title>
         <id>https://news.ycombinator.com/item?id=47035718</id>
@@ -1634,6 +1647,19 @@ Points: 54
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Vim-pencil: Rethinking Vim as a tool for writing]]></title>
+        <id>https://news.ycombinator.com/item?id=46997356</id>
+        <link href="https://github.com/preservim/vim-pencil"/>
+        <updated>2026-02-13T00:35:23.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://github.com/preservim/vim-pencil
+Comments URL: https://news.ycombinator.com/item?id=46997356
+Points: 114
+# Comments: 41]]></summary>
+        <author>
+            <name>gurjeet</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[AWS Adds support for nested virtualization]]></title>
         <id>https://news.ycombinator.com/item?id=46997133</id>
         <link href="https://github.com/aws/aws-sdk-go-v2/commit/3dca5e45d5ad05460b93410087833cbaa624754e"/>
@@ -2084,6 +2110,19 @@ Points: 64
 # Comments: 25]]></summary>
         <author>
             <name>kachapopopow</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Rolling your own serverless OCR in 40 lines of code]]></title>
+        <id>https://news.ycombinator.com/item?id=46988538</id>
+        <link href="https://christopherkrapu.com/blog/2026/ocr-textbooks-modal-deepseek/"/>
+        <updated>2026-02-12T13:23:22.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://christopherkrapu.com/blog/2026/ocr-textbooks-modal-deepseek/
+Comments URL: https://news.ycombinator.com/item?id=46988538
+Points: 85
+# Comments: 42]]></summary>
+        <author>
+            <name>mpcsb</name>
         </author>
     </entry>
     <entry>
@@ -17976,72 +18015,6 @@ Points: 76
 # Comments: 21]]></summary>
         <author>
             <name>icy</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Iconify: Library of Open Source Icons]]></title>
-        <id>https://news.ycombinator.com/item?id=46665411</id>
-        <link href="https://icon-sets.iconify.design/"/>
-        <updated>2026-01-18T06:53:36.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://icon-sets.iconify.design/
-Comments URL: https://news.ycombinator.com/item?id=46665411
-Points: 74
-# Comments: 9]]></summary>
-        <author>
-            <name>sea-gold</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: GibRAM an in-memory ephemeral GraphRAG runtime for retrieval]]></title>
-        <id>https://news.ycombinator.com/item?id=46665393</id>
-        <link href="https://github.com/gibram-io/gibram"/>
-        <updated>2026-01-18T06:47:17.000Z</updated>
-        <summary type="html"><![CDATA[Hi HN,
-I have been working with regulation-heavy documents lately, and one thing kept bothering me. Flat RAG pipelines often fail to retrieve related articles together, even when they are clearly connected through references, definitions, or clauses.
-After trying several RAG setups, I subjectively felt that GraphRAG was a better mental model for this kind of data. The Microsoft GraphRAG paper and reference implementation were helpful starting points. However, in practice, I found one recurring friction point: graph storage and vector indexing are usually handled by separate systems, which felt unnecessarily heavy for short-lived analysis tasks.
-To explore this tradeoff, I built GibRAM (Graph in-buffer Retrieval and Associative Memory). It is an experimental, in-memory GraphRAG runtime where entities, relationships, text units, and embeddings live side by side in a single process.
-GibRAM is intentionally ephemeral. It is designed for exploratory tasks like summarization or conversational querying over a bounded document set. Data lives in memory, scoped by session, and is automatically cleaned up via TTL. There are no durability guarantees, and recomputation is considered cheaper than persistence for the intended use cases.
-This is not a database and not a production-ready system. It is a casual project, largely vibe-coded, meant to explore what GraphRAG looks like when memory is the primary constraint instead of storage. Technical debt exists, and many tradeoffs are explicit.
-The project is open source, and I would really appreciate feedback, especially from people working on RAG, search infrastructure, or graph-based retrieval.
-GitHub: https://github.com/gibram-io/gibram
-Happy to answer questions or hear why this approach might be flawed.
-Comments URL: https://news.ycombinator.com/item?id=46665393
-Points: 53
-# Comments: 10]]></summary>
-        <author>
-            <name>ktyptorio</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[ThinkNext Design]]></title>
-        <id>https://news.ycombinator.com/item?id=46665310</id>
-        <link href="https://thinknextdesign.com/home.html"/>
-        <updated>2026-01-18T06:27:24.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://thinknextdesign.com/home.html
-Comments URL: https://news.ycombinator.com/item?id=46665310
-Points: 60
-# Comments: 17]]></summary>
-        <author>
-            <name>__patchbit__</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: Figma-use – CLI to control Figma for AI agents]]></title>
-        <id>https://news.ycombinator.com/item?id=46665169</id>
-        <link href="https://github.com/dannote/figma-use"/>
-        <updated>2026-01-18T05:55:48.000Z</updated>
-        <summary type="html"><![CDATA[I'm Dan, and I built a CLI that lets AI agents design in Figma.
-What it does: 100 commands to create shapes, text, frames, components, modify styles, export assets. JSX importing that's ~100x faster than any plugin API import. Works with any LLM coding assistant.
-Why I built it: The official Figma MCP server can only read files. I wanted AI to actually design — create buttons, build layouts, generate entire component systems. Existing solutions were either read-only or required verbose JSON schemas that burn through tokens.
-Demo (45 sec): https://youtu.be/9eSYVZRle7o
-Tech stack: Bun + Citty for CLI, Elysia WebSocket proxy, Figma plugin. The render command connects to Figma's internal multiplayer protocol via Chrome DevTools for extra performance when dealing with large groups of objects.
-Try it: bun install -g @dannote/figma-use
-Looking for feedback on CLI ergonomics, missing commands, and whether the JSX syntax feels natural.
-Comments URL: https://news.ycombinator.com/item?id=46665169
-Points: 58
-# Comments: 26]]></summary>
-        <author>
-            <name>dannote</name>
         </author>
     </entry>
 </feed>
