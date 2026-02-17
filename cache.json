@@ -6,6 +6,16 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=47043751",
+          "author": "rustoo",
+          "description": "Article URL: https://www.cnbc.com/2026/02/16/long-term-unemployment-becoming-a-status-quo-in-todays-job-market.html\nComments URL: https://news.ycombinator.com/item?id=47043751\nPoints: 50\n# Comments: 31",
+          "link": "https://www.cnbc.com/2026/02/16/long-term-unemployment-becoming-a-status-quo-in-todays-job-market.html",
+          "publishedOn": "2026-02-17T04:36:58.000Z",
+          "wordCount": 16390,
+          "title": "Long-term unemployment is becoming 'a status quo' in today's job market",
+          "imageUrl": "https://image.cnbcfm.com/api/v1/image/108264040-1770749229179-gettyimages-2191575851-a7301068.jpeg?v=1770749240&w=1920&h=1080"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=47042396",
           "author": "colinprince",
           "description": "Article URL: https://www.bbc.com/news/articles/cx2gn239exlo\nComments URL: https://news.ycombinator.com/item?id=47042396\nPoints: 142\n# Comments: 71",
@@ -64,6 +74,16 @@
           "wordCount": 737,
           "title": "Study: Self-generated Agent Skills are useless",
           "imageUrl": "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47040390",
+          "author": "AnujNayyar",
+          "description": "Dear HN,\nMy wife and I both love nature and have always wanted a Pokémon go style app, to collect and learn about different species we find.\nAll the usual species identifying apps were didn’t feel fun enough, so we designed and built one together!\nWould love for you guys to give it a try and share any thoughts you have.\nComments URL: https://news.ycombinator.com/item?id=47040390\nPoints: 67\n# Comments: 45",
+          "link": "https://apps.apple.com/us/app/wildex-identify-plants-animals/id6748092158",
+          "publishedOn": "2026-02-16T21:12:07.000Z",
+          "wordCount": 5163,
+          "title": "Show HN: Wildex – Pokémon Go for real wildlife",
+          "imageUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e6/d1/97/e6d1977a-b41e-0aff-4daa-619e1d4d0fc6/Placeholder.mill/1200x630wa.jpg"
         },
         {
           "id": "https://news.ycombinator.com/item?id=47040375",
@@ -13573,46 +13593,6 @@
           "publishedOn": "2026-01-18T18:20:25.000Z",
           "wordCount": 773,
           "title": "America is slow-walking into a Polymarket disaster",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46670279",
-          "author": "antirez",
-          "description": "Article URL: https://github.com/antirez/flux2.c\nComments URL: https://news.ycombinator.com/item?id=46670279\nPoints: 74\n# Comments: 25",
-          "link": "https://github.com/antirez/flux2.c",
-          "publishedOn": "2026-01-18T18:01:58.000Z",
-          "wordCount": 7751,
-          "title": "Flux 2 Klein pure C inference",
-          "imageUrl": "https://opengraph.githubassets.com/d7a8e181fde63c2fe706a6bb4f3d5265eef911b32beb4d4eefcdcb32de2eec17/antirez/flux2.c"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46670181",
-          "author": "frabonacci",
-          "description": "Hey HN, Lume is an open-source CLI for running macOS and Linux VMs on Apple Silicon. Since launch (https://news.ycombinator.com/item?id=42908061), we've been using it to run AI agents in isolated macOS environments. We needed VMs that could set themselves up, so we built that.\nHere's what's new in 0.2:\n*Unattended Setup* – Go from IPSW to a fully configured VM without touching the keyboard. We built a VNC + OCR system that clicks through macOS Setup Assistant automatically. No more manual setup before pushing to a registry:\n  lume create my-vm --os macos --ipsw latest --unattended tahoe\n\n*HTTP API + Daemon* – A REST API on port 7777 that runs as a background service. Your scripts and CI pipelines can manage VMs that persist even if your terminal closes:\n  curl -X POST localhost:7777/lume/v…",
-          "link": "https://cua.ai/docs/lume/guide/getting-started/introduction",
-          "publishedOn": "2026-01-18T17:53:21.000Z",
-          "wordCount": 3440,
-          "title": "Show HN: Lume 0.2 – Build and Run macOS VMs with unattended setup",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46670024",
-          "author": "ChrisArchitect",
-          "description": "Article URL: https://radiancefields.com/a-ap-rocky-releases-helicopter-music-video-featuring-gaussian-splatting\nComments URL: https://news.ycombinator.com/item?id=46670024\nPoints: 113\n# Comments: 37",
-          "link": "https://radiancefields.com/a-ap-rocky-releases-helicopter-music-video-featuring-gaussian-splatting",
-          "publishedOn": "2026-01-18T17:40:55.000Z",
-          "wordCount": 23100,
-          "title": "Gaussian Splatting – A$AP Rocky Helicopter Music Video",
-          "imageUrl": "https://framerusercontent.com/images/xq2rgCx9bmnMK3Rzi8zgLEoE.jpg?width=1280&height=720"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46669663",
-          "author": "maxall4",
-          "description": "Article URL: https://asteriskmag.com/issues/07/sins-of-the-children\nComments URL: https://news.ycombinator.com/item?id=46669663\nPoints: 56\n# Comments: 25",
-          "link": "https://asteriskmag.com/issues/07/sins-of-the-children",
-          "publishedOn": "2026-01-18T17:08:58.000Z",
-          "wordCount": 5804,
-          "title": "Sins of the Children (Adrian Tchaikovsky)",
           "imageUrl": null
         }
       ]

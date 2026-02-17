@@ -2,10 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-02-17T04:57:58.705Z</updated>
+    <updated>2026-02-17T06:03:28.125Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Long-term unemployment is becoming 'a status quo' in today's job market]]></title>
+        <id>https://news.ycombinator.com/item?id=47043751</id>
+        <link href="https://www.cnbc.com/2026/02/16/long-term-unemployment-becoming-a-status-quo-in-todays-job-market.html"/>
+        <updated>2026-02-17T04:36:58.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.cnbc.com/2026/02/16/long-term-unemployment-becoming-a-status-quo-in-todays-job-market.html
+Comments URL: https://news.ycombinator.com/item?id=47043751
+Points: 50
+# Comments: 31]]></summary>
+        <author>
+            <name>rustoo</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Dark web agent spotted bedroom wall clue to rescue girl from abuse]]></title>
         <id>https://news.ycombinator.com/item?id=47042396</id>
@@ -86,6 +99,22 @@ Points: 63
 # Comments: 31]]></summary>
         <author>
             <name>mustaphah</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Wildex – Pokémon Go for real wildlife]]></title>
+        <id>https://news.ycombinator.com/item?id=47040390</id>
+        <link href="https://apps.apple.com/us/app/wildex-identify-plants-animals/id6748092158"/>
+        <updated>2026-02-16T21:12:07.000Z</updated>
+        <summary type="html"><![CDATA[Dear HN,
+My wife and I both love nature and have always wanted a Pokémon go style app, to collect and learn about different species we find.
+All the usual species identifying apps were didn’t feel fun enough, so we designed and built one together!
+Would love for you guys to give it a try and share any thoughts you have.
+Comments URL: https://news.ycombinator.com/item?id=47040390
+Points: 67
+# Comments: 45]]></summary>
+        <author>
+            <name>AnujNayyar</name>
         </author>
     </entry>
     <entry>
@@ -18149,61 +18178,6 @@ Points: 54
 # Comments: 39]]></summary>
         <author>
             <name>krustyburger</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Flux 2 Klein pure C inference]]></title>
-        <id>https://news.ycombinator.com/item?id=46670279</id>
-        <link href="https://github.com/antirez/flux2.c"/>
-        <updated>2026-01-18T18:01:58.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://github.com/antirez/flux2.c
-Comments URL: https://news.ycombinator.com/item?id=46670279
-Points: 74
-# Comments: 25]]></summary>
-        <author>
-            <name>antirez</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: Lume 0.2 – Build and Run macOS VMs with unattended setup]]></title>
-        <id>https://news.ycombinator.com/item?id=46670181</id>
-        <link href="https://cua.ai/docs/lume/guide/getting-started/introduction"/>
-        <updated>2026-01-18T17:53:21.000Z</updated>
-        <summary type="html"><![CDATA[Hey HN, Lume is an open-source CLI for running macOS and Linux VMs on Apple Silicon. Since launch (https://news.ycombinator.com/item?id=42908061), we've been using it to run AI agents in isolated macOS environments. We needed VMs that could set themselves up, so we built that.
-Here's what's new in 0.2:
-*Unattended Setup* – Go from IPSW to a fully configured VM without touching the keyboard. We built a VNC + OCR system that clicks through macOS Setup Assistant automatically. No more manual setup before pushing to a registry:
-  lume create my-vm --os macos --ipsw latest --unattended tahoe
-
-*HTTP API + Daemon* – A REST API on port 7777 that runs as a background service. Your scripts and CI pipelines can manage VMs that persist even if your terminal closes:
-  curl -X POST localhost:7777/lume/v…]]></summary>
-        <author>
-            <name>frabonacci</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Gaussian Splatting – A$AP Rocky Helicopter Music Video]]></title>
-        <id>https://news.ycombinator.com/item?id=46670024</id>
-        <link href="https://radiancefields.com/a-ap-rocky-releases-helicopter-music-video-featuring-gaussian-splatting"/>
-        <updated>2026-01-18T17:40:55.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://radiancefields.com/a-ap-rocky-releases-helicopter-music-video-featuring-gaussian-splatting
-Comments URL: https://news.ycombinator.com/item?id=46670024
-Points: 113
-# Comments: 37]]></summary>
-        <author>
-            <name>ChrisArchitect</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Sins of the Children (Adrian Tchaikovsky)]]></title>
-        <id>https://news.ycombinator.com/item?id=46669663</id>
-        <link href="https://asteriskmag.com/issues/07/sins-of-the-children"/>
-        <updated>2026-01-18T17:08:58.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://asteriskmag.com/issues/07/sins-of-the-children
-Comments URL: https://news.ycombinator.com/item?id=46669663
-Points: 56
-# Comments: 25]]></summary>
-        <author>
-            <name>maxall4</name>
         </author>
     </entry>
 </feed>
