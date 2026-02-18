@@ -2,10 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-02-18T02:45:42.624Z</updated>
+    <updated>2026-02-18T04:59:05.148Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Halt and Catch Fire: TV's Best Drama You've Probably Never Heard Of (2021)]]></title>
+        <id>https://news.ycombinator.com/item?id=47056314</id>
+        <link href="https://www.sceneandheardnu.com/content/halt-and-catch-fire"/>
+        <updated>2026-02-18T02:18:29.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.sceneandheardnu.com/content/halt-and-catch-fire
+Comments URL: https://news.ycombinator.com/item?id=47056314
+Points: 174
+# Comments: 101]]></summary>
+        <author>
+            <name>walterbell</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Thousands of CEOs just admitted AI had no impact on employment or productivity]]></title>
         <id>https://news.ycombinator.com/item?id=47055979</id>
@@ -43,6 +56,19 @@ Points: 157
 # Comments: 82]]></summary>
         <author>
             <name>aloknnikhil</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Minimal x86 Kernel Zig]]></title>
+        <id>https://news.ycombinator.com/item?id=47055262</id>
+        <link href="https://github.com/lopespm/zig-minimal-kernel-x86"/>
+        <updated>2026-02-18T00:02:06.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://github.com/lopespm/zig-minimal-kernel-x86
+Comments URL: https://news.ycombinator.com/item?id=47055262
+Points: 50
+# Comments: 12]]></summary>
+        <author>
+            <name>lopespm</name>
         </author>
     </entry>
     <entry>
@@ -134,6 +160,22 @@ Points: 98
 # Comments: 55]]></summary>
         <author>
             <name>Bender</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Pg-typesafe – Strongly typed queries for PostgreSQL and TypeScript]]></title>
+        <id>https://news.ycombinator.com/item?id=47050872</id>
+        <link href="https://github.com/n-e/pg-typesafe"/>
+        <updated>2026-02-17T18:15:36.000Z</updated>
+        <summary type="html"><![CDATA[Throughout my career, I tried many tools to query PostgreSQL, and in the end, concluded that for what I do, the simplest is almost always the best: raw SQL queries.
+Until now, I typed the results manually and relied on tests to catch problems. While this is OK in e.g., GoLang, it is quite annoying in TypeScript. First, because of the more powerful type system (it's easier to guess that updated_at is a date than it is to guess whether it's nullable or not), second, because of idiosyncrasies (INT4s are deserialised as JS numbers, but INT8s are deserialised as strings).
+So I wrote pg-typesafe, with the goal of it being the less burdensome: you call queries exactly the same way as you would call node-pg, and they are fully typed.
+It's very new, but I'm already using it in a large-ish project, where it found several bugs and footguns, and also allowed me to remove many manual type definitions.
+Comments URL: https://news.ycombinator.com/item?id=47050872
+Points: 52
+# Comments: 21]]></summary>
+        <author>
+            <name>n_e</name>
         </author>
     </entry>
     <entry>
@@ -338,6 +380,19 @@ Points: 149
 # Comments: 166]]></summary>
         <author>
             <name>bigbobbeeper</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Tesla Sales Down 55% UK, 58% Spain, 59% Germany, 81% Netherlands, 93% Norway]]></title>
+        <id>https://news.ycombinator.com/item?id=47048052</id>
+        <link href="https://cleantechnica.com/2026/02/15/tesla-sales-down-tremendously-in-uk-norway-netherlands-germany-spain-sweden-denmark-portugal-switzerland/"/>
+        <updated>2026-02-17T14:47:26.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://cleantechnica.com/2026/02/15/tesla-sales-down-tremendously-in-uk-norway-netherlands-germany-spain-sweden-denmark-portugal-switzerland/
+Comments URL: https://news.ycombinator.com/item?id=47048052
+Points: 119
+# Comments: 64]]></summary>
+        <author>
+            <name>whynotmaybe</name>
         </author>
     </entry>
     <entry>
@@ -18118,141 +18173,6 @@ Points: 75
 # Comments: 51]]></summary>
         <author>
             <name>bobbiechen</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Cows Can Use Sophisticated Tools]]></title>
-        <id>https://news.ycombinator.com/item?id=46681153</id>
-        <link href="https://nautil.us/the-far-side-had-it-all-wrong-cows-really-can-use-sophisticated-tools-1262026/"/>
-        <updated>2026-01-19T16:47:46.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://nautil.us/the-far-side-had-it-all-wrong-cows-really-can-use-sophisticated-tools-1262026/
-Comments URL: https://news.ycombinator.com/item?id=46681153
-Points: 56
-# Comments: 23]]></summary>
-        <author>
-            <name>Tomte</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Apple testing new App Store design that blurs the line between ads and results]]></title>
-        <id>https://news.ycombinator.com/item?id=46680974</id>
-        <link href="https://9to5mac.com/2026/01/16/iphone-apple-app-store-search-results-ads-new-design/"/>
-        <updated>2026-01-19T16:36:11.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://9to5mac.com/2026/01/16/iphone-apple-app-store-search-results-ads-new-design/
-Comments URL: https://news.ycombinator.com/item?id=46680974
-Points: 149
-# Comments: 87]]></summary>
-        <author>
-            <name>ksec</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: Pipenet – A Modern Alternative to Localtunnel]]></title>
-        <id>https://news.ycombinator.com/item?id=46680597</id>
-        <link href="https://pipenet.dev/"/>
-        <updated>2026-01-19T16:10:28.000Z</updated>
-        <summary type="html"><![CDATA[Hey HN!
-localtunnel's server needs random ports per client. That doesn't work on Fly.io or behind strict firewalls.
-We rewrote it in TypeScript and added multiplexing over a single port. Open-source and 100% self-hostable.
-Public instance at *.pipenet.dev if you don't want to self-host.
-Built at Glama for our MCP Inspector, but it's a generic tunnel with no ties to our infra.
-https://github.com/punkpeye/pipenet
-Comments URL: https://news.ycombinator.com/item?id=46680597
-Points: 66
-# Comments: 11]]></summary>
-        <author>
-            <name>punkpeye</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Microstructure of Wealth Transfer in Prediction Markets]]></title>
-        <id>https://news.ycombinator.com/item?id=46680515</id>
-        <link href="https://www.jbecker.dev/research/prediction-market-microstructure"/>
-        <updated>2026-01-19T16:05:50.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.jbecker.dev/research/prediction-market-microstructure
-Comments URL: https://news.ycombinator.com/item?id=46680515
-Points: 81
-# Comments: 55]]></summary>
-        <author>
-            <name>jonbecker</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Kiel Institute Analysis: US Americans pay 96% of tariff burden]]></title>
-        <id>https://news.ycombinator.com/item?id=46680212</id>
-        <link href="https://www.kielinstitut.de/publications/americas-own-goal-who-pays-the-tariffs-19398/"/>
-        <updated>2026-01-19T15:43:01.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.kielinstitut.de/publications/americas-own-goal-who-pays-the-tariffs-19398/
-Comments URL: https://news.ycombinator.com/item?id=46680212
-Points: 243
-# Comments: 117]]></summary>
-        <author>
-            <name>47282847</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[CSS Web Components for marketing sites (2024)]]></title>
-        <id>https://news.ycombinator.com/item?id=46679907</id>
-        <link href="https://hawkticehurst.com/2024/11/css-web-components-for-marketing-sites/"/>
-        <updated>2026-01-19T15:15:41.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://hawkticehurst.com/2024/11/css-web-components-for-marketing-sites/
-Comments URL: https://news.ycombinator.com/item?id=46679907
-Points: 52
-# Comments: 21]]></summary>
-        <author>
-            <name>zigzag312</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA["Anyone else out there vibe circuit-building?"]]></title>
-        <id>https://news.ycombinator.com/item?id=46679896</id>
-        <link href="https://twitter.com/beneater/status/2012988790709928305"/>
-        <updated>2026-01-19T15:14:44.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://twitter.com/beneater/status/2012988790709928305
-Comments URL: https://news.ycombinator.com/item?id=46679896
-Points: 97
-# Comments: 65]]></summary>
-        <author>
-            <name>thetrustworthy</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GLM-4.7-Flash]]></title>
-        <id>https://news.ycombinator.com/item?id=46679872</id>
-        <link href="https://huggingface.co/zai-org/GLM-4.7-Flash"/>
-        <updated>2026-01-19T15:12:12.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://huggingface.co/zai-org/GLM-4.7-Flash
-Comments URL: https://news.ycombinator.com/item?id=46679872
-Points: 114
-# Comments: 21]]></summary>
-        <author>
-            <name>scrlk</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Losing 1½ Million Lines of Go]]></title>
-        <id>https://news.ycombinator.com/item?id=46679802</id>
-        <link href="https://www.tbray.org/ongoing/When/202x/2026/01/14/Unicode-Properties"/>
-        <updated>2026-01-19T15:06:51.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.tbray.org/ongoing/When/202x/2026/01/14/Unicode-Properties
-Comments URL: https://news.ycombinator.com/item?id=46679802
-Points: 87
-# Comments: 8]]></summary>
-        <author>
-            <name>moks</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[West Midlands police chief quits over AI hallucination]]></title>
-        <id>https://news.ycombinator.com/item?id=46679657</id>
-        <link href="https://www.theregister.com/2026/01/19/copper_chief_cops_it_after/"/>
-        <updated>2026-01-19T14:54:02.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.theregister.com/2026/01/19/copper_chief_cops_it_after/
-Comments URL: https://news.ycombinator.com/item?id=46679657
-Points: 72
-# Comments: 30]]></summary>
-        <author>
-            <name>YeGoblynQueenne</name>
         </author>
     </entry>
 </feed>

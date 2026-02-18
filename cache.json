@@ -6,6 +6,16 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=47056314",
+          "author": "walterbell",
+          "description": "Article URL: https://www.sceneandheardnu.com/content/halt-and-catch-fire\nComments URL: https://news.ycombinator.com/item?id=47056314\nPoints: 174\n# Comments: 101",
+          "link": "https://www.sceneandheardnu.com/content/halt-and-catch-fire",
+          "publishedOn": "2026-02-18T02:18:29.000Z",
+          "wordCount": 2019,
+          "title": "Halt and Catch Fire: TV's Best Drama You've Probably Never Heard Of (2021)",
+          "imageUrl": "http://static1.squarespace.com/static/59066a076b8f5b6083962bff/t/606b3771a0a113500b35b2cb/1617639281578/download+%287%29.jfif?format=1500w"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=47055979",
           "author": "virgildotcodes",
           "description": "Article URL: https://fortune.com/2026/02/17/ai-productivity-paradox-ceo-study-robert-solow-information-technology-age/\nComments URL: https://news.ycombinator.com/item?id=47055979\nPoints: 55\n# Comments: 35",
@@ -34,6 +44,16 @@
           "wordCount": 259,
           "title": "Google Public CA is down",
           "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47055262",
+          "author": "lopespm",
+          "description": "Article URL: https://github.com/lopespm/zig-minimal-kernel-x86\nComments URL: https://news.ycombinator.com/item?id=47055262\nPoints: 50\n# Comments: 12",
+          "link": "https://github.com/lopespm/zig-minimal-kernel-x86",
+          "publishedOn": "2026-02-18T00:02:06.000Z",
+          "wordCount": 2795,
+          "title": "Minimal x86 Kernel Zig",
+          "imageUrl": "https://opengraph.githubassets.com/8c579656ca581d2376c5e68b8efc41871fb13bf1e493a0953f637d7d125a9c8d/lopespm/zig-minimal-kernel-x86"
         },
         {
           "id": "https://news.ycombinator.com/item?id=47054134",
@@ -104,6 +124,16 @@
           "wordCount": 3682,
           "title": "Tesla 'Robotaxi' adds 5 more crashes in Austin in a month – 4x worse than humans",
           "imageUrl": "https://i0.wp.com/electrek.co/wp-content/uploads/sites/3/2021/08/Tesla-Full-Self-Driving-Beta-Hero.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47050872",
+          "author": "n_e",
+          "description": "Throughout my career, I tried many tools to query PostgreSQL, and in the end, concluded that for what I do, the simplest is almost always the best: raw SQL queries.\nUntil now, I typed the results manually and relied on tests to catch problems. While this is OK in e.g., GoLang, it is quite annoying in TypeScript. First, because of the more powerful type system (it's easier to guess that updated_at is a date than it is to guess whether it's nullable or not), second, because of idiosyncrasies (INT4s are deserialised as JS numbers, but INT8s are deserialised as strings).\nSo I wrote pg-typesafe, with the goal of it being the less burdensome: you call queries exactly the same way as you would call node-pg, and they are fully typed.\nIt's very new, but I'm already using it in a large-ish project, where it found several bugs and footguns, and also allowed me to remove many manual type definitions.\nComments URL: https://news.ycombinator.com/item?id=47050872\nPoints: 52\n# Comments: 21",
+          "link": "https://github.com/n-e/pg-typesafe",
+          "publishedOn": "2026-02-17T18:15:36.000Z",
+          "wordCount": 3872,
+          "title": "Show HN: Pg-typesafe – Strongly typed queries for PostgreSQL and TypeScript",
+          "imageUrl": "https://opengraph.githubassets.com/f2852415725f3d7078fd7d4e53bd53385bc89ad4a5153cf6fc125153d3717ba9/n-e/pg-typesafe"
         },
         {
           "id": "https://news.ycombinator.com/item?id=47050488",
@@ -254,6 +284,16 @@
           "wordCount": 14903,
           "title": "America's Pensions Can't Beat Vanguard but They Can Close Your Hospital",
           "imageUrl": "https://substackcdn.com/image/fetch/$s_!9d7o!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9a08e49a-c4f1-4a37-9895-98cb79beaf5c_840x555.jpeg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47048052",
+          "author": "whynotmaybe",
+          "description": "Article URL: https://cleantechnica.com/2026/02/15/tesla-sales-down-tremendously-in-uk-norway-netherlands-germany-spain-sweden-denmark-portugal-switzerland/\nComments URL: https://news.ycombinator.com/item?id=47048052\nPoints: 119\n# Comments: 64",
+          "link": "https://cleantechnica.com/2026/02/15/tesla-sales-down-tremendously-in-uk-norway-netherlands-germany-spain-sweden-denmark-portugal-switzerland/",
+          "publishedOn": "2026-02-17T14:47:26.000Z",
+          "wordCount": 3922,
+          "title": "Tesla Sales Down 55% UK, 58% Spain, 59% Germany, 81% Netherlands, 93% Norway",
+          "imageUrl": "https://cleantechnica.com/wp-content/uploads/2023/12/Tesla-Model-S-Black-Low-Speed-Netherlands-Belgium-Europe-Zach-Shahan-CleanTechnica-scaled.jpg"
         },
         {
           "id": "https://news.ycombinator.com/item?id=47048004",
@@ -13564,106 +13604,6 @@
           "wordCount": 1405,
           "title": "Fix Your Robots.txt or Your Site Disappears from Google",
           "imageUrl": "https://www.alanwsmith.com/neo-files/theme-files/og-images/main-og-image.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46681153",
-          "author": "Tomte",
-          "description": "Article URL: https://nautil.us/the-far-side-had-it-all-wrong-cows-really-can-use-sophisticated-tools-1262026/\nComments URL: https://news.ycombinator.com/item?id=46681153\nPoints: 56\n# Comments: 23",
-          "link": "https://nautil.us/the-far-side-had-it-all-wrong-cows-really-can-use-sophisticated-tools-1262026/",
-          "publishedOn": "2026-01-19T16:47:46.000Z",
-          "wordCount": 8198,
-          "title": "Cows Can Use Sophisticated Tools",
-          "imageUrl": "https://assets.nautil.us/sites/3/nautilus/S6dcGq1X-Reese_HERO.png?auto=compress&fm=png&ixlib=php-3.3.1"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46680974",
-          "author": "ksec",
-          "description": "Article URL: https://9to5mac.com/2026/01/16/iphone-apple-app-store-search-results-ads-new-design/\nComments URL: https://news.ycombinator.com/item?id=46680974\nPoints: 149\n# Comments: 87",
-          "link": "https://9to5mac.com/2026/01/16/iphone-apple-app-store-search-results-ads-new-design/",
-          "publishedOn": "2026-01-19T16:36:11.000Z",
-          "wordCount": 2906,
-          "title": "Apple testing new App Store design that blurs the line between ads and results",
-          "imageUrl": "https://i0.wp.com/9to5mac.com/wp-content/uploads/sites/6/2026/01/app-store-search-ads.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46680597",
-          "author": "punkpeye",
-          "description": "Hey HN!\nlocaltunnel's server needs random ports per client. That doesn't work on Fly.io or behind strict firewalls.\nWe rewrote it in TypeScript and added multiplexing over a single port. Open-source and 100% self-hostable.\nPublic instance at *.pipenet.dev if you don't want to self-host.\nBuilt at Glama for our MCP Inspector, but it's a generic tunnel with no ties to our infra.\nhttps://github.com/punkpeye/pipenet\nComments URL: https://news.ycombinator.com/item?id=46680597\nPoints: 66\n# Comments: 11",
-          "link": "https://pipenet.dev/",
-          "publishedOn": "2026-01-19T16:10:28.000Z",
-          "wordCount": 1167,
-          "title": "Show HN: Pipenet – A Modern Alternative to Localtunnel",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46680515",
-          "author": "jonbecker",
-          "description": "Article URL: https://www.jbecker.dev/research/prediction-market-microstructure\nComments URL: https://news.ycombinator.com/item?id=46680515\nPoints: 81\n# Comments: 55",
-          "link": "https://www.jbecker.dev/research/prediction-market-microstructure",
-          "publishedOn": "2026-01-19T16:05:50.000Z",
-          "wordCount": 28013,
-          "title": "The Microstructure of Wealth Transfer in Prediction Markets",
-          "imageUrl": "https://raw.githubusercontent.com/Jon-Becker/research/main/papers/prediction-market-microstructure/preview.png?fw"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46680212",
-          "author": "47282847",
-          "description": "Article URL: https://www.kielinstitut.de/publications/americas-own-goal-who-pays-the-tariffs-19398/\nComments URL: https://news.ycombinator.com/item?id=46680212\nPoints: 243\n# Comments: 117",
-          "link": "https://www.kielinstitut.de/publications/americas-own-goal-who-pays-the-tariffs-19398/",
-          "publishedOn": "2026-01-19T15:43:01.000Z",
-          "wordCount": 679,
-          "title": "Kiel Institute Analysis: US Americans pay 96% of tariff burden",
-          "imageUrl": "https://www.kielinstitut.de/_assets/8748a3bdd63be60b6f9dbdb53b151b79/Images/Social_KIEL_default-630.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46679907",
-          "author": "zigzag312",
-          "description": "Article URL: https://hawkticehurst.com/2024/11/css-web-components-for-marketing-sites/\nComments URL: https://news.ycombinator.com/item?id=46679907\nPoints: 52\n# Comments: 21",
-          "link": "https://hawkticehurst.com/2024/11/css-web-components-for-marketing-sites/",
-          "publishedOn": "2026-01-19T15:15:41.000Z",
-          "wordCount": 1285,
-          "title": "CSS Web Components for marketing sites (2024)",
-          "imageUrl": "https://hawkticehurst.com/seo/css-web-components.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46679896",
-          "author": "thetrustworthy",
-          "description": "Article URL: https://twitter.com/beneater/status/2012988790709928305\nComments URL: https://news.ycombinator.com/item?id=46679896\nPoints: 97\n# Comments: 65",
-          "link": "https://twitter.com/beneater/status/2012988790709928305",
-          "publishedOn": "2026-01-19T15:14:44.000Z",
-          "wordCount": 767,
-          "title": "\"Anyone else out there vibe circuit-building?\"",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46679872",
-          "author": "scrlk",
-          "description": "Article URL: https://huggingface.co/zai-org/GLM-4.7-Flash\nComments URL: https://news.ycombinator.com/item?id=46679872\nPoints: 114\n# Comments: 21",
-          "link": "https://huggingface.co/zai-org/GLM-4.7-Flash",
-          "publishedOn": "2026-01-19T15:12:12.000Z",
-          "wordCount": 1084,
-          "title": "GLM-4.7-Flash",
-          "imageUrl": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/zai-org/GLM-4.7-Flash.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46679802",
-          "author": "moks",
-          "description": "Article URL: https://www.tbray.org/ongoing/When/202x/2026/01/14/Unicode-Properties\nComments URL: https://news.ycombinator.com/item?id=46679802\nPoints: 87\n# Comments: 8",
-          "link": "https://www.tbray.org/ongoing/When/202x/2026/01/14/Unicode-Properties",
-          "publishedOn": "2026-01-19T15:06:51.000Z",
-          "wordCount": 1489,
-          "title": "Losing 1½ Million Lines of Go",
-          "imageUrl": "/ongoing/misc/podcast-default.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46679657",
-          "author": "YeGoblynQueenne",
-          "description": "Article URL: https://www.theregister.com/2026/01/19/copper_chief_cops_it_after/\nComments URL: https://news.ycombinator.com/item?id=46679657\nPoints: 72\n# Comments: 30",
-          "link": "https://www.theregister.com/2026/01/19/copper_chief_cops_it_after/",
-          "publishedOn": "2026-01-19T14:54:02.000Z",
-          "wordCount": 1466,
-          "title": "West Midlands police chief quits over AI hallucination",
-          "imageUrl": "https://regmedia.co.uk/2018/11/01/shutterstock_run_to_fire_exit.jpg"
         }
       ]
     }
