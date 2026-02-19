@@ -36,6 +36,16 @@
           "imageUrl": "https://eutechmap.com/og-image.png"
         },
         {
+          "id": "https://news.ycombinator.com/item?id=47069876",
+          "author": "a11ce",
+          "description": "Article URL: https://github.com/a11ce/docker-lisp\nComments URL: https://news.ycombinator.com/item?id=47069876\nPoints: 60\n# Comments: 18",
+          "link": "https://github.com/a11ce/docker-lisp",
+          "publishedOn": "2026-02-19T04:19:20.000Z",
+          "wordCount": 1542,
+          "title": "Show HN: A Lisp where each function call runs a Docker container",
+          "imageUrl": "https://opengraph.githubassets.com/15d714ed199c3697c20dea677d31fb5ffd4fed0ab791ecc97023b6693cb0a8fd/a11ce/docker-lisp"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=47069650",
           "author": "merlindru",
           "description": "I'm building a commercial macOS app with Electrobun [1]. I have previously written the same app with Tauri. I'll say that, while I love Tauri, using Electrobun has been an absolute breeze. I got the same app done in roughly 70% of the time [2]. It's a very productive stack. In no small part due to Electrobun, but also the fact that Bun has tons of DX niceties and a builtin bundler.\nElectrobun lets you open/manipulate/close webview windows and communicate with them using typed rpc. It also handles building, code signing, and notarization.\nAnd because I'm using Bun, running an HMR + React + Tailwind server is just one command (`bun ./index.html`) or like 5 lines of code. Pass --console and the webview's console.log()s get streamed to your Terminal too.\nThere's tons of other things Electrobun does that I haven't even mentioned, because I haven't interacted much with them yet. E.g. I know that it lets you show platform-native notifications, prompts/popups, etc.\nThere also is a very impressive updating mechanism that relies on a bsdiff implementation written in Zig. You just ship the deltas, so updates to very large apps are just a few KBs most of the time.\nIt's genuinely a very productive stack and impressive piece of tech.\n[1] Not affiliated - I just like the project.\n[2]: The API and implementation was clear, so I'll cautiously say this is not a case of \"rewrites are always faster\". In fact, the Tauri version was a rewrite too :)\nComments URL: https://news.ycombinator.com/item?id=47069650\nPoints: 74\n# Comments: 23",
@@ -1056,6 +1066,16 @@
           "imageUrl": null
         },
         {
+          "id": "https://news.ycombinator.com/item?id=47039440",
+          "author": "neogoose",
+          "description": "The new release of fff.nvim showed out the new compatiblity for the code search both for human and agents - typo resistant and usable code search for real codebases\nIt can match query \"shcema\" only to \"schema\" and \"SortedMap\" only to \"SortedArrayMap\" and \"SortedHashMap\" without bloating the results\nComments URL: https://news.ycombinator.com/item?id=47039440\nPoints: 55\n# Comments: 7",
+          "link": "https://github.com/dmtrKovalenko/fff.nvim",
+          "publishedOn": "2026-02-16T19:52:30.000Z",
+          "wordCount": 9644,
+          "title": "Fff.nvim – Typo-resistant code search",
+          "imageUrl": "https://opengraph.githubassets.com/8c8b00d87e7966ed09163796cb0e335172e7f828a0b9e113c973341a918c9b8b/dmtrKovalenko/fff.nvim"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=47039051",
           "author": "simquat",
           "description": "Hey HN! I’m Simone. We re-built Breadboard, a visual app builder that mixes Figma-style UI design with Shortcuts-style logic so you can build, preview, and publish interactive web apps directly from the canvas.\nWhat it does\n    Design UIs visually with a flexible canvas –like Figma–.\n    Define app logic with a visual, instruction-stacked editor inspired by Shortcuts.\n    Live preview apps directly on the canvas –no separate preview window–.\n    Publish working web apps with one click.\n\n    Modernize the HyperCard idea: combine layout, behavior, and instant sharing in one place.\n    Reduce friction between design and a working app.\n    Make simple web apps approachable for non-developers while keeping power features for developers.\n    Build a foundation for LLM integration so users can design and develop with AI while still understanding what’s happening, even without coding experience –in progress!–.\n\nWeather forecast app: https://app.breadboards.io/playgrounds/weather\nSwiss Public Transit: https://app.breadboards.io/playgrounds/public_transit\ninfo: https://breadboards.io\nI would appreciate any feedback :)\nComments URL: https://news.ycombinator.com/item?id=47039051\nPoints: 51\n# Comments: 4",
@@ -1154,6 +1174,16 @@
           "wordCount": 1439,
           "title": "Privilege is bad grammar",
           "imageUrl": "https://bear-images.sfo2.cdn.digitaloceanspaces.com/herman-1683556668-0.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47038032",
+          "author": "benbreen",
+          "description": "Article URL: https://royapakzad.substack.com/p/multilingual-llm-evaluation-to-guardrails\nComments URL: https://news.ycombinator.com/item?id=47038032\nPoints: 64\n# Comments: 1",
+          "link": "https://royapakzad.substack.com/p/multilingual-llm-evaluation-to-guardrails",
+          "publishedOn": "2026-02-16T17:57:46.000Z",
+          "wordCount": null,
+          "title": "Don't Trust the Salt: AI Summarization, Multilingual Safety, and LLM Guardrails",
+          "imageUrl": null
         },
         {
           "id": "https://news.ycombinator.com/item?id=47037628",
@@ -1423,6 +1453,16 @@
           "publishedOn": "2026-02-16T00:26:23.000Z",
           "wordCount": 7511,
           "title": "JavaScript-heavy approaches are not compatible with long-term performance goals",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47028803",
+          "author": "userbinator",
+          "description": "Article URL: https://zyedidia.github.io/blog/posts/6-arm64/\nComments URL: https://news.ycombinator.com/item?id=47028803\nPoints: 55\n# Comments: 9",
+          "link": "https://zyedidia.github.io/blog/posts/6-arm64/",
+          "publishedOn": "2026-02-15T23:20:04.000Z",
+          "wordCount": 1441,
+          "title": "Visualizing the ARM64 Instruction Set (2024)",
           "imageUrl": null
         },
         {
@@ -13494,16 +13534,6 @@
           "wordCount": 2721,
           "title": "Verizon starts requiring 365 days of paid service before it will unlock phones",
           "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2025/07/verizon-1152x648-1752087139.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46699697",
-          "author": "firloop",
-          "description": "Article URL: https://ikennd.ac/blog/2026/01/old-man-yells-at-modern-software-design/\nComments URL: https://news.ycombinator.com/item?id=46699697\nPoints: 56\n# Comments: 13",
-          "link": "https://ikennd.ac/blog/2026/01/old-man-yells-at-modern-software-design/",
-          "publishedOn": "2026-01-21T00:35:01.000Z",
-          "wordCount": 2729,
-          "title": "A Lament for Aperture",
-          "imageUrl": "https://ikennd.ac/pictures/aperture/aperture2.png"
         }
       ]
     }
