@@ -2,10 +2,56 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-02-19T22:38:50.210Z</updated>
+    <updated>2026-02-19T23:36:36.891Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Single vaccine could protect against all coughs, colds and flus]]></title>
+        <id>https://news.ycombinator.com/item?id=47080267</id>
+        <link href="https://www.bbc.com/news/articles/cx2g8rz7yedo"/>
+        <updated>2026-02-19T22:08:24.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.bbc.com/news/articles/cx2g8rz7yedo
+Comments URL: https://news.ycombinator.com/item?id=47080267
+Points: 59
+# Comments: 28]]></summary>
+        <author>
+            <name>dabinat</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Ghostty-based terminal with vertical tabs and notifications]]></title>
+        <id>https://news.ycombinator.com/item?id=47079718</id>
+        <link href="https://github.com/manaflow-ai/cmux"/>
+        <updated>2026-02-19T21:30:04.000Z</updated>
+        <summary type="html"><![CDATA[I run a lot of Claude Code and Codex sessions in parallel. I was using Ghostty with a bunch of split panes, and relying on native macOS notifications to know when an agent needed me. But Claude Code's notification body is always just "Claude is waiting for your input" with no context, and with enough tabs open, I couldn't even read the titles anymore.
+I tried a few coding orchestrators but most of them were Electron/Tauri apps and the performance bugged me. I also just prefer the terminal since GUI orchestrators lock you into their workflow. So I built cmux as a native macOS app in Swift/AppKit. It uses libghostty for terminal rendering and reads your existing Ghostty config for themes, fonts, colors, and more.
+The main additions are the sidebar and notification system. The sidebar has vertical tabs that show git branch, working directory, listening ports, and the latest notification text for each workspace. The notification system picks up terminal sequences (OSC 9/99/777) and has a CLI (cmux notify) you can wire into agent hooks for Claude Code, OpenCode, etc. When an agent is waiting, its pane gets a blue ring and the tab lights up in the sidebar, so I can tell which one needs me across splits and tabs. Cmd+Shift+U jumps to the most recent unread.
+The in-app browser has a scriptable API ported from agent-browser [1]. Agents can snapshot the accessibility tree, get element refs, click, fill forms, evaluate JS, and read console logs. You can split a browser pane next to your terminal and have Claude Code interact with your dev server directly.
+Everything is scriptable through the CLI and socket API – create workspaces/tabs, split panes, send keystrokes, open URLs in the browser.
+Demo video: https://www.youtube.com/watch?v=i-WxO5YUTOs
+Repo (AGPL): https://github.com/manaflow-ai/cmux
+[1] https://github.com/vercel-labs/agent-browser
+Comments URL: https://news.ycombinator.com/item?id=47079718
+Points: 58
+# Comments: 27]]></summary>
+        <author>
+            <name>lawrencechen</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A psychedelic medicine performs well against depression]]></title>
+        <id>https://news.ycombinator.com/item?id=47079590</id>
+        <link href="https://www.economist.com/science-and-technology/2026/02/19/a-psychedelic-medicine-performs-well-against-depression"/>
+        <updated>2026-02-19T21:21:27.000Z</updated>
+        <summary type="html"><![CDATA[https://archive.ph/rIPvX
+Comments URL: https://news.ycombinator.com/item?id=47079590
+Points: 51
+# Comments: 37]]></summary>
+        <author>
+            <name>vinni2</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[We're no longer attracting top talent: the brain drain killing American science]]></title>
         <id>https://news.ycombinator.com/item?id=47079222</id>
@@ -18347,45 +18393,6 @@ Points: 50
 # Comments: 18]]></summary>
         <author>
             <name>jamesblonde</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The super-slow conversion of the U.S. to metric (2025)]]></title>
-        <id>https://news.ycombinator.com/item?id=46704223</id>
-        <link href="https://www.thefabricator.com/thefabricator/blog/testingmeasuring/the-super-slow-conversion-of-the-us-to-metric"/>
-        <updated>2026-01-21T11:36:09.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.thefabricator.com/thefabricator/blog/testingmeasuring/the-super-slow-conversion-of-the-us-to-metric
-Comments URL: https://news.ycombinator.com/item?id=46704223
-Points: 60
-# Comments: 123]]></summary>
-        <author>
-            <name>itvision</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Parliament tells Dutch government to keep DigiD data out of American hands]]></title>
-        <id>https://news.ycombinator.com/item?id=46703928</id>
-        <link href="https://nltimes.nl/2026/01/21/parliament-tells-dutch-govt-keep-digid-data-american-hands"/>
-        <updated>2026-01-21T11:06:42.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://nltimes.nl/2026/01/21/parliament-tells-dutch-govt-keep-digid-data-american-hands
-Comments URL: https://news.ycombinator.com/item?id=46703928
-Points: 108
-# Comments: 37]]></summary>
-        <author>
-            <name>TechTechTech</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[EU–INC – One Europe. One Standard. – Pan-European Legal Entity]]></title>
-        <id>https://news.ycombinator.com/item?id=46703763</id>
-        <link href="https://www.eu-inc.org/"/>
-        <updated>2026-01-21T10:49:20.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.eu-inc.org/
-Comments URL: https://news.ycombinator.com/item?id=46703763
-Points: 211
-# Comments: 98]]></summary>
-        <author>
-            <name>tilt</name>
         </author>
     </entry>
 </feed>

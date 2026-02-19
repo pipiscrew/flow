@@ -6,6 +6,36 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=47080267",
+          "author": "dabinat",
+          "description": "Article URL: https://www.bbc.com/news/articles/cx2g8rz7yedo\nComments URL: https://news.ycombinator.com/item?id=47080267\nPoints: 59\n# Comments: 28",
+          "link": "https://www.bbc.com/news/articles/cx2g8rz7yedo",
+          "publishedOn": "2026-02-19T22:08:24.000Z",
+          "wordCount": 5978,
+          "title": "Single vaccine could protect against all coughs, colds and flus",
+          "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/93b9/live/4a4f60e0-0dd4-11f1-9972-d3f265c101c6.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47079718",
+          "author": "lawrencechen",
+          "description": "I run a lot of Claude Code and Codex sessions in parallel. I was using Ghostty with a bunch of split panes, and relying on native macOS notifications to know when an agent needed me. But Claude Code's notification body is always just \"Claude is waiting for your input\" with no context, and with enough tabs open, I couldn't even read the titles anymore.\nI tried a few coding orchestrators but most of them were Electron/Tauri apps and the performance bugged me. I also just prefer the terminal since GUI orchestrators lock you into their workflow. So I built cmux as a native macOS app in Swift/AppKit. It uses libghostty for terminal rendering and reads your existing Ghostty config for themes, fonts, colors, and more.\nThe main additions are the sidebar and notification system. The sidebar has vertical tabs that show git branch, working directory, listening ports, and the latest notification text for each workspace. The notification system picks up terminal sequences (OSC 9/99/777) and has a CLI (cmux notify) you can wire into agent hooks for Claude Code, OpenCode, etc. When an agent is waiting, its pane gets a blue ring and the tab lights up in the sidebar, so I can tell which one needs me across splits and tabs. Cmd+Shift+U jumps to the most recent unread.\nThe in-app browser has a scriptable API ported from agent-browser [1]. Agents can snapshot the accessibility tree, get element refs, click, fill forms, evaluate JS, and read console logs. You can split a browser pane next to your terminal and have Claude Code interact with your dev server directly.\nEverything is scriptable through the CLI and socket API – create workspaces/tabs, split panes, send keystrokes, open URLs in the browser.\nDemo video: https://www.youtube.com/watch?v=i-WxO5YUTOs\nRepo (AGPL): https://github.com/manaflow-ai/cmux\n[1] https://github.com/vercel-labs/agent-browser\nComments URL: https://news.ycombinator.com/item?id=47079718\nPoints: 58\n# Comments: 27",
+          "link": "https://github.com/manaflow-ai/cmux",
+          "publishedOn": "2026-02-19T21:30:04.000Z",
+          "wordCount": 4375,
+          "title": "Show HN: Ghostty-based terminal with vertical tabs and notifications",
+          "imageUrl": "https://opengraph.githubassets.com/e7729f5c461c9b47ac459d20d088111c2aa7be80d2ea83de75c4184c5acb8321/manaflow-ai/cmux"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47079590",
+          "author": "vinni2",
+          "description": "https://archive.ph/rIPvX\nComments URL: https://news.ycombinator.com/item?id=47079590\nPoints: 51\n# Comments: 37",
+          "link": "https://www.economist.com/science-and-technology/2026/02/19/a-psychedelic-medicine-performs-well-against-depression",
+          "publishedOn": "2026-02-19T21:21:27.000Z",
+          "wordCount": null,
+          "title": "A psychedelic medicine performs well against depression",
+          "imageUrl": null
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=47079222",
           "author": "mitchbob",
           "description": "Article URL: https://www.theguardian.com/us-news/2026/feb/19/trump-science-funding-cuts\nComments URL: https://news.ycombinator.com/item?id=47079222\nPoints: 105\n# Comments: 52",
@@ -13714,36 +13744,6 @@
           "wordCount": 860,
           "title": "Nukeproof: Manifesto for European Data Sovereignty",
           "imageUrl": "https://nukeproof.org/og-image.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46704223",
-          "author": "itvision",
-          "description": "Article URL: https://www.thefabricator.com/thefabricator/blog/testingmeasuring/the-super-slow-conversion-of-the-us-to-metric\nComments URL: https://news.ycombinator.com/item?id=46704223\nPoints: 60\n# Comments: 123",
-          "link": "https://www.thefabricator.com/thefabricator/blog/testingmeasuring/the-super-slow-conversion-of-the-us-to-metric",
-          "publishedOn": "2026-01-21T11:36:09.000Z",
-          "wordCount": null,
-          "title": "The super-slow conversion of the U.S. to metric (2025)",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46703928",
-          "author": "TechTechTech",
-          "description": "Article URL: https://nltimes.nl/2026/01/21/parliament-tells-dutch-govt-keep-digid-data-american-hands\nComments URL: https://news.ycombinator.com/item?id=46703928\nPoints: 108\n# Comments: 37",
-          "link": "https://nltimes.nl/2026/01/21/parliament-tells-dutch-govt-keep-digid-data-american-hands",
-          "publishedOn": "2026-01-21T11:06:42.000Z",
-          "wordCount": 930,
-          "title": "Parliament tells Dutch government to keep DigiD data out of American hands",
-          "imageUrl": "https://nltimes.nl/sites/nltimes.nl/files/styles/news_article_full_desktop_2x/public/2025-10/Kamerzetels_%282879707177%29.jpg?h=e5aec6c8"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46703763",
-          "author": "tilt",
-          "description": "Article URL: https://www.eu-inc.org/\nComments URL: https://news.ycombinator.com/item?id=46703763\nPoints: 211\n# Comments: 98",
-          "link": "https://www.eu-inc.org/",
-          "publishedOn": "2026-01-21T10:49:20.000Z",
-          "wordCount": 3059,
-          "title": "EU–INC – One Europe. One Standard. – Pan-European Legal Entity",
-          "imageUrl": "https://framerusercontent.com/images/DywwAp236AdnECpow4p9VcGluY.png"
         }
       ]
     }
