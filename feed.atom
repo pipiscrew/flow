@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-02-19T04:58:17.456Z</updated>
+    <updated>2026-02-19T06:07:55.554Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
@@ -30,6 +30,32 @@ Points: 108
 # Comments: 27]]></summary>
         <author>
             <name>tuananh</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[15 years of FP64 segmentation, and why the Blackwell Ultra breaks the pattern]]></title>
+        <id>https://news.ycombinator.com/item?id=47068890</id>
+        <link href="https://nicolasdickenmann.com/blog/the-great-fp64-divide.html"/>
+        <updated>2026-02-19T01:46:07.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://nicolasdickenmann.com/blog/the-great-fp64-divide.html
+Comments URL: https://news.ycombinator.com/item?id=47068890
+Points: 66
+# Comments: 17]]></summary>
+        <author>
+            <name>fp64enjoyer</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How AI is affecting productivity and jobs in Europe]]></title>
+        <id>https://news.ycombinator.com/item?id=47068320</id>
+        <link href="https://cepr.org/voxeu/columns/how-ai-affecting-productivity-and-jobs-europe"/>
+        <updated>2026-02-19T00:22:45.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://cepr.org/voxeu/columns/how-ai-affecting-productivity-and-jobs-europe
+Comments URL: https://news.ycombinator.com/item?id=47068320
+Points: 53
+# Comments: 21]]></summary>
+        <author>
+            <name>pseudolus</name>
         </author>
     </entry>
     <entry>
@@ -2144,6 +2170,19 @@ Points: 50
 # Comments: 20]]></summary>
         <author>
             <name>miloschwartz</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A Pokémon of a Different Color]]></title>
+        <id>https://news.ycombinator.com/item?id=47022704</id>
+        <link href="https://matthew.verive.me/blog/color/"/>
+        <updated>2026-02-15T10:40:49.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://matthew.verive.me/blog/color/
+Comments URL: https://news.ycombinator.com/item?id=47022704
+Points: 85
+# Comments: 8]]></summary>
+        <author>
+            <name>Risse</name>
         </author>
     </entry>
     <entry>
@@ -18107,69 +18146,6 @@ Points: 141
 # Comments: 23]]></summary>
         <author>
             <name>mkmk</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: Fence – Sandbox CLI commands with network/filesystem restrictions]]></title>
-        <id>https://news.ycombinator.com/item?id=46695467</id>
-        <link href="https://github.com/Use-Tusk/fence"/>
-        <updated>2026-01-20T18:05:03.000Z</updated>
-        <summary type="html"><![CDATA[Hi HN!
-Fence wraps any command in a sandbox that blocks network by default and restricts filesystem writes. Useful for running semi-trusted code (package installs, build scripts, unfamiliar repos) with controlled side effects, or even just blocking tools that phone home.
-> fence curl https://example.com  # -> blocked
-> fence -t code -- npm install        # -> template with registries allowed
-> fence -m -- npm install               # -> monitor mode: see what gets blocked
-One use-case is to use it with AI coding agents to reduce the risk of running agents with fewer interactive permission prompts:
-> fence -t code -- claude --dangerously-skip-permissions
-You can import existing Claude Code permissions with `fence import --claude`.
-Fence uses OS-native sandboxing (macOS sandbox-exec, Linux bubblewrap) + local HTTP/SOCKS proxies for domain filtering.
-Why I built this: I work on Tusk Drift, a system to record and replay real traffic as API tests (https://github.com/Use-Tusk/tusk-drift-cli). I needed a way to sandbox the service under test during replays to block localhost outbound connections (Postgres, Redis) and force the app to use mocks instead of real services. I quickly realized that this could be a general purpose tool that would also be useful as a permission manager across CLI agents.
-Limitations: Not strong containment against malware. Proxy-based filtering requires programs to respect `HTTP_PROXY`.
-Curious if others have run into similar needs, and happy to answer any questions!
-Comments URL: https://news.ycombinator.com/item?id=46695467
-Points: 55
-# Comments: 12]]></summary>
-        <author>
-            <name>jy-tan</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Model Market Fit]]></title>
-        <id>https://news.ycombinator.com/item?id=46694767</id>
-        <link href="https://www.nicolasbustamante.com/p/model-market-fit"/>
-        <updated>2026-01-20T17:24:41.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.nicolasbustamante.com/p/model-market-fit
-Comments URL: https://news.ycombinator.com/item?id=46694767
-Points: 70
-# Comments: 12]]></summary>
-        <author>
-            <name>nbstme</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Internet Archive's Storage]]></title>
-        <id>https://news.ycombinator.com/item?id=46694618</id>
-        <link href="https://blog.dshr.org/2026/01/internet-archives-storage.html"/>
-        <updated>2026-01-20T17:16:49.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://blog.dshr.org/2026/01/internet-archives-storage.html
-Comments URL: https://news.ycombinator.com/item?id=46694618
-Points: 111
-# Comments: 24]]></summary>
-        <author>
-            <name>zdw</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA['The old order is not coming back,' Carney says in speech at Davos]]></title>
-        <id>https://news.ycombinator.com/item?id=46694482</id>
-        <link href="https://www.cbc.ca/news/politics/carney-davos-speech-9.7052725"/>
-        <updated>2026-01-20T17:08:43.000Z</updated>
-        <summary type="html"><![CDATA[Transcript: https://globalnews.ca/news/11620877/carney-davos-wef-speech-...
-Comments URL: https://news.ycombinator.com/item?id=46694482
-Points: 70
-# Comments: 55]]></summary>
-        <author>
-            <name>martythemaniak</name>
         </author>
     </entry>
 </feed>

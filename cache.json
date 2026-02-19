@@ -26,6 +26,26 @@
           "imageUrl": "https://www.gamingonlinux.com/uploads/articles/tagline_images/1519041173id28520gol.jpg"
         },
         {
+          "id": "https://news.ycombinator.com/item?id=47068890",
+          "author": "fp64enjoyer",
+          "description": "Article URL: https://nicolasdickenmann.com/blog/the-great-fp64-divide.html\nComments URL: https://news.ycombinator.com/item?id=47068890\nPoints: 66\n# Comments: 17",
+          "link": "https://nicolasdickenmann.com/blog/the-great-fp64-divide.html",
+          "publishedOn": "2026-02-19T01:46:07.000Z",
+          "wordCount": 1425,
+          "title": "15 years of FP64 segmentation, and why the Blackwell Ultra breaks the pattern",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47068320",
+          "author": "pseudolus",
+          "description": "Article URL: https://cepr.org/voxeu/columns/how-ai-affecting-productivity-and-jobs-europe\nComments URL: https://news.ycombinator.com/item?id=47068320\nPoints: 53\n# Comments: 21",
+          "link": "https://cepr.org/voxeu/columns/how-ai-affecting-productivity-and-jobs-europe",
+          "publishedOn": "2026-02-19T00:22:45.000Z",
+          "wordCount": 2953,
+          "title": "How AI is affecting productivity and jobs in Europe",
+          "imageUrl": null
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=47067759",
           "author": "anonymous908213",
           "description": "Article URL: https://devblogs.microsoft.com/azure-sql/langchain-with-sqlvectorstore-example/\nComments URL: https://news.ycombinator.com/item?id=47067759\nPoints: 187\n# Comments: 110",
@@ -1594,6 +1614,16 @@
           "wordCount": 2920,
           "title": "Show HN: Pangolin: Open-source identity-based VPN (Twingate/Zscaler alternative)",
           "imageUrl": "https://repository-images.githubusercontent.com/863835427/5545fba0-d1e4-4422-b48b-f5111ba6fb61"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47022704",
+          "author": "Risse",
+          "description": "Article URL: https://matthew.verive.me/blog/color/\nComments URL: https://news.ycombinator.com/item?id=47022704\nPoints: 85\n# Comments: 8",
+          "link": "https://matthew.verive.me/blog/color/",
+          "publishedOn": "2026-02-15T10:40:49.000Z",
+          "wordCount": null,
+          "title": "A Pokémon of a Different Color",
+          "imageUrl": null
         },
         {
           "id": "https://news.ycombinator.com/item?id=47022604",
@@ -13544,46 +13574,6 @@
           "wordCount": 1960,
           "title": "The 26,000-Year Astronomical Monument Hidden in Plain Sight",
           "imageUrl": "https://static.longnow.org/2022/04/1-QpK0dPz4sOtgKfQYShhF1A.gif"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46695467",
-          "author": "jy-tan",
-          "description": "Hi HN!\nFence wraps any command in a sandbox that blocks network by default and restricts filesystem writes. Useful for running semi-trusted code (package installs, build scripts, unfamiliar repos) with controlled side effects, or even just blocking tools that phone home.\n> fence curl https://example.com  # -> blocked\n> fence -t code -- npm install        # -> template with registries allowed\n> fence -m -- npm install               # -> monitor mode: see what gets blocked\nOne use-case is to use it with AI coding agents to reduce the risk of running agents with fewer interactive permission prompts:\n> fence -t code -- claude --dangerously-skip-permissions\nYou can import existing Claude Code permissions with `fence import --claude`.\nFence uses OS-native sandboxing (macOS sandbox-exec, Linux bubblewrap) + local HTTP/SOCKS proxies for domain filtering.\nWhy I built this: I work on Tusk Drift, a system to record and replay real traffic as API tests (https://github.com/Use-Tusk/tusk-drift-cli). I needed a way to sandbox the service under test during replays to block localhost outbound connections (Postgres, Redis) and force the app to use mocks instead of real services. I quickly realized that this could be a general purpose tool that would also be useful as a permission manager across CLI agents.\nLimitations: Not strong containment against malware. Proxy-based filtering requires programs to respect `HTTP_PROXY`.\nCurious if others have run into similar needs, and happy to answer any questions!\nComments URL: https://news.ycombinator.com/item?id=46695467\nPoints: 55\n# Comments: 12",
-          "link": "https://github.com/Use-Tusk/fence",
-          "publishedOn": "2026-01-20T18:05:03.000Z",
-          "wordCount": 2385,
-          "title": "Show HN: Fence – Sandbox CLI commands with network/filesystem restrictions",
-          "imageUrl": "https://repository-images.githubusercontent.com/1119154862/e959ed88-03d6-4f54-9101-28a1f42beac6"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46694767",
-          "author": "nbstme",
-          "description": "Article URL: https://www.nicolasbustamante.com/p/model-market-fit\nComments URL: https://news.ycombinator.com/item?id=46694767\nPoints: 70\n# Comments: 12",
-          "link": "https://www.nicolasbustamante.com/p/model-market-fit",
-          "publishedOn": "2026-01-20T17:24:41.000Z",
-          "wordCount": 5773,
-          "title": "Model Market Fit",
-          "imageUrl": "https://substackcdn.com/image/fetch/$s_!oJFe!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9aa911c7-321f-4d6a-b48d-7679eec1b09f_2752x1536.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46694618",
-          "author": "zdw",
-          "description": "Article URL: https://blog.dshr.org/2026/01/internet-archives-storage.html\nComments URL: https://news.ycombinator.com/item?id=46694618\nPoints: 111\n# Comments: 24",
-          "link": "https://blog.dshr.org/2026/01/internet-archives-storage.html",
-          "publishedOn": "2026-01-20T17:16:49.000Z",
-          "wordCount": 4188,
-          "title": "Internet Archive's Storage",
-          "imageUrl": "https://lh3.googleusercontent.com/blogger_img_proxy/AEn0k_vOL4ezQ5Sa_v4Km-W_2PnJoECag-LyOyOXKSPzcBOSmZawnOe4jML-svGHB_uJ0IT83i8h9DLfkij_p0ulx1W7Jy-G2aEwGO4fuHi3MJCSj3jXCatRKIVBfifXtt6nI8nAlFDyIDBHGQ=w1200-h630-p-k-no-nu"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46694482",
-          "author": "martythemaniak",
-          "description": "Transcript: https://globalnews.ca/news/11620877/carney-davos-wef-speech-...\nComments URL: https://news.ycombinator.com/item?id=46694482\nPoints: 70\n# Comments: 55",
-          "link": "https://www.cbc.ca/news/politics/carney-davos-speech-9.7052725",
-          "publishedOn": "2026-01-20T17:08:43.000Z",
-          "wordCount": 6289,
-          "title": "'The old order is not coming back,' Carney says in speech at Davos",
-          "imageUrl": "https://i.cbc.ca/ais/175352d0-2a93-4aba-82b0-6a9f2b75cc3a,1768932739254/full/max/0/default.jpg?im=Crop%2Crect%3D%280%2C476%2C4580%2C2576%29%3BResize%3D620"
         }
       ]
     }
