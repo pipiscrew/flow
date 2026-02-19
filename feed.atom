@@ -2,10 +2,36 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-02-19T02:44:48.942Z</updated>
+    <updated>2026-02-19T04:58:17.456Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Anthropic officially bans using subscription auth for third party use]]></title>
+        <id>https://news.ycombinator.com/item?id=47069299</id>
+        <link href="https://code.claude.com/docs/en/legal-and-compliance"/>
+        <updated>2026-02-19T02:52:26.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://code.claude.com/docs/en/legal-and-compliance
+Comments URL: https://news.ycombinator.com/item?id=47069299
+Points: 117
+# Comments: 136]]></summary>
+        <author>
+            <name>theahura</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Minecraft Java is switching from OpenGL to Vulkan]]></title>
+        <id>https://news.ycombinator.com/item?id=47068948</id>
+        <link href="https://www.gamingonlinux.com/2026/02/minecraft-java-is-switching-from-opengl-to-vulkan-for-the-vibrant-visuals-update/"/>
+        <updated>2026-02-19T01:55:33.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.gamingonlinux.com/2026/02/minecraft-java-is-switching-from-opengl-to-vulkan-for-the-vibrant-visuals-update/
+Comments URL: https://news.ycombinator.com/item?id=47068948
+Points: 108
+# Comments: 27]]></summary>
+        <author>
+            <name>tuananh</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Microsoft offers guide to pirating Harry Potter series for LLM training]]></title>
         <id>https://news.ycombinator.com/item?id=47067759</id>
@@ -95,6 +121,19 @@ Points: 58
 # Comments: 51]]></summary>
         <author>
             <name>rbanffy</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[What Every Experimenter Must Know About Randomization]]></title>
+        <id>https://news.ycombinator.com/item?id=47064845</id>
+        <link href="https://spawn-queue.acm.org/doi/pdf/10.1145/3778029"/>
+        <updated>2026-02-18T19:02:18.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://spawn-queue.acm.org/doi/pdf/10.1145/3778029
+Comments URL: https://news.ycombinator.com/item?id=47064845
+Points: 59
+# Comments: 31]]></summary>
+        <author>
+            <name>underscoreF</name>
         </author>
     </entry>
     <entry>
@@ -346,6 +385,27 @@ Points: 89
 # Comments: 44]]></summary>
         <author>
             <name>speckx</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Rebrain.gg – Doom learn, don't doom scroll]]></title>
+        <id>https://news.ycombinator.com/item?id=47060220</id>
+        <link href="https://news.ycombinator.com/item?id=47060220"/>
+        <updated>2026-02-18T12:18:26.000Z</updated>
+        <summary type="html"><![CDATA[Hi HN,
+I built https://rebrain.gg. It's a website which is intended to help you learn new things.
+I built it for two reasons:
+1. To play around with different ways of interacting with a LLM. Instead of a standard chat conversation, the LLM returns question forms the user can directly interact with (and use to continue the conversation with the LLM).
+2. Because I thought it would be cool to have a site dedicated to interactive educational content instead of purely consuming content (which I do too much).
+An example of a (useful-for-me) interactive conversation is: https://rebrain.gg/conversations/6. In it I'm learning how to use the `find` bash command. (Who ever knew to exclude a directory from a look-up you need to do `find . -path 
+ -exclude -o `, where `-o` stands for "otherwise"!)
+Still very early on, so interested in and open to any feedback.
+Thanks!
+Comments URL: https://news.ycombinator.com/item?id=47060220
+Points: 57
+# Comments: 24]]></summary>
+        <author>
+            <name>FailMore</name>
         </author>
     </entry>
     <entry>
@@ -1836,6 +1896,19 @@ Points: 73
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[How to Choose Between Hindley-Milner and Bidirectional Typing]]></title>
+        <id>https://news.ycombinator.com/item?id=47025885</id>
+        <link href="https://thunderseethe.dev/posts/how-to-choose-between-hm-and-bidir/"/>
+        <updated>2026-02-15T18:07:44.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://thunderseethe.dev/posts/how-to-choose-between-hm-and-bidir/
+Comments URL: https://news.ycombinator.com/item?id=47025885
+Points: 56
+# Comments: 6]]></summary>
+        <author>
+            <name>thunderseethe</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Radio host David Greene says Google's NotebookLM tool stole his voice]]></title>
         <id>https://news.ycombinator.com/item?id=47025864</id>
         <link href="https://www.washingtonpost.com/technology/2026/02/15/david-greene-google-ai-podcast/"/>
@@ -1963,6 +2036,19 @@ Points: 50
 # Comments: 34]]></summary>
         <author>
             <name>PaulHoule</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Making a font with ligatures to display thirteenth-century monk numerals]]></title>
+        <id>https://news.ycombinator.com/item?id=47024585</id>
+        <link href="https://digitalseams.com/blog/making-a-font-with-9999-ligatures-to-display-thirteenth-century-monk-numerals"/>
+        <updated>2026-02-15T15:44:11.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://digitalseams.com/blog/making-a-font-with-9999-ligatures-to-display-thirteenth-century-monk-numerals
+Comments URL: https://news.ycombinator.com/item?id=47024585
+Points: 55
+# Comments: 8]]></summary>
+        <author>
+            <name>a7b3fa</name>
         </author>
     </entry>
     <entry>
@@ -18084,112 +18170,6 @@ Points: 70
 # Comments: 55]]></summary>
         <author>
             <name>martythemaniak</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The hidden engineering of runways]]></title>
-        <id>https://news.ycombinator.com/item?id=46694193</id>
-        <link href="https://practical.engineering/blog/2026/1/20/the-hidden-engineering-of-runways"/>
-        <updated>2026-01-20T16:52:52.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://practical.engineering/blog/2026/1/20/the-hidden-engineering-of-runways
-Comments URL: https://news.ycombinator.com/item?id=46694193
-Points: 354
-# Comments: 87]]></summary>
-        <author>
-            <name>crescit_eundo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Unix Pipe Card Game]]></title>
-        <id>https://news.ycombinator.com/item?id=46694124</id>
-        <link href="https://punkx.org/unix-pipe-game/"/>
-        <updated>2026-01-20T16:48:59.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://punkx.org/unix-pipe-game/
-Comments URL: https://news.ycombinator.com/item?id=46694124
-Points: 57
-# Comments: 15]]></summary>
-        <author>
-            <name>kykeonaut</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: Mastra 1.0, open-source JavaScript agent framework from the Gatsby devs]]></title>
-        <id>https://news.ycombinator.com/item?id=46693959</id>
-        <link href="https://github.com/mastra-ai/mastra"/>
-        <updated>2026-01-20T16:38:56.000Z</updated>
-        <summary type="html"><![CDATA[Hi HN, we're Sam, Shane, and Abhi.
-Almost a year ago, we first shared Mastra here (https://news.ycombinator.com/item?id=43103073). It’s kind of fun looking back since we were only a few months into building at the time. The HN community gave a lot of enthusiasm and some helpful feedback.
-Today, we released Mastra 1.0 in stable, so we wanted to come back and talk about what’s changed.
-If you’re new to Mastra, it's an open-source TypeScript agent framework that also lets you create multi-agent workflows, run evals, inspect in a local studio, and emit observability.
-Since our last post, Mastra has grown to over 300k weekly npm downloads and 19.4k GitHub stars. It’s now Apache 2.0 licensed and runs in prod at companies like Replit, PayPal, and Sanity.
-Agent development is changing quickly, so …]]></summary>
-        <author>
-            <name>calcsam</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Cloudflare zero-day: Accessing any host globally]]></title>
-        <id>https://news.ycombinator.com/item?id=46693728</id>
-        <link href="https://fearsoff.org/research/cloudflare-acme"/>
-        <updated>2026-01-20T16:25:33.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://fearsoff.org/research/cloudflare-acme
-Comments URL: https://news.ycombinator.com/item?id=46693728
-Points: 52
-# Comments: 12]]></summary>
-        <author>
-            <name>2bluesc</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[I built a 2x faster lexer, then discovered I/O was the real bottleneck]]></title>
-        <id>https://news.ycombinator.com/item?id=46693460</id>
-        <link href="https://modulovalue.com/blog/syscall-overhead-tar-gz-io-performance/"/>
-        <updated>2026-01-20T16:10:01.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://modulovalue.com/blog/syscall-overhead-tar-gz-io-performance/
-Comments URL: https://news.ycombinator.com/item?id=46693460
-Points: 58
-# Comments: 31]]></summary>
-        <author>
-            <name>modulovalue</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[De-dollarization: Is the US dollar losing its dominance?]]></title>
-        <id>https://news.ycombinator.com/item?id=46693346</id>
-        <link href="https://www.jpmorgan.com/insights/global-research/currencies/de-dollarization"/>
-        <updated>2026-01-20T16:03:21.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.jpmorgan.com/insights/global-research/currencies/de-dollarization
-Comments URL: https://news.ycombinator.com/item?id=46693346
-Points: 109
-# Comments: 69]]></summary>
-        <author>
-            <name>andsoitis</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Nvidia Stock Crash Prediction]]></title>
-        <id>https://news.ycombinator.com/item?id=46693205</id>
-        <link href="https://entropicthoughts.com/nvidia-stock-crash-prediction"/>
-        <updated>2026-01-20T15:56:07.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://entropicthoughts.com/nvidia-stock-crash-prediction
-Comments URL: https://news.ycombinator.com/item?id=46693205
-Points: 96
-# Comments: 59]]></summary>
-        <author>
-            <name>todsacerdoti</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Danish pension fund divesting US Treasuries]]></title>
-        <id>https://news.ycombinator.com/item?id=46692594</id>
-        <link href="https://www.reuters.com/business/danish-pension-fund-divest-its-us-treasuries-2026-01-20/"/>
-        <updated>2026-01-20T15:11:45.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.reuters.com/business/danish-pension-fund-divest-its-us-treasuries-2026-01-20/
-Comments URL: https://news.ycombinator.com/item?id=46692594
-Points: 294
-# Comments: 250]]></summary>
-        <author>
-            <name>mythical_39</name>
         </author>
     </entry>
 </feed>
