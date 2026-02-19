@@ -6,6 +6,26 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=47070142",
+          "author": "puppion",
+          "description": "Article URL: https://eutechmap.com/map\nComments URL: https://news.ycombinator.com/item?id=47070142\nPoints: 170\n# Comments: 113",
+          "link": "https://eutechmap.com/map",
+          "publishedOn": "2026-02-19T05:07:37.000Z",
+          "wordCount": 853,
+          "title": "European Tech Alternatives",
+          "imageUrl": "https://eutechmap.com/og-image.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47069650",
+          "author": "merlindru",
+          "description": "I'm building a commercial macOS app with Electrobun [1]. I have previously written the same app with Tauri. I'll say that, while I love Tauri, using Electrobun has been an absolute breeze. I got the same app done in roughly 70% of the time [2]. It's a very productive stack. In no small part due to Electrobun, but also the fact that Bun has tons of DX niceties and a builtin bundler.\nElectrobun lets you open/manipulate/close webview windows and communicate with them using typed rpc. It also handles building, code signing, and notarization.\nAnd because I'm using Bun, running an HMR + React + Tailwind server is just one command (`bun ./index.html`) or like 5 lines of code. Pass --console and the webview's console.log()s get streamed to your Terminal too.\nThere's tons of other things Electrobun does that I haven't even mentioned, because I haven't interacted much with them yet. E.g. I know that it lets you show platform-native notifications, prompts/popups, etc.\nThere also is a very impressive updating mechanism that relies on a bsdiff implementation written in Zig. You just ship the deltas, so updates to very large apps are just a few KBs most of the time.\nIt's genuinely a very productive stack and impressive piece of tech.\n[1] Not affiliated - I just like the project.\n[2]: The API and implementation was clear, so I'll cautiously say this is not a case of \"rewrites are always faster\". In fact, the Tauri version was a rewrite too :)\nComments URL: https://news.ycombinator.com/item?id=47069650\nPoints: 74\n# Comments: 23",
+          "link": "https://blackboard.sh/blog/electrobun-v1/",
+          "publishedOn": "2026-02-19T03:46:07.000Z",
+          "wordCount": 664,
+          "title": "Electrobun v1: Build fast, tiny, and cross-platform desktop apps with TypeScript",
+          "imageUrl": null
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=47069299",
           "author": "theahura",
           "description": "Article URL: https://code.claude.com/docs/en/legal-and-compliance\nComments URL: https://news.ycombinator.com/item?id=47069299\nPoints: 117\n# Comments: 136",
@@ -64,6 +84,16 @@
           "wordCount": 9534,
           "title": "Ladybird: Closing this as we are no longer pursuing Swift adoption",
           "imageUrl": "https://opengraph.githubassets.com/bd7753566bc9dda581e2395c7ad9fe1b8dd77c835a32a361e79ca73d3871572e/LadybirdBrowser/ladybird/issues/933"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47067498",
+          "author": "mirawelner",
+          "description": "Article URL: https://alllooksame.com/\nComments URL: https://news.ycombinator.com/item?id=47067498\nPoints: 60\n# Comments: 43",
+          "link": "https://alllooksame.com/",
+          "publishedOn": "2026-02-18T22:48:03.000Z",
+          "wordCount": 339,
+          "title": "All Look Same?",
+          "imageUrl": "https://alllooksame.com/wp-content/themes/alllooksame/img/opengraph_image.png"
         },
         {
           "id": "https://news.ycombinator.com/item?id=47066552",
@@ -13494,86 +13524,6 @@
           "wordCount": 3028,
           "title": "Typography on Pencils (2023)",
           "imageUrl": "http://cdn.shopify.com/s/files/1/0952/3604/articles/e.jpg?v=1680197204"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46696699",
-          "author": "pretext",
-          "description": "Article URL: https://openai.com/index/our-approach-to-age-prediction/\nComments URL: https://news.ycombinator.com/item?id=46696699\nPoints: 62\n# Comments: 121",
-          "link": "https://openai.com/index/our-approach-to-age-prediction/",
-          "publishedOn": "2026-01-20T19:34:48.000Z",
-          "wordCount": null,
-          "title": "Our approach to age prediction",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46696357",
-          "author": "KORraN",
-          "description": "Article URL: https://novalauncher.com/nova-is-here-to-stay\nComments URL: https://news.ycombinator.com/item?id=46696357\nPoints: 72\n# Comments: 46",
-          "link": "https://novalauncher.com/nova-is-here-to-stay",
-          "publishedOn": "2026-01-20T19:06:56.000Z",
-          "wordCount": 755,
-          "title": "Instabridge has acquired Nova Launcher",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46696303",
-          "author": "johnmaguire",
-          "description": "Article URL: https://www.johnmaguire.me/blog/ipv6-is-not-insecure-because-it-lacks-nat/\nComments URL: https://news.ycombinator.com/item?id=46696303\nPoints: 60\n# Comments: 75",
-          "link": "https://www.johnmaguire.me/blog/ipv6-is-not-insecure-because-it-lacks-nat/",
-          "publishedOn": "2026-01-20T19:03:38.000Z",
-          "wordCount": 373,
-          "title": "IPv6 is not insecure because it lacks a NAT",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46696300",
-          "author": "lorey",
-          "description": "Article URL: https://karllorey.com/posts/without-benchmarking-llms-youre-overpaying\nComments URL: https://news.ycombinator.com/item?id=46696300\nPoints: 50\n# Comments: 21",
-          "link": "https://karllorey.com/posts/without-benchmarking-llms-youre-overpaying",
-          "publishedOn": "2026-01-20T19:03:25.000Z",
-          "wordCount": 5020,
-          "title": "Without benchmarking LLMs, you're likely overpaying 5-10x",
-          "imageUrl": "https://karllorey.com/img/og/without-benchmarking-llms-youre-overpaying.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46696283",
-          "author": "io_eric",
-          "description": "I usually build web games in C++, but using Emscripten always felt like overkill for what I was doing. I don't need full POSIX emulation or a massive standard library just to render some stuff to a canvas and handle basic UI.\nThe main thing I wanted to solve was the JS/WASM interop bottleneck. Instead of using the standard glue code for every call, I moved everything to a Shared Memory architecture using Command and Event buffers.\nThe way it works is that I batch all the instructions in WASM and then just send a single \"flush\" signal to JS. The JS side then reads everything directly out of Shared Memory in one go. It’s way more efficient, I ran a benchmark rendering 10k rectangles on a canvas and the difference was huge: Emscripten hit around 40 FPS, while my setup hit 100 FPS.\nBut writing…",
-          "link": "https://news.ycombinator.com/item?id=46696283",
-          "publishedOn": "2026-01-20T19:01:53.000Z",
-          "wordCount": 2040,
-          "title": "Show HN: Coi – A language that compiles to WASM, beats React/Vue",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46696276",
-          "author": "mitchbob",
-          "description": "Article URL: https://press.stripe.com/maintenance-part-one\nComments URL: https://news.ycombinator.com/item?id=46696276\nPoints: 72\n# Comments: 13",
-          "link": "https://press.stripe.com/maintenance-part-one",
-          "publishedOn": "2026-01-20T19:01:30.000Z",
-          "wordCount": 95359,
-          "title": "Maintenance: Of Everything, Part One",
-          "imageUrl": "https://images.stripeassets.com/fzn2n1nzq965/530359Xz3aQDQlSImDqESx/ce7765a360aa2cbf8d2cc0dbef1442e2/MOE_social.jpg?q=80"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46695986",
-          "author": "abrownbear",
-          "description": "Article URL: https://lpeproject.org/blog/immigration-agencies-are-openly-defying-federal-courts/\nComments URL: https://news.ycombinator.com/item?id=46695986\nPoints: 55\n# Comments: 3",
-          "link": "https://lpeproject.org/blog/immigration-agencies-are-openly-defying-federal-courts/",
-          "publishedOn": "2026-01-20T18:41:04.000Z",
-          "wordCount": 4343,
-          "title": "Immigration Agencies Are Openly Defying Federal Courts",
-          "imageUrl": "https://lpeproject.org/wp-content/uploads/2020/08/cropped-Screen-Shot-2020-08-13-at-6.04.41-PM.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46695628",
-          "author": "mkmk",
-          "description": "Article URL: https://longnow.org/ideas/the-26000-year-astronomical-monument-hidden-in-plain-sight/\nComments URL: https://news.ycombinator.com/item?id=46695628\nPoints: 141\n# Comments: 23",
-          "link": "https://longnow.org/ideas/the-26000-year-astronomical-monument-hidden-in-plain-sight/",
-          "publishedOn": "2026-01-20T18:16:09.000Z",
-          "wordCount": 1960,
-          "title": "The 26,000-Year Astronomical Monument Hidden in Plain Sight",
-          "imageUrl": "https://static.longnow.org/2022/04/1-QpK0dPz4sOtgKfQYShhF1A.gif"
         }
       ]
     }

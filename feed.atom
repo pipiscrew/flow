@@ -2,10 +2,43 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-02-19T06:07:55.554Z</updated>
+    <updated>2026-02-19T07:52:53.107Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[European Tech Alternatives]]></title>
+        <id>https://news.ycombinator.com/item?id=47070142</id>
+        <link href="https://eutechmap.com/map"/>
+        <updated>2026-02-19T05:07:37.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://eutechmap.com/map
+Comments URL: https://news.ycombinator.com/item?id=47070142
+Points: 170
+# Comments: 113]]></summary>
+        <author>
+            <name>puppion</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Electrobun v1: Build fast, tiny, and cross-platform desktop apps with TypeScript]]></title>
+        <id>https://news.ycombinator.com/item?id=47069650</id>
+        <link href="https://blackboard.sh/blog/electrobun-v1/"/>
+        <updated>2026-02-19T03:46:07.000Z</updated>
+        <summary type="html"><![CDATA[I'm building a commercial macOS app with Electrobun [1]. I have previously written the same app with Tauri. I'll say that, while I love Tauri, using Electrobun has been an absolute breeze. I got the same app done in roughly 70% of the time [2]. It's a very productive stack. In no small part due to Electrobun, but also the fact that Bun has tons of DX niceties and a builtin bundler.
+Electrobun lets you open/manipulate/close webview windows and communicate with them using typed rpc. It also handles building, code signing, and notarization.
+And because I'm using Bun, running an HMR + React + Tailwind server is just one command (`bun ./index.html`) or like 5 lines of code. Pass --console and the webview's console.log()s get streamed to your Terminal too.
+There's tons of other things Electrobun does that I haven't even mentioned, because I haven't interacted much with them yet. E.g. I know that it lets you show platform-native notifications, prompts/popups, etc.
+There also is a very impressive updating mechanism that relies on a bsdiff implementation written in Zig. You just ship the deltas, so updates to very large apps are just a few KBs most of the time.
+It's genuinely a very productive stack and impressive piece of tech.
+[1] Not affiliated - I just like the project.
+[2]: The API and implementation was clear, so I'll cautiously say this is not a case of "rewrites are always faster". In fact, the Tauri version was a rewrite too :)
+Comments URL: https://news.ycombinator.com/item?id=47069650
+Points: 74
+# Comments: 23]]></summary>
+        <author>
+            <name>merlindru</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Anthropic officially bans using subscription auth for third party use]]></title>
         <id>https://news.ycombinator.com/item?id=47069299</id>
@@ -82,6 +115,19 @@ Points: 196
 # Comments: 146]]></summary>
         <author>
             <name>thewavelength</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[All Look Same?]]></title>
+        <id>https://news.ycombinator.com/item?id=47067498</id>
+        <link href="https://alllooksame.com/"/>
+        <updated>2026-02-18T22:48:03.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://alllooksame.com/
+Comments URL: https://news.ycombinator.com/item?id=47067498
+Points: 60
+# Comments: 43]]></summary>
+        <author>
+            <name>mirawelner</name>
         </author>
     </entry>
     <entry>
@@ -18042,110 +18088,6 @@ Points: 51
 # Comments: 3]]></summary>
         <author>
             <name>NaOH</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Our approach to age prediction]]></title>
-        <id>https://news.ycombinator.com/item?id=46696699</id>
-        <link href="https://openai.com/index/our-approach-to-age-prediction/"/>
-        <updated>2026-01-20T19:34:48.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://openai.com/index/our-approach-to-age-prediction/
-Comments URL: https://news.ycombinator.com/item?id=46696699
-Points: 62
-# Comments: 121]]></summary>
-        <author>
-            <name>pretext</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Instabridge has acquired Nova Launcher]]></title>
-        <id>https://news.ycombinator.com/item?id=46696357</id>
-        <link href="https://novalauncher.com/nova-is-here-to-stay"/>
-        <updated>2026-01-20T19:06:56.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://novalauncher.com/nova-is-here-to-stay
-Comments URL: https://news.ycombinator.com/item?id=46696357
-Points: 72
-# Comments: 46]]></summary>
-        <author>
-            <name>KORraN</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[IPv6 is not insecure because it lacks a NAT]]></title>
-        <id>https://news.ycombinator.com/item?id=46696303</id>
-        <link href="https://www.johnmaguire.me/blog/ipv6-is-not-insecure-because-it-lacks-nat/"/>
-        <updated>2026-01-20T19:03:38.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.johnmaguire.me/blog/ipv6-is-not-insecure-because-it-lacks-nat/
-Comments URL: https://news.ycombinator.com/item?id=46696303
-Points: 60
-# Comments: 75]]></summary>
-        <author>
-            <name>johnmaguire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Without benchmarking LLMs, you're likely overpaying 5-10x]]></title>
-        <id>https://news.ycombinator.com/item?id=46696300</id>
-        <link href="https://karllorey.com/posts/without-benchmarking-llms-youre-overpaying"/>
-        <updated>2026-01-20T19:03:25.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://karllorey.com/posts/without-benchmarking-llms-youre-overpaying
-Comments URL: https://news.ycombinator.com/item?id=46696300
-Points: 50
-# Comments: 21]]></summary>
-        <author>
-            <name>lorey</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: Coi – A language that compiles to WASM, beats React/Vue]]></title>
-        <id>https://news.ycombinator.com/item?id=46696283</id>
-        <link href="https://news.ycombinator.com/item?id=46696283"/>
-        <updated>2026-01-20T19:01:53.000Z</updated>
-        <summary type="html"><![CDATA[I usually build web games in C++, but using Emscripten always felt like overkill for what I was doing. I don't need full POSIX emulation or a massive standard library just to render some stuff to a canvas and handle basic UI.
-The main thing I wanted to solve was the JS/WASM interop bottleneck. Instead of using the standard glue code for every call, I moved everything to a Shared Memory architecture using Command and Event buffers.
-The way it works is that I batch all the instructions in WASM and then just send a single "flush" signal to JS. The JS side then reads everything directly out of Shared Memory in one go. It’s way more efficient, I ran a benchmark rendering 10k rectangles on a canvas and the difference was huge: Emscripten hit around 40 FPS, while my setup hit 100 FPS.
-But writing…]]></summary>
-        <author>
-            <name>io_eric</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Maintenance: Of Everything, Part One]]></title>
-        <id>https://news.ycombinator.com/item?id=46696276</id>
-        <link href="https://press.stripe.com/maintenance-part-one"/>
-        <updated>2026-01-20T19:01:30.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://press.stripe.com/maintenance-part-one
-Comments URL: https://news.ycombinator.com/item?id=46696276
-Points: 72
-# Comments: 13]]></summary>
-        <author>
-            <name>mitchbob</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Immigration Agencies Are Openly Defying Federal Courts]]></title>
-        <id>https://news.ycombinator.com/item?id=46695986</id>
-        <link href="https://lpeproject.org/blog/immigration-agencies-are-openly-defying-federal-courts/"/>
-        <updated>2026-01-20T18:41:04.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://lpeproject.org/blog/immigration-agencies-are-openly-defying-federal-courts/
-Comments URL: https://news.ycombinator.com/item?id=46695986
-Points: 55
-# Comments: 3]]></summary>
-        <author>
-            <name>abrownbear</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The 26,000-Year Astronomical Monument Hidden in Plain Sight]]></title>
-        <id>https://news.ycombinator.com/item?id=46695628</id>
-        <link href="https://longnow.org/ideas/the-26000-year-astronomical-monument-hidden-in-plain-sight/"/>
-        <updated>2026-01-20T18:16:09.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://longnow.org/ideas/the-26000-year-astronomical-monument-hidden-in-plain-sight/
-Comments URL: https://news.ycombinator.com/item?id=46695628
-Points: 141
-# Comments: 23]]></summary>
-        <author>
-            <name>mkmk</name>
         </author>
     </entry>
 </feed>
