@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-02-20T14:46:02.425Z</updated>
+    <updated>2026-02-20T15:41:58.249Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
@@ -20,6 +20,23 @@ Points: 56
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Show HN: A native macOS client for Hacker News, built with SwiftUI]]></title>
+        <id>https://news.ycombinator.com/item?id=47088166</id>
+        <link href="https://github.com/IronsideXXVI/Hacker-News"/>
+        <updated>2026-02-20T14:02:05.000Z</updated>
+        <summary type="html"><![CDATA[Hey HN! I built a native macOS desktop client for Hacker News and I'm open-sourcing it under the MIT license.
+GitHub: https://github.com/IronsideXXVI/Hacker-News
+Download (signed & notarized DMG, macOS 14.0+): https://github.com/IronsideXXVI/Hacker-News/releases
+Screenshots: https://github.com/IronsideXXVI/Hacker-News#screenshots
+I spend a lot of time reading HN — I wanted something that felt like a proper Mac app: a sidebar for browsing stories, an integrated reader for articles, and comment threading — all in one window. Essentially, I wanted HN to feel like a first-class citizen on macOS, not a website I visit.
+What it does:
+- Split-view layout — stories in a sidebar on the left, articles and comments on the right, using the standard macOS NavigationSplitView pattern.
+- Built-in ad bloc…]]></summary>
+        <author>
+            <name>IronsideXXVI</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Ggml.ai joins Hugging Face to ensure the long-term progress of Local AI]]></title>
         <id>https://news.ycombinator.com/item?id=47088037</id>
         <link href="https://github.com/ggml-org/llama.cpp/discussions/19759"/>
@@ -30,6 +47,32 @@ Points: 111
 # Comments: 18]]></summary>
         <author>
             <name>lairv</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[PayPal discloses data breach that exposed user info for 6 months]]></title>
+        <id>https://news.ycombinator.com/item?id=47087719</id>
+        <link href="https://www.bleepingcomputer.com/news/security/paypal-discloses-data-breach-exposing-users-personal-information/"/>
+        <updated>2026-02-20T13:22:32.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.bleepingcomputer.com/news/security/paypal-discloses-data-breach-exposing-users-personal-information/
+Comments URL: https://news.ycombinator.com/item?id=47087719
+Points: 70
+# Comments: 6]]></summary>
+        <author>
+            <name>el_duderino</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to Stop Being Boring]]></title>
+        <id>https://news.ycombinator.com/item?id=47087687</id>
+        <link href="https://www.joanwestenberg.com/how-to-stop-being-boring/"/>
+        <updated>2026-02-20T13:19:34.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.joanwestenberg.com/how-to-stop-being-boring/
+Comments URL: https://news.ycombinator.com/item?id=47087687
+Points: 61
+# Comments: 62]]></summary>
+        <author>
+            <name>surprisetalk</name>
         </author>
     </entry>
     <entry>
@@ -147,6 +190,19 @@ Points: 56
 # Comments: 24]]></summary>
         <author>
             <name>todsacerdoti</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Fast KV Compaction via Attention Matching]]></title>
+        <id>https://news.ycombinator.com/item?id=47083882</id>
+        <link href="https://arxiv.org/abs/2602.16284"/>
+        <updated>2026-02-20T04:46:37.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://arxiv.org/abs/2602.16284
+Comments URL: https://news.ycombinator.com/item?id=47083882
+Points: 52
+# Comments: 10]]></summary>
+        <author>
+            <name>cbracketdash</name>
         </author>
     </entry>
     <entry>
@@ -18139,19 +18195,6 @@ Points: 65
 # Comments: 32]]></summary>
         <author>
             <name>kaycebasques</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Delta single handle ball faucets (1963)]]></title>
-        <id>https://news.ycombinator.com/item?id=46714981</id>
-        <link href="https://archive.org/details/DeltaSingleHandleBallFaucets"/>
-        <updated>2026-01-22T03:37:03.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://archive.org/details/DeltaSingleHandleBallFaucets
-Comments URL: https://news.ycombinator.com/item?id=46714981
-Points: 50
-# Comments: 28]]></summary>
-        <author>
-            <name>userbinator</name>
         </author>
     </entry>
 </feed>
