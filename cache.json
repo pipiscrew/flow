@@ -6,6 +6,16 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=47096520",
+          "author": "cratermoon",
+          "description": "Article URL: https://leaflet.pub/p/did:plc:3vdrgzr2zybocs45yfhcr6ur/3mfd2oxx5v22b\nComments URL: https://news.ycombinator.com/item?id=47096520\nPoints: 58\n# Comments: 13",
+          "link": "https://leaflet.pub/p/did:plc:3vdrgzr2zybocs45yfhcr6ur/3mfd2oxx5v22b",
+          "publishedOn": "2026-02-21T01:33:40.000Z",
+          "wordCount": 1860,
+          "title": "What Is OAuth?",
+          "imageUrl": "https://leaflet.pub/p/did%253Aplc%253A3vdrgzr2zybocs45yfhcr6ur/3mfd2oxx5v22b/opengraph-image?4c8fe174a4beabea"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=47095597",
           "author": "kevinak",
           "description": "Article URL: https://kevinak.se/blog/be-wary-of-bluesky\nComments URL: https://news.ycombinator.com/item?id=47095597\nPoints: 86\n# Comments: 62",
@@ -34,6 +44,16 @@
           "wordCount": 7258,
           "title": "Across the US, people are dismantling and destroying Flock surveillance cameras",
           "imageUrl": "https://substackcdn.com/image/fetch/$s_!szBv!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffe4c8e48-8b26-457b-8969-f95db3c9c113_2048x1366.jpeg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47094877",
+          "author": "frou_dh",
+          "description": "Article URL: https://adamj.eu/tech/2023/09/18/git-dont-create-gitkeep/\nComments URL: https://news.ycombinator.com/item?id=47094877\nPoints: 56\n# Comments: 34",
+          "link": "https://adamj.eu/tech/2023/09/18/git-dont-create-gitkeep/",
+          "publishedOn": "2026-02-20T22:27:56.000Z",
+          "wordCount": 442,
+          "title": "Don't create .gitkeep files, use .gitignore instead (2023)",
+          "imageUrl": "https://adamj.eu/tech/assets/2023-09-18-crystals.jpeg"
         },
         {
           "id": "https://news.ycombinator.com/item?id=47094192",
@@ -13643,66 +13663,6 @@
           "publishedOn": "2026-01-22T16:52:35.000Z",
           "wordCount": 4,
           "title": "Show HN: isometric.nyc – giant isometric pixel art map of NYC",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46721488",
-          "author": "schopra909",
-          "description": "Writeup (includes good/bad sample generations): https://www.linum.ai/field-notes/launch-linum-v2\nWe're Sahil and Manu, two brothers who spent the last 2 years training text-to-video models from scratch. Today we're releasing them under Apache 2.0.\nThese are 2B param models capable of generating 2-5 seconds of footage at either 360p or 720p. In terms of model size, the closest comparison is Alibaba's Wan 2.1 1.3B. From our testing, we get significantly better motion capture and aesthetics.\nWe're not claiming to have reached the frontier. For us, this is a stepping stone towards SOTA - proof we can train these models end-to-end ourselves.\nWhy train a model from scratch?\nWe shipped our first model in January 2024 (pre-Sora) as a 180p, 1-second GIF bot, bootstrapped off Stable Diffusion XL. Im…",
-          "link": "https://huggingface.co/collections/Linum-AI/linum-v2-2b-text-to-video",
-          "publishedOn": "2026-01-22T16:31:47.000Z",
-          "wordCount": 176,
-          "title": "Show HN: Text-to-video model from scratch (2 brothers, 2 years, 2B params)",
-          "imageUrl": "https://cdn-thumbnails.huggingface.co/social-thumbnails/collections/Linum-AI/linum-v2-2b-text-to-video-696bda16289e9ebd71501957.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46721474",
-          "author": "felarof",
-          "description": "Hey HN! We're Nithin and Nikhil, twin brothers building BrowserOS (YC S24). We're an open-source, privacy-first alternative to the AI browsers from big labs.\nThe big differentiator: on BrowserOS you can use local LLMs or BYOK and run the agent entirely on the client side, so your company/sensitive data stays on your machine!\nToday we're launching filesystem access... just like Claude Cowork, our browser agent can read files, write files, run shell commands! But honestly, we didn't plan for this. It turns out the privacy decision we made 9 months ago accidentally positioned us for this moment.\nThe architectural bet we made 9 months ago: Unlike other AI browsers (ChatGPT Atlas, Perplexity Comet) where the agent loop runs server-side, we decided early on to run our agent entirely on your mach…",
-          "link": "https://github.com/browseros-ai/BrowserOS",
-          "publishedOn": "2026-01-22T16:30:58.000Z",
-          "wordCount": 3474,
-          "title": "Show HN: BrowserOS – \"Claude Cowork\" in the browser",
-          "imageUrl": "https://opengraph.githubassets.com/159465427ab2dbffa91583fdec786ae0dfc4a43e09c3de37aeaffbc8c0565008/browseros-ai/BrowserOS"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46721179",
-          "author": "nickswalker",
-          "description": "Article URL: https://github.com/google-gemini/gemini-cli/issues/16728\nComments URL: https://news.ycombinator.com/item?id=46721179\nPoints: 122\n# Comments: 32",
-          "link": "https://github.com/google-gemini/gemini-cli/issues/16728",
-          "publishedOn": "2026-01-22T16:10:20.000Z",
-          "wordCount": 2086,
-          "title": "It looks like the status/need-triage label was removed",
-          "imageUrl": "https://opengraph.githubassets.com/2565bc9dd8117bc94112b1c9551f5db1b81d6cd94011e872bb0bc2a86857eeb1/google-gemini/gemini-cli/issues/16728"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46720395",
-          "author": "segmenta",
-          "description": "Article URL: https://gptzero.me/news/neurips/\nComments URL: https://news.ycombinator.com/item?id=46720395\nPoints: 171\n# Comments: 102",
-          "link": "https://gptzero.me/news/neurips/",
-          "publishedOn": "2026-01-22T15:20:48.000Z",
-          "wordCount": 7255,
-          "title": "GPTZero finds 100 new hallucinations in NeurIPS 2025 accepted papers",
-          "imageUrl": "https://gptzero.me/news/content/images/2026/01/NeurIPS-logo.svg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46719899",
-          "author": "ashton314",
-          "description": "Article URL: https://lambdaland.org/posts/2026-01-21_tree-sitter_vs_lsp/\nComments URL: https://news.ycombinator.com/item?id=46719899\nPoints: 66\n# Comments: 17",
-          "link": "https://lambdaland.org/posts/2026-01-21_tree-sitter_vs_lsp/",
-          "publishedOn": "2026-01-22T14:47:58.000Z",
-          "wordCount": 976,
-          "title": "Tree-sitter vs. Language Servers",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46719704",
-          "author": "alexmorley",
-          "description": "Article URL: https://twitter.com/SecArmy/status/1933693585183965372\nComments URL: https://news.ycombinator.com/item?id=46719704\nPoints: 60\n# Comments: 37",
-          "link": "https://twitter.com/SecArmy/status/1933693585183965372",
-          "publishedOn": "2026-01-22T14:32:52.000Z",
-          "wordCount": 772,
-          "title": "Palantir, Meta, OpenAI Execs Appointed Lieutenant Colonels in US Army",
           "imageUrl": null
         }
       ]

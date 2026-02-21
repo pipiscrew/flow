@@ -2,10 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-02-21T02:32:45.834Z</updated>
+    <updated>2026-02-21T04:41:42.455Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[What Is OAuth?]]></title>
+        <id>https://news.ycombinator.com/item?id=47096520</id>
+        <link href="https://leaflet.pub/p/did:plc:3vdrgzr2zybocs45yfhcr6ur/3mfd2oxx5v22b"/>
+        <updated>2026-02-21T01:33:40.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://leaflet.pub/p/did:plc:3vdrgzr2zybocs45yfhcr6ur/3mfd2oxx5v22b
+Comments URL: https://news.ycombinator.com/item?id=47096520
+Points: 58
+# Comments: 13]]></summary>
+        <author>
+            <name>cratermoon</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Be wary of Bluesky]]></title>
         <id>https://news.ycombinator.com/item?id=47095597</id>
@@ -43,6 +56,19 @@ Points: 144
 # Comments: 43]]></summary>
         <author>
             <name>latexr</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Don't create .gitkeep files, use .gitignore instead (2023)]]></title>
+        <id>https://news.ycombinator.com/item?id=47094877</id>
+        <link href="https://adamj.eu/tech/2023/09/18/git-dont-create-gitkeep/"/>
+        <updated>2026-02-20T22:27:56.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://adamj.eu/tech/2023/09/18/git-dont-create-gitkeep/
+Comments URL: https://news.ycombinator.com/item?id=47094877
+Points: 56
+# Comments: 34]]></summary>
+        <author>
+            <name>frou_dh</name>
         </author>
     </entry>
     <entry>
@@ -18246,86 +18272,6 @@ Points: 105
 # Comments: 36]]></summary>
         <author>
             <name>cannoneyed</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: Text-to-video model from scratch (2 brothers, 2 years, 2B params)]]></title>
-        <id>https://news.ycombinator.com/item?id=46721488</id>
-        <link href="https://huggingface.co/collections/Linum-AI/linum-v2-2b-text-to-video"/>
-        <updated>2026-01-22T16:31:47.000Z</updated>
-        <summary type="html"><![CDATA[Writeup (includes good/bad sample generations): https://www.linum.ai/field-notes/launch-linum-v2
-We're Sahil and Manu, two brothers who spent the last 2 years training text-to-video models from scratch. Today we're releasing them under Apache 2.0.
-These are 2B param models capable of generating 2-5 seconds of footage at either 360p or 720p. In terms of model size, the closest comparison is Alibaba's Wan 2.1 1.3B. From our testing, we get significantly better motion capture and aesthetics.
-We're not claiming to have reached the frontier. For us, this is a stepping stone towards SOTA - proof we can train these models end-to-end ourselves.
-Why train a model from scratch?
-We shipped our first model in January 2024 (pre-Sora) as a 180p, 1-second GIF bot, bootstrapped off Stable Diffusion XL. Im…]]></summary>
-        <author>
-            <name>schopra909</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: BrowserOS – "Claude Cowork" in the browser]]></title>
-        <id>https://news.ycombinator.com/item?id=46721474</id>
-        <link href="https://github.com/browseros-ai/BrowserOS"/>
-        <updated>2026-01-22T16:30:58.000Z</updated>
-        <summary type="html"><![CDATA[Hey HN! We're Nithin and Nikhil, twin brothers building BrowserOS (YC S24). We're an open-source, privacy-first alternative to the AI browsers from big labs.
-The big differentiator: on BrowserOS you can use local LLMs or BYOK and run the agent entirely on the client side, so your company/sensitive data stays on your machine!
-Today we're launching filesystem access... just like Claude Cowork, our browser agent can read files, write files, run shell commands! But honestly, we didn't plan for this. It turns out the privacy decision we made 9 months ago accidentally positioned us for this moment.
-The architectural bet we made 9 months ago: Unlike other AI browsers (ChatGPT Atlas, Perplexity Comet) where the agent loop runs server-side, we decided early on to run our agent entirely on your mach…]]></summary>
-        <author>
-            <name>felarof</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[It looks like the status/need-triage label was removed]]></title>
-        <id>https://news.ycombinator.com/item?id=46721179</id>
-        <link href="https://github.com/google-gemini/gemini-cli/issues/16728"/>
-        <updated>2026-01-22T16:10:20.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://github.com/google-gemini/gemini-cli/issues/16728
-Comments URL: https://news.ycombinator.com/item?id=46721179
-Points: 122
-# Comments: 32]]></summary>
-        <author>
-            <name>nickswalker</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GPTZero finds 100 new hallucinations in NeurIPS 2025 accepted papers]]></title>
-        <id>https://news.ycombinator.com/item?id=46720395</id>
-        <link href="https://gptzero.me/news/neurips/"/>
-        <updated>2026-01-22T15:20:48.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://gptzero.me/news/neurips/
-Comments URL: https://news.ycombinator.com/item?id=46720395
-Points: 171
-# Comments: 102]]></summary>
-        <author>
-            <name>segmenta</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Tree-sitter vs. Language Servers]]></title>
-        <id>https://news.ycombinator.com/item?id=46719899</id>
-        <link href="https://lambdaland.org/posts/2026-01-21_tree-sitter_vs_lsp/"/>
-        <updated>2026-01-22T14:47:58.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://lambdaland.org/posts/2026-01-21_tree-sitter_vs_lsp/
-Comments URL: https://news.ycombinator.com/item?id=46719899
-Points: 66
-# Comments: 17]]></summary>
-        <author>
-            <name>ashton314</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Palantir, Meta, OpenAI Execs Appointed Lieutenant Colonels in US Army]]></title>
-        <id>https://news.ycombinator.com/item?id=46719704</id>
-        <link href="https://twitter.com/SecArmy/status/1933693585183965372"/>
-        <updated>2026-01-22T14:32:52.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://twitter.com/SecArmy/status/1933693585183965372
-Comments URL: https://news.ycombinator.com/item?id=46719704
-Points: 60
-# Comments: 37]]></summary>
-        <author>
-            <name>alexmorley</name>
         </author>
     </entry>
 </feed>
