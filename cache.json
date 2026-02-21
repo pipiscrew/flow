@@ -6,6 +6,16 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=47104973",
+          "author": "dbreunig",
+          "description": "Article URL: https://www.dbreunig.com/2026/02/21/why-is-claude-an-electron-app.html\nComments URL: https://news.ycombinator.com/item?id=47104973\nPoints: 177\n# Comments: 104",
+          "link": "https://www.dbreunig.com/2026/02/21/why-is-claude-an-electron-app.html",
+          "publishedOn": "2026-02-21T21:28:13.000Z",
+          "wordCount": 700,
+          "title": "Why is Claude an Electron App?",
+          "imageUrl": "/img/sf_beach_og.jpg"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=47104185",
           "author": "reconnecting",
           "description": "Article URL: https://www.eduke32.com/\nComments URL: https://news.ycombinator.com/item?id=47104185\nPoints: 87\n# Comments: 24",
@@ -36,6 +46,16 @@
           "imageUrl": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/uFzR7cRW6VzZMP5YSUNZV/4120d828e3f57c095b51b2be805d2a02/BLOG-3193_OG.png"
         },
         {
+          "id": "https://news.ycombinator.com/item?id=47103136",
+          "author": "iancmceachern",
+          "description": "Article URL: https://carbuzz.com/toyota-mirai-massive-depreciation-one-year/\nComments URL: https://news.ycombinator.com/item?id=47103136\nPoints: 66\n# Comments: 153",
+          "link": "https://carbuzz.com/toyota-mirai-massive-depreciation-one-year/",
+          "publishedOn": "2026-02-21T18:09:24.000Z",
+          "wordCount": 6102,
+          "title": "Toyota Mirai hydrogen car depreciation: 65% value loss in a year",
+          "imageUrl": "https://static0.carbuzzimages.com/wordpress/wp-content/uploads/2025/10/toyota-mirai-main.png?w=1600&h=900&fit=crop"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=47102975",
           "author": "grubbs",
           "description": "Article URL: https://antipolygraph.org/statements/statement-038.shtml\nComments URL: https://news.ycombinator.com/item?id=47102975\nPoints: 64\n# Comments: 30",
@@ -56,6 +76,16 @@
           "imageUrl": null
         },
         {
+          "id": "https://news.ycombinator.com/item?id=47101890",
+          "author": "ragnaroekX",
+          "description": "The goal is to have a pixel, mod-friendly perfect recreation of Wolfenstein 3D in Rust.\nComments URL: https://news.ycombinator.com/item?id=47101890\nPoints: 50\n# Comments: 18",
+          "link": "https://github.com/Ragnaroek/iron-wolf",
+          "publishedOn": "2026-02-21T15:52:20.000Z",
+          "wordCount": 1215,
+          "title": "Show HN: Iron-Wolf – Wolfenstein 3D source port in Rust",
+          "imageUrl": "https://opengraph.githubassets.com/ebb4f7dc904a3b0c9c3c5fa5aa0adb5ca7096d78479bca810537d0364447b444/Ragnaroek/iron-wolf"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=47101200",
           "author": "Igor_Wiwi",
           "description": "Article URL: https://igorstechnoclub.com/sandbox-exec/\nComments URL: https://news.ycombinator.com/item?id=47101200\nPoints: 87\n# Comments: 28",
@@ -74,6 +104,16 @@
           "wordCount": 2145,
           "title": "CXMT has been offering DDR4 chips at about half the prevailing market rate",
           "imageUrl": "https://wimg.heraldcorp.com/news/cms/2026/02/20/news-p.v1.20260220.1686b9f4331c4661b835adf082563d1a_T1.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47100232",
+          "author": "tosh",
+          "description": "Article URL: https://github.com/tnm/zclaw\nComments URL: https://news.ycombinator.com/item?id=47100232\nPoints: 56\n# Comments: 39",
+          "link": "https://github.com/tnm/zclaw",
+          "publishedOn": "2026-02-21T12:37:52.000Z",
+          "wordCount": 2597,
+          "title": "zclaw: personal AI assistant in under 888 KB, running on an ESP32",
+          "imageUrl": "https://opengraph.githubassets.com/5e1132c7d1806269d7fffa39077176eb2e860c080bc6b76eba0cbfafdb9f905c/tnm/zclaw"
         },
         {
           "id": "https://news.ycombinator.com/item?id=47099160",
@@ -13634,26 +13674,6 @@
           "wordCount": 4263,
           "title": "Show HN: Whosthere: A LAN discovery tool with a modern TUI, written in Go",
           "imageUrl": "https://opengraph.githubassets.com/9a3bdac9dd4a88cb530146d8613ffb7d220700e74e2c03b74380c7e05467cd98/ramonvermeulen/whosthere"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46731068",
-          "author": "dsrtslnd23",
-          "description": "I’m trying to do the “voice assistant” thing fully locally: mic → model → speaker, low latency, ideally streaming + interruptible (barge-in).\nQwen3 Omni looks perfect on paper (“real-time”, speech-to-speech, etc). But I’ve been poking around and I can’t find a single reproducible “here’s how I got the open weights doing real speech-to-speech locally” writeup. Lots of “speech in → text out” or “audio out after the model finishes”, but not a usable realtime voice loop. Feels like either (a) the tooling isn’t there yet, or (b) I’m missing the secret sauce.\nWhat are people actually using in 2026 if they want open + local voice?\nIs anyone doing true end-to-end speech models locally (streaming audio out), or is the SOTA still “streaming ASR + LLM + streaming TTS” glued together?\nIf you did get Qwen3 Omni speech-to-speech working: what stack (transformers / vLLM-omni / something else), what hardware, and is it actually realtime?\nWhat’s the most “works today” combo on a single GPU?\nBonus: rough numbers people see for mic → first audio back\nWould love pointers to repos, configs, or “this is the one that finally worked for me” war stories.\nComments URL: https://news.ycombinator.com/item?id=46731068\nPoints: 57\n# Comments: 14",
-          "link": "https://news.ycombinator.com/item?id=46731068",
-          "publishedOn": "2026-01-23T11:04:18.000Z",
-          "wordCount": 1004,
-          "title": "Ask HN: What's the current best local/open speech-to-speech setup?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46730885",
-          "author": "yesturi",
-          "description": "Article URL: https://boginjr.com/it/sw/dev/vinyl-boot/\nComments URL: https://news.ycombinator.com/item?id=46730885\nPoints: 67\n# Comments: 17",
-          "link": "https://boginjr.com/it/sw/dev/vinyl-boot/",
-          "publishedOn": "2026-01-23T10:39:09.000Z",
-          "wordCount": 3621,
-          "title": "Booting from a vinyl record (2020)",
-          "imageUrl": null
         }
       ]
     }

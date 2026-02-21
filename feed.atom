@@ -2,10 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-02-21T22:31:32.457Z</updated>
+    <updated>2026-02-21T23:31:11.642Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Why is Claude an Electron App?]]></title>
+        <id>https://news.ycombinator.com/item?id=47104973</id>
+        <link href="https://www.dbreunig.com/2026/02/21/why-is-claude-an-electron-app.html"/>
+        <updated>2026-02-21T21:28:13.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.dbreunig.com/2026/02/21/why-is-claude-an-electron-app.html
+Comments URL: https://news.ycombinator.com/item?id=47104973
+Points: 177
+# Comments: 104]]></summary>
+        <author>
+            <name>dbreunig</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[EDuke32 – Duke Nukem 3D (Open-Source)]]></title>
         <id>https://news.ycombinator.com/item?id=47104185</id>
@@ -46,6 +59,19 @@ Points: 78
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Toyota Mirai hydrogen car depreciation: 65% value loss in a year]]></title>
+        <id>https://news.ycombinator.com/item?id=47103136</id>
+        <link href="https://carbuzz.com/toyota-mirai-massive-depreciation-one-year/"/>
+        <updated>2026-02-21T18:09:24.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://carbuzz.com/toyota-mirai-massive-depreciation-one-year/
+Comments URL: https://news.ycombinator.com/item?id=47103136
+Points: 66
+# Comments: 153]]></summary>
+        <author>
+            <name>iancmceachern</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Personal Statement of a CIA Analyst]]></title>
         <id>https://news.ycombinator.com/item?id=47102975</id>
         <link href="https://antipolygraph.org/statements/statement-038.shtml"/>
@@ -72,6 +98,19 @@ Points: 183
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Show HN: Iron-Wolf – Wolfenstein 3D source port in Rust]]></title>
+        <id>https://news.ycombinator.com/item?id=47101890</id>
+        <link href="https://github.com/Ragnaroek/iron-wolf"/>
+        <updated>2026-02-21T15:52:20.000Z</updated>
+        <summary type="html"><![CDATA[The goal is to have a pixel, mod-friendly perfect recreation of Wolfenstein 3D in Rust.
+Comments URL: https://news.ycombinator.com/item?id=47101890
+Points: 50
+# Comments: 18]]></summary>
+        <author>
+            <name>ragnaroekX</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[macOS's Little-Known Command-Line Sandboxing Tool]]></title>
         <id>https://news.ycombinator.com/item?id=47101200</id>
         <link href="https://igorstechnoclub.com/sandbox-exec/"/>
@@ -95,6 +134,19 @@ Points: 52
 # Comments: 18]]></summary>
         <author>
             <name>phront</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[zclaw: personal AI assistant in under 888 KB, running on an ESP32]]></title>
+        <id>https://news.ycombinator.com/item?id=47100232</id>
+        <link href="https://github.com/tnm/zclaw"/>
+        <updated>2026-02-21T12:37:52.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://github.com/tnm/zclaw
+Comments URL: https://news.ycombinator.com/item?id=47100232
+Points: 56
+# Comments: 39]]></summary>
+        <author>
+            <name>tosh</name>
         </author>
     </entry>
     <entry>
@@ -18227,39 +18279,6 @@ Points: 85
 # Comments: 28]]></summary>
         <author>
             <name>rvermeulen98</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ask HN: What's the current best local/open speech-to-speech setup?]]></title>
-        <id>https://news.ycombinator.com/item?id=46731068</id>
-        <link href="https://news.ycombinator.com/item?id=46731068"/>
-        <updated>2026-01-23T11:04:18.000Z</updated>
-        <summary type="html"><![CDATA[I’m trying to do the “voice assistant” thing fully locally: mic → model → speaker, low latency, ideally streaming + interruptible (barge-in).
-Qwen3 Omni looks perfect on paper (“real-time”, speech-to-speech, etc). But I’ve been poking around and I can’t find a single reproducible “here’s how I got the open weights doing real speech-to-speech locally” writeup. Lots of “speech in → text out” or “audio out after the model finishes”, but not a usable realtime voice loop. Feels like either (a) the tooling isn’t there yet, or (b) I’m missing the secret sauce.
-What are people actually using in 2026 if they want open + local voice?
-Is anyone doing true end-to-end speech models locally (streaming audio out), or is the SOTA still “streaming ASR + LLM + streaming TTS” glued together?
-If you did get Qwen3 Omni speech-to-speech working: what stack (transformers / vLLM-omni / something else), what hardware, and is it actually realtime?
-What’s the most “works today” combo on a single GPU?
-Bonus: rough numbers people see for mic → first audio back
-Would love pointers to repos, configs, or “this is the one that finally worked for me” war stories.
-Comments URL: https://news.ycombinator.com/item?id=46731068
-Points: 57
-# Comments: 14]]></summary>
-        <author>
-            <name>dsrtslnd23</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Booting from a vinyl record (2020)]]></title>
-        <id>https://news.ycombinator.com/item?id=46730885</id>
-        <link href="https://boginjr.com/it/sw/dev/vinyl-boot/"/>
-        <updated>2026-01-23T10:39:09.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://boginjr.com/it/sw/dev/vinyl-boot/
-Comments URL: https://news.ycombinator.com/item?id=46730885
-Points: 67
-# Comments: 17]]></summary>
-        <author>
-            <name>yesturi</name>
         </author>
     </entry>
 </feed>
