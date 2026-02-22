@@ -6,6 +6,26 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=47106686",
+          "author": "vinhnx",
+          "description": "Article URL: https://boristane.com/blog/how-i-use-claude-code/\nComments URL: https://news.ycombinator.com/item?id=47106686\nPoints: 117\n# Comments: 65",
+          "link": "https://boristane.com/blog/how-i-use-claude-code/",
+          "publishedOn": "2026-02-22T00:29:05.000Z",
+          "wordCount": 2828,
+          "title": "How I use Claude Code: Separation of planning and execution",
+          "imageUrl": "https://boristane.com/assets/blog/how-i-use-claude-code/og.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47105198",
+          "author": "suddenlybananas",
+          "description": "Article URL: https://www.science.org/doi/10.1126/science.adq7188\nComments URL: https://news.ycombinator.com/item?id=47105198\nPoints: 71\n# Comments: 22",
+          "link": "https://www.science.org/doi/10.1126/science.adq7188",
+          "publishedOn": "2026-02-21T21:51:58.000Z",
+          "wordCount": null,
+          "title": "Evidence of the bouba-kiki effect in naïve baby chicks",
+          "imageUrl": null
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=47104973",
           "author": "dbreunig",
           "description": "Article URL: https://www.dbreunig.com/2026/02/21/why-is-claude-an-electron-app.html\nComments URL: https://news.ycombinator.com/item?id=47104973\nPoints: 177\n# Comments: 104",
@@ -16,6 +36,16 @@
           "imageUrl": "/img/sf_beach_og.jpg"
         },
         {
+          "id": "https://news.ycombinator.com/item?id=47104667",
+          "author": "xaskasdf",
+          "description": "Hi everyone, I'm kinda involved in some retrogaming and with some experiments I ran into the following question: \"It would be possible to run transformer models bypassing the cpu/ram, connecting the gpu to the nvme?\"\nThis is the result of that question itself and some weekend vibecoding (it has the linked library repository in the readme as well), it seems to work, even on consumer gpus, it should work better on professional ones tho\nComments URL: https://news.ycombinator.com/item?id=47104667\nPoints: 105\n# Comments: 26",
+          "link": "https://github.com/xaskasdf/ntransformer",
+          "publishedOn": "2026-02-21T20:57:30.000Z",
+          "wordCount": 5679,
+          "title": "Show HN: Llama 3.1 70B on a single RTX 3090 via NVMe-to-GPU bypassing the CPU",
+          "imageUrl": "https://opengraph.githubassets.com/65c0defe095dd1ebfd5c9422c75a6c1674fcdcea3a54da1b4aa4828f90222b4e/xaskasdf/ntransformer"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=47104185",
           "author": "reconnecting",
           "description": "Article URL: https://www.eduke32.com/\nComments URL: https://news.ycombinator.com/item?id=47104185\nPoints: 87\n# Comments: 24",
@@ -23,6 +53,16 @@
           "publishedOn": "2026-02-21T20:10:13.000Z",
           "wordCount": 824,
           "title": "EDuke32 – Duke Nukem 3D (Open-Source)",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47103945",
+          "author": "akyuu",
+          "description": "Article URL: https://inputlag.science\nComments URL: https://news.ycombinator.com/item?id=47103945\nPoints: 66\n# Comments: 12",
+          "link": "https://inputlag.science/",
+          "publishedOn": "2026-02-21T19:41:52.000Z",
+          "wordCount": 233,
+          "title": "Inputlag.science – Repository of knowledge about input lag in gaming",
           "imageUrl": null
         },
         {
@@ -44,6 +84,16 @@
           "wordCount": 3523,
           "title": "Cloudflare outage on February 20, 2026",
           "imageUrl": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/uFzR7cRW6VzZMP5YSUNZV/4120d828e3f57c095b51b2be805d2a02/BLOG-3193_OG.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47103506",
+          "author": "PaulHoule",
+          "description": "Article URL: https://github.com/a-e-k/canvas_ity\nComments URL: https://news.ycombinator.com/item?id=47103506\nPoints: 61\n# Comments: 23",
+          "link": "https://github.com/a-e-k/canvas_ity",
+          "publishedOn": "2026-02-21T18:50:19.000Z",
+          "wordCount": 6518,
+          "title": "Canvas_ity: A tiny, single-header <canvas>-like 2D rasterizer for C++",
+          "imageUrl": "https://opengraph.githubassets.com/febe573eac9db95685420b26d4055e5a0b2be8d8b6a3097f7520ae4605225166/a-e-k/canvas_ity"
         },
         {
           "id": "https://news.ycombinator.com/item?id=47103136",
@@ -13584,96 +13634,6 @@
           "wordCount": 958,
           "title": "Waypoint-1: Real-Time Interactive Video Diffusion from Overworld",
           "imageUrl": "https://huggingface.co/blog/assets/overworld/overworld_image.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46733079",
-          "author": "perihelions",
-          "description": "Article URL: https://www.cambridge.org/core/journals/classical-quarterly/article/hellenistic-warelephants-and-the-use-of-alcohol-before-battle/39A749F62E21ED16C9CCA3B03E176561\nComments URL: https://news.ycombinator.com/item?id=46733079\nPoints: 50\n# Comments: 24",
-          "link": "https://www.cambridge.org/core/journals/classical-quarterly/article/hellenistic-warelephants-and-the-use-of-alcohol-before-battle/39A749F62E21ED16C9CCA3B03E176561",
-          "publishedOn": "2026-01-23T14:44:14.000Z",
-          "wordCount": 38642,
-          "title": "Hellenistic War-Elephants and the Use of Alcohol Before Battle",
-          "imageUrl": "https://static.cambridge.org/covers/CAQ_0_0_0/the_classical quarterly.jpg?send-full-size-image=true"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46732967",
-          "author": "bpierre",
-          "description": "Article URL: https://www.korg.com/us/products/dj/phase8/\nComments URL: https://news.ycombinator.com/item?id=46732967\nPoints: 80\n# Comments: 46",
-          "link": "https://www.korg.com/us/products/dj/phase8/",
-          "publishedOn": "2026-01-23T14:34:46.000Z",
-          "wordCount": 790,
-          "title": "KORG phase8 – Acoustic Synthesizer",
-          "imageUrl": "https://cdn.korg.com/us/products/upload/4b2fec8f24b76d6b3e5b44e7f0dfc50e.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46732514",
-          "author": "tobr",
-          "description": "Article URL: https://thinkygames.com/features/in-a-genre-where-information-is-sacred-and-spoilers-are-devastating-how-do-we-talk-about-puzzle-games/\nComments URL: https://news.ycombinator.com/item?id=46732514\nPoints: 53\n# Comments: 47",
-          "link": "https://thinkygames.com/features/in-a-genre-where-information-is-sacred-and-spoilers-are-devastating-how-do-we-talk-about-puzzle-games/",
-          "publishedOn": "2026-01-23T13:55:04.000Z",
-          "wordCount": null,
-          "title": "In a genre where spoilers are devastating, how do we talk about puzzle games?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46732213",
-          "author": "ibobev",
-          "description": "Article URL: https://radicle.xyz\nComments URL: https://news.ycombinator.com/item?id=46732213\nPoints: 59\n# Comments: 28",
-          "link": "https://radicle.xyz/",
-          "publishedOn": "2026-01-23T13:25:42.000Z",
-          "wordCount": 821,
-          "title": "Radicle: The Sovereign Forge",
-          "imageUrl": "https://radicle.xyz/assets/images/og-card.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46731996",
-          "author": "mrled",
-          "description": "Article URL: https://tinyapps.org/blog/microsoft-mishandling-example-com.html\nComments URL: https://news.ycombinator.com/item?id=46731996\nPoints: 74\n# Comments: 21",
-          "link": "https://tinyapps.org/blog/microsoft-mishandling-example-com.html",
-          "publishedOn": "2026-01-23T13:04:09.000Z",
-          "wordCount": 656,
-          "title": "Microsoft mishandling example.com",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46731976",
-          "author": "s_dev",
-          "description": "Article URL: https://european-alternatives.eu\nComments URL: https://news.ycombinator.com/item?id=46731976\nPoints: 55\n# Comments: 6",
-          "link": "https://european-alternatives.eu/",
-          "publishedOn": "2026-01-23T13:01:51.000Z",
-          "wordCount": 572,
-          "title": "European Alternatives",
-          "imageUrl": "https://mediamask.io/image/6056a97d-b893-4caf-a1f8-12f8251ae300?title=Homepage&description=We%20help%20you%20find%20European%20alternatives%20for%20digital%20service%20and%20products%2C%20like%20cloud%20services%20and%20SaaS%20products.&signature=3459f109bbfc270601ac5911fc64f8f9cce3bcf0f63bc2331a2504ac11497611"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46731748",
-          "author": "tuananh",
-          "description": "Article URL: https://tuananh.net/2026/01/20/what-has-docker-become/\nComments URL: https://news.ycombinator.com/item?id=46731748\nPoints: 80\n# Comments: 59",
-          "link": "https://tuananh.net/2026/01/20/what-has-docker-become/",
-          "publishedOn": "2026-01-23T12:36:17.000Z",
-          "wordCount": 992,
-          "title": "What has Docker become?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46731612",
-          "author": "tock",
-          "description": "Article URL: https://rubinmuseum.org/presence-in-death/\nComments URL: https://news.ycombinator.com/item?id=46731612\nPoints: 58\n# Comments: 16",
-          "link": "https://rubinmuseum.org/presence-in-death/",
-          "publishedOn": "2026-01-23T12:16:54.000Z",
-          "wordCount": 2618,
-          "title": "Presence in Death",
-          "imageUrl": "https://rubinmuseum.org/wp-content/uploads/post/presence-in-death/tukdam.final_-768x677.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46731432",
-          "author": "rvermeulen98",
-          "description": "Article URL: https://github.com/ramonvermeulen/whosthere\nComments URL: https://news.ycombinator.com/item?id=46731432\nPoints: 85\n# Comments: 28",
-          "link": "https://github.com/ramonvermeulen/whosthere",
-          "publishedOn": "2026-01-23T11:54:53.000Z",
-          "wordCount": 4263,
-          "title": "Show HN: Whosthere: A LAN discovery tool with a modern TUI, written in Go",
-          "imageUrl": "https://opengraph.githubassets.com/9a3bdac9dd4a88cb530146d8613ffb7d220700e74e2c03b74380c7e05467cd98/ramonvermeulen/whosthere"
         }
       ]
     }
