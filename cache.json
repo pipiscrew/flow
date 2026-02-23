@@ -6,6 +6,16 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=47125286",
+          "author": "zdw",
+          "description": "Article URL: https://smallcultfollowing.com/babysteps/blog/2026/02/23/ubuntu-rustnation/\nComments URL: https://news.ycombinator.com/item?id=47125286\nPoints: 51\n# Comments: 46",
+          "link": "https://smallcultfollowing.com/babysteps/blog/2026/02/23/ubuntu-rustnation/",
+          "publishedOn": "2026-02-23T17:15:14.000Z",
+          "wordCount": 2456,
+          "title": "What it means that Ubuntu is using Rust",
+          "imageUrl": null
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=47124325",
           "author": "danalec",
           "description": "Article URL: https://github.com/danalec/DMMSY-SSSP\nComments URL: https://news.ycombinator.com/item?id=47124325\nPoints: 61\n# Comments: 11",
@@ -14,6 +24,26 @@
           "wordCount": 2680,
           "title": "C99 implementation of new O(m log^(2/3) n) shortest path algorithm",
           "imageUrl": "https://opengraph.githubassets.com/593909b6524c61ab0cf0877145d4f6159d688b30f67fa1d979d36350c44e62c4/danalec/DMMSY-SSSP"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47124149",
+          "author": "speckx",
+          "description": "Article URL: https://rsdoiel.github.io/blog/2026/02/21/a_simple_web_we_own.html\nComments URL: https://news.ycombinator.com/item?id=47124149\nPoints: 104\n# Comments: 63",
+          "link": "https://rsdoiel.github.io/blog/2026/02/21/a_simple_web_we_own.html",
+          "publishedOn": "2026-02-23T16:01:18.000Z",
+          "wordCount": 5662,
+          "title": "A simple web we own",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47123631",
+          "author": "levkk",
+          "description": "Hey HN! Lev and Justin here, authors of PgDog (https://pgdog.dev/), a connection pooler, load balancer and database sharder for PostgreSQL. If you build apps with a lot of traffic, you know the first thing to break is the database. We are solving this with a network proxy that works without requiring application code changes or database migrations.\nOur post from last year: https://news.ycombinator.com/item?id=44099187\nThe most important update: we are in production. Sharding is used a lot, with direct-to-shard  queries (one shard per query) working pretty much all the time. Cross-shard (or multi-database) queries are still a work in progress, but we are making headway.\nAggregate functions like count(), min(), max(), avg(), stddev() and variance() are working, without refactoring the app. P…",
+          "link": "https://github.com/pgdogdev/pgdog",
+          "publishedOn": "2026-02-23T15:33:24.000Z",
+          "wordCount": 10163,
+          "title": "Show HN: PgDog – Scale Postgres without changing the app",
+          "imageUrl": "https://opengraph.githubassets.com/2beeadb8eca5b9bd7cc6e61fdd9c91d1128afaa999202e5a9f08e011e2db5556/pgdogdev/pgdog"
         },
         {
           "id": "https://news.ycombinator.com/item?id=47122789",
@@ -444,6 +474,16 @@
           "wordCount": 2145,
           "title": "CXMT has been offering DDR4 chips at about half the prevailing market rate",
           "imageUrl": "https://wimg.heraldcorp.com/news/cms/2026/02/20/news-p.v1.20260220.1686b9f4331c4661b835adf082563d1a_T1.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47100612",
+          "author": "bookofjoe",
+          "description": "Article URL: https://www.science.org/content/article/viking-was-job-description-not-matter-heredity-massive-ancient-dna-study-shows\nComments URL: https://news.ycombinator.com/item?id=47100612\nPoints: 50\n# Comments: 36",
+          "link": "https://www.science.org/content/article/viking-was-job-description-not-matter-heredity-massive-ancient-dna-study-shows",
+          "publishedOn": "2026-02-21T13:24:04.000Z",
+          "wordCount": null,
+          "title": "'Viking' was a job description, not a matter of heredity: Ancient DNA study",
+          "imageUrl": null
         },
         {
           "id": "https://news.ycombinator.com/item?id=47100232",
