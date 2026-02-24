@@ -2,10 +2,62 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-02-23T23:38:12.324Z</updated>
+    <updated>2026-02-24T02:43:08.264Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Shatner is making an album with 35 metal icons]]></title>
+        <id>https://news.ycombinator.com/item?id=47131173</id>
+        <link href="https://www.guitarworld.com/artists/guitarists/william-shatner-announces-all-star-metal-album"/>
+        <updated>2026-02-24T00:33:06.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.guitarworld.com/artists/guitarists/william-shatner-announces-all-star-metal-album
+Comments URL: https://news.ycombinator.com/item?id=47131173
+Points: 76
+# Comments: 35]]></summary>
+        <author>
+            <name>mhb</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AI Added 'Basically Zero' to US Economic Growth Last Year, Goldman Sachs Says]]></title>
+        <id>https://news.ycombinator.com/item?id=47130208</id>
+        <link href="https://gizmodo.com/ai-added-basically-zero-to-us-economic-growth-last-year-goldman-sachs-says-2000725380"/>
+        <updated>2026-02-23T22:55:08.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://gizmodo.com/ai-added-basically-zero-to-us-economic-growth-last-year-goldman-sachs-says-2000725380
+Comments URL: https://news.ycombinator.com/item?id=47130208
+Points: 179
+# Comments: 164]]></summary>
+        <author>
+            <name>cdrnsf</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Making Wolfram Tech Available as a Foundation Tool for LLM Systems]]></title>
+        <id>https://news.ycombinator.com/item?id=47129727</id>
+        <link href="https://writings.stephenwolfram.com/2026/02/making-wolfram-tech-available-as-a-foundation-tool-for-llm-systems/"/>
+        <updated>2026-02-23T22:11:34.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://writings.stephenwolfram.com/2026/02/making-wolfram-tech-available-as-a-foundation-tool-for-llm-systems/
+Comments URL: https://news.ycombinator.com/item?id=47129727
+Points: 54
+# Comments: 33]]></summary>
+        <author>
+            <name>surprisetalk</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[You are not supposed to install OpenClaw on your personal computer]]></title>
+        <id>https://news.ycombinator.com/item?id=47129647</id>
+        <link href="https://twitter.com/i/status/2025987544853188836"/>
+        <updated>2026-02-23T22:05:27.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://twitter.com/i/status/2025987544853188836
+Comments URL: https://news.ycombinator.com/item?id=47129647
+Points: 102
+# Comments: 61]]></summary>
+        <author>
+            <name>bundie</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[FreeBSD doesn't have Wi-Fi driver for my old MacBook. AI build one for me]]></title>
         <id>https://news.ycombinator.com/item?id=47129361</id>
@@ -43,6 +95,30 @@ Points: 52
 # Comments: 12]]></summary>
         <author>
             <name>LorenDB</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Babyshark – Wireshark made easy (terminal UI for PCAPs)]]></title>
+        <id>https://news.ycombinator.com/item?id=47128535</id>
+        <link href="https://github.com/vignesh07/babyshark"/>
+        <updated>2026-02-23T20:45:34.000Z</updated>
+        <summary type="html"><![CDATA[Hey all, I built babyshark, a terminal UI for PCAPs aimed at people who find Wireshark powerful but overwhelming.
+The goal is “PCAPs for humans”:
+Overview dashboard answers what’s happening + what to click next
+Domains view (hostnames first) → select a domain → jump straight to relevant flows
+(works even when DNS is encrypted/cached by using observed IPs from flows)
+Weird stuff view surfaces common failure/latency signals (retransmits/out-of-order hints, resets, handshake issues, DNS failures when visible)
+From there you can drill down: Flows → Packets → Explain (plain-English hints) / follow stream
+Commands:
+Offline: babyshark --pcap capture.pcap
+Live (requires tshark): babyshark --list-ifaces then babyshark --live en0
+Repo + v0.1.0 release: https://github.com/vignesh07/babyshark
+Would love feedback on UX + what “weird detectors” you’d want next.
+Comments URL: https://news.ycombinator.com/item?id=47128535
+Points: 63
+# Comments: 30]]></summary>
+        <author>
+            <name>eigen-vector</name>
         </author>
     </entry>
     <entry>
@@ -17786,84 +17862,6 @@ Points: 50
 # Comments: 6]]></summary>
         <author>
             <name>vitaut</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Wine-Staging 11.1 Adds Patches for Enabling Recent Photoshop Versions on Linux]]></title>
-        <id>https://news.ycombinator.com/item?id=46754427</id>
-        <link href="https://www.phoronix.com/news/Wine-Staging-11.1"/>
-        <updated>2026-01-25T14:42:39.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.phoronix.com/news/Wine-Staging-11.1
-Comments URL: https://news.ycombinator.com/item?id=46754427
-Points: 50
-# Comments: 1]]></summary>
-        <author>
-            <name>LorenDB</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Iran Protest Death Toll Could Top 30k, According to Local Health Officials]]></title>
-        <id>https://news.ycombinator.com/item?id=46754132</id>
-        <link href="https://time.com/7357635/more-than-30000-killed-in-iran-say-senior-officials/"/>
-        <updated>2026-01-25T13:59:42.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://time.com/7357635/more-than-30000-killed-in-iran-say-senior-officials/
-Comments URL: https://news.ycombinator.com/item?id=46754132
-Points: 138
-# Comments: 37]]></summary>
-        <author>
-            <name>mhb</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Web-based image editor modeled after Deluxe Paint]]></title>
-        <id>https://news.ycombinator.com/item?id=46753708</id>
-        <link href="https://github.com/steffest/DPaint-js"/>
-        <updated>2026-01-25T12:54:53.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://github.com/steffest/DPaint-js
-Comments URL: https://news.ycombinator.com/item?id=46753708
-Points: 54
-# Comments: 4]]></summary>
-        <author>
-            <name>bananaboy</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Alarm overload is undermining safety at sea as crews face thousands of alerts]]></title>
-        <id>https://news.ycombinator.com/item?id=46753611</id>
-        <link href="https://www.lr.org/en/knowledge/press-room/press-listing/press-release/2026/alarm-overload-is-undermining-safety-at-sea-as-new-research-shows-crews-face-tens-of-thousands-of-daily-alerts/"/>
-        <updated>2026-01-25T12:40:00.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.lr.org/en/knowledge/press-room/press-listing/press-release/2026/alarm-overload-is-undermining-safety-at-sea-as-new-research-shows-crews-face-tens-of-thousands-of-daily-alerts/
-Comments URL: https://news.ycombinator.com/item?id=46753611
-Points: 67
-# Comments: 35]]></summary>
-        <author>
-            <name>geox</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Doom has been ported to an earbud]]></title>
-        <id>https://news.ycombinator.com/item?id=46753484</id>
-        <link href="https://doombuds.com/"/>
-        <updated>2026-01-25T12:22:12.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://doombuds.com
-Comments URL: https://news.ycombinator.com/item?id=46753484
-Points: 94
-# Comments: 25]]></summary>
-        <author>
-            <name>arin-s</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: Bonsplit – Tabs and splits for native macOS apps]]></title>
-        <id>https://news.ycombinator.com/item?id=46753301</id>
-        <link href="https://bonsplit.alasdairmonk.com/"/>
-        <updated>2026-01-25T11:56:42.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://bonsplit.alasdairmonk.com
-Comments URL: https://news.ycombinator.com/item?id=46753301
-Points: 72
-# Comments: 14]]></summary>
-        <author>
-            <name>sgottit</name>
         </author>
     </entry>
 </feed>
