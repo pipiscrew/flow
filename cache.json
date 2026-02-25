@@ -6,6 +6,16 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=47148025",
+          "author": "mksglu",
+          "description": "Every MCP tool call dumps raw data into Claude Code's 200K context window. A Playwright snapshot costs 56 KB, 20 GitHub issues cost 59 KB. After 30 minutes, 40% of your context is gone.\nI built an MCP server that sits between Claude Code and these outputs. It processes them in sandboxes and only returns summaries. 315 KB becomes 5.4 KB.\nIt supports 10 language runtimes, SQLite FTS5 with BM25 ranking for search, and batch execution. Session time before slowdown goes from ~30 min to ~3 hours.\nMIT licensed, single command install:\n/plugin marketplace add mksglu/claude-context-mode\n/plugin install context-mode@claude-context-mode\nBenchmarks and source: https://github.com/mksglu/claude-context-mode\nWould love feedback from anyone hitting context limits in Claude Code.\nComments URL: https://news.ycombinator.com/item?id=47148025\nPoints: 56\n# Comments: 17",
+          "link": "https://github.com/mksglu/claude-context-mode",
+          "publishedOn": "2026-02-25T06:23:30.000Z",
+          "wordCount": 4927,
+          "title": "Show HN: Context Mode – 315 KB of MCP output becomes 5.4 KB in Claude Code",
+          "imageUrl": "https://opengraph.githubassets.com/4f6833a368aa8d06b6dd6013849d75cba174f6c0590fefb264f00692788f8aab/mksglu/claude-context-mode"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=47145963",
           "author": "cwwc",
           "description": "Article URL: https://time.com/7380854/exclusive-anthropic-drops-flagship-safety-pledge/\nComments URL: https://news.ycombinator.com/item?id=47145963\nPoints: 121\n# Comments: 39",
@@ -274,6 +284,16 @@
           "wordCount": 2179,
           "title": "Stripe valued at $159B, 2025 annual letter",
           "imageUrl": "https://images.stripeassets.com/fzn2n1nzq965/42EFKVMF30ZAldLXtTHYWM/1632284eb36fc3df5aa5a1d115cbd4fb/annualletter2025_newsroom2000x1000.png?q=80"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47137013",
+          "author": "0x5FC3",
+          "description": "Article URL: https://pop.rdi.sh/sovereignty-in-a-system-prompt/\nComments URL: https://news.ycombinator.com/item?id=47137013\nPoints: 55\n# Comments: 33",
+          "link": "https://pop.rdi.sh/sovereignty-in-a-system-prompt/",
+          "publishedOn": "2026-02-24T13:38:54.000Z",
+          "wordCount": 2733,
+          "title": "Sovereignty in a System Prompt",
+          "imageUrl": null
         },
         {
           "id": "https://news.ycombinator.com/item?id=47136658",
@@ -593,6 +613,16 @@
           "publishedOn": "2026-02-23T17:18:41.000Z",
           "wordCount": null,
           "title": "ASML unveils EUV light source advance that could yield 50% more chips by 2030",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47125287",
+          "author": "gligierko",
+          "description": "Article URL: https://www.linguabase.org/words-with-spaces.html\nComments URL: https://news.ycombinator.com/item?id=47125287\nPoints: 61\n# Comments: 97",
+          "link": "https://www.linguabase.org/words-with-spaces.html",
+          "publishedOn": "2026-02-23T17:15:22.000Z",
+          "wordCount": 12917,
+          "title": "Half million 'Words with Spaces' missing from dictionaries",
           "imageUrl": null
         },
         {
@@ -13173,46 +13203,6 @@
           "publishedOn": "2026-01-26T22:29:54.000Z",
           "wordCount": 779,
           "title": "I let ChatGPT analyze a decade of my Apple Watch data, then I called my doctor",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46772212",
-          "author": "xd1936",
-          "description": "Article URL: https://ntdotdev.wordpress.com/2026/01/25/state-of-the-windows-what-is-going-on-with-windows-11/\nComments URL: https://news.ycombinator.com/item?id=46772212\nPoints: 84\n# Comments: 103",
-          "link": "https://ntdotdev.wordpress.com/2026/01/25/state-of-the-windows-what-is-going-on-with-windows-11/",
-          "publishedOn": "2026-01-26T22:03:04.000Z",
-          "wordCount": 11680,
-          "title": "State of the Windows: What is going on with Windows 11?",
-          "imageUrl": "https://ntdotdev.wordpress.com/wp-content/uploads/2026/01/image-10.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46772132",
-          "author": "evakhoury",
-          "description": "Article URL: https://ntietz.com/blog/making-niche-solutions-is-the-point/\nComments URL: https://news.ycombinator.com/item?id=46772132\nPoints: 56\n# Comments: 19",
-          "link": "https://ntietz.com/blog/making-niche-solutions-is-the-point/",
-          "publishedOn": "2026-01-26T21:56:05.000Z",
-          "wordCount": 1325,
-          "title": "Making niche solutions is the point",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46771599",
-          "author": "fortran77",
-          "description": "Gift link: https://www.wsj.com/business/the-secret-society-of-people-wh...\nComments URL: https://news.ycombinator.com/item?id=46771599\nPoints: 50\n# Comments: 94",
-          "link": "https://www.wsj.com/business/the-secret-society-of-people-who-know-the-formula-for-wd-40-e9c0ff54",
-          "publishedOn": "2026-01-26T21:11:53.000Z",
-          "wordCount": null,
-          "title": "People who know the formula for WD-40",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46771564",
-          "author": "bigwheels",
-          "description": "https://xcancel.com/karpathy/status/2015883857489522876\nComments URL: https://news.ycombinator.com/item?id=46771564\nPoints: 94\n# Comments: 115",
-          "link": "https://twitter.com/karpathy/status/2015883857489522876",
-          "publishedOn": "2026-01-26T21:09:19.000Z",
-          "wordCount": 800,
-          "title": "A few random notes from Claude coding quite a bit last few weeks",
           "imageUrl": null
         }
       ]
