@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-02-25T11:43:09.972Z</updated>
+    <updated>2026-02-25T13:20:37.048Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
@@ -20,6 +20,29 @@ Points: 59
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Show HN: A real-time strategy game that AI agents can play]]></title>
+        <id>https://news.ycombinator.com/item?id=47149586</id>
+        <link href="https://llmskirmish.com/"/>
+        <updated>2026-02-25T10:02:45.000Z</updated>
+        <summary type="html"><![CDATA[I've liked all the projects that put LLMs into game environments. It's been a weird juxtaposition, though: frontier LLMs can one-shot full coding projects, and those same models struggle to get out of Pokémon Red's Mt. Moon.
+Because of this, I wanted to create a game environment that put this generation of frontier LLMs' top skill, coding, on full display.
+Ten years ago, a team released a game called Screeps. It was described as an "MMO RTS sandbox for programmers." The Screeps paradigm of writing code and having it executed in a real-time game environment is well suited to LLMs. Drawing on a version of the Screeps open source API, LLM Skirmish pits LLMs head-to-head in a series of 1v1 real-time strategy games.
+In my testing I found that Claude Opus 4.5 was the most dominant model, but it showed weakness in round 1 as it was overly focused on its in-game economy. Meanwhile, I probably spent a third of all code on sandbox hardening because GPT 5.2 kept trying to cheat by pre-reading its opponent's strategies.
+If there's interest, I'm planning on doing a round of testing with the latest generation of LLMs (Claude 4.6 Opus, GPT 5.3 Codex, etc.).
+You can run local matches via CLI. I'm running a hosted match runner with Google Cloud Run that uses isolated-vm. The match playback visualizer is statically served from Cloudflare.
+I've created a community ladder that you can submit strategies to via CLI, no auth required. I've found that the CLI plus the skill.md that's available has been enough for AI agents to immediately get started.
+Website: https://llmskirmish.com
+API docs: https://llmskirmish.com/docs
+GitHub: https://github.com/llmskirmish/skirmish
+A video of a match: https://www.youtube.com/watch?v=lnBPaZ1qamM
+Comments URL: https://news.ycombinator.com/item?id=47149586
+Points: 83
+# Comments: 29]]></summary>
+        <author>
+            <name>__cayenne__</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[LLM=True]]></title>
         <id>https://news.ycombinator.com/item?id=47149151</id>
         <link href="https://blog.codemine.be/posts/2026/20260222-be-quiet/"/>
@@ -30,6 +53,19 @@ Points: 97
 # Comments: 63]]></summary>
         <author>
             <name>avh3</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Claude Code Remote Control]]></title>
+        <id>https://news.ycombinator.com/item?id=47148454</id>
+        <link href="https://code.claude.com/docs/en/remote-control"/>
+        <updated>2026-02-25T07:22:56.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://code.claude.com/docs/en/remote-control
+Comments URL: https://news.ycombinator.com/item?id=47148454
+Points: 101
+# Comments: 72]]></summary>
+        <author>
+            <name>empressplay</name>
         </author>
     </entry>
     <entry>
@@ -17682,45 +17718,6 @@ Points: 59
 # Comments: 11]]></summary>
         <author>
             <name>tokyobreakfast</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[iPhone 5s Gets New Software Update 13 Years After Launch]]></title>
-        <id>https://news.ycombinator.com/item?id=46774108</id>
-        <link href="https://www.macrumors.com/2026/01/26/iphone-5s-software-update/"/>
-        <updated>2026-01-27T01:04:54.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.macrumors.com/2026/01/26/iphone-5s-software-update/
-Comments URL: https://news.ycombinator.com/item?id=46774108
-Points: 73
-# Comments: 22]]></summary>
-        <author>
-            <name>angott</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Quack-Cluster: A Serverless Distributed SQL Query Engine with DuckDB and Ray]]></title>
-        <id>https://news.ycombinator.com/item?id=46773793</id>
-        <link href="https://github.com/kristianaryanto/Quack-Cluster"/>
-        <updated>2026-01-27T00:24:56.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://github.com/kristianaryanto/Quack-Cluster
-Comments URL: https://news.ycombinator.com/item?id=46773793
-Points: 50
-# Comments: 10]]></summary>
-        <author>
-            <name>tanelpoder</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Engineer who invented the Mars Rover Suspension in his garage [video]]]></title>
-        <id>https://news.ycombinator.com/item?id=46773655</id>
-        <link href="https://www.youtube.com/watch?v=QKSPk_0N4Jc"/>
-        <updated>2026-01-27T00:08:33.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.youtube.com/watch?v=QKSPk_0N4Jc
-Comments URL: https://news.ycombinator.com/item?id=46773655
-Points: 104
-# Comments: 16]]></summary>
-        <author>
-            <name>UltraSane</name>
         </author>
     </entry>
 </feed>
