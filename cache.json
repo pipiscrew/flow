@@ -6,6 +6,26 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=47149701",
+          "author": "robtherobber",
+          "description": "Article URL: https://therecord.media/denmark-digital-agency-microsoft-digital-independence\nComments URL: https://news.ycombinator.com/item?id=47149701\nPoints: 59\n# Comments: 14",
+          "link": "https://therecord.media/denmark-digital-agency-microsoft-digital-independence",
+          "publishedOn": "2026-02-25T10:16:22.000Z",
+          "wordCount": 1856,
+          "title": "Danish government agency to ditch Microsoft software (2025)",
+          "imageUrl": "https://cms.therecord.media/uploads/format_webp/Folketinget_facade_Copenhagen_Denmark_0ab65772c0.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47149151",
+          "author": "avh3",
+          "description": "Article URL: https://blog.codemine.be/posts/2026/20260222-be-quiet/\nComments URL: https://news.ycombinator.com/item?id=47149151\nPoints: 97\n# Comments: 63",
+          "link": "https://blog.codemine.be/posts/2026/20260222-be-quiet/",
+          "publishedOn": "2026-02-25T09:05:40.000Z",
+          "wordCount": 1256,
+          "title": "LLM=True",
+          "imageUrl": "https://blog.codemine.be/images/2026/be-quiet/agent_dogs.jpg"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=47148025",
           "author": "mksglu",
           "description": "Every MCP tool call dumps raw data into Claude Code's 200K context window. A Playwright snapshot costs 56 KB, 20 GitHub issues cost 59 KB. After 30 minutes, 40% of your context is gone.\nI built an MCP server that sits between Claude Code and these outputs. It processes them in sandboxes and only returns summaries. 315 KB becomes 5.4 KB.\nIt supports 10 language runtimes, SQLite FTS5 with BM25 ranking for search, and batch execution. Session time before slowdown goes from ~30 min to ~3 hours.\nMIT licensed, single command install:\n/plugin marketplace add mksglu/claude-context-mode\n/plugin install context-mode@claude-context-mode\nBenchmarks and source: https://github.com/mksglu/claude-context-mode\nWould love feedback from anyone hitting context limits in Claude Code.\nComments URL: https://news.ycombinator.com/item?id=47148025\nPoints: 56\n# Comments: 17",
@@ -14,6 +34,16 @@
           "wordCount": 4927,
           "title": "Show HN: Context Mode – 315 KB of MCP output becomes 5.4 KB in Claude Code",
           "imageUrl": "https://opengraph.githubassets.com/4f6833a368aa8d06b6dd6013849d75cba174f6c0590fefb264f00692788f8aab/mksglu/claude-context-mode"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47147609",
+          "author": "todsacerdoti",
+          "description": "Article URL: https://arxiv.org/abs/2602.20762\nComments URL: https://news.ycombinator.com/item?id=47147609\nPoints: 59\n# Comments: 10",
+          "link": "https://arxiv.org/abs/2602.20762",
+          "publishedOn": "2026-02-25T05:16:39.000Z",
+          "wordCount": 662,
+          "title": "Turing Completeness of GNU find",
+          "imageUrl": "/static/browse/0.3.4/images/arxiv-logo-fb.png"
         },
         {
           "id": "https://news.ycombinator.com/item?id=47145963",
@@ -13183,26 +13213,6 @@
           "publishedOn": "2026-01-27T00:08:33.000Z",
           "wordCount": null,
           "title": "The Engineer who invented the Mars Rover Suspension in his garage [video]",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46773242",
-          "author": "TheLegace",
-          "description": "Article URL: https://betakit.com/y-combinator-website-no-longer-lists-canada-as-a-country-it-invests-in/\nComments URL: https://news.ycombinator.com/item?id=46773242\nPoints: 75\n# Comments: 32",
-          "link": "https://betakit.com/y-combinator-website-no-longer-lists-canada-as-a-country-it-invests-in/",
-          "publishedOn": "2026-01-26T23:32:00.000Z",
-          "wordCount": 2885,
-          "title": "Y Combinator website no longer lists Canada as a country it invests in",
-          "imageUrl": "https://cdn.betakit.com/wp-content/uploads/2025/09/5475205694_af657ad48d_k-e1758038318776.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46772495",
-          "author": "zdw",
-          "description": "Article URL: https://www.msn.com/en-us/news/technology/i-let-chatgpt-analyze-a-decade-of-my-apple-watch-data-then-i-called-my-doctor/ar-AA1UZxip\nComments URL: https://news.ycombinator.com/item?id=46772495\nPoints: 55\n# Comments: 73",
-          "link": "https://www.msn.com/en-us/news/technology/i-let-chatgpt-analyze-a-decade-of-my-apple-watch-data-then-i-called-my-doctor/ar-AA1UZxip",
-          "publishedOn": "2026-01-26T22:29:54.000Z",
-          "wordCount": 779,
-          "title": "I let ChatGPT analyze a decade of my Apple Watch data, then I called my doctor",
           "imageUrl": null
         }
       ]
