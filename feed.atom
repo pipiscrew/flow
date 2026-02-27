@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-02-27T05:57:00.358Z</updated>
+    <updated>2026-02-27T07:05:45.719Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
@@ -69,6 +69,19 @@ Points: 216
 # Comments: 106]]></summary>
         <author>
             <name>qwertox</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Hydroph0bia – fixed SecureBoot bypass for UEFI firmware from Insyde H2O (2025)]]></title>
+        <id>https://news.ycombinator.com/item?id=47172730</id>
+        <link href="https://coderush.me/hydroph0bia-part3/"/>
+        <updated>2026-02-26T22:14:11.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://coderush.me/hydroph0bia-part3/
+Comments URL: https://news.ycombinator.com/item?id=47172730
+Points: 51
+# Comments: 1]]></summary>
+        <author>
+            <name>transpute</name>
         </author>
     </entry>
     <entry>
@@ -1652,6 +1665,19 @@ Points: 179
 # Comments: 164]]></summary>
         <author>
             <name>cdrnsf</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Understanding the Go Runtime: The Memory Allocator]]></title>
+        <id>https://news.ycombinator.com/item?id=47129801</id>
+        <link href="https://internals-for-interns.com/posts/go-memory-allocator/"/>
+        <updated>2026-02-23T22:18:23.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://internals-for-interns.com/posts/go-memory-allocator/
+Comments URL: https://news.ycombinator.com/item?id=47129801
+Points: 54
+# Comments: 9]]></summary>
+        <author>
+            <name>valyala</name>
         </author>
     </entry>
     <entry>
@@ -17618,59 +17644,6 @@ Points: 53
 # Comments: 10]]></summary>
         <author>
             <name>elevaet</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: A MitM proxy to see what your LLM tools are sending]]></title>
-        <id>https://news.ycombinator.com/item?id=46799898</id>
-        <link href="https://github.com/jmuncor/sherlock"/>
-        <updated>2026-01-28T18:52:24.000Z</updated>
-        <summary type="html"><![CDATA[I built this out of curiosity about what Claude Code was actually sending to the API. Turns out, watching your tokens tick up in real-time is oddly satisfying.
-Sherlock sits between your LLM tools and the API, showing you every request with a live dashboard, and auto-saved copies of every prompt as markdown and json.
-Comments URL: https://news.ycombinator.com/item?id=46799898
-Points: 93
-# Comments: 36]]></summary>
-        <author>
-            <name>jmuncor</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[LM Studio 0.4.0]]></title>
-        <id>https://news.ycombinator.com/item?id=46799477</id>
-        <link href="https://lmstudio.ai/blog/0.4.0"/>
-        <updated>2026-01-28T18:23:14.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://lmstudio.ai/blog/0.4.0
-Comments URL: https://news.ycombinator.com/item?id=46799477
-Points: 68
-# Comments: 32]]></summary>
-        <author>
-            <name>jiqiren</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[VisualJJ – Jujutsu in Visual Studio Code]]></title>
-        <id>https://news.ycombinator.com/item?id=46799435</id>
-        <link href="https://www.visualjj.com/"/>
-        <updated>2026-01-28T18:20:35.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.visualjj.com/
-Comments URL: https://news.ycombinator.com/item?id=46799435
-Points: 59
-# Comments: 19]]></summary>
-        <author>
-            <name>demail</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[That's Not How Email Works, HSBC]]></title>
-        <id>https://news.ycombinator.com/item?id=46799304</id>
-        <link href="https://danq.me/2026/01/28/hsbc-dont-understand-email/"/>
-        <updated>2026-01-28T18:12:02.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://danq.me/2026/01/28/hsbc-dont-understand-email/
-Comments URL: https://news.ycombinator.com/item?id=46799304
-Points: 94
-# Comments: 45]]></summary>
-        <author>
-            <name>HotGarbage</name>
         </author>
     </entry>
 </feed>
