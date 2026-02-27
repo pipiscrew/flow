@@ -2,10 +2,36 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-02-27T17:40:56.583Z</updated>
+    <updated>2026-02-27T18:54:26.640Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Vibe coded Lovable-hosted app littered with basic flaws exposed 18K users]]></title>
+        <id>https://news.ycombinator.com/item?id=47182659</id>
+        <link href="https://www.theregister.com/2026/02/27/lovable_app_vulnerabilities/"/>
+        <updated>2026-02-27T16:48:02.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.theregister.com/2026/02/27/lovable_app_vulnerabilities/
+Comments URL: https://news.ycombinator.com/item?id=47182659
+Points: 64
+# Comments: 15]]></summary>
+        <author>
+            <name>nottorp</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[NASA announces major overhaul of Artemis program amid safety concerns, delays]]></title>
+        <id>https://news.ycombinator.com/item?id=47182483</id>
+        <link href="https://www.cbsnews.com/news/nasa-artemis-moon-program-overhaul/"/>
+        <updated>2026-02-27T16:33:39.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.cbsnews.com/news/nasa-artemis-moon-program-overhaul/
+Comments URL: https://news.ycombinator.com/item?id=47182483
+Points: 63
+# Comments: 58]]></summary>
+        <author>
+            <name>voxadam</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Experts sound alarm after ChatGPT Health fails to recognise medical emergencies]]></title>
         <id>https://news.ycombinator.com/item?id=47181841</id>
@@ -17,6 +43,36 @@ Points: 71
 # Comments: 58]]></summary>
         <author>
             <name>simonebrunozzi</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[We gave terabytes of CI logs to an LLM]]></title>
+        <id>https://news.ycombinator.com/item?id=47181801</id>
+        <link href="https://www.mendral.com/blog/llms-are-good-at-sql"/>
+        <updated>2026-02-27T15:41:13.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.mendral.com/blog/llms-are-good-at-sql
+Comments URL: https://news.ycombinator.com/item?id=47181801
+Points: 80
+# Comments: 53]]></summary>
+        <author>
+            <name>shad42</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Badge that shows how well your codebase fits in an LLM's context window]]></title>
+        <id>https://news.ycombinator.com/item?id=47181471</id>
+        <link href="https://github.com/qwibitai/nanoclaw/tree/main/repo-tokens"/>
+        <updated>2026-02-27T15:14:42.000Z</updated>
+        <summary type="html"><![CDATA[Small codebases were always a good thing. With coding agents, there's now a huge advantage to having a codebase small enough that an agent can hold the full thing in context.
+Repo Tokens is a GitHub Action that counts your codebase's size in tokens (using tiktoken) and updates a badge in your README. The badge color reflects what percentage of an LLM's context window the codebase fills: green for under 30%, yellow for 50-70%, red for 70%+. Context window size is configurable and defaults to 200k (size of Claude models).
+It's a composite action. Installs tiktoken, runs ~60 lines of inline Python, takes about 10 seconds. The action updates the README but doesn't commit, so your workflow controls the git strategy.
+The idea is to make token size a visible metric, like bundle size badges for JS libraries. Hopefully a small nudge to keep codebases lean and agent-friendly.
+GitHub: https://github.com/qwibitai/nanoclaw/tree/main/repo-tokens
+Comments URL: https://news.ycombinator.com/item?id=47181471
+Points: 58
+# Comments: 34]]></summary>
+        <author>
+            <name>jimminyx</name>
         </author>
     </entry>
     <entry>
@@ -1487,6 +1543,19 @@ Points: 76
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[How to Allocate Memory]]></title>
+        <id>https://news.ycombinator.com/item?id=47141069</id>
+        <link href="https://geocar.sdf1.org/alloc.html"/>
+        <updated>2026-02-24T18:56:31.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://geocar.sdf1.org/alloc.html
+Comments URL: https://news.ycombinator.com/item?id=47141069
+Points: 51
+# Comments: 2]]></summary>
+        <author>
+            <name>tosh</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Tesla registrations crash 17% in Europe as BEV market surges 14%]]></title>
         <id>https://news.ycombinator.com/item?id=47140932</id>
         <link href="https://electrek.co/2026/02/24/tesla-eu-registrations-crash-january-2026-bev-growth/"/>
@@ -1810,6 +1879,19 @@ Points: 50
 # Comments: 51]]></summary>
         <author>
             <name>mikeayles</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Sprites on the Web]]></title>
+        <id>https://news.ycombinator.com/item?id=47135159</id>
+        <link href="https://www.joshwcomeau.com/animation/sprites/"/>
+        <updated>2026-02-24T10:06:43.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.joshwcomeau.com/animation/sprites/
+Comments URL: https://news.ycombinator.com/item?id=47135159
+Points: 59
+# Comments: 12]]></summary>
+        <author>
+            <name>vinhnx</name>
         </author>
     </entry>
     <entry>
@@ -17723,19 +17805,6 @@ Points: 76
 # Comments: 11]]></summary>
         <author>
             <name>saubeidl</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Carnegie Mellon Unversity Computer Club FTP Server]]></title>
-        <id>https://news.ycombinator.com/item?id=46806346</id>
-        <link href="http://128.237.157.9/pub/"/>
-        <updated>2026-01-29T05:59:23.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: http://128.237.157.9/pub/
-Comments URL: https://news.ycombinator.com/item?id=46806346
-Points: 67
-# Comments: 13]]></summary>
-        <author>
-            <name>1vuio0pswjnm7</name>
         </author>
     </entry>
 </feed>

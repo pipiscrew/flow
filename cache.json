@@ -6,6 +6,26 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=47182659",
+          "author": "nottorp",
+          "description": "Article URL: https://www.theregister.com/2026/02/27/lovable_app_vulnerabilities/\nComments URL: https://news.ycombinator.com/item?id=47182659\nPoints: 64\n# Comments: 15",
+          "link": "https://www.theregister.com/2026/02/27/lovable_app_vulnerabilities/",
+          "publishedOn": "2026-02-27T16:48:02.000Z",
+          "wordCount": 1859,
+          "title": "Vibe coded Lovable-hosted app littered with basic flaws exposed 18K users",
+          "imageUrl": "https://regmedia.co.uk/2024/02/21/prompt_shutterstock.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47182483",
+          "author": "voxadam",
+          "description": "Article URL: https://www.cbsnews.com/news/nasa-artemis-moon-program-overhaul/\nComments URL: https://news.ycombinator.com/item?id=47182483\nPoints: 63\n# Comments: 58",
+          "link": "https://www.cbsnews.com/news/nasa-artemis-moon-program-overhaul/",
+          "publishedOn": "2026-02-27T16:33:39.000Z",
+          "wordCount": 4414,
+          "title": "NASA announces major overhaul of Artemis program amid safety concerns, delays",
+          "imageUrl": "https://assets2.cbsnewsstatic.com/hub/i/r/2026/02/27/45751ccd-7e36-4b4f-b82b-9a0aeac6f8bb/thumbnail/1200x630g8/f796eb8c92366c9ce173eb45aec39b21/2026-02-02t220404z-948151260-rc2ydjad8bol-rtrmadp-3-space-moon-artemis.jpg"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=47181841",
           "author": "simonebrunozzi",
           "description": "Article URL: https://www.theguardian.com/technology/2026/feb/26/chatgpt-health-fails-recognise-medical-emergencies\nComments URL: https://news.ycombinator.com/item?id=47181841\nPoints: 71\n# Comments: 58",
@@ -14,6 +34,26 @@
           "wordCount": 5069,
           "title": "Experts sound alarm after ChatGPT Health fails to recognise medical emergencies",
           "imageUrl": "https://i.guim.co.uk/img/media/3e8651062ef84e39193ac5df7c3ef7a576210509/588_0_3626_2901/master/3626.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=e9a7e732746f9d1764c26e8a04dcdfa1"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47181801",
+          "author": "shad42",
+          "description": "Article URL: https://www.mendral.com/blog/llms-are-good-at-sql\nComments URL: https://news.ycombinator.com/item?id=47181801\nPoints: 80\n# Comments: 53",
+          "link": "https://www.mendral.com/blog/llms-are-good-at-sql",
+          "publishedOn": "2026-02-27T15:41:13.000Z",
+          "wordCount": 4532,
+          "title": "We gave terabytes of CI logs to an LLM",
+          "imageUrl": "https://mendral.com/og?title=LLMs%20Are%20Good%20at%20SQL.%20We%20Gave%20Ours%20Terabytes%20of%20CI%20Logs."
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47181471",
+          "author": "jimminyx",
+          "description": "Small codebases were always a good thing. With coding agents, there's now a huge advantage to having a codebase small enough that an agent can hold the full thing in context.\nRepo Tokens is a GitHub Action that counts your codebase's size in tokens (using tiktoken) and updates a badge in your README. The badge color reflects what percentage of an LLM's context window the codebase fills: green for under 30%, yellow for 50-70%, red for 70%+. Context window size is configurable and defaults to 200k (size of Claude models).\nIt's a composite action. Installs tiktoken, runs ~60 lines of inline Python, takes about 10 seconds. The action updates the README but doesn't commit, so your workflow controls the git strategy.\nThe idea is to make token size a visible metric, like bundle size badges for JS libraries. Hopefully a small nudge to keep codebases lean and agent-friendly.\nGitHub: https://github.com/qwibitai/nanoclaw/tree/main/repo-tokens\nComments URL: https://news.ycombinator.com/item?id=47181471\nPoints: 58\n# Comments: 34",
+          "link": "https://github.com/qwibitai/nanoclaw/tree/main/repo-tokens",
+          "publishedOn": "2026-02-27T15:14:42.000Z",
+          "wordCount": 1948,
+          "title": "Show HN: Badge that shows how well your codebase fits in an LLM's context window",
+          "imageUrl": "https://repository-images.githubusercontent.com/1146738089/83c0975f-09b4-4452-8c80-c5fee3521005"
         },
         {
           "id": "https://news.ycombinator.com/item?id=47181391",
@@ -1076,6 +1116,16 @@
           "imageUrl": "https://linum.ai/field-notes/vae-reconstruction-vs-generation/opengraph-image?840daf457348e2c2"
         },
         {
+          "id": "https://news.ycombinator.com/item?id=47141069",
+          "author": "tosh",
+          "description": "Article URL: https://geocar.sdf1.org/alloc.html\nComments URL: https://news.ycombinator.com/item?id=47141069\nPoints: 51\n# Comments: 2",
+          "link": "https://geocar.sdf1.org/alloc.html",
+          "publishedOn": "2026-02-24T18:56:31.000Z",
+          "wordCount": 2148,
+          "title": "How to Allocate Memory",
+          "imageUrl": null
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=47140932",
           "author": "breve",
           "description": "Article URL: https://electrek.co/2026/02/24/tesla-eu-registrations-crash-january-2026-bev-growth/\nComments URL: https://news.ycombinator.com/item?id=47140932\nPoints: 105\n# Comments: 50",
@@ -1324,6 +1374,16 @@
           "wordCount": 3147,
           "title": "The Hydrogen Truck Problem Isn't the Truck",
           "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47135159",
+          "author": "vinhnx",
+          "description": "Article URL: https://www.joshwcomeau.com/animation/sprites/\nComments URL: https://news.ycombinator.com/item?id=47135159\nPoints: 59\n# Comments: 12",
+          "link": "https://www.joshwcomeau.com/animation/sprites/",
+          "publishedOn": "2026-02-24T10:06:43.000Z",
+          "wordCount": 6783,
+          "title": "Sprites on the Web",
+          "imageUrl": "https://www.joshwcomeau.com/images/og-sprites.png"
         },
         {
           "id": "https://news.ycombinator.com/item?id=47133313",
@@ -13194,16 +13254,6 @@
           "wordCount": 1307,
           "title": "Europe's next-generation weather satellite sends back first images",
           "imageUrl": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/01/global_air_humidity_by_mtg-sounder/27080485-4-eng-GB/Global_air_humidity_by_MTG-Sounder_pillars.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46806346",
-          "author": "1vuio0pswjnm7",
-          "description": "Article URL: http://128.237.157.9/pub/\nComments URL: https://news.ycombinator.com/item?id=46806346\nPoints: 67\n# Comments: 13",
-          "link": "http://128.237.157.9/pub/",
-          "publishedOn": "2026-01-29T05:59:23.000Z",
-          "wordCount": 382,
-          "title": "Carnegie Mellon Unversity Computer Club FTP Server",
-          "imageUrl": null
         }
       ]
     }
