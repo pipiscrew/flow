@@ -6,6 +6,16 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=47184480",
+          "author": "nephihaha",
+          "description": "Article URL: https://www.beyondthejoke.co.uk/content/17193/red-dwarf-rob-grant\nComments URL: https://news.ycombinator.com/item?id=47184480\nPoints: 102\n# Comments: 16",
+          "link": "https://www.beyondthejoke.co.uk/content/17193/red-dwarf-rob-grant",
+          "publishedOn": "2026-02-27T19:26:38.000Z",
+          "wordCount": 657,
+          "title": "Rob Grant, creator of Red Dwarf, has died",
+          "imageUrl": "https://www.beyondthejoke.co.uk/sites/default/files/641389906_1381946027296050_5754666435429764245_n.jpg"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=47183660",
           "author": "kappi",
           "description": "Article URL: https://twitter.com/BullTheoryio/status/2027250361816486085\nComments URL: https://news.ycombinator.com/item?id=47183660\nPoints: 70\n# Comments: 47",
@@ -76,6 +86,16 @@
           "imageUrl": "https://mendral.com/og?title=LLMs%20Are%20Good%20at%20SQL.%20We%20Gave%20Ours%20Terabytes%20of%20CI%20Logs."
         },
         {
+          "id": "https://news.ycombinator.com/item?id=47181753",
+          "author": "iamnothere",
+          "description": "Article URL: https://github.com/c3d/db48x/commit/7819972b641ac808d46c54d3f5d1df70d706d286\nComments URL: https://news.ycombinator.com/item?id=47181753\nPoints: 53\n# Comments: 28",
+          "link": "https://github.com/c3d/db48x/commit/7819972b641ac808d46c54d3f5d1df70d706d286",
+          "publishedOn": "2026-02-27T15:37:53.000Z",
+          "wordCount": 808,
+          "title": "Open source calculator firmware DB48X forbids CA/CO use due to age verification",
+          "imageUrl": "https://opengraph.githubassets.com/dfc647d957c125105bd4c0ae9067d475842c8916c39f009f5fea4e3c69013219/c3d/db48x/commit/7819972b641ac808d46c54d3f5d1df70d706d286"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=47181471",
           "author": "jimminyx",
           "description": "Small codebases were always a good thing. With coding agents, there's now a huge advantage to having a codebase small enough that an agent can hold the full thing in context.\nRepo Tokens is a GitHub Action that counts your codebase's size in tokens (using tiktoken) and updates a badge in your README. The badge color reflects what percentage of an LLM's context window the codebase fills: green for under 30%, yellow for 50-70%, red for 70%+. Context window size is configurable and defaults to 200k (size of Claude models).\nIt's a composite action. Installs tiktoken, runs ~60 lines of inline Python, takes about 10 seconds. The action updates the README but doesn't commit, so your workflow controls the git strategy.\nThe idea is to make token size a visible metric, like bundle size badges for JS libraries. Hopefully a small nudge to keep codebases lean and agent-friendly.\nGitHub: https://github.com/qwibitai/nanoclaw/tree/main/repo-tokens\nComments URL: https://news.ycombinator.com/item?id=47181471\nPoints: 58\n# Comments: 34",
@@ -104,6 +124,16 @@
           "wordCount": 4467,
           "title": "The Pentagon is making a mistake by threatening Anthropic",
           "imageUrl": "https://substackcdn.com/image/fetch/$s_!p-HT!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7c021cdc-3feb-4fa6-982f-1212820500f7_5431x3621.jpeg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47181211",
+          "author": "zlatkov",
+          "description": "https://openai.com/index/scaling-ai-for-everyone/\nComments URL: https://news.ycombinator.com/item?id=47181211\nPoints: 80\n# Comments: 130",
+          "link": "https://techcrunch.com/2026/02/27/openai-raises-110b-in-one-of-the-largest-private-funding-rounds-in-history/",
+          "publishedOn": "2026-02-27T14:56:05.000Z",
+          "wordCount": 3321,
+          "title": "OpenAI raises $110B on $730B pre-money valuation",
+          "imageUrl": "https://techcrunch.com/wp-content/uploads/2025/04/GettyImages-2197366846.jpg?resize=1200,800"
         },
         {
           "id": "https://news.ycombinator.com/item?id=47180569",
