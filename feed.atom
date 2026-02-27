@@ -2,10 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-02-26T23:36:53.750Z</updated>
+    <updated>2026-02-27T02:37:37.232Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Palantir's AI Is Playing a Major Role in Tracking Gaza Aid Deliveries]]></title>
+        <id>https://news.ycombinator.com/item?id=47174777</id>
+        <link href="https://www.dropsitenews.com/p/palantir-ai-gaza-humanitarian-aid-cmcc-srs-ngos-banned-israel"/>
+        <updated>2026-02-27T00:53:57.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.dropsitenews.com/p/palantir-ai-gaza-humanitarian-aid-cmcc-srs-ngos-banned-israel
+Comments URL: https://news.ycombinator.com/item?id=47174777
+Points: 74
+# Comments: 18]]></summary>
+        <author>
+            <name>mikece</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Statement from Dario Amodei on Our Discussions with the Department of War]]></title>
         <id>https://news.ycombinator.com/item?id=47173121</id>
@@ -486,6 +499,19 @@ Points: 61
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Steering interpretable language models with concept algebra]]></title>
+        <id>https://news.ycombinator.com/item?id=47159833</id>
+        <link href="https://www.guidelabs.ai/post/steerling-steering-8b/"/>
+        <updated>2026-02-25T23:55:34.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.guidelabs.ai/post/steerling-steering-8b/
+Comments URL: https://news.ycombinator.com/item?id=47159833
+Points: 58
+# Comments: 3]]></summary>
+        <author>
+            <name>luulinh90s</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Banned in California]]></title>
         <id>https://news.ycombinator.com/item?id=47159430</id>
         <link href="https://www.bannedincalifornia.org/"/>
@@ -961,6 +987,23 @@ Points: 120
 # Comments: 46]]></summary>
         <author>
             <name>KnuthIsGod</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Linex – A daily challenge: placing pieces on a board that fights back]]></title>
+        <id>https://news.ycombinator.com/item?id=47145082</id>
+        <link href="https://www.playlinex.com/"/>
+        <updated>2026-02-24T23:33:58.000Z</updated>
+        <summary type="html"><![CDATA[Hi HN,
+I wanted to share a web game I’ve been building in HTML, JavaScript, MySQL, and PHP called LINEX.
+It is primarily designed and optimized to be played in the mobile browser.
+The idea is simple: you have an 8x8 board where you must place pieces (Tetris-style and some custom shapes) to clear horizontal and vertical lines.
+Yes, someone might think this has already been done, but let me explain.
+You choose where to place the piece and how to rotate it. The core interaction consists of "drawing" the piece tap-by-tap on the grid, which provides a very satisfying tactile sense of control and requires a much more thoughtful strategy.
+To avoid the flat difficulty curve typical of games in this genre, I’ve implemented a couple of twists:
+1. Progressive difficulty (The board fights back): As yo…]]></summary>
+        <author>
+            <name>Humanista75</name>
         </author>
     </entry>
     <entry>
@@ -17667,101 +17710,6 @@ Points: 55
 # Comments: 16]]></summary>
         <author>
             <name>surprisetalk</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Airfoil (2024)]]></title>
-        <id>https://news.ycombinator.com/item?id=46795908</id>
-        <link href="https://ciechanow.ski/airfoil/"/>
-        <updated>2026-01-28T14:32:30.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://ciechanow.ski/airfoil/
-Comments URL: https://news.ycombinator.com/item?id=46795908
-Points: 102
-# Comments: 14]]></summary>
-        <author>
-            <name>brk</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Microsoft forced me to switch to Linux]]></title>
-        <id>https://news.ycombinator.com/item?id=46795864</id>
-        <link href="https://www.himthe.dev/blog/microsoft-to-linux"/>
-        <updated>2026-01-28T14:28:21.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.himthe.dev/blog/microsoft-to-linux
-Comments URL: https://news.ycombinator.com/item?id=46795864
-Points: 138
-# Comments: 101]]></summary>
-        <author>
-            <name>bobsterlobster</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[When Every Network is 192.168.1.x]]></title>
-        <id>https://news.ycombinator.com/item?id=46795582</id>
-        <link href="https://netrinos.com/blog/conflicting-subnets"/>
-        <updated>2026-01-28T14:06:39.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://netrinos.com/blog/conflicting-subnets
-Comments URL: https://news.ycombinator.com/item?id=46795582
-Points: 84
-# Comments: 69]]></summary>
-        <author>
-            <name>pcarroll</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: I built a small browser engine from scratch in C++]]></title>
-        <id>https://news.ycombinator.com/item?id=46795540</id>
-        <link href="https://github.com/beginner-jhj/mini_browser"/>
-        <updated>2026-01-28T14:03:28.000Z</updated>
-        <summary type="html"><![CDATA[Hi HN! Korean high school senior here, about to start CS in college.
-I built a browser engine from scratch in C++ to understand how browsers work. First time using C++, 8 weeks of development, lots of debugging—but it works!
-Features:
-- HTML parsing with error correction
-- CSS cascade and inheritance
-- Block/inline layout engine
-- Async image loading + caching
-- Link navigation + history
-Hardest parts:
-- String parsing(html, css)
-- Rendering
-- Image Caching & Layout Reflowing
-What I learned (beyond code):
-- Systematic debugging is crucial
-- Ship with known bugs rather than chase perfection
-- The Power of "Why?"
-~3,000 lines of C++17/Qt6. Would love feedback on code architecture and C++ best practices!
-GitHub: https://github.com/beginner-jhj/mini_browser
-Comments URL: https://news.ycombinator.com/item?id=46795540
-Points: 60
-# Comments: 12]]></summary>
-        <author>
-            <name>crediblejhj</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[My Ridiculously Robust Photo Management System (Immich Edition)]]></title>
-        <id>https://news.ycombinator.com/item?id=46794971</id>
-        <link href="https://jaisenmathai.com/articles/my-ridiculously-robust-photo-management-system-immich-edition/"/>
-        <updated>2026-01-28T13:17:56.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://jaisenmathai.com/articles/my-ridiculously-robust-photo-management-system-immich-edition/
-Comments URL: https://news.ycombinator.com/item?id=46794971
-Points: 63
-# Comments: 23]]></summary>
-        <author>
-            <name>jmathai</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[ICE and Palantir: US agents using health data to hunt illegal immigrants]]></title>
-        <id>https://news.ycombinator.com/item?id=46794365</id>
-        <link href="https://www.bmj.com/content/392/bmj.s168"/>
-        <updated>2026-01-28T12:18:12.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.bmj.com/content/392/bmj.s168
-Comments URL: https://news.ycombinator.com/item?id=46794365
-Points: 107
-# Comments: 18]]></summary>
-        <author>
-            <name>dberhane</name>
         </author>
     </entry>
 </feed>
