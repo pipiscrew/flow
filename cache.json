@@ -6,6 +6,16 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=47190997",
+          "author": "tobr",
+          "description": "Article URL: https://help.openai.com/en/articles/7232927-how-do-i-cancel-my-chatgpt-subscription\nComments URL: https://news.ycombinator.com/item?id=47190997\nPoints: 95\n# Comments: 8",
+          "link": "https://help.openai.com/en/articles/7232927-how-do-i-cancel-my-chatgpt-subscription",
+          "publishedOn": "2026-02-28T05:55:01.000Z",
+          "wordCount": null,
+          "title": "How do I cancel my ChatGPT subscription?",
+          "imageUrl": null
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=47189853",
           "author": "erhuve",
           "description": "Article URL: https://www.reuters.com/business/openai-reaches-deal-deploy-ai-models-us-department-war-classified-network-2026-02-28/\nComments URL: https://news.ycombinator.com/item?id=47189853\nPoints: 74\n# Comments: 18",
@@ -964,6 +974,16 @@
           "wordCount": 6187,
           "title": "Show HN: I ported Tree-sitter to Go",
           "imageUrl": "https://opengraph.githubassets.com/0a8a76aa9cee0e599ed53c2e4866f19f04829e840062600b627aec0b13a69427/odvcencio/gotreesitter"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47155375",
+          "author": "maloyan",
+          "description": "Hi HN, I'm Narek. I built Manim-Web, a TypeScript/JavaScript port of 3Blue1Brown’s popular Manim math animation engine.\nThe Problem: Like many here, I love Manim's visual style. But setting it up locally is notoriously painful - it requires Python, FFmpeg, Cairo, and a full LaTeX distribution. It creates a massive barrier to entry, especially for students or people who just want to quickly visualize a concept.\nThe Solution: I wanted to make it zero-setup, so I ported the engine to TypeScript. Manim-Web runs entirely client-side in the browser. No Python, no servers, no install. It runs animations in real-time at 60fps.\nHow it works underneath:\n- Rendering: Uses Canvas API / WebGL (via Three.js for 3D scenes).\n- LaTeX: Rendered and animated via MathJax/KaTeX (no LaTeX install needed!).\n- API: I kept the API almost identical to the Python version (e.g., scene.play(new Transform(square, circle))), meaning existing Manim knowledge transfers over directly.\n- Reactivity: Updaters and ValueTrackers follow the exact same reactive pattern as the Python original.\nBecause it's web-native, the animations are now inherently interactive (objects can be draggable/clickable) and can be embedded directly into React/Vue apps, interactive textbooks, or blogs. I also included a py2ts converter to help migrate existing scripts.\nLive Demo: https://maloyan.github.io/manim-web/examples\nGitHub: https://github.com/maloyan/manim-web\nIt's open-source (MIT). I'm still actively building out feature parity with the Python version, but core animations, geometry, plotting, and 3D orbiting are working great. I would love to hear your feedback, and I'll be hanging around to answer any technical questions about rendering math in the browser!\nComments URL: https://news.ycombinator.com/item?id=47155375\nPoints: 62\n# Comments: 12",
+          "link": "https://github.com/maloyan/manim-web",
+          "publishedOn": "2026-02-25T18:15:07.000Z",
+          "wordCount": 2445,
+          "title": "Show HN: I ported Manim to TypeScript (run 3b1B math animations in the browser)",
+          "imageUrl": "https://opengraph.githubassets.com/ecc030fcde7911ddd462aabcac2d36a5ded6a31a6f1ba3af03f00d6aefbfd514/maloyan/manim-web"
         },
         {
           "id": "https://news.ycombinator.com/item?id=47154983",
@@ -13244,76 +13264,6 @@
           "wordCount": 1613,
           "title": "PlayStation 2 Recompilation Project Is Absolutely Incredible",
           "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46814614",
-          "author": "MBCook",
-          "description": "Article URL: https://arstechnica.com/security/2026/01/county-pays-600000-to-pentesters-it-arrested-for-assessing-courthouse-security/\nComments URL: https://news.ycombinator.com/item?id=46814614\nPoints: 90\n# Comments: 27",
-          "link": "https://arstechnica.com/security/2026/01/county-pays-600000-to-pentesters-it-arrested-for-assessing-courthouse-security/",
-          "publishedOn": "2026-01-29T18:48:09.000Z",
-          "wordCount": 2923,
-          "title": "County pays $600k to pentesters it arrested for assessing courthouse security",
-          "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2019/11/dallas-county-courthouse-1152x648.jpeg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46814581",
-          "author": "bryantwolf",
-          "description": "Article URL: https://blog.bawolf.com/p/founding-is-a-snowball\nComments URL: https://news.ycombinator.com/item?id=46814581\nPoints: 50\n# Comments: 16",
-          "link": "https://blog.bawolf.com/p/founding-is-a-snowball",
-          "publishedOn": "2026-01-29T18:46:33.000Z",
-          "wordCount": 3129,
-          "title": "Founding is a snowball",
-          "imageUrl": "https://substackcdn.com/image/fetch/$s_!XJ8t!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa8060f95-6eee-49ca-aef8-48680ff42363_1280x800.jpeg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46814569",
-          "author": "kieto",
-          "description": "Article URL: https://restofworld.org/2025/ai-chatbot-china-sick/\nComments URL: https://news.ycombinator.com/item?id=46814569\nPoints: 72\n# Comments: 31",
-          "link": "https://restofworld.org/2025/ai-chatbot-china-sick/",
-          "publishedOn": "2026-01-29T18:45:27.000Z",
-          "wordCount": 5431,
-          "title": "My Mom and Dr. DeepSeek (2025)",
-          "imageUrl": "https://restofworld.org/wp-content/uploads/2025/08/cropped-illo_chinaAI_ard_su_4-scaled-1-1600x900.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46814340",
-          "author": "nvader",
-          "description": "Article URL: https://qntm.org/ratchet\nComments URL: https://news.ycombinator.com/item?id=46814340\nPoints: 53\n# Comments: 19",
-          "link": "https://qntm.org/ratchet",
-          "publishedOn": "2026-01-29T18:31:48.000Z",
-          "wordCount": null,
-          "title": "Ratchets in Software Development",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46814089",
-          "author": "jethronethro",
-          "description": "Article URL: https://electrek.co/2026/01/29/tesla-committing-automotive-suicide/\nComments URL: https://news.ycombinator.com/item?id=46814089\nPoints: 120\n# Comments: 107",
-          "link": "https://electrek.co/2026/01/29/tesla-committing-automotive-suicide/",
-          "publishedOn": "2026-01-29T18:16:45.000Z",
-          "wordCount": 3637,
-          "title": "Tesla is committing automotive suicide",
-          "imageUrl": "https://i0.wp.com/electrek.co/wp-content/uploads/sites/3/2026/01/Tesla-automotive-suicide.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46813867",
-          "author": "cdrnsf",
-          "description": "Article URL: https://www.theverge.com/policy/868571/best-gas-masks\nComments URL: https://news.ycombinator.com/item?id=46813867\nPoints: 228\n# Comments: 52",
-          "link": "https://www.theverge.com/policy/868571/best-gas-masks",
-          "publishedOn": "2026-01-29T18:01:54.000Z",
-          "wordCount": 13841,
-          "title": "Best Gas Masks",
-          "imageUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/01/268286_Best_gas_mask_CVirginia3.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46813834",
-          "author": "rbanffy",
-          "description": "Article URL: https://semiengineering.com/ais-impact-on-engineering-jobs-may-be-different-than-initial-projections/\nComments URL: https://news.ycombinator.com/item?id=46813834\nPoints: 60\n# Comments: 119",
-          "link": "https://semiengineering.com/ais-impact-on-engineering-jobs-may-be-different-than-initial-projections/",
-          "publishedOn": "2026-01-29T18:00:10.000Z",
-          "wordCount": 8410,
-          "title": "AI's impact on engineering jobs may be different than expected",
-          "imageUrl": "https://semiengineering.com/wp-content/uploads/2026/01/Screenshot-2026-01-28-at-11.53.32-AM.png"
         }
       ]
     }

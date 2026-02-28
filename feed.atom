@@ -2,10 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-02-28T05:37:09.303Z</updated>
+    <updated>2026-02-28T06:49:09.938Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[How do I cancel my ChatGPT subscription?]]></title>
+        <id>https://news.ycombinator.com/item?id=47190997</id>
+        <link href="https://help.openai.com/en/articles/7232927-how-do-i-cancel-my-chatgpt-subscription"/>
+        <updated>2026-02-28T05:55:01.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://help.openai.com/en/articles/7232927-how-do-i-cancel-my-chatgpt-subscription
+Comments URL: https://news.ycombinator.com/item?id=47190997
+Points: 95
+# Comments: 8]]></summary>
+        <author>
+            <name>tobr</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[OpenAI reaches deal to deploy AI models on U.S. DoW classified network]]></title>
         <id>https://news.ycombinator.com/item?id=47189853</id>
@@ -1302,6 +1315,30 @@ Points: 50
 # Comments: 8]]></summary>
         <author>
             <name>odvcencio</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: I ported Manim to TypeScript (run 3b1B math animations in the browser)]]></title>
+        <id>https://news.ycombinator.com/item?id=47155375</id>
+        <link href="https://github.com/maloyan/manim-web"/>
+        <updated>2026-02-25T18:15:07.000Z</updated>
+        <summary type="html"><![CDATA[Hi HN, I'm Narek. I built Manim-Web, a TypeScript/JavaScript port of 3Blue1Brown’s popular Manim math animation engine.
+The Problem: Like many here, I love Manim's visual style. But setting it up locally is notoriously painful - it requires Python, FFmpeg, Cairo, and a full LaTeX distribution. It creates a massive barrier to entry, especially for students or people who just want to quickly visualize a concept.
+The Solution: I wanted to make it zero-setup, so I ported the engine to TypeScript. Manim-Web runs entirely client-side in the browser. No Python, no servers, no install. It runs animations in real-time at 60fps.
+How it works underneath:
+- Rendering: Uses Canvas API / WebGL (via Three.js for 3D scenes).
+- LaTeX: Rendered and animated via MathJax/KaTeX (no LaTeX install needed!).
+- API: I kept the API almost identical to the Python version (e.g., scene.play(new Transform(square, circle))), meaning existing Manim knowledge transfers over directly.
+- Reactivity: Updaters and ValueTrackers follow the exact same reactive pattern as the Python original.
+Because it's web-native, the animations are now inherently interactive (objects can be draggable/clickable) and can be embedded directly into React/Vue apps, interactive textbooks, or blogs. I also included a py2ts converter to help migrate existing scripts.
+Live Demo: https://maloyan.github.io/manim-web/examples
+GitHub: https://github.com/maloyan/manim-web
+It's open-source (MIT). I'm still actively building out feature parity with the Python version, but core animations, geometry, plotting, and 3D orbiting are working great. I would love to hear your feedback, and I'll be hanging around to answer any technical questions about rendering math in the browser!
+Comments URL: https://news.ycombinator.com/item?id=47155375
+Points: 62
+# Comments: 12]]></summary>
+        <author>
+            <name>maloyan</name>
         </author>
     </entry>
     <entry>
@@ -17780,97 +17817,6 @@ Points: 105
 # Comments: 21]]></summary>
         <author>
             <name>croes</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[County pays $600k to pentesters it arrested for assessing courthouse security]]></title>
-        <id>https://news.ycombinator.com/item?id=46814614</id>
-        <link href="https://arstechnica.com/security/2026/01/county-pays-600000-to-pentesters-it-arrested-for-assessing-courthouse-security/"/>
-        <updated>2026-01-29T18:48:09.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://arstechnica.com/security/2026/01/county-pays-600000-to-pentesters-it-arrested-for-assessing-courthouse-security/
-Comments URL: https://news.ycombinator.com/item?id=46814614
-Points: 90
-# Comments: 27]]></summary>
-        <author>
-            <name>MBCook</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Founding is a snowball]]></title>
-        <id>https://news.ycombinator.com/item?id=46814581</id>
-        <link href="https://blog.bawolf.com/p/founding-is-a-snowball"/>
-        <updated>2026-01-29T18:46:33.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://blog.bawolf.com/p/founding-is-a-snowball
-Comments URL: https://news.ycombinator.com/item?id=46814581
-Points: 50
-# Comments: 16]]></summary>
-        <author>
-            <name>bryantwolf</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[My Mom and Dr. DeepSeek (2025)]]></title>
-        <id>https://news.ycombinator.com/item?id=46814569</id>
-        <link href="https://restofworld.org/2025/ai-chatbot-china-sick/"/>
-        <updated>2026-01-29T18:45:27.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://restofworld.org/2025/ai-chatbot-china-sick/
-Comments URL: https://news.ycombinator.com/item?id=46814569
-Points: 72
-# Comments: 31]]></summary>
-        <author>
-            <name>kieto</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ratchets in Software Development]]></title>
-        <id>https://news.ycombinator.com/item?id=46814340</id>
-        <link href="https://qntm.org/ratchet"/>
-        <updated>2026-01-29T18:31:48.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://qntm.org/ratchet
-Comments URL: https://news.ycombinator.com/item?id=46814340
-Points: 53
-# Comments: 19]]></summary>
-        <author>
-            <name>nvader</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Tesla is committing automotive suicide]]></title>
-        <id>https://news.ycombinator.com/item?id=46814089</id>
-        <link href="https://electrek.co/2026/01/29/tesla-committing-automotive-suicide/"/>
-        <updated>2026-01-29T18:16:45.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://electrek.co/2026/01/29/tesla-committing-automotive-suicide/
-Comments URL: https://news.ycombinator.com/item?id=46814089
-Points: 120
-# Comments: 107]]></summary>
-        <author>
-            <name>jethronethro</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Best Gas Masks]]></title>
-        <id>https://news.ycombinator.com/item?id=46813867</id>
-        <link href="https://www.theverge.com/policy/868571/best-gas-masks"/>
-        <updated>2026-01-29T18:01:54.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.theverge.com/policy/868571/best-gas-masks
-Comments URL: https://news.ycombinator.com/item?id=46813867
-Points: 228
-# Comments: 52]]></summary>
-        <author>
-            <name>cdrnsf</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AI's impact on engineering jobs may be different than expected]]></title>
-        <id>https://news.ycombinator.com/item?id=46813834</id>
-        <link href="https://semiengineering.com/ais-impact-on-engineering-jobs-may-be-different-than-initial-projections/"/>
-        <updated>2026-01-29T18:00:10.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://semiengineering.com/ais-impact-on-engineering-jobs-may-be-different-than-initial-projections/
-Comments URL: https://news.ycombinator.com/item?id=46813834
-Points: 60
-# Comments: 119]]></summary>
-        <author>
-            <name>rbanffy</name>
         </author>
     </entry>
 </feed>
