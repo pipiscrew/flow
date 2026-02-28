@@ -2,10 +2,24 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-02-28T02:27:13.418Z</updated>
+    <updated>2026-02-28T04:19:13.921Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[OpenAI agrees with Dept. of War to deploy models in their classified network]]></title>
+        <id>https://news.ycombinator.com/item?id=47189650</id>
+        <link href="https://twitter.com/sama/status/2027578652477821175"/>
+        <updated>2026-02-28T02:59:02.000Z</updated>
+        <summary type="html"><![CDATA[https://xcancel.com/sama/status/2027578652477821175
+https://fortune.com/2026/02/27/openai-in-talks-with-pentagon...
+Comments URL: https://news.ycombinator.com/item?id=47189650
+Points: 147
+# Comments: 90]]></summary>
+        <author>
+            <name>eoskx</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Statement on the comments from Secretary of War Pete Hegseth]]></title>
         <id>https://news.ycombinator.com/item?id=47188697</id>
@@ -33,6 +47,32 @@ Points: 430
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Qt45: A small polymerase ribozyme that can synthesize itself]]></title>
+        <id>https://news.ycombinator.com/item?id=47187649</id>
+        <link href="https://www.science.org/doi/10.1126/science.adt2760"/>
+        <updated>2026-02-27T23:42:14.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.science.org/doi/10.1126/science.adt2760
+Comments URL: https://news.ycombinator.com/item?id=47187649
+Points: 62
+# Comments: 10]]></summary>
+        <author>
+            <name>ppnpm</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Emuko: Fast RISC-V emulator written in Rust, boots Linux]]></title>
+        <id>https://news.ycombinator.com/item?id=47187121</id>
+        <link href="https://github.com/wkoszek/emuko"/>
+        <updated>2026-02-27T23:01:49.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://github.com/wkoszek/emuko
+Comments URL: https://news.ycombinator.com/item?id=47187121
+Points: 54
+# Comments: 4]]></summary>
+        <author>
+            <name>felipap</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[I am directing the Department of War to designate Anthropic a Supply-Chain Risk]]></title>
         <id>https://news.ycombinator.com/item?id=47186677</id>
         <link href="https://twitter.com/secwar/status/2027507717469049070"/>
@@ -57,6 +97,19 @@ Points: 53
 # Comments: 10]]></summary>
         <author>
             <name>SunshineTheCat</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[President Trump bans Anthropic from use in government systems]]></title>
+        <id>https://news.ycombinator.com/item?id=47186031</id>
+        <link href="https://www.npr.org/2026/02/27/nx-s1-5729118/trump-anthropic-pentagon-openai-ai-weapons-ban"/>
+        <updated>2026-02-27T21:40:40.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.npr.org/2026/02/27/nx-s1-5729118/trump-anthropic-pentagon-openai-ai-weapons-ban
+Comments URL: https://news.ycombinator.com/item?id=47186031
+Points: 130
+# Comments: 154]]></summary>
+        <author>
+            <name>pkress2</name>
         </author>
     </entry>
     <entry>
@@ -612,6 +665,18 @@ Points: 93
 # Comments: 88]]></summary>
         <author>
             <name>littlexsparkee</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Unfucked – version every change between commits - local-first]]></title>
+        <id>https://news.ycombinator.com/item?id=47172238</id>
+        <link href="https://www.unfudged.io/"/>
+        <updated>2026-02-26T21:30:19.000Z</updated>
+        <summary type="html"><![CDATA[I built unf after I pasted a prompt into the wrong agent terminal and it overwrote hours of hand-edits across a handful of files. Git couldn't help because I hadn't finished/committed my in progress work. I wanted something that recorded every save automatically so I could rewind to any point in time. I wanted to make it difficult for an agent to permanently screw anything up, even with an errant rm -rf
+unf is a background daemon that watches directories you choose (via CLI) and snapshots every text file on save. It stores file contents in an object store, tracks metadata in SQLite, and gives you a CLI to query and restore any version. The install includes a UI, as well to explore the history through time.
+The tool skips binaries and respects `.gitignore` if one exists. The interface borro…]]></summary>
+        <author>
+            <name>cyrusradfar</name>
         </author>
     </entry>
     <entry>
@@ -17848,110 +17913,6 @@ On the site:
   …]]></summary>
         <author>
             <name>EastLondonCoder</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[US cybersecurity chief leaked sensitive government files to ChatGPT: Report]]></title>
-        <id>https://news.ycombinator.com/item?id=46812173</id>
-        <link href="https://www.dexerto.com/entertainment/us-cybersecurity-chief-leaked-sensitive-government-files-to-chatgpt-report-3311462/"/>
-        <updated>2026-01-29T16:12:19.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.dexerto.com/entertainment/us-cybersecurity-chief-leaked-sensitive-government-files-to-chatgpt-report-3311462/
-Comments URL: https://news.ycombinator.com/item?id=46812173
-Points: 146
-# Comments: 90]]></summary>
-        <author>
-            <name>randycupertino</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Drug trio found to block tumour resistance in pancreatic cancer]]></title>
-        <id>https://news.ycombinator.com/item?id=46812159</id>
-        <link href="https://www.drugtargetreview.com/news/192714/drug-trio-found-to-block-tumour-resistance-in-pancreatic-cancer/"/>
-        <updated>2026-01-29T16:11:04.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.drugtargetreview.com/news/192714/drug-trio-found-to-block-tumour-resistance-in-pancreatic-cancer/
-Comments URL: https://news.ycombinator.com/item?id=46812159
-Points: 58
-# Comments: 28]]></summary>
-        <author>
-            <name>axiomdata316</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Heating homes with the largest particle accelerator]]></title>
-        <id>https://news.ycombinator.com/item?id=46811762</id>
-        <link href="https://home.cern/news/news/cern/heating-homes-worlds-largest-particle-accelerator"/>
-        <updated>2026-01-29T15:49:04.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://home.cern/news/news/cern/heating-homes-worlds-largest-particle-accelerator
-Comments URL: https://news.ycombinator.com/item?id=46811762
-Points: 51
-# Comments: 16]]></summary>
-        <author>
-            <name>elashri</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Is the RAM shortage killing small VPS hosts?]]></title>
-        <id>https://news.ycombinator.com/item?id=46811664</id>
-        <link href="https://www.fourplex.net/2026/01/29/is-the-ram-shortage-killing-small-vps-hosts/"/>
-        <updated>2026-01-29T15:42:57.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.fourplex.net/2026/01/29/is-the-ram-shortage-killing-small-vps-hosts/
-Comments URL: https://news.ycombinator.com/item?id=46811664
-Points: 50
-# Comments: 34]]></summary>
-        <author>
-            <name>neelc</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[OTelBench: AI struggles with simple SRE tasks (Opus 4.5 scores only 29%)]]></title>
-        <id>https://news.ycombinator.com/item?id=46811588</id>
-        <link href="https://quesma.com/blog/introducing-otel-bench/"/>
-        <updated>2026-01-29T15:37:21.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://quesma.com/blog/introducing-otel-bench/
-Comments URL: https://news.ycombinator.com/item?id=46811588
-Points: 62
-# Comments: 42]]></summary>
-        <author>
-            <name>stared</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Deep dive into Turso, the "SQLite rewrite in Rust"]]></title>
-        <id>https://news.ycombinator.com/item?id=46810950</id>
-        <link href="https://kerkour.com/turso-sqlite"/>
-        <updated>2026-01-29T14:51:56.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://kerkour.com/turso-sqlite
-Comments URL: https://news.ycombinator.com/item?id=46810950
-Points: 57
-# Comments: 24]]></summary>
-        <author>
-            <name>unsolved73</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How to Choose Colors for Your CLI Applications (2023)]]></title>
-        <id>https://news.ycombinator.com/item?id=46810904</id>
-        <link href="https://blog.xoria.org/terminal-colors/"/>
-        <updated>2026-01-29T14:49:08.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://blog.xoria.org/terminal-colors/
-Comments URL: https://news.ycombinator.com/item?id=46810904
-Points: 55
-# Comments: 29]]></summary>
-        <author>
-            <name>kruuuder</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Run Clawdbot/Moltbot on Cloudflare with Moltworker]]></title>
-        <id>https://news.ycombinator.com/item?id=46810828</id>
-        <link href="https://blog.cloudflare.com/moltworker-self-hosted-ai-agent/"/>
-        <updated>2026-01-29T14:43:07.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://blog.cloudflare.com/moltworker-self-hosted-ai-agent/
-Comments URL: https://news.ycombinator.com/item?id=46810828
-Points: 63
-# Comments: 23]]></summary>
-        <author>
-            <name>ghostwriternr</name>
         </author>
     </entry>
 </feed>
