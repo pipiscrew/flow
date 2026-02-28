@@ -6,6 +6,26 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=47188697",
+          "author": "surprisetalk",
+          "description": "Article URL: https://www.anthropic.com/news/statement-comments-secretary-war\nComments URL: https://news.ycombinator.com/item?id=47188697\nPoints: 259\n# Comments: 53",
+          "link": "https://www.anthropic.com/news/statement-comments-secretary-war",
+          "publishedOn": "2026-02-28T01:20:10.000Z",
+          "wordCount": 1542,
+          "title": "Statement on the comments from Secretary of War Pete Hegseth",
+          "imageUrl": "https://cdn.sanity.io/images/4zrzovbb/website/04e461ada1956ddd7390fe7053f8eb865a7ec26c-4800x2520.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47188473",
+          "author": "BloondAndDoom",
+          "description": "Article URL: https://notdivided.org\nComments URL: https://news.ycombinator.com/item?id=47188473\nPoints: 430\n# Comments: 159",
+          "link": "https://notdivided.org/",
+          "publishedOn": "2026-02-28T00:54:53.000Z",
+          "wordCount": 1822,
+          "title": "We Will Not Be Divided",
+          "imageUrl": "https://notdivided.org/og-image.png"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=47186677",
           "author": "jacobedawson",
           "description": "https://xcancel.com/secwar/status/2027507717469049070\nhttps://www.cnbc.com/2026/02/27/trump-anthropic-ai-pentagon....\nComments URL: https://news.ycombinator.com/item?id=47186677\nPoints: 398\n# Comments: 302",
@@ -126,6 +146,16 @@
           "imageUrl": "https://assets2.cbsnewsstatic.com/hub/i/r/2026/02/27/45751ccd-7e36-4b4f-b82b-9a0aeac6f8bb/thumbnail/1200x630g8/f796eb8c92366c9ce173eb45aec39b21/2026-02-02t220404z-948151260-rc2ydjad8bol-rtrmadp-3-space-moon-artemis.jpg"
         },
         {
+          "id": "https://news.ycombinator.com/item?id=47182387",
+          "author": "rikk3rt",
+          "description": "Claude Code deleted my research and plan markdown files and informed me: “I accidentally rm -rf'd real directories in my Obsidian vault through a symlink it didn't realize was there: I made a mistake. “\nUnfortunately the backup of my documentation accidentally hadn’t run for a month. So I built claude-file-recovery, a CLI-tool and TUI that is able to extract your files from your ~/.claude session history and thankfully I was able to recover my files. It's able to extract any file that Claude Code ever read, edited or wrote. I hope you will never need it, but you can find it on my GitHub and pip. Note: It can recover an earlier version of a file at a certain point in time.\npip install claude-file-recovery\nComments URL: https://news.ycombinator.com/item?id=47182387\nPoints: 51\n# Comments: 17",
+          "link": "https://github.com/hjtenklooster/claude-file-recovery",
+          "publishedOn": "2026-02-27T16:26:22.000Z",
+          "wordCount": 2458,
+          "title": "Show HN: Claude-File-Recovery, recover files from your ~/.claude sessions",
+          "imageUrl": "https://opengraph.githubassets.com/492bb1934f9a93cb550c72de905cc9c8c38baa783090208da6b2aa29480a9399/hjtenklooster/claude-file-recovery"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=47181944",
           "author": "cwwc",
           "description": "Article URL: https://www.cnn.com/2026/02/25/politics/chatgpt-china-intimidation-operation\nComments URL: https://news.ycombinator.com/item?id=47181944\nPoints: 71\n# Comments: 49",
@@ -194,6 +224,16 @@
           "wordCount": 4467,
           "title": "The Pentagon is making a mistake by threatening Anthropic",
           "imageUrl": "https://substackcdn.com/image/fetch/$s_!p-HT!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7c021cdc-3feb-4fa6-982f-1212820500f7_5431x3621.jpeg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47181316",
+          "author": "gregpr07",
+          "description": "Article URL: https://browser-use.com/posts/two-ways-to-sandbox-agents\nComments URL: https://news.ycombinator.com/item?id=47181316\nPoints: 58\n# Comments: 9",
+          "link": "https://browser-use.com/posts/two-ways-to-sandbox-agents",
+          "publishedOn": "2026-02-27T15:03:12.000Z",
+          "wordCount": 2998,
+          "title": "Building secure, scalable agent sandbox infrastructure",
+          "imageUrl": "https://browser-use.com/api/og?title=How+We+Built+Secure%2C+Scalable+Agent+Sandbox+Infrastructure&date=Feb+25%2C+2026&author=Larsen+Cundric"
         },
         {
           "id": "https://news.ycombinator.com/item?id=47181211",
@@ -474,6 +514,16 @@
           "wordCount": 2903,
           "title": "OsmAnd's Faster Offline Navigation",
           "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47170030",
+          "author": "ks2048",
+          "description": "Article URL: https://github.com/anadim/AdderBoard\nComments URL: https://news.ycombinator.com/item?id=47170030\nPoints: 62\n# Comments: 12",
+          "link": "https://github.com/anadim/AdderBoard",
+          "publishedOn": "2026-02-26T18:29:56.000Z",
+          "wordCount": 4630,
+          "title": "Smallest transformer that can add two 10-digit numbers",
+          "imageUrl": "https://opengraph.githubassets.com/e7d0c1e892176ca68ae09a9c3e091779d65925e90134f785f895def32518db3c/anadim/AdderBoard"
         },
         {
           "id": "https://news.ycombinator.com/item?id=47169984",
@@ -13314,86 +13364,6 @@
           "wordCount": 2826,
           "title": "Run Clawdbot/Moltbot on Cloudflare with Moltworker",
           "imageUrl": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/50LUcxsxkxczfIwcqCO13r/ed5a7074fb7a85fb88306d04db2426cb/Introducing_Moltworker-_a_self-hosted_personal_AI_agent__minus_the_minis-OG.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46810576",
-          "author": "thinkingaboutit",
-          "description": "Article URL: https://dalelane.co.uk/blog/?p=5847\nComments URL: https://news.ycombinator.com/item?id=46810576\nPoints: 50\n# Comments: 16",
-          "link": "https://dalelane.co.uk/blog/?p=5847",
-          "publishedOn": "2026-01-29T14:23:22.000Z",
-          "wordCount": 4120,
-          "title": "How to explain Generative AI in the classroom",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46810401",
-          "author": "voxadam",
-          "description": "Article URL: https://techcrunch.com/2026/01/29/waymo-robotaxi-hits-a-child-near-an-elementary-school-in-santa-monica/\nComments URL: https://news.ycombinator.com/item?id=46810401\nPoints: 78\n# Comments: 105",
-          "link": "https://techcrunch.com/2026/01/29/waymo-robotaxi-hits-a-child-near-an-elementary-school-in-santa-monica/",
-          "publishedOn": "2026-01-29T14:08:56.000Z",
-          "wordCount": 3294,
-          "title": "Waymo robotaxi hits a child near an elementary school in Santa Monica",
-          "imageUrl": "https://techcrunch.com/wp-content/uploads/2025/10/waymo-nyc.jpg?w=1121"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46810282",
-          "author": "qwesr123",
-          "description": "Article URL: https://marginlab.ai/trackers/claude-code/\nComments URL: https://news.ycombinator.com/item?id=46810282\nPoints: 98\n# Comments: 34",
-          "link": "https://marginlab.ai/trackers/claude-code/",
-          "publishedOn": "2026-01-29T13:59:07.000Z",
-          "wordCount": 1713,
-          "title": "Claude Code Daily Benchmarks for Degradation Tracking",
-          "imageUrl": "https://marginlab.ai/og-image.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46810027",
-          "author": "bookofjoe",
-          "description": "Article URL: https://davidoks.blog/p/a-lot-of-population-numbers-are-fake\nComments URL: https://news.ycombinator.com/item?id=46810027\nPoints: 88\n# Comments: 49",
-          "link": "https://davidoks.blog/p/a-lot-of-population-numbers-are-fake",
-          "publishedOn": "2026-01-29T13:36:54.000Z",
-          "wordCount": null,
-          "title": "A lot of population numbers are fake",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46809846",
-          "author": "Ozzie_osman",
-          "description": "Article URL: https://somehowmanage.com/2026/01/22/a-step-behind-the-bleeding-edge-monarchs-philosophy-on-ai-in-dev/\nComments URL: https://news.ycombinator.com/item?id=46809846\nPoints: 75\n# Comments: 21",
-          "link": "https://somehowmanage.com/2026/01/22/a-step-behind-the-bleeding-edge-monarchs-philosophy-on-ai-in-dev/",
-          "publishedOn": "2026-01-29T13:20:07.000Z",
-          "wordCount": 4605,
-          "title": "A Step Behind the Bleeding Edge: A Philosophy on AI in Dev",
-          "imageUrl": "https://somehowmanage.com/wp-content/uploads/2020/10/cropped-headshot2-small-1.png?w=200"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46809708",
-          "author": "maximedupre",
-          "description": "Article URL: https://vercel.com/blog/agents-md-outperforms-skills-in-our-agent-evals\nComments URL: https://news.ycombinator.com/item?id=46809708\nPoints: 84\n# Comments: 41",
-          "link": "https://vercel.com/blog/agents-md-outperforms-skills-in-our-agent-evals",
-          "publishedOn": "2026-01-29T13:08:11.000Z",
-          "wordCount": 1652,
-          "title": "Compressed Agents.md > Agent Skills",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46809420",
-          "author": "bishabosha",
-          "description": "Article URL: https://www.scala-lang.org/blog/2026/01/27/sta-invests-in-scala.html\nComments URL: https://news.ycombinator.com/item?id=46809420\nPoints: 50\n# Comments: 35",
-          "link": "https://www.scala-lang.org/blog/2026/01/27/sta-invests-in-scala.html",
-          "publishedOn": "2026-01-29T12:42:58.000Z",
-          "wordCount": 898,
-          "title": "The Sovereign Tech Fund Invests in Scala",
-          "imageUrl": "https://www.scala-lang.org/resources/img/scala-spiral-3d-2-toned-down.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46809069",
-          "author": "Bayramovanar",
-          "description": "Article URL: https://bayramovanar.substack.com/p/tech-market-is-fucked-up\nComments URL: https://news.ycombinator.com/item?id=46809069\nPoints: 82\n# Comments: 38",
-          "link": "https://bayramovanar.substack.com/p/tech-market-is-fucked-up",
-          "publishedOn": "2026-01-29T12:03:13.000Z",
-          "wordCount": null,
-          "title": "The tech market is fundamentally fucked up and AI is just a scapegoat",
-          "imageUrl": null
         }
       ]
     }

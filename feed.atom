@@ -2,10 +2,36 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-02-27T23:30:44.784Z</updated>
+    <updated>2026-02-28T02:27:13.418Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Statement on the comments from Secretary of War Pete Hegseth]]></title>
+        <id>https://news.ycombinator.com/item?id=47188697</id>
+        <link href="https://www.anthropic.com/news/statement-comments-secretary-war"/>
+        <updated>2026-02-28T01:20:10.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.anthropic.com/news/statement-comments-secretary-war
+Comments URL: https://news.ycombinator.com/item?id=47188697
+Points: 259
+# Comments: 53]]></summary>
+        <author>
+            <name>surprisetalk</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[We Will Not Be Divided]]></title>
+        <id>https://news.ycombinator.com/item?id=47188473</id>
+        <link href="https://notdivided.org/"/>
+        <updated>2026-02-28T00:54:53.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://notdivided.org
+Comments URL: https://news.ycombinator.com/item?id=47188473
+Points: 430
+# Comments: 159]]></summary>
+        <author>
+            <name>BloondAndDoom</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[I am directing the Department of War to designate Anthropic a Supply-Chain Risk]]></title>
         <id>https://news.ycombinator.com/item?id=47186677</id>
@@ -164,6 +190,21 @@ Points: 63
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Show HN: Claude-File-Recovery, recover files from your ~/.claude sessions]]></title>
+        <id>https://news.ycombinator.com/item?id=47182387</id>
+        <link href="https://github.com/hjtenklooster/claude-file-recovery"/>
+        <updated>2026-02-27T16:26:22.000Z</updated>
+        <summary type="html"><![CDATA[Claude Code deleted my research and plan markdown files and informed me: “I accidentally rm -rf'd real directories in my Obsidian vault through a symlink it didn't realize was there: I made a mistake. “
+Unfortunately the backup of my documentation accidentally hadn’t run for a month. So I built claude-file-recovery, a CLI-tool and TUI that is able to extract your files from your ~/.claude session history and thankfully I was able to recover my files. It's able to extract any file that Claude Code ever read, edited or wrote. I hope you will never need it, but you can find it on my GitHub and pip. Note: It can recover an earlier version of a file at a certain point in time.
+pip install claude-file-recovery
+Comments URL: https://news.ycombinator.com/item?id=47182387
+Points: 51
+# Comments: 17]]></summary>
+        <author>
+            <name>rikk3rt</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[A Chinese official’s use of ChatGPT revealed an intimidation operation]]></title>
         <id>https://news.ycombinator.com/item?id=47181944</id>
         <link href="https://www.cnn.com/2026/02/25/politics/chatgpt-china-intimidation-operation"/>
@@ -256,6 +297,19 @@ Points: 106
 # Comments: 72]]></summary>
         <author>
             <name>speckx</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Building secure, scalable agent sandbox infrastructure]]></title>
+        <id>https://news.ycombinator.com/item?id=47181316</id>
+        <link href="https://browser-use.com/posts/two-ways-to-sandbox-agents"/>
+        <updated>2026-02-27T15:03:12.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://browser-use.com/posts/two-ways-to-sandbox-agents
+Comments URL: https://news.ycombinator.com/item?id=47181316
+Points: 58
+# Comments: 9]]></summary>
+        <author>
+            <name>gregpr07</name>
         </author>
     </entry>
     <entry>
@@ -623,6 +677,19 @@ Points: 53
 # Comments: 12]]></summary>
         <author>
             <name>todsacerdoti</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Smallest transformer that can add two 10-digit numbers]]></title>
+        <id>https://news.ycombinator.com/item?id=47170030</id>
+        <link href="https://github.com/anadim/AdderBoard"/>
+        <updated>2026-02-26T18:29:56.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://github.com/anadim/AdderBoard
+Comments URL: https://news.ycombinator.com/item?id=47170030
+Points: 62
+# Comments: 12]]></summary>
+        <author>
+            <name>ks2048</name>
         </author>
     </entry>
     <entry>
@@ -17885,110 +17952,6 @@ Points: 63
 # Comments: 23]]></summary>
         <author>
             <name>ghostwriternr</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How to explain Generative AI in the classroom]]></title>
-        <id>https://news.ycombinator.com/item?id=46810576</id>
-        <link href="https://dalelane.co.uk/blog/?p=5847"/>
-        <updated>2026-01-29T14:23:22.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://dalelane.co.uk/blog/?p=5847
-Comments URL: https://news.ycombinator.com/item?id=46810576
-Points: 50
-# Comments: 16]]></summary>
-        <author>
-            <name>thinkingaboutit</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Waymo robotaxi hits a child near an elementary school in Santa Monica]]></title>
-        <id>https://news.ycombinator.com/item?id=46810401</id>
-        <link href="https://techcrunch.com/2026/01/29/waymo-robotaxi-hits-a-child-near-an-elementary-school-in-santa-monica/"/>
-        <updated>2026-01-29T14:08:56.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://techcrunch.com/2026/01/29/waymo-robotaxi-hits-a-child-near-an-elementary-school-in-santa-monica/
-Comments URL: https://news.ycombinator.com/item?id=46810401
-Points: 78
-# Comments: 105]]></summary>
-        <author>
-            <name>voxadam</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Claude Code Daily Benchmarks for Degradation Tracking]]></title>
-        <id>https://news.ycombinator.com/item?id=46810282</id>
-        <link href="https://marginlab.ai/trackers/claude-code/"/>
-        <updated>2026-01-29T13:59:07.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://marginlab.ai/trackers/claude-code/
-Comments URL: https://news.ycombinator.com/item?id=46810282
-Points: 98
-# Comments: 34]]></summary>
-        <author>
-            <name>qwesr123</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A lot of population numbers are fake]]></title>
-        <id>https://news.ycombinator.com/item?id=46810027</id>
-        <link href="https://davidoks.blog/p/a-lot-of-population-numbers-are-fake"/>
-        <updated>2026-01-29T13:36:54.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://davidoks.blog/p/a-lot-of-population-numbers-are-fake
-Comments URL: https://news.ycombinator.com/item?id=46810027
-Points: 88
-# Comments: 49]]></summary>
-        <author>
-            <name>bookofjoe</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A Step Behind the Bleeding Edge: A Philosophy on AI in Dev]]></title>
-        <id>https://news.ycombinator.com/item?id=46809846</id>
-        <link href="https://somehowmanage.com/2026/01/22/a-step-behind-the-bleeding-edge-monarchs-philosophy-on-ai-in-dev/"/>
-        <updated>2026-01-29T13:20:07.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://somehowmanage.com/2026/01/22/a-step-behind-the-bleeding-edge-monarchs-philosophy-on-ai-in-dev/
-Comments URL: https://news.ycombinator.com/item?id=46809846
-Points: 75
-# Comments: 21]]></summary>
-        <author>
-            <name>Ozzie_osman</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Compressed Agents.md > Agent Skills]]></title>
-        <id>https://news.ycombinator.com/item?id=46809708</id>
-        <link href="https://vercel.com/blog/agents-md-outperforms-skills-in-our-agent-evals"/>
-        <updated>2026-01-29T13:08:11.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://vercel.com/blog/agents-md-outperforms-skills-in-our-agent-evals
-Comments URL: https://news.ycombinator.com/item?id=46809708
-Points: 84
-# Comments: 41]]></summary>
-        <author>
-            <name>maximedupre</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Sovereign Tech Fund Invests in Scala]]></title>
-        <id>https://news.ycombinator.com/item?id=46809420</id>
-        <link href="https://www.scala-lang.org/blog/2026/01/27/sta-invests-in-scala.html"/>
-        <updated>2026-01-29T12:42:58.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.scala-lang.org/blog/2026/01/27/sta-invests-in-scala.html
-Comments URL: https://news.ycombinator.com/item?id=46809420
-Points: 50
-# Comments: 35]]></summary>
-        <author>
-            <name>bishabosha</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The tech market is fundamentally fucked up and AI is just a scapegoat]]></title>
-        <id>https://news.ycombinator.com/item?id=46809069</id>
-        <link href="https://bayramovanar.substack.com/p/tech-market-is-fucked-up"/>
-        <updated>2026-01-29T12:03:13.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://bayramovanar.substack.com/p/tech-market-is-fucked-up
-Comments URL: https://news.ycombinator.com/item?id=46809069
-Points: 82
-# Comments: 38]]></summary>
-        <author>
-            <name>Bayramovanar</name>
         </author>
     </entry>
 </feed>
