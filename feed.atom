@@ -2,10 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-02-28T16:34:17.948Z</updated>
+    <updated>2026-02-28T17:26:12.347Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Cognitive Debt: When Velocity Exceeds Comprehension]]></title>
+        <id>https://news.ycombinator.com/item?id=47196582</id>
+        <link href="https://www.rockoder.com/beyondthecode/cognitive-debt-when-velocity-exceeds-comprehension/"/>
+        <updated>2026-02-28T15:39:10.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.rockoder.com/beyondthecode/cognitive-debt-when-velocity-exceeds-comprehension/
+Comments URL: https://news.ycombinator.com/item?id=47196582
+Points: 82
+# Comments: 30]]></summary>
+        <author>
+            <name>pagade</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Addressing Antigravity Bans and Reinstating Access]]></title>
         <id>https://news.ycombinator.com/item?id=47195371</id>
@@ -30,6 +43,29 @@ Points: 52
 # Comments: 22]]></summary>
         <author>
             <name>bookofjoe</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Now I Get It – Translate scientific papers into interactive webpages]]></title>
+        <id>https://news.ycombinator.com/item?id=47195123</id>
+        <link href="https://nowigetit.us/"/>
+        <updated>2026-02-28T13:29:36.000Z</updated>
+        <summary type="html"><![CDATA[Understanding scientific articles can be tough, even in your own field. Trying to comprehend articles from others? Good luck.
+Enter, Now I Get It!
+I made this app for curious people. Simply upload an article and after a few minutes you'll have an interactive web page showcasing the highlights. Generated pages are stored in the cloud and can be viewed from a gallery.
+Now I Get It! uses the best LLMs out there, which means the app will improve as AI improves.
+Free for now - it's capped at 20 articles per day so I don't burn cash.
+A few things I (and maybe you will) find interesting:
+* This is a pure convenience app. I could just as well use a saved prompt in Claude, but sometimes it's nice to have a niche-focused app. It's just cognitively easier, IMO.
+* The app was built for myself and colleagues in various scientific fields. It can take an hour or more to read a detailed paper so this is like an on-ramp.
+* The app is a place for me to experiment with using LLMs to translate scientific articles into software. The space is pregnant with possibilities.
+* Everything in the app is the result of agentic engineering, e.g. plans, specs, tasks, execution loops. I swear by Beads (https://github.com/steveyegge/beads) by Yegge and also make heavy use of Beads Viewer (https://news.ycombinator.com/item?id=46314423) and Destructive Command Guard (https://news.ycombinator.com/item?id=46835674) by Jeffrey Emanuel.
+* I'm an AWS fan and have been impressed by Opus' ability to write good CFN. It still needs a bunch of guidance around distributed architecture but way better than last year.
+Comments URL: https://news.ycombinator.com/item?id=47195123
+Points: 58
+# Comments: 46]]></summary>
+        <author>
+            <name>jbdamask</name>
         </author>
     </entry>
     <entry>
@@ -17719,65 +17755,6 @@ Points: 57
 # Comments: 33]]></summary>
         <author>
             <name>zem</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[OpenClaw – Moltbot Renamed Again]]></title>
-        <id>https://news.ycombinator.com/item?id=46820783</id>
-        <link href="https://openclaw.ai/blog/introducing-openclaw"/>
-        <updated>2026-01-30T05:14:48.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://openclaw.ai/blog/introducing-openclaw
-Comments URL: https://news.ycombinator.com/item?id=46820783
-Points: 105
-# Comments: 33]]></summary>
-        <author>
-            <name>ed</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: ÆTHRA – Writing Music as Code]]></title>
-        <id>https://news.ycombinator.com/item?id=46820691</id>
-        <link href="https://news.ycombinator.com/item?id=46820691"/>
-        <updated>2026-01-30T04:59:37.000Z</updated>
-        <summary type="html"><![CDATA[Hi HN
-I’m building ÆTHRA — a programming language designed specifically for composing music and emotional soundscapes.
-Instead of focusing on general-purpose programming, ÆTHRA is a pure DSL where code directly represents musical intent: tempo, mood, chords, progression, dynamics, and instruments.
-The goal is to make music composition feel closer to writing a story or emotion, rather than manipulating low-level audio APIs.
-Key ideas:
-- Text-based music composition
-- Chords and progressions as first-class concepts
-- Time, tempo, and structure handled by the language
-- Designed for ambient, cinematic, emotional, and minimal music
-- Interpreter written in C# (.NET)
-Example ÆTHRA code (simplified):
-tempo 60
-instrument guitar
-chord Am for 4
-chord F for 4
-chord C for 4
-chord G for 4
-This generates a slow, melancholic progression suitable for ambient or cinematic scenes.
-ÆTHRA currently:
-- Generates WAV audio
-- Supports notes, chords, tempo, duration, velocity
-- Uses a simple interpreter (no external DAWs or MIDI tools)
-- Is intentionally minimal and readable
-What it is NOT:
-- Not a DAW replacement
-- Not MIDI-focused
-Why I made it:
-I wanted a language where music is the primary output — not an afterthought. Something between code, emotion, and sound design.
-The project is open-source and early-stage (v0.8). I’m mainly looking for:
-- Feedback on the language design
-- Ideas for musical features worth adding
-- Thoughts from people into PL design, audio, or generative art
-Repo: https://github.com/TanmayCzax/AETHRA>
-Thanks for reading — happy to answer questions or discuss ideas.
-Comments URL: https://news.ycombinator.com/item?id=46820691
-Points: 51
-# Comments: 12]]></summary>
-        <author>
-            <name>CzaxTanmay</name>
         </author>
     </entry>
 </feed>

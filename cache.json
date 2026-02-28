@@ -6,6 +6,16 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=47196582",
+          "author": "pagade",
+          "description": "Article URL: https://www.rockoder.com/beyondthecode/cognitive-debt-when-velocity-exceeds-comprehension/\nComments URL: https://news.ycombinator.com/item?id=47196582\nPoints: 82\n# Comments: 30",
+          "link": "https://www.rockoder.com/beyondthecode/cognitive-debt-when-velocity-exceeds-comprehension/",
+          "publishedOn": "2026-02-28T15:39:10.000Z",
+          "wordCount": 2258,
+          "title": "Cognitive Debt: When Velocity Exceeds Comprehension",
+          "imageUrl": "https://www.rockoder.com/images/id/id.png"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=47195371",
           "author": "RyanShook",
           "description": "Article URL: https://github.com/google-gemini/gemini-cli/discussions/20632\nComments URL: https://news.ycombinator.com/item?id=47195371\nPoints: 69\n# Comments: 50",
@@ -24,6 +34,16 @@
           "wordCount": 27835,
           "title": "OpenAI Fires an Employee for Prediction Market Insider Trading",
           "imageUrl": "https://media.wired.com/photos/69a0b01c157af8f83feddf9b/191:100/w_1280,c_limit/OpenAI-Employee-Fired-Insider-Trading-Business-2210029299.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47195123",
+          "author": "jbdamask",
+          "description": "Understanding scientific articles can be tough, even in your own field. Trying to comprehend articles from others? Good luck.\nEnter, Now I Get It!\nI made this app for curious people. Simply upload an article and after a few minutes you'll have an interactive web page showcasing the highlights. Generated pages are stored in the cloud and can be viewed from a gallery.\nNow I Get It! uses the best LLMs out there, which means the app will improve as AI improves.\nFree for now - it's capped at 20 articles per day so I don't burn cash.\nA few things I (and maybe you will) find interesting:\n* This is a pure convenience app. I could just as well use a saved prompt in Claude, but sometimes it's nice to have a niche-focused app. It's just cognitively easier, IMO.\n* The app was built for myself and colleagues in various scientific fields. It can take an hour or more to read a detailed paper so this is like an on-ramp.\n* The app is a place for me to experiment with using LLMs to translate scientific articles into software. The space is pregnant with possibilities.\n* Everything in the app is the result of agentic engineering, e.g. plans, specs, tasks, execution loops. I swear by Beads (https://github.com/steveyegge/beads) by Yegge and also make heavy use of Beads Viewer (https://news.ycombinator.com/item?id=46314423) and Destructive Command Guard (https://news.ycombinator.com/item?id=46835674) by Jeffrey Emanuel.\n* I'm an AWS fan and have been impressed by Opus' ability to write good CFN. It still needs a bunch of guidance around distributed architecture but way better than last year.\nComments URL: https://news.ycombinator.com/item?id=47195123\nPoints: 58\n# Comments: 46",
+          "link": "https://nowigetit.us/",
+          "publishedOn": "2026-02-28T13:29:36.000Z",
+          "wordCount": 2889,
+          "title": "Show HN: Now I Get It – Translate scientific papers into interactive webpages",
+          "imageUrl": null
         },
         {
           "id": "https://news.ycombinator.com/item?id=47194847",
@@ -13213,26 +13233,6 @@
           "publishedOn": "2026-01-30T05:31:29.000Z",
           "wordCount": 47756,
           "title": "Typechecking is undecidable when 'type' is a type (1989) [pdf]",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46820783",
-          "author": "ed",
-          "description": "Article URL: https://openclaw.ai/blog/introducing-openclaw\nComments URL: https://news.ycombinator.com/item?id=46820783\nPoints: 105\n# Comments: 33",
-          "link": "https://openclaw.ai/blog/introducing-openclaw",
-          "publishedOn": "2026-01-30T05:14:48.000Z",
-          "wordCount": 724,
-          "title": "OpenClaw – Moltbot Renamed Again",
-          "imageUrl": "https://openclaw.ai/og-image.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46820691",
-          "author": "CzaxTanmay",
-          "description": "Hi HN\nI’m building ÆTHRA — a programming language designed specifically for composing music and emotional soundscapes.\nInstead of focusing on general-purpose programming, ÆTHRA is a pure DSL where code directly represents musical intent: tempo, mood, chords, progression, dynamics, and instruments.\nThe goal is to make music composition feel closer to writing a story or emotion, rather than manipulating low-level audio APIs.\nKey ideas:\n- Text-based music composition\n- Chords and progressions as first-class concepts\n- Time, tempo, and structure handled by the language\n- Designed for ambient, cinematic, emotional, and minimal music\n- Interpreter written in C# (.NET)\nExample ÆTHRA code (simplified):\ntempo 60\ninstrument guitar\nchord Am for 4\nchord F for 4\nchord C for 4\nchord G for 4\nThis generates a slow, melancholic progression suitable for ambient or cinematic scenes.\nÆTHRA currently:\n- Generates WAV audio\n- Supports notes, chords, tempo, duration, velocity\n- Uses a simple interpreter (no external DAWs or MIDI tools)\n- Is intentionally minimal and readable\nWhat it is NOT:\n- Not a DAW replacement\n- Not MIDI-focused\nWhy I made it:\nI wanted a language where music is the primary output — not an afterthought. Something between code, emotion, and sound design.\nThe project is open-source and early-stage (v0.8). I’m mainly looking for:\n- Feedback on the language design\n- Ideas for musical features worth adding\n- Thoughts from people into PL design, audio, or generative art\nRepo: https://github.com/TanmayCzax/AETHRA>\nThanks for reading — happy to answer questions or discuss ideas.\nComments URL: https://news.ycombinator.com/item?id=46820691\nPoints: 51\n# Comments: 12",
-          "link": "https://news.ycombinator.com/item?id=46820691",
-          "publishedOn": "2026-01-30T04:59:37.000Z",
-          "wordCount": 880,
-          "title": "Show HN: ÆTHRA – Writing Music as Code",
           "imageUrl": null
         }
       ]
