@@ -26,6 +26,16 @@
           "imageUrl": null
         },
         {
+          "id": "https://news.ycombinator.com/item?id=47202614",
+          "author": "mindcrime",
+          "description": "Article URL: https://www.amd.com/en/developer/resources/technical-articles/2026/how-to-run-a-one-trillion-parameter-llm-locally-an-amd.html\nComments URL: https://news.ycombinator.com/item?id=47202614\nPoints: 55\n# Comments: 11",
+          "link": "https://www.amd.com/en/developer/resources/technical-articles/2026/how-to-run-a-one-trillion-parameter-llm-locally-an-amd.html",
+          "publishedOn": "2026-03-01T01:24:54.000Z",
+          "wordCount": null,
+          "title": "Running a One Trillion-Parameter LLM Locally on AMD Ryzen AI Max+ Cluster",
+          "imageUrl": null
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=47201882",
           "author": "geox",
           "description": "Article URL: https://fortune.com/2026/02/28/pentagon-officer-education-ivy-league-schools-universities-partners-ai-space/\nComments URL: https://news.ycombinator.com/item?id=47201882\nPoints: 68\n# Comments: 21",
@@ -34,6 +44,16 @@
           "wordCount": 6384,
           "title": "Pentagon chief blocks officers from Ivy League schools and top universities",
           "imageUrl": "https://fortune.com/img-assets/wp-content/uploads/2026/02/GettyImages-1362368150-e1772319228293.jpg?resize=1200,600"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47201816",
+          "author": "jawiggins",
+          "description": "Recently several AI labs have published experiments where they tried to get AI coding agents to complete large software projects.\n- Cursor attempted to make a browser from scratch: https://cursor.com/blog/scaling-agents\n- Anthropic attempted to make a C Compiler: https://www.anthropic.com/engineering/building-c-compiler\nI have been wondering if there are software packages that can be easily reproduced by taking the available test suites and tasking agents to work on projects until the existing test suites pass.\nAfter playing with this concept by having Claude Code reproduce redis and sqlite, I began looking for software packages where an agent-made reproduction might actually be useful.\nI found libxml2, a widely used, open-source C language library designed for parsing, creating, and manip…",
+          "link": "https://github.com/jonwiggins/xmloxide",
+          "publishedOn": "2026-02-28T23:44:41.000Z",
+          "wordCount": 5698,
+          "title": "Show HN: Xmloxide – an agent made rust replacement for libxml2",
+          "imageUrl": "https://opengraph.githubassets.com/411cd86bb8d5d03fda84275d1fa1656c2a8a86f32e6a731d21172dc06c1c6c06/jonwiggins/xmloxide"
         },
         {
           "id": "https://news.ycombinator.com/item?id=47200904",
@@ -13194,16 +13214,6 @@
           "wordCount": 2609,
           "title": "A judge gave the FBI permission to attempt to bypass biometrics",
           "imageUrl": "https://theintercept.com/wp-content/uploads/2026/01/GettyImages-1201763746-e1769748518311.jpg?fit=5002%2C2497&w=1200&h=800"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46827665",
-          "author": "jyunwai",
-          "description": "Article URL: https://themarkup.org/artificial-intelligence/2026/01/30/mamdani-to-kill-the-nyc-ai-chatbot-we-caught-telling-businesses-to-break-the-law\nComments URL: https://news.ycombinator.com/item?id=46827665\nPoints: 86\n# Comments: 14",
-          "link": "https://themarkup.org/artificial-intelligence/2026/01/30/mamdani-to-kill-the-nyc-ai-chatbot-we-caught-telling-businesses-to-break-the-law",
-          "publishedOn": "2026-01-30T18:02:23.000Z",
-          "wordCount": 1466,
-          "title": "Mamdani to kill the NYC AI chatbot caught telling businesses to break the law",
-          "imageUrl": "https://mrkp-static-production.themarkup.org/uploads/2026/01/011226-Zohran-Mamdani-GETTY-MU-01-1200x628.jpg"
         }
       ]
     }
