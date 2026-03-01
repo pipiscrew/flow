@@ -2,10 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-03-01T02:52:53.156Z</updated>
+    <updated>2026-03-01T04:59:43.368Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Samsung Galaxy update removes Android recovery menu tools, including sideloading]]></title>
+        <id>https://news.ycombinator.com/item?id=47202808</id>
+        <link href="https://9to5google.com/2026/02/27/samsung-galaxy-update-android-recovery-menu-removed/"/>
+        <updated>2026-03-01T01:59:00.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://9to5google.com/2026/02/27/samsung-galaxy-update-android-recovery-menu-removed/
+Comments URL: https://news.ycombinator.com/item?id=47202808
+Points: 53
+# Comments: 8]]></summary>
+        <author>
+            <name>pabs3</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Microgpt]]></title>
         <id>https://news.ycombinator.com/item?id=47202708</id>
@@ -17659,139 +17672,6 @@ Points: 79
 # Comments: 65]]></summary>
         <author>
             <name>swolpers</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Yawning has an unexpected influence on the fluid inside your brain]]></title>
-        <id>https://news.ycombinator.com/item?id=46826803</id>
-        <link href="https://www.newscientist.com/article/2513692-yawning-has-an-unexpected-influence-on-the-fluid-inside-your-brain/"/>
-        <updated>2026-01-30T16:57:19.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.newscientist.com/article/2513692-yawning-has-an-unexpected-influence-on-the-fluid-inside-your-brain/
-Comments URL: https://news.ycombinator.com/item?id=46826803
-Points: 58
-# Comments: 27]]></summary>
-        <author>
-            <name>MDWolinski</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Kimi K2.5 Technical Report [pdf]]]></title>
-        <id>https://news.ycombinator.com/item?id=46826597</id>
-        <link href="https://github.com/MoonshotAI/Kimi-K2.5/blob/master/tech_report.pdf"/>
-        <updated>2026-01-30T16:43:50.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://github.com/MoonshotAI/Kimi-K2.5/blob/master/tech_report.pdf
-Comments URL: https://news.ycombinator.com/item?id=46826597
-Points: 86
-# Comments: 35]]></summary>
-        <author>
-            <name>vinhnx</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Joedb, the Journal-Only Embedded Database]]></title>
-        <id>https://news.ycombinator.com/item?id=46826454</id>
-        <link href="https://www.joedb.org/index.html"/>
-        <updated>2026-01-30T16:34:05.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.joedb.org/index.html
-Comments URL: https://news.ycombinator.com/item?id=46826454
-Points: 60
-# Comments: 8]]></summary>
-        <author>
-            <name>mci</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ask HN: Do you also "hoard" notes/links but struggle to turn them into actions?]]></title>
-        <id>https://news.ycombinator.com/item?id=46826277</id>
-        <link href="https://news.ycombinator.com/item?id=46826277"/>
-        <updated>2026-01-30T16:22:05.000Z</updated>
-        <summary type="html"><![CDATA[Hi HN — I’m exploring an idea and would love your feedback.
-I’m a builder and user of Obsidian, validating a concept called Concerns. Today it’s only a landing page + short survey (no product yet) to test whether this pain is real.
-The core idea (2–3 bullets):
-- Many of us capture tons of useful info (notes/links/docs), but it rarely becomes shipped work.
-- Instead of better “organization” (tags/folders), I’m exploring an “action engine” that:
-  1.detects what you’re actively targetting/working on (“active projects”)
-
-  2.surfaces relevant saved material at the right moment
-
-  3.proposes a concrete next action (ideally pushed into your existing task tool)
-
-Before writing code, I’m trying to pin down two things:
-- Project context signals (repo/PRs? issues? tasks? calendar? a “project doc”?)
-- How to close the loop: ingest knowledge → rank against active projects → emit a small set of next-actions into an existing todo tool → learn from outcomes (done/ignored/edited) and optionally write back the minimal state. The open question: what’s the cleanest feedback signal without creating noise or privacy risk? (explicit ratings vs completion events vs doc-based write-back)
-What I’m asking from you:
-1.Where does your “second brain” break down the most?
-capture / organization / retrieval / execution
-(If you can, share a concrete recent example.)
-2.What best represents “active project context” for you today?
-  task project (Todoist/Things/Reminders)
-
-  issues/boards (GitHub/Linear/Jira)
-
-  a doc/wiki page (Notion/Docs)
-
-  calendar
-
-  "in my head"
-
-3.What’s your hard “no” for an AI that suggests actions from your notes/links? (pick 1–2)
-  privacy/data retention
-
-  noisy suggestions / interruption
-
-  hallucinations / wrong suggestions
-
-  workflow change / migration cost
-
-  pricing
-
-  others
-
-
-Comments URL: https://news.ycombinator.com/item?id=46826277
-Points: 111
-# Comments: 45]]></summary>
-        <author>
-            <name>item007</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Efficient String Compression for Modern Database Systems]]></title>
-        <id>https://news.ycombinator.com/item?id=46826011</id>
-        <link href="https://cedardb.com/blog/string_compression/"/>
-        <updated>2026-01-30T16:02:53.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://cedardb.com/blog/string_compression/
-Comments URL: https://news.ycombinator.com/item?id=46826011
-Points: 54
-# Comments: 5]]></summary>
-        <author>
-            <name>jandrewrogers</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Self Driving Car Insurance]]></title>
-        <id>https://news.ycombinator.com/item?id=46825828</id>
-        <link href="https://www.lemonade.com/car/explained/self-driving-car-insurance/"/>
-        <updated>2026-01-30T15:50:15.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.lemonade.com/car/explained/self-driving-car-insurance/
-Comments URL: https://news.ycombinator.com/item?id=46825828
-Points: 61
-# Comments: 152]]></summary>
-        <author>
-            <name>KellyCriterion</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Buttered Crumpet, a custom typeface for Wallace and Gromit]]></title>
-        <id>https://news.ycombinator.com/item?id=46825415</id>
-        <link href="https://jamieclarketype.com/case-study/wallace-and-gromit-font/"/>
-        <updated>2026-01-30T15:19:28.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://jamieclarketype.com/case-study/wallace-and-gromit-font/
-Comments URL: https://news.ycombinator.com/item?id=46825415
-Points: 101
-# Comments: 20]]></summary>
-        <author>
-            <name>tobr</name>
         </author>
     </entry>
 </feed>
