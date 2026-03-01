@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-03-01T11:26:09.142Z</updated>
+    <updated>2026-03-01T13:01:58.137Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
@@ -2066,6 +2066,19 @@ Points: 66
 # Comments: 43]]></summary>
         <author>
             <name>oxw</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Sub-second volumetric 3D printing by synthesis of holographic light fields]]></title>
+        <id>https://news.ycombinator.com/item?id=47152448</id>
+        <link href="https://www.nature.com/articles/s41586-026-10114-5"/>
+        <updated>2026-02-25T15:01:20.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.nature.com/articles/s41586-026-10114-5
+Comments URL: https://news.ycombinator.com/item?id=47152448
+Points: 72
+# Comments: 13]]></summary>
+        <author>
+            <name>zdw</name>
         </author>
     </entry>
     <entry>
@@ -17557,48 +17570,6 @@ Points: 81
 # Comments: 4]]></summary>
         <author>
             <name>alhazrod</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: I trained a 9M speech model to fix my Mandarin tones]]></title>
-        <id>https://news.ycombinator.com/item?id=46832074</id>
-        <link href="https://simedw.com/2026/01/31/ear-pronunication-via-ctc/"/>
-        <updated>2026-01-31T00:51:27.000Z</updated>
-        <summary type="html"><![CDATA[Built this because tones are killing my spoken Mandarin and I can't reliably hear my own mistakes.
-It's a 9M Conformer-CTC model trained on ~300h (AISHELL + Primewords), quantized to INT8 (11 MB), runs 100% in-browser via ONNX Runtime Web.
-Grades per-syllable pronunciation + tones with Viterbi forced alignment.
-Try it here: https://simedw.com/projects/ear/
-Comments URL: https://news.ycombinator.com/item?id=46832074
-Points: 66
-# Comments: 13]]></summary>
-        <author>
-            <name>simedw</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The $100B megadeal between OpenAI and Nvidia is on ice]]></title>
-        <id>https://news.ycombinator.com/item?id=46831702</id>
-        <link href="https://www.wsj.com/tech/ai/the-100-billion-megadeal-between-openai-and-nvidia-is-on-ice-aa3025e3"/>
-        <updated>2026-01-31T00:02:30.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.wsj.com/tech/ai/the-100-billion-megadeal-between-openai-and-nvidia-is-on-ice-aa3025e3
-Comments URL: https://news.ycombinator.com/item?id=46831702
-Points: 142
-# Comments: 42]]></summary>
-        <author>
-            <name>pixelesque</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Stonebraker on CAP theorem and Databases (2010)]]></title>
-        <id>https://news.ycombinator.com/item?id=46831592</id>
-        <link href="https://perspectives.mvdirona.com/2010/04/stonebraker-on-cap-theorem-and-databases/"/>
-        <updated>2026-01-30T23:47:28.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://perspectives.mvdirona.com/2010/04/stonebraker-on-cap-theorem-and-databases/
-Comments URL: https://news.ycombinator.com/item?id=46831592
-Points: 52
-# Comments: 17]]></summary>
-        <author>
-            <name>onurkanbkrc</name>
         </author>
     </entry>
 </feed>
