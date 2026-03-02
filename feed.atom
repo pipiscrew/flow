@@ -2,10 +2,36 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-03-02T11:35:11.499Z</updated>
+    <updated>2026-03-02T13:13:31.661Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Claude Code LSP]]></title>
+        <id>https://news.ycombinator.com/item?id=47216765</id>
+        <link href="https://karanbansal.in/blog/claude-code-lsp/"/>
+        <updated>2026-03-02T11:47:16.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://karanbansal.in/blog/claude-code-lsp/
+Comments URL: https://news.ycombinator.com/item?id=47216765
+Points: 51
+# Comments: 16]]></summary>
+        <author>
+            <name>LexSiga</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Microsoft bans the word "Microslop" on its Discord, then locks the server]]></title>
+        <id>https://news.ycombinator.com/item?id=47216047</id>
+        <link href="https://www.windowslatest.com/2026/03/02/microsoft-gets-tired-of-microslop-bans-the-word-on-its-discord-then-locks-the-server-after-backlash/"/>
+        <updated>2026-03-02T10:23:06.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.windowslatest.com/2026/03/02/microsoft-gets-tired-of-microslop-bans-the-word-on-its-discord-then-locks-the-server-after-backlash/
+Comments URL: https://news.ycombinator.com/item?id=47216047
+Points: 191
+# Comments: 61]]></summary>
+        <author>
+            <name>robtherobber</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Jolla phone – a full-stack European alternative]]></title>
         <id>https://news.ycombinator.com/item?id=47216037</id>
@@ -17,6 +43,19 @@ Points: 60
 # Comments: 30]]></summary>
         <author>
             <name>spinningslate</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[U.S. science agency moves to restrict foreign scientists from its labs]]></title>
+        <id>https://news.ycombinator.com/item?id=47215565</id>
+        <link href="https://www.science.org/content/article/nist-moves-restrict-foreign-scientists-its-labs"/>
+        <updated>2026-03-02T09:20:06.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.science.org/content/article/nist-moves-restrict-foreign-scientists-its-labs
+Comments URL: https://news.ycombinator.com/item?id=47215565
+Points: 85
+# Comments: 46]]></summary>
+        <author>
+            <name>JeanKage</name>
         </author>
     </entry>
     <entry>
@@ -33,6 +72,35 @@ Points: 92
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Show HN: Omni – Open-source workplace search and chat, built on Postgres]]></title>
+        <id>https://news.ycombinator.com/item?id=47215427</id>
+        <link href="https://github.com/getomnico/omni"/>
+        <updated>2026-03-02T08:58:14.000Z</updated>
+        <summary type="html"><![CDATA[Hey HN!
+Over the past few months, I've been working on building Omni - a workplace search and chat platform that connects to apps like Google Drive/Gmail, Slack, Confluence, etc. Essentially an open-source alternative to Glean, fully self-hosted.
+I noticed that some orgs find Glean to be expensive and not very extensible. I wanted to build something that small to mid-size teams could run themselves, so I decided to build it all on Postgres (ParadeDB to be precise) and pgvector. No Elasticsearch, or dedicated vector databases. I figured Postgres is more than capable of handling the level of scale required.
+To bring up Omni on your own infra, all it takes is a single `docker compose up`, and some basic configuration to connect your apps and LLMs.
+What it does:
+- Syncs data from all connected apps and builds a BM25 index (ParadeDB) and HNSW vector index (pgvector)
+- Hybrid search combines results from both
+- Chat UI where the LLM has tools to search the index - not just basic RAG
+- Traditional search UI
+- Users bring their own LLM provider (OpenAI/Anthropic/Gemini)
+- Connectors for Google Workspace, Slack, Confluence, Jira, HubSpot, and more
+- Connector SDK to build your own custom connectors
+Omni is in beta right now, and I'd love your feedback, especially on the following:
+- Has anyone tried self-hosting workplace search and/or AI tools, and what was your experience like?
+- Any concerns with the Postgres-only approach at larger scales?
+Happy to answer any questions!
+The code: https://github.com/getomnico/omni (Apache 2.0 licensed)
+Comments URL: https://news.ycombinator.com/item?id=47215427
+Points: 69
+# Comments: 22]]></summary>
+        <author>
+            <name>prvnsmpth</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Motorola announces a partnership with GrapheneOS Foundation]]></title>
         <id>https://news.ycombinator.com/item?id=47214645</id>
         <link href="https://motorolanews.com/motorola-three-new-b2b-solutions-at-mwc-2026/"/>
@@ -43,6 +111,32 @@ Points: 451
 # Comments: 141]]></summary>
         <author>
             <name>km</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[An interactive intro to Elliptic Curve Cryptography]]></title>
+        <id>https://news.ycombinator.com/item?id=47214367</id>
+        <link href="https://growingswe.com/blog/elliptic-curve-cryptography"/>
+        <updated>2026-03-02T05:59:03.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://growingswe.com/blog/elliptic-curve-cryptography
+Comments URL: https://news.ycombinator.com/item?id=47214367
+Points: 55
+# Comments: 11]]></summary>
+        <author>
+            <name>vismit2000</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Process-Based Concurrency: Why Beam and OTP Keep Being Right]]></title>
+        <id>https://news.ycombinator.com/item?id=47214063</id>
+        <link href="https://variantsystems.io/blog/beam-otp-process-concurrency"/>
+        <updated>2026-03-02T05:01:08.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://variantsystems.io/blog/beam-otp-process-concurrency
+Comments URL: https://news.ycombinator.com/item?id=47214063
+Points: 56
+# Comments: 31]]></summary>
+        <author>
+            <name>linkdd</name>
         </author>
     </entry>
     <entry>
@@ -17596,45 +17690,6 @@ Points: 50
 # Comments: 24]]></summary>
         <author>
             <name>qingcharles</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[List animals until failure]]></title>
-        <id>https://news.ycombinator.com/item?id=46842603</id>
-        <link href="https://rose.systems/animalist/"/>
-        <updated>2026-02-01T01:03:23.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://rose.systems/animalist/
-Comments URL: https://news.ycombinator.com/item?id=46842603
-Points: 94
-# Comments: 58]]></summary>
-        <author>
-            <name>l1n</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[High-Altitude Adventure with a DIY Pico Balloon]]></title>
-        <id>https://news.ycombinator.com/item?id=46842288</id>
-        <link href="https://spectrum.ieee.org/explore-stratosphere-diy-pico-balloon"/>
-        <updated>2026-02-01T00:14:55.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://spectrum.ieee.org/explore-stratosphere-diy-pico-balloon
-Comments URL: https://news.ycombinator.com/item?id=46842288
-Points: 61
-# Comments: 23]]></summary>
-        <author>
-            <name>jnord</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Cells use 'bioelectricity' to coordinate and make group decisions]]></title>
-        <id>https://news.ycombinator.com/item?id=46842178</id>
-        <link href="https://www.quantamagazine.org/cells-use-bioelectricity-to-coordinate-and-make-group-decisions-20260112/"/>
-        <updated>2026-02-01T00:00:11.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.quantamagazine.org/cells-use-bioelectricity-to-coordinate-and-make-group-decisions-20260112/
-Comments URL: https://news.ycombinator.com/item?id=46842178
-Points: 53
-# Comments: 14]]></summary>
-        <author>
-            <name>marojejian</name>
         </author>
     </entry>
 </feed>

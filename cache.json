@@ -6,6 +6,26 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=47216765",
+          "author": "LexSiga",
+          "description": "Article URL: https://karanbansal.in/blog/claude-code-lsp/\nComments URL: https://news.ycombinator.com/item?id=47216765\nPoints: 51\n# Comments: 16",
+          "link": "https://karanbansal.in/blog/claude-code-lsp/",
+          "publishedOn": "2026-03-02T11:47:16.000Z",
+          "wordCount": 3799,
+          "title": "Claude Code LSP",
+          "imageUrl": "https://karanbansal.in/og-image.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47216047",
+          "author": "robtherobber",
+          "description": "Article URL: https://www.windowslatest.com/2026/03/02/microsoft-gets-tired-of-microslop-bans-the-word-on-its-discord-then-locks-the-server-after-backlash/\nComments URL: https://news.ycombinator.com/item?id=47216047\nPoints: 191\n# Comments: 61",
+          "link": "https://www.windowslatest.com/2026/03/02/microsoft-gets-tired-of-microslop-bans-the-word-on-its-discord-then-locks-the-server-after-backlash/",
+          "publishedOn": "2026-03-02T10:23:06.000Z",
+          "wordCount": 4148,
+          "title": "Microsoft bans the word \"Microslop\" on its Discord, then locks the server",
+          "imageUrl": "https://www.windowslatest.com/wp-content/uploads/2026/03/Copilots-official-Discord-channel-was-locked-down-after-users-went-haywire-with-unflattering-nicknames-targetted-at-Microsoft.jpg"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=47216037",
           "author": "spinningslate",
           "description": "Article URL: https://commerce.jolla.com/products/jolla-phone-sept-26\nComments URL: https://news.ycombinator.com/item?id=47216037\nPoints: 60\n# Comments: 30",
@@ -14,6 +34,16 @@
           "wordCount": 6970,
           "title": "Jolla phone – a full-stack European alternative",
           "imageUrl": "http://commerce.jolla.com/cdn/shop/files/jolla_phone_hero_double.png?v=1772105235"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47215565",
+          "author": "JeanKage",
+          "description": "Article URL: https://www.science.org/content/article/nist-moves-restrict-foreign-scientists-its-labs\nComments URL: https://news.ycombinator.com/item?id=47215565\nPoints: 85\n# Comments: 46",
+          "link": "https://www.science.org/content/article/nist-moves-restrict-foreign-scientists-its-labs",
+          "publishedOn": "2026-03-02T09:20:06.000Z",
+          "wordCount": null,
+          "title": "U.S. science agency moves to restrict foreign scientists from its labs",
+          "imageUrl": null
         },
         {
           "id": "https://news.ycombinator.com/item?id=47215489",
@@ -26,6 +56,16 @@
           "imageUrl": null
         },
         {
+          "id": "https://news.ycombinator.com/item?id=47215427",
+          "author": "prvnsmpth",
+          "description": "Hey HN!\nOver the past few months, I've been working on building Omni - a workplace search and chat platform that connects to apps like Google Drive/Gmail, Slack, Confluence, etc. Essentially an open-source alternative to Glean, fully self-hosted.\nI noticed that some orgs find Glean to be expensive and not very extensible. I wanted to build something that small to mid-size teams could run themselves, so I decided to build it all on Postgres (ParadeDB to be precise) and pgvector. No Elasticsearch, or dedicated vector databases. I figured Postgres is more than capable of handling the level of scale required.\nTo bring up Omni on your own infra, all it takes is a single `docker compose up`, and some basic configuration to connect your apps and LLMs.\nWhat it does:\n- Syncs data from all connected apps and builds a BM25 index (ParadeDB) and HNSW vector index (pgvector)\n- Hybrid search combines results from both\n- Chat UI where the LLM has tools to search the index - not just basic RAG\n- Traditional search UI\n- Users bring their own LLM provider (OpenAI/Anthropic/Gemini)\n- Connectors for Google Workspace, Slack, Confluence, Jira, HubSpot, and more\n- Connector SDK to build your own custom connectors\nOmni is in beta right now, and I'd love your feedback, especially on the following:\n- Has anyone tried self-hosting workplace search and/or AI tools, and what was your experience like?\n- Any concerns with the Postgres-only approach at larger scales?\nHappy to answer any questions!\nThe code: https://github.com/getomnico/omni (Apache 2.0 licensed)\nComments URL: https://news.ycombinator.com/item?id=47215427\nPoints: 69\n# Comments: 22",
+          "link": "https://github.com/getomnico/omni",
+          "publishedOn": "2026-03-02T08:58:14.000Z",
+          "wordCount": 1892,
+          "title": "Show HN: Omni – Open-source workplace search and chat, built on Postgres",
+          "imageUrl": "https://opengraph.githubassets.com/e32f47837c32e2a40a057c59dd2750466aa12af92758e4e4cc61aeb8ab9c7b2f/getomnico/omni"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=47214645",
           "author": "km",
           "description": "Article URL: https://motorolanews.com/motorola-three-new-b2b-solutions-at-mwc-2026/\nComments URL: https://news.ycombinator.com/item?id=47214645\nPoints: 451\n# Comments: 141",
@@ -34,6 +74,26 @@
           "wordCount": 1933,
           "title": "Motorola announces a partnership with GrapheneOS Foundation",
           "imageUrl": "https://motorolanews.com/wp-content/uploads/2026/02/2024_MOTOROLA_B2B_PHOTOS_150dpi_44-1.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47214367",
+          "author": "vismit2000",
+          "description": "Article URL: https://growingswe.com/blog/elliptic-curve-cryptography\nComments URL: https://news.ycombinator.com/item?id=47214367\nPoints: 55\n# Comments: 11",
+          "link": "https://growingswe.com/blog/elliptic-curve-cryptography",
+          "publishedOn": "2026-03-02T05:59:03.000Z",
+          "wordCount": 8881,
+          "title": "An interactive intro to Elliptic Curve Cryptography",
+          "imageUrl": "https://growingswe.com/blog/elliptic-curve-cryptography/opengraph-image?16ed498263341a16"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47214063",
+          "author": "linkdd",
+          "description": "Article URL: https://variantsystems.io/blog/beam-otp-process-concurrency\nComments URL: https://news.ycombinator.com/item?id=47214063\nPoints: 56\n# Comments: 31",
+          "link": "https://variantsystems.io/blog/beam-otp-process-concurrency",
+          "publishedOn": "2026-03-02T05:01:08.000Z",
+          "wordCount": 3605,
+          "title": "Process-Based Concurrency: Why Beam and OTP Keep Being Right",
+          "imageUrl": "https://variantsystems.io/_astro/beam-otp-process-concurrency.BVJ8LYHB_ZTaNhY.webp"
         },
         {
           "id": "https://news.ycombinator.com/item?id=47213866",
@@ -13164,36 +13224,6 @@
           "wordCount": null,
           "title": "Apple-1 Computer Prototype Board #0 sold for $2.75M",
           "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46842603",
-          "author": "l1n",
-          "description": "Article URL: https://rose.systems/animalist/\nComments URL: https://news.ycombinator.com/item?id=46842603\nPoints: 94\n# Comments: 58",
-          "link": "https://rose.systems/animalist/",
-          "publishedOn": "2026-02-01T01:03:23.000Z",
-          "wordCount": 1932,
-          "title": "List animals until failure",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46842288",
-          "author": "jnord",
-          "description": "Article URL: https://spectrum.ieee.org/explore-stratosphere-diy-pico-balloon\nComments URL: https://news.ycombinator.com/item?id=46842288\nPoints: 61\n# Comments: 23",
-          "link": "https://spectrum.ieee.org/explore-stratosphere-diy-pico-balloon",
-          "publishedOn": "2026-02-01T00:14:55.000Z",
-          "wordCount": 11400,
-          "title": "High-Altitude Adventure with a DIY Pico Balloon",
-          "imageUrl": "https://spectrum.ieee.org/media-library/image.png?id=63339900&width=1200&height=600&coordinates=0%2C629%2C0%2C629"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46842178",
-          "author": "marojejian",
-          "description": "Article URL: https://www.quantamagazine.org/cells-use-bioelectricity-to-coordinate-and-make-group-decisions-20260112/\nComments URL: https://news.ycombinator.com/item?id=46842178\nPoints: 53\n# Comments: 14",
-          "link": "https://www.quantamagazine.org/cells-use-bioelectricity-to-coordinate-and-make-group-decisions-20260112/",
-          "publishedOn": "2026-02-01T00:00:11.000Z",
-          "wordCount": 3775,
-          "title": "Cells use 'bioelectricity' to coordinate and make group decisions",
-          "imageUrl": "https://www.quantamagazine.org/wp-content/uploads/2026/01/BioelectricTissue-crKingsCollegeLondon-Social.jpg"
         }
       ]
     }
