@@ -22,8 +22,8 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2026-03-02 datetime="2026-03-02T21:09:47.000Z">2026-03-02</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2026-03-02 datetime="2026-03-02T21:09:47.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2026-03-02 datetime="2026-03-02T22:32:35.000Z">2026-03-02</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2026-03-02 datetime="2026-03-02T22:32:35.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
@@ -38,6 +38,61 @@
                   <a class="source-heading__link" href="https://news.ycombinator.com/">Open</a>
                 </h3>
                 <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;47225130"
+                        open
+                      >
+                        <summary class="article-expander__title">The workers behind Meta&#x27;s smart glasses can see everything</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.svd.se/a/K8nrV4/metas-ai-smart-glasses-and-data-privacy-concerns-workers-say-we-see-everything">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://svd.vgc.no/v2/images/e4d3cfec-f7dc-4461-aa32-108ea47f2621?h&#x3D;630&amp;q&#x3D;80&amp;upscale&#x3D;true&amp;w&#x3D;1200&amp;s&#x3D;d82dc447eb031914967ea232d0aab8207eab5ef0" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Article URL: https://www.svd.se/a/K8nrV4/metas-ai-smart-glasses-and-data-privacy-concerns-workers-say-we-see-everything
+Comments URL: https://news.ycombinator.com/item?id&#x3D;47225130
+Points: 192
+# Comments: 107</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;25
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;47224295"
+                        open
+                      >
+                        <summary class="article-expander__title">Show HN: I built a sub-500ms latency voice agent from scratch</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.ntik.me/posts/voice-agent">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://ntik.me/voice-agent-essay/agent-logs.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>I built a voice agent from scratch that averages ~400ms end-to-end latency (phone stop → first syllable). That’s with full STT → LLM → TTS in the loop, clean barge-ins, and no precomputed responses.
+What moved the needle:
+Voice is a turn-taking problem, not a transcription problem. VAD alone fails; you need semantic end-of-turn detection.
+The system reduces to one loop: speaking vs listening. The two transitions - cancel instantly on barge-in, respond instantly on end-of-turn - define the experience.
+STT → LLM → TTS must stream. Sequential pipelines are dead on arrival for natural conversation.
+TTFT dominates everything. In voice, the first token is the critical path. Groq’s ~80ms TTFT was the single biggest win.
+Geography matters more than prompts. Colocate everything or you lose before you start.
+GitHub Repo: 
+https://github.com/NickTikhonov/shuo
+Follow whatever I next tinker with: https://x.com/nick_tikhonov
+Comments URL: https://news.ycombinator.com/item?id&#x3D;47224295
+Points: 63
+# Comments: 22</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;19
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
                     <article>
                       <details
                         class="article-expander"
@@ -180,6 +235,26 @@ Points: 63
                       <details
                         class="article-expander"
                         data-action="toggle-native-accordion"
+                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;47220320"
+                        open
+                      >
+                        <summary class="article-expander__title">Launch HN: OctaPulse (YC W26) – Robotics and computer vision for fish farming</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://news.ycombinator.com/item?id&#x3D;47220320">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Hi HN! My name is Rohan and, together with Paul, I’m the co-founder of OctaPulse (https://www.tryoctapulse.com/). We’re building a robotics layer for seafood production, starting with automated fish inspection. We are currently deployed at our first production site with the largest trout producer in North America.
+You might be wondering how the heck we got into this with no background in aquaculture or the ocean industry. We are both from coastal communities. I am from Goa, India and Paul is from Malta and Puerto Rico. Seafood is deeply tied to both our cultures and communities. We saw firsthand the damage being done to our oceans and how wild fish stocks are being fished to near extinction. We also learned that fish is the main protein source for almost 55% of the world&#x27;s population. Desp…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;11
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
                         data-accordion-key="https://news.ycombinator.com/item?id&#x3D;47220020"
                         open
                       >
@@ -230,6 +305,37 @@ Comments URL: https://news.ycombinator.com/item?id&#x3D;47219668
 Points: 64
 # Comments: 88</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;44
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;47219667"
+                        open
+                      >
+                        <summary class="article-expander__title">Ask HN: Who wants to be hired? (March 2026)</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://news.ycombinator.com/item?id&#x3D;47219667">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Share your information if you are looking for work. Please use this format:
+  Location:
+  Remote:
+  Willing to relocate:
+  Technologies:
+  Résumé/CV:
+  Email:
+
+Readers: please only email these addresses to discuss work opportunities.
+There&#x27;s a site for searching these posts at https://www.wantstobehired.com.
+Comments URL: https://news.ycombinator.com/item?id&#x3D;47219667
+Points: 57
+# Comments: 147</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;61
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -31167,97 +31273,6 @@ Points: 80
                         </a>
                       </details>
                     </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;46845296"
-                        open
-                      >
-                        <summary class="article-expander__title">OpenClaw: When AI Agents Get Full System Access. Security nightmare?</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://innfactory.ai/en/blog/openclaw-ai-agent-security/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://innfactory.ai/images/blog/openclaw-ki-agent-sicherheit/openclaw-ai.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Article URL: https://innfactory.ai:443/en/blog/openclaw-ai-agent-security/
-Comments URL: https://news.ycombinator.com/item?id&#x3D;46845296
-Points: 62
-# Comments: 29</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;6
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;46845244"
-                        open
-                      >
-                        <summary class="article-expander__title">Amiga Unix (Amix)</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.amigaunix.com/doku.php/home">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Article URL: https://www.amigaunix.com/doku.php/home
-Comments URL: https://news.ycombinator.com/item?id&#x3D;46845244
-Points: 51
-# Comments: 14</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;4
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;46845239"
-                        open
-                      >
-                        <summary class="article-expander__title">Sqldef: Idempotent schema management tool for MySQL, PostgreSQL, SQLite</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://sqldef.github.io/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://sqldef.github.io/sqldef512.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Article URL: https://sqldef.github.io/
-Comments URL: https://news.ycombinator.com/item?id&#x3D;46845239
-Points: 62
-# Comments: 12</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;46845203"
-                        open
-                      >
-                        <summary class="article-expander__title">Listen to Understand</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://talk.bradwoods.io/blog/listen-to-understand/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://talk.bradwoods.io/ogImage.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Article URL: https://talk.bradwoods.io/blog/listen-to-understand/
-Comments URL: https://news.ycombinator.com/item?id&#x3D;46845203
-Points: 52
-# Comments: 10</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;4
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
                 </section>
               </section>
             </li>
@@ -31265,8 +31280,8 @@ Points: 52
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/pipiscrew/flow/actions/runs/22598839502">
-        <time id="build-timestamp" datetime="2026-03-02T22:34:06.800Z">2026-03-02T22:34:06.800Z</time>
+      <a class="footer-link" href="https://github.com/pipiscrew/flow/actions/runs/22600718244">
+        <time id="build-timestamp" datetime="2026-03-02T23:33:04.325Z">2026-03-02T23:33:04.325Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>

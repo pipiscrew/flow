@@ -2,10 +2,45 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-03-02T22:34:06.852Z</updated>
+    <updated>2026-03-02T23:33:04.380Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[The workers behind Meta's smart glasses can see everything]]></title>
+        <id>https://news.ycombinator.com/item?id=47225130</id>
+        <link href="https://www.svd.se/a/K8nrV4/metas-ai-smart-glasses-and-data-privacy-concerns-workers-say-we-see-everything"/>
+        <updated>2026-03-02T22:32:35.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.svd.se/a/K8nrV4/metas-ai-smart-glasses-and-data-privacy-concerns-workers-say-we-see-everything
+Comments URL: https://news.ycombinator.com/item?id=47225130
+Points: 192
+# Comments: 107]]></summary>
+        <author>
+            <name>sandbach</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: I built a sub-500ms latency voice agent from scratch]]></title>
+        <id>https://news.ycombinator.com/item?id=47224295</id>
+        <link href="https://www.ntik.me/posts/voice-agent"/>
+        <updated>2026-03-02T21:23:40.000Z</updated>
+        <summary type="html"><![CDATA[I built a voice agent from scratch that averages ~400ms end-to-end latency (phone stop → first syllable). That’s with full STT → LLM → TTS in the loop, clean barge-ins, and no precomputed responses.
+What moved the needle:
+Voice is a turn-taking problem, not a transcription problem. VAD alone fails; you need semantic end-of-turn detection.
+The system reduces to one loop: speaking vs listening. The two transitions - cancel instantly on barge-in, respond instantly on end-of-turn - define the experience.
+STT → LLM → TTS must stream. Sequential pipelines are dead on arrival for natural conversation.
+TTFT dominates everything. In voice, the first token is the critical path. Groq’s ~80ms TTFT was the single biggest win.
+Geography matters more than prompts. Colocate everything or you lose before you start.
+GitHub Repo: 
+https://github.com/NickTikhonov/shuo
+Follow whatever I next tinker with: https://x.com/nick_tikhonov
+Comments URL: https://news.ycombinator.com/item?id=47224295
+Points: 63
+# Comments: 22]]></summary>
+        <author>
+            <name>nicktikhonov</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Welcome (back) to Macintosh]]></title>
         <id>https://news.ycombinator.com/item?id=47224118</id>
@@ -90,6 +125,17 @@ Points: 63
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Launch HN: OctaPulse (YC W26) – Robotics and computer vision for fish farming]]></title>
+        <id>https://news.ycombinator.com/item?id=47220320</id>
+        <link href="https://news.ycombinator.com/item?id=47220320"/>
+        <updated>2026-03-02T16:39:21.000Z</updated>
+        <summary type="html"><![CDATA[Hi HN! My name is Rohan and, together with Paul, I’m the co-founder of OctaPulse (https://www.tryoctapulse.com/). We’re building a robotics layer for seafood production, starting with automated fish inspection. We are currently deployed at our first production site with the largest trout producer in North America.
+You might be wondering how the heck we got into this with no background in aquaculture or the ocean industry. We are both from coastal communities. I am from Goa, India and Paul is from Malta and Puerto Rico. Seafood is deeply tied to both our cultures and communities. We saw firsthand the damage being done to our oceans and how wild fish stocks are being fished to near extinction. We also learned that fish is the main protein source for almost 55% of the world's population. Desp…]]></summary>
+        <author>
+            <name>rohxnsxngh</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Packaging a Gleam app into a single executable]]></title>
         <id>https://news.ycombinator.com/item?id=47220020</id>
         <link href="https://www.dhzdhd.dev/blog/gleam-executable"/>
@@ -126,6 +172,28 @@ Don't miss this other fine thread: Who wants to be hired? https://news.ycombinat
 Comments URL: https://news.ycombinator.com/item?id=47219668
 Points: 64
 # Comments: 88]]></summary>
+        <author>
+            <name>whoishiring</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Ask HN: Who wants to be hired? (March 2026)]]></title>
+        <id>https://news.ycombinator.com/item?id=47219667</id>
+        <link href="https://news.ycombinator.com/item?id=47219667"/>
+        <updated>2026-03-02T16:00:26.000Z</updated>
+        <summary type="html"><![CDATA[Share your information if you are looking for work. Please use this format:
+  Location:
+  Remote:
+  Willing to relocate:
+  Technologies:
+  Résumé/CV:
+  Email:
+
+Readers: please only email these addresses to discuss work opportunities.
+There's a site for searching these posts at https://www.wantstobehired.com.
+Comments URL: https://news.ycombinator.com/item?id=47219667
+Points: 57
+# Comments: 147]]></summary>
         <author>
             <name>whoishiring</name>
         </author>
@@ -17853,58 +17921,6 @@ Points: 80
 # Comments: 36]]></summary>
         <author>
             <name>olayiwoladekoya</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[OpenClaw: When AI Agents Get Full System Access. Security nightmare?]]></title>
-        <id>https://news.ycombinator.com/item?id=46845296</id>
-        <link href="https://innfactory.ai/en/blog/openclaw-ai-agent-security/"/>
-        <updated>2026-02-01T11:06:29.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://innfactory.ai:443/en/blog/openclaw-ai-agent-security/
-Comments URL: https://news.ycombinator.com/item?id=46845296
-Points: 62
-# Comments: 29]]></summary>
-        <author>
-            <name>i-blis</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Amiga Unix (Amix)]]></title>
-        <id>https://news.ycombinator.com/item?id=46845244</id>
-        <link href="https://www.amigaunix.com/doku.php/home"/>
-        <updated>2026-02-01T10:57:20.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.amigaunix.com/doku.php/home
-Comments URL: https://news.ycombinator.com/item?id=46845244
-Points: 51
-# Comments: 14]]></summary>
-        <author>
-            <name>donatj</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Sqldef: Idempotent schema management tool for MySQL, PostgreSQL, SQLite]]></title>
-        <id>https://news.ycombinator.com/item?id=46845239</id>
-        <link href="https://sqldef.github.io/"/>
-        <updated>2026-02-01T10:56:42.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://sqldef.github.io/
-Comments URL: https://news.ycombinator.com/item?id=46845239
-Points: 62
-# Comments: 12]]></summary>
-        <author>
-            <name>Palmik</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Listen to Understand]]></title>
-        <id>https://news.ycombinator.com/item?id=46845203</id>
-        <link href="https://talk.bradwoods.io/blog/listen-to-understand/"/>
-        <updated>2026-02-01T10:49:39.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://talk.bradwoods.io/blog/listen-to-understand/
-Comments URL: https://news.ycombinator.com/item?id=46845203
-Points: 52
-# Comments: 10]]></summary>
-        <author>
-            <name>bradwoodsio</name>
         </author>
     </entry>
 </feed>
