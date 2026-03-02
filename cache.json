@@ -6,6 +6,16 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=47213866",
+          "author": "MBCook",
+          "description": "Article URL: https://deadlime.hu/en/2026/02/22/computer-generated-dream-world/\nComments URL: https://news.ycombinator.com/item?id=47213866\nPoints: 64\n# Comments: 4",
+          "link": "https://deadlime.hu/en/2026/02/22/computer-generated-dream-world/",
+          "publishedOn": "2026-03-02T04:23:53.000Z",
+          "wordCount": 3123,
+          "title": "Computer-generated dream world: Virtual reality for a 286 processor",
+          "imageUrl": "https://deadlime.hu/uploads/2026/286.jpg"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=47213764",
           "author": "aranaur",
           "description": "Article URL: https://www.wltx.com/article/news/nation-world/281-53d8693e-77a4-42ad-86e4-3426a30d25ae\nComments URL: https://news.ycombinator.com/item?id=47213764\nPoints: 98\n# Comments: 16",
@@ -94,6 +104,16 @@
           "wordCount": 4315,
           "title": "South Korean Police Lose Seized Crypto by Posting Password Online",
           "imageUrl": "https://gizmodo.com/app/uploads/2026/03/bitcoin-outstretched-hands-1200x675.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47211029",
+          "author": "marginalia_nu",
+          "description": "Article URL: https://www.scottsmitelli.com/articles/you-dont-have-to/\nComments URL: https://news.ycombinator.com/item?id=47211029\nPoints: 82\n# Comments: 36",
+          "link": "https://www.scottsmitelli.com/articles/you-dont-have-to/",
+          "publishedOn": "2026-03-01T21:47:13.000Z",
+          "wordCount": 15702,
+          "title": "You don't have to",
+          "imageUrl": "https://www.scottsmitelli.com/img/mortal-damage.jpg"
         },
         {
           "id": "https://news.ycombinator.com/item?id=47210572",
@@ -204,6 +224,16 @@
           "wordCount": null,
           "title": "AI is making junior devs useless",
           "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47206082",
+          "author": "cosmiciron",
+          "description": "Hi HN, I'm a film director by trade, and I prefer writing my stories in plain text rather than using clunky screenplay software. Standard markup like Fountain doesn't work for me because I write in mixed languages, so I use Markdown with a custom syntax I invented to resemble standard screenplay structures.\nThis workflow is great until I need to actually generate an industry-standard screenplay PDF. I got tired of manually copying and pasting my text back into the clunky software just to export it, so I decided to write a script to automate the process. That's when I hit a wall.\nI tried using React-pdf and other high-level libraries, but they failed me on two fronts: true multilingual text shaping, and complex contextual pagination. Specifically, the strict screenplay requirement to automa…",
+          "link": "https://github.com/cosmiciron/vmprint",
+          "publishedOn": "2026-03-01T12:25:11.000Z",
+          "wordCount": 7023,
+          "title": "Show HN: I built a zero-browser, pure-JS typesetting engine for bit-perfect PDFs",
+          "imageUrl": "https://opengraph.githubassets.com/67123cdeca5a8029d7f03c8e6c7fc53b36551c9f8aeedfecc56e90eeda85b144/cosmiciron/vmprint"
         },
         {
           "id": "https://news.ycombinator.com/item?id=47206009",
@@ -13263,36 +13293,6 @@
           "publishedOn": "2026-01-31T19:11:34.000Z",
           "wordCount": 9620,
           "title": "Death Note: L, Anonymity and Eluding Entropy (2011)",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46839375",
-          "author": "andylizf",
-          "description": "My Google account has been suspended from GCP since March 2024.\nI have submitted multiple appeals through ts-consult@google.com over 2 years. Every time I get the same automated template asking me to explain, I reply with details, then nothing. No human ever responds.\nCase: #1-8622000037271\nTimeline:\n  - March 2024: Suspended, appeal submitted\n  - April 2024: Automated requests for info, I replied\n  - Nov 2024: More automated emails, I replied again\n  - Dec 2024 - now: Complete silence\nI am a CS researcher at UC Berkeley. This has seriously impacted my work.\nHas anyone successfully gotten Google to review a GCP suspension appeal? How do you reach a human?\nComments URL: https://news.ycombinator.com/item?id=46839375\nPoints: 61\n# Comments: 31",
-          "link": "https://news.ycombinator.com/item?id=46839375",
-          "publishedOn": "2026-01-31T18:41:36.000Z",
-          "wordCount": 2607,
-          "title": "Google Cloud suspended my account for 2 years, only automated replies",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46839215",
-          "author": "Antibabelic",
-          "description": "Article URL: https://crl.io/ds-game-engine/\nComments URL: https://news.ycombinator.com/item?id=46839215\nPoints: 58\n# Comments: 15",
-          "link": "https://crl.io/ds-game-engine/",
-          "publishedOn": "2026-01-31T18:27:36.000Z",
-          "wordCount": 1867,
-          "title": "Nintendo DS code editor and scriptable game engine",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46838981",
-          "author": "doener",
-          "description": "Article URL: https://genode.org/about/index\nComments URL: https://news.ycombinator.com/item?id=46838981\nPoints: 64\n# Comments: 5",
-          "link": "https://genode.org/about/index",
-          "publishedOn": "2026-01-31T18:03:32.000Z",
-          "wordCount": 329,
-          "title": "Genode OS is a tool kit for building highly secure special-purpose OS",
           "imageUrl": null
         }
       ]

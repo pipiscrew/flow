@@ -2,10 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-03-02T05:57:09.977Z</updated>
+    <updated>2026-03-02T07:10:37.379Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Computer-generated dream world: Virtual reality for a 286 processor]]></title>
+        <id>https://news.ycombinator.com/item?id=47213866</id>
+        <link href="https://deadlime.hu/en/2026/02/22/computer-generated-dream-world/"/>
+        <updated>2026-03-02T04:23:53.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://deadlime.hu/en/2026/02/22/computer-generated-dream-world/
+Comments URL: https://news.ycombinator.com/item?id=47213866
+Points: 64
+# Comments: 4]]></summary>
+        <author>
+            <name>MBCook</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Everett shuts down Flock camera network after judge rules footage public record]]></title>
         <id>https://news.ycombinator.com/item?id=47213764</id>
@@ -121,6 +134,19 @@ Points: 66
 # Comments: 12]]></summary>
         <author>
             <name>WarOnPrivacy</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[You don't have to]]></title>
+        <id>https://news.ycombinator.com/item?id=47211029</id>
+        <link href="https://www.scottsmitelli.com/articles/you-dont-have-to/"/>
+        <updated>2026-03-01T21:47:13.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.scottsmitelli.com/articles/you-dont-have-to/
+Comments URL: https://news.ycombinator.com/item?id=47211029
+Points: 82
+# Comments: 36]]></summary>
+        <author>
+            <name>marginalia_nu</name>
         </author>
     </entry>
     <entry>
@@ -264,6 +290,18 @@ Points: 77
 # Comments: 92]]></summary>
         <author>
             <name>beabetterdev</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: I built a zero-browser, pure-JS typesetting engine for bit-perfect PDFs]]></title>
+        <id>https://news.ycombinator.com/item?id=47206082</id>
+        <link href="https://github.com/cosmiciron/vmprint"/>
+        <updated>2026-03-01T12:25:11.000Z</updated>
+        <summary type="html"><![CDATA[Hi HN, I'm a film director by trade, and I prefer writing my stories in plain text rather than using clunky screenplay software. Standard markup like Fountain doesn't work for me because I write in mixed languages, so I use Markdown with a custom syntax I invented to resemble standard screenplay structures.
+This workflow is great until I need to actually generate an industry-standard screenplay PDF. I got tired of manually copying and pasting my text back into the clunky software just to export it, so I decided to write a script to automate the process. That's when I hit a wall.
+I tried using React-pdf and other high-level libraries, but they failed me on two fronts: true multilingual text shaping, and complex contextual pagination. Specifically, the strict screenplay requirement to automa…]]></summary>
+        <author>
+            <name>cosmiciron</name>
         </author>
     </entry>
     <entry>
@@ -17728,54 +17766,6 @@ Points: 55
 # Comments: 10]]></summary>
         <author>
             <name>teej</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Google Cloud suspended my account for 2 years, only automated replies]]></title>
-        <id>https://news.ycombinator.com/item?id=46839375</id>
-        <link href="https://news.ycombinator.com/item?id=46839375"/>
-        <updated>2026-01-31T18:41:36.000Z</updated>
-        <summary type="html"><![CDATA[My Google account has been suspended from GCP since March 2024.
-I have submitted multiple appeals through ts-consult@google.com over 2 years. Every time I get the same automated template asking me to explain, I reply with details, then nothing. No human ever responds.
-Case: #1-8622000037271
-Timeline:
-  - March 2024: Suspended, appeal submitted
-  - April 2024: Automated requests for info, I replied
-  - Nov 2024: More automated emails, I replied again
-  - Dec 2024 - now: Complete silence
-I am a CS researcher at UC Berkeley. This has seriously impacted my work.
-Has anyone successfully gotten Google to review a GCP suspension appeal? How do you reach a human?
-Comments URL: https://news.ycombinator.com/item?id=46839375
-Points: 61
-# Comments: 31]]></summary>
-        <author>
-            <name>andylizf</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Nintendo DS code editor and scriptable game engine]]></title>
-        <id>https://news.ycombinator.com/item?id=46839215</id>
-        <link href="https://crl.io/ds-game-engine/"/>
-        <updated>2026-01-31T18:27:36.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://crl.io/ds-game-engine/
-Comments URL: https://news.ycombinator.com/item?id=46839215
-Points: 58
-# Comments: 15]]></summary>
-        <author>
-            <name>Antibabelic</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Genode OS is a tool kit for building highly secure special-purpose OS]]></title>
-        <id>https://news.ycombinator.com/item?id=46838981</id>
-        <link href="https://genode.org/about/index"/>
-        <updated>2026-01-31T18:03:32.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://genode.org/about/index
-Comments URL: https://news.ycombinator.com/item?id=46838981
-Points: 64
-# Comments: 5]]></summary>
-        <author>
-            <name>doener</name>
         </author>
     </entry>
 </feed>
