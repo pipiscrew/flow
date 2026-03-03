@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-03-03T09:52:11.786Z</updated>
+    <updated>2026-03-03T10:50:08.876Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
@@ -952,6 +952,19 @@ Points: 57
 # Comments: 21]]></summary>
         <author>
             <name>chromy</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Cathode Ray Tube site]]></title>
+        <id>https://news.ycombinator.com/item?id=47205577</id>
+        <link href="https://www.crtsite.com/didactic-crt.html"/>
+        <updated>2026-03-01T10:51:46.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.crtsite.com/didactic-crt.html
+Comments URL: https://news.ycombinator.com/item?id=47205577
+Points: 51
+# Comments: 9]]></summary>
+        <author>
+            <name>joebig</name>
         </author>
     </entry>
     <entry>
@@ -17656,47 +17669,6 @@ Points: 76
 # Comments: 77]]></summary>
         <author>
             <name>martinald</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: NanoClaw – “Clawdbot” in 500 lines of TS with Apple container isolation]]></title>
-        <id>https://news.ycombinator.com/item?id=46850205</id>
-        <link href="https://github.com/gavrielc/nanoclaw"/>
-        <updated>2026-02-01T22:49:22.000Z</updated>
-        <summary type="html"><![CDATA[I’ve been running Clawdbot for the last couple weeks and have genuinely found it useful but running it scares the crap out of me.
-OpenClaw has 52+ modules and runs agents with near-unlimited permissions in a single Node process. NanoClaw is ~500 lines of core code, agents run in actual Apple containers with filesystem isolation. Each chat gets its own sandboxed context.
-This is not a swiss army knife. It’s built to match my exact needs. Fork it and make it yours.
-Comments URL: https://news.ycombinator.com/item?id=46850205
-Points: 191
-# Comments: 56]]></summary>
-        <author>
-            <name>jimminyx</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Treasures found on HS2 route stored in secret warehouse]]></title>
-        <id>https://news.ycombinator.com/item?id=46849926</id>
-        <link href="https://www.bbc.com/news/articles/c93v21q5xdvo"/>
-        <updated>2026-02-01T22:14:39.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.bbc.com/news/articles/c93v21q5xdvo
-Comments URL: https://news.ycombinator.com/item?id=46849926
-Points: 57
-# Comments: 21]]></summary>
-        <author>
-            <name>breve</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Lily Programming Language]]></title>
-        <id>https://news.ycombinator.com/item?id=46849753</id>
-        <link href="https://lily-lang.org/"/>
-        <updated>2026-02-01T21:53:12.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://lily-lang.org
-Comments URL: https://news.ycombinator.com/item?id=46849753
-Points: 51
-# Comments: 35]]></summary>
-        <author>
-            <name>FascinatedBox</name>
         </author>
     </entry>
 </feed>
