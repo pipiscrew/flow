@@ -2,10 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-03-04T11:36:07.209Z</updated>
+    <updated>2026-03-04T13:10:47.340Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Bet on German Train Delays]]></title>
+        <id>https://news.ycombinator.com/item?id=47245211</id>
+        <link href="https://bahn.bet/"/>
+        <updated>2026-03-04T09:42:20.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://bahn.bet
+Comments URL: https://news.ycombinator.com/item?id=47245211
+Points: 123
+# Comments: 93]]></summary>
+        <author>
+            <name>indiantinker</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[RFC 9849. TLS Encrypted Client Hello]]></title>
         <id>https://news.ycombinator.com/item?id=47244291</id>
@@ -59,6 +72,19 @@ Points: 65
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Indefinite Book Club Hiatus]]></title>
+        <id>https://news.ycombinator.com/item?id=47243036</id>
+        <link href="https://whatever.scalzi.com/2026/03/03/indefinite-book-club-hiatus/"/>
+        <updated>2026-03-04T04:25:20.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://whatever.scalzi.com/2026/03/03/indefinite-book-club-hiatus/
+Comments URL: https://news.ycombinator.com/item?id=47243036
+Points: 59
+# Comments: 29]]></summary>
+        <author>
+            <name>cdrnsf</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Nobody Gets Promoted for Simplicity]]></title>
         <id>https://news.ycombinator.com/item?id=47242765</id>
         <link href="https://terriblesoftware.org/2026/03/03/nobody-gets-promoted-for-simplicity/"/>
@@ -82,6 +108,19 @@ Points: 63
 # Comments: 40]]></summary>
         <author>
             <name>todsacerdoti</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Speculative Speculative Decoding (SSD)]]></title>
+        <id>https://news.ycombinator.com/item?id=47242637</id>
+        <link href="https://arxiv.org/abs/2603.03251"/>
+        <updated>2026-03-04T03:24:20.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://arxiv.org/abs/2603.03251
+Comments URL: https://news.ycombinator.com/item?id=47242637
+Points: 53
+# Comments: 9]]></summary>
+        <author>
+            <name>E-Reverance</name>
         </author>
     </entry>
     <entry>
@@ -1528,6 +1567,19 @@ Points: 77
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[RE#: how we built the fastest regex engine in F#]]></title>
+        <id>https://news.ycombinator.com/item?id=47206647</id>
+        <link href="https://iev.ee/blog/resharp-how-we-built-the-fastest-regex-in-fsharp/"/>
+        <updated>2026-03-01T13:47:36.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://iev.ee/blog/resharp-how-we-built-the-fastest-regex-in-fsharp/
+Comments URL: https://news.ycombinator.com/item?id=47206647
+Points: 60
+# Comments: 18]]></summary>
+        <author>
+            <name>exceptione</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Against Query Based Compilers]]></title>
         <id>https://news.ycombinator.com/item?id=47206280</id>
         <link href="https://matklad.github.io/2026/02/25/against-query-based-compilers.html"/>
@@ -1641,6 +1693,19 @@ Points: 67
 # Comments: 7]]></summary>
         <author>
             <name>joelsiks</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[On the Design of Programming Languages (1974) [pdf]]]></title>
+        <id>https://news.ycombinator.com/item?id=47205031</id>
+        <link href="https://web.cs.ucdavis.edu/~su/teaching/ecs240-w17/readings/PLHistoryGoodDesign.PDF"/>
+        <updated>2026-03-01T09:09:04.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://web.cs.ucdavis.edu/~su/teaching/ecs240-w17/readings/PLHistoryGoodDesign.PDF
+Comments URL: https://news.ycombinator.com/item?id=47205031
+Points: 56
+# Comments: 14]]></summary>
+        <author>
+            <name>jruohonen</name>
         </author>
     </entry>
     <entry>
@@ -17774,84 +17839,6 @@ Points: 56
 # Comments: 8]]></summary>
         <author>
             <name>geox</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GitHub discusses giving maintainers control to disable PRs]]></title>
-        <id>https://news.ycombinator.com/item?id=46864517</id>
-        <link href="https://github.com/orgs/community/discussions/185387"/>
-        <updated>2026-02-03T00:30:02.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://github.com/orgs/community/discussions/185387
-Comments URL: https://news.ycombinator.com/item?id=46864517
-Points: 76
-# Comments: 17]]></summary>
-        <author>
-            <name>aofeisheng</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How does misalignment scale with model intelligence and task complexity?]]></title>
-        <id>https://news.ycombinator.com/item?id=46864498</id>
-        <link href="https://alignment.anthropic.com/2026/hot-mess-of-ai/"/>
-        <updated>2026-02-03T00:28:06.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://alignment.anthropic.com/2026/hot-mess-of-ai/
-Comments URL: https://news.ycombinator.com/item?id=46864498
-Points: 75
-# Comments: 19]]></summary>
-        <author>
-            <name>salkahfi</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Firefox Getting New Controls to Turn Off AI Features]]></title>
-        <id>https://news.ycombinator.com/item?id=46864120</id>
-        <link href="https://www.macrumors.com/2026/02/02/firefox-ai-toggle/"/>
-        <updated>2026-02-02T23:54:02.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.macrumors.com/2026/02/02/firefox-ai-toggle/
-Comments URL: https://news.ycombinator.com/item?id=46864120
-Points: 75
-# Comments: 28]]></summary>
-        <author>
-            <name>stalfosknight</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Julia]]></title>
-        <id>https://news.ycombinator.com/item?id=46863357</id>
-        <link href="https://borretti.me/fiction/julia"/>
-        <updated>2026-02-02T22:57:59.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://borretti.me/fiction/julia
-Comments URL: https://news.ycombinator.com/item?id=46863357
-Points: 73
-# Comments: 10]]></summary>
-        <author>
-            <name>ashergill</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The TSA's New $45 Fee to Fly Without ID Is Illegal]]></title>
-        <id>https://news.ycombinator.com/item?id=46863162</id>
-        <link href="https://www.frommers.com/tips/airfare/the-tsa-new-45-fee-to-fly-without-id-is-illegal-says-regulatory-expert/"/>
-        <updated>2026-02-02T22:48:10.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.frommers.com/tips/airfare/the-tsa-new-45-fee-to-fly-without-id-is-illegal-says-regulatory-expert/
-Comments URL: https://news.ycombinator.com/item?id=46863162
-Points: 298
-# Comments: 311]]></summary>
-        <author>
-            <name>donohoe</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Court orders restart of all US offshore wind power construction]]></title>
-        <id>https://news.ycombinator.com/item?id=46863112</id>
-        <link href="https://arstechnica.com/science/2026/02/court-orders-restart-of-all-us-offshore-wind-construction/"/>
-        <updated>2026-02-02T22:45:04.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://arstechnica.com/science/2026/02/court-orders-restart-of-all-us-offshore-wind-construction/
-Comments URL: https://news.ycombinator.com/item?id=46863112
-Points: 52
-# Comments: 13]]></summary>
-        <author>
-            <name>ck2</name>
         </author>
     </entry>
 </feed>
