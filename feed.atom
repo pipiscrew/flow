@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-03-05T20:44:51.207Z</updated>
+    <updated>2026-03-05T21:42:13.695Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
@@ -17,6 +17,19 @@ Points: 163
 # Comments: 59]]></summary>
         <author>
             <name>klausa</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Let's Get Physical]]></title>
+        <id>https://news.ycombinator.com/item?id=47266030</id>
+        <link href="https://m4iler.cloud/posts/lets-get-physical/"/>
+        <updated>2026-03-05T19:21:03.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://m4iler.cloud/posts/lets-get-physical/
+Comments URL: https://news.ycombinator.com/item?id=47266030
+Points: 61
+# Comments: 10]]></summary>
+        <author>
+            <name>MBCook</name>
         </author>
     </entry>
     <entry>
@@ -109,6 +122,25 @@ Points: 141
 # Comments: 57]]></summary>
         <author>
             <name>hn_acker</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: PageAgent, A GUI agent that lives inside your web app]]></title>
+        <id>https://news.ycombinator.com/item?id=47264138</id>
+        <link href="https://alibaba.github.io/page-agent/"/>
+        <updated>2026-03-05T17:01:47.000Z</updated>
+        <summary type="html"><![CDATA[Title: Show HN: PageAgent, A GUI agent that lives inside your web app
+Hi HN,
+I'm building PageAgent, an open-source (MIT) library that embeds an AI agent directly into your frontend.
+I built this because I believe there's a massive design space for deploying general agents natively inside the web apps we already use, rather than treating the web merely as a dumb target for isolated bots.
+Currently, most AI agents operate from external clients or server-side programs, effectively leaving web development out of the AI ecosystem. I'm experimenting with an "inside-out" paradigm instead. By dropping the library into a page, you get a client-side agent that interacts natively with the live DOM tree and inherits the user's active session out of the box, which works perfectly for SPAs.
+To handle cross-page tasks, I built an optional browser extension that acts as a "bridge". This allows the web-page agent to control the entire browser with explicit user authorization. Instead of a desktop app controlling your browser, your web app is empowered to act as a general agent that can navigate the broader web.
+I'd love to start a conversation about the viability of this architecture, and what you all think about the future of in-app general agents. Happy to answer any questions!
+Comments URL: https://news.ycombinator.com/item?id=47264138
+Points: 55
+# Comments: 29]]></summary>
+        <author>
+            <name>simon_luv_pho</name>
         </author>
     </entry>
     <entry>
@@ -2004,6 +2036,19 @@ Points: 60
 # Comments: 30]]></summary>
         <author>
             <name>spinningslate</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Hardware hotplug events on Linux, the gory details]]></title>
+        <id>https://news.ycombinator.com/item?id=47215602</id>
+        <link href="https://arcanenibble.github.io/hardware-hotplug-events-on-linux-the-gory-details.html"/>
+        <updated>2026-03-02T09:26:04.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://arcanenibble.github.io/hardware-hotplug-events-on-linux-the-gory-details.html
+Comments URL: https://news.ycombinator.com/item?id=47215602
+Points: 60
+# Comments: 1]]></summary>
+        <author>
+            <name>todsacerdoti</name>
         </author>
     </entry>
     <entry>
