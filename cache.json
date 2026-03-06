@@ -6,6 +6,26 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=47271187",
+          "author": "jithinraj",
+          "description": "Article URL: https://www.tug.org/texlive/acquire.html\nComments URL: https://news.ycombinator.com/item?id=47271187\nPoints: 51\n# Comments: 26",
+          "link": "https://www.tug.org/texlive/acquire.html",
+          "publishedOn": "2026-03-06T05:20:10.000Z",
+          "wordCount": 612,
+          "title": "TeX Live 2026 is available for download now",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47270807",
+          "author": "armandhammer10",
+          "description": "We built an ant colony simulation as an internal hiring challenge at Moment and decided to open it up publicly.\nYou write a program in a custom assembly-like (we call it ant-ssembly) instruction set that controls 200 ants. Each ant can sense nearby cells (food, pheromones, home, other ants) but has no global view. The only coordination mechanism is pheromone trails, which ants can emit and sense them, but that's it. Your program runs identically on every ant.\nThe goal is to collect the highest percentage of food across a set of maps. Different map layouts (clustered food, scattered, obstacles) reward very different strategies. The leaderboard is live.\nGrand prize is a trip to Maui for two paid for by Moment. Challenge closes March 12.\nCurious what strategies people discover. We've seen some surprisingly clever emergent behavior internally.\nComments URL: https://news.ycombinator.com/item?id=47270807\nPoints: 54\n# Comments: 13",
+          "link": "https://dev.moment.com/",
+          "publishedOn": "2026-03-06T04:15:40.000Z",
+          "wordCount": 121,
+          "title": "Show HN: Swarm – Program a colony of 200 ants using a custom assembly language",
+          "imageUrl": null
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=47270784",
           "author": "LorenDB",
           "description": "Article URL: https://blog.system76.com/post/system76-on-age-verification/\nComments URL: https://news.ycombinator.com/item?id=47270784\nPoints: 121\n# Comments: 64",
@@ -13434,66 +13454,6 @@
           "wordCount": 1498,
           "title": "Claude Composer",
           "imageUrl": "https://www.josh.ing/blog/claude-composer.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46891131",
-          "author": "straydusk",
-          "description": "Article URL: https://www.benshoemaker.us/writing/codex-app-launch/\nComments URL: https://news.ycombinator.com/item?id=46891131\nPoints: 65\n# Comments: 138",
-          "link": "https://www.benshoemaker.us/writing/codex-app-launch/",
-          "publishedOn": "2026-02-04T20:23:54.000Z",
-          "wordCount": 892,
-          "title": "The Codex app illustrates the shift left of IDEs and coding GUIs",
-          "imageUrl": "https://benshoemaker.us/og-default.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46890899",
-          "author": "antonomon",
-          "description": "Article URL: https://brooklynrail.org/2026/02/field-notes/technocracy-2-0/\nComments URL: https://news.ycombinator.com/item?id=46890899\nPoints: 58\n# Comments: 31",
-          "link": "https://brooklynrail.org/2026/02/field-notes/technocracy-2-0/",
-          "publishedOn": "2026-02-04T20:06:00.000Z",
-          "wordCount": 21897,
-          "title": "Technocracy 2.0",
-          "imageUrl": "https://studio.brooklynrail.org/assets/c8b9c4ea-88bb-41f2-a4e3-4ccb15dd209a.jpeg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46890814",
-          "author": "theblazehen",
-          "description": "Article URL: https://rhodesmill.org/brandon/2009/commands-with-comma/\nComments URL: https://news.ycombinator.com/item?id=46890814\nPoints: 71\n# Comments: 14",
-          "link": "https://rhodesmill.org/brandon/2009/commands-with-comma/",
-          "publishedOn": "2026-02-04T19:59:12.000Z",
-          "wordCount": 555,
-          "title": "Start all of your commands with a comma",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46890418",
-          "author": "Philpax",
-          "description": "Looks like there's another round of Zendesk email spam happening. I've gotten hundreds over the last half-hour.\nComments URL: https://news.ycombinator.com/item?id=46890418\nPoints: 61\n# Comments: 22",
-          "link": "https://news.ycombinator.com/item?id=46890418",
-          "publishedOn": "2026-02-04T19:26:08.000Z",
-          "wordCount": 1212,
-          "title": "Tell HN: Another round of Zendesk email spam",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46890335",
-          "author": "ComputerGuru",
-          "description": "Article URL: https://neosmart.net/blog/recreating-epstein-pdfs-from-raw-encoded-attachments/\nComments URL: https://news.ycombinator.com/item?id=46890335\nPoints: 121\n# Comments: 11",
-          "link": "https://neosmart.net/blog/recreating-epstein-pdfs-from-raw-encoded-attachments/",
-          "publishedOn": "2026-02-04T19:19:07.000Z",
-          "wordCount": 4581,
-          "title": "Recreating Epstein PDFs from raw encoded attachments",
-          "imageUrl": "http://neosmart.net/blog/wp-content/uploads/2026/02/Scanned-1-vs-l-zoomed-in.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46890174",
-          "author": "tosh",
-          "description": "Article URL: https://devblogs.microsoft.com/dotnet/introducing-fsharp-10/\nComments URL: https://news.ycombinator.com/item?id=46890174\nPoints: 94\n# Comments: 14",
-          "link": "https://devblogs.microsoft.com/dotnet/introducing-fsharp-10/",
-          "publishedOn": "2026-02-04T19:06:18.000Z",
-          "wordCount": 9984,
-          "title": "F# 10",
-          "imageUrl": "https://devblogs.microsoft.com/dotnet/wp-content/uploads/sites/10/2025/11/fsharp10.webp"
         }
       ]
     }

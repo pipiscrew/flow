@@ -2,10 +2,40 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-03-06T07:46:41.222Z</updated>
+    <updated>2026-03-06T08:48:51.050Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[TeX Live 2026 is available for download now]]></title>
+        <id>https://news.ycombinator.com/item?id=47271187</id>
+        <link href="https://www.tug.org/texlive/acquire.html"/>
+        <updated>2026-03-06T05:20:10.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.tug.org/texlive/acquire.html
+Comments URL: https://news.ycombinator.com/item?id=47271187
+Points: 51
+# Comments: 26]]></summary>
+        <author>
+            <name>jithinraj</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Swarm – Program a colony of 200 ants using a custom assembly language]]></title>
+        <id>https://news.ycombinator.com/item?id=47270807</id>
+        <link href="https://dev.moment.com/"/>
+        <updated>2026-03-06T04:15:40.000Z</updated>
+        <summary type="html"><![CDATA[We built an ant colony simulation as an internal hiring challenge at Moment and decided to open it up publicly.
+You write a program in a custom assembly-like (we call it ant-ssembly) instruction set that controls 200 ants. Each ant can sense nearby cells (food, pheromones, home, other ants) but has no global view. The only coordination mechanism is pheromone trails, which ants can emit and sense them, but that's it. Your program runs identically on every ant.
+The goal is to collect the highest percentage of food across a set of maps. Different map layouts (clustered food, scattered, obstacles) reward very different strategies. The leaderboard is live.
+Grand prize is a trip to Maui for two paid for by Moment. Challenge closes March 12.
+Curious what strategies people discover. We've seen some surprisingly clever emergent behavior internally.
+Comments URL: https://news.ycombinator.com/item?id=47270807
+Points: 54
+# Comments: 13]]></summary>
+        <author>
+            <name>armandhammer10</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[System76 on Age Verification Laws]]></title>
         <id>https://news.ycombinator.com/item?id=47270784</id>
@@ -17928,84 +17958,6 @@ Points: 67
 # Comments: 47]]></summary>
         <author>
             <name>coloneltcb</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Codex app illustrates the shift left of IDEs and coding GUIs]]></title>
-        <id>https://news.ycombinator.com/item?id=46891131</id>
-        <link href="https://www.benshoemaker.us/writing/codex-app-launch/"/>
-        <updated>2026-02-04T20:23:54.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.benshoemaker.us/writing/codex-app-launch/
-Comments URL: https://news.ycombinator.com/item?id=46891131
-Points: 65
-# Comments: 138]]></summary>
-        <author>
-            <name>straydusk</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Technocracy 2.0]]></title>
-        <id>https://news.ycombinator.com/item?id=46890899</id>
-        <link href="https://brooklynrail.org/2026/02/field-notes/technocracy-2-0/"/>
-        <updated>2026-02-04T20:06:00.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://brooklynrail.org/2026/02/field-notes/technocracy-2-0/
-Comments URL: https://news.ycombinator.com/item?id=46890899
-Points: 58
-# Comments: 31]]></summary>
-        <author>
-            <name>antonomon</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Start all of your commands with a comma]]></title>
-        <id>https://news.ycombinator.com/item?id=46890814</id>
-        <link href="https://rhodesmill.org/brandon/2009/commands-with-comma/"/>
-        <updated>2026-02-04T19:59:12.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://rhodesmill.org/brandon/2009/commands-with-comma/
-Comments URL: https://news.ycombinator.com/item?id=46890814
-Points: 71
-# Comments: 14]]></summary>
-        <author>
-            <name>theblazehen</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Tell HN: Another round of Zendesk email spam]]></title>
-        <id>https://news.ycombinator.com/item?id=46890418</id>
-        <link href="https://news.ycombinator.com/item?id=46890418"/>
-        <updated>2026-02-04T19:26:08.000Z</updated>
-        <summary type="html"><![CDATA[Looks like there's another round of Zendesk email spam happening. I've gotten hundreds over the last half-hour.
-Comments URL: https://news.ycombinator.com/item?id=46890418
-Points: 61
-# Comments: 22]]></summary>
-        <author>
-            <name>Philpax</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Recreating Epstein PDFs from raw encoded attachments]]></title>
-        <id>https://news.ycombinator.com/item?id=46890335</id>
-        <link href="https://neosmart.net/blog/recreating-epstein-pdfs-from-raw-encoded-attachments/"/>
-        <updated>2026-02-04T19:19:07.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://neosmart.net/blog/recreating-epstein-pdfs-from-raw-encoded-attachments/
-Comments URL: https://news.ycombinator.com/item?id=46890335
-Points: 121
-# Comments: 11]]></summary>
-        <author>
-            <name>ComputerGuru</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[F# 10]]></title>
-        <id>https://news.ycombinator.com/item?id=46890174</id>
-        <link href="https://devblogs.microsoft.com/dotnet/introducing-fsharp-10/"/>
-        <updated>2026-02-04T19:06:18.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://devblogs.microsoft.com/dotnet/introducing-fsharp-10/
-Comments URL: https://news.ycombinator.com/item?id=46890174
-Points: 94
-# Comments: 14]]></summary>
-        <author>
-            <name>tosh</name>
         </author>
     </entry>
 </feed>
