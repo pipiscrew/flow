@@ -2,10 +2,50 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-03-06T15:44:45.838Z</updated>
+    <updated>2026-03-06T16:51:43.265Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Moongate – Ultima Online server emulator in .NET 10 with Lua scripting]]></title>
+        <id>https://news.ycombinator.com/item?id=47275236</id>
+        <link href="https://github.com/moongate-community/moongatev2"/>
+        <updated>2026-03-06T14:22:59.000Z</updated>
+        <summary type="html"><![CDATA[I've been building a modern Ultima Online server emulator from scratch. It's not feature-complete (no combat, no skills yet), but the foundation is solid and I wanted to share it early.
+What it does today:
+- Full packet layer for the classic UO client (login, movement, items, mobiles)
+- Lua scripting for item behaviors (double-click a potion, open a door — all defined in Lua, no C# recompile)
+- Spatial world partitioned into sectors with delta sync (only sends packets for new sectors when crossing boundaries)
+- Snapshot-based persistence with MessagePack
+- Source generators for automatic DI wiring, packet handler registration, and Lua module exposure
+- NativeAOT support — the server compiles to a single native binary
+- Embedded HTTP admin API + React management UI
+- Auto-generated doors from map statics (same algorithm as ModernUO/RunUO)
+Tech stack: .NET 10, NativeAOT, NLua, MessagePack, DryIoc, Kestrel
+What's missing: Combat, skills, weather integration, NPC AI. This is still early — the focus so far has been on getting the architecture right so adding those systems doesn't require rewiring everything.
+Why not just use ModernUO/RunUO? Those are mature and battle-tested. I started this because I wanted to rethink the architecture from scratch: strict network/domain separation, event-driven game loop, no
+  inheritance-heavy item hierarchies, and Lua for rapid iteration on game logic without recompiling.
+GitHub: https://github.com/moongate-community/moongatev2
+Comments URL: https://news.ycombinator.com/item?id=47275236
+Points: 59
+# Comments: 39]]></summary>
+        <author>
+            <name>squidleon</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CT Scans of Health Wearables]]></title>
+        <id>https://news.ycombinator.com/item?id=47275152</id>
+        <link href="https://www.lumafield.com/scan-of-the-month/health-wearables"/>
+        <updated>2026-03-06T14:16:06.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.lumafield.com/scan-of-the-month/health-wearables
+Comments URL: https://news.ycombinator.com/item?id=47275152
+Points: 51
+# Comments: 6]]></summary>
+        <author>
+            <name>radeeyate</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Global Warming Has Accelerated Significantly]]></title>
         <id>https://news.ycombinator.com/item?id=47275088</id>
@@ -82,6 +122,19 @@ Points: 69
 # Comments: 29]]></summary>
         <author>
             <name>weinzierl</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA["I'm obviously taking a risk here by advertising emoji directly."]]></title>
+        <id>https://news.ycombinator.com/item?id=47272338</id>
+        <link href="https://unsung.aresluna.org/im-obviously-taking-a-risk-here-by-advertising-emoji-directly/"/>
+        <updated>2026-03-06T08:13:28.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://unsung.aresluna.org/im-obviously-taking-a-risk-here-by-advertising-emoji-directly/
+Comments URL: https://news.ycombinator.com/item?id=47272338
+Points: 73
+# Comments: 24]]></summary>
+        <author>
+            <name>tobr</name>
         </author>
     </entry>
     <entry>

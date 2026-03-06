@@ -6,6 +6,26 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=47275236",
+          "author": "squidleon",
+          "description": "I've been building a modern Ultima Online server emulator from scratch. It's not feature-complete (no combat, no skills yet), but the foundation is solid and I wanted to share it early.\nWhat it does today:\n- Full packet layer for the classic UO client (login, movement, items, mobiles)\n- Lua scripting for item behaviors (double-click a potion, open a door — all defined in Lua, no C# recompile)\n- Spatial world partitioned into sectors with delta sync (only sends packets for new sectors when crossing boundaries)\n- Snapshot-based persistence with MessagePack\n- Source generators for automatic DI wiring, packet handler registration, and Lua module exposure\n- NativeAOT support — the server compiles to a single native binary\n- Embedded HTTP admin API + React management UI\n- Auto-generated doors from map statics (same algorithm as ModernUO/RunUO)\nTech stack: .NET 10, NativeAOT, NLua, MessagePack, DryIoc, Kestrel\nWhat's missing: Combat, skills, weather integration, NPC AI. This is still early — the focus so far has been on getting the architecture right so adding those systems doesn't require rewiring everything.\nWhy not just use ModernUO/RunUO? Those are mature and battle-tested. I started this because I wanted to rethink the architecture from scratch: strict network/domain separation, event-driven game loop, no\n  inheritance-heavy item hierarchies, and Lua for rapid iteration on game logic without recompiling.\nGitHub: https://github.com/moongate-community/moongatev2\nComments URL: https://news.ycombinator.com/item?id=47275236\nPoints: 59\n# Comments: 39",
+          "link": "https://github.com/moongate-community/moongatev2",
+          "publishedOn": "2026-03-06T14:22:59.000Z",
+          "wordCount": 15349,
+          "title": "Show HN: Moongate – Ultima Online server emulator in .NET 10 with Lua scripting",
+          "imageUrl": "https://opengraph.githubassets.com/d9d7073ea362e5a01a2babbc08a8a2797346640d0b78f56995d9492d5641755a/moongate-community/moongatev2"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47275152",
+          "author": "radeeyate",
+          "description": "Article URL: https://www.lumafield.com/scan-of-the-month/health-wearables\nComments URL: https://news.ycombinator.com/item?id=47275152\nPoints: 51\n# Comments: 6",
+          "link": "https://www.lumafield.com/scan-of-the-month/health-wearables",
+          "publishedOn": "2026-03-06T14:16:06.000Z",
+          "wordCount": 40219,
+          "title": "CT Scans of Health Wearables",
+          "imageUrl": "https://cdn.prod.website-files.com/63e15418201b6e2a5cabb911/6993be41b53672d6f35bedc7_og-image-sotm-health-wearables.jpg"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=47275088",
           "author": "morsch",
           "description": "Article URL: https://www.researchgate.net/publication/389855619_Global_Warming_has_Accelerated_Significantly\nComments URL: https://news.ycombinator.com/item?id=47275088\nPoints: 246\n# Comments: 150",
@@ -64,6 +84,16 @@
           "wordCount": 517,
           "title": "GPL upgrades via section 14 proxy delegation",
           "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47272338",
+          "author": "tobr",
+          "description": "Article URL: https://unsung.aresluna.org/im-obviously-taking-a-risk-here-by-advertising-emoji-directly/\nComments URL: https://news.ycombinator.com/item?id=47272338\nPoints: 73\n# Comments: 24",
+          "link": "https://unsung.aresluna.org/im-obviously-taking-a-risk-here-by-advertising-emoji-directly/",
+          "publishedOn": "2026-03-06T08:13:28.000Z",
+          "wordCount": 771,
+          "title": "\"I'm obviously taking a risk here by advertising emoji directly.\"",
+          "imageUrl": "https://unsung.aresluna.org/_media/im-obviously-taking-a-risk-here-by-advertising-emoji-directly/ogimage.png"
         },
         {
           "id": "https://news.ycombinator.com/item?id=47271187",
