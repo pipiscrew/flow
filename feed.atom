@@ -2,10 +2,49 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-03-06T22:35:36.797Z</updated>
+    <updated>2026-03-06T23:33:54.003Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[this css proves me human]]></title>
+        <id>https://news.ycombinator.com/item?id=47281593</id>
+        <link href="https://will-keleher.com/posts/this-css-makes-me-human/"/>
+        <updated>2026-03-06T21:52:44.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://will-keleher.com/posts/this-css-makes-me-human/
+Comments URL: https://news.ycombinator.com/item?id=47281593
+Points: 86
+# Comments: 25]]></summary>
+        <author>
+            <name>todsacerdoti</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The worst acquisition in history, again]]></title>
+        <id>https://news.ycombinator.com/item?id=47281080</id>
+        <link href="https://www.profgmedia.com/p/the-worst-acquisition-in-history"/>
+        <updated>2026-03-06T21:07:43.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.profgmedia.com/p/the-worst-acquisition-in-history
+Comments URL: https://news.ycombinator.com/item?id=47281080
+Points: 79
+# Comments: 55]]></summary>
+        <author>
+            <name>JumpCrisscross</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[TypeScript 6.0 RC]]></title>
+        <id>https://news.ycombinator.com/item?id=47280567</id>
+        <link href="https://devblogs.microsoft.com/typescript/announcing-typescript-6-0-rc/"/>
+        <updated>2026-03-06T20:21:01.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://devblogs.microsoft.com/typescript/announcing-typescript-6-0-rc/
+Comments URL: https://news.ycombinator.com/item?id=47280567
+Points: 65
+# Comments: 11]]></summary>
+        <author>
+            <name>johnz</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Ada 2022]]></title>
         <id>https://news.ycombinator.com/item?id=47280352</id>
@@ -69,6 +108,25 @@ Points: 59
 # Comments: 15]]></summary>
         <author>
             <name>pppone</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Claude-replay – A video-like player for Claude Code sessions]]></title>
+        <id>https://news.ycombinator.com/item?id=47276604</id>
+        <link href="https://github.com/es617/claude-replay"/>
+        <updated>2026-03-06T15:57:27.000Z</updated>
+        <summary type="html"><![CDATA[I got tired of sharing AI demos with terminal screenshots or screen recordings.
+Claude Code already stores full session transcripts locally as JSONL files. Those logs contain everything: prompts, tool calls, thinking blocks, and timestamps.
+I built a small CLI tool that converts those logs into an interactive HTML replay.
+You can step through the session, jump through the timeline, expand tool calls, and inspect the full conversation.
+The output is a single self-contained HTML file — no dependencies. You can email it, host it anywhere, embed it in a blog post, and it works on mobile.
+Repo: https://github.com/es617/claude-replay
+Example replay: https://es617.github.io/assets/demos/peripheral-uart-demo.ht...
+Comments URL: https://news.ycombinator.com/item?id=47276604
+Points: 53
+# Comments: 24]]></summary>
+        <author>
+            <name>es617</name>
         </author>
     </entry>
     <entry>
@@ -18063,32 +18121,6 @@ Points: 73
 # Comments: 33]]></summary>
         <author>
             <name>pelario</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How we made geo joins 400× faster with H3 indexes]]></title>
-        <id>https://news.ycombinator.com/item?id=46898473</id>
-        <link href="https://floedb.ai/blog/how-we-made-geo-joins-400-faster-with-h3-indexes"/>
-        <updated>2026-02-05T11:19:40.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://floedb.ai/blog/how-we-made-geo-joins-400-faster-with-h3-indexes
-Comments URL: https://news.ycombinator.com/item?id=46898473
-Points: 61
-# Comments: 12]]></summary>
-        <author>
-            <name>matheusalmeida</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Nanobot: Ultra-Lightweight Alternative to OpenClaw]]></title>
-        <id>https://news.ycombinator.com/item?id=46897737</id>
-        <link href="https://github.com/HKUDS/nanobot"/>
-        <updated>2026-02-05T09:39:11.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://github.com/HKUDS/nanobot
-Comments URL: https://news.ycombinator.com/item?id=46897737
-Points: 54
-# Comments: 28]]></summary>
-        <author>
-            <name>ms7892</name>
         </author>
     </entry>
 </feed>
