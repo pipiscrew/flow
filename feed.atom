@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-03-07T18:41:50.302Z</updated>
+    <updated>2026-03-07T19:27:28.801Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
@@ -149,6 +149,27 @@ Points: 98
 # Comments: 60]]></summary>
         <author>
             <name>askl</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: µJS, a 5KB alternative to Htmx and Turbo with zero dependencies]]></title>
+        <id>https://news.ycombinator.com/item?id=47285876</id>
+        <link href="https://mujs.org/"/>
+        <updated>2026-03-07T08:59:11.000Z</updated>
+        <summary type="html"><![CDATA[I built µJS because I wanted AJAX navigation without the verbosity of HTMX or the overhead of Turbo.
+It intercepts links and form submissions, fetches pages via AJAX, and swaps fragments of the DOM. Single  tag, one call to `mu.init()`. No build step, no dependencies.
+Key features: patch mode (update multiple fragments in one request), SSE support, DOM morphing via idiomorph, View Transitions, prefetch on hover, polling, and full HTTP verb support on any element.
+At ~5KB gzipped, it's smaller than HTMX (16KB) and Turbo (25KB), and works with any backend: PHP, Python, Go, Ruby, whatever.
+Playground: https://mujs.org/playground
+Comparison with HTMX and Turbo: https://mujs.org/comparison
+About the project creation, why and when: https://mujs.org/about
+GitHub: https://github.com/Digicreon/muJS
+Happy to discuss the project.
+Comments URL: https://news.ycombinator.com/item?id=47285876
+Points: 56
+# Comments: 18]]></summary>
+        <author>
+            <name>amaury_bouchard</name>
         </author>
     </entry>
     <entry>
@@ -1354,6 +1375,19 @@ Points: 113
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[48x32, a 1536 LED Game Computer (2023)]]></title>
+        <id>https://news.ycombinator.com/item?id=47255798</id>
+        <link href="https://jacquesmattheij.com/48x32-introduction/"/>
+        <updated>2026-03-05T00:10:42.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://jacquesmattheij.com/48x32-introduction/
+Comments URL: https://news.ycombinator.com/item?id=47255798
+Points: 55
+# Comments: 12]]></summary>
+        <author>
+            <name>duck</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Dario Amodei calls OpenAI’s messaging around military deal ‘straight up lies’]]></title>
         <id>https://news.ycombinator.com/item?id=47255662</id>
         <link href="https://techcrunch.com/2026/03/04/anthropic-ceo-dario-amodei-calls-openais-messaging-around-military-deal-straight-up-lies-report-says/"/>
@@ -1871,6 +1905,19 @@ Points: 59
 # Comments: 29]]></summary>
         <author>
             <name>cdrnsf</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Lock Scroll with a Vengeance]]></title>
+        <id>https://news.ycombinator.com/item?id=47242775</id>
+        <link href="https://unsung.aresluna.org/lock-scroll-with-a-vengeance/"/>
+        <updated>2026-03-04T03:42:17.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://unsung.aresluna.org/lock-scroll-with-a-vengeance/
+Comments URL: https://news.ycombinator.com/item?id=47242775
+Points: 50
+# Comments: 13]]></summary>
+        <author>
+            <name>etothet</name>
         </author>
     </entry>
     <entry>
