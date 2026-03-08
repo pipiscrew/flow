@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-03-08T08:39:07.963Z</updated>
+    <updated>2026-03-08T09:36:06.132Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
@@ -18049,40 +18049,6 @@ Points: 54
 # Comments: 2]]></summary>
         <author>
             <name>klaussilveira</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: Look Ma, No Linux: Shell, App Installer, Vi, Cc on ESP32-S3 / BreezyBox]]></title>
-        <id>https://news.ycombinator.com/item?id=46918429</id>
-        <link href="https://github.com/valdanylchuk/breezydemo"/>
-        <updated>2026-02-06T21:33:11.000Z</updated>
-        <summary type="html"><![CDATA[Example repo: https://github.com/valdanylchuk/breezydemo
-The underlying ESP-IDF component: https://github.com/valdanylchuk/breezybox
-It is something like Raspberry Pi, but without the overhead of a full server-grade OS.
-It captures a lot of the old school DOS era coding experience. I created a custom fast text mode driver, plan to add VGA-like graphics next. ANSI text demos run smooth, as you can see in the demo video featured in the Readme.
-App installs also work smoothly. The first time it installed 6 apps from my git repo with one command, felt like, "OMG, I got homebrew to run on a toaster!" And best of all, it can install from any repo, no approvals or waiting, you just publish a compatible ELF file in your release.
-Coverage:
-Hackaday: https://hackaday.com/2026/02/06/breezybox-a-busybox-like-she...
-Hackster.io: https://www.hackster.io/news/valentyn-danylchuk-s-breezybox-...
-Reddit: https://www.reddit.com/r/esp32/comments/1qq503c/i_made_an_in...
-Comments URL: https://news.ycombinator.com/item?id=46918429
-Points: 131
-# Comments: 13]]></summary>
-        <author>
-            <name>isitcontent</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Monty: A minimal, secure Python interpreter written in Rust for use by AI]]></title>
-        <id>https://news.ycombinator.com/item?id=46918254</id>
-        <link href="https://github.com/pydantic/monty"/>
-        <updated>2026-02-06T21:16:36.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://github.com/pydantic/monty
-Comments URL: https://news.ycombinator.com/item?id=46918254
-Points: 109
-# Comments: 49]]></summary>
-        <author>
-            <name>dmpetrov</name>
         </author>
     </entry>
 </feed>
