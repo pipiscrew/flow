@@ -2,10 +2,36 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-03-08T20:34:04.591Z</updated>
+    <updated>2026-03-08T21:30:27.750Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Agent Safehouse – macOS-native sandboxing for local agents]]></title>
+        <id>https://news.ycombinator.com/item?id=47301085</id>
+        <link href="https://agent-safehouse.dev/"/>
+        <updated>2026-03-08T20:30:18.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://agent-safehouse.dev/
+Comments URL: https://news.ycombinator.com/item?id=47301085
+Points: 57
+# Comments: 13]]></summary>
+        <author>
+            <name>atombender</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Neural Boids]]></title>
+        <id>https://news.ycombinator.com/item?id=47300934</id>
+        <link href="https://campedersen.com/noid"/>
+        <updated>2026-03-08T20:14:54.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://campedersen.com/noid
+Comments URL: https://news.ycombinator.com/item?id=47300934
+Points: 70
+# Comments: 23]]></summary>
+        <author>
+            <name>ecto</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Ask HN: Please restrict new accounts from posting]]></title>
         <id>https://news.ycombinator.com/item?id=47300329</id>
@@ -19,6 +45,25 @@ Points: 117
 # Comments: 82]]></summary>
         <author>
             <name>Oras</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: I built a real-time OSINT dashboard pulling 15 live global feeds]]></title>
+        <id>https://news.ycombinator.com/item?id=47300102</id>
+        <link href="https://github.com/BigBodyCobain/Shadowbroker"/>
+        <updated>2026-03-08T19:07:33.000Z</updated>
+        <summary type="html"><![CDATA[Sup HN,
+So I got tired of bouncing between Flightradar, MarineTraffic, and Twitter every time something kicked off globally, so I wrote a dashboard to aggregate it all locally. It’s called Shadowbroker.
+I’ll admit I leaned way too hard into the "movie hacker" aesthetic for the UI, but the actual pipeline underneath is real. It pulls commercial/military ADS-B, the AIS WebSocket stream (about 25,000+ ships), N2YO satellite telemetry, and GDELT conflict data into a single MapLibre instance.
+Getting this to run without melting my browser was the hardest part. I'm running this on a laptop with an i5 and an RTX 3050, and initially, dumping 30k+ moving GeoJSON features onto the map just crashed everything. I ended up having to write pretty aggressive viewport culling, debounce the state updates, and compress the FastAPI payloads by like 90% just to make it usable.
+My favorite part is the signal layer—it actually calculates live GPS jamming zones by aggregating the real-time navigation degradation (NAC-P) of commercial flights overhead.
+It’s Next.js and Python. I threw a quick-start script in the releases if you just want to spin it up, but the repo is open if you want to dig into the backend.
+Let me know if my MapLibre implementation is terrible, I'm always looking for ways to optimize the rendering.
+Comments URL: https://news.ycombinator.com/item?id=47300102
+Points: 66
+# Comments: 43]]></summary>
+        <author>
+            <name>vancecookcobxin</name>
         </author>
     </entry>
     <entry>
@@ -2830,6 +2875,19 @@ Points: 96
 # Comments: 38]]></summary>
         <author>
             <name>pkilgore</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Log messages are mostly for the people operating your software]]></title>
+        <id>https://news.ycombinator.com/item?id=47239117</id>
+        <link href="https://utcc.utoronto.ca/~cks/space/blog/programming/LogMessagesAreForOperation"/>
+        <updated>2026-03-03T21:15:23.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://utcc.utoronto.ca/~cks/space/blog/programming/LogMessagesAreForOperation
+Comments URL: https://news.ycombinator.com/item?id=47239117
+Points: 78
+# Comments: 30]]></summary>
+        <author>
+            <name>todsacerdoti</name>
         </author>
     </entry>
     <entry>
@@ -18324,19 +18382,6 @@ Points: 67
 # Comments: 74]]></summary>
         <author>
             <name>1vuio0pswjnm7</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Rome is studded with cannon balls (2022)]]></title>
-        <id>https://news.ycombinator.com/item?id=46922453</id>
-        <link href="https://essenceofrome.com/rome-is-studded-with-cannon-balls"/>
-        <updated>2026-02-07T09:10:26.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://essenceofrome.com/rome-is-studded-with-cannon-balls
-Comments URL: https://news.ycombinator.com/item?id=46922453
-Points: 57
-# Comments: 4]]></summary>
-        <author>
-            <name>thomassmith65</name>
         </author>
     </entry>
 </feed>
