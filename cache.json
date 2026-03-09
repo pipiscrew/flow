@@ -6,6 +6,36 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=47314131",
+          "author": "anon-ex-uber",
+          "description": "Article URL: https://anon-ex-uber.medium.com/uber-reported-to-the-state-that-i-was-fired-for-annoying-a-coworker-4ba7490cc0b8\nComments URL: https://news.ycombinator.com/item?id=47314131\nPoints: 60\n# Comments: 28",
+          "link": "https://anon-ex-uber.medium.com/uber-reported-to-the-state-that-i-was-fired-for-annoying-a-coworker-4ba7490cc0b8",
+          "publishedOn": "2026-03-09T19:24:58.000Z",
+          "wordCount": null,
+          "title": "Uber reported to the state that I was fired for \"annoying a coworker.\"",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47313884",
+          "author": "minimaxir",
+          "description": "https://www.wired.com/story/bluesky-ceo-jay-graber-is-steppi... (https://web.archive.org/web/20260309191134/https://www.wired...)\nhttps://toni.org/2026/03/09/coming-off-the-bench-for-bluesky...\nComments URL: https://news.ycombinator.com/item?id=47313884\nPoints: 117\n# Comments: 121",
+          "link": "https://bsky.social/about/blog/03-09-2026-a-new-chapter-for-bluesky",
+          "publishedOn": "2026-03-09T19:09:03.000Z",
+          "wordCount": 996,
+          "title": "Bluesky CEO Jay Graber is stepping down",
+          "imageUrl": "https://bsky.social/about/images/blogposts/a-new-chapter.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47312728",
+          "author": "belisarius222",
+          "description": "Hi, Ted here, creator of Mog.\n- Mog is a statically typed, compiled, embedded language (think statically typed Lua) designed to be written by LLMs -- the full spec fits in 3,200 tokens.\n- An AI agent writes a Mog program, compiles it, and dynamically loads it as a plugin, script, or hook.\n- The host controls exactly which functions a Mog program can call (capability-based permissions), so permissions propagate from agent to agent-written code.\n- Compiled to native code for low-latency plugin execution -- no interpreter overhead, no JIT, no process startup cost.\n- The compiler is written in safe Rust so the entire toolchain can be audited for security. Even without a full security audit, Mog is already useful for agents extending themselves with their own code.\n- MIT licensed, contributions…",
+          "link": "https://moglang.org/",
+          "publishedOn": "2026-03-09T17:57:00.000Z",
+          "wordCount": 41573,
+          "title": "Show HN: The Mog Programming Language",
+          "imageUrl": null
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=47312329",
           "author": "robtherobber",
           "description": "Article URL: https://fixfest.therestartproject.org/\nComments URL: https://news.ycombinator.com/item?id=47312329\nPoints: 81\n# Comments: 4",
@@ -16,6 +46,16 @@
           "imageUrl": null
         },
         {
+          "id": "https://news.ycombinator.com/item?id=47312090",
+          "author": "1970-01-01",
+          "description": "Article URL: https://cbs12.com/news/local/florida-news-judge-rules-red-light-camera-tickets-unconstitutional\nComments URL: https://news.ycombinator.com/item?id=47312090\nPoints: 140\n# Comments: 224",
+          "link": "https://cbs12.com/news/local/florida-news-judge-rules-red-light-camera-tickets-unconstitutional",
+          "publishedOn": "2026-03-09T17:20:29.000Z",
+          "wordCount": 6617,
+          "title": "Florida judge rules red light camera tickets are unconstitutional",
+          "imageUrl": "https://cbs12.com/resources/media2/16x9/602/1320/37x0/90/0bdb9082-796c-4b80-ae94-3e21c2de95d3-REDLIGHTCAMERA.png"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=47311815",
           "author": "imadr",
           "description": "Article URL: https://felixturner.github.io/hex-map-wfc/article/\nComments URL: https://news.ycombinator.com/item?id=47311815\nPoints: 118\n# Comments: 25",
@@ -23,6 +63,16 @@
           "publishedOn": "2026-03-09T17:02:22.000Z",
           "wordCount": 3110,
           "title": "Building a Procedural Hex Map with Wave Function Collapse",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47311669",
+          "author": "newer_vienna",
+          "description": "Article URL: https://www.darpa.mil/news/2026/darpa-new-x-76-speed-of-jet-freedom-of-helicopter\nComments URL: https://news.ycombinator.com/item?id=47311669\nPoints: 82\n# Comments: 68",
+          "link": "https://www.darpa.mil/news/2026/darpa-new-x-76-speed-of-jet-freedom-of-helicopter",
+          "publishedOn": "2026-03-09T16:54:31.000Z",
+          "wordCount": 720,
+          "title": "DARPA's new X-76",
           "imageUrl": null
         },
         {
@@ -94,6 +144,16 @@
           "wordCount": 7179,
           "title": "The engine of Germany's wealth is blocking its future",
           "imageUrl": "https://images.europeancorrespondent.com/attwkYDXMGI1D1j5I/public"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47309953",
+          "author": "kumar_abhirup",
+          "description": "Hi everyone, I am Kumar, co-founder of Dench (https://denchclaw.com). We were part of YC S24, an agentic workflow company that previously worked with sales floors automating niche enterprise tasks such as outbound calling, legal intake, etc.\nBuilding consumer / power-user software always gave me more joy than FDEing into an enterprise. It did not give me joy to manually add AI tools to a cloud harness for every small new thing, at least not as much as completely local software that is open source and has all the powers of OpenClaw (I can now talk to my CRM on Telegram!).\nA week ago, we launched Ironclaw, an Open Source OpenClaw CRM Framework (https://x.com/garrytan/status/2023518514120937672?s=20) but people confused us with NearAI’s Ironclaw, so we changed our name to DenchClaw (https://d…",
+          "link": "https://github.com/DenchHQ/DenchClaw",
+          "publishedOn": "2026-03-09T14:55:42.000Z",
+          "wordCount": 1520,
+          "title": "Show HN: DenchClaw – Local CRM on Top of OpenClaw",
+          "imageUrl": "https://opengraph.githubassets.com/2fbf711d90868f86a6385806af9f9d64990a3c3d10867c0717d98d42157bccc5/DenchHQ/DenchClaw"
         },
         {
           "id": "https://news.ycombinator.com/item?id=47309811",
@@ -13734,36 +13794,6 @@
           "wordCount": 314,
           "title": "Willow – Protocols for an uncertain future [video]",
           "imageUrl": "https://fosdem.org/2026/assets/style/logo-gear-7204a6874eb0128932db10ff4030910401ac06f4e907f8b4a40da24ba592b252.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46932444",
-          "author": "gtsnexp",
-          "description": "Article URL: https://www.pa3fwm.nl/technotes/tn13a.html\nComments URL: https://news.ycombinator.com/item?id=46932444\nPoints: 64\n# Comments: 13",
-          "link": "https://www.pa3fwm.nl/technotes/tn13a.html",
-          "publishedOn": "2026-02-08T08:26:36.000Z",
-          "wordCount": 1936,
-          "title": "Quartz crystals",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46932343",
-          "author": "jingkai_he",
-          "description": "Article URL: https://github.com/jingkaihe/matchlock\nComments URL: https://news.ycombinator.com/item?id=46932343\nPoints: 72\n# Comments: 26",
-          "link": "https://github.com/jingkaihe/matchlock",
-          "publishedOn": "2026-02-08T08:07:55.000Z",
-          "wordCount": 3548,
-          "title": "Matchlock – Secures AI agent workloads with a Linux-based sandbox",
-          "imageUrl": "https://opengraph.githubassets.com/e1edfca50414f773b47c4800a8f4278b89a35d3d2c81cd5b54ebb0ed88f03063/jingkaihe/matchlock"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46932192",
-          "author": "awaaz",
-          "description": "Article URL: https://donotnotify.com/opensource.html\nComments URL: https://news.ycombinator.com/item?id=46932192\nPoints: 67\n# Comments: 11",
-          "link": "https://donotnotify.com/opensource.html",
-          "publishedOn": "2026-02-08T07:39:49.000Z",
-          "wordCount": 156,
-          "title": "DoNotNotify is now Open Source",
-          "imageUrl": null
         }
       ]
     }

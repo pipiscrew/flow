@@ -2,10 +2,53 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-03-09T19:01:33.668Z</updated>
+    <updated>2026-03-09T20:41:02.992Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Uber reported to the state that I was fired for "annoying a coworker."]]></title>
+        <id>https://news.ycombinator.com/item?id=47314131</id>
+        <link href="https://anon-ex-uber.medium.com/uber-reported-to-the-state-that-i-was-fired-for-annoying-a-coworker-4ba7490cc0b8"/>
+        <updated>2026-03-09T19:24:58.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://anon-ex-uber.medium.com/uber-reported-to-the-state-that-i-was-fired-for-annoying-a-coworker-4ba7490cc0b8
+Comments URL: https://news.ycombinator.com/item?id=47314131
+Points: 60
+# Comments: 28]]></summary>
+        <author>
+            <name>anon-ex-uber</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Bluesky CEO Jay Graber is stepping down]]></title>
+        <id>https://news.ycombinator.com/item?id=47313884</id>
+        <link href="https://bsky.social/about/blog/03-09-2026-a-new-chapter-for-bluesky"/>
+        <updated>2026-03-09T19:09:03.000Z</updated>
+        <summary type="html"><![CDATA[https://www.wired.com/story/bluesky-ceo-jay-graber-is-steppi... (https://web.archive.org/web/20260309191134/https://www.wired...)
+https://toni.org/2026/03/09/coming-off-the-bench-for-bluesky...
+Comments URL: https://news.ycombinator.com/item?id=47313884
+Points: 117
+# Comments: 121]]></summary>
+        <author>
+            <name>minimaxir</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: The Mog Programming Language]]></title>
+        <id>https://news.ycombinator.com/item?id=47312728</id>
+        <link href="https://moglang.org/"/>
+        <updated>2026-03-09T17:57:00.000Z</updated>
+        <summary type="html"><![CDATA[Hi, Ted here, creator of Mog.
+- Mog is a statically typed, compiled, embedded language (think statically typed Lua) designed to be written by LLMs -- the full spec fits in 3,200 tokens.
+- An AI agent writes a Mog program, compiles it, and dynamically loads it as a plugin, script, or hook.
+- The host controls exactly which functions a Mog program can call (capability-based permissions), so permissions propagate from agent to agent-written code.
+- Compiled to native code for low-latency plugin execution -- no interpreter overhead, no JIT, no process startup cost.
+- The compiler is written in safe Rust so the entire toolchain can be audited for security. Even without a full security audit, Mog is already useful for agents extending themselves with their own code.
+- MIT licensed, contributions…]]></summary>
+        <author>
+            <name>belisarius222</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Fixfest is a global gathering of repairers, tinkerers, and activists]]></title>
         <id>https://news.ycombinator.com/item?id=47312329</id>
@@ -20,6 +63,19 @@ Points: 81
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Florida judge rules red light camera tickets are unconstitutional]]></title>
+        <id>https://news.ycombinator.com/item?id=47312090</id>
+        <link href="https://cbs12.com/news/local/florida-news-judge-rules-red-light-camera-tickets-unconstitutional"/>
+        <updated>2026-03-09T17:20:29.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://cbs12.com/news/local/florida-news-judge-rules-red-light-camera-tickets-unconstitutional
+Comments URL: https://news.ycombinator.com/item?id=47312090
+Points: 140
+# Comments: 224]]></summary>
+        <author>
+            <name>1970-01-01</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Building a Procedural Hex Map with Wave Function Collapse]]></title>
         <id>https://news.ycombinator.com/item?id=47311815</id>
         <link href="https://felixturner.github.io/hex-map-wfc/article/"/>
@@ -30,6 +86,19 @@ Points: 118
 # Comments: 25]]></summary>
         <author>
             <name>imadr</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[DARPA's new X-76]]></title>
+        <id>https://news.ycombinator.com/item?id=47311669</id>
+        <link href="https://www.darpa.mil/news/2026/darpa-new-x-76-speed-of-jet-freedom-of-helicopter"/>
+        <updated>2026-03-09T16:54:31.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.darpa.mil/news/2026/darpa-new-x-76-speed-of-jet-freedom-of-helicopter
+Comments URL: https://news.ycombinator.com/item?id=47311669
+Points: 82
+# Comments: 68]]></summary>
+        <author>
+            <name>newer_vienna</name>
         </author>
     </entry>
     <entry>
@@ -121,6 +190,18 @@ Points: 110
 # Comments: 82]]></summary>
         <author>
             <name>mariuz</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: DenchClaw – Local CRM on Top of OpenClaw]]></title>
+        <id>https://news.ycombinator.com/item?id=47309953</id>
+        <link href="https://github.com/DenchHQ/DenchClaw"/>
+        <updated>2026-03-09T14:55:42.000Z</updated>
+        <summary type="html"><![CDATA[Hi everyone, I am Kumar, co-founder of Dench (https://denchclaw.com). We were part of YC S24, an agentic workflow company that previously worked with sales floors automating niche enterprise tasks such as outbound calling, legal intake, etc.
+Building consumer / power-user software always gave me more joy than FDEing into an enterprise. It did not give me joy to manually add AI tools to a cloud harness for every small new thing, at least not as much as completely local software that is open source and has all the powers of OpenClaw (I can now talk to my CRM on Telegram!).
+A week ago, we launched Ironclaw, an Open Source OpenClaw CRM Framework (https://x.com/garrytan/status/2023518514120937672?s=20) but people confused us with NearAI’s Ironclaw, so we changed our name to DenchClaw (https://d…]]></summary>
+        <author>
+            <name>kumar_abhirup</name>
         </author>
     </entry>
     <entry>
@@ -18345,45 +18426,6 @@ Points: 58
 # Comments: 5]]></summary>
         <author>
             <name>todsacerdoti</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Quartz crystals]]></title>
-        <id>https://news.ycombinator.com/item?id=46932444</id>
-        <link href="https://www.pa3fwm.nl/technotes/tn13a.html"/>
-        <updated>2026-02-08T08:26:36.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.pa3fwm.nl/technotes/tn13a.html
-Comments URL: https://news.ycombinator.com/item?id=46932444
-Points: 64
-# Comments: 13]]></summary>
-        <author>
-            <name>gtsnexp</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Matchlock – Secures AI agent workloads with a Linux-based sandbox]]></title>
-        <id>https://news.ycombinator.com/item?id=46932343</id>
-        <link href="https://github.com/jingkaihe/matchlock"/>
-        <updated>2026-02-08T08:07:55.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://github.com/jingkaihe/matchlock
-Comments URL: https://news.ycombinator.com/item?id=46932343
-Points: 72
-# Comments: 26]]></summary>
-        <author>
-            <name>jingkai_he</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[DoNotNotify is now Open Source]]></title>
-        <id>https://news.ycombinator.com/item?id=46932192</id>
-        <link href="https://donotnotify.com/opensource.html"/>
-        <updated>2026-02-08T07:39:49.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://donotnotify.com/opensource.html
-Comments URL: https://news.ycombinator.com/item?id=46932192
-Points: 67
-# Comments: 11]]></summary>
-        <author>
-            <name>awaaz</name>
         </author>
     </entry>
 </feed>
