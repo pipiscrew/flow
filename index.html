@@ -64,6 +64,38 @@ Points: 87
                       <details
                         class="article-expander"
                         data-action="toggle-native-accordion"
+                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;47305149"
+                        open
+                      >
+                        <summary class="article-expander__title">Show HN: Mcp2cli – One CLI for every API, 96-99% fewer tokens than native MCP</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://github.com/knowsuchagency/mcp2cli">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://opengraph.githubassets.com/578b691dc8dfc1368d2ac6110882de780549eba6c65fbaa9421d01d581a3ada9/knowsuchagency/mcp2cli" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Every MCP server injects its full tool schemas into context on every turn — 30 tools costs ~3,600 tokens/turn whether the model uses them or not. Over 25 turns with 120 tools, that&#x27;s 362,000 tokens just for schemas.
+mcp2cli turns any MCP server or OpenAPI spec into a CLI at runtime. The LLM discovers tools on demand:
+    mcp2cli --mcp https://mcp.example.com/sse --list             # ~16 tokens/tool
+    mcp2cli --mcp https://mcp.example.com/sse create-task --help  # ~120 tokens, once
+    mcp2cli --mcp https://mcp.example.com/sse create-task --title &quot;Fix bug&quot;
+
+Token savings are real, measured with cl100k_base: 96% for 30 tools over 15 turns, 99% for 120 tools over 25 turns.
+It also ships as an installable skill for AI coding agents (Claude Code, Cursor, Codex): &#x60;npx skills add knowsuchagency/mcp2cli --skill mcp2cli&#x60;
+Inspired by Kagan Yilmaz&#x27;s CLI vs MCP analysis and CLIHub.
+https://github.com/knowsuchagency/mcp2cli
+Comments URL: https://news.ycombinator.com/item?id&#x3D;47305149
+Points: 69
+# Comments: 36</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;26
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
                         data-accordion-key="https://news.ycombinator.com/item?id&#x3D;47304886"
                         open
                       >
@@ -31945,28 +31977,6 @@ Points: 84
                         </a>
                       </details>
                     </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;46928435"
-                        open
-                      >
-                        <summary class="article-expander__title">Tiny C Compiler</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://bellard.org/tcc/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Article URL: https://bellard.org/tcc/
-Comments URL: https://news.ycombinator.com/item?id&#x3D;46928435
-Points: 60
-# Comments: 24</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
                 </section>
               </section>
             </li>
@@ -31974,8 +31984,8 @@ Points: 60
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/pipiscrew/flow/actions/runs/22845626045">
-        <time id="build-timestamp" datetime="2026-03-09T08:54:08.972Z">2026-03-09T08:54:08.972Z</time>
+      <a class="footer-link" href="https://github.com/pipiscrew/flow/actions/runs/22848041863">
+        <time id="build-timestamp" datetime="2026-03-09T09:59:33.224Z">2026-03-09T09:59:33.224Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
