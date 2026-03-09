@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-03-09T13:18:31.837Z</updated>
+    <updated>2026-03-09T14:58:22.405Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
@@ -43,6 +43,19 @@ Points: 87
 # Comments: 29]]></summary>
         <author>
             <name>dryadin</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[FFmpeg at Meta: Media Processing at Scale]]></title>
+        <id>https://news.ycombinator.com/item?id=47305236</id>
+        <link href="https://engineering.fb.com/2026/03/02/video-engineering/ffmpeg-at-meta-media-processing-at-scale/"/>
+        <updated>2026-03-09T05:37:15.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://engineering.fb.com/2026/03/02/video-engineering/ffmpeg-at-meta-media-processing-at-scale/
+Comments URL: https://news.ycombinator.com/item?id=47305236
+Points: 67
+# Comments: 27]]></summary>
+        <author>
+            <name>sudhakaran88</name>
         </author>
     </entry>
     <entry>
@@ -1487,6 +1500,19 @@ Points: 69
 # Comments: 29]]></summary>
         <author>
             <name>weinzierl</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Unlocking Python's Cores:Energy Implications of Removing the GIL]]></title>
+        <id>https://news.ycombinator.com/item?id=47272531</id>
+        <link href="https://arxiv.org/abs/2603.04782"/>
+        <updated>2026-03-06T08:41:37.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://arxiv.org/abs/2603.04782
+Comments URL: https://news.ycombinator.com/item?id=47272531
+Points: 66
+# Comments: 34]]></summary>
+        <author>
+            <name>runningmike</name>
         </author>
     </entry>
     <entry>
@@ -18236,58 +18262,6 @@ Points: 54
 # Comments: 9]]></summary>
         <author>
             <name>chwtutha</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Haskell for all: Beyond agentic coding]]></title>
-        <id>https://news.ycombinator.com/item?id=46930565</id>
-        <link href="https://haskellforall.com/2026/02/beyond-agentic-coding"/>
-        <updated>2026-02-08T01:55:09.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://haskellforall.com/2026/02/beyond-agentic-coding
-Comments URL: https://news.ycombinator.com/item?id=46930565
-Points: 70
-# Comments: 16]]></summary>
-        <author>
-            <name>RebelPotato</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Implementing Auto Tiling with Just 5 Tiles]]></title>
-        <id>https://news.ycombinator.com/item?id=46930461</id>
-        <link href="https://www.kyledunbar.dev/2026/02/05/Implementing-auto-tiling-with-just-5-tiles.html"/>
-        <updated>2026-02-08T01:37:36.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.kyledunbar.dev/2026/02/05/Implementing-auto-tiling-with-just-5-tiles.html
-Comments URL: https://news.ycombinator.com/item?id=46930461
-Points: 64
-# Comments: 11]]></summary>
-        <author>
-            <name>todsacerdoti</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: LocalGPT – A local-first AI assistant in Rust with persistent memory]]></title>
-        <id>https://news.ycombinator.com/item?id=46930391</id>
-        <link href="https://github.com/localgpt-app/localgpt"/>
-        <updated>2026-02-08T01:26:38.000Z</updated>
-        <summary type="html"><![CDATA[I built LocalGPT over 4 nights as a Rust reimagining of the OpenClaw assistant pattern (markdown-based persistent memory, autonomous heartbeat tasks, skills system).
-It compiles to a single ~27MB binary — no Node.js, Docker, or Python required.
-Key features:
-- Persistent memory via markdown files (MEMORY, HEARTBEAT, SOUL markdown files) — compatible with OpenClaw's format
-- Full-text search (SQLite FTS5) + semantic search (local embeddings, no API key needed)
-- Autonomous heartbeat runner that checks tasks on a configurable interval
-- CLI + web interface + desktop GUI
-- Multi-provider: Anthropic, OpenAI, Ollama etc
-- Apache 2.0
-Install: `cargo install localgpt`
-I use it daily as a knowledge accumulator, research assistant, and autonomous task runner for my side projects. The memory compounds — every session makes the next one better.
-GitHub: https://github.com/localgpt-app/localgpt
-Website: https://localgpt.app
-Would love feedback on the architecture or feature ideas.
-Comments URL: https://news.ycombinator.com/item?id=46930391
-Points: 109
-# Comments: 29]]></summary>
-        <author>
-            <name>yi_wang</name>
         </author>
     </entry>
 </feed>
