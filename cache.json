@@ -26,6 +26,16 @@
           "imageUrl": "https://bsky.social/about/images/blogposts/a-new-chapter.png"
         },
         {
+          "id": "https://news.ycombinator.com/item?id=47313613",
+          "author": "randycupertino",
+          "description": "Article URL: https://arstechnica.com/gadgets/2026/03/workers-report-watching-ray-ban-meta-shot-footage-of-people-using-the-bathroom/\nComments URL: https://news.ycombinator.com/item?id=47313613\nPoints: 103\n# Comments: 33",
+          "link": "https://arstechnica.com/gadgets/2026/03/workers-report-watching-ray-ban-meta-shot-footage-of-people-using-the-bathroom/",
+          "publishedOn": "2026-03-09T18:51:34.000Z",
+          "wordCount": 3069,
+          "title": "Workers report watching Ray-Ban Meta-shot footage of people using the bathroom",
+          "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2026/03/546417470_31238681149113739_395523165946500898_n.jpg"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=47312728",
           "author": "belisarius222",
           "description": "Hi, Ted here, creator of Mog.\n- Mog is a statically typed, compiled, embedded language (think statically typed Lua) designed to be written by LLMs -- the full spec fits in 3,200 tokens.\n- An AI agent writes a Mog program, compiles it, and dynamically loads it as a plugin, script, or hook.\n- The host controls exactly which functions a Mog program can call (capability-based permissions), so permissions propagate from agent to agent-written code.\n- Compiled to native code for low-latency plugin execution -- no interpreter overhead, no JIT, no process startup cost.\n- The compiler is written in safe Rust so the entire toolchain can be audited for security. Even without a full security audit, Mog is already useful for agents extending themselves with their own code.\n- MIT licensed, contributions…",
@@ -73,6 +83,16 @@
           "publishedOn": "2026-03-09T16:54:31.000Z",
           "wordCount": 720,
           "title": "DARPA's new X-76",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47311657",
+          "author": "filipbalucha",
+          "description": "Hello Hacker News! We're Filip, Stavros, and Vivek from Terminal Use (https://www.terminaluse.com/). We built Terminal Use to make it easier to deploy agents that work in a sandboxed environment and need filesystems to do work. This includes coding agents, research agents, document processing agents, and internal tools that read and write files.\nHere's a demo: https://www.youtube.com/watch?v=ttMl96l9xPA.\nOur biggest pain point with hosting agents was that you'd need to stitch together multiple pieces: packaging your agent, running it in a sandbox, streaming messages back to users, persisting state across turns, and managing getting files to and from the agent workspace.\nWe wanted something like Cog from Replicate, but for agents: a simple way to package agent code from a repo and serve it …",
+          "link": "https://news.ycombinator.com/item?id=47311657",
+          "publishedOn": "2026-03-09T16:53:52.000Z",
+          "wordCount": 4105,
+          "title": "Launch HN: Terminal Use (YC W26) – Vercel for filesystem-based agents",
           "imageUrl": null
         },
         {
@@ -166,6 +186,16 @@
           "imageUrl": "https://i.guim.co.uk/img/media/7e6c231f569010475b272b17e1894587cc703eee/0_0_1920_1536/master/1920.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=f5ff2ace96ea600e928d35dc07c1e3db"
         },
         {
+          "id": "https://news.ycombinator.com/item?id=47309605",
+          "author": "marysminefnuf",
+          "description": "Article URL: https://aeb.win.tue.nl/at/algtop-5.html\nComments URL: https://news.ycombinator.com/item?id=47309605\nPoints: 54\n# Comments: 5",
+          "link": "https://aeb.win.tue.nl/at/algtop-5.html",
+          "publishedOn": "2026-03-09T14:28:43.000Z",
+          "wordCount": 1451,
+          "title": "Algebraic topology: knots links and braids",
+          "imageUrl": null
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=47308394",
           "author": "vermaden",
           "description": "Article URL: https://vivianvoss.net/blog/capsicum-vs-seccomp\nComments URL: https://news.ycombinator.com/item?id=47308394\nPoints: 54\n# Comments: 13",
@@ -184,6 +214,16 @@
           "wordCount": 2369,
           "title": "Reverse-engineering the UniFi inform protocol",
           "imageUrl": "https://tamarack.cloud/blog/reverse-engineering-unifi-inform-protocol/opengraph-image?e6b9cb467c38a6c9"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47308059",
+          "author": "speckx",
+          "description": "Article URL: https://lists.iana.org/hyperkitty/list/tz@iana.org/thread/P6D36VZSZBUSSTSMZKFXKF4T4IXWN23P/\nComments URL: https://news.ycombinator.com/item?id=47308059\nPoints: 53\n# Comments: 59",
+          "link": "https://lists.iana.org/hyperkitty/list/tz@iana.org/thread/P6D36VZSZBUSSTSMZKFXKF4T4IXWN23P/",
+          "publishedOn": "2026-03-09T12:15:07.000Z",
+          "wordCount": 403,
+          "title": "No leap second will be introduced at the end of June 2026",
+          "imageUrl": null
         },
         {
           "id": "https://news.ycombinator.com/item?id=47307169",
@@ -13774,26 +13814,6 @@
           "wordCount": 2185,
           "title": "Curating a Show on My Ineffable Mother, Ursula K. Le Guin",
           "imageUrl": "https://hyperallergic.com/content/images/2026/01/0315_ORE_70s_uklwtheo-1.JPG"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46932678",
-          "author": "pacod",
-          "description": "Article URL: https://github.com/joshuanwalker/Raiders2600\nComments URL: https://news.ycombinator.com/item?id=46932678\nPoints: 56\n# Comments: 1",
-          "link": "https://github.com/joshuanwalker/Raiders2600",
-          "publishedOn": "2026-02-08T09:10:18.000Z",
-          "wordCount": 12193,
-          "title": "Reverse Engineering Raiders of the Lost Ark for the Atari 2600",
-          "imageUrl": "https://opengraph.githubassets.com/60c714ca2573e421fe65003d4bf6f7d85b76fb4be8c9986e2ddfb81c8415c3a8/joshuanwalker/Raiders2600"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46932581",
-          "author": "todsacerdoti",
-          "description": "Article URL: https://fosdem.org/2026/schedule/event/CVGZAV-willow/\nComments URL: https://news.ycombinator.com/item?id=46932581\nPoints: 58\n# Comments: 5",
-          "link": "https://fosdem.org/2026/schedule/event/CVGZAV-willow/",
-          "publishedOn": "2026-02-08T08:52:50.000Z",
-          "wordCount": 314,
-          "title": "Willow – Protocols for an uncertain future [video]",
-          "imageUrl": "https://fosdem.org/2026/assets/style/logo-gear-7204a6874eb0128932db10ff4030910401ac06f4e907f8b4a40da24ba592b252.png"
         }
       ]
     }
