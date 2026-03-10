@@ -6,6 +6,26 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=47326101",
+          "author": "sanchitmonga22",
+          "description": "Hi HN, we're Sanchit and Shubham (YC W26). We built a fast inference engine for Apple Silicon. LLMs, speech-to-text, text-to-speech – MetalRT beats llama.cpp, Apple's MLX, Ollama, and sherpa-onnx on every modality we tested. Custom Metal shaders, no framework overhead.\nAlso, we've open-sourced RCLI, the fastest end-to-end voice AI pipeline on Apple Silicon. Mic to spoken response, entirely on-device. No cloud, no API keys.\nTo get started:\n  brew tap RunanywhereAI/rcli https://github.com/RunanywhereAI/RCLI.git\n  brew install rcli\n  rcli setup   # downloads ~1 GB of models\n  rcli         # interactive mode with push-to-talk\n\n  curl -fsSL https://raw.githubusercontent.com/RunanywhereAI/RCLI/main/install.sh | bash\n\nLLM decode – 1.67x faster than llama.cpp, 1.19x faster than Apple MLX (same mod…",
+          "link": "https://github.com/RunanywhereAI/rcli",
+          "publishedOn": "2026-03-10T17:14:52.000Z",
+          "wordCount": 4726,
+          "title": "Launch HN: RunAnywhere (YC W26) – Faster AI Inference on Apple Silicon",
+          "imageUrl": "https://opengraph.githubassets.com/0d01c8e513fdb383c6dd3aeb7c9c03f506a7aeb8f1ba24de5cb04abe64add262/RunanywhereAI/RCLI"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47325595",
+          "author": "GeneralMaximus",
+          "description": "Article URL: https://ankursethi.com/blog/programming-language-claude-code/\nComments URL: https://news.ycombinator.com/item?id=47325595\nPoints: 53\n# Comments: 63",
+          "link": "https://ankursethi.com/blog/programming-language-claude-code/",
+          "publishedOn": "2026-03-10T16:37:29.000Z",
+          "wordCount": 5006,
+          "title": "I built a programming language using Claude Code",
+          "imageUrl": null
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=47324211",
           "author": "lwhsiao",
           "description": "Article URL: https://twitter.com/lukolejnik/status/2031257644724342957\nComments URL: https://news.ycombinator.com/item?id=47324211\nPoints: 79\n# Comments: 29",
@@ -154,6 +174,16 @@
           "wordCount": 422,
           "title": "Redox OS has adopted a Certificate of Origin policy and a strict no-LLM policy",
           "imageUrl": "https://gitlab.redox-os.org/uploads/-/system/project/avatar/2/icon.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47320600",
+          "author": "helloplanets",
+          "description": "https://web.archive.org/web/20260310153721/https://www.wired...\nhttps://www.ft.com/content/e5245ec3-1a58-4eff-ab58-480b6259a... (https://archive.md/5eZWq)\nComments URL: https://news.ycombinator.com/item?id=47320600\nPoints: 69\n# Comments: 231",
+          "link": "https://www.wired.com/story/yann-lecun-raises-dollar1-billion-to-build-ai-that-understands-the-physical-world/",
+          "publishedOn": "2026-03-10T08:46:53.000Z",
+          "wordCount": 27886,
+          "title": "Yann LeCun raises $1B to build AI that understands the physical world",
+          "imageUrl": "https://media.wired.com/photos/69ab547169eb9242c51148d7/191:100/w_1280,c_limit/Yann-LeCun-QA-Business-2198379404.jpg"
         },
         {
           "id": "https://news.ycombinator.com/item?id=47319620",
