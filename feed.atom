@@ -2,10 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-03-11T02:34:39.042Z</updated>
+    <updated>2026-03-11T04:47:46.286Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Zig – Type Resolution Redesign and Language Changes]]></title>
+        <id>https://news.ycombinator.com/item?id=47330836</id>
+        <link href="https://ziglang.org/devlog/2026/#2026-03-10"/>
+        <updated>2026-03-11T01:24:47.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://ziglang.org/devlog/2026/#2026-03-10
+Comments URL: https://news.ycombinator.com/item?id=47330836
+Points: 71
+# Comments: 17]]></summary>
+        <author>
+            <name>Retro_Dev</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Universal vaccine against respiratory infections and allergens]]></title>
         <id>https://news.ycombinator.com/item?id=47329608</id>
@@ -98,6 +111,19 @@ Points: 89
 # Comments: 62]]></summary>
         <author>
             <name>aray07</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Mesh over Bluetooth LE, TCP, or Reticulum]]></title>
+        <id>https://news.ycombinator.com/item?id=47327473</id>
+        <link href="https://github.com/torlando-tech/columba"/>
+        <updated>2026-03-10T19:02:01.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://github.com/torlando-tech/columba
+Comments URL: https://news.ycombinator.com/item?id=47327473
+Points: 58
+# Comments: 6]]></summary>
+        <author>
+            <name>khimaros</name>
         </author>
     </entry>
     <entry>
@@ -18168,211 +18194,6 @@ Points: 55
 # Comments: 14]]></summary>
         <author>
             <name>cauliflower99</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: JavaScript-first, open-source WYSIWYG DOCX editor]]></title>
-        <id>https://news.ycombinator.com/item?id=46947229</id>
-        <link href="https://github.com/eigenpal/docx-js-editor"/>
-        <updated>2026-02-09T16:33:38.000Z</updated>
-        <summary type="html"><![CDATA[We needed a JS-first WYSIWYG DOCX editor and couldn't find a solid OSS option, most were either commercial or abandoned.
-As an experiment, we gave Claude Code the OOXML spec, a concrete editor architecture, and a Playwright-based test suite. The agent iterated in a (Ralph) loop over a few nights and produced a working editor from scratch.
-Core text editing works today. Tables and images are functional but still incomplete. MIT licensed.
-Comments URL: https://news.ycombinator.com/item?id=46947229
-Points: 62
-# Comments: 18]]></summary>
-        <author>
-            <name>thisisjedr</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Why is Singapore no longer "cool"?]]></title>
-        <id>https://news.ycombinator.com/item?id=46947210</id>
-        <link href="https://marginalrevolution.com/marginalrevolution/2026/02/why-is-singapore-no-longer-cool.html"/>
-        <updated>2026-02-09T16:32:37.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://marginalrevolution.com/marginalrevolution/2026/02/why-is-singapore-no-longer-cool.html
-Comments URL: https://news.ycombinator.com/item?id=46947210
-Points: 55
-# Comments: 93]]></summary>
-        <author>
-            <name>paulpauper</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Converting a $3.88 analog clock from Walmart into a ESP8266-based Wi-Fi clock]]></title>
-        <id>https://news.ycombinator.com/item?id=46947096</id>
-        <link href="https://github.com/jim11662418/ESP8266_WiFi_Analog_Clock"/>
-        <updated>2026-02-09T16:26:31.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://github.com/jim11662418/ESP8266_WiFi_Analog_Clock
-Comments URL: https://news.ycombinator.com/item?id=46947096
-Points: 124
-# Comments: 46]]></summary>
-        <author>
-            <name>tokyobreakfast</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GitHub Is Down]]></title>
-        <id>https://news.ycombinator.com/item?id=46946872</id>
-        <link href="https://github.com/"/>
-        <updated>2026-02-09T16:15:16.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://github.com/
-Comments URL: https://news.ycombinator.com/item?id=46946872
-Points: 248
-# Comments: 149]]></summary>
-        <author>
-            <name>albelfio</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[It's not you; GitHub is down again]]></title>
-        <id>https://news.ycombinator.com/item?id=46946827</id>
-        <link href="https://www.githubstatus.com/incidents/54hndjxft5bx"/>
-        <updated>2026-02-09T16:12:19.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.githubstatus.com/incidents/54hndjxft5bx
-Comments URL: https://news.ycombinator.com/item?id=46946827
-Points: 210
-# Comments: 124]]></summary>
-        <author>
-            <name>MattIPv4</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: AI agents play SimCity through a REST API]]></title>
-        <id>https://news.ycombinator.com/item?id=46946593</id>
-        <link href="https://hallucinatingsplines.com/"/>
-        <updated>2026-02-09T15:54:33.000Z</updated>
-        <summary type="html"><![CDATA[This is a weekend project that spiraled out of control. I was originally trying to get Claude to play a ROM of the SNES SimCity. I struggled with it and that led me to Micropolis (the open-sourced SimCity engine) and was able to get it to work by bolting on an API.
-The weekend hack turned into a headless city simulation platform where anyone can get an API key (no signup) and have their AI agent play mayor. The simulation runs the real Micropolis engine inside Cloudflare Durable Objects, one per city. Every city is public and browsable on the site.
-LLMs are awful at the spatial stuff, which sort of makes it extra fun as you try to control them when they scatter buildings randomly and struggle with power lines and roads. A little like dealing with a toddler.
-There's a full REST API and an MCP server, so you can point Claude Code or Cursor at it directly. You can usually get agents building in seconds.
-Website: https://hallucinatingsplines.com
-API docs: https://hallucinatingsplines.com/docs
-GitHub: https://github.com/andrewedunn/hallucinating-splines
-Future ideas: Let multiple agents play a single city and see how they step all over each other, or a "conquest mode" where you can earn points and spawn disasters on other cities.
-Comments URL: https://news.ycombinator.com/item?id=46946593
-Points: 95
-# Comments: 32]]></summary>
-        <author>
-            <name>aed</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Why Is the Sky Blue?]]></title>
-        <id>https://news.ycombinator.com/item?id=46946401</id>
-        <link href="https://explainers.blog/posts/why-is-the-sky-blue/"/>
-        <updated>2026-02-09T15:39:51.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://explainers.blog/posts/why-is-the-sky-blue/
-Comments URL: https://news.ycombinator.com/item?id=46946401
-Points: 93
-# Comments: 30]]></summary>
-        <author>
-            <name>udit99</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Sandboxels]]></title>
-        <id>https://news.ycombinator.com/item?id=46946308</id>
-        <link href="https://neal.fun/sandboxels/"/>
-        <updated>2026-02-09T15:31:09.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://neal.fun/sandboxels/
-Comments URL: https://news.ycombinator.com/item?id=46946308
-Points: 56
-# Comments: 12]]></summary>
-        <author>
-            <name>2sf5</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Sleeper Shells: Attackers Are Planting Dormant Backdoors in Ivanti EPMM]]></title>
-        <id>https://news.ycombinator.com/item?id=46946062</id>
-        <link href="https://defusedcyber.com/ivanti-epmm-sleeper-shells-403jsp"/>
-        <updated>2026-02-09T15:11:07.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://defusedcyber.com/ivanti-epmm-sleeper-shells-403jsp
-Comments URL: https://news.ycombinator.com/item?id=46946062
-Points: 81
-# Comments: 21]]></summary>
-        <author>
-            <name>waihtis</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[HeyWhatsThat]]></title>
-        <id>https://news.ycombinator.com/item?id=46945907</id>
-        <link href="https://www.heywhatsthat.com/faq.html"/>
-        <updated>2026-02-09T14:57:25.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.heywhatsthat.com/faq.html
-Comments URL: https://news.ycombinator.com/item?id=46945907
-Points: 59
-# Comments: 12]]></summary>
-        <author>
-            <name>1970-01-01</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AI Doesn't Reduce Work–It Intensifies It]]></title>
-        <id>https://news.ycombinator.com/item?id=46945755</id>
-        <link href="https://hbr.org/2026/02/ai-doesnt-reduce-work-it-intensifies-it"/>
-        <updated>2026-02-09T14:44:30.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://hbr.org/2026/02/ai-doesnt-reduce-work-it-intensifies-it
-Comments URL: https://news.ycombinator.com/item?id=46945755
-Points: 101
-# Comments: 47]]></summary>
-        <author>
-            <name>swolpers</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Do Metaprojects]]></title>
-        <id>https://news.ycombinator.com/item?id=46945696</id>
-        <link href="https://taylor.town/wealth-001"/>
-        <updated>2026-02-09T14:39:51.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://taylor.town/wealth-001
-Comments URL: https://news.ycombinator.com/item?id=46945696
-Points: 53
-# Comments: 29]]></summary>
-        <author>
-            <name>surprisetalk</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ruby Newbie Is Joining the Ruby Users Forum]]></title>
-        <id>https://news.ycombinator.com/item?id=46945693</id>
-        <link href="https://www.rubyforum.org/tag/getting-started"/>
-        <updated>2026-02-09T14:39:45.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.rubyforum.org/tag/getting-started
-Comments URL: https://news.ycombinator.com/item?id=46945693
-Points: 56
-# Comments: 12]]></summary>
-        <author>
-            <name>jvrc</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Discord will require a face scan or ID for full access next month]]></title>
-        <id>https://news.ycombinator.com/item?id=46945663</id>
-        <link href="https://www.theverge.com/tech/875309/discord-age-verification-global-roll-out"/>
-        <updated>2026-02-09T14:37:38.000Z</updated>
-        <summary type="html"><![CDATA[https://discord.com/press-releases/discord-launches-teen-by-...
-https://discord.com/safety/how-discord-is-building-safer-exp...
-Comments URL: https://news.ycombinator.com/item?id=46945663
-Points: 341
-# Comments: 328]]></summary>
-        <author>
-            <name>x01</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Long-Sought Proof Tames Some of Math's Unruliest Equations]]></title>
-        <id>https://news.ycombinator.com/item?id=46945641</id>
-        <link href="https://www.quantamagazine.org/long-sought-proof-tames-some-of-maths-unruliest-equations-20260206/"/>
-        <updated>2026-02-09T14:36:14.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.quantamagazine.org/long-sought-proof-tames-some-of-maths-unruliest-equations-20260206/
-Comments URL: https://news.ycombinator.com/item?id=46945641
-Points: 54
-# Comments: 11]]></summary>
-        <author>
-            <name>ibobev</name>
         </author>
     </entry>
 </feed>
