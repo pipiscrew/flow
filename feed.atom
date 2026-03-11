@@ -2,10 +2,36 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-03-11T17:00:37.947Z</updated>
+    <updated>2026-03-11T19:01:16.791Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Klaus – OpenClaw on a VM, batteries included]]></title>
+        <id>https://news.ycombinator.com/item?id=47337249</id>
+        <link href="https://klausai.com/"/>
+        <updated>2026-03-11T15:54:23.000Z</updated>
+        <summary type="html"><![CDATA[We are Bailey and Robbie and we are working on Klaus (https://klausai.com/): hosted OpenClaw that is secure and powerful out of the box.
+Running OpenClaw requires setting up a cloud VM or local container (a pain) or giving OpenClaw root access to your machine (insecure). Many basic integrations (eg Slack, Google Workspace) require you to create your own OAuth app.
+We make running OpenClaw simple by giving each user their own EC2 instance, preconfigured with keys for OpenRouter, AgentMail, and Orthogonal. And we have OAuth apps to make it easy to integrate with Slack and Google Workspace.
+We are both HN readers (Bailey has been on here for ~10 years) and we know OpenClaw has serious security concerns. We do a lot to make our users’ instances more secure: we run on a private subnet, automati…]]></summary>
+        <author>
+            <name>robthompson2018</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Where Some See Strings, She Sees a Space-Time Made of Fractals]]></title>
+        <id>https://news.ycombinator.com/item?id=47337177</id>
+        <link href="https://www.quantamagazine.org/where-some-see-strings-she-sees-a-space-time-made-of-fractals-20260311/"/>
+        <updated>2026-03-11T15:48:29.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.quantamagazine.org/where-some-see-strings-she-sees-a-space-time-made-of-fractals-20260311/
+Comments URL: https://news.ycombinator.com/item?id=47337177
+Points: 66
+# Comments: 8]]></summary>
+        <author>
+            <name>tzury</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Temporal: A nine-year journey to fix time in JavaScript]]></title>
         <id>https://news.ycombinator.com/item?id=47336989</id>
@@ -20,6 +46,19 @@ Points: 107
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Why the global elite gave up on spelling and grammar]]></title>
+        <id>https://news.ycombinator.com/item?id=47336806</id>
+        <link href="https://www.wsj.com/lifestyle/jeffrey-epstein-files-bad-grammar-spelling-trump-ellison-dorsey-gates-thiel-cbfe9fb1"/>
+        <updated>2026-03-11T15:22:10.000Z</updated>
+        <summary type="html"><![CDATA[https://archive.ph/wlwcA
+Comments URL: https://news.ycombinator.com/item?id=47336806
+Points: 56
+# Comments: 133]]></summary>
+        <author>
+            <name>matthieu_bl</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Wiz joins Google]]></title>
         <id>https://news.ycombinator.com/item?id=47336476</id>
         <link href="https://www.wiz.io/blog/google-closes-deal-to-acquire-wiz"/>
@@ -30,6 +69,30 @@ Points: 62
 # Comments: 30]]></summary>
         <author>
             <name>aldarisbm</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Open-source browser for AI agents]]></title>
+        <id>https://news.ycombinator.com/item?id=47336171</id>
+        <link href="https://github.com/theredsix/agent-browser-protocol"/>
+        <updated>2026-03-11T14:39:30.000Z</updated>
+        <summary type="html"><![CDATA[Hi HN, I forked chromium and built agent-browser-protocol (ABP) after noticing that most browser-agent failures aren’t really about the model misunderstanding the page. Instead, the problem is that the model is reasoning from a stale state.
+ABP is designed to keep the acting agent synchronized with the browser at every step. After each action (click, type, etc), it freezes JavaScript execution and rendering, then captures the resulting state. It also compiles the notable events that occurred during that action loop, such as navigation, file pickers, permission prompts, alerts, and downloads, and sends that along with a screenshot of the frozen page state back to the agent.
+The result is that browser interaction starts to feel more like a multimodal chat loop. The agent takes an action, gets back a fresh visual state and a structured summary of what happened, then decides what to do next from there. That fits much better with how LLMs already work.
+A few common browser-use failures ABP helps eliminate:
+* A modal appears after the last Playwright screenshot and blocks the input the agent was about to use
+* Dynamic filters cause the page to reflow between steps
+* An autocomplete dropdown opens and covers the element the agent intended to click
+* alert() / confirm() interrupts the flow
+* Downloads are triggered, but the agent has no reliable way to know when they’ve completed
+As proof, ABP with opus 4.6 as the driver scores 90.5% on the Online Mind2Web benchmark. I think modern LLMs already understand websites, they just need a better tool to interact with them. Happy to answer questions about the architecture, forking chrome or anything else in the comments below.
+Try it out: `claude mcp add browser -- npx -y agent-browser-protocol --mcp` (Codex/OpenCode instructions in the docs)
+Demo video: https://www.loom.com/share/387f6349196f417d8b4b16a5452c3369
+Comments URL: https://news.ycombinator.com/item?id=47336171
+Points: 50
+# Comments: 17]]></summary>
+        <author>
+            <name>theredsix</name>
         </author>
     </entry>
     <entry>
@@ -85,6 +148,19 @@ Points: 88
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Swiss e-voting pilot can't count 2,048 ballots after decryption failure]]></title>
+        <id>https://news.ycombinator.com/item?id=47334982</id>
+        <link href="https://www.theregister.com/2026/03/11/swiss_evote_usb_snafu/"/>
+        <updated>2026-03-11T12:57:41.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.theregister.com/2026/03/11/swiss_evote_usb_snafu/
+Comments URL: https://news.ycombinator.com/item?id=47334982
+Points: 59
+# Comments: 123]]></summary>
+        <author>
+            <name>jjgreen</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Microsoft BitNet: 100B Param 1-Bit model for local CPUs]]></title>
         <id>https://news.ycombinator.com/item?id=47334694</id>
         <link href="https://github.com/microsoft/BitNet"/>
@@ -95,6 +171,19 @@ Points: 116
 # Comments: 68]]></summary>
         <author>
             <name>redm</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The MacBook Neo]]></title>
+        <id>https://news.ycombinator.com/item?id=47334293</id>
+        <link href="https://daringfireball.net/2026/03/the_macbook_neo"/>
+        <updated>2026-03-11T11:37:24.000Z</updated>
+        <summary type="html"><![CDATA[https://www.pcmag.com/news/asus-co-ceo-macbook-neo-is-a-shoc...
+Comments URL: https://news.ycombinator.com/item?id=47334293
+Points: 102
+# Comments: 233]]></summary>
+        <author>
+            <name>etothet</name>
         </author>
     </entry>
     <entry>
@@ -18024,45 +18113,6 @@ Points: 59
 # Comments: 28]]></summary>
         <author>
             <name>meetpateltech</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A shortage of tenors]]></title>
-        <id>https://news.ycombinator.com/item?id=46956016</id>
-        <link href="https://www.economist.com/culture/2026/02/09/the-world-is-suffering-from-a-shortage-of-tenors"/>
-        <updated>2026-02-10T06:18:30.000Z</updated>
-        <summary type="html"><![CDATA[https://archive.ph/VwVpU
-Comments URL: https://news.ycombinator.com/item?id=46956016
-Points: 63
-# Comments: 63]]></summary>
-        <author>
-            <name>petethomas</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: I built a macOS tool for network engineers – it's called NetViews]]></title>
-        <id>https://news.ycombinator.com/item?id=46955712</id>
-        <link href="https://www.netviews.app/"/>
-        <updated>2026-02-10T05:20:32.000Z</updated>
-        <summary type="html"><![CDATA[Hi HN — I’m the developer of NetViews, a macOS utility I built because I wanted better visibility into what was actually happening on my wired and wireless networks.
-I live in the CLI, but for discovery and ongoing monitoring, I kept bouncing between tools, terminals, and mental context switches. I wanted something faster and more visual, without losing technical depth — so I built a GUI that brings my favorite diagnostics together in one place.
-About three months ago, I shared an early version here and got a ton of great feedback. I listened: a new name (it was PingStalker), a longer trial, and a lot of new features. Today I’m excited to share NetViews 2.3.
-NetViews started because I wanted to know if something on the network was scanning my machine. Once I had that, I wanted quick access…]]></summary>
-        <author>
-            <name>n1sni</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AI doesn’t reduce work, it intensifies it]]></title>
-        <id>https://news.ycombinator.com/item?id=46955703</id>
-        <link href="https://simonwillison.net/2026/Feb/9/ai-intensifies-work/"/>
-        <updated>2026-02-10T05:19:00.000Z</updated>
-        <summary type="html"><![CDATA[Original article: https://hbr.org/2026/02/ai-doesnt-reduce-work-it-intensifies...
-Comments URL: https://news.ycombinator.com/item?id=46955703
-Points: 51
-# Comments: 14]]></summary>
-        <author>
-            <name>walterbell</name>
         </author>
     </entry>
 </feed>

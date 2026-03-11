@@ -6,6 +6,26 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=47337249",
+          "author": "robthompson2018",
+          "description": "We are Bailey and Robbie and we are working on Klaus (https://klausai.com/): hosted OpenClaw that is secure and powerful out of the box.\nRunning OpenClaw requires setting up a cloud VM or local container (a pain) or giving OpenClaw root access to your machine (insecure). Many basic integrations (eg Slack, Google Workspace) require you to create your own OAuth app.\nWe make running OpenClaw simple by giving each user their own EC2 instance, preconfigured with keys for OpenRouter, AgentMail, and Orthogonal. And we have OAuth apps to make it easy to integrate with Slack and Google Workspace.\nWe are both HN readers (Bailey has been on here for ~10 years) and we know OpenClaw has serious security concerns. We do a lot to make our users’ instances more secure: we run on a private subnet, automati…",
+          "link": "https://klausai.com/",
+          "publishedOn": "2026-03-11T15:54:23.000Z",
+          "wordCount": 20,
+          "title": "Show HN: Klaus – OpenClaw on a VM, batteries included",
+          "imageUrl": "https://klausai.com/og-klaus.png?v=2"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47337177",
+          "author": "tzury",
+          "description": "Article URL: https://www.quantamagazine.org/where-some-see-strings-she-sees-a-space-time-made-of-fractals-20260311/\nComments URL: https://news.ycombinator.com/item?id=47337177\nPoints: 66\n# Comments: 8",
+          "link": "https://www.quantamagazine.org/where-some-see-strings-she-sees-a-space-time-made-of-fractals-20260311/",
+          "publishedOn": "2026-03-11T15:48:29.000Z",
+          "wordCount": 3977,
+          "title": "Where Some See Strings, She Sees a Space-Time Made of Fractals",
+          "imageUrl": "https://www.quantamagazine.org/wp-content/uploads/2026/03/Astrid-Eichhorn-cr-Konrad-Gos-Social.jpg"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=47336989",
           "author": "robpalmer",
           "description": "Article URL: https://bloomberg.github.io/js-blog/post/temporal/\nComments URL: https://news.ycombinator.com/item?id=47336989\nPoints: 107\n# Comments: 35",
@@ -16,6 +36,16 @@
           "imageUrl": "https://bloomberg.github.io/js-blog/images/javascript-logo.webp"
         },
         {
+          "id": "https://news.ycombinator.com/item?id=47336806",
+          "author": "matthieu_bl",
+          "description": "https://archive.ph/wlwcA\nComments URL: https://news.ycombinator.com/item?id=47336806\nPoints: 56\n# Comments: 133",
+          "link": "https://www.wsj.com/lifestyle/jeffrey-epstein-files-bad-grammar-spelling-trump-ellison-dorsey-gates-thiel-cbfe9fb1",
+          "publishedOn": "2026-03-11T15:22:10.000Z",
+          "wordCount": null,
+          "title": "Why the global elite gave up on spelling and grammar",
+          "imageUrl": null
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=47336476",
           "author": "aldarisbm",
           "description": "Article URL: https://www.wiz.io/blog/google-closes-deal-to-acquire-wiz\nComments URL: https://news.ycombinator.com/item?id=47336476\nPoints: 62\n# Comments: 30",
@@ -24,6 +54,16 @@
           "wordCount": 16143,
           "title": "Wiz joins Google",
           "imageUrl": "https://www.datocms-assets.com/75231/1772759788-this-one-3.png?fm=webp"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47336171",
+          "author": "theredsix",
+          "description": "Hi HN, I forked chromium and built agent-browser-protocol (ABP) after noticing that most browser-agent failures aren’t really about the model misunderstanding the page. Instead, the problem is that the model is reasoning from a stale state.\nABP is designed to keep the acting agent synchronized with the browser at every step. After each action (click, type, etc), it freezes JavaScript execution and rendering, then captures the resulting state. It also compiles the notable events that occurred during that action loop, such as navigation, file pickers, permission prompts, alerts, and downloads, and sends that along with a screenshot of the frozen page state back to the agent.\nThe result is that browser interaction starts to feel more like a multimodal chat loop. The agent takes an action, gets back a fresh visual state and a structured summary of what happened, then decides what to do next from there. That fits much better with how LLMs already work.\nA few common browser-use failures ABP helps eliminate:\n* A modal appears after the last Playwright screenshot and blocks the input the agent was about to use\n* Dynamic filters cause the page to reflow between steps\n* An autocomplete dropdown opens and covers the element the agent intended to click\n* alert() / confirm() interrupts the flow\n* Downloads are triggered, but the agent has no reliable way to know when they’ve completed\nAs proof, ABP with opus 4.6 as the driver scores 90.5% on the Online Mind2Web benchmark. I think modern LLMs already understand websites, they just need a better tool to interact with them. Happy to answer questions about the architecture, forking chrome or anything else in the comments below.\nTry it out: `claude mcp add browser -- npx -y agent-browser-protocol --mcp` (Codex/OpenCode instructions in the docs)\nDemo video: https://www.loom.com/share/387f6349196f417d8b4b16a5452c3369\nComments URL: https://news.ycombinator.com/item?id=47336171\nPoints: 50\n# Comments: 17",
+          "link": "https://github.com/theredsix/agent-browser-protocol",
+          "publishedOn": "2026-03-11T14:39:30.000Z",
+          "wordCount": 8693,
+          "title": "Show HN: Open-source browser for AI agents",
+          "imageUrl": "https://repository-images.githubusercontent.com/1134729836/65278d3a-4910-49d4-841a-34e292a319bf"
         },
         {
           "id": "https://news.ycombinator.com/item?id=47336111",
@@ -66,6 +106,16 @@
           "imageUrl": null
         },
         {
+          "id": "https://news.ycombinator.com/item?id=47334982",
+          "author": "jjgreen",
+          "description": "Article URL: https://www.theregister.com/2026/03/11/swiss_evote_usb_snafu/\nComments URL: https://news.ycombinator.com/item?id=47334982\nPoints: 59\n# Comments: 123",
+          "link": "https://www.theregister.com/2026/03/11/swiss_evote_usb_snafu/",
+          "publishedOn": "2026-03-11T12:57:41.000Z",
+          "wordCount": 1190,
+          "title": "Swiss e-voting pilot can't count 2,048 ballots after decryption failure",
+          "imageUrl": "https://regmedia.co.uk/2020/02/12/swiss_shutterstock.jpg"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=47334694",
           "author": "redm",
           "description": "Article URL: https://github.com/microsoft/BitNet\nComments URL: https://news.ycombinator.com/item?id=47334694\nPoints: 116\n# Comments: 68",
@@ -74,6 +124,16 @@
           "wordCount": 5681,
           "title": "Microsoft BitNet: 100B Param 1-Bit model for local CPUs",
           "imageUrl": "https://opengraph.githubassets.com/6a73c3f9ef80c504c3870ef66f43f0d1884eee2665f5b7516689db4136d65c61/microsoft/BitNet"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47334293",
+          "author": "etothet",
+          "description": "https://www.pcmag.com/news/asus-co-ceo-macbook-neo-is-a-shoc...\nComments URL: https://news.ycombinator.com/item?id=47334293\nPoints: 102\n# Comments: 233",
+          "link": "https://daringfireball.net/2026/03/the_macbook_neo",
+          "publishedOn": "2026-03-11T11:37:24.000Z",
+          "wordCount": 3448,
+          "title": "The MacBook Neo",
+          "imageUrl": "https://daringfireball.net/graphics/df-wide-card.png"
         },
         {
           "id": "https://news.ycombinator.com/item?id=47333627",
@@ -13503,36 +13563,6 @@
           "publishedOn": "2026-02-10T09:19:00.000Z",
           "wordCount": 180,
           "title": "Qwen-Image-2.0: Professional infographics, exquisite photorealism",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46956016",
-          "author": "petethomas",
-          "description": "https://archive.ph/VwVpU\nComments URL: https://news.ycombinator.com/item?id=46956016\nPoints: 63\n# Comments: 63",
-          "link": "https://www.economist.com/culture/2026/02/09/the-world-is-suffering-from-a-shortage-of-tenors",
-          "publishedOn": "2026-02-10T06:18:30.000Z",
-          "wordCount": null,
-          "title": "A shortage of tenors",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46955712",
-          "author": "n1sni",
-          "description": "Hi HN — I’m the developer of NetViews, a macOS utility I built because I wanted better visibility into what was actually happening on my wired and wireless networks.\nI live in the CLI, but for discovery and ongoing monitoring, I kept bouncing between tools, terminals, and mental context switches. I wanted something faster and more visual, without losing technical depth — so I built a GUI that brings my favorite diagnostics together in one place.\nAbout three months ago, I shared an early version here and got a ton of great feedback. I listened: a new name (it was PingStalker), a longer trial, and a lot of new features. Today I’m excited to share NetViews 2.3.\nNetViews started because I wanted to know if something on the network was scanning my machine. Once I had that, I wanted quick access…",
-          "link": "https://www.netviews.app/",
-          "publishedOn": "2026-02-10T05:20:32.000Z",
-          "wordCount": 386,
-          "title": "Show HN: I built a macOS tool for network engineers – it's called NetViews",
-          "imageUrl": "/og-image.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46955703",
-          "author": "walterbell",
-          "description": "Original article: https://hbr.org/2026/02/ai-doesnt-reduce-work-it-intensifies...\nComments URL: https://news.ycombinator.com/item?id=46955703\nPoints: 51\n# Comments: 14",
-          "link": "https://simonwillison.net/2026/Feb/9/ai-intensifies-work/",
-          "publishedOn": "2026-02-10T05:19:00.000Z",
-          "wordCount": 972,
-          "title": "AI doesn’t reduce work, it intensifies it",
           "imageUrl": null
         }
       ]
