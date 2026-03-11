@@ -2,10 +2,77 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-03-11T19:01:16.791Z</updated>
+    <updated>2026-03-11T20:40:07.545Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Don't post generated/AI-edited comments. HN is for conversation between humans.]]></title>
+        <id>https://news.ycombinator.com/item?id=47340079</id>
+        <link href="https://news.ycombinator.com/newsguidelines.html#generated"/>
+        <updated>2026-03-11T19:29:29.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://news.ycombinator.com/newsguidelines.html#generated
+Comments URL: https://news.ycombinator.com/item?id=47340079
+Points: 644
+# Comments: 281]]></summary>
+        <author>
+            <name>usefulposter</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Hisense TVs force owners to watch intrusive ads]]></title>
+        <id>https://news.ycombinator.com/item?id=47339888</id>
+        <link href="https://www.tomshardware.com/tech-industry/big-tech/hisense-tvs-force-owners-to-watch-intrusive-ads-when-switching-inputs-visiting-the-home-screen-or-even-changing-channels-practice-infuriates-consumers-brand-denies-wrongdoing"/>
+        <updated>2026-03-11T19:13:35.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.tomshardware.com/tech-industry/big-tech/hisense-tvs-force-owners-to-watch-intrusive-ads-when-switching-inputs-visiting-the-home-screen-or-even-changing-channels-practice-infuriates-consumers-brand-denies-wrongdoing
+Comments URL: https://news.ycombinator.com/item?id=47339888
+Points: 70
+# Comments: 31]]></summary>
+        <author>
+            <name>CharlesW</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Vanilla JavaScript refinery simulator built to explain job to my kids]]></title>
+        <id>https://news.ycombinator.com/item?id=47338091</id>
+        <link href="https://fuelingcuriosity.com/game.html"/>
+        <updated>2026-03-11T16:56:51.000Z</updated>
+        <summary type="html"><![CDATA[Hi HN,
+I’m a chemical engineer and I manage logistics at a refinery down in Texas. Whenever I try to explain downstream operations to people outside the industry (including my kids), I usually get blank stares. I wanted to build something that visualizes the concepts and chemistry of a plant without completely dumbing down the science, so I put together this 5-minute browser game.
+Here's a simple runthrough: https://www.youtube.com/watch?v=is-moBz6upU. I pushed to get through a full product pathway to show the V-804 replay.
+I am not a software developer by trade, so I relied heavily on LLMs (Claude, Copilot, Gemini) to help write the code. What started as a simple concept turned into a 9,000-line single-page app built with vanilla HTML, CSS, and JavaScript. I used Matter.js for the 2D phys…]]></summary>
+        <author>
+            <name>fuelingcurious</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: I built a tool that watches webpages and exposes changes as RSS]]></title>
+        <id>https://news.ycombinator.com/item?id=47337607</id>
+        <link href="https://sitespy.app/"/>
+        <updated>2026-03-11T16:21:06.000Z</updated>
+        <summary type="html"><![CDATA[I built Site Spy after missing a visa appointment slot because a government page changed and I didn’t notice for two weeks.
+It watches webpages for changes and shows the result like a diff. The part I think HN might find interesting is that it can monitor a specific element on a page, not just the whole page, and it can expose changes as RSS feeds.
+So instead of tracking an entire noisy page, you can watch just a price, a stock status, a headline, or a specific content block. When it changes, you can inspect the diff, browse the snapshot history, or follow the updates in an RSS reader.
+It’s a Chrome/Firefox extension plus a web dashboard.
+Main features:
+- Element picker for tracking a specific part of a page
+- Diff view plus full snapshot timeline
+- RSS feeds per watch, per tag, or across all watches
+- MCP server for Claude, Cursor, and other AI agents
+- Browser push, Email, and Telegram notifications
+Chrome: https://chromewebstore.google.com/detail/site-spy/jeapcpanag...
+Firefox: https://addons.mozilla.org/en-GB/firefox/addon/site-spy/
+Docs: https://docs.sitespy.app
+I’d especially love feedback on two things:
+- Is RSS actually a useful interface for this, or do most people just want direct alerts?
+- Does element-level tracking feel meaningfully better than full-page monitoring?
+Comments URL: https://news.ycombinator.com/item?id=47337607
+Points: 68
+# Comments: 22]]></summary>
+        <author>
+            <name>vkuprin</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Show HN: Klaus – OpenClaw on a VM, batteries included]]></title>
         <id>https://news.ycombinator.com/item?id=47337249</id>
@@ -729,6 +796,19 @@ Points: 57
 # Comments: 19]]></summary>
         <author>
             <name>helloplanets</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[5,200 holes carved into a Peruvian mountain left by an ancient economy]]></title>
+        <id>https://news.ycombinator.com/item?id=47319520</id>
+        <link href="https://newatlas.com/environment/5-200-holes-peruvian-mountain/"/>
+        <updated>2026-03-10T05:58:56.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://newatlas.com/environment/5-200-holes-peruvian-mountain/
+Comments URL: https://news.ycombinator.com/item?id=47319520
+Points: 50
+# Comments: 26]]></summary>
+        <author>
+            <name>defrost</name>
         </author>
     </entry>
     <entry>

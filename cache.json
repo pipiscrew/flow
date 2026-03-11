@@ -6,6 +6,46 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=47340079",
+          "author": "usefulposter",
+          "description": "Article URL: https://news.ycombinator.com/newsguidelines.html#generated\nComments URL: https://news.ycombinator.com/item?id=47340079\nPoints: 644\n# Comments: 281",
+          "link": "https://news.ycombinator.com/newsguidelines.html#generated",
+          "publishedOn": "2026-03-11T19:29:29.000Z",
+          "wordCount": 662,
+          "title": "Don't post generated/AI-edited comments. HN is for conversation between humans.",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47339888",
+          "author": "CharlesW",
+          "description": "Article URL: https://www.tomshardware.com/tech-industry/big-tech/hisense-tvs-force-owners-to-watch-intrusive-ads-when-switching-inputs-visiting-the-home-screen-or-even-changing-channels-practice-infuriates-consumers-brand-denies-wrongdoing\nComments URL: https://news.ycombinator.com/item?id=47339888\nPoints: 70\n# Comments: 31",
+          "link": "https://www.tomshardware.com/tech-industry/big-tech/hisense-tvs-force-owners-to-watch-intrusive-ads-when-switching-inputs-visiting-the-home-screen-or-even-changing-channels-practice-infuriates-consumers-brand-denies-wrongdoing",
+          "publishedOn": "2026-03-11T19:13:35.000Z",
+          "wordCount": null,
+          "title": "Hisense TVs force owners to watch intrusive ads",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47338091",
+          "author": "fuelingcurious",
+          "description": "Hi HN,\nI’m a chemical engineer and I manage logistics at a refinery down in Texas. Whenever I try to explain downstream operations to people outside the industry (including my kids), I usually get blank stares. I wanted to build something that visualizes the concepts and chemistry of a plant without completely dumbing down the science, so I put together this 5-minute browser game.\nHere's a simple runthrough: https://www.youtube.com/watch?v=is-moBz6upU. I pushed to get through a full product pathway to show the V-804 replay.\nI am not a software developer by trade, so I relied heavily on LLMs (Claude, Copilot, Gemini) to help write the code. What started as a simple concept turned into a 9,000-line single-page app built with vanilla HTML, CSS, and JavaScript. I used Matter.js for the 2D phys…",
+          "link": "https://fuelingcuriosity.com/game.html",
+          "publishedOn": "2026-03-11T16:56:51.000Z",
+          "wordCount": null,
+          "title": "Show HN: Vanilla JavaScript refinery simulator built to explain job to my kids",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47337607",
+          "author": "vkuprin",
+          "description": "I built Site Spy after missing a visa appointment slot because a government page changed and I didn’t notice for two weeks.\nIt watches webpages for changes and shows the result like a diff. The part I think HN might find interesting is that it can monitor a specific element on a page, not just the whole page, and it can expose changes as RSS feeds.\nSo instead of tracking an entire noisy page, you can watch just a price, a stock status, a headline, or a specific content block. When it changes, you can inspect the diff, browse the snapshot history, or follow the updates in an RSS reader.\nIt’s a Chrome/Firefox extension plus a web dashboard.\nMain features:\n- Element picker for tracking a specific part of a page\n- Diff view plus full snapshot timeline\n- RSS feeds per watch, per tag, or across all watches\n- MCP server for Claude, Cursor, and other AI agents\n- Browser push, Email, and Telegram notifications\nChrome: https://chromewebstore.google.com/detail/site-spy/jeapcpanag...\nFirefox: https://addons.mozilla.org/en-GB/firefox/addon/site-spy/\nDocs: https://docs.sitespy.app\nI’d especially love feedback on two things:\n- Is RSS actually a useful interface for this, or do most people just want direct alerts?\n- Does element-level tracking feel meaningfully better than full-page monitoring?\nComments URL: https://news.ycombinator.com/item?id=47337607\nPoints: 68\n# Comments: 22",
+          "link": "https://sitespy.app/",
+          "publishedOn": "2026-03-11T16:21:06.000Z",
+          "wordCount": 2655,
+          "title": "Show HN: I built a tool that watches webpages and exposes changes as RSS",
+          "imageUrl": "https://sitespy.app/screenshots/marquee-promo.png?v=2"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=47337249",
           "author": "robthompson2018",
           "description": "We are Bailey and Robbie and we are working on Klaus (https://klausai.com/): hosted OpenClaw that is secure and powerful out of the box.\nRunning OpenClaw requires setting up a cloud VM or local container (a pain) or giving OpenClaw root access to your machine (insecure). Many basic integrations (eg Slack, Google Workspace) require you to create your own OAuth app.\nWe make running OpenClaw simple by giving each user their own EC2 instance, preconfigured with keys for OpenRouter, AgentMail, and Orthogonal. And we have OAuth apps to make it easy to integrate with Slack and Google Workspace.\nWe are both HN readers (Bailey has been on here for ~10 years) and we know OpenClaw has serious security concerns. We do a lot to make our users’ instances more secure: we run on a private subnet, automati…",
@@ -544,6 +584,16 @@
           "wordCount": 1366,
           "title": "LoGeR – 3D reconstruction from extremely long videos (DeepMind, UC Berkeley)",
           "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47319520",
+          "author": "defrost",
+          "description": "Article URL: https://newatlas.com/environment/5-200-holes-peruvian-mountain/\nComments URL: https://news.ycombinator.com/item?id=47319520\nPoints: 50\n# Comments: 26",
+          "link": "https://newatlas.com/environment/5-200-holes-peruvian-mountain/",
+          "publishedOn": "2026-03-10T05:58:56.000Z",
+          "wordCount": 7333,
+          "title": "5,200 holes carved into a Peruvian mountain left by an ancient economy",
+          "imageUrl": "https://assets.newatlas.com/dims4/default/99fb56b/2147483647/strip/true/crop/1024x538+0+36/resize/1200x630!/quality/90/?url=https%3A%2F%2Fnewatlas-brightspot.s3.amazonaws.com%2Ff5%2F37%2Ffacdf5694b49bdbaec47d6bb9f29%2Fscreenshot-2025-12-16-at-2-17-29-pm.png&na.image_optimisation=0"
         },
         {
           "id": "https://news.ycombinator.com/item?id=47318830",
