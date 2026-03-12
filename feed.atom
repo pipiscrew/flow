@@ -2,10 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-03-12T04:52:30.370Z</updated>
+    <updated>2026-03-12T05:56:17.389Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Iran-backed hackers claim wiper attack on medtech firm Stryker]]></title>
+        <id>https://news.ycombinator.com/item?id=47346091</id>
+        <link href="https://krebsonsecurity.com/2026/03/iran-backed-hackers-claim-wiper-attack-on-medtech-firm-stryker/"/>
+        <updated>2026-03-12T03:29:28.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://krebsonsecurity.com/2026/03/iran-backed-hackers-claim-wiper-attack-on-medtech-firm-stryker/
+Comments URL: https://news.ycombinator.com/item?id=47346091
+Points: 81
+# Comments: 18]]></summary>
+        <author>
+            <name>2bluesc</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[DHS Contracts Explorer – Hacked data from the Office of Industry Partnership]]></title>
         <id>https://news.ycombinator.com/item?id=47345393</id>
@@ -17,6 +30,19 @@ Points: 199
 # Comments: 38]]></summary>
         <author>
             <name>peq42</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Urea prices]]></title>
+        <id>https://news.ycombinator.com/item?id=47345364</id>
+        <link href="https://tradingeconomics.com/commodity/urea"/>
+        <updated>2026-03-12T01:59:47.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://tradingeconomics.com/commodity/urea
+Comments URL: https://news.ycombinator.com/item?id=47345364
+Points: 70
+# Comments: 52]]></summary>
+        <author>
+            <name>burnt-resistor</name>
         </author>
     </entry>
     <entry>
@@ -18090,84 +18116,6 @@ Points: 73
 # Comments: 31]]></summary>
         <author>
             <name>kingcrimson1000</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: Showboat and Rodney, so agents can demo what they've built]]></title>
-        <id>https://news.ycombinator.com/item?id=46963887</id>
-        <link href="https://simonwillison.net/2026/Feb/10/showboat-and-rodney/"/>
-        <updated>2026-02-10T17:52:46.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://simonwillison.net/2026/Feb/10/showboat-and-rodney/
-Comments URL: https://news.ycombinator.com/item?id=46963887
-Points: 68
-# Comments: 34]]></summary>
-        <author>
-            <name>simonw</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Markdown CLI viewer with VI keybindings]]></title>
-        <id>https://news.ycombinator.com/item?id=46963865</id>
-        <link href="https://github.com/taf2/mdvi"/>
-        <updated>2026-02-10T17:51:10.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://github.com/taf2/mdvi
-Comments URL: https://news.ycombinator.com/item?id=46963865
-Points: 51
-# Comments: 18]]></summary>
-        <author>
-            <name>taf2</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Google Handed ICE Student Journalist's Bank and Credit Card Numbers]]></title>
-        <id>https://news.ycombinator.com/item?id=46963804</id>
-        <link href="https://theintercept.com/2026/02/10/google-ice-subpoena-student-journalist/"/>
-        <updated>2026-02-10T17:48:05.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://theintercept.com/2026/02/10/google-ice-subpoena-student-journalist/
-Comments URL: https://news.ycombinator.com/item?id=46963804
-Points: 206
-# Comments: 71]]></summary>
-        <author>
-            <name>lehi</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: Stripe-no-webhooks – Sync your Stripe data to your Postgres DB]]></title>
-        <id>https://news.ycombinator.com/item?id=46963177</id>
-        <link href="https://github.com/pretzelai/stripe-no-webhooks"/>
-        <updated>2026-02-10T17:14:48.000Z</updated>
-        <summary type="html"><![CDATA[Hey HN, stripe-no-webhooks is an open-source library that syncs your Stripe payments data to your own Postgres database:
-https://github.com/pretzelai/stripe-no-webhooks.
-Here's a demo video: https://youtu.be/cyEgW7wElcs
-Why is this useful? (1) You don't have to figure out which webhooks you need or write listeners for each one. The library handles all of that. This follows the approach of libraries like dj-stripe in the Django world (https://dj-stripe.dev/). (2) Stripe's API has a 100 rpm rate limit. If you're checking subscription status frequently or building internal tools, you'll hit it. Querying your own Postgres doesn't have this problem. (3) You can give an AI agent read access to the stripe.* schema to debug payment issues—failed charges, refunds, whatever—without handing over Stri…]]></summary>
-        <author>
-            <name>prasoonds</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Singularity will occur on a Tuesday]]></title>
-        <id>https://news.ycombinator.com/item?id=46962996</id>
-        <link href="https://campedersen.com/singularity"/>
-        <updated>2026-02-10T17:04:31.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://campedersen.com/singularity
-Comments URL: https://news.ycombinator.com/item?id=46962996
-Points: 185
-# Comments: 108]]></summary>
-        <author>
-            <name>ecto</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Semaglutide improves knee osteoarthritis independant of weight loss]]></title>
-        <id>https://news.ycombinator.com/item?id=46962801</id>
-        <link href="https://www.cell.com/cell-metabolism/abstract/S1550-4131(26)00008-2"/>
-        <updated>2026-02-10T16:55:03.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.cell.com/cell-metabolism/abstract/S1550-4131(26)00008-2
-Comments URL: https://news.ycombinator.com/item?id=46962801
-Points: 78
-# Comments: 31]]></summary>
-        <author>
-            <name>randycupertino</name>
         </author>
     </entry>
 </feed>

@@ -6,6 +6,16 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=47346091",
+          "author": "2bluesc",
+          "description": "Article URL: https://krebsonsecurity.com/2026/03/iran-backed-hackers-claim-wiper-attack-on-medtech-firm-stryker/\nComments URL: https://news.ycombinator.com/item?id=47346091\nPoints: 81\n# Comments: 18",
+          "link": "https://krebsonsecurity.com/2026/03/iran-backed-hackers-claim-wiper-attack-on-medtech-firm-stryker/",
+          "publishedOn": "2026-03-12T03:29:28.000Z",
+          "wordCount": 2108,
+          "title": "Iran-backed hackers claim wiper attack on medtech firm Stryker",
+          "imageUrl": null
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=47345393",
           "author": "peq42",
           "description": "Article URL: https://micahflee.github.io/ice-contracts/\nComments URL: https://news.ycombinator.com/item?id=47345393\nPoints: 199\n# Comments: 38",
@@ -13,6 +23,16 @@
           "publishedOn": "2026-03-12T02:03:01.000Z",
           "wordCount": 77,
           "title": "DHS Contracts Explorer – Hacked data from the Office of Industry Partnership",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47345364",
+          "author": "burnt-resistor",
+          "description": "Article URL: https://tradingeconomics.com/commodity/urea\nComments URL: https://news.ycombinator.com/item?id=47345364\nPoints: 70\n# Comments: 52",
+          "link": "https://tradingeconomics.com/commodity/urea",
+          "publishedOn": "2026-03-12T01:59:47.000Z",
+          "wordCount": null,
+          "title": "Urea prices",
           "imageUrl": null
         },
         {
@@ -13524,66 +13544,6 @@
           "wordCount": 1154,
           "title": "The Switch to Linux and the Beginning of My Self-Hosting Journey",
           "imageUrl": "https://hazemkrimi.tech/images/big-face.webp"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46963887",
-          "author": "simonw",
-          "description": "Article URL: https://simonwillison.net/2026/Feb/10/showboat-and-rodney/\nComments URL: https://news.ycombinator.com/item?id=46963887\nPoints: 68\n# Comments: 34",
-          "link": "https://simonwillison.net/2026/Feb/10/showboat-and-rodney/",
-          "publishedOn": "2026-02-10T17:52:46.000Z",
-          "wordCount": 2516,
-          "title": "Show HN: Showboat and Rodney, so agents can demo what they've built",
-          "imageUrl": "https://static.simonwillison.net/static/2026/showboat-vs-code-card.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46963865",
-          "author": "taf2",
-          "description": "Article URL: https://github.com/taf2/mdvi\nComments URL: https://news.ycombinator.com/item?id=46963865\nPoints: 51\n# Comments: 18",
-          "link": "https://github.com/taf2/mdvi",
-          "publishedOn": "2026-02-10T17:51:10.000Z",
-          "wordCount": 2364,
-          "title": "Markdown CLI viewer with VI keybindings",
-          "imageUrl": "https://opengraph.githubassets.com/828a51acf0e32e702d2c3200216a6378d79372ea57099e4f769e8b18aab51781/taf2/mdvi"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46963804",
-          "author": "lehi",
-          "description": "Article URL: https://theintercept.com/2026/02/10/google-ice-subpoena-student-journalist/\nComments URL: https://news.ycombinator.com/item?id=46963804\nPoints: 206\n# Comments: 71",
-          "link": "https://theintercept.com/2026/02/10/google-ice-subpoena-student-journalist/",
-          "publishedOn": "2026-02-10T17:48:05.000Z",
-          "wordCount": 3137,
-          "title": "Google Handed ICE Student Journalist's Bank and Credit Card Numbers",
-          "imageUrl": "https://theintercept.com/wp-content/uploads/2026/02/GettyImages-2259269004.jpg?fit=4000%2C2666&w=1200&h=800"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46963177",
-          "author": "prasoonds",
-          "description": "Hey HN, stripe-no-webhooks is an open-source library that syncs your Stripe payments data to your own Postgres database:\nhttps://github.com/pretzelai/stripe-no-webhooks.\nHere's a demo video: https://youtu.be/cyEgW7wElcs\nWhy is this useful? (1) You don't have to figure out which webhooks you need or write listeners for each one. The library handles all of that. This follows the approach of libraries like dj-stripe in the Django world (https://dj-stripe.dev/). (2) Stripe's API has a 100 rpm rate limit. If you're checking subscription status frequently or building internal tools, you'll hit it. Querying your own Postgres doesn't have this problem. (3) You can give an AI agent read access to the stripe.* schema to debug payment issues—failed charges, refunds, whatever—without handing over Stri…",
-          "link": "https://github.com/pretzelai/stripe-no-webhooks",
-          "publishedOn": "2026-02-10T17:14:48.000Z",
-          "wordCount": 5896,
-          "title": "Show HN: Stripe-no-webhooks – Sync your Stripe data to your Postgres DB",
-          "imageUrl": "https://opengraph.githubassets.com/e34216bf19e901d2d17551d8cead95b17afc16421d215179fa3a63a4d6a280db/pretzelai/stripe-no-webhooks"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46962996",
-          "author": "ecto",
-          "description": "Article URL: https://campedersen.com/singularity\nComments URL: https://news.ycombinator.com/item?id=46962996\nPoints: 185\n# Comments: 108",
-          "link": "https://campedersen.com/singularity",
-          "publishedOn": "2026-02-10T17:04:31.000Z",
-          "wordCount": 4847,
-          "title": "The Singularity will occur on a Tuesday",
-          "imageUrl": "https://campedersen.com/og/singularity"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46962801",
-          "author": "randycupertino",
-          "description": "Article URL: https://www.cell.com/cell-metabolism/abstract/S1550-4131(26)00008-2\nComments URL: https://news.ycombinator.com/item?id=46962801\nPoints: 78\n# Comments: 31",
-          "link": "https://www.cell.com/cell-metabolism/abstract/S1550-4131(26)00008-2",
-          "publishedOn": "2026-02-10T16:55:03.000Z",
-          "wordCount": null,
-          "title": "Semaglutide improves knee osteoarthritis independant of weight loss",
-          "imageUrl": null
         }
       ]
     }
