@@ -6,6 +6,16 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=47345393",
+          "author": "peq42",
+          "description": "Article URL: https://micahflee.github.io/ice-contracts/\nComments URL: https://news.ycombinator.com/item?id=47345393\nPoints: 199\n# Comments: 38",
+          "link": "https://micahflee.github.io/ice-contracts/",
+          "publishedOn": "2026-03-12T02:03:01.000Z",
+          "wordCount": 77,
+          "title": "DHS Contracts Explorer – Hacked data from the Office of Industry Partnership",
+          "imageUrl": null
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=47345050",
           "author": "seam_carver",
           "description": "Article URL: https://support.apple.com/en-us/126632\nComments URL: https://news.ycombinator.com/item?id=47345050\nPoints: 54\n# Comments: 18",
@@ -14,6 +24,46 @@
           "wordCount": 2964,
           "title": "Apple releases iOS 15.8.7 to fix Coruna exploit for iPhone 6S from 2015",
           "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47344999",
+          "author": "surprisetalk",
+          "description": "Article URL: https://lcamtuf.substack.com/p/how-much-of-hn-is-ai\nComments URL: https://news.ycombinator.com/item?id=47344999\nPoints: 79\n# Comments: 36",
+          "link": "https://lcamtuf.substack.com/p/how-much-of-hn-is-ai",
+          "publishedOn": "2026-03-12T01:15:40.000Z",
+          "wordCount": null,
+          "title": "How much of HN is AI?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47344548",
+          "author": "remywang",
+          "description": "Article URL: http://satproto.org/\nComments URL: https://news.ycombinator.com/item?id=47344548\nPoints: 119\n# Comments: 44",
+          "link": "http://satproto.org/",
+          "publishedOn": "2026-03-12T00:22:19.000Z",
+          "wordCount": 1045,
+          "title": "Show HN: s@: decentralized social networking over static sites",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47343935",
+          "author": "austinbaggio",
+          "description": "autoresearch@home is a collaborative research collective where AI agents share GPU resources to collectively improve a language model. Think SETI@home, but for model training.\nHow it works: Agents read the current best result, propose a hypothesis, modify train.py, run the experiment on your GPU, and publish results back. When an agent beats the current best validation loss, that becomes the new baseline for every other agent. Agents learn from great runs and failures, since we're using Ensue as the collective memory layer.\nThis project extends Karpathy's autoresearch by adding the missing coordination layer so agents can actually build on each other's work.\nTo participate, you need an agent and a GPU. The agent handles everything: cloning the repo, connecting to the collective, picking experiments, running them, publishing results, and asking you to verify you're a real person via email.\nSend this prompt to your agent to get started: Read https://github.com/mutable-state-inc/autoresearch-at-home follow the instructions join autoresearch and start contributing.\nThis whole experiment is to prove that agents work better when they can build off other agents. The timeline is live, so you can watch experiments land in real time.\nComments URL: https://news.ycombinator.com/item?id=47343935\nPoints: 51\n# Comments: 10",
+          "link": "https://www.ensue-network.ai/autoresearch",
+          "publishedOn": "2026-03-11T23:27:18.000Z",
+          "wordCount": 54,
+          "title": "Show HN: Autoresearch@home",
+          "imageUrl": "https://www.ensue-network.ai/assets/autoresearch-og.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47343927",
+          "author": "schipperai",
+          "description": "We needed something like --dangerously-skip-permissions that doesn’t nuke your untracked files, exfiltrate your keys, or install malware.\nClaude Code's permission system is allow-or-deny per tool, but that doesn’t really scale. Deleting some files is fine sometimes. And git checkout is sometimes not fine. Even when you curate permissions, 200 IQ Opus can find a way around it. Maintaining a deny list is a fool's errand.\nnah is a PreToolUse hook that classifies every tool call by what it actually does, using a deterministic classifier that runs in milliseconds. It maps commands to action types like filesystem_read, package_run, db_write, git_history_rewrite, and applies policies: allow, context (depends on the target), ask, or block.\nNot everything can be classified, so you can optionally escalate ambiguous stuff to an LLM, but that’s not required. Anything unresolved you can approve, and configure the taxonomy so you don’t get asked again.\nIt works out of the box with sane defaults, no config needed. But you can customize it fully if you want to.\nNo dependencies, stdlib Python, MIT.\npip install nah && nah install\nhttps://github.com/manuelschipper/nah\nComments URL: https://news.ycombinator.com/item?id=47343927\nPoints: 64\n# Comments: 31",
+          "link": "https://github.com/manuelschipper/nah/",
+          "publishedOn": "2026-03-11T23:26:25.000Z",
+          "wordCount": 4834,
+          "title": "Show HN: A context-aware permission guard for Claude Code",
+          "imageUrl": "https://opengraph.githubassets.com/84d34b8c77a80470feb8d6ccfcefe40a9df6aa4e9a1a6a3b2fc8dab1216ca8d2/manuelschipper/nah"
         },
         {
           "id": "https://news.ycombinator.com/item?id=47343156",
@@ -13533,96 +13583,6 @@
           "publishedOn": "2026-02-10T16:55:03.000Z",
           "wordCount": null,
           "title": "Semaglutide improves knee osteoarthritis independant of weight loss",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46962641",
-          "author": "segmenta",
-          "description": "Hi HN,\nAI agents that can run tools on your machine are powerful for knowledge work, but they’re only as useful as the context they have. Rowboat is an open-source, local-first app that turns your work into a living knowledge graph (stored as plain Markdown with backlinks) and uses it to accomplish tasks on your computer.\nFor example, you can say \"Build me a deck about our next quarter roadmap.\" Rowboat pulls priorities and commitments from your graph, loads a presentation skill, and exports a PDF.\nOur repo is https://github.com/rowboatlabs/rowboat, and there’s a demo video here: https://www.youtube.com/watch?v=5AWoGo-L16I\nRowboat has two parts:\n(1) A living context graph: Rowboat connects to sources like Gmail and meeting notes like Granola and Fireflies, extracts decisions, commitments, …",
-          "link": "https://github.com/rowboatlabs/rowboat",
-          "publishedOn": "2026-02-10T16:47:29.000Z",
-          "wordCount": 3533,
-          "title": "Show HN: Rowboat – AI coworker that turns your work into a knowledge graph (OSS)",
-          "imageUrl": "https://opengraph.githubassets.com/74e14b5a28d88e239ba3e0c777423f566c9e4343ae57bbe8bc8e8f42a09fde9b/rowboatlabs/rowboat"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46962402",
-          "author": "FillMaths",
-          "description": "Article URL: https://www.infinitelymore.xyz/p/complex-numbers-essential-structure\nComments URL: https://news.ycombinator.com/item?id=46962402\nPoints: 68\n# Comments: 50",
-          "link": "https://www.infinitelymore.xyz/p/complex-numbers-essential-structure",
-          "publishedOn": "2026-02-10T16:36:30.000Z",
-          "wordCount": 17584,
-          "title": "Mathematicians disagree on the essential structure of the complex numbers",
-          "imageUrl": "https://substackcdn.com/image/fetch/$s_!LLOP!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fbfa08af5-c9c1-47dc-b75b-73edff9ba33f_1792x1024.webp"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46961726",
-          "author": "tonioab",
-          "description": "Article URL: https://www.ablg.io/blog/competition-is-not-validation\nComments URL: https://news.ycombinator.com/item?id=46961726\nPoints: 67\n# Comments: 25",
-          "link": "https://www.ablg.io/blog/competition-is-not-validation",
-          "publishedOn": "2026-02-10T16:04:21.000Z",
-          "wordCount": 2601,
-          "title": "Competition is not market validation",
-          "imageUrl": "https://www.ablg.io/og?title=Competition%20is%20not%20market%20validation"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46961345",
-          "author": "meetpateltech",
-          "description": "Article URL: https://entire.io/blog/hello-entire-world/\nComments URL: https://news.ycombinator.com/item?id=46961345\nPoints: 65\n# Comments: 47",
-          "link": "https://entire.io/blog/hello-entire-world/",
-          "publishedOn": "2026-02-10T15:44:47.000Z",
-          "wordCount": 7,
-          "title": "Ex-GitHub CEO Launches a New Developer Platform for AI Agents",
-          "imageUrl": "https://entire.io/entire-funding-announcement-even-logos.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46960675",
-          "author": "jamesrandall",
-          "description": "Article URL: https://www.jamesdrandall.com/posts/the_thing_i_loved_has_changed/\nComments URL: https://news.ycombinator.com/item?id=46960675\nPoints: 190\n# Comments: 142",
-          "link": "https://www.jamesdrandall.com/posts/the_thing_i_loved_has_changed/",
-          "publishedOn": "2026-02-10T15:08:36.000Z",
-          "wordCount": 1854,
-          "title": "I started programming when I was 7. I'm 50 now and the thing I loved has changed",
-          "imageUrl": "https://www.jamesdrandall.com/posts/the_thing_i_loved_has_changed/metadata.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46960624",
-          "author": "alephnerd",
-          "description": "Article URL: https://www.bloomberg.com/news/articles/2026-01-30/trump-immigration-crackdown-could-shrink-us-population-for-first-time\nComments URL: https://news.ycombinator.com/item?id=46960624\nPoints: 106\n# Comments: 337",
-          "link": "https://www.bloomberg.com/news/articles/2026-01-30/trump-immigration-crackdown-could-shrink-us-population-for-first-time",
-          "publishedOn": "2026-02-10T15:05:24.000Z",
-          "wordCount": null,
-          "title": "The US is flirting with its first-ever population decline",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46960517",
-          "author": "vinnyglennon",
-          "description": "Article URL: https://www.threads.com/@qa_test_hq/post/DUkC_zjiGQh\nComments URL: https://news.ycombinator.com/item?id=46960517\nPoints: 126\n# Comments: 92",
-          "link": "https://www.threads.com/@qa_test_hq/post/DUkC_zjiGQh",
-          "publishedOn": "2026-02-10T14:58:35.000Z",
-          "wordCount": 3866,
-          "title": "Vercel's CEO offers to cover expenses of 'Jmail'",
-          "imageUrl": "https://scontent-ord5-3.cdninstagram.com/v/t51.2885-15/629828907_17864370486577687_3435529746473425972_n.jpg?stp=dst-jpg_e35_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InRocmVhZHMuRkVFRC5pbWFnZV91cmxnZW4uNDc1eDY4MC5zZHIuZjgyNzg3LmRlZmF1bHRfaW1hZ2UuYzIifQ&_nc_ht=scontent-ord5-3.cdninstagram.com&_nc_cat=107&_nc_oc=Q6cZ2QF8S885nkqryDaEp3doIBIJ2wCFTIJgPrLg-9v_bgzMxCrEvDyuFPPu0NCLIh8dhCA&_nc_ohc=VXiNs4Y0e7UQ7kNvwErQOns&_nc_gid=euJaDYeD0XZ8zQSPqWhvvg&edm=APs17CUBAAAA&ccb=7-5&ig_cache_key=MzgyOTE5ODc2Mzk0ODc5NDkxMw%3D%3D.3-ccb7-5&oh=00_AfsmQpwdyIS2Bmd-KT91NkEFdEtuvDtzpNyPvV0ThPCFDw&oe=699145A3&_nc_sid=10d13b"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46960485",
-          "author": "tzury",
-          "description": "Article URL: https://www.makingsoftware.com/chapters/how-is-data-stored\nComments URL: https://news.ycombinator.com/item?id=46960485\nPoints: 53\n# Comments: 2",
-          "link": "https://www.makingsoftware.com/chapters/how-is-data-stored",
-          "publishedOn": "2026-02-10T14:56:09.000Z",
-          "wordCount": null,
-          "title": "How Is Data Stored?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46960392",
-          "author": "shirian",
-          "description": "Article URL: https://lexi-lambda.github.io/blog/2019/11/05/parse-don-t-validate/\nComments URL: https://news.ycombinator.com/item?id=46960392\nPoints: 107\n# Comments: 46",
-          "link": "https://lexi-lambda.github.io/blog/2019/11/05/parse-don-t-validate/",
-          "publishedOn": "2026-02-10T14:49:29.000Z",
-          "wordCount": 4057,
-          "title": "Parse, Don't Validate (2019)",
           "imageUrl": null
         }
       ]
