@@ -2,10 +2,44 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-03-12T13:15:56.115Z</updated>
+    <updated>2026-03-12T14:56:24.552Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Show HN: We analyzed 1,573 Claude Code sessions to see how AI agents work]]></title>
+        <id>https://news.ycombinator.com/item?id=47350416</id>
+        <link href="https://github.com/obsessiondb/rudel"/>
+        <updated>2026-03-12T13:41:12.000Z</updated>
+        <summary type="html"><![CDATA[We built rudel.ai after realizing we had no visibility into our own Claude Code sessions. We were using it daily but had no idea which sessions were efficient, why some got abandoned, or whether we were actually improving over time.
+So we built an analytics layer for it. After connecting our own sessions, we ended up with a dataset of 1,573 real Claude Code sessions, 15M+ tokens, 270K+ interactions.
+Some things we found that surprised us:
+- Skills were only being used in 4% of our sessions
+- 26% of sessions are abandoned, most within the first 60 seconds
+- Session success rate varies significantly by task type (documentation scores highest, refactoring lowest)
+- Error cascade patterns appear in the first 2 minutes and predict abandonment with reasonable accuracy
+- There is no meaningful benchmark for 'good' agentic session performance, we are building one.
+The tool is free to use and fully open source, happy to answer questions about the data or how we built it.
+Comments URL: https://news.ycombinator.com/item?id=47350416
+Points: 51
+# Comments: 28]]></summary>
+        <author>
+            <name>keks0r</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[US banks' exposure to private credit hits $300B (2025)]]></title>
+        <id>https://news.ycombinator.com/item?id=47349798</id>
+        <link href="https://alternativecreditinvestor.com/2025/10/22/us-banks-exposure-to-private-credit-hits-300bn/"/>
+        <updated>2026-03-12T12:43:26.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://alternativecreditinvestor.com/2025/10/22/us-banks-exposure-to-private-credit-hits-300bn/
+Comments URL: https://news.ycombinator.com/item?id=47349798
+Points: 83
+# Comments: 43]]></summary>
+        <author>
+            <name>JumpCrisscross</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Big Data on the Cheapest MacBook]]></title>
         <id>https://news.ycombinator.com/item?id=47349277</id>
@@ -1845,6 +1879,19 @@ Points: 51
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[NASA's DART spacecraft changed an asteroid's orbit around the sun]]></title>
+        <id>https://news.ycombinator.com/item?id=47303044</id>
+        <link href="https://www.sciencenews.org/article/spacecraft-changed-asteroid-orbit-nasa"/>
+        <updated>2026-03-09T00:00:05.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.sciencenews.org/article/spacecraft-changed-asteroid-orbit-nasa
+Comments URL: https://news.ycombinator.com/item?id=47303044
+Points: 61
+# Comments: 35]]></summary>
+        <author>
+            <name>pseudolus</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Optimizing Top K in Postgres]]></title>
         <id>https://news.ycombinator.com/item?id=47302493</id>
         <link href="https://www.paradedb.com/blog/optimizing-top-k"/>
@@ -2222,6 +2269,19 @@ Points: 68
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Printf-Tac-Toe]]></title>
+        <id>https://news.ycombinator.com/item?id=47296645</id>
+        <link href="https://github.com/carlini/printf-tac-toe"/>
+        <updated>2026-03-08T12:01:07.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://github.com/carlini/printf-tac-toe
+Comments URL: https://news.ycombinator.com/item?id=47296645
+Points: 75
+# Comments: 7]]></summary>
+        <author>
+            <name>carlos-menezes</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[About memory pressure, lock contention, and Data-oriented Design]]></title>
         <id>https://news.ycombinator.com/item?id=47296630</id>
         <link href="https://mnt.io/articles/about-memory-pressure-lock-contention-and-data-oriented-design/"/>
@@ -2232,6 +2292,19 @@ Points: 54
 # Comments: 5]]></summary>
         <author>
             <name>vinhnx</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Tested: How Many Times Can a DVD±RW Be Rewritten? Methodology and Results]]></title>
+        <id>https://news.ycombinator.com/item?id=47296568</id>
+        <link href="https://goughlui.com/2026/03/07/tested-how-many-times-can-a-dvd%C2%B1rw-be-rewritten-part-2-methodology-results/"/>
+        <updated>2026-03-08T11:44:56.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://goughlui.com/2026/03/07/tested-how-many-times-can-a-dvd%C2%B1rw-be-rewritten-part-2-methodology-results/
+Comments URL: https://news.ycombinator.com/item?id=47296568
+Points: 198
+# Comments: 65]]></summary>
+        <author>
+            <name>giuliomagnifico</name>
         </author>
     </entry>
     <entry>
@@ -18050,19 +18123,6 @@ Points: 72
 # Comments: 4]]></summary>
         <author>
             <name>geox</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[End of an era for me: no more self-hosted git]]></title>
-        <id>https://news.ycombinator.com/item?id=46969751</id>
-        <link href="https://www.kraxel.org/blog/2026/01/thank-you-ai/"/>
-        <updated>2026-02-11T01:50:44.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.kraxel.org/blog/2026/01/thank-you-ai/
-Comments URL: https://news.ycombinator.com/item?id=46969751
-Points: 113
-# Comments: 71]]></summary>
-        <author>
-            <name>dzulp0d</name>
         </author>
     </entry>
 </feed>
