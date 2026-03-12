@@ -2,10 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-03-12T07:07:04.990Z</updated>
+    <updated>2026-03-12T08:53:05.751Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Returning to Rails in 2026]]></title>
+        <id>https://news.ycombinator.com/item?id=47347064</id>
+        <link href="https://www.markround.com/blog/2026/03/05/returning-to-rails-in-2026/"/>
+        <updated>2026-03-12T06:06:46.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.markround.com/blog/2026/03/05/returning-to-rails-in-2026/
+Comments URL: https://news.ycombinator.com/item?id=47347064
+Points: 76
+# Comments: 53]]></summary>
+        <author>
+            <name>stanislavb</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[WireGuard Is Two Things]]></title>
         <id>https://news.ycombinator.com/item?id=47346511</id>
@@ -18011,111 +18024,6 @@ Points: 212
 # Comments: 136]]></summary>
         <author>
             <name>pjf</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Falkirk Wheel]]></title>
-        <id>https://news.ycombinator.com/item?id=46966605</id>
-        <link href="https://www.scottishcanals.co.uk/visit/canals/visit-the-forth-clyde-canal/attractions/the-falkirk-wheel"/>
-        <updated>2026-02-10T20:42:20.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.scottishcanals.co.uk/visit/canals/visit-the-forth-clyde-canal/attractions/the-falkirk-wheel
-Comments URL: https://news.ycombinator.com/item?id=46966605
-Points: 50
-# Comments: 18]]></summary>
-        <author>
-            <name>scapecast</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: Clawe – open-source Trello for agent teams]]></title>
-        <id>https://news.ycombinator.com/item?id=46966209</id>
-        <link href="https://github.com/getclawe/clawe"/>
-        <updated>2026-02-10T20:17:45.000Z</updated>
-        <summary type="html"><![CDATA[We recently started to use agents to update some documentation across our codebase on a weekly basis, and everything quickly turned into cron jobs, logs, and terminal output.
-it worked, but was hard to tell what agents were doing, why something failed, or whether a workflow was actually progressing.
-We thought it would be more interesting to treat agents as long-lived workers with state and responsibilities and explicit handoffs. Something you can actually see and reason about, instead of just tailing logs.
-So we built Clawe, a small coordination layer on top of OpenClaw that lets agent workflows run, pause, retry, and hand control back to a human at specific points.
-This started as an experiment in how agent systems might feel to operate, but we're starting to see real potential for it, especially for content review and maintenance workflows in marketing. Curious what abstractions make sense, what feels unnecessary, and what breaks first.
-Repo: https://github.com/getclawe/clawe
-Comments URL: https://news.ycombinator.com/item?id=46966209
-Points: 53
-# Comments: 33]]></summary>
-        <author>
-            <name>Jonathanfishner</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Tambo 1.0: Open-source toolkit for agents that render React components]]></title>
-        <id>https://news.ycombinator.com/item?id=46966182</id>
-        <link href="https://github.com/tambo-ai/tambo"/>
-        <updated>2026-02-10T20:16:12.000Z</updated>
-        <summary type="html"><![CDATA[Hi HN — cofounder Michael here.
-We've been building Tambo for about a year, and just released our 1.0.
-We make are making it easier to register React components with Zod schemas, a build an agent picks the right one and renders the right props.
-We handle many of the complications with building generative user interfaces like: managing state between the user, the agent, and react component, rendering partial props, and we handle auth between your user, and MCP. We also support adding MCP servers and most of the spec.
-We are 100% open-source and currently have 8k+ GitHub stars, thousands of developers, and over half-millions messages processed by our hosted service.
-If you're building AI agents with generative UI, we'd like to hear from you.
-Comments URL: https://news.ycombinator.com/item?id=46966182
-Points: 59
-# Comments: 16]]></summary>
-        <author>
-            <name>grouchy</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: Sol LeWitt-style instruction-based drawings in the browser]]></title>
-        <id>https://news.ycombinator.com/item?id=46965968</id>
-        <link href="https://intervolz.com/sollewitt/"/>
-        <updated>2026-02-10T20:02:05.000Z</updated>
-        <summary type="html"><![CDATA[Sol LeWitt was a conceptual artist who never touched his own walls.
-He wrote instructions and other people executed them, the original prompt engineer!
-I bookmarked a project called "Solving Sol" seven years ago and made a repo in 2018. Committed a README. Never pushed anything else.
-Fast forward to 2026, I finally built it.
-https://intervolz.com/sollewitt/
-Comments URL: https://news.ycombinator.com/item?id=46965968
-Points: 52
-# Comments: 9]]></summary>
-        <author>
-            <name>intervolz</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Three Year Myth]]></title>
-        <id>https://news.ycombinator.com/item?id=46965829</id>
-        <link href="https://green.spacedino.net/the-three-year-myth/"/>
-        <updated>2026-02-10T19:51:38.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://green.spacedino.net/the-three-year-myth/
-Comments URL: https://news.ycombinator.com/item?id=46965829
-Points: 59
-# Comments: 32]]></summary>
-        <author>
-            <name>surprisetalk</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Toyotas and Terrorists: "Why are ISIS's trucks better than ours?"]]></title>
-        <id>https://news.ycombinator.com/item?id=46965776</id>
-        <link href="https://www.airuniversity.af.edu/Wild-Blue-Yonder/Articles/Article-Display/Article/3600155/toyotas-and-terrorists-why-are-isiss-trucks-better-than-ours-said-the-american/"/>
-        <updated>2026-02-10T19:49:02.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.airuniversity.af.edu/Wild-Blue-Yonder/Articles/Article-Display/Article/3600155/toyotas-and-terrorists-why-are-isiss-trucks-better-than-ours-said-the-american/
-Comments URL: https://news.ycombinator.com/item?id=46965776
-Points: 54
-# Comments: 48]]></summary>
-        <author>
-            <name>marysminefnuf</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How did Windows 95 get permission to put the Weezer video Buddy Holly on the CD?]]></title>
-        <id>https://news.ycombinator.com/item?id=46965440</id>
-        <link href="https://devblogs.microsoft.com/oldnewthing/20260210-00/?p=112052"/>
-        <updated>2026-02-10T19:25:55.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://devblogs.microsoft.com/oldnewthing/20260210-00/?p=112052
-Comments URL: https://news.ycombinator.com/item?id=46965440
-Points: 77
-# Comments: 50]]></summary>
-        <author>
-            <name>ingve</name>
         </author>
     </entry>
 </feed>

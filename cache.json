@@ -6,6 +6,16 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=47347064",
+          "author": "stanislavb",
+          "description": "Article URL: https://www.markround.com/blog/2026/03/05/returning-to-rails-in-2026/\nComments URL: https://news.ycombinator.com/item?id=47347064\nPoints: 76\n# Comments: 53",
+          "link": "https://www.markround.com/blog/2026/03/05/returning-to-rails-in-2026/",
+          "publishedOn": "2026-03-12T06:06:46.000Z",
+          "wordCount": 6410,
+          "title": "Returning to Rails in 2026",
+          "imageUrl": null
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=47346511",
           "author": "mlhpdx",
           "description": "Article URL: https://www.proxylity.com/articles/wireguard-is-two-things.html\nComments URL: https://news.ycombinator.com/item?id=47346511\nPoints: 51\n# Comments: 14",
@@ -13474,76 +13484,6 @@
           "wordCount": 3583,
           "title": "The Day the Telnet Died",
           "imageUrl": "https://www.labs.greynoise.io/grimoire/2026-02-10-telnet-falls-silent/media/cover.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46966605",
-          "author": "scapecast",
-          "description": "Article URL: https://www.scottishcanals.co.uk/visit/canals/visit-the-forth-clyde-canal/attractions/the-falkirk-wheel\nComments URL: https://news.ycombinator.com/item?id=46966605\nPoints: 50\n# Comments: 18",
-          "link": "https://www.scottishcanals.co.uk/visit/canals/visit-the-forth-clyde-canal/attractions/the-falkirk-wheel",
-          "publishedOn": "2026-02-10T20:42:20.000Z",
-          "wordCount": 2169,
-          "title": "The Falkirk Wheel",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46966209",
-          "author": "Jonathanfishner",
-          "description": "We recently started to use agents to update some documentation across our codebase on a weekly basis, and everything quickly turned into cron jobs, logs, and terminal output.\nit worked, but was hard to tell what agents were doing, why something failed, or whether a workflow was actually progressing.\nWe thought it would be more interesting to treat agents as long-lived workers with state and responsibilities and explicit handoffs. Something you can actually see and reason about, instead of just tailing logs.\nSo we built Clawe, a small coordination layer on top of OpenClaw that lets agent workflows run, pause, retry, and hand control back to a human at specific points.\nThis started as an experiment in how agent systems might feel to operate, but we're starting to see real potential for it, especially for content review and maintenance workflows in marketing. Curious what abstractions make sense, what feels unnecessary, and what breaks first.\nRepo: https://github.com/getclawe/clawe\nComments URL: https://news.ycombinator.com/item?id=46966209\nPoints: 53\n# Comments: 33",
-          "link": "https://github.com/getclawe/clawe",
-          "publishedOn": "2026-02-10T20:17:45.000Z",
-          "wordCount": 4856,
-          "title": "Show HN: Clawe – open-source Trello for agent teams",
-          "imageUrl": "https://repository-images.githubusercontent.com/1148062975/a3cb6033-37f1-4593-b2f4-cb0b9e4a2203"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46966182",
-          "author": "grouchy",
-          "description": "Hi HN — cofounder Michael here.\nWe've been building Tambo for about a year, and just released our 1.0.\nWe make are making it easier to register React components with Zod schemas, a build an agent picks the right one and renders the right props.\nWe handle many of the complications with building generative user interfaces like: managing state between the user, the agent, and react component, rendering partial props, and we handle auth between your user, and MCP. We also support adding MCP servers and most of the spec.\nWe are 100% open-source and currently have 8k+ GitHub stars, thousands of developers, and over half-millions messages processed by our hosted service.\nIf you're building AI agents with generative UI, we'd like to hear from you.\nComments URL: https://news.ycombinator.com/item?id=46966182\nPoints: 59\n# Comments: 16",
-          "link": "https://github.com/tambo-ai/tambo",
-          "publishedOn": "2026-02-10T20:16:12.000Z",
-          "wordCount": 5933,
-          "title": "Tambo 1.0: Open-source toolkit for agents that render React components",
-          "imageUrl": "https://opengraph.githubassets.com/c65a092f907741caf57976701f71fc208183d5682f07e93984f9c20baaa6f198/tambo-ai/tambo"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46965968",
-          "author": "intervolz",
-          "description": "Sol LeWitt was a conceptual artist who never touched his own walls.\nHe wrote instructions and other people executed them, the original prompt engineer!\nI bookmarked a project called \"Solving Sol\" seven years ago and made a repo in 2018. Committed a README. Never pushed anything else.\nFast forward to 2026, I finally built it.\nhttps://intervolz.com/sollewitt/\nComments URL: https://news.ycombinator.com/item?id=46965968\nPoints: 52\n# Comments: 9",
-          "link": "https://intervolz.com/sollewitt/",
-          "publishedOn": "2026-02-10T20:02:05.000Z",
-          "wordCount": 571,
-          "title": "Show HN: Sol LeWitt-style instruction-based drawings in the browser",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46965829",
-          "author": "surprisetalk",
-          "description": "Article URL: https://green.spacedino.net/the-three-year-myth/\nComments URL: https://news.ycombinator.com/item?id=46965829\nPoints: 59\n# Comments: 32",
-          "link": "https://green.spacedino.net/the-three-year-myth/",
-          "publishedOn": "2026-02-10T19:51:38.000Z",
-          "wordCount": 1721,
-          "title": "The Three Year Myth",
-          "imageUrl": "https://images.unsplash.com/photo-1487528278747-ba99ed528ebc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDV8fG5vdyUyMGhpcmluZ3xlbnwwfHx8fDE3NzAwMDIwMDB8MA&ixlib=rb-4.1.0&q=80&w=2000"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46965776",
-          "author": "marysminefnuf",
-          "description": "Article URL: https://www.airuniversity.af.edu/Wild-Blue-Yonder/Articles/Article-Display/Article/3600155/toyotas-and-terrorists-why-are-isiss-trucks-better-than-ours-said-the-american/\nComments URL: https://news.ycombinator.com/item?id=46965776\nPoints: 54\n# Comments: 48",
-          "link": "https://www.airuniversity.af.edu/Wild-Blue-Yonder/Articles/Article-Display/Article/3600155/toyotas-and-terrorists-why-are-isiss-trucks-better-than-ours-said-the-american/",
-          "publishedOn": "2026-02-10T19:49:02.000Z",
-          "wordCount": null,
-          "title": "Toyotas and Terrorists: \"Why are ISIS's trucks better than ours?\"",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46965440",
-          "author": "ingve",
-          "description": "Article URL: https://devblogs.microsoft.com/oldnewthing/20260210-00/?p=112052\nComments URL: https://news.ycombinator.com/item?id=46965440\nPoints: 77\n# Comments: 50",
-          "link": "https://devblogs.microsoft.com/oldnewthing/20260210-00/?p=112052",
-          "publishedOn": "2026-02-10T19:25:55.000Z",
-          "wordCount": 7468,
-          "title": "How did Windows 95 get permission to put the Weezer video Buddy Holly on the CD?",
-          "imageUrl": "https://devblogs.microsoft.com/oldnewthing/wp-content/uploads/sites/38/2019/02/ShowCover.jpg"
         }
       ]
     }
