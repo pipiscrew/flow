@@ -2,10 +2,71 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-03-12T17:52:58.720Z</updated>
+    <updated>2026-03-12T19:02:08.094Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Bubble Sorted Amen Break]]></title>
+        <id>https://news.ycombinator.com/item?id=47354098</id>
+        <link href="https://parametricavocado.itch.io/amen-sorting"/>
+        <updated>2026-03-12T17:13:56.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://parametricavocado.itch.io/amen-sorting
+Comments URL: https://news.ycombinator.com/item?id=47354098
+Points: 100
+# Comments: 42]]></summary>
+        <author>
+            <name>eieio</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Apple's MacBook Neo makes repairs easier and cheaper than other MacBooks]]></title>
+        <id>https://news.ycombinator.com/item?id=47353993</id>
+        <link href="https://arstechnica.com/gadgets/2026/03/more-modular-design-makes-macbook-neo-easier-to-fix-than-other-apple-laptops/"/>
+        <updated>2026-03-12T17:07:16.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://arstechnica.com/gadgets/2026/03/more-modular-design-makes-macbook-neo-easier-to-fix-than-other-apple-laptops/
+Comments URL: https://news.ycombinator.com/item?id=47353993
+Points: 73
+# Comments: 26]]></summary>
+        <author>
+            <name>GeekyBear</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: OneCLI – Vault for AI Agents in Rust]]></title>
+        <id>https://news.ycombinator.com/item?id=47353558</id>
+        <link href="https://github.com/onecli/onecli"/>
+        <updated>2026-03-12T16:41:06.000Z</updated>
+        <summary type="html"><![CDATA[We built OneCLI because AI agents are being given raw API keys. And it's going about as well as you'd expect. We figured the answer isn't "don't give agents access," it's "give them access without giving them secrets."
+OneCLI is an open-source gateway that sits between your AI agents and the services they call. You store your real credentials once in OneCLI's encrypted vault, and give your agents placeholder keys. When an agent makes an HTTP call through the proxy, OneCLI matches the request by host/path, verifies the agent should have access, swaps the placeholder for the real credential, and forwards the request. The agent never touches the actual secret. It just uses CLI or MCP tools as normal.
+Try it in one line:
+docker run --pull always -p 10254:10254 -p 10255:10255 -v onecli-data:/app/data ghcr.io/onecli/onecli
+The proxy is written in Rust, the dashboard is Next.js, and secrets are AES-256-GCM encrypted at rest. Everything runs in a single Docker container with an embedded Postgres (PGlite), no external dependencies. Works with any agent framework (OpenClaw, NanoClaw, IronClaw, or anything that can set an HTTPS_PROXY).
+We started with what felt most urgent: agents shouldn't be holding raw credentials. 
+The next layer is access policies and audit, defining what each agent can call, logging everything, and requiring human approval before sensitive actions go through.
+It's Apache-2.0 licensed. We'd love feedback on the approach, and we're especially curious how people are handling agent auth today.
+GitHub: https://github.com/onecli/onecli
+Site: https://onecli.sh
+Comments URL: https://news.ycombinator.com/item?id=47353558
+Points: 59
+# Comments: 25]]></summary>
+        <author>
+            <name>guyb3</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Reversing memory loss via gut-brain communication]]></title>
+        <id>https://news.ycombinator.com/item?id=47353533</id>
+        <link href="https://med.stanford.edu/news/all-news/2026/03/gut-brain-cognitive-decline.html"/>
+        <updated>2026-03-12T16:38:51.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://med.stanford.edu/news/all-news/2026/03/gut-brain-cognitive-decline.html
+Comments URL: https://news.ycombinator.com/item?id=47353533
+Points: 77
+# Comments: 13]]></summary>
+        <author>
+            <name>mustaphah</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Claude now creates interactive charts, diagrams and visualizations]]></title>
         <id>https://news.ycombinator.com/item?id=47352751</id>
@@ -168,6 +229,19 @@ Points: 83
 # Comments: 43]]></summary>
         <author>
             <name>JumpCrisscross</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Emacs internals: Tagged pointers vs. C++ std:variant and LLVM (Part 3)]]></title>
+        <id>https://news.ycombinator.com/item?id=47349780</id>
+        <link href="https://thecloudlet.github.io/blog/project/emacs-03/"/>
+        <updated>2026-03-12T12:41:29.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://thecloudlet.github.io/blog/project/emacs-03/
+Comments URL: https://news.ycombinator.com/item?id=47349780
+Points: 51
+# Comments: 24]]></summary>
+        <author>
+            <name>thecloudlet</name>
         </author>
     </entry>
     <entry>
@@ -1617,6 +1691,19 @@ Points: 81
 # Comments: 4]]></summary>
         <author>
             <name>robtherobber</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Cost of Indirection in Rust]]></title>
+        <id>https://news.ycombinator.com/item?id=47312226</id>
+        <link href="https://blog.sebastiansastre.co/posts/cost-of-indirection-in-rust/"/>
+        <updated>2026-03-09T17:28:34.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://blog.sebastiansastre.co/posts/cost-of-indirection-in-rust/
+Comments URL: https://news.ycombinator.com/item?id=47312226
+Points: 53
+# Comments: 13]]></summary>
+        <author>
+            <name>sebastianconcpt</name>
         </author>
     </entry>
     <entry>
@@ -18240,19 +18327,6 @@ Points: 75
 # Comments: 46]]></summary>
         <author>
             <name>tardibear</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Windows Notepad App Remote Code Execution Vulnerability]]></title>
-        <id>https://news.ycombinator.com/item?id=46971516</id>
-        <link href="https://www.cve.org/CVERecord?id=CVE-2026-20841"/>
-        <updated>2026-02-11T06:15:33.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.cve.org/CVERecord?id=CVE-2026-20841
-Comments URL: https://news.ycombinator.com/item?id=46971516
-Points: 56
-# Comments: 18]]></summary>
-        <author>
-            <name>riffraff</name>
         </author>
     </entry>
 </feed>

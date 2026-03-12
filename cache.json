@@ -6,6 +6,46 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=47354098",
+          "author": "eieio",
+          "description": "Article URL: https://parametricavocado.itch.io/amen-sorting\nComments URL: https://news.ycombinator.com/item?id=47354098\nPoints: 100\n# Comments: 42",
+          "link": "https://parametricavocado.itch.io/amen-sorting",
+          "publishedOn": "2026-03-12T17:13:56.000Z",
+          "wordCount": 381,
+          "title": "Bubble Sorted Amen Break",
+          "imageUrl": "https://img.itch.zone/aW1nLzI0NzQ1MDIxLnBuZw==/original/JSW%2BCe.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47353993",
+          "author": "GeekyBear",
+          "description": "Article URL: https://arstechnica.com/gadgets/2026/03/more-modular-design-makes-macbook-neo-easier-to-fix-than-other-apple-laptops/\nComments URL: https://news.ycombinator.com/item?id=47353993\nPoints: 73\n# Comments: 26",
+          "link": "https://arstechnica.com/gadgets/2026/03/more-modular-design-makes-macbook-neo-easier-to-fix-than-other-apple-laptops/",
+          "publishedOn": "2026-03-12T17:07:16.000Z",
+          "wordCount": 2498,
+          "title": "Apple's MacBook Neo makes repairs easier and cheaper than other MacBooks",
+          "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2026/03/IMG_3655-1152x648.jpeg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47353558",
+          "author": "guyb3",
+          "description": "We built OneCLI because AI agents are being given raw API keys. And it's going about as well as you'd expect. We figured the answer isn't \"don't give agents access,\" it's \"give them access without giving them secrets.\"\nOneCLI is an open-source gateway that sits between your AI agents and the services they call. You store your real credentials once in OneCLI's encrypted vault, and give your agents placeholder keys. When an agent makes an HTTP call through the proxy, OneCLI matches the request by host/path, verifies the agent should have access, swaps the placeholder for the real credential, and forwards the request. The agent never touches the actual secret. It just uses CLI or MCP tools as normal.\nTry it in one line:\ndocker run --pull always -p 10254:10254 -p 10255:10255 -v onecli-data:/app/data ghcr.io/onecli/onecli\nThe proxy is written in Rust, the dashboard is Next.js, and secrets are AES-256-GCM encrypted at rest. Everything runs in a single Docker container with an embedded Postgres (PGlite), no external dependencies. Works with any agent framework (OpenClaw, NanoClaw, IronClaw, or anything that can set an HTTPS_PROXY).\nWe started with what felt most urgent: agents shouldn't be holding raw credentials. \nThe next layer is access policies and audit, defining what each agent can call, logging everything, and requiring human approval before sensitive actions go through.\nIt's Apache-2.0 licensed. We'd love feedback on the approach, and we're especially curious how people are handling agent auth today.\nGitHub: https://github.com/onecli/onecli\nSite: https://onecli.sh\nComments URL: https://news.ycombinator.com/item?id=47353558\nPoints: 59\n# Comments: 25",
+          "link": "https://github.com/onecli/onecli",
+          "publishedOn": "2026-03-12T16:41:06.000Z",
+          "wordCount": 3266,
+          "title": "Show HN: OneCLI – Vault for AI Agents in Rust",
+          "imageUrl": "https://repository-images.githubusercontent.com/1175900220/ef74e755-ef2e-4166-8437-b1ad4830e2ff"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47353533",
+          "author": "mustaphah",
+          "description": "Article URL: https://med.stanford.edu/news/all-news/2026/03/gut-brain-cognitive-decline.html\nComments URL: https://news.ycombinator.com/item?id=47353533\nPoints: 77\n# Comments: 13",
+          "link": "https://med.stanford.edu/news/all-news/2026/03/gut-brain-cognitive-decline.html",
+          "publishedOn": "2026-03-12T16:38:51.000Z",
+          "wordCount": 2640,
+          "title": "Reversing memory loss via gut-brain communication",
+          "imageUrl": "https://med.stanford.edu/news/all-news/2026/03/gut-brain-cognitive-decline/_jcr_content/cq:socialfeaturedimage.coreimg.jpeg/1773245507576/Thaiss-gut-brain.jpeg"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=47352751",
           "author": "adocomplete",
           "description": "Article URL: https://claude.com/blog/claude-builds-visuals\nComments URL: https://news.ycombinator.com/item?id=47352751\nPoints: 64\n# Comments: 28",
@@ -124,6 +164,16 @@
           "wordCount": 1215,
           "title": "US banks' exposure to private credit hits $300B (2025)",
           "imageUrl": "https://alternativecreditinvestor.com/wp-content/uploads/2024/04/iStock-1089771366.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47349780",
+          "author": "thecloudlet",
+          "description": "Article URL: https://thecloudlet.github.io/blog/project/emacs-03/\nComments URL: https://news.ycombinator.com/item?id=47349780\nPoints: 51\n# Comments: 24",
+          "link": "https://thecloudlet.github.io/blog/project/emacs-03/",
+          "publishedOn": "2026-03-12T12:41:29.000Z",
+          "wordCount": 2661,
+          "title": "Emacs internals: Tagged pointers vs. C++ std:variant and LLVM (Part 3)",
+          "imageUrl": "https://thecloudlet.github.io/favicon.svg"
         },
         {
           "id": "https://news.ycombinator.com/item?id=47349277",
@@ -1194,6 +1244,16 @@
           "wordCount": null,
           "title": "Fixfest is a global gathering of repairers, tinkerers, and activists",
           "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47312226",
+          "author": "sebastianconcpt",
+          "description": "Article URL: https://blog.sebastiansastre.co/posts/cost-of-indirection-in-rust/\nComments URL: https://news.ycombinator.com/item?id=47312226\nPoints: 53\n# Comments: 13",
+          "link": "https://blog.sebastiansastre.co/posts/cost-of-indirection-in-rust/",
+          "publishedOn": "2026-03-09T17:28:34.000Z",
+          "wordCount": 3586,
+          "title": "The Cost of Indirection in Rust",
+          "imageUrl": "https://blog.sebastiansastre.co/img/cost-of-indirection-rust.jpg"
         },
         {
           "id": "https://news.ycombinator.com/item?id=47312090",
@@ -13644,16 +13704,6 @@
           "wordCount": 2075,
           "title": "Communities are not fungible",
           "imageUrl": "https://www.joanwestenberg.com/content/images/size/w1200/2026/02/Gemini_Generated_Image_ml841fml841fml84.jpeg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46971516",
-          "author": "riffraff",
-          "description": "Article URL: https://www.cve.org/CVERecord?id=CVE-2026-20841\nComments URL: https://news.ycombinator.com/item?id=46971516\nPoints: 56\n# Comments: 18",
-          "link": "https://www.cve.org/CVERecord?id=CVE-2026-20841",
-          "publishedOn": "2026-02-11T06:15:33.000Z",
-          "wordCount": 24,
-          "title": "Windows Notepad App Remote Code Execution Vulnerability",
-          "imageUrl": null
         }
       ]
     }
