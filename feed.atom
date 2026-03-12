@@ -2,10 +2,36 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-03-12T20:42:02.114Z</updated>
+    <updated>2026-03-12T21:40:34.557Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[AI error jails innocent grandmother for months in North Dakota fraud case]]></title>
+        <id>https://news.ycombinator.com/item?id=47356968</id>
+        <link href="https://www.grandforksherald.com/news/north-dakota/ai-error-jails-innocent-grandmother-for-months-in-north-dakota-fraud-case"/>
+        <updated>2026-03-12T20:55:51.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.grandforksherald.com/news/north-dakota/ai-error-jails-innocent-grandmother-for-months-in-north-dakota-fraud-case
+Comments URL: https://news.ycombinator.com/item?id=47356968
+Points: 94
+# Comments: 40]]></summary>
+        <author>
+            <name>rectang</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[An old photo of a large BBS (2022)]]></title>
+        <id>https://news.ycombinator.com/item?id=47356017</id>
+        <link href="https://rachelbythebay.com/w/2022/01/26/swcbbs/"/>
+        <updated>2026-03-12T19:41:35.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://rachelbythebay.com/w/2022/01/26/swcbbs/
+Comments URL: https://news.ycombinator.com/item?id=47356017
+Points: 115
+# Comments: 79]]></summary>
+        <author>
+            <name>xbryanx</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[White House plan to break up iconic U.S. climate lab moves forward]]></title>
         <id>https://news.ycombinator.com/item?id=47355702</id>
@@ -43,6 +69,28 @@ Points: 73
 # Comments: 26]]></summary>
         <author>
             <name>GeekyBear</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Understudy – Teach a desktop agent by demonstrating a task once]]></title>
+        <id>https://news.ycombinator.com/item?id=47353957</id>
+        <link href="https://github.com/understudy-ai/understudy"/>
+        <updated>2026-03-12T17:04:35.000Z</updated>
+        <summary type="html"><![CDATA[I built Understudy because a lot of real work still spans native desktop apps, browser tabs, terminals, and chat tools. Most current agents live in only one of those surfaces.
+Understudy is a local-first desktop agent runtime that can operate GUI apps, browsers, shell tools, files, and messaging in one session. The part I'm most interested in feedback on is teach-by-demonstration: you do a task once, the agent records screen video + semantic events, extracts the intent rather than coordinates, and turns it into a reusable skill.
+Demo video: https://www.youtube.com/watch?v=3d5cRGnlb_0
+In the demo I teach it: Google Image search -> download a photo -> remove background in Pixelmator Pro -> export -> send via Telegram. Then I ask it to do the same for Elon Musk. The replay isn't a brittle macro: the published skill stores intent steps, route options, and GUI hints only as a fallback. In this example it can also prefer faster routes when they are available instead of repeating every GUI step.
+Current state: macOS only. Layers 1-2 are working today; Layers 3-4 are partial and still early.
+    npm install -g @understudy-ai/understudy
+    understudy wizard
+
+https://github.com/understudy-ai/understudy
+Happy to answer questions about the architecture, teach-by-demonstration, or the limits of the current implementation.
+Comments URL: https://news.ycombinator.com/item?id=47353957
+Points: 59
+# Comments: 18]]></summary>
+        <author>
+            <name>bayes-song</name>
         </author>
     </entry>
     <entry>
@@ -258,6 +306,19 @@ Points: 56
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[US private credit defaults hit record 9.2% in 2025, Fitch says]]></title>
+        <id>https://news.ycombinator.com/item?id=47349806</id>
+        <link href="https://www.marketscreener.com/news/us-private-credit-defaults-hit-record-9-2-in-2025-fitch-says-ce7e5fd8df8fff2d"/>
+        <updated>2026-03-12T12:44:45.000Z</updated>
+        <summary type="html"><![CDATA[See also: https://alternativecreditinvestor.com/2025/10/22/us-banks-ex...
+Comments URL: https://news.ycombinator.com/item?id=47349806
+Points: 152
+# Comments: 293]]></summary>
+        <author>
+            <name>JumpCrisscross</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[US banks' exposure to private credit hits $300B (2025)]]></title>
         <id>https://news.ycombinator.com/item?id=47349798</id>
         <link href="https://alternativecreditinvestor.com/2025/10/22/us-banks-exposure-to-private-credit-hits-300bn/"/>
@@ -281,6 +342,19 @@ Points: 51
 # Comments: 24]]></summary>
         <author>
             <name>thecloudlet</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Are LLM merge rates not getting better?]]></title>
+        <id>https://news.ycombinator.com/item?id=47349334</id>
+        <link href="https://entropicthoughts.com/no-swe-bench-improvement"/>
+        <updated>2026-03-12T11:49:05.000Z</updated>
+        <summary type="html"><![CDATA[Related: Many SWE-bench-Passing PRs would not be merged - https://news.ycombinator.com/item?id=47341645 - March 2026 (149 comments)
+Comments URL: https://news.ycombinator.com/item?id=47349334
+Points: 82
+# Comments: 90]]></summary>
+        <author>
+            <name>4diii</name>
         </author>
     </entry>
     <entry>
@@ -18327,32 +18401,6 @@ Points: 150
 # Comments: 55]]></summary>
         <author>
             <name>qcontinuum1</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[FAA Halts All Flights at El Paso Airport for 10 Days]]></title>
-        <id>https://news.ycombinator.com/item?id=46972610</id>
-        <link href="https://www.nytimes.com/2026/02/11/us/faa-el-paso-flight-restrictions.html"/>
-        <updated>2026-02-11T09:04:00.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.nytimes.com/2026/02/11/us/faa-el-paso-flight-restrictions.html
-Comments URL: https://news.ycombinator.com/item?id=46972610
-Points: 191
-# Comments: 384]]></summary>
-        <author>
-            <name>edward</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A Cosmic Miracle: A Remarkably Luminous Galaxy at z=14.44 Confirmed with JWST]]></title>
-        <id>https://news.ycombinator.com/item?id=46972471</id>
-        <link href="https://astro.theoj.org/article/156033-a-cosmic-miracle-a-remarkably-luminous-galaxy-at-_z_-sub-spec-sub-14-44-confirmed-with-jwst"/>
-        <updated>2026-02-11T08:43:58.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://astro.theoj.org/article/156033-a-cosmic-miracle-a-remarkably-luminous-galaxy-at-_z_-sub-spec-sub-14-44-confirmed-with-jwst
-Comments URL: https://news.ycombinator.com/item?id=46972471
-Points: 58
-# Comments: 26]]></summary>
-        <author>
-            <name>yread</name>
         </author>
     </entry>
 </feed>

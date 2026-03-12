@@ -6,6 +6,26 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=47356968",
+          "author": "rectang",
+          "description": "Article URL: https://www.grandforksherald.com/news/north-dakota/ai-error-jails-innocent-grandmother-for-months-in-north-dakota-fraud-case\nComments URL: https://news.ycombinator.com/item?id=47356968\nPoints: 94\n# Comments: 40",
+          "link": "https://www.grandforksherald.com/news/north-dakota/ai-error-jails-innocent-grandmother-for-months-in-north-dakota-fraud-case",
+          "publishedOn": "2026-03-12T20:55:51.000Z",
+          "wordCount": 13553,
+          "title": "AI error jails innocent grandmother for months in North Dakota fraud case",
+          "imageUrl": "https://cdn.forumcomm.com/dims4/default/ebb8316/2147483647/strip/true/crop/1280x720+0+0/resize/1895x1066!/quality/90/?url=https%3A%2F%2Fforum-communications-production-web.s3.us-west-2.amazonaws.com%2Fbrightspot%2Fce%2F45%2F16d552fb49c78f0fa3b370e2dd0f%2Fmattwebpics-still001.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47356017",
+          "author": "xbryanx",
+          "description": "Article URL: https://rachelbythebay.com/w/2022/01/26/swcbbs/\nComments URL: https://news.ycombinator.com/item?id=47356017\nPoints: 115\n# Comments: 79",
+          "link": "https://rachelbythebay.com/w/2022/01/26/swcbbs/",
+          "publishedOn": "2026-03-12T19:41:35.000Z",
+          "wordCount": null,
+          "title": "An old photo of a large BBS (2022)",
+          "imageUrl": null
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=47355702",
           "author": "robtherobber",
           "description": "Article URL: https://www.science.org/content/article/white-house-plan-break-iconic-u-s-climate-lab-moves-forward\nComments URL: https://news.ycombinator.com/item?id=47355702\nPoints: 99\n# Comments: 51",
@@ -34,6 +54,16 @@
           "wordCount": 2498,
           "title": "Apple's MacBook Neo makes repairs easier and cheaper than other MacBooks",
           "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2026/03/IMG_3655-1152x648.jpeg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47353957",
+          "author": "bayes-song",
+          "description": "I built Understudy because a lot of real work still spans native desktop apps, browser tabs, terminals, and chat tools. Most current agents live in only one of those surfaces.\nUnderstudy is a local-first desktop agent runtime that can operate GUI apps, browsers, shell tools, files, and messaging in one session. The part I'm most interested in feedback on is teach-by-demonstration: you do a task once, the agent records screen video + semantic events, extracts the intent rather than coordinates, and turns it into a reusable skill.\nDemo video: https://www.youtube.com/watch?v=3d5cRGnlb_0\nIn the demo I teach it: Google Image search -> download a photo -> remove background in Pixelmator Pro -> export -> send via Telegram. Then I ask it to do the same for Elon Musk. The replay isn't a brittle macro: the published skill stores intent steps, route options, and GUI hints only as a fallback. In this example it can also prefer faster routes when they are available instead of repeating every GUI step.\nCurrent state: macOS only. Layers 1-2 are working today; Layers 3-4 are partial and still early.\n    npm install -g @understudy-ai/understudy\n    understudy wizard\n\nhttps://github.com/understudy-ai/understudy\nHappy to answer questions about the architecture, teach-by-demonstration, or the limits of the current implementation.\nComments URL: https://news.ycombinator.com/item?id=47353957\nPoints: 59\n# Comments: 18",
+          "link": "https://github.com/understudy-ai/understudy",
+          "publishedOn": "2026-03-12T17:04:35.000Z",
+          "wordCount": 9996,
+          "title": "Show HN: Understudy – Teach a desktop agent by demonstrating a task once",
+          "imageUrl": "https://opengraph.githubassets.com/6957f2b89369b5975c763dd3cd1578e4d3efca9081f1cc14758383e7270b2c7c/understudy-ai/understudy"
         },
         {
           "id": "https://news.ycombinator.com/item?id=47353558",
@@ -186,6 +216,16 @@
           "imageUrl": "https://yale-threesixty.transforms.svdcdn.com/production/Chile-Mushroom_SPUN-HEADER.jpg?w=1200&q=60&auto=format&fit=max&dm=1773254216&s=054fdd66dd62a4730d99c4548e4ebe7b"
         },
         {
+          "id": "https://news.ycombinator.com/item?id=47349806",
+          "author": "JumpCrisscross",
+          "description": "See also: https://alternativecreditinvestor.com/2025/10/22/us-banks-ex...\nComments URL: https://news.ycombinator.com/item?id=47349806\nPoints: 152\n# Comments: 293",
+          "link": "https://www.marketscreener.com/news/us-private-credit-defaults-hit-record-9-2-in-2025-fitch-says-ce7e5fd8df8fff2d",
+          "publishedOn": "2026-03-12T12:44:45.000Z",
+          "wordCount": 2541,
+          "title": "US private credit defaults hit record 9.2% in 2025, Fitch says",
+          "imageUrl": "https://cdn.zonebourse.com/static/resize/0/0//images/reuters/2026-02/2026-02-13T162230Z_1_LYNXMPEM1C106_RTROPTP_4_DOLLAR-HEDGING-BNY.JPG"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=47349798",
           "author": "JumpCrisscross",
           "description": "Article URL: https://alternativecreditinvestor.com/2025/10/22/us-banks-exposure-to-private-credit-hits-300bn/\nComments URL: https://news.ycombinator.com/item?id=47349798\nPoints: 83\n# Comments: 43",
@@ -204,6 +244,16 @@
           "wordCount": 2661,
           "title": "Emacs internals: Tagged pointers vs. C++ std:variant and LLVM (Part 3)",
           "imageUrl": "https://thecloudlet.github.io/favicon.svg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47349334",
+          "author": "4diii",
+          "description": "Related: Many SWE-bench-Passing PRs would not be merged - https://news.ycombinator.com/item?id=47341645 - March 2026 (149 comments)\nComments URL: https://news.ycombinator.com/item?id=47349334\nPoints: 82\n# Comments: 90",
+          "link": "https://entropicthoughts.com/no-swe-bench-improvement",
+          "publishedOn": "2026-03-12T11:49:05.000Z",
+          "wordCount": 595,
+          "title": "Are LLM merge rates not getting better?",
+          "imageUrl": null
         },
         {
           "id": "https://news.ycombinator.com/item?id=47349277",
@@ -13704,26 +13754,6 @@
           "wordCount": null,
           "title": "Chrome extensions spying on 37M users' browsing data",
           "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46972610",
-          "author": "edward",
-          "description": "Article URL: https://www.nytimes.com/2026/02/11/us/faa-el-paso-flight-restrictions.html\nComments URL: https://news.ycombinator.com/item?id=46972610\nPoints: 191\n# Comments: 384",
-          "link": "https://www.nytimes.com/2026/02/11/us/faa-el-paso-flight-restrictions.html",
-          "publishedOn": "2026-02-11T09:04:00.000Z",
-          "wordCount": null,
-          "title": "FAA Halts All Flights at El Paso Airport for 10 Days",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46972471",
-          "author": "yread",
-          "description": "Article URL: https://astro.theoj.org/article/156033-a-cosmic-miracle-a-remarkably-luminous-galaxy-at-_z_-sub-spec-sub-14-44-confirmed-with-jwst\nComments URL: https://news.ycombinator.com/item?id=46972471\nPoints: 58\n# Comments: 26",
-          "link": "https://astro.theoj.org/article/156033-a-cosmic-miracle-a-remarkably-luminous-galaxy-at-_z_-sub-spec-sub-14-44-confirmed-with-jwst",
-          "publishedOn": "2026-02-11T08:43:58.000Z",
-          "wordCount": 7839,
-          "title": "A Cosmic Miracle: A Remarkably Luminous Galaxy at z=14.44 Confirmed with JWST",
-          "imageUrl": "https://s3.amazonaws.com/production.scholastica/article/156033/medium/naidu.jpg?1769755313"
         }
       ]
     }
