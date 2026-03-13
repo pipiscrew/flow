@@ -56,6 +56,16 @@
           "imageUrl": null
         },
         {
+          "id": "https://news.ycombinator.com/item?id=47355410",
+          "author": "vshah1016",
+          "description": "Hey HN — I’m Veer and my cofounder is Suryaa. We're building Cumulus Labs (YC W26), and we're releasing our latest product IonRouter (https://ionrouter.io/), an inference API for open-source and fine tuned models. You swap in our base URL, keep your existing OpenAI client code, and get access to any model (open source or finetuned to you) running on our own inference engine.\nThe problem we kept running into: every inference provider is either fast-but-expensive (Together, Fireworks — you pay for always-on GPUs) or cheap-but-DIY (Modal, RunPod — you configure vLLM yourself and deal with slow cold starts). Neither felt right for teams that just want to ship.\nSuryaa spent years building GPU orchestration infrastructure at TensorDock and production systems at Palantir. I led ML infrastructure …",
+          "link": "https://ionrouter.io/",
+          "publishedOn": "2026-03-12T18:52:36.000Z",
+          "wordCount": 2011,
+          "title": "Launch HN: IonRouter (YC W26) – High-throughput, low-cost inference",
+          "imageUrl": null
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=47354098",
           "author": "eieio",
           "description": "Article URL: https://parametricavocado.itch.io/amen-sorting\nComments URL: https://news.ycombinator.com/item?id=47354098\nPoints: 100\n# Comments: 42",
@@ -224,6 +234,16 @@
           "wordCount": 2265,
           "title": "Show HN: We analyzed 1,573 Claude Code sessions to see how AI agents work",
           "imageUrl": "https://opengraph.githubassets.com/511b1e41659ccc2b72e62617b43490f281fb6ecc76f5eec625fa48b22c7874e7/obsessiondb/rudel"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47350407",
+          "author": "aminerj",
+          "description": "I'm the author. Repo is here: https://github.com/aminrj-labs/mcp-attack-labs/tree/main/lab...\nThe lab runs entirely on LM Studio + \nQwen2.5-7B-Instruct (Q4_K_M) + ChromaDB — no cloud APIs, no GPU \nrequired, no API keys.\nFrom zero to seeing the poisoning succeed: git clone, make setup, \nmake attack1. About 10 minutes.\nTwo things worth flagging upfront:\n- The 95% success rate is against a 5-document corpus (best case for \n  the attacker). In a mature collection you need proportionally more \n  poisoned docs to dominate retrieval — but the mechanism is the same.\n- Embedding anomaly detection at ingestion was the biggest surprise: \n  95% → 20% as a standalone control, outperforming all three \n  generation-phase defenses combined. It runs on embeddings your \n  pipeline already produces — no additional model.\nAll five layers combined: 10% residual.\nHappy to discuss methodology, the PoisonedRAG comparison, or anything \nthat looks off.\nComments URL: https://news.ycombinator.com/item?id=47350407\nPoints: 73\n# Comments: 26",
+          "link": "https://aminrj.com/posts/rag-document-poisoning/",
+          "publishedOn": "2026-03-12T13:40:36.000Z",
+          "wordCount": 3093,
+          "title": "Document poisoning in RAG systems: How attackers corrupt AI's sources",
+          "imageUrl": "https://aminrj.com/assets/media/ai-security/document-poisoning-in-rag-systems.png"
         },
         {
           "id": "https://news.ycombinator.com/item?id=47350136",
@@ -13704,26 +13724,6 @@
           "wordCount": 1328,
           "title": "AI-First Company Memos",
           "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46974853",
-          "author": "CuriouslyC",
-          "description": "Article URL: https://chat.z.ai/\nComments URL: https://news.ycombinator.com/item?id=46974853\nPoints: 78\n# Comments: 48",
-          "link": "https://chat.z.ai/",
-          "publishedOn": "2026-02-11T13:42:16.000Z",
-          "wordCount": 1045,
-          "title": "GLM5 Released on Z.ai Platform",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46974515",
-          "author": "jared_stewart",
-          "description": "I've been building a tool that changes how LLM coding agents explore codebases, and I wanted to share it along with some early observations.\nTypically claude code globs directories, greps for patterns, and reads files with minimal guidance. It works in kind of the same way you'd learn to navigate a city by walking every street. You'll eventually build a mental map, but claude never does - at least not any that persists across different contexts.\nThe Recursive Language Models paper from Zhang, Kraska, and Khattab at MIT CSAIL introduced a cleaner framing. Instead of cramming everything into context, the model gets a searchable environment. The model can then query just for what it needs and can drill deeper where needed.\ncoderlm is my implementation of that idea for codebases. A Rust server…",
-          "link": "https://github.com/JaredStewart/coderlm/blob/main/server/REPL_to_API.md",
-          "publishedOn": "2026-02-11T13:10:23.000Z",
-          "wordCount": 7023,
-          "title": "Show HN: CodeRLM – Tree-sitter-backed code indexing for LLM agents",
-          "imageUrl": "https://opengraph.githubassets.com/dd3928e42a8c0e8032e95c23d98c0b59dcae7cb616589f38e9d487f7d41401d5/JaredStewart/coderlm"
         }
       ]
     }

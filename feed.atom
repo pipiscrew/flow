@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-03-12T23:34:34.818Z</updated>
+    <updated>2026-03-13T02:38:32.340Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
@@ -69,6 +69,18 @@ Points: 99
 # Comments: 51]]></summary>
         <author>
             <name>robtherobber</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Launch HN: IonRouter (YC W26) – High-throughput, low-cost inference]]></title>
+        <id>https://news.ycombinator.com/item?id=47355410</id>
+        <link href="https://ionrouter.io/"/>
+        <updated>2026-03-12T18:52:36.000Z</updated>
+        <summary type="html"><![CDATA[Hey HN — I’m Veer and my cofounder is Suryaa. We're building Cumulus Labs (YC W26), and we're releasing our latest product IonRouter (https://ionrouter.io/), an inference API for open-source and fine tuned models. You swap in our base URL, keep your existing OpenAI client code, and get access to any model (open source or finetuned to you) running on our own inference engine.
+The problem we kept running into: every inference provider is either fast-but-expensive (Together, Fireworks — you pay for always-on GPUs) or cheap-but-DIY (Modal, RunPod — you configure vLLM yourself and deal with slow cold starts). Neither felt right for teams that just want to ship.
+Suryaa spent years building GPU orchestration infrastructure at TensorDock and production systems at Palantir. I led ML infrastructure …]]></summary>
+        <author>
+            <name>vshah1016</name>
         </author>
     </entry>
     <entry>
@@ -316,6 +328,35 @@ Points: 51
 # Comments: 28]]></summary>
         <author>
             <name>keks0r</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Document poisoning in RAG systems: How attackers corrupt AI's sources]]></title>
+        <id>https://news.ycombinator.com/item?id=47350407</id>
+        <link href="https://aminrj.com/posts/rag-document-poisoning/"/>
+        <updated>2026-03-12T13:40:36.000Z</updated>
+        <summary type="html"><![CDATA[I'm the author. Repo is here: https://github.com/aminrj-labs/mcp-attack-labs/tree/main/lab...
+The lab runs entirely on LM Studio + 
+Qwen2.5-7B-Instruct (Q4_K_M) + ChromaDB — no cloud APIs, no GPU 
+required, no API keys.
+From zero to seeing the poisoning succeed: git clone, make setup, 
+make attack1. About 10 minutes.
+Two things worth flagging upfront:
+- The 95% success rate is against a 5-document corpus (best case for 
+  the attacker). In a mature collection you need proportionally more 
+  poisoned docs to dominate retrieval — but the mechanism is the same.
+- Embedding anomaly detection at ingestion was the biggest surprise: 
+  95% → 20% as a standalone control, outperforming all three 
+  generation-phase defenses combined. It runs on embeddings your 
+  pipeline already produces — no additional model.
+All five layers combined: 10% residual.
+Happy to discuss methodology, the PoisonedRAG comparison, or anything 
+that looks off.
+Comments URL: https://news.ycombinator.com/item?id=47350407
+Points: 73
+# Comments: 26]]></summary>
+        <author>
+            <name>aminerj</name>
         </author>
     </entry>
     <entry>
@@ -18336,32 +18377,6 @@ Points: 85
 # Comments: 135]]></summary>
         <author>
             <name>bobismyuncle</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GLM5 Released on Z.ai Platform]]></title>
-        <id>https://news.ycombinator.com/item?id=46974853</id>
-        <link href="https://chat.z.ai/"/>
-        <updated>2026-02-11T13:42:16.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://chat.z.ai/
-Comments URL: https://news.ycombinator.com/item?id=46974853
-Points: 78
-# Comments: 48]]></summary>
-        <author>
-            <name>CuriouslyC</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: CodeRLM – Tree-sitter-backed code indexing for LLM agents]]></title>
-        <id>https://news.ycombinator.com/item?id=46974515</id>
-        <link href="https://github.com/JaredStewart/coderlm/blob/main/server/REPL_to_API.md"/>
-        <updated>2026-02-11T13:10:23.000Z</updated>
-        <summary type="html"><![CDATA[I've been building a tool that changes how LLM coding agents explore codebases, and I wanted to share it along with some early observations.
-Typically claude code globs directories, greps for patterns, and reads files with minimal guidance. It works in kind of the same way you'd learn to navigate a city by walking every street. You'll eventually build a mental map, but claude never does - at least not any that persists across different contexts.
-The Recursive Language Models paper from Zhang, Kraska, and Khattab at MIT CSAIL introduced a cleaner framing. Instead of cramming everything into context, the model gets a searchable environment. The model can then query just for what it needs and can drill deeper where needed.
-coderlm is my implementation of that idea for codebases. A Rust server…]]></summary>
-        <author>
-            <name>jared_stewart</name>
         </author>
     </entry>
 </feed>

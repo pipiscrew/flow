@@ -151,6 +151,27 @@ Points: 99
                       <details
                         class="article-expander"
                         data-action="toggle-native-accordion"
+                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;47355410"
+                        open
+                      >
+                        <summary class="article-expander__title">Launch HN: IonRouter (YC W26) – High-throughput, low-cost inference</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://ionrouter.io/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Hey HN — I’m Veer and my cofounder is Suryaa. We&#x27;re building Cumulus Labs (YC W26), and we&#x27;re releasing our latest product IonRouter (https://ionrouter.io/), an inference API for open-source and fine tuned models. You swap in our base URL, keep your existing OpenAI client code, and get access to any model (open source or finetuned to you) running on our own inference engine.
+The problem we kept running into: every inference provider is either fast-but-expensive (Together, Fireworks — you pay for always-on GPUs) or cheap-but-DIY (Modal, RunPod — you configure vLLM yourself and deal with slow cold starts). Neither felt right for teams that just want to ship.
+Suryaa spent years building GPU orchestration infrastructure at TensorDock and production systems at Palantir. I led ML infrastructure …</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;7
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
                         data-accordion-key="https://news.ycombinator.com/item?id&#x3D;47354098"
                         open
                       >
@@ -554,6 +575,45 @@ Comments URL: https://news.ycombinator.com/item?id&#x3D;47350416
 Points: 51
 # Comments: 28</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;8
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;47350407"
+                        open
+                      >
+                        <summary class="article-expander__title">Document poisoning in RAG systems: How attackers corrupt AI&#x27;s sources</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://aminrj.com/posts/rag-document-poisoning/">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://aminrj.com/assets/media/ai-security/document-poisoning-in-rag-systems.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>I&#x27;m the author. Repo is here: https://github.com/aminrj-labs/mcp-attack-labs/tree/main/lab...
+The lab runs entirely on LM Studio + 
+Qwen2.5-7B-Instruct (Q4_K_M) + ChromaDB — no cloud APIs, no GPU 
+required, no API keys.
+From zero to seeing the poisoning succeed: git clone, make setup, 
+make attack1. About 10 minutes.
+Two things worth flagging upfront:
+- The 95% success rate is against a 5-document corpus (best case for 
+  the attacker). In a mature collection you need proportionally more 
+  poisoned docs to dominate retrieval — but the mechanism is the same.
+- Embedding anomaly detection at ingestion was the biggest surprise: 
+  95% → 20% as a standalone control, outperforming all three 
+  generation-phase defenses combined. It runs on embeddings your 
+  pipeline already produces — no additional model.
+All five layers combined: 10% residual.
+Happy to discuss methodology, the PoisonedRAG comparison, or anything 
+that looks off.
+Comments URL: https://news.ycombinator.com/item?id&#x3D;47350407
+Points: 73
+# Comments: 26</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;10
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -31975,51 +32035,6 @@ Points: 85
                         </a>
                       </details>
                     </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;46974853"
-                        open
-                      >
-                        <summary class="article-expander__title">GLM5 Released on Z.ai Platform</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://chat.z.ai/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Article URL: https://chat.z.ai/
-Comments URL: https://news.ycombinator.com/item?id&#x3D;46974853
-Points: 78
-# Comments: 48</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;3
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;46974515"
-                        open
-                      >
-                        <summary class="article-expander__title">Show HN: CodeRLM – Tree-sitter-backed code indexing for LLM agents</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://github.com/JaredStewart/coderlm/blob/main/server/REPL_to_API.md">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://opengraph.githubassets.com/dd3928e42a8c0e8032e95c23d98c0b59dcae7cb616589f38e9d487f7d41401d5/JaredStewart/coderlm" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>I&#x27;ve been building a tool that changes how LLM coding agents explore codebases, and I wanted to share it along with some early observations.
-Typically claude code globs directories, greps for patterns, and reads files with minimal guidance. It works in kind of the same way you&#x27;d learn to navigate a city by walking every street. You&#x27;ll eventually build a mental map, but claude never does - at least not any that persists across different contexts.
-The Recursive Language Models paper from Zhang, Kraska, and Khattab at MIT CSAIL introduced a cleaner framing. Instead of cramming everything into context, the model gets a searchable environment. The model can then query just for what it needs and can drill deeper where needed.
-coderlm is my implementation of that idea for codebases. A Rust server…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;23
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
                 </section>
               </section>
             </li>
@@ -32027,8 +32042,8 @@ coderlm is my implementation of that idea for codebases. A Rust server…</span>
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/pipiscrew/flow/actions/runs/23028934316">
-        <time id="build-timestamp" datetime="2026-03-12T23:34:34.749Z">2026-03-12T23:34:34.749Z</time>
+      <a class="footer-link" href="https://github.com/pipiscrew/flow/actions/runs/23033713267">
+        <time id="build-timestamp" datetime="2026-03-13T02:38:32.283Z">2026-03-13T02:38:32.283Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
