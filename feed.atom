@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-03-13T22:34:04.383Z</updated>
+    <updated>2026-03-13T23:35:23.893Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
@@ -71,6 +71,27 @@ Points: 54
 # Comments: 46]]></summary>
         <author>
             <name>medhir</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Context Gateway – Compress agent context before it hits the LLM]]></title>
+        <id>https://news.ycombinator.com/item?id=47367526</id>
+        <link href="https://github.com/Compresr-ai/Context-Gateway"/>
+        <updated>2026-03-13T17:58:22.000Z</updated>
+        <summary type="html"><![CDATA[We built an open-source proxy that sits between coding agents (Claude Code, OpenClaw, etc.) and the LLM, compressing tool outputs before they enter the context window.
+Demo: https://www.youtube.com/watch?v=-vFZ6MPrwjw#t=9s.
+Motivation: Agents are terrible at managing context. A single file read or grep can dump thousands of tokens into the window, most of it noise. This isn't just expensive — it actively degrades quality. Long-context benchmarks consistently show steep accuracy drops as context grows (OpenAI's GPT-5.4 eval goes from 97.2% at 32k to 36.6% at 1M https://openai.com/index/introducing-gpt-5-4/).
+Our solution uses small language models (SLMs): we look at model internals and train classifiers to detect which parts of the context carry the most signal. When a tool returns output, we compress it conditioned on the intent of the tool call—so if the agent called grep looking for error handling patterns, the SLM keeps the relevant matches and strips the rest.
+If the model later needs something we removed, it calls expand() to fetch the original output. We also do background compaction at 85% window capacity and lazy-load tool descriptions so the model only sees tools relevant to the current step.
+The proxy also gives you spending caps, a dashboard for tracking running and past sessions, and Slack pings when an agent is sitting there waiting on you.
+Repo is here: https://github.com/Compresr-ai/Context-Gateway. You can try it with:
+  curl -fsSL https://compresr.ai/api/install | sh
+
+Comments URL: https://news.ycombinator.com/item?id=47367526
+Points: 55
+# Comments: 37]]></summary>
+        <author>
+            <name>ivzak</name>
         </author>
     </entry>
     <entry>
@@ -18483,19 +18504,6 @@ Points: 311
 # Comments: 245]]></summary>
         <author>
             <name>wrxd</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Byte magazine artist Robert Tinney, who illustrated the birth of PCs, dies at 78]]></title>
-        <id>https://news.ycombinator.com/item?id=46987425</id>
-        <link href="https://arstechnica.com/gadgets/2026/02/byte-magazine-artist-robert-tinney-who-illustrated-the-birth-of-pcs-dies-at-78/"/>
-        <updated>2026-02-12T11:26:15.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://arstechnica.com/gadgets/2026/02/byte-magazine-artist-robert-tinney-who-illustrated-the-birth-of-pcs-dies-at-78/
-Comments URL: https://news.ycombinator.com/item?id=46987425
-Points: 55
-# Comments: 6]]></summary>
-        <author>
-            <name>rbanffy</name>
         </author>
     </entry>
 </feed>
