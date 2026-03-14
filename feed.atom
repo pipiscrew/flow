@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-03-14T19:33:03.071Z</updated>
+    <updated>2026-03-14T20:36:10.083Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
@@ -33,6 +33,19 @@ Points: 184
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[UBI as a productivity dividend]]></title>
+        <id>https://news.ycombinator.com/item?id=47378399</id>
+        <link href="https://scottsantens.substack.com/p/universal-basic-income-is-your-productivity"/>
+        <updated>2026-03-14T16:37:02.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://scottsantens.substack.com/p/universal-basic-income-is-your-productivity
+Comments URL: https://news.ycombinator.com/item?id=47378399
+Points: 79
+# Comments: 133]]></summary>
+        <author>
+            <name>2noame</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[NMAP in the Movies]]></title>
         <id>https://news.ycombinator.com/item?id=47378268</id>
         <link href="https://nmap.org/movies/"/>
@@ -43,6 +56,19 @@ Points: 93
 # Comments: 12]]></summary>
         <author>
             <name>homebrewer</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[An ode to bzip]]></title>
+        <id>https://news.ycombinator.com/item?id=47377998</id>
+        <link href="https://purplesyringa.moe/blog/an-ode-to-bzip/"/>
+        <updated>2026-03-14T16:01:23.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://purplesyringa.moe/blog/an-ode-to-bzip/
+Comments URL: https://news.ycombinator.com/item?id=47377998
+Points: 58
+# Comments: 30]]></summary>
+        <author>
+            <name>signa11</name>
         </author>
     </entry>
     <entry>
@@ -82,6 +108,33 @@ Points: 85
 # Comments: 56]]></summary>
         <author>
             <name>bilsbie</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: GitAgent – An open standard that turns any Git repo into an AI agent]]></title>
+        <id>https://news.ycombinator.com/item?id=47376584</id>
+        <link href="https://www.gitagent.sh/"/>
+        <updated>2026-03-14T13:41:25.000Z</updated>
+        <summary type="html"><![CDATA[We built GitAgent because we kept seeing the same problem: every agent framework defines agents differently, and switching frameworks means rewriting everything.
+GitAgent is a spec that defines an AI agent as files in a git repo.
+Three core files — agent.yaml (config), SOUL.md (personality/instructions), and SKILL.md (capabilities) — and you get a portable agent definition that exports to Claude Code, OpenAI Agents SDK, CrewAI, Google ADK, LangChain, and others.
+What you get for free by being git-native:
+1. Version control for agent behavior (roll back a bad prompt like you'd revert a bad commit)
+2. Branching for environment promotion (dev → staging → main)
+3. Human-in-the-loop via PRs (agent learns a skill → opens a branch → human reviews before merge)
+4. Audit trail via git blame and git diff
+5. Agent forking and remixing (fork a public agent, customize it, PR improvements back)
+6. CI/CD with GitAgent validate in GitHub Actions
+The CLI lets you run any agent repo directly:
+npx @open-gitagent/gitagent run -r https://github.com/user/agent -a claude
+The compliance layer is optional, but there if you need it — risk tiers, regulatory mappings (FINRA, SEC, SR 11-7), and audit reports via GitAgent audit.
+Spec is at https://gitagent.sh, code is on GitHub.
+Would love feedback on the schema design and what adapters people would want next.
+Comments URL: https://news.ycombinator.com/item?id=47376584
+Points: 65
+# Comments: 5]]></summary>
+        <author>
+            <name>sivasurend</name>
         </author>
     </entry>
     <entry>
@@ -18236,45 +18289,6 @@ Points: 94
 # Comments: 53]]></summary>
         <author>
             <name>walterbell</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[CSS-Doodle]]></title>
-        <id>https://news.ycombinator.com/item?id=47000164</id>
-        <link href="https://css-doodle.com/"/>
-        <updated>2026-02-13T08:02:23.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://css-doodle.com/
-Comments URL: https://news.ycombinator.com/item?id=47000164
-Points: 57
-# Comments: 3]]></summary>
-        <author>
-            <name>dsego</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[MinIO repository is no longer maintained]]></title>
-        <id>https://news.ycombinator.com/item?id=47000041</id>
-        <link href="https://github.com/minio/minio/commit/7aac2a2c5b7c882e68c1ce017d8256be2feea27f"/>
-        <updated>2026-02-13T07:46:03.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://github.com/minio/minio/commit/7aac2a2c5b7c882e68c1ce017d8256be2feea27f
-Comments URL: https://news.ycombinator.com/item?id=47000041
-Points: 99
-# Comments: 39]]></summary>
-        <author>
-            <name>psvmcc</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Expensively Quadratic: The LLM Agent Cost Curve]]></title>
-        <id>https://news.ycombinator.com/item?id=47000034</id>
-        <link href="https://blog.exe.dev/expensively-quadratic"/>
-        <updated>2026-02-13T07:44:50.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://blog.exe.dev/expensively-quadratic
-Comments URL: https://news.ycombinator.com/item?id=47000034
-Points: 85
-# Comments: 50]]></summary>
-        <author>
-            <name>luu</name>
         </author>
     </entry>
 </feed>

@@ -26,6 +26,16 @@
           "imageUrl": "https://mitsloan.mit.edu/sites/default/files/styles/og_image/public/2026-03/erased-numbers.jpg.webp?h=7691f918&itok=jUQMh_Ax"
         },
         {
+          "id": "https://news.ycombinator.com/item?id=47378399",
+          "author": "2noame",
+          "description": "Article URL: https://scottsantens.substack.com/p/universal-basic-income-is-your-productivity\nComments URL: https://news.ycombinator.com/item?id=47378399\nPoints: 79\n# Comments: 133",
+          "link": "https://scottsantens.substack.com/p/universal-basic-income-is-your-productivity",
+          "publishedOn": "2026-03-14T16:37:02.000Z",
+          "wordCount": null,
+          "title": "UBI as a productivity dividend",
+          "imageUrl": null
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=47378268",
           "author": "homebrewer",
           "description": "Article URL: https://nmap.org/movies/\nComments URL: https://news.ycombinator.com/item?id=47378268\nPoints: 93\n# Comments: 12",
@@ -34,6 +44,16 @@
           "wordCount": 2474,
           "title": "NMAP in the Movies",
           "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47377998",
+          "author": "signa11",
+          "description": "Article URL: https://purplesyringa.moe/blog/an-ode-to-bzip/\nComments URL: https://news.ycombinator.com/item?id=47377998\nPoints: 58\n# Comments: 30",
+          "link": "https://purplesyringa.moe/blog/an-ode-to-bzip/",
+          "publishedOn": "2026-03-14T16:01:23.000Z",
+          "wordCount": 2120,
+          "title": "An ode to bzip",
+          "imageUrl": "https://purplesyringa.moe/blog/an-ode-to-bzip/og.png"
         },
         {
           "id": "https://news.ycombinator.com/item?id=47377907",
@@ -64,6 +84,16 @@
           "wordCount": 2260,
           "title": "Montana passes Right to Compute act (2025)",
           "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47376584",
+          "author": "sivasurend",
+          "description": "We built GitAgent because we kept seeing the same problem: every agent framework defines agents differently, and switching frameworks means rewriting everything.\nGitAgent is a spec that defines an AI agent as files in a git repo.\nThree core files — agent.yaml (config), SOUL.md (personality/instructions), and SKILL.md (capabilities) — and you get a portable agent definition that exports to Claude Code, OpenAI Agents SDK, CrewAI, Google ADK, LangChain, and others.\nWhat you get for free by being git-native:\n1. Version control for agent behavior (roll back a bad prompt like you'd revert a bad commit)\n2. Branching for environment promotion (dev → staging → main)\n3. Human-in-the-loop via PRs (agent learns a skill → opens a branch → human reviews before merge)\n4. Audit trail via git blame and git diff\n5. Agent forking and remixing (fork a public agent, customize it, PR improvements back)\n6. CI/CD with GitAgent validate in GitHub Actions\nThe CLI lets you run any agent repo directly:\nnpx @open-gitagent/gitagent run -r https://github.com/user/agent -a claude\nThe compliance layer is optional, but there if you need it — risk tiers, regulatory mappings (FINRA, SEC, SR 11-7), and audit reports via GitAgent audit.\nSpec is at https://gitagent.sh, code is on GitHub.\nWould love feedback on the schema design and what adapters people would want next.\nComments URL: https://news.ycombinator.com/item?id=47376584\nPoints: 65\n# Comments: 5",
+          "link": "https://www.gitagent.sh/",
+          "publishedOn": "2026-03-14T13:41:25.000Z",
+          "wordCount": 395,
+          "title": "Show HN: GitAgent – An open standard that turns any Git repo into an AI agent",
+          "imageUrl": "https://gitagent.sh/og-banner-2.png"
         },
         {
           "id": "https://news.ycombinator.com/item?id=47375764",
@@ -13614,36 +13644,6 @@
           "wordCount": 3262,
           "title": "Babylon 5 is now free to watch on YouTube",
           "imageUrl": "https://cordcuttersnews.com/wp-content/uploads/2017/04/babylon-5-station.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47000164",
-          "author": "dsego",
-          "description": "Article URL: https://css-doodle.com/\nComments URL: https://news.ycombinator.com/item?id=47000164\nPoints: 57\n# Comments: 3",
-          "link": "https://css-doodle.com/",
-          "publishedOn": "2026-02-13T08:02:23.000Z",
-          "wordCount": 4436,
-          "title": "CSS-Doodle",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47000041",
-          "author": "psvmcc",
-          "description": "Article URL: https://github.com/minio/minio/commit/7aac2a2c5b7c882e68c1ce017d8256be2feea27f\nComments URL: https://news.ycombinator.com/item?id=47000041\nPoints: 99\n# Comments: 39",
-          "link": "https://github.com/minio/minio/commit/7aac2a2c5b7c882e68c1ce017d8256be2feea27f",
-          "publishedOn": "2026-02-13T07:46:03.000Z",
-          "wordCount": 1810,
-          "title": "MinIO repository is no longer maintained",
-          "imageUrl": "https://opengraph.githubassets.com/4d04dd565f739cacbb884cb2ba570083d424e17a2c653b4f85eece49c304834d/minio/minio/commit/7aac2a2c5b7c882e68c1ce017d8256be2feea27f"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47000034",
-          "author": "luu",
-          "description": "Article URL: https://blog.exe.dev/expensively-quadratic\nComments URL: https://news.ycombinator.com/item?id=47000034\nPoints: 85\n# Comments: 50",
-          "link": "https://blog.exe.dev/expensively-quadratic",
-          "publishedOn": "2026-02-13T07:44:50.000Z",
-          "wordCount": 1520,
-          "title": "Expensively Quadratic: The LLM Agent Cost Curve",
-          "imageUrl": null
         }
       ]
     }
