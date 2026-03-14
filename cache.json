@@ -196,6 +196,16 @@
           "imageUrl": "https://www.techdirt.com/wp-content/themes/techdirt/assets/images/td-rect-logo-white.png"
         },
         {
+          "id": "https://news.ycombinator.com/item?id=47366011",
+          "author": "CMLewis",
+          "description": "Hi HN, we’re Lewis and Edgar, building Captain to simplify unstructured data search (https://runcaptain.com). Captain automates the building and maintenance of file-based RAG pipelines. It indexes cloud storage like S3 and GCS, plus SaaS sources like Google Drive. There’s a quick walkthrough at https://youtu.be/EIQkwAsIPmc.\nWe also put up this demo site called “Ask PG’s Essays” which lets you ask/search the corpus of pg’s essays, to get a feel for how it works: https://pg.runcaptain.com. The RAG part of this took Captain about 3 minutes to set up.\nHere are some sample prompts to get a feel for the experience:\n“When do we do things that don't scale? When should we be more cautious?” \nhttps://pg.runcaptain.com/?q=When%20do%20we%20do%20things%20...\n“Give me some advice, I'm fundraising” \nhttp…",
+          "link": "https://www.runcaptain.com/",
+          "publishedOn": "2026-03-13T15:45:33.000Z",
+          "wordCount": 401,
+          "title": "Launch HN: Captain (YC W26) – Automated RAG for Files",
+          "imageUrl": "https://hn.runcaptain.com/opengraph.jpg"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=47365784",
           "author": "Brajeshwar",
           "description": "Article URL: https://www.npr.org/2026/03/12/nx-s1-5746128/nasa-artemis-ii-april-launch\nComments URL: https://news.ycombinator.com/item?id=47365784\nPoints: 54\n# Comments: 29",
@@ -13584,56 +13594,6 @@
           "wordCount": 4240,
           "title": "Fixing retail with land value capture",
           "imageUrl": "https://wip.gatspress.com/wp-content/uploads/2026/01/Issue-19-onwards-share-cards-17.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46993596",
-          "author": "bvanvugt",
-          "description": "Article URL: https://rari.build/\nComments URL: https://news.ycombinator.com/item?id=46993596\nPoints: 53\n# Comments: 31",
-          "link": "https://rari.build/",
-          "publishedOn": "2026-02-12T19:15:47.000Z",
-          "wordCount": 2108,
-          "title": "Rari – Rust-powered React framework",
-          "imageUrl": "https://rari.build/_rari/og/"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46993587",
-          "author": "fabienpenso",
-          "description": "Hey HN. I'm Fabien, principal engineer, 25 years shipping production systems (Ruby, Swift, now Rust). I built Moltis because I wanted an AI assistant I could run myself, trust end to end, and make extensible in the Rust way using traits and the type system. It shares some ideas with OpenClaw (same memory approach, Pi-inspired self-extension) but is Rust-native from the ground up. The agent can create its own skills at runtime.\nMoltis is one Rust binary, 150k lines, ~60MB, web UI included. No Node, no Python, no runtime deps. Multi-provider LLM routing (OpenAI, local GGUF/MLX, Hugging Face), sandboxed execution (Docker/Podman/Apple Containers), hybrid vector + full-text memory, MCP tool servers with auto-restart, and multi-channel (web, Telegram, API) with shared context. MIT licensed. No telemetry phoning home, but full observability built in (OpenTelemetry, Prometheus).\nI've included 1-click deploys on DigitalOcean and Fly.io, but since a Docker image is provided you can easily run it on your own servers as well. I've written before about owning your content (https://pen.so/2020/11/07/own-your-content/) and owning your email (https://pen.so/2020/12/10/own-your-email/). Same logic here: if something touches your files, credentials, and daily workflow, you should be able to inspect it, audit it, and fork it if the project changes direction.\nIt's alpha. I use it daily and I'm shipping because it's useful, not because it's done.\nLonger architecture deep-dive: https://pen.so/2026/02/12/moltis-a-personal-ai-assistant-bui...\nHappy to discuss the Rust architecture, security model, or local LLM setup. Would love feedback.\nComments URL: https://news.ycombinator.com/item?id=46993587\nPoints: 58\n# Comments: 21",
-          "link": "https://www.moltis.org/",
-          "publishedOn": "2026-02-12T19:15:21.000Z",
-          "wordCount": 1693,
-          "title": "Show HN: Moltis – AI assistant with memory, tools, and self-extending skills",
-          "imageUrl": "https://moltis.org/og-social.jpg?v=4"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46993417",
-          "author": "heifer",
-          "description": "Article URL: https://log.jasongodfrey.info/questions/The-Most-Expensive-Party-Balloon-in-History\nComments URL: https://news.ycombinator.com/item?id=46993417\nPoints: 89\n# Comments: 73",
-          "link": "https://log.jasongodfrey.info/questions/The-Most-Expensive-Party-Balloon-in-History",
-          "publishedOn": "2026-02-12T19:03:27.000Z",
-          "wordCount": 1103,
-          "title": "A party balloon shut down El Paso International Airport; estimated cost –$573k",
-          "imageUrl": "https://log.jasongodfrey.info/img/cartel-party-balloon.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46993397",
-          "author": "rombr",
-          "description": "Article URL: https://www.youtube.com/watch?v=Rn1w4MRHIhc\nComments URL: https://news.ycombinator.com/item?id=46993397\nPoints: 57\n# Comments: 16",
-          "link": "https://www.youtube.com/watch?v=Rn1w4MRHIhc",
-          "publishedOn": "2026-02-12T19:01:54.000Z",
-          "wordCount": null,
-          "title": "How to Have a Bad Career – David Patterson (2016) [video]",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=46993345",
-          "author": "ryanhn",
-          "description": "Article URL: https://www.anthropic.com/news/anthropic-raises-30-billion-series-g-funding-380-billion-post-money-valuation\nComments URL: https://news.ycombinator.com/item?id=46993345\nPoints: 88\n# Comments: 77",
-          "link": "https://www.anthropic.com/news/anthropic-raises-30-billion-series-g-funding-380-billion-post-money-valuation",
-          "publishedOn": "2026-02-12T18:58:56.000Z",
-          "wordCount": 2464,
-          "title": "Anthropic raises $30B in Series G funding at $380B post-money valuation",
-          "imageUrl": "https://www.anthropic.com/api/opengraph-illustration?name=Hand%20BarChart&backgroundColor=sky"
         }
       ]
     }

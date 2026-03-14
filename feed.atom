@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-03-14T06:57:39.334Z</updated>
+    <updated>2026-03-14T07:41:29.595Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
@@ -264,6 +264,22 @@ Points: 150
 # Comments: 37]]></summary>
         <author>
             <name>cf100clunk</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Launch HN: Captain (YC W26) – Automated RAG for Files]]></title>
+        <id>https://news.ycombinator.com/item?id=47366011</id>
+        <link href="https://www.runcaptain.com/"/>
+        <updated>2026-03-13T15:45:33.000Z</updated>
+        <summary type="html"><![CDATA[Hi HN, we’re Lewis and Edgar, building Captain to simplify unstructured data search (https://runcaptain.com). Captain automates the building and maintenance of file-based RAG pipelines. It indexes cloud storage like S3 and GCS, plus SaaS sources like Google Drive. There’s a quick walkthrough at https://youtu.be/EIQkwAsIPmc.
+We also put up this demo site called “Ask PG’s Essays” which lets you ask/search the corpus of pg’s essays, to get a feel for how it works: https://pg.runcaptain.com. The RAG part of this took Captain about 3 minutes to set up.
+Here are some sample prompts to get a feel for the experience:
+“When do we do things that don't scale? When should we be more cautious?” 
+https://pg.runcaptain.com/?q=When%20do%20we%20do%20things%20...
+“Give me some advice, I'm fundraising” 
+http…]]></summary>
+        <author>
+            <name>CMLewis</name>
         </author>
     </entry>
     <entry>
@@ -18201,76 +18217,6 @@ Points: 64
 # Comments: 101]]></summary>
         <author>
             <name>marojejian</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Rari – Rust-powered React framework]]></title>
-        <id>https://news.ycombinator.com/item?id=46993596</id>
-        <link href="https://rari.build/"/>
-        <updated>2026-02-12T19:15:47.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://rari.build/
-Comments URL: https://news.ycombinator.com/item?id=46993596
-Points: 53
-# Comments: 31]]></summary>
-        <author>
-            <name>bvanvugt</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: Moltis – AI assistant with memory, tools, and self-extending skills]]></title>
-        <id>https://news.ycombinator.com/item?id=46993587</id>
-        <link href="https://www.moltis.org/"/>
-        <updated>2026-02-12T19:15:21.000Z</updated>
-        <summary type="html"><![CDATA[Hey HN. I'm Fabien, principal engineer, 25 years shipping production systems (Ruby, Swift, now Rust). I built Moltis because I wanted an AI assistant I could run myself, trust end to end, and make extensible in the Rust way using traits and the type system. It shares some ideas with OpenClaw (same memory approach, Pi-inspired self-extension) but is Rust-native from the ground up. The agent can create its own skills at runtime.
-Moltis is one Rust binary, 150k lines, ~60MB, web UI included. No Node, no Python, no runtime deps. Multi-provider LLM routing (OpenAI, local GGUF/MLX, Hugging Face), sandboxed execution (Docker/Podman/Apple Containers), hybrid vector + full-text memory, MCP tool servers with auto-restart, and multi-channel (web, Telegram, API) with shared context. MIT licensed. No telemetry phoning home, but full observability built in (OpenTelemetry, Prometheus).
-I've included 1-click deploys on DigitalOcean and Fly.io, but since a Docker image is provided you can easily run it on your own servers as well. I've written before about owning your content (https://pen.so/2020/11/07/own-your-content/) and owning your email (https://pen.so/2020/12/10/own-your-email/). Same logic here: if something touches your files, credentials, and daily workflow, you should be able to inspect it, audit it, and fork it if the project changes direction.
-It's alpha. I use it daily and I'm shipping because it's useful, not because it's done.
-Longer architecture deep-dive: https://pen.so/2026/02/12/moltis-a-personal-ai-assistant-bui...
-Happy to discuss the Rust architecture, security model, or local LLM setup. Would love feedback.
-Comments URL: https://news.ycombinator.com/item?id=46993587
-Points: 58
-# Comments: 21]]></summary>
-        <author>
-            <name>fabienpenso</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A party balloon shut down El Paso International Airport; estimated cost –$573k]]></title>
-        <id>https://news.ycombinator.com/item?id=46993417</id>
-        <link href="https://log.jasongodfrey.info/questions/The-Most-Expensive-Party-Balloon-in-History"/>
-        <updated>2026-02-12T19:03:27.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://log.jasongodfrey.info/questions/The-Most-Expensive-Party-Balloon-in-History
-Comments URL: https://news.ycombinator.com/item?id=46993417
-Points: 89
-# Comments: 73]]></summary>
-        <author>
-            <name>heifer</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How to Have a Bad Career – David Patterson (2016) [video]]]></title>
-        <id>https://news.ycombinator.com/item?id=46993397</id>
-        <link href="https://www.youtube.com/watch?v=Rn1w4MRHIhc"/>
-        <updated>2026-02-12T19:01:54.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.youtube.com/watch?v=Rn1w4MRHIhc
-Comments URL: https://news.ycombinator.com/item?id=46993397
-Points: 57
-# Comments: 16]]></summary>
-        <author>
-            <name>rombr</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Anthropic raises $30B in Series G funding at $380B post-money valuation]]></title>
-        <id>https://news.ycombinator.com/item?id=46993345</id>
-        <link href="https://www.anthropic.com/news/anthropic-raises-30-billion-series-g-funding-380-billion-post-money-valuation"/>
-        <updated>2026-02-12T18:58:56.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.anthropic.com/news/anthropic-raises-30-billion-series-g-funding-380-billion-post-money-valuation
-Comments URL: https://news.ycombinator.com/item?id=46993345
-Points: 88
-# Comments: 77]]></summary>
-        <author>
-            <name>ryanhn</name>
         </author>
     </entry>
 </feed>
