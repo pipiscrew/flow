@@ -2,10 +2,43 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-03-14T22:33:11.263Z</updated>
+    <updated>2026-03-14T23:33:56.272Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Changes to OpenTTD Distribution on Steam]]></title>
+        <id>https://news.ycombinator.com/item?id=47381746</id>
+        <link href="https://www.openttd.org/news/2026/03/14/steam-changes"/>
+        <updated>2026-03-14T22:04:48.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.openttd.org/news/2026/03/14/steam-changes
+Comments URL: https://news.ycombinator.com/item?id=47381746
+Points: 74
+# Comments: 36]]></summary>
+        <author>
+            <name>canpan</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Han – A Korean programming language written in Rust]]></title>
+        <id>https://news.ycombinator.com/item?id=47381382</id>
+        <link href="https://github.com/xodn348/han"/>
+        <updated>2026-03-14T21:27:33.000Z</updated>
+        <summary type="html"><![CDATA[A few weeks ago I saw a post about someone converting an entire C++ codebase to Rust using AI in under two weeks.
+That inspired me — if AI can rewrite a whole language stack that fast, I wanted to try building a programming language from scratch with AI assistance.
+I've also been noticing growing global interest in Korean language and culture, and I wondered: what would a programming language look like if every keyword was in Hangul (the Korean writing system)?
+Han is the result. It's a statically-typed language written in Rust with a full compiler pipeline (lexer → parser → AST → interpreter + LLVM IR codegen).
+It supports arrays, structs with impl blocks, closures, pattern matching, try/catch, file I/O, module imports, a REPL, and a basic LSP server.
+This is a side project, not a "you should use this instead of Python" pitch. 
+Feedback on language design, compiler architecture, or the Korean keyword choices is very welcome.
+https://github.com/xodn348/han
+Comments URL: https://news.ycombinator.com/item?id=47381382
+Points: 60
+# Comments: 21]]></summary>
+        <author>
+            <name>xodn348</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Claude March 2026 usage promotion]]></title>
         <id>https://news.ycombinator.com/item?id=47380647</id>
@@ -82,6 +115,28 @@ Points: 65
 # Comments: 41]]></summary>
         <author>
             <name>gregdoesit</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Ichinichi – One note per day, E2E encrypted, local-first]]></title>
+        <id>https://news.ycombinator.com/item?id=47379898</id>
+        <link href="https://news.ycombinator.com/item?id=47379898"/>
+        <updated>2026-03-14T18:57:12.000Z</updated>
+        <summary type="html"><![CDATA[Look, every journaling app out there wants you to organize things into folders and tags and templates. I just wanted to write something down every day.
+So I built this. One note per day. That's the whole deal.
+- Can't edit yesterday. What's done is done. Keeps you from fussing over old entries instead of writing today's.
+- Year view with dots showing which days you actually wrote. It's a streak chart. Works better than it should.
+- No signup required. Opens right up, stores everything locally in your browser. Optional cloud sync if you want it
+- E2E encrypted with AES-GCM, zero-knowledge, the whole nine yards.
+Tech-wise: React, TypeScript, Vite, Zustand, IndexedDB. Supabase for optional sync. Deployed on Cloudflare. PWA-capable.
+The name means "one day" in Japanese (いちにち).
+The read-only past turned out to be the thing that actually made me stick with it. Can't waste time perfecting yesterday if yesterday won't let you in.
+Live at https://ichinichi.app | Source: https://github.com/katspaugh/ichinichi
+Comments URL: https://news.ycombinator.com/item?id=47379898
+Points: 52
+# Comments: 20]]></summary>
+        <author>
+            <name>katspaugh</name>
         </author>
     </entry>
     <entry>

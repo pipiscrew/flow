@@ -6,6 +6,26 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=47381746",
+          "author": "canpan",
+          "description": "Article URL: https://www.openttd.org/news/2026/03/14/steam-changes\nComments URL: https://news.ycombinator.com/item?id=47381746\nPoints: 74\n# Comments: 36",
+          "link": "https://www.openttd.org/news/2026/03/14/steam-changes",
+          "publishedOn": "2026-03-14T22:04:48.000Z",
+          "wordCount": 446,
+          "title": "Changes to OpenTTD Distribution on Steam",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47381382",
+          "author": "xodn348",
+          "description": "A few weeks ago I saw a post about someone converting an entire C++ codebase to Rust using AI in under two weeks.\nThat inspired me — if AI can rewrite a whole language stack that fast, I wanted to try building a programming language from scratch with AI assistance.\nI've also been noticing growing global interest in Korean language and culture, and I wondered: what would a programming language look like if every keyword was in Hangul (the Korean writing system)?\nHan is the result. It's a statically-typed language written in Rust with a full compiler pipeline (lexer → parser → AST → interpreter + LLVM IR codegen).\nIt supports arrays, structs with impl blocks, closures, pattern matching, try/catch, file I/O, module imports, a REPL, and a basic LSP server.\nThis is a side project, not a \"you should use this instead of Python\" pitch. \nFeedback on language design, compiler architecture, or the Korean keyword choices is very welcome.\nhttps://github.com/xodn348/han\nComments URL: https://news.ycombinator.com/item?id=47381382\nPoints: 60\n# Comments: 21",
+          "link": "https://github.com/xodn348/han",
+          "publishedOn": "2026-03-14T21:27:33.000Z",
+          "wordCount": 8731,
+          "title": "Show HN: Han – A Korean programming language written in Rust",
+          "imageUrl": "https://opengraph.githubassets.com/6031142ce8db5111158d1ffc6326b5ca4c3590a584ee1294f074201b593504d3/xodn348/han"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=47380647",
           "author": "weldu",
           "description": "Article URL: https://support.claude.com/en/articles/14063676-claude-march-2026-usage-promotion\nComments URL: https://news.ycombinator.com/item?id=47380647\nPoints: 120\n# Comments: 71",
@@ -64,6 +84,16 @@
           "wordCount": 2331,
           "title": "It's time to move your docs in the repo",
           "imageUrl": "https://dein.fr/api/og?title=It%27s%20time%20to%20move%20your%20docs%20in%20the%20repo"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47379898",
+          "author": "katspaugh",
+          "description": "Look, every journaling app out there wants you to organize things into folders and tags and templates. I just wanted to write something down every day.\nSo I built this. One note per day. That's the whole deal.\n- Can't edit yesterday. What's done is done. Keeps you from fussing over old entries instead of writing today's.\n- Year view with dots showing which days you actually wrote. It's a streak chart. Works better than it should.\n- No signup required. Opens right up, stores everything locally in your browser. Optional cloud sync if you want it\n- E2E encrypted with AES-GCM, zero-knowledge, the whole nine yards.\nTech-wise: React, TypeScript, Vite, Zustand, IndexedDB. Supabase for optional sync. Deployed on Cloudflare. PWA-capable.\nThe name means \"one day\" in Japanese (いちにち).\nThe read-only past turned out to be the thing that actually made me stick with it. Can't waste time perfecting yesterday if yesterday won't let you in.\nLive at https://ichinichi.app | Source: https://github.com/katspaugh/ichinichi\nComments URL: https://news.ycombinator.com/item?id=47379898\nPoints: 52\n# Comments: 20",
+          "link": "https://news.ycombinator.com/item?id=47379898",
+          "publishedOn": "2026-03-14T18:57:12.000Z",
+          "wordCount": 1218,
+          "title": "Show HN: Ichinichi – One note per day, E2E encrypted, local-first",
+          "imageUrl": null
         },
         {
           "id": "https://news.ycombinator.com/item?id=47379712",
