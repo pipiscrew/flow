@@ -2,10 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-03-15T15:35:05.706Z</updated>
+    <updated>2026-03-15T16:39:46.262Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Glassworm Is Back: A New Wave of Invisible Unicode Attacks Hits Repositories]]></title>
+        <id>https://news.ycombinator.com/item?id=47387047</id>
+        <link href="https://www.aikido.dev/blog/glassworm-returns-unicode-attack-github-npm-vscode"/>
+        <updated>2026-03-15T13:08:02.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.aikido.dev/blog/glassworm-returns-unicode-attack-github-npm-vscode
+Comments URL: https://news.ycombinator.com/item?id=47387047
+Points: 53
+# Comments: 11]]></summary>
+        <author>
+            <name>robinhouston</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[A Theory of the World as run by large adult children]]></title>
         <id>https://news.ycombinator.com/item?id=47386908</id>
@@ -43,6 +56,24 @@ Points: 52
 # Comments: 31]]></summary>
         <author>
             <name>kiwieater</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Signet – Autonomous wildfire tracking from satellite and weather data]]></title>
+        <id>https://news.ycombinator.com/item?id=47386581</id>
+        <link href="https://signet.watch/"/>
+        <updated>2026-03-15T12:01:00.000Z</updated>
+        <summary type="html"><![CDATA[I built Signet in Go to see if an autonomous system could handle the wildfire monitoring loop that people currently run by hand - checking satellite feeds, pulling up weather, looking at terrain and fuels, deciding whether a detection is actually a fire worth tracking.
+All the data already exists: NASA FIRMS thermal detections, GOES-19 imagery, NWS forecasts, LANDFIRE fuel models, USGS elevation, Census population data, OpenStreetMap. The problem is it arrives from different sources on different cadences in different formats.
+Most of the system is deterministic plumbing - ingestion, spatial indexing, deduplication. I use Gemini to orchestrate 23 tools across weather, terrain, imagery, and incident tracking for the part where clean rules break down: deciding which weak detections are worth investigating, what context to pull next, and how to synthesize noisy evidence into a structured assessment.
+It also records time-bounded predictions and scores them against later data, so the system is making falsifiable claims instead of narrating after the fact. The current prediction metrics are visible on the site even though the sample is still small.
+It's already opening incidents from raw satellite detections and matching some to official NIFC reporting. But false positives, detection latency, and incident matching can still be rough.
+I'd especially welcome criticism on: where should this be more deterministic instead of LLM-driven? And is this kind of autonomous monitoring actually useful, or just noisier than doing it by hand?
+Comments URL: https://news.ycombinator.com/item?id=47386581
+Points: 63
+# Comments: 15]]></summary>
+        <author>
+            <name>mapldx</name>
         </author>
     </entry>
     <entry>
@@ -18279,45 +18310,6 @@ Points: 52
 # Comments: 17]]></summary>
         <author>
             <name>TMWNN</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Backblaze Drive Stats for 2025]]></title>
-        <id>https://news.ycombinator.com/item?id=47011602</id>
-        <link href="https://www.backblaze.com/blog/backblaze-drive-stats-for-2025/"/>
-        <updated>2026-02-14T04:35:01.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.backblaze.com/blog/backblaze-drive-stats-for-2025/
-Comments URL: https://news.ycombinator.com/item?id=47011602
-Points: 55
-# Comments: 7]]></summary>
-        <author>
-            <name>Brajeshwar</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: SQL-tap – Real-time SQL traffic viewer for PostgreSQL and MySQL]]></title>
-        <id>https://news.ycombinator.com/item?id=47011567</id>
-        <link href="https://github.com/mickamy/sql-tap"/>
-        <updated>2026-02-14T04:27:35.000Z</updated>
-        <summary type="html"><![CDATA[sql-tap is a transparent proxy that captures SQL queries by parsing the PostgreSQL/MySQL wire protocol and displays them in a terminal UI. You can run EXPLAIN on any captured query. No application code changes needed — just change the port.
-Comments URL: https://news.ycombinator.com/item?id=47011567
-Points: 55
-# Comments: 7]]></summary>
-        <author>
-            <name>mickamy</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ghidra by NSA]]></title>
-        <id>https://news.ycombinator.com/item?id=47011548</id>
-        <link href="https://github.com/NationalSecurityAgency/ghidra"/>
-        <updated>2026-02-14T04:24:18.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://github.com/NationalSecurityAgency/ghidra
-Comments URL: https://news.ycombinator.com/item?id=47011548
-Points: 92
-# Comments: 47]]></summary>
-        <author>
-            <name>handfuloflight</name>
         </author>
     </entry>
 </feed>

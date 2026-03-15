@@ -6,6 +6,16 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=47387047",
+          "author": "robinhouston",
+          "description": "Article URL: https://www.aikido.dev/blog/glassworm-returns-unicode-attack-github-npm-vscode\nComments URL: https://news.ycombinator.com/item?id=47387047\nPoints: 53\n# Comments: 11",
+          "link": "https://www.aikido.dev/blog/glassworm-returns-unicode-attack-github-npm-vscode",
+          "publishedOn": "2026-03-15T13:08:02.000Z",
+          "wordCount": 4703,
+          "title": "Glassworm Is Back: A New Wave of Invisible Unicode Attacks Hits Repositories",
+          "imageUrl": "https://cdn.prod.website-files.com/642adcaf364024654c71df23/69b3ed1802ea6b31e5b4ec7f_Group%202147256640.png"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=47386908",
           "author": "tclancy",
           "description": "Article URL: https://tomclancy.info/harold-and-george.html\nComments URL: https://news.ycombinator.com/item?id=47386908\nPoints: 125\n# Comments: 58",
@@ -34,6 +44,16 @@
           "wordCount": 20974,
           "title": "100 hour gap between a vibecoded prototype and a working product",
           "imageUrl": "https://paragraph.com/api/og?title=The+100+hour+gap+between+a+vibecoded+prototype+and+a+working+product&blogName=kanfa+%5Bby+Mac+Budkowski%5D&coverPhotoUrl=https%3A%2F%2Fstorage.googleapis.com%2Fpapyrus_images%2F0c0ba73a08751599a6b7ecd02e72a87a08c89b74f4b5a3b130d04856bd1cbbf0.jpg&blogImageUrl=https%3A%2F%2Fstorage.googleapis.com%2Fpapyrus_images%2F9c0f5716df4987236239bc96f39b432e.jpg&publishedDate=1772813254067"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47386581",
+          "author": "mapldx",
+          "description": "I built Signet in Go to see if an autonomous system could handle the wildfire monitoring loop that people currently run by hand - checking satellite feeds, pulling up weather, looking at terrain and fuels, deciding whether a detection is actually a fire worth tracking.\nAll the data already exists: NASA FIRMS thermal detections, GOES-19 imagery, NWS forecasts, LANDFIRE fuel models, USGS elevation, Census population data, OpenStreetMap. The problem is it arrives from different sources on different cadences in different formats.\nMost of the system is deterministic plumbing - ingestion, spatial indexing, deduplication. I use Gemini to orchestrate 23 tools across weather, terrain, imagery, and incident tracking for the part where clean rules break down: deciding which weak detections are worth investigating, what context to pull next, and how to synthesize noisy evidence into a structured assessment.\nIt also records time-bounded predictions and scores them against later data, so the system is making falsifiable claims instead of narrating after the fact. The current prediction metrics are visible on the site even though the sample is still small.\nIt's already opening incidents from raw satellite detections and matching some to official NIFC reporting. But false positives, detection latency, and incident matching can still be rough.\nI'd especially welcome criticism on: where should this be more deterministic instead of LLM-driven? And is this kind of autonomous monitoring actually useful, or just noisier than doing it by hand?\nComments URL: https://news.ycombinator.com/item?id=47386581\nPoints: 63\n# Comments: 15",
+          "link": "https://signet.watch/",
+          "publishedOn": "2026-03-15T12:01:00.000Z",
+          "wordCount": 1791,
+          "title": "Show HN: Signet – Autonomous wildfire tracking from satellite and weather data",
+          "imageUrl": null
         },
         {
           "id": "https://news.ycombinator.com/item?id=47386116",
@@ -13624,36 +13644,6 @@
           "wordCount": 8290,
           "title": "DBASE on the Kaypro II",
           "imageUrl": "https://stonetools.ghost.io/content/images/2026/02/3116cb38d836607b6356bd72fde8d4c004313dc15b7c9da9b3b25b92989cc17b-1.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47011602",
-          "author": "Brajeshwar",
-          "description": "Article URL: https://www.backblaze.com/blog/backblaze-drive-stats-for-2025/\nComments URL: https://news.ycombinator.com/item?id=47011602\nPoints: 55\n# Comments: 7",
-          "link": "https://www.backblaze.com/blog/backblaze-drive-stats-for-2025/",
-          "publishedOn": "2026-02-14T04:35:01.000Z",
-          "wordCount": 4596,
-          "title": "Backblaze Drive Stats for 2025",
-          "imageUrl": "/blog/wp-content/uploads/2026/02/Q4-2025-Drive-Stats-Blog-Header-1440x820-1.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47011567",
-          "author": "mickamy",
-          "description": "sql-tap is a transparent proxy that captures SQL queries by parsing the PostgreSQL/MySQL wire protocol and displays them in a terminal UI. You can run EXPLAIN on any captured query. No application code changes needed — just change the port.\nComments URL: https://news.ycombinator.com/item?id=47011567\nPoints: 55\n# Comments: 7",
-          "link": "https://github.com/mickamy/sql-tap",
-          "publishedOn": "2026-02-14T04:27:35.000Z",
-          "wordCount": 3507,
-          "title": "Show HN: SQL-tap – Real-time SQL traffic viewer for PostgreSQL and MySQL",
-          "imageUrl": "https://opengraph.githubassets.com/f05e12c4c9308d22bae810218fe0278799aaa62408a6302177bfecadada4249d/mickamy/sql-tap"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47011548",
-          "author": "handfuloflight",
-          "description": "Article URL: https://github.com/NationalSecurityAgency/ghidra\nComments URL: https://news.ycombinator.com/item?id=47011548\nPoints: 92\n# Comments: 47",
-          "link": "https://github.com/NationalSecurityAgency/ghidra",
-          "publishedOn": "2026-02-14T04:24:18.000Z",
-          "wordCount": 3842,
-          "title": "Ghidra by NSA",
-          "imageUrl": "https://opengraph.githubassets.com/77ef7926b0ab250dcc01d5cdc24d10ab7a2a79ed28eae6462647bb630e897e2d/NationalSecurityAgency/ghidra"
         }
       ]
     }
