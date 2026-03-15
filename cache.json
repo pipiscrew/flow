@@ -6,6 +6,26 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=47384352",
+          "author": "cdrnsf",
+          "description": "Article URL: https://sa.lj.am/rack-mount-hydroponics/\nComments URL: https://news.ycombinator.com/item?id=47384352\nPoints: 79\n# Comments: 18",
+          "link": "https://sa.lj.am/rack-mount-hydroponics/",
+          "publishedOn": "2026-03-15T04:23:43.000Z",
+          "wordCount": 1475,
+          "title": "Rack-mount hydroponics",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47383804",
+          "author": "tartoran",
+          "description": "Article URL: https://www.bbc.com/news/articles/cg4g7kn99q3o\nComments URL: https://news.ycombinator.com/item?id=47383804\nPoints: 56\n# Comments: 54",
+          "link": "https://www.bbc.com/news/articles/cg4g7kn99q3o",
+          "publishedOn": "2026-03-15T02:48:33.000Z",
+          "wordCount": 4888,
+          "title": "Treasure hunter freed from jail after refusing to turn over shipwreck gold",
+          "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/6242/live/c74b5b30-1fcc-11f1-9c85-1d495aee893e.jpg"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=47382791",
           "author": "davikr",
           "description": "Article URL: https://s4dbrd.github.io/posts/how-kernel-anti-cheats-work/\nComments URL: https://news.ycombinator.com/item?id=47382791\nPoints: 93\n# Comments: 76",
@@ -344,6 +364,16 @@
           "wordCount": null,
           "title": "RAM kits are now sold with one fake RAM stick alongside a real one",
           "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47374924",
+          "author": "picafrost",
+          "description": "Article URL: https://terrytao.wordpress.com/2026/03/13/mathematics-distillation-challenge-equational-theories/\nComments URL: https://news.ycombinator.com/item?id=47374924\nPoints: 57\n# Comments: 2",
+          "link": "https://terrytao.wordpress.com/2026/03/13/mathematics-distillation-challenge-equational-theories/",
+          "publishedOn": "2026-03-14T09:38:37.000Z",
+          "wordCount": 4871,
+          "title": "Mathematics Distillation Challenge – Equational Theories",
+          "imageUrl": "https://secure.gravatar.com/blavatar/bd4bda4207561b6998f10dec44b570f04ff4072b20f89162d525b186dfca3e49?s=200&ts=1773557814"
         },
         {
           "id": "https://news.ycombinator.com/item?id=47374796",
@@ -13654,56 +13684,6 @@
           "wordCount": 8941,
           "title": "I'm not worried about AI job loss",
           "imageUrl": "https://substackcdn.com/image/fetch/$s_!DcWh!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7cb35e39-2374-4258-99b1-431087baaa8a_1600x1286.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47006393",
-          "author": "austinwang115",
-          "description": "I've been working on CloudRouter, a skill + CLI that gives coding agents like Claude Code and Codex the ability to start cloud VMs and GPUs.\nWhen an agent writes code, it usually needs to start a dev server, run tests, open a browser to verify its work. Today that all happens on your local machine. This works fine for a single task, but the agent is sharing your computer: your ports, RAM, screen. If you run multiple agents in parallel, it gets a bit chaotic. Docker helps with isolation, but it still uses your machine's resources, and doesn't give the agent a browser, a desktop, or a GPU to close the loop properly. The agent could handle all of this on its own if it had a primitive for starting VMs.\nCloudRouter is that primitive — a skill that gives the agent its own machines. The agent can…",
-          "link": "https://cloudrouter.dev/",
-          "publishedOn": "2026-02-13T19:02:17.000Z",
-          "wordCount": 26794,
-          "title": "Show HN: Skill that lets Claude Code/Codex spin up VMs and GPUs",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47006316",
-          "author": "CharlesW",
-          "description": "Article URL: https://www.youtube.com/watch?v=lEBQveBCtKY\nComments URL: https://news.ycombinator.com/item?id=47006316\nPoints: 56\n# Comments: 8",
-          "link": "https://www.youtube.com/watch?v=lEBQveBCtKY",
-          "publishedOn": "2026-02-13T18:56:38.000Z",
-          "wordCount": null,
-          "title": "Age of Empires: 25 years of pathfinding problems with C++ [video]",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47005856",
-          "author": "bigwheels",
-          "description": "Article URL: https://martinfowler.com/fragments/2026-02-13.html\nComments URL: https://news.ycombinator.com/item?id=47005856\nPoints: 56\n# Comments: 26",
-          "link": "https://martinfowler.com/fragments/2026-02-13.html",
-          "publishedOn": "2026-02-13T18:18:48.000Z",
-          "wordCount": 1662,
-          "title": "The consequences of task switching in supervisory programming",
-          "imageUrl": "https://martinfowler.com/logo-sq.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47005565",
-          "author": "danielmorozoff",
-          "description": "Article URL: https://www.dwarkesh.com/p/dario-amodei-2\nComments URL: https://news.ycombinator.com/item?id=47005565\nPoints: 65\n# Comments: 133",
-          "link": "https://www.dwarkesh.com/p/dario-amodei-2",
-          "publishedOn": "2026-02-13T17:55:27.000Z",
-          "wordCount": 44181,
-          "title": "Dario Amodei – \"We are near the end of the exponential\" [video]",
-          "imageUrl": "https://substackcdn.com/image/fetch/$s_!xuTG!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-video.s3.amazonaws.com%2Fvideo_upload%2Fpost%2F187852154%2F5723fd43-9712-418c-9427-9f60d7e5c03c%2Ftranscoded-1771001052.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47005509",
-          "author": "abelanger",
-          "description": "Article URL: https://hatchet.run/blog/tuis-are-easy-now\nComments URL: https://news.ycombinator.com/item?id=47005509\nPoints: 60\n# Comments: 51",
-          "link": "https://hatchet.run/blog/tuis-are-easy-now",
-          "publishedOn": "2026-02-13T17:50:54.000Z",
-          "wordCount": 1606,
-          "title": "Building a TUI is easy now",
-          "imageUrl": "/assets/og-PqKfvZWg.png"
         }
       ]
     }

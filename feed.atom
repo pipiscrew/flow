@@ -2,10 +2,36 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-03-15T05:39:02.123Z</updated>
+    <updated>2026-03-15T07:06:36.990Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Rack-mount hydroponics]]></title>
+        <id>https://news.ycombinator.com/item?id=47384352</id>
+        <link href="https://sa.lj.am/rack-mount-hydroponics/"/>
+        <updated>2026-03-15T04:23:43.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://sa.lj.am/rack-mount-hydroponics/
+Comments URL: https://news.ycombinator.com/item?id=47384352
+Points: 79
+# Comments: 18]]></summary>
+        <author>
+            <name>cdrnsf</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Treasure hunter freed from jail after refusing to turn over shipwreck gold]]></title>
+        <id>https://news.ycombinator.com/item?id=47383804</id>
+        <link href="https://www.bbc.com/news/articles/cg4g7kn99q3o"/>
+        <updated>2026-03-15T02:48:33.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.bbc.com/news/articles/cg4g7kn99q3o
+Comments URL: https://news.ycombinator.com/item?id=47383804
+Points: 56
+# Comments: 54]]></summary>
+        <author>
+            <name>tartoran</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[How Kernel Anti-Cheats Work]]></title>
         <id>https://news.ycombinator.com/item?id=47382791</id>
@@ -477,6 +503,19 @@ Points: 79
 # Comments: 66]]></summary>
         <author>
             <name>edward</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Mathematics Distillation Challenge – Equational Theories]]></title>
+        <id>https://news.ycombinator.com/item?id=47374924</id>
+        <link href="https://terrytao.wordpress.com/2026/03/13/mathematics-distillation-challenge-equational-theories/"/>
+        <updated>2026-03-14T09:38:37.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://terrytao.wordpress.com/2026/03/13/mathematics-distillation-challenge-equational-theories/
+Comments URL: https://news.ycombinator.com/item?id=47374924
+Points: 57
+# Comments: 2]]></summary>
+        <author>
+            <name>picafrost</name>
         </author>
     </entry>
     <entry>
@@ -18320,70 +18359,6 @@ Points: 91
 # Comments: 146]]></summary>
         <author>
             <name>ezekg</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: Skill that lets Claude Code/Codex spin up VMs and GPUs]]></title>
-        <id>https://news.ycombinator.com/item?id=47006393</id>
-        <link href="https://cloudrouter.dev/"/>
-        <updated>2026-02-13T19:02:17.000Z</updated>
-        <summary type="html"><![CDATA[I've been working on CloudRouter, a skill + CLI that gives coding agents like Claude Code and Codex the ability to start cloud VMs and GPUs.
-When an agent writes code, it usually needs to start a dev server, run tests, open a browser to verify its work. Today that all happens on your local machine. This works fine for a single task, but the agent is sharing your computer: your ports, RAM, screen. If you run multiple agents in parallel, it gets a bit chaotic. Docker helps with isolation, but it still uses your machine's resources, and doesn't give the agent a browser, a desktop, or a GPU to close the loop properly. The agent could handle all of this on its own if it had a primitive for starting VMs.
-CloudRouter is that primitive — a skill that gives the agent its own machines. The agent can…]]></summary>
-        <author>
-            <name>austinwang115</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Age of Empires: 25 years of pathfinding problems with C++ [video]]]></title>
-        <id>https://news.ycombinator.com/item?id=47006316</id>
-        <link href="https://www.youtube.com/watch?v=lEBQveBCtKY"/>
-        <updated>2026-02-13T18:56:38.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.youtube.com/watch?v=lEBQveBCtKY
-Comments URL: https://news.ycombinator.com/item?id=47006316
-Points: 56
-# Comments: 8]]></summary>
-        <author>
-            <name>CharlesW</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The consequences of task switching in supervisory programming]]></title>
-        <id>https://news.ycombinator.com/item?id=47005856</id>
-        <link href="https://martinfowler.com/fragments/2026-02-13.html"/>
-        <updated>2026-02-13T18:18:48.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://martinfowler.com/fragments/2026-02-13.html
-Comments URL: https://news.ycombinator.com/item?id=47005856
-Points: 56
-# Comments: 26]]></summary>
-        <author>
-            <name>bigwheels</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Dario Amodei – "We are near the end of the exponential" [video]]]></title>
-        <id>https://news.ycombinator.com/item?id=47005565</id>
-        <link href="https://www.dwarkesh.com/p/dario-amodei-2"/>
-        <updated>2026-02-13T17:55:27.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.dwarkesh.com/p/dario-amodei-2
-Comments URL: https://news.ycombinator.com/item?id=47005565
-Points: 65
-# Comments: 133]]></summary>
-        <author>
-            <name>danielmorozoff</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Building a TUI is easy now]]></title>
-        <id>https://news.ycombinator.com/item?id=47005509</id>
-        <link href="https://hatchet.run/blog/tuis-are-easy-now"/>
-        <updated>2026-02-13T17:50:54.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://hatchet.run/blog/tuis-are-easy-now
-Comments URL: https://news.ycombinator.com/item?id=47005509
-Points: 60
-# Comments: 51]]></summary>
-        <author>
-            <name>abelanger</name>
         </author>
     </entry>
 </feed>
