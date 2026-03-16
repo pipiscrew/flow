@@ -6,6 +6,26 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=47404798",
+          "author": "rmason",
+          "description": "Article URL: https://plantbasednews.org/news/alternative-protein/beyond-meat-not-the-moment-rebrand/\nComments URL: https://news.ycombinator.com/item?id=47404798\nPoints: 50\n# Comments: 42",
+          "link": "https://plantbasednews.org/news/alternative-protein/beyond-meat-not-the-moment-rebrand/",
+          "publishedOn": "2026-03-16T20:59:49.000Z",
+          "wordCount": 1915,
+          "title": "Beyond Meat CEO 'It's Just Not the Moment for Plant-Based Meat' After Rebrand",
+          "imageUrl": "https://plantbasednews.org/app/uploads/2026/03/beyond-meat-rebrand-ceo-ethan-brown-2.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47404074",
+          "author": "lewismenelaws",
+          "description": "Article URL: https://nvidianews.nvidia.com/news/nvidia-launches-vera-cpu-purpose-built-for-agentic-ai\nComments URL: https://news.ycombinator.com/item?id=47404074\nPoints: 65\n# Comments: 40",
+          "link": "https://nvidianews.nvidia.com/news/nvidia-launches-vera-cpu-purpose-built-for-agentic-ai",
+          "publishedOn": "2026-03-16T20:01:02.000Z",
+          "wordCount": 2796,
+          "title": "Nvidia Launches Vera CPU, Purpose-Built for Agentic AI",
+          "imageUrl": "https://iprsoftwaremedia.com/219/files/202603/69b83bf73d6332289074debc_vera-cpu-rack/vera-cpu-rack_dd1864d1-171f-410c-956d-0a24da3c4906-prv.png"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=47402950",
           "author": "tartoran",
           "description": "Article URL: https://www.bbc.com/news/articles/c70n2x7p22do\nComments URL: https://news.ycombinator.com/item?id=47402950\nPoints: 143\n# Comments: 20",
@@ -26,6 +46,16 @@
           "imageUrl": "https://engineering.fb.com/wp-content/uploads/2026/02/jemalloc-at-Meta-Hero.png"
         },
         {
+          "id": "https://news.ycombinator.com/item?id=47401901",
+          "author": "jryio",
+          "description": "Article URL: https://arxiv.org/abs/2603.12229\nComments URL: https://news.ycombinator.com/item?id=47401901\nPoints: 51\n# Comments: 15",
+          "link": "https://arxiv.org/abs/2603.12229",
+          "publishedOn": "2026-03-16T17:19:13.000Z",
+          "wordCount": 629,
+          "title": "Language Model Teams as Distrbuted Systems",
+          "imageUrl": "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=47401879",
           "author": "speckx",
           "description": "Article URL: https://kevinboone.me/small_web_is_big.html\nComments URL: https://news.ycombinator.com/item?id=47401879\nPoints: 99\n# Comments: 29",
@@ -44,6 +74,26 @@
           "wordCount": 801,
           "title": "Speed at the cost of quality: Study of use of Cursor AI in open source projects",
           "imageUrl": "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47401042",
+          "author": "ymarkov",
+          "description": "Hi HN, we’re Yarik and Vlad from VOYGR (https://voygr.tech/), working on better real-world place intelligence for app developers and agents. Here’s a demo: https://www.youtube.com/watch?v=cNIpcWIE0n4.\nGoogle Maps can tell you a restaurant is \"4.2 stars, open till 10.\" Their API can't tell you the chef left last month, wait times doubled, and locals moved on. Maps APIs today just give you a fixed snapshot. We're building an infinite, queryable place profile that combines accurate place data with fresh web context like news, articles, and events.\nVlad worked on the Google Maps APIs as well as in ridesharing and travel. Yarik led ML/Search infrastructure at Apple, Google, and Meta powering products used by hundreds of millions of users daily. We realized nobody was treating place data freshne…",
+          "link": "https://news.ycombinator.com/item?id=47401042",
+          "publishedOn": "2026-03-16T16:21:07.000Z",
+          "wordCount": 1681,
+          "title": "Launch HN: Voygr (YC W26) – A better maps API for agents and AI apps",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47400868",
+          "author": "htdt",
+          "description": "I’ve been working on this for about a year through four major rewrites. Godogen is a pipeline that takes a text prompt, designs the architecture, generates 2D/3D assets, writes the GDScript, and tests it visually. The output is a complete, playable Godot 4 project.\nGetting LLMs to reliably generate functional games required solving three specific engineering bottlenecks:\n1. The Training Data Scarcity: LLMs barely know GDScript. It has ~850 classes and a Python-like syntax that will happily let a model hallucinate Python idioms that fail to compile. To fix this, I built a custom reference system: a hand-written language spec, full API docs converted from Godot's XML source, and a quirks database for engine behaviors you can't learn from docs alone. Because 850 classes blow up the context wi…",
+          "link": "https://github.com/htdt/godogen",
+          "publishedOn": "2026-03-16T16:07:29.000Z",
+          "wordCount": 2553,
+          "title": "Show HN: Claude Code skills that build complete Godot games",
+          "imageUrl": "https://opengraph.githubassets.com/208043d8024b25ad8929ac0c0281187f65874308671c6981c71dda65c49de3c8/htdt/godogen"
         },
         {
           "id": "https://news.ycombinator.com/item?id=47400261",
@@ -13824,46 +13874,6 @@
           "wordCount": 2344,
           "title": "Learning Lean: Part 1",
           "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47022329",
-          "author": "swah",
-          "description": "Article URL: https://www.seangoedecke.com/fast-llm-inference/\nComments URL: https://news.ycombinator.com/item?id=47022329\nPoints: 55\n# Comments: 28",
-          "link": "https://www.seangoedecke.com/fast-llm-inference/",
-          "publishedOn": "2026-02-15T09:27:33.000Z",
-          "wordCount": 1922,
-          "title": "Two different tricks for fast LLM inference",
-          "imageUrl": "https://www.seangoedecke.com/og-image.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47022270",
-          "author": "tempodox",
-          "description": "Article URL: https://garbagecollected.org/2017/01/31/four-column-ascii/\nComments URL: https://news.ycombinator.com/item?id=47022270\nPoints: 98\n# Comments: 19",
-          "link": "https://garbagecollected.org/2017/01/31/four-column-ascii/",
-          "publishedOn": "2026-02-15T09:15:16.000Z",
-          "wordCount": 629,
-          "title": "Four Column ASCII (2017)",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47022238",
-          "author": "gritzko",
-          "description": "Article URL: https://gist.github.com/gritzko/6e81b5391eacb585ae207f5e634db07e\nComments URL: https://news.ycombinator.com/item?id=47022238\nPoints: 58\n# Comments: 75",
-          "link": "https://gist.github.com/gritzko/6e81b5391eacb585ae207f5e634db07e",
-          "publishedOn": "2026-02-15T09:09:31.000Z",
-          "wordCount": 1370,
-          "title": "SCM as a database for the code",
-          "imageUrl": "https://github.githubassets.com/assets/gist-og-image-54fd7dc0713e.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47022213",
-          "author": "tosh",
-          "description": "Article URL: https://scottlocklin.wordpress.com/2023/05/31/djvu-and-its-connection-to-deep-learning/\nComments URL: https://news.ycombinator.com/item?id=47022213\nPoints: 55\n# Comments: 7",
-          "link": "https://scottlocklin.wordpress.com/2023/05/31/djvu-and-its-connection-to-deep-learning/",
-          "publishedOn": "2026-02-15T09:05:35.000Z",
-          "wordCount": 4480,
-          "title": "DjVu and its connection to Deep Learning (2023)",
-          "imageUrl": "https://scottlocklin.wordpress.com/wp-content/uploads/2023/05/quantization.jpg"
         }
       ]
     }

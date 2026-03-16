@@ -2,10 +2,36 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-03-16T20:46:50.115Z</updated>
+    <updated>2026-03-16T21:48:21.193Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Beyond Meat CEO 'It's Just Not the Moment for Plant-Based Meat' After Rebrand]]></title>
+        <id>https://news.ycombinator.com/item?id=47404798</id>
+        <link href="https://plantbasednews.org/news/alternative-protein/beyond-meat-not-the-moment-rebrand/"/>
+        <updated>2026-03-16T20:59:49.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://plantbasednews.org/news/alternative-protein/beyond-meat-not-the-moment-rebrand/
+Comments URL: https://news.ycombinator.com/item?id=47404798
+Points: 50
+# Comments: 42]]></summary>
+        <author>
+            <name>rmason</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Nvidia Launches Vera CPU, Purpose-Built for Agentic AI]]></title>
+        <id>https://news.ycombinator.com/item?id=47404074</id>
+        <link href="https://nvidianews.nvidia.com/news/nvidia-launches-vera-cpu-purpose-built-for-agentic-ai"/>
+        <updated>2026-03-16T20:01:02.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://nvidianews.nvidia.com/news/nvidia-launches-vera-cpu-purpose-built-for-agentic-ai
+Comments URL: https://news.ycombinator.com/item?id=47404074
+Points: 65
+# Comments: 40]]></summary>
+        <author>
+            <name>lewismenelaws</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Palestinian boy, 12, describes how Israeli forces killed his family in car]]></title>
         <id>https://news.ycombinator.com/item?id=47402950</id>
@@ -33,6 +59,19 @@ Points: 79
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Language Model Teams as Distrbuted Systems]]></title>
+        <id>https://news.ycombinator.com/item?id=47401901</id>
+        <link href="https://arxiv.org/abs/2603.12229"/>
+        <updated>2026-03-16T17:19:13.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://arxiv.org/abs/2603.12229
+Comments URL: https://news.ycombinator.com/item?id=47401901
+Points: 51
+# Comments: 15]]></summary>
+        <author>
+            <name>jryio</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[The “small web” is bigger than you might think]]></title>
         <id>https://news.ycombinator.com/item?id=47401879</id>
         <link href="https://kevinboone.me/small_web_is_big.html"/>
@@ -56,6 +95,30 @@ Points: 60
 # Comments: 29]]></summary>
         <author>
             <name>wek</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Launch HN: Voygr (YC W26) – A better maps API for agents and AI apps]]></title>
+        <id>https://news.ycombinator.com/item?id=47401042</id>
+        <link href="https://news.ycombinator.com/item?id=47401042"/>
+        <updated>2026-03-16T16:21:07.000Z</updated>
+        <summary type="html"><![CDATA[Hi HN, we’re Yarik and Vlad from VOYGR (https://voygr.tech/), working on better real-world place intelligence for app developers and agents. Here’s a demo: https://www.youtube.com/watch?v=cNIpcWIE0n4.
+Google Maps can tell you a restaurant is "4.2 stars, open till 10." Their API can't tell you the chef left last month, wait times doubled, and locals moved on. Maps APIs today just give you a fixed snapshot. We're building an infinite, queryable place profile that combines accurate place data with fresh web context like news, articles, and events.
+Vlad worked on the Google Maps APIs as well as in ridesharing and travel. Yarik led ML/Search infrastructure at Apple, Google, and Meta powering products used by hundreds of millions of users daily. We realized nobody was treating place data freshne…]]></summary>
+        <author>
+            <name>ymarkov</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Claude Code skills that build complete Godot games]]></title>
+        <id>https://news.ycombinator.com/item?id=47400868</id>
+        <link href="https://github.com/htdt/godogen"/>
+        <updated>2026-03-16T16:07:29.000Z</updated>
+        <summary type="html"><![CDATA[I’ve been working on this for about a year through four major rewrites. Godogen is a pipeline that takes a text prompt, designs the architecture, generates 2D/3D assets, writes the GDScript, and tests it visually. The output is a complete, playable Godot 4 project.
+Getting LLMs to reliably generate functional games required solving three specific engineering bottlenecks:
+1. The Training Data Scarcity: LLMs barely know GDScript. It has ~850 classes and a Python-like syntax that will happily let a model hallucinate Python idioms that fail to compile. To fix this, I built a custom reference system: a hand-written language spec, full API docs converted from Godot's XML source, and a quirks database for engine behaviors you can't learn from docs alone. Because 850 classes blow up the context wi…]]></summary>
+        <author>
+            <name>htdt</name>
         </author>
     </entry>
     <entry>
@@ -18546,58 +18609,6 @@ Points: 57
 # Comments: 6]]></summary>
         <author>
             <name>vinhnx</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Two different tricks for fast LLM inference]]></title>
-        <id>https://news.ycombinator.com/item?id=47022329</id>
-        <link href="https://www.seangoedecke.com/fast-llm-inference/"/>
-        <updated>2026-02-15T09:27:33.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.seangoedecke.com/fast-llm-inference/
-Comments URL: https://news.ycombinator.com/item?id=47022329
-Points: 55
-# Comments: 28]]></summary>
-        <author>
-            <name>swah</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Four Column ASCII (2017)]]></title>
-        <id>https://news.ycombinator.com/item?id=47022270</id>
-        <link href="https://garbagecollected.org/2017/01/31/four-column-ascii/"/>
-        <updated>2026-02-15T09:15:16.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://garbagecollected.org/2017/01/31/four-column-ascii/
-Comments URL: https://news.ycombinator.com/item?id=47022270
-Points: 98
-# Comments: 19]]></summary>
-        <author>
-            <name>tempodox</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[SCM as a database for the code]]></title>
-        <id>https://news.ycombinator.com/item?id=47022238</id>
-        <link href="https://gist.github.com/gritzko/6e81b5391eacb585ae207f5e634db07e"/>
-        <updated>2026-02-15T09:09:31.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://gist.github.com/gritzko/6e81b5391eacb585ae207f5e634db07e
-Comments URL: https://news.ycombinator.com/item?id=47022238
-Points: 58
-# Comments: 75]]></summary>
-        <author>
-            <name>gritzko</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[DjVu and its connection to Deep Learning (2023)]]></title>
-        <id>https://news.ycombinator.com/item?id=47022213</id>
-        <link href="https://scottlocklin.wordpress.com/2023/05/31/djvu-and-its-connection-to-deep-learning/"/>
-        <updated>2026-02-15T09:05:35.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://scottlocklin.wordpress.com/2023/05/31/djvu-and-its-connection-to-deep-learning/
-Comments URL: https://news.ycombinator.com/item?id=47022213
-Points: 55
-# Comments: 7]]></summary>
-        <author>
-            <name>tosh</name>
         </author>
     </entry>
 </feed>
