@@ -76,6 +76,16 @@
           "imageUrl": null
         },
         {
+          "id": "https://news.ycombinator.com/item?id=47401809",
+          "author": "rexroad",
+          "description": "Article URL: https://github.com/rexrodeo/american-healthcare-conundrum\nComments URL: https://news.ycombinator.com/item?id=47401809\nPoints: 97\n# Comments: 53",
+          "link": "https://github.com/rexrodeo/american-healthcare-conundrum",
+          "publishedOn": "2026-03-16T17:13:27.000Z",
+          "wordCount": 4328,
+          "title": "US commercial insurers pay 254% of Medicare for the same hospital procedures",
+          "imageUrl": "https://repository-images.githubusercontent.com/1170412263/5f53d927-62aa-402c-8b6c-7356e0f19945"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=47401734",
           "author": "wek",
           "description": "Article URL: https://arxiv.org/abs/2511.04427\nComments URL: https://news.ycombinator.com/item?id=47401734\nPoints: 60\n# Comments: 29",
@@ -13844,36 +13854,6 @@
           "wordCount": 5839,
           "title": "Reversed engineered game Starflight (1986)",
           "imageUrl": "https://opengraph.githubassets.com/4e8078217288d47d7cd8da8cb925cbaf2fa1037efd3c60f85cc356aa41399847/s-macke/starflight-reverse"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47022891",
-          "author": "deevus",
-          "description": "Article URL: https://marler8997.github.io/blog/fixed-windows/\nComments URL: https://news.ycombinator.com/item?id=47022891\nPoints: 182\n# Comments: 79",
-          "link": "https://marler8997.github.io/blog/fixed-windows/",
-          "publishedOn": "2026-02-15T11:25:26.000Z",
-          "wordCount": 1507,
-          "title": "I Fixed Windows Native Development",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47022745",
-          "author": "miloschwartz",
-          "description": "Pangolin (https://github.com/fosrl/pangolin) is an open-source tool for identity-based remote access to internal resources - an alternative to Cloudflare ZTNA, Zscaler, and Twingate.\nIt’s different than existing approaches: mesh VPNs (Tailscale, ZeroTier, etc.) create flat overlay networks where ACL and IP space management becomes complex at scale and every device can talk to every other device, while corporate ZTNA solutions (Zscaler, Cato, Netskope etc.) are closed-source and add latency by forcing traffic through a central server.\nPangolin takes a resource-centric approach. You deploy lightweight connectors that bridge to specific resources (private web apps, SSH, databases, CIDR ranges). Admins delegate resource-access to specific users and roles. It uses WireGuard with NAT hole-punching for peer-to-peer connections and traffic goes directly between the user and connector instead of through a central server. It supports native clients (Mac/Windows/Linux/iOS/Android) plus identity-aware, browser-based access when a client isn’t required.\nPangolin has a cloud and is optionally self-hosted. The Community Edition is AGPLv3. The Enterprise Edition is also open-source under the commercial license which enables free personal/small business use.\nEverything, from the server to the clients, is fully open-source and you can even self-host the whole stack. We’d love to hear what you think and I'm happy to answer any questions!\nComments URL: https://news.ycombinator.com/item?id=47022745\nPoints: 50\n# Comments: 20",
-          "link": "https://github.com/fosrl/pangolin",
-          "publishedOn": "2026-02-15T10:50:18.000Z",
-          "wordCount": 2920,
-          "title": "Show HN: Pangolin: Open-source identity-based VPN (Twingate/Zscaler alternative)",
-          "imageUrl": "https://repository-images.githubusercontent.com/863835427/5545fba0-d1e4-4422-b48b-f5111ba6fb61"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47022704",
-          "author": "Risse",
-          "description": "Article URL: https://matthew.verive.me/blog/color/\nComments URL: https://news.ycombinator.com/item?id=47022704\nPoints: 85\n# Comments: 8",
-          "link": "https://matthew.verive.me/blog/color/",
-          "publishedOn": "2026-02-15T10:40:49.000Z",
-          "wordCount": null,
-          "title": "A Pokémon of a Different Color",
-          "imageUrl": null
         }
       ]
     }

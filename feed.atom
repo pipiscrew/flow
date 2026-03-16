@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-03-16T22:40:46.899Z</updated>
+    <updated>2026-03-16T23:36:29.755Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
@@ -95,6 +95,19 @@ Points: 99
 # Comments: 29]]></summary>
         <author>
             <name>speckx</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[US commercial insurers pay 254% of Medicare for the same hospital procedures]]></title>
+        <id>https://news.ycombinator.com/item?id=47401809</id>
+        <link href="https://github.com/rexrodeo/american-healthcare-conundrum"/>
+        <updated>2026-03-16T17:13:27.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://github.com/rexrodeo/american-healthcare-conundrum
+Comments URL: https://news.ycombinator.com/item?id=47401809
+Points: 97
+# Comments: 53]]></summary>
+        <author>
+            <name>rexroad</name>
         </author>
     </entry>
     <entry>
@@ -18566,49 +18579,6 @@ Points: 55
 # Comments: 29]]></summary>
         <author>
             <name>tosh</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[I Fixed Windows Native Development]]></title>
-        <id>https://news.ycombinator.com/item?id=47022891</id>
-        <link href="https://marler8997.github.io/blog/fixed-windows/"/>
-        <updated>2026-02-15T11:25:26.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://marler8997.github.io/blog/fixed-windows/
-Comments URL: https://news.ycombinator.com/item?id=47022891
-Points: 182
-# Comments: 79]]></summary>
-        <author>
-            <name>deevus</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: Pangolin: Open-source identity-based VPN (Twingate/Zscaler alternative)]]></title>
-        <id>https://news.ycombinator.com/item?id=47022745</id>
-        <link href="https://github.com/fosrl/pangolin"/>
-        <updated>2026-02-15T10:50:18.000Z</updated>
-        <summary type="html"><![CDATA[Pangolin (https://github.com/fosrl/pangolin) is an open-source tool for identity-based remote access to internal resources - an alternative to Cloudflare ZTNA, Zscaler, and Twingate.
-It’s different than existing approaches: mesh VPNs (Tailscale, ZeroTier, etc.) create flat overlay networks where ACL and IP space management becomes complex at scale and every device can talk to every other device, while corporate ZTNA solutions (Zscaler, Cato, Netskope etc.) are closed-source and add latency by forcing traffic through a central server.
-Pangolin takes a resource-centric approach. You deploy lightweight connectors that bridge to specific resources (private web apps, SSH, databases, CIDR ranges). Admins delegate resource-access to specific users and roles. It uses WireGuard with NAT hole-punching for peer-to-peer connections and traffic goes directly between the user and connector instead of through a central server. It supports native clients (Mac/Windows/Linux/iOS/Android) plus identity-aware, browser-based access when a client isn’t required.
-Pangolin has a cloud and is optionally self-hosted. The Community Edition is AGPLv3. The Enterprise Edition is also open-source under the commercial license which enables free personal/small business use.
-Everything, from the server to the clients, is fully open-source and you can even self-host the whole stack. We’d love to hear what you think and I'm happy to answer any questions!
-Comments URL: https://news.ycombinator.com/item?id=47022745
-Points: 50
-# Comments: 20]]></summary>
-        <author>
-            <name>miloschwartz</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A Pokémon of a Different Color]]></title>
-        <id>https://news.ycombinator.com/item?id=47022704</id>
-        <link href="https://matthew.verive.me/blog/color/"/>
-        <updated>2026-02-15T10:40:49.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://matthew.verive.me/blog/color/
-Comments URL: https://news.ycombinator.com/item?id=47022704
-Points: 85
-# Comments: 8]]></summary>
-        <author>
-            <name>Risse</name>
         </author>
     </entry>
 </feed>
