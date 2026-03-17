@@ -6,6 +6,26 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=47417814",
+          "author": "1vuio0pswjnm7",
+          "description": "Article URL: https://www.bbc.com/news/articles/cqj9kgxqjwjo\nComments URL: https://news.ycombinator.com/item?id=47417814\nPoints: 81\n# Comments: 37",
+          "link": "https://www.bbc.com/news/articles/cqj9kgxqjwjo",
+          "publishedOn": "2026-03-17T20:24:33.000Z",
+          "wordCount": 11757,
+          "title": "Meta and TikTok let harmful content rise to drove engagement, say whistleblowers",
+          "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/25a6/live/9833eb40-1efb-11f1-9120-a910fc22c6ac.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47417804",
+          "author": "stefankuehnel",
+          "description": "Article URL: https://github.com/gsd-build/get-shit-done\nComments URL: https://news.ycombinator.com/item?id=47417804\nPoints: 61\n# Comments: 21",
+          "link": "https://github.com/gsd-build/get-shit-done",
+          "publishedOn": "2026-03-17T20:23:39.000Z",
+          "wordCount": 12113,
+          "title": "Get Shit Done: A Meta-Prompting, Context Engineering and Spec-Driven Dev System",
+          "imageUrl": "https://opengraph.githubassets.com/c08fd4d46e3eaa2cb67b3ee7c45081bd755ac66a46ef4889f4ca36dcb8bd17ba/gsd-build/get-shit-done"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=47416736",
           "author": "mwkaufma",
           "description": "https://web.archive.org/web/20260317185928/https://terathon....\nComments URL: https://news.ycombinator.com/item?id=47416736\nPoints: 157\n# Comments: 9",
@@ -46,6 +66,16 @@
           "imageUrl": "https://cdn.ilga.gov/assets/img/site/open_graph.png"
         },
         {
+          "id": "https://news.ycombinator.com/item?id=47416081",
+          "author": "syrusakbary",
+          "description": "Article URL: https://wasmer.io/posts/edgejs-safe-nodejs-using-wasm-sandbox\nComments URL: https://news.ycombinator.com/item?id=47416081\nPoints: 54\n# Comments: 16",
+          "link": "https://wasmer.io/posts/edgejs-safe-nodejs-using-wasm-sandbox",
+          "publishedOn": "2026-03-17T18:01:50.000Z",
+          "wordCount": 17657,
+          "title": "Edge.js: Run Node apps inside a WebAssembly sandbox",
+          "imageUrl": "https://cdn.wasmer.io/original_images/edgejs-safe-nodejs-using-wasm-sandbox-cover-49efd00c.png"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=47415919",
           "author": "mooreds",
           "description": "Article URL: https://andrewmurphy.io/blog/if-you-thought-the-speed-of-writing-code-was-your-problem-you-have-bigger-problems\nComments URL: https://news.ycombinator.com/item?id=47415919\nPoints: 78\n# Comments: 32",
@@ -84,6 +114,16 @@
           "wordCount": 3386,
           "title": "Show HN: Antfly: Distributed, Multimodal Search and Memory and Graphs in Go",
           "imageUrl": "https://opengraph.githubassets.com/05c25b2faaf688b7aa1bd62908795f301440d18d8b4c55a6ba99534b3ebb39eb/antflydb/antfly"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47414032",
+          "author": "brainless",
+          "description": "Article URL: https://unsloth.ai/docs/new/studio\nComments URL: https://news.ycombinator.com/item?id=47414032\nPoints: 66\n# Comments: 7",
+          "link": "https://unsloth.ai/docs/new/studio",
+          "publishedOn": "2026-03-17T15:26:32.000Z",
+          "wordCount": 10413,
+          "title": "Unsloth Studio",
+          "imageUrl": "https://unsloth.ai/docs/~gitbook/image?url=https%3A%2F%2F2815821428-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Forganizations%252FHpyELzcNe0topgVLGCZY%252Fsites%252Fsite_mXXTe%252Fsocialpreview%252FOeFDVbzp4cgwaId7PbvL%252Funsloth%2520docs%2520pic.png%3Falt%3Dmedia%26token%3Df34a6bcc-db15-449a-bc2d-e0e8f52fe953&width=1200&height=630&sign=b1ca68fa&sv=2"
         },
         {
           "id": "https://news.ycombinator.com/item?id=47413876",
@@ -204,6 +244,16 @@
           "wordCount": 41,
           "title": "Reverse-engineering Viktor and making it Open Source",
           "imageUrl": "https://matijacniacki.com/mj.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47408727",
+          "author": "jellyotsiro",
+          "description": "We've been building Crust (https://crustjs.com/), a TypeScript-first, Bun-native CLI framework with zero dependencies. It's been powering our core product internally for a while, and we're now open-sourcing it.\nThe problem we kept running into: existing CLI frameworks in the JS ecosystem are either minimal arg parsers where you wire everything yourself, or heavyweight frameworks with large dependency trees and Node-era assumptions. We wanted something in between.\nWhat Crust does differently:\n- Full type inference from definitions — args and flags are inferred automatically. No manual type annotations, no generics to wrangle. You define a flag as type: \"string\" and it flows through to your handler.\n- Compile-time validation — catches flag alias collisions and variadic arg mistakes before your code runs, not at runtime.\n- Zero runtime dependencies — @crustjs/core is ~3.6kB gzipped (21kB install). For comparison: yargs is 509kB, oclif is 411kB.\n- Composable modules — core, plugins, prompts, styling, validation, and build tooling are all separate packages. Install only what you need.\n- Plugin system — middleware-based with lifecycle hooks (preRun/postRun). Official plugins for help, version, and shell autocompletion.\n- Built for Bun — no Node compatibility layers, no legacy baggage.\nQuick example:\n  import { Crust } from \"@crustjs/core\";\n  import { helpPlugin, versionPlugin } from \"@crustjs/plugins\";\n\n  const main = new Crust(\"greet\")\n    .args([{ name: \"name\", type: \"string\", default: \"world\" }])\n    .flags({ shout: { type: \"boolean\", short: \"s\" } })\n    .use(helpPlugin())\n    .use(versionPlugin(\"1.0.0\"))\n    .run(({ args, flags }) => {\n      const msg = `Hello, ${args.name}!`;\n      console.log(flags.shout ? msg.toUpperCase() : msg);\n    });\n\n  await main.execute();\n\n  bun create crust my-cli\n\nhttps://crustjs.com\nGitHub: https://github.com/chenxin-yan/crust\nHappy to answer any questions about the design decisions or internals.\nComments URL: https://news.ycombinator.com/item?id=47408727\nPoints: 52\n# Comments: 20",
+          "link": "https://github.com/chenxin-yan/crust",
+          "publishedOn": "2026-03-17T04:43:29.000Z",
+          "wordCount": 1369,
+          "title": "Show HN: Crust – A CLI framework for TypeScript and Bun",
+          "imageUrl": "https://opengraph.githubassets.com/4a77c9ca1b9f1f2dbed797e50d7714dc111513fbc64f4d1b09b6254f5f8e08ba/chenxin-yan/crust"
         },
         {
           "id": "https://news.ycombinator.com/item?id=47408703",
@@ -13824,16 +13874,6 @@
           "wordCount": 2223,
           "title": "MessageFormat: Unicode standard for localizable message strings",
           "imageUrl": "https://opengraph.githubassets.com/17bd1b5aead0e7fb899d124d996e36a82f634335083fe5ee7f48ddfc54bf1ac0/unicode-org/message-format-wg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47032876",
-          "author": "danielhanchen",
-          "description": "Article URL: https://qwen.ai/blog?id=qwen3.5\nComments URL: https://news.ycombinator.com/item?id=47032876\nPoints: 64\n# Comments: 25",
-          "link": "https://qwen.ai/blog?id=qwen3.5",
-          "publishedOn": "2026-02-16T09:32:21.000Z",
-          "wordCount": 180,
-          "title": "Qwen3.5: Towards Native Multimodal Agents",
-          "imageUrl": null
         }
       ]
     }

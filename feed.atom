@@ -2,10 +2,36 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-03-17T20:48:36.802Z</updated>
+    <updated>2026-03-17T21:45:13.164Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Meta and TikTok let harmful content rise to drove engagement, say whistleblowers]]></title>
+        <id>https://news.ycombinator.com/item?id=47417814</id>
+        <link href="https://www.bbc.com/news/articles/cqj9kgxqjwjo"/>
+        <updated>2026-03-17T20:24:33.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.bbc.com/news/articles/cqj9kgxqjwjo
+Comments URL: https://news.ycombinator.com/item?id=47417814
+Points: 81
+# Comments: 37]]></summary>
+        <author>
+            <name>1vuio0pswjnm7</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Get Shit Done: A Meta-Prompting, Context Engineering and Spec-Driven Dev System]]></title>
+        <id>https://news.ycombinator.com/item?id=47417804</id>
+        <link href="https://github.com/gsd-build/get-shit-done"/>
+        <updated>2026-03-17T20:23:39.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://github.com/gsd-build/get-shit-done
+Comments URL: https://news.ycombinator.com/item?id=47417804
+Points: 61
+# Comments: 21]]></summary>
+        <author>
+            <name>stefankuehnel</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[A Decade of Slug]]></title>
         <id>https://news.ycombinator.com/item?id=47416736</id>
@@ -56,6 +82,19 @@ Points: 111
 # Comments: 122]]></summary>
         <author>
             <name>terminalbraid</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Edge.js: Run Node apps inside a WebAssembly sandbox]]></title>
+        <id>https://news.ycombinator.com/item?id=47416081</id>
+        <link href="https://wasmer.io/posts/edgejs-safe-nodejs-using-wasm-sandbox"/>
+        <updated>2026-03-17T18:01:50.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://wasmer.io/posts/edgejs-safe-nodejs-using-wasm-sandbox
+Comments URL: https://news.ycombinator.com/item?id=47416081
+Points: 54
+# Comments: 16]]></summary>
+        <author>
+            <name>syrusakbary</name>
         </author>
     </entry>
     <entry>
@@ -117,6 +156,19 @@ Points: 50
 # Comments: 22]]></summary>
         <author>
             <name>kingcauchy</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Unsloth Studio]]></title>
+        <id>https://news.ycombinator.com/item?id=47414032</id>
+        <link href="https://unsloth.ai/docs/new/studio"/>
+        <updated>2026-03-17T15:26:32.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://unsloth.ai/docs/new/studio
+Comments URL: https://news.ycombinator.com/item?id=47414032
+Points: 66
+# Comments: 7]]></summary>
+        <author>
+            <name>brainless</name>
         </author>
     </entry>
     <entry>
@@ -278,6 +330,48 @@ Points: 60
 # Comments: 21]]></summary>
         <author>
             <name>zggf</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Crust – A CLI framework for TypeScript and Bun]]></title>
+        <id>https://news.ycombinator.com/item?id=47408727</id>
+        <link href="https://github.com/chenxin-yan/crust"/>
+        <updated>2026-03-17T04:43:29.000Z</updated>
+        <summary type="html"><![CDATA[We've been building Crust (https://crustjs.com/), a TypeScript-first, Bun-native CLI framework with zero dependencies. It's been powering our core product internally for a while, and we're now open-sourcing it.
+The problem we kept running into: existing CLI frameworks in the JS ecosystem are either minimal arg parsers where you wire everything yourself, or heavyweight frameworks with large dependency trees and Node-era assumptions. We wanted something in between.
+What Crust does differently:
+- Full type inference from definitions — args and flags are inferred automatically. No manual type annotations, no generics to wrangle. You define a flag as type: "string" and it flows through to your handler.
+- Compile-time validation — catches flag alias collisions and variadic arg mistakes before your code runs, not at runtime.
+- Zero runtime dependencies — @crustjs/core is ~3.6kB gzipped (21kB install). For comparison: yargs is 509kB, oclif is 411kB.
+- Composable modules — core, plugins, prompts, styling, validation, and build tooling are all separate packages. Install only what you need.
+- Plugin system — middleware-based with lifecycle hooks (preRun/postRun). Official plugins for help, version, and shell autocompletion.
+- Built for Bun — no Node compatibility layers, no legacy baggage.
+Quick example:
+  import { Crust } from "@crustjs/core";
+  import { helpPlugin, versionPlugin } from "@crustjs/plugins";
+
+  const main = new Crust("greet")
+    .args([{ name: "name", type: "string", default: "world" }])
+    .flags({ shout: { type: "boolean", short: "s" } })
+    .use(helpPlugin())
+    .use(versionPlugin("1.0.0"))
+    .run(({ args, flags }) => {
+      const msg = `Hello, ${args.name}!`;
+      console.log(flags.shout ? msg.toUpperCase() : msg);
+    });
+
+  await main.execute();
+
+  bun create crust my-cli
+
+https://crustjs.com
+GitHub: https://github.com/chenxin-yan/crust
+Happy to answer any questions about the design decisions or internals.
+Comments URL: https://news.ycombinator.com/item?id=47408727
+Points: 52
+# Comments: 20]]></summary>
+        <author>
+            <name>jellyotsiro</name>
         </author>
     </entry>
     <entry>
@@ -18547,19 +18641,6 @@ Points: 67
 # Comments: 32]]></summary>
         <author>
             <name>todsacerdoti</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Qwen3.5: Towards Native Multimodal Agents]]></title>
-        <id>https://news.ycombinator.com/item?id=47032876</id>
-        <link href="https://qwen.ai/blog?id=qwen3.5"/>
-        <updated>2026-02-16T09:32:21.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://qwen.ai/blog?id=qwen3.5
-Comments URL: https://news.ycombinator.com/item?id=47032876
-Points: 64
-# Comments: 25]]></summary>
-        <author>
-            <name>danielhanchen</name>
         </author>
     </entry>
 </feed>
