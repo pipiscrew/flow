@@ -6,6 +6,36 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=47416736",
+          "author": "mwkaufma",
+          "description": "https://web.archive.org/web/20260317185928/https://terathon....\nComments URL: https://news.ycombinator.com/item?id=47416736\nPoints: 157\n# Comments: 9",
+          "link": "https://terathon.com/blog/decade-slug.html",
+          "publishedOn": "2026-03-17T18:59:50.000Z",
+          "wordCount": 2070,
+          "title": "A Decade of Slug",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47416548",
+          "author": "mfiguiere",
+          "description": "Article URL: https://hanno.codes/2026/03/17/java-26-is-here/\nComments URL: https://news.ycombinator.com/item?id=47416548\nPoints: 71\n# Comments: 45",
+          "link": "https://hanno.codes/2026/03/17/java-26-is-here/",
+          "publishedOn": "2026-03-17T18:44:09.000Z",
+          "wordCount": 8593,
+          "title": "Java 26 is here, and with it a solid foundation for the future",
+          "imageUrl": "https://hanno.codes/assets/images/blog/foundation.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47416486",
+          "author": "guidoiaquinti",
+          "description": "Article URL: https://fidget-spinner.github.io/posts/jit-on-track.html\nComments URL: https://news.ycombinator.com/item?id=47416486\nPoints: 65\n# Comments: 7",
+          "link": "https://fidget-spinner.github.io/posts/jit-on-track.html",
+          "publishedOn": "2026-03-17T18:37:27.000Z",
+          "wordCount": 1747,
+          "title": "Python 3.15's JIT is now back on track",
+          "imageUrl": null
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=47416131",
           "author": "terminalbraid",
           "description": "Article URL: https://www.ilga.gov/Legislation/BillStatus?DocTypeID=HB&DocNum=5511\nComments URL: https://news.ycombinator.com/item?id=47416131\nPoints: 111\n# Comments: 122",
@@ -34,6 +64,16 @@
           "wordCount": null,
           "title": "GPT‑5.4 Mini and Nano",
           "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47414440",
+          "author": "tambourine_man",
+          "description": "Article URL: https://theasc.com/articles/the-secret-agent-cinematography\nComments URL: https://news.ycombinator.com/item?id=47414440\nPoints: 79\n# Comments: 33",
+          "link": "https://theasc.com/articles/the-secret-agent-cinematography",
+          "publishedOn": "2026-03-17T15:56:09.000Z",
+          "wordCount": 1727,
+          "title": "'The Secret Agent': Exploring a Vibrant, yet Violent Brazil (2025)",
+          "imageUrl": "https://cdn.theasc.com/_1200x630_crop_center-center_82_none/4-arri-alexa-35-dp-evgenia-alexandrova-interview-the-secret-agent-data.jpg?mtime=1766336895"
         },
         {
           "id": "https://news.ycombinator.com/item?id=47414291",
@@ -104,6 +144,16 @@
           "wordCount": 9888,
           "title": "Silicon Valley's \"Pronatalists\" Killed WFH. The Strait of Hormuz Brought It Back",
           "imageUrl": "https://substackcdn.com/image/fetch/$s_!k3y_!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4f6bf9a1-7500-44fb-9fa7-19b522cbe19e_1280x800.jpeg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47412015",
+          "author": "bwade818",
+          "description": "I built a March Madness bracket challenge for AI agents, not humans. The human prompts their agent with the URL, and the agent reads the API docs, registers itself, picks all 63 games, and submits a bracket autonomously. A leaderboard tracks which AI picks the best bracket through the tournament.\nThe interesting design problem was building for an agent-first user. I came up with a solution where Agents who hit the homepage receive plain-text API instructions and Humans get the normal visual site. Early on I found most agents were trying to use Playwright to browse the site instead of just reading the docs. I made some changes to detect HeadlessChrome and serve specific html readable to agents. This forced me to think about agent UX even more - I think there are some really cool ideas to pull on.\nThe timeline introduced an interesting dynamic. I had to launch the challenge shortly after the brackets were announced on Sunday afternoon to start getting users by the Thursday morning deadline. While I could test on the 2025 bracket, I wouldn't be able to get feedback on my MVP. So I used AI to create user personas and agents as test users to run through the signup and management process. It gave me valuable reps to feel confident launching.\nThe stack is Next.js 16, TypeScript, Supabase, Tailwind v4, Vercel, Resend, and finally Claude Code for ~95% of the build.\nWorks with any model that can call an API — Claude, GPT, Gemini, open source, whatever. Brackets are due Thursday morning before the First Round tips off.\nBracketmadness.ai\nComments URL: https://news.ycombinator.com/item?id=47412015\nPoints: 53\n# Comments: 30",
+          "link": "https://www.bracketmadness.ai/",
+          "publishedOn": "2026-03-17T12:56:24.000Z",
+          "wordCount": 785,
+          "title": "Show HN: March Madness Bracket Challenge for AI Agents Only",
+          "imageUrl": null
         },
         {
           "id": "https://news.ycombinator.com/item?id=47411480",
@@ -456,6 +506,16 @@
           "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0e/FreeBSD_13.0_boot_loader_autoboot_screenshot.png"
         },
         {
+          "id": "https://news.ycombinator.com/item?id=47397367",
+          "author": "peterlavigne",
+          "description": "Article URL: https://peterlavigne.com/writing/verifying-ai-generated-code\nComments URL: https://news.ycombinator.com/item?id=47397367\nPoints: 53\n# Comments: 42",
+          "link": "https://peterlavigne.com/writing/verifying-ai-generated-code",
+          "publishedOn": "2026-03-16T10:52:33.000Z",
+          "wordCount": 743,
+          "title": "Toward automated verification of unreviewed AI-generated code",
+          "imageUrl": "https://peterlavigne.com/images/og_image.jpg"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=47397190",
           "author": "tathagatadg",
           "description": "How has the curriculum changed? What are the professors telling their students to explain why the course they enrolled in deserves the rigorous study? Are the students buying it - and is it matching reality at the end of the course? It’s hard to get a feel from the continuous pendulum swing of “it’s dead” to “it’s better than ever”. As much as I am scared with my own career, I am worried about my nephews’. What advice to give them, when all their life I have advocated for CS as a fulfilling career choice? \nP.S. I have pivoted to best time to be solopreneur. “But what about uni then?”\nComments URL: https://news.ycombinator.com/item?id=47397190\nPoints: 77\n# Comments: 49",
@@ -744,6 +804,16 @@
           "wordCount": 3672,
           "title": "Codegen is not productivity",
           "imageUrl": "https://www.antifound.com/assets/blank.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47387268",
+          "author": "sylvainkalache",
+          "description": "Article URL: https://techcrunch.com/2026/03/14/honda-is-killing-its-evs-and-any-chance-of-competing-in-the-future/\nComments URL: https://news.ycombinator.com/item?id=47387268\nPoints: 92\n# Comments: 68",
+          "link": "https://techcrunch.com/2026/03/14/honda-is-killing-its-evs-and-any-chance-of-competing-in-the-future/",
+          "publishedOn": "2026-03-15T13:38:08.000Z",
+          "wordCount": 3785,
+          "title": "Honda is killing its EVs",
+          "imageUrl": "https://techcrunch.com/wp-content/uploads/2025/02/honda-logo.jpg?resize=1200,800"
         },
         {
           "id": "https://news.ycombinator.com/item?id=47387047",
@@ -1413,6 +1483,16 @@
           "publishedOn": "2026-03-13T19:15:06.000Z",
           "wordCount": null,
           "title": "Stanford researchers report first recording of a blue whale's heart rate (2019)",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47368425",
+          "author": "yincrash",
+          "description": "Article URL: https://www.youtube.com/watch?v=3Ploi723hg4\nComments URL: https://news.ycombinator.com/item?id=47368425\nPoints: 52\n# Comments: 13",
+          "link": "https://www.youtube.com/watch?v=3Ploi723hg4",
+          "publishedOn": "2026-03-13T19:14:46.000Z",
+          "wordCount": null,
+          "title": "It Took Me 30 Years to Solve This VFX Problem – Green Screen Problem [video]",
           "imageUrl": null
         },
         {
@@ -13754,16 +13834,6 @@
           "wordCount": 180,
           "title": "Qwen3.5: Towards Native Multimodal Agents",
           "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47032235",
-          "author": "tosh",
-          "description": "Article URL: https://github.com/antirez/picol\nComments URL: https://news.ycombinator.com/item?id=47032235\nPoints: 55\n# Comments: 38",
-          "link": "https://github.com/antirez/picol",
-          "publishedOn": "2026-02-16T08:04:11.000Z",
-          "wordCount": 2614,
-          "title": "picol: A Tcl interpreter in 500 lines of code",
-          "imageUrl": "https://opengraph.githubassets.com/a4cf931913cd0bc7a98b751a9c2a934e8328e2e43aa2d22baaee56e3b26a2f53/antirez/picol"
         }
       ]
     }
