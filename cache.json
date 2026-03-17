@@ -6,6 +6,46 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=47416131",
+          "author": "terminalbraid",
+          "description": "Article URL: https://www.ilga.gov/Legislation/BillStatus?DocTypeID=HB&DocNum=5511\nComments URL: https://news.ycombinator.com/item?id=47416131\nPoints: 111\n# Comments: 122",
+          "link": "https://www.ilga.gov/Legislation/BillStatus?DocTypeID=HB&DocNum=5511",
+          "publishedOn": "2026-03-17T18:06:07.000Z",
+          "wordCount": 1112,
+          "title": "Illinois Introducing Operating System Account Age Bill",
+          "imageUrl": "https://cdn.ilga.gov/assets/img/site/open_graph.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47415919",
+          "author": "mooreds",
+          "description": "Article URL: https://andrewmurphy.io/blog/if-you-thought-the-speed-of-writing-code-was-your-problem-you-have-bigger-problems\nComments URL: https://news.ycombinator.com/item?id=47415919\nPoints: 78\n# Comments: 32",
+          "link": "https://andrewmurphy.io/blog/if-you-thought-the-speed-of-writing-code-was-your-problem-you-have-bigger-problems",
+          "publishedOn": "2026-03-17T17:48:50.000Z",
+          "wordCount": 5512,
+          "title": "If you thought the code writing speed was your problem; you have bigger problems",
+          "imageUrl": "https://debuggingleadership.com/website-template-OG.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47415441",
+          "author": "meetpateltech",
+          "description": "Article URL: https://openai.com/index/introducing-gpt-5-4-mini-and-nano\nComments URL: https://news.ycombinator.com/item?id=47415441\nPoints: 94\n# Comments: 48",
+          "link": "https://openai.com/index/introducing-gpt-5-4-mini-and-nano",
+          "publishedOn": "2026-03-17T17:07:06.000Z",
+          "wordCount": null,
+          "title": "GPT‑5.4 Mini and Nano",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47414291",
+          "author": "kingcauchy",
+          "description": "Hey HN, I’m excited to share Antfly: a distributed document database and search engine written in Go that combines full-text, vector, and graph search.  Use it for distributed multimodal search and memory, or for local dev and small deployments.\nI built this to give developers a single-binary deployment with native ML inference (via a built-in service called Termite), meaning you don't need external API calls for vector search unless you want to use them.\nSome things that might interest this crowd:\nCapabilities: Multimodal indexing (images, audio, video), MongoDB-style in-place updates, and streaming RAG.\nDistributed Systems: Multi-Raft setup built on etcd's library, backed by Pebble (CockroachDB's storage engine). Metadata and data shards get their own Raft groups.\nSingle Binary: antfly swarm gives you a single-process deployment with everything running. Good for local dev and small deployments. Scale out by adding nodes when you need to.\nEcosystem: Ships with a Kubernetes operator and an MCP server for LLM tool use.\nNative ML inference: Antfly ships with Termite. Think of it like a built-in Ollama for non-generative models too (embeddings, reranking, chunking, text generation). No external API calls needed, but also supports them (OpenAI, Ollama, Bedrock, Gemini, etc.)\nLicense: I went with Elastic License v2, not an OSI-approved license. I know that's a topic with strong feelings here. The practical upshot: you can use it, modify it, self-host it, build products on top of it, you just can't offer Antfly itself as a managed service. Felt like the right tradeoff for sustainability while still making the source available.\nHappy to answer questions about the architecture, the Raft implementation, or anything else. Feedback welcome!\nComments URL: https://news.ycombinator.com/item?id=47414291\nPoints: 50\n# Comments: 22",
+          "link": "https://github.com/antflydb/antfly",
+          "publishedOn": "2026-03-17T15:45:15.000Z",
+          "wordCount": 3386,
+          "title": "Show HN: Antfly: Distributed, Multimodal Search and Memory and Graphs in Go",
+          "imageUrl": "https://opengraph.githubassets.com/05c25b2faaf688b7aa1bd62908795f301440d18d8b4c55a6ba99534b3ebb39eb/antflydb/antfly"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=47413876",
           "author": "crtasm",
           "description": "Article URL: https://www.tomshardware.com/video-games/console-gaming/microsofts-unhackable-xbox-one-has-been-hacked-by-bliss-the-2013-console-finally-fell-to-voltage-glitching-allowing-the-loading-of-unsigned-code-at-every-level\nComments URL: https://news.ycombinator.com/item?id=47413876\nPoints: 98\n# Comments: 40",
@@ -13724,46 +13764,6 @@
           "wordCount": 2614,
           "title": "picol: A Tcl interpreter in 500 lines of code",
           "imageUrl": "https://opengraph.githubassets.com/a4cf931913cd0bc7a98b751a9c2a934e8328e2e43aa2d22baaee56e3b26a2f53/antirez/picol"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47031580",
-          "author": "novemp",
-          "description": "Article URL: https://mastodon.world/@knowmadd/116072773118828295\nComments URL: https://news.ycombinator.com/item?id=47031580\nPoints: 452\n# Comments: 323",
-          "link": "https://mastodon.world/@knowmadd/116072773118828295",
-          "publishedOn": "2026-02-16T06:31:48.000Z",
-          "wordCount": 276,
-          "title": "I want to wash my car. The car wash is 50 meters away. Should I walk or drive?",
-          "imageUrl": "https://s3.eu-central-2.wasabisys.com/mastodonworld/media_attachments/files/116/072/747/717/256/848/original/7dfa3f40a6cc6381.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47031334",
-          "author": "dvrp",
-          "description": "Related: Show HN: JeffTube - https://news.ycombinator.com/item?id=47030797\nComments URL: https://news.ycombinator.com/item?id=47031334\nPoints: 75\n# Comments: 14",
-          "link": "https://jmail.world/jemini",
-          "publishedOn": "2026-02-16T05:53:03.000Z",
-          "wordCount": 1941,
-          "title": "Show HN: Jemini – Gemini for the Epstein Files",
-          "imageUrl": "https://jmail.world/social-preview.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47031268",
-          "author": "kyars",
-          "description": "Hope some find this post interesting on my experience with parallel coding agents.\nComments URL: https://news.ycombinator.com/item?id=47031268\nPoints: 54\n# Comments: 29",
-          "link": "https://kiankyars.github.io/machine_learning/2026/02/12/sqlite.html",
-          "publishedOn": "2026-02-16T05:38:51.000Z",
-          "wordCount": 1098,
-          "title": "Building SQLite with a small swarm",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47031197",
-          "author": "r4um",
-          "description": "Article URL: https://gustedt.wordpress.com/2026/02/15/defer-available-in-gcc-and-clang/\nComments URL: https://news.ycombinator.com/item?id=47031197\nPoints: 201\n# Comments: 149",
-          "link": "https://gustedt.wordpress.com/2026/02/15/defer-available-in-gcc-and-clang/",
-          "publishedOn": "2026-02-16T05:27:35.000Z",
-          "wordCount": 4588,
-          "title": "Defer available in gcc and clang",
-          "imageUrl": "https://gustedt.wordpress.com/wp-content/uploads/2025/09/raven.png"
         }
       ]
     }
