@@ -1286,6 +1286,16 @@
           "imageUrl": ""
         },
         {
+          "id": "https://news.ycombinator.com/item?id=47366766",
+          "author": "howlett",
+          "description": "Article URL: https://github.com/sadreck/ThermalMarky\nComments URL: https://news.ycombinator.com/item?id=47366766\nPoints: 57\n# Comments: 19",
+          "link": "https://github.com/sadreck/ThermalMarky",
+          "publishedOn": "2026-03-13T16:49:01.000Z",
+          "wordCount": 3129,
+          "title": "Show HN: Thermal Receipt Printers – Markdown and Web UI",
+          "imageUrl": "https://opengraph.githubassets.com/a94e884388c13400d1afeec605796739da2a3200f305079c65e9466be5c42ed8/sadreck/ThermalMarky"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=47366666",
           "author": "merksittich",
           "description": "https://archive.ph/rP4cb (text at bottom)\nhttps://x.com/elonmusk/status/2032201568335044978, https://xcancel.com/elonmusk/status/2032201568335044978\nhttps://economictimes.indiatimes.com/tech/artificial-intelli...\nhttps://futurism.com/artificial-intelligence/elon-musk-screw...\nComments URL: https://news.ycombinator.com/item?id=47366666\nPoints: 104\n# Comments: 95",
@@ -1364,6 +1374,16 @@
           "wordCount": 1098,
           "title": "Run NanoClaw in Docker Sandboxes",
           "imageUrl": "https://nanoclaw.dev/social-preview.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47364260",
+          "author": "mr_Fatalyst",
+          "description": "Hi HN! I built Oxyde because I was tired of duplicating my models.\nIf you use FastAPI, you know the drill. You define Pydantic models for your API, then define separate ORM models for your database, then write converters between them. SQLModel tries to fix this but it's still SQLAlchemy underneath. Tortoise gives you a nice Django-style API but its own model system. Django ORM is great but welded to the framework.\nI wanted something simple: your Pydantic model IS your database model. One class, full validation on input and output, native type hints, zero duplication. The query API is Django-style (.objects.filter(), .exclude(), Q/F expressions) because I think it's one of the best designs out there.\nExplicit over implicit. I tried to remove all the magic. Queries don't touch the database u…",
+          "link": "https://github.com/mr-fatalyst/oxyde",
+          "publishedOn": "2026-03-13T13:35:12.000Z",
+          "wordCount": 3624,
+          "title": "Show HN: Oxyde – Pydantic-native async ORM with a Rust core",
+          "imageUrl": "https://opengraph.githubassets.com/f6fbe7a96b6dd8813be85578e9b8ce4d0e813072b0d0037dd1b80f6cb92178a9/mr-fatalyst/oxyde"
         },
         {
           "id": "https://news.ycombinator.com/item?id=47364116",
@@ -13754,86 +13774,6 @@
           "wordCount": 6357,
           "title": "Show HN: Knock-Knock.net – Visualizing the bots knocking on my server's door",
           "imageUrl": "https://knock-knock.net/static/og-image.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47025188",
-          "author": "cdrnsf",
-          "description": "Article URL: https://www.heise.de/en/news/Palantir-vs-the-Republik-US-analytics-firm-takes-magazine-to-court-11176508.html\nComments URL: https://news.ycombinator.com/item?id=47025188\nPoints: 74\n# Comments: 14",
-          "link": "https://www.heise.de/en/news/Palantir-vs-the-Republik-US-analytics-firm-takes-magazine-to-court-11176508.html",
-          "publishedOn": "2026-02-15T16:51:17.000Z",
-          "wordCount": 2562,
-          "title": "Palantir vs. the \"Republik\": US analytics firm takes magazine to court",
-          "imageUrl": "https://heise.cloudimg.io/bound/1200x1200/q85.png-lossy-85.webp-lossy-85.foil1/_www-heise-de_/imgs/18/5/0/2/7/7/7/1/Screenshot_2026-02-13_at_19.57.24-85c7b3432095e315.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47025085",
-          "author": "nikodunk",
-          "description": "Article URL: https://github.com/pocketblue/pocketblue\nComments URL: https://news.ycombinator.com/item?id=47025085\nPoints: 58\n# Comments: 12",
-          "link": "https://github.com/pocketblue/pocketblue",
-          "publishedOn": "2026-02-15T16:40:13.000Z",
-          "wordCount": 1536,
-          "title": "Pocketblue – Fedora Atomic for mobile devices",
-          "imageUrl": "https://opengraph.githubassets.com/25c86734336faec753e774d3739ba1df4dc365e2de358abb2ddbb53987552cc6/pocketblue/pocketblue"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47024907",
-          "author": "magoghm",
-          "description": "Article URL: https://www.videogameschronicle.com/news/hideki-sato-designer-of-segas-consoles-dies-age-75/\nComments URL: https://news.ycombinator.com/item?id=47024907\nPoints: 63\n# Comments: 1",
-          "link": "https://www.videogameschronicle.com/news/hideki-sato-designer-of-segas-consoles-dies-age-75/",
-          "publishedOn": "2026-02-15T16:19:51.000Z",
-          "wordCount": 1253,
-          "title": "Hideki Sato, designer of all Sega's consoles, has died",
-          "imageUrl": "https://www.videogameschronicle.com/files/2026/02/IMG_1643.jpeg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47024676",
-          "author": "PaulHoule",
-          "description": "Article URL: https://lithub.com/how-an-enslaved-gardener-transformed-the-pecan-into-a-cash-crop/\nComments URL: https://news.ycombinator.com/item?id=47024676\nPoints: 50\n# Comments: 34",
-          "link": "https://lithub.com/how-an-enslaved-gardener-transformed-the-pecan-into-a-cash-crop/",
-          "publishedOn": "2026-02-15T15:53:13.000Z",
-          "wordCount": 3351,
-          "title": "An Enslaved Gardener Transformed the Pecan into a Cash Crop",
-          "imageUrl": "https://s26162.pcdn.co/wp-content/uploads/2026/01/pecan.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47024585",
-          "author": "a7b3fa",
-          "description": "Article URL: https://digitalseams.com/blog/making-a-font-with-9999-ligatures-to-display-thirteenth-century-monk-numerals\nComments URL: https://news.ycombinator.com/item?id=47024585\nPoints: 55\n# Comments: 8",
-          "link": "https://digitalseams.com/blog/making-a-font-with-9999-ligatures-to-display-thirteenth-century-monk-numerals",
-          "publishedOn": "2026-02-15T15:44:11.000Z",
-          "wordCount": 1534,
-          "title": "Making a font with ligatures to display thirteenth-century monk numerals",
-          "imageUrl": "http://static1.squarespace.com/static/598a2436f7e0ab837d08f4c6/t/6988cab5f56f56652b3541b5/1770572486488/cistercian-font-preview.png?format=1500w"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47024506",
-          "author": "theblazehen",
-          "description": "Article URL: https://gwern.net/gwtar\nComments URL: https://news.ycombinator.com/item?id=47024506\nPoints: 55\n# Comments: 12",
-          "link": "https://gwern.net/gwtar",
-          "publishedOn": "2026-02-15T15:37:06.000Z",
-          "wordCount": 2254,
-          "title": "Gwtar: A static efficient single-file HTML format",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47024387",
-          "author": "informal007",
-          "description": "Article URL: https://nichehunt.app/blog/ai-going-to-kill-app-subscriptions\nComments URL: https://news.ycombinator.com/item?id=47024387\nPoints: 67\n# Comments: 85",
-          "link": "https://nichehunt.app/blog/ai-going-to-kill-app-subscriptions",
-          "publishedOn": "2026-02-15T15:21:08.000Z",
-          "wordCount": 851,
-          "title": "AI is going to kill app subscriptions",
-          "imageUrl": "https://nichehunt.app/opengraph-image.png?opengraph-image.c79cda14.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47024184",
-          "author": "donohoe",
-          "description": "Article URL: https://github.com/cavedave/Manannan\nComments URL: https://news.ycombinator.com/item?id=47024184\nPoints: 53\n# Comments: 19",
-          "link": "https://github.com/cavedave/Manannan",
-          "publishedOn": "2026-02-15T14:55:53.000Z",
-          "wordCount": 1879,
-          "title": "1940s Irish sci-fi novel features early mecha and gravity assists",
-          "imageUrl": "https://opengraph.githubassets.com/8503110aa351b68ba4dd475947351aea3ab45ccccf047917f865efd40b1c7594/cavedave/Manannan"
         }
       ]
     }
