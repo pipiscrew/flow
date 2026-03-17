@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-03-17T06:05:50.353Z</updated>
+    <updated>2026-03-17T07:57:01.740Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
@@ -30,6 +30,19 @@ Points: 52
 # Comments: 8]]></summary>
         <author>
             <name>aresant</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Jepsen: MariaDB Galera Cluster 12.1.2]]></title>
+        <id>https://news.ycombinator.com/item?id=47408360</id>
+        <link href="https://jepsen.io/analyses/mariadb-galera-cluster-12.1.2"/>
+        <updated>2026-03-17T03:46:22.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://jepsen.io/analyses/mariadb-galera-cluster-12.1.2
+Comments URL: https://news.ycombinator.com/item?id=47408360
+Points: 60
+# Comments: 5]]></summary>
+        <author>
+            <name>aphyr</name>
         </author>
     </entry>
     <entry>
@@ -18351,91 +18364,6 @@ Points: 57
 # Comments: 14]]></summary>
         <author>
             <name>Luc</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[State Attorneys General Want to Tie Online Access to ID]]></title>
-        <id>https://news.ycombinator.com/item?id=47026848</id>
-        <link href="https://reclaimthenet.org/40-attorneys-general-back-ids-online-safety-act"/>
-        <updated>2026-02-15T19:49:17.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://reclaimthenet.org/40-attorneys-general-back-ids-online-safety-act
-Comments URL: https://news.ycombinator.com/item?id=47026848
-Points: 78
-# Comments: 53]]></summary>
-        <author>
-            <name>computerliker</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: VOOG – Moog-style polyphonic synthesizer in Python with tkinter GUI]]></title>
-        <id>https://news.ycombinator.com/item?id=47026768</id>
-        <link href="https://github.com/gpasquero/voog"/>
-        <updated>2026-02-15T19:40:57.000Z</updated>
-        <summary type="html"><![CDATA[Body:
-  I built a polyphonic synthesizer in Python with a tkinter GUI styled after the Moog Subsequent 37.
-  Features: 3 oscillators, Moog ladder filter (24dB/oct), dual ADSR envelopes, LFO, glide, noise generator, 4 multitimbral channels, 19 presets, rotary
-  knob GUI, virtual keyboard with mouse + QWERTY input, and MIDI support.
-
-  No external GUI frameworks — just tkinter, numpy, and sounddevice.
-
-
-Comments URL: https://news.ycombinator.com/item?id=47026768
-Points: 51
-# Comments: 4]]></summary>
-        <author>
-            <name>gpasquero</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: Microgpt is a GPT you can visualize in the browser]]></title>
-        <id>https://news.ycombinator.com/item?id=47026186</id>
-        <link href="https://microgpt.boratto.ca/"/>
-        <updated>2026-02-15T18:40:35.000Z</updated>
-        <summary type="html"><![CDATA[very much inspired by karpathy's microgpt of the same name. it's (by default) a 4000 param GPT/LLM/NN that learns to generate names. this is sorta an educational tool in that you can visualize the activations as they pass through the network, and click on things to get an explanation of them.
-Comments URL: https://news.ycombinator.com/item?id=47026186
-Points: 52
-# Comments: 4]]></summary>
-        <author>
-            <name>b44</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Towards Autonomous Mathematics Research]]></title>
-        <id>https://news.ycombinator.com/item?id=47026134</id>
-        <link href="https://arxiv.org/abs/2602.10177"/>
-        <updated>2026-02-15T18:35:40.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://arxiv.org/abs/2602.10177
-Comments URL: https://news.ycombinator.com/item?id=47026134
-Points: 51
-# Comments: 15]]></summary>
-        <author>
-            <name>gmays</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Editor's Note: Retraction of article containing fabricated quotations]]></title>
-        <id>https://news.ycombinator.com/item?id=47026071</id>
-        <link href="https://arstechnica.com/staff/2026/02/editors-note-retraction-of-article-containing-fabricated-quotations/"/>
-        <updated>2026-02-15T18:29:54.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://arstechnica.com/staff/2026/02/editors-note-retraction-of-article-containing-fabricated-quotations/
-Comments URL: https://news.ycombinator.com/item?id=47026071
-Points: 73
-# Comments: 53]]></summary>
-        <author>
-            <name>bikenaga</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How to Choose Between Hindley-Milner and Bidirectional Typing]]></title>
-        <id>https://news.ycombinator.com/item?id=47025885</id>
-        <link href="https://thunderseethe.dev/posts/how-to-choose-between-hm-and-bidir/"/>
-        <updated>2026-02-15T18:07:44.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://thunderseethe.dev/posts/how-to-choose-between-hm-and-bidir/
-Comments URL: https://news.ycombinator.com/item?id=47025885
-Points: 56
-# Comments: 6]]></summary>
-        <author>
-            <name>thunderseethe</name>
         </author>
     </entry>
 </feed>
