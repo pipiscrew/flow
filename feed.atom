@@ -2,10 +2,62 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-03-18T05:02:19.049Z</updated>
+    <updated>2026-03-18T07:10:39.431Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[SSH has no Host header]]></title>
+        <id>https://news.ycombinator.com/item?id=47421828</id>
+        <link href="https://blog.exe.dev/ssh-host-header"/>
+        <updated>2026-03-18T05:18:02.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://blog.exe.dev/ssh-host-header
+Comments URL: https://news.ycombinator.com/item?id=47421828
+Points: 73
+# Comments: 51]]></summary>
+        <author>
+            <name>apitman</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Have a Fucking Website]]></title>
+        <id>https://news.ycombinator.com/item?id=47421442</id>
+        <link href="https://www.otherstrangeness.com/2026/03/14/have-a-fucking-website/"/>
+        <updated>2026-03-18T03:53:42.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.otherstrangeness.com/2026/03/14/have-a-fucking-website/
+Comments URL: https://news.ycombinator.com/item?id=47421442
+Points: 221
+# Comments: 107]]></summary>
+        <author>
+            <name>asukachikaru</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The pleasures of poor product design]]></title>
+        <id>https://news.ycombinator.com/item?id=47420432</id>
+        <link href="https://www.inconspicuous.info/p/the-pleasures-of-poor-product-design"/>
+        <updated>2026-03-18T01:00:45.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.inconspicuous.info/p/the-pleasures-of-poor-product-design
+Comments URL: https://news.ycombinator.com/item?id=47420432
+Points: 75
+# Comments: 26]]></summary>
+        <author>
+            <name>NaOH</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A tale about fixing eBPF spinlock issues in the Linux kernel]]></title>
+        <id>https://news.ycombinator.com/item?id=47420388</id>
+        <link href="https://rovarma.com/articles/a-tale-about-fixing-ebpf-spinlock-issues-in-the-linux-kernel/"/>
+        <updated>2026-03-18T00:53:10.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://rovarma.com/articles/a-tale-about-fixing-ebpf-spinlock-issues-in-the-linux-kernel/
+Comments URL: https://news.ycombinator.com/item?id=47420388
+Points: 71
+# Comments: 2]]></summary>
+        <author>
+            <name>y1n0</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Why AI systems don't learn – On autonomous learning from cognitive science]]></title>
         <id>https://news.ycombinator.com/item?id=47418722</id>
@@ -2084,6 +2136,26 @@ Points: 51
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Show HN: Fatal Core Dump – A debugging murder mystery played with GDB]]></title>
+        <id>https://news.ycombinator.com/item?id=47371785</id>
+        <link href="https://www.robopenguins.com/fatal_core_dump/"/>
+        <updated>2026-03-14T00:12:44.000Z</updated>
+        <summary type="html"><![CDATA[Debugging a crash can sometimes feel like a noir detective story: following faint clues, chasing red herrings, and eventually hitting the moment where the whole case finally makes sense. I leaned into that idea and built Fatal Core Dump, a small game where the investigation is real crash debugging.
+The game gives you a Linux binary, its core dump, a source file, and some logs. You solve the mystery by debugging it.
+The premise: an engineer dies when an airlock on an asteroid mining station opens unexpectedly. Your job is to determine whether it was a simple software bug or something more deliberate.
+The investigation uses real debugging tools and techniques. You can use whatever debugging setup you prefer.
+There’s also a spoiler-heavy blog post describing how the game was conceived and implemented, and the full code is available if you’re curious about how it works or want to experiment with the idea.
+Blog post: https://www.robopenguins.com/core-dump-game/ 
+Source: https://github.com/axlan/fatal_core_dump
+If you enjoy debugging puzzles or low-level Linux tooling, I’d love to hear what you think.
+Comments URL: https://news.ycombinator.com/item?id=47371785
+Points: 55
+# Comments: 1]]></summary>
+        <author>
+            <name>axlan</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Games with loot boxes to get minimum 16 age rating across Europe]]></title>
         <id>https://news.ycombinator.com/item?id=47371692</id>
         <link href="https://www.bbc.com/news/articles/cge84xqjg5lo"/>
@@ -2094,6 +2166,19 @@ Points: 100
 # Comments: 35]]></summary>
         <author>
             <name>gostsamo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Electron microscopy shows ‘mouse bite’ defects in semiconductors]]></title>
+        <id>https://news.ycombinator.com/item?id=47371404</id>
+        <link href="https://news.cornell.edu/stories/2026/03/electron-microscopy-shows-mouse-bite-defects-semiconductors"/>
+        <updated>2026-03-13T23:30:08.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://news.cornell.edu/stories/2026/03/electron-microscopy-shows-mouse-bite-defects-semiconductors
+Comments URL: https://news.ycombinator.com/item?id=47371404
+Points: 53
+# Comments: 10]]></summary>
+        <author>
+            <name>hhs</name>
         </author>
     </entry>
     <entry>
@@ -18326,175 +18411,6 @@ Points: 51
 # Comments: 4]]></summary>
         <author>
             <name>simquat</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Wero – Digital payment wallet, made in Europe]]></title>
-        <id>https://news.ycombinator.com/item?id=47038965</id>
-        <link href="https://wero-wallet.eu/"/>
-        <updated>2026-02-16T19:09:58.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://wero-wallet.eu
-Comments URL: https://news.ycombinator.com/item?id=47038965
-Points: 85
-# Comments: 69]]></summary>
-        <author>
-            <name>tilt</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Neurons outside the brain]]></title>
-        <id>https://news.ycombinator.com/item?id=47038731</id>
-        <link href="https://essays.debugyourpain.com/p/you-are-not-just-your-brain"/>
-        <updated>2026-02-16T18:54:37.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://essays.debugyourpain.com/p/you-are-not-just-your-brain
-Comments URL: https://news.ycombinator.com/item?id=47038731
-Points: 59
-# Comments: 23]]></summary>
-        <author>
-            <name>yichab0d</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Robert Duvall Dead at 95]]></title>
-        <id>https://news.ycombinator.com/item?id=47038706</id>
-        <link href="https://www.newsweek.com/entertainment/hollywood-legend-robert-duvall-dead-at-95-11531295"/>
-        <updated>2026-02-16T18:52:50.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.newsweek.com/entertainment/hollywood-legend-robert-duvall-dead-at-95-11531295
-Comments URL: https://news.ycombinator.com/item?id=47038706
-Points: 75
-# Comments: 46]]></summary>
-        <author>
-            <name>glimshe</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Use Protocols, Not Services]]></title>
-        <id>https://news.ycombinator.com/item?id=47038588</id>
-        <link href="https://notnotp.com/notes/use-protocols-not-services/"/>
-        <updated>2026-02-16T18:44:58.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://notnotp.com/notes/use-protocols-not-services/
-Comments URL: https://news.ycombinator.com/item?id=47038588
-Points: 51
-# Comments: 6]]></summary>
-        <author>
-            <name>enz</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A word processor from 1990s for Atari ST/TOS is still supported by enthusiasts]]></title>
-        <id>https://news.ycombinator.com/item?id=47038578</id>
-        <link href="https://tempus-word.de/en/index"/>
-        <updated>2026-02-16T18:44:12.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://tempus-word.de/en/index
-Comments URL: https://news.ycombinator.com/item?id=47038578
-Points: 52
-# Comments: 21]]></summary>
-        <author>
-            <name>muzzy19</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[14-year-old Miles Wu folded origami pattern that holds 10k times its own weight]]></title>
-        <id>https://news.ycombinator.com/item?id=47038546</id>
-        <link href="https://www.smithsonianmag.com/innovation/this-14-year-old-is-using-origami-to-design-emergency-shelters-that-are-sturdy-cost-efficient-and-easy-to-deploy-180988179/"/>
-        <updated>2026-02-16T18:41:50.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.smithsonianmag.com/innovation/this-14-year-old-is-using-origami-to-design-emergency-shelters-that-are-sturdy-cost-efficient-and-easy-to-deploy-180988179/
-Comments URL: https://news.ycombinator.com/item?id=47038546
-Points: 56
-# Comments: 5]]></summary>
-        <author>
-            <name>bookofjoe</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA["Token anxiety", a slot machine by any other name]]></title>
-        <id>https://news.ycombinator.com/item?id=47038318</id>
-        <link href="https://jkap.io/token-anxiety-or-a-slot-machine-by-any-other-name/"/>
-        <updated>2026-02-16T18:23:36.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://jkap.io/token-anxiety-or-a-slot-machine-by-any-other-name/
-Comments URL: https://news.ycombinator.com/item?id=47038318
-Points: 68
-# Comments: 46]]></summary>
-        <author>
-            <name>presbyterian</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The long tail of LLM-assisted decompilation]]></title>
-        <id>https://news.ycombinator.com/item?id=47038270</id>
-        <link href="https://blog.chrislewis.au/the-long-tail-of-llm-assisted-decompilation/"/>
-        <updated>2026-02-16T18:19:16.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://blog.chrislewis.au/the-long-tail-of-llm-assisted-decompilation/
-Comments URL: https://news.ycombinator.com/item?id=47038270
-Points: 59
-# Comments: 15]]></summary>
-        <author>
-            <name>knackers</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Privilege is bad grammar]]></title>
-        <id>https://news.ycombinator.com/item?id=47038125</id>
-        <link href="https://tadaima.bearblog.dev/privilege-is-bad-grammar/"/>
-        <updated>2026-02-16T18:05:32.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://tadaima.bearblog.dev/privilege-is-bad-grammar/
-Comments URL: https://news.ycombinator.com/item?id=47038125
-Points: 116
-# Comments: 105]]></summary>
-        <author>
-            <name>surprisetalk</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Don't Trust the Salt: AI Summarization, Multilingual Safety, and LLM Guardrails]]></title>
-        <id>https://news.ycombinator.com/item?id=47038032</id>
-        <link href="https://royapakzad.substack.com/p/multilingual-llm-evaluation-to-guardrails"/>
-        <updated>2026-02-16T17:57:46.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://royapakzad.substack.com/p/multilingual-llm-evaluation-to-guardrails
-Comments URL: https://news.ycombinator.com/item?id=47038032
-Points: 64
-# Comments: 1]]></summary>
-        <author>
-            <name>benbreen</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Zero downtime migrations at petabyte scale (2024)]]></title>
-        <id>https://news.ycombinator.com/item?id=47037781</id>
-        <link href="https://planetscale.com/blog/zero-downtime-migrations-at-petabyte-scale"/>
-        <updated>2026-02-16T17:35:00.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://planetscale.com/blog/zero-downtime-migrations-at-petabyte-scale
-Comments URL: https://news.ycombinator.com/item?id=47037781
-Points: 97
-# Comments: 22]]></summary>
-        <author>
-            <name>Ozzie_osman</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[I guess I kinda get why people hate AI]]></title>
-        <id>https://news.ycombinator.com/item?id=47037628</id>
-        <link href="https://anthony.noided.media/blog/ai/programming/2026/02/14/i-guess-i-kinda-get-why-people-hate-ai.html"/>
-        <updated>2026-02-16T17:22:02.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://anthony.noided.media/blog/ai/programming/2026/02/14/i-guess-i-kinda-get-why-people-hate-ai.html
-Comments URL: https://news.ycombinator.com/item?id=47037628
-Points: 89
-# Comments: 84]]></summary>
-        <author>
-            <name>NM-Super</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[WebMCP Proposal]]></title>
-        <id>https://news.ycombinator.com/item?id=47037501</id>
-        <link href="https://webmachinelearning.github.io/webmcp/"/>
-        <updated>2026-02-16T17:08:20.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://webmachinelearning.github.io/webmcp/
-Comments URL: https://news.ycombinator.com/item?id=47037501
-Points: 68
-# Comments: 37]]></summary>
-        <author>
-            <name>Alifatisk</name>
         </author>
     </entry>
 </feed>
