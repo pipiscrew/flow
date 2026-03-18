@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-03-18T07:10:39.431Z</updated>
+    <updated>2026-03-18T08:58:41.339Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
@@ -1494,6 +1494,19 @@ Points: 97
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Leviathan (1651)]]></title>
+        <id>https://news.ycombinator.com/item?id=47384653</id>
+        <link href="https://www.gutenberg.org/files/3207/3207-h/3207-h.htm"/>
+        <updated>2026-03-15T05:46:35.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.gutenberg.org/files/3207/3207-h/3207-h.htm
+Comments URL: https://news.ycombinator.com/item?id=47384653
+Points: 55
+# Comments: 20]]></summary>
+        <author>
+            <name>mrwh</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Jeff Bezos wants Washington Post’s newsroom budget halved, productivity doubled]]></title>
         <id>https://news.ycombinator.com/item?id=47384619</id>
         <link href="https://www.nytimes.com/2026/03/14/business/media/washington-post-jeff-bezos-layoffs.html"/>
@@ -2105,6 +2118,19 @@ Points: 50
 Comments URL: https://news.ycombinator.com/item?id=47372672
 Points: 53
 # Comments: 21]]></summary>
+        <author>
+            <name>vinhnx</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[JPEG Compression]]></title>
+        <id>https://news.ycombinator.com/item?id=47372367</id>
+        <link href="https://www.sophielwang.com/blog/jpeg"/>
+        <updated>2026-03-14T01:31:48.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.sophielwang.com/blog/jpeg
+Comments URL: https://news.ycombinator.com/item?id=47372367
+Points: 135
+# Comments: 20]]></summary>
         <author>
             <name>vinhnx</name>
         </author>
@@ -18330,87 +18356,6 @@ Points: 105
 # Comments: 53]]></summary>
         <author>
             <name>zachlatta</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Suicide Linux (2009)]]></title>
-        <id>https://news.ycombinator.com/item?id=47039966</id>
-        <link href="https://qntm.org/suicide"/>
-        <updated>2026-02-16T20:34:27.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://qntm.org/suicide
-Comments URL: https://news.ycombinator.com/item?id=47039966
-Points: 60
-# Comments: 36]]></summary>
-        <author>
-            <name>icwtyjj</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Testing Postgres race conditions with synchronization barriers]]></title>
-        <id>https://news.ycombinator.com/item?id=47039834</id>
-        <link href="https://www.lirbank.com/harnessing-postgres-race-conditions"/>
-        <updated>2026-02-16T20:23:36.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.lirbank.com/harnessing-postgres-race-conditions
-Comments URL: https://news.ycombinator.com/item?id=47039834
-Points: 68
-# Comments: 34]]></summary>
-        <author>
-            <name>lirbank</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[State of Show HN: 2025]]></title>
-        <id>https://news.ycombinator.com/item?id=47039478</id>
-        <link href="https://blog.sturdystatistics.com/posts/show_hn/"/>
-        <updated>2026-02-16T19:55:23.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://blog.sturdystatistics.com/posts/show_hn/
-Comments URL: https://news.ycombinator.com/item?id=47039478
-Points: 66
-# Comments: 13]]></summary>
-        <author>
-            <name>kianN</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Fff.nvim – Typo-resistant code search]]></title>
-        <id>https://news.ycombinator.com/item?id=47039440</id>
-        <link href="https://github.com/dmtrKovalenko/fff.nvim"/>
-        <updated>2026-02-16T19:52:30.000Z</updated>
-        <summary type="html"><![CDATA[The new release of fff.nvim showed out the new compatiblity for the code search both for human and agents - typo resistant and usable code search for real codebases
-It can match query "shcema" only to "schema" and "SortedMap" only to "SortedArrayMap" and "SortedHashMap" without bloating the results
-Comments URL: https://news.ycombinator.com/item?id=47039440
-Points: 55
-# Comments: 7]]></summary>
-        <author>
-            <name>neogoose</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: Breadboard – A modern HyperCard for building web apps on the canvas]]></title>
-        <id>https://news.ycombinator.com/item?id=47039051</id>
-        <link href="https://breadboards.io/"/>
-        <updated>2026-02-16T19:18:36.000Z</updated>
-        <summary type="html"><![CDATA[Hey HN! I’m Simone. We re-built Breadboard, a visual app builder that mixes Figma-style UI design with Shortcuts-style logic so you can build, preview, and publish interactive web apps directly from the canvas.
-What it does
-    Design UIs visually with a flexible canvas –like Figma–.
-    Define app logic with a visual, instruction-stacked editor inspired by Shortcuts.
-    Live preview apps directly on the canvas –no separate preview window–.
-    Publish working web apps with one click.
-
-    Modernize the HyperCard idea: combine layout, behavior, and instant sharing in one place.
-    Reduce friction between design and a working app.
-    Make simple web apps approachable for non-developers while keeping power features for developers.
-    Build a foundation for LLM integration so users can design and develop with AI while still understanding what’s happening, even without coding experience –in progress!–.
-
-Weather forecast app: https://app.breadboards.io/playgrounds/weather
-Swiss Public Transit: https://app.breadboards.io/playgrounds/public_transit
-info: https://breadboards.io
-I would appreciate any feedback :)
-Comments URL: https://news.ycombinator.com/item?id=47039051
-Points: 51
-# Comments: 4]]></summary>
-        <author>
-            <name>simquat</name>
         </author>
     </entry>
 </feed>
