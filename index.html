@@ -22,8 +22,8 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2026-03-17 datetime="2026-03-17T20:24:33.000Z">2026-03-17</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2026-03-17 datetime="2026-03-17T20:24:33.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2026-03-17 datetime="2026-03-17T21:04:26.000Z">2026-03-17</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2026-03-17 datetime="2026-03-17T21:04:26.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
@@ -38,6 +38,29 @@
                   <a class="source-heading__link" href="https://news.ycombinator.com/">Open</a>
                 </h3>
                 <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;47418295"
+                        open
+                      >
+                        <summary class="article-expander__title">Mistral AI Releases Forge</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://mistral.ai/news/forge">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://mistral.ai/img/mistral-cover.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Article URL: https://mistral.ai/news/forge
+Comments URL: https://news.ycombinator.com/item?id&#x3D;47418295
+Points: 153
+# Comments: 19</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;18
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
                     <article>
                       <details
                         class="article-expander"
@@ -167,6 +190,30 @@ Comments URL: https://news.ycombinator.com/item?id&#x3D;47416486
 Points: 65
 # Comments: 7</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;47416227"
+                        open
+                      >
+                        <summary class="article-expander__title">Show HN: Horizon – GPU-accelerated infinite-canvas terminal in Rust</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://github.com/peters/horizon">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://opengraph.githubassets.com/0feb9d8d931ff37f4f8938384b9168485d7e24607cf5a50dc3a71720efb26e09/peters/horizon" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Tabs, splits, and tmux work fine until you have several projects open with logs, tests, and long-running shells. I kept rebuilding context instead of resuming work. Horizon puts shells on an infinite canvas. You can arrange them into workspaces and reopen later with layout, scrollback, and history intact.
+Built in 3 days with Claude/Codex, dogfooding the workflow as I went. Feedback and contributions welcome.
+Comments URL: https://news.ycombinator.com/item?id&#x3D;47416227
+Points: 55
+# Comments: 21</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;13
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -418,6 +465,34 @@ Comments URL: https://news.ycombinator.com/item?id&#x3D;47412726
 Points: 71
 # Comments: 33</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;47412569"
+                        open
+                      >
+                        <summary class="article-expander__title">Show HN: Sub-millisecond VM sandboxes using CoW memory forking</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://github.com/adammiribyan/zeroboot">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://repository-images.githubusercontent.com/1182712729/266d05d2-e877-44df-8fba-511c09cba364" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>I wanted to see how fast an isolated code sandbox could start if I never had to boot a fresh VM.
+So instead of launching a new microVM per execution, I boot Firecracker once with Python and numpy already loaded, then snapshot the full VM state. Every execution after that creates a new KVM VM backed by a &#x60;MAP_PRIVATE&#x60; mapping of the snapshot memory, so Linux gives me copy-on-write pages automatically.
+That means each sandbox starts from an already-running Python process inside a real VM, runs the code, and exits.
+These are real KVM VMs, not containers: separate guest kernel, separate guest memory, separate page tables. When a VM writes to memory, it gets a private copy of that page.
+The hard part was not CoW itself. The hard part was resuming the snapshotted VM correctly.
+Rust, Apache 2.0.
+Comments URL: https://news.ycombinator.com/item?id&#x3D;47412569
+Points: 50
+# Comments: 13</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -3446,6 +3521,29 @@ Points: 58
                       <details
                         class="article-expander"
                         data-action="toggle-native-accordion"
+                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;47374197"
+                        open
+                      >
+                        <summary class="article-expander__title">Torturing Rustc by Emulating HKTs</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.harudagondi.space/blog/torturing-rustc-by-emulating-hkts/">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://www.harudagondi.space/uploads/torturing-rustc/dynamic-wang.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Article URL: https://www.harudagondi.space/blog/torturing-rustc-by-emulating-hkts/
+Comments URL: https://news.ycombinator.com/item?id&#x3D;47374197
+Points: 50
+# Comments: 6</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;24
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
                         data-accordion-key="https://news.ycombinator.com/item?id&#x3D;47372672"
                         open
                       >
@@ -4508,6 +4606,29 @@ Comments URL: https://news.ycombinator.com/item?id&#x3D;47361313
 Points: 59
 # Comments: 18</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;47361251"
+                        open
+                      >
+                        <summary class="article-expander__title">Chrome extension adjusts video speed based on how fast the speaker is talking</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://github.com/ywong137/speech-speed">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://opengraph.githubassets.com/1da5d43832d00aab9a1e4f509e3766e3368fbfaeb3d5ddcb197224daa2fe0744/ywong137/speech-speed" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Article URL: https://github.com/ywong137/speech-speed
+Comments URL: https://news.ycombinator.com/item?id&#x3D;47361251
+Points: 99
+# Comments: 29</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;18
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -32193,234 +32314,6 @@ Points: 69
                         </a>
                       </details>
                     </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;47035560"
-                        open
-                      >
-                        <summary class="article-expander__title">What Your Bluetooth Devices Reveal About You</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://blog.dmcc.io/journal/2026-bluetooth-privacy-bluehood/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://blog.dmcc.io/img/android-icon-192x192.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Article URL: https://blog.dmcc.io/journal/2026-bluetooth-privacy-bluehood/
-Comments URL: https://news.ycombinator.com/item?id&#x3D;47035560
-Points: 66
-# Comments: 20</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;4
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;47035371"
-                        open
-                      >
-                        <summary class="article-expander__title">The Sideprocalypse</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://johan.hal.se/wrote/2026/02/03/the-sideprocalypse/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://johan.hal.se/wrote/2026/02/03/the-sideprocalypse/og.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Article URL: https://johan.hal.se/wrote/2026/02/03/the-sideprocalypse/
-Comments URL: https://news.ycombinator.com/item?id&#x3D;47035371
-Points: 75
-# Comments: 55</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;47035088"
-                        open
-                      >
-                        <summary class="article-expander__title">-fbounds-safety: Enforcing bounds safety for C</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://clang.llvm.org/docs/BoundsSafety.html">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Article URL: https://clang.llvm.org/docs/BoundsSafety.html
-Comments URL: https://news.ycombinator.com/item?id&#x3D;47035088
-Points: 68
-# Comments: 46</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;23
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;47034801"
-                        open
-                      >
-                        <summary class="article-expander__title">Running My Own XMPP Server</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://blog.dmcc.io/journal/xmpp-turn-stun-coturn-prosody/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://blog.dmcc.io/img/android-icon-192x192.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Article URL: https://blog.dmcc.io/journal/xmpp-turn-stun-coturn-prosody/
-Comments URL: https://news.ycombinator.com/item?id&#x3D;47034801
-Points: 69
-# Comments: 30</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;5
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;47034713"
-                        open
-                      >
-                        <summary class="article-expander__title">Ministry of Justice orders deletion of the UK&#x27;s largest court reporting database</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.legalcheek.com/2026/02/ministry-of-justice-orders-deletion-of-the-uks-largest-court-reporting-database/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://www.legalcheek.com/wp-content/uploads/2024/03/AdobeStock_110501092-1.jpeg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Article URL: https://www.legalcheek.com/2026/02/ministry-of-justice-orders-deletion-of-the-uks-largest-court-reporting-database/
-Comments URL: https://news.ycombinator.com/item?id&#x3D;47034713
-Points: 90
-# Comments: 58</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;9
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;47034192"
-                        open
-                      >
-                        <summary class="article-expander__title">Thanks a lot, AI: Hard drives are sold out for the year, says WD</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://mashable.com/article/ai-hard-drive-hdd-shortages-western-digital-sold-out">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://helios-i.mashable.com/imagery/articles/03BMp5tylVs9DJJavYCVFKV/hero-image.fill.size_1200x675.v1771180235.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Article URL: https://mashable.com/article/ai-hard-drive-hdd-shortages-western-digital-sold-out
-Comments URL: https://news.ycombinator.com/item?id&#x3D;47034192
-Points: 52
-# Comments: 20</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;8
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;47034087"
-                        open
-                      >
-                        <summary class="article-expander__title">Evaluating AGENTS.md: are they helpful for coding agents?</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://arxiv.org/abs/2602.11988">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="/static/browse/0.3.4/images/arxiv-logo-fb.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Article URL: https://arxiv.org/abs/2602.11988
-Comments URL: https://news.ycombinator.com/item?id&#x3D;47034087
-Points: 68
-# Comments: 34</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;47033976"
-                        open
-                      >
-                        <summary class="article-expander__title">The Israeli spyware firm that accidentally just exposed itself</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://ahmedeldin.substack.com/p/the-israeli-spyware-firm-that-accidentally">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Article URL: https://ahmedeldin.substack.com/p/the-israeli-spyware-firm-that-accidentally
-Comments URL: https://news.ycombinator.com/item?id&#x3D;47033976
-Points: 157
-# Comments: 108</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;47033954"
-                        open
-                      >
-                        <summary class="article-expander__title">Show HN: Glitchy camera – a circuit-bent camera simulator in the browser</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://glitchycam.com/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://glitchycam.com/images/favicon.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Fun little side project I built after learning about circuit bending in cameras for intentional glitch effect. It is browser based camera toy where you &quot;rewire&quot; CCD pin pairs, turn knobs to get different glitch artefacts in real time to capture as photos. I had fun learning to simulate different pin modes - channel split, hue/phase shifts, horizontal clock delays, colour kill etc.
-Here are some photos taken: https://glitchycam.com/gallery
-I intentionally leaned towards skeuomorphic design for nostalgia. I miss the days where I&#x27;d spend hours making a button to look like a physical button. Here I chose to make it look like a &quot;good enough&quot; Teenage Engineering device UI.
-I tested/used GPT-5.3-Codex to build this from scratch, since there was a lot of hype around it on X. Maybe I wasn’t using it right, but I found it needed a lot of code cleanup at every step and a lot of hand holding along the way. It missed details/nuances and didn&#x27;t land the skeuomorphic buttons or the interaction polish. It mostly helped with boilerplate where there wasn&#x27;t much thinking/detailing. It did give a basic starting point for the effect calculations, but didn&#x27;t really move the needle on the details.
-Please give it a go and let me know what you think - your photos and video never leave your browser (you can download them if you choose to). Everything is processed locally in your browser (works offline), nothing is uploaded or seen by anyone.
-Comments URL: https://news.ycombinator.com/item?id&#x3D;47033954
-Points: 68
-# Comments: 6</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;47033875"
-                        open
-                      >
-                        <summary class="article-expander__title">planckforth: Bootstrapping a Forth interpreter from hand-written tiny ELF binary</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://github.com/nineties/planckforth">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://opengraph.githubassets.com/287ee7de3c406eeec1d680eeacf7bea9522a6b3b2c6cdb38afd7f477524a8d60/nineties/planckforth" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Article URL: https://github.com/nineties/planckforth
-Comments URL: https://news.ycombinator.com/item?id&#x3D;47033875
-Points: 50
-# Comments: 9</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;9
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
                 </section>
               </section>
             </li>
@@ -32428,8 +32321,8 @@ Points: 50
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/pipiscrew/flow/actions/runs/23221575700">
-        <time id="build-timestamp" datetime="2026-03-17T23:38:24.761Z">2026-03-17T23:38:24.761Z</time>
+      <a class="footer-link" href="https://github.com/pipiscrew/flow/actions/runs/23226683798">
+        <time id="build-timestamp" datetime="2026-03-18T02:46:52.598Z">2026-03-18T02:46:52.598Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>

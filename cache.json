@@ -6,6 +6,16 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=47418295",
+          "author": "pember",
+          "description": "Article URL: https://mistral.ai/news/forge\nComments URL: https://news.ycombinator.com/item?id=47418295\nPoints: 153\n# Comments: 19",
+          "link": "https://mistral.ai/news/forge",
+          "publishedOn": "2026-03-17T21:04:26.000Z",
+          "wordCount": 5300,
+          "title": "Mistral AI Releases Forge",
+          "imageUrl": "https://mistral.ai/img/mistral-cover.png"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=47417814",
           "author": "1vuio0pswjnm7",
           "description": "Article URL: https://www.bbc.com/news/articles/cqj9kgxqjwjo\nComments URL: https://news.ycombinator.com/item?id=47417814\nPoints: 81\n# Comments: 37",
@@ -64,6 +74,16 @@
           "wordCount": 1747,
           "title": "Python 3.15's JIT is now back on track",
           "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47416227",
+          "author": "petersunde",
+          "description": "Tabs, splits, and tmux work fine until you have several projects open with logs, tests, and long-running shells. I kept rebuilding context instead of resuming work. Horizon puts shells on an infinite canvas. You can arrange them into workspaces and reopen later with layout, scrollback, and history intact.\nBuilt in 3 days with Claude/Codex, dogfooding the workflow as I went. Feedback and contributions welcome.\nComments URL: https://news.ycombinator.com/item?id=47416227\nPoints: 55\n# Comments: 21",
+          "link": "https://github.com/peters/horizon",
+          "publishedOn": "2026-03-17T18:14:24.000Z",
+          "wordCount": 3805,
+          "title": "Show HN: Horizon – GPU-accelerated infinite-canvas terminal in Rust",
+          "imageUrl": "https://opengraph.githubassets.com/0feb9d8d931ff37f4f8938384b9168485d7e24607cf5a50dc3a71720efb26e09/peters/horizon"
         },
         {
           "id": "https://news.ycombinator.com/item?id=47416131",
@@ -174,6 +194,16 @@
           "wordCount": 663,
           "title": "OpenSUSE Kalpa",
           "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47412569",
+          "author": "adammiribyan",
+          "description": "I wanted to see how fast an isolated code sandbox could start if I never had to boot a fresh VM.\nSo instead of launching a new microVM per execution, I boot Firecracker once with Python and numpy already loaded, then snapshot the full VM state. Every execution after that creates a new KVM VM backed by a `MAP_PRIVATE` mapping of the snapshot memory, so Linux gives me copy-on-write pages automatically.\nThat means each sandbox starts from an already-running Python process inside a real VM, runs the code, and exits.\nThese are real KVM VMs, not containers: separate guest kernel, separate guest memory, separate page tables. When a VM writes to memory, it gets a private copy of that page.\nThe hard part was not CoW itself. The hard part was resuming the snapshotted VM correctly.\nRust, Apache 2.0.\nComments URL: https://news.ycombinator.com/item?id=47412569\nPoints: 50\n# Comments: 13",
+          "link": "https://github.com/adammiribyan/zeroboot",
+          "publishedOn": "2026-03-17T13:43:44.000Z",
+          "wordCount": 1827,
+          "title": "Show HN: Sub-millisecond VM sandboxes using CoW memory forking",
+          "imageUrl": "https://repository-images.githubusercontent.com/1182712729/266d05d2-e877-44df-8fba-511c09cba364"
         },
         {
           "id": "https://news.ycombinator.com/item?id=47412097",
@@ -1446,6 +1476,16 @@
           "imageUrl": null
         },
         {
+          "id": "https://news.ycombinator.com/item?id=47374197",
+          "author": "g0xA52A2A",
+          "description": "Article URL: https://www.harudagondi.space/blog/torturing-rustc-by-emulating-hkts/\nComments URL: https://news.ycombinator.com/item?id=47374197\nPoints: 50\n# Comments: 6",
+          "link": "https://www.harudagondi.space/blog/torturing-rustc-by-emulating-hkts/",
+          "publishedOn": "2026-03-14T07:25:09.000Z",
+          "wordCount": 7316,
+          "title": "Torturing Rustc by Emulating HKTs",
+          "imageUrl": "https://www.harudagondi.space/uploads/torturing-rustc/dynamic-wang.jpg"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=47372672",
           "author": "vinhnx",
           "description": "Article URL: https://cra.mr/optimizing-content-for-agents/\nComments URL: https://news.ycombinator.com/item?id=47372672\nPoints: 53\n# Comments: 21",
@@ -1904,6 +1944,16 @@
           "wordCount": 455,
           "title": "Ceno, browse the web without internet access",
           "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47361251",
+          "author": "MrBuddyCasino",
+          "description": "Article URL: https://github.com/ywong137/speech-speed\nComments URL: https://news.ycombinator.com/item?id=47361251\nPoints: 99\n# Comments: 29",
+          "link": "https://github.com/ywong137/speech-speed",
+          "publishedOn": "2026-03-13T06:18:17.000Z",
+          "wordCount": 5548,
+          "title": "Chrome extension adjusts video speed based on how fast the speaker is talking",
+          "imageUrl": "https://opengraph.githubassets.com/1da5d43832d00aab9a1e4f509e3766e3368fbfaeb3d5ddcb197224daa2fe0744/ywong137/speech-speed"
         },
         {
           "id": "https://news.ycombinator.com/item?id=47360978",
@@ -13764,106 +13814,6 @@
           "wordCount": 5864,
           "title": "UK Discord users were part of a Peter Thiel-linked data collection experiment",
           "imageUrl": "https://assetsio.gnwcdn.com/Discordageverification2.png?width=1200&height=630&fit=crop&enable=upscale&auto=webp"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47035560",
-          "author": "ssgodderidge",
-          "description": "Article URL: https://blog.dmcc.io/journal/2026-bluetooth-privacy-bluehood/\nComments URL: https://news.ycombinator.com/item?id=47035560\nPoints: 66\n# Comments: 20",
-          "link": "https://blog.dmcc.io/journal/2026-bluetooth-privacy-bluehood/",
-          "publishedOn": "2026-02-16T14:39:32.000Z",
-          "wordCount": 1235,
-          "title": "What Your Bluetooth Devices Reveal About You",
-          "imageUrl": "https://blog.dmcc.io/img/android-icon-192x192.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47035371",
-          "author": "headalgorithm",
-          "description": "Article URL: https://johan.hal.se/wrote/2026/02/03/the-sideprocalypse/\nComments URL: https://news.ycombinator.com/item?id=47035371\nPoints: 75\n# Comments: 55",
-          "link": "https://johan.hal.se/wrote/2026/02/03/the-sideprocalypse/",
-          "publishedOn": "2026-02-16T14:26:39.000Z",
-          "wordCount": 691,
-          "title": "The Sideprocalypse",
-          "imageUrl": "https://johan.hal.se/wrote/2026/02/03/the-sideprocalypse/og.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47035088",
-          "author": "thefilmore",
-          "description": "Article URL: https://clang.llvm.org/docs/BoundsSafety.html\nComments URL: https://news.ycombinator.com/item?id=47035088\nPoints: 68\n# Comments: 46",
-          "link": "https://clang.llvm.org/docs/BoundsSafety.html",
-          "publishedOn": "2026-02-16T14:05:21.000Z",
-          "wordCount": 6844,
-          "title": "-fbounds-safety: Enforcing bounds safety for C",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47034801",
-          "author": "speckx",
-          "description": "Article URL: https://blog.dmcc.io/journal/xmpp-turn-stun-coturn-prosody/\nComments URL: https://news.ycombinator.com/item?id=47034801\nPoints: 69\n# Comments: 30",
-          "link": "https://blog.dmcc.io/journal/xmpp-turn-stun-coturn-prosody/",
-          "publishedOn": "2026-02-16T13:39:45.000Z",
-          "wordCount": 1511,
-          "title": "Running My Own XMPP Server",
-          "imageUrl": "https://blog.dmcc.io/img/android-icon-192x192.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47034713",
-          "author": "harel",
-          "description": "Article URL: https://www.legalcheek.com/2026/02/ministry-of-justice-orders-deletion-of-the-uks-largest-court-reporting-database/\nComments URL: https://news.ycombinator.com/item?id=47034713\nPoints: 90\n# Comments: 58",
-          "link": "https://www.legalcheek.com/2026/02/ministry-of-justice-orders-deletion-of-the-uks-largest-court-reporting-database/",
-          "publishedOn": "2026-02-16T13:30:07.000Z",
-          "wordCount": 2701,
-          "title": "Ministry of Justice orders deletion of the UK's largest court reporting database",
-          "imageUrl": "https://www.legalcheek.com/wp-content/uploads/2024/03/AdobeStock_110501092-1.jpeg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47034192",
-          "author": "dClauzel",
-          "description": "Article URL: https://mashable.com/article/ai-hard-drive-hdd-shortages-western-digital-sold-out\nComments URL: https://news.ycombinator.com/item?id=47034192\nPoints: 52\n# Comments: 20",
-          "link": "https://mashable.com/article/ai-hard-drive-hdd-shortages-western-digital-sold-out",
-          "publishedOn": "2026-02-16T12:28:31.000Z",
-          "wordCount": 2369,
-          "title": "Thanks a lot, AI: Hard drives are sold out for the year, says WD",
-          "imageUrl": "https://helios-i.mashable.com/imagery/articles/03BMp5tylVs9DJJavYCVFKV/hero-image.fill.size_1200x675.v1771180235.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47034087",
-          "author": "mustaphah",
-          "description": "Article URL: https://arxiv.org/abs/2602.11988\nComments URL: https://news.ycombinator.com/item?id=47034087\nPoints: 68\n# Comments: 34",
-          "link": "https://arxiv.org/abs/2602.11988",
-          "publishedOn": "2026-02-16T12:15:39.000Z",
-          "wordCount": 704,
-          "title": "Evaluating AGENTS.md: are they helpful for coding agents?",
-          "imageUrl": "/static/browse/0.3.4/images/arxiv-logo-fb.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47033976",
-          "author": "0x54MUR41",
-          "description": "Article URL: https://ahmedeldin.substack.com/p/the-israeli-spyware-firm-that-accidentally\nComments URL: https://news.ycombinator.com/item?id=47033976\nPoints: 157\n# Comments: 108",
-          "link": "https://ahmedeldin.substack.com/p/the-israeli-spyware-firm-that-accidentally",
-          "publishedOn": "2026-02-16T12:00:42.000Z",
-          "wordCount": null,
-          "title": "The Israeli spyware firm that accidentally just exposed itself",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47033954",
-          "author": "elayabharath",
-          "description": "Fun little side project I built after learning about circuit bending in cameras for intentional glitch effect. It is browser based camera toy where you \"rewire\" CCD pin pairs, turn knobs to get different glitch artefacts in real time to capture as photos. I had fun learning to simulate different pin modes - channel split, hue/phase shifts, horizontal clock delays, colour kill etc.\nHere are some photos taken: https://glitchycam.com/gallery\nI intentionally leaned towards skeuomorphic design for nostalgia. I miss the days where I'd spend hours making a button to look like a physical button. Here I chose to make it look like a \"good enough\" Teenage Engineering device UI.\nI tested/used GPT-5.3-Codex to build this from scratch, since there was a lot of hype around it on X. Maybe I wasn’t using it right, but I found it needed a lot of code cleanup at every step and a lot of hand holding along the way. It missed details/nuances and didn't land the skeuomorphic buttons or the interaction polish. It mostly helped with boilerplate where there wasn't much thinking/detailing. It did give a basic starting point for the effect calculations, but didn't really move the needle on the details.\nPlease give it a go and let me know what you think - your photos and video never leave your browser (you can download them if you choose to). Everything is processed locally in your browser (works offline), nothing is uploaded or seen by anyone.\nComments URL: https://news.ycombinator.com/item?id=47033954\nPoints: 68\n# Comments: 6",
-          "link": "https://glitchycam.com/",
-          "publishedOn": "2026-02-16T11:57:01.000Z",
-          "wordCount": 140,
-          "title": "Show HN: Glitchy camera – a circuit-bent camera simulator in the browser",
-          "imageUrl": "https://glitchycam.com/images/favicon.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47033875",
-          "author": "tosh",
-          "description": "Article URL: https://github.com/nineties/planckforth\nComments URL: https://news.ycombinator.com/item?id=47033875\nPoints: 50\n# Comments: 9",
-          "link": "https://github.com/nineties/planckforth",
-          "publishedOn": "2026-02-16T11:44:07.000Z",
-          "wordCount": 2727,
-          "title": "planckforth: Bootstrapping a Forth interpreter from hand-written tiny ELF binary",
-          "imageUrl": "https://opengraph.githubassets.com/287ee7de3c406eeec1d680eeacf7bea9522a6b3b2c6cdb38afd7f477524a8d60/nineties/planckforth"
         }
       ]
     }
