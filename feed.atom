@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-03-18T22:37:39.444Z</updated>
+    <updated>2026-03-18T23:35:52.655Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
@@ -31,6 +31,28 @@ Points: 88
 # Comments: 27]]></summary>
         <author>
             <name>jbegley</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Tmux-IDE, OSS agent-first terminal IDE]]></title>
+        <id>https://news.ycombinator.com/item?id=47428868</id>
+        <link href="https://tmux.thijsverreck.com/"/>
+        <updated>2026-03-18T17:46:25.000Z</updated>
+        <summary type="html"><![CDATA[Hey HN,
+Small OSS project that i created for myself and want to share with the community. It's a declarative, scriptable, terminal-based IDE focussed on agentic engineering.
+That's a lot of jargon, but essentially its a multi-agent IDE that you start in your terminal.
+Why is that relevant? Thanks to tmux and SSH, it means that you have a really simple and efficient way to create your own always-on coding setup.
+Boot into your IDE through ssh, give a prompt to claude and close off your machine. In tmux-ide claude will keep working.
+The tool is intentionally really lightweight, because I think the power should come from the harnesses that you are working with.
+I'm hoping to share this with the community and get feedback and suggestions to shape this project! I think that "remote work" is directionally correct, because we can now have extremely long-running coding tasks. But I also think we should be able to control and orchstrate that experience according to what we need.
+The project is 100% open-source, and i hope to shape it together with others who like to work in this way too!
+Github: https://github.com/wavyrai/tmux-ide
+Docs: https://tmux.thijsverreck.com/docs
+Comments URL: https://news.ycombinator.com/item?id=47428868
+Points: 53
+# Comments: 29]]></summary>
+        <author>
+            <name>thijsverreck</name>
         </author>
     </entry>
     <entry>
@@ -18485,19 +18507,6 @@ Points: 56
 # Comments: 11]]></summary>
         <author>
             <name>tosh</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Two Bits Are Better Than One: making bloom filters 2x more accurate]]></title>
-        <id>https://news.ycombinator.com/item?id=47046070</id>
-        <link href="https://floedb.ai/blog/two-bits-are-better-than-one-making-bloom-filters-2x-more-accurate"/>
-        <updated>2026-02-17T11:01:09.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://floedb.ai/blog/two-bits-are-better-than-one-making-bloom-filters-2x-more-accurate
-Comments URL: https://news.ycombinator.com/item?id=47046070
-Points: 61
-# Comments: 8]]></summary>
-        <author>
-            <name>matheusalmeida</name>
         </author>
     </entry>
 </feed>
