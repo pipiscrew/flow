@@ -2,10 +2,36 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-03-19T20:47:56.009Z</updated>
+    <updated>2026-03-19T21:41:47.900Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Waymo Safety Impact]]></title>
+        <id>https://news.ycombinator.com/item?id=47445246</id>
+        <link href="https://waymo.com/safety/impact/"/>
+        <updated>2026-03-19T20:13:35.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://waymo.com/safety/impact/
+Comments URL: https://news.ycombinator.com/item?id=47445246
+Points: 92
+# Comments: 48]]></summary>
+        <author>
+            <name>xnx</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Tesla: Failure of the FSD's degradation detection system [pdf]]]></title>
+        <id>https://news.ycombinator.com/item?id=47445175</id>
+        <link href="https://static.nhtsa.gov/odi/inv/2026/INOA-EA26002-10023.pdf"/>
+        <updated>2026-03-19T20:09:02.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://static.nhtsa.gov/odi/inv/2026/INOA-EA26002-10023.pdf
+Comments URL: https://news.ycombinator.com/item?id=47445175
+Points: 71
+# Comments: 17]]></summary>
+        <author>
+            <name>doener</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Anthropic takes legal action against OpenCode]]></title>
         <id>https://news.ycombinator.com/item?id=47444748</id>
@@ -30,6 +56,19 @@ Points: 75
 # Comments: 51]]></summary>
         <author>
             <name>mikece</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[NanoGPT Slowrun: 10x Data Efficiency with Infinite Compute]]></title>
+        <id>https://news.ycombinator.com/item?id=47444072</id>
+        <link href="https://qlabs.sh/10x"/>
+        <updated>2026-03-19T18:51:25.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://qlabs.sh/10x
+Comments URL: https://news.ycombinator.com/item?id=47444072
+Points: 53
+# Comments: 8]]></summary>
+        <author>
+            <name>sdpmas</name>
         </author>
     </entry>
     <entry>
@@ -217,6 +256,23 @@ Points: 72
 # Comments: 20]]></summary>
         <author>
             <name>defrost</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[I turned Markdown into a protocol for generative UI]]></title>
+        <id>https://news.ycombinator.com/item?id=47439300</id>
+        <link href="https://fabian-kuebler.com/posts/markdown-agentic-ui/"/>
+        <updated>2026-03-19T13:42:14.000Z</updated>
+        <summary type="html"><![CDATA[There's a lot of work happening around both generative UI and code execution for AI agents. I kept wondering: how do you bring them together into a fully featured architecture? I built a prototype:
+- Markdown as protocol — one stream carrying text, executable code, and data
+- Streaming execution — code fences execute statement by statement as they stream in
+- A mount() primitive — the agent creates React UIs with full data flow between client, server, and LLM
+Let me know what you think!
+Comments URL: https://news.ycombinator.com/item?id=47439300
+Points: 55
+# Comments: 29]]></summary>
+        <author>
+            <name>FabianCarbonara</name>
         </author>
     </entry>
     <entry>
@@ -1445,6 +1501,19 @@ Points: 285
 # Comments: 136]]></summary>
         <author>
             <name>djoldman</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Return of the Obra Dinn: spherical mapped dithering for a 1bpp first-person game]]></title>
+        <id>https://news.ycombinator.com/item?id=47406160</id>
+        <link href="https://forums.tigsource.com/index.php?topic=40832.msg1363742#msg1363742"/>
+        <updated>2026-03-16T22:56:13.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://forums.tigsource.com/index.php?topic=40832.msg1363742#msg1363742
+Comments URL: https://news.ycombinator.com/item?id=47406160
+Points: 133
+# Comments: 21]]></summary>
+        <author>
+            <name>PaulHoule</name>
         </author>
     </entry>
     <entry>
