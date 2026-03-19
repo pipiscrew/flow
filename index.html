@@ -22,8 +22,8 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2026-03-18 datetime="2026-03-18T20:45:54.000Z">2026-03-18</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2026-03-18 datetime="2026-03-18T20:45:54.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2026-03-19 datetime="2026-03-19T00:15:39.000Z">2026-03-19</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2026-03-19 datetime="2026-03-19T00:15:39.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
@@ -38,6 +38,100 @@
                   <a class="source-heading__link" href="https://news.ycombinator.com/">Open</a>
                 </h3>
                 <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;47433058"
+                        open
+                      >
+                        <summary class="article-expander__title">Austin’s surge of new housing construction drove down rents</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.pew.org/en/research-and-analysis/articles/2026/03/18/austins-surge-of-new-housing-construction-drove-down-rents">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://www.pew.org/-/media/post-launch-images/2026/03/gettyimages1446174163jpgmaster/16x9_m.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Article URL: https://www.pew.org/en/research-and-analysis/articles/2026/03/18/austins-surge-of-new-housing-construction-drove-down-rents
+Comments URL: https://news.ycombinator.com/item?id&#x3D;47433058
+Points: 299
+# Comments: 257</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;24
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2026-03-18 datetime="2026-03-18T21:31:12.000Z">2026-03-18</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2026-03-18 datetime="2026-03-18T21:31:12.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Hacker News: Front Page</button>
+                  <a class="source-heading__link" href="https://news.ycombinator.com/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;47431671"
+                        open
+                      >
+                        <summary class="article-expander__title">Show HN: Duplicate 3 layers in a 24B LLM, logical deduction .22→.76. No training</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://github.com/alainnothere/llm-circuit-finder">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://opengraph.githubassets.com/6d0936b576d02ae86ec84b07d897f3ab90a9f7d380d71d43044cf0b3dd89ce51/alainnothere/llm-circuit-finder" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>I replicated David Ng&#x27;s RYS method (https://dnhkng.github.io/posts/rys/) on consumer AMD GPUs 
+(RX 7900 XT + RX 6950 XT) and found something I didn&#x27;t expect.
+Transformers appear to have discrete &quot;reasoning circuits&quot; — contiguous blocks of 3-4 layers that 
+act as indivisible cognitive units. Duplicate the right block and the model runs its reasoning 
+pipeline twice. No weights change. No training. The model just thinks longer.
+The results on standard benchmarks (lm-evaluation-harness, n&#x3D;50):
+Devstral-24B, layers 12-14 duplicated once:
+- BBH Logical Deduction: 0.22 → 0.76
+- GSM8K (strict): 0.48 → 0.64
+- MBPP (code gen): 0.72 → 0.78
+- Nothing degraded
+Qwen2.5-Coder-32B, layers 7-9 duplicated once:
+- Reasoning probe: 76% → 94%
+The weird part: different duplication patterns create different cognitive &quot;modes&quot; from the same 
+weights. Double-pass boosts math. Triple-pass boosts emotional reasoning. Interleaved doubling 
+(13,13,14,14,15,15,16) creates a pure math specialist. Same model, same VRAM, different routing.
+The circuit boundaries are sharp — shift by one layer and the effect disappears or inverts. 
+Smaller models (24B) have tighter circuits (3 layers) than larger ones (Ng found 7 layers in 72B).
+Tools to find circuits in any GGUF model and apply arbitrary layer routing are in the repo. 
+The whole thing — sweep, discovery, validation — took one evening.
+Happy to answer questions.
+Comments URL: https://news.ycombinator.com/item?id&#x3D;47431671
+Points: 79
+# Comments: 23</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;15
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
                     <article>
                       <details
                         class="article-expander"
@@ -79,6 +173,29 @@ Comments URL: https://news.ycombinator.com/item?id&#x3D;47430797
 Points: 88
 # Comments: 27</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;10
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;47429988"
+                        open
+                      >
+                        <summary class="article-expander__title">Show HN: Playing LongTurn FreeCiv with Friends</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://github.com/ndroo/freeciv.andrewmcgrath.info">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://opengraph.githubassets.com/54e6d40fa71b0a25ea609f97a1ca35d49abdf753262f0e1a25eba11b407c1340/ndroo/freeciv.andrewmcgrath.info" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Article URL: https://github.com/ndroo/freeciv.andrewmcgrath.info
+Comments URL: https://news.ycombinator.com/item?id&#x3D;47429988
+Points: 51
+# Comments: 27</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;21
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -1819,6 +1936,29 @@ Points: 60
                       <details
                         class="article-expander"
                         data-action="toggle-native-accordion"
+                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;47401489"
+                        open
+                      >
+                        <summary class="article-expander__title">The math that explains why bell curves are everywhere</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.quantamagazine.org/the-math-that-explains-why-bell-curves-are-everywhere-20260316/">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://www.quantamagazine.org/wp-content/uploads/2026/03/Central-Limit-Theorem-cr.Irene-Perez-Social.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Article URL: https://www.quantamagazine.org/the-math-that-explains-why-bell-curves-are-everywhere-20260316/
+Comments URL: https://news.ycombinator.com/item?id&#x3D;47401489
+Points: 64
+# Comments: 26</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;10
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
                         data-accordion-key="https://news.ycombinator.com/item?id&#x3D;47401042"
                         open
                       >
@@ -2766,6 +2906,29 @@ Comments URL: https://news.ycombinator.com/item?id&#x3D;47388676
 Points: 59
 # Comments: 2</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;9
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;47388658"
+                        open
+                      >
+                        <summary class="article-expander__title">Nvidia greenboost: transparently extend GPU VRAM using system RAM/NVMe</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://gitlab.com/IsolatedOctopi/nvidia_greenboost">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://gitlab.com/assets/twitter_card-570ddb06edf56a2312253c5872489847a0f385112ddbcd71ccfa1570febab5d2.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Article URL: https://gitlab.com/IsolatedOctopi/nvidia_greenboost
+Comments URL: https://news.ycombinator.com/item?id&#x3D;47388658
+Points: 166
+# Comments: 30</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -32113,115 +32276,6 @@ Points: 149
                         </a>
                       </details>
                     </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;47048052"
-                        open
-                      >
-                        <summary class="article-expander__title">Tesla Sales Down 55% UK, 58% Spain, 59% Germany, 81% Netherlands, 93% Norway</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://cleantechnica.com/2026/02/15/tesla-sales-down-tremendously-in-uk-norway-netherlands-germany-spain-sweden-denmark-portugal-switzerland/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://cleantechnica.com/wp-content/uploads/2023/12/Tesla-Model-S-Black-Low-Speed-Netherlands-Belgium-Europe-Zach-Shahan-CleanTechnica-scaled.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Article URL: https://cleantechnica.com/2026/02/15/tesla-sales-down-tremendously-in-uk-norway-netherlands-germany-spain-sweden-denmark-portugal-switzerland/
-Comments URL: https://news.ycombinator.com/item?id&#x3D;47048052
-Points: 119
-# Comments: 64</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;13
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;47048004"
-                        open
-                      >
-                        <summary class="article-expander__title">I converted 2D conventional flight tracking into 3D</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://aeris.edbn.me/?city&#x3D;SFO">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Article URL: https://aeris.edbn.me/?city&#x3D;SFO
-Comments URL: https://news.ycombinator.com/item?id&#x3D;47048004
-Points: 83
-# Comments: 23</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;47047027"
-                        open
-                      >
-                        <summary class="article-expander__title">Lean 4: How the theorem prover works and why it&#x27;s the new competitive edge in AI</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://venturebeat.com/ai/lean4-how-the-theorem-prover-works-and-why-its-the-new-competitive-edge-in">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Article URL: https://venturebeat.com/ai/lean4-how-the-theorem-prover-works-and-why-its-the-new-competitive-edge-in
-Comments URL: https://news.ycombinator.com/item?id&#x3D;47047027
-Points: 63
-# Comments: 28</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;47047010"
-                        open
-                      >
-                        <summary class="article-expander__title">FreeCAD</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.freecad.org/index.php">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://freecad.org/images/banner.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Article URL: https://www.freecad.org/index.php
-Comments URL: https://news.ycombinator.com/item?id&#x3D;47047010
-Points: 111
-# Comments: 35</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;6
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;47046858"
-                        open
-                      >
-                        <summary class="article-expander__title">Permacomputing</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://wiki.xxiivv.com/site/permacomputing.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://wiki.xxiivv.com/media/services/rss.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Article URL: https://wiki.xxiivv.com/site/permacomputing.html
-Comments URL: https://news.ycombinator.com/item?id&#x3D;47046858
-Points: 56
-# Comments: 11</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;8
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
                 </section>
               </section>
             </li>
@@ -32229,8 +32283,8 @@ Points: 56
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/pipiscrew/flow/actions/runs/23272344576">
-        <time id="build-timestamp" datetime="2026-03-18T23:35:52.597Z">2026-03-18T23:35:52.597Z</time>
+      <a class="footer-link" href="https://github.com/pipiscrew/flow/actions/runs/23277413146">
+        <time id="build-timestamp" datetime="2026-03-19T02:48:25.757Z">2026-03-19T02:48:25.757Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>

@@ -6,6 +6,26 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=47433058",
+          "author": "matthest",
+          "description": "Article URL: https://www.pew.org/en/research-and-analysis/articles/2026/03/18/austins-surge-of-new-housing-construction-drove-down-rents\nComments URL: https://news.ycombinator.com/item?id=47433058\nPoints: 299\n# Comments: 257",
+          "link": "https://www.pew.org/en/research-and-analysis/articles/2026/03/18/austins-surge-of-new-housing-construction-drove-down-rents",
+          "publishedOn": "2026-03-19T00:15:39.000Z",
+          "wordCount": 7340,
+          "title": "Austin’s surge of new housing construction drove down rents",
+          "imageUrl": "https://www.pew.org/-/media/post-launch-images/2026/03/gettyimages1446174163jpgmaster/16x9_m.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47431671",
+          "author": "xlayn",
+          "description": "I replicated David Ng's RYS method (https://dnhkng.github.io/posts/rys/) on consumer AMD GPUs \n(RX 7900 XT + RX 6950 XT) and found something I didn't expect.\nTransformers appear to have discrete \"reasoning circuits\" — contiguous blocks of 3-4 layers that \nact as indivisible cognitive units. Duplicate the right block and the model runs its reasoning \npipeline twice. No weights change. No training. The model just thinks longer.\nThe results on standard benchmarks (lm-evaluation-harness, n=50):\nDevstral-24B, layers 12-14 duplicated once:\n- BBH Logical Deduction: 0.22 → 0.76\n- GSM8K (strict): 0.48 → 0.64\n- MBPP (code gen): 0.72 → 0.78\n- Nothing degraded\nQwen2.5-Coder-32B, layers 7-9 duplicated once:\n- Reasoning probe: 76% → 94%\nThe weird part: different duplication patterns create different cognitive \"modes\" from the same \nweights. Double-pass boosts math. Triple-pass boosts emotional reasoning. Interleaved doubling \n(13,13,14,14,15,15,16) creates a pure math specialist. Same model, same VRAM, different routing.\nThe circuit boundaries are sharp — shift by one layer and the effect disappears or inverts. \nSmaller models (24B) have tighter circuits (3 layers) than larger ones (Ng found 7 layers in 72B).\nTools to find circuits in any GGUF model and apply arbitrary layer routing are in the repo. \nThe whole thing — sweep, discovery, validation — took one evening.\nHappy to answer questions.\nComments URL: https://news.ycombinator.com/item?id=47431671\nPoints: 79\n# Comments: 23",
+          "link": "https://github.com/alainnothere/llm-circuit-finder",
+          "publishedOn": "2026-03-18T21:31:12.000Z",
+          "wordCount": 4578,
+          "title": "Show HN: Duplicate 3 layers in a 24B LLM, logical deduction .22→.76. No training",
+          "imageUrl": "https://opengraph.githubassets.com/6d0936b576d02ae86ec84b07d897f3ab90a9f7d380d71d43044cf0b3dd89ce51/alainnothere/llm-circuit-finder"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=47431237",
           "author": "Stwerner",
           "description": "As an experiment I started asking Claude to explain things to me with a fiction story and it ended up being really good, so I started seeing how far I could take it and what it would take to polish it enough to share publicly.\nOver the last couple months, I've been building world bibles, writing and visual style guides, and other documents for this project… think the fiction equivalent of all the markdown files we use for agentic development now. After that, this was about two weeks of additional polish work to cut out a lot of fluff and a lot of the LLM-isms. Happy to answer any questions about the process too if that would be interesting to anybody.\nComments URL: https://news.ycombinator.com/item?id=47431237\nPoints: 67\n# Comments: 40",
@@ -24,6 +44,16 @@
           "wordCount": 3136,
           "title": "FBI is buying location data to track US citizens, director confirms",
           "imageUrl": "https://techcrunch.com/wp-content/uploads/2024/08/geofence-warrant-smaller-1995.jpeg?resize=1200,802"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47429988",
+          "author": "verelo",
+          "description": "Article URL: https://github.com/ndroo/freeciv.andrewmcgrath.info\nComments URL: https://news.ycombinator.com/item?id=47429988\nPoints: 51\n# Comments: 27",
+          "link": "https://github.com/ndroo/freeciv.andrewmcgrath.info",
+          "publishedOn": "2026-03-18T19:01:54.000Z",
+          "wordCount": 6322,
+          "title": "Show HN: Playing LongTurn FreeCiv with Friends",
+          "imageUrl": "https://opengraph.githubassets.com/54e6d40fa71b0a25ea609f97a1ca35d49abdf753262f0e1a25eba11b407c1340/ndroo/freeciv.andrewmcgrath.info"
         },
         {
           "id": "https://news.ycombinator.com/item?id=47428868",
@@ -746,6 +776,16 @@
           "imageUrl": "/static/browse/0.3.4/images/arxiv-logo-fb.png"
         },
         {
+          "id": "https://news.ycombinator.com/item?id=47401489",
+          "author": "ibobev",
+          "description": "Article URL: https://www.quantamagazine.org/the-math-that-explains-why-bell-curves-are-everywhere-20260316/\nComments URL: https://news.ycombinator.com/item?id=47401489\nPoints: 64\n# Comments: 26",
+          "link": "https://www.quantamagazine.org/the-math-that-explains-why-bell-curves-are-everywhere-20260316/",
+          "publishedOn": "2026-03-16T16:51:32.000Z",
+          "wordCount": 2909,
+          "title": "The math that explains why bell curves are everywhere",
+          "imageUrl": "https://www.quantamagazine.org/wp-content/uploads/2026/03/Central-Limit-Theorem-cr.Irene-Perez-Social.jpg"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=47401042",
           "author": "ymarkov",
           "description": "Hi HN, we’re Yarik and Vlad from VOYGR (https://voygr.tech/), working on better real-world place intelligence for app developers and agents. Here’s a demo: https://www.youtube.com/watch?v=cNIpcWIE0n4.\nGoogle Maps can tell you a restaurant is \"4.2 stars, open till 10.\" Their API can't tell you the chef left last month, wait times doubled, and locals moved on. Maps APIs today just give you a fixed snapshot. We're building an infinite, queryable place profile that combines accurate place data with fresh web context like news, articles, and events.\nVlad worked on the Google Maps APIs as well as in ridesharing and travel. Yarik led ML/Search infrastructure at Apple, Google, and Meta powering products used by hundreds of millions of users daily. We realized nobody was treating place data freshne…",
@@ -1154,6 +1194,16 @@
           "wordCount": 2793,
           "title": "LLM Architecture Gallery",
           "imageUrl": "https://sebastianraschka.com/llm-architecture-gallery/images/hero/architecture-gallery-hero.webp"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47388658",
+          "author": "mmastrac",
+          "description": "Article URL: https://gitlab.com/IsolatedOctopi/nvidia_greenboost\nComments URL: https://news.ycombinator.com/item?id=47388658\nPoints: 166\n# Comments: 30",
+          "link": "https://gitlab.com/IsolatedOctopi/nvidia_greenboost",
+          "publishedOn": "2026-03-15T15:59:09.000Z",
+          "wordCount": 434,
+          "title": "Nvidia greenboost: transparently extend GPU VRAM using system RAM/NVMe",
+          "imageUrl": "https://gitlab.com/assets/twitter_card-570ddb06edf56a2312253c5872489847a0f385112ddbcd71ccfa1570febab5d2.jpg"
         },
         {
           "id": "https://news.ycombinator.com/item?id=47388646",
@@ -13724,56 +13774,6 @@
           "wordCount": 14903,
           "title": "America's Pensions Can't Beat Vanguard but They Can Close Your Hospital",
           "imageUrl": "https://substackcdn.com/image/fetch/$s_!9d7o!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9a08e49a-c4f1-4a37-9895-98cb79beaf5c_840x555.jpeg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47048052",
-          "author": "whynotmaybe",
-          "description": "Article URL: https://cleantechnica.com/2026/02/15/tesla-sales-down-tremendously-in-uk-norway-netherlands-germany-spain-sweden-denmark-portugal-switzerland/\nComments URL: https://news.ycombinator.com/item?id=47048052\nPoints: 119\n# Comments: 64",
-          "link": "https://cleantechnica.com/2026/02/15/tesla-sales-down-tremendously-in-uk-norway-netherlands-germany-spain-sweden-denmark-portugal-switzerland/",
-          "publishedOn": "2026-02-17T14:47:26.000Z",
-          "wordCount": 3922,
-          "title": "Tesla Sales Down 55% UK, 58% Spain, 59% Germany, 81% Netherlands, 93% Norway",
-          "imageUrl": "https://cleantechnica.com/wp-content/uploads/2023/12/Tesla-Model-S-Black-Low-Speed-Netherlands-Belgium-Europe-Zach-Shahan-CleanTechnica-scaled.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47048004",
-          "author": "kewonit",
-          "description": "Article URL: https://aeris.edbn.me/?city=SFO\nComments URL: https://news.ycombinator.com/item?id=47048004\nPoints: 83\n# Comments: 23",
-          "link": "https://aeris.edbn.me/?city=SFO",
-          "publishedOn": "2026-02-17T14:43:14.000Z",
-          "wordCount": 148,
-          "title": "I converted 2D conventional flight tracking into 3D",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47047027",
-          "author": "tesserato",
-          "description": "Article URL: https://venturebeat.com/ai/lean4-how-the-theorem-prover-works-and-why-its-the-new-competitive-edge-in\nComments URL: https://news.ycombinator.com/item?id=47047027\nPoints: 63\n# Comments: 28",
-          "link": "https://venturebeat.com/ai/lean4-how-the-theorem-prover-works-and-why-its-the-new-competitive-edge-in",
-          "publishedOn": "2026-02-17T12:58:37.000Z",
-          "wordCount": null,
-          "title": "Lean 4: How the theorem prover works and why it's the new competitive edge in AI",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47047010",
-          "author": "doener",
-          "description": "Article URL: https://www.freecad.org/index.php\nComments URL: https://news.ycombinator.com/item?id=47047010\nPoints: 111\n# Comments: 35",
-          "link": "https://www.freecad.org/index.php",
-          "publishedOn": "2026-02-17T12:57:38.000Z",
-          "wordCount": 1711,
-          "title": "FreeCAD",
-          "imageUrl": "https://freecad.org/images/banner.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47046858",
-          "author": "tosh",
-          "description": "Article URL: https://wiki.xxiivv.com/site/permacomputing.html\nComments URL: https://news.ycombinator.com/item?id=47046858\nPoints: 56\n# Comments: 11",
-          "link": "https://wiki.xxiivv.com/site/permacomputing.html",
-          "publishedOn": "2026-02-17T12:40:37.000Z",
-          "wordCount": 2527,
-          "title": "Permacomputing",
-          "imageUrl": "https://wiki.xxiivv.com/media/services/rss.jpg"
         }
       ]
     }

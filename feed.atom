@@ -2,10 +2,56 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-03-18T23:35:52.655Z</updated>
+    <updated>2026-03-19T02:48:25.809Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Austin’s surge of new housing construction drove down rents]]></title>
+        <id>https://news.ycombinator.com/item?id=47433058</id>
+        <link href="https://www.pew.org/en/research-and-analysis/articles/2026/03/18/austins-surge-of-new-housing-construction-drove-down-rents"/>
+        <updated>2026-03-19T00:15:39.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.pew.org/en/research-and-analysis/articles/2026/03/18/austins-surge-of-new-housing-construction-drove-down-rents
+Comments URL: https://news.ycombinator.com/item?id=47433058
+Points: 299
+# Comments: 257]]></summary>
+        <author>
+            <name>matthest</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Duplicate 3 layers in a 24B LLM, logical deduction .22→.76. No training]]></title>
+        <id>https://news.ycombinator.com/item?id=47431671</id>
+        <link href="https://github.com/alainnothere/llm-circuit-finder"/>
+        <updated>2026-03-18T21:31:12.000Z</updated>
+        <summary type="html"><![CDATA[I replicated David Ng's RYS method (https://dnhkng.github.io/posts/rys/) on consumer AMD GPUs 
+(RX 7900 XT + RX 6950 XT) and found something I didn't expect.
+Transformers appear to have discrete "reasoning circuits" — contiguous blocks of 3-4 layers that 
+act as indivisible cognitive units. Duplicate the right block and the model runs its reasoning 
+pipeline twice. No weights change. No training. The model just thinks longer.
+The results on standard benchmarks (lm-evaluation-harness, n=50):
+Devstral-24B, layers 12-14 duplicated once:
+- BBH Logical Deduction: 0.22 → 0.76
+- GSM8K (strict): 0.48 → 0.64
+- MBPP (code gen): 0.72 → 0.78
+- Nothing degraded
+Qwen2.5-Coder-32B, layers 7-9 duplicated once:
+- Reasoning probe: 76% → 94%
+The weird part: different duplication patterns create different cognitive "modes" from the same 
+weights. Double-pass boosts math. Triple-pass boosts emotional reasoning. Interleaved doubling 
+(13,13,14,14,15,15,16) creates a pure math specialist. Same model, same VRAM, different routing.
+The circuit boundaries are sharp — shift by one layer and the effect disappears or inverts. 
+Smaller models (24B) have tighter circuits (3 layers) than larger ones (Ng found 7 layers in 72B).
+Tools to find circuits in any GGUF model and apply arbitrary layer routing are in the repo. 
+The whole thing — sweep, discovery, validation — took one evening.
+Happy to answer questions.
+Comments URL: https://news.ycombinator.com/item?id=47431671
+Points: 79
+# Comments: 23]]></summary>
+        <author>
+            <name>xlayn</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Warranty Void If Regenerated]]></title>
         <id>https://news.ycombinator.com/item?id=47431237</id>
@@ -31,6 +77,19 @@ Points: 88
 # Comments: 27]]></summary>
         <author>
             <name>jbegley</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Playing LongTurn FreeCiv with Friends]]></title>
+        <id>https://news.ycombinator.com/item?id=47429988</id>
+        <link href="https://github.com/ndroo/freeciv.andrewmcgrath.info"/>
+        <updated>2026-03-18T19:01:54.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://github.com/ndroo/freeciv.andrewmcgrath.info
+Comments URL: https://news.ycombinator.com/item?id=47429988
+Points: 51
+# Comments: 27]]></summary>
+        <author>
+            <name>verelo</name>
         </author>
     </entry>
     <entry>
@@ -1033,6 +1092,19 @@ Points: 60
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[The math that explains why bell curves are everywhere]]></title>
+        <id>https://news.ycombinator.com/item?id=47401489</id>
+        <link href="https://www.quantamagazine.org/the-math-that-explains-why-bell-curves-are-everywhere-20260316/"/>
+        <updated>2026-03-16T16:51:32.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.quantamagazine.org/the-math-that-explains-why-bell-curves-are-everywhere-20260316/
+Comments URL: https://news.ycombinator.com/item?id=47401489
+Points: 64
+# Comments: 26]]></summary>
+        <author>
+            <name>ibobev</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Launch HN: Voygr (YC W26) – A better maps API for agents and AI apps]]></title>
         <id>https://news.ycombinator.com/item?id=47401042</id>
         <link href="https://news.ycombinator.com/item?id=47401042"/>
@@ -1562,6 +1634,19 @@ Points: 59
 # Comments: 2]]></summary>
         <author>
             <name>tzury</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Nvidia greenboost: transparently extend GPU VRAM using system RAM/NVMe]]></title>
+        <id>https://news.ycombinator.com/item?id=47388658</id>
+        <link href="https://gitlab.com/IsolatedOctopi/nvidia_greenboost"/>
+        <updated>2026-03-15T15:59:09.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://gitlab.com/IsolatedOctopi/nvidia_greenboost
+Comments URL: https://news.ycombinator.com/item?id=47388658
+Points: 166
+# Comments: 30]]></summary>
+        <author>
+            <name>mmastrac</name>
         </author>
     </entry>
     <entry>
@@ -18442,71 +18527,6 @@ Points: 149
 # Comments: 166]]></summary>
         <author>
             <name>bigbobbeeper</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Tesla Sales Down 55% UK, 58% Spain, 59% Germany, 81% Netherlands, 93% Norway]]></title>
-        <id>https://news.ycombinator.com/item?id=47048052</id>
-        <link href="https://cleantechnica.com/2026/02/15/tesla-sales-down-tremendously-in-uk-norway-netherlands-germany-spain-sweden-denmark-portugal-switzerland/"/>
-        <updated>2026-02-17T14:47:26.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://cleantechnica.com/2026/02/15/tesla-sales-down-tremendously-in-uk-norway-netherlands-germany-spain-sweden-denmark-portugal-switzerland/
-Comments URL: https://news.ycombinator.com/item?id=47048052
-Points: 119
-# Comments: 64]]></summary>
-        <author>
-            <name>whynotmaybe</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[I converted 2D conventional flight tracking into 3D]]></title>
-        <id>https://news.ycombinator.com/item?id=47048004</id>
-        <link href="https://aeris.edbn.me/?city=SFO"/>
-        <updated>2026-02-17T14:43:14.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://aeris.edbn.me/?city=SFO
-Comments URL: https://news.ycombinator.com/item?id=47048004
-Points: 83
-# Comments: 23]]></summary>
-        <author>
-            <name>kewonit</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Lean 4: How the theorem prover works and why it's the new competitive edge in AI]]></title>
-        <id>https://news.ycombinator.com/item?id=47047027</id>
-        <link href="https://venturebeat.com/ai/lean4-how-the-theorem-prover-works-and-why-its-the-new-competitive-edge-in"/>
-        <updated>2026-02-17T12:58:37.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://venturebeat.com/ai/lean4-how-the-theorem-prover-works-and-why-its-the-new-competitive-edge-in
-Comments URL: https://news.ycombinator.com/item?id=47047027
-Points: 63
-# Comments: 28]]></summary>
-        <author>
-            <name>tesserato</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[FreeCAD]]></title>
-        <id>https://news.ycombinator.com/item?id=47047010</id>
-        <link href="https://www.freecad.org/index.php"/>
-        <updated>2026-02-17T12:57:38.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.freecad.org/index.php
-Comments URL: https://news.ycombinator.com/item?id=47047010
-Points: 111
-# Comments: 35]]></summary>
-        <author>
-            <name>doener</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Permacomputing]]></title>
-        <id>https://news.ycombinator.com/item?id=47046858</id>
-        <link href="https://wiki.xxiivv.com/site/permacomputing.html"/>
-        <updated>2026-02-17T12:40:37.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://wiki.xxiivv.com/site/permacomputing.html
-Comments URL: https://news.ycombinator.com/item?id=47046858
-Points: 56
-# Comments: 11]]></summary>
-        <author>
-            <name>tosh</name>
         </author>
     </entry>
 </feed>
