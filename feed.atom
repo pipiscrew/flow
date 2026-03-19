@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-03-19T07:51:10.031Z</updated>
+    <updated>2026-03-19T08:52:39.528Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
@@ -20,6 +20,19 @@ Points: 85
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Conway's Game of Life, in real life]]></title>
+        <id>https://news.ycombinator.com/item?id=47434732</id>
+        <link href="https://lcamtuf.substack.com/p/conways-game-of-life-in-real-life"/>
+        <updated>2026-03-19T03:55:03.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://lcamtuf.substack.com/p/conways-game-of-life-in-real-life
+Comments URL: https://news.ycombinator.com/item?id=47434732
+Points: 77
+# Comments: 20]]></summary>
+        <author>
+            <name>surprisetalk</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Mozilla to launch free built-in VPN in upcoming Firefox 149]]></title>
         <id>https://news.ycombinator.com/item?id=47434567</id>
         <link href="https://cyberinsider.com/mozilla-to-launch-free-built-in-vpn-in-upcoming-firefox-149/"/>
@@ -30,6 +43,19 @@ Points: 76
 # Comments: 49]]></summary>
         <author>
             <name>adrianwaj</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[We Have Learned Nothing]]></title>
+        <id>https://news.ycombinator.com/item?id=47434311</id>
+        <link href="https://colossus.com/article/we-have-learned-nothing-startup-pundits/"/>
+        <updated>2026-03-19T02:53:37.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://colossus.com/article/we-have-learned-nothing-startup-pundits/
+Comments URL: https://news.ycombinator.com/item?id=47434311
+Points: 51
+# Comments: 34]]></summary>
+        <author>
+            <name>lukestevens</name>
         </author>
     </entry>
     <entry>
@@ -18300,39 +18326,6 @@ Points: 53
 # Comments: 2]]></summary>
         <author>
             <name>fi-le</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[BarraCUDA Open-source CUDA compiler targeting AMD GPUs]]></title>
-        <id>https://news.ycombinator.com/item?id=47052941</id>
-        <link href="https://github.com/Zaneham/BarraCUDA"/>
-        <updated>2026-02-17T20:35:18.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://github.com/Zaneham/BarraCUDA
-Comments URL: https://news.ycombinator.com/item?id=47052941
-Points: 80
-# Comments: 21]]></summary>
-        <author>
-            <name>rurban</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: I'm launching a LPFM radio station]]></title>
-        <id>https://news.ycombinator.com/item?id=47052674</id>
-        <link href="https://www.kpbj.fm/"/>
-        <updated>2026-02-17T20:15:57.000Z</updated>
-        <summary type="html"><![CDATA[I've been working on creating a Low Power FM radio station for the east San Fernando Valley of Los Angeles. We are not yet on the broadcast band but our channel will be 95.9FM and our range can been seen on the homepage of our site.
-KPBJ is a freeform community radio station. Anyone in the area is encouraged to get a timeslot and become a host. We make no curatorial decisions. Its sort of like public access or a college station in that way.
-This month we launched our internet stream and on-boarded about 60 shows. They are mostly music but there are a few talk shows. We are restricting all shows to monthly time slots for now but this will change in the near future as everyone gets more familiar with the systems involved.
-All shows are pre-recorded until we can raise the money to get a studio.
-We have a site secured for our transmitter but we need to fundraise to cover the equipment and build out costs. We will be broadcasting with 100W ERP from a ridgeline in the Verdugos at about 1500ft elevation. The site will need to be off grid so we will need to install a solar system with battery backup. We are planning to sync the station to the transmit site with 802.11ah.
-I've built all of our web infrastructure using Haskell, NixOS, Terraform, and HTMX: https://github.com/solomon-b/kpbj.fm
-This is a pretty substantial project involving a bunch of social and technical challenges and a shoe string budget. I'm feel pretty confident we will pull it off and make it a high impact local radio station.
-The station is managed by a 501c3 non-profit we created. We are actively seeking fundraising, especially to get our transmit site up and running. If you live in the area or want to contribute in any way then please reach out!
-Comments URL: https://news.ycombinator.com/item?id=47052674
-Points: 69
-# Comments: 46]]></summary>
-        <author>
-            <name>solomonb</name>
         </author>
     </entry>
 </feed>
