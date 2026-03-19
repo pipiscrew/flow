@@ -46,6 +46,16 @@
           "imageUrl": "https://www.pew.org/-/media/post-launch-images/2026/03/gettyimages1446174163jpgmaster/16x9_m.jpg"
         },
         {
+          "id": "https://news.ycombinator.com/item?id=47432915",
+          "author": "creationix",
+          "description": "Article URL: https://github.com/creationix/rx\nComments URL: https://news.ycombinator.com/item?id=47432915\nPoints: 53\n# Comments: 18",
+          "link": "https://github.com/creationix/rx",
+          "publishedOn": "2026-03-18T23:58:05.000Z",
+          "wordCount": 9867,
+          "title": "RX – a new random-access JSON alternative",
+          "imageUrl": "https://opengraph.githubassets.com/ee0455f70570c0bcaa04f71585c0328757ae0050a5d7034e84ce3e712a5e1dd3/creationix/rx"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=47431671",
           "author": "xlayn",
           "description": "I replicated David Ng's RYS method (https://dnhkng.github.io/posts/rys/) on consumer AMD GPUs \n(RX 7900 XT + RX 6950 XT) and found something I didn't expect.\nTransformers appear to have discrete \"reasoning circuits\" — contiguous blocks of 3-4 layers that \nact as indivisible cognitive units. Duplicate the right block and the model runs its reasoning \npipeline twice. No weights change. No training. The model just thinks longer.\nThe results on standard benchmarks (lm-evaluation-harness, n=50):\nDevstral-24B, layers 12-14 duplicated once:\n- BBH Logical Deduction: 0.22 → 0.76\n- GSM8K (strict): 0.48 → 0.64\n- MBPP (code gen): 0.72 → 0.78\n- Nothing degraded\nQwen2.5-Coder-32B, layers 7-9 duplicated once:\n- Reasoning probe: 76% → 94%\nThe weird part: different duplication patterns create different cognitive \"modes\" from the same \nweights. Double-pass boosts math. Triple-pass boosts emotional reasoning. Interleaved doubling \n(13,13,14,14,15,15,16) creates a pure math specialist. Same model, same VRAM, different routing.\nThe circuit boundaries are sharp — shift by one layer and the effect disappears or inverts. \nSmaller models (24B) have tighter circuits (3 layers) than larger ones (Ng found 7 layers in 72B).\nTools to find circuits in any GGUF model and apply arbitrary layer routing are in the repo. \nThe whole thing — sweep, discovery, validation — took one evening.\nHappy to answer questions.\nComments URL: https://news.ycombinator.com/item?id=47431671\nPoints: 79\n# Comments: 23",
@@ -13664,56 +13674,6 @@
           "wordCount": 3872,
           "title": "Show HN: Pg-typesafe – Strongly typed queries for PostgreSQL and TypeScript",
           "imageUrl": "https://opengraph.githubassets.com/f2852415725f3d7078fd7d4e53bd53385bc89ad4a5153cf6fc125153d3717ba9/n-e/pg-typesafe"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47050488",
-          "author": "adocomplete",
-          "description": "https://www.anthropic.com/claude-sonnet-4-6-system-card [pdf]\nhttps://x.com/claudeai/status/2023817132581208353 [video]\nComments URL: https://news.ycombinator.com/item?id=47050488\nPoints: 213\n# Comments: 120",
-          "link": "https://www.anthropic.com/news/claude-sonnet-4-6",
-          "publishedOn": "2026-02-17T17:48:52.000Z",
-          "wordCount": 4819,
-          "title": "Claude Sonnet 4.6",
-          "imageUrl": "https://www.anthropic.com/api/opengraph-illustration?name=Node-Head-Constellation&backgroundColor=clay"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47050376",
-          "author": "thunderbong",
-          "description": "Article URL: https://kotaku.com/discord-alternative-teamspeak-age-verification-check-rivals-2000669693\nComments URL: https://news.ycombinator.com/item?id=47050376\nPoints: 89\n# Comments: 35",
-          "link": "https://kotaku.com/discord-alternative-teamspeak-age-verification-check-rivals-2000669693",
-          "publishedOn": "2026-02-17T17:40:50.000Z",
-          "wordCount": 3796,
-          "title": "Discord Rival Gets Overwhelmed by Exodus of Players Fleeing Age-Verification",
-          "imageUrl": "https://kotaku.com/app/uploads/2026/02/teamspeak1.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47050067",
-          "author": "todsacerdoti",
-          "description": "Article URL: https://www.gentoo.org/news/2026/02/16/codeberg.html\nComments URL: https://news.ycombinator.com/item?id=47050067\nPoints: 55\n# Comments: 6",
-          "link": "https://www.gentoo.org/news/2026/02/16/codeberg.html",
-          "publishedOn": "2026-02-17T17:21:04.000Z",
-          "wordCount": 408,
-          "title": "Gentoo on Codeberg",
-          "imageUrl": "https://www.gentoo.org/assets/img/og-image.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47049845",
-          "author": "admiringly",
-          "description": "Related: https://cosmo.tardis.ac/files/2026-02-12-az-rl-and-spsa.html\nComments URL: https://news.ycombinator.com/item?id=47049845\nPoints: 63\n# Comments: 20",
-          "link": "https://girl.surgery/chess",
-          "publishedOn": "2026-02-17T17:07:59.000Z",
-          "wordCount": 1171,
-          "title": "Chess engines do weird stuff",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47049824",
-          "author": "chaseadam17",
-          "description": "13 years ago, we launched Watsi.org with a Show HN [1].\nFor nearly a year, this community drove so much traffic that we couldn’t list patients fast enough. Then pg saw us on HN, wrote us our first big check, and accepted us as the first YC nonprofit (W13). The next few years were a whirlwind.\nI was a young, naive founder with just enough experience to know I wanted Watsi to be more efficient, transparent, and innovative than most nonprofits. We spent 24/7 talking to users and coding. We did things that don’t scale. We tried our best to be walking, talking pg essays.\nOver the years we learned that product/market fit is different for nonprofits. Not many people wake up and think, \"I'd love to donate to a nonprofit today\" with the same oomph that they think, \"I'd love a coffee\" or \"I'd like t…",
-          "link": "https://news.ycombinator.com/item?id=47049824",
-          "publishedOn": "2026-02-17T17:06:18.000Z",
-          "wordCount": 1257,
-          "title": "Thank HN: You helped save 33k lives",
-          "imageUrl": null
         }
       ]
     }
