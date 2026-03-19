@@ -2,10 +2,54 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-03-19T16:00:17.942Z</updated>
+    <updated>2026-03-19T17:10:09.210Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Three new Kitten TTS models – smallest less than 25MB]]></title>
+        <id>https://news.ycombinator.com/item?id=47441546</id>
+        <link href="https://github.com/KittenML/KittenTTS"/>
+        <updated>2026-03-19T15:56:06.000Z</updated>
+        <summary type="html"><![CDATA[Kitten TTS (https://github.com/KittenML/KittenTTS) is an open-source series of tiny and expressive text-to-speech models for on-device applications. We had a thread last year here: https://news.ycombinator.com/item?id=44807868.
+Today we're releasing three new models with 80M, 40M and 14M parameters.
+The largest model (80M) has the highest quality. The 14M variant reaches new SOTA in expressivity among similar sized models, despite being https://www.youtube.com/watch?v=ge3u5qblqZA.
+Most models are quantized to int8 + fp16, and they use ONNX for runtime. Our models are designed to run anywhere eg. raspberry pi, low-end smartphones, wearables, browsers etc. No GPU required! This release aims to bridge the gap between on-device and cloud models for tts applications. Multi-lingual model release is coming soon.
+On-device AI is bottlenecked by one thing: a lack of tiny models that actually perform. Our goal is to open-source more models to run production-ready voice agents and apps entirely on-device.
+We would love your feedback!
+Comments URL: https://news.ycombinator.com/item?id=47441546
+Points: 50
+# Comments: 14]]></summary>
+        <author>
+            <name>rohan_joshi</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[macOS 26 breaks custom DNS settings including .internal]]></title>
+        <id>https://news.ycombinator.com/item?id=47440759</id>
+        <link href="https://gist.github.com/adamamyl/81b78eced40feae50eae7c4f3bec1f5a"/>
+        <updated>2026-03-19T15:06:58.000Z</updated>
+        <summary type="html"><![CDATA[One of those 'woke up to MacOS updates' and finding none of my dockers are reachable via dnsmasq (which I use), and low and behold, an update silently breaks custom dns resolution. Hopefully Apple will listen to the bug report I've made. Hold off on updating if you use this…
+Comments URL: https://news.ycombinator.com/item?id=47440759
+Points: 128
+# Comments: 44]]></summary>
+        <author>
+            <name>adamamyl</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Consensus Board Game]]></title>
+        <id>https://news.ycombinator.com/item?id=47439718</id>
+        <link href="https://matklad.github.io/2026/03/19/consensus-board-game.html"/>
+        <updated>2026-03-19T14:06:39.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://matklad.github.io/2026/03/19/consensus-board-game.html
+Comments URL: https://news.ycombinator.com/item?id=47439718
+Points: 50
+# Comments: 5]]></summary>
+        <author>
+            <name>surprisetalk</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[OpenBSD: PF queues break the 4 Gbps barrier]]></title>
         <id>https://news.ycombinator.com/item?id=47439320</id>
@@ -2005,6 +2049,19 @@ Points: 52
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Pretraining Language Models via Neural Cellular Automata]]></title>
+        <id>https://news.ycombinator.com/item?id=47388293</id>
+        <link href="https://hanseungwook.github.io/blog/nca-pre-pre-training/"/>
+        <updated>2026-03-15T15:23:26.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://hanseungwook.github.io/blog/nca-pre-pre-training/
+Comments URL: https://news.ycombinator.com/item?id=47388293
+Points: 72
+# Comments: 13]]></summary>
+        <author>
+            <name>shmublu</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Learning athletic humanoid tennis skills from imperfect human motion data]]></title>
         <id>https://news.ycombinator.com/item?id=47388273</id>
         <link href="https://zzk273.github.io/LATENT/"/>
@@ -2267,6 +2324,19 @@ Points: 123
 # Comments: 83]]></summary>
         <author>
             <name>aerhardt</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[LotusNotes]]></title>
+        <id>https://news.ycombinator.com/item?id=47385439</id>
+        <link href="https://computer.rip/2026-03-14-lotusnotes.html"/>
+        <updated>2026-03-15T08:40:59.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://computer.rip/2026-03-14-lotusnotes.html
+Comments URL: https://news.ycombinator.com/item?id=47385439
+Points: 156
+# Comments: 82]]></summary>
+        <author>
+            <name>TMWNN</name>
         </author>
     </entry>
     <entry>

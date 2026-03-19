@@ -6,6 +6,36 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=47441546",
+          "author": "rohan_joshi",
+          "description": "Kitten TTS (https://github.com/KittenML/KittenTTS) is an open-source series of tiny and expressive text-to-speech models for on-device applications. We had a thread last year here: https://news.ycombinator.com/item?id=44807868.\nToday we're releasing three new models with 80M, 40M and 14M parameters.\nThe largest model (80M) has the highest quality. The 14M variant reaches new SOTA in expressivity among similar sized models, despite being https://www.youtube.com/watch?v=ge3u5qblqZA.\nMost models are quantized to int8 + fp16, and they use ONNX for runtime. Our models are designed to run anywhere eg. raspberry pi, low-end smartphones, wearables, browsers etc. No GPU required! This release aims to bridge the gap between on-device and cloud models for tts applications. Multi-lingual model release is coming soon.\nOn-device AI is bottlenecked by one thing: a lack of tiny models that actually perform. Our goal is to open-source more models to run production-ready voice agents and apps entirely on-device.\nWe would love your feedback!\nComments URL: https://news.ycombinator.com/item?id=47441546\nPoints: 50\n# Comments: 14",
+          "link": "https://github.com/KittenML/KittenTTS",
+          "publishedOn": "2026-03-19T15:56:06.000Z",
+          "wordCount": 4265,
+          "title": "Show HN: Three new Kitten TTS models – smallest less than 25MB",
+          "imageUrl": "https://opengraph.githubassets.com/63de1ff2a4ead97810708b6ab119a1af15858dce5074cb3a593d3a198e2718d9/KittenML/KittenTTS"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47440759",
+          "author": "adamamyl",
+          "description": "One of those 'woke up to MacOS updates' and finding none of my dockers are reachable via dnsmasq (which I use), and low and behold, an update silently breaks custom dns resolution. Hopefully Apple will listen to the bug report I've made. Hold off on updating if you use this…\nComments URL: https://news.ycombinator.com/item?id=47440759\nPoints: 128\n# Comments: 44",
+          "link": "https://gist.github.com/adamamyl/81b78eced40feae50eae7c4f3bec1f5a",
+          "publishedOn": "2026-03-19T15:06:58.000Z",
+          "wordCount": 1925,
+          "title": "macOS 26 breaks custom DNS settings including .internal",
+          "imageUrl": "https://github.githubassets.com/assets/gist-og-image-54fd7dc0713e.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47439718",
+          "author": "surprisetalk",
+          "description": "Article URL: https://matklad.github.io/2026/03/19/consensus-board-game.html\nComments URL: https://news.ycombinator.com/item?id=47439718\nPoints: 50\n# Comments: 5",
+          "link": "https://matklad.github.io/2026/03/19/consensus-board-game.html",
+          "publishedOn": "2026-03-19T14:06:39.000Z",
+          "wordCount": 1317,
+          "title": "Consensus Board Game",
+          "imageUrl": null
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=47439320",
           "author": "defrost",
           "description": "Article URL: https://undeadly.org/cgi?action=article;sid=20260319125859\nComments URL: https://news.ycombinator.com/item?id=47439320\nPoints: 72\n# Comments: 20",
@@ -1476,6 +1506,16 @@
           "imageUrl": null
         },
         {
+          "id": "https://news.ycombinator.com/item?id=47388293",
+          "author": "shmublu",
+          "description": "Article URL: https://hanseungwook.github.io/blog/nca-pre-pre-training/\nComments URL: https://news.ycombinator.com/item?id=47388293\nPoints: 72\n# Comments: 13",
+          "link": "https://hanseungwook.github.io/blog/nca-pre-pre-training/",
+          "publishedOn": "2026-03-15T15:23:26.000Z",
+          "wordCount": 7111,
+          "title": "Pretraining Language Models via Neural Cellular Automata",
+          "imageUrl": null
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=47388273",
           "author": "danielmorozoff",
           "description": "Article URL: https://zzk273.github.io/LATENT/\nComments URL: https://news.ycombinator.com/item?id=47388273\nPoints: 76\n# Comments: 10",
@@ -1664,6 +1704,16 @@
           "wordCount": 1607,
           "title": "The emergence of print-on-demand Amazon paperback books",
           "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47385439",
+          "author": "TMWNN",
+          "description": "Article URL: https://computer.rip/2026-03-14-lotusnotes.html\nComments URL: https://news.ycombinator.com/item?id=47385439\nPoints: 156\n# Comments: 82",
+          "link": "https://computer.rip/2026-03-14-lotusnotes.html",
+          "publishedOn": "2026-03-15T08:40:59.000Z",
+          "wordCount": 5614,
+          "title": "LotusNotes",
+          "imageUrl": "https://computer.rip/static/social-icon.png"
         },
         {
           "id": "https://news.ycombinator.com/item?id=47385272",
