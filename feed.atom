@@ -2,10 +2,36 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-03-20T22:35:36.250Z</updated>
+    <updated>2026-03-20T23:35:20.470Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[OpenCode – The open source AI coding agent]]></title>
+        <id>https://news.ycombinator.com/item?id=47460525</id>
+        <link href="https://opencode.ai/"/>
+        <updated>2026-03-20T21:03:52.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://opencode.ai/
+Comments URL: https://news.ycombinator.com/item?id=47460525
+Points: 273
+# Comments: 122]]></summary>
+        <author>
+            <name>rbanffy</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A Japanese Glossary of Chopsticks Faux Pas]]></title>
+        <id>https://news.ycombinator.com/item?id=47460452</id>
+        <link href="https://www.nippon.com/en/japan-data/h01362/"/>
+        <updated>2026-03-20T20:54:57.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.nippon.com/en/japan-data/h01362/
+Comments URL: https://news.ycombinator.com/item?id=47460452
+Points: 81
+# Comments: 75]]></summary>
+        <author>
+            <name>cainxinth</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Our commitment to Windows quality]]></title>
         <id>https://news.ycombinator.com/item?id=47459296</id>
@@ -18442,48 +18468,6 @@ Points: 54
 # Comments: 29]]></summary>
         <author>
             <name>lermontov</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[ShannonMax: A Library to Optimize Emacs Keybindings with Information Theory]]></title>
-        <id>https://news.ycombinator.com/item?id=47072603</id>
-        <link href="https://github.com/sstraust/shannonmax"/>
-        <updated>2026-02-19T11:15:38.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://github.com/sstraust/shannonmax
-Comments URL: https://news.ycombinator.com/item?id=47072603
-Points: 51
-# Comments: 9]]></summary>
-        <author>
-            <name>sammy0910</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Bridging Elixir and Python with Oban]]></title>
-        <id>https://news.ycombinator.com/item?id=47072539</id>
-        <link href="https://oban.pro/articles/bridging-with-oban"/>
-        <updated>2026-02-19T11:07:15.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://oban.pro/articles/bridging-with-oban
-Comments URL: https://news.ycombinator.com/item?id=47072539
-Points: 63
-# Comments: 19]]></summary>
-        <author>
-            <name>sorentwo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: A physically-based GPU ray tracer written in Julia]]></title>
-        <id>https://news.ycombinator.com/item?id=47072444</id>
-        <link href="https://makie.org/website/blogposts/raytracing/"/>
-        <updated>2026-02-19T10:55:13.000Z</updated>
-        <summary type="html"><![CDATA[We ported pbrt-v4 to Julia and built it into a Makie backend. Any Makie plot can now be rendered with physically-based path tracing.
-Julia compiles user-defined physics directly into GPU kernels, so anyone can extend the ray tracer with new materials and media - a black hole with gravitational lensing is ~200 lines of Julia.
-Runs on AMD, NVIDIA, and CPU via KernelAbstractions.jl, with Metal coming soon.
-Demo scenes: github.com/SimonDanisch/RayDemo
-Comments URL: https://news.ycombinator.com/item?id=47072444
-Points: 72
-# Comments: 30]]></summary>
-        <author>
-            <name>simondanisch</name>
         </author>
     </entry>
 </feed>
