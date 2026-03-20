@@ -2,10 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-03-20T14:50:32.325Z</updated>
+    <updated>2026-03-20T15:50:51.101Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Having Kids (2019)]]></title>
+        <id>https://news.ycombinator.com/item?id=47455489</id>
+        <link href="https://paulgraham.com/kids.html"/>
+        <updated>2026-03-20T14:56:03.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://paulgraham.com/kids.html
+Comments URL: https://news.ycombinator.com/item?id=47455489
+Points: 58
+# Comments: 45]]></summary>
+        <author>
+            <name>Anon84</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Chuck Norris Has Died]]></title>
         <id>https://news.ycombinator.com/item?id=47454782</id>
@@ -17,6 +30,19 @@ Points: 89
 # Comments: 32]]></summary>
         <author>
             <name>mp3il</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Java is fast, code might not be]]></title>
+        <id>https://news.ycombinator.com/item?id=47454384</id>
+        <link href="https://jvogel.me/posts/2026/java-is-fast-your-code-might-not-be/"/>
+        <updated>2026-03-20T13:43:23.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://jvogel.me/posts/2026/java-is-fast-your-code-might-not-be/
+Comments URL: https://news.ycombinator.com/item?id=47454384
+Points: 58
+# Comments: 61]]></summary>
+        <author>
+            <name>siegers</name>
         </author>
     </entry>
     <entry>
@@ -43,6 +69,19 @@ Points: 52
 # Comments: 20]]></summary>
         <author>
             <name>felineflock</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Schizophrenia study finds new biomarker, drug candidate in mice]]></title>
+        <id>https://news.ycombinator.com/item?id=47454091</id>
+        <link href="https://news.northwestern.edu/stories/2026/03/schizophrenia-study-finds-new-biomarker-drug-candidate-to-treat-cognitive-symptoms"/>
+        <updated>2026-03-20T13:18:36.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://news.northwestern.edu/stories/2026/03/schizophrenia-study-finds-new-biomarker-drug-candidate-to-treat-cognitive-symptoms
+Comments URL: https://news.ycombinator.com/item?id=47454091
+Points: 86
+# Comments: 30]]></summary>
+        <author>
+            <name>gmays</name>
         </author>
     </entry>
     <entry>
@@ -1311,6 +1350,19 @@ Points: 153
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Regex Blaster]]></title>
+        <id>https://news.ycombinator.com/item?id=47418247</id>
+        <link href="https://mdp.github.io/regex-blaster/"/>
+        <updated>2026-03-17T21:00:54.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://mdp.github.io/regex-blaster/
+Comments URL: https://news.ycombinator.com/item?id=47418247
+Points: 57
+# Comments: 17]]></summary>
+        <author>
+            <name>mdp</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Meta and TikTok let harmful content rise to drove engagement, say whistleblowers]]></title>
         <id>https://news.ycombinator.com/item?id=47417814</id>
         <link href="https://www.bbc.com/news/articles/cqj9kgxqjwjo"/>
@@ -1399,6 +1451,19 @@ Points: 71
 # Comments: 45]]></summary>
         <author>
             <name>mfiguiere</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Los Angeles Aqueduct Is Wild]]></title>
+        <id>https://news.ycombinator.com/item?id=47416543</id>
+        <link href="https://practical.engineering/blog/2026/3/17/the-los-angeles-aqueduct-is-wild"/>
+        <updated>2026-03-17T18:43:53.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://practical.engineering/blog/2026/3/17/the-los-angeles-aqueduct-is-wild
+Comments URL: https://news.ycombinator.com/item?id=47416543
+Points: 66
+# Comments: 18]]></summary>
+        <author>
+            <name>michaefe</name>
         </author>
     </entry>
     <entry>
@@ -18289,39 +18354,6 @@ Points: 60
 # Comments: 18]]></summary>
         <author>
             <name>a11ce</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Electrobun v1: Build fast, tiny, and cross-platform desktop apps with TypeScript]]></title>
-        <id>https://news.ycombinator.com/item?id=47069650</id>
-        <link href="https://blackboard.sh/blog/electrobun-v1/"/>
-        <updated>2026-02-19T03:46:07.000Z</updated>
-        <summary type="html"><![CDATA[I'm building a commercial macOS app with Electrobun [1]. I have previously written the same app with Tauri. I'll say that, while I love Tauri, using Electrobun has been an absolute breeze. I got the same app done in roughly 70% of the time [2]. It's a very productive stack. In no small part due to Electrobun, but also the fact that Bun has tons of DX niceties and a builtin bundler.
-Electrobun lets you open/manipulate/close webview windows and communicate with them using typed rpc. It also handles building, code signing, and notarization.
-And because I'm using Bun, running an HMR + React + Tailwind server is just one command (`bun ./index.html`) or like 5 lines of code. Pass --console and the webview's console.log()s get streamed to your Terminal too.
-There's tons of other things Electrobun does that I haven't even mentioned, because I haven't interacted much with them yet. E.g. I know that it lets you show platform-native notifications, prompts/popups, etc.
-There also is a very impressive updating mechanism that relies on a bsdiff implementation written in Zig. You just ship the deltas, so updates to very large apps are just a few KBs most of the time.
-It's genuinely a very productive stack and impressive piece of tech.
-[1] Not affiliated - I just like the project.
-[2]: The API and implementation was clear, so I'll cautiously say this is not a case of "rewrites are always faster". In fact, the Tauri version was a rewrite too :)
-Comments URL: https://news.ycombinator.com/item?id=47069650
-Points: 74
-# Comments: 23]]></summary>
-        <author>
-            <name>merlindru</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Anthropic officially bans using subscription auth for third party use]]></title>
-        <id>https://news.ycombinator.com/item?id=47069299</id>
-        <link href="https://code.claude.com/docs/en/legal-and-compliance"/>
-        <updated>2026-02-19T02:52:26.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://code.claude.com/docs/en/legal-and-compliance
-Comments URL: https://news.ycombinator.com/item?id=47069299
-Points: 117
-# Comments: 136]]></summary>
-        <author>
-            <name>theahura</name>
         </author>
     </entry>
 </feed>
