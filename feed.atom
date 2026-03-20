@@ -2,10 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-03-20T05:56:59.371Z</updated>
+    <updated>2026-03-20T07:07:33.748Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[ArXiv Declares Independence from Cornell]]></title>
+        <id>https://news.ycombinator.com/item?id=47450478</id>
+        <link href="https://www.science.org/content/article/arxiv-pioneering-preprint-server-declares-independence-cornell"/>
+        <updated>2026-03-20T04:24:11.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.science.org/content/article/arxiv-pioneering-preprint-server-declares-independence-cornell
+Comments URL: https://news.ycombinator.com/item?id=47450478
+Points: 128
+# Comments: 20]]></summary>
+        <author>
+            <name>bookstore-romeo</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Full Disclosure: A Third (and Fourth) Azure Sign-In Log Bypass Found]]></title>
         <id>https://news.ycombinator.com/item?id=47448994</id>
@@ -316,6 +329,18 @@ Points: 96
 # Comments: 64]]></summary>
         <author>
             <name>ChrisArchitect</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Launch HN: Canary (YC W26) – AI QA that understands your code]]></title>
+        <id>https://news.ycombinator.com/item?id=47441629</id>
+        <link href="https://news.ycombinator.com/item?id=47441629"/>
+        <updated>2026-03-19T16:01:30.000Z</updated>
+        <summary type="html"><![CDATA[Hey HN! We're Aakash and Viswesh, and we're building Canary (https://www.runcanary.ai). We build AI agents that read your codebase, figure out what a pull request actually changed, and generate and execute tests for every affected user workflow.
+Aakash and I previously built AI coding tools at Windsurf, Cognition, and Google. AI tools were making every team faster at shipping, but nobody was testing real user behavior before merge. PRs got bigger, reviews still happened in file diffs, and changes that looked clean broke checkout, auth, and billing in production. We saw it firsthand. We started Canary to close that gap. Here's how it works:
+Canary starts by connecting to your codebase and understands how your app is built: routes, controllers, validation logic. You push a PR and Canary read…]]></summary>
+        <author>
+            <name>Visweshyc</name>
         </author>
     </entry>
     <entry>
@@ -18375,58 +18400,6 @@ Points: 58
 # Comments: 51]]></summary>
         <author>
             <name>rbanffy</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[What Every Experimenter Must Know About Randomization]]></title>
-        <id>https://news.ycombinator.com/item?id=47064845</id>
-        <link href="https://spawn-queue.acm.org/doi/pdf/10.1145/3778029"/>
-        <updated>2026-02-18T19:02:18.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://spawn-queue.acm.org/doi/pdf/10.1145/3778029
-Comments URL: https://news.ycombinator.com/item?id=47064845
-Points: 59
-# Comments: 31]]></summary>
-        <author>
-            <name>underscoreF</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: Echo, an iOS SSH+mosh client built on Ghostty]]></title>
-        <id>https://news.ycombinator.com/item?id=47064787</id>
-        <link href="https://replay.software/updates/introducing-echo"/>
-        <updated>2026-02-18T18:58:38.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://replay.software/updates/introducing-echo
-Comments URL: https://news.ycombinator.com/item?id=47064787
-Points: 74
-# Comments: 32]]></summary>
-        <author>
-            <name>sgottit</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Cosmologically Unique IDs]]></title>
-        <id>https://news.ycombinator.com/item?id=47064490</id>
-        <link href="https://jasonfantl.com/posts/Universal-Unique-IDs/"/>
-        <updated>2026-02-18T18:37:22.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://jasonfantl.com/posts/Universal-Unique-IDs/
-Comments URL: https://news.ycombinator.com/item?id=47064490
-Points: 146
-# Comments: 34]]></summary>
-        <author>
-            <name>jfantl</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[DNS-Persist-01: A New Model for DNS-Based Challenge Validation]]></title>
-        <id>https://news.ycombinator.com/item?id=47064047</id>
-        <link href="https://letsencrypt.org/2026/02/18/dns-persist-01.html"/>
-        <updated>2026-02-18T18:04:13.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://letsencrypt.org/2026/02/18/dns-persist-01.html
-Comments URL: https://news.ycombinator.com/item?id=47064047
-Points: 89
-# Comments: 32]]></summary>
-        <author>
-            <name>todsacerdoti</name>
         </author>
     </entry>
 </feed>
