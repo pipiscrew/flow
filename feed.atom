@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-03-21T02:32:57.613Z</updated>
+    <updated>2026-03-21T04:42:04.290Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
@@ -17,6 +17,19 @@ Points: 99
 # Comments: 10]]></summary>
         <author>
             <name>bjornroberg</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: We built a terminal-only Bluesky / AT Proto client written in Fortran]]></title>
+        <id>https://news.ycombinator.com/item?id=47461321</id>
+        <link href="https://github.com/FormerLab/fortransky"/>
+        <updated>2026-03-20T22:06:51.000Z</updated>
+        <summary type="html"><![CDATA[Yes, that Fortran.
+Comments URL: https://news.ycombinator.com/item?id=47461321
+Points: 52
+# Comments: 31]]></summary>
+        <author>
+            <name>FormerLabFred</name>
         </author>
     </entry>
     <entry>
@@ -95,6 +108,24 @@ Points: 93
 # Comments: 69]]></summary>
         <author>
             <name>ironyman</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: I made an email app inspired by Arc browser]]></title>
+        <id>https://news.ycombinator.com/item?id=47458348</id>
+        <link href="https://demo.define.app/"/>
+        <updated>2026-03-20T18:06:20.000Z</updated>
+        <summary type="html"><![CDATA[Email is one of those tools we check daily but its underlying experience didn’t evolve much. I use Gmail, as probably most of you reading this.
+The Arc browser brought joy and taste to browsing the web. Cursor created a new UX with agents ready to work for you in a handy right panel.
+I use these three tools every day. Since Arc was acquired by Atlassian, I’ve been wondering: what if I built a new interface that applied Arc’s UX to email rather than browser tabs, while making AI agents easily available to help manage emails, events, and files?
+I built a frontend PoC to showcase the idea.
+Try it: https://demo.define.app
+I’m not sure about it though... Is it worth continuing to explore this idea?
+Comments URL: https://news.ycombinator.com/item?id=47458348
+Points: 56
+# Comments: 27]]></summary>
+        <author>
+            <name>johndamaia</name>
         </author>
     </entry>
     <entry>
@@ -18304,118 +18335,6 @@ Points: 69
 # Comments: 11]]></summary>
         <author>
             <name>forinti</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Sub-$200 Lidar could reshuffle auto sensor economics]]></title>
-        <id>https://news.ycombinator.com/item?id=47075455</id>
-        <link href="https://spectrum.ieee.org/solid-state-lidar-microvision-adas"/>
-        <updated>2026-02-19T16:23:39.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://spectrum.ieee.org/solid-state-lidar-microvision-adas
-Comments URL: https://news.ycombinator.com/item?id=47075455
-Points: 208
-# Comments: 280]]></summary>
-        <author>
-            <name>mhb</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Gemini 3.1 Pro]]></title>
-        <id>https://news.ycombinator.com/item?id=47075318</id>
-        <link href="https://deepmind.google/models/model-cards/gemini-3-1-pro/"/>
-        <updated>2026-02-19T16:14:07.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://deepmind.google/models/model-cards/gemini-3-1-pro/
-Comments URL: https://news.ycombinator.com/item?id=47075318
-Points: 165
-# Comments: 62]]></summary>
-        <author>
-            <name>PunchTornado</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Mark Zuckerberg Grilled on Usage Goals and Underage Users at California Trial]]></title>
-        <id>https://news.ycombinator.com/item?id=47075245</id>
-        <link href="https://www.wsj.com/us-news/law/meta-mark-zuckerberg-social-media-trial-0e9a7fa0"/>
-        <updated>2026-02-19T16:07:14.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.wsj.com/us-news/law/meta-mark-zuckerberg-social-media-trial-0e9a7fa0
-Comments URL: https://news.ycombinator.com/item?id=47075245
-Points: 66
-# Comments: 35]]></summary>
-        <author>
-            <name>1vuio0pswjnm7</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: Micasa – track your house from the terminal]]></title>
-        <id>https://news.ycombinator.com/item?id=47075124</id>
-        <link href="https://micasa.dev/"/>
-        <updated>2026-02-19T15:54:14.000Z</updated>
-        <summary type="html"><![CDATA[micasa is a terminal UI that helps you track home stuff, in a single SQLite file. No cloud, no
-account, no subscription. Backup with cp.
-I built it because I was tired of losing track of everything in notes apps, and "I'll remember
-that"s. When do I need to clean the dishwasher filter? What's the best quote for a complete
-overhaul of the backyard. Oops, found some mold behind the trim, need to address that ASAP. That
-sort of stuff.
-Another reason I made micasa was to build a (hopefully useful) low-stakes personal project where
-the code was written entirely by AI. I still review the code and click the merge button, but 99%
-of the programming was done with an agent.
-Here are some things I think make it worth checking out:
-- Vim-style modal UI. Nav mode to browse, edit mode to change. Multico…]]></summary>
-        <author>
-            <name>cpcloud</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Dinosaur Food: 100M year old foods we still eat today (2022)]]></title>
-        <id>https://news.ycombinator.com/item?id=47074869</id>
-        <link href="https://borischerny.com/food/2022/01/17/Dinosaur-food.html"/>
-        <updated>2026-02-19T15:30:42.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://borischerny.com/food/2022/01/17/Dinosaur-food.html
-Comments URL: https://news.ycombinator.com/item?id=47074869
-Points: 66
-# Comments: 55]]></summary>
-        <author>
-            <name>simonebrunozzi</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Gemini 3.1 Pro]]></title>
-        <id>https://news.ycombinator.com/item?id=47074735</id>
-        <link href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-pro/"/>
-        <updated>2026-02-19T15:19:57.000Z</updated>
-        <summary type="html"><![CDATA[Preview: https://console.cloud.google.com/vertex-ai/publishers/google...
-Card: https://deepmind.google/models/model-cards/gemini-3-1-pro/
-Comments URL: https://news.ycombinator.com/item?id=47074735
-Points: 240
-# Comments: 509]]></summary>
-        <author>
-            <name>MallocVoidstar</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Gemini 3.1 Pro Preview]]></title>
-        <id>https://news.ycombinator.com/item?id=47074735</id>
-        <link href="https://console.cloud.google.com/vertex-ai/publishers/google/model-garden/gemini-3.1-pro-preview?pli=1"/>
-        <updated>2026-02-19T15:19:57.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://console.cloud.google.com/vertex-ai/publishers/google/model-garden/gemini-3.1-pro-preview?pli=1
-Comments URL: https://news.ycombinator.com/item?id=47074735
-Points: 84
-# Comments: 46]]></summary>
-        <author>
-            <name>MallocVoidstar</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[America vs. Singapore: You Can't Save Your Way Out of Economic Shocks]]></title>
-        <id>https://news.ycombinator.com/item?id=47074389</id>
-        <link href="https://www.governance.fyi/p/america-vs-singapore-you-cant-save"/>
-        <updated>2026-02-19T14:52:18.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.governance.fyi/p/america-vs-singapore-you-cant-save
-Comments URL: https://news.ycombinator.com/item?id=47074389
-Points: 100
-# Comments: 89]]></summary>
-        <author>
-            <name>guardianbob</name>
         </author>
     </entry>
 </feed>
