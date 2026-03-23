@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-03-23T07:20:31.156Z</updated>
+    <updated>2026-03-23T09:05:10.693Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
@@ -17,6 +17,19 @@ Points: 55
 # Comments: 17]]></summary>
         <author>
             <name>mitchbob</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Intuitions for Tranformer Circuits]]></title>
+        <id>https://news.ycombinator.com/item?id=47484227</id>
+        <link href="https://www.connorjdavis.com/p/intuitions-for-transformer-circuits"/>
+        <updated>2026-03-23T01:06:35.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.connorjdavis.com/p/intuitions-for-transformer-circuits
+Comments URL: https://news.ycombinator.com/item?id=47484227
+Points: 54
+# Comments: 3]]></summary>
+        <author>
+            <name>cjamsonhn</name>
         </author>
     </entry>
     <entry>
@@ -1245,6 +1258,19 @@ Points: 52
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[The way CTRL-C in Postgres CLI cancels queries is incredibly hack-y]]></title>
+        <id>https://news.ycombinator.com/item?id=47454127</id>
+        <link href="https://neon.com/blog/ctrl-c-in-psql-gives-me-the-heebie-jeebies"/>
+        <updated>2026-03-20T13:21:51.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://neon.com/blog/ctrl-c-in-psql-gives-me-the-heebie-jeebies
+Comments URL: https://news.ycombinator.com/item?id=47454127
+Points: 55
+# Comments: 5]]></summary>
+        <author>
+            <name>andrenotgiant</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Schizophrenia study finds new biomarker, drug candidate in mice]]></title>
         <id>https://news.ycombinator.com/item?id=47454091</id>
         <link href="https://news.northwestern.edu/stories/2026/03/schizophrenia-study-finds-new-biomarker-drug-candidate-to-treat-cognitive-symptoms"/>
@@ -1281,6 +1307,19 @@ Points: 85
 # Comments: 105]]></summary>
         <author>
             <name>MrDresden</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Can you get root with only a cigarette lighter? (2024)]]></title>
+        <id>https://news.ycombinator.com/item?id=47453462</id>
+        <link href="https://www.da.vidbuchanan.co.uk/blog/dram-emfi.html"/>
+        <updated>2026-03-20T12:11:35.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.da.vidbuchanan.co.uk/blog/dram-emfi.html
+Comments URL: https://news.ycombinator.com/item?id=47453462
+Points: 63
+# Comments: 11]]></summary>
+        <author>
+            <name>HeliumHydride</name>
         </author>
     </entry>
     <entry>
@@ -18331,72 +18370,6 @@ Points: 177
 # Comments: 104]]></summary>
         <author>
             <name>dbreunig</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: Llama 3.1 70B on a single RTX 3090 via NVMe-to-GPU bypassing the CPU]]></title>
-        <id>https://news.ycombinator.com/item?id=47104667</id>
-        <link href="https://github.com/xaskasdf/ntransformer"/>
-        <updated>2026-02-21T20:57:30.000Z</updated>
-        <summary type="html"><![CDATA[Hi everyone, I'm kinda involved in some retrogaming and with some experiments I ran into the following question: "It would be possible to run transformer models bypassing the cpu/ram, connecting the gpu to the nvme?"
-This is the result of that question itself and some weekend vibecoding (it has the linked library repository in the readme as well), it seems to work, even on consumer gpus, it should work better on professional ones tho
-Comments URL: https://news.ycombinator.com/item?id=47104667
-Points: 105
-# Comments: 26]]></summary>
-        <author>
-            <name>xaskasdf</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Aesthetics of single threading]]></title>
-        <id>https://news.ycombinator.com/item?id=47104227</id>
-        <link href="https://ta.fo/aesthetics-of-single-threading/"/>
-        <updated>2026-02-21T20:14:13.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://ta.fo/aesthetics-of-single-threading/
-Comments URL: https://news.ycombinator.com/item?id=47104227
-Points: 72
-# Comments: 20]]></summary>
-        <author>
-            <name>todsacerdoti</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[EDuke32 – Duke Nukem 3D (Open-Source)]]></title>
-        <id>https://news.ycombinator.com/item?id=47104185</id>
-        <link href="https://www.eduke32.com/"/>
-        <updated>2026-02-21T20:10:13.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.eduke32.com/
-Comments URL: https://news.ycombinator.com/item?id=47104185
-Points: 87
-# Comments: 24]]></summary>
-        <author>
-            <name>reconnecting</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Inputlag.science – Repository of knowledge about input lag in gaming]]></title>
-        <id>https://news.ycombinator.com/item?id=47103945</id>
-        <link href="https://inputlag.science/"/>
-        <updated>2026-02-21T19:41:52.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://inputlag.science
-Comments URL: https://news.ycombinator.com/item?id=47103945
-Points: 66
-# Comments: 12]]></summary>
-        <author>
-            <name>akyuu</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Parse, Don't Validate and Type-Driven Design in Rust]]></title>
-        <id>https://news.ycombinator.com/item?id=47103931</id>
-        <link href="https://www.harudagondi.space/blog/parse-dont-validate-and-type-driven-design-in-rust/"/>
-        <updated>2026-02-21T19:40:06.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.harudagondi.space/blog/parse-dont-validate-and-type-driven-design-in-rust/
-Comments URL: https://news.ycombinator.com/item?id=47103931
-Points: 77
-# Comments: 26]]></summary>
-        <author>
-            <name>todsacerdoti</name>
         </author>
     </entry>
 </feed>
