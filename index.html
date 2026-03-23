@@ -22,8 +22,8 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2026-03-23 datetime="2026-03-23T17:35:38.000Z">2026-03-23</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2026-03-23 datetime="2026-03-23T17:35:38.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2026-03-23 datetime="2026-03-23T18:57:08.000Z">2026-03-23</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2026-03-23 datetime="2026-03-23T18:57:08.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
@@ -38,6 +38,49 @@
                   <a class="source-heading__link" href="https://news.ycombinator.com/">Open</a>
                 </h3>
                 <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;47493657"
+                        open
+                      >
+                        <summary class="article-expander__title">Local Stack Archived their GitHub repo and requires an account to run</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://github.com/localstack/localstack">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://repository-images.githubusercontent.com/71948498/7a7abf27-e02e-4544-8d0f-0a8630e5b77b" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Article URL: https://github.com/localstack/localstack
+Comments URL: https://news.ycombinator.com/item?id&#x3D;47493657
+Points: 54
+# Comments: 20</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;16
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;47493460"
+                        open
+                      >
+                        <summary class="article-expander__title">Autoresearch on an old research idea</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://ykumar.me/blog/eclip-autoresearch/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Article URL: https://ykumar.me/blog/eclip-autoresearch/
+Comments URL: https://news.ycombinator.com/item?id&#x3D;47493460
+Points: 128
+# Comments: 35</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
                     <article>
                       <details
                         class="article-expander"
@@ -74,6 +117,36 @@ Comments URL: https://news.ycombinator.com/item?id&#x3D;47491496
 Points: 58
 # Comments: 46</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;47491414"
+                        open
+                      >
+                        <summary class="article-expander__title">Show HN: Threadprocs – executables sharing one address space (0-copy pointers)</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://github.com/jer-irl/threadprocs">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://opengraph.githubassets.com/0bfab488f79df21b154f03c9f73392e6c491876a8f441989b42b53fbb49f8779/jer-irl/threadprocs" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>This project launches multiple independent programs into a single shared virtual address space, while still behaving like separate processes (independent binaries, globals, and lifetimes).  When threadprocs share their address space, pointers are valid across them with no code changes for well-behaved Linux binaries.
+Unlike threads, each threadproc is a standalone and semi-isolated process.  Unlike dlopen-based plugin systems, threadprocs run traditional executables with a &#x60;main()&#x60; function.  Unlike POSIX processes, pointers remain valid across threadprocs because they share the same address space.
+This means that idiomatic pointer-based data structures like &#x60;std::string&#x60; or &#x60;std::unordered_map&#x60; can be passed between threadprocs and accessed directly (with the usual data race considerations).
+This accomplishes a programming model somewhere between pthreads and multi-process shared memory IPC.
+The implementation relies on directing ASLR and virtual address layout at load time and implementing a user-space analogue of &#x60;exec()&#x60;, as well as careful manipulation of threadproc file descriptors, signals, etc.  It is implemented entirely in unprivileged user space code: https://github.com/jer-irl/threadprocs/blob/main/docs/02-imp...&gt;.
+There is a simple demo demonstrating “cross-threadproc” memory dereferencing at https://github.com/jer-irl/threadprocs/tree/main?tab&#x3D;readme-...&gt;, including a high-level diagram.
+This is relevant to systems of multiple processes with shared memory (often ring buffers or flat tables).  These designs often require serialization or copying, and tend away from idiomatic C++ or Rust data structures.  Pointer-based data structures cannot be passed directly.
+There are significant limitations and edge cases, and it’s not clear this is a practical model, but the project explores a way to relax traditional process memory boundaries while still structuring a system as independently launched components.
+Comments URL: https://news.ycombinator.com/item?id&#x3D;47491414
+Points: 53
+# Comments: 34</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;12
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -2213,6 +2286,28 @@ Comments URL: https://news.ycombinator.com/item?id&#x3D;47460452
 Points: 81
 # Comments: 75</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;3
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;47459363"
+                        open
+                      >
+                        <summary class="article-expander__title">BIO: The Bao I/O Coprocessor</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.bunniestudios.com/blog/2026/bio-the-bao-i-o-coprocessor/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Article URL: https://www.bunniestudios.com/blog/2026/bio-the-bao-i-o-coprocessor/
+Comments URL: https://news.ycombinator.com/item?id&#x3D;47459363
+Points: 78
+# Comments: 21</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;24
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -32254,26 +32349,6 @@ Points: 57
                         </a>
                       </details>
                     </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;47108989"
-                        open
-                      >
-                        <summary class="article-expander__title">Back to FreeBSD: Part 1</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://hypha.pub/back-to-freebsd-part-1">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Article URL: https://hypha.pub/back-to-freebsd-part-1
-Comments URL: https://news.ycombinator.com/item?id&#x3D;47108989
-Points: 83
-# Comments: 25</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
                 </section>
               </section>
             </li>
@@ -32281,8 +32356,8 @@ Points: 83
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/pipiscrew/flow/actions/runs/23455303466">
-        <time id="build-timestamp" datetime="2026-03-23T19:08:38.697Z">2026-03-23T19:08:38.697Z</time>
+      <a class="footer-link" href="https://github.com/pipiscrew/flow/actions/runs/23459115872">
+        <time id="build-timestamp" datetime="2026-03-23T20:42:32.422Z">2026-03-23T20:42:32.422Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>

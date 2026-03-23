@@ -2,10 +2,36 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-03-23T19:08:38.758Z</updated>
+    <updated>2026-03-23T20:42:32.485Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Local Stack Archived their GitHub repo and requires an account to run]]></title>
+        <id>https://news.ycombinator.com/item?id=47493657</id>
+        <link href="https://github.com/localstack/localstack"/>
+        <updated>2026-03-23T18:57:08.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://github.com/localstack/localstack
+Comments URL: https://news.ycombinator.com/item?id=47493657
+Points: 54
+# Comments: 20]]></summary>
+        <author>
+            <name>ecshafer</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Autoresearch on an old research idea]]></title>
+        <id>https://news.ycombinator.com/item?id=47493460</id>
+        <link href="https://ykumar.me/blog/eclip-autoresearch/"/>
+        <updated>2026-03-23T18:40:58.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://ykumar.me/blog/eclip-autoresearch/
+Comments URL: https://news.ycombinator.com/item?id=47493460
+Points: 128
+# Comments: 35]]></summary>
+        <author>
+            <name>ykumards</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[US govt pays TotalEnergies nearly $1B to stop US offshore wind projects]]></title>
         <id>https://news.ycombinator.com/item?id=47492599</id>
@@ -30,6 +56,26 @@ Points: 58
 # Comments: 46]]></summary>
         <author>
             <name>cainxinth</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Threadprocs – executables sharing one address space (0-copy pointers)]]></title>
+        <id>https://news.ycombinator.com/item?id=47491414</id>
+        <link href="https://github.com/jer-irl/threadprocs"/>
+        <updated>2026-03-23T16:08:01.000Z</updated>
+        <summary type="html"><![CDATA[This project launches multiple independent programs into a single shared virtual address space, while still behaving like separate processes (independent binaries, globals, and lifetimes).  When threadprocs share their address space, pointers are valid across them with no code changes for well-behaved Linux binaries.
+Unlike threads, each threadproc is a standalone and semi-isolated process.  Unlike dlopen-based plugin systems, threadprocs run traditional executables with a `main()` function.  Unlike POSIX processes, pointers remain valid across threadprocs because they share the same address space.
+This means that idiomatic pointer-based data structures like `std::string` or `std::unordered_map` can be passed between threadprocs and accessed directly (with the usual data race considerations).
+This accomplishes a programming model somewhere between pthreads and multi-process shared memory IPC.
+The implementation relies on directing ASLR and virtual address layout at load time and implementing a user-space analogue of `exec()`, as well as careful manipulation of threadproc file descriptors, signals, etc.  It is implemented entirely in unprivileged user space code: https://github.com/jer-irl/threadprocs/blob/main/docs/02-imp...>.
+There is a simple demo demonstrating “cross-threadproc” memory dereferencing at https://github.com/jer-irl/threadprocs/tree/main?tab=readme-...>, including a high-level diagram.
+This is relevant to systems of multiple processes with shared memory (often ring buffers or flat tables).  These designs often require serialization or copying, and tend away from idiomatic C++ or Rust data structures.  Pointer-based data structures cannot be passed directly.
+There are significant limitations and edge cases, and it’s not clear this is a practical model, but the project explores a way to relax traditional process memory boundaries while still structuring a system as independently launched components.
+Comments URL: https://news.ycombinator.com/item?id=47491414
+Points: 53
+# Comments: 34]]></summary>
+        <author>
+            <name>jer-irl</name>
         </author>
     </entry>
     <entry>
@@ -1241,6 +1287,19 @@ Points: 81
 # Comments: 75]]></summary>
         <author>
             <name>cainxinth</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[BIO: The Bao I/O Coprocessor]]></title>
+        <id>https://news.ycombinator.com/item?id=47459363</id>
+        <link href="https://www.bunniestudios.com/blog/2026/bio-the-bao-i-o-coprocessor/"/>
+        <updated>2026-03-20T19:20:49.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.bunniestudios.com/blog/2026/bio-the-bao-i-o-coprocessor/
+Comments URL: https://news.ycombinator.com/item?id=47459363
+Points: 78
+# Comments: 21]]></summary>
+        <author>
+            <name>zdw</name>
         </author>
     </entry>
     <entry>
@@ -18543,19 +18602,6 @@ Points: 57
 # Comments: 18]]></summary>
         <author>
             <name>TigerUniversity</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Back to FreeBSD: Part 1]]></title>
-        <id>https://news.ycombinator.com/item?id=47108989</id>
-        <link href="https://hypha.pub/back-to-freebsd-part-1"/>
-        <updated>2026-02-22T07:16:27.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://hypha.pub/back-to-freebsd-part-1
-Comments URL: https://news.ycombinator.com/item?id=47108989
-Points: 83
-# Comments: 25]]></summary>
-        <author>
-            <name>enz</name>
         </author>
     </entry>
 </feed>

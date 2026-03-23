@@ -6,6 +6,26 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=47493657",
+          "author": "ecshafer",
+          "description": "Article URL: https://github.com/localstack/localstack\nComments URL: https://news.ycombinator.com/item?id=47493657\nPoints: 54\n# Comments: 20",
+          "link": "https://github.com/localstack/localstack",
+          "publishedOn": "2026-03-23T18:57:08.000Z",
+          "wordCount": 4784,
+          "title": "Local Stack Archived their GitHub repo and requires an account to run",
+          "imageUrl": "https://repository-images.githubusercontent.com/71948498/7a7abf27-e02e-4544-8d0f-0a8630e5b77b"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47493460",
+          "author": "ykumards",
+          "description": "Article URL: https://ykumar.me/blog/eclip-autoresearch/\nComments URL: https://news.ycombinator.com/item?id=47493460\nPoints: 128\n# Comments: 35",
+          "link": "https://ykumar.me/blog/eclip-autoresearch/",
+          "publishedOn": "2026-03-23T18:40:58.000Z",
+          "wordCount": null,
+          "title": "Autoresearch on an old research idea",
+          "imageUrl": null
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=47492599",
           "author": "lode",
           "description": "Article URL: https://www.lemonde.fr/en/international/article/2026/03/23/us-and-totalenergies-reach-nearly-1-billion-deal-to-end-offshore-wind-projects_6751739_4.html\nComments URL: https://news.ycombinator.com/item?id=47492599\nPoints: 65\n# Comments: 17",
@@ -24,6 +44,16 @@
           "wordCount": 346,
           "title": "Is it a pint?",
           "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47491414",
+          "author": "jer-irl",
+          "description": "This project launches multiple independent programs into a single shared virtual address space, while still behaving like separate processes (independent binaries, globals, and lifetimes).  When threadprocs share their address space, pointers are valid across them with no code changes for well-behaved Linux binaries.\nUnlike threads, each threadproc is a standalone and semi-isolated process.  Unlike dlopen-based plugin systems, threadprocs run traditional executables with a `main()` function.  Unlike POSIX processes, pointers remain valid across threadprocs because they share the same address space.\nThis means that idiomatic pointer-based data structures like `std::string` or `std::unordered_map` can be passed between threadprocs and accessed directly (with the usual data race considerations).\nThis accomplishes a programming model somewhere between pthreads and multi-process shared memory IPC.\nThe implementation relies on directing ASLR and virtual address layout at load time and implementing a user-space analogue of `exec()`, as well as careful manipulation of threadproc file descriptors, signals, etc.  It is implemented entirely in unprivileged user space code: https://github.com/jer-irl/threadprocs/blob/main/docs/02-imp...>.\nThere is a simple demo demonstrating “cross-threadproc” memory dereferencing at https://github.com/jer-irl/threadprocs/tree/main?tab=readme-...>, including a high-level diagram.\nThis is relevant to systems of multiple processes with shared memory (often ring buffers or flat tables).  These designs often require serialization or copying, and tend away from idiomatic C++ or Rust data structures.  Pointer-based data structures cannot be passed directly.\nThere are significant limitations and edge cases, and it’s not clear this is a practical model, but the project explores a way to relax traditional process memory boundaries while still structuring a system as independently launched components.\nComments URL: https://news.ycombinator.com/item?id=47491414\nPoints: 53\n# Comments: 34",
+          "link": "https://github.com/jer-irl/threadprocs",
+          "publishedOn": "2026-03-23T16:08:01.000Z",
+          "wordCount": 3553,
+          "title": "Show HN: Threadprocs – executables sharing one address space (0-copy pointers)",
+          "imageUrl": "https://opengraph.githubassets.com/0bfab488f79df21b154f03c9f73392e6c491876a8f441989b42b53fbb49f8779/jer-irl/threadprocs"
         },
         {
           "id": "https://news.ycombinator.com/item?id=47490816",
@@ -934,6 +964,16 @@
           "wordCount": 986,
           "title": "A Japanese Glossary of Chopsticks Faux Pas",
           "imageUrl": "https://www.nippon.com/en/ncommon/contents/japan-data/1854990/1854990.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47459363",
+          "author": "zdw",
+          "description": "Article URL: https://www.bunniestudios.com/blog/2026/bio-the-bao-i-o-coprocessor/\nComments URL: https://news.ycombinator.com/item?id=47459363\nPoints: 78\n# Comments: 21",
+          "link": "https://www.bunniestudios.com/blog/2026/bio-the-bao-i-o-coprocessor/",
+          "publishedOn": "2026-03-20T19:20:49.000Z",
+          "wordCount": 7083,
+          "title": "BIO: The Bao I/O Coprocessor",
+          "imageUrl": null
         },
         {
           "id": "https://news.ycombinator.com/item?id=47459296",
@@ -13803,16 +13843,6 @@
           "publishedOn": "2026-02-22T11:07:25.000Z",
           "wordCount": 492,
           "title": "Access to a Shared Unix Computer",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47108989",
-          "author": "enz",
-          "description": "Article URL: https://hypha.pub/back-to-freebsd-part-1\nComments URL: https://news.ycombinator.com/item?id=47108989\nPoints: 83\n# Comments: 25",
-          "link": "https://hypha.pub/back-to-freebsd-part-1",
-          "publishedOn": "2026-02-22T07:16:27.000Z",
-          "wordCount": null,
-          "title": "Back to FreeBSD: Part 1",
           "imageUrl": null
         }
       ]
