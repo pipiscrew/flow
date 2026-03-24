@@ -6,6 +6,56 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=47506641",
+          "author": "HeyMeco",
+          "description": "Article URL: https://sbcwiki.com/docs/soc-manufacturers/arm/arm-silicon/\nComments URL: https://news.ycombinator.com/item?id=47506641\nPoints: 59\n# Comments: 14",
+          "link": "https://sbcwiki.com/docs/soc-manufacturers/arm/arm-silicon/",
+          "publishedOn": "2026-03-24T17:59:16.000Z",
+          "wordCount": 403,
+          "title": "ARM AGI CPU: Specs and SKUs",
+          "imageUrl": "https://sbcwiki.com/docs/soc-manufacturers/arm/arm-silicon/Arm-Silicon-Header_hu_c42158a93af924df.webp"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47506259",
+          "author": "spking",
+          "description": "Article URL: https://www.wheresyoured.at/the-ai-industry-is-lying-to-you/\nComments URL: https://news.ycombinator.com/item?id=47506259\nPoints: 92\n# Comments: 37",
+          "link": "https://www.wheresyoured.at/the-ai-industry-is-lying-to-you/",
+          "publishedOn": "2026-03-24T17:30:55.000Z",
+          "wordCount": 10890,
+          "title": "The AI Industry Is Lying to You",
+          "imageUrl": "https://www.wheresyoured.at/content/images/2024/01/wyea--1.jpeg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47506251",
+          "author": "RealityVoid",
+          "description": "Article URL: https://newsroom.arm.com/blog/introducing-arm-agi-cpu\nComments URL: https://news.ycombinator.com/item?id=47506251\nPoints: 85\n# Comments: 41",
+          "link": "https://newsroom.arm.com/blog/introducing-arm-agi-cpu",
+          "publishedOn": "2026-03-24T17:30:42.000Z",
+          "wordCount": 10311,
+          "title": "Arm AGI CPU",
+          "imageUrl": "https://newsroom.arm.com/wp-content/uploads/2026/03/20260216_VISION25_ExplodedTight_Chip-01-16x9_16bit-768x432.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47505144",
+          "author": "dancablam",
+          "description": "Article URL: https://www.emailmd.dev/\nComments URL: https://news.ycombinator.com/item?id=47505144\nPoints: 73\n# Comments: 21",
+          "link": "https://www.emailmd.dev/",
+          "publishedOn": "2026-03-24T16:26:00.000Z",
+          "wordCount": 458,
+          "title": "Show HN: Email.md – Markdown to responsive, email-safe HTML",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47504695",
+          "author": "tatef",
+          "description": "Article URL: https://github.com/t8/hypura\nComments URL: https://news.ycombinator.com/item?id=47504695\nPoints: 140\n# Comments: 61",
+          "link": "https://github.com/t8/hypura",
+          "publishedOn": "2026-03-24T16:02:22.000Z",
+          "wordCount": 4924,
+          "title": "Hypura – A storage-tier-aware LLM inference scheduler for Apple Silicon",
+          "imageUrl": "https://opengraph.githubassets.com/708a61185114ec699f1fbdb36ca9765625d38a543fc6c84b44b27e6fb6e56992/t8/hypura"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=47504615",
           "author": "bayneri",
           "description": "Article URL: https://notermsnoconditions.com\nComments URL: https://news.ycombinator.com/item?id=47504615\nPoints: 75\n# Comments: 16",
@@ -14,6 +64,16 @@
           "wordCount": 701,
           "title": "No Terms. No Conditions",
           "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47504498",
+          "author": "789c789c789c",
+          "description": "Article URL: https://github.com/wolfssl/wolfguard\nComments URL: https://news.ycombinator.com/item?id=47504498\nPoints: 53\n# Comments: 38",
+          "link": "https://github.com/wolfssl/wolfguard",
+          "publishedOn": "2026-03-24T15:51:55.000Z",
+          "wordCount": 4669,
+          "title": "WolfGuard: WireGuard with FIPS 140-3 cryptography",
+          "imageUrl": "https://opengraph.githubassets.com/1e28f060aef9326fa13a381d33fe30e7bf3c7cba090e284a4aa5f3fa723221a7/wolfSSL/wolfGuard"
         },
         {
           "id": "https://news.ycombinator.com/item?id=47504112",
@@ -44,6 +104,16 @@
           "wordCount": 4874,
           "title": "LaGuardia pilots raised safety alarms months before deadly runway crash",
           "imageUrl": "https://i.guim.co.uk/img/media/949bea7c064fe803ca2163eeb445f1392d4d52eb/2407_951_5495_4395/master/5495.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=d49abfc83b9c6f4bdfbe8449151695ce"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47503617",
+          "author": "sohamrj",
+          "description": "Gemini Embedding 2 can project raw video directly into a 768-dimensional vector space alongside text. No transcription, no frame captioning, no intermediate text. A query like \"green car cutting me off\" is directly comparable to a 30-second video clip at the vector level.\nI used this to build a CLI that indexes hours of footage into ChromaDB, then searches it with natural language and auto-trims the matching clip. Demo video on the GitHub README.\nIndexing costs ~$2.50/hr of footage. Still-frame detection skips idle chunks, so security camera / sentry mode footage is much cheaper.\nComments URL: https://news.ycombinator.com/item?id=47503617\nPoints: 122\n# Comments: 38",
+          "link": "https://github.com/ssrajadh/sentrysearch",
+          "publishedOn": "2026-03-24T14:58:27.000Z",
+          "wordCount": 3825,
+          "title": "Show HN: Gemini can now natively embed video, so I built sub-second video search",
+          "imageUrl": "https://opengraph.githubassets.com/d31801fd1f7ff0fa83ecd13968aa1d9fd351c8f2ed589cfcbf22c399b8f33ee6/ssrajadh/sentrysearch"
         },
         {
           "id": "https://news.ycombinator.com/item?id=47503006",
@@ -154,6 +224,16 @@
           "wordCount": 243,
           "title": "Opera: Rewind The Web to 1996 (Opera at 30)",
           "imageUrl": "https://www.web-rewind.com/images/og/og_image.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47499672",
+          "author": "jberthom",
+          "description": "I use AI agents to build UI features daily. The thing that kept annoying me: the agent writes code but never sees what it actually looks like in the browser. It can’t tell if the layout is broken or if the console is throwing errors.\nSo I built a CLI that lets the agent open a browser, interact with the page, record what happens, and collect any errors. Then it bundles everything — video, screenshots, logs — into a self-contained HTML file I can review in seconds.\n  proofshot start --run \"npm run dev\" --port 3000\n  # agent navigates, clicks, takes screenshots\n  proofshot stop\n\nIt’s not a testing framework. The agent doesn’t decide pass/fail. It just gives me the evidence so I don’t have to open the browser myself every time.\nOpen source and completely free.\nWebsite: https://proofshot.argil.io/\nComments URL: https://news.ycombinator.com/item?id=47499672\nPoints: 78\n# Comments: 60",
+          "link": "https://github.com/AmElmo/proofshot",
+          "publishedOn": "2026-03-24T07:46:46.000Z",
+          "wordCount": 4875,
+          "title": "Show HN: ProofShot – Give AI coding agents eyes to verify the UI they build",
+          "imageUrl": "https://opengraph.githubassets.com/6e66f4cab7e15fb401a8cb4db7b822f22ac5e58b6d06e7b36006fc6b93a4e80a/AmElmo/proofshot"
         },
         {
           "id": "https://news.ycombinator.com/item?id=47499245",
