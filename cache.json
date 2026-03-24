@@ -6,6 +6,16 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=47509234",
+          "author": "timpera",
+          "description": "Article URL: https://www.hollywoodreporter.com/business/digital/openai-shutting-down-sora-ai-video-app-1236546187/\nComments URL: https://news.ycombinator.com/item?id=47509234\nPoints: 89\n# Comments: 18",
+          "link": "https://www.hollywoodreporter.com/business/digital/openai-shutting-down-sora-ai-video-app-1236546187/",
+          "publishedOn": "2026-03-24T21:01:21.000Z",
+          "wordCount": 9249,
+          "title": "Disney Exits OpenAI Deal After AI Giant Shutters Sora",
+          "imageUrl": "https://www.hollywoodreporter.com/wp-content/uploads/2025/10/GettyImages-2225608132.jpg?w=1440&h=810&crop=1"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=47508745",
           "author": "jakelsaunders94",
           "description": "Article URL: https://blog.jakesaunders.dev/is-anybody-else-bored-of-talking-about-ai/\nComments URL: https://news.ycombinator.com/item?id=47508745\nPoints: 275\n# Comments: 196",
@@ -64,6 +74,16 @@
           "wordCount": 10311,
           "title": "Arm AGI CPU",
           "imageUrl": "https://newsroom.arm.com/wp-content/uploads/2026/03/20260216_VISION25_ExplodedTight_Chip-01-16x9_16bit-768x432.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47505731",
+          "author": "rothific",
+          "description": "Hi everyone,\nGridland is a runtime + ShadCN UI registry that makes it possible to build terminal apps that run in the browser as well as the native terminal. This is useful for demoing TUIs so that users know what they're getting before they are invested enough to install them. And, tbh, it's also just super fun!\nGridland is the successor to Ink Web (ink-web.dev) which is the same concept, but using Ink + xterm.js. After building Ink Web, we continued experimenting and found that using OpenTUI and a canvas renderer performed better with less flickering and nearly instant load times.\nWe're excited to continue iterating on this. I expect a lot of criticism from the \"why does this need to exist\" angle, and tbh, it probably doesn't - it's really mostly just for fun, but we still think the demo use case mentioned previously has potential.\n- Chris + Jess\nComments URL: https://news.ycombinator.com/item?id=47505731\nPoints: 51\n# Comments: 2",
+          "link": "https://www.gridland.io/",
+          "publishedOn": "2026-03-24T16:57:47.000Z",
+          "wordCount": 234,
+          "title": "Show HN: Gridland: make terminal apps that also run in the browser",
+          "imageUrl": null
         },
         {
           "id": "https://news.ycombinator.com/item?id=47505144",
@@ -14144,36 +14164,6 @@
           "wordCount": 674,
           "title": "Ladybird Browser adopts Rust",
           "imageUrl": "/assets/img/plant.webp"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47120201",
-          "author": "tosh",
-          "description": "Article URL: https://iopscience.iop.org/article/10.3847/1538-3881/ade5a7\nComments URL: https://news.ycombinator.com/item?id=47120201\nPoints: 55\n# Comments: 7",
-          "link": "https://iopscience.iop.org/article/10.3847/1538-3881/ade5a7",
-          "publishedOn": "2026-02-23T09:58:33.000Z",
-          "wordCount": 13735,
-          "title": "SETI@home: Data Acquisition and Front-End Processing (2025)",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47120188",
-          "author": "ohong",
-          "description": "Article URL: https://hackernews.love/\nComments URL: https://news.ycombinator.com/item?id=47120188\nPoints: 123\n# Comments: 82",
-          "link": "https://hackernews.love/",
-          "publishedOn": "2026-02-23T09:56:57.000Z",
-          "wordCount": 8633,
-          "title": "Hacker News.love – 22 projects Hacker News didn't love",
-          "imageUrl": "https://hackernews.love/opengraph-image?dac9d3f5b483356c"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47120145",
-          "author": "williausrohr",
-          "description": "Article URL: https://docs.hetzner.com/general/infrastructure-and-availability/price-adjustment/\nComments URL: https://news.ycombinator.com/item?id=47120145\nPoints: 214\n# Comments: 518",
-          "link": "https://docs.hetzner.com/general/infrastructure-and-availability/price-adjustment/",
-          "publishedOn": "2026-02-23T09:52:14.000Z",
-          "wordCount": 4557,
-          "title": "Hetzner Prices increase 30-40%",
-          "imageUrl": null
         }
       ]
     }
