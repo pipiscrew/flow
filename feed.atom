@@ -2,10 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-03-25T09:01:51.996Z</updated>
+    <updated>2026-03-25T10:55:18.741Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Why I forked httpx]]></title>
+        <id>https://news.ycombinator.com/item?id=47514603</id>
+        <link href="https://tildeweb.nl/~michiel/httpxyz.html"/>
+        <updated>2026-03-25T08:05:17.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://tildeweb.nl/~michiel/httpxyz.html
+Comments URL: https://news.ycombinator.com/item?id=47514603
+Points: 95
+# Comments: 56]]></summary>
+        <author>
+            <name>roywashere</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[TurboQuant: Redefining AI efficiency with extreme compression]]></title>
         <id>https://news.ycombinator.com/item?id=47513475</id>
@@ -30,6 +43,24 @@ Points: 86
 # Comments: 46]]></summary>
         <author>
             <name>Jimmc414</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: DuckDB community extension for prefiltered HNSW using ACORN-1]]></title>
+        <id>https://news.ycombinator.com/item?id=47512891</id>
+        <link href="https://github.com/cigrainger/duckdb-hnsw-acorn"/>
+        <updated>2026-03-25T03:28:04.000Z</updated>
+        <summary type="html"><![CDATA[Hey folks! As someone doing hybrid search daily and wishing I could have a pgvector-like experience but with actual prefiltered approximate nearest neighbours, I decided to just take a punt on implementing ACORN on a fork of the DuckDB VSS extension. I had to make some changes to (vendored) usearch that I'm thinking of submitting upstream. But this does the business. Approximate nearest neighbours with WHERE prefiltering.
+Edit: Just to clarify, this has been accepted into the community extensions repo. So you can use it like:
+```
+INSTALL hnsw_acorn FROM community;
+LOAD hnsw_acorn;
+```
+Comments URL: https://news.ycombinator.com/item?id=47512891
+Points: 52
+# Comments: 4]]></summary>
+        <author>
+            <name>cigrainger</name>
         </author>
     </entry>
     <entry>
@@ -161,6 +192,22 @@ Points: 163
 # Comments: 143]]></summary>
         <author>
             <name>mikeocool</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: AI Roundtable – Let 200 models debate your question]]></title>
+        <id>https://news.ycombinator.com/item?id=47507666</id>
+        <link href="https://opper.ai/ai-roundtable/"/>
+        <updated>2026-03-24T19:15:27.000Z</updated>
+        <summary type="html"><![CDATA[Hey HN! After the Car Wash Test post got quite a big discussion going (400+ comments, https://news.ycombinator.com/item?id=47128138), I spent the past few weeks building a tool so anyone can run these kinds of questions and get structured results. No signup and free to use.
+You type a question, define answer options, pick up to 50 models at a time from a pool of 200+, and they all answer independently under identical conditions. No system prompt, structured output, same setup for every model.
+You can also run a debate round where models see each other's reasoning and get a chance to change their minds. A reviewer model then summarizes the full transcript. All models are routed via my startup Opper. Any feedback is welcome!
+Hope you enjoy it, and would love to hear what you think!
+Comments URL: https://news.ycombinator.com/item?id=47507666
+Points: 64
+# Comments: 51]]></summary>
+        <author>
+            <name>felix089</name>
         </author>
     </entry>
     <entry>
@@ -18629,123 +18676,6 @@ Points: 107
 # Comments: 20]]></summary>
         <author>
             <name>todsacerdoti</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AI Added 'Basically Zero' to US Economic Growth Last Year, Goldman Sachs Says]]></title>
-        <id>https://news.ycombinator.com/item?id=47130208</id>
-        <link href="https://gizmodo.com/ai-added-basically-zero-to-us-economic-growth-last-year-goldman-sachs-says-2000725380"/>
-        <updated>2026-02-23T22:55:08.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://gizmodo.com/ai-added-basically-zero-to-us-economic-growth-last-year-goldman-sachs-says-2000725380
-Comments URL: https://news.ycombinator.com/item?id=47130208
-Points: 179
-# Comments: 164]]></summary>
-        <author>
-            <name>cdrnsf</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Understanding the Go Runtime: The Memory Allocator]]></title>
-        <id>https://news.ycombinator.com/item?id=47129801</id>
-        <link href="https://internals-for-interns.com/posts/go-memory-allocator/"/>
-        <updated>2026-02-23T22:18:23.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://internals-for-interns.com/posts/go-memory-allocator/
-Comments URL: https://news.ycombinator.com/item?id=47129801
-Points: 54
-# Comments: 9]]></summary>
-        <author>
-            <name>valyala</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Making Wolfram Tech Available as a Foundation Tool for LLM Systems]]></title>
-        <id>https://news.ycombinator.com/item?id=47129727</id>
-        <link href="https://writings.stephenwolfram.com/2026/02/making-wolfram-tech-available-as-a-foundation-tool-for-llm-systems/"/>
-        <updated>2026-02-23T22:11:34.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://writings.stephenwolfram.com/2026/02/making-wolfram-tech-available-as-a-foundation-tool-for-llm-systems/
-Comments URL: https://news.ycombinator.com/item?id=47129727
-Points: 54
-# Comments: 33]]></summary>
-        <author>
-            <name>surprisetalk</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[You are not supposed to install OpenClaw on your personal computer]]></title>
-        <id>https://news.ycombinator.com/item?id=47129647</id>
-        <link href="https://twitter.com/BenjaminBadejo/status/2025987544853188836"/>
-        <updated>2026-02-23T22:05:27.000Z</updated>
-        <summary type="html"><![CDATA[https://xcancel.com/BenjaminBadejo/status/202598754485318883...
-Comments URL: https://news.ycombinator.com/item?id=47129647
-Points: 144
-# Comments: 111]]></summary>
-        <author>
-            <name>bundie</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[You are not supposed to install OpenClaw on your personal computer]]></title>
-        <id>https://news.ycombinator.com/item?id=47129647</id>
-        <link href="https://twitter.com/i/status/2025987544853188836"/>
-        <updated>2026-02-23T22:05:27.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://twitter.com/i/status/2025987544853188836
-Comments URL: https://news.ycombinator.com/item?id=47129647
-Points: 102
-# Comments: 61]]></summary>
-        <author>
-            <name>bundie</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Physics and Economics of Moving 44 Tonnes at 56mph]]></title>
-        <id>https://news.ycombinator.com/item?id=47129589</id>
-        <link href="https://www.mikeayles.com/blog/heavy-haulage-basics/"/>
-        <updated>2026-02-23T22:00:58.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.mikeayles.com/blog/heavy-haulage-basics/
-Comments URL: https://news.ycombinator.com/item?id=47129589
-Points: 83
-# Comments: 76]]></summary>
-        <author>
-            <name>mikeayles</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[FreeBSD doesn't have Wi-Fi driver for my old MacBook. AI build one for me]]></title>
-        <id>https://news.ycombinator.com/item?id=47129361</id>
-        <link href="https://vladimir.varank.in/notes/2026/02/freebsd-brcmfmac/"/>
-        <updated>2026-02-23T21:44:28.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://vladimir.varank.in/notes/2026/02/freebsd-brcmfmac/
-Comments URL: https://news.ycombinator.com/item?id=47129361
-Points: 75
-# Comments: 24]]></summary>
-        <author>
-            <name>varankinv</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Flock cameras gifted by Horowitz Foundation, avoiding public oversight]]></title>
-        <id>https://news.ycombinator.com/item?id=47128960</id>
-        <link href="https://thenevadaindependent.com/article/vegas-police-are-big-users-of-license-plate-readers-public-has-little-input-because-its-a-gift"/>
-        <updated>2026-02-23T21:15:20.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://thenevadaindependent.com/article/vegas-police-are-big-users-of-license-plate-readers-public-has-little-input-because-its-a-gift
-Comments URL: https://news.ycombinator.com/item?id=47128960
-Points: 78
-# Comments: 16]]></summary>
-        <author>
-            <name>rurp</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Stop Killing Games update says EU petition advances]]></title>
-        <id>https://news.ycombinator.com/item?id=47128799</id>
-        <link href="https://videocardz.com/newz/stop-killing-games-update-says-eu-petition-advances"/>
-        <updated>2026-02-23T21:04:19.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://videocardz.com/newz/stop-killing-games-update-says-eu-petition-advances
-Comments URL: https://news.ycombinator.com/item?id=47128799
-Points: 52
-# Comments: 12]]></summary>
-        <author>
-            <name>LorenDB</name>
         </author>
     </entry>
 </feed>

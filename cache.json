@@ -6,6 +6,16 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=47514603",
+          "author": "roywashere",
+          "description": "Article URL: https://tildeweb.nl/~michiel/httpxyz.html\nComments URL: https://news.ycombinator.com/item?id=47514603\nPoints: 95\n# Comments: 56",
+          "link": "https://tildeweb.nl/~michiel/httpxyz.html",
+          "publishedOn": "2026-03-25T08:05:17.000Z",
+          "wordCount": 848,
+          "title": "Why I forked httpx",
+          "imageUrl": null
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=47513475",
           "author": "ray__",
           "description": "Article URL: https://research.google/blog/turboquant-redefining-ai-efficiency-with-extreme-compression/\nComments URL: https://news.ycombinator.com/item?id=47513475\nPoints: 101\n# Comments: 13",
@@ -24,6 +34,16 @@
           "wordCount": 104925,
           "title": "US Army raises enlistment age to 42 and removes marijuana waiver requirement",
           "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47512891",
+          "author": "cigrainger",
+          "description": "Hey folks! As someone doing hybrid search daily and wishing I could have a pgvector-like experience but with actual prefiltered approximate nearest neighbours, I decided to just take a punt on implementing ACORN on a fork of the DuckDB VSS extension. I had to make some changes to (vendored) usearch that I'm thinking of submitting upstream. But this does the business. Approximate nearest neighbours with WHERE prefiltering.\nEdit: Just to clarify, this has been accepted into the community extensions repo. So you can use it like:\n```\nINSTALL hnsw_acorn FROM community;\nLOAD hnsw_acorn;\n```\nComments URL: https://news.ycombinator.com/item?id=47512891\nPoints: 52\n# Comments: 4",
+          "link": "https://github.com/cigrainger/duckdb-hnsw-acorn",
+          "publishedOn": "2026-03-25T03:28:04.000Z",
+          "wordCount": 4274,
+          "title": "Show HN: DuckDB community extension for prefiltered HNSW using ACORN-1",
+          "imageUrl": "https://opengraph.githubassets.com/d1c8784164512c214bcdd2bec5770f01839ef6b8494377d54fbe39cff0a7d6c9/cigrainger/duckdb-hnsw-acorn"
         },
         {
           "id": "https://news.ycombinator.com/item?id=47512816",
@@ -124,6 +144,16 @@
           "wordCount": 703,
           "title": "We’re saying goodbye to Sora",
           "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47507666",
+          "author": "felix089",
+          "description": "Hey HN! After the Car Wash Test post got quite a big discussion going (400+ comments, https://news.ycombinator.com/item?id=47128138), I spent the past few weeks building a tool so anyone can run these kinds of questions and get structured results. No signup and free to use.\nYou type a question, define answer options, pick up to 50 models at a time from a pool of 200+, and they all answer independently under identical conditions. No system prompt, structured output, same setup for every model.\nYou can also run a debate round where models see each other's reasoning and get a chance to change their minds. A reviewer model then summarizes the full transcript. All models are routed via my startup Opper. Any feedback is welcome!\nHope you enjoy it, and would love to hear what you think!\nComments URL: https://news.ycombinator.com/item?id=47507666\nPoints: 64\n# Comments: 51",
+          "link": "https://opper.ai/ai-roundtable/",
+          "publishedOn": "2026-03-24T19:15:27.000Z",
+          "wordCount": 711,
+          "title": "Show HN: AI Roundtable – Let 200 models debate your question",
+          "imageUrl": "https://opper.ai/ai-roundtable/og-image.jpg"
         },
         {
           "id": "https://news.ycombinator.com/item?id=47507150",
@@ -13883,96 +13913,6 @@
           "publishedOn": "2026-02-23T23:58:45.000Z",
           "wordCount": 1490,
           "title": "I Ported Coreboot to the ThinkPad X270",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47130208",
-          "author": "cdrnsf",
-          "description": "Article URL: https://gizmodo.com/ai-added-basically-zero-to-us-economic-growth-last-year-goldman-sachs-says-2000725380\nComments URL: https://news.ycombinator.com/item?id=47130208\nPoints: 179\n# Comments: 164",
-          "link": "https://gizmodo.com/ai-added-basically-zero-to-us-economic-growth-last-year-goldman-sachs-says-2000725380",
-          "publishedOn": "2026-02-23T22:55:08.000Z",
-          "wordCount": 4067,
-          "title": "AI Added 'Basically Zero' to US Economic Growth Last Year, Goldman Sachs Says",
-          "imageUrl": "https://gizmodo.com/app/uploads/2024/08/samaltman.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47129801",
-          "author": "valyala",
-          "description": "Article URL: https://internals-for-interns.com/posts/go-memory-allocator/\nComments URL: https://news.ycombinator.com/item?id=47129801\nPoints: 54\n# Comments: 9",
-          "link": "https://internals-for-interns.com/posts/go-memory-allocator/",
-          "publishedOn": "2026-02-23T22:18:23.000Z",
-          "wordCount": 8585,
-          "title": "Understanding the Go Runtime: The Memory Allocator",
-          "imageUrl": "https://internals-for-interns.com/images/go-runtime-header.webp"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47129727",
-          "author": "surprisetalk",
-          "description": "Article URL: https://writings.stephenwolfram.com/2026/02/making-wolfram-tech-available-as-a-foundation-tool-for-llm-systems/\nComments URL: https://news.ycombinator.com/item?id=47129727\nPoints: 54\n# Comments: 33",
-          "link": "https://writings.stephenwolfram.com/2026/02/making-wolfram-tech-available-as-a-foundation-tool-for-llm-systems/",
-          "publishedOn": "2026-02-23T22:11:34.000Z",
-          "wordCount": 1810,
-          "title": "Making Wolfram Tech Available as a Foundation Tool for LLM Systems",
-          "imageUrl": "https://content.wolfram.com/sites/43/2026/02/FoundationTool-seo-v2a.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47129647",
-          "author": "bundie",
-          "description": "https://xcancel.com/BenjaminBadejo/status/202598754485318883...\nComments URL: https://news.ycombinator.com/item?id=47129647\nPoints: 144\n# Comments: 111",
-          "link": "https://twitter.com/BenjaminBadejo/status/2025987544853188836",
-          "publishedOn": "2026-02-23T22:05:27.000Z",
-          "wordCount": 719,
-          "title": "You are not supposed to install OpenClaw on your personal computer",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47129647",
-          "author": "bundie",
-          "description": "Article URL: https://twitter.com/i/status/2025987544853188836\nComments URL: https://news.ycombinator.com/item?id=47129647\nPoints: 102\n# Comments: 61",
-          "link": "https://twitter.com/i/status/2025987544853188836",
-          "publishedOn": "2026-02-23T22:05:27.000Z",
-          "wordCount": 719,
-          "title": "You are not supposed to install OpenClaw on your personal computer",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47129589",
-          "author": "mikeayles",
-          "description": "Article URL: https://www.mikeayles.com/blog/heavy-haulage-basics/\nComments URL: https://news.ycombinator.com/item?id=47129589\nPoints: 83\n# Comments: 76",
-          "link": "https://www.mikeayles.com/blog/heavy-haulage-basics/",
-          "publishedOn": "2026-02-23T22:00:58.000Z",
-          "wordCount": 3180,
-          "title": "The Physics and Economics of Moving 44 Tonnes at 56mph",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47129361",
-          "author": "varankinv",
-          "description": "Article URL: https://vladimir.varank.in/notes/2026/02/freebsd-brcmfmac/\nComments URL: https://news.ycombinator.com/item?id=47129361\nPoints: 75\n# Comments: 24",
-          "link": "https://vladimir.varank.in/notes/2026/02/freebsd-brcmfmac/",
-          "publishedOn": "2026-02-23T21:44:28.000Z",
-          "wordCount": 1515,
-          "title": "FreeBSD doesn't have Wi-Fi driver for my old MacBook. AI build one for me",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47128960",
-          "author": "rurp",
-          "description": "Article URL: https://thenevadaindependent.com/article/vegas-police-are-big-users-of-license-plate-readers-public-has-little-input-because-its-a-gift\nComments URL: https://news.ycombinator.com/item?id=47128960\nPoints: 78\n# Comments: 16",
-          "link": "https://thenevadaindependent.com/article/vegas-police-are-big-users-of-license-plate-readers-public-has-little-input-because-its-a-gift",
-          "publishedOn": "2026-02-23T21:15:20.000Z",
-          "wordCount": 6665,
-          "title": "Flock cameras gifted by Horowitz Foundation, avoiding public oversight",
-          "imageUrl": "https://storage.googleapis.com/cdn.thenevadaindependent.com/2025/06/70a026ab-strip-060925-10-scaled.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47128799",
-          "author": "LorenDB",
-          "description": "Article URL: https://videocardz.com/newz/stop-killing-games-update-says-eu-petition-advances\nComments URL: https://news.ycombinator.com/item?id=47128799\nPoints: 52\n# Comments: 12",
-          "link": "https://videocardz.com/newz/stop-killing-games-update-says-eu-petition-advances",
-          "publishedOn": "2026-02-23T21:04:19.000Z",
-          "wordCount": null,
-          "title": "Stop Killing Games update says EU petition advances",
           "imageUrl": null
         }
       ]
