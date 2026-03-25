@@ -13974,66 +13974,6 @@
           "wordCount": null,
           "title": "Stop Killing Games update says EU petition advances",
           "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47128645",
-          "author": "NaOH",
-          "description": "Article URL: https://www.theguardian.com/lifeandstyle/2026/feb/22/a-new-start-after-60-i-baked-a-pie-every-day-for-a-year-and-it-changed-my-life\nComments URL: https://news.ycombinator.com/item?id=47128645\nPoints: 126\n# Comments: 78",
-          "link": "https://www.theguardian.com/lifeandstyle/2026/feb/22/a-new-start-after-60-i-baked-a-pie-every-day-for-a-year-and-it-changed-my-life",
-          "publishedOn": "2026-02-23T20:54:34.000Z",
-          "wordCount": 4611,
-          "title": "I baked a pie every day for a year and it changed my life",
-          "imageUrl": "https://i.guim.co.uk/img/media/13b25becf38eae040d804aba8ec782ba8cd66988/654_0_3335_2668/master/3335.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=3489c87db87da769fb108a825e59ff73"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47128631",
-          "author": "homarp",
-          "description": "Article URL: https://www.colino.net/wordpress/archives/2026/02/23/the-challenges-of-porting-shufflepuck-cafe-to-the-8-bits-apple-ii/\nComments URL: https://news.ycombinator.com/item?id=47128631\nPoints: 58\n# Comments: 9",
-          "link": "https://www.colino.net/wordpress/archives/2026/02/23/the-challenges-of-porting-shufflepuck-cafe-to-the-8-bits-apple-ii/",
-          "publishedOn": "2026-02-23T20:53:36.000Z",
-          "wordCount": 4621,
-          "title": "The challenges of porting Shufflepuck Cafe to the 8 bits Apple II",
-          "imageUrl": "https://www.colino.net/wordpress/wp-content/uploads/image-105.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47128535",
-          "author": "eigen-vector",
-          "description": "Hey all, I built babyshark, a terminal UI for PCAPs aimed at people who find Wireshark powerful but overwhelming.\nThe goal is “PCAPs for humans”:\nOverview dashboard answers what’s happening + what to click next\nDomains view (hostnames first) → select a domain → jump straight to relevant flows\n(works even when DNS is encrypted/cached by using observed IPs from flows)\nWeird stuff view surfaces common failure/latency signals (retransmits/out-of-order hints, resets, handshake issues, DNS failures when visible)\nFrom there you can drill down: Flows → Packets → Explain (plain-English hints) / follow stream\nCommands:\nOffline: babyshark --pcap capture.pcap\nLive (requires tshark): babyshark --list-ifaces then babyshark --live en0\nRepo + v0.1.0 release: https://github.com/vignesh07/babyshark\nWould love feedback on UX + what “weird detectors” you’d want next.\nComments URL: https://news.ycombinator.com/item?id=47128535\nPoints: 63\n# Comments: 30",
-          "link": "https://github.com/vignesh07/babyshark",
-          "publishedOn": "2026-02-23T20:45:34.000Z",
-          "wordCount": 5989,
-          "title": "Show HN: Babyshark – Wireshark made easy (terminal UI for PCAPs)",
-          "imageUrl": "https://opengraph.githubassets.com/1a4e9ebfab6d59878e36988d2157855f8f49838ca9c683ce64cf2f8d4b68a69e/vignesh07/babyshark"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47128138",
-          "author": "felix089",
-          "description": "\"I Want to Wash My Car. The Car Wash Is 50 Meters Away. Should I Walk or Drive?\" This question has been making the rounds as a simple AI logic test so I wanted to see how it holds up across a broad set of models. Ran 53 models (leading open-source, open-weight, proprietary) with no system prompt, forced choice between drive and walk, with a reasoning field.\nOn a single run, only 11 out of 53 got it right (42 said walk). But a single run doesn't prove much, so I reran every model 10 times. Same prompt, no cache, clean slate.\nThe results got worse. Of the 11 that passed the single run, only 5 could do it consistently. GPT-5 managed 7/10. GPT-5.1, GPT-5.2, Claude Sonnet 4.5, every Llama and Mistral model scored 0/10 across all 10 runs.\nPeople kept saying humans would fail this too, so I got a human baseline through Rapidata (10k people, same forced choice): 71.5% said drive. Most models perform below that.\nAll reasoning traces (ran via Opper, my startup), full model breakdown, human baseline data, and raw JSON files are in the writeup for anyone who wants to dig in or run their own analysis.\nComments URL: https://news.ycombinator.com/item?id=47128138\nPoints: 130\n# Comments: 142",
-          "link": "https://opper.ai/blog/car-wash-test",
-          "publishedOn": "2026-02-23T20:16:08.000Z",
-          "wordCount": 4685,
-          "title": "“Car Wash” test with 53 models",
-          "imageUrl": "https://opper.ai/images/opper-og.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47127986",
-          "author": "marcodiego",
-          "description": "Article URL: https://forums.atariage.com/topic/380883-unix99-a-unix-like-os-for-the-ti-994a/page/5/#findComment-5713334\nComments URL: https://news.ycombinator.com/item?id=47127986\nPoints: 181\n# Comments: 55",
-          "link": "https://forums.atariage.com/topic/380883-unix99-a-unix-like-os-for-the-ti-994a/page/5/#findComment-5713334",
-          "publishedOn": "2026-02-23T20:05:15.000Z",
-          "wordCount": null,
-          "title": "UNIX99, a UNIX-like OS for the TI-99/4A (2025)",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47127986",
-          "author": "marcodiego",
-          "description": "Article URL: https://forums.atariage.com/topic/380883-unix99-a-unix-like-os-for-the-ti-994a/\nComments URL: https://news.ycombinator.com/item?id=47127986\nPoints: 93\n# Comments: 25",
-          "link": "https://forums.atariage.com/topic/380883-unix99-a-unix-like-os-for-the-ti-994a/",
-          "publishedOn": "2026-02-23T20:05:15.000Z",
-          "wordCount": null,
-          "title": "UNIX99, a UNIX-like OS for the TI-99/4A",
-          "imageUrl": null
         }
       ]
     }

@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-03-25T07:56:53.900Z</updated>
+    <updated>2026-03-25T09:01:51.996Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
@@ -18746,99 +18746,6 @@ Points: 52
 # Comments: 12]]></summary>
         <author>
             <name>LorenDB</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[I baked a pie every day for a year and it changed my life]]></title>
-        <id>https://news.ycombinator.com/item?id=47128645</id>
-        <link href="https://www.theguardian.com/lifeandstyle/2026/feb/22/a-new-start-after-60-i-baked-a-pie-every-day-for-a-year-and-it-changed-my-life"/>
-        <updated>2026-02-23T20:54:34.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.theguardian.com/lifeandstyle/2026/feb/22/a-new-start-after-60-i-baked-a-pie-every-day-for-a-year-and-it-changed-my-life
-Comments URL: https://news.ycombinator.com/item?id=47128645
-Points: 126
-# Comments: 78]]></summary>
-        <author>
-            <name>NaOH</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The challenges of porting Shufflepuck Cafe to the 8 bits Apple II]]></title>
-        <id>https://news.ycombinator.com/item?id=47128631</id>
-        <link href="https://www.colino.net/wordpress/archives/2026/02/23/the-challenges-of-porting-shufflepuck-cafe-to-the-8-bits-apple-ii/"/>
-        <updated>2026-02-23T20:53:36.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.colino.net/wordpress/archives/2026/02/23/the-challenges-of-porting-shufflepuck-cafe-to-the-8-bits-apple-ii/
-Comments URL: https://news.ycombinator.com/item?id=47128631
-Points: 58
-# Comments: 9]]></summary>
-        <author>
-            <name>homarp</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: Babyshark – Wireshark made easy (terminal UI for PCAPs)]]></title>
-        <id>https://news.ycombinator.com/item?id=47128535</id>
-        <link href="https://github.com/vignesh07/babyshark"/>
-        <updated>2026-02-23T20:45:34.000Z</updated>
-        <summary type="html"><![CDATA[Hey all, I built babyshark, a terminal UI for PCAPs aimed at people who find Wireshark powerful but overwhelming.
-The goal is “PCAPs for humans”:
-Overview dashboard answers what’s happening + what to click next
-Domains view (hostnames first) → select a domain → jump straight to relevant flows
-(works even when DNS is encrypted/cached by using observed IPs from flows)
-Weird stuff view surfaces common failure/latency signals (retransmits/out-of-order hints, resets, handshake issues, DNS failures when visible)
-From there you can drill down: Flows → Packets → Explain (plain-English hints) / follow stream
-Commands:
-Offline: babyshark --pcap capture.pcap
-Live (requires tshark): babyshark --list-ifaces then babyshark --live en0
-Repo + v0.1.0 release: https://github.com/vignesh07/babyshark
-Would love feedback on UX + what “weird detectors” you’d want next.
-Comments URL: https://news.ycombinator.com/item?id=47128535
-Points: 63
-# Comments: 30]]></summary>
-        <author>
-            <name>eigen-vector</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[“Car Wash” test with 53 models]]></title>
-        <id>https://news.ycombinator.com/item?id=47128138</id>
-        <link href="https://opper.ai/blog/car-wash-test"/>
-        <updated>2026-02-23T20:16:08.000Z</updated>
-        <summary type="html"><![CDATA["I Want to Wash My Car. The Car Wash Is 50 Meters Away. Should I Walk or Drive?" This question has been making the rounds as a simple AI logic test so I wanted to see how it holds up across a broad set of models. Ran 53 models (leading open-source, open-weight, proprietary) with no system prompt, forced choice between drive and walk, with a reasoning field.
-On a single run, only 11 out of 53 got it right (42 said walk). But a single run doesn't prove much, so I reran every model 10 times. Same prompt, no cache, clean slate.
-The results got worse. Of the 11 that passed the single run, only 5 could do it consistently. GPT-5 managed 7/10. GPT-5.1, GPT-5.2, Claude Sonnet 4.5, every Llama and Mistral model scored 0/10 across all 10 runs.
-People kept saying humans would fail this too, so I got a human baseline through Rapidata (10k people, same forced choice): 71.5% said drive. Most models perform below that.
-All reasoning traces (ran via Opper, my startup), full model breakdown, human baseline data, and raw JSON files are in the writeup for anyone who wants to dig in or run their own analysis.
-Comments URL: https://news.ycombinator.com/item?id=47128138
-Points: 130
-# Comments: 142]]></summary>
-        <author>
-            <name>felix089</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[UNIX99, a UNIX-like OS for the TI-99/4A (2025)]]></title>
-        <id>https://news.ycombinator.com/item?id=47127986</id>
-        <link href="https://forums.atariage.com/topic/380883-unix99-a-unix-like-os-for-the-ti-994a/page/5/#findComment-5713334"/>
-        <updated>2026-02-23T20:05:15.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://forums.atariage.com/topic/380883-unix99-a-unix-like-os-for-the-ti-994a/page/5/#findComment-5713334
-Comments URL: https://news.ycombinator.com/item?id=47127986
-Points: 181
-# Comments: 55]]></summary>
-        <author>
-            <name>marcodiego</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[UNIX99, a UNIX-like OS for the TI-99/4A]]></title>
-        <id>https://news.ycombinator.com/item?id=47127986</id>
-        <link href="https://forums.atariage.com/topic/380883-unix99-a-unix-like-os-for-the-ti-994a/"/>
-        <updated>2026-02-23T20:05:15.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://forums.atariage.com/topic/380883-unix99-a-unix-like-os-for-the-ti-994a/
-Comments URL: https://news.ycombinator.com/item?id=47127986
-Points: 93
-# Comments: 25]]></summary>
-        <author>
-            <name>marcodiego</name>
         </author>
     </entry>
 </feed>
