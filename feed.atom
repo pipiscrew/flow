@@ -2,10 +2,36 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-03-26T09:05:02.307Z</updated>
+    <updated>2026-03-26T10:59:21.082Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Swift 6.3]]></title>
+        <id>https://news.ycombinator.com/item?id=47527590</id>
+        <link href="https://www.swift.org/blog/swift-6.3-released/"/>
+        <updated>2026-03-26T07:27:11.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.swift.org/blog/swift-6.3-released/
+Comments URL: https://news.ycombinator.com/item?id=47527590
+Points: 74
+# Comments: 20]]></summary>
+        <author>
+            <name>ingve</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Government agencies buy commercial data about Americans in bulk]]></title>
+        <id>https://news.ycombinator.com/item?id=47527130</id>
+        <link href="https://www.npr.org/2026/03/25/nx-s1-5752369/ice-surveillance-data-brokers-congress-anthropic"/>
+        <updated>2026-03-26T06:11:01.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.npr.org/2026/03/25/nx-s1-5752369/ice-surveillance-data-brokers-congress-anthropic
+Comments URL: https://news.ycombinator.com/item?id=47527130
+Points: 64
+# Comments: 28]]></summary>
+        <author>
+            <name>nuke-web3</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[False claims in a widely-cited paper]]></title>
         <id>https://news.ycombinator.com/item?id=47525378</id>
@@ -251,6 +277,27 @@ Points: 140
 # Comments: 41]]></summary>
         <author>
             <name>mrjaeger</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Optio – Orchestrate AI coding agents in K8s to go from ticket to PR]]></title>
+        <id>https://news.ycombinator.com/item?id=47520220</id>
+        <link href="https://github.com/jonwiggins/optio"/>
+        <updated>2026-03-25T17:10:21.000Z</updated>
+        <summary type="html"><![CDATA[I think like many of you, I've been jumping between many claude code/codex sessions at a time, managing multiple lines of work and worktrees in multiple repos. I wanted a way to easily manage multiple lines of work and reduce the amount of input I need to give, allowing the agents to remove me as a bottleneck from as much of the process as I can. So I built an orchestration tool for AI coding agents:
+Optio is an open-source orchestration system that turns tickets into merged pull requests using AI coding agents. You point it at your repos, and it handles the full lifecycle:
+- Intake — pull tasks from GitHub Issues, Linear, or create them manually
+- Execution — spin up isolated K8s pods per repo, run Claude Code or Codex in git worktrees
+- PR monitoring — watch CI checks, review status, and merge readiness every 30s
+- Self-healing — auto-resume the agent on CI failures, merge conflicts, or reviewer change requests
+- Completion — squash-merge the PR and close the linked issue
+The key idea is the feedback loop. Optio doesn't just run an agent and walk away — when CI breaks, it feeds the failure back to the agent. When a reviewer requests changes, the comments become the agent's next prompt. It keeps going until the PR merges or you tell it to stop.
+Built with Fastify, Next.js, BullMQ, and Drizzle on Postgres. Ships with a Helm chart for production deployment.
+Comments URL: https://news.ycombinator.com/item?id=47520220
+Points: 55
+# Comments: 33]]></summary>
+        <author>
+            <name>jawiggins</name>
         </author>
     </entry>
     <entry>
@@ -1268,6 +1315,19 @@ Points: 65
 # Comments: 17]]></summary>
         <author>
             <name>lode</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[More precise elevation data for GraphHopper routing engine]]></title>
+        <id>https://news.ycombinator.com/item?id=47491848</id>
+        <link href="https://www.graphhopper.com/blog/2026/03/23/more-precise-elevation-data-for-graphhopper/"/>
+        <updated>2026-03-23T16:39:53.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.graphhopper.com/blog/2026/03/23/more-precise-elevation-data-for-graphhopper/
+Comments URL: https://news.ycombinator.com/item?id=47491848
+Points: 51
+# Comments: 2]]></summary>
+        <author>
+            <name>karussell</name>
         </author>
     </entry>
     <entry>
@@ -18472,97 +18532,6 @@ To avoid the flat difficulty curve typical of games in this genre, I’ve implem
 1. Progressive difficulty (The board fights back): As yo…]]></summary>
         <author>
             <name>Humanista75</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Mercury 2: The fastest reasoning LLM, powered by diffusion]]></title>
-        <id>https://news.ycombinator.com/item?id=47144464</id>
-        <link href="https://www.inceptionlabs.ai/blog/introducing-mercury-2"/>
-        <updated>2026-02-24T22:46:23.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.inceptionlabs.ai/blog/introducing-mercury-2
-Comments URL: https://news.ycombinator.com/item?id=47144464
-Points: 76
-# Comments: 36]]></summary>
-        <author>
-            <name>fittingopposite</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Cell Service for the Fairly Paranoid]]></title>
-        <id>https://news.ycombinator.com/item?id=47144325</id>
-        <link href="https://www.cape.co/"/>
-        <updated>2026-02-24T22:37:54.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.cape.co/
-Comments URL: https://news.ycombinator.com/item?id=47144325
-Points: 81
-# Comments: 86]]></summary>
-        <author>
-            <name>0xWTF</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Stripe reportedly makes offer to acquire PayPal]]></title>
-        <id>https://news.ycombinator.com/item?id=47144064</id>
-        <link href="https://www.cnbc.com/2026/02/24/paypal-stock-stripe-acquisition-report.html"/>
-        <updated>2026-02-24T22:16:12.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.cnbc.com/2026/02/24/paypal-stock-stripe-acquisition-report.html
-Comments URL: https://news.ycombinator.com/item?id=47144064
-Points: 73
-# Comments: 43]]></summary>
-        <author>
-            <name>nodesocket</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: Moonshine Open-Weights STT models – higher accuracy than WhisperLargev3]]></title>
-        <id>https://news.ycombinator.com/item?id=47143755</id>
-        <link href="https://github.com/moonshine-ai/moonshine"/>
-        <updated>2026-02-24T21:54:07.000Z</updated>
-        <summary type="html"><![CDATA[I wanted to share our new speech to text model, and the library to use them effectively. We're a small startup (six people, sub-$100k monthly GPU budget) so I'm proud of the work the team has done to create streaming STT models with lower word-error rates than OpenAI's largest Whisper model. Admittedly Large v3 is a couple of years old, but we're near the top the HF OpenASR leaderboard, even up against Nvidia's Parakeet family. Anyway, I'd love to get feedback on the models and software, and hear about what people might build with it.
-Comments URL: https://news.ycombinator.com/item?id=47143755
-Points: 134
-# Comments: 23]]></summary>
-        <author>
-            <name>petewarden</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Pi – a minimal terminal coding harness]]></title>
-        <id>https://news.ycombinator.com/item?id=47143754</id>
-        <link href="https://pi.dev/"/>
-        <updated>2026-02-24T21:53:59.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://pi.dev
-Comments URL: https://news.ycombinator.com/item?id=47143754
-Points: 72
-# Comments: 31]]></summary>
-        <author>
-            <name>kristianpaul</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Looks like it is happening]]></title>
-        <id>https://news.ycombinator.com/item?id=47143211</id>
-        <link href="https://www.math.columbia.edu/~woit/wordpress/?p=15500"/>
-        <updated>2026-02-24T21:19:03.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.math.columbia.edu/~woit/wordpress/?p=15500
-Comments URL: https://news.ycombinator.com/item?id=47143211
-Points: 103
-# Comments: 64]]></summary>
-        <author>
-            <name>jjgreen</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Mac mini will be made at a new facility in Houston]]></title>
-        <id>https://news.ycombinator.com/item?id=47143152</id>
-        <link href="https://www.apple.com/newsroom/2026/02/apple-accelerates-us-manufacturing-with-mac-mini-production/"/>
-        <updated>2026-02-24T21:13:45.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.apple.com/newsroom/2026/02/apple-accelerates-us-manufacturing-with-mac-mini-production/
-Comments URL: https://news.ycombinator.com/item?id=47143152
-Points: 164
-# Comments: 123]]></summary>
-        <author>
-            <name>haunter</name>
         </author>
     </entry>
 </feed>

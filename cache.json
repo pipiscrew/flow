@@ -6,6 +6,26 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=47527590",
+          "author": "ingve",
+          "description": "Article URL: https://www.swift.org/blog/swift-6.3-released/\nComments URL: https://news.ycombinator.com/item?id=47527590\nPoints: 74\n# Comments: 20",
+          "link": "https://www.swift.org/blog/swift-6.3-released/",
+          "publishedOn": "2026-03-26T07:27:11.000Z",
+          "wordCount": 1439,
+          "title": "Swift 6.3",
+          "imageUrl": "https://swift.org/apple-touch-icon-180x180.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47527130",
+          "author": "nuke-web3",
+          "description": "Article URL: https://www.npr.org/2026/03/25/nx-s1-5752369/ice-surveillance-data-brokers-congress-anthropic\nComments URL: https://news.ycombinator.com/item?id=47527130\nPoints: 64\n# Comments: 28",
+          "link": "https://www.npr.org/2026/03/25/nx-s1-5752369/ice-surveillance-data-brokers-congress-anthropic",
+          "publishedOn": "2026-03-26T06:11:01.000Z",
+          "wordCount": 2512,
+          "title": "Government agencies buy commercial data about Americans in bulk",
+          "imageUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/6800x3825+0+0/resize/1400/quality/85/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fc6%2F75%2Fa096e7ae4ce2bc1cc1f90195c1b3%2Fgettyimages-534661090.jpg"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=47525378",
           "author": "qsi",
           "description": "Article URL: https://statmodeling.stat.columbia.edu/2026/03/24/false-claims-in-a-published-no-corrections-no-consequences-welcome-to-the-business-school/\nComments URL: https://news.ycombinator.com/item?id=47525378\nPoints: 240\n# Comments: 88",
@@ -194,6 +214,16 @@
           "wordCount": null,
           "title": "Meta and YouTube Found Negligent in Landmark Social Media Addiction Case",
           "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47520220",
+          "author": "jawiggins",
+          "description": "I think like many of you, I've been jumping between many claude code/codex sessions at a time, managing multiple lines of work and worktrees in multiple repos. I wanted a way to easily manage multiple lines of work and reduce the amount of input I need to give, allowing the agents to remove me as a bottleneck from as much of the process as I can. So I built an orchestration tool for AI coding agents:\nOptio is an open-source orchestration system that turns tickets into merged pull requests using AI coding agents. You point it at your repos, and it handles the full lifecycle:\n- Intake — pull tasks from GitHub Issues, Linear, or create them manually\n- Execution — spin up isolated K8s pods per repo, run Claude Code or Codex in git worktrees\n- PR monitoring — watch CI checks, review status, and merge readiness every 30s\n- Self-healing — auto-resume the agent on CI failures, merge conflicts, or reviewer change requests\n- Completion — squash-merge the PR and close the linked issue\nThe key idea is the feedback loop. Optio doesn't just run an agent and walk away — when CI breaks, it feeds the failure back to the agent. When a reviewer requests changes, the comments become the agent's next prompt. It keeps going until the PR merges or you tell it to stop.\nBuilt with Fastify, Next.js, BullMQ, and Drizzle on Postgres. Ships with a Helm chart for production deployment.\nComments URL: https://news.ycombinator.com/item?id=47520220\nPoints: 55\n# Comments: 33",
+          "link": "https://github.com/jonwiggins/optio",
+          "publishedOn": "2026-03-25T17:10:21.000Z",
+          "wordCount": 4839,
+          "title": "Show HN: Optio – Orchestrate AI coding agents in K8s to go from ticket to PR",
+          "imageUrl": "https://opengraph.githubassets.com/36f79816bed002ad7f3a217f9815035bd435d4a250992c1145c3c37b6fe1d52d/jonwiggins/optio"
         },
         {
           "id": "https://news.ycombinator.com/item?id=47519802",
@@ -954,6 +984,16 @@
           "wordCount": null,
           "title": "US govt pays TotalEnergies nearly $1B to stop US offshore wind projects",
           "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47491848",
+          "author": "karussell",
+          "description": "Article URL: https://www.graphhopper.com/blog/2026/03/23/more-precise-elevation-data-for-graphhopper/\nComments URL: https://news.ycombinator.com/item?id=47491848\nPoints: 51\n# Comments: 2",
+          "link": "https://www.graphhopper.com/blog/2026/03/23/more-precise-elevation-data-for-graphhopper/",
+          "publishedOn": "2026-03-23T16:39:53.000Z",
+          "wordCount": 1805,
+          "title": "More precise elevation data for GraphHopper routing engine",
+          "imageUrl": "https://www.graphhopper.com/wp-content/uploads/2026/03/image-14.png"
         },
         {
           "id": "https://news.ycombinator.com/item?id=47491496",
@@ -13764,76 +13804,6 @@
           "wordCount": 9332,
           "title": "Show HN: Linex – A daily challenge: placing pieces on a board that fights back",
           "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47144464",
-          "author": "fittingopposite",
-          "description": "Article URL: https://www.inceptionlabs.ai/blog/introducing-mercury-2\nComments URL: https://news.ycombinator.com/item?id=47144464\nPoints: 76\n# Comments: 36",
-          "link": "https://www.inceptionlabs.ai/blog/introducing-mercury-2",
-          "publishedOn": "2026-02-24T22:46:23.000Z",
-          "wordCount": 8346,
-          "title": "Mercury 2: The fastest reasoning LLM, powered by diffusion",
-          "imageUrl": "https://framerusercontent.com/assets/xqKJszO4tzsVEusCSL14t11EJZg.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47144325",
-          "author": "0xWTF",
-          "description": "Article URL: https://www.cape.co/\nComments URL: https://news.ycombinator.com/item?id=47144325\nPoints: 81\n# Comments: 86",
-          "link": "https://www.cape.co/",
-          "publishedOn": "2026-02-24T22:37:54.000Z",
-          "wordCount": 10459,
-          "title": "Cell Service for the Fairly Paranoid",
-          "imageUrl": "https://cdn.sanity.io/images/9u514z6s/development/608e15873d6f442b9a990c5839a4d37940cbd047-1600x900.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47144064",
-          "author": "nodesocket",
-          "description": "Article URL: https://www.cnbc.com/2026/02/24/paypal-stock-stripe-acquisition-report.html\nComments URL: https://news.ycombinator.com/item?id=47144064\nPoints: 73\n# Comments: 43",
-          "link": "https://www.cnbc.com/2026/02/24/paypal-stock-stripe-acquisition-report.html",
-          "publishedOn": "2026-02-24T22:16:12.000Z",
-          "wordCount": 13673,
-          "title": "Stripe reportedly makes offer to acquire PayPal",
-          "imageUrl": "https://image.cnbcfm.com/api/v1/image/108217464-1761596590822-gettyimages-2198545732-TFSPI_12022025-4478.jpeg?v=1771968050&w=1920&h=1080"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47143755",
-          "author": "petewarden",
-          "description": "I wanted to share our new speech to text model, and the library to use them effectively. We're a small startup (six people, sub-$100k monthly GPU budget) so I'm proud of the work the team has done to create streaming STT models with lower word-error rates than OpenAI's largest Whisper model. Admittedly Large v3 is a couple of years old, but we're near the top the HF OpenASR leaderboard, even up against Nvidia's Parakeet family. Anyway, I'd love to get feedback on the models and software, and hear about what people might build with it.\nComments URL: https://news.ycombinator.com/item?id=47143755\nPoints: 134\n# Comments: 23",
-          "link": "https://github.com/moonshine-ai/moonshine",
-          "publishedOn": "2026-02-24T21:54:07.000Z",
-          "wordCount": 26186,
-          "title": "Show HN: Moonshine Open-Weights STT models – higher accuracy than WhisperLargev3",
-          "imageUrl": "https://opengraph.githubassets.com/a3694d4365e80ddc5e7313f9fef017603b9b492792e8abaa67eeef7719755617/moonshine-ai/moonshine"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47143754",
-          "author": "kristianpaul",
-          "description": "Article URL: https://pi.dev\nComments URL: https://news.ycombinator.com/item?id=47143754\nPoints: 72\n# Comments: 31",
-          "link": "https://pi.dev/",
-          "publishedOn": "2026-02-24T21:53:59.000Z",
-          "wordCount": 773,
-          "title": "Pi – a minimal terminal coding harness",
-          "imageUrl": "https://pi.dev/social.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47143211",
-          "author": "jjgreen",
-          "description": "Article URL: https://www.math.columbia.edu/~woit/wordpress/?p=15500\nComments URL: https://news.ycombinator.com/item?id=47143211\nPoints: 103\n# Comments: 64",
-          "link": "https://www.math.columbia.edu/~woit/wordpress/?p=15500",
-          "publishedOn": "2026-02-24T21:19:03.000Z",
-          "wordCount": 3354,
-          "title": "Looks like it is happening",
-          "imageUrl": "https://s0.wp.com/i/blank.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47143152",
-          "author": "haunter",
-          "description": "Article URL: https://www.apple.com/newsroom/2026/02/apple-accelerates-us-manufacturing-with-mac-mini-production/\nComments URL: https://news.ycombinator.com/item?id=47143152\nPoints: 164\n# Comments: 123",
-          "link": "https://www.apple.com/newsroom/2026/02/apple-accelerates-us-manufacturing-with-mac-mini-production/",
-          "publishedOn": "2026-02-24T21:13:45.000Z",
-          "wordCount": 4598,
-          "title": "Mac mini will be made at a new facility in Houston",
-          "imageUrl": "https://www.apple.com/newsroom/images/2026/02/apple-accelerates-us-manufacturing-with-mac-mini-production/tile/Apple-US-manufacturing-investment-Houston-hero-lp.jpg.og.jpg?202602241059"
         }
       ]
     }
