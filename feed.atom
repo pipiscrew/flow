@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-03-26T20:41:15.105Z</updated>
+    <updated>2026-03-26T21:37:18.111Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
@@ -33,6 +33,19 @@ Points: 57
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Show HN: Turbolite – a SQLite VFS serving sub-250ms cold JOIN queries from S3]]></title>
+        <id>https://news.ycombinator.com/item?id=47534283</id>
+        <link href="https://github.com/russellromney/turbolite"/>
+        <updated>2026-03-26T18:58:19.000Z</updated>
+        <summary type="html"><![CDATA[I built a SQLite VFS in Rust that serves cold queries directly from S3 with sub-second performance, and often much faster.
+It’s called turbolite. It is experimental, buggy, and may corrupt data. I would not trust it with anything important yet.
+I wanted to explore whether object storage has gotten fast enough to support embedded databases over cloud storage. Filesystems reward tiny random reads and in-place mutation. S3 rewards fewer requests, bigger transfers, immutable objects, and aggressively parallel operations where bandwidth is often the real constraint. This was explicitly inspired by turbopuffer’s ground-up S3-native design. https://turbopuffer.com/blog/turbopuffer
+The use case I had in mind is lots of mostly-cold SQLite databases (database-per-tenant, database-per-session, or dat…]]></summary>
+        <author>
+            <name>russellthehippo</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[John Bradley, author of xv, has passed away]]></title>
         <id>https://news.ycombinator.com/item?id=47534086</id>
         <link href="https://voxday.net/2026/03/25/rip-john-bradley/"/>
@@ -56,6 +69,19 @@ Points: 81
 # Comments: 31]]></summary>
         <author>
             <name>todotask2</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Building a Blog with Elixir and Phoenix]]></title>
+        <id>https://news.ycombinator.com/item?id=47533090</id>
+        <link href="https://jola.dev/posts/building-a-blog-with-elixir-and-phoenix"/>
+        <updated>2026-03-26T17:16:21.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://jola.dev/posts/building-a-blog-with-elixir-and-phoenix
+Comments URL: https://news.ycombinator.com/item?id=47533090
+Points: 58
+# Comments: 3]]></summary>
+        <author>
+            <name>shintoist</name>
         </author>
     </entry>
     <entry>
@@ -18730,19 +18756,6 @@ Points: 83
 # Comments: 29]]></summary>
         <author>
             <name>__cayenne__</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[LLM=True]]></title>
-        <id>https://news.ycombinator.com/item?id=47149151</id>
-        <link href="https://blog.codemine.be/posts/2026/20260222-be-quiet/"/>
-        <updated>2026-02-25T09:05:40.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://blog.codemine.be/posts/2026/20260222-be-quiet/
-Comments URL: https://news.ycombinator.com/item?id=47149151
-Points: 97
-# Comments: 63]]></summary>
-        <author>
-            <name>avh3</name>
         </author>
     </entry>
 </feed>

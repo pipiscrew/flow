@@ -26,6 +26,16 @@
           "imageUrl": "https://cds.cern.ch/images//file?size=medium"
         },
         {
+          "id": "https://news.ycombinator.com/item?id=47534283",
+          "author": "russellthehippo",
+          "description": "I built a SQLite VFS in Rust that serves cold queries directly from S3 with sub-second performance, and often much faster.\nIt’s called turbolite. It is experimental, buggy, and may corrupt data. I would not trust it with anything important yet.\nI wanted to explore whether object storage has gotten fast enough to support embedded databases over cloud storage. Filesystems reward tiny random reads and in-place mutation. S3 rewards fewer requests, bigger transfers, immutable objects, and aggressively parallel operations where bandwidth is often the real constraint. This was explicitly inspired by turbopuffer’s ground-up S3-native design. https://turbopuffer.com/blog/turbopuffer\nThe use case I had in mind is lots of mostly-cold SQLite databases (database-per-tenant, database-per-session, or dat…",
+          "link": "https://github.com/russellromney/turbolite",
+          "publishedOn": "2026-03-26T18:58:19.000Z",
+          "wordCount": 15425,
+          "title": "Show HN: Turbolite – a SQLite VFS serving sub-250ms cold JOIN queries from S3",
+          "imageUrl": "https://opengraph.githubassets.com/d7fa00a72f3b294b95b67e08aaf52d645e8ccd697204c7e1d6731434487eca4a/russellromney/turbolite"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=47534086",
           "author": "linsomniac",
           "description": "Article URL: https://voxday.net/2026/03/25/rip-john-bradley/\nComments URL: https://news.ycombinator.com/item?id=47534086\nPoints: 96\n# Comments: 37",
@@ -44,6 +54,16 @@
           "wordCount": 1152,
           "title": "Colibri – chat platform built on the AT Protocol for communities big and small",
           "imageUrl": "/og.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47533090",
+          "author": "shintoist",
+          "description": "Article URL: https://jola.dev/posts/building-a-blog-with-elixir-and-phoenix\nComments URL: https://news.ycombinator.com/item?id=47533090\nPoints: 58\n# Comments: 3",
+          "link": "https://jola.dev/posts/building-a-blog-with-elixir-and-phoenix",
+          "publishedOn": "2026-03-26T17:16:21.000Z",
+          "wordCount": 1874,
+          "title": "Building a Blog with Elixir and Phoenix",
+          "imageUrl": "https://jola.dev/images/og-image-2b7872671fc7c11e464dac899d8d3068.png?vsn=d"
         },
         {
           "id": "https://news.ycombinator.com/item?id=47532339",
@@ -13964,16 +13984,6 @@
           "wordCount": 1657,
           "title": "Show HN: A real-time strategy game that AI agents can play",
           "imageUrl": "/marketing/og-image.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47149151",
-          "author": "avh3",
-          "description": "Article URL: https://blog.codemine.be/posts/2026/20260222-be-quiet/\nComments URL: https://news.ycombinator.com/item?id=47149151\nPoints: 97\n# Comments: 63",
-          "link": "https://blog.codemine.be/posts/2026/20260222-be-quiet/",
-          "publishedOn": "2026-02-25T09:05:40.000Z",
-          "wordCount": 1256,
-          "title": "LLM=True",
-          "imageUrl": "https://blog.codemine.be/images/2026/be-quiet/agent_dogs.jpg"
         }
       ]
     }
