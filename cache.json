@@ -6,6 +6,16 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=47535371",
+          "author": "chrisjj",
+          "description": "Article URL: https://www.theguardian.com/technology/2026/mar/26/new-york-hospitals-palantir-ai\nComments URL: https://news.ycombinator.com/item?id=47535371\nPoints: 119\n# Comments: 39",
+          "link": "https://www.theguardian.com/technology/2026/mar/26/new-york-hospitals-palantir-ai",
+          "publishedOn": "2026-03-26T20:35:04.000Z",
+          "wordCount": 4894,
+          "title": "New York City hospitals drop Palantir as controversial AI firm expands in UK",
+          "imageUrl": "https://i.guim.co.uk/img/media/3240aff7319f3056927aebc08029383d7c1d0d49/0_0_5800_4640/master/5800.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=07ade1e3085ff5602eff5715f67063bb"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=47534848",
           "author": "mmcclure",
           "description": "Article URL: https://www.derekthompson.org/p/we-havent-seen-the-worst-of-what\nComments URL: https://news.ycombinator.com/item?id=47534848\nPoints: 161\n# Comments: 86",
@@ -13944,46 +13954,6 @@
           "wordCount": 2891,
           "title": "I rendered 1,418 confusables over 230 fonts. Most aren't confusable to the eye",
           "imageUrl": "https://paultendo.github.io/og/confusable-vision-visual-similarity.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47149829",
-          "author": "antirez",
-          "description": "Article URL: https://antirez.com/news/160\nComments URL: https://news.ycombinator.com/item?id=47149829\nPoints: 102\n# Comments: 52",
-          "link": "https://antirez.com/news/160",
-          "publishedOn": "2026-02-25T10:36:43.000Z",
-          "wordCount": 2617,
-          "title": "Implementing a Z80 / ZX Spectrum emulator with Claude Code",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47149752",
-          "author": "brentroose",
-          "description": "Article URL: https://github.com/tempestphp/100-million-row-challenge\nComments URL: https://news.ycombinator.com/item?id=47149752\nPoints: 80\n# Comments: 20",
-          "link": "https://github.com/tempestphp/100-million-row-challenge",
-          "publishedOn": "2026-02-25T10:24:23.000Z",
-          "wordCount": 4512,
-          "title": "100M-Row Challenge with PHP",
-          "imageUrl": "https://opengraph.githubassets.com/f42a9d285e6a9da6ff504363f0b95b56142a80823e6856185473729be9e4ecd7/tempestphp/100-million-row-challenge"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47149701",
-          "author": "robtherobber",
-          "description": "Article URL: https://therecord.media/denmark-digital-agency-microsoft-digital-independence\nComments URL: https://news.ycombinator.com/item?id=47149701\nPoints: 59\n# Comments: 14",
-          "link": "https://therecord.media/denmark-digital-agency-microsoft-digital-independence",
-          "publishedOn": "2026-02-25T10:16:22.000Z",
-          "wordCount": 1856,
-          "title": "Danish government agency to ditch Microsoft software (2025)",
-          "imageUrl": "https://cms.therecord.media/uploads/format_webp/Folketinget_facade_Copenhagen_Denmark_0ab65772c0.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47149586",
-          "author": "__cayenne__",
-          "description": "I've liked all the projects that put LLMs into game environments. It's been a weird juxtaposition, though: frontier LLMs can one-shot full coding projects, and those same models struggle to get out of Pokémon Red's Mt. Moon.\nBecause of this, I wanted to create a game environment that put this generation of frontier LLMs' top skill, coding, on full display.\nTen years ago, a team released a game called Screeps. It was described as an \"MMO RTS sandbox for programmers.\" The Screeps paradigm of writing code and having it executed in a real-time game environment is well suited to LLMs. Drawing on a version of the Screeps open source API, LLM Skirmish pits LLMs head-to-head in a series of 1v1 real-time strategy games.\nIn my testing I found that Claude Opus 4.5 was the most dominant model, but it showed weakness in round 1 as it was overly focused on its in-game economy. Meanwhile, I probably spent a third of all code on sandbox hardening because GPT 5.2 kept trying to cheat by pre-reading its opponent's strategies.\nIf there's interest, I'm planning on doing a round of testing with the latest generation of LLMs (Claude 4.6 Opus, GPT 5.3 Codex, etc.).\nYou can run local matches via CLI. I'm running a hosted match runner with Google Cloud Run that uses isolated-vm. The match playback visualizer is statically served from Cloudflare.\nI've created a community ladder that you can submit strategies to via CLI, no auth required. I've found that the CLI plus the skill.md that's available has been enough for AI agents to immediately get started.\nWebsite: https://llmskirmish.com\nAPI docs: https://llmskirmish.com/docs\nGitHub: https://github.com/llmskirmish/skirmish\nA video of a match: https://www.youtube.com/watch?v=lnBPaZ1qamM\nComments URL: https://news.ycombinator.com/item?id=47149586\nPoints: 83\n# Comments: 29",
-          "link": "https://llmskirmish.com/",
-          "publishedOn": "2026-02-25T10:02:45.000Z",
-          "wordCount": 1657,
-          "title": "Show HN: A real-time strategy game that AI agents can play",
-          "imageUrl": "/marketing/og-image.png"
         }
       ]
     }
