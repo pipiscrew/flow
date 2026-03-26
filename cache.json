@@ -6,6 +6,46 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=47529646",
+          "author": "lemoncookiechip",
+          "description": "Article URL: https://bsky.app/profile/tuta.com/post/3mhxkfowv322c\nComments URL: https://news.ycombinator.com/item?id=47529646\nPoints: 142\n# Comments: 43",
+          "link": "https://bsky.app/profile/tuta.com/post/3mhxkfowv322c",
+          "publishedOn": "2026-03-26T12:30:59.000Z",
+          "wordCount": 473,
+          "title": "European Parliament decided that Chat Control 1.0 must stop",
+          "imageUrl": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:hrl5pa232nb72z4f2dyyhasr/bafkreihym6fcjkuoncwbchn47nkzxchdbw2pzzmgyzs4bkxy3cgukreyja"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47529609",
+          "author": "amarcheschi",
+          "description": "Article URL: https://www.patrick-breyer.de/en/end-of-chat-control-eu-parliament-stops-mass-surveillance-in-voting-thriller-paving-the-way-for-genuine-child-protection/\nComments URL: https://news.ycombinator.com/item?id=47529609\nPoints: 69\n# Comments: 23",
+          "link": "https://www.patrick-breyer.de/en/end-of-chat-control-eu-parliament-stops-mass-surveillance-in-voting-thriller-paving-the-way-for-genuine-child-protection/",
+          "publishedOn": "2026-03-26T12:24:36.000Z",
+          "wordCount": null,
+          "title": "End of \"Chat Control\": EU Parliament Stops Mass Surveillance in Voting Thriller",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47529534",
+          "author": "1vuio0pswjnm7",
+          "description": "Article URL: https://www.latimes.com/california/story/2026-03-25/social-media-lawsuit-trial-meta-google-verdict\nComments URL: https://news.ycombinator.com/item?id=47529534\nPoints: 71\n# Comments: 51",
+          "link": "https://www.latimes.com/california/story/2026-03-25/social-media-lawsuit-trial-meta-google-verdict",
+          "publishedOn": "2026-03-26T12:15:33.000Z",
+          "wordCount": 7195,
+          "title": "Landmark L.A. jury verdict finds Instagram, YouTube were designed to addict kids",
+          "imageUrl": "https://ca-times.brightspotcdn.com/dims4/default/2d45cc2/2147483647/strip/true/crop/2000x1050+0+142/resize/1200x630!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2Fe2%2Ff0%2F76d1e90a4c8da83578fb9b38acfc%2F1547735-me-social-media-trial-klb-1441.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47528605",
+          "author": "bundie",
+          "description": "Article URL: https://blog.documentfoundation.org/blog/2026/03/25/libreoffice-and-the-art-of-overreacting/\nComments URL: https://news.ycombinator.com/item?id=47528605\nPoints: 95\n# Comments: 54",
+          "link": "https://blog.documentfoundation.org/blog/2026/03/25/libreoffice-and-the-art-of-overreacting/",
+          "publishedOn": "2026-03-26T10:13:38.000Z",
+          "wordCount": 2784,
+          "title": "LibreOffice and the Art of Overreacting",
+          "imageUrl": null
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=47527590",
           "author": "ingve",
           "description": "Article URL: https://www.swift.org/blog/swift-6.3-released/\nComments URL: https://news.ycombinator.com/item?id=47527590\nPoints: 74\n# Comments: 20",
@@ -24,6 +64,26 @@
           "wordCount": 2512,
           "title": "Government agencies buy commercial data about Americans in bulk",
           "imageUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/6800x3825+0+0/resize/1400/quality/85/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fc6%2F75%2Fa096e7ae4ce2bc1cc1f90195c1b3%2Fgettyimages-534661090.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47526486",
+          "author": "andrew_zhong",
+          "description": "We've been building data pipelines that scrape websites and extract structured data for a while now. If you've done this, you know the drill: you write CSS selectors, the site changes its layout, everything breaks at 2am, and you spend your morning rewriting parsers.\nLLMs seemed like the obvious fix — just throw the HTML at GPT and ask for JSON. Except in practice, it's more painful than that:\n- Raw HTML is full of nav bars, footers, and tracking junk that eats your token budget. A typical product page is 80% noise.\n- LLMs return malformed JSON more often than you'd expect, especially with nested arrays and complex schemas. One bad bracket and your pipeline crashes.\n- Relative URLs, markdown-escaped links, tracking parameters — the \"small\" URL issues compound fast when you're processing th…",
+          "link": "https://github.com/lightfeed/extractor",
+          "publishedOn": "2026-03-26T03:55:52.000Z",
+          "wordCount": 16093,
+          "title": "Show HN: Robust LLM Extractor for Websites in TypeScript",
+          "imageUrl": "https://opengraph.githubassets.com/9a78a9aa25fd16f7180bef7cfe3f6be935a972777d9c6a5c2f41391affa0c783/lightfeed/extractor"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47526478",
+          "author": "benbreen",
+          "description": "Article URL: https://citiesandmemory.com/obsolete-sounds/\nComments URL: https://news.ycombinator.com/item?id=47526478\nPoints: 95\n# Comments: 17",
+          "link": "https://citiesandmemory.com/obsolete-sounds/",
+          "publishedOn": "2026-03-26T03:54:27.000Z",
+          "wordCount": 7772,
+          "title": "Obsolete Sounds",
+          "imageUrl": "https://citiesandmemory.com/wp-content/uploads/2022/11/Obsolete_Sounds_Featured_Fb_Tw_1.jpg"
         },
         {
           "id": "https://news.ycombinator.com/item?id=47525378",
@@ -814,6 +874,16 @@
           "wordCount": 4875,
           "title": "Show HN: ProofShot – Give AI coding agents eyes to verify the UI they build",
           "imageUrl": "https://opengraph.githubassets.com/6e66f4cab7e15fb401a8cb4db7b822f22ac5e58b6d06e7b36006fc6b93a4e80a/AmElmo/proofshot"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47499356",
+          "author": "andros",
+          "description": "Article URL: https://en.andros.dev/blog/aa31d744/from-zero-to-a-rag-system-successes-and-failures/\nComments URL: https://news.ycombinator.com/item?id=47499356\nPoints: 105\n# Comments: 30",
+          "link": "https://en.andros.dev/blog/aa31d744/from-zero-to-a-rag-system-successes-and-failures/",
+          "publishedOn": "2026-03-24T06:53:30.000Z",
+          "wordCount": 2497,
+          "title": "From zero to a RAG system: successes and failures",
+          "imageUrl": "https://img.andros.dev/k-SHogWXSvlNFGOQXG5zRnPtAyE=/600x0/filters:format(avif)/https://andros.dev/media/thumbnails/ia.png"
         },
         {
           "id": "https://news.ycombinator.com/item?id=47499245",
@@ -13764,36 +13834,6 @@
           "wordCount": 3331,
           "title": "Can you reverse engineer our neural network?",
           "imageUrl": "https://blog.janestreet.com/can-you-reverse-engineer-our-neural-network/puzzle.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47145963",
-          "author": "cwwc",
-          "description": "Article URL: https://time.com/7380854/exclusive-anthropic-drops-flagship-safety-pledge/\nComments URL: https://news.ycombinator.com/item?id=47145963\nPoints: 121\n# Comments: 39",
-          "link": "https://time.com/7380854/exclusive-anthropic-drops-flagship-safety-pledge/",
-          "publishedOn": "2026-02-25T01:08:46.000Z",
-          "wordCount": 9926,
-          "title": "Anthropic Drops Flagship Safety Pledge",
-          "imageUrl": "https://api.time.com/wp-content/uploads/2026/02/Anthropic.jpg?quality=85&w=1200&h=628&crop=1"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47145907",
-          "author": "toomuchtodo",
-          "description": "Article URL: https://www.thebignewsletter.com/p/amazon-busted-for-widespread-price\nComments URL: https://news.ycombinator.com/item?id=47145907\nPoints: 93\n# Comments: 9",
-          "link": "https://www.thebignewsletter.com/p/amazon-busted-for-widespread-price",
-          "publishedOn": "2026-02-25T01:00:45.000Z",
-          "wordCount": null,
-          "title": "Amazon Busted for Widespread Scheme to Inflate Prices Across the Economy",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47145551",
-          "author": "KnuthIsGod",
-          "description": "Article URL: https://www.theguardian.com/us-news/2026/feb/24/anthropic-claude-military-ai\nComments URL: https://news.ycombinator.com/item?id=47145551\nPoints: 120\n# Comments: 46",
-          "link": "https://www.theguardian.com/us-news/2026/feb/24/anthropic-claude-military-ai",
-          "publishedOn": "2026-02-25T00:20:50.000Z",
-          "wordCount": 4388,
-          "title": "US Military leaders meet with Anthropic to argue against Claude safeguards",
-          "imageUrl": "https://i.guim.co.uk/img/media/a35ad60baa8fdf0770c89f9ae69d2c544829ba6e/0_454_4000_3200/master/4000.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=209875d0598fbde7e428ae5034982e1b"
         }
       ]
     }
