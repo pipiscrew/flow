@@ -2,10 +2,36 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-03-27T05:13:48.854Z</updated>
+    <updated>2026-03-27T07:17:27.805Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Schedule tasks on the web]]></title>
+        <id>https://news.ycombinator.com/item?id=47539188</id>
+        <link href="https://code.claude.com/docs/en/web-scheduled-tasks"/>
+        <updated>2026-03-27T04:47:15.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://code.claude.com/docs/en/web-scheduled-tasks
+Comments URL: https://news.ycombinator.com/item?id=47539188
+Points: 85
+# Comments: 57]]></summary>
+        <author>
+            <name>iBelieve</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Agent-to-agent pair programming]]></title>
+        <id>https://news.ycombinator.com/item?id=47538190</id>
+        <link href="https://axeldelafosse.com/blog/agent-to-agent-pair-programming"/>
+        <updated>2026-03-27T01:47:55.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://axeldelafosse.com/blog/agent-to-agent-pair-programming
+Comments URL: https://news.ycombinator.com/item?id=47538190
+Points: 50
+# Comments: 16]]></summary>
+        <author>
+            <name>axldelafosse</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[From 0% to 36% on Day 1 of ARC-AGI-3]]></title>
         <id>https://news.ycombinator.com/item?id=47538078</id>
@@ -108,6 +134,22 @@ Points: 117
 # Comments: 106]]></summary>
         <author>
             <name>bentocorp</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Fio: 3D World editor/game engine – inspired by Radiant and Hammer]]></title>
+        <id>https://news.ycombinator.com/item?id=47535626</id>
+        <link href="https://github.com/ViciousSquid/Fio"/>
+        <updated>2026-03-26T20:58:04.000Z</updated>
+        <summary type="html"><![CDATA[A liminal brush-based CSG editor and game engine with unified (forward) renderer
+inspired by Radiant and Worldcraft/Hammer
+Compact and lightweight (target: Snapdragon 8CX, OpenGL 3.3)
+Real-time lighting with stencil shadows without the need for pre-baked compilation
+Comments URL: https://news.ycombinator.com/item?id=47535626
+Points: 53
+# Comments: 4]]></summary>
+        <author>
+            <name>vicioussquid</name>
         </author>
     </entry>
     <entry>
@@ -18508,124 +18550,6 @@ Points: 127
 # Comments: 23]]></summary>
         <author>
             <name>hiisthisthingon</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: I ported Tree-sitter to Go]]></title>
-        <id>https://news.ycombinator.com/item?id=47155597</id>
-        <link href="https://github.com/odvcencio/gotreesitter"/>
-        <updated>2026-02-25T18:28:37.000Z</updated>
-        <summary type="html"><![CDATA[This started as a hard requirement for my TUI-based editor application, it ended up going in a few different directions.
-A suite of tools that help with semantic code entities: https://github.com/odvcencio/gts-suite
-A next-gen version control system called Got: https://github.com/odvcencio/got
-I think this has some pretty big potential! I think there's many classes of application (particularly legacy architecture) that can benefit from these kinds of analysis tooling. My next post will be about composing all these together, an exciting project I call GotHub. Thanks!
-Comments URL: https://news.ycombinator.com/item?id=47155597
-Points: 50
-# Comments: 8]]></summary>
-        <author>
-            <name>odvcencio</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Woxi: Wolfram Mathematica Reimplementation in Rust]]></title>
-        <id>https://news.ycombinator.com/item?id=47155526</id>
-        <link href="https://github.com/ad-si/Woxi"/>
-        <updated>2026-02-25T18:24:46.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://github.com/ad-si/Woxi
-Comments URL: https://news.ycombinator.com/item?id=47155526
-Points: 74
-# Comments: 11]]></summary>
-        <author>
-            <name>adamnemecek</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: I ported Manim to TypeScript (run 3b1B math animations in the browser)]]></title>
-        <id>https://news.ycombinator.com/item?id=47155375</id>
-        <link href="https://github.com/maloyan/manim-web"/>
-        <updated>2026-02-25T18:15:07.000Z</updated>
-        <summary type="html"><![CDATA[Hi HN, I'm Narek. I built Manim-Web, a TypeScript/JavaScript port of 3Blue1Brown’s popular Manim math animation engine.
-The Problem: Like many here, I love Manim's visual style. But setting it up locally is notoriously painful - it requires Python, FFmpeg, Cairo, and a full LaTeX distribution. It creates a massive barrier to entry, especially for students or people who just want to quickly visualize a concept.
-The Solution: I wanted to make it zero-setup, so I ported the engine to TypeScript. Manim-Web runs entirely client-side in the browser. No Python, no servers, no install. It runs animations in real-time at 60fps.
-How it works underneath:
-- Rendering: Uses Canvas API / WebGL (via Three.js for 3D scenes).
-- LaTeX: Rendered and animated via MathJax/KaTeX (no LaTeX install needed!).
-- API: I kept the API almost identical to the Python version (e.g., scene.play(new Transform(square, circle))), meaning existing Manim knowledge transfers over directly.
-- Reactivity: Updaters and ValueTrackers follow the exact same reactive pattern as the Python original.
-Because it's web-native, the animations are now inherently interactive (objects can be draggable/clickable) and can be embedded directly into React/Vue apps, interactive textbooks, or blogs. I also included a py2ts converter to help migrate existing scripts.
-Live Demo: https://maloyan.github.io/manim-web/examples
-GitHub: https://github.com/maloyan/manim-web
-It's open-source (MIT). I'm still actively building out feature parity with the Python version, but core animations, geometry, plotting, and 3D orbiting are working great. I would love to hear your feedback, and I'll be hanging around to answer any technical questions about rendering math in the browser!
-Comments URL: https://news.ycombinator.com/item?id=47155375
-Points: 62
-# Comments: 12]]></summary>
-        <author>
-            <name>maloyan</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ghosts'n Goblins – “Worse danger is ahead”]]></title>
-        <id>https://news.ycombinator.com/item?id=47155235</id>
-        <link href="https://superchartisland.com/ghostsn-goblins/"/>
-        <updated>2026-02-25T18:07:09.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://superchartisland.com/ghostsn-goblins/
-Comments URL: https://news.ycombinator.com/item?id=47155235
-Points: 65
-# Comments: 25]]></summary>
-        <author>
-            <name>elvis70</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Pentagon Threatens Anthropic]]></title>
-        <id>https://news.ycombinator.com/item?id=47154983</id>
-        <link href="https://www.astralcodexten.com/p/the-pentagon-threatens-anthropic"/>
-        <updated>2026-02-25T17:49:27.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.astralcodexten.com/p/the-pentagon-threatens-anthropic
-Comments URL: https://news.ycombinator.com/item?id=47154983
-Points: 106
-# Comments: 65]]></summary>
-        <author>
-            <name>lukeplato</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[om]]></title>
-        <id>https://news.ycombinator.com/item?id=47154971</id>
-        <link href="https://www.om-language.com/"/>
-        <updated>2026-02-25T17:48:21.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.om-language.com/
-Comments URL: https://news.ycombinator.com/item?id=47154971
-Points: 83
-# Comments: 22]]></summary>
-        <author>
-            <name>tosh</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New evidence that Cantor plagiarized Dedekind?]]></title>
-        <id>https://news.ycombinator.com/item?id=47154637</id>
-        <link href="https://www.quantamagazine.org/the-man-who-stole-infinity-20260225/"/>
-        <updated>2026-02-25T17:28:33.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.quantamagazine.org/the-man-who-stole-infinity-20260225/
-Comments URL: https://news.ycombinator.com/item?id=47154637
-Points: 116
-# Comments: 73]]></summary>
-        <author>
-            <name>rbanffy</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Windows 11 Notepad to support Markdown]]></title>
-        <id>https://news.ycombinator.com/item?id=47154399</id>
-        <link href="https://blogs.windows.com/windows-insider/2026/01/21/notepad-and-paint-updates-begin-rolling-out-to-windows-insiders/"/>
-        <updated>2026-02-25T17:14:19.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://blogs.windows.com/windows-insider/2026/01/21/notepad-and-paint-updates-begin-rolling-out-to-windows-insiders/
-Comments URL: https://news.ycombinator.com/item?id=47154399
-Points: 56
-# Comments: 116]]></summary>
-        <author>
-            <name>andreynering</name>
         </author>
     </entry>
 </feed>
