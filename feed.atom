@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-03-27T11:46:21.004Z</updated>
+    <updated>2026-03-27T13:20:19.245Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
@@ -267,6 +267,20 @@ Points: 57
 # Comments: 2]]></summary>
         <author>
             <name>JohnHammersley</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Chroma Context-1: Training a Self-Editing Search Agent]]></title>
+        <id>https://news.ycombinator.com/item?id=47534564</id>
+        <link href="https://www.trychroma.com/research/context-1"/>
+        <updated>2026-03-26T19:25:19.000Z</updated>
+        <summary type="html"><![CDATA[https://x.com/trychroma/status/2037243681988894950
+https://xcancel.com/trychroma/status/2037243681988894950
+Comments URL: https://news.ycombinator.com/item?id=47534564
+Points: 56
+# Comments: 4]]></summary>
+        <author>
+            <name>philip1209</name>
         </author>
     </entry>
     <entry>
@@ -18446,71 +18460,6 @@ Points: 70
 # Comments: 16]]></summary>
         <author>
             <name>shin_lao</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: ZSE – Open-source LLM inference engine with 3.9s cold starts]]></title>
-        <id>https://news.ycombinator.com/item?id=47160526</id>
-        <link href="https://github.com/Zyora-Dev/zse"/>
-        <updated>2026-02-26T01:15:25.000Z</updated>
-        <summary type="html"><![CDATA[I've been building ZSE (Z Server Engine) for the past few weeks — an open-source LLM inference engine focused on two things nobody has fully solved together: memory efficiency and fast cold starts.
-The problem I was trying to solve:
-Running a 32B model normally requires ~64 GB VRAM. Most developers don't have that. And even when quantization helps with memory, cold starts with bitsandbytes NF4 take 2+ minutes on first load and 45–120 seconds on warm restarts — which kills serverless and autoscaling use cases.
-What ZSE does differently:
-Fits 32B in 19.3 GB VRAM (70% reduction vs FP16) — runs on a single A100-40GB
-Fits 7B in 5.2 GB VRAM (63% reduction) — runs on consumer GPUs
-Native .zse pre-quantized format with memory-mapped weights: 3.9s cold start for 7B, 21.4s for 32B — vs 45s and 120s with bitsandbytes, ~30s for vLLM
-All benchmarks verified on Modal A100-80GB (Feb 2026)
-It ships with:
-OpenAI-compatible API server (drop-in replacement)
-Interactive CLI (zse serve, zse chat, zse convert, zse hardware)
-Web dashboard with real-time GPU monitoring
-Continuous batching (3.45× throughput)
-GGUF support via llama.cpp
-CPU fallback — works without a GPU
-Rate limiting, audit logging, API key auth
-Install:
------
-pip install zllm-zse
-zse serve Qwen/Qwen2.5-7B-Instruct
-For fast cold starts (one-time conversion):
------
-zse convert Qwen/Qwen2.5-Coder-7B-Instruct -o qwen-7b.zse
-zse serve qwen-7b.zse  # 3.9s every time
-The cold start improvement comes from the .zse format storing pre-quantized weights as memory-mapped safetensors — no quantization step at load time, no weight conversion, just mmap + GPU transfer. On NVMe SSDs this gets under 4 seconds for 7B. On spinning HDDs it'll be slower.
-All code is real — no mock implementations. Built at Zyora Labs. Apache 2.0.
-Happy to answer questions about the quantization approach, the .zse format design, or the memory efficiency techniques.
-Comments URL: https://news.ycombinator.com/item?id=47160526
-Points: 50
-# Comments: 4]]></summary>
-        <author>
-            <name>zyoralabs</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Tech Companies Shouldn't Be Bullied into Doing Surveillance]]></title>
-        <id>https://news.ycombinator.com/item?id=47160226</id>
-        <link href="https://www.eff.org/deeplinks/2026/02/tech-companies-shouldnt-be-bullied-doing-surveillance"/>
-        <updated>2026-02-26T00:37:32.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.eff.org/deeplinks/2026/02/tech-companies-shouldnt-be-bullied-doing-surveillance
-Comments URL: https://news.ycombinator.com/item?id=47160226
-Points: 61
-# Comments: 16]]></summary>
-        <author>
-            <name>pseudolus</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Steering interpretable language models with concept algebra]]></title>
-        <id>https://news.ycombinator.com/item?id=47159833</id>
-        <link href="https://www.guidelabs.ai/post/steerling-steering-8b/"/>
-        <updated>2026-02-25T23:55:34.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.guidelabs.ai/post/steerling-steering-8b/
-Comments URL: https://news.ycombinator.com/item?id=47159833
-Points: 58
-# Comments: 3]]></summary>
-        <author>
-            <name>luulinh90s</name>
         </author>
     </entry>
 </feed>

@@ -521,6 +521,30 @@ Points: 57
                       <details
                         class="article-expander"
                         data-action="toggle-native-accordion"
+                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;47534564"
+                        open
+                      >
+                        <summary class="article-expander__title">Chroma Context-1: Training a Self-Editing Search Agent</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.trychroma.com/research/context-1">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://www.trychroma.com/img/context_1/card.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>https://x.com/trychroma/status/2037243681988894950
+https://xcancel.com/trychroma/status/2037243681988894950
+Comments URL: https://news.ycombinator.com/item?id&#x3D;47534564
+Points: 56
+# Comments: 4</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;80
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
                         data-accordion-key="https://news.ycombinator.com/item?id&#x3D;47534283"
                         open
                       >
@@ -32140,129 +32164,6 @@ Points: 70
                         </a>
                       </details>
                     </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;47160526"
-                        open
-                      >
-                        <summary class="article-expander__title">Show HN: ZSE – Open-source LLM inference engine with 3.9s cold starts</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://github.com/Zyora-Dev/zse">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://opengraph.githubassets.com/f82d6f86987d045f1bfd35c24fae1d24959e6cf42048414d2323cb1fe17c5fd7/Zyora-Dev/zse" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>I&#x27;ve been building ZSE (Z Server Engine) for the past few weeks — an open-source LLM inference engine focused on two things nobody has fully solved together: memory efficiency and fast cold starts.
-The problem I was trying to solve:
-Running a 32B model normally requires ~64 GB VRAM. Most developers don&#x27;t have that. And even when quantization helps with memory, cold starts with bitsandbytes NF4 take 2+ minutes on first load and 45–120 seconds on warm restarts — which kills serverless and autoscaling use cases.
-What ZSE does differently:
-Fits 32B in 19.3 GB VRAM (70% reduction vs FP16) — runs on a single A100-40GB
-Fits 7B in 5.2 GB VRAM (63% reduction) — runs on consumer GPUs
-Native .zse pre-quantized format with memory-mapped weights: 3.9s cold start for 7B, 21.4s for 32B — vs 45s and 120s with bitsandbytes, ~30s for vLLM
-All benchmarks verified on Modal A100-80GB (Feb 2026)
-It ships with:
-OpenAI-compatible API server (drop-in replacement)
-Interactive CLI (zse serve, zse chat, zse convert, zse hardware)
-Web dashboard with real-time GPU monitoring
-Continuous batching (3.45× throughput)
-GGUF support via llama.cpp
-CPU fallback — works without a GPU
-Rate limiting, audit logging, API key auth
-Install:
------
-pip install zllm-zse
-zse serve Qwen/Qwen2.5-7B-Instruct
-For fast cold starts (one-time conversion):
------
-zse convert Qwen/Qwen2.5-Coder-7B-Instruct -o qwen-7b.zse
-zse serve qwen-7b.zse  # 3.9s every time
-The cold start improvement comes from the .zse format storing pre-quantized weights as memory-mapped safetensors — no quantization step at load time, no weight conversion, just mmap + GPU transfer. On NVMe SSDs this gets under 4 seconds for 7B. On spinning HDDs it&#x27;ll be slower.
-All code is real — no mock implementations. Built at Zyora Labs. Apache 2.0.
-Happy to answer questions about the quantization approach, the .zse format design, or the memory efficiency techniques.
-Comments URL: https://news.ycombinator.com/item?id&#x3D;47160526
-Points: 50
-# Comments: 4</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;15
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;47160226"
-                        open
-                      >
-                        <summary class="article-expander__title">Tech Companies Shouldn&#x27;t Be Bullied into Doing Surveillance</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.eff.org/deeplinks/2026/02/tech-companies-shouldnt-be-bullied-doing-surveillance">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://www.eff.org/files/banner_library/ai-soldiers-3b.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Article URL: https://www.eff.org/deeplinks/2026/02/tech-companies-shouldnt-be-bullied-doing-surveillance
-Comments URL: https://news.ycombinator.com/item?id&#x3D;47160226
-Points: 61
-# Comments: 16</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;5
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2026-02-25 datetime="2026-02-25T23:55:34.000Z">2026-02-25</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2026-02-25 datetime="2026-02-25T23:55:34.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Hacker News: Front Page</button>
-                  <a class="source-heading__link" href="https://news.ycombinator.com/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;47159833"
-                        open
-                      >
-                        <summary class="article-expander__title">Steering interpretable language models with concept algebra</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.guidelabs.ai/post/steerling-steering-8b/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://www.guidelabs.ai/logo/guidelabs-social-media-thumbnail.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Article URL: https://www.guidelabs.ai/post/steerling-steering-8b/
-Comments URL: https://news.ycombinator.com/item?id&#x3D;47159833
-Points: 58
-# Comments: 3</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;5
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
                 </section>
               </section>
             </li>
@@ -32270,8 +32171,8 @@ Points: 58
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/pipiscrew/flow/actions/runs/23644711733">
-        <time id="build-timestamp" datetime="2026-03-27T11:46:20.950Z">2026-03-27T11:46:20.950Z</time>
+      <a class="footer-link" href="https://github.com/pipiscrew/flow/actions/runs/23648163579">
+        <time id="build-timestamp" datetime="2026-03-27T13:20:19.191Z">2026-03-27T13:20:19.191Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
