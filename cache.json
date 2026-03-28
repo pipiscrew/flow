@@ -13814,26 +13814,6 @@
           "wordCount": 1966,
           "title": "Smartphone Mkt to Decline 13% in '26, Largest Drop Ever Due to Memory Shortage",
           "imageUrl": "https://www.idc.com/wp-content/uploads/2026/02/Chart-for-WW_Forecast_PR_4Q25-1.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47172238",
-          "author": "cyrusradfar",
-          "description": "I built unf after I pasted a prompt into the wrong agent terminal and it overwrote hours of hand-edits across a handful of files. Git couldn't help because I hadn't finished/committed my in progress work. I wanted something that recorded every save automatically so I could rewind to any point in time. I wanted to make it difficult for an agent to permanently screw anything up, even with an errant rm -rf\nunf is a background daemon that watches directories you choose (via CLI) and snapshots every text file on save. It stores file contents in an object store, tracks metadata in SQLite, and gives you a CLI to query and restore any version. The install includes a UI, as well to explore the history through time.\nThe tool skips binaries and respects `.gitignore` if one exists. The interface borro…",
-          "link": "https://www.unfudged.io/",
-          "publishedOn": "2026-02-26T21:30:19.000Z",
-          "wordCount": 6489,
-          "title": "Show HN: Unfucked – version every change between commits - local-first",
-          "imageUrl": "https://www.unfudged.io/assets/og-image.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47172119",
-          "author": "mlex",
-          "description": "https://www.cnbc.com/2026/02/26/block-laying-off-about-4000-...\nhttps://www.marketwatch.com/story/block-plans-to-lay-off-nea...\nComments URL: https://news.ycombinator.com/item?id=47172119\nPoints: 130\n# Comments: 95",
-          "link": "https://twitter.com/jack/status/2027129697092731343",
-          "publishedOn": "2026-02-26T21:17:56.000Z",
-          "wordCount": 719,
-          "title": "Layoffs at Block",
-          "imageUrl": null
         }
       ]
     }

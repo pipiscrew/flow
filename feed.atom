@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-03-28T08:50:01.852Z</updated>
+    <updated>2026-03-28T09:44:22.718Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
@@ -18468,32 +18468,6 @@ Points: 93
 # Comments: 88]]></summary>
         <author>
             <name>littlexsparkee</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: Unfucked – version every change between commits - local-first]]></title>
-        <id>https://news.ycombinator.com/item?id=47172238</id>
-        <link href="https://www.unfudged.io/"/>
-        <updated>2026-02-26T21:30:19.000Z</updated>
-        <summary type="html"><![CDATA[I built unf after I pasted a prompt into the wrong agent terminal and it overwrote hours of hand-edits across a handful of files. Git couldn't help because I hadn't finished/committed my in progress work. I wanted something that recorded every save automatically so I could rewind to any point in time. I wanted to make it difficult for an agent to permanently screw anything up, even with an errant rm -rf
-unf is a background daemon that watches directories you choose (via CLI) and snapshots every text file on save. It stores file contents in an object store, tracks metadata in SQLite, and gives you a CLI to query and restore any version. The install includes a UI, as well to explore the history through time.
-The tool skips binaries and respects `.gitignore` if one exists. The interface borro…]]></summary>
-        <author>
-            <name>cyrusradfar</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Layoffs at Block]]></title>
-        <id>https://news.ycombinator.com/item?id=47172119</id>
-        <link href="https://twitter.com/jack/status/2027129697092731343"/>
-        <updated>2026-02-26T21:17:56.000Z</updated>
-        <summary type="html"><![CDATA[https://www.cnbc.com/2026/02/26/block-laying-off-about-4000-...
-https://www.marketwatch.com/story/block-plans-to-lay-off-nea...
-Comments URL: https://news.ycombinator.com/item?id=47172119
-Points: 130
-# Comments: 95]]></summary>
-        <author>
-            <name>mlex</name>
         </author>
     </entry>
 </feed>
