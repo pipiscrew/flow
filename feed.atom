@@ -2,10 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-03-29T20:40:12.175Z</updated>
+    <updated>2026-03-29T21:38:39.029Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[ChatGPT Won't Let You Type Until Cloudflare Reads Your React State]]></title>
+        <id>https://news.ycombinator.com/item?id=47566865</id>
+        <link href="https://www.buchodi.com/chatgpt-wont-let-you-type-until-cloudflare-reads-your-react-state-i-decrypted-the-program-that-does-it/"/>
+        <updated>2026-03-29T20:21:05.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.buchodi.com/chatgpt-wont-let-you-type-until-cloudflare-reads-your-react-state-i-decrypted-the-program-that-does-it/
+Comments URL: https://news.ycombinator.com/item?id=47566865
+Points: 107
+# Comments: 51]]></summary>
+        <author>
+            <name>alberto-m</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[The "Vibe Coding" Wall of Shame]]></title>
         <id>https://news.ycombinator.com/item?id=47566491</id>
@@ -17,6 +30,19 @@ Points: 70
 # Comments: 33]]></summary>
         <author>
             <name>wa5ina</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Cognitive Dark Forest]]></title>
+        <id>https://news.ycombinator.com/item?id=47566442</id>
+        <link href="https://ryelang.org/blog/posts/cognitive-dark-forest/"/>
+        <updated>2026-03-29T19:36:21.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://ryelang.org/blog/posts/cognitive-dark-forest/
+Comments URL: https://news.ycombinator.com/item?id=47566442
+Points: 94
+# Comments: 50]]></summary>
+        <author>
+            <name>kaycebasques</name>
         </author>
     </entry>
     <entry>
@@ -69,6 +95,19 @@ Points: 50
 # Comments: 12]]></summary>
         <author>
             <name>mistyvales</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The rise and fall of IBM's 4 Pi aerospace computers: an illustrated history]]></title>
+        <id>https://news.ycombinator.com/item?id=47564579</id>
+        <link href="https://www.righto.com/2026/03/ibm-4-pi-computer-history.html"/>
+        <updated>2026-03-29T16:26:55.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.righto.com/2026/03/ibm-4-pi-computer-history.html
+Comments URL: https://news.ycombinator.com/item?id=47564579
+Points: 54
+# Comments: 13]]></summary>
+        <author>
+            <name>zdw</name>
         </author>
     </entry>
     <entry>
@@ -160,6 +199,24 @@ Points: 92
 # Comments: 43]]></summary>
         <author>
             <name>ourmandave</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: BreezePDF – Free, in-browser PDF editor]]></title>
+        <id>https://news.ycombinator.com/item?id=47563103</id>
+        <link href="https://breezepdf.com/?v=3"/>
+        <updated>2026-03-29T13:47:32.000Z</updated>
+        <summary type="html"><![CDATA[BreezePDF lets you edit, sign, merge, compress, redact, OCR, fill forms, extract tables, and use 30+ more PDF tools — all in the browser, no sign-up. Files never leave your computer.
+I built it because when people search Google for common PDF tasks, many of the tools they find upload documents to a server. I wanted an option that keeps files local instead.
+I posted an earlier version on HN last spring:
+https://news.ycombinator.com/item?id=43880962
+At the time it only supported a small set of features. Over the last 10 months I rebuilt large parts of it and expanded it to nearly 40 tools, including several ideas that came from comments in that earlier thread.
+There is also now a desktop app for macOS, Windows, and Linux, plus a CLI/SDK for developers.
+Comments URL: https://news.ycombinator.com/item?id=47563103
+Points: 55
+# Comments: 33]]></summary>
+        <author>
+            <name>philjohnson</name>
         </author>
     </entry>
     <entry>
@@ -304,6 +361,40 @@ Points: 123
 # Comments: 70]]></summary>
         <author>
             <name>mordechai9000</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: QuickBEAM – run JavaScript as supervised Erlang/OTP processes]]></title>
+        <id>https://news.ycombinator.com/item?id=47558094</id>
+        <link href="https://github.com/elixir-volt/quickbeam"/>
+        <updated>2026-03-28T21:03:23.000Z</updated>
+        <summary type="html"><![CDATA[QuickBEAM is a JavaScript runtime embedded inside the Erlang/OTP VM.
+If you’re building a full-stack app, JavaScript tends to leak in anyway — frontend, SSR, or third-party code.
+QuickBEAM runs that JavaScript inside OTP supervision trees.
+Each runtime is a process with a `Beam` global that can:
+- call Elixir code
+- send/receive messages
+- spawn and monitor processes
+- inspect runtime/system state
+It also provides browser-style APIs backed by OTP/native primitives (fetch, WebSocket, Worker, BroadcastChannel, localStorage, native DOM, etc.).
+This makes it usable for:
+- SSR
+- sandboxed user code
+- per-connection state
+- backend JS with direct OTP interop
+Notable bits:
+- JS runtimes are supervised and restartable
+- sandboxing with memory/reduction limits and API control
+- native DOM that Erlang can read directly (no string rendering step)
+- no JSON boundary between JS and Erlang
+- built-in TypeScript, npm support, and native addons
+QuickBEAM is part of Elixir Volt — a full-stack frontend toolchain built on Erlang/OTP with no Node.js.
+Still early, feedback welcome.
+Comments URL: https://news.ycombinator.com/item?id=47558094
+Points: 53
+# Comments: 8]]></summary>
+        <author>
+            <name>dannote</name>
         </author>
     </entry>
     <entry>
@@ -18306,19 +18397,6 @@ Points: 85
 # Comments: 17]]></summary>
         <author>
             <name>mksglu</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Unsloth Dynamic 2.0 GGUFs]]></title>
-        <id>https://news.ycombinator.com/item?id=47192505</id>
-        <link href="https://unsloth.ai/docs/basics/unsloth-dynamic-2.0-ggufs"/>
-        <updated>2026-02-28T08:56:33.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://unsloth.ai/docs/basics/unsloth-dynamic-2.0-ggufs
-Comments URL: https://news.ycombinator.com/item?id=47192505
-Points: 62
-# Comments: 26]]></summary>
-        <author>
-            <name>tosh</name>
         </author>
     </entry>
 </feed>

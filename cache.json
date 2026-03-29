@@ -6,6 +6,16 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=47566865",
+          "author": "alberto-m",
+          "description": "Article URL: https://www.buchodi.com/chatgpt-wont-let-you-type-until-cloudflare-reads-your-react-state-i-decrypted-the-program-that-does-it/\nComments URL: https://news.ycombinator.com/item?id=47566865\nPoints: 107\n# Comments: 51",
+          "link": "https://www.buchodi.com/chatgpt-wont-let-you-type-until-cloudflare-reads-your-react-state-i-decrypted-the-program-that-does-it/",
+          "publishedOn": "2026-03-29T20:21:05.000Z",
+          "wordCount": 1330,
+          "title": "ChatGPT Won't Let You Type Until Cloudflare Reads Your React State",
+          "imageUrl": null
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=47566491",
           "author": "wa5ina",
           "description": "Article URL: https://crackr.dev/vibe-coding-failures\nComments URL: https://news.ycombinator.com/item?id=47566491\nPoints: 70\n# Comments: 33",
@@ -14,6 +24,16 @@
           "wordCount": 3985,
           "title": "The \"Vibe Coding\" Wall of Shame",
           "imageUrl": "https://crackr.dev/images/blog/vibe-coding.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47566442",
+          "author": "kaycebasques",
+          "description": "Article URL: https://ryelang.org/blog/posts/cognitive-dark-forest/\nComments URL: https://news.ycombinator.com/item?id=47566442\nPoints: 94\n# Comments: 50",
+          "link": "https://ryelang.org/blog/posts/cognitive-dark-forest/",
+          "publishedOn": "2026-03-29T19:36:21.000Z",
+          "wordCount": 2460,
+          "title": "The Cognitive Dark Forest",
+          "imageUrl": null
         },
         {
           "id": "https://news.ycombinator.com/item?id=47566143",
@@ -54,6 +74,16 @@
           "wordCount": 841,
           "title": "Netscape News Feed Straight Out of the Late 00s",
           "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47564579",
+          "author": "zdw",
+          "description": "Article URL: https://www.righto.com/2026/03/ibm-4-pi-computer-history.html\nComments URL: https://news.ycombinator.com/item?id=47564579\nPoints: 54\n# Comments: 13",
+          "link": "https://www.righto.com/2026/03/ibm-4-pi-computer-history.html",
+          "publishedOn": "2026-03-29T16:26:55.000Z",
+          "wordCount": 15996,
+          "title": "The rise and fall of IBM's 4 Pi aerospace computers: an illustrated history",
+          "imageUrl": "https://lh3.googleusercontent.com/blogger_img_proxy/AEn0k_syzIMYnuAYdPBPJ9gFM92lsMVA4PX_IXR5JIQqifCGeH-Dy-DjdqWhKcxz2G0WDNJFl2qGJ4U3cbXtusd9y1QgjPtlOfkgXGmf9XDpIT2VGj1pN53uOYJATXFZ05JL=w1200-h630-p-k-no-nu"
         },
         {
           "id": "https://news.ycombinator.com/item?id=47564469",
@@ -124,6 +154,16 @@
           "wordCount": null,
           "title": "Police used AI facial recognition to wrongly arrest TN woman for crimes in ND",
           "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47563103",
+          "author": "philjohnson",
+          "description": "BreezePDF lets you edit, sign, merge, compress, redact, OCR, fill forms, extract tables, and use 30+ more PDF tools — all in the browser, no sign-up. Files never leave your computer.\nI built it because when people search Google for common PDF tasks, many of the tools they find upload documents to a server. I wanted an option that keeps files local instead.\nI posted an earlier version on HN last spring:\nhttps://news.ycombinator.com/item?id=43880962\nAt the time it only supported a small set of features. Over the last 10 months I rebuilt large parts of it and expanded it to nearly 40 tools, including several ideas that came from comments in that earlier thread.\nThere is also now a desktop app for macOS, Windows, and Linux, plus a CLI/SDK for developers.\nComments URL: https://news.ycombinator.com/item?id=47563103\nPoints: 55\n# Comments: 33",
+          "link": "https://breezepdf.com/?v=3",
+          "publishedOn": "2026-03-29T13:47:32.000Z",
+          "wordCount": 3017,
+          "title": "Show HN: BreezePDF – Free, in-browser PDF editor",
+          "imageUrl": "https://breezepdf.com/og-image.png"
         },
         {
           "id": "https://news.ycombinator.com/item?id=47562288",
@@ -234,6 +274,16 @@
           "wordCount": 8894,
           "title": "Private equity turned vulnerable elderly people into human ATMs",
           "imageUrl": "https://i.guim.co.uk/img/media/3c136383e6b9556737cfafd7c8884d5161538dc5/0_0_5887_4709/master/5887.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=5294bee6efb1c73fe7cb6663c7ed87bc"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47558094",
+          "author": "dannote",
+          "description": "QuickBEAM is a JavaScript runtime embedded inside the Erlang/OTP VM.\nIf you’re building a full-stack app, JavaScript tends to leak in anyway — frontend, SSR, or third-party code.\nQuickBEAM runs that JavaScript inside OTP supervision trees.\nEach runtime is a process with a `Beam` global that can:\n- call Elixir code\n- send/receive messages\n- spawn and monitor processes\n- inspect runtime/system state\nIt also provides browser-style APIs backed by OTP/native primitives (fetch, WebSocket, Worker, BroadcastChannel, localStorage, native DOM, etc.).\nThis makes it usable for:\n- SSR\n- sandboxed user code\n- per-connection state\n- backend JS with direct OTP interop\nNotable bits:\n- JS runtimes are supervised and restartable\n- sandboxing with memory/reduction limits and API control\n- native DOM that Erlang can read directly (no string rendering step)\n- no JSON boundary between JS and Erlang\n- built-in TypeScript, npm support, and native addons\nQuickBEAM is part of Elixir Volt — a full-stack frontend toolchain built on Erlang/OTP with no Node.js.\nStill early, feedback welcome.\nComments URL: https://news.ycombinator.com/item?id=47558094\nPoints: 53\n# Comments: 8",
+          "link": "https://github.com/elixir-volt/quickbeam",
+          "publishedOn": "2026-03-28T21:03:23.000Z",
+          "wordCount": 8665,
+          "title": "Show HN: QuickBEAM – run JavaScript as supervised Erlang/OTP processes",
+          "imageUrl": "https://opengraph.githubassets.com/882855aa0100c63b6402c3f28b49cdafee20854c36ba75cf0973e465a7cd91ee/elixir-volt/quickbeam"
         },
         {
           "id": "https://news.ycombinator.com/item?id=47557960",
@@ -13694,16 +13744,6 @@
           "wordCount": 1846,
           "title": "Stop Burning Your Context Window – How We Cut MCP Output by 98% in Claude Code",
           "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47192505",
-          "author": "tosh",
-          "description": "Article URL: https://unsloth.ai/docs/basics/unsloth-dynamic-2.0-ggufs\nComments URL: https://news.ycombinator.com/item?id=47192505\nPoints: 62\n# Comments: 26",
-          "link": "https://unsloth.ai/docs/basics/unsloth-dynamic-2.0-ggufs",
-          "publishedOn": "2026-02-28T08:56:33.000Z",
-          "wordCount": 15200,
-          "title": "Unsloth Dynamic 2.0 GGUFs",
-          "imageUrl": "https://unsloth.ai/docs/~gitbook/image?url=https%3A%2F%2F2815821428-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Forganizations%252FHpyELzcNe0topgVLGCZY%252Fsites%252Fsite_mXXTe%252Fsocialpreview%252FOeFDVbzp4cgwaId7PbvL%252Funsloth%2520docs%2520pic.png%3Falt%3Dmedia%26token%3Df34a6bcc-db15-449a-bc2d-e0e8f52fe953&width=1200&height=630&sign=b1ca68fa&sv=2"
         }
       ]
     }
