@@ -2,10 +2,36 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-03-28T23:37:21.154Z</updated>
+    <updated>2026-03-29T03:17:45.791Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[South Korea Mandates Solar Panels for Public Parking Lots]]></title>
+        <id>https://news.ycombinator.com/item?id=47558997</id>
+        <link href="https://www.reutersconnect.com/item/south-korea-mandates-solar-panels-for-public-parking-lots/dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX01UMU5VUlBITzAwMFZKRjFZQQ"/>
+        <updated>2026-03-28T23:29:04.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.reutersconnect.com/item/south-korea-mandates-solar-panels-for-public-parking-lots/dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX01UMU5VUlBITzAwMFZKRjFZQQ
+Comments URL: https://news.ycombinator.com/item?id=47558997
+Points: 221
+# Comments: 120]]></summary>
+        <author>
+            <name>_____k</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Private equity turned vulnerable elderly people into human ATMs]]></title>
+        <id>https://news.ycombinator.com/item?id=47558372</id>
+        <link href="https://www.theguardian.com/society/2026/mar/28/the-great-care-home-cash-grab-how-private-equity-turned-vulnerable-elderly-people-into-human-atms"/>
+        <updated>2026-03-28T21:43:00.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.theguardian.com/society/2026/mar/28/the-great-care-home-cash-grab-how-private-equity-turned-vulnerable-elderly-people-into-human-atms
+Comments URL: https://news.ycombinator.com/item?id=47558372
+Points: 123
+# Comments: 70]]></summary>
+        <author>
+            <name>mordechai9000</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[CSS is DOOMed]]></title>
         <id>https://news.ycombinator.com/item?id=47557960</id>
@@ -17,6 +43,19 @@ Points: 84
 # Comments: 28]]></summary>
         <author>
             <name>msephton</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Google just gave Android power users a sideloading win]]></title>
+        <id>https://news.ycombinator.com/item?id=47557901</id>
+        <link href="https://www.androidauthority.com/android-sideload-carry-over-3652845/"/>
+        <updated>2026-03-28T20:28:03.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.androidauthority.com/android-sideload-carry-over-3652845/
+Comments URL: https://news.ycombinator.com/item?id=47557901
+Points: 51
+# Comments: 54]]></summary>
+        <author>
+            <name>croemer</name>
         </author>
     </entry>
     <entry>
@@ -489,6 +528,19 @@ Points: 100
 # Comments: 93]]></summary>
         <author>
             <name>surprisetalk</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[OpenBSD on Motorola 88000 Processors]]></title>
+        <id>https://news.ycombinator.com/item?id=47543186</id>
+        <link href="http://miod.online.fr/software/openbsd/stories/m88k1.html"/>
+        <updated>2026-03-27T14:39:51.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: http://miod.online.fr/software/openbsd/stories/m88k1.html
+Comments URL: https://news.ycombinator.com/item?id=47543186
+Points: 55
+# Comments: 4]]></summary>
+        <author>
+            <name>rbanffy</name>
         </author>
     </entry>
     <entry>
@@ -1779,6 +1831,19 @@ Points: 95
 # Comments: 56]]></summary>
         <author>
             <name>roywashere</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[1929: Inside the Greatest Crash in Wall Street History]]></title>
+        <id>https://news.ycombinator.com/item?id=47513482</id>
+        <link href="https://www.nybooks.com/articles/2026/03/26/tick-tick-boom-1929-andrew-ross-sorkin/"/>
+        <updated>2026-03-25T05:01:58.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.nybooks.com/articles/2026/03/26/tick-tick-boom-1929-andrew-ross-sorkin/
+Comments URL: https://news.ycombinator.com/item?id=47513482
+Points: 51
+# Comments: 46]]></summary>
+        <author>
+            <name>mitchbob</name>
         </author>
     </entry>
     <entry>
@@ -18411,142 +18476,6 @@ Points: 71
 # Comments: 13]]></summary>
         <author>
             <name>evakhoury</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: Badge that shows how well your codebase fits in an LLM's context window]]></title>
-        <id>https://news.ycombinator.com/item?id=47181471</id>
-        <link href="https://github.com/qwibitai/nanoclaw/tree/main/repo-tokens"/>
-        <updated>2026-02-27T15:14:42.000Z</updated>
-        <summary type="html"><![CDATA[Small codebases were always a good thing. With coding agents, there's now a huge advantage to having a codebase small enough that an agent can hold the full thing in context.
-Repo Tokens is a GitHub Action that counts your codebase's size in tokens (using tiktoken) and updates a badge in your README. The badge color reflects what percentage of an LLM's context window the codebase fills: green for under 30%, yellow for 50-70%, red for 70%+. Context window size is configurable and defaults to 200k (size of Claude models).
-It's a composite action. Installs tiktoken, runs ~60 lines of inline Python, takes about 10 seconds. The action updates the README but doesn't commit, so your workflow controls the git strategy.
-The idea is to make token size a visible metric, like bundle size badges for JS libraries. Hopefully a small nudge to keep codebases lean and agent-friendly.
-GitHub: https://github.com/qwibitai/nanoclaw/tree/main/repo-tokens
-Comments URL: https://news.ycombinator.com/item?id=47181471
-Points: 58
-# Comments: 34]]></summary>
-        <author>
-            <name>jimminyx</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Tenth Circuit: 4th Amendment Doesn't Support Broad Search of Protesters' Devices]]></title>
-        <id>https://news.ycombinator.com/item?id=47181391</id>
-        <link href="https://www.eff.org/deeplinks/2026/02/victory-tenth-circuit-finds-fourth-amendment-doesnt-support-broad-search-0"/>
-        <updated>2026-02-27T15:09:04.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.eff.org/deeplinks/2026/02/victory-tenth-circuit-finds-fourth-amendment-doesnt-support-broad-search-0
-Comments URL: https://news.ycombinator.com/item?id=47181391
-Points: 112
-# Comments: 13]]></summary>
-        <author>
-            <name>hn_acker</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Pentagon is making a mistake by threatening Anthropic]]></title>
-        <id>https://news.ycombinator.com/item?id=47181380</id>
-        <link href="https://www.understandingai.org/p/the-pentagon-is-making-a-mistake"/>
-        <updated>2026-02-27T15:08:29.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.understandingai.org/p/the-pentagon-is-making-a-mistake
-Comments URL: https://news.ycombinator.com/item?id=47181380
-Points: 106
-# Comments: 72]]></summary>
-        <author>
-            <name>speckx</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Building secure, scalable agent sandbox infrastructure]]></title>
-        <id>https://news.ycombinator.com/item?id=47181316</id>
-        <link href="https://browser-use.com/posts/two-ways-to-sandbox-agents"/>
-        <updated>2026-02-27T15:03:12.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://browser-use.com/posts/two-ways-to-sandbox-agents
-Comments URL: https://news.ycombinator.com/item?id=47181316
-Points: 58
-# Comments: 9]]></summary>
-        <author>
-            <name>gregpr07</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[OpenAI raises $110B on $730B pre-money valuation]]></title>
-        <id>https://news.ycombinator.com/item?id=47181211</id>
-        <link href="https://techcrunch.com/2026/02/27/openai-raises-110b-in-one-of-the-largest-private-funding-rounds-in-history/"/>
-        <updated>2026-02-27T14:56:05.000Z</updated>
-        <summary type="html"><![CDATA[https://openai.com/index/scaling-ai-for-everyone/
-Comments URL: https://news.ycombinator.com/item?id=47181211
-Points: 80
-# Comments: 130]]></summary>
-        <author>
-            <name>zlatkov</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A new California law says all operating systems need to have age verification]]></title>
-        <id>https://news.ycombinator.com/item?id=47181208</id>
-        <link href="https://www.pcgamer.com/software/operating-systems/a-new-california-law-says-all-operating-systems-including-linux-need-to-have-some-form-of-age-verification-at-account-setup/"/>
-        <updated>2026-02-27T14:55:49.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.pcgamer.com/software/operating-systems/a-new-california-law-says-all-operating-systems-including-linux-need-to-have-some-form-of-age-verification-at-account-setup/
-Comments URL: https://news.ycombinator.com/item?id=47181208
-Points: 121
-# Comments: 124]]></summary>
-        <author>
-            <name>WalterSobchak</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[We deserve a better streams API for JavaScript]]></title>
-        <id>https://news.ycombinator.com/item?id=47180569</id>
-        <link href="https://blog.cloudflare.com/a-better-web-streams-api/"/>
-        <updated>2026-02-27T14:02:53.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://blog.cloudflare.com/a-better-web-streams-api/
-Comments URL: https://news.ycombinator.com/item?id=47180569
-Points: 54
-# Comments: 18]]></summary>
-        <author>
-            <name>nnx</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Chorba: A novel CRC32 implementation (2024)]]></title>
-        <id>https://news.ycombinator.com/item?id=47180140</id>
-        <link href="https://arxiv.org/abs/2412.16398"/>
-        <updated>2026-02-27T13:12:38.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://arxiv.org/abs/2412.16398
-Comments URL: https://news.ycombinator.com/item?id=47180140
-Points: 50
-# Comments: 15]]></summary>
-        <author>
-            <name>fnands</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: RetroTick – Run classic Windows EXEs in the browser]]></title>
-        <id>https://news.ycombinator.com/item?id=47180083</id>
-        <link href="https://retrotick.com/"/>
-        <updated>2026-02-27T13:06:50.000Z</updated>
-        <summary type="html"><![CDATA[RetroTick parses PE/NE/MZ binaries, emulates an x86 CPU, and stubs enough Win32/Win16/DOS APIs to run classics like FreeCell, Minesweeper, Solitaire and QBasic, entirely in the browser. Built with Preact + Vite + TypeScript.
-Demo: https://retrotick.com
-GitHub: https://github.com/lqs/retrotick
-Comments URL: https://news.ycombinator.com/item?id=47180083
-Points: 81
-# Comments: 29]]></summary>
-        <author>
-            <name>lqs_</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[PostmarketOS in 2026-02: generic kernels, bans use of generative AI]]></title>
-        <id>https://news.ycombinator.com/item?id=47179553</id>
-        <link href="https://postmarketos.org/blog/2026/02/26/pmOS-update-2026-02/"/>
-        <updated>2026-02-27T12:01:36.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://postmarketos.org/blog/2026/02/26/pmOS-update-2026-02/
-Comments URL: https://news.ycombinator.com/item?id=47179553
-Points: 54
-# Comments: 40]]></summary>
-        <author>
-            <name>pantalaimon</name>
         </author>
     </entry>
 </feed>
