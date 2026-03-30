@@ -16,6 +16,16 @@
           "imageUrl": null
         },
         {
+          "id": "https://news.ycombinator.com/item?id=47580297",
+          "author": "ingve",
+          "description": "Article URL: https://android-developers.googleblog.com/2026/03/android-developer-verification-rolling-out-to-all-developers.html\nComments URL: https://news.ycombinator.com/item?id=47580297\nPoints: 61\n# Comments: 39",
+          "link": "https://android-developers.googleblog.com/2026/03/android-developer-verification-rolling-out-to-all-developers.html",
+          "publishedOn": "2026-03-30T22:05:21.000Z",
+          "wordCount": 8546,
+          "title": "Android Developer Verification",
+          "imageUrl": "https://blogger.googleusercontent.com/img/a/AVvXsEgKvPOrkQ6xhfp3JzKhlQS63WlgsKEc3iI6Jl6VdfitojtR0j9py3hJ3S3dkp2JF39HU6lUswIJpFupt2fm5uFfWB7408f4mhvHWsM8JeO5tk0-M0jHpk4A40an8gtipxyKpGJrGBtdE7JadUHnRodVFB9NIMkwmnNJFqWw0x1ncIAoVb9h13CeV1p_jyQ"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=47579229",
           "author": "taubek",
           "description": "Article URL: https://claude.nagdy.me/\nComments URL: https://news.ycombinator.com/item?id=47579229\nPoints: 67\n# Comments: 31",
@@ -114,6 +124,16 @@
           "wordCount": null,
           "title": "FTC Action Against Match and OkCupid for Deceiving Users, Sharing Personal Data",
           "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47575417",
+          "author": "jsunderland323",
+          "description": "Hi HN - We've been working on Coasts (“containerized hosts”) to make it so you can run multiple localhost instances, and multiple docker-compose runtimes, across git worktrees on the same computer. Here’s a demo: https://www.youtube.com/watch?v=yRiySdGQZZA. There are also videos in our docs that give a good conceptual overview: https://coasts.dev/docs/learn-coasts-videos.\nAgents can make code changes in different worktrees in isolation, but it's hard for them to test their changes without multiple localhost runtimes that are isolated and scoped to those worktrees as well. You can do it up to a point with port hacking tricks, but it becomes impractical when you have a complex docker-compose with many services and multiple volumes.\nWe started playing with Codex and Conductor in the beginning…",
+          "link": "https://github.com/coast-guard/coasts",
+          "publishedOn": "2026-03-30T15:17:51.000Z",
+          "wordCount": 5800,
+          "title": "Show HN: Coasts – Containerized Hosts for Agents",
+          "imageUrl": "https://opengraph.githubassets.com/08237fb46b45b11db757df786a7fbca3918dcb5744f54f09e4b64adbe963eecd/coast-guard/coasts"
         },
         {
           "id": "https://news.ycombinator.com/item?id=47575403",
@@ -13734,26 +13754,6 @@
           "wordCount": 3547,
           "title": "I built a demo of what AI chat will look like when it's \"free\" and ad-supported",
           "imageUrl": "https://99helpers.com/images/main.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47205637",
-          "author": "chromy",
-          "description": "Article URL: https://atlas.flexport.com/\nComments URL: https://news.ycombinator.com/item?id=47205637\nPoints: 57\n# Comments: 21",
-          "link": "https://atlas.flexport.com/",
-          "publishedOn": "2026-03-01T11:01:17.000Z",
-          "wordCount": null,
-          "title": "Flightradar24 for Ships",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47205577",
-          "author": "joebig",
-          "description": "Article URL: https://www.crtsite.com/didactic-crt.html\nComments URL: https://news.ycombinator.com/item?id=47205577\nPoints: 51\n# Comments: 9",
-          "link": "https://www.crtsite.com/didactic-crt.html",
-          "publishedOn": "2026-03-01T10:51:46.000Z",
-          "wordCount": 3962,
-          "title": "The Cathode Ray Tube site",
-          "imageUrl": null
         }
       ]
     }

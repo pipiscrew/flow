@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-03-30T22:44:21.552Z</updated>
+    <updated>2026-03-30T23:41:48.076Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
@@ -17,6 +17,19 @@ Points: 60
 # Comments: 11]]></summary>
         <author>
             <name>not-chatgpt</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Android Developer Verification]]></title>
+        <id>https://news.ycombinator.com/item?id=47580297</id>
+        <link href="https://android-developers.googleblog.com/2026/03/android-developer-verification-rolling-out-to-all-developers.html"/>
+        <updated>2026-03-30T22:05:21.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://android-developers.googleblog.com/2026/03/android-developer-verification-rolling-out-to-all-developers.html
+Comments URL: https://news.ycombinator.com/item?id=47580297
+Points: 61
+# Comments: 39]]></summary>
+        <author>
+            <name>ingve</name>
         </author>
     </entry>
     <entry>
@@ -153,6 +166,18 @@ Points: 63
 # Comments: 26]]></summary>
         <author>
             <name>gnabgib</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Coasts – Containerized Hosts for Agents]]></title>
+        <id>https://news.ycombinator.com/item?id=47575417</id>
+        <link href="https://github.com/coast-guard/coasts"/>
+        <updated>2026-03-30T15:17:51.000Z</updated>
+        <summary type="html"><![CDATA[Hi HN - We've been working on Coasts (“containerized hosts”) to make it so you can run multiple localhost instances, and multiple docker-compose runtimes, across git worktrees on the same computer. Here’s a demo: https://www.youtube.com/watch?v=yRiySdGQZZA. There are also videos in our docs that give a good conceptual overview: https://coasts.dev/docs/learn-coasts-videos.
+Agents can make code changes in different worktrees in isolation, but it's hard for them to test their changes without multiple localhost runtimes that are isolated and scoped to those worktrees as well. You can do it up to a point with port hacking tricks, but it becomes impractical when you have a complex docker-compose with many services and multiple volumes.
+We started playing with Codex and Conductor in the beginning…]]></summary>
+        <author>
+            <name>jsunderland323</name>
         </author>
     </entry>
     <entry>
@@ -18378,32 +18403,6 @@ Points: 144
 # Comments: 75]]></summary>
         <author>
             <name>nickk81</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Flightradar24 for Ships]]></title>
-        <id>https://news.ycombinator.com/item?id=47205637</id>
-        <link href="https://atlas.flexport.com/"/>
-        <updated>2026-03-01T11:01:17.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://atlas.flexport.com/
-Comments URL: https://news.ycombinator.com/item?id=47205637
-Points: 57
-# Comments: 21]]></summary>
-        <author>
-            <name>chromy</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Cathode Ray Tube site]]></title>
-        <id>https://news.ycombinator.com/item?id=47205577</id>
-        <link href="https://www.crtsite.com/didactic-crt.html"/>
-        <updated>2026-03-01T10:51:46.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.crtsite.com/didactic-crt.html
-Comments URL: https://news.ycombinator.com/item?id=47205577
-Points: 51
-# Comments: 9]]></summary>
-        <author>
-            <name>joebig</name>
         </author>
     </entry>
 </feed>
