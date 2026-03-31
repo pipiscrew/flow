@@ -2,10 +2,36 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-03-31T19:11:14.885Z</updated>
+    <updated>2026-03-31T20:50:42.360Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[GitHub's Historic Uptime]]></title>
+        <id>https://news.ycombinator.com/item?id=47591928</id>
+        <link href="https://damrnelson.github.io/github-historical-uptime/"/>
+        <updated>2026-03-31T19:01:29.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://damrnelson.github.io/github-historical-uptime/
+Comments URL: https://news.ycombinator.com/item?id=47591928
+Points: 248
+# Comments: 68]]></summary>
+        <author>
+            <name>todsacerdoti</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[OkCupid gave 3M dating-app photos to facial recognition firm, FTC says]]></title>
+        <id>https://news.ycombinator.com/item?id=47591104</id>
+        <link href="https://arstechnica.com/tech-policy/2026/03/okcupid-match-pay-no-fine-for-sharing-user-photos-with-facial-recognition-firm/"/>
+        <updated>2026-03-31T17:55:04.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://arstechnica.com/tech-policy/2026/03/okcupid-match-pay-no-fine-for-sharing-user-photos-with-facial-recognition-firm/
+Comments URL: https://news.ycombinator.com/item?id=47591104
+Points: 163
+# Comments: 38]]></summary>
+        <author>
+            <name>whiteboardr</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Cohere Transcribe: Speech Recognition]]></title>
         <id>https://news.ycombinator.com/item?id=47589818</id>
@@ -2096,6 +2122,19 @@ Points: 69
 # Comments: 26]]></summary>
         <author>
             <name>rpgbr</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Forkrun – NUMA-aware shell parallelizer (50×–400× faster than parallel)]]></title>
+        <id>https://news.ycombinator.com/item?id=47541746</id>
+        <link href="https://github.com/jkool702/forkrun"/>
+        <updated>2026-03-27T12:12:20.000Z</updated>
+        <summary type="html"><![CDATA[forkrun is the culmination of a 10-year-long journey focused on "how to make shell parallelization fast". What started as a standard "fork jobs in a loop" has turned into a lock-free, CAS-retry-loop-free, SIMD-accelerated, self-tuning, NUMA aware shell-based stream parallelization engine that is (mostly) a drop-in replacement for xargs -P and GNU parallel.
+On my 14-core/28-thread i9-7940x, forkrun achieves:
+* 200,000+ batch dispatches/sec (vs ~500 for GNU Parallel)
+* ~95–99% CPU utilization across all 28 logical cores, even when the workload is non-existant (bash no-ops / `:`) (vs ~6% for GNU Parallel). These benchmarks are intentionally worst-case (near-zero work per task) because they measure the capability of the parallelization framework itself, not how much work an external tool can d…]]></summary>
+        <author>
+            <name>jkool702</name>
         </author>
     </entry>
     <entry>

@@ -6,6 +6,26 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=47591928",
+          "author": "todsacerdoti",
+          "description": "Article URL: https://damrnelson.github.io/github-historical-uptime/\nComments URL: https://news.ycombinator.com/item?id=47591928\nPoints: 248\n# Comments: 68",
+          "link": "https://damrnelson.github.io/github-historical-uptime/",
+          "publishedOn": "2026-03-31T19:01:29.000Z",
+          "wordCount": 6,
+          "title": "GitHub's Historic Uptime",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47591104",
+          "author": "whiteboardr",
+          "description": "Article URL: https://arstechnica.com/tech-policy/2026/03/okcupid-match-pay-no-fine-for-sharing-user-photos-with-facial-recognition-firm/\nComments URL: https://news.ycombinator.com/item?id=47591104\nPoints: 163\n# Comments: 38",
+          "link": "https://arstechnica.com/tech-policy/2026/03/okcupid-match-pay-no-fine-for-sharing-user-photos-with-facial-recognition-firm/",
+          "publishedOn": "2026-03-31T17:55:04.000Z",
+          "wordCount": 3120,
+          "title": "OkCupid gave 3M dating-app photos to facial recognition firm, FTC says",
+          "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2026/03/okcupid-1152x648-1774975675.jpg"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=47589818",
           "author": "gmays",
           "description": "Article URL: https://cohere.com/blog/transcribe\nComments URL: https://news.ycombinator.com/item?id=47589818\nPoints: 92\n# Comments: 30",
@@ -1584,6 +1604,16 @@
           "wordCount": 1493,
           "title": "I turned my Kindle into my own personal newspaper",
           "imageUrl": "https://manualdousuario.net/wp-content/uploads/2026/03/leituras-web-kindle.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47541746",
+          "author": "jkool702",
+          "description": "forkrun is the culmination of a 10-year-long journey focused on \"how to make shell parallelization fast\". What started as a standard \"fork jobs in a loop\" has turned into a lock-free, CAS-retry-loop-free, SIMD-accelerated, self-tuning, NUMA aware shell-based stream parallelization engine that is (mostly) a drop-in replacement for xargs -P and GNU parallel.\nOn my 14-core/28-thread i9-7940x, forkrun achieves:\n* 200,000+ batch dispatches/sec (vs ~500 for GNU Parallel)\n* ~95–99% CPU utilization across all 28 logical cores, even when the workload is non-existant (bash no-ops / `:`) (vs ~6% for GNU Parallel). These benchmarks are intentionally worst-case (near-zero work per task) because they measure the capability of the parallelization framework itself, not how much work an external tool can d…",
+          "link": "https://github.com/jkool702/forkrun",
+          "publishedOn": "2026-03-27T12:12:20.000Z",
+          "wordCount": 2992,
+          "title": "Show HN: Forkrun – NUMA-aware shell parallelizer (50×–400× faster than parallel)",
+          "imageUrl": "https://opengraph.githubassets.com/e90fc3abb115d84618a66324f8787e8747982141c2c73089211846c3a2c34df0/jkool702/forkrun"
         },
         {
           "id": "https://news.ycombinator.com/item?id=47540929",
