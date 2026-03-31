@@ -2,10 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-03-31T20:50:42.360Z</updated>
+    <updated>2026-03-31T21:47:25.331Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[OpenAI raises $122B]]></title>
+        <id>https://news.ycombinator.com/item?id=47592755</id>
+        <link href="https://www.cnbc.com/2026/03/31/openai-funding-round-ipo.html"/>
+        <updated>2026-03-31T20:07:30.000Z</updated>
+        <summary type="html"><![CDATA[https://openai.com/index/accelerating-the-next-phase-ai
+Comments URL: https://news.ycombinator.com/item?id=47592755
+Points: 118
+# Comments: 99]]></summary>
+        <author>
+            <name>surprisetalk</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[GitHub's Historic Uptime]]></title>
         <id>https://news.ycombinator.com/item?id=47591928</id>
@@ -30,6 +43,18 @@ Points: 163
 # Comments: 38]]></summary>
         <author>
             <name>whiteboardr</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Postgres extension for BM25 relevance-ranked full-text search]]></title>
+        <id>https://news.ycombinator.com/item?id=47589856</id>
+        <link href="https://github.com/timescale/pg_textsearch"/>
+        <updated>2026-03-31T16:29:52.000Z</updated>
+        <summary type="html"><![CDATA[Last summer we faced a conundrum at my company, Tiger Data, a Postgres cloud vendor whose main business is in timeseries data.  We were trying to grow our business towards emerging AI-centric workloads and wanted to provide a state-of-the-art hybrid search stack in Postgres.  We'd already built pgvectorscale in house with the goal of scaling semantic search beyond pgvector's main memory limitations.  We just needed a scalable ranked keyword search solution too.
+The problem: core Postgres doesn't provide this; the leading Postgres BM25 extension, ParadeDB, is guarded behind AGPL; developing our own extension appeared daunting.  We'd need a small team of sharp engineers and 6-12 months, I figured.  And we'd probably still fall short of the performance of a mature system like Parade/Tantivy.
+…]]></summary>
+        <author>
+            <name>tjgreen</name>
         </author>
     </entry>
     <entry>
@@ -199,6 +224,19 @@ Points: 53
 # Comments: 10]]></summary>
         <author>
             <name>tosh</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Why the US Navy won't blast the Iranians and 'open' Strait of Hormuz]]></title>
+        <id>https://news.ycombinator.com/item?id=47584795</id>
+        <link href="https://responsiblestatecraft.org/iran-strait-of-hormuz/"/>
+        <updated>2026-03-31T09:30:43.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://responsiblestatecraft.org/iran-strait-of-hormuz/
+Comments URL: https://news.ycombinator.com/item?id=47584795
+Points: 86
+# Comments: 189]]></summary>
+        <author>
+            <name>KoftaBob</name>
         </author>
     </entry>
     <entry>
@@ -18401,74 +18439,6 @@ Points: 60
 # Comments: 30]]></summary>
         <author>
             <name>spinningslate</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Hardware hotplug events on Linux, the gory details]]></title>
-        <id>https://news.ycombinator.com/item?id=47215602</id>
-        <link href="https://arcanenibble.github.io/hardware-hotplug-events-on-linux-the-gory-details.html"/>
-        <updated>2026-03-02T09:26:04.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://arcanenibble.github.io/hardware-hotplug-events-on-linux-the-gory-details.html
-Comments URL: https://news.ycombinator.com/item?id=47215602
-Points: 60
-# Comments: 1]]></summary>
-        <author>
-            <name>todsacerdoti</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[U.S. science agency moves to restrict foreign scientists from its labs]]></title>
-        <id>https://news.ycombinator.com/item?id=47215565</id>
-        <link href="https://www.science.org/content/article/nist-moves-restrict-foreign-scientists-its-labs"/>
-        <updated>2026-03-02T09:20:06.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.science.org/content/article/nist-moves-restrict-foreign-scientists-its-labs
-Comments URL: https://news.ycombinator.com/item?id=47215565
-Points: 85
-# Comments: 46]]></summary>
-        <author>
-            <name>JeanKage</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[/e/OS is a complete "deGoogled", mobile ecosystem]]></title>
-        <id>https://news.ycombinator.com/item?id=47215489</id>
-        <link href="https://e.foundation/e-os/"/>
-        <updated>2026-03-02T09:09:44.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://e.foundation/e-os/
-Comments URL: https://news.ycombinator.com/item?id=47215489
-Points: 92
-# Comments: 46]]></summary>
-        <author>
-            <name>doener</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: Omni – Open-source workplace search and chat, built on Postgres]]></title>
-        <id>https://news.ycombinator.com/item?id=47215427</id>
-        <link href="https://github.com/getomnico/omni"/>
-        <updated>2026-03-02T08:58:14.000Z</updated>
-        <summary type="html"><![CDATA[Hey HN!
-Over the past few months, I've been working on building Omni - a workplace search and chat platform that connects to apps like Google Drive/Gmail, Slack, Confluence, etc. Essentially an open-source alternative to Glean, fully self-hosted.
-I noticed that some orgs find Glean to be expensive and not very extensible. I wanted to build something that small to mid-size teams could run themselves, so I decided to build it all on Postgres (ParadeDB to be precise) and pgvector. No Elasticsearch, or dedicated vector databases. I figured Postgres is more than capable of handling the level of scale required.
-To bring up Omni on your own infra, all it takes is a single `docker compose up`, and some basic configuration to connect your apps and LLMs.
-What it does:
-- Syncs data from all connected apps and builds a BM25 index (ParadeDB) and HNSW vector index (pgvector)
-- Hybrid search combines results from both
-- Chat UI where the LLM has tools to search the index - not just basic RAG
-- Traditional search UI
-- Users bring their own LLM provider (OpenAI/Anthropic/Gemini)
-- Connectors for Google Workspace, Slack, Confluence, Jira, HubSpot, and more
-- Connector SDK to build your own custom connectors
-Omni is in beta right now, and I'd love your feedback, especially on the following:
-- Has anyone tried self-hosting workplace search and/or AI tools, and what was your experience like?
-- Any concerns with the Postgres-only approach at larger scales?
-Happy to answer any questions!
-The code: https://github.com/getomnico/omni (Apache 2.0 licensed)
-Comments URL: https://news.ycombinator.com/item?id=47215427
-Points: 69
-# Comments: 22]]></summary>
-        <author>
-            <name>prvnsmpth</name>
         </author>
     </entry>
 </feed>

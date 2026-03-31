@@ -6,6 +6,16 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=47592755",
+          "author": "surprisetalk",
+          "description": "https://openai.com/index/accelerating-the-next-phase-ai\nComments URL: https://news.ycombinator.com/item?id=47592755\nPoints: 118\n# Comments: 99",
+          "link": "https://www.cnbc.com/2026/03/31/openai-funding-round-ipo.html",
+          "publishedOn": "2026-03-31T20:07:30.000Z",
+          "wordCount": 15014,
+          "title": "OpenAI raises $122B",
+          "imageUrl": "https://image.cnbcfm.com/api/v1/image/108276826-17732552422026-03-11t184543z_527413325_rc2i2katf9b2_rtrmadp_0_usa-blackrock.jpeg?v=1773315937&w=1920&h=1080"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=47591928",
           "author": "todsacerdoti",
           "description": "Article URL: https://damrnelson.github.io/github-historical-uptime/\nComments URL: https://news.ycombinator.com/item?id=47591928\nPoints: 248\n# Comments: 68",
@@ -24,6 +34,16 @@
           "wordCount": 3120,
           "title": "OkCupid gave 3M dating-app photos to facial recognition firm, FTC says",
           "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2026/03/okcupid-1152x648-1774975675.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47589856",
+          "author": "tjgreen",
+          "description": "Last summer we faced a conundrum at my company, Tiger Data, a Postgres cloud vendor whose main business is in timeseries data.  We were trying to grow our business towards emerging AI-centric workloads and wanted to provide a state-of-the-art hybrid search stack in Postgres.  We'd already built pgvectorscale in house with the goal of scaling semantic search beyond pgvector's main memory limitations.  We just needed a scalable ranked keyword search solution too.\nThe problem: core Postgres doesn't provide this; the leading Postgres BM25 extension, ParadeDB, is guarded behind AGPL; developing our own extension appeared daunting.  We'd need a small team of sharp engineers and 6-12 months, I figured.  And we'd probably still fall short of the performance of a mature system like Parade/Tantivy.\n…",
+          "link": "https://github.com/timescale/pg_textsearch",
+          "publishedOn": "2026-03-31T16:29:52.000Z",
+          "wordCount": 11979,
+          "title": "Show HN: Postgres extension for BM25 relevance-ranked full-text search",
+          "imageUrl": "https://opengraph.githubassets.com/f63088a1d36896f34a561475f5903dc28566d7067b82016234cb947d1f2c7fca/timescale/pg_textsearch"
         },
         {
           "id": "https://news.ycombinator.com/item?id=47589818",
@@ -154,6 +174,16 @@
           "wordCount": 824,
           "title": "Combinators",
           "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47584795",
+          "author": "KoftaBob",
+          "description": "Article URL: https://responsiblestatecraft.org/iran-strait-of-hormuz/\nComments URL: https://news.ycombinator.com/item?id=47584795\nPoints: 86\n# Comments: 189",
+          "link": "https://responsiblestatecraft.org/iran-strait-of-hormuz/",
+          "publishedOn": "2026-03-31T09:30:43.000Z",
+          "wordCount": 4748,
+          "title": "Why the US Navy won't blast the Iranians and 'open' Strait of Hormuz",
+          "imageUrl": "https://responsiblestatecraft.org/media-library/image.jpg?id=65428245&width=1200&height=600&coordinates=0%2C71%2C0%2C54"
         },
         {
           "id": "https://news.ycombinator.com/item?id=47584540",
@@ -13764,46 +13794,6 @@
           "wordCount": 6970,
           "title": "Jolla phone – a full-stack European alternative",
           "imageUrl": "http://commerce.jolla.com/cdn/shop/files/jolla_phone_hero_double.png?v=1772105235"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47215602",
-          "author": "todsacerdoti",
-          "description": "Article URL: https://arcanenibble.github.io/hardware-hotplug-events-on-linux-the-gory-details.html\nComments URL: https://news.ycombinator.com/item?id=47215602\nPoints: 60\n# Comments: 1",
-          "link": "https://arcanenibble.github.io/hardware-hotplug-events-on-linux-the-gory-details.html",
-          "publishedOn": "2026-03-02T09:26:04.000Z",
-          "wordCount": 2666,
-          "title": "Hardware hotplug events on Linux, the gory details",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47215565",
-          "author": "JeanKage",
-          "description": "Article URL: https://www.science.org/content/article/nist-moves-restrict-foreign-scientists-its-labs\nComments URL: https://news.ycombinator.com/item?id=47215565\nPoints: 85\n# Comments: 46",
-          "link": "https://www.science.org/content/article/nist-moves-restrict-foreign-scientists-its-labs",
-          "publishedOn": "2026-03-02T09:20:06.000Z",
-          "wordCount": null,
-          "title": "U.S. science agency moves to restrict foreign scientists from its labs",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47215489",
-          "author": "doener",
-          "description": "Article URL: https://e.foundation/e-os/\nComments URL: https://news.ycombinator.com/item?id=47215489\nPoints: 92\n# Comments: 46",
-          "link": "https://e.foundation/e-os/",
-          "publishedOn": "2026-03-02T09:09:44.000Z",
-          "wordCount": 1738,
-          "title": "/e/OS is a complete \"deGoogled\", mobile ecosystem",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47215427",
-          "author": "prvnsmpth",
-          "description": "Hey HN!\nOver the past few months, I've been working on building Omni - a workplace search and chat platform that connects to apps like Google Drive/Gmail, Slack, Confluence, etc. Essentially an open-source alternative to Glean, fully self-hosted.\nI noticed that some orgs find Glean to be expensive and not very extensible. I wanted to build something that small to mid-size teams could run themselves, so I decided to build it all on Postgres (ParadeDB to be precise) and pgvector. No Elasticsearch, or dedicated vector databases. I figured Postgres is more than capable of handling the level of scale required.\nTo bring up Omni on your own infra, all it takes is a single `docker compose up`, and some basic configuration to connect your apps and LLMs.\nWhat it does:\n- Syncs data from all connected apps and builds a BM25 index (ParadeDB) and HNSW vector index (pgvector)\n- Hybrid search combines results from both\n- Chat UI where the LLM has tools to search the index - not just basic RAG\n- Traditional search UI\n- Users bring their own LLM provider (OpenAI/Anthropic/Gemini)\n- Connectors for Google Workspace, Slack, Confluence, Jira, HubSpot, and more\n- Connector SDK to build your own custom connectors\nOmni is in beta right now, and I'd love your feedback, especially on the following:\n- Has anyone tried self-hosting workplace search and/or AI tools, and what was your experience like?\n- Any concerns with the Postgres-only approach at larger scales?\nHappy to answer any questions!\nThe code: https://github.com/getomnico/omni (Apache 2.0 licensed)\nComments URL: https://news.ycombinator.com/item?id=47215427\nPoints: 69\n# Comments: 22",
-          "link": "https://github.com/getomnico/omni",
-          "publishedOn": "2026-03-02T08:58:14.000Z",
-          "wordCount": 1892,
-          "title": "Show HN: Omni – Open-source workplace search and chat, built on Postgres",
-          "imageUrl": "https://opengraph.githubassets.com/e32f47837c32e2a40a057c59dd2750466aa12af92758e4e4cc61aeb8ab9c7b2f/getomnico/omni"
         }
       ]
     }
