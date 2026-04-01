@@ -6,6 +6,16 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=47597935",
+          "author": "fnands",
+          "description": "Article URL: https://home.cern/news/news/engineering/cern-levels-new-superconducting-karts\nComments URL: https://news.ycombinator.com/item?id=47597935\nPoints: 65\n# Comments: 11",
+          "link": "https://home.cern/news/news/engineering/cern-levels-new-superconducting-karts",
+          "publishedOn": "2026-04-01T07:27:13.000Z",
+          "wordCount": 1044,
+          "title": "CERN levels up with new superconducting karts",
+          "imageUrl": "https://cds.cern.ch/images//file?size=medium"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=47597085",
           "author": "autocracy101",
           "description": "Related ongoing threads:\nThe Claude Code Source Leak: fake tools, frustration regexes, undercover mode - https://news.ycombinator.com/item?id=47586778 - March 2026 (406 comments)\nClaude Code's source code has been leaked via a map file in their NPM registry - https://news.ycombinator.com/item?id=47584540 - March 2026 (956 comments)\nAlso related: https://www.ccleaks.com\nComments URL: https://news.ycombinator.com/item?id=47597085\nPoints: 209\n# Comments: 41",
@@ -1156,6 +1166,16 @@
           "imageUrl": "https://i.guim.co.uk/img/media/3c136383e6b9556737cfafd7c8884d5161538dc5/0_0_5887_4709/master/5887.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=5294bee6efb1c73fe7cb6663c7ed87bc"
         },
         {
+          "id": "https://news.ycombinator.com/item?id=47558101",
+          "author": "ingve",
+          "description": "Article URL: https://www.jeffgeerling.com/blog/2026/minidv-with-raspberry-pi-firewire-hat/\nComments URL: https://news.ycombinator.com/item?id=47558101\nPoints: 55\n# Comments: 9",
+          "link": "https://www.jeffgeerling.com/blog/2026/minidv-with-raspberry-pi-firewire-hat/",
+          "publishedOn": "2026-03-28T21:04:06.000Z",
+          "wordCount": 886,
+          "title": "Bring Back MiniDV with This Raspberry Pi FireWire Hat",
+          "imageUrl": ""
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=47558094",
           "author": "dannote",
           "description": "QuickBEAM is a JavaScript runtime embedded inside the Erlang/OTP VM.\nIf you’re building a full-stack app, JavaScript tends to leak in anyway — frontend, SSR, or third-party code.\nQuickBEAM runs that JavaScript inside OTP supervision trees.\nEach runtime is a process with a `Beam` global that can:\n- call Elixir code\n- send/receive messages\n- spawn and monitor processes\n- inspect runtime/system state\nIt also provides browser-style APIs backed by OTP/native primitives (fetch, WebSocket, Worker, BroadcastChannel, localStorage, native DOM, etc.).\nThis makes it usable for:\n- SSR\n- sandboxed user code\n- per-connection state\n- backend JS with direct OTP interop\nNotable bits:\n- JS runtimes are supervised and restartable\n- sandboxing with memory/reduction limits and API control\n- native DOM that Erlang can read directly (no string rendering step)\n- no JSON boundary between JS and Erlang\n- built-in TypeScript, npm support, and native addons\nQuickBEAM is part of Elixir Volt — a full-stack frontend toolchain built on Erlang/OTP with no Node.js.\nStill early, feedback welcome.\nComments URL: https://news.ycombinator.com/item?id=47558094\nPoints: 53\n# Comments: 8",
@@ -1283,6 +1303,16 @@
           "publishedOn": "2026-03-28T16:29:28.000Z",
           "wordCount": null,
           "title": "What major works of literature were written after age of 85? 75? 65?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47556074",
+          "author": "kencausey",
+          "description": "Article URL: https://www.os2museum.com/wp/learn-something-old-every-day-part-xviii-how-does-fpu-detection-work/\nComments URL: https://news.ycombinator.com/item?id=47556074\nPoints: 51\n# Comments: 5",
+          "link": "https://www.os2museum.com/wp/learn-something-old-every-day-part-xviii-how-does-fpu-detection-work/",
+          "publishedOn": "2026-03-28T16:29:16.000Z",
+          "wordCount": 7525,
+          "title": "Learn Something Old Every Day, Part XVIII: How Does FPU Detection Work?",
           "imageUrl": null
         },
         {
@@ -13674,36 +13704,6 @@
           "wordCount": 5688,
           "title": "Show HN: I built a sub-500ms latency voice agent from scratch",
           "imageUrl": "https://ntik.me/voice-agent-essay/agent-logs.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47224118",
-          "author": "Udo_Schmitz",
-          "description": "Article URL: https://take.surf/2026/03/01/welcome-back-to-macintosh\nComments URL: https://news.ycombinator.com/item?id=47224118\nPoints: 82\n# Comments: 32",
-          "link": "https://take.surf/2026/03/01/welcome-back-to-macintosh",
-          "publishedOn": "2026-03-02T21:09:47.000Z",
-          "wordCount": 1416,
-          "title": "Welcome (back) to Macintosh",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47223620",
-          "author": "ireflect",
-          "description": "Article URL: https://www.cbc.ca/news/canada/british-columbia/b-c-adopting-year-round-daylight-time-9.7111657\nComments URL: https://news.ycombinator.com/item?id=47223620\nPoints: 84\n# Comments: 37",
-          "link": "https://www.cbc.ca/news/canada/british-columbia/b-c-adopting-year-round-daylight-time-9.7111657",
-          "publishedOn": "2026-03-02T20:30:52.000Z",
-          "wordCount": 2069,
-          "title": "British Columbia to end time changes, adopt year-round daylight time",
-          "imageUrl": "https://i.cbc.ca/ais/e05ac456-325f-4c44-be1c-7a8afbc5f642,1772483908625/full/max/0/default.jpg?im=Crop%2Crect%3D%281%2C0%2C1289%2C725%29%3BResize%3D620"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47223147",
-          "author": "shraiwi",
-          "description": "A filter list for uBO that blurs all video and non-follower content from Instagram. Works on mobile with uBO Lite.\nrelated: https://news.ycombinator.com/item?id=47016443\nComments URL: https://news.ycombinator.com/item?id=47223147\nPoints: 50\n# Comments: 15",
-          "link": "https://gist.github.com/shraiwi/009c652da6ce8c99a6e1e0c86fe66886",
-          "publishedOn": "2026-03-02T19:50:32.000Z",
-          "wordCount": 411,
-          "title": "Show HN: uBlock filter list to blur all Instagram Reels",
-          "imageUrl": "https://github.githubassets.com/assets/gist-og-image-54fd7dc0713e.png"
         }
       ]
     }
