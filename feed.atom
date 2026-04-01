@@ -2,10 +2,62 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-04-01T19:12:25.005Z</updated>
+    <updated>2026-04-01T20:53:32.447Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Apple at 50]]></title>
+        <id>https://news.ycombinator.com/item?id=47604897</id>
+        <link href="https://www.apple.com/"/>
+        <updated>2026-04-01T18:48:30.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.apple.com/
+Comments URL: https://news.ycombinator.com/item?id=47604897
+Points: 61
+# Comments: 30]]></summary>
+        <author>
+            <name>janandonly</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[TurboQuant KV Compression and SSD Expert Streaming for M5 Pro and IOS]]></title>
+        <id>https://news.ycombinator.com/item?id=47604354</id>
+        <link href="https://github.com/SharpAI/SwiftLM"/>
+        <updated>2026-04-01T18:06:00.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://github.com/SharpAI/SwiftLM
+Comments URL: https://news.ycombinator.com/item?id=47604354
+Points: 65
+# Comments: 37]]></summary>
+        <author>
+            <name>aegis_camera</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Ukrainian Drone Holds Position for 6 Weeks]]></title>
+        <id>https://news.ycombinator.com/item?id=47604245</id>
+        <link href="https://defenceleaders.com/news/ukrainian-combat-robot-holds-frontline-position-for-six-weeks-in-sign-of-growing-ugv-maturity/"/>
+        <updated>2026-04-01T17:57:40.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://defenceleaders.com/news/ukrainian-combat-robot-holds-frontline-position-for-six-weeks-in-sign-of-growing-ugv-maturity/
+Comments URL: https://news.ycombinator.com/item?id=47604245
+Points: 90
+# Comments: 61]]></summary>
+        <author>
+            <name>AftHurrahWinch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The AI Marketing BS Index]]></title>
+        <id>https://news.ycombinator.com/item?id=47604218</id>
+        <link href="https://bastian.rieck.me/blog/2026/bs/"/>
+        <updated>2026-04-01T17:55:12.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://bastian.rieck.me/blog/2026/bs/
+Comments URL: https://news.ycombinator.com/item?id=47604218
+Points: 66
+# Comments: 9]]></summary>
+        <author>
+            <name>speckx</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[AI for American-Produced Cement and Concrete]]></title>
         <id>https://news.ycombinator.com/item?id=47603737</id>
@@ -43,6 +95,27 @@ Points: 62
 # Comments: 38]]></summary>
         <author>
             <name>WhyNotHugo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Real-time dashboard for Claude Code agent teams]]></title>
+        <id>https://news.ycombinator.com/item?id=47602986</id>
+        <link href="https://github.com/simple10/agents-observe"/>
+        <updated>2026-04-01T16:24:28.000Z</updated>
+        <summary type="html"><![CDATA[This project (Agents Observe) started as an exploration into building automation harnesses around claude code. I needed a way to see exactly what teams of agents were doing in realtime and to filter and search their output.
+A few interesting learnings from building and using this:
+- Claude code hooks are blocking - performance degrades rapidly if you have a lot of plugins that use hooks
+- Hooks provide a lot more useful info than OTEL data
+- Claude's jsonl files provide the full picture
+- Lifecycle management of MCP processes started by plugins is a bit kludgy at best
+The biggest takeaway is how much of a difference it made in claude performance when I switched to background (fire and forget) hooks and removed all other plugins. It's easy to forget how many claude plugins I've installed and how they effect performance.
+The Agents Observe plugin uses docker to start the API and dashboard service. This is a pattern I'd love to see used more often for security (think Axios hack) reasons. The tricky bit was handling process management across multiple claude instances - the solution was to have the server track active connections then auto shut itself down when not in use. Then the plugin spins it back up when a new session is started.
+This tool has been incredibly useful for my own daily workflow. Enjoy!
+Comments URL: https://news.ycombinator.com/item?id=47602986
+Points: 57
+# Comments: 20]]></summary>
+        <author>
+            <name>simple10</name>
         </author>
     </entry>
     <entry>
@@ -999,6 +1072,32 @@ Points: 137
 # Comments: 123]]></summary>
         <author>
             <name>latentframe</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Zerobox – Sandbox any command with file, network, credential controls]]></title>
+        <id>https://news.ycombinator.com/item?id=47574871</id>
+        <link href="https://github.com/afshinm/zerobox"/>
+        <updated>2026-03-30T14:32:36.000Z</updated>
+        <summary type="html"><![CDATA[I'm excited to introduce Zerobox, a cross-platform, single binary process sandboxing CLI written in Rust. It uses the sandboxing crates from the OpenAI Codex repo and adds additional functionalities like secret injection, SDK, etc.
+Watch the demo: https://www.youtube.com/watch?v=wZiPm9BOPCg
+Zerobox follows the same sandboxing policy as Deno which is deny by default. The only operation that the command can run is reading files, all writes and network I/O are blocked by default. No VMs, no Docker, no remote servers.
+Want to block reads to /etc?
+  zerobox --deny-read=/etc -- cat /etc/passwd
+
+  cat: /etc/passwd: Operation not permitted
+
+Zerobox wraps any commands/programs, runs an MITM proxy and uses the native sandboxing solutions on each operating system (e.g BubbleWrap on Linux) to run the given process in a sandbox. The MITM proxy has two jobs: blocking network calls and injecting credentials at the network level.
+Think of it this way, I want to inject "Bearer OPENAI_API_KEY" but I don't want my sandboxed command to know about it, Zerobox does that by replacing "OPENAI_API_KEY" with a placeholder, then replaces it when the actual outbound network call is made, see this example:
+  zerobox --secret OPENAI_API_KEY=$OPENAI_API_KEY --secret-host OPENAI_API_KEY=api.openai.com -- bun agent.ts
+
+The next thing I'm exploring is `zerobox claude` or `zerobox openclaw` which would wrap the entire agent and preload the correct policy profiles.
+I'd love to hear your feedback, especially if you are running AI Agents (e.g. OpenClaw), MCPs, AI Tools locally.
+Comments URL: https://news.ycombinator.com/item?id=47574871
+Points: 63
+# Comments: 64]]></summary>
+        <author>
+            <name>afshinmeh</name>
         </author>
     </entry>
     <entry>
@@ -18383,19 +18482,6 @@ Points: 62
 # Comments: 30]]></summary>
         <author>
             <name>FrasiertheLion</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Arm's Cortex X925: Reaching Desktop Performance]]></title>
-        <id>https://news.ycombinator.com/item?id=47229344</id>
-        <link href="https://chipsandcheese.com/p/arms-cortex-x925-reaching-desktop"/>
-        <updated>2026-03-03T07:34:47.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://chipsandcheese.com/p/arms-cortex-x925-reaching-desktop
-Comments URL: https://news.ycombinator.com/item?id=47229344
-Points: 67
-# Comments: 9]]></summary>
-        <author>
-            <name>ingve</name>
         </author>
     </entry>
 </feed>
