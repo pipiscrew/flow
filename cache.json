@@ -2016,6 +2016,16 @@
           "imageUrl": null
         },
         {
+          "id": "https://news.ycombinator.com/item?id=47560959",
+          "author": "sthottingal",
+          "description": "A developer's machine accumulates tools fast. A Rust CLI you compiled last year, a Python formatter installed via `uv`, a language server pulled from npm, a terminal emulator from a curl script, a Go binary built from source. Each came from a different package manager, each with its own install incantation you half-remember.\nI wanted a way to declare what I need without adopting a complex system like Nix or Ansible just for a single laptop. The result was a plain old Makefile.\nI wrote a short post on using Make (along with a tiny bash script and fzf) to create a searchable, single-command registry for all your local dev tools. It’s not a new framework or a heavy tool—just a simple way to organize the package managers we already use.\nIf you're tired of losing track of your local environment, you might find it useful.\nComments URL: https://news.ycombinator.com/item?id=47560959\nPoints: 50\n# Comments: 31",
+          "link": "https://thottingal.in/blog/2026/03/29/home-maker/",
+          "publishedOn": "2026-03-29T06:56:04.000Z",
+          "wordCount": null,
+          "title": "Show HN: Home Maker: Declare Your Dev Tools in a Makefile",
+          "imageUrl": null
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=47560380",
           "author": "wangzhangwu",
           "description": "Article URL: https://github.com/openyak/desktop\nComments URL: https://news.ycombinator.com/item?id=47560380\nPoints: 58\n# Comments: 23",
@@ -13604,76 +13614,6 @@
           "wordCount": 3014,
           "title": "BMW Group to deploy humanoid robots in production in Germany for the first time",
           "imageUrl": "https://mediapool.bmwgroup.com/cache/P9/202602/P90630889/P90630889-humanoid-robotics-at-bmw-group-plant-leipzig-02-2026-2250px.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47253364",
-          "author": "speckx",
-          "description": "Article URL: https://hannahritchie.github.io/energy-use-comparisons/\nComments URL: https://news.ycombinator.com/item?id=47253364\nPoints: 54\n# Comments: 33",
-          "link": "https://hannahritchie.github.io/energy-use-comparisons/",
-          "publishedOn": "2026-03-04T20:30:16.000Z",
-          "wordCount": 8589,
-          "title": "Does that use a lot of energy?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47253221",
-          "author": "Curiositry",
-          "description": "Article URL: https://www.carolinecrampton.com/the-view-from-rss/\nComments URL: https://news.ycombinator.com/item?id=47253221\nPoints: 76\n# Comments: 19",
-          "link": "https://www.carolinecrampton.com/the-view-from-rss/",
-          "publishedOn": "2026-03-04T20:19:43.000Z",
-          "wordCount": 1715,
-          "title": "The View from RSS",
-          "imageUrl": "https://www.carolinecrampton.com/content/images/size/w1200/2025/02/Caroline-Crampton-005-3.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47253177",
-          "author": "TechPlasma",
-          "description": "Article URL: https://bill.newgrounds.com/news/post/1607118\nComments URL: https://news.ycombinator.com/item?id=47253177\nPoints: 107\n# Comments: 17",
-          "link": "https://bill.newgrounds.com/news/post/1607118",
-          "publishedOn": "2026-03-04T20:16:03.000Z",
-          "wordCount": null,
-          "title": "Building a new flash",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47253160",
-          "author": "SeenNotHeard",
-          "description": "Article URL: https://retrocomputing.stackexchange.com/questions/32511/was-windows-1-0s-lack-of-overlapping-windows-a-legal-or-a-technical-matter\nComments URL: https://news.ycombinator.com/item?id=47253160\nPoints: 54\n# Comments: 34",
-          "link": "https://retrocomputing.stackexchange.com/questions/32511/was-windows-1-0s-lack-of-overlapping-windows-a-legal-or-a-technical-matter",
-          "publishedOn": "2026-03-04T20:15:06.000Z",
-          "wordCount": 3749,
-          "title": "Was Windows 1.0's lack of overlapping windows a legal or a technical matter?",
-          "imageUrl": "https://retrocomputing.stackexchange.com/Content/Sites/retrocomputing/Img/apple-touch-icon@2.png?v=6b27f39a6023"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47252971",
-          "author": "marvinborner",
-          "description": "Article URL: https://mas.to/@gabrielesvelto/116171750653898304\nComments URL: https://news.ycombinator.com/item?id=47252971\nPoints: 156\n# Comments: 60",
-          "link": "https://mas.to/@gabrielesvelto/116171750653898304",
-          "publishedOn": "2026-03-04T19:58:24.000Z",
-          "wordCount": 223,
-          "title": "10% of Firefox crashes are caused by bitflips",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47252838",
-          "author": "tartoran",
-          "description": "Article URL: https://www.bbc.com/news/articles/czx44p99457o\nComments URL: https://news.ycombinator.com/item?id=47252838\nPoints: 106\n# Comments: 118",
-          "link": "https://www.bbc.com/news/articles/czx44p99457o",
-          "publishedOn": "2026-03-04T19:48:07.000Z",
-          "wordCount": 5702,
-          "title": "Father claims Google's AI product fuelled son's delusional spiral",
-          "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/751c/live/5c2e63d0-17f0-11f1-b048-c9424b2cf5fd.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47252726",
-          "author": "_____k",
-          "description": "Article URL: https://www.engadget.com/apps/google-ends-its-30-percent-app-store-fee-and-welcomes-third-party-app-stores-185248647.html\nComments URL: https://news.ycombinator.com/item?id=47252726\nPoints: 107\n# Comments: 30",
-          "link": "https://www.engadget.com/apps/google-ends-its-30-percent-app-store-fee-and-welcomes-third-party-app-stores-185248647.html",
-          "publishedOn": "2026-03-04T19:40:22.000Z",
-          "wordCount": 6326,
-          "title": "Google ends its 30 percent app store fee and welcomes third-party app stores",
-          "imageUrl": "https://s.yimg.com/ny/api/res/1.2/b_XfKT3BtoXXldpUdQVA7A--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MDA-/https://d29szjachogqwa.cloudfront.net/images/2026-03/4b9f51cd-4f2d-4ef0-9b06-c58ac5584971"
         }
       ]
     }

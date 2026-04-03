@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-04-03T07:18:49.439Z</updated>
+    <updated>2026-04-03T09:02:44.025Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
@@ -2673,6 +2673,22 @@ Points: 72
 # Comments: 38]]></summary>
         <author>
             <name>adlrocha</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Home Maker: Declare Your Dev Tools in a Makefile]]></title>
+        <id>https://news.ycombinator.com/item?id=47560959</id>
+        <link href="https://thottingal.in/blog/2026/03/29/home-maker/"/>
+        <updated>2026-03-29T06:56:04.000Z</updated>
+        <summary type="html"><![CDATA[A developer's machine accumulates tools fast. A Rust CLI you compiled last year, a Python formatter installed via `uv`, a language server pulled from npm, a terminal emulator from a curl script, a Go binary built from source. Each came from a different package manager, each with its own install incantation you half-remember.
+I wanted a way to declare what I need without adopting a complex system like Nix or Ansible just for a single laptop. The result was a plain old Makefile.
+I wrote a short post on using Make (along with a tiny bash script and fzf) to create a searchable, single-command registry for all your local dev tools. It’s not a new framework or a heavy tool—just a simple way to organize the package managers we already use.
+If you're tired of losing track of your local environment, you might find it useful.
+Comments URL: https://news.ycombinator.com/item?id=47560959
+Points: 50
+# Comments: 31]]></summary>
+        <author>
+            <name>sthottingal</name>
         </author>
     </entry>
     <entry>
@@ -18202,97 +18218,6 @@ Points: 88
 # Comments: 72]]></summary>
         <author>
             <name>JeanKage</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Does that use a lot of energy?]]></title>
-        <id>https://news.ycombinator.com/item?id=47253364</id>
-        <link href="https://hannahritchie.github.io/energy-use-comparisons/"/>
-        <updated>2026-03-04T20:30:16.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://hannahritchie.github.io/energy-use-comparisons/
-Comments URL: https://news.ycombinator.com/item?id=47253364
-Points: 54
-# Comments: 33]]></summary>
-        <author>
-            <name>speckx</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The View from RSS]]></title>
-        <id>https://news.ycombinator.com/item?id=47253221</id>
-        <link href="https://www.carolinecrampton.com/the-view-from-rss/"/>
-        <updated>2026-03-04T20:19:43.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.carolinecrampton.com/the-view-from-rss/
-Comments URL: https://news.ycombinator.com/item?id=47253221
-Points: 76
-# Comments: 19]]></summary>
-        <author>
-            <name>Curiositry</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Building a new flash]]></title>
-        <id>https://news.ycombinator.com/item?id=47253177</id>
-        <link href="https://bill.newgrounds.com/news/post/1607118"/>
-        <updated>2026-03-04T20:16:03.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://bill.newgrounds.com/news/post/1607118
-Comments URL: https://news.ycombinator.com/item?id=47253177
-Points: 107
-# Comments: 17]]></summary>
-        <author>
-            <name>TechPlasma</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Was Windows 1.0's lack of overlapping windows a legal or a technical matter?]]></title>
-        <id>https://news.ycombinator.com/item?id=47253160</id>
-        <link href="https://retrocomputing.stackexchange.com/questions/32511/was-windows-1-0s-lack-of-overlapping-windows-a-legal-or-a-technical-matter"/>
-        <updated>2026-03-04T20:15:06.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://retrocomputing.stackexchange.com/questions/32511/was-windows-1-0s-lack-of-overlapping-windows-a-legal-or-a-technical-matter
-Comments URL: https://news.ycombinator.com/item?id=47253160
-Points: 54
-# Comments: 34]]></summary>
-        <author>
-            <name>SeenNotHeard</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[10% of Firefox crashes are caused by bitflips]]></title>
-        <id>https://news.ycombinator.com/item?id=47252971</id>
-        <link href="https://mas.to/@gabrielesvelto/116171750653898304"/>
-        <updated>2026-03-04T19:58:24.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://mas.to/@gabrielesvelto/116171750653898304
-Comments URL: https://news.ycombinator.com/item?id=47252971
-Points: 156
-# Comments: 60]]></summary>
-        <author>
-            <name>marvinborner</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Father claims Google's AI product fuelled son's delusional spiral]]></title>
-        <id>https://news.ycombinator.com/item?id=47252838</id>
-        <link href="https://www.bbc.com/news/articles/czx44p99457o"/>
-        <updated>2026-03-04T19:48:07.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.bbc.com/news/articles/czx44p99457o
-Comments URL: https://news.ycombinator.com/item?id=47252838
-Points: 106
-# Comments: 118]]></summary>
-        <author>
-            <name>tartoran</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Google ends its 30 percent app store fee and welcomes third-party app stores]]></title>
-        <id>https://news.ycombinator.com/item?id=47252726</id>
-        <link href="https://www.engadget.com/apps/google-ends-its-30-percent-app-store-fee-and-welcomes-third-party-app-stores-185248647.html"/>
-        <updated>2026-03-04T19:40:22.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.engadget.com/apps/google-ends-its-30-percent-app-store-fee-and-welcomes-third-party-app-stores-185248647.html
-Comments URL: https://news.ycombinator.com/item?id=47252726
-Points: 107
-# Comments: 30]]></summary>
-        <author>
-            <name>_____k</name>
         </author>
     </entry>
 </feed>
