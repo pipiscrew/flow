@@ -2,10 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-04-04T18:52:55.339Z</updated>
+    <updated>2026-04-04T19:35:53.923Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Scientists observe an immune signaling complex forming inside cells]]></title>
+        <id>https://news.ycombinator.com/item?id=47641464</id>
+        <link href="https://news.stanford.edu/stories/2026/03/immune-response-inside-cells-inflammation-research"/>
+        <updated>2026-04-04T17:52:55.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://news.stanford.edu/stories/2026/03/immune-response-inside-cells-inflammation-research
+Comments URL: https://news.ycombinator.com/item?id=47641464
+Points: 53
+# Comments: 4]]></summary>
+        <author>
+            <name>ohjeez</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Show HN: A game where you build a GPU]]></title>
         <id>https://news.ycombinator.com/item?id=47640728</id>
@@ -56,6 +69,34 @@ Points: 83
 # Comments: 40]]></summary>
         <author>
             <name>L_226</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: sllm – Split a GPU node with other developers, unlimited tokens]]></title>
+        <id>https://news.ycombinator.com/item?id=47639779</id>
+        <link href="https://sllm.cloud/"/>
+        <updated>2026-04-04T15:18:58.000Z</updated>
+        <summary type="html"><![CDATA[Running DeepSeek V3 (685B) requires 8×H100 GPUs which is about $14k/month. Most developers only need 15-25 tok/s. sllm lets you join a cohort of developers sharing a dedicated node. You reserve a spot with your card, and nobody is charged until the cohort fills. Prices start at $5/mo for smaller models.
+The LLMs are completely private (we don't log any traffic).
+The API is OpenAI-compatible (we run vLLM), so you just swap the base URL. Currently offering a few models.
+Comments URL: https://news.ycombinator.com/item?id=47639779
+Points: 57
+# Comments: 35]]></summary>
+        <author>
+            <name>jrandolf</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[When legal sports betting surges, so do Americans' financial problems]]></title>
+        <id>https://news.ycombinator.com/item?id=47639727</id>
+        <link href="https://www.npr.org/2026/04/04/nx-s1-5773354/legal-sports-betting-research-credit-bankruptcy"/>
+        <updated>2026-04-04T15:14:06.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.npr.org/2026/04/04/nx-s1-5773354/legal-sports-betting-research-credit-bankruptcy
+Comments URL: https://news.ycombinator.com/item?id=47639727
+Points: 63
+# Comments: 36]]></summary>
+        <author>
+            <name>pseudolus</name>
         </author>
     </entry>
     <entry>
@@ -18224,19 +18265,6 @@ Points: 73
 # Comments: 24]]></summary>
         <author>
             <name>tobr</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Dumping Lego NXT firmware off of an existing brick]]></title>
-        <id>https://news.ycombinator.com/item?id=47271988</id>
-        <link href="https://arcanenibble.github.io/dumping-lego-nxt-firmware-off-of-an-existing-brick.html"/>
-        <updated>2026-03-06T07:17:48.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://arcanenibble.github.io/dumping-lego-nxt-firmware-off-of-an-existing-brick.html
-Comments URL: https://news.ycombinator.com/item?id=47271988
-Points: 75
-# Comments: 5]]></summary>
-        <author>
-            <name>theblazehen</name>
         </author>
     </entry>
 </feed>
