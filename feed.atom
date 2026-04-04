@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-04-04T06:03:03.763Z</updated>
+    <updated>2026-04-04T07:51:04.352Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
@@ -17,6 +17,27 @@ Points: 66
 # Comments: 23]]></summary>
         <author>
             <name>lxm</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Travel Hacking Toolkit – Points search and trip planning with AI]]></title>
+        <id>https://news.ycombinator.com/item?id=47635033</id>
+        <link href="https://github.com/borski/travel-hacking-toolkit"/>
+        <updated>2026-04-04T02:26:42.000Z</updated>
+        <summary type="html"><![CDATA[I use points and miles for most of my travel. Every booking comes down to the same decision: use points or pay cash? To answer that, you need award availability across multiple programs, cash prices, your current balances, transfer partner ratios, and the math to compare them. I got tired of doing it manually across a dozen tabs.
+This toolkit teaches Claude Code and OpenCode how to do it. 7 skills (markdown files with API docs and curl examples) and 6 MCP servers (real-time tools the AI calls directly).
+It searches award flights across 25+ mileage programs (Seats.aero), compares cash prices (Google Flights, Skiplagged, Kiwi.com, Duffel), pulls your loyalty balances (AwardWallet), searches hotels (Trivago, LiteAPI, Airbnb, Booking.com), finds ferry routes across 33 countries, and looks up weird hidden gems near your destination (Atlas Obscura).
+Reference data is included: transfer partner ratios for Chase UR, Amex MR, Bilt, Capital One, and Citi TY. Point valuations sourced from TPG, Upgraded Points, OMAAT, and View From The Wing. Alliance membership, sweet spot redemptions, booking windows, hotel chain brand lookups.
+5 of the 6 MCP servers need zero API keys. Clone, run setup.sh, start 
+searching.
+Skills are, as usual, plain markdown. They work in OpenCode and Claude Code automatically (I added a tiny setup script), and they'll work in anything else that supports skills.
+PRs welcome! Help me expand the toolkit! :)
+https://github.com/borski/travel-hacking-toolkit
+Comments URL: https://news.ycombinator.com/item?id=47635033
+Points: 60
+# Comments: 27]]></summary>
+        <author>
+            <name>borski</name>
         </author>
     </entry>
     <entry>
@@ -18142,124 +18163,6 @@ Points: 53
 # Comments: 7]]></summary>
         <author>
             <name>apwheele</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Pentagon Formally Labels Anthropic Supply-Chain Risk]]></title>
-        <id>https://news.ycombinator.com/item?id=47266084</id>
-        <link href="https://www.wsj.com/politics/national-security/pentagon-formally-labels-anthropic-supply-chain-risk-escalating-conflict-ebdf0523"/>
-        <updated>2026-03-05T19:24:35.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.wsj.com/politics/national-security/pentagon-formally-labels-anthropic-supply-chain-risk-escalating-conflict-ebdf0523
-Comments URL: https://news.ycombinator.com/item?id=47266084
-Points: 163
-# Comments: 59]]></summary>
-        <author>
-            <name>klausa</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Let's Get Physical]]></title>
-        <id>https://news.ycombinator.com/item?id=47266030</id>
-        <link href="https://m4iler.cloud/posts/lets-get-physical/"/>
-        <updated>2026-03-05T19:21:03.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://m4iler.cloud/posts/lets-get-physical/
-Comments URL: https://news.ycombinator.com/item?id=47266030
-Points: 61
-# Comments: 10]]></summary>
-        <author>
-            <name>MBCook</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[OpenTitan Shipping in Production]]></title>
-        <id>https://news.ycombinator.com/item?id=47265619</id>
-        <link href="https://opensource.googleblog.com/2026/03/opentitan-shipping-in-production.html"/>
-        <updated>2026-03-05T18:50:33.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://opensource.googleblog.com/2026/03/opentitan-shipping-in-production.html
-Comments URL: https://news.ycombinator.com/item?id=47265619
-Points: 66
-# Comments: 7]]></summary>
-        <author>
-            <name>rayhaanj</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Remotely unlocking an encrypted hard disk]]></title>
-        <id>https://news.ycombinator.com/item?id=47265521</id>
-        <link href="https://jyn.dev/remotely-unlocking-an-encrypted-hard-disk/"/>
-        <updated>2026-03-05T18:43:59.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://jyn.dev/remotely-unlocking-an-encrypted-hard-disk/
-Comments URL: https://news.ycombinator.com/item?id=47265521
-Points: 62
-# Comments: 38]]></summary>
-        <author>
-            <name>janandonly</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[US asked Ukraine for help fighting Iranian drones, Zelensky says]]></title>
-        <id>https://news.ycombinator.com/item?id=47265291</id>
-        <link href="https://www.bbc.com/news/articles/cr5llg0e9g9o"/>
-        <updated>2026-03-05T18:27:33.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.bbc.com/news/articles/cr5llg0e9g9o
-Comments URL: https://news.ycombinator.com/item?id=47265291
-Points: 67
-# Comments: 31]]></summary>
-        <author>
-            <name>tartoran</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GPT 5.4 Thinking and Pro]]></title>
-        <id>https://news.ycombinator.com/item?id=47265150</id>
-        <link href="https://twitter.com/OpenAI/status/2029620619743219811"/>
-        <updated>2026-03-05T18:16:07.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://twitter.com/OpenAI/status/2029620619743219811
-Comments URL: https://news.ycombinator.com/item?id=47265150
-Points: 60
-# Comments: 10]]></summary>
-        <author>
-            <name>twtw99</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GPT-5.4 Thinking and GPT-5.4 Pro]]></title>
-        <id>https://news.ycombinator.com/item?id=47265089</id>
-        <link href="https://twitter.com/i/status/2029620619743219811"/>
-        <updated>2026-03-05T18:11:28.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://twitter.com/i/status/2029620619743219811
-Comments URL: https://news.ycombinator.com/item?id=47265089
-Points: 89
-# Comments: 22]]></summary>
-        <author>
-            <name>denysvitali</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GPT-5.4]]></title>
-        <id>https://news.ycombinator.com/item?id=47265045</id>
-        <link href="https://openai.com/index/introducing-gpt-5-4/"/>
-        <updated>2026-03-05T18:08:10.000Z</updated>
-        <summary type="html"><![CDATA[https://openai.com/index/gpt-5-4-thinking-system-card/
-https://x.com/OpenAI/status/2029620619743219811
-Comments URL: https://news.ycombinator.com/item?id=47265045
-Points: 316
-# Comments: 293]]></summary>
-        <author>
-            <name>mudkipdev</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GPT-5.4 Thinking System Card]]></title>
-        <id>https://news.ycombinator.com/item?id=47265045</id>
-        <link href="https://openai.com/index/gpt-5-4-thinking-system-card/"/>
-        <updated>2026-03-05T18:08:10.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://openai.com/index/gpt-5-4-thinking-system-card/
-Comments URL: https://news.ycombinator.com/item?id=47265045
-Points: 175
-# Comments: 113]]></summary>
-        <author>
-            <name>mudkipdev</name>
         </author>
     </entry>
 </feed>
