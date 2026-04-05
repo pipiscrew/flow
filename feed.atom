@@ -2,10 +2,36 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-04-04T23:38:02.417Z</updated>
+    <updated>2026-04-05T03:19:57.179Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Shooting down ideas is not a skill]]></title>
+        <id>https://news.ycombinator.com/item?id=47645037</id>
+        <link href="https://scottlawsonbc.com/post/shooting-down-ideas"/>
+        <updated>2026-04-05T00:42:42.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://scottlawsonbc.com/post/shooting-down-ideas
+Comments URL: https://news.ycombinator.com/item?id=47645037
+Points: 96
+# Comments: 91]]></summary>
+        <author>
+            <name>zdw</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AWS Engineer Reports PostgreSQL Perf Halved by Linux 7.0, Fix May Not Be Easy]]></title>
+        <id>https://news.ycombinator.com/item?id=47644864</id>
+        <link href="https://www.phoronix.com/news/Linux-7.0-AWS-PostgreSQL-Drop"/>
+        <updated>2026-04-05T00:13:55.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.phoronix.com/news/Linux-7.0-AWS-PostgreSQL-Drop
+Comments URL: https://news.ycombinator.com/item?id=47644864
+Points: 132
+# Comments: 32]]></summary>
+        <author>
+            <name>crcastle</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[How many products does Microsoft have named 'Copilot'?]]></title>
         <id>https://news.ycombinator.com/item?id=47642569</id>
@@ -56,6 +82,20 @@ Points: 53
 # Comments: 4]]></summary>
         <author>
             <name>ohjeez</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[LLM Wiki – example of an "idea file"]]></title>
+        <id>https://news.ycombinator.com/item?id=47640875</id>
+        <link href="https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f"/>
+        <updated>2026-04-04T16:57:45.000Z</updated>
+        <summary type="html"><![CDATA[https://x.com/karpathy/status/2040470801506541998
+https://xcancel.com/karpathy/status/2040470801506541998
+Comments URL: https://news.ycombinator.com/item?id=47640875
+Points: 87
+# Comments: 20]]></summary>
+        <author>
+            <name>tamnd</name>
         </author>
     </entry>
     <entry>
@@ -175,6 +215,19 @@ Points: 59
 # Comments: 6]]></summary>
         <author>
             <name>macleginn</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: I made open source, zero power PCB hackathon badges]]></title>
+        <id>https://news.ycombinator.com/item?id=47639303</id>
+        <link href="https://github.com/KaiPereira/Overglade-Badges"/>
+        <updated>2026-04-04T14:20:21.000Z</updated>
+        <summary type="html"><![CDATA[I love getting cool swag from hackathons and I also love designing PCB's, so when my friend asked me if I would design hackathon badges for a large game jam in singapore, I was absolutely down!
+The theme of overglade was a "The game jam within a game", pretty cool concept right! High schoolers from around the world were flown out to the event by hackclub after they spent about 70 hours designing their own game.
+These badges needed to be really cheap and simple, because we were going to manufacture about a hundred in a pretty limited amount of time. I went with a zero-power approach, which means sticking with e-inks, and I decided to include NFC if the organizers wanted to introduce it into the roleplay of the event, and so participants could add their website or github if they so choose!
+I…]]></summary>
+        <author>
+            <name>kaipereira</name>
         </author>
     </entry>
     <entry>
@@ -18145,152 +18198,6 @@ Points: 66
 # Comments: 11]]></summary>
         <author>
             <name>fortran77</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A tool that removes censorship from open-weight LLMs]]></title>
-        <id>https://news.ycombinator.com/item?id=47275291</id>
-        <link href="https://github.com/elder-plinius/OBLITERATUS"/>
-        <updated>2026-03-06T14:27:55.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://github.com/elder-plinius/OBLITERATUS
-Comments URL: https://news.ycombinator.com/item?id=47275291
-Points: 58
-# Comments: 27]]></summary>
-        <author>
-            <name>mvdwoord</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: Moongate – Ultima Online server emulator in .NET 10 with Lua scripting]]></title>
-        <id>https://news.ycombinator.com/item?id=47275236</id>
-        <link href="https://github.com/moongate-community/moongatev2"/>
-        <updated>2026-03-06T14:22:59.000Z</updated>
-        <summary type="html"><![CDATA[I've been building a modern Ultima Online server emulator from scratch. It's not feature-complete (no combat, no skills yet), but the foundation is solid and I wanted to share it early.
-What it does today:
-- Full packet layer for the classic UO client (login, movement, items, mobiles)
-- Lua scripting for item behaviors (double-click a potion, open a door — all defined in Lua, no C# recompile)
-- Spatial world partitioned into sectors with delta sync (only sends packets for new sectors when crossing boundaries)
-- Snapshot-based persistence with MessagePack
-- Source generators for automatic DI wiring, packet handler registration, and Lua module exposure
-- NativeAOT support — the server compiles to a single native binary
-- Embedded HTTP admin API + React management UI
-- Auto-generated doors from map statics (same algorithm as ModernUO/RunUO)
-Tech stack: .NET 10, NativeAOT, NLua, MessagePack, DryIoc, Kestrel
-What's missing: Combat, skills, weather integration, NPC AI. This is still early — the focus so far has been on getting the architecture right so adding those systems doesn't require rewiring everything.
-Why not just use ModernUO/RunUO? Those are mature and battle-tested. I started this because I wanted to rethink the architecture from scratch: strict network/domain separation, event-driven game loop, no
-  inheritance-heavy item hierarchies, and Lua for rapid iteration on game logic without recompiling.
-GitHub: https://github.com/moongate-community/moongatev2
-Comments URL: https://news.ycombinator.com/item?id=47275236
-Points: 59
-# Comments: 39]]></summary>
-        <author>
-            <name>squidleon</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Good Bad ISPs]]></title>
-        <id>https://news.ycombinator.com/item?id=47275230</id>
-        <link href="https://community.torproject.org/relay/community-resources/good-bad-isps/"/>
-        <updated>2026-03-06T14:22:25.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://community.torproject.org/relay/community-resources/good-bad-isps/
-Comments URL: https://news.ycombinator.com/item?id=47275230
-Points: 52
-# Comments: 11]]></summary>
-        <author>
-            <name>rzk</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[CT Scans of Health Wearables]]></title>
-        <id>https://news.ycombinator.com/item?id=47275152</id>
-        <link href="https://www.lumafield.com/scan-of-the-month/health-wearables"/>
-        <updated>2026-03-06T14:16:06.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.lumafield.com/scan-of-the-month/health-wearables
-Comments URL: https://news.ycombinator.com/item?id=47275152
-Points: 51
-# Comments: 6]]></summary>
-        <author>
-            <name>radeeyate</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Global warming has accelerated significantly]]></title>
-        <id>https://news.ycombinator.com/item?id=47275088</id>
-        <link href="https://www.researchsquare.com/article/rs-6079807/v1"/>
-        <updated>2026-03-06T14:10:03.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.researchsquare.com/article/rs-6079807/v1
-Comments URL: https://news.ycombinator.com/item?id=47275088
-Points: 737
-# Comments: 714]]></summary>
-        <author>
-            <name>morsch</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Global Warming Has Accelerated Significantly]]></title>
-        <id>https://news.ycombinator.com/item?id=47275088</id>
-        <link href="https://www.researchgate.net/publication/389855619_Global_Warming_has_Accelerated_Significantly"/>
-        <updated>2026-03-06T14:10:03.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.researchgate.net/publication/389855619_Global_Warming_has_Accelerated_Significantly
-Comments URL: https://news.ycombinator.com/item?id=47275088
-Points: 246
-# Comments: 150]]></summary>
-        <author>
-            <name>morsch</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[US economy unexpectedly sheds 92,000 jobs in February]]></title>
-        <id>https://news.ycombinator.com/item?id=47275035</id>
-        <link href="https://www.bbc.com/news/articles/cjd98091g28o"/>
-        <updated>2026-03-06T14:04:18.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.bbc.com/news/articles/cjd98091g28o
-Comments URL: https://news.ycombinator.com/item?id=47275035
-Points: 91
-# Comments: 58]]></summary>
-        <author>
-            <name>smartbit</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Workers who love 'synergizing paradigms' might be bad at their jobs]]></title>
-        <id>https://news.ycombinator.com/item?id=47274676</id>
-        <link href="https://news.cornell.edu/stories/2026/03/workers-who-love-synergizing-paradigms-might-be-bad-their-jobs"/>
-        <updated>2026-03-06T13:30:54.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://news.cornell.edu/stories/2026/03/workers-who-love-synergizing-paradigms-might-be-bad-their-jobs
-Comments URL: https://news.ycombinator.com/item?id=47274676
-Points: 110
-# Comments: 51]]></summary>
-        <author>
-            <name>Anon84</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Hardening Firefox with Anthropic's Red Team]]></title>
-        <id>https://news.ycombinator.com/item?id=47273854</id>
-        <link href="https://www.anthropic.com/news/mozilla-firefox-security"/>
-        <updated>2026-03-06T11:53:18.000Z</updated>
-        <summary type="html"><![CDATA[The bugs are the ones that say "using Claude from Anthropic" here: https://www.mozilla.org/en-US/security/advisories/mfsa2026-1...
-https://blog.mozilla.org/en/firefox/hardening-firefox-anthro...
-https://www.wsj.com/tech/ai/send-us-more-anthropics-claude-s...
-Comments URL: https://news.ycombinator.com/item?id=47273854
-Points: 341
-# Comments: 106]]></summary>
-        <author>
-            <name>todsacerdoti</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Hardening Firefox with Anthropic's Red Team]]></title>
-        <id>https://news.ycombinator.com/item?id=47273854</id>
-        <link href="https://blog.mozilla.org/en/firefox/hardening-firefox-anthropic-red-team/"/>
-        <updated>2026-03-06T11:53:18.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://blog.mozilla.org/en/firefox/hardening-firefox-anthropic-red-team/
-Comments URL: https://news.ycombinator.com/item?id=47273854
-Points: 129
-# Comments: 37]]></summary>
-        <author>
-            <name>todsacerdoti</name>
         </author>
     </entry>
 </feed>

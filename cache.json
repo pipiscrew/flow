@@ -6,6 +6,26 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=47645037",
+          "author": "zdw",
+          "description": "Article URL: https://scottlawsonbc.com/post/shooting-down-ideas\nComments URL: https://news.ycombinator.com/item?id=47645037\nPoints: 96\n# Comments: 91",
+          "link": "https://scottlawsonbc.com/post/shooting-down-ideas",
+          "publishedOn": "2026-04-05T00:42:42.000Z",
+          "wordCount": 896,
+          "title": "Shooting down ideas is not a skill",
+          "imageUrl": "https://scottlawsonbc.com/static/shooting-down-ideas-02.jpeg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47644864",
+          "author": "crcastle",
+          "description": "Article URL: https://www.phoronix.com/news/Linux-7.0-AWS-PostgreSQL-Drop\nComments URL: https://news.ycombinator.com/item?id=47644864\nPoints: 132\n# Comments: 32",
+          "link": "https://www.phoronix.com/news/Linux-7.0-AWS-PostgreSQL-Drop",
+          "publishedOn": "2026-04-05T00:13:55.000Z",
+          "wordCount": 1976,
+          "title": "AWS Engineer Reports PostgreSQL Perf Halved by Linux 7.0, Fix May Not Be Easy",
+          "imageUrl": null
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=47642569",
           "author": "gpi",
           "description": "Article URL: https://teybannerman.com/strategy/2026/03/31/how-many-microsoft-copilot-are-there.html\nComments URL: https://news.ycombinator.com/item?id=47642569\nPoints: 151\n# Comments: 62",
@@ -44,6 +64,16 @@
           "wordCount": null,
           "title": "Scientists observe an immune signaling complex forming inside cells",
           "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47640875",
+          "author": "tamnd",
+          "description": "https://x.com/karpathy/status/2040470801506541998\nhttps://xcancel.com/karpathy/status/2040470801506541998\nComments URL: https://news.ycombinator.com/item?id=47640875\nPoints: 87\n# Comments: 20",
+          "link": "https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f",
+          "publishedOn": "2026-04-04T16:57:45.000Z",
+          "wordCount": 5784,
+          "title": "LLM Wiki – example of an \"idea file\"",
+          "imageUrl": "https://github.githubassets.com/assets/gist-og-image-54fd7dc0713e.png"
         },
         {
           "id": "https://news.ycombinator.com/item?id=47640775",
@@ -134,6 +164,16 @@
           "wordCount": 5343,
           "title": "Author of \"Careless People\" banned from saying anything negative about Meta",
           "imageUrl": "https://www.thetimes.com/imageserver/image/80f8b50f-9316-4fbc-80f9-c489aead39c8.jpg?strip=all&format=webp&crop=7979px%2C4488px%2C0px%2C421px&resize=1200"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47639303",
+          "author": "kaipereira",
+          "description": "I love getting cool swag from hackathons and I also love designing PCB's, so when my friend asked me if I would design hackathon badges for a large game jam in singapore, I was absolutely down!\nThe theme of overglade was a \"The game jam within a game\", pretty cool concept right! High schoolers from around the world were flown out to the event by hackclub after they spent about 70 hours designing their own game.\nThese badges needed to be really cheap and simple, because we were going to manufacture about a hundred in a pretty limited amount of time. I went with a zero-power approach, which means sticking with e-inks, and I decided to include NFC if the organizers wanted to introduce it into the roleplay of the event, and so participants could add their website or github if they so choose!\nI…",
+          "link": "https://github.com/KaiPereira/Overglade-Badges",
+          "publishedOn": "2026-04-04T14:20:21.000Z",
+          "wordCount": 1915,
+          "title": "Show HN: I made open source, zero power PCB hackathon badges",
+          "imageUrl": "https://opengraph.githubassets.com/b0101c45c6b4889de0e3d4332fd4d58404e5d6063805b2baab0129be7692859e/KaiPereira/Overglade-Badges"
         },
         {
           "id": "https://news.ycombinator.com/item?id=47639291",
@@ -13574,106 +13614,6 @@
           "wordCount": null,
           "title": "Paul Brainerd, Founder of Aldus PageMaker, has died",
           "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47275291",
-          "author": "mvdwoord",
-          "description": "Article URL: https://github.com/elder-plinius/OBLITERATUS\nComments URL: https://news.ycombinator.com/item?id=47275291\nPoints: 58\n# Comments: 27",
-          "link": "https://github.com/elder-plinius/OBLITERATUS",
-          "publishedOn": "2026-03-06T14:27:55.000Z",
-          "wordCount": 12038,
-          "title": "A tool that removes censorship from open-weight LLMs",
-          "imageUrl": "https://opengraph.githubassets.com/39d0031f6f6800bc7126852768e44543319eac88004ffa74a4d8012c28789c22/elder-plinius/OBLITERATUS"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47275236",
-          "author": "squidleon",
-          "description": "I've been building a modern Ultima Online server emulator from scratch. It's not feature-complete (no combat, no skills yet), but the foundation is solid and I wanted to share it early.\nWhat it does today:\n- Full packet layer for the classic UO client (login, movement, items, mobiles)\n- Lua scripting for item behaviors (double-click a potion, open a door — all defined in Lua, no C# recompile)\n- Spatial world partitioned into sectors with delta sync (only sends packets for new sectors when crossing boundaries)\n- Snapshot-based persistence with MessagePack\n- Source generators for automatic DI wiring, packet handler registration, and Lua module exposure\n- NativeAOT support — the server compiles to a single native binary\n- Embedded HTTP admin API + React management UI\n- Auto-generated doors from map statics (same algorithm as ModernUO/RunUO)\nTech stack: .NET 10, NativeAOT, NLua, MessagePack, DryIoc, Kestrel\nWhat's missing: Combat, skills, weather integration, NPC AI. This is still early — the focus so far has been on getting the architecture right so adding those systems doesn't require rewiring everything.\nWhy not just use ModernUO/RunUO? Those are mature and battle-tested. I started this because I wanted to rethink the architecture from scratch: strict network/domain separation, event-driven game loop, no\n  inheritance-heavy item hierarchies, and Lua for rapid iteration on game logic without recompiling.\nGitHub: https://github.com/moongate-community/moongatev2\nComments URL: https://news.ycombinator.com/item?id=47275236\nPoints: 59\n# Comments: 39",
-          "link": "https://github.com/moongate-community/moongatev2",
-          "publishedOn": "2026-03-06T14:22:59.000Z",
-          "wordCount": 15349,
-          "title": "Show HN: Moongate – Ultima Online server emulator in .NET 10 with Lua scripting",
-          "imageUrl": "https://opengraph.githubassets.com/d9d7073ea362e5a01a2babbc08a8a2797346640d0b78f56995d9492d5641755a/moongate-community/moongatev2"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47275230",
-          "author": "rzk",
-          "description": "Article URL: https://community.torproject.org/relay/community-resources/good-bad-isps/\nComments URL: https://news.ycombinator.com/item?id=47275230\nPoints: 52\n# Comments: 11",
-          "link": "https://community.torproject.org/relay/community-resources/good-bad-isps/",
-          "publishedOn": "2026-03-06T14:22:25.000Z",
-          "wordCount": 6294,
-          "title": "Good Bad ISPs",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47275152",
-          "author": "radeeyate",
-          "description": "Article URL: https://www.lumafield.com/scan-of-the-month/health-wearables\nComments URL: https://news.ycombinator.com/item?id=47275152\nPoints: 51\n# Comments: 6",
-          "link": "https://www.lumafield.com/scan-of-the-month/health-wearables",
-          "publishedOn": "2026-03-06T14:16:06.000Z",
-          "wordCount": 40219,
-          "title": "CT Scans of Health Wearables",
-          "imageUrl": "https://cdn.prod.website-files.com/63e15418201b6e2a5cabb911/6993be41b53672d6f35bedc7_og-image-sotm-health-wearables.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47275088",
-          "author": "morsch",
-          "description": "Article URL: https://www.researchsquare.com/article/rs-6079807/v1\nComments URL: https://news.ycombinator.com/item?id=47275088\nPoints: 737\n# Comments: 714",
-          "link": "https://www.researchsquare.com/article/rs-6079807/v1",
-          "publishedOn": "2026-03-06T14:10:03.000Z",
-          "wordCount": 412,
-          "title": "Global warming has accelerated significantly",
-          "imageUrl": ""
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47275088",
-          "author": "morsch",
-          "description": "Article URL: https://www.researchgate.net/publication/389855619_Global_Warming_has_Accelerated_Significantly\nComments URL: https://news.ycombinator.com/item?id=47275088\nPoints: 246\n# Comments: 150",
-          "link": "https://www.researchgate.net/publication/389855619_Global_Warming_has_Accelerated_Significantly",
-          "publishedOn": "2026-03-06T14:10:03.000Z",
-          "wordCount": null,
-          "title": "Global Warming Has Accelerated Significantly",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47275035",
-          "author": "smartbit",
-          "description": "Article URL: https://www.bbc.com/news/articles/cjd98091g28o\nComments URL: https://news.ycombinator.com/item?id=47275035\nPoints: 91\n# Comments: 58",
-          "link": "https://www.bbc.com/news/articles/cjd98091g28o",
-          "publishedOn": "2026-03-06T14:04:18.000Z",
-          "wordCount": 3737,
-          "title": "US economy unexpectedly sheds 92,000 jobs in February",
-          "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/6efa/live/41eb38e0-1962-11f1-a1cd-a71e69f1cf89.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47274676",
-          "author": "Anon84",
-          "description": "Article URL: https://news.cornell.edu/stories/2026/03/workers-who-love-synergizing-paradigms-might-be-bad-their-jobs\nComments URL: https://news.ycombinator.com/item?id=47274676\nPoints: 110\n# Comments: 51",
-          "link": "https://news.cornell.edu/stories/2026/03/workers-who-love-synergizing-paradigms-might-be-bad-their-jobs",
-          "publishedOn": "2026-03-06T13:30:54.000Z",
-          "wordCount": 1158,
-          "title": "Workers who love 'synergizing paradigms' might be bad at their jobs",
-          "imageUrl": "https://news.cornell.edu/sites/default/files/styles/story_thumbnail_lg/public/2026-03/0302_corporatebs_tnd.jpg?itok=HH3QjqWe"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47273854",
-          "author": "todsacerdoti",
-          "description": "The bugs are the ones that say \"using Claude from Anthropic\" here: https://www.mozilla.org/en-US/security/advisories/mfsa2026-1...\nhttps://blog.mozilla.org/en/firefox/hardening-firefox-anthro...\nhttps://www.wsj.com/tech/ai/send-us-more-anthropics-claude-s...\nComments URL: https://news.ycombinator.com/item?id=47273854\nPoints: 341\n# Comments: 106",
-          "link": "https://www.anthropic.com/news/mozilla-firefox-security",
-          "publishedOn": "2026-03-06T11:53:18.000Z",
-          "wordCount": 4402,
-          "title": "Hardening Firefox with Anthropic's Red Team",
-          "imageUrl": "https://www.anthropic.com/api/opengraph-illustration?name=Object%20Desktop&backgroundColor=coral"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47273854",
-          "author": "todsacerdoti",
-          "description": "Article URL: https://blog.mozilla.org/en/firefox/hardening-firefox-anthropic-red-team/\nComments URL: https://news.ycombinator.com/item?id=47273854\nPoints: 129\n# Comments: 37",
-          "link": "https://blog.mozilla.org/en/firefox/hardening-firefox-anthropic-red-team/",
-          "publishedOn": "2026-03-06T11:53:18.000Z",
-          "wordCount": 1885,
-          "title": "Hardening Firefox with Anthropic's Red Team",
-          "imageUrl": "https://blog.mozilla.org/wp-content/blogs.dir/278/files/2026/03/Mozilla_Illustrations_Pixelgram_Lock_Square_Orange-1080x720.png"
         }
       ]
     }
