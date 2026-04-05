@@ -6,6 +6,26 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=47648452",
+          "author": "jnord",
+          "description": "Article URL: https://www.howtogeek.com/ubuntu-now-requires-more-ram-than-windows-11/\nComments URL: https://news.ycombinator.com/item?id=47648452\nPoints: 58\n# Comments: 52",
+          "link": "https://www.howtogeek.com/ubuntu-now-requires-more-ram-than-windows-11/",
+          "publishedOn": "2026-04-05T11:57:25.000Z",
+          "wordCount": 6330,
+          "title": "Ubuntu now requires more RAM than Windows 11",
+          "imageUrl": "https://static0.howtogeekimages.com/wordpress/wp-content/uploads/2025/12/collage-of-ubuntu-wallpapers-with-the-ubuntu-logo-centered.png?w=1600&h=900&fit=crop"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47647788",
+          "author": "zaikunzhang",
+          "description": "Article URL: https://ergosphere.blog/posts/the-machines-are-fine/\nComments URL: https://news.ycombinator.com/item?id=47647788\nPoints: 189\n# Comments: 117",
+          "link": "https://ergosphere.blog/posts/the-machines-are-fine/",
+          "publishedOn": "2026-04-05T09:57:25.000Z",
+          "wordCount": 4201,
+          "title": "The threat is comfortable drift toward not understanding what you're doing",
+          "imageUrl": null
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=47647455",
           "author": "tosh",
           "description": "Article URL: https://github.com/JuliusBrussee/caveman\nComments URL: https://news.ycombinator.com/item?id=47647455\nPoints: 94\n# Comments: 62",
@@ -24,6 +44,16 @@
           "wordCount": 2128,
           "title": "Lisette a little language inspired by Rust that compiles to Go",
           "imageUrl": "https://lisette.run/og.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47646472",
+          "author": "rosscomputerguy",
+          "description": "Article URL: https://github.com/MidstallSoftware/aegis\nComments URL: https://news.ycombinator.com/item?id=47646472\nPoints: 55\n# Comments: 4",
+          "link": "https://github.com/MidstallSoftware/aegis",
+          "publishedOn": "2026-04-05T05:50:04.000Z",
+          "wordCount": 2272,
+          "title": "Aegis – open-source FPGA silicon",
+          "imageUrl": "https://opengraph.githubassets.com/565c8d827e26d2aad59bf10dc8c187b4a96255a34ac64944f977eaf25d9faf1a/MidstallSoftware/aegis"
         },
         {
           "id": "https://news.ycombinator.com/item?id=47645468",
@@ -1184,6 +1214,16 @@
           "wordCount": 6540,
           "title": "Artemis II lifts off: four astronauts begin 10-day lunar mission",
           "imageUrl": "https://i.guim.co.uk/img/media/46d1daadf9fa4a1e710a7ab512b9d3f7ecc510c6/759_0_3941_3155/master/3941.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctbGl2ZS5wbmc&enable=upscale&s=7cca407712caa536697b1cdf035ce417"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47607408",
+          "author": "thunderbong",
+          "description": "Article URL: https://www.intelligentliving.co/scientists-finally-figured-out-how-eels-reproduce/\nComments URL: https://news.ycombinator.com/item?id=47607408\nPoints: 53\n# Comments: 4",
+          "link": "https://www.intelligentliving.co/scientists-finally-figured-out-how-eels-reproduce/",
+          "publishedOn": "2026-04-01T22:33:54.000Z",
+          "wordCount": 7991,
+          "title": "Scientists Figured Out How Eels Reproduce (2022)",
+          "imageUrl": "https://www.intelligentliving.co/wp-content/uploads/2022/11/Scientists-Track-Eels-to-Their-Ocean-Breeding-Grounds-in-World2.jpg"
         },
         {
           "id": "https://news.ycombinator.com/item?id=47607326",
@@ -13464,46 +13504,6 @@
           "wordCount": 9144,
           "title": "LLMs work best when the user defines their acceptance criteria first",
           "imageUrl": "https://substackcdn.com/image/fetch/$s_!b3NO!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F503cef77-5d11-4c3b-8b94-ef3a09599d87_1212x811.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47282807",
-          "author": "c0m4r",
-          "description": "Zero dependencies. No external databases. Single binary. Just deploy and go. I needed something that would allow for real-time monitoring, and installation is as simple as dropping a single file and running it. That's exactly what Kula is. Kula is the Polish word for \"ball,\" as in \"crystal ball.\" The project is in constant development, but I'm already using it on multiple servers in production. It still has some rough edges and needs to mature, but I wanted to share it with the world now—perhaps someone else will find it useful and be willing to help me develop it by testing or providing feedback. Cheers! Github: https://github.com/c0m4r/kula\nComments URL: https://news.ycombinator.com/item?id=47282807\nPoints: 56\n# Comments: 28",
-          "link": "https://github.com/c0m4r/kula",
-          "publishedOn": "2026-03-07T00:07:25.000Z",
-          "wordCount": 6886,
-          "title": "Show HN: Kula – Lightweight, self-contained Linux server monitoring tool",
-          "imageUrl": "https://repository-images.githubusercontent.com/1168811055/a3648662-b36d-4026-be6a-70c226479a74"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47282777",
-          "author": "shannoncc",
-          "description": "I’m ready to retire. In my younger days, I remember a few pivotal moments for me as a young nerd. Active Server Pages. COM components. VB6. I know these are laughable today but back then it was the greatest thing in the world to be able to call server-side commands. It kept me up nights trying to absorb it all. Fast forward decades and Claude Code is giving me that same energy and drive. I love it. It feels like it did back then. I’m chasing the midnight hour and not getting any sleep.\nComments URL: https://news.ycombinator.com/item?id=47282777\nPoints: 213\n# Comments: 121",
-          "link": "https://news.ycombinator.com/item?id=47282777",
-          "publishedOn": "2026-03-07T00:05:06.000Z",
-          "wordCount": 11215,
-          "title": "Tell HN: I'm 60 years old. Claude Code has ignited a passion again",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47282736",
-          "author": "PaulHoule",
-          "description": "Article URL: https://plasma-bigscreen.org\nComments URL: https://news.ycombinator.com/item?id=47282736\nPoints: 152\n# Comments: 44",
-          "link": "https://plasma-bigscreen.org/",
-          "publishedOn": "2026-03-06T23:59:16.000Z",
-          "wordCount": 621,
-          "title": "Plasma Bigscreen – 10-foot interface for KDE plasma",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47282701",
-          "author": "doener",
-          "description": "Article URL: https://helix-editor.com/\nComments URL: https://news.ycombinator.com/item?id=47282701\nPoints: 55\n# Comments: 13",
-          "link": "https://helix-editor.com/",
-          "publishedOn": "2026-03-06T23:53:29.000Z",
-          "wordCount": 340,
-          "title": "Helix: A post-modern text editor",
-          "imageUrl": null
         }
       ]
     }
