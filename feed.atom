@@ -2,10 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-04-05T10:41:44.147Z</updated>
+    <updated>2026-04-05T11:35:53.794Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Talk like caveman]]></title>
+        <id>https://news.ycombinator.com/item?id=47647455</id>
+        <link href="https://github.com/JuliusBrussee/caveman"/>
+        <updated>2026-04-05T08:56:18.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://github.com/JuliusBrussee/caveman
+Comments URL: https://news.ycombinator.com/item?id=47647455
+Points: 94
+# Comments: 62]]></summary>
+        <author>
+            <name>tosh</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Lisette a little language inspired by Rust that compiles to Go]]></title>
         <id>https://news.ycombinator.com/item?id=47646843</id>
@@ -1990,6 +2003,19 @@ Points: 66
 # Comments: 31]]></summary>
         <author>
             <name>hackernewsblues</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Rubysyn: Clarifying Ruby's Syntax and Semantics]]></title>
+        <id>https://news.ycombinator.com/item?id=47598835</id>
+        <link href="https://github.com/squadette/rubysyn/blob/master/README.md"/>
+        <updated>2026-04-01T09:54:18.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://github.com/squadette/rubysyn/blob/master/README.md
+Comments URL: https://news.ycombinator.com/item?id=47598835
+Points: 54
+# Comments: 5]]></summary>
+        <author>
+            <name>petalmind</name>
         </author>
     </entry>
     <entry>
@@ -18025,19 +18051,6 @@ Points: 55
 # Comments: 13]]></summary>
         <author>
             <name>doener</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[C# strings silently kill your SQL Server indexes in Dapper]]></title>
-        <id>https://news.ycombinator.com/item?id=47282230</id>
-        <link href="https://consultwithgriff.com/dapper-nvarchar-implicit-conversion-performance-trap"/>
-        <updated>2026-03-06T22:55:37.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://consultwithgriff.com/dapper-nvarchar-implicit-conversion-performance-trap
-Comments URL: https://news.ycombinator.com/item?id=47282230
-Points: 58
-# Comments: 34]]></summary>
-        <author>
-            <name>PretzelFisch</name>
         </author>
     </entry>
 </feed>
