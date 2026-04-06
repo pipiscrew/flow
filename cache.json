@@ -6,6 +6,36 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=47666488",
+          "author": "RyanZhuuuu",
+          "description": "Article URL: https://photon.codes/blog/we-found-a-ticking-time-bomb-in-macos-tcp-networking\nComments URL: https://news.ycombinator.com/item?id=47666488\nPoints: 85\n# Comments: 44",
+          "link": "https://photon.codes/blog/we-found-a-ticking-time-bomb-in-macos-tcp-networking",
+          "publishedOn": "2026-04-06T20:20:54.000Z",
+          "wordCount": 4318,
+          "title": "A macOS bug that causes TCP networking to stop working after 49.7 days",
+          "imageUrl": "https://framerusercontent.com/images/YXr1OxGxAmSLi60593nzjskSwM.png?width=2400&height=1260"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47666024",
+          "author": "MattHart88",
+          "description": "I built this because I wanted to see how far I could get with a voice-to-text app that used 100% local models so no data left my computer. I've been using a ton for coding and emails. Experimenting with using it as a voice interface for my other agents too. 100% open-source MIT license, would love feedback, PRs, and ideas on where to take it.\nComments URL: https://news.ycombinator.com/item?id=47666024\nPoints: 79\n# Comments: 36",
+          "link": "https://github.com/matthartman/ghost-pepper",
+          "publishedOn": "2026-04-06T19:50:16.000Z",
+          "wordCount": 2381,
+          "title": "Show HN: Ghost Pepper – Local hold-to-talk speech-to-text for macOS",
+          "imageUrl": "https://opengraph.githubassets.com/5c7cd06071be57a960541f8cebe020fb09c7163a5318691b4e640c614abe25d6/matthartman/ghost-pepper"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47665194",
+          "author": "tinchox6",
+          "description": "There are essentially two established ways to use zooming in web interfaces today. They serve different purposes and make different tradeoffs. I built a third one, so I'll try to be fair about what each does well and where it falls short.\n* Prezi\nPrezi pioneered the zooming canvas for presentations and remains the market leader in that space. It recently added AI-powered generation and text editing tools. It's a polished product with real traction.\nBut Prezi is a closed platform, not a library. You can't use its zoom engine in your own app. Pricing starts at $15/month for meaningful features, and exporting to PowerPoint flattens all zoom effects into static slides. A recurring complaint from users is that the zooming and panning transitions cause motion sickness. And fundamentally, Prezi u…",
+          "link": "https://news.ycombinator.com/item?id=47665194",
+          "publishedOn": "2026-04-06T18:53:15.000Z",
+          "wordCount": 1856,
+          "title": "Zooming UIs in 2026: Prezi, impress.js, and why I built something different",
+          "imageUrl": null
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=47664912",
           "author": "drob518",
           "description": "Article URL: https://bramcohen.com/p/the-cult-of-vibe-coding-is-insane\nComments URL: https://news.ycombinator.com/item?id=47664912\nPoints: 354\n# Comments: 231",
@@ -174,6 +204,16 @@
           "wordCount": 5760,
           "title": "Is Germany's gold safe in New York ?",
           "imageUrl": "https://static.dw.com/image/74894281_6.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47659135",
+          "author": "adrianhon",
+          "description": "Article URL: https://www.newyorker.com/magazine/2026/04/13/sam-altman-may-control-our-future-can-he-be-trusted\nComments URL: https://news.ycombinator.com/item?id=47659135\nPoints: 245\n# Comments: 79",
+          "link": "https://www.newyorker.com/magazine/2026/04/13/sam-altman-may-control-our-future-can-he-be-trusted",
+          "publishedOn": "2026-04-06T10:36:57.000Z",
+          "wordCount": 64841,
+          "title": "Sam Altman may control our future – can he be trusted?",
+          "imageUrl": "https://media.newyorker.com/photos/69cd326ac6ea0f4558d6e181/16:9/w_1280,c_limit/r47927.jpg"
         },
         {
           "id": "https://news.ycombinator.com/item?id=47659109",
@@ -944,6 +984,16 @@
           "wordCount": 4159,
           "title": "Some Unusual Trees",
           "imageUrl": "https://substackcdn.com/image/fetch/$s_!4EEp!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F865161c0-c57a-4d19-93b4-9b4a8af54142_1280x1920.jpeg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47637010",
+          "author": "coinfused",
+          "description": "Article URL: https://www.terrygodier.com/the-last-quiet-thing\nComments URL: https://news.ycombinator.com/item?id=47637010\nPoints: 110\n# Comments: 73",
+          "link": "https://www.terrygodier.com/the-last-quiet-thing",
+          "publishedOn": "2026-04-04T08:14:53.000Z",
+          "wordCount": 1849,
+          "title": "The Last Quiet Thing",
+          "imageUrl": "https://terrygodier.com/the-last-quiet-thing/opengraph-image.png?opengraph-image.4c781211.png"
         },
         {
           "id": "https://news.ycombinator.com/item?id=47636435",
@@ -13634,26 +13684,6 @@
           "wordCount": 553,
           "title": "PeppyOS: A simpler alternative to ROS 2 (now with containers support)",
           "imageUrl": "https://peppy.bot/og-default.svg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47295855",
-          "author": "TheWiggles",
-          "description": "Article URL: https://github.com/gcv/julia-snail\nComments URL: https://news.ycombinator.com/item?id=47295855\nPoints: 58\n# Comments: 7",
-          "link": "https://github.com/gcv/julia-snail",
-          "publishedOn": "2026-03-08T09:27:34.000Z",
-          "wordCount": 13214,
-          "title": "Julia Snail – An Emacs Development Environment for Julia Like Clojure's Cider",
-          "imageUrl": "https://opengraph.githubassets.com/98f65374b662f6a2da6d326649edd1b3c5961bd2ca8259caaec2730ad0a381f3/gcv/julia-snail"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47295837",
-          "author": "vinhnx",
-          "description": "Article URL: https://notes.brooklynzelenka.com/Blog/Notes-on-Writing-Wasm\nComments URL: https://news.ycombinator.com/item?id=47295837\nPoints: 69\n# Comments: 28",
-          "link": "https://notes.brooklynzelenka.com/Blog/Notes-on-Writing-Wasm",
-          "publishedOn": "2026-03-08T09:24:54.000Z",
-          "wordCount": 3577,
-          "title": "Notes on Writing WASM",
-          "imageUrl": "https://notes.brooklynzelenka.com/Blog/Notes-on-Writing-Wasm-og-image.webp"
         }
       ]
     }

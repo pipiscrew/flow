@@ -2,10 +2,49 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-04-06T20:44:40.110Z</updated>
+    <updated>2026-04-06T21:43:09.295Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[A macOS bug that causes TCP networking to stop working after 49.7 days]]></title>
+        <id>https://news.ycombinator.com/item?id=47666488</id>
+        <link href="https://photon.codes/blog/we-found-a-ticking-time-bomb-in-macos-tcp-networking"/>
+        <updated>2026-04-06T20:20:54.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://photon.codes/blog/we-found-a-ticking-time-bomb-in-macos-tcp-networking
+Comments URL: https://news.ycombinator.com/item?id=47666488
+Points: 85
+# Comments: 44]]></summary>
+        <author>
+            <name>RyanZhuuuu</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Ghost Pepper – Local hold-to-talk speech-to-text for macOS]]></title>
+        <id>https://news.ycombinator.com/item?id=47666024</id>
+        <link href="https://github.com/matthartman/ghost-pepper"/>
+        <updated>2026-04-06T19:50:16.000Z</updated>
+        <summary type="html"><![CDATA[I built this because I wanted to see how far I could get with a voice-to-text app that used 100% local models so no data left my computer. I've been using a ton for coding and emails. Experimenting with using it as a voice interface for my other agents too. 100% open-source MIT license, would love feedback, PRs, and ideas on where to take it.
+Comments URL: https://news.ycombinator.com/item?id=47666024
+Points: 79
+# Comments: 36]]></summary>
+        <author>
+            <name>MattHart88</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Zooming UIs in 2026: Prezi, impress.js, and why I built something different]]></title>
+        <id>https://news.ycombinator.com/item?id=47665194</id>
+        <link href="https://news.ycombinator.com/item?id=47665194"/>
+        <updated>2026-04-06T18:53:15.000Z</updated>
+        <summary type="html"><![CDATA[There are essentially two established ways to use zooming in web interfaces today. They serve different purposes and make different tradeoffs. I built a third one, so I'll try to be fair about what each does well and where it falls short.
+* Prezi
+Prezi pioneered the zooming canvas for presentations and remains the market leader in that space. It recently added AI-powered generation and text editing tools. It's a polished product with real traction.
+But Prezi is a closed platform, not a library. You can't use its zoom engine in your own app. Pricing starts at $15/month for meaningful features, and exporting to PowerPoint flattens all zoom effects into static slides. A recurring complaint from users is that the zooming and panning transitions cause motion sickness. And fundamentally, Prezi u…]]></summary>
+        <author>
+            <name>tinchox6</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[The cult of vibe coding is insane]]></title>
         <id>https://news.ycombinator.com/item?id=47664912</id>
@@ -228,6 +267,19 @@ Points: 70
 # Comments: 49]]></summary>
         <author>
             <name>KnuthIsGod</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Sam Altman may control our future – can he be trusted?]]></title>
+        <id>https://news.ycombinator.com/item?id=47659135</id>
+        <link href="https://www.newyorker.com/magazine/2026/04/13/sam-altman-may-control-our-future-can-he-be-trusted"/>
+        <updated>2026-04-06T10:36:57.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.newyorker.com/magazine/2026/04/13/sam-altman-may-control-our-future-can-he-be-trusted
+Comments URL: https://news.ycombinator.com/item?id=47659135
+Points: 245
+# Comments: 79]]></summary>
+        <author>
+            <name>adrianhon</name>
         </author>
     </entry>
     <entry>
@@ -1236,6 +1288,19 @@ Points: 76
 # Comments: 20]]></summary>
         <author>
             <name>simplegeek</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Last Quiet Thing]]></title>
+        <id>https://news.ycombinator.com/item?id=47637010</id>
+        <link href="https://www.terrygodier.com/the-last-quiet-thing"/>
+        <updated>2026-04-04T08:14:53.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.terrygodier.com/the-last-quiet-thing
+Comments URL: https://news.ycombinator.com/item?id=47637010
+Points: 110
+# Comments: 73]]></summary>
+        <author>
+            <name>coinfused</name>
         </author>
     </entry>
     <entry>
@@ -18215,32 +18280,6 @@ Points: 53
 # Comments: 15]]></summary>
         <author>
             <name>Ekami</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Julia Snail – An Emacs Development Environment for Julia Like Clojure's Cider]]></title>
-        <id>https://news.ycombinator.com/item?id=47295855</id>
-        <link href="https://github.com/gcv/julia-snail"/>
-        <updated>2026-03-08T09:27:34.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://github.com/gcv/julia-snail
-Comments URL: https://news.ycombinator.com/item?id=47295855
-Points: 58
-# Comments: 7]]></summary>
-        <author>
-            <name>TheWiggles</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Notes on Writing WASM]]></title>
-        <id>https://news.ycombinator.com/item?id=47295837</id>
-        <link href="https://notes.brooklynzelenka.com/Blog/Notes-on-Writing-Wasm"/>
-        <updated>2026-03-08T09:24:54.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://notes.brooklynzelenka.com/Blog/Notes-on-Writing-Wasm
-Comments URL: https://news.ycombinator.com/item?id=47295837
-Points: 69
-# Comments: 28]]></summary>
-        <author>
-            <name>vinhnx</name>
         </author>
     </entry>
 </feed>
