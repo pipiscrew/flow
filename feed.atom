@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-04-07T20:55:34.389Z</updated>
+    <updated>2026-04-07T21:50:21.986Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
@@ -17,6 +17,27 @@ Points: 62
 # Comments: 15]]></summary>
         <author>
             <name>werner</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Gemma 4 Multimodal Fine-Tuner for Apple Silicon]]></title>
+        <id>https://news.ycombinator.com/item?id=47680309</id>
+        <link href="https://github.com/mattmireles/gemma-tuner-multimodal"/>
+        <updated>2026-04-07T19:37:05.000Z</updated>
+        <summary type="html"><![CDATA[About six months ago, I started working on a project to fine-tune Whisper locally on my M2 Ultra Mac Studio with a limited compute budget. I got into it. The problem I had at the time was I had 15,000 hours of audio data in Google Cloud Storage, and there was no way I could fit all the audio onto my local machine, so I built a system to stream data from my GCS to my machine during training.
+Gemma 3n came out, so I added that. Kinda went nuts, tbh.
+Then I put it on the shelf.
+When Gemma 4 came out a few days ago, I dusted it off, cleaned it up, broke out the Gemma part from the Whisper fine-tuning and added support for Gemma 4.
+I'm presenting it for you here today to play with, fork and improve upon.
+One thing I have learned so far: It's very easy to OOM when you fine-tune on longer sequences! My local Mac Studio has 64GB RAM, so I run out of memory constantly.
+Anywho, given how much interest there is in Gemma 4, and frankly, the fact that you can't really do audio fine-tuning with MLX, that's really the reason this exists (in addition to my personal interest). I would have preferred to use MLX and not have had to make this, but here we are. Welcome to my little side quest.
+And so I made this. I hope you have as much fun using it as I had fun making it.
+-Matt
+Comments URL: https://news.ycombinator.com/item?id=47680309
+Points: 66
+# Comments: 7]]></summary>
+        <author>
+            <name>MediaSquirrel</name>
         </author>
     </entry>
     <entry>
@@ -1136,6 +1157,19 @@ Points: 57
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[How to Get Better at Guitar]]></title>
+        <id>https://news.ycombinator.com/item?id=47650887</id>
+        <link href="https://www.jakeworth.com/posts/how-to-get-better-at-guitar/"/>
+        <updated>2026-04-05T16:14:12.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.jakeworth.com/posts/how-to-get-better-at-guitar/
+Comments URL: https://news.ycombinator.com/item?id=47650887
+Points: 67
+# Comments: 19]]></summary>
+        <author>
+            <name>jwworth</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Codex pricing to align with API token usage, instead of per-message]]></title>
         <id>https://news.ycombinator.com/item?id=47650726</id>
         <link href="https://help.openai.com/en/articles/20001106-codex-rate-card"/>
@@ -2045,6 +2079,19 @@ Points: 128
 # Comments: 51]]></summary>
         <author>
             <name>kklisura</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A new Postcrossing stamp from the USA]]></title>
+        <id>https://news.ycombinator.com/item?id=47631515</id>
+        <link href="https://www.postcrossing.com/blog/2026/03/31/a-new-postcrossing-stamp-from-the-usa"/>
+        <updated>2026-04-03T20:04:05.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.postcrossing.com/blog/2026/03/31/a-new-postcrossing-stamp-from-the-usa
+Comments URL: https://news.ycombinator.com/item?id=47631515
+Points: 64
+# Comments: 22]]></summary>
+        <author>
+            <name>Tomte</name>
         </author>
     </entry>
     <entry>
@@ -18288,19 +18335,6 @@ Points: 230
 # Comments: 87]]></summary>
         <author>
             <name>robin_reala</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Fontcrafter: Turn Your Handwriting into a Real Font]]></title>
-        <id>https://news.ycombinator.com/item?id=47306655</id>
-        <link href="https://arcade.pirillo.com/fontcrafter.html"/>
-        <updated>2026-03-09T09:25:02.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://arcade.pirillo.com/fontcrafter.html
-Comments URL: https://news.ycombinator.com/item?id=47306655
-Points: 64
-# Comments: 21]]></summary>
-        <author>
-            <name>rendx</name>
         </author>
     </entry>
 </feed>

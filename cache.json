@@ -16,6 +16,16 @@
           "imageUrl": "https://www.allthingsdistributed.com/images/sunflowers.jpg"
         },
         {
+          "id": "https://news.ycombinator.com/item?id=47680309",
+          "author": "MediaSquirrel",
+          "description": "About six months ago, I started working on a project to fine-tune Whisper locally on my M2 Ultra Mac Studio with a limited compute budget. I got into it. The problem I had at the time was I had 15,000 hours of audio data in Google Cloud Storage, and there was no way I could fit all the audio onto my local machine, so I built a system to stream data from my GCS to my machine during training.\nGemma 3n came out, so I added that. Kinda went nuts, tbh.\nThen I put it on the shelf.\nWhen Gemma 4 came out a few days ago, I dusted it off, cleaned it up, broke out the Gemma part from the Whisper fine-tuning and added support for Gemma 4.\nI'm presenting it for you here today to play with, fork and improve upon.\nOne thing I have learned so far: It's very easy to OOM when you fine-tune on longer sequences! My local Mac Studio has 64GB RAM, so I run out of memory constantly.\nAnywho, given how much interest there is in Gemma 4, and frankly, the fact that you can't really do audio fine-tuning with MLX, that's really the reason this exists (in addition to my personal interest). I would have preferred to use MLX and not have had to make this, but here we are. Welcome to my little side quest.\nAnd so I made this. I hope you have as much fun using it as I had fun making it.\n-Matt\nComments URL: https://news.ycombinator.com/item?id=47680309\nPoints: 66\n# Comments: 7",
+          "link": "https://github.com/mattmireles/gemma-tuner-multimodal",
+          "publishedOn": "2026-04-07T19:37:05.000Z",
+          "wordCount": 7887,
+          "title": "Show HN: Gemma 4 Multimodal Fine-Tuner for Apple Silicon",
+          "imageUrl": "https://opengraph.githubassets.com/05663b3fdd42aebfb849a7b05e29a93fcbe8997eef5580f191de702030a70f8a/mattmireles/gemma-tuner-multimodal"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=47679258",
           "author": "be7a",
           "description": "Article URL: https://www-cdn.anthropic.com/53566bf5440a10affd749724787c8913a2ae0841.pdf\nComments URL: https://news.ycombinator.com/item?id=47679258\nPoints: 127\n# Comments: 53",
@@ -866,6 +876,16 @@
           "imageUrl": "https://substackcdn.com/image/fetch/$s_!9o_j!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb0321dea-0461-40ae-82da-babbd6fa108e_985x402.png"
         },
         {
+          "id": "https://news.ycombinator.com/item?id=47650887",
+          "author": "jwworth",
+          "description": "Article URL: https://www.jakeworth.com/posts/how-to-get-better-at-guitar/\nComments URL: https://news.ycombinator.com/item?id=47650887\nPoints: 67\n# Comments: 19",
+          "link": "https://www.jakeworth.com/posts/how-to-get-better-at-guitar/",
+          "publishedOn": "2026-04-05T16:14:12.000Z",
+          "wordCount": 2526,
+          "title": "How to Get Better at Guitar",
+          "imageUrl": "https://jakeworth.com/twittercard.png"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=47650726",
           "author": "ccmcarey",
           "description": "Article URL: https://help.openai.com/en/articles/20001106-codex-rate-card\nComments URL: https://news.ycombinator.com/item?id=47650726\nPoints: 165\n# Comments: 110",
@@ -1554,6 +1574,16 @@
           "wordCount": 2333,
           "title": "Oracle Files H-1B Visa Petitions Amid Mass Layoffs",
           "imageUrl": "https://nationaltoday.com/wp-content/uploads/not-wordpress/2026/04/69cff13a331fe.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47631515",
+          "author": "Tomte",
+          "description": "Article URL: https://www.postcrossing.com/blog/2026/03/31/a-new-postcrossing-stamp-from-the-usa\nComments URL: https://news.ycombinator.com/item?id=47631515\nPoints: 64\n# Comments: 22",
+          "link": "https://www.postcrossing.com/blog/2026/03/31/a-new-postcrossing-stamp-from-the-usa",
+          "publishedOn": "2026-04-03T20:04:05.000Z",
+          "wordCount": 7075,
+          "title": "A new Postcrossing stamp from the USA",
+          "imageUrl": "https://static2.postcrossing.com/blog/images/cardswithstamps_banner.jpg"
         },
         {
           "id": "https://news.ycombinator.com/item?id=47631118",
@@ -13704,16 +13734,6 @@
           "wordCount": 4412,
           "title": "Ireland shuts last coal plant, becomes 15th coal-free country in Europe (2025)",
           "imageUrl": "https://www.pv-magazine.com/wp-content/uploads/2025/06/ESB_Moneypoint_Generating_Station_-_geograph.org_.uk_-_12606_crop.v1.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47306655",
-          "author": "rendx",
-          "description": "Article URL: https://arcade.pirillo.com/fontcrafter.html\nComments URL: https://news.ycombinator.com/item?id=47306655\nPoints: 64\n# Comments: 21",
-          "link": "https://arcade.pirillo.com/fontcrafter.html",
-          "publishedOn": "2026-03-09T09:25:02.000Z",
-          "wordCount": 19297,
-          "title": "Fontcrafter: Turn Your Handwriting into a Real Font",
-          "imageUrl": "https://arcade.pirillo.com/images/fontcrafter.png"
         }
       ]
     }
