@@ -2,10 +2,49 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-04-07T09:11:38.420Z</updated>
+    <updated>2026-04-07T11:03:47.260Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Are We Idiocracy Yet?]]></title>
+        <id>https://news.ycombinator.com/item?id=47672818</id>
+        <link href="https://idiocracy.wtf/"/>
+        <updated>2026-04-07T09:57:39.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://idiocracy.wtf/
+Comments URL: https://news.ycombinator.com/item?id=47672818
+Points: 136
+# Comments: 36]]></summary>
+        <author>
+            <name>jdiiufccuskal</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Every GPU That Mattered]]></title>
+        <id>https://news.ycombinator.com/item?id=47672295</id>
+        <link href="https://sheets.works/data-viz/every-gpu"/>
+        <updated>2026-04-07T08:38:17.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://sheets.works/data-viz/every-gpu
+Comments URL: https://news.ycombinator.com/item?id=47672295
+Points: 107
+# Comments: 52]]></summary>
+        <author>
+            <name>jonbaer</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Three hundred synths, 3 hardware projects, and one app]]></title>
+        <id>https://news.ycombinator.com/item?id=47670981</id>
+        <link href="https://midi.guide/blog/three-hunded-synths-one-app/"/>
+        <updated>2026-04-07T05:12:25.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://midi.guide/blog/three-hunded-synths-one-app/
+Comments URL: https://news.ycombinator.com/item?id=47670981
+Points: 56
+# Comments: 2]]></summary>
+        <author>
+            <name>ductionist</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Dear Heroku: Uhh What's Going On?]]></title>
         <id>https://news.ycombinator.com/item?id=47669749</id>
@@ -1431,6 +1470,17 @@ Points: 110
 # Comments: 73]]></summary>
         <author>
             <name>coinfused</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Anos – a hand-written ~100KiB microkernel for x86-64 and RISC-V]]></title>
+        <id>https://news.ycombinator.com/item?id=47636579</id>
+        <link href="https://github.com/roscopeco/anos"/>
+        <updated>2026-04-04T06:58:03.000Z</updated>
+        <summary type="html"><![CDATA[I pretty much always have a kernel project going on, and have been that way for decades. Over the past couple of years, that's been Anos, which has gotten further along than any of my previous hobby kernels, supporting IPC, multitasking, SMP (x86-64 only right now) and running on real hardware.
+LLMs (mostly Claude Code) have been used during development, but I learned early on that it's not _great_ at code at this level, so I've restricted its use to mostly documentation and tests. There's _a little_ AI code in the user space, but I have a strict "no AI code" rule in the kernel itself. I find this helps not only with the quality / functionality of the code, but also with learning - for example, even though I've written multiple kernels in the past, it wasn't until Anos that I _truly_ grokk…]]></summary>
+        <author>
+            <name>noone_youknow</name>
         </author>
     </entry>
     <entry>
@@ -17930,45 +17980,6 @@ Points: 61
 # Comments: 35]]></summary>
         <author>
             <name>pseudolus</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Optimizing Top K in Postgres]]></title>
-        <id>https://news.ycombinator.com/item?id=47302493</id>
-        <link href="https://www.paradedb.com/blog/optimizing-top-k"/>
-        <updated>2026-03-08T22:54:17.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.paradedb.com/blog/optimizing-top-k
-Comments URL: https://news.ycombinator.com/item?id=47302493
-Points: 60
-# Comments: 7]]></summary>
-        <author>
-            <name>philippemnoel</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Linux Internals: How /proc/self/mem writes to unwritable memory (2021)]]></title>
-        <id>https://news.ycombinator.com/item?id=47302463</id>
-        <link href="https://offlinemark.com/an-obscure-quirk-of-proc/"/>
-        <updated>2026-03-08T22:50:55.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://offlinemark.com/an-obscure-quirk-of-proc/
-Comments URL: https://news.ycombinator.com/item?id=47302463
-Points: 59
-# Comments: 13]]></summary>
-        <author>
-            <name>medbar</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Blacksky AppView]]></title>
-        <id>https://news.ycombinator.com/item?id=47301808</id>
-        <link href="https://github.com/blacksky-algorithms/atproto"/>
-        <updated>2026-03-08T21:40:35.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://github.com/blacksky-algorithms/atproto
-Comments URL: https://news.ycombinator.com/item?id=47301808
-Points: 101
-# Comments: 56]]></summary>
-        <author>
-            <name>Kye</name>
         </author>
     </entry>
 </feed>

@@ -6,6 +6,36 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=47672818",
+          "author": "jdiiufccuskal",
+          "description": "Article URL: https://idiocracy.wtf/\nComments URL: https://news.ycombinator.com/item?id=47672818\nPoints: 136\n# Comments: 36",
+          "link": "https://idiocracy.wtf/",
+          "publishedOn": "2026-04-07T09:57:39.000Z",
+          "wordCount": 56,
+          "title": "Are We Idiocracy Yet?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47672295",
+          "author": "jonbaer",
+          "description": "Article URL: https://sheets.works/data-viz/every-gpu\nComments URL: https://news.ycombinator.com/item?id=47672295\nPoints: 107\n# Comments: 52",
+          "link": "https://sheets.works/data-viz/every-gpu",
+          "publishedOn": "2026-04-07T08:38:17.000Z",
+          "wordCount": 3378,
+          "title": "Every GPU That Mattered",
+          "imageUrl": "https://sheets.works/og-every-gpu.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47670981",
+          "author": "ductionist",
+          "description": "Article URL: https://midi.guide/blog/three-hunded-synths-one-app/\nComments URL: https://news.ycombinator.com/item?id=47670981\nPoints: 56\n# Comments: 2",
+          "link": "https://midi.guide/blog/three-hunded-synths-one-app/",
+          "publishedOn": "2026-04-07T05:12:25.000Z",
+          "wordCount": 3475,
+          "title": "Three hundred synths, 3 hardware projects, and one app",
+          "imageUrl": "https://midi.guide/static/images/blog/2026-04-06-three-hunded-synths-one-app/comparative-knob-morphology-dark.png"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=47669749",
           "author": "crcastle",
           "description": "Article URL: https://judoscale.com/blog/heroku-whats-going-on\nComments URL: https://news.ycombinator.com/item?id=47669749\nPoints: 62\n# Comments: 21",
@@ -1094,6 +1124,16 @@
           "wordCount": 1849,
           "title": "The Last Quiet Thing",
           "imageUrl": "https://terrygodier.com/the-last-quiet-thing/opengraph-image.png?opengraph-image.4c781211.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47636579",
+          "author": "noone_youknow",
+          "description": "I pretty much always have a kernel project going on, and have been that way for decades. Over the past couple of years, that's been Anos, which has gotten further along than any of my previous hobby kernels, supporting IPC, multitasking, SMP (x86-64 only right now) and running on real hardware.\nLLMs (mostly Claude Code) have been used during development, but I learned early on that it's not _great_ at code at this level, so I've restricted its use to mostly documentation and tests. There's _a little_ AI code in the user space, but I have a strict \"no AI code\" rule in the kernel itself. I find this helps not only with the quality / functionality of the code, but also with learning - for example, even though I've written multiple kernels in the past, it wasn't until Anos that I _truly_ grokk…",
+          "link": "https://github.com/roscopeco/anos",
+          "publishedOn": "2026-04-04T06:58:03.000Z",
+          "wordCount": 9116,
+          "title": "Show HN: Anos – a hand-written ~100KiB microkernel for x86-64 and RISC-V",
+          "imageUrl": "https://opengraph.githubassets.com/38fdd60739276954c405e5f95338c7cc92832a09cab1791a379161a4bff28410/roscopeco/anos"
         },
         {
           "id": "https://news.ycombinator.com/item?id=47636435",
@@ -13424,36 +13464,6 @@
           "wordCount": 13673,
           "title": "NASA's DART spacecraft changed an asteroid's orbit around the sun",
           "imageUrl": "https://www.sciencenews.org/wp-content/uploads/sites/2/2026/03/030526_LG_asteroid_main.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47302493",
-          "author": "philippemnoel",
-          "description": "Article URL: https://www.paradedb.com/blog/optimizing-top-k\nComments URL: https://news.ycombinator.com/item?id=47302493\nPoints: 60\n# Comments: 7",
-          "link": "https://www.paradedb.com/blog/optimizing-top-k",
-          "publishedOn": "2026-03-08T22:54:17.000Z",
-          "wordCount": 3552,
-          "title": "Optimizing Top K in Postgres",
-          "imageUrl": "https://www.paradedb.com/blog/optimizing-top-k/images/opengraph-image.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47302463",
-          "author": "medbar",
-          "description": "Article URL: https://offlinemark.com/an-obscure-quirk-of-proc/\nComments URL: https://news.ycombinator.com/item?id=47302463\nPoints: 59\n# Comments: 13",
-          "link": "https://offlinemark.com/an-obscure-quirk-of-proc/",
-          "publishedOn": "2026-03-08T22:50:55.000Z",
-          "wordCount": null,
-          "title": "Linux Internals: How /proc/self/mem writes to unwritable memory (2021)",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47301808",
-          "author": "Kye",
-          "description": "Article URL: https://github.com/blacksky-algorithms/atproto\nComments URL: https://news.ycombinator.com/item?id=47301808\nPoints: 101\n# Comments: 56",
-          "link": "https://github.com/blacksky-algorithms/atproto",
-          "publishedOn": "2026-03-08T21:40:35.000Z",
-          "wordCount": 6567,
-          "title": "Blacksky AppView",
-          "imageUrl": "https://opengraph.githubassets.com/aaa79b1fd8377d26528a96ee4b95c82ca746d2fe4f22cdd2fdf93bd48c3918d7/blacksky-algorithms/atproto"
         }
       ]
     }
