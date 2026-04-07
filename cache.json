@@ -13484,66 +13484,6 @@
           "wordCount": 1587,
           "title": "We should revisit literate programming in the agent era",
           "imageUrl": "https://silly.business/images/thumb.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47300329",
-          "author": "Oras",
-          "description": "I don’t know if I’m the only one, but I see lots of clearly AI generated posts recently in HN and mostly coming from new accounts (green), it is more noticeable in the Show HN section.\nI wish the team can either restrict new accounts from posting or at least offer a default filtering where I can only see posts from accounts with certain criteria.\nI don’t want to see HN becoming twitter, which is full of bots and noise, as this would be a really sad day.\nComments URL: https://news.ycombinator.com/item?id=47300329\nPoints: 117\n# Comments: 82",
-          "link": "https://news.ycombinator.com/item?id=47300329",
-          "publishedOn": "2026-03-08T19:26:59.000Z",
-          "wordCount": 4939,
-          "title": "Ask HN: Please restrict new accounts from posting",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47300102",
-          "author": "vancecookcobxin",
-          "description": "Sup HN,\nSo I got tired of bouncing between Flightradar, MarineTraffic, and Twitter every time something kicked off globally, so I wrote a dashboard to aggregate it all locally. It’s called Shadowbroker.\nI’ll admit I leaned way too hard into the \"movie hacker\" aesthetic for the UI, but the actual pipeline underneath is real. It pulls commercial/military ADS-B, the AIS WebSocket stream (about 25,000+ ships), N2YO satellite telemetry, and GDELT conflict data into a single MapLibre instance.\nGetting this to run without melting my browser was the hardest part. I'm running this on a laptop with an i5 and an RTX 3050, and initially, dumping 30k+ moving GeoJSON features onto the map just crashed everything. I ended up having to write pretty aggressive viewport culling, debounce the state updates, and compress the FastAPI payloads by like 90% just to make it usable.\nMy favorite part is the signal layer—it actually calculates live GPS jamming zones by aggregating the real-time navigation degradation (NAC-P) of commercial flights overhead.\nIt’s Next.js and Python. I threw a quick-start script in the releases if you just want to spin it up, but the repo is open if you want to dig into the backend.\nLet me know if my MapLibre implementation is terrible, I'm always looking for ways to optimize the rendering.\nComments URL: https://news.ycombinator.com/item?id=47300102\nPoints: 66\n# Comments: 43",
-          "link": "https://github.com/BigBodyCobain/Shadowbroker",
-          "publishedOn": "2026-03-08T19:07:33.000Z",
-          "wordCount": 7323,
-          "title": "Show HN: I built a real-time OSINT dashboard pulling 15 live global feeds",
-          "imageUrl": "https://opengraph.githubassets.com/2b541cae05467f07ed52750312e20334597dccffb89ad6fd51f61b4bc968e84f/BigBodyCobain/Shadowbroker"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47299794",
-          "author": "Arcuru",
-          "description": "Article URL: https://techcrunch.com/2026/03/07/google-just-gave-sundar-pichai-a-692m-pay-package/\nComments URL: https://news.ycombinator.com/item?id=47299794\nPoints: 62\n# Comments: 44",
-          "link": "https://techcrunch.com/2026/03/07/google-just-gave-sundar-pichai-a-692m-pay-package/",
-          "publishedOn": "2026-03-08T18:37:37.000Z",
-          "wordCount": 3061,
-          "title": "Google just gave Sundar Pichai a $692M pay package",
-          "imageUrl": "https://techcrunch.com/wp-content/uploads/2025/05/GettyImages-2215577882.jpg?resize=1200,800"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47299606",
-          "author": "tosh",
-          "description": "Article URL: https://mufeedvh.com/posts/i-made-a-programming-language-with-mnms/\nComments URL: https://news.ycombinator.com/item?id=47299606\nPoints: 57\n# Comments: 23",
-          "link": "https://mufeedvh.com/posts/i-made-a-programming-language-with-mnms/",
-          "publishedOn": "2026-03-08T18:18:40.000Z",
-          "wordCount": null,
-          "title": "I made a programming language with M&Ms",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47299505",
-          "author": "gballan",
-          "description": "Article URL: https://github.com/bostrot/wsl2-distro-manager\nComments URL: https://news.ycombinator.com/item?id=47299505\nPoints: 53\n# Comments: 31",
-          "link": "https://github.com/bostrot/wsl2-distro-manager",
-          "publishedOn": "2026-03-08T18:08:36.000Z",
-          "wordCount": 2433,
-          "title": "WSL Manager",
-          "imageUrl": "https://repository-images.githubusercontent.com/407645904/34cef69a-f94e-42c2-a9f0-c0b8c9fbd735"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47299022",
-          "author": "gepheum",
-          "description": "Why I built Skir: https://medium.com/@gepheum/i-spent-15-years-with-protobuf-t...\nQuick start: npx skir init\nAll the config lives in one YML file.\nWebsite: https://skir.build\nGitHub: https://github.com/gepheum/skir\nWould love feedback especially from teams running mixed-language stacks.\nComments URL: https://news.ycombinator.com/item?id=47299022\nPoints: 58\n# Comments: 41",
-          "link": "https://skir.build/",
-          "publishedOn": "2026-03-08T17:17:54.000Z",
-          "wordCount": 2254,
-          "title": "Show HN: Skir – like Protocol Buffer but better",
-          "imageUrl": null
         }
       ]
     }

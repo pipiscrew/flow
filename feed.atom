@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-04-07T05:17:27.811Z</updated>
+    <updated>2026-04-07T07:40:56.536Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
@@ -18008,97 +18008,6 @@ Points: 60
 # Comments: 31]]></summary>
         <author>
             <name>horseradish</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ask HN: Please restrict new accounts from posting]]></title>
-        <id>https://news.ycombinator.com/item?id=47300329</id>
-        <link href="https://news.ycombinator.com/item?id=47300329"/>
-        <updated>2026-03-08T19:26:59.000Z</updated>
-        <summary type="html"><![CDATA[I don’t know if I’m the only one, but I see lots of clearly AI generated posts recently in HN and mostly coming from new accounts (green), it is more noticeable in the Show HN section.
-I wish the team can either restrict new accounts from posting or at least offer a default filtering where I can only see posts from accounts with certain criteria.
-I don’t want to see HN becoming twitter, which is full of bots and noise, as this would be a really sad day.
-Comments URL: https://news.ycombinator.com/item?id=47300329
-Points: 117
-# Comments: 82]]></summary>
-        <author>
-            <name>Oras</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: I built a real-time OSINT dashboard pulling 15 live global feeds]]></title>
-        <id>https://news.ycombinator.com/item?id=47300102</id>
-        <link href="https://github.com/BigBodyCobain/Shadowbroker"/>
-        <updated>2026-03-08T19:07:33.000Z</updated>
-        <summary type="html"><![CDATA[Sup HN,
-So I got tired of bouncing between Flightradar, MarineTraffic, and Twitter every time something kicked off globally, so I wrote a dashboard to aggregate it all locally. It’s called Shadowbroker.
-I’ll admit I leaned way too hard into the "movie hacker" aesthetic for the UI, but the actual pipeline underneath is real. It pulls commercial/military ADS-B, the AIS WebSocket stream (about 25,000+ ships), N2YO satellite telemetry, and GDELT conflict data into a single MapLibre instance.
-Getting this to run without melting my browser was the hardest part. I'm running this on a laptop with an i5 and an RTX 3050, and initially, dumping 30k+ moving GeoJSON features onto the map just crashed everything. I ended up having to write pretty aggressive viewport culling, debounce the state updates, and compress the FastAPI payloads by like 90% just to make it usable.
-My favorite part is the signal layer—it actually calculates live GPS jamming zones by aggregating the real-time navigation degradation (NAC-P) of commercial flights overhead.
-It’s Next.js and Python. I threw a quick-start script in the releases if you just want to spin it up, but the repo is open if you want to dig into the backend.
-Let me know if my MapLibre implementation is terrible, I'm always looking for ways to optimize the rendering.
-Comments URL: https://news.ycombinator.com/item?id=47300102
-Points: 66
-# Comments: 43]]></summary>
-        <author>
-            <name>vancecookcobxin</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Google just gave Sundar Pichai a $692M pay package]]></title>
-        <id>https://news.ycombinator.com/item?id=47299794</id>
-        <link href="https://techcrunch.com/2026/03/07/google-just-gave-sundar-pichai-a-692m-pay-package/"/>
-        <updated>2026-03-08T18:37:37.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://techcrunch.com/2026/03/07/google-just-gave-sundar-pichai-a-692m-pay-package/
-Comments URL: https://news.ycombinator.com/item?id=47299794
-Points: 62
-# Comments: 44]]></summary>
-        <author>
-            <name>Arcuru</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[I made a programming language with M&Ms]]></title>
-        <id>https://news.ycombinator.com/item?id=47299606</id>
-        <link href="https://mufeedvh.com/posts/i-made-a-programming-language-with-mnms/"/>
-        <updated>2026-03-08T18:18:40.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://mufeedvh.com/posts/i-made-a-programming-language-with-mnms/
-Comments URL: https://news.ycombinator.com/item?id=47299606
-Points: 57
-# Comments: 23]]></summary>
-        <author>
-            <name>tosh</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[WSL Manager]]></title>
-        <id>https://news.ycombinator.com/item?id=47299505</id>
-        <link href="https://github.com/bostrot/wsl2-distro-manager"/>
-        <updated>2026-03-08T18:08:36.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://github.com/bostrot/wsl2-distro-manager
-Comments URL: https://news.ycombinator.com/item?id=47299505
-Points: 53
-# Comments: 31]]></summary>
-        <author>
-            <name>gballan</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: Skir – like Protocol Buffer but better]]></title>
-        <id>https://news.ycombinator.com/item?id=47299022</id>
-        <link href="https://skir.build/"/>
-        <updated>2026-03-08T17:17:54.000Z</updated>
-        <summary type="html"><![CDATA[Why I built Skir: https://medium.com/@gepheum/i-spent-15-years-with-protobuf-t...
-Quick start: npx skir init
-All the config lives in one YML file.
-Website: https://skir.build
-GitHub: https://github.com/gepheum/skir
-Would love feedback especially from teams running mixed-language stacks.
-Comments URL: https://news.ycombinator.com/item?id=47299022
-Points: 58
-# Comments: 41]]></summary>
-        <author>
-            <name>gepheum</name>
         </author>
     </entry>
 </feed>
