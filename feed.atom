@@ -2,10 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-04-07T23:43:40.642Z</updated>
+    <updated>2026-04-08T02:57:06.228Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[US and Iran agree to provisional ceasefire]]></title>
+        <id>https://news.ycombinator.com/item?id=47682276</id>
+        <link href="https://www.theguardian.com/us-news/2026/apr/07/trump-iran-war-ceasefire"/>
+        <updated>2026-04-07T22:41:02.000Z</updated>
+        <summary type="html"><![CDATA[https://www.reuters.com/world/iran-war-live-tehran-rejects-c...
+Comments URL: https://news.ycombinator.com/item?id=47682276
+Points: 236
+# Comments: 614]]></summary>
+        <author>
+            <name>g-b-r</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Bitcoin and Quantum Computing]]></title>
         <id>https://news.ycombinator.com/item?id=47681274</id>
@@ -17,6 +30,29 @@ Points: 50
 # Comments: 36]]></summary>
         <author>
             <name>nehan</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: An interactive map of Tolkien's Middle-earth]]></title>
+        <id>https://news.ycombinator.com/item?id=47681112</id>
+        <link href="https://middle-earth-interactive-map.web.app/"/>
+        <updated>2026-04-07T20:42:37.000Z</updated>
+        <summary type="html"><![CDATA[An interactive map of Tolkien’s Middle-earth, with events from across the legendarium plotted as markers.
+I have been commuting a fair bit between the East and West coast, and thanks to American Airlines' free onboard WiFi, I was able to vibe-code a full interactive map of Middle-earth right from my economy seat at the back of the bus.
+It's rather amazing how much an LLM knows about Tolkien's work, and it was fun to delve into many of the nooks and crannies of Tolkien's lore.
+Some features:
+- Plot on the map the journey of the main characters in both The Hobbit and The Lord of the Rings.
+- Follow a list of events in the chronological Timeline
+- Zoom in on the high-def map and explore many of the off-the-main-plotline places
+- Use the 'measure distances' feature to see how far apart things are.
+I also had a lot of fun learning about tiling to allow for efficient zooming.
+If you are anything like me, this should provide a fun companion to reading the books or watching the movies (note that on this site, I followed the book narrative, and did not include Peter Jackson's many departures)
+If you get the chance to check it out, I would love more feedback, and if there is demand, I might do the same for Game of Thrones.
+Comments URL: https://news.ycombinator.com/item?id=47681112
+Points: 99
+# Comments: 20]]></summary>
+        <author>
+            <name>frasermarlow</name>
         </author>
     </entry>
     <entry>
@@ -194,6 +230,19 @@ Points: 134
 # Comments: 22]]></summary>
         <author>
             <name>kipi</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A blind man made it possible for others with low vision to build Lego sets]]></title>
+        <id>https://news.ycombinator.com/item?id=47675893</id>
+        <link href="https://apnews.com/article/lego-bricks-for-blind-audio-braille-instructions-5a2a27de4354a0b1443171c3f24f29e4"/>
+        <updated>2026-04-07T14:24:30.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://apnews.com/article/lego-bricks-for-blind-audio-braille-instructions-5a2a27de4354a0b1443171c3f24f29e4
+Comments URL: https://news.ycombinator.com/item?id=47675893
+Points: 55
+# Comments: 5]]></summary>
+        <author>
+            <name>speckx</name>
         </author>
     </entry>
     <entry>
@@ -18215,135 +18264,6 @@ Points: 110
 # Comments: 82]]></summary>
         <author>
             <name>mariuz</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: DenchClaw – Local CRM on Top of OpenClaw]]></title>
-        <id>https://news.ycombinator.com/item?id=47309953</id>
-        <link href="https://github.com/DenchHQ/DenchClaw"/>
-        <updated>2026-03-09T14:55:42.000Z</updated>
-        <summary type="html"><![CDATA[Hi everyone, I am Kumar, co-founder of Dench (https://denchclaw.com). We were part of YC S24, an agentic workflow company that previously worked with sales floors automating niche enterprise tasks such as outbound calling, legal intake, etc.
-Building consumer / power-user software always gave me more joy than FDEing into an enterprise. It did not give me joy to manually add AI tools to a cloud harness for every small new thing, at least not as much as completely local software that is open source and has all the powers of OpenClaw (I can now talk to my CRM on Telegram!).
-A week ago, we launched Ironclaw, an Open Source OpenClaw CRM Framework (https://x.com/garrytan/status/2023518514120937672?s=20) but people confused us with NearAI’s Ironclaw, so we changed our name to DenchClaw (https://d…]]></summary>
-        <author>
-            <name>kumar_abhirup</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Understanding the Go Runtime: The Scheduler]]></title>
-        <id>https://news.ycombinator.com/item?id=47309940</id>
-        <link href="https://internals-for-interns.com/posts/go-runtime-scheduler/"/>
-        <updated>2026-03-09T14:54:31.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://internals-for-interns.com/posts/go-runtime-scheduler/
-Comments URL: https://news.ycombinator.com/item?id=47309940
-Points: 67
-# Comments: 3]]></summary>
-        <author>
-            <name>valyala</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Revealed: UK's multibillion AI drive is built on 'phantom investments']]></title>
-        <id>https://news.ycombinator.com/item?id=47309811</id>
-        <link href="https://www.theguardian.com/technology/2026/mar/09/revealed-uks-multibillion-ai-drive-is-built-on-phantom-investments"/>
-        <updated>2026-03-09T14:45:12.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.theguardian.com/technology/2026/mar/09/revealed-uks-multibillion-ai-drive-is-built-on-phantom-investments
-Comments URL: https://news.ycombinator.com/item?id=47309811
-Points: 54
-# Comments: 22]]></summary>
-        <author>
-            <name>tablets</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Algebraic topology: knots links and braids]]></title>
-        <id>https://news.ycombinator.com/item?id=47309605</id>
-        <link href="https://aeb.win.tue.nl/at/algtop-5.html"/>
-        <updated>2026-03-09T14:28:43.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://aeb.win.tue.nl/at/algtop-5.html
-Comments URL: https://news.ycombinator.com/item?id=47309605
-Points: 54
-# Comments: 5]]></summary>
-        <author>
-            <name>marysminefnuf</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Okmain: How to pick an OK main colour of an image]]></title>
-        <id>https://news.ycombinator.com/item?id=47309397</id>
-        <link href="https://dgroshev.com/blog/okmain/"/>
-        <updated>2026-03-09T14:16:53.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://dgroshev.com/blog/okmain/
-Comments URL: https://news.ycombinator.com/item?id=47309397
-Points: 150
-# Comments: 36]]></summary>
-        <author>
-            <name>dgroshev</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[IMG_0416 (2024)]]></title>
-        <id>https://news.ycombinator.com/item?id=47308547</id>
-        <link href="https://ben-mini.com/2024/img-0416"/>
-        <updated>2026-03-09T13:07:45.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://ben-mini.com/2024/img-0416
-Comments URL: https://news.ycombinator.com/item?id=47308547
-Points: 97
-# Comments: 18]]></summary>
-        <author>
-            <name>TigerUniversity</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[FreeBSD Capsicum vs. Linux Seccomp Process Sandboxing]]></title>
-        <id>https://news.ycombinator.com/item?id=47308394</id>
-        <link href="https://vivianvoss.net/blog/capsicum-vs-seccomp"/>
-        <updated>2026-03-09T12:52:20.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://vivianvoss.net/blog/capsicum-vs-seccomp
-Comments URL: https://news.ycombinator.com/item?id=47308394
-Points: 54
-# Comments: 13]]></summary>
-        <author>
-            <name>vermaden</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[WebPKI and You]]></title>
-        <id>https://news.ycombinator.com/item?id=47308349</id>
-        <link href="https://blog.brycekerley.net/2026/03/08/webpki-and-you.html"/>
-        <updated>2026-03-09T12:47:11.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://blog.brycekerley.net/2026/03/08/webpki-and-you.html
-Comments URL: https://news.ycombinator.com/item?id=47308349
-Points: 61
-# Comments: 3]]></summary>
-        <author>
-            <name>aragilar</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Reverse-engineering the UniFi inform protocol]]></title>
-        <id>https://news.ycombinator.com/item?id=47308278</id>
-        <link href="https://tamarack.cloud/blog/reverse-engineering-unifi-inform-protocol"/>
-        <updated>2026-03-09T12:38:46.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://tamarack.cloud/blog/reverse-engineering-unifi-inform-protocol
-Comments URL: https://news.ycombinator.com/item?id=47308278
-Points: 64
-# Comments: 22]]></summary>
-        <author>
-            <name>baconomatic</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[No leap second will be introduced at the end of June 2026]]></title>
-        <id>https://news.ycombinator.com/item?id=47308059</id>
-        <link href="https://lists.iana.org/hyperkitty/list/tz@iana.org/thread/P6D36VZSZBUSSTSMZKFXKF4T4IXWN23P/"/>
-        <updated>2026-03-09T12:15:07.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://lists.iana.org/hyperkitty/list/tz@iana.org/thread/P6D36VZSZBUSSTSMZKFXKF4T4IXWN23P/
-Comments URL: https://news.ycombinator.com/item?id=47308059
-Points: 53
-# Comments: 59]]></summary>
-        <author>
-            <name>speckx</name>
         </author>
     </entry>
 </feed>
