@@ -2,10 +2,39 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-04-08T21:50:30.145Z</updated>
+    <updated>2026-04-08T22:50:12.097Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Is Hormuz open yet?]]></title>
+        <id>https://news.ycombinator.com/item?id=47696562</id>
+        <link href="https://www.ishormuzopenyet.com/"/>
+        <updated>2026-04-08T21:33:06.000Z</updated>
+        <summary type="html"><![CDATA[I built this because I was interested in the data. Didn't fully get it to what I wanted, but thought I'd share it nonetheless. Maybe someone has better data sources they could share!
+Turns out live ship tracking APIs are expensive so I manually just copied the json from https://www.marinetraffic.com/en/ais/home/centerx:57.4/cente... I'll probably have an ai agent do the same thing on some cron interval, if this gets any fanfare.
+To actually know if the port is open without live ship tracking I found https://portwatch.imf.org/pages/cb5856222a5b4105adc6ee7e880a... which was perfect, except it has 4 day lag!
+I also thought of adding news feed parsing or prediction market data to get a more definitive answer on if it's open right when you load it, but I spent a few hours and am gonna move on for now.
+Comments URL: https://news.ycombinator.com/item?id=47696562
+Points: 124
+# Comments: 46]]></summary>
+        <author>
+            <name>anonfunction</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[John Deere to pay $99M in right-to-repair settlement]]></title>
+        <id>https://news.ycombinator.com/item?id=47696035</id>
+        <link href="https://www.thedrive.com/news/john-deere-to-pay-99-million-in-monumental-right-to-repair-settlement"/>
+        <updated>2026-04-08T20:46:27.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.thedrive.com/news/john-deere-to-pay-99-million-in-monumental-right-to-repair-settlement
+Comments URL: https://news.ycombinator.com/item?id=47696035
+Points: 79
+# Comments: 18]]></summary>
+        <author>
+            <name>CharlesW</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[USB for Software Developers: An introduction to writing userspace USB drivers]]></title>
         <id>https://news.ycombinator.com/item?id=47695012</id>
@@ -20,6 +49,19 @@ Points: 81
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Expanding Swift's IDE Support]]></title>
+        <id>https://news.ycombinator.com/item?id=47694983</id>
+        <link href="https://swift.org/blog/expanding-swift-ide-support/"/>
+        <updated>2026-04-08T19:21:41.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://swift.org/blog/expanding-swift-ide-support/
+Comments URL: https://news.ycombinator.com/item?id=47694983
+Points: 56
+# Comments: 31]]></summary>
+        <author>
+            <name>frizlab</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[One item purchased, ten emails]]></title>
         <id>https://news.ycombinator.com/item?id=47694093</id>
         <link href="https://joshghent.com/online-shopping/"/>
@@ -30,6 +72,19 @@ Points: 70
 # Comments: 51]]></summary>
         <author>
             <name>speckx</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Orange Juice – Small UX improvements that make HN easier to read]]></title>
+        <id>https://news.ycombinator.com/item?id=47694036</id>
+        <link href="http://oj-hn.com/"/>
+        <updated>2026-04-08T18:08:52.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: http://oj-hn.com/
+Comments URL: https://news.ycombinator.com/item?id=47694036
+Points: 65
+# Comments: 91]]></summary>
+        <author>
+            <name>latchkey</name>
         </author>
     </entry>
     <entry>
@@ -18162,32 +18217,6 @@ Points: 55
 # Comments: 39]]></summary>
         <author>
             <name>ottomengis</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[FreeBSD 14.4-Release Announcement]]></title>
-        <id>https://news.ycombinator.com/item?id=47321499</id>
-        <link href="https://www.freebsd.org/releases/14.4R/announce/"/>
-        <updated>2026-03-10T10:45:09.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.freebsd.org/releases/14.4R/announce/
-Comments URL: https://news.ycombinator.com/item?id=47321499
-Points: 102
-# Comments: 23]]></summary>
-        <author>
-            <name>vermaden</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[I put my whole life into a single database]]></title>
-        <id>https://news.ycombinator.com/item?id=47321233</id>
-        <link href="https://howisfelix.today/"/>
-        <updated>2026-03-10T10:07:48.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://howisfelix.today/
-Comments URL: https://news.ycombinator.com/item?id=47321233
-Points: 151
-# Comments: 41]]></summary>
-        <author>
-            <name>lukakopajtic</name>
         </author>
     </entry>
 </feed>

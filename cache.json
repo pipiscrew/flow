@@ -6,6 +6,26 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=47696562",
+          "author": "anonfunction",
+          "description": "I built this because I was interested in the data. Didn't fully get it to what I wanted, but thought I'd share it nonetheless. Maybe someone has better data sources they could share!\nTurns out live ship tracking APIs are expensive so I manually just copied the json from https://www.marinetraffic.com/en/ais/home/centerx:57.4/cente... I'll probably have an ai agent do the same thing on some cron interval, if this gets any fanfare.\nTo actually know if the port is open without live ship tracking I found https://portwatch.imf.org/pages/cb5856222a5b4105adc6ee7e880a... which was perfect, except it has 4 day lag!\nI also thought of adding news feed parsing or prediction market data to get a more definitive answer on if it's open right when you load it, but I spent a few hours and am gonna move on for now.\nComments URL: https://news.ycombinator.com/item?id=47696562\nPoints: 124\n# Comments: 46",
+          "link": "https://www.ishormuzopenyet.com/",
+          "publishedOn": "2026-04-08T21:33:06.000Z",
+          "wordCount": 44,
+          "title": "Show HN: Is Hormuz open yet?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47696035",
+          "author": "CharlesW",
+          "description": "Article URL: https://www.thedrive.com/news/john-deere-to-pay-99-million-in-monumental-right-to-repair-settlement\nComments URL: https://news.ycombinator.com/item?id=47696035\nPoints: 79\n# Comments: 18",
+          "link": "https://www.thedrive.com/news/john-deere-to-pay-99-million-in-monumental-right-to-repair-settlement",
+          "publishedOn": "2026-04-08T20:46:27.000Z",
+          "wordCount": 2391,
+          "title": "John Deere to pay $99M in right-to-repair settlement",
+          "imageUrl": "https://www.thedrive.com/wp-content/uploads/2026/04/John-Deere-Right-to-Repair-Hero-1.jpg?w=1200"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=47695012",
           "author": "WerWolv",
           "description": "Article URL: https://werwolv.net/posts/usb_for_sw_devs/\nComments URL: https://news.ycombinator.com/item?id=47695012\nPoints: 81\n# Comments: 15",
@@ -16,6 +36,16 @@
           "imageUrl": null
         },
         {
+          "id": "https://news.ycombinator.com/item?id=47694983",
+          "author": "frizlab",
+          "description": "Article URL: https://swift.org/blog/expanding-swift-ide-support/\nComments URL: https://news.ycombinator.com/item?id=47694983\nPoints: 56\n# Comments: 31",
+          "link": "https://swift.org/blog/expanding-swift-ide-support/",
+          "publishedOn": "2026-04-08T19:21:41.000Z",
+          "wordCount": 481,
+          "title": "Expanding Swift's IDE Support",
+          "imageUrl": "https://swift.org/apple-touch-icon-180x180.png"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=47694093",
           "author": "speckx",
           "description": "Article URL: https://joshghent.com/online-shopping/\nComments URL: https://news.ycombinator.com/item?id=47694093\nPoints: 70\n# Comments: 51",
@@ -24,6 +54,16 @@
           "wordCount": 263,
           "title": "One item purchased, ten emails",
           "imageUrl": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fjoshghent.com%2Fsocial%2Fonline-shopping%2F/opengraph/_1775668121117"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47694036",
+          "author": "latchkey",
+          "description": "Article URL: http://oj-hn.com/\nComments URL: https://news.ycombinator.com/item?id=47694036\nPoints: 65\n# Comments: 91",
+          "link": "http://oj-hn.com/",
+          "publishedOn": "2026-04-08T18:08:52.000Z",
+          "wordCount": 801,
+          "title": "Show HN: Orange Juice – Small UX improvements that make HN easier to read",
+          "imageUrl": "https://orangejuiceextension.github.io/assets/og-card-1200x630.png"
         },
         {
           "id": "https://news.ycombinator.com/item?id=47693679",
@@ -13594,26 +13634,6 @@
           "wordCount": 1746,
           "title": "Yann LeCun's AI startup raises $1B in Europe's largest ever seed round",
           "imageUrl": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F58137383-3aa1-4c54-88c2-2443312633ed.jpg?source=next-barrier-page"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47321499",
-          "author": "vermaden",
-          "description": "Article URL: https://www.freebsd.org/releases/14.4R/announce/\nComments URL: https://news.ycombinator.com/item?id=47321499\nPoints: 102\n# Comments: 23",
-          "link": "https://www.freebsd.org/releases/14.4R/announce/",
-          "publishedOn": "2026-03-10T10:45:09.000Z",
-          "wordCount": 2733,
-          "title": "FreeBSD 14.4-Release Announcement",
-          "imageUrl": "https://www.freebsd.org/images/logo-thepowertoserve.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47321233",
-          "author": "lukakopajtic",
-          "description": "Article URL: https://howisfelix.today/\nComments URL: https://news.ycombinator.com/item?id=47321233\nPoints: 151\n# Comments: 41",
-          "link": "https://howisfelix.today/",
-          "publishedOn": "2026-03-10T10:07:48.000Z",
-          "wordCount": 10743,
-          "title": "I put my whole life into a single database",
-          "imageUrl": null
         }
       ]
     }
