@@ -2,10 +2,36 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-04-08T02:57:06.228Z</updated>
+    <updated>2026-04-08T05:19:18.448Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Protect Your Shed]]></title>
+        <id>https://news.ycombinator.com/item?id=47684514</id>
+        <link href="https://dylanbutler.dev/blog/protect-your-shed/"/>
+        <updated>2026-04-08T03:03:33.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://dylanbutler.dev/blog/protect-your-shed/
+Comments URL: https://news.ycombinator.com/item?id=47684514
+Points: 50
+# Comments: 7]]></summary>
+        <author>
+            <name>baely</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Xilem – An experimental Rust native UI framework]]></title>
+        <id>https://news.ycombinator.com/item?id=47682719</id>
+        <link href="https://github.com/linebender/xilem"/>
+        <updated>2026-04-07T23:36:15.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://github.com/linebender/xilem
+Comments URL: https://news.ycombinator.com/item?id=47682719
+Points: 51
+# Comments: 14]]></summary>
+        <author>
+            <name>Levitating</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[US and Iran agree to provisional ceasefire]]></title>
         <id>https://news.ycombinator.com/item?id=47682276</id>
@@ -1112,6 +1138,19 @@ Points: 102
 # Comments: 59]]></summary>
         <author>
             <name>1vuio0pswjnm7</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A whole boss fight in 256 bytes]]></title>
+        <id>https://news.ycombinator.com/item?id=47654626</id>
+        <link href="https://hellmood.111mb.de//A_whole_boss_fight_in_256_bytes.html"/>
+        <updated>2026-04-05T22:32:12.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://hellmood.111mb.de//A_whole_boss_fight_in_256_bytes.html
+Comments URL: https://news.ycombinator.com/item?id=47654626
+Points: 80
+# Comments: 19]]></summary>
+        <author>
+            <name>HellMood</name>
         </author>
     </entry>
     <entry>
@@ -18095,175 +18134,6 @@ Points: 140
 # Comments: 224]]></summary>
         <author>
             <name>1970-01-01</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Building a Procedural Hex Map with Wave Function Collapse]]></title>
-        <id>https://news.ycombinator.com/item?id=47311815</id>
-        <link href="https://felixturner.github.io/hex-map-wfc/article/"/>
-        <updated>2026-03-09T17:02:22.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://felixturner.github.io/hex-map-wfc/article/
-Comments URL: https://news.ycombinator.com/item?id=47311815
-Points: 118
-# Comments: 25]]></summary>
-        <author>
-            <name>imadr</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[DARPA's new X-76]]></title>
-        <id>https://news.ycombinator.com/item?id=47311669</id>
-        <link href="https://www.darpa.mil/news/2026/darpa-new-x-76-speed-of-jet-freedom-of-helicopter"/>
-        <updated>2026-03-09T16:54:31.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.darpa.mil/news/2026/darpa-new-x-76-speed-of-jet-freedom-of-helicopter
-Comments URL: https://news.ycombinator.com/item?id=47311669
-Points: 82
-# Comments: 68]]></summary>
-        <author>
-            <name>newer_vienna</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Launch HN: Terminal Use (YC W26) – Vercel for filesystem-based agents]]></title>
-        <id>https://news.ycombinator.com/item?id=47311657</id>
-        <link href="https://news.ycombinator.com/item?id=47311657"/>
-        <updated>2026-03-09T16:53:52.000Z</updated>
-        <summary type="html"><![CDATA[Hello Hacker News! We're Filip, Stavros, and Vivek from Terminal Use (https://www.terminaluse.com/). We built Terminal Use to make it easier to deploy agents that work in a sandboxed environment and need filesystems to do work. This includes coding agents, research agents, document processing agents, and internal tools that read and write files.
-Here's a demo: https://www.youtube.com/watch?v=ttMl96l9xPA.
-Our biggest pain point with hosting agents was that you'd need to stitch together multiple pieces: packaging your agent, running it in a sandbox, streaming messages back to users, persisting state across turns, and managing getting files to and from the agent workspace.
-We wanted something like Cog from Replicate, but for agents: a simple way to package agent code from a repo and serve it …]]></summary>
-        <author>
-            <name>filipbalucha</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[I don't know Apple's endgame for the Fn/Globe key–or if Apple does]]></title>
-        <id>https://news.ycombinator.com/item?id=47311647</id>
-        <link href="https://aresluna.org/fn/"/>
-        <updated>2026-03-09T16:53:14.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://aresluna.org/fn/
-Comments URL: https://news.ycombinator.com/item?id=47311647
-Points: 51
-# Comments: 12]]></summary>
-        <author>
-            <name>tambourine_man</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[JSLinux Now Supports x86_64]]></title>
-        <id>https://news.ycombinator.com/item?id=47311484</id>
-        <link href="https://bellard.org/jslinux/"/>
-        <updated>2026-03-09T16:43:39.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://bellard.org/jslinux/
-Comments URL: https://news.ycombinator.com/item?id=47311484
-Points: 69
-# Comments: 12]]></summary>
-        <author>
-            <name>TechTechTech</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Jolla on track to ship new phone with Sailfish OS, user-replaceable battery]]></title>
-        <id>https://news.ycombinator.com/item?id=47311456</id>
-        <link href="https://liliputing.com/the-new-jolla-phone-with-sailfish-os-is-on-track-to-start-shipping-in-the-first-half-of-2026/"/>
-        <updated>2026-03-09T16:41:54.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://liliputing.com/the-new-jolla-phone-with-sailfish-os-is-on-track-to-start-shipping-in-the-first-half-of-2026/
-Comments URL: https://news.ycombinator.com/item?id=47311456
-Points: 53
-# Comments: 12]]></summary>
-        <author>
-            <name>heresie-dabord</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[An opinionated take on how to do important research that matters]]></title>
-        <id>https://news.ycombinator.com/item?id=47311179</id>
-        <link href="https://nicholas.carlini.com/writing/2026/how-to-win-a-best-paper-award.html"/>
-        <updated>2026-03-09T16:24:22.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://nicholas.carlini.com/writing/2026/how-to-win-a-best-paper-award.html
-Comments URL: https://news.ycombinator.com/item?id=47311179
-Points: 57
-# Comments: 9]]></summary>
-        <author>
-            <name>mad</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Datahäxan]]></title>
-        <id>https://news.ycombinator.com/item?id=47310617</id>
-        <link href="https://0dd.company/galleries/witches/7.html"/>
-        <updated>2026-03-09T15:48:02.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://0dd.company/galleries/witches/7.html
-Comments URL: https://news.ycombinator.com/item?id=47310617
-Points: 58
-# Comments: 5]]></summary>
-        <author>
-            <name>akkartik</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Kuwaiti F/A-18's Triple Friendly Fire Shootdown Gets Stranger by the Day]]></title>
-        <id>https://news.ycombinator.com/item?id=47310556</id>
-        <link href="https://www.twz.com/air/kuwaiti-f-a-18s-triple-friendly-fire-shootdown-gets-stranger-by-the-day"/>
-        <updated>2026-03-09T15:44:04.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.twz.com/air/kuwaiti-f-a-18s-triple-friendly-fire-shootdown-gets-stranger-by-the-day
-Comments URL: https://news.ycombinator.com/item?id=47310556
-Points: 108
-# Comments: 33]]></summary>
-        <author>
-            <name>throwawayffffas</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Restoring a Sun SPARCstation IPX Part 1: PSU and Nvram]]></title>
-        <id>https://news.ycombinator.com/item?id=47310296</id>
-        <link href="https://www.rs-online.com/designspark/restoring-a-sun-sparcstation-ipx-part-1-psu-and-nvram"/>
-        <updated>2026-03-09T15:23:08.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.rs-online.com/designspark/restoring-a-sun-sparcstation-ipx-part-1-psu-and-nvram
-Comments URL: https://news.ycombinator.com/item?id=47310296
-Points: 60
-# Comments: 26]]></summary>
-        <author>
-            <name>ibobev</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Is legal the same as legitimate: AI reimplementation and the erosion of copyleft]]></title>
-        <id>https://news.ycombinator.com/item?id=47310160</id>
-        <link href="https://writings.hongminhee.org/2026/03/legal-vs-legitimate/"/>
-        <updated>2026-03-09T15:12:53.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://writings.hongminhee.org/2026/03/legal-vs-legitimate/
-Comments URL: https://news.ycombinator.com/item?id=47310160
-Points: 97
-# Comments: 87]]></summary>
-        <author>
-            <name>dahlia</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New farm bill would condemn pigs to a lifetime in gestation crates]]></title>
-        <id>https://news.ycombinator.com/item?id=47310092</id>
-        <link href="https://twitter.com/Lewis_Bollard/status/2030985704902099335"/>
-        <updated>2026-03-09T15:06:37.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://twitter.com/Lewis_Bollard/status/2030985704902099335
-Comments URL: https://news.ycombinator.com/item?id=47310092
-Points: 118
-# Comments: 61]]></summary>
-        <author>
-            <name>bilsbie</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The engine of Germany's wealth is blocking its future]]></title>
-        <id>https://news.ycombinator.com/item?id=47310073</id>
-        <link href="https://europeancorrespondent.com/en/r/the-engine-of-germanys-wealth-is-blocking-its-future"/>
-        <updated>2026-03-09T15:05:09.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://europeancorrespondent.com/en/r/the-engine-of-germanys-wealth-is-blocking-its-future
-Comments URL: https://news.ycombinator.com/item?id=47310073
-Points: 110
-# Comments: 82]]></summary>
-        <author>
-            <name>mariuz</name>
         </author>
     </entry>
 </feed>

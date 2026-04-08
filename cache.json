@@ -6,6 +6,26 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=47684514",
+          "author": "baely",
+          "description": "Article URL: https://dylanbutler.dev/blog/protect-your-shed/\nComments URL: https://news.ycombinator.com/item?id=47684514\nPoints: 50\n# Comments: 7",
+          "link": "https://dylanbutler.dev/blog/protect-your-shed/",
+          "publishedOn": "2026-04-08T03:03:33.000Z",
+          "wordCount": 2594,
+          "title": "Protect Your Shed",
+          "imageUrl": "https://dylanbutler.dev/images/IMG_2205.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47682719",
+          "author": "Levitating",
+          "description": "Article URL: https://github.com/linebender/xilem\nComments URL: https://news.ycombinator.com/item?id=47682719\nPoints: 51\n# Comments: 14",
+          "link": "https://github.com/linebender/xilem",
+          "publishedOn": "2026-04-07T23:36:15.000Z",
+          "wordCount": 3077,
+          "title": "Xilem – An experimental Rust native UI framework",
+          "imageUrl": "https://opengraph.githubassets.com/2865a17a6a219dfdc7135295a68a9eebc0b8a2f749cc79a6e02c531fda828023/linebender/xilem"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=47682276",
           "author": "g-b-r",
           "description": "https://www.reuters.com/world/iran-war-live-tehran-rejects-c...\nComments URL: https://news.ycombinator.com/item?id=47682276\nPoints: 236\n# Comments: 614",
@@ -834,6 +854,16 @@
           "wordCount": 5089,
           "title": "OpenAI's fall from grace as investors race to Anthropic",
           "imageUrl": "https://ca-times.brightspotcdn.com/dims4/default/b1761b5/2147483647/strip/true/crop/2000x1050+0+142/resize/1200x630!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F26%2F68%2Fc707de388c727fc161ff8d4189e8%2F1x-1.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47654626",
+          "author": "HellMood",
+          "description": "Article URL: https://hellmood.111mb.de//A_whole_boss_fight_in_256_bytes.html\nComments URL: https://news.ycombinator.com/item?id=47654626\nPoints: 80\n# Comments: 19",
+          "link": "https://hellmood.111mb.de//A_whole_boss_fight_in_256_bytes.html",
+          "publishedOn": "2026-04-05T22:32:12.000Z",
+          "wordCount": 2184,
+          "title": "A whole boss fight in 256 bytes",
+          "imageUrl": null
         },
         {
           "id": "https://news.ycombinator.com/item?id=47654620",
@@ -13544,136 +13574,6 @@
           "wordCount": 6617,
           "title": "Florida judge rules red light camera tickets are unconstitutional",
           "imageUrl": "https://cbs12.com/resources/media2/16x9/602/1320/37x0/90/0bdb9082-796c-4b80-ae94-3e21c2de95d3-REDLIGHTCAMERA.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47311815",
-          "author": "imadr",
-          "description": "Article URL: https://felixturner.github.io/hex-map-wfc/article/\nComments URL: https://news.ycombinator.com/item?id=47311815\nPoints: 118\n# Comments: 25",
-          "link": "https://felixturner.github.io/hex-map-wfc/article/",
-          "publishedOn": "2026-03-09T17:02:22.000Z",
-          "wordCount": 3110,
-          "title": "Building a Procedural Hex Map with Wave Function Collapse",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47311669",
-          "author": "newer_vienna",
-          "description": "Article URL: https://www.darpa.mil/news/2026/darpa-new-x-76-speed-of-jet-freedom-of-helicopter\nComments URL: https://news.ycombinator.com/item?id=47311669\nPoints: 82\n# Comments: 68",
-          "link": "https://www.darpa.mil/news/2026/darpa-new-x-76-speed-of-jet-freedom-of-helicopter",
-          "publishedOn": "2026-03-09T16:54:31.000Z",
-          "wordCount": 720,
-          "title": "DARPA's new X-76",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47311657",
-          "author": "filipbalucha",
-          "description": "Hello Hacker News! We're Filip, Stavros, and Vivek from Terminal Use (https://www.terminaluse.com/). We built Terminal Use to make it easier to deploy agents that work in a sandboxed environment and need filesystems to do work. This includes coding agents, research agents, document processing agents, and internal tools that read and write files.\nHere's a demo: https://www.youtube.com/watch?v=ttMl96l9xPA.\nOur biggest pain point with hosting agents was that you'd need to stitch together multiple pieces: packaging your agent, running it in a sandbox, streaming messages back to users, persisting state across turns, and managing getting files to and from the agent workspace.\nWe wanted something like Cog from Replicate, but for agents: a simple way to package agent code from a repo and serve it …",
-          "link": "https://news.ycombinator.com/item?id=47311657",
-          "publishedOn": "2026-03-09T16:53:52.000Z",
-          "wordCount": 4105,
-          "title": "Launch HN: Terminal Use (YC W26) – Vercel for filesystem-based agents",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47311647",
-          "author": "tambourine_man",
-          "description": "Article URL: https://aresluna.org/fn/\nComments URL: https://news.ycombinator.com/item?id=47311647\nPoints: 51\n# Comments: 12",
-          "link": "https://aresluna.org/fn/",
-          "publishedOn": "2026-03-09T16:53:14.000Z",
-          "wordCount": 4785,
-          "title": "I don't know Apple's endgame for the Fn/Globe key–or if Apple does",
-          "imageUrl": "https://aresluna.org/images/fn/ogimage.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47311484",
-          "author": "TechTechTech",
-          "description": "Article URL: https://bellard.org/jslinux/\nComments URL: https://news.ycombinator.com/item?id=47311484\nPoints: 69\n# Comments: 12",
-          "link": "https://bellard.org/jslinux/",
-          "publishedOn": "2026-03-09T16:43:39.000Z",
-          "wordCount": 119,
-          "title": "JSLinux Now Supports x86_64",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47311456",
-          "author": "heresie-dabord",
-          "description": "Article URL: https://liliputing.com/the-new-jolla-phone-with-sailfish-os-is-on-track-to-start-shipping-in-the-first-half-of-2026/\nComments URL: https://news.ycombinator.com/item?id=47311456\nPoints: 53\n# Comments: 12",
-          "link": "https://liliputing.com/the-new-jolla-phone-with-sailfish-os-is-on-track-to-start-shipping-in-the-first-half-of-2026/",
-          "publishedOn": "2026-03-09T16:41:54.000Z",
-          "wordCount": null,
-          "title": "Jolla on track to ship new phone with Sailfish OS, user-replaceable battery",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47311179",
-          "author": "mad",
-          "description": "Article URL: https://nicholas.carlini.com/writing/2026/how-to-win-a-best-paper-award.html\nComments URL: https://news.ycombinator.com/item?id=47311179\nPoints: 57\n# Comments: 9",
-          "link": "https://nicholas.carlini.com/writing/2026/how-to-win-a-best-paper-award.html",
-          "publishedOn": "2026-03-09T16:24:22.000Z",
-          "wordCount": 10712,
-          "title": "An opinionated take on how to do important research that matters",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47310617",
-          "author": "akkartik",
-          "description": "Article URL: https://0dd.company/galleries/witches/7.html\nComments URL: https://news.ycombinator.com/item?id=47310617\nPoints: 58\n# Comments: 5",
-          "link": "https://0dd.company/galleries/witches/7.html",
-          "publishedOn": "2026-03-09T15:48:02.000Z",
-          "wordCount": 891,
-          "title": "Datahäxan",
-          "imageUrl": "https://0dd.company/media/logos/eyelogo.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47310556",
-          "author": "throwawayffffas",
-          "description": "Article URL: https://www.twz.com/air/kuwaiti-f-a-18s-triple-friendly-fire-shootdown-gets-stranger-by-the-day\nComments URL: https://news.ycombinator.com/item?id=47310556\nPoints: 108\n# Comments: 33",
-          "link": "https://www.twz.com/air/kuwaiti-f-a-18s-triple-friendly-fire-shootdown-gets-stranger-by-the-day",
-          "publishedOn": "2026-03-09T15:44:04.000Z",
-          "wordCount": 4737,
-          "title": "Kuwaiti F/A-18's Triple Friendly Fire Shootdown Gets Stranger by the Day",
-          "imageUrl": "https://www.twz.com/wp-content/uploads/2026/03/FA18-Kuwait.jpg?w=1200"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47310296",
-          "author": "ibobev",
-          "description": "Article URL: https://www.rs-online.com/designspark/restoring-a-sun-sparcstation-ipx-part-1-psu-and-nvram\nComments URL: https://news.ycombinator.com/item?id=47310296\nPoints: 60\n# Comments: 26",
-          "link": "https://www.rs-online.com/designspark/restoring-a-sun-sparcstation-ipx-part-1-psu-and-nvram",
-          "publishedOn": "2026-03-09T15:23:08.000Z",
-          "wordCount": 2661,
-          "title": "Restoring a Sun SPARCstation IPX Part 1: PSU and Nvram",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47310160",
-          "author": "dahlia",
-          "description": "Article URL: https://writings.hongminhee.org/2026/03/legal-vs-legitimate/\nComments URL: https://news.ycombinator.com/item?id=47310160\nPoints: 97\n# Comments: 87",
-          "link": "https://writings.hongminhee.org/2026/03/legal-vs-legitimate/",
-          "publishedOn": "2026-03-09T15:12:53.000Z",
-          "wordCount": 2217,
-          "title": "Is legal the same as legitimate: AI reimplementation and the erosion of copyleft",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47310092",
-          "author": "bilsbie",
-          "description": "Article URL: https://twitter.com/Lewis_Bollard/status/2030985704902099335\nComments URL: https://news.ycombinator.com/item?id=47310092\nPoints: 118\n# Comments: 61",
-          "link": "https://twitter.com/Lewis_Bollard/status/2030985704902099335",
-          "publishedOn": "2026-03-09T15:06:37.000Z",
-          "wordCount": 719,
-          "title": "New farm bill would condemn pigs to a lifetime in gestation crates",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47310073",
-          "author": "mariuz",
-          "description": "Article URL: https://europeancorrespondent.com/en/r/the-engine-of-germanys-wealth-is-blocking-its-future\nComments URL: https://news.ycombinator.com/item?id=47310073\nPoints: 110\n# Comments: 82",
-          "link": "https://europeancorrespondent.com/en/r/the-engine-of-germanys-wealth-is-blocking-its-future",
-          "publishedOn": "2026-03-09T15:05:09.000Z",
-          "wordCount": 7179,
-          "title": "The engine of Germany's wealth is blocking its future",
-          "imageUrl": "https://images.europeancorrespondent.com/attwkYDXMGI1D1j5I/public"
         }
       ]
     }
