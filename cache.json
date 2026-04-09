@@ -6,6 +6,26 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=47707253",
+          "author": "strongpigeon",
+          "description": "Article URL: https://chatgpt.com/pricing/\nComments URL: https://news.ycombinator.com/item?id=47707253\nPoints: 102\n# Comments: 107",
+          "link": "https://chatgpt.com/pricing/",
+          "publishedOn": "2026-04-09T18:09:19.000Z",
+          "wordCount": null,
+          "title": "ChatGPT Pro now starts at $100/month",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47706268",
+          "author": "gregsadetsky",
+          "description": "Article URL: https://www.eff.org/deeplinks/2026/04/eff-leaving-x\nComments URL: https://news.ycombinator.com/item?id=47706268\nPoints: 553\n# Comments: 499",
+          "link": "https://www.eff.org/deeplinks/2026/04/eff-leaving-x",
+          "publishedOn": "2026-04-09T17:08:04.000Z",
+          "wordCount": 1208,
+          "title": "EFF is leaving X",
+          "imageUrl": "https://www.eff.org/files/banner_library/Twitter-censored.png"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=47705952",
           "author": "frm88",
           "description": "Article URL: https://www.thelettersfromleo.com/p/the-pentagon-threatened-pope-leo\nComments URL: https://news.ycombinator.com/item?id=47705952\nPoints: 168\n# Comments: 59",
@@ -14,6 +34,16 @@
           "wordCount": 2828,
           "title": "The Pentagon Threatened Pope Leo XIV's Ambassador with the Avignon Papacy",
           "imageUrl": "https://substackcdn.com/image/fetch/$s_!wLRo!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9558cb84-a466-4009-8945-ea577cd0443e_1536x1024.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47705413",
+          "author": "randerson_112",
+          "description": "I love C and C++, but setting up projects can sometimes be a pain.\nEvery time I wanted to start something new I'd spend the first hour writing CMakeLists.txt, figuring out find_package, copying boilerplate from my last project, and googling why my library isn't linking. By the time the project was actually set up I'd lost all momentum.\nSo, I built Craft - a lightweight build and workflow tool for C and C++. Instead of writing CMake, your project configuration goes in a simple craft.toml:\n  [project]\n  name = \"my_app\"\n  version = \"0.1.0\"\n  language = \"c\"\n  c_standard = 99\n\n  [build]\n  type = \"executable\"\n\n  craft add --git https://github.com/raysan5/raylib --links raylib\n  craft add --path ../my_library\n  craft add sfml\n\nOther Craft features: craft init - adopt an existing C/C++ project into Craft or initialize an empty directory. \ncraft template - save any project structure as a template to be initialized later. craft gen - generate header and source files with starter boilerplate code. craft upgrade - keeps itself up to date.\nCMakeLists.extra.cmake for anything that Craft does not yet handle.\nCross platform - macOS, Linux, Windows.\nIt is still early (I just got it to v1.0.0) but I am excited to be able to share it and keep improving it.\nWould love feedback. Please also feel free to make pull requests if you want to help with development!\nComments URL: https://news.ycombinator.com/item?id=47705413\nPoints: 66\n# Comments: 65",
+          "link": "https://github.com/randerson112/craft",
+          "publishedOn": "2026-04-09T16:04:54.000Z",
+          "wordCount": 7421,
+          "title": "Show HN: I built a Cargo-like build tool for C/C++",
+          "imageUrl": "https://opengraph.githubassets.com/622e368923b92e18c72df61486c289617fd8f8592205184854376911cfa4a192/randerson112/craft"
         },
         {
           "id": "https://news.ycombinator.com/item?id=47705324",
@@ -1134,6 +1164,16 @@
           "wordCount": 31509,
           "title": "Sky – an Elm-inspired language that compiles to Go",
           "imageUrl": "https://opengraph.githubassets.com/f6e92b8981ed7165e65612502f8ae19ab7d5e5cee3cabe22270c77d5ad0bb0c2/anzellai/sky"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47661972",
+          "author": "surprisetalk",
+          "description": "Article URL: https://scottlocklin.wordpress.com/2026/03/25/very-small-engines/\nComments URL: https://news.ycombinator.com/item?id=47661972\nPoints: 63\n# Comments: 15",
+          "link": "https://scottlocklin.wordpress.com/2026/03/25/very-small-engines/",
+          "publishedOn": "2026-04-06T15:11:24.000Z",
+          "wordCount": 3993,
+          "title": "Small Engines",
+          "imageUrl": "https://scottlocklin.wordpress.com/wp-content/uploads/2026/03/personal-power.png"
         },
         {
           "id": "https://news.ycombinator.com/item?id=47661439",
@@ -2544,6 +2584,16 @@
           "wordCount": 9836,
           "title": "Category Theory Illustrated – Types",
           "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47624763",
+          "author": "tosh",
+          "description": "Article URL: https://treecalcul.us/\nComments URL: https://news.ycombinator.com/item?id=47624763\nPoints: 100\n# Comments: 22",
+          "link": "https://treecalcul.us/",
+          "publishedOn": "2026-04-03T09:42:05.000Z",
+          "wordCount": 793,
+          "title": "Tree Calculus",
+          "imageUrl": "/tree-fun-size.png"
         },
         {
           "id": "https://news.ycombinator.com/item?id=47624741",
@@ -13514,26 +13564,6 @@
           "wordCount": 5886,
           "title": "The $2 per hour worker behind the OnlyFans boom",
           "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/7669/live/a33cbbc0-1c94-11f1-8f3c-8366692412b1.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47332074",
-          "author": "ppew",
-          "description": "Article URL: https://geohot.github.io//blog/jekyll/update/2026/03/11/running-69-agents.html\nComments URL: https://news.ycombinator.com/item?id=47332074\nPoints: 78\n# Comments: 17",
-          "link": "https://geohot.github.io//blog/jekyll/update/2026/03/11/running-69-agents.html",
-          "publishedOn": "2026-03-11T05:45:49.000Z",
-          "wordCount": 498,
-          "title": "Create value for others and don’t worry about the returns",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47332054",
-          "author": "smusamashah",
-          "description": "Article URL: https://www.hume.ai/blog/opensource-tada\nComments URL: https://news.ycombinator.com/item?id=47332054\nPoints: 52\n# Comments: 9",
-          "link": "https://www.hume.ai/blog/opensource-tada",
-          "publishedOn": "2026-03-11T05:42:55.000Z",
-          "wordCount": 2727,
-          "title": "TADA: Fast, Reliable Speech Generation Through Text-Acoustic Synchronization",
-          "imageUrl": "https://cdn.sanity.io/images/xqnc2for/production/05620681ef774dc41236f42520a269829e11851a-4800x2520.png?w=1200&h=630"
         }
       ]
     }

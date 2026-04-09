@@ -2,10 +2,36 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-04-09T17:14:54.433Z</updated>
+    <updated>2026-04-09T19:17:20.794Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[ChatGPT Pro now starts at $100/month]]></title>
+        <id>https://news.ycombinator.com/item?id=47707253</id>
+        <link href="https://chatgpt.com/pricing/"/>
+        <updated>2026-04-09T18:09:19.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://chatgpt.com/pricing/
+Comments URL: https://news.ycombinator.com/item?id=47707253
+Points: 102
+# Comments: 107]]></summary>
+        <author>
+            <name>strongpigeon</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[EFF is leaving X]]></title>
+        <id>https://news.ycombinator.com/item?id=47706268</id>
+        <link href="https://www.eff.org/deeplinks/2026/04/eff-leaving-x"/>
+        <updated>2026-04-09T17:08:04.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.eff.org/deeplinks/2026/04/eff-leaving-x
+Comments URL: https://news.ycombinator.com/item?id=47706268
+Points: 553
+# Comments: 499]]></summary>
+        <author>
+            <name>gregsadetsky</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[The Pentagon Threatened Pope Leo XIV's Ambassador with the Avignon Papacy]]></title>
         <id>https://news.ycombinator.com/item?id=47705952</id>
@@ -17,6 +43,40 @@ Points: 168
 # Comments: 59]]></summary>
         <author>
             <name>frm88</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: I built a Cargo-like build tool for C/C++]]></title>
+        <id>https://news.ycombinator.com/item?id=47705413</id>
+        <link href="https://github.com/randerson112/craft"/>
+        <updated>2026-04-09T16:04:54.000Z</updated>
+        <summary type="html"><![CDATA[I love C and C++, but setting up projects can sometimes be a pain.
+Every time I wanted to start something new I'd spend the first hour writing CMakeLists.txt, figuring out find_package, copying boilerplate from my last project, and googling why my library isn't linking. By the time the project was actually set up I'd lost all momentum.
+So, I built Craft - a lightweight build and workflow tool for C and C++. Instead of writing CMake, your project configuration goes in a simple craft.toml:
+  [project]
+  name = "my_app"
+  version = "0.1.0"
+  language = "c"
+  c_standard = 99
+
+  [build]
+  type = "executable"
+
+  craft add --git https://github.com/raysan5/raylib --links raylib
+  craft add --path ../my_library
+  craft add sfml
+
+Other Craft features: craft init - adopt an existing C/C++ project into Craft or initialize an empty directory. 
+craft template - save any project structure as a template to be initialized later. craft gen - generate header and source files with starter boilerplate code. craft upgrade - keeps itself up to date.
+CMakeLists.extra.cmake for anything that Craft does not yet handle.
+Cross platform - macOS, Linux, Windows.
+It is still early (I just got it to v1.0.0) but I am excited to be able to share it and keep improving it.
+Would love feedback. Please also feel free to make pull requests if you want to help with development!
+Comments URL: https://news.ycombinator.com/item?id=47705413
+Points: 66
+# Comments: 65]]></summary>
+        <author>
+            <name>randerson_112</name>
         </author>
     </entry>
     <entry>
@@ -1504,6 +1564,19 @@ Points: 66
 # Comments: 6]]></summary>
         <author>
             <name>whalesalad</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Small Engines]]></title>
+        <id>https://news.ycombinator.com/item?id=47661972</id>
+        <link href="https://scottlocklin.wordpress.com/2026/03/25/very-small-engines/"/>
+        <updated>2026-04-06T15:11:24.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://scottlocklin.wordpress.com/2026/03/25/very-small-engines/
+Comments URL: https://news.ycombinator.com/item?id=47661972
+Points: 63
+# Comments: 15]]></summary>
+        <author>
+            <name>surprisetalk</name>
         </author>
     </entry>
     <entry>
@@ -3367,6 +3440,19 @@ Points: 54
 # Comments: 1]]></summary>
         <author>
             <name>boris_m</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Tree Calculus]]></title>
+        <id>https://news.ycombinator.com/item?id=47624763</id>
+        <link href="https://treecalcul.us/"/>
+        <updated>2026-04-03T09:42:05.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://treecalcul.us/
+Comments URL: https://news.ycombinator.com/item?id=47624763
+Points: 100
+# Comments: 22]]></summary>
+        <author>
+            <name>tosh</name>
         </author>
     </entry>
     <entry>
@@ -18051,32 +18137,6 @@ Points: 68
 # Comments: 58]]></summary>
         <author>
             <name>1659447091</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Create value for others and don’t worry about the returns]]></title>
-        <id>https://news.ycombinator.com/item?id=47332074</id>
-        <link href="https://geohot.github.io//blog/jekyll/update/2026/03/11/running-69-agents.html"/>
-        <updated>2026-03-11T05:45:49.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://geohot.github.io//blog/jekyll/update/2026/03/11/running-69-agents.html
-Comments URL: https://news.ycombinator.com/item?id=47332074
-Points: 78
-# Comments: 17]]></summary>
-        <author>
-            <name>ppew</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[TADA: Fast, Reliable Speech Generation Through Text-Acoustic Synchronization]]></title>
-        <id>https://news.ycombinator.com/item?id=47332054</id>
-        <link href="https://www.hume.ai/blog/opensource-tada"/>
-        <updated>2026-03-11T05:42:55.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.hume.ai/blog/opensource-tada
-Comments URL: https://news.ycombinator.com/item?id=47332054
-Points: 52
-# Comments: 9]]></summary>
-        <author>
-            <name>smusamashah</name>
         </author>
     </entry>
 </feed>
