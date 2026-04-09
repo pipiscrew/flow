@@ -2,10 +2,51 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-04-09T11:05:04.421Z</updated>
+    <updated>2026-04-09T13:57:45.360Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Am I German or Autistic?]]></title>
+        <id>https://news.ycombinator.com/item?id=47703072</id>
+        <link href="https://german.millermanschool.com/"/>
+        <updated>2026-04-09T12:52:12.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://german.millermanschool.com/
+Comments URL: https://news.ycombinator.com/item?id=47703072
+Points: 82
+# Comments: 51]]></summary>
+        <author>
+            <name>doener</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: CSS Studio. Design by hand, code by agent]]></title>
+        <id>https://news.ycombinator.com/item?id=47702196</id>
+        <link href="https://cssstudio.ai/"/>
+        <updated>2026-04-09T11:23:31.000Z</updated>
+        <summary type="html"><![CDATA[Hi HN! I've just released CSS Studio, a design tool that lives on your site, runs on your browser, sends updates to your existing AI agent, which edits any codebase. You can actually play around with the latest version directly on the site.
+Technically, the way this works is you view your site in dev mode and start editing it. In your agent, you can run /studio which then polls (or uses Claude Channels) an MCP server. Changes are streamed as JSON via the MCP, along with some viewport and URL information, and the skill has some instructions on how best to implement them.
+It contains a lot of the tools you'd expect from a visual editing tool, like text editing, styles and an animation timeline editor.
+Comments URL: https://news.ycombinator.com/item?id=47702196
+Points: 61
+# Comments: 49]]></summary>
+        <author>
+            <name>SirHound</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Wit, unker, Git: The lost medieval pronouns of English intimacy]]></title>
+        <id>https://news.ycombinator.com/item?id=47701572</id>
+        <link href="https://www.bbc.com/future/article/20260408-the-extinct-english-words-for-just-the-two-of-us"/>
+        <updated>2026-04-09T10:10:19.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.bbc.com/future/article/20260408-the-extinct-english-words-for-just-the-two-of-us
+Comments URL: https://news.ycombinator.com/item?id=47701572
+Points: 63
+# Comments: 29]]></summary>
+        <author>
+            <name>eigenspace</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Claude mixes up who said what and that's not OK]]></title>
         <id>https://news.ycombinator.com/item?id=47701233</id>
@@ -17,6 +58,19 @@ Points: 81
 # Comments: 62]]></summary>
         <author>
             <name>sixhobbits</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Creating the Futurescape for the Fifth Element [2019]]]></title>
+        <id>https://news.ycombinator.com/item?id=47701100</id>
+        <link href="https://theasc.com/articles/fantastic-voyage-creating-the-futurescape-for-the-fifth-element"/>
+        <updated>2026-04-09T09:11:37.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://theasc.com/articles/fantastic-voyage-creating-the-futurescape-for-the-fifth-element
+Comments URL: https://news.ycombinator.com/item?id=47701100
+Points: 67
+# Comments: 35]]></summary>
+        <author>
+            <name>nixass</name>
         </author>
     </entry>
     <entry>
@@ -2201,6 +2255,19 @@ Points: 60
 # Comments: 20]]></summary>
         <author>
             <name>waveywaves</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Dr. Dobb's Developer Library DVD 6]]></title>
+        <id>https://news.ycombinator.com/item?id=47645010</id>
+        <link href="https://archive.org/details/DDJDVD6"/>
+        <updated>2026-04-05T00:37:57.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://archive.org/details/DDJDVD6
+Comments URL: https://news.ycombinator.com/item?id=47645010
+Points: 94
+# Comments: 34]]></summary>
+        <author>
+            <name>kristianp</name>
         </author>
     </entry>
     <entry>
@@ -17893,19 +17960,6 @@ Points: 56
 # Comments: 9]]></summary>
         <author>
             <name>todsacerdoti</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Zig – Type Resolution Redesign and Language Changes]]></title>
-        <id>https://news.ycombinator.com/item?id=47330836</id>
-        <link href="https://ziglang.org/devlog/2026/#2026-03-10"/>
-        <updated>2026-03-11T01:24:47.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://ziglang.org/devlog/2026/#2026-03-10
-Comments URL: https://news.ycombinator.com/item?id=47330836
-Points: 71
-# Comments: 17]]></summary>
-        <author>
-            <name>Retro_Dev</name>
         </author>
     </entry>
 </feed>
