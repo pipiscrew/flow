@@ -6,6 +6,16 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=47698082",
+          "author": "mitchbob",
+          "description": "Article URL: https://www.theguardian.com/business/2026/apr/08/polymarket-trump-us-iran-ceasefire\nComments URL: https://news.ycombinator.com/item?id=47698082\nPoints: 86\n# Comments: 46",
+          "link": "https://www.theguardian.com/business/2026/apr/08/polymarket-trump-us-iran-ceasefire",
+          "publishedOn": "2026-04-09T00:55:46.000Z",
+          "wordCount": 4298,
+          "title": "Newly created Polymarket accounts win big on well-timed Iran ceasefire bets",
+          "imageUrl": "https://i.guim.co.uk/img/media/88c0b78fc85aad0a4dd3f901896131833db0b9b9/472_0_4720_3776/master/4720.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=9d1130f0ce841ff4106bccd4569fa83f"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=47697870",
           "author": "pluc",
           "description": "Article URL: https://obdev.at/products/littlesnitch-linux/index.html\nComments URL: https://news.ycombinator.com/item?id=47697870\nPoints: 196\n# Comments: 71",
@@ -13453,66 +13463,6 @@
           "publishedOn": "2026-03-10T17:49:53.000Z",
           "wordCount": null,
           "title": "Billion-Parameter Theories",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47326101",
-          "author": "sanchitmonga22",
-          "description": "Hi HN, we're Sanchit and Shubham (YC W26). We built a fast inference engine for Apple Silicon. LLMs, speech-to-text, text-to-speech – MetalRT beats llama.cpp, Apple's MLX, Ollama, and sherpa-onnx on every modality we tested. Custom Metal shaders, no framework overhead.\nAlso, we've open-sourced RCLI, the fastest end-to-end voice AI pipeline on Apple Silicon. Mic to spoken response, entirely on-device. No cloud, no API keys.\nTo get started:\n  brew tap RunanywhereAI/rcli https://github.com/RunanywhereAI/RCLI.git\n  brew install rcli\n  rcli setup   # downloads ~1 GB of models\n  rcli         # interactive mode with push-to-talk\n\n  curl -fsSL https://raw.githubusercontent.com/RunanywhereAI/RCLI/main/install.sh | bash\n\nLLM decode – 1.67x faster than llama.cpp, 1.19x faster than Apple MLX (same mod…",
-          "link": "https://github.com/RunanywhereAI/rcli",
-          "publishedOn": "2026-03-10T17:14:52.000Z",
-          "wordCount": 4726,
-          "title": "Launch HN: RunAnywhere (YC W26) – Faster AI Inference on Apple Silicon",
-          "imageUrl": "https://opengraph.githubassets.com/0d01c8e513fdb383c6dd3aeb7c9c03f506a7aeb8f1ba24de5cb04abe64add262/RunanywhereAI/RCLI"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47325595",
-          "author": "GeneralMaximus",
-          "description": "Article URL: https://ankursethi.com/blog/programming-language-claude-code/\nComments URL: https://news.ycombinator.com/item?id=47325595\nPoints: 53\n# Comments: 63",
-          "link": "https://ankursethi.com/blog/programming-language-claude-code/",
-          "publishedOn": "2026-03-10T16:37:29.000Z",
-          "wordCount": 5006,
-          "title": "I built a programming language using Claude Code",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47325296",
-          "author": "matteocantiello",
-          "description": "I built this because I wanted to know what people in Japan were listening to the year I was born. That question spiraled: how does a hit in Rome compare to what was charting in Lagos the same year? How did sonic flavors propagate as streaming made musical influence travel faster than ever?\n88mph is a playable map of music history: 230 charts across 20 countries, spanning 8 decades (1940–2025). Every song is playable via YouTube or Spotify. It's open source and I'd love help expanding it — there's a link to contribute charts for new countries and years. The goal is to crowdsource a complete sonic atlas of the world.\nComments URL: https://news.ycombinator.com/item?id=47325296\nPoints: 51\n# Comments: 19",
-          "link": "https://88mph.fm/",
-          "publishedOn": "2026-03-10T16:18:40.000Z",
-          "wordCount": 685,
-          "title": "Show HN: What was the world listening to? Music charts, 20 countries (1940–2025)",
-          "imageUrl": "https://88mph.fm/og.webp"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47324296",
-          "author": "rosasalberto",
-          "description": "Hi HN, I’m Alberto. I co-founded Didit (https://didit.me) with my identical twin brother Alejandro. We are building a unified identity layer—a single integration that handles KYC, AML, biometrics, authentication, and fraud prevention globally. Here’s a demo: https://www.youtube.com/watch?v=eTdcg7JCc4M&t=7s.\nBeing identical twins, we’ve spent our whole lives dealing with identity confusion, so it is a bit of irony that we ended up building a company to solve it for the internet.\nGrowing up in Barcelona, we spent years working on products where identity issues were a massive pain. We eventually realized that for most engineering teams, \"global identity\" is a fiction—in reality it is a fragmented mess. You end up stitching together one provider for US driver's licenses, another for NFC chip e…",
-          "link": "https://news.ycombinator.com/item?id=47324296",
-          "publishedOn": "2026-03-10T15:08:05.000Z",
-          "wordCount": 3849,
-          "title": "Launch HN: Didit (YC W26) – Stripe for Identity Verification",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47324211",
-          "author": "lwhsiao",
-          "description": "Article URL: https://twitter.com/lukolejnik/status/2031257644724342957\nComments URL: https://news.ycombinator.com/item?id=47324211\nPoints: 79\n# Comments: 29",
-          "link": "https://twitter.com/lukolejnik/status/2031257644724342957",
-          "publishedOn": "2026-03-10T15:01:35.000Z",
-          "wordCount": 719,
-          "title": "Amazon is holding a mandatory meeting about AI breaking its systems",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47324087",
-          "author": "jwilk",
-          "description": "Article URL: https://lwn.net/SubscriberLink/1061544/125f911834966dd0/\nComments URL: https://news.ycombinator.com/item?id=47324087\nPoints: 57\n# Comments: 52",
-          "link": "https://lwn.net/SubscriberLink/1061544/125f911834966dd0/",
-          "publishedOn": "2026-03-10T14:53:13.000Z",
-          "wordCount": 2845,
-          "title": "Debian decides not to decide on AI-generated contributions",
           "imageUrl": null
         }
       ]

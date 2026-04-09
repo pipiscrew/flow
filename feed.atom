@@ -2,10 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-04-09T02:51:39.306Z</updated>
+    <updated>2026-04-09T05:17:22.104Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Newly created Polymarket accounts win big on well-timed Iran ceasefire bets]]></title>
+        <id>https://news.ycombinator.com/item?id=47698082</id>
+        <link href="https://www.theguardian.com/business/2026/apr/08/polymarket-trump-us-iran-ceasefire"/>
+        <updated>2026-04-09T00:55:46.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.theguardian.com/business/2026/apr/08/polymarket-trump-us-iran-ceasefire
+Comments URL: https://news.ycombinator.com/item?id=47698082
+Points: 86
+# Comments: 46]]></summary>
+        <author>
+            <name>mitchbob</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[LittleSnitch for Linux]]></title>
         <id>https://news.ycombinator.com/item?id=47697870</id>
@@ -17974,91 +17987,6 @@ Points: 51
 # Comments: 25]]></summary>
         <author>
             <name>seanlinehan</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Launch HN: RunAnywhere (YC W26) – Faster AI Inference on Apple Silicon]]></title>
-        <id>https://news.ycombinator.com/item?id=47326101</id>
-        <link href="https://github.com/RunanywhereAI/rcli"/>
-        <updated>2026-03-10T17:14:52.000Z</updated>
-        <summary type="html"><![CDATA[Hi HN, we're Sanchit and Shubham (YC W26). We built a fast inference engine for Apple Silicon. LLMs, speech-to-text, text-to-speech – MetalRT beats llama.cpp, Apple's MLX, Ollama, and sherpa-onnx on every modality we tested. Custom Metal shaders, no framework overhead.
-Also, we've open-sourced RCLI, the fastest end-to-end voice AI pipeline on Apple Silicon. Mic to spoken response, entirely on-device. No cloud, no API keys.
-To get started:
-  brew tap RunanywhereAI/rcli https://github.com/RunanywhereAI/RCLI.git
-  brew install rcli
-  rcli setup   # downloads ~1 GB of models
-  rcli         # interactive mode with push-to-talk
-
-  curl -fsSL https://raw.githubusercontent.com/RunanywhereAI/RCLI/main/install.sh | bash
-
-LLM decode – 1.67x faster than llama.cpp, 1.19x faster than Apple MLX (same mod…]]></summary>
-        <author>
-            <name>sanchitmonga22</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[I built a programming language using Claude Code]]></title>
-        <id>https://news.ycombinator.com/item?id=47325595</id>
-        <link href="https://ankursethi.com/blog/programming-language-claude-code/"/>
-        <updated>2026-03-10T16:37:29.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://ankursethi.com/blog/programming-language-claude-code/
-Comments URL: https://news.ycombinator.com/item?id=47325595
-Points: 53
-# Comments: 63]]></summary>
-        <author>
-            <name>GeneralMaximus</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: What was the world listening to? Music charts, 20 countries (1940–2025)]]></title>
-        <id>https://news.ycombinator.com/item?id=47325296</id>
-        <link href="https://88mph.fm/"/>
-        <updated>2026-03-10T16:18:40.000Z</updated>
-        <summary type="html"><![CDATA[I built this because I wanted to know what people in Japan were listening to the year I was born. That question spiraled: how does a hit in Rome compare to what was charting in Lagos the same year? How did sonic flavors propagate as streaming made musical influence travel faster than ever?
-88mph is a playable map of music history: 230 charts across 20 countries, spanning 8 decades (1940–2025). Every song is playable via YouTube or Spotify. It's open source and I'd love help expanding it — there's a link to contribute charts for new countries and years. The goal is to crowdsource a complete sonic atlas of the world.
-Comments URL: https://news.ycombinator.com/item?id=47325296
-Points: 51
-# Comments: 19]]></summary>
-        <author>
-            <name>matteocantiello</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Launch HN: Didit (YC W26) – Stripe for Identity Verification]]></title>
-        <id>https://news.ycombinator.com/item?id=47324296</id>
-        <link href="https://news.ycombinator.com/item?id=47324296"/>
-        <updated>2026-03-10T15:08:05.000Z</updated>
-        <summary type="html"><![CDATA[Hi HN, I’m Alberto. I co-founded Didit (https://didit.me) with my identical twin brother Alejandro. We are building a unified identity layer—a single integration that handles KYC, AML, biometrics, authentication, and fraud prevention globally. Here’s a demo: https://www.youtube.com/watch?v=eTdcg7JCc4M&t=7s.
-Being identical twins, we’ve spent our whole lives dealing with identity confusion, so it is a bit of irony that we ended up building a company to solve it for the internet.
-Growing up in Barcelona, we spent years working on products where identity issues were a massive pain. We eventually realized that for most engineering teams, "global identity" is a fiction—in reality it is a fragmented mess. You end up stitching together one provider for US driver's licenses, another for NFC chip e…]]></summary>
-        <author>
-            <name>rosasalberto</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Amazon is holding a mandatory meeting about AI breaking its systems]]></title>
-        <id>https://news.ycombinator.com/item?id=47324211</id>
-        <link href="https://twitter.com/lukolejnik/status/2031257644724342957"/>
-        <updated>2026-03-10T15:01:35.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://twitter.com/lukolejnik/status/2031257644724342957
-Comments URL: https://news.ycombinator.com/item?id=47324211
-Points: 79
-# Comments: 29]]></summary>
-        <author>
-            <name>lwhsiao</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Debian decides not to decide on AI-generated contributions]]></title>
-        <id>https://news.ycombinator.com/item?id=47324087</id>
-        <link href="https://lwn.net/SubscriberLink/1061544/125f911834966dd0/"/>
-        <updated>2026-03-10T14:53:13.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://lwn.net/SubscriberLink/1061544/125f911834966dd0/
-Comments URL: https://news.ycombinator.com/item?id=47324087
-Points: 57
-# Comments: 52]]></summary>
-        <author>
-            <name>jwilk</name>
         </author>
     </entry>
 </feed>
