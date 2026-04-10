@@ -6,6 +6,16 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=47713584",
+          "author": "mellosouls",
+          "description": "Article URL: https://www.bbc.co.uk/news/articles/c2evppm30p7o\nComments URL: https://news.ycombinator.com/item?id=47713584\nPoints: 56\n# Comments: 9",
+          "link": "https://www.bbc.co.uk/news/articles/c2evppm30p7o",
+          "publishedOn": "2026-04-10T04:17:28.000Z",
+          "wordCount": 4734,
+          "title": "Hip-hop pioneer, Afrika Bambaataa, dies aged 68",
+          "imageUrl": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/7483/live/0aeb9580-3477-11f1-a27c-25e679607533.jpg"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=47712340",
           "author": "darkzek",
           "description": "Article URL: https://www.elevenforum.com/t/microsoft-photodna-scanning-problem-it-is-comical-now.45961/\nComments URL: https://news.ycombinator.com/item?id=47712340\nPoints: 85\n# Comments: 34",
@@ -14,6 +24,16 @@
           "wordCount": null,
           "title": "Microsoft PhotoDNA scanning problem",
           "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47712222",
+          "author": "josephcsible",
+          "description": "Article URL: https://bigbrotherwatch.org.uk/blog/apples-new-iphone-update-is-restricting-internet-freedom-in-the-uk/\nComments URL: https://news.ycombinator.com/item?id=47712222\nPoints: 160\n# Comments: 70",
+          "link": "https://bigbrotherwatch.org.uk/blog/apples-new-iphone-update-is-restricting-internet-freedom-in-the-uk/",
+          "publishedOn": "2026-04-10T00:50:43.000Z",
+          "wordCount": 2143,
+          "title": "Apple's New iPhone Update Is Restricting Internet Freedom in the UK",
+          "imageUrl": "https://bigbrotherwatch.org.uk/wp-content/uploads/2026/03/IOS-age-check.jpg"
         },
         {
           "id": "https://news.ycombinator.com/item?id=47710907",
@@ -764,6 +784,16 @@
           "wordCount": 7887,
           "title": "Show HN: Gemma 4 Multimodal Fine-Tuner for Apple Silicon",
           "imageUrl": "https://opengraph.githubassets.com/05663b3fdd42aebfb849a7b05e29a93fcbe8997eef5580f191de702030a70f8a/mattmireles/gemma-tuner-multimodal"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47680005",
+          "author": "surprisetalk",
+          "description": "Article URL: https://www.youtube.com/watch?v=KKbgulTp3FE\nComments URL: https://news.ycombinator.com/item?id=47680005\nPoints: 126\n# Comments: 18",
+          "link": "https://www.youtube.com/watch?v=KKbgulTp3FE",
+          "publishedOn": "2026-04-07T19:14:32.000Z",
+          "wordCount": null,
+          "title": "RAM Has a Design Flaw from 1966. I Bypassed It [video]",
+          "imageUrl": null
         },
         {
           "id": "https://news.ycombinator.com/item?id=47679258",
@@ -13494,86 +13524,6 @@
           "wordCount": 6853,
           "title": "I was interviewed by an AI bot for a job",
           "imageUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/03/Artboard-1-1.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47338091",
-          "author": "fuelingcurious",
-          "description": "Hi HN,\nI’m a chemical engineer and I manage logistics at a refinery down in Texas. Whenever I try to explain downstream operations to people outside the industry (including my kids), I usually get blank stares. I wanted to build something that visualizes the concepts and chemistry of a plant without completely dumbing down the science, so I put together this 5-minute browser game.\nHere's a simple runthrough: https://www.youtube.com/watch?v=is-moBz6upU. I pushed to get through a full product pathway to show the V-804 replay.\nI am not a software developer by trade, so I relied heavily on LLMs (Claude, Copilot, Gemini) to help write the code. What started as a simple concept turned into a 9,000-line single-page app built with vanilla HTML, CSS, and JavaScript. I used Matter.js for the 2D phys…",
-          "link": "https://fuelingcuriosity.com/game.html",
-          "publishedOn": "2026-03-11T16:56:51.000Z",
-          "wordCount": null,
-          "title": "Show HN: Vanilla JavaScript refinery simulator built to explain job to my kids",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47338055",
-          "author": "byt3h3ad",
-          "description": "Article URL: https://arxiv.org/abs/2111.11231\nComments URL: https://news.ycombinator.com/item?id=47338055\nPoints: 54\n# Comments: 6",
-          "link": "https://arxiv.org/abs/2111.11231",
-          "publishedOn": "2026-03-11T16:53:11.000Z",
-          "wordCount": 583,
-          "title": "Fungal Electronics (2021)",
-          "imageUrl": "/static/browse/0.3.4/images/arxiv-logo-fb.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47337607",
-          "author": "vkuprin",
-          "description": "I built Site Spy after missing a visa appointment slot because a government page changed and I didn’t notice for two weeks.\nIt watches webpages for changes and shows the result like a diff. The part I think HN might find interesting is that it can monitor a specific element on a page, not just the whole page, and it can expose changes as RSS feeds.\nSo instead of tracking an entire noisy page, you can watch just a price, a stock status, a headline, or a specific content block. When it changes, you can inspect the diff, browse the snapshot history, or follow the updates in an RSS reader.\nIt’s a Chrome/Firefox extension plus a web dashboard.\nMain features:\n- Element picker for tracking a specific part of a page\n- Diff view plus full snapshot timeline\n- RSS feeds per watch, per tag, or across all watches\n- MCP server for Claude, Cursor, and other AI agents\n- Browser push, Email, and Telegram notifications\nChrome: https://chromewebstore.google.com/detail/site-spy/jeapcpanag...\nFirefox: https://addons.mozilla.org/en-GB/firefox/addon/site-spy/\nDocs: https://docs.sitespy.app\nI’d especially love feedback on two things:\n- Is RSS actually a useful interface for this, or do most people just want direct alerts?\n- Does element-level tracking feel meaningfully better than full-page monitoring?\nComments URL: https://news.ycombinator.com/item?id=47337607\nPoints: 68\n# Comments: 22",
-          "link": "https://sitespy.app/",
-          "publishedOn": "2026-03-11T16:21:06.000Z",
-          "wordCount": 2655,
-          "title": "Show HN: I built a tool that watches webpages and exposes changes as RSS",
-          "imageUrl": "https://sitespy.app/screenshots/marquee-promo.png?v=2"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47337423",
-          "author": "bensouthwood",
-          "description": "Article URL: https://www.worksinprogress.news/p/many-of-the-tastiest-vegetables-are\nComments URL: https://news.ycombinator.com/item?id=47337423\nPoints: 73\n# Comments: 28",
-          "link": "https://www.worksinprogress.news/p/many-of-the-tastiest-vegetables-are",
-          "publishedOn": "2026-03-11T16:07:00.000Z",
-          "wordCount": 5022,
-          "title": "Centuries of selective breeding turned wild cabbage into different vegetables",
-          "imageUrl": "https://substackcdn.com/image/fetch/$s_!x-Y7!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa855bed6-7ef4-4ff9-8105-c9517815ad9c_1488x778.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47337249",
-          "author": "robthompson2018",
-          "description": "We are Bailey and Robbie and we are working on Klaus (https://klausai.com/): hosted OpenClaw that is secure and powerful out of the box.\nRunning OpenClaw requires setting up a cloud VM or local container (a pain) or giving OpenClaw root access to your machine (insecure). Many basic integrations (eg Slack, Google Workspace) require you to create your own OAuth app.\nWe make running OpenClaw simple by giving each user their own EC2 instance, preconfigured with keys for OpenRouter, AgentMail, and Orthogonal. And we have OAuth apps to make it easy to integrate with Slack and Google Workspace.\nWe are both HN readers (Bailey has been on here for ~10 years) and we know OpenClaw has serious security concerns. We do a lot to make our users’ instances more secure: we run on a private subnet, automati…",
-          "link": "https://klausai.com/",
-          "publishedOn": "2026-03-11T15:54:23.000Z",
-          "wordCount": 20,
-          "title": "Show HN: Klaus – OpenClaw on a VM, batteries included",
-          "imageUrl": "https://klausai.com/og-klaus.png?v=2"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47337177",
-          "author": "tzury",
-          "description": "Article URL: https://www.quantamagazine.org/where-some-see-strings-she-sees-a-space-time-made-of-fractals-20260311/\nComments URL: https://news.ycombinator.com/item?id=47337177\nPoints: 66\n# Comments: 8",
-          "link": "https://www.quantamagazine.org/where-some-see-strings-she-sees-a-space-time-made-of-fractals-20260311/",
-          "publishedOn": "2026-03-11T15:48:29.000Z",
-          "wordCount": 3977,
-          "title": "Where Some See Strings, She Sees a Space-Time Made of Fractals",
-          "imageUrl": "https://www.quantamagazine.org/wp-content/uploads/2026/03/Astrid-Eichhorn-cr-Konrad-Gos-Social.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47337087",
-          "author": "kosmavision",
-          "description": "Article URL: https://kubicki.org/letters/the-festival-of-the-machines/\nComments URL: https://news.ycombinator.com/item?id=47337087\nPoints: 55\n# Comments: 4",
-          "link": "https://kubicki.org/letters/the-festival-of-the-machines/",
-          "publishedOn": "2026-03-11T15:42:26.000Z",
-          "wordCount": 47251,
-          "title": "A look inside Dialector, filmmaker Chris Marker's chatbot from 1988",
-          "imageUrl": "https://static.kubicki.org/2026/03/pirateutopia-5c269e21dad6.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47336989",
-          "author": "robpalmer",
-          "description": "Article URL: https://bloomberg.github.io/js-blog/post/temporal/\nComments URL: https://news.ycombinator.com/item?id=47336989\nPoints: 107\n# Comments: 35",
-          "link": "https://bloomberg.github.io/js-blog/post/temporal/",
-          "publishedOn": "2026-03-11T15:35:50.000Z",
-          "wordCount": 4877,
-          "title": "Temporal: A nine-year journey to fix time in JavaScript",
-          "imageUrl": "https://bloomberg.github.io/js-blog/images/javascript-logo.webp"
         }
       ]
     }
