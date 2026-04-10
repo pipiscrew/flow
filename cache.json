@@ -6,6 +6,16 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=47712340",
+          "author": "darkzek",
+          "description": "Article URL: https://www.elevenforum.com/t/microsoft-photodna-scanning-problem-it-is-comical-now.45961/\nComments URL: https://news.ycombinator.com/item?id=47712340\nPoints: 85\n# Comments: 34",
+          "link": "https://www.elevenforum.com/t/microsoft-photodna-scanning-problem-it-is-comical-now.45961/",
+          "publishedOn": "2026-04-10T01:09:06.000Z",
+          "wordCount": null,
+          "title": "Microsoft PhotoDNA scanning problem",
+          "imageUrl": null
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=47710907",
           "author": "powera",
           "description": "Article URL: https://davidoks.blog/p/how-funerals-keep-africa-poor\nComments URL: https://news.ycombinator.com/item?id=47710907\nPoints: 52\n# Comments: 22",
@@ -24,6 +34,16 @@
           "wordCount": 1191,
           "title": "Microsoft is employing dark patterns to goad users into paying for storage?",
           "imageUrl": "https://lzon.ca/img/og-image.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47710007",
+          "author": "rgrieselhuber",
+          "description": "Article URL: https://www.demandsphere.com/blog/rebuilding-demandsphere-with-jekyll-and-claude-code/\nComments URL: https://news.ycombinator.com/item?id=47710007\nPoints: 51\n# Comments: 23",
+          "link": "https://www.demandsphere.com/blog/rebuilding-demandsphere-with-jekyll-and-claude-code/",
+          "publishedOn": "2026-04-09T20:59:51.000Z",
+          "wordCount": 3443,
+          "title": "Moving from WordPress to Jekyll (and static site generators in general)",
+          "imageUrl": "https://www.demandsphere.com/assets/og/blog-rebuilding-demandsphere-with-jekyll-and-claude-code.png"
         },
         {
           "id": "https://news.ycombinator.com/item?id=47709251",
@@ -194,6 +214,16 @@
           "wordCount": 1554,
           "title": "Vercel Claude Code plugin wants to read your prompt",
           "imageUrl": "https://akshaychugh.xyz/assets/images/og-default-wide.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47704804",
+          "author": "speckx",
+          "description": "Article URL: https://cacm.acm.org/news/how-nasa-built-artemis-iis-fault-tolerant-computer/\nComments URL: https://news.ycombinator.com/item?id=47704804\nPoints: 131\n# Comments: 43",
+          "link": "https://cacm.acm.org/news/how-nasa-built-artemis-iis-fault-tolerant-computer/",
+          "publishedOn": "2026-04-09T15:12:40.000Z",
+          "wordCount": null,
+          "title": "How NASA built Artemis II’s fault-tolerant computer",
+          "imageUrl": null
         },
         {
           "id": "https://news.ycombinator.com/item?id=47703528",
@@ -13544,136 +13574,6 @@
           "wordCount": 4877,
           "title": "Temporal: A nine-year journey to fix time in JavaScript",
           "imageUrl": "https://bloomberg.github.io/js-blog/images/javascript-logo.webp"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47336806",
-          "author": "matthieu_bl",
-          "description": "https://archive.ph/wlwcA\nComments URL: https://news.ycombinator.com/item?id=47336806\nPoints: 56\n# Comments: 133",
-          "link": "https://www.wsj.com/lifestyle/jeffrey-epstein-files-bad-grammar-spelling-trump-ellison-dorsey-gates-thiel-cbfe9fb1",
-          "publishedOn": "2026-03-11T15:22:10.000Z",
-          "wordCount": null,
-          "title": "Why the global elite gave up on spelling and grammar",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47336476",
-          "author": "aldarisbm",
-          "description": "Article URL: https://www.wiz.io/blog/google-closes-deal-to-acquire-wiz\nComments URL: https://news.ycombinator.com/item?id=47336476\nPoints: 62\n# Comments: 30",
-          "link": "https://www.wiz.io/blog/google-closes-deal-to-acquire-wiz",
-          "publishedOn": "2026-03-11T14:58:20.000Z",
-          "wordCount": 16143,
-          "title": "Wiz joins Google",
-          "imageUrl": "https://www.datocms-assets.com/75231/1772759788-this-one-3.png?fm=webp"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47336171",
-          "author": "theredsix",
-          "description": "Hi HN, I forked chromium and built agent-browser-protocol (ABP) after noticing that most browser-agent failures aren’t really about the model misunderstanding the page. Instead, the problem is that the model is reasoning from a stale state.\nABP is designed to keep the acting agent synchronized with the browser at every step. After each action (click, type, etc), it freezes JavaScript execution and rendering, then captures the resulting state. It also compiles the notable events that occurred during that action loop, such as navigation, file pickers, permission prompts, alerts, and downloads, and sends that along with a screenshot of the frozen page state back to the agent.\nThe result is that browser interaction starts to feel more like a multimodal chat loop. The agent takes an action, gets back a fresh visual state and a structured summary of what happened, then decides what to do next from there. That fits much better with how LLMs already work.\nA few common browser-use failures ABP helps eliminate:\n* A modal appears after the last Playwright screenshot and blocks the input the agent was about to use\n* Dynamic filters cause the page to reflow between steps\n* An autocomplete dropdown opens and covers the element the agent intended to click\n* alert() / confirm() interrupts the flow\n* Downloads are triggered, but the agent has no reliable way to know when they’ve completed\nAs proof, ABP with opus 4.6 as the driver scores 90.5% on the Online Mind2Web benchmark. I think modern LLMs already understand websites, they just need a better tool to interact with them. Happy to answer questions about the architecture, forking chrome or anything else in the comments below.\nTry it out: `claude mcp add browser -- npx -y agent-browser-protocol --mcp` (Codex/OpenCode instructions in the docs)\nDemo video: https://www.loom.com/share/387f6349196f417d8b4b16a5452c3369\nComments URL: https://news.ycombinator.com/item?id=47336171\nPoints: 50\n# Comments: 17",
-          "link": "https://github.com/theredsix/agent-browser-protocol",
-          "publishedOn": "2026-03-11T14:39:30.000Z",
-          "wordCount": 8693,
-          "title": "Show HN: Open-source browser for AI agents",
-          "imageUrl": "https://repository-images.githubusercontent.com/1134729836/65278d3a-4910-49d4-841a-34e292a319bf"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47336111",
-          "author": "def-pri-pub",
-          "description": "Article URL: https://16bpp.net/blog/post/faster-asin-was-hiding-in-plain-sight/\nComments URL: https://news.ycombinator.com/item?id=47336111\nPoints: 68\n# Comments: 15",
-          "link": "https://16bpp.net/blog/post/faster-asin-was-hiding-in-plain-sight/",
-          "publishedOn": "2026-03-11T14:35:53.000Z",
-          "wordCount": 2814,
-          "title": "Faster Asin() Was Hiding in Plain Sight",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47336100",
-          "author": "kilroy123",
-          "description": "I know, it's a very first-world problem. But in my house, we have a hard time deciding what to watch. Too many options!\nSo I made this to recreate Cable TV for YouTube. I made it so it runs in the browser. Quickly import your subscriptions in the browser via a bookmarklet. No accounts, no sign-ins. Just quickly import your data locally.\nComments URL: https://news.ycombinator.com/item?id=47336100\nPoints: 128\n# Comments: 64",
-          "link": "https://channelsurfer.tv/",
-          "publishedOn": "2026-03-11T14:34:57.000Z",
-          "wordCount": 187,
-          "title": "Show HN: Channel Surfer – Watch YouTube like it’s cable TV",
-          "imageUrl": "https://channelsurfer.tv/og-image.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47335796",
-          "author": "surprisetalk",
-          "description": "Article URL: https://pointersgonewild.com/2026-03-06-a-recursive-algorithm-to-render-signed-distance-fields/\nComments URL: https://news.ycombinator.com/item?id=47335796\nPoints: 58\n# Comments: 4",
-          "link": "https://pointersgonewild.com/2026-03-06-a-recursive-algorithm-to-render-signed-distance-fields/",
-          "publishedOn": "2026-03-11T14:10:31.000Z",
-          "wordCount": 1592,
-          "title": "A Recursive Algorithm to Render Signed Distance Fields",
-          "imageUrl": "https://pointersgonewild.com/2026-03-06-a-recursive-algorithm-to-render-signed-distance-fields/cube.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47335572",
-          "author": "raldi",
-          "description": "Article URL: https://www.washingtonpost.com/politics/2026/03/10/social-security-data-breach-doge-2/\nComments URL: https://news.ycombinator.com/item?id=47335572\nPoints: 155\n# Comments: 55",
-          "link": "https://www.washingtonpost.com/politics/2026/03/10/social-security-data-breach-doge-2/",
-          "publishedOn": "2026-03-11T13:52:01.000Z",
-          "wordCount": null,
-          "title": "Whistleblower: DOGE member took Social Security data to new job",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47335349",
-          "author": "peyton",
-          "description": "Article URL: https://doi.org/10.1073/pnas.2420092122\nComments URL: https://news.ycombinator.com/item?id=47335349\nPoints: 91\n# Comments: 28",
-          "link": "https://doi.org/10.1073/pnas.2420092122",
-          "publishedOn": "2026-03-11T13:32:12.000Z",
-          "wordCount": null,
-          "title": "The entities enabling scientific fraud at scale are large, resilient and growing",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47335325",
-          "author": "ibobev",
-          "description": "Article URL: https://www.johndcook.com/blog/2026/03/10/sinh-arccosh/\nComments URL: https://news.ycombinator.com/item?id=47335325\nPoints: 105\n# Comments: 34",
-          "link": "https://www.johndcook.com/blog/2026/03/10/sinh-arccosh/",
-          "publishedOn": "2026-03-11T13:30:31.000Z",
-          "wordCount": 2062,
-          "title": "Why Mathematica does not simplify sinh(arccosh(x))",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47335237",
-          "author": "scrlk",
-          "description": "Article URL: https://www.thewave.engineer/articles.html/productivity/legos-0002mm-specification-and-its-implications-for-manufacturing-r120/\nComments URL: https://news.ycombinator.com/item?id=47335237\nPoints: 88\n# Comments: 54",
-          "link": "https://www.thewave.engineer/articles.html/productivity/legos-0002mm-specification-and-its-implications-for-manufacturing-r120/",
-          "publishedOn": "2026-03-11T13:22:39.000Z",
-          "wordCount": null,
-          "title": "Lego's 0.002 mm Specification and Its Implications for Manufacturing (2025)",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47334982",
-          "author": "jjgreen",
-          "description": "Article URL: https://www.theregister.com/2026/03/11/swiss_evote_usb_snafu/\nComments URL: https://news.ycombinator.com/item?id=47334982\nPoints: 59\n# Comments: 123",
-          "link": "https://www.theregister.com/2026/03/11/swiss_evote_usb_snafu/",
-          "publishedOn": "2026-03-11T12:57:41.000Z",
-          "wordCount": 1190,
-          "title": "Swiss e-voting pilot can't count 2,048 ballots after decryption failure",
-          "imageUrl": "https://regmedia.co.uk/2020/02/12/swiss_shutterstock.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47334694",
-          "author": "redm",
-          "description": "Article URL: https://github.com/microsoft/BitNet\nComments URL: https://news.ycombinator.com/item?id=47334694\nPoints: 116\n# Comments: 68",
-          "link": "https://github.com/microsoft/BitNet",
-          "publishedOn": "2026-03-11T12:27:15.000Z",
-          "wordCount": 5681,
-          "title": "Microsoft BitNet: 100B Param 1-Bit model for local CPUs",
-          "imageUrl": "https://opengraph.githubassets.com/6a73c3f9ef80c504c3870ef66f43f0d1884eee2665f5b7516689db4136d65c61/microsoft/BitNet"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47334668",
-          "author": "ibobev",
-          "description": "Article URL: https://jvns.ca/blog/2026/03/10/examples-for-the-tcpdump-and-dig-man-pages/\nComments URL: https://news.ycombinator.com/item?id=47334668\nPoints: 52\n# Comments: 6",
-          "link": "https://jvns.ca/blog/2026/03/10/examples-for-the-tcpdump-and-dig-man-pages/",
-          "publishedOn": "2026-03-11T12:24:09.000Z",
-          "wordCount": 879,
-          "title": "Examples for the tcpdump and dig man pages",
-          "imageUrl": null
         }
       ]
     }
