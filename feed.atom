@@ -2,10 +2,91 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-04-10T19:03:07.424Z</updated>
+    <updated>2026-04-10T20:47:26.674Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Chimpanzees in Uganda locked in vicious 'civil war', say researchers]]></title>
+        <id>https://news.ycombinator.com/item?id=47722333</id>
+        <link href="https://www.bbc.com/news/articles/cr71lkzv49po"/>
+        <updated>2026-04-10T19:10:22.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.bbc.com/news/articles/cr71lkzv49po
+Comments URL: https://news.ycombinator.com/item?id=47722333
+Points: 60
+# Comments: 38]]></summary>
+        <author>
+            <name>neversaydie</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: FluidCAD – Parametric CAD with JavaScript]]></title>
+        <id>https://news.ycombinator.com/item?id=47721997</id>
+        <link href="https://fluidcad.io/"/>
+        <updated>2026-04-10T18:39:19.000Z</updated>
+        <summary type="html"><![CDATA[Hello HN users,
+This is a CAD by code project I have been working on on my free time for more than year now.
+I built it with 3 goals in mind:
+- It should be familiar to CAD designers who have used other programs. Same workflow, same terminology.
+- Reduce the mental effort required to create models as much as possible. This is achieved by:
+    - Provide live rendering and visual guidance as you type.
+    - Allow the user to reference existing edges/faces on the scene instead of having to calculate everything.
+    - Provide interactive mouse helpers for features that are hard to write by code: Only 3 interactive modes for now: Edge trimming, Sketch region extrude, Bezier curve drawing.
+    - Implicit coding whenever possible: e.g: There are sensible defaults for most parameters. The program will automatically fuse intersecting objects together so you do not have to worry about what object needs to be fused with what.
+I think I have achieved these goals to a good extent. The program is still in early stages and there are many features I want to add, rewrite but I think it is already usable for simple models.
+Update to add more details:
+This is based on Opencascade.js WASM binding. So you get all the good things that come with any brep kernel. Fillets, chamfers, step import and export...
+The scene is webview but the editing is in your local file. You use your own editor and the environment you are familiar with.
+One important feature that I think make this stand out among other code based cad software is the ability to transform features not just shapes. More here:
+https://fluidcad.io/docs/guides/patterns
+You can see it in action in the lantern example:
+https://fluidcad.io/docs/tutorials/lantern
+Comments URL: https://news.ycombinator.com/item?id=47721997
+Points: 50
+# Comments: 11]]></summary>
+        <author>
+            <name>maouida</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AI assistance when contributing to the Linux kernel]]></title>
+        <id>https://news.ycombinator.com/item?id=47721953</id>
+        <link href="https://github.com/torvalds/linux/blob/master/Documentation/process/coding-assistants.rst"/>
+        <updated>2026-04-10T18:35:21.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://github.com/torvalds/linux/blob/master/Documentation/process/coding-assistants.rst
+Comments URL: https://news.ycombinator.com/item?id=47721953
+Points: 59
+# Comments: 41]]></summary>
+        <author>
+            <name>hmokiguess</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[JSON Formatter Chrome Plugin Now Closed and Injecting Adware]]></title>
+        <id>https://news.ycombinator.com/item?id=47721946</id>
+        <link href="https://github.com/callumlocke/json-formatter"/>
+        <updated>2026-04-10T18:34:55.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://github.com/callumlocke/json-formatter
+Comments URL: https://news.ycombinator.com/item?id=47721946
+Points: 58
+# Comments: 24]]></summary>
+        <author>
+            <name>jkl5xx</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[HBO Obtains DMCA Subpoena to Unmask 'Euphoria' Spoiler Account on X]]></title>
+        <id>https://news.ycombinator.com/item?id=47721207</id>
+        <link href="https://torrentfreak.com/hbo-obtains-dmca-subpoena-to-unmask-euphoria-spoiler-account-on-x/"/>
+        <updated>2026-04-10T17:27:07.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://torrentfreak.com/hbo-obtains-dmca-subpoena-to-unmask-euphoria-spoiler-account-on-x/
+Comments URL: https://news.ycombinator.com/item?id=47721207
+Points: 69
+# Comments: 44]]></summary>
+        <author>
+            <name>speckx</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[A compelling title that is cryptic enough to get you to take action on it]]></title>
         <id>https://news.ycombinator.com/item?id=47720827</id>
@@ -18085,58 +18166,6 @@ Points: 75
 # Comments: 16]]></summary>
         <author>
             <name>WithinReason</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Celebrating Interesting Flickr Technologies]]></title>
-        <id>https://news.ycombinator.com/item?id=47347977</id>
-        <link href="https://medium.com/@brightcarvings/celebrating-flickr-technology-3c93c8ddecc2"/>
-        <updated>2026-03-12T08:33:00.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://medium.com/@brightcarvings/celebrating-flickr-technology-3c93c8ddecc2
-Comments URL: https://news.ycombinator.com/item?id=47347977
-Points: 52
-# Comments: 11]]></summary>
-        <author>
-            <name>steerpike</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[3D-Knitting: The Ultimate Guide]]></title>
-        <id>https://news.ycombinator.com/item?id=47347945</id>
-        <link href="https://www.oliver-charles.com/pages/3d-knitting"/>
-        <updated>2026-03-12T08:27:16.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.oliver-charles.com/pages/3d-knitting
-Comments URL: https://news.ycombinator.com/item?id=47347945
-Points: 61
-# Comments: 20]]></summary>
-        <author>
-            <name>ChadNauseam</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Isolation Trap: Erlang]]></title>
-        <id>https://news.ycombinator.com/item?id=47347920</id>
-        <link href="https://causality.blog/essays/the-isolation-trap/"/>
-        <updated>2026-03-12T08:22:32.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://causality.blog/essays/the-isolation-trap/
-Comments URL: https://news.ycombinator.com/item?id=47347920
-Points: 50
-# Comments: 7]]></summary>
-        <author>
-            <name>enz</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Reliable Software in the LLM Era]]></title>
-        <id>https://news.ycombinator.com/item?id=47347901</id>
-        <link href="https://quint-lang.org/posts/llm_era"/>
-        <updated>2026-03-12T08:19:46.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://quint-lang.org/posts/llm_era
-Comments URL: https://news.ycombinator.com/item?id=47347901
-Points: 56
-# Comments: 21]]></summary>
-        <author>
-            <name>mempirate</name>
         </author>
     </entry>
 </feed>

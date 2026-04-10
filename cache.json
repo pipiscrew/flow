@@ -6,6 +6,56 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=47722333",
+          "author": "neversaydie",
+          "description": "Article URL: https://www.bbc.com/news/articles/cr71lkzv49po\nComments URL: https://news.ycombinator.com/item?id=47722333\nPoints: 60\n# Comments: 38",
+          "link": "https://www.bbc.com/news/articles/cr71lkzv49po",
+          "publishedOn": "2026-04-10T19:10:22.000Z",
+          "wordCount": 5883,
+          "title": "Chimpanzees in Uganda locked in vicious 'civil war', say researchers",
+          "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/2a41/live/068357f0-34fc-11f1-9d5c-8ba507d7dbde.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47721997",
+          "author": "maouida",
+          "description": "Hello HN users,\nThis is a CAD by code project I have been working on on my free time for more than year now.\nI built it with 3 goals in mind:\n- It should be familiar to CAD designers who have used other programs. Same workflow, same terminology.\n- Reduce the mental effort required to create models as much as possible. This is achieved by:\n    - Provide live rendering and visual guidance as you type.\n    - Allow the user to reference existing edges/faces on the scene instead of having to calculate everything.\n    - Provide interactive mouse helpers for features that are hard to write by code: Only 3 interactive modes for now: Edge trimming, Sketch region extrude, Bezier curve drawing.\n    - Implicit coding whenever possible: e.g: There are sensible defaults for most parameters. The program will automatically fuse intersecting objects together so you do not have to worry about what object needs to be fused with what.\nI think I have achieved these goals to a good extent. The program is still in early stages and there are many features I want to add, rewrite but I think it is already usable for simple models.\nUpdate to add more details:\nThis is based on Opencascade.js WASM binding. So you get all the good things that come with any brep kernel. Fillets, chamfers, step import and export...\nThe scene is webview but the editing is in your local file. You use your own editor and the environment you are familiar with.\nOne important feature that I think make this stand out among other code based cad software is the ability to transform features not just shapes. More here:\nhttps://fluidcad.io/docs/guides/patterns\nYou can see it in action in the lantern example:\nhttps://fluidcad.io/docs/tutorials/lantern\nComments URL: https://news.ycombinator.com/item?id=47721997\nPoints: 50\n# Comments: 11",
+          "link": "https://fluidcad.io/",
+          "publishedOn": "2026-04-10T18:39:19.000Z",
+          "wordCount": 342,
+          "title": "Show HN: FluidCAD – Parametric CAD with JavaScript",
+          "imageUrl": "https://fluidcad.dev/img/docusaurus-social-card.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47721953",
+          "author": "hmokiguess",
+          "description": "Article URL: https://github.com/torvalds/linux/blob/master/Documentation/process/coding-assistants.rst\nComments URL: https://news.ycombinator.com/item?id=47721953\nPoints: 59\n# Comments: 41",
+          "link": "https://github.com/torvalds/linux/blob/master/Documentation/process/coding-assistants.rst",
+          "publishedOn": "2026-04-10T18:35:21.000Z",
+          "wordCount": 1471,
+          "title": "AI assistance when contributing to the Linux kernel",
+          "imageUrl": "https://opengraph.githubassets.com/b6b1947f7271b88e79403bc78d234f7e648ff9a6a12cb65909702b21030d4315/torvalds/linux"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47721946",
+          "author": "jkl5xx",
+          "description": "Article URL: https://github.com/callumlocke/json-formatter\nComments URL: https://news.ycombinator.com/item?id=47721946\nPoints: 58\n# Comments: 24",
+          "link": "https://github.com/callumlocke/json-formatter",
+          "publishedOn": "2026-04-10T18:34:55.000Z",
+          "wordCount": 2820,
+          "title": "JSON Formatter Chrome Plugin Now Closed and Injecting Adware",
+          "imageUrl": "https://opengraph.githubassets.com/449f862767cf7273e6d06609731f1486dae7783adb8bb2d75015323c3f269a75/callumlocke/json-formatter"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47721207",
+          "author": "speckx",
+          "description": "Article URL: https://torrentfreak.com/hbo-obtains-dmca-subpoena-to-unmask-euphoria-spoiler-account-on-x/\nComments URL: https://news.ycombinator.com/item?id=47721207\nPoints: 69\n# Comments: 44",
+          "link": "https://torrentfreak.com/hbo-obtains-dmca-subpoena-to-unmask-euphoria-spoiler-account-on-x/",
+          "publishedOn": "2026-04-10T17:27:07.000Z",
+          "wordCount": 1362,
+          "title": "HBO Obtains DMCA Subpoena to Unmask 'Euphoria' Spoiler Account on X",
+          "imageUrl": null
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=47720827",
           "author": "mooreds",
           "description": "Article URL: https://ericwbailey.website/published/a-compelling-title-that-is-cryptic-enough-to-get-you-to-take-action-on-it/\nComments URL: https://news.ycombinator.com/item?id=47720827\nPoints: 52\n# Comments: 34",
@@ -13554,46 +13604,6 @@
           "wordCount": 1939,
           "title": "Avoiding Trigonometry (2013)",
           "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47347977",
-          "author": "steerpike",
-          "description": "Article URL: https://medium.com/@brightcarvings/celebrating-flickr-technology-3c93c8ddecc2\nComments URL: https://news.ycombinator.com/item?id=47347977\nPoints: 52\n# Comments: 11",
-          "link": "https://medium.com/@brightcarvings/celebrating-flickr-technology-3c93c8ddecc2",
-          "publishedOn": "2026-03-12T08:33:00.000Z",
-          "wordCount": null,
-          "title": "Celebrating Interesting Flickr Technologies",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47347945",
-          "author": "ChadNauseam",
-          "description": "Article URL: https://www.oliver-charles.com/pages/3d-knitting\nComments URL: https://news.ycombinator.com/item?id=47347945\nPoints: 61\n# Comments: 20",
-          "link": "https://www.oliver-charles.com/pages/3d-knitting",
-          "publishedOn": "2026-03-12T08:27:16.000Z",
-          "wordCount": 7990,
-          "title": "3D-Knitting: The Ultimate Guide",
-          "imageUrl": "http://www.oliver-charles.com/cdn/shop/files/Oliver-Charles-Clothing-Yak-Wool-SeaCell-Sweaters-A-Single-Sweater-For-All-Of-Life.jpg?v=1754322340&width=2048"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47347920",
-          "author": "enz",
-          "description": "Article URL: https://causality.blog/essays/the-isolation-trap/\nComments URL: https://news.ycombinator.com/item?id=47347920\nPoints: 50\n# Comments: 7",
-          "link": "https://causality.blog/essays/the-isolation-trap/",
-          "publishedOn": "2026-03-12T08:22:32.000Z",
-          "wordCount": 2422,
-          "title": "The Isolation Trap: Erlang",
-          "imageUrl": "https://causality.blog/og-essay-2.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47347901",
-          "author": "mempirate",
-          "description": "Article URL: https://quint-lang.org/posts/llm_era\nComments URL: https://news.ycombinator.com/item?id=47347901\nPoints: 56\n# Comments: 21",
-          "link": "https://quint-lang.org/posts/llm_era",
-          "publishedOn": "2026-03-12T08:19:46.000Z",
-          "wordCount": 4961,
-          "title": "Reliable Software in the LLM Era",
-          "imageUrl": "https://quint-lang.org/blog-covers/llm_era.jpg"
         }
       ]
     }
