@@ -2,10 +2,36 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-04-10T22:44:51.216Z</updated>
+    <updated>2026-04-10T23:41:46.694Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Sam Altman's response to Molotov cocktail incident]]></title>
+        <id>https://news.ycombinator.com/item?id=47724921</id>
+        <link href="https://blog.samaltman.com/2279512"/>
+        <updated>2026-04-10T23:05:48.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://blog.samaltman.com/2279512
+Comments URL: https://news.ycombinator.com/item?id=47724921
+Points: 50
+# Comments: 49]]></summary>
+        <author>
+            <name>jack_hanford</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Filing the Corners Off MacBooks]]></title>
+        <id>https://news.ycombinator.com/item?id=47724352</id>
+        <link href="https://kentwalters.com/posts/corners/"/>
+        <updated>2026-04-10T22:16:40.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://kentwalters.com/posts/corners/
+Comments URL: https://news.ycombinator.com/item?id=47724352
+Points: 141
+# Comments: 81]]></summary>
+        <author>
+            <name>normanvalentine</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Combining spicy foods with mint boosts anti-inflammatory effects 100x or more]]></title>
         <id>https://news.ycombinator.com/item?id=47723243</id>
@@ -100,6 +126,35 @@ Points: 80
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Show HN: A WYSIWYG word processor in Python]]></title>
+        <id>https://news.ycombinator.com/item?id=47722011</id>
+        <link href="https://codeberg.org/chrisecker/miniword"/>
+        <updated>2026-04-10T18:40:34.000Z</updated>
+        <summary type="html"><![CDATA[Hi all,
+Finding a good data structure for a word processor is a difficult problem. My notebook diaries on the problem go back 25 years when I was frustrated with using Word for my diploma thesis - it was slow and unstable at that time. I ended up getting pretty hooked on the problem.
+Right now I’m taking a professional break and decided to finally use the time to push these ideas further, and build MiniWord — a WYSIWYG word processor in Python.
+My goal is to have a native, non-HTML-based editor that stays simple, fast, and is hackable. So far I am focusing on getting the fundamentals right. What is working yet is:
+- Real WYSIWYG editing (no HTML layer, no embedded browser) with styles, images and tables.
+- Clean, simple file format (human-readable, diff-friendly, git-friendly, AI-friendly)
+- Markdown support
+- Support for Python-plugins
+Things that I found:
+- B-tree structures are perfect for holding rich text data
+- A simple text-based file format is incredibly useful — you can diff documents, version them, and even process them with AI tools quite naturally
+What I’d love feedback on:
+- Where do you see real use cases for something like this?
+- What would be missing for you to take it seriously as a tool or platform?
+- What kinds of plugins or extensions would actually be worth building?
+Happy about any thoughts — positive or critical.
+Greetings
+Comments URL: https://news.ycombinator.com/item?id=47722011
+Points: 51
+# Comments: 24]]></summary>
+        <author>
+            <name>chrisecker</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Show HN: FluidCAD – Parametric CAD with JavaScript]]></title>
         <id>https://news.ycombinator.com/item?id=47721997</id>
         <link href="https://fluidcad.io/"/>
@@ -178,6 +233,19 @@ Points: 52
 # Comments: 34]]></summary>
         <author>
             <name>mooreds</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The difficulty of making sure your website is broken]]></title>
+        <id>https://news.ycombinator.com/item?id=47720719</id>
+        <link href="https://letsencrypt.org/2026/04/10/test-sites.html"/>
+        <updated>2026-04-10T16:45:40.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://letsencrypt.org/2026/04/10/test-sites.html
+Comments URL: https://news.ycombinator.com/item?id=47720719
+Points: 51
+# Comments: 23]]></summary>
+        <author>
+            <name>mcpherrinm</name>
         </author>
     </entry>
     <entry>
@@ -18155,19 +18223,6 @@ Points: 82
 # Comments: 90]]></summary>
         <author>
             <name>4diii</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Big Data on the Cheapest MacBook]]></title>
-        <id>https://news.ycombinator.com/item?id=47349277</id>
-        <link href="https://duckdb.org/2026/03/11/big-data-on-the-cheapest-macbook"/>
-        <updated>2026-03-12T11:41:14.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://duckdb.org/2026/03/11/big-data-on-the-cheapest-macbook
-Comments URL: https://news.ycombinator.com/item?id=47349277
-Points: 74
-# Comments: 39]]></summary>
-        <author>
-            <name>bcye</name>
         </author>
     </entry>
 </feed>

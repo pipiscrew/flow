@@ -6,6 +6,26 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=47724921",
+          "author": "jack_hanford",
+          "description": "Article URL: https://blog.samaltman.com/2279512\nComments URL: https://news.ycombinator.com/item?id=47724921\nPoints: 50\n# Comments: 49",
+          "link": "https://blog.samaltman.com/2279512",
+          "publishedOn": "2026-04-10T23:05:48.000Z",
+          "wordCount": 1276,
+          "title": "Sam Altman's response to Molotov cocktail incident",
+          "imageUrl": "https://phaven-prod.s3.amazonaws.com/files/image_part/asset/3439526/q4Xtf4iMYA_SCrMc8hMfnF_k3UE/large_WhatsApp_Image_2026-02-28_at_15.26.14__4_.jpeg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47724352",
+          "author": "normanvalentine",
+          "description": "Article URL: https://kentwalters.com/posts/corners/\nComments URL: https://news.ycombinator.com/item?id=47724352\nPoints: 141\n# Comments: 81",
+          "link": "https://kentwalters.com/posts/corners/",
+          "publishedOn": "2026-04-10T22:16:40.000Z",
+          "wordCount": 461,
+          "title": "Filing the Corners Off MacBooks",
+          "imageUrl": null
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=47723243",
           "author": "joeax",
           "description": "Article URL: https://scitechdaily.com/this-spice-combo-could-slash-inflammation-hundreds-of-times-more-effectively/\nComments URL: https://news.ycombinator.com/item?id=47723243\nPoints: 53\n# Comments: 26",
@@ -76,6 +96,16 @@
           "imageUrl": null
         },
         {
+          "id": "https://news.ycombinator.com/item?id=47722011",
+          "author": "chrisecker",
+          "description": "Hi all,\nFinding a good data structure for a word processor is a difficult problem. My notebook diaries on the problem go back 25 years when I was frustrated with using Word for my diploma thesis - it was slow and unstable at that time. I ended up getting pretty hooked on the problem.\nRight now I’m taking a professional break and decided to finally use the time to push these ideas further, and build MiniWord — a WYSIWYG word processor in Python.\nMy goal is to have a native, non-HTML-based editor that stays simple, fast, and is hackable. So far I am focusing on getting the fundamentals right. What is working yet is:\n- Real WYSIWYG editing (no HTML layer, no embedded browser) with styles, images and tables.\n- Clean, simple file format (human-readable, diff-friendly, git-friendly, AI-friendly)\n- Markdown support\n- Support for Python-plugins\nThings that I found:\n- B-tree structures are perfect for holding rich text data\n- A simple text-based file format is incredibly useful — you can diff documents, version them, and even process them with AI tools quite naturally\nWhat I’d love feedback on:\n- Where do you see real use cases for something like this?\n- What would be missing for you to take it seriously as a tool or platform?\n- What kinds of plugins or extensions would actually be worth building?\nHappy about any thoughts — positive or critical.\nGreetings\nComments URL: https://news.ycombinator.com/item?id=47722011\nPoints: 51\n# Comments: 24",
+          "link": "https://codeberg.org/chrisecker/miniword",
+          "publishedOn": "2026-04-10T18:40:34.000Z",
+          "wordCount": 855,
+          "title": "Show HN: A WYSIWYG word processor in Python",
+          "imageUrl": "https://codeberg.org/chrisecker/miniword/-/summary-card"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=47721997",
           "author": "maouida",
           "description": "Hello HN users,\nThis is a CAD by code project I have been working on on my free time for more than year now.\nI built it with 3 goals in mind:\n- It should be familiar to CAD designers who have used other programs. Same workflow, same terminology.\n- Reduce the mental effort required to create models as much as possible. This is achieved by:\n    - Provide live rendering and visual guidance as you type.\n    - Allow the user to reference existing edges/faces on the scene instead of having to calculate everything.\n    - Provide interactive mouse helpers for features that are hard to write by code: Only 3 interactive modes for now: Edge trimming, Sketch region extrude, Bezier curve drawing.\n    - Implicit coding whenever possible: e.g: There are sensible defaults for most parameters. The program will automatically fuse intersecting objects together so you do not have to worry about what object needs to be fused with what.\nI think I have achieved these goals to a good extent. The program is still in early stages and there are many features I want to add, rewrite but I think it is already usable for simple models.\nUpdate to add more details:\nThis is based on Opencascade.js WASM binding. So you get all the good things that come with any brep kernel. Fillets, chamfers, step import and export...\nThe scene is webview but the editing is in your local file. You use your own editor and the environment you are familiar with.\nOne important feature that I think make this stand out among other code based cad software is the ability to transform features not just shapes. More here:\nhttps://fluidcad.io/docs/guides/patterns\nYou can see it in action in the lantern example:\nhttps://fluidcad.io/docs/tutorials/lantern\nComments URL: https://news.ycombinator.com/item?id=47721997\nPoints: 50\n# Comments: 11",
@@ -124,6 +154,16 @@
           "wordCount": 722,
           "title": "A compelling title that is cryptic enough to get you to take action on it",
           "imageUrl": "https://ericwbailey.website/img/posts/a-compelling-title-that-is-cryptic-enough-to-get-you-to-take-action-on-it/share-image-facebook.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47720719",
+          "author": "mcpherrinm",
+          "description": "Article URL: https://letsencrypt.org/2026/04/10/test-sites.html\nComments URL: https://news.ycombinator.com/item?id=47720719\nPoints: 51\n# Comments: 23",
+          "link": "https://letsencrypt.org/2026/04/10/test-sites.html",
+          "publishedOn": "2026-04-10T16:45:40.000Z",
+          "wordCount": 1380,
+          "title": "The difficulty of making sure your website is broken",
+          "imageUrl": "https://letsencrypt.org/images/LetsEncrypt-SocialShare.png"
         },
         {
           "id": "https://news.ycombinator.com/item?id=47720419",
@@ -13594,16 +13634,6 @@
           "wordCount": 595,
           "title": "Are LLM merge rates not getting better?",
           "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47349277",
-          "author": "bcye",
-          "description": "Article URL: https://duckdb.org/2026/03/11/big-data-on-the-cheapest-macbook\nComments URL: https://news.ycombinator.com/item?id=47349277\nPoints: 74\n# Comments: 39",
-          "link": "https://duckdb.org/2026/03/11/big-data-on-the-cheapest-macbook",
-          "publishedOn": "2026-03-12T11:41:14.000Z",
-          "wordCount": 1284,
-          "title": "Big Data on the Cheapest MacBook",
-          "imageUrl": "https://duckdb.org/images/blog/thumbs/macbook-neo.jpg"
         }
       ]
     }
