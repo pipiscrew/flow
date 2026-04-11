@@ -2,10 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-04-11T05:00:31.962Z</updated>
+    <updated>2026-04-11T07:08:50.190Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[20 Years on AWS and Never Not My Job]]></title>
+        <id>https://news.ycombinator.com/item?id=47727711</id>
+        <link href="https://www.daemonology.net/blog/2026-04-11-20-years-on-AWS-and-never-not-my-job.html"/>
+        <updated>2026-04-11T05:31:10.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.daemonology.net/blog/2026-04-11-20-years-on-AWS-and-never-not-my-job.html
+Comments URL: https://news.ycombinator.com/item?id=47727711
+Points: 73
+# Comments: 6]]></summary>
+        <author>
+            <name>cperciva</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Artemis II safely splashes down]]></title>
         <id>https://news.ycombinator.com/item?id=47725583</id>
@@ -1001,6 +1014,19 @@ Points: 131
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[PGLite Evangelism]]></title>
+        <id>https://news.ycombinator.com/item?id=47703805</id>
+        <link href="https://substack.com/home/post/p-193415720"/>
+        <updated>2026-04-09T13:53:58.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://substack.com/home/post/p-193415720
+Comments URL: https://news.ycombinator.com/item?id=47703805
+Points: 54
+# Comments: 10]]></summary>
+        <author>
+            <name>surprisetalk</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[The Future of Everything Is Lies, I Guess: Part 3 – Culture]]></title>
         <id>https://news.ycombinator.com/item?id=47703528</id>
         <link href="https://aphyr.com/posts/413-the-future-of-everything-is-lies-i-guess-culture"/>
@@ -1117,6 +1143,19 @@ Points: 61
 # Comments: 49]]></summary>
         <author>
             <name>SirHound</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Bra-and-Girdle Maker That Fashioned the Impossible for NASA]]></title>
+        <id>https://news.ycombinator.com/item?id=47701769</id>
+        <link href="https://thereader.mitpress.mit.edu/the-bra-and-girdle-maker-that-fashioned-the-impossible-for-nasa/"/>
+        <updated>2026-04-09T10:28:28.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://thereader.mitpress.mit.edu/the-bra-and-girdle-maker-that-fashioned-the-impossible-for-nasa/
+Comments URL: https://news.ycombinator.com/item?id=47701769
+Points: 77
+# Comments: 4]]></summary>
+        <author>
+            <name>sohkamyung</name>
         </author>
     </entry>
     <entry>
@@ -17910,66 +17949,6 @@ Points: 99
 # Comments: 51]]></summary>
         <author>
             <name>robtherobber</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Launch HN: IonRouter (YC W26) – High-throughput, low-cost inference]]></title>
-        <id>https://news.ycombinator.com/item?id=47355410</id>
-        <link href="https://ionrouter.io/"/>
-        <updated>2026-03-12T18:52:36.000Z</updated>
-        <summary type="html"><![CDATA[Hey HN — I’m Veer and my cofounder is Suryaa. We're building Cumulus Labs (YC W26), and we're releasing our latest product IonRouter (https://ionrouter.io/), an inference API for open-source and fine tuned models. You swap in our base URL, keep your existing OpenAI client code, and get access to any model (open source or finetuned to you) running on our own inference engine.
-The problem we kept running into: every inference provider is either fast-but-expensive (Together, Fireworks — you pay for always-on GPUs) or cheap-but-DIY (Modal, RunPod — you configure vLLM yourself and deal with slow cold starts). Neither felt right for teams that just want to ship.
-Suryaa spent years building GPU orchestration infrastructure at TensorDock and production systems at Palantir. I led ML infrastructure …]]></summary>
-        <author>
-            <name>vshah1016</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Bubble Sorted Amen Break]]></title>
-        <id>https://news.ycombinator.com/item?id=47354098</id>
-        <link href="https://parametricavocado.itch.io/amen-sorting"/>
-        <updated>2026-03-12T17:13:56.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://parametricavocado.itch.io/amen-sorting
-Comments URL: https://news.ycombinator.com/item?id=47354098
-Points: 100
-# Comments: 42]]></summary>
-        <author>
-            <name>eieio</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Apple's MacBook Neo makes repairs easier and cheaper than other MacBooks]]></title>
-        <id>https://news.ycombinator.com/item?id=47353993</id>
-        <link href="https://arstechnica.com/gadgets/2026/03/more-modular-design-makes-macbook-neo-easier-to-fix-than-other-apple-laptops/"/>
-        <updated>2026-03-12T17:07:16.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://arstechnica.com/gadgets/2026/03/more-modular-design-makes-macbook-neo-easier-to-fix-than-other-apple-laptops/
-Comments URL: https://news.ycombinator.com/item?id=47353993
-Points: 73
-# Comments: 26]]></summary>
-        <author>
-            <name>GeekyBear</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: Understudy – Teach a desktop agent by demonstrating a task once]]></title>
-        <id>https://news.ycombinator.com/item?id=47353957</id>
-        <link href="https://github.com/understudy-ai/understudy"/>
-        <updated>2026-03-12T17:04:35.000Z</updated>
-        <summary type="html"><![CDATA[I built Understudy because a lot of real work still spans native desktop apps, browser tabs, terminals, and chat tools. Most current agents live in only one of those surfaces.
-Understudy is a local-first desktop agent runtime that can operate GUI apps, browsers, shell tools, files, and messaging in one session. The part I'm most interested in feedback on is teach-by-demonstration: you do a task once, the agent records screen video + semantic events, extracts the intent rather than coordinates, and turns it into a reusable skill.
-Demo video: https://www.youtube.com/watch?v=3d5cRGnlb_0
-In the demo I teach it: Google Image search -> download a photo -> remove background in Pixelmator Pro -> export -> send via Telegram. Then I ask it to do the same for Elon Musk. The replay isn't a brittle macro: the published skill stores intent steps, route options, and GUI hints only as a fallback. In this example it can also prefer faster routes when they are available instead of repeating every GUI step.
-Current state: macOS only. Layers 1-2 are working today; Layers 3-4 are partial and still early.
-    npm install -g @understudy-ai/understudy
-    understudy wizard
-
-https://github.com/understudy-ai/understudy
-Happy to answer questions about the architecture, teach-by-demonstration, or the limits of the current implementation.
-Comments URL: https://news.ycombinator.com/item?id=47353957
-Points: 59
-# Comments: 18]]></summary>
-        <author>
-            <name>bayes-song</name>
         </author>
     </entry>
 </feed>
