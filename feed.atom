@@ -2,10 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-04-10T23:41:46.694Z</updated>
+    <updated>2026-04-11T02:48:09.242Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Artemis II safely splashes down]]></title>
+        <id>https://news.ycombinator.com/item?id=47725583</id>
+        <link href="https://www.cbsnews.com/live-updates/artemis-ii-splashdown-return/"/>
+        <updated>2026-04-11T00:10:51.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.cbsnews.com/live-updates/artemis-ii-splashdown-return/
+Comments URL: https://news.ycombinator.com/item?id=47725583
+Points: 423
+# Comments: 151]]></summary>
+        <author>
+            <name>areoform</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Sam Altman's response to Molotov cocktail incident]]></title>
         <id>https://news.ycombinator.com/item?id=47724921</id>
@@ -30,6 +43,19 @@ Points: 141
 # Comments: 81]]></summary>
         <author>
             <name>normanvalentine</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Installing Every* Firefox Extension]]></title>
+        <id>https://news.ycombinator.com/item?id=47724118</id>
+        <link href="https://jack.cab/blog/every-firefox-extension"/>
+        <updated>2026-04-10T21:56:33.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://jack.cab/blog/every-firefox-extension
+Comments URL: https://news.ycombinator.com/item?id=47724118
+Points: 155
+# Comments: 23]]></summary>
+        <author>
+            <name>RohanAdwankar</name>
         </author>
     </entry>
     <entry>
@@ -184,6 +210,19 @@ Points: 50
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[OpenClaw’s memory is unreliable, and you don’t know when it will break]]></title>
+        <id>https://news.ycombinator.com/item?id=47721955</id>
+        <link href="https://blog.nishantsoni.com/p/ive-seen-a-thousand-openclaw-deploys"/>
+        <updated>2026-04-10T18:35:29.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://blog.nishantsoni.com/p/ive-seen-a-thousand-openclaw-deploys
+Comments URL: https://news.ycombinator.com/item?id=47721955
+Points: 61
+# Comments: 83]]></summary>
+        <author>
+            <name>sonink</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[AI assistance when contributing to the Linux kernel]]></title>
         <id>https://news.ycombinator.com/item?id=47721953</id>
         <link href="https://github.com/torvalds/linux/blob/master/Documentation/process/coding-assistants.rst"/>
@@ -259,6 +298,20 @@ Points: 138
 # Comments: 34]]></summary>
         <author>
             <name>stingraycharles</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Launch HN: Twill.ai (YC S25) – Delegate to cloud agents, get back PRs]]></title>
+        <id>https://news.ycombinator.com/item?id=47720418</id>
+        <link href="https://twill.ai/"/>
+        <updated>2026-04-10T16:22:13.000Z</updated>
+        <summary type="html"><![CDATA[Hey HN, we're Willy and Dan, co-founders of Twill.ai (https://twill.ai/). Twill runs coding CLIs like Claude Code and Codex in isolated cloud sandboxes. You hand it work through Slack, GitHub, Linear, our web app or CLI, and it comes back with a PR, a review, a diagnosis, or a follow-up question. It loops you in when it needs your input, so you stay in control.
+Demo: https://www.youtube.com/watch?v=oyfTMXVECbs
+Before Twill, building with Claude Code locally, we kept hitting three walls
+1. Parallelization: two tasks that both touch your Docker config or the same infra files are painful to run locally at once, and manual port rebinding and separate build contexts don't scale past a couple of tasks.
+2. Persistence: close your laptop and the agent stops. We wanted to kick off a batch of tasks …]]></summary>
+        <author>
+            <name>danoandco</name>
         </author>
     </entry>
     <entry>
@@ -18030,199 +18083,6 @@ Points: 80
 # Comments: 104]]></summary>
         <author>
             <name>colinprince</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Suburban school district uses license plate readers to verify student residency]]></title>
-        <id>https://news.ycombinator.com/item?id=47351239</id>
-        <link href="https://www.nbcchicago.com/consumer/suburban-school-district-uses-license-plate-readers-to-verify-student-residency/3906703/"/>
-        <updated>2026-03-12T14:41:12.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.nbcchicago.com/consumer/suburban-school-district-uses-license-plate-readers-to-verify-student-residency/3906703/
-Comments URL: https://news.ycombinator.com/item?id=47351239
-Points: 102
-# Comments: 110]]></summary>
-        <author>
-            <name>josephcsible</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Kotlin creator's new language: a formal way to talk to LLMs instead of English]]></title>
-        <id>https://news.ycombinator.com/item?id=47350931</id>
-        <link href="https://codespeak.dev/"/>
-        <updated>2026-03-12T14:22:43.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://codespeak.dev/
-Comments URL: https://news.ycombinator.com/item?id=47350931
-Points: 78
-# Comments: 55]]></summary>
-        <author>
-            <name>souvlakee</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Bandit: A 32bit baremetal computer that runs Color Forth [video]]]></title>
-        <id>https://news.ycombinator.com/item?id=47350763</id>
-        <link href="https://www.youtube.com/watch?v=HK0uAKkt0AE"/>
-        <updated>2026-03-12T14:10:56.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.youtube.com/watch?v=HK0uAKkt0AE
-Comments URL: https://news.ycombinator.com/item?id=47350763
-Points: 54
-# Comments: 3]]></summary>
-        <author>
-            <name>surprisetalk</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: Axe A 12MB binary that replaces your AI framework]]></title>
-        <id>https://news.ycombinator.com/item?id=47350516</id>
-        <link href="https://github.com/jrswab/axe"/>
-        <updated>2026-03-12T13:49:12.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://github.com/jrswab/axe
-Comments URL: https://news.ycombinator.com/item?id=47350516
-Points: 57
-# Comments: 50]]></summary>
-        <author>
-            <name>jrswab</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Malus – Clean Room as a Service]]></title>
-        <id>https://news.ycombinator.com/item?id=47350424</id>
-        <link href="https://malus.sh/"/>
-        <updated>2026-03-12T13:42:04.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://malus.sh
-Comments URL: https://news.ycombinator.com/item?id=47350424
-Points: 219
-# Comments: 72]]></summary>
-        <author>
-            <name>microflash</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: We analyzed 1,573 Claude Code sessions to see how AI agents work]]></title>
-        <id>https://news.ycombinator.com/item?id=47350416</id>
-        <link href="https://github.com/obsessiondb/rudel"/>
-        <updated>2026-03-12T13:41:12.000Z</updated>
-        <summary type="html"><![CDATA[We built rudel.ai after realizing we had no visibility into our own Claude Code sessions. We were using it daily but had no idea which sessions were efficient, why some got abandoned, or whether we were actually improving over time.
-So we built an analytics layer for it. After connecting our own sessions, we ended up with a dataset of 1,573 real Claude Code sessions, 15M+ tokens, 270K+ interactions.
-Some things we found that surprised us:
-- Skills were only being used in 4% of our sessions
-- 26% of sessions are abandoned, most within the first 60 seconds
-- Session success rate varies significantly by task type (documentation scores highest, refactoring lowest)
-- Error cascade patterns appear in the first 2 minutes and predict abandonment with reasonable accuracy
-- There is no meaningful benchmark for 'good' agentic session performance, we are building one.
-The tool is free to use and fully open source, happy to answer questions about the data or how we built it.
-Comments URL: https://news.ycombinator.com/item?id=47350416
-Points: 51
-# Comments: 28]]></summary>
-        <author>
-            <name>keks0r</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Document poisoning in RAG systems: How attackers corrupt AI's sources]]></title>
-        <id>https://news.ycombinator.com/item?id=47350407</id>
-        <link href="https://aminrj.com/posts/rag-document-poisoning/"/>
-        <updated>2026-03-12T13:40:36.000Z</updated>
-        <summary type="html"><![CDATA[I'm the author. Repo is here: https://github.com/aminrj-labs/mcp-attack-labs/tree/main/lab...
-The lab runs entirely on LM Studio + 
-Qwen2.5-7B-Instruct (Q4_K_M) + ChromaDB — no cloud APIs, no GPU 
-required, no API keys.
-From zero to seeing the poisoning succeed: git clone, make setup, 
-make attack1. About 10 minutes.
-Two things worth flagging upfront:
-- The 95% success rate is against a 5-document corpus (best case for 
-  the attacker). In a mature collection you need proportionally more 
-  poisoned docs to dominate retrieval — but the mechanism is the same.
-- Embedding anomaly detection at ingestion was the biggest surprise: 
-  95% → 20% as a standalone control, outperforming all three 
-  generation-phase defenses combined. It runs on embeddings your 
-  pipeline already produces — no additional model.
-All five layers combined: 10% residual.
-Happy to discuss methodology, the PoisonedRAG comparison, or anything 
-that looks off.
-Comments URL: https://news.ycombinator.com/item?id=47350407
-Points: 73
-# Comments: 26]]></summary>
-        <author>
-            <name>aminerj</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Long Overlooked as Crucial to Life, Fungi Start to Get Their Due]]></title>
-        <id>https://news.ycombinator.com/item?id=47350136</id>
-        <link href="https://e360.yale.edu/features/fungi-kingdom"/>
-        <updated>2026-03-12T13:16:11.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://e360.yale.edu/features/fungi-kingdom
-Comments URL: https://news.ycombinator.com/item?id=47350136
-Points: 56
-# Comments: 12]]></summary>
-        <author>
-            <name>speckx</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Electric motor scaling laws and inertia in robot actuators]]></title>
-        <id>https://news.ycombinator.com/item?id=47350016</id>
-        <link href="https://robot-daycare.com/posts/actuation_series_1/"/>
-        <updated>2026-03-12T13:04:35.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://robot-daycare.com/posts/actuation_series_1/
-Comments URL: https://news.ycombinator.com/item?id=47350016
-Points: 55
-# Comments: 11]]></summary>
-        <author>
-            <name>o4c</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[US private credit defaults hit record 9.2% in 2025, Fitch says]]></title>
-        <id>https://news.ycombinator.com/item?id=47349806</id>
-        <link href="https://www.marketscreener.com/news/us-private-credit-defaults-hit-record-9-2-in-2025-fitch-says-ce7e5fd8df8fff2d"/>
-        <updated>2026-03-12T12:44:45.000Z</updated>
-        <summary type="html"><![CDATA[See also: https://alternativecreditinvestor.com/2025/10/22/us-banks-ex...
-Comments URL: https://news.ycombinator.com/item?id=47349806
-Points: 152
-# Comments: 293]]></summary>
-        <author>
-            <name>JumpCrisscross</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[US banks' exposure to private credit hits $300B (2025)]]></title>
-        <id>https://news.ycombinator.com/item?id=47349798</id>
-        <link href="https://alternativecreditinvestor.com/2025/10/22/us-banks-exposure-to-private-credit-hits-300bn/"/>
-        <updated>2026-03-12T12:43:26.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://alternativecreditinvestor.com/2025/10/22/us-banks-exposure-to-private-credit-hits-300bn/
-Comments URL: https://news.ycombinator.com/item?id=47349798
-Points: 83
-# Comments: 43]]></summary>
-        <author>
-            <name>JumpCrisscross</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Emacs internals: Tagged pointers vs. C++ std:variant and LLVM (Part 3)]]></title>
-        <id>https://news.ycombinator.com/item?id=47349780</id>
-        <link href="https://thecloudlet.github.io/blog/project/emacs-03/"/>
-        <updated>2026-03-12T12:41:29.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://thecloudlet.github.io/blog/project/emacs-03/
-Comments URL: https://news.ycombinator.com/item?id=47349780
-Points: 51
-# Comments: 24]]></summary>
-        <author>
-            <name>thecloudlet</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Are LLM merge rates not getting better?]]></title>
-        <id>https://news.ycombinator.com/item?id=47349334</id>
-        <link href="https://entropicthoughts.com/no-swe-bench-improvement"/>
-        <updated>2026-03-12T11:49:05.000Z</updated>
-        <summary type="html"><![CDATA[Related: Many SWE-bench-Passing PRs would not be merged - https://news.ycombinator.com/item?id=47341645 - March 2026 (149 comments)
-Comments URL: https://news.ycombinator.com/item?id=47349334
-Points: 82
-# Comments: 90]]></summary>
-        <author>
-            <name>4diii</name>
         </author>
     </entry>
 </feed>
