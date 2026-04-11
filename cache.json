@@ -16,6 +16,16 @@
           "imageUrl": "https://assets3.cbsnewsstatic.com/hub/i/r/2026/04/11/73f98421-5625-4423-9350-ca8f830524c9/thumbnail/1200x630/912aa87fa1cbfe12c5c46aa4e11480eb/2026-04-11t021020z-2118394274-rc2qmkaipb96-rtrmadp-3-space-moon-artemis.jpg"
         },
         {
+          "id": "https://news.ycombinator.com/item?id=47725403",
+          "author": "lermontov",
+          "description": "Article URL: https://www.historytoday.com/archive/portrait-author-historian/italo-calvino-traveller-world-uncertainty\nComments URL: https://news.ycombinator.com/item?id=47725403\nPoints: 50\n# Comments: 11",
+          "link": "https://www.historytoday.com/archive/portrait-author-historian/italo-calvino-traveller-world-uncertainty",
+          "publishedOn": "2026-04-10T23:48:07.000Z",
+          "wordCount": 53,
+          "title": "Italo Calvino: A traveller in a world of uncertainty",
+          "imageUrl": null
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=47724921",
           "author": "jack_hanford",
           "description": "Article URL: https://blog.samaltman.com/2279512\nComments URL: https://news.ycombinator.com/item?id=47724921\nPoints: 50\n# Comments: 49",
@@ -13454,96 +13464,6 @@
           "wordCount": 9996,
           "title": "Show HN: Understudy – Teach a desktop agent by demonstrating a task once",
           "imageUrl": "https://opengraph.githubassets.com/6957f2b89369b5975c763dd3cd1578e4d3efca9081f1cc14758383e7270b2c7c/understudy-ai/understudy"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47353558",
-          "author": "guyb3",
-          "description": "We built OneCLI because AI agents are being given raw API keys. And it's going about as well as you'd expect. We figured the answer isn't \"don't give agents access,\" it's \"give them access without giving them secrets.\"\nOneCLI is an open-source gateway that sits between your AI agents and the services they call. You store your real credentials once in OneCLI's encrypted vault, and give your agents placeholder keys. When an agent makes an HTTP call through the proxy, OneCLI matches the request by host/path, verifies the agent should have access, swaps the placeholder for the real credential, and forwards the request. The agent never touches the actual secret. It just uses CLI or MCP tools as normal.\nTry it in one line:\ndocker run --pull always -p 10254:10254 -p 10255:10255 -v onecli-data:/app/data ghcr.io/onecli/onecli\nThe proxy is written in Rust, the dashboard is Next.js, and secrets are AES-256-GCM encrypted at rest. Everything runs in a single Docker container with an embedded Postgres (PGlite), no external dependencies. Works with any agent framework (OpenClaw, NanoClaw, IronClaw, or anything that can set an HTTPS_PROXY).\nWe started with what felt most urgent: agents shouldn't be holding raw credentials. \nThe next layer is access policies and audit, defining what each agent can call, logging everything, and requiring human approval before sensitive actions go through.\nIt's Apache-2.0 licensed. We'd love feedback on the approach, and we're especially curious how people are handling agent auth today.\nGitHub: https://github.com/onecli/onecli\nSite: https://onecli.sh\nComments URL: https://news.ycombinator.com/item?id=47353558\nPoints: 59\n# Comments: 25",
-          "link": "https://github.com/onecli/onecli",
-          "publishedOn": "2026-03-12T16:41:06.000Z",
-          "wordCount": 3266,
-          "title": "Show HN: OneCLI – Vault for AI Agents in Rust",
-          "imageUrl": "https://repository-images.githubusercontent.com/1175900220/ef74e755-ef2e-4166-8437-b1ad4830e2ff"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47353533",
-          "author": "mustaphah",
-          "description": "Article URL: https://med.stanford.edu/news/all-news/2026/03/gut-brain-cognitive-decline.html\nComments URL: https://news.ycombinator.com/item?id=47353533\nPoints: 77\n# Comments: 13",
-          "link": "https://med.stanford.edu/news/all-news/2026/03/gut-brain-cognitive-decline.html",
-          "publishedOn": "2026-03-12T16:38:51.000Z",
-          "wordCount": 2640,
-          "title": "Reversing memory loss via gut-brain communication",
-          "imageUrl": "https://med.stanford.edu/news/all-news/2026/03/gut-brain-cognitive-decline/_jcr_content/cq:socialfeaturedimage.coreimg.jpeg/1773245507576/Thaiss-gut-brain.jpeg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47352751",
-          "author": "adocomplete",
-          "description": "Article URL: https://claude.com/blog/claude-builds-visuals\nComments URL: https://news.ycombinator.com/item?id=47352751\nPoints: 64\n# Comments: 28",
-          "link": "https://claude.com/blog/claude-builds-visuals",
-          "publishedOn": "2026-03-12T15:59:00.000Z",
-          "wordCount": 12314,
-          "title": "Claude now creates interactive charts, diagrams and visualizations",
-          "imageUrl": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/69b22b22945a05d9ad88c9d4_og_claude-builds-visuals.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47352459",
-          "author": "coloneltcb",
-          "description": "Article URL: https://www.openculture.com/2026/03/the-met-releases-high-definition-3d-scans-of-140-famous-art-objects.html\nComments URL: https://news.ycombinator.com/item?id=47352459\nPoints: 84\n# Comments: 19",
-          "link": "https://www.openculture.com/2026/03/the-met-releases-high-definition-3d-scans-of-140-famous-art-objects.html",
-          "publishedOn": "2026-03-12T15:43:39.000Z",
-          "wordCount": 6558,
-          "title": "The Met Releases High-Def 3D Scans of 140 Famous Art Objects",
-          "imageUrl": "https://cdn8.openculture.com/2026/03/11063006/thumb-48506a-1024x889.avif"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47352385",
-          "author": "789c789c789c",
-          "description": "Article URL: https://github.com/wolfssl/wolfip\nComments URL: https://news.ycombinator.com/item?id=47352385\nPoints: 56\n# Comments: 5",
-          "link": "https://github.com/wolfssl/wolfip",
-          "publishedOn": "2026-03-12T15:39:50.000Z",
-          "wordCount": 2316,
-          "title": "WolfIP: Lightweight TCP/IP stack with no dynamic memory allocations",
-          "imageUrl": "https://opengraph.githubassets.com/d3704fc40134beff655342171dc5fd2937bbf64958fda6388c0b64424952ae6b/wolfSSL/wolfip"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47352297",
-          "author": "amarcheschi",
-          "description": "Article URL: https://www.reuters.com/world/italian-prosecutors-seek-trial-amazon-four-execs-over-alleged-14-bln-tax-evasion-2026-03-12/\nComments URL: https://news.ycombinator.com/item?id=47352297\nPoints: 101\n# Comments: 19",
-          "link": "https://www.reuters.com/world/italian-prosecutors-seek-trial-amazon-four-execs-over-alleged-14-bln-tax-evasion-2026-03-12/",
-          "publishedOn": "2026-03-12T15:34:41.000Z",
-          "wordCount": null,
-          "title": "Italian prosecutors seek trial for Amazon, 4 execs in alleged $1.4B tax evasion",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47352262",
-          "author": "everybodyknows",
-          "description": "Article URL: https://www.lloydslist.com/LL1156592/US--and-Greek-owned-tankers-ablaze-after-Iran-claims-underwater-drone-strike-in-Iraqi-waters\nComments URL: https://news.ycombinator.com/item?id=47352262\nPoints: 106\n# Comments: 88",
-          "link": "https://www.lloydslist.com/LL1156592/US--and-Greek-owned-tankers-ablaze-after-Iran-claims-underwater-drone-strike-in-Iraqi-waters",
-          "publishedOn": "2026-03-12T15:32:54.000Z",
-          "wordCount": 3523,
-          "title": "US- and Greek-owned tankers ablaze after Iran claims 'underwater drone' strike",
-          "imageUrl": "https://www.lloydslist.com/-/media/lloyds-list/images/strait-of-hormuz-crisis/ships/iraqi-tankers-on-fire.png?rev=c466a77145bd4f46900bdb8bb0e9eea0"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47352215",
-          "author": "speckx",
-          "description": "Article URL: https://fortune.com/2026/03/11/iran-war-fuel-crisis-asia-work-from-home-closed-schools-price-caps/\nComments URL: https://news.ycombinator.com/item?id=47352215\nPoints: 207\n# Comments: 108",
-          "link": "https://fortune.com/2026/03/11/iran-war-fuel-crisis-asia-work-from-home-closed-schools-price-caps/",
-          "publishedOn": "2026-03-12T15:30:37.000Z",
-          "wordCount": 6866,
-          "title": "Asia rolls out 4-day weeks, WFH to solve fuel crisis caused by Iran war",
-          "imageUrl": "https://fortune.com/img-assets/wp-content/uploads/2026/03/GettyImages-2265234562.jpg?resize=1200,600"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47351371",
-          "author": "colinprince",
-          "description": "Article URL: https://davidoks.blog/p/why-the-atm-didnt-kill-bank-teller\nComments URL: https://news.ycombinator.com/item?id=47351371\nPoints: 80\n# Comments: 104",
-          "link": "https://davidoks.blog/p/why-the-atm-didnt-kill-bank-teller",
-          "publishedOn": "2026-03-12T14:48:57.000Z",
-          "wordCount": 10184,
-          "title": "ATMs didn't kill bank Teller jobs, but the iPhone did",
-          "imageUrl": "https://substackcdn.com/image/fetch/$s_!fJgh!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff030282b-ee45-446b-b58e-fd8789922d73_2048x1385.jpeg"
         }
       ]
     }
