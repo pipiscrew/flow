@@ -1876,6 +1876,16 @@
           "imageUrl": "https://www.loskutoff.com/static/blog/dnd-quint-combat/splash.png"
         },
         {
+          "id": "https://news.ycombinator.com/item?id=47674075",
+          "author": "alpaylan",
+          "description": "Article URL: https://alperenkeles.com/posts/what-is-a-property/\nComments URL: https://news.ycombinator.com/item?id=47674075\nPoints: 59\n# Comments: 17",
+          "link": "https://alperenkeles.com/posts/what-is-a-property/",
+          "publishedOn": "2026-04-07T12:16:27.000Z",
+          "wordCount": 1852,
+          "title": "What is a property?",
+          "imageUrl": null
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=47674027",
           "author": "intofarlands",
           "description": "Article URL: https://www.intofarlands.com/atlasofarda\nComments URL: https://news.ycombinator.com/item?id=47674027\nPoints: 107\n# Comments: 18",
@@ -1944,6 +1954,16 @@
           "wordCount": 2686,
           "title": "We found an undocumented bug in the Apollo 11 guidance computer code",
           "imageUrl": "https://www.juxt.pro/_astro/a-bug-on-the-dark-side-of-the-moon.DySaROKX_ILgy.webp"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47672941",
+          "author": "kouosi",
+          "description": "Article URL: https://pijul.org/\nComments URL: https://news.ycombinator.com/item?id=47672941\nPoints: 91\n# Comments: 13",
+          "link": "https://pijul.org/",
+          "publishedOn": "2026-04-07T10:16:38.000Z",
+          "wordCount": 316,
+          "title": "Pijul a FOSS distributed version control system",
+          "imageUrl": null
         },
         {
           "id": "https://news.ycombinator.com/item?id=47672884",
@@ -13454,126 +13474,6 @@
           "wordCount": 1131,
           "title": "NASA targets Artemis II crewed moon mission for April 1 launch",
           "imageUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3425x1927+0+0/resize/1400/quality/85/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fe7%2F0c%2F9dbaadd94167a5c53ffcc354d7a6%2Fgettyimages-2265601908.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47365597",
-          "author": "SilverElfin",
-          "description": "Article URL: https://github.com/upper-up/meta-lobbying-and-other-findings\nComments URL: https://news.ycombinator.com/item?id=47365597\nPoints: 122\n# Comments: 9",
-          "link": "https://github.com/upper-up/meta-lobbying-and-other-findings",
-          "publishedOn": "2026-03-13T15:14:29.000Z",
-          "wordCount": 11185,
-          "title": "Meta Platforms: Lobbying, Dark Money, and the App Store Accountability Act",
-          "imageUrl": "https://opengraph.githubassets.com/f83bd3ff19c856c8efe8fffaf4ea95bf3bb9dd6d1717a56d566f711caa01633d/upper-up/meta-lobbying-and-other-findings"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47365299",
-          "author": "snide",
-          "description": "Article URL: https://www.davesnider.com/posts/claude-3d\nComments URL: https://news.ycombinator.com/item?id=47365299\nPoints: 93\n# Comments: 19",
-          "link": "https://www.davesnider.com/posts/claude-3d",
-          "publishedOn": "2026-03-13T14:53:10.000Z",
-          "wordCount": 1061,
-          "title": "Claude Tips for 3D Work",
-          "imageUrl": "https://files.davesnider.com/2026MAR/ZKeO2SgcsKAh-fel.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47364729",
-          "author": "tosh",
-          "description": "Article URL: https://www.macrumors.com/2026/03/13/macbook-neo-runs-windows-11-vm/\nComments URL: https://news.ycombinator.com/item?id=47364729\nPoints: 71\n# Comments: 100",
-          "link": "https://www.macrumors.com/2026/03/13/macbook-neo-runs-windows-11-vm/",
-          "publishedOn": "2026-03-13T14:11:36.000Z",
-          "wordCount": 2537,
-          "title": "Parallels confirms MacBook Neo can run Windows in a virtual machine",
-          "imageUrl": "https://images.macrumors.com/t/eUtUULFLe-rs76M241emfNWEyQ4=/2500x/article-new/2026/03/MacBook-Neo-Feature-Pastel-1.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47364397",
-          "author": "outofdistro",
-          "description": "Article URL: https://nanoclaw.dev/blog/nanoclaw-docker-sandboxes/\nComments URL: https://news.ycombinator.com/item?id=47364397\nPoints: 72\n# Comments: 24",
-          "link": "https://nanoclaw.dev/blog/nanoclaw-docker-sandboxes/",
-          "publishedOn": "2026-03-13T13:45:32.000Z",
-          "wordCount": 1098,
-          "title": "Run NanoClaw in Docker Sandboxes",
-          "imageUrl": "https://nanoclaw.dev/social-preview.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47364260",
-          "author": "mr_Fatalyst",
-          "description": "Hi HN! I built Oxyde because I was tired of duplicating my models.\nIf you use FastAPI, you know the drill. You define Pydantic models for your API, then define separate ORM models for your database, then write converters between them. SQLModel tries to fix this but it's still SQLAlchemy underneath. Tortoise gives you a nice Django-style API but its own model system. Django ORM is great but welded to the framework.\nI wanted something simple: your Pydantic model IS your database model. One class, full validation on input and output, native type hints, zero duplication. The query API is Django-style (.objects.filter(), .exclude(), Q/F expressions) because I think it's one of the best designs out there.\nExplicit over implicit. I tried to remove all the magic. Queries don't touch the database u…",
-          "link": "https://github.com/mr-fatalyst/oxyde",
-          "publishedOn": "2026-03-13T13:35:12.000Z",
-          "wordCount": 3624,
-          "title": "Show HN: Oxyde – Pydantic-native async ORM with a Rust core",
-          "imageUrl": "https://opengraph.githubassets.com/f6fbe7a96b6dd8813be85578e9b8ce4d0e813072b0d0037dd1b80f6cb92178a9/mr-fatalyst/oxyde"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47364116",
-          "author": "a24venka",
-          "description": "Hey HN! We're Ashwin and Akshay from Spine AI (https://www.getspine.ai).\nSpine Swarm is a multi-agent system that works on an infinite visual canvas to complete complex non-coding projects: competitive analysis, financial modeling, SEO audits, pitch decks, interactive prototypes, and more.\nHere's a video of Spine Swarm in action: https://youtu.be/R_2-ggpZz0Q\nWe've been friends for over 13 years. We took our first ML course together at NTU, in a part of campus called North Spine, which is where the name comes from. We went through YC in S23 and have spent about 3 years building Spine across many product iterations.\nThe core idea: chat is the wrong interface for complex AI work. It's a linear thread, and real projects aren't linear. Sure, you can ask a chatbot to reference the financial mode…",
-          "link": "https://www.getspine.ai/",
-          "publishedOn": "2026-03-13T13:22:40.000Z",
-          "wordCount": 11,
-          "title": "Launch HN: Spine Swarm (YC S23) – AI agents that collaborate on a visual canvas",
-          "imageUrl": "https://getspine.ai/WebsitePreview.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47363990",
-          "author": "jjgreen",
-          "description": "Article URL: https://www.theregister.com/2026/03/13/opinion_os_verification/\nComments URL: https://news.ycombinator.com/item?id=47363990\nPoints: 108\n# Comments: 63",
-          "link": "https://www.theregister.com/2026/03/13/opinion_os_verification/",
-          "publishedOn": "2026-03-13T13:10:50.000Z",
-          "wordCount": 2075,
-          "title": "Nanny state discovers Linux, demands it check kids' IDs before booting",
-          "imageUrl": "https://regmedia.co.uk/2022/02/14/shutterstock_penguin_and_young.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47363922",
-          "author": "mindracer",
-          "description": "Article URL: https://help.instagram.com/491565145294150\nComments URL: https://news.ycombinator.com/item?id=47363922\nPoints: 68\n# Comments: 21",
-          "link": "https://help.instagram.com/491565145294150",
-          "publishedOn": "2026-03-13T13:03:42.000Z",
-          "wordCount": 5849,
-          "title": "E2E encrypted messaging on Instagram will no longer be supported after 8 May",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47363754",
-          "author": "ricardbejarano",
-          "description": "Article URL: https://www.canirun.ai/\nComments URL: https://news.ycombinator.com/item?id=47363754\nPoints: 80\n# Comments: 19",
-          "link": "https://www.canirun.ai/",
-          "publishedOn": "2026-03-13T12:46:10.000Z",
-          "wordCount": 10767,
-          "title": "Can I Run AI locally?",
-          "imageUrl": "https://canirun.ai/og/home.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47363584",
-          "author": "johnbarron",
-          "description": "Article URL: https://www.tomshardware.com/tech-industry/qatar-helium-shutdown-puts-chip-supply-chain-on-a-two-week-clock\nComments URL: https://news.ycombinator.com/item?id=47363584\nPoints: 113\n# Comments: 116",
-          "link": "https://www.tomshardware.com/tech-industry/qatar-helium-shutdown-puts-chip-supply-chain-on-a-two-week-clock",
-          "publishedOn": "2026-03-13T12:31:09.000Z",
-          "wordCount": null,
-          "title": "Qatar helium shutdown puts chip supply chain on a two-week clock",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47363133",
-          "author": "Anon84",
-          "description": "Article URL: https://www.youtube.com/watch?v=3v8AsTHfAG0\nComments URL: https://news.ycombinator.com/item?id=47363133\nPoints: 123\n# Comments: 26",
-          "link": "https://www.youtube.com/watch?v=3v8AsTHfAG0",
-          "publishedOn": "2026-03-13T11:44:27.000Z",
-          "wordCount": null,
-          "title": "Sci-Fi Short Film “There Is No Antimemetics Division” [video]",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47363074",
-          "author": "ermis",
-          "description": "Article URL: https://prompt-caching.ai/\nComments URL: https://news.ycombinator.com/item?id=47363074\nPoints: 54\n# Comments: 23",
-          "link": "https://prompt-caching.ai/",
-          "publishedOn": "2026-03-13T11:38:15.000Z",
-          "wordCount": 965,
-          "title": "Prompt-caching – auto-injects Anthropic cache breakpoints (90% token savings)",
-          "imageUrl": "https://prompt-caching.ai/assets/og.png"
         }
       ]
     }

@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-04-11T23:41:28.992Z</updated>
+    <updated>2026-04-12T03:27:35.996Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
@@ -2527,6 +2527,19 @@ Points: 87
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[What is a property?]]></title>
+        <id>https://news.ycombinator.com/item?id=47674075</id>
+        <link href="https://alperenkeles.com/posts/what-is-a-property/"/>
+        <updated>2026-04-07T12:16:27.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://alperenkeles.com/posts/what-is-a-property/
+Comments URL: https://news.ycombinator.com/item?id=47674075
+Points: 59
+# Comments: 17]]></summary>
+        <author>
+            <name>alpaylan</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Show HN: A cartographer's attempt to realistically map Tolkien's world]]></title>
         <id>https://news.ycombinator.com/item?id=47674027</id>
         <link href="https://www.intofarlands.com/atlasofarda"/>
@@ -2620,6 +2633,19 @@ Points: 139
 # Comments: 76]]></summary>
         <author>
             <name>henrygarner</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Pijul a FOSS distributed version control system]]></title>
+        <id>https://news.ycombinator.com/item?id=47672941</id>
+        <link href="https://pijul.org/"/>
+        <updated>2026-04-07T10:16:38.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://pijul.org/
+Comments URL: https://news.ycombinator.com/item?id=47672941
+Points: 91
+# Comments: 13]]></summary>
+        <author>
+            <name>kouosi</name>
         </author>
     </entry>
     <entry>
@@ -17954,163 +17980,6 @@ Points: 54
 # Comments: 29]]></summary>
         <author>
             <name>Brajeshwar</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Meta Platforms: Lobbying, Dark Money, and the App Store Accountability Act]]></title>
-        <id>https://news.ycombinator.com/item?id=47365597</id>
-        <link href="https://github.com/upper-up/meta-lobbying-and-other-findings"/>
-        <updated>2026-03-13T15:14:29.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://github.com/upper-up/meta-lobbying-and-other-findings
-Comments URL: https://news.ycombinator.com/item?id=47365597
-Points: 122
-# Comments: 9]]></summary>
-        <author>
-            <name>SilverElfin</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Claude Tips for 3D Work]]></title>
-        <id>https://news.ycombinator.com/item?id=47365299</id>
-        <link href="https://www.davesnider.com/posts/claude-3d"/>
-        <updated>2026-03-13T14:53:10.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.davesnider.com/posts/claude-3d
-Comments URL: https://news.ycombinator.com/item?id=47365299
-Points: 93
-# Comments: 19]]></summary>
-        <author>
-            <name>snide</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Parallels confirms MacBook Neo can run Windows in a virtual machine]]></title>
-        <id>https://news.ycombinator.com/item?id=47364729</id>
-        <link href="https://www.macrumors.com/2026/03/13/macbook-neo-runs-windows-11-vm/"/>
-        <updated>2026-03-13T14:11:36.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.macrumors.com/2026/03/13/macbook-neo-runs-windows-11-vm/
-Comments URL: https://news.ycombinator.com/item?id=47364729
-Points: 71
-# Comments: 100]]></summary>
-        <author>
-            <name>tosh</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Run NanoClaw in Docker Sandboxes]]></title>
-        <id>https://news.ycombinator.com/item?id=47364397</id>
-        <link href="https://nanoclaw.dev/blog/nanoclaw-docker-sandboxes/"/>
-        <updated>2026-03-13T13:45:32.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://nanoclaw.dev/blog/nanoclaw-docker-sandboxes/
-Comments URL: https://news.ycombinator.com/item?id=47364397
-Points: 72
-# Comments: 24]]></summary>
-        <author>
-            <name>outofdistro</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: Oxyde – Pydantic-native async ORM with a Rust core]]></title>
-        <id>https://news.ycombinator.com/item?id=47364260</id>
-        <link href="https://github.com/mr-fatalyst/oxyde"/>
-        <updated>2026-03-13T13:35:12.000Z</updated>
-        <summary type="html"><![CDATA[Hi HN! I built Oxyde because I was tired of duplicating my models.
-If you use FastAPI, you know the drill. You define Pydantic models for your API, then define separate ORM models for your database, then write converters between them. SQLModel tries to fix this but it's still SQLAlchemy underneath. Tortoise gives you a nice Django-style API but its own model system. Django ORM is great but welded to the framework.
-I wanted something simple: your Pydantic model IS your database model. One class, full validation on input and output, native type hints, zero duplication. The query API is Django-style (.objects.filter(), .exclude(), Q/F expressions) because I think it's one of the best designs out there.
-Explicit over implicit. I tried to remove all the magic. Queries don't touch the database u…]]></summary>
-        <author>
-            <name>mr_Fatalyst</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Launch HN: Spine Swarm (YC S23) – AI agents that collaborate on a visual canvas]]></title>
-        <id>https://news.ycombinator.com/item?id=47364116</id>
-        <link href="https://www.getspine.ai/"/>
-        <updated>2026-03-13T13:22:40.000Z</updated>
-        <summary type="html"><![CDATA[Hey HN! We're Ashwin and Akshay from Spine AI (https://www.getspine.ai).
-Spine Swarm is a multi-agent system that works on an infinite visual canvas to complete complex non-coding projects: competitive analysis, financial modeling, SEO audits, pitch decks, interactive prototypes, and more.
-Here's a video of Spine Swarm in action: https://youtu.be/R_2-ggpZz0Q
-We've been friends for over 13 years. We took our first ML course together at NTU, in a part of campus called North Spine, which is where the name comes from. We went through YC in S23 and have spent about 3 years building Spine across many product iterations.
-The core idea: chat is the wrong interface for complex AI work. It's a linear thread, and real projects aren't linear. Sure, you can ask a chatbot to reference the financial mode…]]></summary>
-        <author>
-            <name>a24venka</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Nanny state discovers Linux, demands it check kids' IDs before booting]]></title>
-        <id>https://news.ycombinator.com/item?id=47363990</id>
-        <link href="https://www.theregister.com/2026/03/13/opinion_os_verification/"/>
-        <updated>2026-03-13T13:10:50.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.theregister.com/2026/03/13/opinion_os_verification/
-Comments URL: https://news.ycombinator.com/item?id=47363990
-Points: 108
-# Comments: 63]]></summary>
-        <author>
-            <name>jjgreen</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[E2E encrypted messaging on Instagram will no longer be supported after 8 May]]></title>
-        <id>https://news.ycombinator.com/item?id=47363922</id>
-        <link href="https://help.instagram.com/491565145294150"/>
-        <updated>2026-03-13T13:03:42.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://help.instagram.com/491565145294150
-Comments URL: https://news.ycombinator.com/item?id=47363922
-Points: 68
-# Comments: 21]]></summary>
-        <author>
-            <name>mindracer</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Can I Run AI locally?]]></title>
-        <id>https://news.ycombinator.com/item?id=47363754</id>
-        <link href="https://www.canirun.ai/"/>
-        <updated>2026-03-13T12:46:10.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.canirun.ai/
-Comments URL: https://news.ycombinator.com/item?id=47363754
-Points: 80
-# Comments: 19]]></summary>
-        <author>
-            <name>ricardbejarano</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Qatar helium shutdown puts chip supply chain on a two-week clock]]></title>
-        <id>https://news.ycombinator.com/item?id=47363584</id>
-        <link href="https://www.tomshardware.com/tech-industry/qatar-helium-shutdown-puts-chip-supply-chain-on-a-two-week-clock"/>
-        <updated>2026-03-13T12:31:09.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.tomshardware.com/tech-industry/qatar-helium-shutdown-puts-chip-supply-chain-on-a-two-week-clock
-Comments URL: https://news.ycombinator.com/item?id=47363584
-Points: 113
-# Comments: 116]]></summary>
-        <author>
-            <name>johnbarron</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Sci-Fi Short Film “There Is No Antimemetics Division” [video]]]></title>
-        <id>https://news.ycombinator.com/item?id=47363133</id>
-        <link href="https://www.youtube.com/watch?v=3v8AsTHfAG0"/>
-        <updated>2026-03-13T11:44:27.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.youtube.com/watch?v=3v8AsTHfAG0
-Comments URL: https://news.ycombinator.com/item?id=47363133
-Points: 123
-# Comments: 26]]></summary>
-        <author>
-            <name>Anon84</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Prompt-caching – auto-injects Anthropic cache breakpoints (90% token savings)]]></title>
-        <id>https://news.ycombinator.com/item?id=47363074</id>
-        <link href="https://prompt-caching.ai/"/>
-        <updated>2026-03-13T11:38:15.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://prompt-caching.ai/
-Comments URL: https://news.ycombinator.com/item?id=47363074
-Points: 54
-# Comments: 23]]></summary>
-        <author>
-            <name>ermis</name>
         </author>
     </entry>
 </feed>
