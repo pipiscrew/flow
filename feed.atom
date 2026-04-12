@@ -2,10 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-04-12T11:38:14.843Z</updated>
+    <updated>2026-04-12T13:14:53.666Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[JVM Options Explorer]]></title>
+        <id>https://news.ycombinator.com/item?id=47738094</id>
+        <link href="https://chriswhocodes.com/vm-options-explorer.html"/>
+        <updated>2026-04-12T10:29:26.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://chriswhocodes.com/vm-options-explorer.html
+Comments URL: https://news.ycombinator.com/item?id=47738094
+Points: 53
+# Comments: 22]]></summary>
+        <author>
+            <name>0x54MUR41</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[MiniMax M2.7 Is Now Open Source]]></title>
         <id>https://news.ycombinator.com/item?id=47737928</id>
@@ -43,6 +56,19 @@ Points: 96
 # Comments: 46]]></summary>
         <author>
             <name>OuterVale</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Phyphox – Physical Experiments Using a Smartphone]]></title>
+        <id>https://news.ycombinator.com/item?id=47737376</id>
+        <link href="https://phyphox.org/"/>
+        <updated>2026-04-12T08:38:11.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://phyphox.org/
+Comments URL: https://news.ycombinator.com/item?id=47737376
+Points: 57
+# Comments: 14]]></summary>
+        <author>
+            <name>_Microft</name>
         </author>
     </entry>
     <entry>
@@ -1308,6 +1334,19 @@ Points: 102
 # Comments: 107]]></summary>
         <author>
             <name>strongpigeon</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[An Interview with Pat Gelsinger]]></title>
+        <id>https://news.ycombinator.com/item?id=47706423</id>
+        <link href="https://morethanmoore.substack.com/p/an-interview-with-pat-gelsinger-2026"/>
+        <updated>2026-04-09T17:19:10.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://morethanmoore.substack.com/p/an-interview-with-pat-gelsinger-2026
+Comments URL: https://news.ycombinator.com/item?id=47706423
+Points: 63
+# Comments: 26]]></summary>
+        <author>
+            <name>zdw</name>
         </author>
     </entry>
     <entry>
@@ -17723,65 +17762,6 @@ Points: 58
 # Comments: 3]]></summary>
         <author>
             <name>pabs3</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[(Media over QUIC) on a Boat]]></title>
-        <id>https://news.ycombinator.com/item?id=47372072</id>
-        <link href="https://moq.dev/blog/on-a-boat/"/>
-        <updated>2026-03-14T00:50:20.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://moq.dev/blog/on-a-boat/
-Comments URL: https://news.ycombinator.com/item?id=47372072
-Points: 72
-# Comments: 12]]></summary>
-        <author>
-            <name>mmcclure</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Our Experience with I-Ready]]></title>
-        <id>https://news.ycombinator.com/item?id=47371922</id>
-        <link href="https://moultano.wordpress.com/2026/03/12/our-experience-with-i-ready/"/>
-        <updated>2026-03-14T00:29:50.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://moultano.wordpress.com/2026/03/12/our-experience-with-i-ready/
-Comments URL: https://news.ycombinator.com/item?id=47371922
-Points: 51
-# Comments: 15]]></summary>
-        <author>
-            <name>barry-cotter</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: Fatal Core Dump – A debugging murder mystery played with GDB]]></title>
-        <id>https://news.ycombinator.com/item?id=47371785</id>
-        <link href="https://www.robopenguins.com/fatal_core_dump/"/>
-        <updated>2026-03-14T00:12:44.000Z</updated>
-        <summary type="html"><![CDATA[Debugging a crash can sometimes feel like a noir detective story: following faint clues, chasing red herrings, and eventually hitting the moment where the whole case finally makes sense. I leaned into that idea and built Fatal Core Dump, a small game where the investigation is real crash debugging.
-The game gives you a Linux binary, its core dump, a source file, and some logs. You solve the mystery by debugging it.
-The premise: an engineer dies when an airlock on an asteroid mining station opens unexpectedly. Your job is to determine whether it was a simple software bug or something more deliberate.
-The investigation uses real debugging tools and techniques. You can use whatever debugging setup you prefer.
-There’s also a spoiler-heavy blog post describing how the game was conceived and implemented, and the full code is available if you’re curious about how it works or want to experiment with the idea.
-Blog post: https://www.robopenguins.com/core-dump-game/ 
-Source: https://github.com/axlan/fatal_core_dump
-If you enjoy debugging puzzles or low-level Linux tooling, I’d love to hear what you think.
-Comments URL: https://news.ycombinator.com/item?id=47371785
-Points: 55
-# Comments: 1]]></summary>
-        <author>
-            <name>axlan</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Games with loot boxes to get minimum 16 age rating across Europe]]></title>
-        <id>https://news.ycombinator.com/item?id=47371692</id>
-        <link href="https://www.bbc.com/news/articles/cge84xqjg5lo"/>
-        <updated>2026-03-14T00:02:37.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.bbc.com/news/articles/cge84xqjg5lo
-Comments URL: https://news.ycombinator.com/item?id=47371692
-Points: 100
-# Comments: 35]]></summary>
-        <author>
-            <name>gostsamo</name>
         </author>
     </entry>
 </feed>
