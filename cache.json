@@ -6,6 +6,16 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=47743730",
+          "author": "super256",
+          "description": "Article URL: https://bsky.app/profile/serenityforge.com/post/3mj3r4nbiws2t\nComments URL: https://news.ycombinator.com/item?id=47743730\nPoints: 94\n# Comments: 24",
+          "link": "https://bsky.app/profile/serenityforge.com/post/3mj3r4nbiws2t",
+          "publishedOn": "2026-04-12T19:53:08.000Z",
+          "wordCount": 409,
+          "title": "Google removes \"Doki Doki Literature Club\" from Google Play",
+          "imageUrl": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:vnea37icaea6aufss6n4vpo4/bafkreigaipkm5tcheomjrjjiwgwew2cb5o5gougsblcdyez5kmp3wgjtrm"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=47743700",
           "author": "hjouneau",
           "description": "Article URL: https://europe.mistral.ai/\nComments URL: https://news.ycombinator.com/item?id=47743700\nPoints: 57\n# Comments: 16",
@@ -14,6 +24,16 @@
           "wordCount": 3840,
           "title": "European AI. A playbook to own it",
           "imageUrl": "/images/og.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47743628",
+          "author": "gpm",
+          "description": "Article URL: https://bcantrill.dtrace.org/2026/04/12/the-peril-of-laziness-lost/\nComments URL: https://news.ycombinator.com/item?id=47743628\nPoints: 115\n# Comments: 25",
+          "link": "https://bcantrill.dtrace.org/2026/04/12/the-peril-of-laziness-lost/",
+          "publishedOn": "2026-04-12T19:44:40.000Z",
+          "wordCount": 1040,
+          "title": "The peril of laziness lost",
+          "imageUrl": null
         },
         {
           "id": "https://news.ycombinator.com/item?id=47742790",
@@ -46,6 +66,16 @@
           "imageUrl": "https://boringbar.app/images/og-image.jpg"
         },
         {
+          "id": "https://news.ycombinator.com/item?id=47741889",
+          "author": "halfwhey",
+          "description": "Hello everyone.\nClaudraband wraps a Claude Code TUI in a controlled terminal to enable extended workflows. It uses tmux for visible controlled sessions or xterm.js for headless sessions (a little slower), but everything is mediated by an actual Claude Code TUI.\nOne example of a workflow I use now is having my current Claude Code interrogate older sessions for certain decisions it made: https://github.com/halfwhey/claudraband?tab=readme-ov-file#s...\nThis project provides:\n- Resumable non-interactive workflows. Essentially `claude -p` with session support: `cband continue  'what was the result of the research?'`\n- HTTP server to remotely control a Claude Code session: `cband serve --port 8123`\n- ACP server to use with alternative frontends such as Zed or Toad (https://github.com/batrachianai/toad): `cband acp --model haiku`.\n- TypeScript library so you can integrate these workflows into your own application.\nThis exists cause I was using `tmux send-keys` heavily in a lot of my Claude Code workflows, but I wanted to streamline it.\nComments URL: https://news.ycombinator.com/item?id=47741889\nPoints: 66\n# Comments: 13",
+          "link": "https://github.com/halfwhey/claudraband",
+          "publishedOn": "2026-04-12T16:55:20.000Z",
+          "wordCount": 3605,
+          "title": "Show HN: Claudraband – Claude Code for the Power User",
+          "imageUrl": "https://opengraph.githubassets.com/8da7d1f3a8d7d45ce41e0b52ccab7f752dfba3909675fea63dc134c667b7f69f/halfwhey/claudraband"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=47741701",
           "author": "_Microft",
           "description": "Article URL: https://blinry.org/diy-soft-drinks/\nComments URL: https://news.ycombinator.com/item?id=47741701\nPoints: 65\n# Comments: 16",
@@ -64,6 +94,16 @@
           "wordCount": 1944,
           "title": "Building a SaaS in 2026 Using Only EU Infrastructure",
           "imageUrl": "https://cdn.eualternative.eu/img/guides/building-saas-eu-stack.webp"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47741527",
+          "author": "david927",
+          "description": "What are you working on?  Any new ideas that you're thinking about?\nComments URL: https://news.ycombinator.com/item?id=47741527\nPoints: 51\n# Comments: 122",
+          "link": "https://news.ycombinator.com/item?id=47741527",
+          "publishedOn": "2026-04-12T16:24:43.000Z",
+          "wordCount": 9823,
+          "title": "Ask HN: What Are You Working On? (April 2026)",
+          "imageUrl": null
         },
         {
           "id": "https://news.ycombinator.com/item?id=47739313",
@@ -13454,36 +13494,6 @@
           "wordCount": null,
           "title": "RAM kits are now sold with one fake RAM stick alongside a real one",
           "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47374924",
-          "author": "picafrost",
-          "description": "Article URL: https://terrytao.wordpress.com/2026/03/13/mathematics-distillation-challenge-equational-theories/\nComments URL: https://news.ycombinator.com/item?id=47374924\nPoints: 57\n# Comments: 2",
-          "link": "https://terrytao.wordpress.com/2026/03/13/mathematics-distillation-challenge-equational-theories/",
-          "publishedOn": "2026-03-14T09:38:37.000Z",
-          "wordCount": 4871,
-          "title": "Mathematics Distillation Challenge – Equational Theories",
-          "imageUrl": "https://secure.gravatar.com/blavatar/bd4bda4207561b6998f10dec44b570f04ff4072b20f89162d525b186dfca3e49?s=200&ts=1773557814"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47374796",
-          "author": "msuniverse2026",
-          "description": "Article URL: https://interpret.csis.org/translations/starlink-militarization-and-its-impact-on-global-strategic-stability/\nComments URL: https://news.ycombinator.com/item?id=47374796\nPoints: 63\n# Comments: 75",
-          "link": "https://interpret.csis.org/translations/starlink-militarization-and-its-impact-on-global-strategic-stability/",
-          "publishedOn": "2026-03-14T09:14:51.000Z",
-          "wordCount": 12009,
-          "title": "Starlink Militarization and Its Impact on Global Strategic Stability",
-          "imageUrl": "https://interpret.csis.org/wp-content/uploads/2022/03/logo.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47374745",
-          "author": "XzetaU8",
-          "description": "Article URL: https://github.com/drojaazu/megadev\nComments URL: https://news.ycombinator.com/item?id=47374745\nPoints: 50\n# Comments: 0",
-          "link": "https://github.com/drojaazu/megadev",
-          "publishedOn": "2026-03-14T09:04:39.000Z",
-          "wordCount": 1436,
-          "title": "Megadev: A Development Kit for the Sega Mega Drive and Mega CD Hardware",
-          "imageUrl": "https://opengraph.githubassets.com/e53705c0882cf500e29a7c245122384528696ca8e8d9105acc2c852a1c6a058e/drojaazu/megadev"
         }
       ]
     }

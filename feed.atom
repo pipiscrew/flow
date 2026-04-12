@@ -2,10 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-04-12T20:44:11.909Z</updated>
+    <updated>2026-04-12T21:41:19.511Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Google removes "Doki Doki Literature Club" from Google Play]]></title>
+        <id>https://news.ycombinator.com/item?id=47743730</id>
+        <link href="https://bsky.app/profile/serenityforge.com/post/3mj3r4nbiws2t"/>
+        <updated>2026-04-12T19:53:08.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://bsky.app/profile/serenityforge.com/post/3mj3r4nbiws2t
+Comments URL: https://news.ycombinator.com/item?id=47743730
+Points: 94
+# Comments: 24]]></summary>
+        <author>
+            <name>super256</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[European AI. A playbook to own it]]></title>
         <id>https://news.ycombinator.com/item?id=47743700</id>
@@ -17,6 +30,19 @@ Points: 57
 # Comments: 16]]></summary>
         <author>
             <name>hjouneau</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The peril of laziness lost]]></title>
+        <id>https://news.ycombinator.com/item?id=47743628</id>
+        <link href="https://bcantrill.dtrace.org/2026/04/12/the-peril-of-laziness-lost/"/>
+        <updated>2026-04-12T19:44:40.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://bcantrill.dtrace.org/2026/04/12/the-peril-of-laziness-lost/
+Comments URL: https://news.ycombinator.com/item?id=47743628
+Points: 115
+# Comments: 25]]></summary>
+        <author>
+            <name>gpm</name>
         </author>
     </entry>
     <entry>
@@ -65,6 +91,27 @@ Points: 66
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Show HN: Claudraband – Claude Code for the Power User]]></title>
+        <id>https://news.ycombinator.com/item?id=47741889</id>
+        <link href="https://github.com/halfwhey/claudraband"/>
+        <updated>2026-04-12T16:55:20.000Z</updated>
+        <summary type="html"><![CDATA[Hello everyone.
+Claudraband wraps a Claude Code TUI in a controlled terminal to enable extended workflows. It uses tmux for visible controlled sessions or xterm.js for headless sessions (a little slower), but everything is mediated by an actual Claude Code TUI.
+One example of a workflow I use now is having my current Claude Code interrogate older sessions for certain decisions it made: https://github.com/halfwhey/claudraband?tab=readme-ov-file#s...
+This project provides:
+- Resumable non-interactive workflows. Essentially `claude -p` with session support: `cband continue  'what was the result of the research?'`
+- HTTP server to remotely control a Claude Code session: `cband serve --port 8123`
+- ACP server to use with alternative frontends such as Zed or Toad (https://github.com/batrachianai/toad): `cband acp --model haiku`.
+- TypeScript library so you can integrate these workflows into your own application.
+This exists cause I was using `tmux send-keys` heavily in a lot of my Claude Code workflows, but I wanted to streamline it.
+Comments URL: https://news.ycombinator.com/item?id=47741889
+Points: 66
+# Comments: 13]]></summary>
+        <author>
+            <name>halfwhey</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[DIY Soft Drinks]]></title>
         <id>https://news.ycombinator.com/item?id=47741701</id>
         <link href="https://blinry.org/diy-soft-drinks/"/>
@@ -88,6 +135,19 @@ Points: 110
 # Comments: 30]]></summary>
         <author>
             <name>sparkling</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Ask HN: What Are You Working On? (April 2026)]]></title>
+        <id>https://news.ycombinator.com/item?id=47741527</id>
+        <link href="https://news.ycombinator.com/item?id=47741527"/>
+        <updated>2026-04-12T16:24:43.000Z</updated>
+        <summary type="html"><![CDATA[What are you working on?  Any new ideas that you're thinking about?
+Comments URL: https://news.ycombinator.com/item?id=47741527
+Points: 51
+# Comments: 122]]></summary>
+        <author>
+            <name>david927</name>
         </author>
     </entry>
     <entry>
@@ -17942,45 +18002,6 @@ Points: 79
 # Comments: 66]]></summary>
         <author>
             <name>edward</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Mathematics Distillation Challenge – Equational Theories]]></title>
-        <id>https://news.ycombinator.com/item?id=47374924</id>
-        <link href="https://terrytao.wordpress.com/2026/03/13/mathematics-distillation-challenge-equational-theories/"/>
-        <updated>2026-03-14T09:38:37.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://terrytao.wordpress.com/2026/03/13/mathematics-distillation-challenge-equational-theories/
-Comments URL: https://news.ycombinator.com/item?id=47374924
-Points: 57
-# Comments: 2]]></summary>
-        <author>
-            <name>picafrost</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Starlink Militarization and Its Impact on Global Strategic Stability]]></title>
-        <id>https://news.ycombinator.com/item?id=47374796</id>
-        <link href="https://interpret.csis.org/translations/starlink-militarization-and-its-impact-on-global-strategic-stability/"/>
-        <updated>2026-03-14T09:14:51.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://interpret.csis.org/translations/starlink-militarization-and-its-impact-on-global-strategic-stability/
-Comments URL: https://news.ycombinator.com/item?id=47374796
-Points: 63
-# Comments: 75]]></summary>
-        <author>
-            <name>msuniverse2026</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Megadev: A Development Kit for the Sega Mega Drive and Mega CD Hardware]]></title>
-        <id>https://news.ycombinator.com/item?id=47374745</id>
-        <link href="https://github.com/drojaazu/megadev"/>
-        <updated>2026-03-14T09:04:39.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://github.com/drojaazu/megadev
-Comments URL: https://news.ycombinator.com/item?id=47374745
-Points: 50
-# Comments: 0]]></summary>
-        <author>
-            <name>XzetaU8</name>
         </author>
     </entry>
 </feed>
