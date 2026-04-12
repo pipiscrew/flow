@@ -2,10 +2,80 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-04-12T13:14:53.666Z</updated>
+    <updated>2026-04-12T14:47:06.628Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Seven countries now generate 100% of their electricity from renewable energy]]></title>
+        <id>https://news.ycombinator.com/item?id=47739313</id>
+        <link href="https://www.the-independent.com/tech/renewable-energy-solar-nepal-bhutan-iceland-b2533699.html"/>
+        <updated>2026-04-12T13:21:39.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.the-independent.com/tech/renewable-energy-solar-nepal-bhutan-iceland-b2533699.html
+Comments URL: https://news.ycombinator.com/item?id=47739313
+Points: 55
+# Comments: 19]]></summary>
+        <author>
+            <name>mpweiher</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Pro Max 5x Quota Exhausted in 1.5 Hours Despite Moderate Usage]]></title>
+        <id>https://news.ycombinator.com/item?id=47739260</id>
+        <link href="https://github.com/anthropics/claude-code/issues/45756"/>
+        <updated>2026-04-12T13:15:31.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://github.com/anthropics/claude-code/issues/45756
+Comments URL: https://news.ycombinator.com/item?id=47739260
+Points: 221
+# Comments: 145]]></summary>
+        <author>
+            <name>cmaster11</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[We have a 99% email reputation. Gmail disagrees]]></title>
+        <id>https://news.ycombinator.com/item?id=47738978</id>
+        <link href="https://blogfontawesome.wpcomstaging.com/we-have-a-99-email-reputation-gmail-disagrees/"/>
+        <updated>2026-04-12T12:42:25.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://blogfontawesome.wpcomstaging.com/we-have-a-99-email-reputation-gmail-disagrees/
+Comments URL: https://news.ycombinator.com/item?id=47738978
+Points: 53
+# Comments: 35]]></summary>
+        <author>
+            <name>em-bee</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Tell HN: docker pull fails in spain due to football cloudflare block]]></title>
+        <id>https://news.ycombinator.com/item?id=47738883</id>
+        <link href="https://news.ycombinator.com/item?id=47738883"/>
+        <updated>2026-04-12T12:28:57.000Z</updated>
+        <summary type="html"><![CDATA[I just spent 1h+ debugging why my locally-hosted gitlab runner would fail to create pipelines. The gitlab job output would just display weird TLS errors when trying to pull a docker images. After debugging gitlab and the runner, I realized after a while I could not even run "docker pull " on my machine as root:
+> error pulling image configuration: download failed after attempts=6: tls: failed to verify certificate: x509: certificate is not valid for any names, but wanted to match docker-images-prod.6aa30f8b08e16409b46e0173d6de2f56.r2.cloudflarestorage.com
+First blaming tailscale, dns configuration and all other stuff. Until I just copied that above URL into my browser on my laptop, and received a website banner:
+> El acceso a la presente dirección IP ha sido bloqueado en cumplimiento de lo dispuesto en la Sentencia de 18 de diciembre de 2024, dictada por el Juzgado de lo Mercantil nº 6 de Barcelona en el marco del procedimiento ordinario (Materia mercantil art. 249.1.4)-1005/2024-H instado por la Liga Nacional de Fútbol Profesional y por Telefónica Audiovisual Digital, S.L.U.
+https://www.laliga.com/noticias/nota-informativa-en-relacion-con-el-bloqueo-de-ips-durante-las-ultimas-jornadas-de-laliga-ea-sports-vinculadas-a-las-practicas-ilegales-de-cloudflare
+For those non-spanish speakers: It means there is football match on, and during that time that specific host is blocked. This is just plain madness. I guess that means my gitlab pipelines will not run when football is on. Thank you, Spain.
+Comments URL: https://news.ycombinator.com/item?id=47738883
+Points: 74
+# Comments: 28]]></summary>
+        <author>
+            <name>littlecranky67</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Internet outage in Iran reaches 1,008 hours]]></title>
+        <id>https://news.ycombinator.com/item?id=47738514</id>
+        <link href="https://mastodon.social/@netblocks/116384935123261912"/>
+        <updated>2026-04-12T11:38:16.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://mastodon.social/@netblocks/116384935123261912
+Comments URL: https://news.ycombinator.com/item?id=47738514
+Points: 63
+# Comments: 11]]></summary>
+        <author>
+            <name>miadabdi</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[JVM Options Explorer]]></title>
         <id>https://news.ycombinator.com/item?id=47738094</id>
@@ -2625,6 +2695,19 @@ Points: 98
         <summary type="html"><![CDATA[Article URL: https://scottlawsonbc.com/post/audio-led
 Comments URL: https://news.ycombinator.com/item?id=47675446
 Points: 57
+# Comments: 11]]></summary>
+        <author>
+            <name>surprisetalk</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Happy Map]]></title>
+        <id>https://news.ycombinator.com/item?id=47675444</id>
+        <link href="https://pudding.cool/2026/02/happy-map/"/>
+        <updated>2026-04-07T13:55:11.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://pudding.cool/2026/02/happy-map/
+Comments URL: https://news.ycombinator.com/item?id=47675444
+Points: 75
 # Comments: 11]]></summary>
         <author>
             <name>surprisetalk</name>
@@ -17723,45 +17806,6 @@ Points: 50
 # Comments: 6]]></summary>
         <author>
             <name>g0xA52A2A</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Optimizing Content for Agents]]></title>
-        <id>https://news.ycombinator.com/item?id=47372672</id>
-        <link href="https://cra.mr/optimizing-content-for-agents/"/>
-        <updated>2026-03-14T02:27:00.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://cra.mr/optimizing-content-for-agents/
-Comments URL: https://news.ycombinator.com/item?id=47372672
-Points: 53
-# Comments: 21]]></summary>
-        <author>
-            <name>vinhnx</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[JPEG Compression]]></title>
-        <id>https://news.ycombinator.com/item?id=47372367</id>
-        <link href="https://www.sophielwang.com/blog/jpeg"/>
-        <updated>2026-03-14T01:31:48.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.sophielwang.com/blog/jpeg
-Comments URL: https://news.ycombinator.com/item?id=47372367
-Points: 135
-# Comments: 20]]></summary>
-        <author>
-            <name>vinhnx</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[An investigation of the forces behind the age-verification bills]]></title>
-        <id>https://news.ycombinator.com/item?id=47372290</id>
-        <link href="https://lwn.net/Articles/1062779/"/>
-        <updated>2026-03-14T01:19:18.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://lwn.net/Articles/1062779/
-Comments URL: https://news.ycombinator.com/item?id=47372290
-Points: 58
-# Comments: 3]]></summary>
-        <author>
-            <name>pabs3</name>
         </author>
     </entry>
 </feed>
