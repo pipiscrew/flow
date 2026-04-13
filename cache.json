@@ -6,6 +6,36 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=47745284",
+          "author": "mindcrime",
+          "description": "Article URL: https://www.eetimes.com/taking-on-cuda-with-rocm-one-step-after-another/\nComments URL: https://news.ycombinator.com/item?id=47745284\nPoints: 79\n# Comments: 64",
+          "link": "https://www.eetimes.com/taking-on-cuda-with-rocm-one-step-after-another/",
+          "publishedOn": "2026-04-12T22:38:45.000Z",
+          "wordCount": null,
+          "title": "Taking on CUDA with ROCm: 'One Step After Another'",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47744540",
+          "author": "yuppiemephisto",
+          "description": "Article URL: https://alok.github.io/lean-pages/perfectable-lean/\nComments URL: https://news.ycombinator.com/item?id=47744540\nPoints: 68\n# Comments: 19",
+          "link": "https://alok.github.io/lean-pages/perfectable-lean/",
+          "publishedOn": "2026-04-12T21:11:24.000Z",
+          "wordCount": 3689,
+          "title": "A Perfectable Programming Language",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47744132",
+          "author": "tannhaeuser",
+          "description": "Article URL: https://www.awi.de/en/about-us/service/press/single-view/unkartierte-insel-demnaechst-auf-seekarten-verzeichnet.html\nComments URL: https://news.ycombinator.com/item?id=47744132\nPoints: 52\n# Comments: 20",
+          "link": "https://www.awi.de/en/about-us/service/press/single-view/unkartierte-insel-demnaechst-auf-seekarten-verzeichnet.html",
+          "publishedOn": "2026-04-12T20:30:11.000Z",
+          "wordCount": 5959,
+          "title": "Uncharted island soon to appear on nautical charts",
+          "imageUrl": "https://www.awi.de/fileadmin/_processed_/9/2/csm_20260326_WeddellmeerInsel_ChristianHaas_001_b474034c68.jpg"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=47743730",
           "author": "super256",
           "description": "Article URL: https://bsky.app/profile/serenityforge.com/post/3mj3r4nbiws2t\nComments URL: https://news.ycombinator.com/item?id=47743730\nPoints: 94\n# Comments: 24",
@@ -104,6 +134,16 @@
           "wordCount": 9823,
           "title": "Ask HN: What Are You Working On? (April 2026)",
           "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47741460",
+          "author": "radeeyate",
+          "description": "Article URL: https://arxiv.org/abs/2505.09509\nComments URL: https://news.ycombinator.com/item?id=47741460\nPoints: 71\n# Comments: 21",
+          "link": "https://arxiv.org/abs/2505.09509",
+          "publishedOn": "2026-04-12T16:17:59.000Z",
+          "wordCount": 693,
+          "title": "Investigating How Long-Distance Couples Use Digital Games to Facilitate Intimacy",
+          "imageUrl": "/static/browse/0.3.4/images/arxiv-logo-fb.png"
         },
         {
           "id": "https://news.ycombinator.com/item?id=47739313",
@@ -13434,56 +13474,6 @@
           "wordCount": null,
           "title": "Online astroturfing: A problem beyond disinformation",
           "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47376848",
-          "author": "sebastian_z",
-          "description": "Article URL: https://www.spiegel.de/kultur/philosoph-juergen-habermas-mit-96-jahren-gestorben-a-8be73ac7-e722-4543-8344-4515c4040363\nComments URL: https://news.ycombinator.com/item?id=47376848\nPoints: 57\n# Comments: 22",
-          "link": "https://www.spiegel.de/kultur/philosoph-juergen-habermas-mit-96-jahren-gestorben-a-8be73ac7-e722-4543-8344-4515c4040363",
-          "publishedOn": "2026-03-14T14:08:18.000Z",
-          "wordCount": 3691,
-          "title": "Philosoph Jürgen Habermas Gestorben",
-          "imageUrl": "https://cdn.prod.www.spiegel.de/images/4725c9fc-7eb5-48db-91d5-d0a619b665f3_w1200_r1.778_fpx44_fpy87.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47376767",
-          "author": "bilsbie",
-          "description": "Article URL: https://www.westernmt.news/2025/04/21/montana-leads-the-nation-with-groundbreaking-right-to-compute-act/\nComments URL: https://news.ycombinator.com/item?id=47376767\nPoints: 85\n# Comments: 56",
-          "link": "https://www.westernmt.news/2025/04/21/montana-leads-the-nation-with-groundbreaking-right-to-compute-act/",
-          "publishedOn": "2026-03-14T13:59:58.000Z",
-          "wordCount": 2260,
-          "title": "Montana passes Right to Compute act (2025)",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47376584",
-          "author": "sivasurend",
-          "description": "We built GitAgent because we kept seeing the same problem: every agent framework defines agents differently, and switching frameworks means rewriting everything.\nGitAgent is a spec that defines an AI agent as files in a git repo.\nThree core files — agent.yaml (config), SOUL.md (personality/instructions), and SKILL.md (capabilities) — and you get a portable agent definition that exports to Claude Code, OpenAI Agents SDK, CrewAI, Google ADK, LangChain, and others.\nWhat you get for free by being git-native:\n1. Version control for agent behavior (roll back a bad prompt like you'd revert a bad commit)\n2. Branching for environment promotion (dev → staging → main)\n3. Human-in-the-loop via PRs (agent learns a skill → opens a branch → human reviews before merge)\n4. Audit trail via git blame and git diff\n5. Agent forking and remixing (fork a public agent, customize it, PR improvements back)\n6. CI/CD with GitAgent validate in GitHub Actions\nThe CLI lets you run any agent repo directly:\nnpx @open-gitagent/gitagent run -r https://github.com/user/agent -a claude\nThe compliance layer is optional, but there if you need it — risk tiers, regulatory mappings (FINRA, SEC, SR 11-7), and audit reports via GitAgent audit.\nSpec is at https://gitagent.sh, code is on GitHub.\nWould love feedback on the schema design and what adapters people would want next.\nComments URL: https://news.ycombinator.com/item?id=47376584\nPoints: 65\n# Comments: 5",
-          "link": "https://www.gitagent.sh/",
-          "publishedOn": "2026-03-14T13:41:25.000Z",
-          "wordCount": 395,
-          "title": "Show HN: GitAgent – An open standard that turns any Git repo into an AI agent",
-          "imageUrl": "https://gitagent.sh/og-banner-2.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47375764",
-          "author": "y1n0",
-          "description": "Article URL: https://unplannedobsolescence.com/blog/xml-cheap-dsl/\nComments URL: https://news.ycombinator.com/item?id=47375764\nPoints: 109\n# Comments: 72",
-          "link": "https://unplannedobsolescence.com/blog/xml-cheap-dsl/",
-          "publishedOn": "2026-03-14T11:59:13.000Z",
-          "wordCount": 3238,
-          "title": "XML Is a Cheap DSL",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47375682",
-          "author": "ramoz",
-          "description": "Article URL: https://backnotprop.com/blog/do-not-ab-test-my-workflow/\nComments URL: https://news.ycombinator.com/item?id=47375682\nPoints: 96\n# Comments: 86",
-          "link": "https://backnotprop.com/blog/do-not-ab-test-my-workflow/",
-          "publishedOn": "2026-03-14T11:46:29.000Z",
-          "wordCount": 593,
-          "title": "Claude Code conducts A/B tests on core features",
-          "imageUrl": "https://backnotprop.com/_astro/og-default.CtYXdJzI.png"
         }
       ]
     }
