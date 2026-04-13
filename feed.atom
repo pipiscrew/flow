@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-04-13T09:04:14.060Z</updated>
+    <updated>2026-04-13T11:21:13.589Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
@@ -17672,131 +17672,6 @@ Points: 63
 # Comments: 7]]></summary>
         <author>
             <name>anonzzzies</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Airbus is preparing two uncrewed combat aircraft]]></title>
-        <id>https://news.ycombinator.com/item?id=47382277</id>
-        <link href="https://www.airbus.com/en/newsroom/press-releases/2026-03-airbus-is-preparing-two-uncrewed-combat-aircraft-from-kratos-for-first-flight-with-a-european"/>
-        <updated>2026-03-14T23:10:24.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.airbus.com/en/newsroom/press-releases/2026-03-airbus-is-preparing-two-uncrewed-combat-aircraft-from-kratos-for-first-flight-with-a-european
-Comments URL: https://news.ycombinator.com/item?id=47382277
-Points: 78
-# Comments: 36]]></summary>
-        <author>
-            <name>phasnox</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Hazardous substances found in all headphones tested by ToxFREE project]]></title>
-        <id>https://news.ycombinator.com/item?id=47382196</id>
-        <link href="https://arnika.org/en/news/the-sound-of-contamination-all-analysed-headphones-on-the-central-european-market-found-to-contain-hormone-disrupting-chemicals"/>
-        <updated>2026-03-14T23:00:05.000Z</updated>
-        <summary type="html"><![CDATA[https://arnika.org/en/publications/download/2128_f40ae4eb2e6...
-https://www.theguardian.com/technology/2026/feb/18/hazardous...
-Comments URL: https://news.ycombinator.com/item?id=47382196
-Points: 91
-# Comments: 58]]></summary>
-        <author>
-            <name>microflash</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ageless Linux – Software for humans of indeterminate age]]></title>
-        <id>https://news.ycombinator.com/item?id=47381791</id>
-        <link href="https://agelesslinux.org/"/>
-        <updated>2026-03-14T22:10:26.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://agelesslinux.org/
-Comments URL: https://news.ycombinator.com/item?id=47381791
-Points: 378
-# Comments: 240]]></summary>
-        <author>
-            <name>nateb2022</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Changes to OpenTTD Distribution on Steam]]></title>
-        <id>https://news.ycombinator.com/item?id=47381746</id>
-        <link href="https://www.openttd.org/news/2026/03/14/steam-changes"/>
-        <updated>2026-03-14T22:04:48.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.openttd.org/news/2026/03/14/steam-changes
-Comments URL: https://news.ycombinator.com/item?id=47381746
-Points: 74
-# Comments: 36]]></summary>
-        <author>
-            <name>canpan</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Allow me to get to know you, mistakes and all]]></title>
-        <id>https://news.ycombinator.com/item?id=47381736</id>
-        <link href="https://sebi.io/posts/2026-03-14-allow-me-to-get-to-know-you-mistakes-and-all/"/>
-        <updated>2026-03-14T22:03:47.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://sebi.io/posts/2026-03-14-allow-me-to-get-to-know-you-mistakes-and-all/
-Comments URL: https://news.ycombinator.com/item?id=47381736
-Points: 67
-# Comments: 20]]></summary>
-        <author>
-            <name>sebi_io</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Learning Creative Coding]]></title>
-        <id>https://news.ycombinator.com/item?id=47381731</id>
-        <link href="https://stigmollerhansen.dk/resume/learning-creative-coding/"/>
-        <updated>2026-03-14T22:02:48.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://stigmollerhansen.dk/resume/learning-creative-coding/
-Comments URL: https://news.ycombinator.com/item?id=47381731
-Points: 62
-# Comments: 22]]></summary>
-        <author>
-            <name>ammerfest</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: Han – A Korean programming language written in Rust]]></title>
-        <id>https://news.ycombinator.com/item?id=47381382</id>
-        <link href="https://github.com/xodn348/han"/>
-        <updated>2026-03-14T21:27:33.000Z</updated>
-        <summary type="html"><![CDATA[A few weeks ago I saw a post about someone converting an entire C++ codebase to Rust using AI in under two weeks.
-That inspired me — if AI can rewrite a whole language stack that fast, I wanted to try building a programming language from scratch with AI assistance.
-I've also been noticing growing global interest in Korean language and culture, and I wondered: what would a programming language look like if every keyword was in Hangul (the Korean writing system)?
-Han is the result. It's a statically-typed language written in Rust with a full compiler pipeline (lexer → parser → AST → interpreter + LLVM IR codegen).
-It supports arrays, structs with impl blocks, closures, pattern matching, try/catch, file I/O, module imports, a REPL, and a basic LSP server.
-This is a side project, not a "you should use this instead of Python" pitch. 
-Feedback on language design, compiler architecture, or the Korean keyword choices is very welcome.
-https://github.com/xodn348/han
-Comments URL: https://news.ycombinator.com/item?id=47381382
-Points: 60
-# Comments: 21]]></summary>
-        <author>
-            <name>xodn348</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Launching the Claude Partner Network]]></title>
-        <id>https://news.ycombinator.com/item?id=47381340</id>
-        <link href="https://www.anthropic.com/news/claude-partner-network"/>
-        <updated>2026-03-14T21:23:42.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.anthropic.com/news/claude-partner-network
-Comments URL: https://news.ycombinator.com/item?id=47381340
-Points: 92
-# Comments: 36]]></summary>
-        <author>
-            <name>gmays</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Postgres with Builtin File Systems]]></title>
-        <id>https://news.ycombinator.com/item?id=47381238</id>
-        <link href="https://db9.ai/"/>
-        <updated>2026-03-14T21:14:03.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://db9.ai/
-Comments URL: https://news.ycombinator.com/item?id=47381238
-Points: 52
-# Comments: 14]]></summary>
-        <author>
-            <name>ngaut</name>
         </author>
     </entry>
 </feed>
