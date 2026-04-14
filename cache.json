@@ -6,6 +6,46 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=47760925",
+          "author": "wibbily",
+          "description": "Article URL: https://www.404media.co/hacker-compromises-a16z-backed-phone-farm-tries-to-post-memes-calling-a16z-the-antichrist/\nComments URL: https://news.ycombinator.com/item?id=47760925\nPoints: 99\n# Comments: 27",
+          "link": "https://www.404media.co/hacker-compromises-a16z-backed-phone-farm-tries-to-post-memes-calling-a16z-the-antichrist/",
+          "publishedOn": "2026-04-14T03:32:16.000Z",
+          "wordCount": 1408,
+          "title": "Hacker compromises A16Z-backed phone farm, calling them the 'antichrist'",
+          "imageUrl": "https://storage.ghost.io/c/0f/76/0f76b548-bc58-4f25-abc3-3f5ebca07da4/content/images/size/w1200/2026/04/a16z-meme-collage.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47760764",
+          "author": "zdw",
+          "description": "Article URL: https://developers.google.com/search/blog/2026/04/back-button-hijacking\nComments URL: https://news.ycombinator.com/item?id=47760764\nPoints: 148\n# Comments: 76",
+          "link": "https://developers.google.com/search/blog/2026/04/back-button-hijacking",
+          "publishedOn": "2026-04-14T03:06:27.000Z",
+          "wordCount": 11619,
+          "title": "A new spam policy for \"back button hijacking\"",
+          "imageUrl": "https://developers.google.com/static/search/blog/images/social-share-blog.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47760750",
+          "author": "zdw",
+          "description": "Article URL: https://www.joanwestenberg.com/sometimes-powerful-people-just-do-dumb-shit/\nComments URL: https://news.ycombinator.com/item?id=47760750\nPoints: 51\n# Comments: 3",
+          "link": "https://www.joanwestenberg.com/sometimes-powerful-people-just-do-dumb-shit/",
+          "publishedOn": "2026-04-14T03:04:20.000Z",
+          "wordCount": 2314,
+          "title": "Sometimes powerful people just do dumb shit",
+          "imageUrl": "https://www.joanwestenberg.com/content/images/2026/04/d41586-025-03487-6_51609904.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47760529",
+          "author": "thebiblelover7",
+          "description": "Article URL: https://www.blackmagicdesign.com/products/davinciresolve/photo\nComments URL: https://news.ycombinator.com/item?id=47760529\nPoints: 263\n# Comments: 61",
+          "link": "https://www.blackmagicdesign.com/products/davinciresolve/photo",
+          "publishedOn": "2026-04-14T02:25:15.000Z",
+          "wordCount": 3686,
+          "title": "DaVinci Resolve releases Photo Editor",
+          "imageUrl": null
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=47759709",
           "author": "bumbledraven",
           "description": "Article URL: https://kirancodes.me/posts/log-who-watches-the-watchers.html\nComments URL: https://news.ycombinator.com/item?id=47759709\nPoints: 119\n# Comments: 66",
@@ -24,6 +64,26 @@
           "wordCount": 2969,
           "title": "WiiFin – Jellyfin Client for Nintendo Wii",
           "imageUrl": "https://opengraph.githubassets.com/67cebecbc4fa69d8dbb1103dcecfe1902d7b03e914881a94c011d485c592300a/fabienmillet/WiiFin"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47759292",
+          "author": "sonabinu",
+          "description": "Article URL: https://www.quantamagazine.org/the-ai-revolution-in-math-has-arrived-20260413/\nComments URL: https://news.ycombinator.com/item?id=47759292\nPoints: 74\n# Comments: 39",
+          "link": "https://www.quantamagazine.org/the-ai-revolution-in-math-has-arrived-20260413/",
+          "publishedOn": "2026-04-13T23:26:04.000Z",
+          "wordCount": 6812,
+          "title": "The AI revolution in math has arrived",
+          "imageUrl": "https://www.quantamagazine.org/wp-content/uploads/2026/04/Math-AI-Update-cr-Nash-Weerasekera-Social.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47758347",
+          "author": "mufeedvh",
+          "description": "N-Day-Bench tests whether frontier LLMs can find known security vulnerabilities in real repository code. Each month it pulls fresh cases from GitHub security advisories, checks out the repo at the last commit before the patch, and gives models a sandboxed bash shell to explore the codebase.\nStatic vulnerability discovery benchmarks become outdated quickly. Cases leak into training data, and scores start measuring memorization. The monthly refresh keeps the test set ahead of contamination — or at least makes the contamination window honest.\nEach case runs three agents: a Curator reads the advisory and builds an answer key, a Finder (the model under test) gets 24 shell steps to explore the code and write a structured report, and a Judge scores the blinded submission. The Finder never sees the patch. It starts from sink hints and must trace the bug through actual code.\nOnly repos with 10k+ stars qualify. A diversity pass prevents any single repo from dominating the set. Ambiguous advisories (merge commits, multi-repo references, unresolvable refs) are dropped.\nCurrently evaluating GPT-5.4, Claude Opus 4.6, Gemini 3.1 Pro, GLM-5.1, and Kimi K2.5. All traces are public.\nMethodology: https://ndaybench.winfunc.com/methodology\nLive Leaderboard: https://ndaybench.winfunc.com/leaderboard\nLive Traces: https://ndaybench.winfunc.com/traces\nComments URL: https://news.ycombinator.com/item?id=47758347\nPoints: 53\n# Comments: 14",
+          "link": "https://ndaybench.winfunc.com/",
+          "publishedOn": "2026-04-13T21:54:03.000Z",
+          "wordCount": 788,
+          "title": "N-Day-Bench – Can LLMs find real vulnerabilities in real codebases?",
+          "imageUrl": null
         },
         {
           "id": "https://news.ycombinator.com/item?id=47758028",
@@ -13234,96 +13294,6 @@
           "wordCount": 9089,
           "title": "Animated 'Firefly' Reboot in Development from Nathan Fillion, 20th TV",
           "imageUrl": "https://www.hollywoodreporter.com/wp-content/uploads/2026/03/GettyImages-14423827352.jpg?w=1296&h=730&crop=1"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47389784",
-          "author": "tartoran",
-          "description": "Article URL: https://www.bbc.com/reel/video/p0n61dg3/grandparents-are-glued-to-their-phones-families-are-worried\nComments URL: https://news.ycombinator.com/item?id=47389784\nPoints: 82\n# Comments: 43",
-          "link": "https://www.bbc.com/reel/video/p0n61dg3/grandparents-are-glued-to-their-phones-families-are-worried",
-          "publishedOn": "2026-03-15T17:43:19.000Z",
-          "wordCount": 4047,
-          "title": "Grandparents are glued to their phones, families are worried [video]",
-          "imageUrl": "https://ichef.bbci.co.uk/images/ic/1024xn/p0n61f3k.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47389696",
-          "author": "wwarren",
-          "description": "Article URL: https://willwarren.com/2026/03/12/building-my-own-cpu-part-3-from-simulation-to-hardware/\nComments URL: https://news.ycombinator.com/item?id=47389696\nPoints: 63\n# Comments: 7",
-          "link": "https://willwarren.com/2026/03/12/building-my-own-cpu-part-3-from-simulation-to-hardware/",
-          "publishedOn": "2026-03-15T17:36:48.000Z",
-          "wordCount": 5381,
-          "title": "Write up of my homebrew CPU build",
-          "imageUrl": "https://willwarren.com/2026/03/12/building-my-own-cpu-part-3-from-simulation-to-hardware/cover.jpeg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47389570",
-          "author": "namnnumbr",
-          "description": "Article URL: https://stopsloppypasta.ai/\nComments URL: https://news.ycombinator.com/item?id=47389570\nPoints: 55\n# Comments: 20",
-          "link": "https://stopsloppypasta.ai/",
-          "publishedOn": "2026-03-15T17:25:00.000Z",
-          "wordCount": 3633,
-          "title": "Stop Sloppypasta",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47388676",
-          "author": "tzury",
-          "description": "Article URL: https://sebastianraschka.com/llm-architecture-gallery/\nComments URL: https://news.ycombinator.com/item?id=47388676\nPoints: 59\n# Comments: 2",
-          "link": "https://sebastianraschka.com/llm-architecture-gallery/",
-          "publishedOn": "2026-03-15T16:01:09.000Z",
-          "wordCount": 2793,
-          "title": "LLM Architecture Gallery",
-          "imageUrl": "https://sebastianraschka.com/llm-architecture-gallery/images/hero/architecture-gallery-hero.webp"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47388658",
-          "author": "mmastrac",
-          "description": "Article URL: https://gitlab.com/IsolatedOctopi/nvidia_greenboost\nComments URL: https://news.ycombinator.com/item?id=47388658\nPoints: 166\n# Comments: 30",
-          "link": "https://gitlab.com/IsolatedOctopi/nvidia_greenboost",
-          "publishedOn": "2026-03-15T15:59:09.000Z",
-          "wordCount": 434,
-          "title": "Nvidia greenboost: transparently extend GPU VRAM using system RAM/NVMe",
-          "imageUrl": "https://gitlab.com/assets/twitter_card-570ddb06edf56a2312253c5872489847a0f385112ddbcd71ccfa1570febab5d2.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47388646",
-          "author": "svara",
-          "description": "Comment sections on AI threads tend to split into \"we're all cooked\" and \"AI is useless.\" I'd like to cut through the noise and learn what's actually working and what isn't, from concrete experience.\nIf you've recently used AI tools for professional coding work, tell us about it.\nWhat tools did you use? What worked well and why? What challenges did you hit, and how (if at all) did you solve them?\nPlease share enough context (stack, project type, team size, experience level) for others to learn from your experience.\nThe goal is to build a grounded picture of where AI-assisted development actually stands in March 2026, without the hot air.\nComments URL: https://news.ycombinator.com/item?id=47388646\nPoints: 71\n# Comments: 89",
-          "link": "https://news.ycombinator.com/item?id=47388646",
-          "publishedOn": "2026-03-15T15:58:23.000Z",
-          "wordCount": 10619,
-          "title": "Ask HN: How is AI-assisted coding going for you professionally?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47388531",
-          "author": "herodotus",
-          "description": "Article URL: https://billwadge.com/2026/03/15/in-memoriam-john-w-addison-jr-my-phd-advisor/\nComments URL: https://news.ycombinator.com/item?id=47388531\nPoints: 58\n# Comments: 4",
-          "link": "https://billwadge.com/2026/03/15/in-memoriam-john-w-addison-jr-my-phd-advisor/",
-          "publishedOn": "2026-03-15T15:46:19.000Z",
-          "wordCount": 4010,
-          "title": "In Memoriam: John W. Addison, my PhD advisor",
-          "imageUrl": "https://s0.wp.com/i/blank.jpg?m=1383295312i"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47388519",
-          "author": "ohjeez",
-          "description": "Article URL: https://cbmg.umd.edu/news-events/news/brantley-hall-umd-scientists-create-smart-underwear-measure-human-flatulence\nComments URL: https://news.ycombinator.com/item?id=47388519\nPoints: 61\n# Comments: 38",
-          "link": "https://cbmg.umd.edu/news-events/news/brantley-hall-umd-scientists-create-smart-underwear-measure-human-flatulence",
-          "publishedOn": "2026-03-15T15:45:24.000Z",
-          "wordCount": 1011,
-          "title": "UMD Scientists Create 'Smart Underwear' to Measure Human Flatulence",
-          "imageUrl": "https://cbmg.umd.edu/sites/default/files/articles/image-3.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47388479",
-          "author": "FirTheMouse",
-          "description": "Article URL: https://firthemouse.github.io/\nComments URL: https://news.ycombinator.com/item?id=47388479\nPoints: 52\n# Comments: 13",
-          "link": "https://firthemouse.github.io/",
-          "publishedOn": "2026-03-15T15:40:13.000Z",
-          "wordCount": 247,
-          "title": "Show HN: GDSL – 800 line kernel: Lisp subset in 500, C subset in 1300",
-          "imageUrl": null
         }
       ]
     }
