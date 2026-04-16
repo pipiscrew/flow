@@ -6,6 +6,36 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=47794391",
+          "author": "lukaspetersson",
+          "description": "Article URL: https://andonlabs.com/blog/andon-market-launch\nComments URL: https://news.ycombinator.com/item?id=47794391\nPoints: 70\n# Comments: 91",
+          "link": "https://andonlabs.com/blog/andon-market-launch",
+          "publishedOn": "2026-04-16T15:13:13.000Z",
+          "wordCount": 4073,
+          "title": "We gave an AI a 3 year retail lease and asked it to make a profit",
+          "imageUrl": "https://andonlabs.com/og-image.webp"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47793926",
+          "author": "mooreds",
+          "description": "Article URL: https://techstackups.com/articles/laravel-raised-money-and-now-injects-ads-directly-into-your-agent/\nComments URL: https://news.ycombinator.com/item?id=47793926\nPoints: 126\n# Comments: 65",
+          "link": "https://techstackups.com/articles/laravel-raised-money-and-now-injects-ads-directly-into-your-agent/",
+          "publishedOn": "2026-04-16T14:51:13.000Z",
+          "wordCount": 898,
+          "title": "Laravel raised money and now injects ads directly into your agent",
+          "imageUrl": "https://techstackups.com/img/articles/laravel-ads-agents/cover.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47793546",
+          "author": "adocomplete",
+          "description": "Article URL: https://anthropic.com/claude-opus-4-7-system-card\nComments URL: https://news.ycombinator.com/item?id=47793546\nPoints: 100\n# Comments: 46",
+          "link": "https://anthropic.com/claude-opus-4-7-system-card",
+          "publishedOn": "2026-04-16T14:32:24.000Z",
+          "wordCount": null,
+          "title": "Claude Opus 4.7 Model Card",
+          "imageUrl": null
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=47793411",
           "author": "meetpateltech",
           "description": "Article URL: https://www.anthropic.com/news/claude-opus-4-7\nComments URL: https://news.ycombinator.com/item?id=47793411\nPoints: 70\n# Comments: 7",
@@ -54,6 +84,16 @@
           "wordCount": 2101,
           "title": "Cloudflare's AI Platform: an inference layer designed for agents",
           "imageUrl": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/PVjfiCXOYd00evo2s1kiQ/f79f1e2e122e16b77e3df43a3970ed72/OG_Share_2024-2025-2026__2_.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47792525",
+          "author": "hammer32",
+          "description": "I trained a transformer in HyperCard.  1,216 parameters.  1989 Macintosh.  And yes, it took a while.\nMacMind is a complete transformer neural network, embeddings, positional encoding, self-attention, backpropagation, and gradient descent, implemented entirely in HyperTalk, the scripting language Apple shipped with HyperCard in 1987.  Every line of code is readable inside HyperCard's script editor.  Option-click any button and read the actual math.\nThe task: learn the bit-reversal permutation, the opening step of the Fast Fourier Transform.  The model has no formula to follow.  It discovers the positional pattern purely through attention and repeated trial and error.  By training step 193, it was oscillating between 50%, 75%, and 100% accuracy on successive steps, settling into convergence like a ball rolling into a bowl.\nThe whole \"intelligence\" is 1,216 numbers stored in hidden fields in a HyperCard stack.  Save the file, quit, reopen: the trained model is still there, still correct.  It runs on anything from System 7 through Mac OS 9.\nAs a former physics student, and the FFT is an old friend, it sits at the heart of signal processing, quantum mechanics, and wave analysis.  I built this because we're at a moment where AI affects all of us but most of us don't understand what it actually does.  Backpropagation and attention are math, not magic.  And math doesn't care whether it's running on a TPU cluster or a 68030 from 1989.\nThe repo has a pre-trained stack (step 1,000), a blank stack you can train yourself, and a Python/NumPy reference implementation that validates the math.\nComments URL: https://news.ycombinator.com/item?id=47792525\nPoints: 54\n# Comments: 11",
+          "link": "https://github.com/SeanFDZ/macmind",
+          "publishedOn": "2026-04-16T13:16:29.000Z",
+          "wordCount": 5703,
+          "title": "Show HN: MacMind – A transformer neural network in HyperCard on a 1989 Macintosh",
+          "imageUrl": "https://opengraph.githubassets.com/cb83da6d263a8248802a3851e30bd2325ae6f4b6bb79919b7275df644f710991/SeanFDZ/macmind"
         },
         {
           "id": "https://news.ycombinator.com/item?id=47792368",
@@ -13544,36 +13584,6 @@
           "wordCount": 8305,
           "title": "Celebrating Tony Hoare's mark on computer science",
           "imageUrl": "https://bertrandmeyer.com/wp-content/upLoads/word-image-6935-1.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47421828",
-          "author": "apitman",
-          "description": "Article URL: https://blog.exe.dev/ssh-host-header\nComments URL: https://news.ycombinator.com/item?id=47421828\nPoints: 73\n# Comments: 51",
-          "link": "https://blog.exe.dev/ssh-host-header",
-          "publishedOn": "2026-03-18T05:18:02.000Z",
-          "wordCount": 956,
-          "title": "SSH has no Host header",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47421749",
-          "author": "j0e1",
-          "description": "Article URL: https://ai.meta.com/research/publications/omnilingual-mt-machine-translation-for-1600-languages/?_fb_noscript=1\nComments URL: https://news.ycombinator.com/item?id=47421749\nPoints: 68\n# Comments: 16",
-          "link": "https://ai.meta.com/research/publications/omnilingual-mt-machine-translation-for-1600-languages/?_fb_noscript=1",
-          "publishedOn": "2026-03-18T05:00:18.000Z",
-          "wordCount": 2341,
-          "title": "Meta's Omnilingual MT for 1,600 Languages",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47421442",
-          "author": "asukachikaru",
-          "description": "Article URL: https://www.otherstrangeness.com/2026/03/14/have-a-fucking-website/\nComments URL: https://news.ycombinator.com/item?id=47421442\nPoints: 221\n# Comments: 107",
-          "link": "https://www.otherstrangeness.com/2026/03/14/have-a-fucking-website/",
-          "publishedOn": "2026-03-18T03:53:42.000Z",
-          "wordCount": 2226,
-          "title": "Have a Fucking Website",
-          "imageUrl": "https://www.otherstrangeness.com/wp-content/uploads/2026/03/someone-please-tell-me-where-this-image-comes-from-v0-on5002nlkxyd1.jpeg-e1773478577120.webp"
         }
       ]
     }

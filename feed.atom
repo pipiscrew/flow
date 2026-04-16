@@ -2,10 +2,49 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-04-16T15:00:43.325Z</updated>
+    <updated>2026-04-16T17:21:23.491Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[We gave an AI a 3 year retail lease and asked it to make a profit]]></title>
+        <id>https://news.ycombinator.com/item?id=47794391</id>
+        <link href="https://andonlabs.com/blog/andon-market-launch"/>
+        <updated>2026-04-16T15:13:13.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://andonlabs.com/blog/andon-market-launch
+Comments URL: https://news.ycombinator.com/item?id=47794391
+Points: 70
+# Comments: 91]]></summary>
+        <author>
+            <name>lukaspetersson</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Laravel raised money and now injects ads directly into your agent]]></title>
+        <id>https://news.ycombinator.com/item?id=47793926</id>
+        <link href="https://techstackups.com/articles/laravel-raised-money-and-now-injects-ads-directly-into-your-agent/"/>
+        <updated>2026-04-16T14:51:13.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://techstackups.com/articles/laravel-raised-money-and-now-injects-ads-directly-into-your-agent/
+Comments URL: https://news.ycombinator.com/item?id=47793926
+Points: 126
+# Comments: 65]]></summary>
+        <author>
+            <name>mooreds</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Claude Opus 4.7 Model Card]]></title>
+        <id>https://news.ycombinator.com/item?id=47793546</id>
+        <link href="https://anthropic.com/claude-opus-4-7-system-card"/>
+        <updated>2026-04-16T14:32:24.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://anthropic.com/claude-opus-4-7-system-card
+Comments URL: https://news.ycombinator.com/item?id=47793546
+Points: 100
+# Comments: 46]]></summary>
+        <author>
+            <name>adocomplete</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Claude Opus 4.7]]></title>
         <id>https://news.ycombinator.com/item?id=47793411</id>
@@ -69,6 +108,24 @@ Points: 53
 # Comments: 16]]></summary>
         <author>
             <name>nikitoci</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: MacMind – A transformer neural network in HyperCard on a 1989 Macintosh]]></title>
+        <id>https://news.ycombinator.com/item?id=47792525</id>
+        <link href="https://github.com/SeanFDZ/macmind"/>
+        <updated>2026-04-16T13:16:29.000Z</updated>
+        <summary type="html"><![CDATA[I trained a transformer in HyperCard.  1,216 parameters.  1989 Macintosh.  And yes, it took a while.
+MacMind is a complete transformer neural network, embeddings, positional encoding, self-attention, backpropagation, and gradient descent, implemented entirely in HyperTalk, the scripting language Apple shipped with HyperCard in 1987.  Every line of code is readable inside HyperCard's script editor.  Option-click any button and read the actual math.
+The task: learn the bit-reversal permutation, the opening step of the Fast Fourier Transform.  The model has no formula to follow.  It discovers the positional pattern purely through attention and repeated trial and error.  By training step 193, it was oscillating between 50%, 75%, and 100% accuracy on successive steps, settling into convergence like a ball rolling into a bowl.
+The whole "intelligence" is 1,216 numbers stored in hidden fields in a HyperCard stack.  Save the file, quit, reopen: the trained model is still there, still correct.  It runs on anything from System 7 through Mac OS 9.
+As a former physics student, and the FFT is an old friend, it sits at the heart of signal processing, quantum mechanics, and wave analysis.  I built this because we're at a moment where AI affects all of us but most of us don't understand what it actually does.  Backpropagation and attention are math, not magic.  And math doesn't care whether it's running on a TPU cluster or a 68030 from 1989.
+The repo has a pre-trained stack (step 1,000), a blank stack you can train yourself, and a Python/NumPy reference implementation that validates the math.
+Comments URL: https://news.ycombinator.com/item?id=47792525
+Points: 54
+# Comments: 11]]></summary>
+        <author>
+            <name>hammer32</name>
         </author>
     </entry>
     <entry>
@@ -17986,45 +18043,6 @@ Points: 59
 # Comments: 14]]></summary>
         <author>
             <name>benhoyt</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[SSH has no Host header]]></title>
-        <id>https://news.ycombinator.com/item?id=47421828</id>
-        <link href="https://blog.exe.dev/ssh-host-header"/>
-        <updated>2026-03-18T05:18:02.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://blog.exe.dev/ssh-host-header
-Comments URL: https://news.ycombinator.com/item?id=47421828
-Points: 73
-# Comments: 51]]></summary>
-        <author>
-            <name>apitman</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Meta's Omnilingual MT for 1,600 Languages]]></title>
-        <id>https://news.ycombinator.com/item?id=47421749</id>
-        <link href="https://ai.meta.com/research/publications/omnilingual-mt-machine-translation-for-1600-languages/?_fb_noscript=1"/>
-        <updated>2026-03-18T05:00:18.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://ai.meta.com/research/publications/omnilingual-mt-machine-translation-for-1600-languages/?_fb_noscript=1
-Comments URL: https://news.ycombinator.com/item?id=47421749
-Points: 68
-# Comments: 16]]></summary>
-        <author>
-            <name>j0e1</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Have a Fucking Website]]></title>
-        <id>https://news.ycombinator.com/item?id=47421442</id>
-        <link href="https://www.otherstrangeness.com/2026/03/14/have-a-fucking-website/"/>
-        <updated>2026-03-18T03:53:42.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.otherstrangeness.com/2026/03/14/have-a-fucking-website/
-Comments URL: https://news.ycombinator.com/item?id=47421442
-Points: 221
-# Comments: 107]]></summary>
-        <author>
-            <name>asukachikaru</name>
         </author>
     </entry>
 </feed>
