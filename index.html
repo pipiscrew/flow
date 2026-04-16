@@ -22,8 +22,8 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2026-04-16 datetime="2026-04-16T17:12:19.000Z">2026-04-16</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2026-04-16 datetime="2026-04-16T17:12:19.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2026-04-16 datetime="2026-04-16T17:37:20.000Z">2026-04-16</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2026-04-16 datetime="2026-04-16T17:37:20.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
@@ -38,6 +38,29 @@
                   <a class="source-heading__link" href="https://news.ycombinator.com/">Open</a>
                 </h3>
                 <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;47796830"
+                        open
+                      >
+                        <summary class="article-expander__title">Qwen3.6-35B-A3B on my laptop drew me a better pelican than Claude Opus 4.7</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://simonwillison.net/2026/Apr/16/qwen-beats-opus/">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://static.simonwillison.net/static/2026/qwen-opus-card.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Article URL: https://simonwillison.net/2026/Apr/16/qwen-beats-opus/
+Comments URL: https://news.ycombinator.com/item?id&#x3D;47796830
+Points: 141
+# Comments: 30</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;4
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
                     <article>
                       <details
                         class="article-expander"
@@ -75,6 +98,29 @@ Comments URL: https://news.ycombinator.com/item?id&#x3D;47796197
 Points: 59
 # Comments: 31</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;37
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;47794514"
+                        open
+                      >
+                        <summary class="article-expander__title">Launch HN: Kampala (YC W26) – Reverse-Engineer Apps into APIs</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.zatanna.ai/kampala">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://www.zatanna.ai/og-image.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Hey! I am Alex and together with my co-founder Tarun built Kampala (https://www.zatanna.ai/kampala). It’s a man-in-the-middle (MITM) style proxy that allows you to agentically reverse engineer existing workflows without brittle browser automation or computer use agents. It works for websites, mobile apps, desktop apps.
+Demo: https://www.youtube.com/watch?v&#x3D;z_PeostC-b4.
+Many people spend hours per day in legacy dashboards and on-prem solutions reconciling data across platforms. Current attempts at automation use browser automations or computer use agents which are brittle, slow, and nondeterministic. 
+I come from a web reverse engineering background and spent the last 7-8 years building integrations by hand for sneaker/ticket releases, sportsbooks logins, and everything in\ between. During …</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;10
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -2776,6 +2822,34 @@ Comments URL: https://news.ycombinator.com/item?id&#x3D;47759292
 Points: 74
 # Comments: 39</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;23
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;47759035"
+                        open
+                      >
+                        <summary class="article-expander__title">Show HN: CodeBurn – Analyze Claude Code token usage by task</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://github.com/AgentSeal/codeburn">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://opengraph.githubassets.com/f39a5a3c1378ae57cfe039a56044b960b18cbc8d4cf4e41703fdf7955c76f383/AgentSeal/codeburn" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Built this after realizing I was spending ~$1400/week on Claude Code with almost no visibility into what was actually consuming tokens.
+Tools like ccusage give a cost breakdown per model and per day, but I wanted to understand usage at the task level.
+CodeBurn reads the JSONL session transcripts that Claude Code stores locally (~/.claude/projects/) and classifies each turn into 13 categories based on tool usage patterns (no LLM calls involved).
+One surprising result: about 56% of my spend was on conversation turns with no tool usage. Actual coding (edits/writes) was only ~21%.
+The interface is an interactive terminal UI built with Ink (React for terminals), with gradient bar charts, responsive panels, and keyboard navigation. There’s also a SwiftBar menu bar integration for macOS.
+Happy to hear feedback or ideas.
+Comments URL: https://news.ycombinator.com/item?id&#x3D;47759035
+Points: 52
+# Comments: 13</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;19
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -31554,51 +31628,6 @@ Points: 95
                         </a>
                       </details>
                     </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;47422942"
-                        open
-                      >
-                        <summary class="article-expander__title">Nightingale – open-source karaoke app that works with any song on your computer</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://nightingale.cafe/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://nightingale.cafe/og-image.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Article URL: https://nightingale.cafe/
-Comments URL: https://news.ycombinator.com/item?id&#x3D;47422942
-Points: 59
-# Comments: 11</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;47422759"
-                        open
-                      >
-                        <summary class="article-expander__title">Wander – A tiny, decentralised tool to explore the small web</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://susam.net/wander/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Article URL: https://susam.net/wander/
-Comments URL: https://news.ycombinator.com/item?id&#x3D;47422759
-Points: 66
-# Comments: 42</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;3
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
                 </section>
               </section>
             </li>
@@ -31606,8 +31635,8 @@ Points: 66
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/pipiscrew/flow/actions/runs/24529523563">
-        <time id="build-timestamp" datetime="2026-04-16T19:24:17.159Z">2026-04-16T19:24:17.159Z</time>
+      <a class="footer-link" href="https://github.com/pipiscrew/flow/actions/runs/24533565748">
+        <time id="build-timestamp" datetime="2026-04-16T20:55:59.456Z">2026-04-16T20:55:59.456Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
