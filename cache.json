@@ -6,6 +6,16 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=47803844",
+          "author": "mpweiher",
+          "description": "Article URL: https://www.iqiipi.com/the-quiet-colossus.html\nComments URL: https://news.ycombinator.com/item?id=47803844\nPoints: 50\n# Comments: 10",
+          "link": "https://www.iqiipi.com/the-quiet-colossus.html",
+          "publishedOn": "2026-04-17T08:51:38.000Z",
+          "wordCount": 8493,
+          "title": "Ada, Its Design, and the Language That Built the Languages",
+          "imageUrl": null
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=47802330",
           "author": "dotmanish",
           "description": "Article URL: https://www.theverge.com/tech/913638/bluesky-has-been-dealing-with-a-ddos-attack-for-nearly-a-full-day\nComments URL: https://news.ycombinator.com/item?id=47802330\nPoints: 77\n# Comments: 24",
@@ -1363,6 +1373,16 @@
           "publishedOn": "2026-04-14T00:25:08.000Z",
           "wordCount": 1483,
           "title": "Lean proved this program correct; then I found a bug",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47759436",
+          "author": "matt_d",
+          "description": "Article URL: https://chapel-lang.org/blog/posts/30years/\nComments URL: https://news.ycombinator.com/item?id=47759436\nPoints: 54\n# Comments: 23",
+          "link": "https://chapel-lang.org/blog/posts/30years/",
+          "publishedOn": "2026-04-13T23:45:58.000Z",
+          "wordCount": 5847,
+          "title": "30 Years of HPC: many hardware advances, little adoption of new languages",
           "imageUrl": null
         },
         {
@@ -13484,56 +13504,6 @@
           "wordCount": 9867,
           "title": "RX – a new random-access JSON alternative",
           "imageUrl": "https://opengraph.githubassets.com/ee0455f70570c0bcaa04f71585c0328757ae0050a5d7034e84ce3e712a5e1dd3/creationix/rx"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47431930",
-          "author": "elixx",
-          "description": "Article URL: https://whatsonhttp.com/\nComments URL: https://news.ycombinator.com/item?id=47431930\nPoints: 55\n# Comments: 24",
-          "link": "https://whatsonhttp.com/",
-          "publishedOn": "2026-03-18T21:57:58.000Z",
-          "wordCount": null,
-          "title": "What’s on HTTP?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47431671",
-          "author": "xlayn",
-          "description": "I replicated David Ng's RYS method (https://dnhkng.github.io/posts/rys/) on consumer AMD GPUs \n(RX 7900 XT + RX 6950 XT) and found something I didn't expect.\nTransformers appear to have discrete \"reasoning circuits\" — contiguous blocks of 3-4 layers that \nact as indivisible cognitive units. Duplicate the right block and the model runs its reasoning \npipeline twice. No weights change. No training. The model just thinks longer.\nThe results on standard benchmarks (lm-evaluation-harness, n=50):\nDevstral-24B, layers 12-14 duplicated once:\n- BBH Logical Deduction: 0.22 → 0.76\n- GSM8K (strict): 0.48 → 0.64\n- MBPP (code gen): 0.72 → 0.78\n- Nothing degraded\nQwen2.5-Coder-32B, layers 7-9 duplicated once:\n- Reasoning probe: 76% → 94%\nThe weird part: different duplication patterns create different cognitive \"modes\" from the same \nweights. Double-pass boosts math. Triple-pass boosts emotional reasoning. Interleaved doubling \n(13,13,14,14,15,15,16) creates a pure math specialist. Same model, same VRAM, different routing.\nThe circuit boundaries are sharp — shift by one layer and the effect disappears or inverts. \nSmaller models (24B) have tighter circuits (3 layers) than larger ones (Ng found 7 layers in 72B).\nTools to find circuits in any GGUF model and apply arbitrary layer routing are in the repo. \nThe whole thing — sweep, discovery, validation — took one evening.\nHappy to answer questions.\nComments URL: https://news.ycombinator.com/item?id=47431671\nPoints: 79\n# Comments: 23",
-          "link": "https://github.com/alainnothere/llm-circuit-finder",
-          "publishedOn": "2026-03-18T21:31:12.000Z",
-          "wordCount": 4578,
-          "title": "Show HN: Duplicate 3 layers in a 24B LLM, logical deduction .22→.76. No training",
-          "imageUrl": "https://opengraph.githubassets.com/6d0936b576d02ae86ec84b07d897f3ab90a9f7d380d71d43044cf0b3dd89ce51/alainnothere/llm-circuit-finder"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47431653",
-          "author": "rvnx",
-          "description": "Article URL: https://mathweb.ucsd.edu/~crypto/Projects/MarkBarry/\nComments URL: https://news.ycombinator.com/item?id=47431653\nPoints: 50\n# Comments: 30",
-          "link": "https://mathweb.ucsd.edu/~crypto/Projects/MarkBarry/",
-          "publishedOn": "2026-03-18T21:29:14.000Z",
-          "wordCount": null,
-          "title": "Cryptography in Home Entertainment (2004)",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47431625",
-          "author": "tekknolagi",
-          "description": "Article URL: https://railsatscale.com/2026-03-18-how-zjit-removes-redundant-object-loads-and-stores/\nComments URL: https://news.ycombinator.com/item?id=47431625\nPoints: 54\n# Comments: 5",
-          "link": "https://railsatscale.com/2026-03-18-how-zjit-removes-redundant-object-loads-and-stores/",
-          "publishedOn": "2026-03-18T21:26:23.000Z",
-          "wordCount": 2401,
-          "title": "ZJIT removes redundant object loads and stores",
-          "imageUrl": "https://railsatscale.com/2026-03-18-how-zjit-removes-redundant-object-loads-and-stores/a8af7ce28b60c651dd883d4404993de7f3eb7c3d.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47431288",
-          "author": "mighty-fine",
-          "description": "Article URL: https://twitter.com/toddsaunders/status/2034243420147859716\nComments URL: https://news.ycombinator.com/item?id=47431288\nPoints: 60\n# Comments: 19",
-          "link": "https://twitter.com/toddsaunders/status/2034243420147859716",
-          "publishedOn": "2026-03-18T20:50:56.000Z",
-          "wordCount": 719,
-          "title": "An industrial piping contractor on Claude Code [video]",
-          "imageUrl": null
         }
       ]
     }

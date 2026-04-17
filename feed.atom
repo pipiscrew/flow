@@ -2,10 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-04-17T08:47:34.986Z</updated>
+    <updated>2026-04-17T10:17:29.126Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Ada, Its Design, and the Language That Built the Languages]]></title>
+        <id>https://news.ycombinator.com/item?id=47803844</id>
+        <link href="https://www.iqiipi.com/the-quiet-colossus.html"/>
+        <updated>2026-04-17T08:51:38.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.iqiipi.com/the-quiet-colossus.html
+Comments URL: https://news.ycombinator.com/item?id=47803844
+Points: 50
+# Comments: 10]]></summary>
+        <author>
+            <name>mpweiher</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Bluesky has been dealing with a DDoS attack for nearly a full day]]></title>
         <id>https://news.ycombinator.com/item?id=47802330</id>
@@ -1792,6 +1805,19 @@ Points: 119
 # Comments: 66]]></summary>
         <author>
             <name>bumbledraven</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[30 Years of HPC: many hardware advances, little adoption of new languages]]></title>
+        <id>https://news.ycombinator.com/item?id=47759436</id>
+        <link href="https://chapel-lang.org/blog/posts/30years/"/>
+        <updated>2026-04-13T23:45:58.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://chapel-lang.org/blog/posts/30years/
+Comments URL: https://news.ycombinator.com/item?id=47759436
+Points: 54
+# Comments: 23]]></summary>
+        <author>
+            <name>matt_d</name>
         </author>
     </entry>
     <entry>
@@ -17889,91 +17915,6 @@ Points: 53
 # Comments: 18]]></summary>
         <author>
             <name>creationix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[What’s on HTTP?]]></title>
-        <id>https://news.ycombinator.com/item?id=47431930</id>
-        <link href="https://whatsonhttp.com/"/>
-        <updated>2026-03-18T21:57:58.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://whatsonhttp.com/
-Comments URL: https://news.ycombinator.com/item?id=47431930
-Points: 55
-# Comments: 24]]></summary>
-        <author>
-            <name>elixx</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: Duplicate 3 layers in a 24B LLM, logical deduction .22→.76. No training]]></title>
-        <id>https://news.ycombinator.com/item?id=47431671</id>
-        <link href="https://github.com/alainnothere/llm-circuit-finder"/>
-        <updated>2026-03-18T21:31:12.000Z</updated>
-        <summary type="html"><![CDATA[I replicated David Ng's RYS method (https://dnhkng.github.io/posts/rys/) on consumer AMD GPUs 
-(RX 7900 XT + RX 6950 XT) and found something I didn't expect.
-Transformers appear to have discrete "reasoning circuits" — contiguous blocks of 3-4 layers that 
-act as indivisible cognitive units. Duplicate the right block and the model runs its reasoning 
-pipeline twice. No weights change. No training. The model just thinks longer.
-The results on standard benchmarks (lm-evaluation-harness, n=50):
-Devstral-24B, layers 12-14 duplicated once:
-- BBH Logical Deduction: 0.22 → 0.76
-- GSM8K (strict): 0.48 → 0.64
-- MBPP (code gen): 0.72 → 0.78
-- Nothing degraded
-Qwen2.5-Coder-32B, layers 7-9 duplicated once:
-- Reasoning probe: 76% → 94%
-The weird part: different duplication patterns create different cognitive "modes" from the same 
-weights. Double-pass boosts math. Triple-pass boosts emotional reasoning. Interleaved doubling 
-(13,13,14,14,15,15,16) creates a pure math specialist. Same model, same VRAM, different routing.
-The circuit boundaries are sharp — shift by one layer and the effect disappears or inverts. 
-Smaller models (24B) have tighter circuits (3 layers) than larger ones (Ng found 7 layers in 72B).
-Tools to find circuits in any GGUF model and apply arbitrary layer routing are in the repo. 
-The whole thing — sweep, discovery, validation — took one evening.
-Happy to answer questions.
-Comments URL: https://news.ycombinator.com/item?id=47431671
-Points: 79
-# Comments: 23]]></summary>
-        <author>
-            <name>xlayn</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Cryptography in Home Entertainment (2004)]]></title>
-        <id>https://news.ycombinator.com/item?id=47431653</id>
-        <link href="https://mathweb.ucsd.edu/~crypto/Projects/MarkBarry/"/>
-        <updated>2026-03-18T21:29:14.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://mathweb.ucsd.edu/~crypto/Projects/MarkBarry/
-Comments URL: https://news.ycombinator.com/item?id=47431653
-Points: 50
-# Comments: 30]]></summary>
-        <author>
-            <name>rvnx</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[ZJIT removes redundant object loads and stores]]></title>
-        <id>https://news.ycombinator.com/item?id=47431625</id>
-        <link href="https://railsatscale.com/2026-03-18-how-zjit-removes-redundant-object-loads-and-stores/"/>
-        <updated>2026-03-18T21:26:23.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://railsatscale.com/2026-03-18-how-zjit-removes-redundant-object-loads-and-stores/
-Comments URL: https://news.ycombinator.com/item?id=47431625
-Points: 54
-# Comments: 5]]></summary>
-        <author>
-            <name>tekknolagi</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[An industrial piping contractor on Claude Code [video]]]></title>
-        <id>https://news.ycombinator.com/item?id=47431288</id>
-        <link href="https://twitter.com/toddsaunders/status/2034243420147859716"/>
-        <updated>2026-03-18T20:50:56.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://twitter.com/toddsaunders/status/2034243420147859716
-Comments URL: https://news.ycombinator.com/item?id=47431288
-Points: 60
-# Comments: 19]]></summary>
-        <author>
-            <name>mighty-fine</name>
         </author>
     </entry>
 </feed>
