@@ -2,10 +2,49 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-04-17T03:25:11.453Z</updated>
+    <updated>2026-04-17T06:07:24.288Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Discourse Is Not Going Closed Source]]></title>
+        <id>https://news.ycombinator.com/item?id=47802233</id>
+        <link href="https://blog.discourse.org/2026/04/discourse-is-not-going-closed-source/"/>
+        <updated>2026-04-17T03:36:26.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://blog.discourse.org/2026/04/discourse-is-not-going-closed-source/
+Comments URL: https://news.ycombinator.com/item?id=47802233
+Points: 61
+# Comments: 23]]></summary>
+        <author>
+            <name>sams99</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[US Bill Mandates On-Device Age Verification]]></title>
+        <id>https://news.ycombinator.com/item?id=47801991</id>
+        <link href="https://reclaimthenet.org/us-bill-mandates-on-device-age-verification"/>
+        <updated>2026-04-17T02:50:02.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://reclaimthenet.org/us-bill-mandates-on-device-age-verification
+Comments URL: https://news.ycombinator.com/item?id=47801991
+Points: 64
+# Comments: 16]]></summary>
+        <author>
+            <name>ronsor</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Spice simulation → oscilloscope → verification with Claude Code]]></title>
+        <id>https://news.ycombinator.com/item?id=47801255</id>
+        <link href="https://lucasgerads.com/blog/lecroy-mcp-spice-demo/"/>
+        <updated>2026-04-17T00:37:47.000Z</updated>
+        <summary type="html"><![CDATA[I built MCP servers for my oscilloscope and SPICE simulator so Claude Code can close the loop between simulation and real hardware.
+Comments URL: https://news.ycombinator.com/item?id=47801255
+Points: 53
+# Comments: 11]]></summary>
+        <author>
+            <name>_fizz_buzz_</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Hospital at centre of child HIV outbreak caught reusing syringes in Pakistan]]></title>
         <id>https://news.ycombinator.com/item?id=47800839</id>
@@ -186,6 +225,25 @@ Points: 59
 # Comments: 31]]></summary>
         <author>
             <name>mikhael</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Marky – A lightweight Markdown viewer for agentic coding]]></title>
+        <id>https://news.ycombinator.com/item?id=47795468</id>
+        <link href="https://github.com/GRVYDEV/marky"/>
+        <updated>2026-04-16T16:08:05.000Z</updated>
+        <summary type="html"><![CDATA[Hey HN,
+In this age of agentic coding I've found myself spending a lot of time reviewing markdown files. Whether it's plans or documentation that I've asked my agent to generate for me, it seems that I spend more time reading markdown than code.
+I've tried a few different solutions to make it easier to read such as Obsidian however I've found their Vault system to be quite limiting for this use case and I've found TUI solutions to not quite be as friendly to read as I've wanted so I made Marky.
+Marky is a lightweight desktop application that makes it incredibly easy to read and track your markdown files. It also has a helpful cli so you can just run marky FILENAME and have the app open to the md file that you pointed it at. I've been using the daily over the past week and I really enjoy it so I figured I'd share it.
+Here's a video if you want to check out a demo: https://www.youtube.com/watch?v=nGBxt8uOVjc.
+I have plans to add more features such as incorporating agentic tools such as claude code and codex into the UI as well as developing a local git diff reviewer to allow me to do local code review before pushing up to git.
+I'd love to hear your thoughts and any feature suggestions you may have :)
+Comments URL: https://news.ycombinator.com/item?id=47795468
+Points: 58
+# Comments: 28]]></summary>
+        <author>
+            <name>GRVYDEV</name>
         </author>
     </entry>
     <entry>
@@ -17917,186 +17975,6 @@ Points: 50
 # Comments: 30]]></summary>
         <author>
             <name>mailyk</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Bayesian statistics for confused data scientists]]></title>
-        <id>https://news.ycombinator.com/item?id=47428953</id>
-        <link href="https://nchagnet.pages.dev/blog/bayesian-statistics-for-confused-data-scientists/"/>
-        <updated>2026-03-18T17:52:18.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://nchagnet.pages.dev/blog/bayesian-statistics-for-confused-data-scientists/
-Comments URL: https://news.ycombinator.com/item?id=47428953
-Points: 57
-# Comments: 7]]></summary>
-        <author>
-            <name>speckx</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: Tmux-IDE, OSS agent-first terminal IDE]]></title>
-        <id>https://news.ycombinator.com/item?id=47428868</id>
-        <link href="https://tmux.thijsverreck.com/"/>
-        <updated>2026-03-18T17:46:25.000Z</updated>
-        <summary type="html"><![CDATA[Hey HN,
-Small OSS project that i created for myself and want to share with the community. It's a declarative, scriptable, terminal-based IDE focussed on agentic engineering.
-That's a lot of jargon, but essentially its a multi-agent IDE that you start in your terminal.
-Why is that relevant? Thanks to tmux and SSH, it means that you have a really simple and efficient way to create your own always-on coding setup.
-Boot into your IDE through ssh, give a prompt to claude and close off your machine. In tmux-ide claude will keep working.
-The tool is intentionally really lightweight, because I think the power should come from the harnesses that you are working with.
-I'm hoping to share this with the community and get feedback and suggestions to shape this project! I think that "remote work" is directionally correct, because we can now have extremely long-running coding tasks. But I also think we should be able to control and orchstrate that experience according to what we need.
-The project is 100% open-source, and i hope to shape it together with others who like to work in this way too!
-Github: https://github.com/wavyrai/tmux-ide
-Docs: https://tmux.thijsverreck.com/docs
-Comments URL: https://news.ycombinator.com/item?id=47428868
-Points: 53
-# Comments: 29]]></summary>
-        <author>
-            <name>thijsverreck</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[EU Inc.: A new harmonised corporate legal regime]]></title>
-        <id>https://news.ycombinator.com/item?id=47428810</id>
-        <link href="https://commission.europa.eu/topics/business-and-industry/doing-business-eu/company-law-and-corporate-governance/eu-inc-new-harmonised-corporate-legal-regime_en"/>
-        <updated>2026-03-18T17:42:10.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://commission.europa.eu/topics/business-and-industry/doing-business-eu/company-law-and-corporate-governance/eu-inc-new-harmonised-corporate-legal-regime_en
-Comments URL: https://news.ycombinator.com/item?id=47428810
-Points: 68
-# Comments: 37]]></summary>
-        <author>
-            <name>guidoiaquinti</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: Will my flight have Starlink?]]></title>
-        <id>https://news.ycombinator.com/item?id=47428650</id>
-        <link href="https://news.ycombinator.com/item?id=47428650"/>
-        <updated>2026-03-18T17:29:21.000Z</updated>
-        <summary type="html"><![CDATA[Hey HN, If you’ve been lucky enough to be on a flight with Starlink, you understand the hype. It actually works!
-However, its availability on flights is patchy and hard to predict. So we built a database of all airlines that have rolled out Starlink (beyond just a trial), and a flight search tool to predict it. Plug in a flight number and date, and we'll estimate the likelihood of Starlink on-board based on aircraft type and tail number.
-If you don’t have any trips coming up, you can also look up specific routes to see what flights offer Starlink. You can find it here: https://stardrift.ai/starlink .
--I wanted to add a few notes on how this works too. There are three things we check, in order, when we answer a query:
-- Does this airline have Starlink?
-- Does this aircraft body have Starlin…]]></summary>
-        <author>
-            <name>bblcla</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AI coding is gambling]]></title>
-        <id>https://news.ycombinator.com/item?id=47428541</id>
-        <link href="https://notes.visaint.space/ai-coding-is-gambling/"/>
-        <updated>2026-03-18T17:22:02.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://notes.visaint.space/ai-coding-is-gambling/
-Comments URL: https://news.ycombinator.com/item?id=47428541
-Points: 152
-# Comments: 150]]></summary>
-        <author>
-            <name>speckx</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Ugliest Airplane: An Appreciation]]></title>
-        <id>https://news.ycombinator.com/item?id=47428132</id>
-        <link href="https://www.smithsonianmag.com/air-space-magazine/ugliest-airplane-appreciation-180978708/"/>
-        <updated>2026-03-18T16:52:58.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.smithsonianmag.com/air-space-magazine/ugliest-airplane-appreciation-180978708/
-Comments URL: https://news.ycombinator.com/item?id=47428132
-Points: 50
-# Comments: 27]]></summary>
-        <author>
-            <name>randycupertino</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Google Engineers Launch "Sashiko" for Agentic AI Code Review of the Linux Kernel]]></title>
-        <id>https://news.ycombinator.com/item?id=47427647</id>
-        <link href="https://www.phoronix.com/news/Sashiko-Linux-AI-Code-Review"/>
-        <updated>2026-03-18T16:17:44.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.phoronix.com/news/Sashiko-Linux-AI-Code-Review
-Comments URL: https://news.ycombinator.com/item?id=47427647
-Points: 52
-# Comments: 19]]></summary>
-        <author>
-            <name>speckx</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[North Korean's 100k fake IT workers net $500M a year for Kim]]></title>
-        <id>https://news.ycombinator.com/item?id=47427416</id>
-        <link href="https://www.theregister.com/2026/03/18/researchers_lift_the_lid_on/"/>
-        <updated>2026-03-18T15:59:58.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.theregister.com/2026/03/18/researchers_lift_the_lid_on/
-Comments URL: https://news.ycombinator.com/item?id=47427416
-Points: 91
-# Comments: 88]]></summary>
-        <author>
-            <name>speckx</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: I built 48 lightweight SVG backgrounds you can copy/paste]]></title>
-        <id>https://news.ycombinator.com/item?id=47427299</id>
-        <link href="https://www.svgbackgrounds.com/set/free-svg-backgrounds-and-patterns/"/>
-        <updated>2026-03-18T15:50:44.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.svgbackgrounds.com/set/free-svg-backgrounds-and-patterns/
-Comments URL: https://news.ycombinator.com/item?id=47427299
-Points: 67
-# Comments: 11]]></summary>
-        <author>
-            <name>visiwig</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[25 Years of Eggs]]></title>
-        <id>https://news.ycombinator.com/item?id=47427224</id>
-        <link href="https://www.john-rush.com/posts/eggs-25-years-20260219.html"/>
-        <updated>2026-03-18T15:44:08.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.john-rush.com/posts/eggs-25-years-20260219.html
-Comments URL: https://news.ycombinator.com/item?id=47427224
-Points: 85
-# Comments: 26]]></summary>
-        <author>
-            <name>avyfain</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[CVE-2026-3888: Important Snap Flaw Enables Local Privilege Escalation to Root]]></title>
-        <id>https://news.ycombinator.com/item?id=47427208</id>
-        <link href="https://blog.qualys.com/vulnerabilities-threat-research/2026/03/17/cve-2026-3888-important-snap-flaw-enables-local-privilege-escalation-to-root"/>
-        <updated>2026-03-18T15:43:19.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://blog.qualys.com/vulnerabilities-threat-research/2026/03/17/cve-2026-3888-important-snap-flaw-enables-local-privilege-escalation-to-root
-Comments URL: https://news.ycombinator.com/item?id=47427208
-Points: 59
-# Comments: 29]]></summary>
-        <author>
-            <name>askl</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Nvidia NemoClaw]]></title>
-        <id>https://news.ycombinator.com/item?id=47427027</id>
-        <link href="https://github.com/NVIDIA/NemoClaw"/>
-        <updated>2026-03-18T15:31:07.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://github.com/NVIDIA/NemoClaw
-Comments URL: https://news.ycombinator.com/item?id=47427027
-Points: 115
-# Comments: 80]]></summary>
-        <author>
-            <name>hmokiguess</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Snowflake AI Escapes Sandbox and Executes Malware]]></title>
-        <id>https://news.ycombinator.com/item?id=47427017</id>
-        <link href="https://www.promptarmor.com/resources/snowflake-ai-escapes-sandbox-and-executes-malware"/>
-        <updated>2026-03-18T15:30:07.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.promptarmor.com/resources/snowflake-ai-escapes-sandbox-and-executes-malware
-Comments URL: https://news.ycombinator.com/item?id=47427017
-Points: 167
-# Comments: 44]]></summary>
-        <author>
-            <name>ozgune</name>
         </author>
     </entry>
 </feed>

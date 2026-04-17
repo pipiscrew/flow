@@ -6,6 +6,36 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=47802233",
+          "author": "sams99",
+          "description": "Article URL: https://blog.discourse.org/2026/04/discourse-is-not-going-closed-source/\nComments URL: https://news.ycombinator.com/item?id=47802233\nPoints: 61\n# Comments: 23",
+          "link": "https://blog.discourse.org/2026/04/discourse-is-not-going-closed-source/",
+          "publishedOn": "2026-04-17T03:36:26.000Z",
+          "wordCount": 2529,
+          "title": "Discourse Is Not Going Closed Source",
+          "imageUrl": "https://storage.ghost.io/c/7d/70/7d70d59c-7408-4583-b44d-98a43cdfa8fd/content/images/size/w1200/2026/04/Discourse-Header-Images--3-.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47801991",
+          "author": "ronsor",
+          "description": "Article URL: https://reclaimthenet.org/us-bill-mandates-on-device-age-verification\nComments URL: https://news.ycombinator.com/item?id=47801991\nPoints: 64\n# Comments: 16",
+          "link": "https://reclaimthenet.org/us-bill-mandates-on-device-age-verification",
+          "publishedOn": "2026-04-17T02:50:02.000Z",
+          "wordCount": 4438,
+          "title": "US Bill Mandates On-Device Age Verification",
+          "imageUrl": "https://reclaimthenet.org/wp-content/uploads/2026/04/qcyeNHrPM0QI-scaled.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47801255",
+          "author": "_fizz_buzz_",
+          "description": "I built MCP servers for my oscilloscope and SPICE simulator so Claude Code can close the loop between simulation and real hardware.\nComments URL: https://news.ycombinator.com/item?id=47801255\nPoints: 53\n# Comments: 11",
+          "link": "https://lucasgerads.com/blog/lecroy-mcp-spice-demo/",
+          "publishedOn": "2026-04-17T00:37:47.000Z",
+          "wordCount": 357,
+          "title": "Show HN: Spice simulation → oscilloscope → verification with Claude Code",
+          "imageUrl": null
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=47800839",
           "author": "flykespice",
           "description": "Article URL: https://www.bbc.com/news/articles/clyrd818gd2o\nComments URL: https://news.ycombinator.com/item?id=47800839\nPoints: 131\n# Comments: 85",
@@ -144,6 +174,16 @@
           "wordCount": 10973,
           "title": "Japan implements language proficiency requirements for certain visa applicants",
           "imageUrl": "https://www.japantimes.co.jp/japantimes/uploads/images/2026/04/15/535029.jpg?v=3.1"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47795468",
+          "author": "GRVYDEV",
+          "description": "Hey HN,\nIn this age of agentic coding I've found myself spending a lot of time reviewing markdown files. Whether it's plans or documentation that I've asked my agent to generate for me, it seems that I spend more time reading markdown than code.\nI've tried a few different solutions to make it easier to read such as Obsidian however I've found their Vault system to be quite limiting for this use case and I've found TUI solutions to not quite be as friendly to read as I've wanted so I made Marky.\nMarky is a lightweight desktop application that makes it incredibly easy to read and track your markdown files. It also has a helpful cli so you can just run marky FILENAME and have the app open to the md file that you pointed it at. I've been using the daily over the past week and I really enjoy it so I figured I'd share it.\nHere's a video if you want to check out a demo: https://www.youtube.com/watch?v=nGBxt8uOVjc.\nI have plans to add more features such as incorporating agentic tools such as claude code and codex into the UI as well as developing a local git diff reviewer to allow me to do local code review before pushing up to git.\nI'd love to hear your thoughts and any feature suggestions you may have :)\nComments URL: https://news.ycombinator.com/item?id=47795468\nPoints: 58\n# Comments: 28",
+          "link": "https://github.com/GRVYDEV/marky",
+          "publishedOn": "2026-04-16T16:08:05.000Z",
+          "wordCount": 3999,
+          "title": "Show HN: Marky – A lightweight Markdown viewer for agentic coding",
+          "imageUrl": "https://opengraph.githubassets.com/f25ccaf9543ecb36057debd564f25ce8591c70a75c28f9ffffca08ce118f64b8/GRVYDEV/marky"
         },
         {
           "id": "https://news.ycombinator.com/item?id=47794514",
@@ -13494,136 +13534,6 @@
           "wordCount": 7871,
           "title": "Why Lab Coats Turned White",
           "imageUrl": "https://substackcdn.com/image/fetch/$s_!DTsZ!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3c6c2ca7-b756-4992-b107-3eab5bfacb2e_2000x1260.jpeg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47428953",
-          "author": "speckx",
-          "description": "Article URL: https://nchagnet.pages.dev/blog/bayesian-statistics-for-confused-data-scientists/\nComments URL: https://news.ycombinator.com/item?id=47428953\nPoints: 57\n# Comments: 7",
-          "link": "https://nchagnet.pages.dev/blog/bayesian-statistics-for-confused-data-scientists/",
-          "publishedOn": "2026-03-18T17:52:18.000Z",
-          "wordCount": 4027,
-          "title": "Bayesian statistics for confused data scientists",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47428868",
-          "author": "thijsverreck",
-          "description": "Hey HN,\nSmall OSS project that i created for myself and want to share with the community. It's a declarative, scriptable, terminal-based IDE focussed on agentic engineering.\nThat's a lot of jargon, but essentially its a multi-agent IDE that you start in your terminal.\nWhy is that relevant? Thanks to tmux and SSH, it means that you have a really simple and efficient way to create your own always-on coding setup.\nBoot into your IDE through ssh, give a prompt to claude and close off your machine. In tmux-ide claude will keep working.\nThe tool is intentionally really lightweight, because I think the power should come from the harnesses that you are working with.\nI'm hoping to share this with the community and get feedback and suggestions to shape this project! I think that \"remote work\" is directionally correct, because we can now have extremely long-running coding tasks. But I also think we should be able to control and orchstrate that experience according to what we need.\nThe project is 100% open-source, and i hope to shape it together with others who like to work in this way too!\nGithub: https://github.com/wavyrai/tmux-ide\nDocs: https://tmux.thijsverreck.com/docs\nComments URL: https://news.ycombinator.com/item?id=47428868\nPoints: 53\n# Comments: 29",
-          "link": "https://tmux.thijsverreck.com/",
-          "publishedOn": "2026-03-18T17:46:25.000Z",
-          "wordCount": 996,
-          "title": "Show HN: Tmux-IDE, OSS agent-first terminal IDE",
-          "imageUrl": "https://tmux.thijsverreck.com/og-image.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47428810",
-          "author": "guidoiaquinti",
-          "description": "Article URL: https://commission.europa.eu/topics/business-and-industry/doing-business-eu/company-law-and-corporate-governance/eu-inc-new-harmonised-corporate-legal-regime_en\nComments URL: https://news.ycombinator.com/item?id=47428810\nPoints: 68\n# Comments: 37",
-          "link": "https://commission.europa.eu/topics/business-and-industry/doing-business-eu/company-law-and-corporate-governance/eu-inc-new-harmonised-corporate-legal-regime_en",
-          "publishedOn": "2026-03-18T17:42:10.000Z",
-          "wordCount": 1972,
-          "title": "EU Inc.: A new harmonised corporate legal regime",
-          "imageUrl": "https://commission.europa.eu/profiles/contrib/ewcms/modules/ewcms_seo/assets/images/ec-socialmedia-fallback.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47428650",
-          "author": "bblcla",
-          "description": "Hey HN, If you’ve been lucky enough to be on a flight with Starlink, you understand the hype. It actually works!\nHowever, its availability on flights is patchy and hard to predict. So we built a database of all airlines that have rolled out Starlink (beyond just a trial), and a flight search tool to predict it. Plug in a flight number and date, and we'll estimate the likelihood of Starlink on-board based on aircraft type and tail number.\nIf you don’t have any trips coming up, you can also look up specific routes to see what flights offer Starlink. You can find it here: https://stardrift.ai/starlink .\n-I wanted to add a few notes on how this works too. There are three things we check, in order, when we answer a query:\n- Does this airline have Starlink?\n- Does this aircraft body have Starlin…",
-          "link": "https://news.ycombinator.com/item?id=47428650",
-          "publishedOn": "2026-03-18T17:29:21.000Z",
-          "wordCount": 3172,
-          "title": "Show HN: Will my flight have Starlink?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47428541",
-          "author": "speckx",
-          "description": "Article URL: https://notes.visaint.space/ai-coding-is-gambling/\nComments URL: https://news.ycombinator.com/item?id=47428541\nPoints: 152\n# Comments: 150",
-          "link": "https://notes.visaint.space/ai-coding-is-gambling/",
-          "publishedOn": "2026-03-18T17:22:02.000Z",
-          "wordCount": 2503,
-          "title": "AI coding is gambling",
-          "imageUrl": "/static/og-image.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47428132",
-          "author": "randycupertino",
-          "description": "Article URL: https://www.smithsonianmag.com/air-space-magazine/ugliest-airplane-appreciation-180978708/\nComments URL: https://news.ycombinator.com/item?id=47428132\nPoints: 50\n# Comments: 27",
-          "link": "https://www.smithsonianmag.com/air-space-magazine/ugliest-airplane-appreciation-180978708/",
-          "publishedOn": "2026-03-18T16:52:58.000Z",
-          "wordCount": 2751,
-          "title": "The Ugliest Airplane: An Appreciation",
-          "imageUrl": "https://th-thumbnailer.cdn-si-edu.com/4aC0kZOQDQLb4TyltO9IZMnQzgw=/fit-in/1600x0/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer/93/3a/933ad68e-af75-4c6d-8aea-b86cc1b55d5c/11j_dj2022_ugliestshowplane-gavinconroyac3q8790_live.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47427647",
-          "author": "speckx",
-          "description": "Article URL: https://www.phoronix.com/news/Sashiko-Linux-AI-Code-Review\nComments URL: https://news.ycombinator.com/item?id=47427647\nPoints: 52\n# Comments: 19",
-          "link": "https://www.phoronix.com/news/Sashiko-Linux-AI-Code-Review",
-          "publishedOn": "2026-03-18T16:17:44.000Z",
-          "wordCount": 1869,
-          "title": "Google Engineers Launch \"Sashiko\" for Agentic AI Code Review of the Linux Kernel",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47427416",
-          "author": "speckx",
-          "description": "Article URL: https://www.theregister.com/2026/03/18/researchers_lift_the_lid_on/\nComments URL: https://news.ycombinator.com/item?id=47427416\nPoints: 91\n# Comments: 88",
-          "link": "https://www.theregister.com/2026/03/18/researchers_lift_the_lid_on/",
-          "publishedOn": "2026-03-18T15:59:58.000Z",
-          "wordCount": 1489,
-          "title": "North Korean's 100k fake IT workers net $500M a year for Kim",
-          "imageUrl": "https://regmedia.co.uk/2026/03/18/northk.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47427299",
-          "author": "visiwig",
-          "description": "Article URL: https://www.svgbackgrounds.com/set/free-svg-backgrounds-and-patterns/\nComments URL: https://news.ycombinator.com/item?id=47427299\nPoints: 67\n# Comments: 11",
-          "link": "https://www.svgbackgrounds.com/set/free-svg-backgrounds-and-patterns/",
-          "publishedOn": "2026-03-18T15:50:44.000Z",
-          "wordCount": 1624,
-          "title": "Show HN: I built 48 lightweight SVG backgrounds you can copy/paste",
-          "imageUrl": "https://www.svgbackgrounds.com/img/svg-backgrounds-preview.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47427224",
-          "author": "avyfain",
-          "description": "Article URL: https://www.john-rush.com/posts/eggs-25-years-20260219.html\nComments URL: https://news.ycombinator.com/item?id=47427224\nPoints: 85\n# Comments: 26",
-          "link": "https://www.john-rush.com/posts/eggs-25-years-20260219.html",
-          "publishedOn": "2026-03-18T15:44:08.000Z",
-          "wordCount": 1539,
-          "title": "25 Years of Eggs",
-          "imageUrl": "https://john-rush.com/images/posts/eggs-header.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47427208",
-          "author": "askl",
-          "description": "Article URL: https://blog.qualys.com/vulnerabilities-threat-research/2026/03/17/cve-2026-3888-important-snap-flaw-enables-local-privilege-escalation-to-root\nComments URL: https://news.ycombinator.com/item?id=47427208\nPoints: 59\n# Comments: 29",
-          "link": "https://blog.qualys.com/vulnerabilities-threat-research/2026/03/17/cve-2026-3888-important-snap-flaw-enables-local-privilege-escalation-to-root",
-          "publishedOn": "2026-03-18T15:43:19.000Z",
-          "wordCount": 2706,
-          "title": "CVE-2026-3888: Important Snap Flaw Enables Local Privilege Escalation to Root",
-          "imageUrl": "https://ik.imagekit.io/qualys/wp-content/uploads/2026/03/Blog-Images-1080x1080.snap_.vuln_-1-scaled.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47427027",
-          "author": "hmokiguess",
-          "description": "Article URL: https://github.com/NVIDIA/NemoClaw\nComments URL: https://news.ycombinator.com/item?id=47427027\nPoints: 115\n# Comments: 80",
-          "link": "https://github.com/NVIDIA/NemoClaw",
-          "publishedOn": "2026-03-18T15:31:07.000Z",
-          "wordCount": 4738,
-          "title": "Nvidia NemoClaw",
-          "imageUrl": "https://opengraph.githubassets.com/debd8dde446398f430c1c7cc0f6c857b8f8809f36e69aee84e1b1bd87a7bbbac/NVIDIA/NemoClaw"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47427017",
-          "author": "ozgune",
-          "description": "Article URL: https://www.promptarmor.com/resources/snowflake-ai-escapes-sandbox-and-executes-malware\nComments URL: https://news.ycombinator.com/item?id=47427017\nPoints: 167\n# Comments: 44",
-          "link": "https://www.promptarmor.com/resources/snowflake-ai-escapes-sandbox-and-executes-malware",
-          "publishedOn": "2026-03-18T15:30:07.000Z",
-          "wordCount": 12150,
-          "title": "Snowflake AI Escapes Sandbox and Executes Malware",
-          "imageUrl": "https://framerusercontent.com/images/DQ1xyTxgoIu8RdOdSoCABxXVtM.png?width=9004&height=4694"
         }
       ]
     }
