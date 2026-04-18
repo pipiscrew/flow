@@ -6,6 +6,26 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=47813668",
+          "author": "boris_m",
+          "description": "Article URL: https://abuseofnotation.github.io/category-theory-illustrated/04_order/\nComments URL: https://news.ycombinator.com/item?id=47813668\nPoints: 65\n# Comments: 13",
+          "link": "https://abuseofnotation.github.io/category-theory-illustrated/04_order/",
+          "publishedOn": "2026-04-18T06:40:47.000Z",
+          "wordCount": 4936,
+          "title": "Category Theory Illustrated – Orders",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47813566",
+          "author": "sph",
+          "description": "Article URL: https://amiga.lychesis.net/\nComments URL: https://news.ycombinator.com/item?id=47813566\nPoints: 67\n# Comments: 4",
+          "link": "https://amiga.lychesis.net/",
+          "publishedOn": "2026-04-18T06:20:04.000Z",
+          "wordCount": 1057,
+          "title": "Amiga Graphics",
+          "imageUrl": "https://amiga.lychesis.net/assets/Articles/Home.png"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=47812341",
           "author": "fouronnes3",
           "description": "I've been studying interval arithmetic for the past few weeks and it's a really interesting field because while there is a ton of super interesting research published over the past decades, it has never really gotten the recognition that it deserves, IMO.\nOne reason for this is that standard interval arithmetic has really poor handling of division by intervals containing zero. If you compute 1 / [-1, 2] in regular interval arithmetic, you get either [-∞, +∞], or you have to say that the operation is undefined. Both solutions are virtually useless. The real answer of course is [-∞, -1] U [0.5, +∞]: i.e. a union of two disjoint intervals.\nThis is useful because you can confidently exclude a non empty set of the real numbers ([-1, 0.5]) from the set of possible values that you can get by dividing 1 by a number between -1 and 2.\nBut this definition of interval division yields a value that is not an interval. This is a problem if you want to define a closed arithmetic system, where you can build and evaluate arbitrary expression over interval values.\n(This behavior extends to any non continuous function like tan() for example, which is implemented in my project - not without difficulties!)\nWell the obvious solution is to define your arithmetic over disjoint unions of intervals. This is the subject of a 2017 paper called \"Interval Unions\" by by Schichl, H., Domes, F., Montanher, T. and Kofler, K..\nThis open-source project I made implements interval union arithmetic in TypeScript in the form of a simple interactive calculator, so you can try it out for yourself! The underlying TypeScript library is dependency free and implements interval union arithmetic over IEEE 754 double precision floats (JS native number type) with outward rounding. This guarantees accuracy of interval results in the presence of rounding issue inherent to floating point.\nComments URL: https://news.ycombinator.com/item?id=47812341\nPoints: 96\n# Comments: 10",
@@ -13284,36 +13304,6 @@
           "wordCount": 1719,
           "title": "Bombarding gamblers with offers greatly increases betting and gambling harm",
           "imageUrl": "https://www.bristol.ac.uk/media-library/sites/news/2026/march/Naman image article.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47446373",
-          "author": "benswerd",
-          "description": "Article URL: https://aicode.swerdlow.dev\nComments URL: https://news.ycombinator.com/item?id=47446373\nPoints: 70\n# Comments: 28",
-          "link": "https://aicode.swerdlow.dev/",
-          "publishedOn": "2026-03-19T21:23:24.000Z",
-          "wordCount": 1080,
-          "title": "Be intentional about how AI changes your codebase",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47446192",
-          "author": "breve",
-          "description": "Article URL: https://electrek.co/2026/03/19/xiaomi-launches-next-gen-su7-902-km-range-undercuts-tesla/\nComments URL: https://news.ycombinator.com/item?id=47446192\nPoints: 55\n# Comments: 19",
-          "link": "https://electrek.co/2026/03/19/xiaomi-launches-next-gen-su7-902-km-range-undercuts-tesla/",
-          "publishedOn": "2026-03-19T21:12:44.000Z",
-          "wordCount": 4092,
-          "title": "Xiaomi launches next-gen SU7 with 902 km range and Lidar, still undercuts Tesla",
-          "imageUrl": "https://i0.wp.com/electrek.co/wp-content/uploads/sites/3/2026/03/Xiaomi-SU7-second-gen-update.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47446021",
-          "author": "matt_d",
-          "description": "Article URL: https://esolang-bench.vercel.app/\nComments URL: https://news.ycombinator.com/item?id=47446021\nPoints: 65\n# Comments: 32",
-          "link": "https://esolang-bench.vercel.app/",
-          "publishedOn": "2026-03-19T21:01:03.000Z",
-          "wordCount": 1003,
-          "title": "EsoLang-Bench: Evaluating Genuine Reasoning in LLMs via Esoteric Languages",
-          "imageUrl": null
         }
       ]
     }
