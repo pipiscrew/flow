@@ -6,6 +6,16 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=47812341",
+          "author": "fouronnes3",
+          "description": "I've been studying interval arithmetic for the past few weeks and it's a really interesting field because while there is a ton of super interesting research published over the past decades, it has never really gotten the recognition that it deserves, IMO.\nOne reason for this is that standard interval arithmetic has really poor handling of division by intervals containing zero. If you compute 1 / [-1, 2] in regular interval arithmetic, you get either [-∞, +∞], or you have to say that the operation is undefined. Both solutions are virtually useless. The real answer of course is [-∞, -1] U [0.5, +∞]: i.e. a union of two disjoint intervals.\nThis is useful because you can confidently exclude a non empty set of the real numbers ([-1, 0.5]) from the set of possible values that you can get by dividing 1 by a number between -1 and 2.\nBut this definition of interval division yields a value that is not an interval. This is a problem if you want to define a closed arithmetic system, where you can build and evaluate arbitrary expression over interval values.\n(This behavior extends to any non continuous function like tan() for example, which is implemented in my project - not without difficulties!)\nWell the obvious solution is to define your arithmetic over disjoint unions of intervals. This is the subject of a 2017 paper called \"Interval Unions\" by by Schichl, H., Domes, F., Montanher, T. and Kofler, K..\nThis open-source project I made implements interval union arithmetic in TypeScript in the form of a simple interactive calculator, so you can try it out for yourself! The underlying TypeScript library is dependency free and implements interval union arithmetic over IEEE 754 double precision floats (JS native number type) with outward rounding. This guarantees accuracy of interval results in the presence of rounding issue inherent to floating point.\nComments URL: https://news.ycombinator.com/item?id=47812341\nPoints: 96\n# Comments: 10",
+          "link": "https://victorpoughon.github.io/interval-calculator/",
+          "publishedOn": "2026-04-18T01:15:43.000Z",
+          "wordCount": 888,
+          "title": "Show HN: I made a calculator that works over disjoint sets of intervals",
+          "imageUrl": null
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=47811283",
           "author": "unsuspecting",
           "description": "Related: Ancient DNA reveals pervasive directional selection across West Eurasia [pdf] - https://news.ycombinator.com/item?id=47791282 (64 comments)\nhttps://x.com/doctorveera/status/2044679999450664967 (https://xcancel.com/doctorveera/status/2044679999450664967)\nComments URL: https://news.ycombinator.com/item?id=47811283\nPoints: 54\n# Comments: 48",
@@ -13374,96 +13384,6 @@
           "wordCount": 5046,
           "title": "From Oscilloscope to Wireshark: A UDP Story (2022)",
           "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47444387",
-          "author": "digital55",
-          "description": "Article URL: https://www.scientificamerican.com/article/gerd-faltings-mathematician-who-proved-the-mordell-conjecture-wins-the-abel/\nComments URL: https://news.ycombinator.com/item?id=47444387\nPoints: 51\n# Comments: 6",
-          "link": "https://www.scientificamerican.com/article/gerd-faltings-mathematician-who-proved-the-mordell-conjecture-wins-the-abel/",
-          "publishedOn": "2026-03-19T19:12:36.000Z",
-          "wordCount": 2520,
-          "title": "Gerd Faltings, who proved the Mordell conjecture, wins the Abel Prize",
-          "imageUrl": "https://static.scientificamerican.com/dam/m/5688f8133cea51d2/original/GerdFaltings4_AbelPrize2026_Photo_PeterBadge_Typos1_TheAbelPrize_smaller_crop.jpg?m=1773930436.982&w=1200"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47444319",
-          "author": "freddykruger",
-          "description": "Article URL: https://deepdelver.substack.com/p/delve-fake-compliance-as-a-service\nComments URL: https://news.ycombinator.com/item?id=47444319\nPoints: 104\n# Comments: 31",
-          "link": "https://deepdelver.substack.com/p/delve-fake-compliance-as-a-service",
-          "publishedOn": "2026-03-19T19:08:02.000Z",
-          "wordCount": null,
-          "title": "Delve – Fake Compliance as a Service",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47444195",
-          "author": "mikece",
-          "description": "Article URL: https://www.theverge.com/ai-artificial-intelligence/897528/meta-rogue-ai-agent-security-incident\nComments URL: https://news.ycombinator.com/item?id=47444195\nPoints: 75\n# Comments: 51",
-          "link": "https://www.theverge.com/ai-artificial-intelligence/897528/meta-rogue-ai-agent-security-incident",
-          "publishedOn": "2026-03-19T18:59:02.000Z",
-          "wordCount": 7386,
-          "title": "A rogue AI led to a serious security incident at Meta",
-          "imageUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/10/STK043_VRG_Illo_N_Barclay_4_Meta.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47444072",
-          "author": "sdpmas",
-          "description": "Article URL: https://qlabs.sh/10x\nComments URL: https://news.ycombinator.com/item?id=47444072\nPoints: 53\n# Comments: 8",
-          "link": "https://qlabs.sh/10x",
-          "publishedOn": "2026-03-19T18:51:25.000Z",
-          "wordCount": 1729,
-          "title": "NanoGPT Slowrun: 10x Data Efficiency with Infinite Compute",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47443903",
-          "author": "lalitmaganti",
-          "description": "Article URL: https://iev.ee/blog/the-quadratic-problem-nobody-fixed/\nComments URL: https://news.ycombinator.com/item?id=47443903\nPoints: 98\n# Comments: 23",
-          "link": "https://iev.ee/blog/the-quadratic-problem-nobody-fixed/",
-          "publishedOn": "2026-03-19T18:40:02.000Z",
-          "wordCount": 3568,
-          "title": "Finding all regex matches has always been O(n²)",
-          "imageUrl": "https://iev.ee/og-image.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47443588",
-          "author": "od0",
-          "description": "Article URL: https://www.iroh.computer/blog/noq-announcement\nComments URL: https://news.ycombinator.com/item?id=47443588\nPoints: 86\n# Comments: 7",
-          "link": "https://www.iroh.computer/blog/noq-announcement",
-          "publishedOn": "2026-03-19T18:17:15.000Z",
-          "wordCount": 2922,
-          "title": "Noq: n0's new QUIC implementation in Rust",
-          "imageUrl": "https://www.iroh.computer/api/og?title=Blog&subtitle=noq,%20noq,%20who%27s%20there?"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47442834",
-          "author": "jandeboevrie",
-          "description": "Article URL: https://www.openttd.org/news/2026/03/19/steam-changes-update\nComments URL: https://news.ycombinator.com/item?id=47442834\nPoints: 195\n# Comments: 128",
-          "link": "https://www.openttd.org/news/2026/03/19/steam-changes-update",
-          "publishedOn": "2026-03-19T17:27:17.000Z",
-          "wordCount": 578,
-          "title": "An update on Steam / GOG changes for OpenTTD",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47442699",
-          "author": "surprisetalk",
-          "description": "Article URL: https://taylor.town/succession-000\nComments URL: https://news.ycombinator.com/item?id=47442699\nPoints: 113\n# Comments: 105",
-          "link": "https://taylor.town/succession-000",
-          "publishedOn": "2026-03-19T17:16:36.000Z",
-          "wordCount": 1608,
-          "title": "How to defer US taxes",
-          "imageUrl": "https://pic.fish/https://taylor.town/succession-000"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47442690",
-          "author": "0xedb",
-          "description": "https://android-developers.googleblog.com/2026/03/android-de...\nComments URL: https://news.ycombinator.com/item?id=47442690\nPoints: 153\n# Comments: 183",
-          "link": "https://arstechnica.com/gadgets/2026/03/google-details-new-24-hour-process-to-sideload-unverified-android-apps/",
-          "publishedOn": "2026-03-19T17:16:04.000Z",
-          "wordCount": 3370,
-          "title": "Google details new 24-hour process to sideload unverified Android apps",
-          "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2026/03/developer-identity-hero-1152x648.jpg"
         }
       ]
     }
