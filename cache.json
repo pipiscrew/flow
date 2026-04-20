@@ -6,6 +6,46 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=47829178",
+          "author": "twapi",
+          "description": "Article URL: https://simonwillison.net/2026/Apr/20/claude-token-counts/\nComments URL: https://news.ycombinator.com/item?id=47829178\nPoints: 97\n# Comments: 37",
+          "link": "https://simonwillison.net/2026/Apr/20/claude-token-counts/",
+          "publishedOn": "2026-04-20T00:56:40.000Z",
+          "wordCount": 1084,
+          "title": "Claude Token Counter, now with model comparisons",
+          "imageUrl": "https://static.simonwillison.net/static/2026/claude-token-card.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47828896",
+          "author": "shivampkumar",
+          "description": "I ported Microsoft's TRELLIS.2 (4B parameter image-to-3D model) to run on Apple Silicon via PyTorch MPS. The original requires CUDA with flash_attn, nvdiffrast, and custom sparse convolution kernels:  none of which work on Mac.\nI replaced the CUDA-specific ops with pure-PyTorch alternatives: a gather-scatter sparse 3D convolution, SDPA attention for sparse transformers, and a Python-based mesh extraction replacing CUDA hashmap operations. Total changes are a few hundred lines across 9 files.\nGenerates ~400K vertex meshes from single photos in about 3.5 minutes on M4 Pro (24GB). Not as fast as H100 (where it takes seconds), but it works offline with no cloud dependency.\nhttps://github.com/shivampkumar/trellis-mac\nComments URL: https://news.ycombinator.com/item?id=47828896\nPoints: 157\n# Comments: 26",
+          "link": "https://github.com/shivampkumar/trellis-mac",
+          "publishedOn": "2026-04-20T00:07:16.000Z",
+          "wordCount": 3055,
+          "title": "Show HN: Run TRELLIS.2 Image-to-3D generation natively on Apple Silicon",
+          "imageUrl": "https://opengraph.githubassets.com/4f611a0a629c533a75e74669df97846bb88a9b98ddaa58753421f678559dec5e/shivampkumar/trellis-mac"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47828444",
+          "author": "doener",
+          "description": "Article URL: https://www.swiss-ai.org\nComments URL: https://news.ycombinator.com/item?id=47828444\nPoints: 66\n# Comments: 25",
+          "link": "https://www.swiss-ai.org/",
+          "publishedOn": "2026-04-19T22:58:35.000Z",
+          "wordCount": 6567,
+          "title": "Swiss AI Initiative (2023)",
+          "imageUrl": "https://static.wixstatic.com/media/a4c5cd_db11f7a288834745a1c6bd2cb33c69d0%7Emv2.png/v1/fit/w_2500,h_1330,al_c/a4c5cd_db11f7a288834745a1c6bd2cb33c69d0%7Emv2.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47828420",
+          "author": "doener",
+          "description": "Related ongoing thread: Swiss authorities want to reduce dependency on Microsoft - https://news.ycombinator.com/item?id=47827383\nComments URL: https://news.ycombinator.com/item?id=47828420\nPoints: 179\n# Comments: 51",
+          "link": "https://mxmap.ch/",
+          "publishedOn": "2026-04-19T22:55:47.000Z",
+          "wordCount": 2136,
+          "title": "2,100 Swiss municipalities showing which provider handles their official email",
+          "imageUrl": "https://mxmap.ch/og-image.jpg"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=47827383",
           "author": "doener",
           "description": "Article URL: https://www.swissinfo.ch/eng/swiss-ai/swiss-authorities-want-to-reduce-dependency-on-microsoft/91280532\nComments URL: https://news.ycombinator.com/item?id=47827383\nPoints: 61\n# Comments: 13",
@@ -14,6 +54,16 @@
           "wordCount": 139482,
           "title": "Swiss authorities want to reduce dependency on Microsoft",
           "imageUrl": "https://www.swissinfo.ch/content/wp-content/uploads/sites/13/2026/04/597174916_highres.jpg?ver=ad661a45&fit=1200,800"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47827259",
+          "author": "walterbell",
+          "description": "Article URL: https://ashley.rolfmore.com/stop-trying-to-engineer-your-way-out-of-listening-to-people/\nComments URL: https://news.ycombinator.com/item?id=47827259\nPoints: 201\n# Comments: 86",
+          "link": "https://ashley.rolfmore.com/stop-trying-to-engineer-your-way-out-of-listening-to-people/",
+          "publishedOn": "2026-04-19T20:09:09.000Z",
+          "wordCount": 1699,
+          "title": "Stop trying to engineer your way out of listening to people",
+          "imageUrl": "https://images.unsplash.com/photo-1453738773917-9c3eff1db985?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDE2fHxsaXN0ZW58ZW58MHx8fHwxNzcwODU1NDg2fDA&ixlib=rb-4.1.0&q=80&w=2000"
         },
         {
           "id": "https://news.ycombinator.com/item?id=47827215",
@@ -34,6 +84,36 @@
           "wordCount": 3453,
           "title": "Blue Origin's rocket reuse achievement marred by upper stage failure",
           "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2026/04/GettyImages-2271539021-1152x648.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47826852",
+          "author": "pizza_man",
+          "description": "Article URL: https://github.com/navid-m/chip8emu\nComments URL: https://news.ycombinator.com/item?id=47826852\nPoints: 70\n# Comments: 17",
+          "link": "https://github.com/navid-m/chip8emu",
+          "publishedOn": "2026-04-19T19:21:22.000Z",
+          "wordCount": 622,
+          "title": "I wrote a CHIP-8 emulator in my own programming language",
+          "imageUrl": "https://opengraph.githubassets.com/91ffd6dce8cf8b10b6dfdff347e7b2b6791f6a982e3bcb554668f4f5878cb035/navid-m/chip8emu"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47826834",
+          "author": "jruohonen",
+          "description": "Article URL: https://www.sciencedetective.org/scientific-datasets-are-riddled-with-copy-paste-errors/\nComments URL: https://news.ycombinator.com/item?id=47826834\nPoints: 96\n# Comments: 26",
+          "link": "https://www.sciencedetective.org/scientific-datasets-are-riddled-with-copy-paste-errors/",
+          "publishedOn": "2026-04-19T19:18:57.000Z",
+          "wordCount": 3432,
+          "title": "Scientific datasets are riddled with copy-paste errors",
+          "imageUrl": "https://storage.ghost.io/c/ba/88/ba885ce2-6877-4f70-9886-fcfa8ede8c06/content/images/2026/03/Identical--1--2.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47826502",
+          "author": "Akcium",
+          "description": "Article URL: https://cssence.com/2024/six-levels-of-dark-mode/\nComments URL: https://news.ycombinator.com/item?id=47826502\nPoints: 87\n# Comments: 37",
+          "link": "https://cssence.com/2024/six-levels-of-dark-mode/",
+          "publishedOn": "2026-04-19T18:36:00.000Z",
+          "wordCount": 1895,
+          "title": "Six Levels of Dark Mode (2024)",
+          "imageUrl": "https://cssence.com/assets/og.jpg"
         },
         {
           "id": "https://news.ycombinator.com/item?id=47826104",
@@ -206,6 +286,16 @@
           "imageUrl": null
         },
         {
+          "id": "https://news.ycombinator.com/item?id=47822734",
+          "author": "vinhnx",
+          "description": "Article URL: https://www.legalnomads.com/fish-sauce/\nComments URL: https://news.ycombinator.com/item?id=47822734\nPoints: 175\n# Comments: 69",
+          "link": "https://www.legalnomads.com/fish-sauce/",
+          "publishedOn": "2026-04-19T08:32:53.000Z",
+          "wordCount": 7657,
+          "title": "A Brief History of Fish Sauce",
+          "imageUrl": "https://www.legalnomads.com/wp-content/uploads/2016/07/P1066245-e1503496631170.jpg"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=47822486",
           "author": "helloplanets",
           "description": "Article URL: https://madhadron.com/programming/seven_ur_languages.html\nComments URL: https://news.ycombinator.com/item?id=47822486\nPoints: 55\n# Comments: 19",
@@ -294,6 +384,16 @@
           "wordCount": 2389,
           "title": "NIST scientists create 'any wavelength' lasers",
           "imageUrl": "https://www.nist.gov/sites/default/files/styles/social/public/images/2026/04/14/DSC04675.JPG?itok=cGTaD8t6"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47819410",
+          "author": "neehao",
+          "description": "Article URL: https://sdf.org/?ssh\nComments URL: https://news.ycombinator.com/item?id=47819410\nPoints: 58\n# Comments: 21",
+          "link": "https://sdf.org/?ssh",
+          "publishedOn": "2026-04-18T20:48:35.000Z",
+          "wordCount": 116,
+          "title": "SDF Public Access Unix System",
+          "imageUrl": null
         },
         {
           "id": "https://news.ycombinator.com/item?id=47819369",
@@ -754,6 +854,16 @@
           "wordCount": 2443,
           "title": "Floating Point Fun on Cortex-M Processors",
           "imageUrl": "https://danielmangum.com/images/twitter-card.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47804178",
+          "author": "pseudolus",
+          "description": "Article URL: https://phys.org/news/2026-04-monumental-ship-burial-beneath-ancient.html\nComments URL: https://news.ycombinator.com/item?id=47804178\nPoints: 51\n# Comments: 15",
+          "link": "https://phys.org/news/2026-04-monumental-ship-burial-beneath-ancient.html",
+          "publishedOn": "2026-04-17T09:50:53.000Z",
+          "wordCount": 3167,
+          "title": "Monumental ship burial beneath ancient Norwegian mound predates the Viking Age",
+          "imageUrl": "https://scx2.b-cdn.net/gfx/news/2026/monumental-ship-burial-1.jpg"
         },
         {
           "id": "https://news.ycombinator.com/item?id=47803992",
@@ -1564,6 +1674,16 @@
           "wordCount": 4886,
           "title": "Show HN: Libretto – Making AI browser automations deterministic",
           "imageUrl": "https://opengraph.githubassets.com/2c543c9ea924346078822c9607b80f60de20a2926c6f57fbb338568fe19206b3/saffron-health/libretto"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47780743",
+          "author": "akashwadhwani35",
+          "description": "Article URL: https://sheets.works/data-viz/keyboard-sounds\nComments URL: https://news.ycombinator.com/item?id=47780743\nPoints: 118\n# Comments: 36",
+          "link": "https://sheets.works/data-viz/keyboard-sounds",
+          "publishedOn": "2026-04-15T15:45:45.000Z",
+          "wordCount": 5804,
+          "title": "Mechanical Keyboard Sounds – A listening Museum",
+          "imageUrl": "https://sheets.works/og-keyboard-sounds.png"
         },
         {
           "id": "https://news.ycombinator.com/item?id=47780712",
@@ -13214,236 +13334,6 @@
           "wordCount": 129,
           "title": "Professional video editing, right in the browser with WebGPU and WASM",
           "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47471271",
-          "author": "zdw",
-          "description": "Article URL: https://nesbitt.io/2026/03/21/how-to-attract-ai-bots-to-your-open-source-project.html\nComments URL: https://news.ycombinator.com/item?id=47471271\nPoints: 81\n# Comments: 13",
-          "link": "https://nesbitt.io/2026/03/21/how-to-attract-ai-bots-to-your-open-source-project.html",
-          "publishedOn": "2026-03-21T20:58:01.000Z",
-          "wordCount": 1701,
-          "title": "How to Attract AI Bots to Your Open Source Project",
-          "imageUrl": "https://nesbitt.io/images/boxes.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47470991",
-          "author": "smartmic",
-          "description": "Article URL: https://news.dyne.org/child-protection-is-not-access-control/\nComments URL: https://news.ycombinator.com/item?id=47470991\nPoints: 53\n# Comments: 13",
-          "link": "https://news.dyne.org/child-protection-is-not-access-control/",
-          "publishedOn": "2026-03-21T20:32:20.000Z",
-          "wordCount": 2130,
-          "title": "Do Not Turn Child Protection into Internet Access Control",
-          "imageUrl": "https://news.dyne.org/content/images/size/w1200/2026/03/90d2be8e-f920-4ac4-9c8a-092bc2ce88bf.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47470773",
-          "author": "albelfio",
-          "description": "Article URL: https://tinygrad.org/#tinybox\nComments URL: https://news.ycombinator.com/item?id=47470773\nPoints: 119\n# Comments: 67",
-          "link": "https://tinygrad.org/#tinybox",
-          "publishedOn": "2026-03-21T20:08:37.000Z",
-          "wordCount": 1049,
-          "title": "Tinybox- offline AI device 120B parameters",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47470750",
-          "author": "nothrowaways",
-          "description": "Article URL: https://www.sciencedaily.com/releases/2026/03/260319044656.htm\nComments URL: https://news.ycombinator.com/item?id=47470750\nPoints: 50\n# Comments: 26",
-          "link": "https://www.sciencedaily.com/releases/2026/03/260319044656.htm",
-          "publishedOn": "2026-03-21T20:05:58.000Z",
-          "wordCount": 1994,
-          "title": "No evidence cannabis helps anxiety, depression, or PTSD",
-          "imageUrl": "https://www.sciencedaily.com/images/1920/cannabis-effects-brain-mental-health.webp"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47470734",
-          "author": "0bytematt",
-          "description": "Article URL: https://www.creativetension.co/posts/common-lisp-development-tooling\nComments URL: https://news.ycombinator.com/item?id=47470734\nPoints: 60\n# Comments: 10",
-          "link": "https://www.creativetension.co/posts/common-lisp-development-tooling",
-          "publishedOn": "2026-03-21T20:04:08.000Z",
-          "wordCount": 6362,
-          "title": "Common Lisp Development Tooling",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47470433",
-          "author": "kenforthewin",
-          "description": "Article URL: https://github.com/kenforthewin/atomic\nComments URL: https://news.ycombinator.com/item?id=47470433\nPoints: 55\n# Comments: 7",
-          "link": "https://github.com/kenforthewin/atomic",
-          "publishedOn": "2026-03-21T19:31:39.000Z",
-          "wordCount": 4170,
-          "title": "Show HN: Atomic – Self-hosted, semantically-connected personal knowledge base",
-          "imageUrl": "https://opengraph.githubassets.com/6a12e9395437bf87736caaa90e779661437c043e14639f5866f9143dc4922678/kenforthewin/atomic"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47469949",
-          "author": "sebosch",
-          "description": "I’ve been building termcraft, a terminal-first 2D sandbox survival game in Rust.\nThe idea is to take the classic early survival progression and adapt it to a side-on terminal format instead of a tile or pixel-art engine.\nCurrent build includes:\n  - procedural Overworld, Nether, and End generation\n  - mining, placement, crafting, furnaces, brewing, and boats\n  - hostile and passive mobs\n  - villages, dungeons, strongholds, Nether fortresses, and dragon progression\nThis is still early alpha, but it’s already playable.\nProject:\nhttps://github.com/pagel-s/termcraft\nDocs:\nhttps://pagel-s.github.io/termcraft/\nDemo:\nhttps://youtu.be/kR986Xqzj7E\nComments URL: https://news.ycombinator.com/item?id=47469949\nPoints: 52\n# Comments: 3",
-          "link": "https://github.com/pagel-s/termcraft",
-          "publishedOn": "2026-03-21T18:42:38.000Z",
-          "wordCount": 2302,
-          "title": "Show HN: Termcraft – terminal-first 2D sandbox survival in Rust",
-          "imageUrl": "https://opengraph.githubassets.com/01e769ef72a911c6fa8886bb39c133c2ed96b00803353187736bf386d5cd7e17/pagel-s/termcraft"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47469744",
-          "author": "hasheddan",
-          "description": "Article URL: https://www.crowdsupply.com/baochip/dabao/updates/bio-the-bao-i-o-co-processor\nComments URL: https://news.ycombinator.com/item?id=47469744\nPoints: 57\n# Comments: 13",
-          "link": "https://www.crowdsupply.com/baochip/dabao/updates/bio-the-bao-i-o-co-processor",
-          "publishedOn": "2026-03-21T18:21:01.000Z",
-          "wordCount": 5753,
-          "title": "BIO – The Bao I/O Co-Processor",
-          "imageUrl": "https://www.crowdsupply.com/img/1155/5148f773-7784-4467-bcb9-bddecab01155/pio-path-report_png_open-graph.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47469417",
-          "author": "edward",
-          "description": "Article URL: https://www.cnn.com/2026/03/21/travel/travel-news-happiest-countries\nComments URL: https://news.ycombinator.com/item?id=47469417\nPoints: 80\n# Comments: 68",
-          "link": "https://www.cnn.com/2026/03/21/travel/travel-news-happiest-countries",
-          "publishedOn": "2026-03-21T17:52:51.000Z",
-          "wordCount": null,
-          "title": "Passengers who refuse to use headphones can now be kicked off United flights",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47469331",
-          "author": "soheilpro",
-          "description": "Article URL: https://512pixels.net/2026/03/hide-macos-tahoes-menu-icons-with-this-one-simple-trick/\nComments URL: https://news.ycombinator.com/item?id=47469331\nPoints: 67\n# Comments: 18",
-          "link": "https://512pixels.net/2026/03/hide-macos-tahoes-menu-icons-with-this-one-simple-trick/",
-          "publishedOn": "2026-03-21T17:46:00.000Z",
-          "wordCount": 766,
-          "title": "Hide macOS Tahoe's Menu Icons",
-          "imageUrl": "https://512pixels.net/wp-content/uploads/2025/07/tahoe-scaled.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47467913",
-          "author": "Anon84",
-          "description": "Article URL: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6097646\nComments URL: https://news.ycombinator.com/item?id=47467913\nPoints: 60\n# Comments: 35",
-          "link": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6097646",
-          "publishedOn": "2026-03-21T15:30:29.000Z",
-          "wordCount": null,
-          "title": "Thinking Fast, Slow, and Artificial: How AI Is Reshaping Human Reasoning",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47467746",
-          "author": "WhyNotHugo",
-          "description": "Article URL: https://dbushell.com/2026/03/20/denos-decline-and-layoffs/\nComments URL: https://news.ycombinator.com/item?id=47467746\nPoints: 70\n# Comments: 29",
-          "link": "https://dbushell.com/2026/03/20/denos-decline-and-layoffs/",
-          "publishedOn": "2026-03-21T15:10:54.000Z",
-          "wordCount": 2245,
-          "title": "404 Deno CEO not found",
-          "imageUrl": "https://dbushell.com/images/articles/2026-03-20-denos-decline-and-layoffs.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47467719",
-          "author": "lawrenceyan",
-          "description": "Article URL: https://thesublimeblog.org/2025/03/13/ju-ci-the-ancient-art-of-repairing-porcelain/\nComments URL: https://news.ycombinator.com/item?id=47467719\nPoints: 74\n# Comments: 8",
-          "link": "https://thesublimeblog.org/2025/03/13/ju-ci-the-ancient-art-of-repairing-porcelain/",
-          "publishedOn": "2026-03-21T15:07:29.000Z",
-          "wordCount": 2486,
-          "title": "Ju Ci: The Art of Repairing Porcelain",
-          "imageUrl": "https://i0.wp.com/thesublimeblog.org/wp-content/uploads/2025/03/Poster-4.jpg?fit=532%2C570&ssl=1"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47467623",
-          "author": "kaycebasques",
-          "description": "Article URL: https://www.reuters.com/business/autos-transportation/how-ford-burned-12-billion-brazil-2021-05-20/\nComments URL: https://news.ycombinator.com/item?id=47467623\nPoints: 52\n# Comments: 24",
-          "link": "https://www.reuters.com/business/autos-transportation/how-ford-burned-12-billion-brazil-2021-05-20/",
-          "publishedOn": "2026-03-21T14:55:42.000Z",
-          "wordCount": null,
-          "title": "How Ford burned $12B in Brazil (2021)",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47467609",
-          "author": "alephnerd",
-          "description": "Article URL: https://www.bbc.com/news/articles/c5yljdgwppzo\nComments URL: https://news.ycombinator.com/item?id=47467609\nPoints: 76\n# Comments: 159",
-          "link": "https://www.bbc.com/news/articles/c5yljdgwppzo",
-          "publishedOn": "2026-03-21T14:54:38.000Z",
-          "wordCount": 6114,
-          "title": "Iran launched unsuccessful attack on UK's Diego Garcia",
-          "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/2759/live/1898fec0-254f-11f1-a79a-77e93010d956.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47467567",
-          "author": "0x1997",
-          "description": "Article URL: https://grafeo.dev/\nComments URL: https://news.ycombinator.com/item?id=47467567\nPoints: 54\n# Comments: 12",
-          "link": "https://grafeo.dev/",
-          "publishedOn": "2026-03-21T14:50:18.000Z",
-          "wordCount": 849,
-          "title": "Grafeo – A fast, lean, embeddable graph database built in Rust",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47467566",
-          "author": "Brajeshwar",
-          "description": "Article URL: https://www.theguardian.com/technology/2026/mar/20/mediahuis-suspends-senior-journalist-over-ai-generated-quotes\nComments URL: https://news.ycombinator.com/item?id=47467566\nPoints: 53\n# Comments: 35",
-          "link": "https://www.theguardian.com/technology/2026/mar/20/mediahuis-suspends-senior-journalist-over-ai-generated-quotes",
-          "publishedOn": "2026-03-21T14:50:13.000Z",
-          "wordCount": 4667,
-          "title": "Senior European journalist suspended over AI-generated quotes",
-          "imageUrl": "https://i.guim.co.uk/img/media/f53f8e674f5b3c1fccaf19b9b0a8e24f0987ae2f/101_0_1499_1199/master/1499.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=5adaa12d59579fdcda49ac7f11363bd9"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47467543",
-          "author": "chaosprint",
-          "description": "Article URL: https://github.com/EverMind-AI/MSA\nComments URL: https://news.ycombinator.com/item?id=47467543\nPoints: 55\n# Comments: 4",
-          "link": "https://github.com/EverMind-AI/MSA",
-          "publishedOn": "2026-03-21T14:47:58.000Z",
-          "wordCount": 4291,
-          "title": "MSA: Memory Sparse Attention",
-          "imageUrl": "https://opengraph.githubassets.com/61955fb1a10e78c5174eda4a3eb4b48a8f21ed8c6b892d573cce8b3abdf8d2cb/EverMind-AI/MSA"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47467537",
-          "author": "vaylian",
-          "description": "Article URL: https://lucumr.pocoo.org/2026/3/20/some-things-just-take-time/\nComments URL: https://news.ycombinator.com/item?id=47467537\nPoints: 84\n# Comments: 32",
-          "link": "https://lucumr.pocoo.org/2026/3/20/some-things-just-take-time/",
-          "publishedOn": "2026-03-21T14:46:56.000Z",
-          "wordCount": 1530,
-          "title": "Some Things Just Take Time",
-          "imageUrl": "https://lucumr.pocoo.org/social/2026-03-20-some-things-just-take-time-social.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47467300",
-          "author": "Brajeshwar",
-          "description": "Article URL: https://www.newscientist.com/article/2520204-major-leap-towards-reanimation-after-death-as-mammals-brain-preserved/\nComments URL: https://news.ycombinator.com/item?id=47467300\nPoints: 69\n# Comments: 84",
-          "link": "https://www.newscientist.com/article/2520204-major-leap-towards-reanimation-after-death-as-mammals-brain-preserved/",
-          "publishedOn": "2026-03-21T14:22:48.000Z",
-          "wordCount": 10683,
-          "title": "A pig's brain has been frozen with its cellular activity locked in place",
-          "imageUrl": "https://images.newscientist.com/wp-content/uploads/2026/03/20161544/SEI_290260180.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47467034",
-          "author": "n1b0m",
-          "description": "Article URL: https://www.theguardian.com/business/2026/mar/21/west-carmakers-retreat-electric-vehicle-risks-irrelevance-iran-war-evs-china\nComments URL: https://news.ycombinator.com/item?id=47467034\nPoints: 81\n# Comments: 101",
-          "link": "https://www.theguardian.com/business/2026/mar/21/west-carmakers-retreat-electric-vehicle-risks-irrelevance-iran-war-evs-china",
-          "publishedOn": "2026-03-21T13:52:22.000Z",
-          "wordCount": 5637,
-          "title": "Why western carmakers' retreat from electric risks dooming them to irrelevance",
-          "imageUrl": "https://i.guim.co.uk/img/media/4be43872009262fe408c59f0cf518aa2d7783110/1696_0_4016_3213/master/4016.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=107d60906534b9d9d59b5862b25db562"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47466697",
-          "author": "heresie-dabord",
-          "description": "Article URL: https://www.cnn.com/2026/03/21/travel/paris-transformation-anne-hidalgo-mayor\nComments URL: https://news.ycombinator.com/item?id=47466697\nPoints: 81\n# Comments: 53",
-          "link": "https://www.cnn.com/2026/03/21/travel/paris-transformation-anne-hidalgo-mayor",
-          "publishedOn": "2026-03-21T13:12:10.000Z",
-          "wordCount": null,
-          "title": "Mayor of Paris removed parking spaces, \"drastically\" reduced the number of cars",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47466294",
-          "author": "Brajeshwar",
-          "description": "https://archive.ph/mlJbq\nComments URL: https://news.ycombinator.com/item?id=47466294\nPoints: 70\n# Comments: 101",
-          "link": "https://www.wired.com/story/how-byds-ev-charger-got-even-faster-and-it-might-not-matter-as-much-as-you-think/",
-          "publishedOn": "2026-03-21T12:06:03.000Z",
-          "wordCount": 27083,
-          "title": "How BYD got EV chargers to work almost as fast as gas pumps",
-          "imageUrl": "https://media.wired.com/photos/69bb10ef20b5c90983327992/191:100/w_1280,c_limit/BYD-New-Battery-Tech-Gear-2263889066.jpg"
         }
       ]
     }
