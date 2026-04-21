@@ -6,6 +6,66 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=47848276",
+          "author": "Brajeshwar",
+          "description": "Article URL: https://techcrunch.com/2026/04/20/anthropic-takes-5b-from-amazon-and-pledges-100b-in-cloud-spending-in-return/\nComments URL: https://news.ycombinator.com/item?id=47848276\nPoints: 67\n# Comments: 67",
+          "link": "https://techcrunch.com/2026/04/20/anthropic-takes-5b-from-amazon-and-pledges-100b-in-cloud-spending-in-return/",
+          "publishedOn": "2026-04-21T13:08:25.000Z",
+          "wordCount": 3044,
+          "title": "Anthropic takes $5B from Amazon and pledges $100B in cloud spending in return",
+          "imageUrl": "https://techcrunch.com/wp-content/uploads/2024/11/GettyImages-1445867611.jpg?w=1024"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47847558",
+          "author": "kolx",
+          "description": "Hi HN,\nI built VidStudio, a privacy focused video editor that runs in the browser. I tried to keep it as frictionless as possible, so there are no accounts and no uploads. Everything is persisted on your\nmachine.\nSome of the features: multi-track timeline, frame accurate seek, MP4 export, audio, video, image, and text tracks, and a WebGL backed canvas where available. It also works on mobile.\nUnder the hood, WebCodecs handles frame decode for timeline playback and scrubbing, which is what makes seeking responsive since decode runs on the hardware decoder when the browser supports it.\nFFmpeg compiled to WebAssembly handles final encode, format conversion, and anything WebCodecs does not cover. Rendering goes through Pixi.js on a WebGL canvas, with a software fallback when WebGL is\nnot available. Projects live in IndexedDB and the heavy work runs in Web Workers so the UI stays responsive during exports.\nHappy to answer technical questions about the tradeoffs involved in keeping the whole pipeline client-side. Any feedback welcome.\nLink: https://vidstudio.app/video-editor\nComments URL: https://news.ycombinator.com/item?id=47847558\nPoints: 108\n# Comments: 47",
+          "link": "https://vidstudio.app/video-editor",
+          "publishedOn": "2026-04-21T11:58:16.000Z",
+          "wordCount": 320,
+          "title": "Show HN: VidStudio, a browser based video editor that doesn't upload your files",
+          "imageUrl": "https://vidstudio.app/og-image.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47847324",
+          "author": "hasheddan",
+          "description": "Article URL: https://stratechery.com/2026/tim-cooks-impeccable-timing/\nComments URL: https://news.ycombinator.com/item?id=47847324\nPoints: 70\n# Comments: 85",
+          "link": "https://stratechery.com/2026/tim-cooks-impeccable-timing/",
+          "publishedOn": "2026-04-21T11:30:03.000Z",
+          "wordCount": 6130,
+          "title": "Tim Cook's Impeccable Timing",
+          "imageUrl": "https://stratechery.com/wp-content/uploads/2026/04/cook-1.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47847179",
+          "author": "milanm081",
+          "description": "Article URL: https://lawsofsoftwareengineering.com\nComments URL: https://news.ycombinator.com/item?id=47847179\nPoints: 318\n# Comments: 141",
+          "link": "https://lawsofsoftwareengineering.com/",
+          "publishedOn": "2026-04-21T11:04:56.000Z",
+          "wordCount": 23642,
+          "title": "Laws of Software Engineering",
+          "imageUrl": "https://lawsofsoftwareengineering.com/og-image.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47847124",
+          "author": "kirschner",
+          "description": "Article URL: https://fsfe.org/news/2026/news-20260420-01.html\nComments URL: https://news.ycombinator.com/item?id=47847124\nPoints: 139\n# Comments: 20",
+          "link": "https://fsfe.org/news/2026/news-20260420-01.html",
+          "publishedOn": "2026-04-21T10:57:53.000Z",
+          "wordCount": 1925,
+          "title": "Apple ignores DMA interoperability requests and contradicts own documentation",
+          "imageUrl": "https://pics.fsfe.org/uploads/original/ee/3d/407431339a047caf4fc5f1ea05db.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47846946",
+          "author": "phpnode",
+          "description": "Article URL: https://codemix.com/graph\nComments URL: https://news.ycombinator.com/item?id=47846946\nPoints: 73\n# Comments: 27",
+          "link": "https://codemix.com/graph",
+          "publishedOn": "2026-04-21T10:33:24.000Z",
+          "wordCount": 1665,
+          "title": "A type-safe, realtime collaborative Graph Database in a CRDT",
+          "imageUrl": null
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=47845231",
           "author": "sgbeal",
           "description": "Article URL: https://icv2.com/articles/news/view/62176/r-i-p-louis-zocchi-the-godfather-dice\nComments URL: https://news.ycombinator.com/item?id=47845231\nPoints: 50\n# Comments: 15",
@@ -14,6 +74,16 @@
           "wordCount": 1240,
           "title": "Louis Zocchi, inventor of the d100, has died",
           "imageUrl": "https://icv2.com/images/uploads/73cd64e2c47f4eb9e547dfdfcac1ccab715a2966dc04b6cd36f7cb05.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47844890",
+          "author": "1659447091",
+          "description": "Article URL: https://www.science.org/content/article/cocaine-pollution-gives-salmon-wanderlust\nComments URL: https://news.ycombinator.com/item?id=47844890\nPoints: 83\n# Comments: 49",
+          "link": "https://www.science.org/content/article/cocaine-pollution-gives-salmon-wanderlust",
+          "publishedOn": "2026-04-21T05:27:35.000Z",
+          "wordCount": null,
+          "title": "Salmon exposed to cocaine and its main byproduct roam more widely",
+          "imageUrl": null
         },
         {
           "id": "https://news.ycombinator.com/item?id=47844539",
@@ -264,6 +334,16 @@
           "wordCount": 4121,
           "title": "Show HN: Mediator.ai – Using Nash bargaining and LLMs to systematize fairness",
           "imageUrl": "https://mediator.ai/assets/og-image.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47834689",
+          "author": "speckx",
+          "description": "Article URL: http://mnt.stanleylieber.com/reform/\nComments URL: https://news.ycombinator.com/item?id=47834689\nPoints: 152\n# Comments: 58",
+          "link": "http://mnt.stanleylieber.com/reform/",
+          "publishedOn": "2026-04-20T14:14:52.000Z",
+          "wordCount": 784,
+          "title": "MNT Reform is an open hardware laptop, designed and assembled in Germany",
+          "imageUrl": null
         },
         {
           "id": "https://news.ycombinator.com/item?id=47834565",
@@ -716,6 +796,16 @@
           "imageUrl": null
         },
         {
+          "id": "https://news.ycombinator.com/item?id=47822742",
+          "author": "vinhnx",
+          "description": "Article URL: https://connla.substack.com/p/pho-in-hanoi-a-purists-guide\nComments URL: https://news.ycombinator.com/item?id=47822742\nPoints: 67\n# Comments: 18",
+          "link": "https://connla.substack.com/p/pho-in-hanoi-a-purists-guide",
+          "publishedOn": "2026-04-19T08:34:10.000Z",
+          "wordCount": null,
+          "title": "The purist's guide to phở in Hanoi",
+          "imageUrl": null
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=47822737",
           "author": "tosh",
           "description": "Article URL: https://en.algorithmica.org/hpc/algorithms/gcd/#binary-gcd\nComments URL: https://news.ycombinator.com/item?id=47822737\nPoints: 63\n# Comments: 1",
@@ -994,6 +1084,16 @@
           "wordCount": 2266,
           "title": "Migrating from DigitalOcean to Hetzner: From $1,432 to $233 With Zero Downtime",
           "imageUrl": "https://isayeter.com/images/domigration/45cf77e9709179874dbf5c259ae8b77207fb5f8932071f3db485b9ecade646f0.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47815462",
+          "author": "brilee",
+          "description": "Article URL: https://farlow.dev/2026/04/17/running-a-minecraft-server-and-more-on-a-1960s-univac-computer\nComments URL: https://news.ycombinator.com/item?id=47815462\nPoints: 61\n# Comments: 12",
+          "link": "https://farlow.dev/2026/04/17/running-a-minecraft-server-and-more-on-a-1960s-univac-computer",
+          "publishedOn": "2026-04-18T12:41:00.000Z",
+          "wordCount": 6258,
+          "title": "Running a Minecraft Server and More on a 1960s Univac Computer",
+          "imageUrl": null
         },
         {
           "id": "https://news.ycombinator.com/item?id=47815395",
@@ -13344,56 +13444,6 @@
           "wordCount": 5573,
           "title": "Two pilots dead after plane and ground vehicle collide at LaGuardia",
           "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/b500/live/620c2290-268e-11f1-b297-95b0a0a8331e.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47484519",
-          "author": "mitchbob",
-          "description": "Article URL: https://www.joanwestenberg.com/collaboration-is-bullshit/\nComments URL: https://news.ycombinator.com/item?id=47484519\nPoints: 55\n# Comments: 17",
-          "link": "https://www.joanwestenberg.com/collaboration-is-bullshit/",
-          "publishedOn": "2026-03-23T01:43:45.000Z",
-          "wordCount": 1792,
-          "title": "\"Collaboration\" Is Bullshit",
-          "imageUrl": "https://www.joanwestenberg.com/content/images/size/w1200/2026/03/W-Insight-1-HT-Jan11-e1666985964510-2688358860.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47484227",
-          "author": "cjamsonhn",
-          "description": "Article URL: https://www.connorjdavis.com/p/intuitions-for-transformer-circuits\nComments URL: https://news.ycombinator.com/item?id=47484227\nPoints: 54\n# Comments: 3",
-          "link": "https://www.connorjdavis.com/p/intuitions-for-transformer-circuits",
-          "publishedOn": "2026-03-23T01:06:35.000Z",
-          "wordCount": 9907,
-          "title": "Intuitions for Tranformer Circuits",
-          "imageUrl": "https://substackcdn.com/image/fetch/$s_!5wXL!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2ef1b05a-5fb2-4bc4-8082-1ad7d8b5cf47_2371x2006.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47484208",
-          "author": "supernova215",
-          "description": "Article URL: https://travel.state.gov/en/international-travel/travel-advisories/global-events/worldwide-caution.html\nComments URL: https://news.ycombinator.com/item?id=47484208\nPoints: 123\n# Comments: 114",
-          "link": "https://travel.state.gov/en/international-travel/travel-advisories/global-events/worldwide-caution.html",
-          "publishedOn": "2026-03-23T01:02:56.000Z",
-          "wordCount": 4303,
-          "title": "Department of State advises Americans worldwide to exercise increased caution",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47483830",
-          "author": "madflojo",
-          "description": "Article URL: https://americanexpress.io/migrating-the-payments-network-twice/\nComments URL: https://news.ycombinator.com/item?id=47483830\nPoints: 50\n# Comments: 12",
-          "link": "https://americanexpress.io/migrating-the-payments-network-twice/",
-          "publishedOn": "2026-03-23T00:15:10.000Z",
-          "wordCount": 2326,
-          "title": "Migrating the American Express Payment Network, Twice",
-          "imageUrl": "https://americanexpress.io/_post_assets/migrating-the-payments-network-twice/img/main.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47483286",
-          "author": "sznio",
-          "description": "Article URL: https://blog.mikhe.ch/quake2-on-fpga/part4.html\nComments URL: https://news.ycombinator.com/item?id=47483286\nPoints: 120\n# Comments: 38",
-          "link": "https://blog.mikhe.ch/quake2-on-fpga/part4.html",
-          "publishedOn": "2026-03-22T23:06:57.000Z",
-          "wordCount": 1692,
-          "title": "My DIY FPGA board can run Quake II",
-          "imageUrl": null
         }
       ]
     }

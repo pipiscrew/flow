@@ -2,10 +2,96 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-04-21T12:02:53.498Z</updated>
+    <updated>2026-04-21T14:49:31.532Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Anthropic takes $5B from Amazon and pledges $100B in cloud spending in return]]></title>
+        <id>https://news.ycombinator.com/item?id=47848276</id>
+        <link href="https://techcrunch.com/2026/04/20/anthropic-takes-5b-from-amazon-and-pledges-100b-in-cloud-spending-in-return/"/>
+        <updated>2026-04-21T13:08:25.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://techcrunch.com/2026/04/20/anthropic-takes-5b-from-amazon-and-pledges-100b-in-cloud-spending-in-return/
+Comments URL: https://news.ycombinator.com/item?id=47848276
+Points: 67
+# Comments: 67]]></summary>
+        <author>
+            <name>Brajeshwar</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: VidStudio, a browser based video editor that doesn't upload your files]]></title>
+        <id>https://news.ycombinator.com/item?id=47847558</id>
+        <link href="https://vidstudio.app/video-editor"/>
+        <updated>2026-04-21T11:58:16.000Z</updated>
+        <summary type="html"><![CDATA[Hi HN,
+I built VidStudio, a privacy focused video editor that runs in the browser. I tried to keep it as frictionless as possible, so there are no accounts and no uploads. Everything is persisted on your
+machine.
+Some of the features: multi-track timeline, frame accurate seek, MP4 export, audio, video, image, and text tracks, and a WebGL backed canvas where available. It also works on mobile.
+Under the hood, WebCodecs handles frame decode for timeline playback and scrubbing, which is what makes seeking responsive since decode runs on the hardware decoder when the browser supports it.
+FFmpeg compiled to WebAssembly handles final encode, format conversion, and anything WebCodecs does not cover. Rendering goes through Pixi.js on a WebGL canvas, with a software fallback when WebGL is
+not available. Projects live in IndexedDB and the heavy work runs in Web Workers so the UI stays responsive during exports.
+Happy to answer technical questions about the tradeoffs involved in keeping the whole pipeline client-side. Any feedback welcome.
+Link: https://vidstudio.app/video-editor
+Comments URL: https://news.ycombinator.com/item?id=47847558
+Points: 108
+# Comments: 47]]></summary>
+        <author>
+            <name>kolx</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Tim Cook's Impeccable Timing]]></title>
+        <id>https://news.ycombinator.com/item?id=47847324</id>
+        <link href="https://stratechery.com/2026/tim-cooks-impeccable-timing/"/>
+        <updated>2026-04-21T11:30:03.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://stratechery.com/2026/tim-cooks-impeccable-timing/
+Comments URL: https://news.ycombinator.com/item?id=47847324
+Points: 70
+# Comments: 85]]></summary>
+        <author>
+            <name>hasheddan</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Laws of Software Engineering]]></title>
+        <id>https://news.ycombinator.com/item?id=47847179</id>
+        <link href="https://lawsofsoftwareengineering.com/"/>
+        <updated>2026-04-21T11:04:56.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://lawsofsoftwareengineering.com
+Comments URL: https://news.ycombinator.com/item?id=47847179
+Points: 318
+# Comments: 141]]></summary>
+        <author>
+            <name>milanm081</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Apple ignores DMA interoperability requests and contradicts own documentation]]></title>
+        <id>https://news.ycombinator.com/item?id=47847124</id>
+        <link href="https://fsfe.org/news/2026/news-20260420-01.html"/>
+        <updated>2026-04-21T10:57:53.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://fsfe.org/news/2026/news-20260420-01.html
+Comments URL: https://news.ycombinator.com/item?id=47847124
+Points: 139
+# Comments: 20]]></summary>
+        <author>
+            <name>kirschner</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A type-safe, realtime collaborative Graph Database in a CRDT]]></title>
+        <id>https://news.ycombinator.com/item?id=47846946</id>
+        <link href="https://codemix.com/graph"/>
+        <updated>2026-04-21T10:33:24.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://codemix.com/graph
+Comments URL: https://news.ycombinator.com/item?id=47846946
+Points: 73
+# Comments: 27]]></summary>
+        <author>
+            <name>phpnode</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Louis Zocchi, inventor of the d100, has died]]></title>
         <id>https://news.ycombinator.com/item?id=47845231</id>
@@ -17,6 +103,19 @@ Points: 50
 # Comments: 15]]></summary>
         <author>
             <name>sgbeal</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Salmon exposed to cocaine and its main byproduct roam more widely]]></title>
+        <id>https://news.ycombinator.com/item?id=47844890</id>
+        <link href="https://www.science.org/content/article/cocaine-pollution-gives-salmon-wanderlust"/>
+        <updated>2026-04-21T05:27:35.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.science.org/content/article/cocaine-pollution-gives-salmon-wanderlust
+Comments URL: https://news.ycombinator.com/item?id=47844890
+Points: 83
+# Comments: 49]]></summary>
+        <author>
+            <name>1659447091</name>
         </author>
     </entry>
     <entry>
@@ -346,6 +445,19 @@ Points: 58
 # Comments: 26]]></summary>
         <author>
             <name>sanity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[MNT Reform is an open hardware laptop, designed and assembled in Germany]]></title>
+        <id>https://news.ycombinator.com/item?id=47834689</id>
+        <link href="http://mnt.stanleylieber.com/reform/"/>
+        <updated>2026-04-20T14:14:52.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: http://mnt.stanleylieber.com/reform/
+Comments URL: https://news.ycombinator.com/item?id=47834689
+Points: 152
+# Comments: 58]]></summary>
+        <author>
+            <name>speckx</name>
         </author>
     </entry>
     <entry>
@@ -952,6 +1064,19 @@ Points: 51
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[The purist's guide to phở in Hanoi]]></title>
+        <id>https://news.ycombinator.com/item?id=47822742</id>
+        <link href="https://connla.substack.com/p/pho-in-hanoi-a-purists-guide"/>
+        <updated>2026-04-19T08:34:10.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://connla.substack.com/p/pho-in-hanoi-a-purists-guide
+Comments URL: https://news.ycombinator.com/item?id=47822742
+Points: 67
+# Comments: 18]]></summary>
+        <author>
+            <name>vinhnx</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Binary GCD]]></title>
         <id>https://news.ycombinator.com/item?id=47822737</id>
         <link href="https://en.algorithmica.org/hpc/algorithms/gcd/#binary-gcd"/>
@@ -1313,6 +1438,19 @@ Points: 115
 # Comments: 47]]></summary>
         <author>
             <name>yusufusta</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Running a Minecraft Server and More on a 1960s Univac Computer]]></title>
+        <id>https://news.ycombinator.com/item?id=47815462</id>
+        <link href="https://farlow.dev/2026/04/17/running-a-minecraft-server-and-more-on-a-1960s-univac-computer"/>
+        <updated>2026-04-18T12:41:00.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://farlow.dev/2026/04/17/running-a-minecraft-server-and-more-on-a-1960s-univac-computer
+Comments URL: https://news.ycombinator.com/item?id=47815462
+Points: 61
+# Comments: 12]]></summary>
+        <author>
+            <name>brilee</name>
         </author>
     </entry>
     <entry>
@@ -17700,71 +17838,6 @@ Points: 68
 # Comments: 117]]></summary>
         <author>
             <name>mememememememo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA["Collaboration" Is Bullshit]]></title>
-        <id>https://news.ycombinator.com/item?id=47484519</id>
-        <link href="https://www.joanwestenberg.com/collaboration-is-bullshit/"/>
-        <updated>2026-03-23T01:43:45.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.joanwestenberg.com/collaboration-is-bullshit/
-Comments URL: https://news.ycombinator.com/item?id=47484519
-Points: 55
-# Comments: 17]]></summary>
-        <author>
-            <name>mitchbob</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Intuitions for Tranformer Circuits]]></title>
-        <id>https://news.ycombinator.com/item?id=47484227</id>
-        <link href="https://www.connorjdavis.com/p/intuitions-for-transformer-circuits"/>
-        <updated>2026-03-23T01:06:35.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.connorjdavis.com/p/intuitions-for-transformer-circuits
-Comments URL: https://news.ycombinator.com/item?id=47484227
-Points: 54
-# Comments: 3]]></summary>
-        <author>
-            <name>cjamsonhn</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Department of State advises Americans worldwide to exercise increased caution]]></title>
-        <id>https://news.ycombinator.com/item?id=47484208</id>
-        <link href="https://travel.state.gov/en/international-travel/travel-advisories/global-events/worldwide-caution.html"/>
-        <updated>2026-03-23T01:02:56.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://travel.state.gov/en/international-travel/travel-advisories/global-events/worldwide-caution.html
-Comments URL: https://news.ycombinator.com/item?id=47484208
-Points: 123
-# Comments: 114]]></summary>
-        <author>
-            <name>supernova215</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Migrating the American Express Payment Network, Twice]]></title>
-        <id>https://news.ycombinator.com/item?id=47483830</id>
-        <link href="https://americanexpress.io/migrating-the-payments-network-twice/"/>
-        <updated>2026-03-23T00:15:10.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://americanexpress.io/migrating-the-payments-network-twice/
-Comments URL: https://news.ycombinator.com/item?id=47483830
-Points: 50
-# Comments: 12]]></summary>
-        <author>
-            <name>madflojo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[My DIY FPGA board can run Quake II]]></title>
-        <id>https://news.ycombinator.com/item?id=47483286</id>
-        <link href="https://blog.mikhe.ch/quake2-on-fpga/part4.html"/>
-        <updated>2026-03-22T23:06:57.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://blog.mikhe.ch/quake2-on-fpga/part4.html
-Comments URL: https://news.ycombinator.com/item?id=47483286
-Points: 120
-# Comments: 38]]></summary>
-        <author>
-            <name>sznio</name>
         </author>
     </entry>
 </feed>
