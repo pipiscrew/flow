@@ -2,10 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-04-21T16:14:37.800Z</updated>
+    <updated>2026-04-21T18:02:56.630Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Original GrapheneOS responses to WIRED fact checker]]></title>
+        <id>https://news.ycombinator.com/item?id=47849854</id>
+        <link href="https://discuss.grapheneos.org/d/34369-original-grapheneos-responses-to-wired-fact-checker"/>
+        <updated>2026-04-21T15:04:24.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://discuss.grapheneos.org/d/34369-original-grapheneos-responses-to-wired-fact-checker
+Comments URL: https://news.ycombinator.com/item?id=47849854
+Points: 190
+# Comments: 102]]></summary>
+        <author>
+            <name>ChrisArchitect</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[As Oceans Warm, Great White Sharks Are Overheating]]></title>
         <id>https://news.ycombinator.com/item?id=47849592</id>
@@ -20,6 +33,19 @@ Points: 73
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Fusion Power Plant Simulator]]></title>
+        <id>https://news.ycombinator.com/item?id=47849315</id>
+        <link href="https://www.fusionenergybase.com/fusion-power-plant-simulator"/>
+        <updated>2026-04-21T14:26:52.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.fusionenergybase.com/fusion-power-plant-simulator
+Comments URL: https://news.ycombinator.com/item?id=47849315
+Points: 79
+# Comments: 27]]></summary>
+        <author>
+            <name>sam</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Your favorite brands got worse on purpose]]></title>
         <id>https://news.ycombinator.com/item?id=47849221</id>
         <link href="https://www.worseonpurpose.com/p/your-favorite-brands-got-worse-on-purpose"/>
@@ -30,6 +56,33 @@ Points: 85
 # Comments: 24]]></summary>
         <author>
             <name>neon_electro</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: GoModel – an open-source AI gateway in Go]]></title>
+        <id>https://news.ycombinator.com/item?id=47849097</id>
+        <link href="https://github.com/ENTERPILOT/GOModel/"/>
+        <updated>2026-04-21T14:11:53.000Z</updated>
+        <summary type="html"><![CDATA[Hi, I’m Jakub, a solo founder based in Warsaw.
+I’ve been building GoModel since December with a couple of contributors. It's an open-source AI gateway that sits between your app and model providers like OpenAI, Anthropic or others.
+I built it for my startup to solve a few problems:
+  - track AI usage and cost per client or team
+  - switch models without changing app code
+  - debug request flows more easily
+  - reduce AI spendings with exact and semantic caching
+
+  - ~17MB docker image
+    - LiteLLM's image is more than 44x bigger ("docker.litellm.ai/berriai/litellm:latest" ~ 746 MB on amd64)
+  - request workflow is visible and easy to inspect    
+  - config is environment-variable-first by default
+
+Website: https://gomodel.enterpilot.io
+Any feedback is appreciated.
+Comments URL: https://news.ycombinator.com/item?id=47849097
+Points: 93
+# Comments: 29]]></summary>
+        <author>
+            <name>santiago-pl</name>
         </author>
     </entry>
     <entry>
@@ -1068,6 +1121,19 @@ Points: 58
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Clojure: Transducers]]></title>
+        <id>https://news.ycombinator.com/item?id=47823365</id>
+        <link href="https://clojure.org/reference/transducers"/>
+        <updated>2026-04-19T10:56:20.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://clojure.org/reference/transducers
+Comments URL: https://news.ycombinator.com/item?id=47823365
+Points: 75
+# Comments: 13]]></summary>
+        <author>
+            <name>tosh</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Changes in the system prompt between Claude Opus 4.6 and 4.7]]></title>
         <id>https://news.ycombinator.com/item?id=47823270</id>
         <link href="https://simonwillison.net/2026/Apr/18/opus-system-prompt/"/>
@@ -1078,6 +1144,19 @@ Points: 50
 # Comments: 21]]></summary>
         <author>
             <name>pretext</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Edit store price tags using Flipper Zero]]></title>
+        <id>https://news.ycombinator.com/item?id=47822978</id>
+        <link href="https://github.com/i12bp8/TagTinker"/>
+        <updated>2026-04-19T09:26:04.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://github.com/i12bp8/TagTinker
+Comments URL: https://news.ycombinator.com/item?id=47822978
+Points: 116
+# Comments: 115]]></summary>
+        <author>
+            <name>trueduke</name>
         </author>
     </entry>
     <entry>
