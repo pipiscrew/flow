@@ -2,10 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-04-21T06:06:55.143Z</updated>
+    <updated>2026-04-21T08:55:47.175Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[The Beauty of Bonsai Styles]]></title>
+        <id>https://news.ycombinator.com/item?id=47844539</id>
+        <link href="https://longwoodgardens.org/blog/2023-05-17/beauty-bonsai-styles"/>
+        <updated>2026-04-21T04:31:30.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://longwoodgardens.org/blog/2023-05-17/beauty-bonsai-styles
+Comments URL: https://news.ycombinator.com/item?id=47844539
+Points: 53
+# Comments: 14]]></summary>
+        <author>
+            <name>lagniappe</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[A Roblox cheat and one AI tool brought down Vercel's platform]]></title>
         <id>https://news.ycombinator.com/item?id=47844431</id>
@@ -17,6 +30,19 @@ Points: 69
 # Comments: 27]]></summary>
         <author>
             <name>bishwasbh</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Anthropic says OpenClaw-style Claude CLI usage is allowed again]]></title>
+        <id>https://news.ycombinator.com/item?id=47844269</id>
+        <link href="https://docs.openclaw.ai/providers/anthropic"/>
+        <updated>2026-04-21T03:43:03.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://docs.openclaw.ai/providers/anthropic
+Comments URL: https://news.ycombinator.com/item?id=47844269
+Points: 165
+# Comments: 91]]></summary>
+        <author>
+            <name>jmsflknr</name>
         </author>
     </entry>
     <entry>
@@ -290,6 +316,23 @@ Self-hosting is becoming very popular because it lets users keep their data priv
 Customers usually don't actually know how to operate your software. They might change something small — Postgres version, environment variables, IAM, firewall rules — and things start failing. From their p…]]></summary>
         <author>
             <name>alongub</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Mediator.ai – Using Nash bargaining and LLMs to systematize fairness]]></title>
+        <id>https://news.ycombinator.com/item?id=47835411</id>
+        <link href="https://mediator.ai/"/>
+        <updated>2026-04-20T15:07:04.000Z</updated>
+        <summary type="html"><![CDATA[Eight years ago, my then-fiancée and I decided to get a prenup, so we hired a local mediator. The meetings were useful, but I felt there was no systematic process to produce a final agreement. So I started to think about this problem, and after a bit of research, I discovered the Nash bargaining solution.
+Yet if John Nash had solved negotiation in the 1950s, why did it seem like nobody was using it today? The issue was that Nash's solution required that each party to the negotiation provide a "utility function", which could take a set of deal terms and produce a utility number. But even experts have trouble producing such functions for non-trivial negotiations.
+A few years passed and LLMs appeared, and about a year ago I realized that while LLMs aren’t good at directly producing utility estimates, they are good at doing comparisons, and this can be used to estimate utilities of draft agreements.
+This is the basis for Mediator.ai, which I soft-launched over the weekend. Be interviewed by an LLM to capture your preferences and then invite the other party or parties to do the same. These preferences are then used as the fitness function for a genetic algorithm to find an agreement all parties are likely to agree to.
+An article with more technical detail: https://mediator.ai/blog/ai-negotiation-nash-bargaining/
+Comments URL: https://news.ycombinator.com/item?id=47835411
+Points: 58
+# Comments: 26]]></summary>
+        <author>
+            <name>sanity</name>
         </author>
     </entry>
     <entry>
@@ -1367,6 +1410,19 @@ Points: 96
 # Comments: 10]]></summary>
         <author>
             <name>fouronnes3</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Japan's cherry blossom database, 1,200 years old, has a new keeper]]></title>
+        <id>https://news.ycombinator.com/item?id=47811668</id>
+        <link href="https://www.nytimes.com/2026/04/17/climate/japan-cherry-blossom-database-scientist.html"/>
+        <updated>2026-04-17T23:22:38.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.nytimes.com/2026/04/17/climate/japan-cherry-blossom-database-scientist.html
+Comments URL: https://news.ycombinator.com/item?id=47811668
+Points: 97
+# Comments: 12]]></summary>
+        <author>
+            <name>caycep</name>
         </author>
     </entry>
     <entry>
@@ -17735,71 +17791,6 @@ Points: 107
 # Comments: 20]]></summary>
         <author>
             <name>nothrowaways</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[We indexed the Delve audit leak: 533 reports, 455 companies, 99.8% identical]]></title>
-        <id>https://news.ycombinator.com/item?id=47481729</id>
-        <link href="https://trustcompliance.xyz/"/>
-        <updated>2026-03-22T20:20:29.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://trustcompliance.xyz
-Comments URL: https://news.ycombinator.com/item?id=47481729
-Points: 111
-# Comments: 52]]></summary>
-        <author>
-            <name>fadijob</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Teaching Claude to QA a mobile app]]></title>
-        <id>https://news.ycombinator.com/item?id=47480900</id>
-        <link href="https://christophermeiklejohn.com/ai/zabriskie/development/android/ios/2026/03/22/teaching-claude-to-qa-a-mobile-app.html"/>
-        <updated>2026-03-22T19:04:00.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://christophermeiklejohn.com/ai/zabriskie/development/android/ios/2026/03/22/teaching-claude-to-qa-a-mobile-app.html
-Comments URL: https://news.ycombinator.com/item?id=47480900
-Points: 51
-# Comments: 4]]></summary>
-        <author>
-            <name>azhenley</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The gold standard of optimization: A look under the hood of RollerCoaster Tycoon]]></title>
-        <id>https://news.ycombinator.com/item?id=47480886</id>
-        <link href="https://larstofus.com/2026/03/22/the-gold-standard-of-optimization-a-look-under-the-hood-of-rollercoaster-tycoon/"/>
-        <updated>2026-03-22T19:02:43.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://larstofus.com/2026/03/22/the-gold-standard-of-optimization-a-look-under-the-hood-of-rollercoaster-tycoon/
-Comments URL: https://news.ycombinator.com/item?id=47480886
-Points: 88
-# Comments: 23]]></summary>
-        <author>
-            <name>mariuz</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[PC Gamer Recommends RSS Readers in a 37MB Article That Just Keeps Downloading]]></title>
-        <id>https://news.ycombinator.com/item?id=47480507</id>
-        <link href="https://stuartbreckenridge.net/2026-03-19-pc-gamer-recommends-rss-readers-in-a-37mb-article/"/>
-        <updated>2026-03-22T18:23:40.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://stuartbreckenridge.net/2026-03-19-pc-gamer-recommends-rss-readers-in-a-37mb-article/
-Comments URL: https://news.ycombinator.com/item?id=47480507
-Points: 64
-# Comments: 24]]></summary>
-        <author>
-            <name>JumpCrisscross</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[What Young Workers Are Doing to AI-Proof Themselves]]></title>
-        <id>https://news.ycombinator.com/item?id=47480447</id>
-        <link href="https://www.wsj.com/economy/jobs/ai-jobs-young-people-careers-14282284"/>
-        <updated>2026-03-22T18:18:01.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.wsj.com/economy/jobs/ai-jobs-young-people-careers-14282284
-Comments URL: https://news.ycombinator.com/item?id=47480447
-Points: 80
-# Comments: 92]]></summary>
-        <author>
-            <name>wallflower</name>
         </author>
     </entry>
 </feed>

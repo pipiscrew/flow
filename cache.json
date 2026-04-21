@@ -6,6 +6,16 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=47844539",
+          "author": "lagniappe",
+          "description": "Article URL: https://longwoodgardens.org/blog/2023-05-17/beauty-bonsai-styles\nComments URL: https://news.ycombinator.com/item?id=47844539\nPoints: 53\n# Comments: 14",
+          "link": "https://longwoodgardens.org/blog/2023-05-17/beauty-bonsai-styles",
+          "publishedOn": "2026-04-21T04:31:30.000Z",
+          "wordCount": 2270,
+          "title": "The Beauty of Bonsai Styles",
+          "imageUrl": "https://longwoodgardens.org/sites/default/files/styles/social_share_cropped/public/2023-05/639649_Bonsai%20Forms_Gross_%20Carol.jpg?h=fcf25457&itok=q3WFNJtG"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=47844431",
           "author": "bishwasbh",
           "description": "Article URL: https://webmatrices.com/post/how-a-roblox-cheat-and-one-ai-tool-brought-down-vercel-s-entire-platform\nComments URL: https://news.ycombinator.com/item?id=47844431\nPoints: 69\n# Comments: 27",
@@ -13,6 +23,16 @@
           "publishedOn": "2026-04-21T04:12:12.000Z",
           "wordCount": null,
           "title": "A Roblox cheat and one AI tool brought down Vercel's platform",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47844269",
+          "author": "jmsflknr",
+          "description": "Article URL: https://docs.openclaw.ai/providers/anthropic\nComments URL: https://news.ycombinator.com/item?id=47844269\nPoints: 165\n# Comments: 91",
+          "link": "https://docs.openclaw.ai/providers/anthropic",
+          "publishedOn": "2026-04-21T03:43:03.000Z",
+          "wordCount": 1154,
+          "title": "Anthropic says OpenClaw-style Claude CLI usage is allowed again",
           "imageUrl": null
         },
         {
@@ -224,6 +244,16 @@
           "wordCount": 1473,
           "title": "Show HN: Alien – Self-hosting with remote management (written in Rust)",
           "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47835411",
+          "author": "sanity",
+          "description": "Eight years ago, my then-fiancée and I decided to get a prenup, so we hired a local mediator. The meetings were useful, but I felt there was no systematic process to produce a final agreement. So I started to think about this problem, and after a bit of research, I discovered the Nash bargaining solution.\nYet if John Nash had solved negotiation in the 1950s, why did it seem like nobody was using it today? The issue was that Nash's solution required that each party to the negotiation provide a \"utility function\", which could take a set of deal terms and produce a utility number. But even experts have trouble producing such functions for non-trivial negotiations.\nA few years passed and LLMs appeared, and about a year ago I realized that while LLMs aren’t good at directly producing utility estimates, they are good at doing comparisons, and this can be used to estimate utilities of draft agreements.\nThis is the basis for Mediator.ai, which I soft-launched over the weekend. Be interviewed by an LLM to capture your preferences and then invite the other party or parties to do the same. These preferences are then used as the fitness function for a genetic algorithm to find an agreement all parties are likely to agree to.\nAn article with more technical detail: https://mediator.ai/blog/ai-negotiation-nash-bargaining/\nComments URL: https://news.ycombinator.com/item?id=47835411\nPoints: 58\n# Comments: 26",
+          "link": "https://mediator.ai/",
+          "publishedOn": "2026-04-20T15:07:04.000Z",
+          "wordCount": 4121,
+          "title": "Show HN: Mediator.ai – Using Nash bargaining and LLMs to systematize fairness",
+          "imageUrl": "https://mediator.ai/assets/og-image.png"
         },
         {
           "id": "https://news.ycombinator.com/item?id=47834565",
@@ -1033,6 +1063,16 @@
           "publishedOn": "2026-04-18T01:15:43.000Z",
           "wordCount": 888,
           "title": "Show HN: I made a calculator that works over disjoint sets of intervals",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47811668",
+          "author": "caycep",
+          "description": "Article URL: https://www.nytimes.com/2026/04/17/climate/japan-cherry-blossom-database-scientist.html\nComments URL: https://news.ycombinator.com/item?id=47811668\nPoints: 97\n# Comments: 12",
+          "link": "https://www.nytimes.com/2026/04/17/climate/japan-cherry-blossom-database-scientist.html",
+          "publishedOn": "2026-04-17T23:22:38.000Z",
+          "wordCount": null,
+          "title": "Japan's cherry blossom database, 1,200 years old, has a new keeper",
           "imageUrl": null
         },
         {
@@ -13373,56 +13413,6 @@
           "publishedOn": "2026-03-22T21:14:11.000Z",
           "wordCount": 170,
           "title": "GrapheneOS will remain usable by anyone without requiring personal information",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47481729",
-          "author": "fadijob",
-          "description": "Article URL: https://trustcompliance.xyz\nComments URL: https://news.ycombinator.com/item?id=47481729\nPoints: 111\n# Comments: 52",
-          "link": "https://trustcompliance.xyz/",
-          "publishedOn": "2026-03-22T20:20:29.000Z",
-          "wordCount": 1958,
-          "title": "We indexed the Delve audit leak: 533 reports, 455 companies, 99.8% identical",
-          "imageUrl": "https://trustcompliance.xyz/opengraph-image?ed36a60e216b60c3"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47480900",
-          "author": "azhenley",
-          "description": "Article URL: https://christophermeiklejohn.com/ai/zabriskie/development/android/ios/2026/03/22/teaching-claude-to-qa-a-mobile-app.html\nComments URL: https://news.ycombinator.com/item?id=47480900\nPoints: 51\n# Comments: 4",
-          "link": "https://christophermeiklejohn.com/ai/zabriskie/development/android/ios/2026/03/22/teaching-claude-to-qa-a-mobile-app.html",
-          "publishedOn": "2026-03-22T19:04:00.000Z",
-          "wordCount": 2279,
-          "title": "Teaching Claude to QA a mobile app",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47480886",
-          "author": "mariuz",
-          "description": "Article URL: https://larstofus.com/2026/03/22/the-gold-standard-of-optimization-a-look-under-the-hood-of-rollercoaster-tycoon/\nComments URL: https://news.ycombinator.com/item?id=47480886\nPoints: 88\n# Comments: 23",
-          "link": "https://larstofus.com/2026/03/22/the-gold-standard-of-optimization-a-look-under-the-hood-of-rollercoaster-tycoon/",
-          "publishedOn": "2026-03-22T19:02:43.000Z",
-          "wordCount": 6549,
-          "title": "The gold standard of optimization: A look under the hood of RollerCoaster Tycoon",
-          "imageUrl": "https://larstofus.com/wp-content/uploads/2026/03/rctarticlethumbnail.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47480507",
-          "author": "JumpCrisscross",
-          "description": "Article URL: https://stuartbreckenridge.net/2026-03-19-pc-gamer-recommends-rss-readers-in-a-37mb-article/\nComments URL: https://news.ycombinator.com/item?id=47480507\nPoints: 64\n# Comments: 24",
-          "link": "https://stuartbreckenridge.net/2026-03-19-pc-gamer-recommends-rss-readers-in-a-37mb-article/",
-          "publishedOn": "2026-03-22T18:23:40.000Z",
-          "wordCount": 652,
-          "title": "PC Gamer Recommends RSS Readers in a 37MB Article That Just Keeps Downloading",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47480447",
-          "author": "wallflower",
-          "description": "Article URL: https://www.wsj.com/economy/jobs/ai-jobs-young-people-careers-14282284\nComments URL: https://news.ycombinator.com/item?id=47480447\nPoints: 80\n# Comments: 92",
-          "link": "https://www.wsj.com/economy/jobs/ai-jobs-young-people-careers-14282284",
-          "publishedOn": "2026-03-22T18:18:01.000Z",
-          "wordCount": null,
-          "title": "What Young Workers Are Doing to AI-Proof Themselves",
           "imageUrl": null
         }
       ]
