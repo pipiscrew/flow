@@ -6,6 +6,36 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=47866913",
+          "author": "pella",
+          "description": "Article URL: https://nrehiew.github.io/blog/minimal_editing/\nComments URL: https://news.ycombinator.com/item?id=47866913\nPoints: 152\n# Comments: 81",
+          "link": "https://nrehiew.github.io/blog/minimal_editing/",
+          "publishedOn": "2026-04-22T17:51:17.000Z",
+          "wordCount": 3454,
+          "title": "Over-editing refers to a model modifying code beyond what is necessary",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47866750",
+          "author": "ajeetdsouza",
+          "description": "Article URL: https://zed.dev/blog/parallel-agents\nComments URL: https://news.ycombinator.com/item?id=47866750\nPoints: 85\n# Comments: 41",
+          "link": "https://zed.dev/blog/parallel-agents",
+          "publishedOn": "2026-04-22T17:38:57.000Z",
+          "wordCount": 13015,
+          "title": "Parallel Agents in Zed",
+          "imageUrl": "https://zed.dev/img/post/parallel-agents/thumbnail.webp"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47866697",
+          "author": "danpinto",
+          "description": "Article URL: https://fingerprint.com/blog/firefox-tor-indexeddb-privacy-vulnerability/\nComments URL: https://news.ycombinator.com/item?id=47866697\nPoints: 77\n# Comments: 22",
+          "link": "https://fingerprint.com/blog/firefox-tor-indexeddb-privacy-vulnerability/",
+          "publishedOn": "2026-04-22T17:35:03.000Z",
+          "wordCount": 36441,
+          "title": "We found a stable Firefox identifier linking all your private Tor identities",
+          "imageUrl": "https://fingerprint.com/static/893bf56cdf5a22443c3b3ace0bb862df/blog_firefox_vulnerability.jpg"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=47865868",
           "author": "Kaibeezy",
           "description": "Article URL: https://wheelfront.com/this-alberta-startup-sells-no-tech-tractors-for-half-price/\nComments URL: https://news.ycombinator.com/item?id=47865868\nPoints: 317\n# Comments: 112",
@@ -14,6 +44,16 @@
           "wordCount": null,
           "title": "Alberta startup sells no-tech tractors for half price",
           "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47865661",
+          "author": "theorchid",
+          "description": "Article URL: https://martinfowler.com/fragments/2026-04-14.html\nComments URL: https://news.ycombinator.com/item?id=47865661\nPoints: 104\n# Comments: 19",
+          "link": "https://martinfowler.com/fragments/2026-04-14.html",
+          "publishedOn": "2026-04-22T16:11:23.000Z",
+          "wordCount": 1240,
+          "title": "Martin Fowler: Technical, Cognitive, and Intent Debt",
+          "imageUrl": "https://martinfowler.com/logo-sq.png"
         },
         {
           "id": "https://news.ycombinator.com/item?id=47865622",
@@ -13523,56 +13563,6 @@
           "publishedOn": "2026-03-24T09:23:27.000Z",
           "wordCount": null,
           "title": "Ask HN: Founders of estonian e-businesses – is it worth it?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47499721",
-          "author": "thushanfernando",
-          "description": "Article URL: https://www.web-rewind.com\nComments URL: https://news.ycombinator.com/item?id=47499721\nPoints: 68\n# Comments: 37",
-          "link": "https://www.web-rewind.com/",
-          "publishedOn": "2026-03-24T07:54:02.000Z",
-          "wordCount": 243,
-          "title": "Opera: Rewind The Web to 1996 (Opera at 30)",
-          "imageUrl": "https://www.web-rewind.com/images/og/og_image.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47499672",
-          "author": "jberthom",
-          "description": "I use AI agents to build UI features daily. The thing that kept annoying me: the agent writes code but never sees what it actually looks like in the browser. It can’t tell if the layout is broken or if the console is throwing errors.\nSo I built a CLI that lets the agent open a browser, interact with the page, record what happens, and collect any errors. Then it bundles everything — video, screenshots, logs — into a self-contained HTML file I can review in seconds.\n  proofshot start --run \"npm run dev\" --port 3000\n  # agent navigates, clicks, takes screenshots\n  proofshot stop\n\nIt’s not a testing framework. The agent doesn’t decide pass/fail. It just gives me the evidence so I don’t have to open the browser myself every time.\nOpen source and completely free.\nWebsite: https://proofshot.argil.io/\nComments URL: https://news.ycombinator.com/item?id=47499672\nPoints: 78\n# Comments: 60",
-          "link": "https://github.com/AmElmo/proofshot",
-          "publishedOn": "2026-03-24T07:46:46.000Z",
-          "wordCount": 4875,
-          "title": "Show HN: ProofShot – Give AI coding agents eyes to verify the UI they build",
-          "imageUrl": "https://opengraph.githubassets.com/6e66f4cab7e15fb401a8cb4db7b822f22ac5e58b6d06e7b36006fc6b93a4e80a/AmElmo/proofshot"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47499356",
-          "author": "andros",
-          "description": "Article URL: https://en.andros.dev/blog/aa31d744/from-zero-to-a-rag-system-successes-and-failures/\nComments URL: https://news.ycombinator.com/item?id=47499356\nPoints: 105\n# Comments: 30",
-          "link": "https://en.andros.dev/blog/aa31d744/from-zero-to-a-rag-system-successes-and-failures/",
-          "publishedOn": "2026-03-24T06:53:30.000Z",
-          "wordCount": 2497,
-          "title": "From zero to a RAG system: successes and failures",
-          "imageUrl": "https://img.andros.dev/k-SHogWXSvlNFGOQXG5zRnPtAyE=/600x0/filters:format(avif)/https://andros.dev/media/thumbnails/ia.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47499262",
-          "author": "vismit2000",
-          "description": "Article URL: https://iev.ee/blog/gzip-decompression-in-250-lines-of-rust/\nComments URL: https://news.ycombinator.com/item?id=47499262\nPoints: 55\n# Comments: 22",
-          "link": "https://iev.ee/blog/gzip-decompression-in-250-lines-of-rust/",
-          "publishedOn": "2026-03-24T06:35:08.000Z",
-          "wordCount": 1821,
-          "title": "Gzip decompression in 250 lines of Rust",
-          "imageUrl": "https://iev.ee/og-image.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47499245",
-          "author": "jxmorris12",
-          "description": "Article URL: https://burntsushi.net/ripgrep/\nComments URL: https://news.ycombinator.com/item?id=47499245\nPoints: 73\n# Comments: 34",
-          "link": "https://burntsushi.net/ripgrep/",
-          "publishedOn": "2026-03-24T06:31:39.000Z",
-          "wordCount": 18458,
-          "title": "Ripgrep is faster than grep, ag, git grep, ucg, pt, sift (2016)",
           "imageUrl": null
         }
       ]

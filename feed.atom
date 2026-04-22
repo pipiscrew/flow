@@ -2,10 +2,49 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-04-22T18:03:53.670Z</updated>
+    <updated>2026-04-22T20:08:50.610Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Over-editing refers to a model modifying code beyond what is necessary]]></title>
+        <id>https://news.ycombinator.com/item?id=47866913</id>
+        <link href="https://nrehiew.github.io/blog/minimal_editing/"/>
+        <updated>2026-04-22T17:51:17.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://nrehiew.github.io/blog/minimal_editing/
+Comments URL: https://news.ycombinator.com/item?id=47866913
+Points: 152
+# Comments: 81]]></summary>
+        <author>
+            <name>pella</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Parallel Agents in Zed]]></title>
+        <id>https://news.ycombinator.com/item?id=47866750</id>
+        <link href="https://zed.dev/blog/parallel-agents"/>
+        <updated>2026-04-22T17:38:57.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://zed.dev/blog/parallel-agents
+Comments URL: https://news.ycombinator.com/item?id=47866750
+Points: 85
+# Comments: 41]]></summary>
+        <author>
+            <name>ajeetdsouza</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[We found a stable Firefox identifier linking all your private Tor identities]]></title>
+        <id>https://news.ycombinator.com/item?id=47866697</id>
+        <link href="https://fingerprint.com/blog/firefox-tor-indexeddb-privacy-vulnerability/"/>
+        <updated>2026-04-22T17:35:03.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://fingerprint.com/blog/firefox-tor-indexeddb-privacy-vulnerability/
+Comments URL: https://news.ycombinator.com/item?id=47866697
+Points: 77
+# Comments: 22]]></summary>
+        <author>
+            <name>danpinto</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Alberta startup sells no-tech tractors for half price]]></title>
         <id>https://news.ycombinator.com/item?id=47865868</id>
@@ -17,6 +56,19 @@ Points: 317
 # Comments: 112]]></summary>
         <author>
             <name>Kaibeezy</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Martin Fowler: Technical, Cognitive, and Intent Debt]]></title>
+        <id>https://news.ycombinator.com/item?id=47865661</id>
+        <link href="https://martinfowler.com/fragments/2026-04-14.html"/>
+        <updated>2026-04-22T16:11:23.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://martinfowler.com/fragments/2026-04-14.html
+Comments URL: https://news.ycombinator.com/item?id=47865661
+Points: 104
+# Comments: 19]]></summary>
+        <author>
+            <name>theorchid</name>
         </author>
     </entry>
     <entry>
@@ -17938,79 +17990,6 @@ Points: 59
 # Comments: 30]]></summary>
         <author>
             <name>udl</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Opera: Rewind The Web to 1996 (Opera at 30)]]></title>
-        <id>https://news.ycombinator.com/item?id=47499721</id>
-        <link href="https://www.web-rewind.com/"/>
-        <updated>2026-03-24T07:54:02.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.web-rewind.com
-Comments URL: https://news.ycombinator.com/item?id=47499721
-Points: 68
-# Comments: 37]]></summary>
-        <author>
-            <name>thushanfernando</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: ProofShot – Give AI coding agents eyes to verify the UI they build]]></title>
-        <id>https://news.ycombinator.com/item?id=47499672</id>
-        <link href="https://github.com/AmElmo/proofshot"/>
-        <updated>2026-03-24T07:46:46.000Z</updated>
-        <summary type="html"><![CDATA[I use AI agents to build UI features daily. The thing that kept annoying me: the agent writes code but never sees what it actually looks like in the browser. It can’t tell if the layout is broken or if the console is throwing errors.
-So I built a CLI that lets the agent open a browser, interact with the page, record what happens, and collect any errors. Then it bundles everything — video, screenshots, logs — into a self-contained HTML file I can review in seconds.
-  proofshot start --run "npm run dev" --port 3000
-  # agent navigates, clicks, takes screenshots
-  proofshot stop
-
-It’s not a testing framework. The agent doesn’t decide pass/fail. It just gives me the evidence so I don’t have to open the browser myself every time.
-Open source and completely free.
-Website: https://proofshot.argil.io/
-Comments URL: https://news.ycombinator.com/item?id=47499672
-Points: 78
-# Comments: 60]]></summary>
-        <author>
-            <name>jberthom</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[From zero to a RAG system: successes and failures]]></title>
-        <id>https://news.ycombinator.com/item?id=47499356</id>
-        <link href="https://en.andros.dev/blog/aa31d744/from-zero-to-a-rag-system-successes-and-failures/"/>
-        <updated>2026-03-24T06:53:30.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://en.andros.dev/blog/aa31d744/from-zero-to-a-rag-system-successes-and-failures/
-Comments URL: https://news.ycombinator.com/item?id=47499356
-Points: 105
-# Comments: 30]]></summary>
-        <author>
-            <name>andros</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Gzip decompression in 250 lines of Rust]]></title>
-        <id>https://news.ycombinator.com/item?id=47499262</id>
-        <link href="https://iev.ee/blog/gzip-decompression-in-250-lines-of-rust/"/>
-        <updated>2026-03-24T06:35:08.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://iev.ee/blog/gzip-decompression-in-250-lines-of-rust/
-Comments URL: https://news.ycombinator.com/item?id=47499262
-Points: 55
-# Comments: 22]]></summary>
-        <author>
-            <name>vismit2000</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ripgrep is faster than grep, ag, git grep, ucg, pt, sift (2016)]]></title>
-        <id>https://news.ycombinator.com/item?id=47499245</id>
-        <link href="https://burntsushi.net/ripgrep/"/>
-        <updated>2026-03-24T06:31:39.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://burntsushi.net/ripgrep/
-Comments URL: https://news.ycombinator.com/item?id=47499245
-Points: 73
-# Comments: 34]]></summary>
-        <author>
-            <name>jxmorris12</name>
         </author>
     </entry>
 </feed>
