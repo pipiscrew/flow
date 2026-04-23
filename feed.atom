@@ -2,10 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-04-23T22:56:18.654Z</updated>
+    <updated>2026-04-23T23:54:51.898Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[U.S. Soldier Charged with Using Classified Info to Profit from Prediction Market]]></title>
+        <id>https://news.ycombinator.com/item?id=47883108</id>
+        <link href="https://www.justice.gov/usao-sdny/pr/us-soldier-charged-using-classified-information-profit-prediction-market-bets?bm-verify=AAQAAAAN_____y6To7sZYZ502biZwIHXlr-7zXZUqV4H0xLTfW__wDA3SjNLqifXRaQwsikyuz6IJknyuL8xfVYRkesxcDk5V10m-HoXl2K93f17rygBphL77WVFoQ_XvlmUo922IwM_DQ66137X6wWMtpdHslcEjpJG7KbBmUw9Su4kDENpDt_yv2spThQZehgv-X1Adk5U2VHfp41co2s_QJGjRj4y0KmL1mhSCyVaE7MC1LHG0mtP-xYmD0xBOQwn6PlHkPiP5Nt46h5ZIjLGXgCZDEVD42i7rIEM379DKLPUPX0PDNmOAwFSuTqcTDVnT_UUV8vxpHLRMb7rUxPxKUPcIB23iZTRJddWDDtPHMXadpwv67xr-f1sKDLZT9NgHCO4iuC2EthmAt0"/>
+        <updated>2026-04-23T22:37:01.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.justice.gov/usao-sdny/pr/us-soldier-charged-using-classified-information-profit-prediction-market-bets?bm-verify=AAQAAAAN_____y6To7sZYZ502biZwIHXlr-7zXZUqV4H0xLTfW__wDA3SjNLqifXRaQwsikyuz6IJknyuL8xfVYRkesxcDk5V10m-HoXl2K93f17rygBphL77WVFoQ_XvlmUo922IwM_DQ66137X6wWMtpdHslcEjpJG7KbBmUw9Su4kDENpDt_yv2spThQZehgv-X1Adk5U2VHfp41co2s_QJGjRj4y0KmL1mhSCyVaE7MC1LHG0mtP-xYmD0xBOQwn6PlHkPiP5Nt46h5ZIjLGXgCZDEVD42i7rIEM379DKLPUPX0PDNmOAwFSuTqcTDVnT_UUV8vxpHLRMb7rUxPxKUPcIB23iZTRJddWDDtPHMXadpwv67xr-f1sKDLZT9NgHCO4iuC2EthmAt0
+Comments URL: https://news.ycombinator.com/item?id=47883108
+Points: 53
+# Comments: 20]]></summary>
+        <author>
+            <name>paulpauper</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[How the Tech World Turned Evil]]></title>
         <id>https://news.ycombinator.com/item?id=47881724</id>
@@ -137,6 +150,19 @@ Points: 83
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[My phone replaced a brass plug]]></title>
+        <id>https://news.ycombinator.com/item?id=47877715</id>
+        <link href="https://drobinin.com/posts/my-phone-replaced-a-brass-plug/"/>
+        <updated>2026-04-23T16:27:07.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://drobinin.com/posts/my-phone-replaced-a-brass-plug/
+Comments URL: https://news.ycombinator.com/item?id=47877715
+Points: 62
+# Comments: 8]]></summary>
+        <author>
+            <name>valzevul</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Incident with multple GitHub services]]></title>
         <id>https://news.ycombinator.com/item?id=47877644</id>
         <link href="https://www.githubstatus.com/incidents/myrbk7jvvs6p"/>
@@ -212,6 +238,22 @@ Points: 302
 # Comments: 147]]></summary>
         <author>
             <name>tosh</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[UK Biobank health data keeps ending up on GitHub]]></title>
+        <id>https://news.ycombinator.com/item?id=47875843</id>
+        <link href="https://biobank.rocher.lc/"/>
+        <updated>2026-04-23T13:58:03.000Z</updated>
+        <summary type="html"><![CDATA[I'm a researcher studying privacy, and I started tracking the DMCA notices that UK Biobank sends to GitHub. I tracked 110 notices filed so far, targeting 197 code repositories by 170 developers across the world.
+The exposure of Biobank data on GitHub is the latest in a long series of governance challenges for UK Biobank. 
+(My colleague and I have an editorial in the BMJ about this: http://bmj.com/cgi/content/full/bmj.s660?ijkey=dEot4dJZGZGXe...). The latest is today, with information of all half a million members listed for sale on Alibaba.
+Looking at the takedown notices, we often see specific files being targeted rather than entire repositories (possibly to justify the copyright infringement as required for a takedown notice, not a copyright expert; although it is clear that they only use DMCA notices as a last resort, for GitHub users they cannot identify, and who were likely not given access in the first place). A quarter of the files are genetic/genomics. Tabular data account for another large share and could contain phenotype or health records.
+Comments URL: https://news.ycombinator.com/item?id=47875843
+Points: 51
+# Comments: 14]]></summary>
+        <author>
+            <name>Cynddl</name>
         </author>
     </entry>
     <entry>
@@ -17841,19 +17883,6 @@ Points: 120
 # Comments: 48]]></summary>
         <author>
             <name>matthiaswh</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[.apks are just .zips; semi-legally hacking software for orphaned hardware [video]]]></title>
-        <id>https://news.ycombinator.com/item?id=47515783</id>
-        <link href="https://www.youtube.com/watch?v=P1kfuCkWo24"/>
-        <updated>2026-03-25T11:09:21.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.youtube.com/watch?v=P1kfuCkWo24
-Comments URL: https://news.ycombinator.com/item?id=47515783
-Points: 58
-# Comments: 43]]></summary>
-        <author>
-            <name>abadar</name>
         </author>
     </entry>
 </feed>
