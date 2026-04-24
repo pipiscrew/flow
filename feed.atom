@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-04-24T20:56:25.644Z</updated>
+    <updated>2026-04-24T21:54:11.657Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
@@ -17,6 +17,19 @@ Points: 86
 # Comments: 37]]></summary>
         <author>
             <name>elpakal</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[My audio interface has SSH enabled by default]]></title>
+        <id>https://news.ycombinator.com/item?id=47894747</id>
+        <link href="https://hhh.hn/rodecaster-duo-fw/"/>
+        <updated>2026-04-24T19:30:46.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://hhh.hn/rodecaster-duo-fw/
+Comments URL: https://news.ycombinator.com/item?id=47894747
+Points: 60
+# Comments: 15]]></summary>
+        <author>
+            <name>hhh</name>
         </author>
     </entry>
     <entry>
@@ -137,6 +150,20 @@ Points: 66
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Show HN: Browser Harness – Gives LLM freedom to complete any browser task]]></title>
+        <id>https://news.ycombinator.com/item?id=47890841</id>
+        <link href="https://github.com/browser-use/browser-harness"/>
+        <updated>2026-04-24T14:31:38.000Z</updated>
+        <summary type="html"><![CDATA[Hey HN,
+We got tired of browser frameworks restricting the LLM, so we removed the framework and gave the LLM maximum freedom to do whatever it's trained on. We gave the harness the ability to self correct and add new tools if the LLM wants (is pre-trained on) that.
+Our Browser Use library is tens of thousands of lines of deterministic heuristics wrapping Chrome (CDP websocket). Element extractors, click helpers, target managemenet (SUPER painful), watchdogs (crash handling, file downloads, alerts), cross origin iframes (if you want to click on an element you have to switch the target first, very anoying), etc.
+Watchdogs specifically are extremely painful but required. If Chrome triggers for example a native file popup the agent is just completely stuck. So the two solutions are to:
+1. code…]]></summary>
+        <author>
+            <name>gregpr07</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Sabotaging projects by overthinking, scope creep, and structural diffing]]></title>
         <id>https://news.ycombinator.com/item?id=47890799</id>
         <link href="https://kevinlynagh.com/newsletter/2026_04_overthinking/"/>
@@ -147,6 +174,19 @@ Points: 156
 # Comments: 36]]></summary>
         <author>
             <name>alcazar</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Machine Learning Reveals Unknown Transient Phenomena in Historic Images]]></title>
+        <id>https://news.ycombinator.com/item?id=47890456</id>
+        <link href="https://arxiv.org/abs/2604.18799"/>
+        <updated>2026-04-24T14:01:43.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://arxiv.org/abs/2604.18799
+Comments URL: https://news.ycombinator.com/item?id=47890456
+Points: 53
+# Comments: 39]]></summary>
+        <author>
+            <name>solarist</name>
         </author>
     </entry>
     <entry>
@@ -1559,6 +1599,19 @@ Points: 50
 # Comments: 10]]></summary>
         <author>
             <name>Arc1011</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Work with the garage door up]]></title>
+        <id>https://news.ycombinator.com/item?id=47851613</id>
+        <link href="https://notes.andymatuschak.org/Work_with_the_garage_door_up"/>
+        <updated>2026-04-21T17:13:29.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://notes.andymatuschak.org/Work_with_the_garage_door_up
+Comments URL: https://news.ycombinator.com/item?id=47851613
+Points: 59
+# Comments: 58]]></summary>
+        <author>
+            <name>jxmorris12</name>
         </author>
     </entry>
     <entry>
@@ -17692,19 +17745,6 @@ Points: 95
 # Comments: 54]]></summary>
         <author>
             <name>bundie</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[In math, rigor is vital, but are digitized proofs taking it too far?]]></title>
-        <id>https://news.ycombinator.com/item?id=47528403</id>
-        <link href="https://www.quantamagazine.org/in-math-rigor-is-vital-but-are-digitized-proofs-taking-it-too-far-20260325/"/>
-        <updated>2026-03-26T09:41:44.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.quantamagazine.org/in-math-rigor-is-vital-but-are-digitized-proofs-taking-it-too-far-20260325/
-Comments URL: https://news.ycombinator.com/item?id=47528403
-Points: 77
-# Comments: 61]]></summary>
-        <author>
-            <name>isaacfrond</name>
         </author>
     </entry>
 </feed>

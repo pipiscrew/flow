@@ -16,6 +16,16 @@
           "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/01/GettyImages-2252871842.jpg?w=1024"
         },
         {
+          "id": "https://news.ycombinator.com/item?id=47894747",
+          "author": "hhh",
+          "description": "Article URL: https://hhh.hn/rodecaster-duo-fw/\nComments URL: https://news.ycombinator.com/item?id=47894747\nPoints: 60\n# Comments: 15",
+          "link": "https://hhh.hn/rodecaster-duo-fw/",
+          "publishedOn": "2026-04-24T19:30:46.000Z",
+          "wordCount": 959,
+          "title": "My audio interface has SSH enabled by default",
+          "imageUrl": null
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=47894435",
           "author": "NaOH",
           "description": "Article URL: https://blogs.loc.gov/picturethis/2026/04/the-classic-american-diner/\nComments URL: https://news.ycombinator.com/item?id=47894435\nPoints: 52\n# Comments: 16",
@@ -106,6 +116,16 @@
           "imageUrl": "/static/browse/0.3.4/images/arxiv-logo-fb.png"
         },
         {
+          "id": "https://news.ycombinator.com/item?id=47890841",
+          "author": "gregpr07",
+          "description": "Hey HN,\nWe got tired of browser frameworks restricting the LLM, so we removed the framework and gave the LLM maximum freedom to do whatever it's trained on. We gave the harness the ability to self correct and add new tools if the LLM wants (is pre-trained on) that.\nOur Browser Use library is tens of thousands of lines of deterministic heuristics wrapping Chrome (CDP websocket). Element extractors, click helpers, target managemenet (SUPER painful), watchdogs (crash handling, file downloads, alerts), cross origin iframes (if you want to click on an element you have to switch the target first, very anoying), etc.\nWatchdogs specifically are extremely painful but required. If Chrome triggers for example a native file popup the agent is just completely stuck. So the two solutions are to:\n1. code…",
+          "link": "https://github.com/browser-use/browser-harness",
+          "publishedOn": "2026-04-24T14:31:38.000Z",
+          "wordCount": 2235,
+          "title": "Show HN: Browser Harness – Gives LLM freedom to complete any browser task",
+          "imageUrl": "https://opengraph.githubassets.com/dad6560a838ee966fc3084658a20fbac9a3b9a651029a2e2ffaef7dd5002927e/browser-use/browser-harness"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=47890799",
           "author": "alcazar",
           "description": "Article URL: https://kevinlynagh.com/newsletter/2026_04_overthinking/\nComments URL: https://news.ycombinator.com/item?id=47890799\nPoints: 156\n# Comments: 36",
@@ -114,6 +134,16 @@
           "wordCount": 2707,
           "title": "Sabotaging projects by overthinking, scope creep, and structural diffing",
           "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47890456",
+          "author": "solarist",
+          "description": "Article URL: https://arxiv.org/abs/2604.18799\nComments URL: https://news.ycombinator.com/item?id=47890456\nPoints: 53\n# Comments: 39",
+          "link": "https://arxiv.org/abs/2604.18799",
+          "publishedOn": "2026-04-24T14:01:43.000Z",
+          "wordCount": 764,
+          "title": "Machine Learning Reveals Unknown Transient Phenomena in Historic Images",
+          "imageUrl": "/static/browse/0.3.4/images/arxiv-logo-fb.png"
         },
         {
           "id": "https://news.ycombinator.com/item?id=47889279",
@@ -1194,6 +1224,16 @@
           "wordCount": 3500,
           "title": "Ibuilt a tiny Unix‑like 'OS' with shell and filesystem for Arduino UNO (2KB RAM)",
           "imageUrl": "https://opengraph.githubassets.com/227b218bfc1b5e79845373dfb63d23073092783842cc0911d1bec7623492628a/Arc1011/KernelUNO"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47851613",
+          "author": "jxmorris12",
+          "description": "Article URL: https://notes.andymatuschak.org/Work_with_the_garage_door_up\nComments URL: https://news.ycombinator.com/item?id=47851613\nPoints: 59\n# Comments: 58",
+          "link": "https://notes.andymatuschak.org/Work_with_the_garage_door_up",
+          "publishedOn": "2026-04-21T17:13:29.000Z",
+          "wordCount": 1576,
+          "title": "Work with the garage door up",
+          "imageUrl": null
         },
         {
           "id": "https://news.ycombinator.com/item?id=47851077",
@@ -13354,16 +13394,6 @@
           "wordCount": 2784,
           "title": "LibreOffice and the Art of Overreacting",
           "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47528403",
-          "author": "isaacfrond",
-          "description": "Article URL: https://www.quantamagazine.org/in-math-rigor-is-vital-but-are-digitized-proofs-taking-it-too-far-20260325/\nComments URL: https://news.ycombinator.com/item?id=47528403\nPoints: 77\n# Comments: 61",
-          "link": "https://www.quantamagazine.org/in-math-rigor-is-vital-but-are-digitized-proofs-taking-it-too-far-20260325/",
-          "publishedOn": "2026-03-26T09:41:44.000Z",
-          "wordCount": 5159,
-          "title": "In math, rigor is vital, but are digitized proofs taking it too far?",
-          "imageUrl": "https://www.quantamagazine.org/wp-content/uploads/2026/03/FormalMess-crKristinaArmitage-Social.jpg"
         }
       ]
     }
