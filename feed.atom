@@ -2,10 +2,62 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-04-24T15:13:20.465Z</updated>
+    <updated>2026-04-24T17:04:58.735Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[I Cancelled Claude: Token Issues, Declining Quality, and Poor Support]]></title>
+        <id>https://news.ycombinator.com/item?id=47892019</id>
+        <link href="https://nickyreinert.de/en/2026/2026-04-24-claude-critics/"/>
+        <updated>2026-04-24T15:59:19.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://nickyreinert.de/en/2026/2026-04-24-claude-critics/
+Comments URL: https://news.ycombinator.com/item?id=47892019
+Points: 159
+# Comments: 67]]></summary>
+        <author>
+            <name>y42</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Why I'm Done Making Desktop Applications (2009)]]></title>
+        <id>https://news.ycombinator.com/item?id=47891801</id>
+        <link href="https://www.kalzumeus.com/2009/09/05/desktop-aps-versus-web-apps/"/>
+        <updated>2026-04-24T15:44:03.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.kalzumeus.com/2009/09/05/desktop-aps-versus-web-apps/
+Comments URL: https://news.ycombinator.com/item?id=47891801
+Points: 57
+# Comments: 32]]></summary>
+        <author>
+            <name>claxo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Norway Set to Become Latest Country to Ban Social Media for Under 16s]]></title>
+        <id>https://news.ycombinator.com/item?id=47891019</id>
+        <link href="https://www.bloomberg.com/news/articles/2026-04-24/norway-wants-kids-to-be-kids-with-social-media-ban-for-under-16s"/>
+        <updated>2026-04-24T14:45:10.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.bloomberg.com/news/articles/2026-04-24/norway-wants-kids-to-be-kids-with-social-media-ban-for-under-16s
+Comments URL: https://news.ycombinator.com/item?id=47891019
+Points: 185
+# Comments: 137]]></summary>
+        <author>
+            <name>1vuio0pswjnm7</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Sabotaging projects by overthinking, scope creep, and structural diffing]]></title>
+        <id>https://news.ycombinator.com/item?id=47890799</id>
+        <link href="https://kevinlynagh.com/newsletter/2026_04_overthinking/"/>
+        <updated>2026-04-24T14:28:52.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://kevinlynagh.com/newsletter/2026_04_overthinking/
+Comments URL: https://news.ycombinator.com/item?id=47890799
+Points: 156
+# Comments: 36]]></summary>
+        <author>
+            <name>alcazar</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Aspartame is not that bad?]]></title>
         <id>https://news.ycombinator.com/item?id=47889030</id>
@@ -17562,46 +17614,6 @@ Points: 64
 # Comments: 28]]></summary>
         <author>
             <name>nuke-web3</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: Robust LLM Extractor for Websites in TypeScript]]></title>
-        <id>https://news.ycombinator.com/item?id=47526486</id>
-        <link href="https://github.com/lightfeed/extractor"/>
-        <updated>2026-03-26T03:55:52.000Z</updated>
-        <summary type="html"><![CDATA[We've been building data pipelines that scrape websites and extract structured data for a while now. If you've done this, you know the drill: you write CSS selectors, the site changes its layout, everything breaks at 2am, and you spend your morning rewriting parsers.
-LLMs seemed like the obvious fix — just throw the HTML at GPT and ask for JSON. Except in practice, it's more painful than that:
-- Raw HTML is full of nav bars, footers, and tracking junk that eats your token budget. A typical product page is 80% noise.
-- LLMs return malformed JSON more often than you'd expect, especially with nested arrays and complex schemas. One bad bracket and your pipeline crashes.
-- Relative URLs, markdown-escaped links, tracking parameters — the "small" URL issues compound fast when you're processing th…]]></summary>
-        <author>
-            <name>andrew_zhong</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Obsolete Sounds]]></title>
-        <id>https://news.ycombinator.com/item?id=47526478</id>
-        <link href="https://citiesandmemory.com/obsolete-sounds/"/>
-        <updated>2026-03-26T03:54:27.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://citiesandmemory.com/obsolete-sounds/
-Comments URL: https://news.ycombinator.com/item?id=47526478
-Points: 95
-# Comments: 17]]></summary>
-        <author>
-            <name>benbreen</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[When do we become adults, really?]]></title>
-        <id>https://news.ycombinator.com/item?id=47526471</id>
-        <link href="https://www.newyorker.com/culture/annals-of-inquiry/when-do-we-become-adults-really"/>
-        <updated>2026-03-26T03:54:04.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.newyorker.com/culture/annals-of-inquiry/when-do-we-become-adults-really
-Comments URL: https://news.ycombinator.com/item?id=47526471
-Points: 52
-# Comments: 72]]></summary>
-        <author>
-            <name>benbreen</name>
         </author>
     </entry>
 </feed>
