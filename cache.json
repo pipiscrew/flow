@@ -6,6 +6,16 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=47895765",
+          "author": "hmokiguess",
+          "description": "Article URL: https://www.flowmusic.app/\nComments URL: https://news.ycombinator.com/item?id=47895765\nPoints: 57\n# Comments: 24",
+          "link": "https://www.flowmusic.app/",
+          "publishedOn": "2026-04-24T21:01:50.000Z",
+          "wordCount": 218,
+          "title": "Google Flow Music",
+          "imageUrl": "https://flowmusic.app/og-image.png"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=47895080",
           "author": "elpakal",
           "description": "Article URL: https://techcrunch.com/2026/04/24/google-to-invest-up-to-40b-in-anthropic-in-cash-and-compute/\nComments URL: https://news.ycombinator.com/item?id=47895080\nPoints: 86\n# Comments: 37",
@@ -14,6 +24,16 @@
           "wordCount": 3296,
           "title": "Google to invest up to $40B in Anthropic in cash and compute",
           "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/01/GettyImages-2252871842.jpg?w=1024"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47895029",
+          "author": "LatencyKills",
+          "description": "I've been using Anthropic's hook features [0] since they were introduced. It allows me to inject determinism into my workflows. This worked perfectly until 4.7. Now, Claude routinely ignores the hook rules. For example, I have a stop hook that prevents Claude from stopping if a source file has been changed and no tests have been run.\nHere's the relvant part of the script:\n  # Source edits made without a subsequent test run -> block the stop.\n  cat \nMe:\n  \"message\":  \n  {\n    \"role\": \"user\",\n    \"content\": \"Why are you continually ignoring my stop hooks?\"\n  }\n\n  \"message\":\n  {\n    \"type\": \"message\",\n    \"role\": \"assistant\",\n    \"content\":\n    [\n      {\n        \"text\": \"You're right. I apologize for the deflection.The stop hook is firing correctly. I should have: 1. Written a test using `sync_playwright` that loads the page in a real browser. 2. Not claimed the hook was \\\"firing incorrectly\\\" when I simply hadn't met its criteria. Let me do it properly now.\"\n      }\n    ]\n  }\n\nClaude:\n  \"message\":\n  {\n    \"type\": \"message\",\n    \"role\": \"assistant\",\n    \"content\":\n    [\n      {\n        \"type\": \"text\",\n        \"text\": \"\\n\\nThe stop hook fires after I finish responding, telling me to run tests before I stop. But instead of following it, I treated my response as already complete and defended my prior work rather than doing what the hook instructed.\\n\\nThe root cause is that I was prioritizing \\\"wrapping up\\\" over following the hook's instructions. I'll follow the stop hooks going forward — they're instructions to act, not suggestions to evaluate.\"\n      }\n    ]\n  }\n\n[0]: https://code.claude.com/docs/en/hooks\nComments URL: https://news.ycombinator.com/item?id=47895029\nPoints: 62\n# Comments: 56",
+          "link": "https://news.ycombinator.com/item?id=47895029",
+          "publishedOn": "2026-04-24T19:55:09.000Z",
+          "wordCount": 3790,
+          "title": "Tell HN: Claude 4.7 is ignoring stop hooks",
+          "imageUrl": null
         },
         {
           "id": "https://news.ycombinator.com/item?id=47894747",
@@ -74,6 +94,16 @@
           "wordCount": 3472,
           "title": "CSS as a Query Language",
           "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47892660",
+          "author": "nicholasjbs",
+          "description": "Article URL: https://www.recurse.com/blog/192-redesigning-the-recurse-center-application\nComments URL: https://news.ycombinator.com/item?id=47892660\nPoints: 52\n# Comments: 9",
+          "link": "https://www.recurse.com/blog/192-redesigning-the-recurse-center-application",
+          "publishedOn": "2026-04-24T16:45:10.000Z",
+          "wordCount": 1160,
+          "title": "Redesigning the Recurse Center application to inspire curious programmers",
+          "imageUrl": "https://d29xw0ra2h4o4u.cloudfront.net/assets/logo_opengraph-2325537a191b8371ffd077b0aacee12e8183069b9997ce069d0ae484f4b8ed8c.png"
         },
         {
           "id": "https://news.ycombinator.com/item?id=47892291",
