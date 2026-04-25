@@ -2,10 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-04-25T05:51:00.283Z</updated>
+    <updated>2026-04-25T07:37:43.853Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Turbo Vision 2.0 – a modern port]]></title>
+        <id>https://news.ycombinator.com/item?id=47898597</id>
+        <link href="https://github.com/magiblot/tvision"/>
+        <updated>2026-04-25T04:18:01.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://github.com/magiblot/tvision
+Comments URL: https://news.ycombinator.com/item?id=47898597
+Points: 88
+# Comments: 15]]></summary>
+        <author>
+            <name>andsoitis</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Firefox Has Integrated Brave's Adblock Engine]]></title>
         <id>https://news.ycombinator.com/item?id=47897891</id>
@@ -20,6 +33,19 @@ Points: 109
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA["Plain text has been around for decades and it's here to stay." – Unsung]]></title>
+        <id>https://news.ycombinator.com/item?id=47897681</id>
+        <link href="https://unsung.aresluna.org/plain-text-has-been-around-for-decades-and-its-here-to-stay/"/>
+        <updated>2026-04-25T01:03:09.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://unsung.aresluna.org/plain-text-has-been-around-for-decades-and-its-here-to-stay/
+Comments URL: https://news.ycombinator.com/item?id=47897681
+Points: 63
+# Comments: 10]]></summary>
+        <author>
+            <name>rbanffy</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Replace IBM Quantum back end with /dev/urandom]]></title>
         <id>https://news.ycombinator.com/item?id=47897647</id>
         <link href="https://github.com/yuvadm/quantumslop/blob/25ad2e76ae58baa96f6219742459407db9dd17f5/URANDOM_DEMO.md"/>
@@ -30,6 +56,19 @@ Points: 92
 # Comments: 12]]></summary>
         <author>
             <name>pigeons</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Education must go beyond the mere production of words]]></title>
+        <id>https://news.ycombinator.com/item?id=47897349</id>
+        <link href="https://www.ncregister.com/commentaries/schnell-repairing-the-ruins"/>
+        <updated>2026-04-25T00:11:43.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.ncregister.com/commentaries/schnell-repairing-the-ruins
+Comments URL: https://news.ycombinator.com/item?id=47897349
+Points: 51
+# Comments: 15]]></summary>
+        <author>
+            <name>signor_bosco</name>
         </author>
     </entry>
     <entry>
@@ -17670,72 +17709,6 @@ Points: 77
 # Comments: 15]]></summary>
         <author>
             <name>skholinn</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[CERN to host Europe's flagship open access publishing platform]]></title>
-        <id>https://news.ycombinator.com/item?id=47534629</id>
-        <link href="https://home.cern/news/news/cern/cern-host-europes-flagship-open-access-publishing-platform"/>
-        <updated>2026-03-26T19:30:35.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://home.cern/news/news/cern/cern-host-europes-flagship-open-access-publishing-platform
-Comments URL: https://news.ycombinator.com/item?id=47534629
-Points: 57
-# Comments: 2]]></summary>
-        <author>
-            <name>JohnHammersley</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Chroma Context-1: Training a Self-Editing Search Agent]]></title>
-        <id>https://news.ycombinator.com/item?id=47534564</id>
-        <link href="https://www.trychroma.com/research/context-1"/>
-        <updated>2026-03-26T19:25:19.000Z</updated>
-        <summary type="html"><![CDATA[https://x.com/trychroma/status/2037243681988894950
-https://xcancel.com/trychroma/status/2037243681988894950
-Comments URL: https://news.ycombinator.com/item?id=47534564
-Points: 56
-# Comments: 4]]></summary>
-        <author>
-            <name>philip1209</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: Turbolite – a SQLite VFS serving sub-250ms cold JOIN queries from S3]]></title>
-        <id>https://news.ycombinator.com/item?id=47534283</id>
-        <link href="https://github.com/russellromney/turbolite"/>
-        <updated>2026-03-26T18:58:19.000Z</updated>
-        <summary type="html"><![CDATA[I built a SQLite VFS in Rust that serves cold queries directly from S3 with sub-second performance, and often much faster.
-It’s called turbolite. It is experimental, buggy, and may corrupt data. I would not trust it with anything important yet.
-I wanted to explore whether object storage has gotten fast enough to support embedded databases over cloud storage. Filesystems reward tiny random reads and in-place mutation. S3 rewards fewer requests, bigger transfers, immutable objects, and aggressively parallel operations where bandwidth is often the real constraint. This was explicitly inspired by turbopuffer’s ground-up S3-native design. https://turbopuffer.com/blog/turbopuffer
-The use case I had in mind is lots of mostly-cold SQLite databases (database-per-tenant, database-per-session, or dat…]]></summary>
-        <author>
-            <name>russellthehippo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[John Bradley, author of xv, has passed away]]></title>
-        <id>https://news.ycombinator.com/item?id=47534086</id>
-        <link href="https://voxday.net/2026/03/25/rip-john-bradley/"/>
-        <updated>2026-03-26T18:38:50.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://voxday.net/2026/03/25/rip-john-bradley/
-Comments URL: https://news.ycombinator.com/item?id=47534086
-Points: 96
-# Comments: 37]]></summary>
-        <author>
-            <name>linsomniac</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Building FireStriker: Making Civic Tech Free]]></title>
-        <id>https://news.ycombinator.com/item?id=47533709</id>
-        <link href="https://firestriker.org/blog/building-firestriker-why-im-making-civic-tech-free"/>
-        <updated>2026-03-26T18:03:43.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://firestriker.org/blog/building-firestriker-why-im-making-civic-tech-free
-Comments URL: https://news.ycombinator.com/item?id=47533709
-Points: 52
-# Comments: 10]]></summary>
-        <author>
-            <name>noleary</name>
         </author>
     </entry>
 </feed>

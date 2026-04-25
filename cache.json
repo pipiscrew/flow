@@ -6,6 +6,16 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=47898597",
+          "author": "andsoitis",
+          "description": "Article URL: https://github.com/magiblot/tvision\nComments URL: https://news.ycombinator.com/item?id=47898597\nPoints: 88\n# Comments: 15",
+          "link": "https://github.com/magiblot/tvision",
+          "publishedOn": "2026-04-25T04:18:01.000Z",
+          "wordCount": 26427,
+          "title": "Turbo Vision 2.0 – a modern port",
+          "imageUrl": "https://repository-images.githubusercontent.com/184303095/5badcd00-9313-11ea-8554-4d4949084174"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=47897891",
           "author": "nreece",
           "description": "Article URL: https://itsfoss.com/news/firefox-ships-brave-adblock-engine/\nComments URL: https://news.ycombinator.com/item?id=47897891\nPoints: 109\n# Comments: 44",
@@ -16,6 +26,16 @@
           "imageUrl": "https://itsfoss.com/content/images/2026/04/firefox-brave-adblock-rust-banner.png"
         },
         {
+          "id": "https://news.ycombinator.com/item?id=47897681",
+          "author": "rbanffy",
+          "description": "Article URL: https://unsung.aresluna.org/plain-text-has-been-around-for-decades-and-its-here-to-stay/\nComments URL: https://news.ycombinator.com/item?id=47897681\nPoints: 63\n# Comments: 10",
+          "link": "https://unsung.aresluna.org/plain-text-has-been-around-for-decades-and-its-here-to-stay/",
+          "publishedOn": "2026-04-25T01:03:09.000Z",
+          "wordCount": 310,
+          "title": "\"Plain text has been around for decades and it's here to stay.\" – Unsung",
+          "imageUrl": "https://unsung.aresluna.org/_media/plain-text-has-been-around-for-decades-and-its-here-to-stay/ogimage.png"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=47897647",
           "author": "pigeons",
           "description": "Article URL: https://github.com/yuvadm/quantumslop/blob/25ad2e76ae58baa96f6219742459407db9dd17f5/URANDOM_DEMO.md\nComments URL: https://news.ycombinator.com/item?id=47897647\nPoints: 92\n# Comments: 12",
@@ -24,6 +44,16 @@
           "wordCount": 3982,
           "title": "Replace IBM Quantum back end with /dev/urandom",
           "imageUrl": "https://opengraph.githubassets.com/dd20bdd87354499b4da3683102de22da6f2cab80331acbcf67dd7b7dcdc1c14a/yuvadm/quantumslop"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47897349",
+          "author": "signor_bosco",
+          "description": "Article URL: https://www.ncregister.com/commentaries/schnell-repairing-the-ruins\nComments URL: https://news.ycombinator.com/item?id=47897349\nPoints: 51\n# Comments: 15",
+          "link": "https://www.ncregister.com/commentaries/schnell-repairing-the-ruins",
+          "publishedOn": "2026-04-25T00:11:43.000Z",
+          "wordCount": 3452,
+          "title": "Education must go beyond the mere production of words",
+          "imageUrl": "https://publisher-ncreg.s3.us-east-2.amazonaws.com/pb-ncregister/swp/hv9hms/media/20260413130448_4d60cd45bf09ec6c6458206316ebcdb787d8eff3f45c203e05d3b521f31886ef.jpg"
         },
         {
           "id": "https://news.ycombinator.com/item?id=47896163",
@@ -13304,56 +13334,6 @@
           "wordCount": 324,
           "title": "I'll buy your electronics to feed our robot",
           "imageUrl": "https://dayworkx.com/og.svg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47534629",
-          "author": "JohnHammersley",
-          "description": "Article URL: https://home.cern/news/news/cern/cern-host-europes-flagship-open-access-publishing-platform\nComments URL: https://news.ycombinator.com/item?id=47534629\nPoints: 57\n# Comments: 2",
-          "link": "https://home.cern/news/news/cern/cern-host-europes-flagship-open-access-publishing-platform",
-          "publishedOn": "2026-03-26T19:30:35.000Z",
-          "wordCount": 1325,
-          "title": "CERN to host Europe's flagship open access publishing platform",
-          "imageUrl": "https://cds.cern.ch/images//file?size=medium"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47534564",
-          "author": "philip1209",
-          "description": "https://x.com/trychroma/status/2037243681988894950\nhttps://xcancel.com/trychroma/status/2037243681988894950\nComments URL: https://news.ycombinator.com/item?id=47534564\nPoints: 56\n# Comments: 4",
-          "link": "https://www.trychroma.com/research/context-1",
-          "publishedOn": "2026-03-26T19:25:19.000Z",
-          "wordCount": 24136,
-          "title": "Chroma Context-1: Training a Self-Editing Search Agent",
-          "imageUrl": "https://www.trychroma.com/img/context_1/card.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47534283",
-          "author": "russellthehippo",
-          "description": "I built a SQLite VFS in Rust that serves cold queries directly from S3 with sub-second performance, and often much faster.\nIt’s called turbolite. It is experimental, buggy, and may corrupt data. I would not trust it with anything important yet.\nI wanted to explore whether object storage has gotten fast enough to support embedded databases over cloud storage. Filesystems reward tiny random reads and in-place mutation. S3 rewards fewer requests, bigger transfers, immutable objects, and aggressively parallel operations where bandwidth is often the real constraint. This was explicitly inspired by turbopuffer’s ground-up S3-native design. https://turbopuffer.com/blog/turbopuffer\nThe use case I had in mind is lots of mostly-cold SQLite databases (database-per-tenant, database-per-session, or dat…",
-          "link": "https://github.com/russellromney/turbolite",
-          "publishedOn": "2026-03-26T18:58:19.000Z",
-          "wordCount": 15425,
-          "title": "Show HN: Turbolite – a SQLite VFS serving sub-250ms cold JOIN queries from S3",
-          "imageUrl": "https://opengraph.githubassets.com/d7fa00a72f3b294b95b67e08aaf52d645e8ccd697204c7e1d6731434487eca4a/russellromney/turbolite"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47534086",
-          "author": "linsomniac",
-          "description": "Article URL: https://voxday.net/2026/03/25/rip-john-bradley/\nComments URL: https://news.ycombinator.com/item?id=47534086\nPoints: 96\n# Comments: 37",
-          "link": "https://voxday.net/2026/03/25/rip-john-bradley/",
-          "publishedOn": "2026-03-26T18:38:50.000Z",
-          "wordCount": 1888,
-          "title": "John Bradley, author of xv, has passed away",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47533709",
-          "author": "noleary",
-          "description": "Article URL: https://firestriker.org/blog/building-firestriker-why-im-making-civic-tech-free\nComments URL: https://news.ycombinator.com/item?id=47533709\nPoints: 52\n# Comments: 10",
-          "link": "https://firestriker.org/blog/building-firestriker-why-im-making-civic-tech-free",
-          "publishedOn": "2026-03-26T18:03:43.000Z",
-          "wordCount": 4787,
-          "title": "Building FireStriker: Making Civic Tech Free",
-          "imageUrl": null
         }
       ]
     }
