@@ -6,6 +6,26 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=47900506",
+          "author": "marvinborner",
+          "description": "Article URL: https://victortaelin.github.io/lambench/\nComments URL: https://news.ycombinator.com/item?id=47900506\nPoints: 68\n# Comments: 21",
+          "link": "https://victortaelin.github.io/lambench/",
+          "publishedOn": "2026-04-25T11:16:23.000Z",
+          "wordCount": 9386,
+          "title": "Lambda Calculus Benchmark for AI",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47900398",
+          "author": "ingve",
+          "description": "Article URL: https://github.com/MartinGalway/C64_music\nComments URL: https://news.ycombinator.com/item?id=47900398\nPoints: 74\n# Comments: 12",
+          "link": "https://github.com/MartinGalway/C64_music",
+          "publishedOn": "2026-04-25T10:46:14.000Z",
+          "wordCount": 875,
+          "title": "Martin Galway's music source files from 1980's Commodore 64 games",
+          "imageUrl": "https://opengraph.githubassets.com/62aaf245e80932e872943aa98fec27c266aa4af9fec55736191a4689c587fc84/MartinGalway/C64_music"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=47899844",
           "author": "najmuzzaman",
           "description": "I shipped a wiki layer for AI agents that uses markdown + git as the source of truth, with a bleve (BM25) + SQLite index on top. No vector or graph db yet.\nIt runs locally in ~/.wuphf/wiki/ and you can git clone it out if you want to take your knowledge with you.\nThe shape is the one Karpathy has been circling for a while: an LLM-native knowledge substrate that agents both read from and write into, so context compounds across sessions rather than getting re-pasted every morning. Most implementations of that idea land on Postgres, pgvector, Neo4j, Kafka, and a dashboard.\nI wanted to go back to the basics and see how far markdown + git could go before I added anything heavier.\nWhat it does:\n-> Each agent gets a private notebook at agents/{slug}/notebook/.md, plus access to a shared team wiki…",
@@ -1246,6 +1266,16 @@
           "imageUrl": "https://devblogs.microsoft.com/oldnewthing/wp-content/uploads/sites/38/2019/02/ShowCover.jpg"
         },
         {
+          "id": "https://news.ycombinator.com/item?id=47859543",
+          "author": "apollinaire",
+          "description": "Article URL: https://hedgehogreview.com/web-features/thr/posts/the-man-who-invented-the-future\nComments URL: https://news.ycombinator.com/item?id=47859543\nPoints: 50\n# Comments: 14",
+          "link": "https://hedgehogreview.com/web-features/thr/posts/the-man-who-invented-the-future",
+          "publishedOn": "2026-04-22T05:44:27.000Z",
+          "wordCount": null,
+          "title": "A Man Who Invented the Future",
+          "imageUrl": null
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=47858939",
           "author": "Ariarule",
           "description": "Article URL: https://en.wikipedia.org/wiki/Paraloid_B-72\nComments URL: https://news.ycombinator.com/item?id=47858939\nPoints: 112\n# Comments: 21",
@@ -1274,6 +1304,16 @@
           "wordCount": 8905,
           "title": "FBI looks into dead or missing scientists tied to NASA, Blue Origin, SpaceX",
           "imageUrl": "https://fortune.com/img-assets/wp-content/uploads/2026/04/GettyImages-2259084646-e1775848021382.jpg?resize=1200,600"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47857563",
+          "author": "vplesko",
+          "description": "Article URL: https://vplesko.com/posts/how_to_implement_an_fps_counter.html\nComments URL: https://news.ycombinator.com/item?id=47857563\nPoints: 94\n# Comments: 16",
+          "link": "https://vplesko.com/posts/how_to_implement_an_fps_counter.html",
+          "publishedOn": "2026-04-22T01:31:17.000Z",
+          "wordCount": 2123,
+          "title": "How to Implement an FPS Counter",
+          "imageUrl": null
         },
         {
           "id": "https://news.ycombinator.com/item?id=47857509",
@@ -1534,6 +1574,16 @@
           "wordCount": 1264,
           "title": "As Oceans Warm, Great White Sharks Are Overheating",
           "imageUrl": "https://yale-threesixty.transforms.svdcdn.com/production/Great-White_Wikipedia.jpg?w=1200&q=60&auto=format&fit=max&dm=1776762631&s=9449d79f7186d96a82d0ca990473e42b"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47849455",
+          "author": "colinprince",
+          "description": "Article URL: https://www.gamefile.news/p/panic-mail-arco-despelote-time-flies-thank-goodness-teeth\nComments URL: https://news.ycombinator.com/item?id=47849455\nPoints: 89\n# Comments: 2",
+          "link": "https://www.gamefile.news/p/panic-mail-arco-despelote-time-flies-thank-goodness-teeth",
+          "publishedOn": "2026-04-21T14:39:04.000Z",
+          "wordCount": 5676,
+          "title": "The mail sent to a video game publisher",
+          "imageUrl": "https://substackcdn.com/image/fetch/$s_!7whD!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F75a41406-0680-455b-9755-2cd0fdb9f459_4032x2319.jpeg"
         },
         {
           "id": "https://news.ycombinator.com/item?id=47849315",
