@@ -2,10 +2,25 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-04-25T09:01:14.301Z</updated>
+    <updated>2026-04-25T10:50:36.578Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Show HN: A Karpathy-style LLM wiki your agents maintain (Markdown and Git)]]></title>
+        <id>https://news.ycombinator.com/item?id=47899844</id>
+        <link href="https://github.com/nex-crm/wuphf"/>
+        <updated>2026-04-25T08:53:53.000Z</updated>
+        <summary type="html"><![CDATA[I shipped a wiki layer for AI agents that uses markdown + git as the source of truth, with a bleve (BM25) + SQLite index on top. No vector or graph db yet.
+It runs locally in ~/.wuphf/wiki/ and you can git clone it out if you want to take your knowledge with you.
+The shape is the one Karpathy has been circling for a while: an LLM-native knowledge substrate that agents both read from and write into, so context compounds across sessions rather than getting re-pasted every morning. Most implementations of that idea land on Postgres, pgvector, Neo4j, Kafka, and a dashboard.
+I wanted to go back to the basics and see how far markdown + git could go before I added anything heavier.
+What it does:
+-> Each agent gets a private notebook at agents/{slug}/notebook/.md, plus access to a shared team wiki…]]></summary>
+        <author>
+            <name>najmuzzaman</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[New 10 GbE USB adapters are cooler, smaller, cheaper]]></title>
         <id>https://news.ycombinator.com/item?id=47899053</id>
@@ -43,6 +58,19 @@ Points: 109
 # Comments: 44]]></summary>
         <author>
             <name>nreece</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Cosmology with Geometry Nodes]]></title>
+        <id>https://news.ycombinator.com/item?id=47897706</id>
+        <link href="https://www.blender.org/user-stories/cosmology-with-geometry-nodes/"/>
+        <updated>2026-04-25T01:08:14.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.blender.org/user-stories/cosmology-with-geometry-nodes/
+Comments URL: https://news.ycombinator.com/item?id=47897706
+Points: 61
+# Comments: 1]]></summary>
+        <author>
+            <name>shankysingh</name>
         </author>
     </entry>
     <entry>
@@ -17563,97 +17591,6 @@ Points: 109
 # Comments: 15]]></summary>
         <author>
             <name>theindieman</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: I put an AI agent on a $7/month VPS with IRC as its transport layer]]></title>
-        <id>https://news.ycombinator.com/item?id=47536761</id>
-        <link href="https://georgelarson.me/writing/2026-03-23-nullclaw-doorman/"/>
-        <updated>2026-03-26T22:41:25.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://georgelarson.me/writing/2026-03-23-nullclaw-doorman/
-Comments URL: https://news.ycombinator.com/item?id=47536761
-Points: 112
-# Comments: 39]]></summary>
-        <author>
-            <name>j0rg3</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Multiple Sclerosis]]></title>
-        <id>https://news.ycombinator.com/item?id=47536719</id>
-        <link href="https://subfictional.com/multiple-sclerosis/"/>
-        <updated>2026-03-26T22:37:37.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://subfictional.com/multiple-sclerosis/
-Comments URL: https://news.ycombinator.com/item?id=47536719
-Points: 56
-# Comments: 22]]></summary>
-        <author>
-            <name>luu</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[We rewrote JSONata with AI in a day, saved $500k/year]]></title>
-        <id>https://news.ycombinator.com/item?id=47536712</id>
-        <link href="https://www.reco.ai/blog/we-rewrote-jsonata-with-ai"/>
-        <updated>2026-03-26T22:36:41.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.reco.ai/blog/we-rewrote-jsonata-with-ai
-Comments URL: https://news.ycombinator.com/item?id=47536712
-Points: 88
-# Comments: 91]]></summary>
-        <author>
-            <name>cjlm</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The ANSI art "telecomics" of the 1992 election]]></title>
-        <id>https://news.ycombinator.com/item?id=47536306</id>
-        <link href="https://breakintochat.com/blog/2026/03/25/don-lokke-and-mack-the-mouse/"/>
-        <updated>2026-03-26T21:54:18.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://breakintochat.com/blog/2026/03/25/don-lokke-and-mack-the-mouse/
-Comments URL: https://news.ycombinator.com/item?id=47536306
-Points: 59
-# Comments: 5]]></summary>
-        <author>
-            <name>Kirkman14</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Anthropic Subprocessor Changes]]></title>
-        <id>https://news.ycombinator.com/item?id=47536110</id>
-        <link href="https://trust.anthropic.com/"/>
-        <updated>2026-03-26T21:37:15.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://trust.anthropic.com
-Comments URL: https://news.ycombinator.com/item?id=47536110
-Points: 56
-# Comments: 30]]></summary>
-        <author>
-            <name>tencentshill</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[An unstoppable mushroom is tearing through North American forests]]></title>
-        <id>https://news.ycombinator.com/item?id=47536102</id>
-        <link href="https://www.bbc.com/future/article/20260325-an-unstoppable-mushroom-is-tearing-through-north-american-forests"/>
-        <updated>2026-03-26T21:36:51.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.bbc.com/future/article/20260325-an-unstoppable-mushroom-is-tearing-through-north-american-forests
-Comments URL: https://news.ycombinator.com/item?id=47536102
-Points: 54
-# Comments: 6]]></summary>
-        <author>
-            <name>1659447091</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Apple discontinues the Mac Pro with no plans for future hardware]]></title>
-        <id>https://news.ycombinator.com/item?id=47535708</id>
-        <link href="https://9to5mac.com/2026/03/26/apple-discontinues-the-mac-pro/"/>
-        <updated>2026-03-26T21:04:50.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://9to5mac.com/2026/03/26/apple-discontinues-the-mac-pro/
-Comments URL: https://news.ycombinator.com/item?id=47535708
-Points: 117
-# Comments: 106]]></summary>
-        <author>
-            <name>bentocorp</name>
         </author>
     </entry>
 </feed>

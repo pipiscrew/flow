@@ -6,6 +6,16 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=47899844",
+          "author": "najmuzzaman",
+          "description": "I shipped a wiki layer for AI agents that uses markdown + git as the source of truth, with a bleve (BM25) + SQLite index on top. No vector or graph db yet.\nIt runs locally in ~/.wuphf/wiki/ and you can git clone it out if you want to take your knowledge with you.\nThe shape is the one Karpathy has been circling for a while: an LLM-native knowledge substrate that agents both read from and write into, so context compounds across sessions rather than getting re-pasted every morning. Most implementations of that idea land on Postgres, pgvector, Neo4j, Kafka, and a dashboard.\nI wanted to go back to the basics and see how far markdown + git could go before I added anything heavier.\nWhat it does:\n-> Each agent gets a private notebook at agents/{slug}/notebook/.md, plus access to a shared team wiki…",
+          "link": "https://github.com/nex-crm/wuphf",
+          "publishedOn": "2026-04-25T08:53:53.000Z",
+          "wordCount": 7495,
+          "title": "Show HN: A Karpathy-style LLM wiki your agents maintain (Markdown and Git)",
+          "imageUrl": "https://opengraph.githubassets.com/62a97fdb0daa238957cafd52f65ff64c918324eebd2dd8a7191b4271d066ccd1/nex-crm/wuphf"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=47899053",
           "author": "calcifer",
           "description": "Article URL: https://www.jeffgeerling.com/blog/2026/new-10-gbe-usb-adapters-cooler-smaller-cheaper/\nComments URL: https://news.ycombinator.com/item?id=47899053\nPoints: 115\n# Comments: 31",
@@ -34,6 +44,16 @@
           "wordCount": 2573,
           "title": "Firefox Has Integrated Brave's Adblock Engine",
           "imageUrl": "https://itsfoss.com/content/images/2026/04/firefox-brave-adblock-rust-banner.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47897706",
+          "author": "shankysingh",
+          "description": "Article URL: https://www.blender.org/user-stories/cosmology-with-geometry-nodes/\nComments URL: https://news.ycombinator.com/item?id=47897706\nPoints: 61\n# Comments: 1",
+          "link": "https://www.blender.org/user-stories/cosmology-with-geometry-nodes/",
+          "publishedOn": "2026-04-25T01:08:14.000Z",
+          "wordCount": 4006,
+          "title": "Cosmology with Geometry Nodes",
+          "imageUrl": "https://www.blender.org/wp-content/uploads/2026/01/CosmologyWithGN-480x270.png"
         },
         {
           "id": "https://news.ycombinator.com/item?id=47897681",
@@ -13224,76 +13244,6 @@
           "wordCount": 8225,
           "title": "Order Granting Preliminary Injunction – Anthropic vs. U.S. Department of War [pdf]",
           "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47536761",
-          "author": "j0rg3",
-          "description": "Article URL: https://georgelarson.me/writing/2026-03-23-nullclaw-doorman/\nComments URL: https://news.ycombinator.com/item?id=47536761\nPoints: 112\n# Comments: 39",
-          "link": "https://georgelarson.me/writing/2026-03-23-nullclaw-doorman/",
-          "publishedOn": "2026-03-26T22:41:25.000Z",
-          "wordCount": null,
-          "title": "Show HN: I put an AI agent on a $7/month VPS with IRC as its transport layer",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47536719",
-          "author": "luu",
-          "description": "Article URL: https://subfictional.com/multiple-sclerosis/\nComments URL: https://news.ycombinator.com/item?id=47536719\nPoints: 56\n# Comments: 22",
-          "link": "https://subfictional.com/multiple-sclerosis/",
-          "publishedOn": "2026-03-26T22:37:37.000Z",
-          "wordCount": 3459,
-          "title": "Multiple Sclerosis",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47536712",
-          "author": "cjlm",
-          "description": "Article URL: https://www.reco.ai/blog/we-rewrote-jsonata-with-ai\nComments URL: https://news.ycombinator.com/item?id=47536712\nPoints: 88\n# Comments: 91",
-          "link": "https://www.reco.ai/blog/we-rewrote-jsonata-with-ai",
-          "publishedOn": "2026-03-26T22:36:41.000Z",
-          "wordCount": 5127,
-          "title": "We rewrote JSONata with AI in a day, saved $500k/year",
-          "imageUrl": "https://cdn.prod.website-files.com/644fc991ce69ff211edbeb95/69c41472d9654291b273f039_Blog%20Image%20Website-03-26%20We%20rewrote%20JSONata-%24400%2C%20and%20saved%20us%20%24300K%20(1)%20(1)%20(1).png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47536306",
-          "author": "Kirkman14",
-          "description": "Article URL: https://breakintochat.com/blog/2026/03/25/don-lokke-and-mack-the-mouse/\nComments URL: https://news.ycombinator.com/item?id=47536306\nPoints: 59\n# Comments: 5",
-          "link": "https://breakintochat.com/blog/2026/03/25/don-lokke-and-mack-the-mouse/",
-          "publishedOn": "2026-03-26T21:54:18.000Z",
-          "wordCount": 7068,
-          "title": "The ANSI art \"telecomics\" of the 1992 election",
-          "imageUrl": "https://breakintochat.com/blog/wp-content/uploads/2026/03/josh-telecomics-collage.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47536110",
-          "author": "tencentshill",
-          "description": "Article URL: https://trust.anthropic.com\nComments URL: https://news.ycombinator.com/item?id=47536110\nPoints: 56\n# Comments: 30",
-          "link": "https://trust.anthropic.com/",
-          "publishedOn": "2026-03-26T21:37:15.000Z",
-          "wordCount": 68,
-          "title": "Anthropic Subprocessor Changes",
-          "imageUrl": "https://app.vanta.com/doc?s=sy1uft0hltb14h4h4wwvu"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47536102",
-          "author": "1659447091",
-          "description": "Article URL: https://www.bbc.com/future/article/20260325-an-unstoppable-mushroom-is-tearing-through-north-american-forests\nComments URL: https://news.ycombinator.com/item?id=47536102\nPoints: 54\n# Comments: 6",
-          "link": "https://www.bbc.com/future/article/20260325-an-unstoppable-mushroom-is-tearing-through-north-american-forests",
-          "publishedOn": "2026-03-26T21:36:51.000Z",
-          "wordCount": 11749,
-          "title": "An unstoppable mushroom is tearing through North American forests",
-          "imageUrl": "https://ychef.files.bbci.co.uk/624x351/p0n8q080.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47535708",
-          "author": "bentocorp",
-          "description": "Article URL: https://9to5mac.com/2026/03/26/apple-discontinues-the-mac-pro/\nComments URL: https://news.ycombinator.com/item?id=47535708\nPoints: 117\n# Comments: 106",
-          "link": "https://9to5mac.com/2026/03/26/apple-discontinues-the-mac-pro/",
-          "publishedOn": "2026-03-26T21:04:50.000Z",
-          "wordCount": 3154,
-          "title": "Apple discontinues the Mac Pro with no plans for future hardware",
-          "imageUrl": "https://i0.wp.com/9to5mac.com/wp-content/uploads/sites/6/2026/03/mac-pro-rip.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1"
         }
       ]
     }
