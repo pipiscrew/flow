@@ -6,6 +6,26 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=47920787",
+          "author": "GodelNumbering",
+          "description": "Scored 65.2% vs google's official 47.8%, and the existing top closed source model Junie CLI's 64.3%.\nSince there are a lot of reports of deliberate cheating on TerminalBench 2.0 lately (https://debugml.github.io/cheating-agents/), I would like to also clarify a few things\n1. Absolutely no {agents/skills}.md files were inserted at any point. No cheating mechanisms whatsoever\n2. The cli agent was run in leaderboard compliant way (no modification of resources or timeouts)\n3. The full terminal bench run was done using the fully open source version of the agent, no difference between what is on github and what was run.\nI was originally going to wait for it to land on the leaderboard, but it has been 8 days and the maintainers do not respond unfortunately (there is a large backlog of the pull requests on their HF) so I decided to post anyways.\nHF PR: https://huggingface.co/datasets/harborframework/terminal-ben...\nIt is astounding how much the harness matters, based on this and other experiments I have done.\nComments URL: https://news.ycombinator.com/item?id=47920787\nPoints: 64\n# Comments: 20",
+          "link": "https://github.com/dirac-run/dirac",
+          "publishedOn": "2026-04-27T12:35:55.000Z",
+          "wordCount": 3930,
+          "title": "Show HN: OSS Agent I built topped the TerminalBench on Gemini-3-flash-preview",
+          "imageUrl": "https://repository-images.githubusercontent.com/1202290616/3387b54d-bb91-4e2a-a35b-b933836bafad"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47920074",
+          "author": "aselimov3",
+          "description": "Article URL: https://www.alexselimov.com/posts/men_who_stare_at_walls/\nComments URL: https://news.ycombinator.com/item?id=47920074\nPoints: 64\n# Comments: 31",
+          "link": "https://www.alexselimov.com/posts/men_who_stare_at_walls/",
+          "publishedOn": "2026-04-27T11:08:26.000Z",
+          "wordCount": 596,
+          "title": "Men Who Stare at Walls",
+          "imageUrl": "https://www.alexselimov.com/images/social_card_bg_hu_127c2191fa265490.webp"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=47919997",
           "author": "c0l0",
           "description": "Article URL: https://github.com/pgbackrest/pgbackrest\nComments URL: https://news.ycombinator.com/item?id=47919997\nPoints: 70\n# Comments: 17",
@@ -14,6 +34,26 @@
           "wordCount": 5925,
           "title": "Pgbackrest is no longer being maintained",
           "imageUrl": "https://opengraph.githubassets.com/beb0889337e1ef0dadace087f246eef118212b557b3130e0d5077c0da30f382d/pgbackrest/pgbackrest"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47919725",
+          "author": "rzk",
+          "description": "Article URL: https://www.forbes.com/sites/iainmartin/2026/04/16/how-frances-mistral-built-a-14-billion-ai-empire-by-not-being-american/\nComments URL: https://news.ycombinator.com/item?id=47919725\nPoints: 111\n# Comments: 66",
+          "link": "https://www.forbes.com/sites/iainmartin/2026/04/16/how-frances-mistral-built-a-14-billion-ai-empire-by-not-being-american/",
+          "publishedOn": "2026-04-27T10:14:15.000Z",
+          "wordCount": 26136,
+          "title": "France's Mistral Built a $14B AI Empire by Not Being American",
+          "imageUrl": "https://imageio.forbes.com/specials-images/imageserve/69c597be55948344bd3098ce/0x0.jpg?format=jpg&height=900&width=1600&fit=bounds"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47919240",
+          "author": "amai",
+          "description": "Article URL: https://quarkdown.com/\nComments URL: https://news.ycombinator.com/item?id=47919240\nPoints: 54\n# Comments: 9",
+          "link": "https://quarkdown.com/",
+          "publishedOn": "2026-04-27T08:54:57.000Z",
+          "wordCount": 599,
+          "title": "Quarkdown – Markdown with Superpowers",
+          "imageUrl": "https://quarkdown.com/og-image.jpg"
         },
         {
           "id": "https://news.ycombinator.com/item?id=47918961",
@@ -406,6 +446,16 @@
           "imageUrl": null
         },
         {
+          "id": "https://news.ycombinator.com/item?id=47906666",
+          "author": "o4c",
+          "description": "Article URL: https://pressbooks-dev.oer.hawaii.edu/epet302/\nComments URL: https://news.ycombinator.com/item?id=47906666\nPoints: 54\n# Comments: 3",
+          "link": "https://pressbooks-dev.oer.hawaii.edu/epet302/",
+          "publishedOn": "2026-04-26T02:15:36.000Z",
+          "wordCount": 1307,
+          "title": "A Guide to CubeSat Mission and Bus Design",
+          "imageUrl": "https://pressbooks-dev.oer.hawaii.edu/epet302/wp-content/uploads/sites/147/2022/09/Screenshot-2022-09-06-134408.png"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=47906420",
           "author": "ddrmaxgt37",
           "description": "Article URL: https://arun.is/blog/cheap-cool/\nComments URL: https://news.ycombinator.com/item?id=47906420\nPoints: 78\n# Comments: 26",
@@ -614,6 +664,16 @@
           "wordCount": 23875,
           "title": "A Collection of Chronic Medical Conditions Common in Autistic and ADHD Adults [pdf] (2023)",
           "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47901433",
+          "author": "BoingBoomTschak",
+          "description": "Article URL: https://github.com/WeebLabs/DSPi\nComments URL: https://news.ycombinator.com/item?id=47901433\nPoints: 116\n# Comments: 23",
+          "link": "https://github.com/WeebLabs/DSPi",
+          "publishedOn": "2026-04-25T13:28:29.000Z",
+          "wordCount": 16405,
+          "title": "Fully Featured Audio DSP Firmware for the Raspberry Pi Pico",
+          "imageUrl": "https://opengraph.githubassets.com/5c92e54ea2c32bff833a97bad4bead21f6390697736f4bf803bb5756a940f3c4/WeebLabs/DSPi"
         },
         {
           "id": "https://news.ycombinator.com/item?id=47901312",
@@ -1554,6 +1614,16 @@
           "wordCount": 1478,
           "title": "UK Biobank health data keeps ending up on GitHub",
           "imageUrl": "https://biobank.rocher.lc/og.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47875795",
+          "author": "skogstokig",
+          "description": "Article URL: https://flipdisc.io\nComments URL: https://news.ycombinator.com/item?id=47875795\nPoints: 388\n# Comments: 67",
+          "link": "https://flipdisc.io/",
+          "publishedOn": "2026-04-23T13:54:31.000Z",
+          "wordCount": 2208,
+          "title": "Flipdiscs",
+          "imageUrl": "/og-image.jpg"
         },
         {
           "id": "https://news.ycombinator.com/item?id=47875629",
@@ -13284,16 +13354,6 @@
           "wordCount": 2300,
           "title": "OpenYak – An open-source Cowork that runs any model and owns your filesystem",
           "imageUrl": "https://opengraph.githubassets.com/6d8a1340b6430b76c53303bcbf0a834c904d2cb8fb0e5cf07c160321815759c9/openyak/desktop"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47559481",
-          "author": "bookofjoe",
-          "description": "Article URL: https://www.bmj.com/content/387/bmj-2024-082194\nComments URL: https://news.ycombinator.com/item?id=47559481\nPoints: 95\n# Comments: 55",
-          "link": "https://www.bmj.com/content/387/bmj-2024-082194",
-          "publishedOn": "2026-03-29T00:53:30.000Z",
-          "wordCount": 4237,
-          "title": "Alzheimer's disease mortality among taxi and ambulance drivers (2024)",
-          "imageUrl": null
         }
       ]
     }

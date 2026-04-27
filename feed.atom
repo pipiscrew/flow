@@ -2,10 +2,43 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-04-27T11:49:48.572Z</updated>
+    <updated>2026-04-27T14:10:27.263Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Show HN: OSS Agent I built topped the TerminalBench on Gemini-3-flash-preview]]></title>
+        <id>https://news.ycombinator.com/item?id=47920787</id>
+        <link href="https://github.com/dirac-run/dirac"/>
+        <updated>2026-04-27T12:35:55.000Z</updated>
+        <summary type="html"><![CDATA[Scored 65.2% vs google's official 47.8%, and the existing top closed source model Junie CLI's 64.3%.
+Since there are a lot of reports of deliberate cheating on TerminalBench 2.0 lately (https://debugml.github.io/cheating-agents/), I would like to also clarify a few things
+1. Absolutely no {agents/skills}.md files were inserted at any point. No cheating mechanisms whatsoever
+2. The cli agent was run in leaderboard compliant way (no modification of resources or timeouts)
+3. The full terminal bench run was done using the fully open source version of the agent, no difference between what is on github and what was run.
+I was originally going to wait for it to land on the leaderboard, but it has been 8 days and the maintainers do not respond unfortunately (there is a large backlog of the pull requests on their HF) so I decided to post anyways.
+HF PR: https://huggingface.co/datasets/harborframework/terminal-ben...
+It is astounding how much the harness matters, based on this and other experiments I have done.
+Comments URL: https://news.ycombinator.com/item?id=47920787
+Points: 64
+# Comments: 20]]></summary>
+        <author>
+            <name>GodelNumbering</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Men Who Stare at Walls]]></title>
+        <id>https://news.ycombinator.com/item?id=47920074</id>
+        <link href="https://www.alexselimov.com/posts/men_who_stare_at_walls/"/>
+        <updated>2026-04-27T11:08:26.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.alexselimov.com/posts/men_who_stare_at_walls/
+Comments URL: https://news.ycombinator.com/item?id=47920074
+Points: 64
+# Comments: 31]]></summary>
+        <author>
+            <name>aselimov3</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Pgbackrest is no longer being maintained]]></title>
         <id>https://news.ycombinator.com/item?id=47919997</id>
@@ -17,6 +50,32 @@ Points: 70
 # Comments: 17]]></summary>
         <author>
             <name>c0l0</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[France's Mistral Built a $14B AI Empire by Not Being American]]></title>
+        <id>https://news.ycombinator.com/item?id=47919725</id>
+        <link href="https://www.forbes.com/sites/iainmartin/2026/04/16/how-frances-mistral-built-a-14-billion-ai-empire-by-not-being-american/"/>
+        <updated>2026-04-27T10:14:15.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.forbes.com/sites/iainmartin/2026/04/16/how-frances-mistral-built-a-14-billion-ai-empire-by-not-being-american/
+Comments URL: https://news.ycombinator.com/item?id=47919725
+Points: 111
+# Comments: 66]]></summary>
+        <author>
+            <name>rzk</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Quarkdown – Markdown with Superpowers]]></title>
+        <id>https://news.ycombinator.com/item?id=47919240</id>
+        <link href="https://quarkdown.com/"/>
+        <updated>2026-04-27T08:54:57.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://quarkdown.com/
+Comments URL: https://news.ycombinator.com/item?id=47919240
+Points: 54
+# Comments: 9]]></summary>
+        <author>
+            <name>amai</name>
         </author>
     </entry>
     <entry>
@@ -531,6 +590,19 @@ Points: 67
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[A Guide to CubeSat Mission and Bus Design]]></title>
+        <id>https://news.ycombinator.com/item?id=47906666</id>
+        <link href="https://pressbooks-dev.oer.hawaii.edu/epet302/"/>
+        <updated>2026-04-26T02:15:36.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://pressbooks-dev.oer.hawaii.edu/epet302/
+Comments URL: https://news.ycombinator.com/item?id=47906666
+Points: 54
+# Comments: 3]]></summary>
+        <author>
+            <name>o4c</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[When the cheap one is the cool one]]></title>
         <id>https://news.ycombinator.com/item?id=47906420</id>
         <link href="https://arun.is/blog/cheap-cool/"/>
@@ -803,6 +875,19 @@ Points: 50
 # Comments: 30]]></summary>
         <author>
             <name>AndrewDucker</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Fully Featured Audio DSP Firmware for the Raspberry Pi Pico]]></title>
+        <id>https://news.ycombinator.com/item?id=47901433</id>
+        <link href="https://github.com/WeebLabs/DSPi"/>
+        <updated>2026-04-25T13:28:29.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://github.com/WeebLabs/DSPi
+Comments URL: https://news.ycombinator.com/item?id=47901433
+Points: 116
+# Comments: 23]]></summary>
+        <author>
+            <name>BoingBoomTschak</name>
         </author>
     </entry>
     <entry>
@@ -2076,6 +2161,19 @@ Points: 51
 # Comments: 14]]></summary>
         <author>
             <name>Cynddl</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Flipdiscs]]></title>
+        <id>https://news.ycombinator.com/item?id=47875795</id>
+        <link href="https://flipdisc.io/"/>
+        <updated>2026-04-23T13:54:31.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://flipdisc.io
+Comments URL: https://news.ycombinator.com/item?id=47875795
+Points: 388
+# Comments: 67]]></summary>
+        <author>
+            <name>skogstokig</name>
         </author>
     </entry>
     <entry>
@@ -17621,19 +17719,6 @@ Points: 58
 # Comments: 23]]></summary>
         <author>
             <name>wangzhangwu</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Alzheimer's disease mortality among taxi and ambulance drivers (2024)]]></title>
-        <id>https://news.ycombinator.com/item?id=47559481</id>
-        <link href="https://www.bmj.com/content/387/bmj-2024-082194"/>
-        <updated>2026-03-29T00:53:30.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.bmj.com/content/387/bmj-2024-082194
-Comments URL: https://news.ycombinator.com/item?id=47559481
-Points: 95
-# Comments: 55]]></summary>
-        <author>
-            <name>bookofjoe</name>
         </author>
     </entry>
 </feed>
