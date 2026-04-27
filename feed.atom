@@ -2,10 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-04-26T23:48:07.970Z</updated>
+    <updated>2026-04-27T03:41:06.063Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Google banks on AI edge to catch up to cloud rivals Amazon and Microsoft]]></title>
+        <id>https://news.ycombinator.com/item?id=47916410</id>
+        <link href="https://www.ft.com/content/2429f0f0-b685-4747-b425-bf8001a2e94c"/>
+        <updated>2026-04-27T00:34:30.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.ft.com/content/2429f0f0-b685-4747-b425-bf8001a2e94c
+Comments URL: https://news.ycombinator.com/item?id=47916410
+Points: 78
+# Comments: 45]]></summary>
+        <author>
+            <name>donsupreme</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Butterflies are in decline across North America, a look at the Western Monarch]]></title>
         <id>https://news.ycombinator.com/item?id=47914677</id>
@@ -17,6 +30,23 @@ Points: 54
 # Comments: 10]]></summary>
         <author>
             <name>1659447091</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: AI memory with biological decay (52% recall)]]></title>
+        <id>https://news.ycombinator.com/item?id=47914367</id>
+        <link href="https://github.com/sachitrafa/YourMemory"/>
+        <updated>2026-04-26T20:58:31.000Z</updated>
+        <summary type="html"><![CDATA[Most RAG setups fail because they treat memory like a static filing cabinet. When every transient bug fix or abandoned rule is stored forever, the context window eventually chokes on noise, spiking token costs and degrading the agent's reasoning.
+This implementation experiments with a biological approach by using the Ebbinghaus forgetting curve to manage context as a living substrate. Memories are assigned a "strength" score where each recall reinforces the data and flattens its decay curve (spaced repetition), while unused data eventually hits a threshold and is pruned.
+To solve the "logical neighbor" problem where semantic search misses relevant but non-similar nodes, a graph layer is layered over the vector store. Benchmarked against the LoCoMo dataset, this reached 52% Recall@5, nearly double the accuracy of stateless vector stores, while cutting token waste by roughly 84%.
+Built as a local first MCP server using DuckDB, the hypothesis is that for agents handling long-running projects, "what to forget" is just as critical as "what to remember." I'd be interested to hear if others are exploring non-linear decay or similar biological constraints for context management.
+GitHub: https://github.com/sachitrafa/cognitive-ai-memory
+Comments URL: https://news.ycombinator.com/item?id=47914367
+Points: 70
+# Comments: 32]]></summary>
+        <author>
+            <name>SachitRafa</name>
         </author>
     </entry>
     <entry>
@@ -108,6 +138,19 @@ Points: 82
 # Comments: 29]]></summary>
         <author>
             <name>keiferski</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Chernobyl wildlife forty years on]]></title>
+        <id>https://news.ycombinator.com/item?id=47913382</id>
+        <link href="https://www.bbc.com/future/article/20260424-chernobyl-wildlife-forty-years-on"/>
+        <updated>2026-04-26T19:42:59.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.bbc.com/future/article/20260424-chernobyl-wildlife-forty-years-on
+Comments URL: https://news.ycombinator.com/item?id=47913382
+Points: 57
+# Comments: 4]]></summary>
+        <author>
+            <name>reconnecting</name>
         </author>
     </entry>
     <entry>
@@ -306,6 +349,19 @@ Points: 52
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Self-updating screenshots]]></title>
+        <id>https://news.ycombinator.com/item?id=47908051</id>
+        <link href="https://interblah.net/self-updating-screenshots"/>
+        <updated>2026-04-26T07:00:39.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://interblah.net/self-updating-screenshots
+Comments URL: https://news.ycombinator.com/item?id=47908051
+Points: 106
+# Comments: 17]]></summary>
+        <author>
+            <name>bjhess</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[The West Forgot How to Make Things. Now It's Forgetting How to Code]]></title>
         <id>https://news.ycombinator.com/item?id=47907879</id>
         <link href="https://techtrenches.dev/p/the-west-forgot-how-to-make-things"/>
@@ -474,6 +530,19 @@ Points: 83
 # Comments: 93]]></summary>
         <author>
             <name>sleepyguy</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Three constraints before I build anything]]></title>
+        <id>https://news.ycombinator.com/item?id=47903541</id>
+        <link href="https://jordanlord.co.uk/blog/3-constraints/"/>
+        <updated>2026-04-25T18:41:03.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://jordanlord.co.uk/blog/3-constraints/
+Comments URL: https://news.ycombinator.com/item?id=47903541
+Points: 82
+# Comments: 13]]></summary>
+        <author>
+            <name>nervous_north</name>
         </author>
     </entry>
     <entry>
@@ -1679,6 +1748,19 @@ Points: 391
 # Comments: 282]]></summary>
         <author>
             <name>pavel_lishin</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Box to save memory in Rust]]></title>
+        <id>https://news.ycombinator.com/item?id=47878231</id>
+        <link href="https://dystroy.org/blog/box-to-save-memory/"/>
+        <updated>2026-04-23T17:02:24.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://dystroy.org/blog/box-to-save-memory/
+Comments URL: https://news.ycombinator.com/item?id=47878231
+Points: 84
+# Comments: 19]]></summary>
+        <author>
+            <name>emschwartz</name>
         </author>
     </entry>
     <entry>
@@ -17759,123 +17841,6 @@ Points: 54
 # Comments: 5]]></summary>
         <author>
             <name>Kye</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[I decompiled the White House's new app]]></title>
-        <id>https://news.ycombinator.com/item?id=47555556</id>
-        <link href="https://thereallo.dev/blog/decompiling-the-white-house-app"/>
-        <updated>2026-03-28T15:37:17.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://thereallo.dev/blog/decompiling-the-white-house-app
-Comments URL: https://news.ycombinator.com/item?id=47555556
-Points: 56
-# Comments: 19]]></summary>
-        <author>
-            <name>amarcheschi</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Audio tapes reveal mass rule-breaking in Milgram's obedience experiments]]></title>
-        <id>https://news.ycombinator.com/item?id=47555273</id>
-        <link href="https://www.psypost.org/audio-tapes-reveal-mass-rule-breaking-in-milgram-s-obedience-experiments-2026-03-26/"/>
-        <updated>2026-03-28T15:08:22.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.psypost.org/audio-tapes-reveal-mass-rule-breaking-in-milgram-s-obedience-experiments-2026-03-26/
-Comments URL: https://news.ycombinator.com/item?id=47555273
-Points: 58
-# Comments: 34]]></summary>
-        <author>
-            <name>lentoutcry</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Folk are getting dangerously attached to AI that always tells them they're right]]></title>
-        <id>https://news.ycombinator.com/item?id=47555090</id>
-        <link href="https://www.theregister.com/2026/03/27/sycophantic_ai_risks/"/>
-        <updated>2026-03-28T14:49:25.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.theregister.com/2026/03/27/sycophantic_ai_risks/
-Comments URL: https://news.ycombinator.com/item?id=47555090
-Points: 99
-# Comments: 57]]></summary>
-        <author>
-            <name>Brajeshwar</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[ICAO issued new power bank restriction on flight]]></title>
-        <id>https://news.ycombinator.com/item?id=47554948</id>
-        <link href="https://www.icao.int/news/new-power-bank-restrictions-will-safeguard-international-aviation"/>
-        <updated>2026-03-28T14:30:30.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.icao.int/news/new-power-bank-restrictions-will-safeguard-international-aviation
-Comments URL: https://news.ycombinator.com/item?id=47554948
-Points: 52
-# Comments: 72]]></summary>
-        <author>
-            <name>phantomathkg</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AI chatbots are "Yes-Men" that reinforce bad relationship decisions, study finds]]></title>
-        <id>https://news.ycombinator.com/item?id=47554773</id>
-        <link href="https://news.stanford.edu/stories/2026/03/ai-advice-sycophantic-models-research"/>
-        <updated>2026-03-28T14:08:33.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://news.stanford.edu/stories/2026/03/ai-advice-sycophantic-models-research
-Comments URL: https://news.ycombinator.com/item?id=47554773
-Points: 99
-# Comments: 83]]></summary>
-        <author>
-            <name>oldfrenchfries</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Roulette Computers: Hidden Devices That Predict Spins]]></title>
-        <id>https://news.ycombinator.com/item?id=47554493</id>
-        <link href="https://www.roulette-computers.com/"/>
-        <updated>2026-03-28T13:39:40.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.roulette-computers.com/
-Comments URL: https://news.ycombinator.com/item?id=47554493
-Points: 83
-# Comments: 30]]></summary>
-        <author>
-            <name>o4c</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[From Proxmox to FreeBSD and Sylve in our office lab]]></title>
-        <id>https://news.ycombinator.com/item?id=47553910</id>
-        <link href="https://www.iptechnics.com/blogs/from-proxmox-to-freebsd-and-sylve-in-our-office-lab"/>
-        <updated>2026-03-28T12:20:28.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.iptechnics.com/blogs/from-proxmox-to-freebsd-and-sylve-in-our-office-lab
-Comments URL: https://news.ycombinator.com/item?id=47553910
-Points: 63
-# Comments: 51]]></summary>
-        <author>
-            <name>arch1e</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[I put all 8,642 Spanish laws in Git – every reform is a commit]]></title>
-        <id>https://news.ycombinator.com/item?id=47553798</id>
-        <link href="https://github.com/EnriqueLop/legalize-es"/>
-        <updated>2026-03-28T12:01:27.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://github.com/EnriqueLop/legalize-es
-Comments URL: https://news.ycombinator.com/item?id=47553798
-Points: 311
-# Comments: 98]]></summary>
-        <author>
-            <name>enriquelop</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[I Built an Open-World Engine for the N64 [video]]]></title>
-        <id>https://news.ycombinator.com/item?id=47553717</id>
-        <link href="https://www.youtube.com/watch?v=lXxmIw9axWw"/>
-        <updated>2026-03-28T11:49:28.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.youtube.com/watch?v=lXxmIw9axWw
-Comments URL: https://news.ycombinator.com/item?id=47553717
-Points: 112
-# Comments: 10]]></summary>
-        <author>
-            <name>msephton</name>
         </author>
     </entry>
 </feed>

@@ -6,6 +6,16 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=47916410",
+          "author": "donsupreme",
+          "description": "Article URL: https://www.ft.com/content/2429f0f0-b685-4747-b425-bf8001a2e94c\nComments URL: https://news.ycombinator.com/item?id=47916410\nPoints: 78\n# Comments: 45",
+          "link": "https://www.ft.com/content/2429f0f0-b685-4747-b425-bf8001a2e94c",
+          "publishedOn": "2026-04-27T00:34:30.000Z",
+          "wordCount": null,
+          "title": "Google banks on AI edge to catch up to cloud rivals Amazon and Microsoft",
+          "imageUrl": null
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=47914677",
           "author": "1659447091",
           "description": "Article URL: https://www.smithsonianmag.com/science-nature/butterflies-are-in-dramatic-decline-across-north-america-a-close-look-at-the-western-monarch-shows-why-180988582/\nComments URL: https://news.ycombinator.com/item?id=47914677\nPoints: 54\n# Comments: 10",
@@ -14,6 +24,16 @@
           "wordCount": 3989,
           "title": "Butterflies are in decline across North America, a look at the Western Monarch",
           "imageUrl": "https://th-thumbnailer.cdn-si-edu.com/-pUy-tpdhYEeFuT3-STWXN5xIIc=/fit-in/1600x0/filters:focal(2784x1856:2785x1857)/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer_public/f0/cc/f0cccc48-0697-4243-89b0-1e93aa195dc2/dsc_0152.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47914367",
+          "author": "SachitRafa",
+          "description": "Most RAG setups fail because they treat memory like a static filing cabinet. When every transient bug fix or abandoned rule is stored forever, the context window eventually chokes on noise, spiking token costs and degrading the agent's reasoning.\nThis implementation experiments with a biological approach by using the Ebbinghaus forgetting curve to manage context as a living substrate. Memories are assigned a \"strength\" score where each recall reinforces the data and flattens its decay curve (spaced repetition), while unused data eventually hits a threshold and is pruned.\nTo solve the \"logical neighbor\" problem where semantic search misses relevant but non-similar nodes, a graph layer is layered over the vector store. Benchmarked against the LoCoMo dataset, this reached 52% Recall@5, nearly double the accuracy of stateless vector stores, while cutting token waste by roughly 84%.\nBuilt as a local first MCP server using DuckDB, the hypothesis is that for agents handling long-running projects, \"what to forget\" is just as critical as \"what to remember.\" I'd be interested to hear if others are exploring non-linear decay or similar biological constraints for context management.\nGitHub: https://github.com/sachitrafa/cognitive-ai-memory\nComments URL: https://news.ycombinator.com/item?id=47914367\nPoints: 70\n# Comments: 32",
+          "link": "https://github.com/sachitrafa/YourMemory",
+          "publishedOn": "2026-04-26T20:58:31.000Z",
+          "wordCount": 5629,
+          "title": "Show HN: AI memory with biological decay (52% recall)",
+          "imageUrl": "https://opengraph.githubassets.com/c39a1fda2e7cd39a50ee0e26b20ff2cf8e1ca9d9da328f6362cf6f118214d97b/sachitrafa/YourMemory"
         },
         {
           "id": "https://news.ycombinator.com/item?id=47914350",
@@ -84,6 +104,16 @@
           "wordCount": 342,
           "title": "The 1944 Warsaw Uprising, in Color",
           "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47913382",
+          "author": "reconnecting",
+          "description": "Article URL: https://www.bbc.com/future/article/20260424-chernobyl-wildlife-forty-years-on\nComments URL: https://news.ycombinator.com/item?id=47913382\nPoints: 57\n# Comments: 4",
+          "link": "https://www.bbc.com/future/article/20260424-chernobyl-wildlife-forty-years-on",
+          "publishedOn": "2026-04-26T19:42:59.000Z",
+          "wordCount": 10394,
+          "title": "Chernobyl wildlife forty years on",
+          "imageUrl": "https://ychef.files.bbci.co.uk/624x351/p0ngd8ng.jpg"
         },
         {
           "id": "https://news.ycombinator.com/item?id=47912645",
@@ -236,6 +266,16 @@
           "imageUrl": null
         },
         {
+          "id": "https://news.ycombinator.com/item?id=47908051",
+          "author": "bjhess",
+          "description": "Article URL: https://interblah.net/self-updating-screenshots\nComments URL: https://news.ycombinator.com/item?id=47908051\nPoints: 106\n# Comments: 17",
+          "link": "https://interblah.net/self-updating-screenshots",
+          "publishedOn": "2026-04-26T07:00:39.000Z",
+          "wordCount": 772,
+          "title": "Self-updating screenshots",
+          "imageUrl": null
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=47907879",
           "author": "milkglass",
           "description": "Article URL: https://techtrenches.dev/p/the-west-forgot-how-to-make-things\nComments URL: https://news.ycombinator.com/item?id=47907879\nPoints: 155\n# Comments: 63",
@@ -364,6 +404,16 @@
           "wordCount": 4837,
           "title": "America's Geothermal Breakthrough",
           "imageUrl": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-04-23_qw906tcvvx.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47903541",
+          "author": "nervous_north",
+          "description": "Article URL: https://jordanlord.co.uk/blog/3-constraints/\nComments URL: https://news.ycombinator.com/item?id=47903541\nPoints: 82\n# Comments: 13",
+          "link": "https://jordanlord.co.uk/blog/3-constraints/",
+          "publishedOn": "2026-04-25T18:41:03.000Z",
+          "wordCount": 661,
+          "title": "Three constraints before I build anything",
+          "imageUrl": null
         },
         {
           "id": "https://news.ycombinator.com/item?id=47903173",
@@ -1254,6 +1304,16 @@
           "wordCount": 30354,
           "title": "Palantir employees are starting to wonder if they're the bad guys",
           "imageUrl": "https://media.wired.com/photos/69d3c62396de4781bbc4cf6e/191:100/w_1280,c_limit/GettyImages-2268833968.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47878231",
+          "author": "emschwartz",
+          "description": "Article URL: https://dystroy.org/blog/box-to-save-memory/\nComments URL: https://news.ycombinator.com/item?id=47878231\nPoints: 84\n# Comments: 19",
+          "link": "https://dystroy.org/blog/box-to-save-memory/",
+          "publishedOn": "2026-04-23T17:02:24.000Z",
+          "wordCount": 1435,
+          "title": "Box to save memory in Rust",
+          "imageUrl": "https://dystroy.org/dystroy-rust-consulting.png"
         },
         {
           "id": "https://news.ycombinator.com/item?id=47878117",
@@ -13374,96 +13434,6 @@
           "wordCount": 922,
           "title": "rpg.actor Game Jam",
           "imageUrl": "https://rpg.actor/assets/cover.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47555556",
-          "author": "amarcheschi",
-          "description": "Article URL: https://thereallo.dev/blog/decompiling-the-white-house-app\nComments URL: https://news.ycombinator.com/item?id=47555556\nPoints: 56\n# Comments: 19",
-          "link": "https://thereallo.dev/blog/decompiling-the-white-house-app",
-          "publishedOn": "2026-03-28T15:37:17.000Z",
-          "wordCount": 4603,
-          "title": "I decompiled the White House's new app",
-          "imageUrl": "https://thereallo.dev/api/og?title=I%20Decompiled%20the%20White%20House's%20New%20App&description=The%20official%20White%20House%20Android%20app%20has%20a%20cookie/paywall%20bypass%20injector,%20tracks%20your%20GPS%20every%204.5%20minutes,%20and%20loads%20JavaScript%20from%20some%20guy's%20GitHub%20Pages."
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47555273",
-          "author": "lentoutcry",
-          "description": "Article URL: https://www.psypost.org/audio-tapes-reveal-mass-rule-breaking-in-milgram-s-obedience-experiments-2026-03-26/\nComments URL: https://news.ycombinator.com/item?id=47555273\nPoints: 58\n# Comments: 34",
-          "link": "https://www.psypost.org/audio-tapes-reveal-mass-rule-breaking-in-milgram-s-obedience-experiments-2026-03-26/",
-          "publishedOn": "2026-03-28T15:08:22.000Z",
-          "wordCount": 6463,
-          "title": "Audio tapes reveal mass rule-breaking in Milgram's obedience experiments",
-          "imageUrl": "https://www.psypost.org/wp-content/uploads/2024/01/stanley-milgram-experiment-1.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47555090",
-          "author": "Brajeshwar",
-          "description": "Article URL: https://www.theregister.com/2026/03/27/sycophantic_ai_risks/\nComments URL: https://news.ycombinator.com/item?id=47555090\nPoints: 99\n# Comments: 57",
-          "link": "https://www.theregister.com/2026/03/27/sycophantic_ai_risks/",
-          "publishedOn": "2026-03-28T14:49:25.000Z",
-          "wordCount": 1477,
-          "title": "Folk are getting dangerously attached to AI that always tells them they're right",
-          "imageUrl": "https://regmedia.co.uk/2024/02/02/robot_shutterstock.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47554948",
-          "author": "phantomathkg",
-          "description": "Article URL: https://www.icao.int/news/new-power-bank-restrictions-will-safeguard-international-aviation\nComments URL: https://news.ycombinator.com/item?id=47554948\nPoints: 52\n# Comments: 72",
-          "link": "https://www.icao.int/news/new-power-bank-restrictions-will-safeguard-international-aviation",
-          "publishedOn": "2026-03-28T14:30:30.000Z",
-          "wordCount": 1001,
-          "title": "ICAO issued new power bank restriction on flight",
-          "imageUrl": "https://www.icao.int/sites/default/files/2026-03/DOC-9284.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47554773",
-          "author": "oldfrenchfries",
-          "description": "Article URL: https://news.stanford.edu/stories/2026/03/ai-advice-sycophantic-models-research\nComments URL: https://news.ycombinator.com/item?id=47554773\nPoints: 99\n# Comments: 83",
-          "link": "https://news.stanford.edu/stories/2026/03/ai-advice-sycophantic-models-research",
-          "publishedOn": "2026-03-28T14:08:33.000Z",
-          "wordCount": null,
-          "title": "AI chatbots are \"Yes-Men\" that reinforce bad relationship decisions, study finds",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47554493",
-          "author": "o4c",
-          "description": "Article URL: https://www.roulette-computers.com/\nComments URL: https://news.ycombinator.com/item?id=47554493\nPoints: 83\n# Comments: 30",
-          "link": "https://www.roulette-computers.com/",
-          "publishedOn": "2026-03-28T13:39:40.000Z",
-          "wordCount": 8087,
-          "title": "Roulette Computers: Hidden Devices That Predict Spins",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47553910",
-          "author": "arch1e",
-          "description": "Article URL: https://www.iptechnics.com/blogs/from-proxmox-to-freebsd-and-sylve-in-our-office-lab\nComments URL: https://news.ycombinator.com/item?id=47553910\nPoints: 63\n# Comments: 51",
-          "link": "https://www.iptechnics.com/blogs/from-proxmox-to-freebsd-and-sylve-in-our-office-lab",
-          "publishedOn": "2026-03-28T12:20:28.000Z",
-          "wordCount": 2485,
-          "title": "From Proxmox to FreeBSD and Sylve in our office lab",
-          "imageUrl": "https://www.iptechnics.com/images/blog/blog_4/hero.webp"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47553798",
-          "author": "enriquelop",
-          "description": "Article URL: https://github.com/EnriqueLop/legalize-es\nComments URL: https://news.ycombinator.com/item?id=47553798\nPoints: 311\n# Comments: 98",
-          "link": "https://github.com/EnriqueLop/legalize-es",
-          "publishedOn": "2026-03-28T12:01:27.000Z",
-          "wordCount": 2289,
-          "title": "I put all 8,642 Spanish laws in Git – every reform is a commit",
-          "imageUrl": "https://opengraph.githubassets.com/d345a8f6f96a5b98333c628c811167a5f3919d2bfa8184eac0d3a46e99277f3d/EnriqueLop/legalize-es"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47553717",
-          "author": "msephton",
-          "description": "Article URL: https://www.youtube.com/watch?v=lXxmIw9axWw\nComments URL: https://news.ycombinator.com/item?id=47553717\nPoints: 112\n# Comments: 10",
-          "link": "https://www.youtube.com/watch?v=lXxmIw9axWw",
-          "publishedOn": "2026-03-28T11:49:28.000Z",
-          "wordCount": null,
-          "title": "I Built an Open-World Engine for the N64 [video]",
-          "imageUrl": null
         }
       ]
     }
