@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-04-27T06:33:32.318Z</updated>
+    <updated>2026-04-27T09:24:24.557Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
@@ -17,6 +17,19 @@ Points: 68
 # Comments: 50]]></summary>
         <author>
             <name>gslin</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[EvanFlow – A TDD driven feedback loop for Claude Code]]></title>
+        <id>https://news.ycombinator.com/item?id=47916909</id>
+        <link href="https://github.com/evanklem/evanflow"/>
+        <updated>2026-04-27T01:56:39.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://github.com/evanklem/evanflow
+Comments URL: https://news.ycombinator.com/item?id=47916909
+Points: 65
+# Comments: 27]]></summary>
+        <author>
+            <name>evanklem2004</name>
         </author>
     </entry>
     <entry>
@@ -1498,6 +1511,19 @@ Points: 73
 # Comments: 41]]></summary>
         <author>
             <name>zdw</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Running Bare-Metal Rust Alongside ESP-IDF on the ESP32-S3's Second Core]]></title>
+        <id>https://news.ycombinator.com/item?id=47885719</id>
+        <link href="https://tingouw.com/blog/embedded/esp32/run_rust_on_app_core"/>
+        <updated>2026-04-24T04:57:16.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://tingouw.com/blog/embedded/esp32/run_rust_on_app_core
+Comments URL: https://news.ycombinator.com/item?id=47885719
+Points: 70
+# Comments: 11]]></summary>
+        <author>
+            <name>MrBuddyCasino</name>
         </author>
     </entry>
     <entry>
@@ -17621,172 +17647,6 @@ Points: 123
 # Comments: 70]]></summary>
         <author>
             <name>mordechai9000</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Bring Back MiniDV with This Raspberry Pi FireWire Hat]]></title>
-        <id>https://news.ycombinator.com/item?id=47558101</id>
-        <link href="https://www.jeffgeerling.com/blog/2026/minidv-with-raspberry-pi-firewire-hat/"/>
-        <updated>2026-03-28T21:04:06.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.jeffgeerling.com/blog/2026/minidv-with-raspberry-pi-firewire-hat/
-Comments URL: https://news.ycombinator.com/item?id=47558101
-Points: 55
-# Comments: 9]]></summary>
-        <author>
-            <name>ingve</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: QuickBEAM – run JavaScript as supervised Erlang/OTP processes]]></title>
-        <id>https://news.ycombinator.com/item?id=47558094</id>
-        <link href="https://github.com/elixir-volt/quickbeam"/>
-        <updated>2026-03-28T21:03:23.000Z</updated>
-        <summary type="html"><![CDATA[QuickBEAM is a JavaScript runtime embedded inside the Erlang/OTP VM.
-If you’re building a full-stack app, JavaScript tends to leak in anyway — frontend, SSR, or third-party code.
-QuickBEAM runs that JavaScript inside OTP supervision trees.
-Each runtime is a process with a `Beam` global that can:
-- call Elixir code
-- send/receive messages
-- spawn and monitor processes
-- inspect runtime/system state
-It also provides browser-style APIs backed by OTP/native primitives (fetch, WebSocket, Worker, BroadcastChannel, localStorage, native DOM, etc.).
-This makes it usable for:
-- SSR
-- sandboxed user code
-- per-connection state
-- backend JS with direct OTP interop
-Notable bits:
-- JS runtimes are supervised and restartable
-- sandboxing with memory/reduction limits and API control
-- native DOM that Erlang can read directly (no string rendering step)
-- no JSON boundary between JS and Erlang
-- built-in TypeScript, npm support, and native addons
-QuickBEAM is part of Elixir Volt — a full-stack frontend toolchain built on Erlang/OTP with no Node.js.
-Still early, feedback welcome.
-Comments URL: https://news.ycombinator.com/item?id=47558094
-Points: 53
-# Comments: 8]]></summary>
-        <author>
-            <name>dannote</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ariane 6 user's manual [pdf]]]></title>
-        <id>https://news.ycombinator.com/item?id=47558073</id>
-        <link href="https://www.ariane.group/app/uploads/sites/4/2024/10/Mua-6_Issue-2_Revision-0_March-2021.pdf"/>
-        <updated>2026-03-28T21:00:32.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.ariane.group/app/uploads/sites/4/2024/10/Mua-6_Issue-2_Revision-0_March-2021.pdf
-Comments URL: https://news.ycombinator.com/item?id=47558073
-Points: 54
-# Comments: 11]]></summary>
-        <author>
-            <name>matthieu_bl</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[CSS is DOOMed]]></title>
-        <id>https://news.ycombinator.com/item?id=47557960</id>
-        <link href="https://nielsleenheer.com/articles/2026/css-is-doomed-rendering-doom-in-3d-with-css/"/>
-        <updated>2026-03-28T20:39:01.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://nielsleenheer.com/articles/2026/css-is-doomed-rendering-doom-in-3d-with-css/
-Comments URL: https://news.ycombinator.com/item?id=47557960
-Points: 84
-# Comments: 28]]></summary>
-        <author>
-            <name>msephton</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: Git bayesect – Bayesian Git bisection for non-deterministic bugs]]></title>
-        <id>https://news.ycombinator.com/item?id=47557921</id>
-        <link href="https://github.com/hauntsaninja/git_bayesect"/>
-        <updated>2026-03-28T20:32:01.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://github.com/hauntsaninja/git_bayesect
-Comments URL: https://news.ycombinator.com/item?id=47557921
-Points: 120
-# Comments: 14]]></summary>
-        <author>
-            <name>hauntsaninja</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Google just gave Android power users a sideloading win]]></title>
-        <id>https://news.ycombinator.com/item?id=47557901</id>
-        <link href="https://www.androidauthority.com/android-sideload-carry-over-3652845/"/>
-        <updated>2026-03-28T20:28:03.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.androidauthority.com/android-sideload-carry-over-3652845/
-Comments URL: https://news.ycombinator.com/item?id=47557901
-Points: 51
-# Comments: 54]]></summary>
-        <author>
-            <name>croemer</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The revenge of the data scientist]]></title>
-        <id>https://news.ycombinator.com/item?id=47557385</id>
-        <link href="https://hamel.dev/blog/posts/revenge/"/>
-        <updated>2026-03-28T19:12:37.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://hamel.dev/blog/posts/revenge/
-Comments URL: https://news.ycombinator.com/item?id=47557385
-Points: 56
-# Comments: 8]]></summary>
-        <author>
-            <name>hamelsmu</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Hardware Image Compression]]></title>
-        <id>https://news.ycombinator.com/item?id=47557299</id>
-        <link href="https://www.ludicon.com/castano/blog/2026/03/hardware-image-compression/"/>
-        <updated>2026-03-28T18:58:13.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.ludicon.com/castano/blog/2026/03/hardware-image-compression/
-Comments URL: https://news.ycombinator.com/item?id=47557299
-Points: 55
-# Comments: 10]]></summary>
-        <author>
-            <name>luu</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The first 40 months of the AI era]]></title>
-        <id>https://news.ycombinator.com/item?id=47557185</id>
-        <link href="https://lzon.ca/posts/other/thoughts-ai-era/"/>
-        <updated>2026-03-28T18:42:08.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://lzon.ca/posts/other/thoughts-ai-era/
-Comments URL: https://news.ycombinator.com/item?id=47557185
-Points: 66
-# Comments: 7]]></summary>
-        <author>
-            <name>jpmitchell</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[TruffleRuby]]></title>
-        <id>https://news.ycombinator.com/item?id=47557171</id>
-        <link href="https://chrisseaton.com/truffleruby/"/>
-        <updated>2026-03-28T18:39:39.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://chrisseaton.com/truffleruby/
-Comments URL: https://news.ycombinator.com/item?id=47557171
-Points: 58
-# Comments: 3]]></summary>
-        <author>
-            <name>tosh</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Further human + AI + proof assistant work on Knuth's "Claude Cycles" problem]]></title>
-        <id>https://news.ycombinator.com/item?id=47557166</id>
-        <link href="https://twitter.com/BoWang87/status/2037648937453232504"/>
-        <updated>2026-03-28T18:38:59.000Z</updated>
-        <summary type="html"><![CDATA[Knuth Claude's Cycles note update: problem now fully solved, by LLMs - https://news.ycombinator.com/item?id=47306926 - March 2026 (2 comments)
-https://chatgpt.com/share/69aaab4b-888c-8003-9a02-d1df80f9c7...
-Claude's Cycles [pdf] - https://news.ycombinator.com/item?id=47230710 - March 2026 (362 comments)
-Comments URL: https://news.ycombinator.com/item?id=47557166
-Points: 79
-# Comments: 16]]></summary>
-        <author>
-            <name>mean_mistreater</name>
         </author>
     </entry>
 </feed>

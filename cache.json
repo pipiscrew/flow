@@ -16,6 +16,16 @@
           "imageUrl": "https://developer.chrome.com/static/docs/ai/prompt-api/images/cover.png"
         },
         {
+          "id": "https://news.ycombinator.com/item?id=47916909",
+          "author": "evanklem2004",
+          "description": "Article URL: https://github.com/evanklem/evanflow\nComments URL: https://news.ycombinator.com/item?id=47916909\nPoints: 65\n# Comments: 27",
+          "link": "https://github.com/evanklem/evanflow",
+          "publishedOn": "2026-04-27T01:56:39.000Z",
+          "wordCount": 7388,
+          "title": "EvanFlow – A TDD driven feedback loop for Claude Code",
+          "imageUrl": "https://opengraph.githubassets.com/9413b721fb0f092712a6bff02b29ab0090f9490c8f56051cb83f0fbb623d9f37/evanklem/evanflow"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=47916890",
           "author": "kweezar",
           "description": "Article URL: https://arkaung.github.io/interactive-turboquant/\nComments URL: https://news.ycombinator.com/item?id=47916890\nPoints: 83\n# Comments: 12",
@@ -1113,6 +1123,16 @@
           "publishedOn": "2026-04-24T05:01:10.000Z",
           "wordCount": null,
           "title": "Why Not Venus?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47885719",
+          "author": "MrBuddyCasino",
+          "description": "Article URL: https://tingouw.com/blog/embedded/esp32/run_rust_on_app_core\nComments URL: https://news.ycombinator.com/item?id=47885719\nPoints: 70\n# Comments: 11",
+          "link": "https://tingouw.com/blog/embedded/esp32/run_rust_on_app_core",
+          "publishedOn": "2026-04-24T04:57:16.000Z",
+          "wordCount": 6606,
+          "title": "Running Bare-Metal Rust Alongside ESP-IDF on the ESP32-S3's Second Core",
           "imageUrl": null
         },
         {
@@ -13284,116 +13304,6 @@
           "wordCount": 8894,
           "title": "Private equity turned vulnerable elderly people into human ATMs",
           "imageUrl": "https://i.guim.co.uk/img/media/3c136383e6b9556737cfafd7c8884d5161538dc5/0_0_5887_4709/master/5887.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=5294bee6efb1c73fe7cb6663c7ed87bc"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47558101",
-          "author": "ingve",
-          "description": "Article URL: https://www.jeffgeerling.com/blog/2026/minidv-with-raspberry-pi-firewire-hat/\nComments URL: https://news.ycombinator.com/item?id=47558101\nPoints: 55\n# Comments: 9",
-          "link": "https://www.jeffgeerling.com/blog/2026/minidv-with-raspberry-pi-firewire-hat/",
-          "publishedOn": "2026-03-28T21:04:06.000Z",
-          "wordCount": 886,
-          "title": "Bring Back MiniDV with This Raspberry Pi FireWire Hat",
-          "imageUrl": ""
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47558094",
-          "author": "dannote",
-          "description": "QuickBEAM is a JavaScript runtime embedded inside the Erlang/OTP VM.\nIf you’re building a full-stack app, JavaScript tends to leak in anyway — frontend, SSR, or third-party code.\nQuickBEAM runs that JavaScript inside OTP supervision trees.\nEach runtime is a process with a `Beam` global that can:\n- call Elixir code\n- send/receive messages\n- spawn and monitor processes\n- inspect runtime/system state\nIt also provides browser-style APIs backed by OTP/native primitives (fetch, WebSocket, Worker, BroadcastChannel, localStorage, native DOM, etc.).\nThis makes it usable for:\n- SSR\n- sandboxed user code\n- per-connection state\n- backend JS with direct OTP interop\nNotable bits:\n- JS runtimes are supervised and restartable\n- sandboxing with memory/reduction limits and API control\n- native DOM that Erlang can read directly (no string rendering step)\n- no JSON boundary between JS and Erlang\n- built-in TypeScript, npm support, and native addons\nQuickBEAM is part of Elixir Volt — a full-stack frontend toolchain built on Erlang/OTP with no Node.js.\nStill early, feedback welcome.\nComments URL: https://news.ycombinator.com/item?id=47558094\nPoints: 53\n# Comments: 8",
-          "link": "https://github.com/elixir-volt/quickbeam",
-          "publishedOn": "2026-03-28T21:03:23.000Z",
-          "wordCount": 8665,
-          "title": "Show HN: QuickBEAM – run JavaScript as supervised Erlang/OTP processes",
-          "imageUrl": "https://opengraph.githubassets.com/882855aa0100c63b6402c3f28b49cdafee20854c36ba75cf0973e465a7cd91ee/elixir-volt/quickbeam"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47558073",
-          "author": "matthieu_bl",
-          "description": "Article URL: https://www.ariane.group/app/uploads/sites/4/2024/10/Mua-6_Issue-2_Revision-0_March-2021.pdf\nComments URL: https://news.ycombinator.com/item?id=47558073\nPoints: 54\n# Comments: 11",
-          "link": "https://www.ariane.group/app/uploads/sites/4/2024/10/Mua-6_Issue-2_Revision-0_March-2021.pdf",
-          "publishedOn": "2026-03-28T21:00:32.000Z",
-          "wordCount": 178714,
-          "title": "Ariane 6 user's manual [pdf]",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47557960",
-          "author": "msephton",
-          "description": "Article URL: https://nielsleenheer.com/articles/2026/css-is-doomed-rendering-doom-in-3d-with-css/\nComments URL: https://news.ycombinator.com/item?id=47557960\nPoints: 84\n# Comments: 28",
-          "link": "https://nielsleenheer.com/articles/2026/css-is-doomed-rendering-doom-in-3d-with-css/",
-          "publishedOn": "2026-03-28T20:39:01.000Z",
-          "wordCount": 5526,
-          "title": "CSS is DOOMed",
-          "imageUrl": "https://nielsleenheer.com/wp-content/uploads/2026/03/css-doomed.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47557921",
-          "author": "hauntsaninja",
-          "description": "Article URL: https://github.com/hauntsaninja/git_bayesect\nComments URL: https://news.ycombinator.com/item?id=47557921\nPoints: 120\n# Comments: 14",
-          "link": "https://github.com/hauntsaninja/git_bayesect",
-          "publishedOn": "2026-03-28T20:32:01.000Z",
-          "wordCount": 2097,
-          "title": "Show HN: Git bayesect – Bayesian Git bisection for non-deterministic bugs",
-          "imageUrl": "https://opengraph.githubassets.com/58bd13991d21774293e7e633f068cd5ba6b2c30421f492eff9f86a14db151cd2/hauntsaninja/git_bayesect"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47557901",
-          "author": "croemer",
-          "description": "Article URL: https://www.androidauthority.com/android-sideload-carry-over-3652845/\nComments URL: https://news.ycombinator.com/item?id=47557901\nPoints: 51\n# Comments: 54",
-          "link": "https://www.androidauthority.com/android-sideload-carry-over-3652845/",
-          "publishedOn": "2026-03-28T20:28:03.000Z",
-          "wordCount": 2761,
-          "title": "Google just gave Android power users a sideloading win",
-          "imageUrl": "https://www.androidauthority.com/wp-content/uploads/2019/04/Install-from-Unknown-Sources-2.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47557385",
-          "author": "hamelsmu",
-          "description": "Article URL: https://hamel.dev/blog/posts/revenge/\nComments URL: https://news.ycombinator.com/item?id=47557385\nPoints: 56\n# Comments: 8",
-          "link": "https://hamel.dev/blog/posts/revenge/",
-          "publishedOn": "2026-03-28T19:12:37.000Z",
-          "wordCount": 3713,
-          "title": "The revenge of the data scientist",
-          "imageUrl": "https://hamel.dev/blog/posts/revenge/images/ABL.jpeg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47557299",
-          "author": "luu",
-          "description": "Article URL: https://www.ludicon.com/castano/blog/2026/03/hardware-image-compression/\nComments URL: https://news.ycombinator.com/item?id=47557299\nPoints: 55\n# Comments: 10",
-          "link": "https://www.ludicon.com/castano/blog/2026/03/hardware-image-compression/",
-          "publishedOn": "2026-03-28T18:58:13.000Z",
-          "wordCount": 4029,
-          "title": "Hardware Image Compression",
-          "imageUrl": "http://www.ludicon.com/castano/blog/wp-content/uploads/2026/03/afrc-card.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47557185",
-          "author": "jpmitchell",
-          "description": "Article URL: https://lzon.ca/posts/other/thoughts-ai-era/\nComments URL: https://news.ycombinator.com/item?id=47557185\nPoints: 66\n# Comments: 7",
-          "link": "https://lzon.ca/posts/other/thoughts-ai-era/",
-          "publishedOn": "2026-03-28T18:42:08.000Z",
-          "wordCount": 1609,
-          "title": "The first 40 months of the AI era",
-          "imageUrl": "https://lzon.ca/img/og-image.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47557171",
-          "author": "tosh",
-          "description": "Article URL: https://chrisseaton.com/truffleruby/\nComments URL: https://news.ycombinator.com/item?id=47557171\nPoints: 58\n# Comments: 3",
-          "link": "https://chrisseaton.com/truffleruby/",
-          "publishedOn": "2026-03-28T18:39:39.000Z",
-          "wordCount": 1414,
-          "title": "TruffleRuby",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47557166",
-          "author": "mean_mistreater",
-          "description": "Knuth Claude's Cycles note update: problem now fully solved, by LLMs - https://news.ycombinator.com/item?id=47306926 - March 2026 (2 comments)\nhttps://chatgpt.com/share/69aaab4b-888c-8003-9a02-d1df80f9c7...\nClaude's Cycles [pdf] - https://news.ycombinator.com/item?id=47230710 - March 2026 (362 comments)\nComments URL: https://news.ycombinator.com/item?id=47557166\nPoints: 79\n# Comments: 16",
-          "link": "https://twitter.com/BoWang87/status/2037648937453232504",
-          "publishedOn": "2026-03-28T18:38:59.000Z",
-          "wordCount": 705,
-          "title": "Further human + AI + proof assistant work on Knuth's \"Claude Cycles\" problem",
-          "imageUrl": null
         }
       ]
     }
