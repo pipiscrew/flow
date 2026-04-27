@@ -2,10 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-04-27T20:12:24.147Z</updated>
+    <updated>2026-04-27T21:58:08.817Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Is my blue your blue?]]></title>
+        <id>https://news.ycombinator.com/item?id=47926861</id>
+        <link href="https://ismy.blue/"/>
+        <updated>2026-04-27T20:24:33.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://ismy.blue/
+Comments URL: https://news.ycombinator.com/item?id=47926861
+Points: 88
+# Comments: 56]]></summary>
+        <author>
+            <name>theogravity</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[United Wizards of the Coast]]></title>
         <id>https://news.ycombinator.com/item?id=47925425</id>
@@ -160,6 +173,23 @@ Points: 115
 # Comments: 46]]></summary>
         <author>
             <name>ibobev</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Utilyze – an open source GPU monitoring tool more accurate than nvtop]]></title>
+        <id>https://news.ycombinator.com/item?id=47921626</id>
+        <link href="https://www.systalyze.com/utilyze"/>
+        <updated>2026-04-27T13:55:43.000Z</updated>
+        <summary type="html"><![CDATA[The standard GPU utilization metric reported by nvidia-smi, nvtop, Weights & Biases, Amazon CloudWatch, Google Cloud Monitoring, and Azure Monitor is highly misleading. It reports the fraction of time that any kernel is running on the GPU, which means a GPU can report 100% utilization even if only a small portion of its compute capacity is actually being used. In practice, we've seen workloads with ~1–10% real compute throughput while dashboards show 100%.
+This becomes a problem when teams rely on that metric for capacity planning or optimization decisions, it can make underutilized systems look saturated.
+We're releasing an open-source (Apache 2.0) tool, Utilyze, to measure GPU utilization differently. It samples hardware performance counters and reports compute and memory throughput relative to the hardware's theoretical limits. It also estimates an attainable utilization ceiling for a given workload.
+GitHub link: https://github.com/systalyze/utilyze
+We'd love to hear your thoughts!
+Comments URL: https://news.ycombinator.com/item?id=47921626
+Points: 69
+# Comments: 19]]></summary>
+        <author>
+            <name>ManyaGhobadi</name>
         </author>
     </entry>
     <entry>
@@ -973,6 +1003,19 @@ Points: 71
 # Comments: 43]]></summary>
         <author>
             <name>jstrieb</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Adding a team was the wrong strategic decision]]></title>
+        <id>https://news.ycombinator.com/item?id=47904053</id>
+        <link href="https://learnings.aleixmorgadas.dev/p/adding-a-team-was-the-wrong-strategic"/>
+        <updated>2026-04-25T19:53:41.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://learnings.aleixmorgadas.dev/p/adding-a-team-was-the-wrong-strategic
+Comments URL: https://news.ycombinator.com/item?id=47904053
+Points: 59
+# Comments: 19]]></summary>
+        <author>
+            <name>milkglass</name>
         </author>
     </entry>
     <entry>
@@ -17865,85 +17908,6 @@ Points: 115
 # Comments: 57]]></summary>
         <author>
             <name>LucidLynx</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Overestimation of microplastics potentially caused by scientists' gloves]]></title>
-        <id>https://news.ycombinator.com/item?id=47561711</id>
-        <link href="https://news.umich.edu/nitrile-and-latex-gloves-may-cause-overestimation-of-microplastics-u-m-study-reveals/"/>
-        <updated>2026-03-29T09:46:58.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://news.umich.edu/nitrile-and-latex-gloves-may-cause-overestimation-of-microplastics-u-m-study-reveals/
-Comments URL: https://news.ycombinator.com/item?id=47561711
-Points: 117
-# Comments: 49]]></summary>
-        <author>
-            <name>giuliomagnifico</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[ESP32-S31: 320MHz 2C RV32IMAFCP+CLIC, 512KB SRAM, GbE, 802.11ax, 61 GPIO]]></title>
-        <id>https://news.ycombinator.com/item?id=47561678</id>
-        <link href="https://www.espressif.com/en/news/ESP32_S31_Release"/>
-        <updated>2026-03-29T09:39:23.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.espressif.com/en/news/ESP32_S31_Release
-Comments URL: https://news.ycombinator.com/item?id=47561678
-Points: 55
-# Comments: 25]]></summary>
-        <author>
-            <name>topspin</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Lat.md: Agent Lattice: a knowledge graph for your codebase, written in Markdown]]></title>
-        <id>https://news.ycombinator.com/item?id=47561496</id>
-        <link href="https://github.com/1st1/lat.md"/>
-        <updated>2026-03-29T08:59:52.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://github.com/1st1/lat.md
-Comments URL: https://news.ycombinator.com/item?id=47561496
-Points: 55
-# Comments: 15]]></summary>
-        <author>
-            <name>doppp</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[LinkedIn uses 2.4 GB RAM across two tabs]]></title>
-        <id>https://news.ycombinator.com/item?id=47561489</id>
-        <link href="https://news.ycombinator.com/item?id=47561489"/>
-        <updated>2026-03-29T08:58:24.000Z</updated>
-        <summary type="html"><![CDATA[https://ibb.co/fYQVfMWp
-https://ibb.co/MyTNnrGQ
-Comments URL: https://news.ycombinator.com/item?id=47561489
-Points: 136
-# Comments: 89]]></summary>
-        <author>
-            <name>hrncode</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[What Category Theory Teaches Us About DataFrames]]></title>
-        <id>https://news.ycombinator.com/item?id=47561426</id>
-        <link href="https://mchav.github.io/what-category-theory-teaches-us-about-dataframes/"/>
-        <updated>2026-03-29T08:44:25.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://mchav.github.io/what-category-theory-teaches-us-about-dataframes/
-Comments URL: https://news.ycombinator.com/item?id=47561426
-Points: 50
-# Comments: 6]]></summary>
-        <author>
-            <name>mchav</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[What if AI doesn't need more RAM but better math?]]></title>
-        <id>https://news.ycombinator.com/item?id=47561297</id>
-        <link href="https://adlrocha.substack.com/p/adlrocha-what-if-ai-doesnt-need-more"/>
-        <updated>2026-03-29T08:18:55.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://adlrocha.substack.com/p/adlrocha-what-if-ai-doesnt-need-more
-Comments URL: https://news.ycombinator.com/item?id=47561297
-Points: 72
-# Comments: 38]]></summary>
-        <author>
-            <name>adlrocha</name>
         </author>
     </entry>
 </feed>

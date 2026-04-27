@@ -6,6 +6,16 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=47926861",
+          "author": "theogravity",
+          "description": "Article URL: https://ismy.blue/\nComments URL: https://news.ycombinator.com/item?id=47926861\nPoints: 88\n# Comments: 56",
+          "link": "https://ismy.blue/",
+          "publishedOn": "2026-04-27T20:24:33.000Z",
+          "wordCount": 7,
+          "title": "Is my blue your blue?",
+          "imageUrl": "https://ismy.blue/card.png"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=47925425",
           "author": "d4mi3n",
           "description": "Article URL: https://unitedwizardsofthecoast.com/news/announcing-united-wizards-coast-cwa\nComments URL: https://news.ycombinator.com/item?id=47925425\nPoints: 128\n# Comments: 80",
@@ -123,6 +133,16 @@
           "publishedOn": "2026-04-27T14:24:53.000Z",
           "wordCount": 1860,
           "title": "\"Why not just use Lean?\"",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47921626",
+          "author": "ManyaGhobadi",
+          "description": "The standard GPU utilization metric reported by nvidia-smi, nvtop, Weights & Biases, Amazon CloudWatch, Google Cloud Monitoring, and Azure Monitor is highly misleading. It reports the fraction of time that any kernel is running on the GPU, which means a GPU can report 100% utilization even if only a small portion of its compute capacity is actually being used. In practice, we've seen workloads with ~1–10% real compute throughput while dashboards show 100%.\nThis becomes a problem when teams rely on that metric for capacity planning or optimization decisions, it can make underutilized systems look saturated.\nWe're releasing an open-source (Apache 2.0) tool, Utilyze, to measure GPU utilization differently. It samples hardware performance counters and reports compute and memory throughput relative to the hardware's theoretical limits. It also estimates an attainable utilization ceiling for a given workload.\nGitHub link: https://github.com/systalyze/utilyze\nWe'd love to hear your thoughts!\nComments URL: https://news.ycombinator.com/item?id=47921626\nPoints: 69\n# Comments: 19",
+          "link": "https://www.systalyze.com/utilyze",
+          "publishedOn": "2026-04-27T13:55:43.000Z",
+          "wordCount": 8217,
+          "title": "Show HN: Utilyze – an open source GPU monitoring tool more accurate than nvtop",
           "imageUrl": null
         },
         {
@@ -734,6 +754,16 @@
           "wordCount": null,
           "title": "Can you stop beans from making you gassy?",
           "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47904053",
+          "author": "milkglass",
+          "description": "Article URL: https://learnings.aleixmorgadas.dev/p/adding-a-team-was-the-wrong-strategic\nComments URL: https://news.ycombinator.com/item?id=47904053\nPoints: 59\n# Comments: 19",
+          "link": "https://learnings.aleixmorgadas.dev/p/adding-a-team-was-the-wrong-strategic",
+          "publishedOn": "2026-04-25T19:53:41.000Z",
+          "wordCount": 6467,
+          "title": "Adding a team was the wrong strategic decision",
+          "imageUrl": "https://substackcdn.com/image/fetch/$s_!PKcm!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0a2e61db-d812-4c22-abff-8a2b4e4f768f_1563x789.png"
         },
         {
           "id": "https://news.ycombinator.com/item?id=47903945",
@@ -13464,66 +13494,6 @@
           "wordCount": 3088,
           "title": "Miasma: A tool to trap AI web scrapers in an endless poison pit",
           "imageUrl": "https://opengraph.githubassets.com/5e74fef920f57dd90e25f1bc2cffbefd11e95f9e1cbaf08f5e07dbdebeae3a6b/austin-weeks/miasma"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47561711",
-          "author": "giuliomagnifico",
-          "description": "Article URL: https://news.umich.edu/nitrile-and-latex-gloves-may-cause-overestimation-of-microplastics-u-m-study-reveals/\nComments URL: https://news.ycombinator.com/item?id=47561711\nPoints: 117\n# Comments: 49",
-          "link": "https://news.umich.edu/nitrile-and-latex-gloves-may-cause-overestimation-of-microplastics-u-m-study-reveals/",
-          "publishedOn": "2026-03-29T09:46:58.000Z",
-          "wordCount": null,
-          "title": "Overestimation of microplastics potentially caused by scientists' gloves",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47561678",
-          "author": "topspin",
-          "description": "Article URL: https://www.espressif.com/en/news/ESP32_S31_Release\nComments URL: https://news.ycombinator.com/item?id=47561678\nPoints: 55\n# Comments: 25",
-          "link": "https://www.espressif.com/en/news/ESP32_S31_Release",
-          "publishedOn": "2026-03-29T09:39:23.000Z",
-          "wordCount": 1625,
-          "title": "ESP32-S31: 320MHz 2C RV32IMAFCP+CLIC, 512KB SRAM, GbE, 802.11ax, 61 GPIO",
-          "imageUrl": "https://www.espressif.com/sites/default/files/%E7%94%BB%E6%9D%BF%202%20%E5%89%AF%E6%9C%AC%2019.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47561496",
-          "author": "doppp",
-          "description": "Article URL: https://github.com/1st1/lat.md\nComments URL: https://news.ycombinator.com/item?id=47561496\nPoints: 55\n# Comments: 15",
-          "link": "https://github.com/1st1/lat.md",
-          "publishedOn": "2026-03-29T08:59:52.000Z",
-          "wordCount": 2432,
-          "title": "Lat.md: Agent Lattice: a knowledge graph for your codebase, written in Markdown",
-          "imageUrl": "https://opengraph.githubassets.com/319c97c446b1e1ba6ad7241d334c931920c69fc51eb57ba8444b86aca4363b93/1st1/lat.md"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47561489",
-          "author": "hrncode",
-          "description": "https://ibb.co/fYQVfMWp\nhttps://ibb.co/MyTNnrGQ\nComments URL: https://news.ycombinator.com/item?id=47561489\nPoints: 136\n# Comments: 89",
-          "link": "https://news.ycombinator.com/item?id=47561489",
-          "publishedOn": "2026-03-29T08:58:24.000Z",
-          "wordCount": 5261,
-          "title": "LinkedIn uses 2.4 GB RAM across two tabs",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47561426",
-          "author": "mchav",
-          "description": "Article URL: https://mchav.github.io/what-category-theory-teaches-us-about-dataframes/\nComments URL: https://news.ycombinator.com/item?id=47561426\nPoints: 50\n# Comments: 6",
-          "link": "https://mchav.github.io/what-category-theory-teaches-us-about-dataframes/",
-          "publishedOn": "2026-03-29T08:44:25.000Z",
-          "wordCount": 3604,
-          "title": "What Category Theory Teaches Us About DataFrames",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47561297",
-          "author": "adlrocha",
-          "description": "Article URL: https://adlrocha.substack.com/p/adlrocha-what-if-ai-doesnt-need-more\nComments URL: https://news.ycombinator.com/item?id=47561297\nPoints: 72\n# Comments: 38",
-          "link": "https://adlrocha.substack.com/p/adlrocha-what-if-ai-doesnt-need-more",
-          "publishedOn": "2026-03-29T08:18:55.000Z",
-          "wordCount": null,
-          "title": "What if AI doesn't need more RAM but better math?",
-          "imageUrl": null
         }
       ]
     }
