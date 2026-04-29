@@ -6,6 +6,16 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=47944864",
+          "author": "lftherios",
+          "description": "Article URL: https://hardenedbsd.org/article/shawn-webb/2026-04-26/hardenedbsd-officially-radicle\nComments URL: https://news.ycombinator.com/item?id=47944864\nPoints: 59\n# Comments: 7",
+          "link": "https://hardenedbsd.org/article/shawn-webb/2026-04-26/hardenedbsd-officially-radicle",
+          "publishedOn": "2026-04-29T06:38:44.000Z",
+          "wordCount": 452,
+          "title": "HardenedBSD Is Now Officially on Radicle",
+          "imageUrl": null
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=47943499",
           "author": "lwhsiao",
           "description": "Article URL: https://corrode.dev/blog/bugs-rust-wont-catch/\nComments URL: https://news.ycombinator.com/item?id=47943499\nPoints: 129\n# Comments: 44",
@@ -14,6 +24,16 @@
           "wordCount": 3528,
           "title": "Bugs Rust won't catch",
           "imageUrl": "https://corrode.dev/blog/bugs-rust-wont-catch/social.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47943190",
+          "author": "herbertl",
+          "description": "Article URL: https://www.frontporchrepublic.com/2025/09/when-the-internet-was-a-place/\nComments URL: https://news.ycombinator.com/item?id=47943190\nPoints: 56\n# Comments: 12",
+          "link": "https://www.frontporchrepublic.com/2025/09/when-the-internet-was-a-place/",
+          "publishedOn": "2026-04-29T01:36:52.000Z",
+          "wordCount": 11622,
+          "title": "When the Internet Was a Place",
+          "imageUrl": "https://www.frontporchrepublic.com/wp-content/uploads/2025/09/5321590647_afe4692f53_b.jpg"
         },
         {
           "id": "https://news.ycombinator.com/item?id=47942903",
@@ -54,6 +74,16 @@
           "wordCount": 2168,
           "title": "Claude for Creative Work",
           "imageUrl": "https://www.anthropic.com/api/opengraph-illustration?name=Hand%20ShapeArrow&backgroundColor=cactus"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47942353",
+          "author": "HeyMeco",
+          "description": "Article URL: https://www.lttlabs.com/articles/2026/04/11/apple-studio-display-xdr-display-testing-results\nComments URL: https://news.ycombinator.com/item?id=47942353\nPoints: 66\n# Comments: 2",
+          "link": "https://www.lttlabs.com/articles/2026/04/11/apple-studio-display-xdr-display-testing-results",
+          "publishedOn": "2026-04-28T23:43:53.000Z",
+          "wordCount": null,
+          "title": "Apple CMF (Color-Matching Functions) 2026",
+          "imageUrl": null
         },
         {
           "id": "https://news.ycombinator.com/item?id=47940921",
@@ -274,6 +304,16 @@
           "wordCount": 26316,
           "title": "Your phone is about to stop being yours",
           "imageUrl": "https://keepandroidopen.org/img/lockdowns/android_lockdown_banner1.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47935246",
+          "author": "hugocorreia90",
+          "description": "Hi HN, I'm Hugo. I've been building Rocky over the past month, shipping fast in the open. The binary is on GitHub Releases, `dagster-rocky` on PyPI, and the VS Code extension on the Marketplace. I held off on a broader announcement until the trust-system surface was coherent enough to talk about as one thing. The governance waveplan — column classification, per-env masking, 8-field audit trail on every run, `rocky compliance` rollup, role-graph reconciliation, retention policies — landed end-to-end last week in engine-v1.16.0 and rounded out in v1.17.4 (tagged 2026-04-26). That's the milestone I'd been waiting for.\nThe pitch: keep Databricks or Snowflake. Bring Rocky for the DAG. Rocky is a Rust-based control plane for warehouse pipelines. Storage and compute stay with your warehouse. Rock…",
+          "link": "https://github.com/rocky-data/rocky",
+          "publishedOn": "2026-04-28T14:35:59.000Z",
+          "wordCount": 3693,
+          "title": "Show HN: Rocky – Rust SQL engine with branches, replay, column lineage",
+          "imageUrl": "https://repository-images.githubusercontent.com/1209895914/4e607648-080d-4451-b995-e4439dc2c946"
         },
         {
           "id": "https://news.ycombinator.com/item?id=47934269",
@@ -13254,86 +13294,6 @@
           "wordCount": 3095,
           "title": "What we learned building 100 API integrations with OpenCode",
           "imageUrl": "https://cdn.sanity.io/images/7yse5usn/production/8b88faa6fc17d37a6afbb74378683261166dc183-2352x1320.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47579754",
-          "author": "jonbraun",
-          "description": "Article URL: https://www.opengridworks.com\nComments URL: https://news.ycombinator.com/item?id=47579754\nPoints: 76\n# Comments: 7",
-          "link": "https://www.opengridworks.com/",
-          "publishedOn": "2026-03-30T21:12:46.000Z",
-          "wordCount": null,
-          "title": "OpenGridWorks: The Electricity Infrasctructure, Mapped",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47579229",
-          "author": "taubek",
-          "description": "Article URL: https://claude.nagdy.me/\nComments URL: https://news.ycombinator.com/item?id=47579229\nPoints: 67\n# Comments: 31",
-          "link": "https://claude.nagdy.me/",
-          "publishedOn": "2026-03-30T20:19:43.000Z",
-          "wordCount": 560,
-          "title": "Learn Claude Code by doing, not reading",
-          "imageUrl": "https://claude.nagdy.me/og/default.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47578741",
-          "author": "speckx",
-          "description": "Article URL: https://brittanyellich.com/atproto/\nComments URL: https://news.ycombinator.com/item?id=47578741\nPoints: 80\n# Comments: 57",
-          "link": "https://brittanyellich.com/atproto/",
-          "publishedOn": "2026-03-30T19:37:45.000Z",
-          "wordCount": 3028,
-          "title": "Why I'm betting on ATProto (and why you should, too)",
-          "imageUrl": "https://brittanyellich.com/_astro/graveyard.Ce8n_gsn_Z26Ycvu.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47578582",
-          "author": "qnleigh",
-          "description": "Article URL: https://stopa.io/post/269\nComments URL: https://news.ycombinator.com/item?id=47578582\nPoints: 58\n# Comments: 9",
-          "link": "https://stopa.io/post/269",
-          "publishedOn": "2026-03-30T19:23:11.000Z",
-          "wordCount": 10059,
-          "title": "What Gödel Discovered (2020)",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47578572",
-          "author": "HughParry",
-          "description": "Article URL: https://anishathalye.com/macbook-touchscreen/\nComments URL: https://news.ycombinator.com/item?id=47578572\nPoints: 98\n# Comments: 45",
-          "link": "https://anishathalye.com/macbook-touchscreen/",
-          "publishedOn": "2026-03-30T19:22:33.000Z",
-          "wordCount": 1933,
-          "title": "Turning a MacBook into a touchscreen with $1 of hardware (2018)",
-          "imageUrl": "https://anishathalye.com/_next/static/images/thumbnail-75236687051a403d7d7168f93dd4498a.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47578464",
-          "author": "occurrence",
-          "description": "Article URL: https://www.laphamsquarterly.org/roundtable/william-blake-remote-sea\nComments URL: https://news.ycombinator.com/item?id=47578464\nPoints: 61\n# Comments: 2",
-          "link": "https://www.laphamsquarterly.org/roundtable/william-blake-remote-sea",
-          "publishedOn": "2026-03-30T19:13:05.000Z",
-          "wordCount": null,
-          "title": "William Blake, Remote by the Sea",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47578086",
-          "author": "pedro84",
-          "description": "Article URL: https://sockpuppet.org/blog/2026/03/30/vulnerability-research-is-cooked/\nComments URL: https://news.ycombinator.com/item?id=47578086\nPoints: 83\n# Comments: 60",
-          "link": "https://sockpuppet.org/blog/2026/03/30/vulnerability-research-is-cooked/",
-          "publishedOn": "2026-03-30T18:43:38.000Z",
-          "wordCount": 2565,
-          "title": "Vulnerability research is cooked",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47577979",
-          "author": "maurycyz",
-          "description": "Article URL: https://maurycyz.com/projects/spinthariscope/\nComments URL: https://news.ycombinator.com/item?id=47577979\nPoints: 55\n# Comments: 18",
-          "link": "https://maurycyz.com/projects/spinthariscope/",
-          "publishedOn": "2026-03-30T18:34:47.000Z",
-          "wordCount": 1035,
-          "title": "A sea of sparks: Seeing radioactivity",
-          "imageUrl": null
         }
       ]
     }

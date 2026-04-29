@@ -2,10 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-04-29T06:30:44.830Z</updated>
+    <updated>2026-04-29T09:14:56.095Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[HardenedBSD Is Now Officially on Radicle]]></title>
+        <id>https://news.ycombinator.com/item?id=47944864</id>
+        <link href="https://hardenedbsd.org/article/shawn-webb/2026-04-26/hardenedbsd-officially-radicle"/>
+        <updated>2026-04-29T06:38:44.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://hardenedbsd.org/article/shawn-webb/2026-04-26/hardenedbsd-officially-radicle
+Comments URL: https://news.ycombinator.com/item?id=47944864
+Points: 59
+# Comments: 7]]></summary>
+        <author>
+            <name>lftherios</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Bugs Rust won't catch]]></title>
         <id>https://news.ycombinator.com/item?id=47943499</id>
@@ -17,6 +30,19 @@ Points: 129
 # Comments: 44]]></summary>
         <author>
             <name>lwhsiao</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[When the Internet Was a Place]]></title>
+        <id>https://news.ycombinator.com/item?id=47943190</id>
+        <link href="https://www.frontporchrepublic.com/2025/09/when-the-internet-was-a-place/"/>
+        <updated>2026-04-29T01:36:52.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.frontporchrepublic.com/2025/09/when-the-internet-was-a-place/
+Comments URL: https://news.ycombinator.com/item?id=47943190
+Points: 56
+# Comments: 12]]></summary>
+        <author>
+            <name>herbertl</name>
         </author>
     </entry>
     <entry>
@@ -69,6 +95,19 @@ Points: 77
 # Comments: 48]]></summary>
         <author>
             <name>elsewhen</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Apple CMF (Color-Matching Functions) 2026]]></title>
+        <id>https://news.ycombinator.com/item?id=47942353</id>
+        <link href="https://www.lttlabs.com/articles/2026/04/11/apple-studio-display-xdr-display-testing-results"/>
+        <updated>2026-04-28T23:43:53.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.lttlabs.com/articles/2026/04/11/apple-studio-display-xdr-display-testing-results
+Comments URL: https://news.ycombinator.com/item?id=47942353
+Points: 66
+# Comments: 2]]></summary>
+        <author>
+            <name>HeyMeco</name>
         </author>
     </entry>
     <entry>
@@ -358,6 +397,17 @@ Points: 186
 # Comments: 92]]></summary>
         <author>
             <name>doener</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Rocky – Rust SQL engine with branches, replay, column lineage]]></title>
+        <id>https://news.ycombinator.com/item?id=47935246</id>
+        <link href="https://github.com/rocky-data/rocky"/>
+        <updated>2026-04-28T14:35:59.000Z</updated>
+        <summary type="html"><![CDATA[Hi HN, I'm Hugo. I've been building Rocky over the past month, shipping fast in the open. The binary is on GitHub Releases, `dagster-rocky` on PyPI, and the VS Code extension on the Marketplace. I held off on a broader announcement until the trust-system surface was coherent enough to talk about as one thing. The governance waveplan — column classification, per-env masking, 8-field audit trail on every run, `rocky compliance` rollup, role-graph reconciliation, retention policies — landed end-to-end last week in engine-v1.16.0 and rounded out in v1.17.4 (tagged 2026-04-26). That's the milestone I'd been waiting for.
+The pitch: keep Databricks or Snowflake. Bring Rocky for the DAG. Rocky is a Rust-based control plane for warehouse pipelines. Storage and compute stay with your warehouse. Rock…]]></summary>
+        <author>
+            <name>hugocorreia90</name>
         </author>
     </entry>
     <entry>
@@ -17573,110 +17623,6 @@ Points: 51
 # Comments: 8]]></summary>
         <author>
             <name>rguldener</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[OpenGridWorks: The Electricity Infrasctructure, Mapped]]></title>
-        <id>https://news.ycombinator.com/item?id=47579754</id>
-        <link href="https://www.opengridworks.com/"/>
-        <updated>2026-03-30T21:12:46.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.opengridworks.com
-Comments URL: https://news.ycombinator.com/item?id=47579754
-Points: 76
-# Comments: 7]]></summary>
-        <author>
-            <name>jonbraun</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Learn Claude Code by doing, not reading]]></title>
-        <id>https://news.ycombinator.com/item?id=47579229</id>
-        <link href="https://claude.nagdy.me/"/>
-        <updated>2026-03-30T20:19:43.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://claude.nagdy.me/
-Comments URL: https://news.ycombinator.com/item?id=47579229
-Points: 67
-# Comments: 31]]></summary>
-        <author>
-            <name>taubek</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Why I'm betting on ATProto (and why you should, too)]]></title>
-        <id>https://news.ycombinator.com/item?id=47578741</id>
-        <link href="https://brittanyellich.com/atproto/"/>
-        <updated>2026-03-30T19:37:45.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://brittanyellich.com/atproto/
-Comments URL: https://news.ycombinator.com/item?id=47578741
-Points: 80
-# Comments: 57]]></summary>
-        <author>
-            <name>speckx</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[What Gödel Discovered (2020)]]></title>
-        <id>https://news.ycombinator.com/item?id=47578582</id>
-        <link href="https://stopa.io/post/269"/>
-        <updated>2026-03-30T19:23:11.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://stopa.io/post/269
-Comments URL: https://news.ycombinator.com/item?id=47578582
-Points: 58
-# Comments: 9]]></summary>
-        <author>
-            <name>qnleigh</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Turning a MacBook into a touchscreen with $1 of hardware (2018)]]></title>
-        <id>https://news.ycombinator.com/item?id=47578572</id>
-        <link href="https://anishathalye.com/macbook-touchscreen/"/>
-        <updated>2026-03-30T19:22:33.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://anishathalye.com/macbook-touchscreen/
-Comments URL: https://news.ycombinator.com/item?id=47578572
-Points: 98
-# Comments: 45]]></summary>
-        <author>
-            <name>HughParry</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[William Blake, Remote by the Sea]]></title>
-        <id>https://news.ycombinator.com/item?id=47578464</id>
-        <link href="https://www.laphamsquarterly.org/roundtable/william-blake-remote-sea"/>
-        <updated>2026-03-30T19:13:05.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.laphamsquarterly.org/roundtable/william-blake-remote-sea
-Comments URL: https://news.ycombinator.com/item?id=47578464
-Points: 61
-# Comments: 2]]></summary>
-        <author>
-            <name>occurrence</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Vulnerability research is cooked]]></title>
-        <id>https://news.ycombinator.com/item?id=47578086</id>
-        <link href="https://sockpuppet.org/blog/2026/03/30/vulnerability-research-is-cooked/"/>
-        <updated>2026-03-30T18:43:38.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://sockpuppet.org/blog/2026/03/30/vulnerability-research-is-cooked/
-Comments URL: https://news.ycombinator.com/item?id=47578086
-Points: 83
-# Comments: 60]]></summary>
-        <author>
-            <name>pedro84</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A sea of sparks: Seeing radioactivity]]></title>
-        <id>https://news.ycombinator.com/item?id=47577979</id>
-        <link href="https://maurycyz.com/projects/spinthariscope/"/>
-        <updated>2026-03-30T18:34:47.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://maurycyz.com/projects/spinthariscope/
-Comments URL: https://news.ycombinator.com/item?id=47577979
-Points: 55
-# Comments: 18]]></summary>
-        <author>
-            <name>maurycyz</name>
         </author>
     </entry>
 </feed>
