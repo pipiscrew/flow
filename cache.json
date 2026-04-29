@@ -6,6 +6,46 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=47942903",
+          "author": "shad42",
+          "description": "Article URL: https://www.mendral.com/blog/frontier-model-lower-costs\nComments URL: https://news.ycombinator.com/item?id=47942903\nPoints: 56\n# Comments: 16",
+          "link": "https://www.mendral.com/blog/frontier-model-lower-costs",
+          "publishedOn": "2026-04-29T00:57:12.000Z",
+          "wordCount": 3355,
+          "title": "We decreased our LLM costs with Opus",
+          "imageUrl": "https://mendral.com/og?title=We%20Upgraded%20to%20a%20Frontier%20Model%20and%20Our%20Costs%20Went%20Down"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47942492",
+          "author": "thomashobohm",
+          "description": "Not sure if anybody else has experienced this, but for my job I've been playing around with Claude Managed Agents to run code generation tasks in our repo. Every read operation in the managed agent is appended with a system prompt instructing Claude to scan the file for malware; Claude then wastes a bunch of time and tokens (money) performing the analysis; then, once the agent has confirmed that it is not malware, it still interprets the appended prompt to mean that it is disallowed to augment or write any code, and quits. And we're charged for every session that this happens in. Posting here because apparently they only addressed the issue in the past because of a Hacker News discussion. So here's hoping they'll see this and prioritize fixing it again so we can stop losing money.\nComments URL: https://news.ycombinator.com/item?id=47942492\nPoints: 168\n# Comments: 61",
+          "link": "https://github.com/anthropics/claude-code/issues/49363",
+          "publishedOn": "2026-04-28T23:59:57.000Z",
+          "wordCount": 6905,
+          "title": "Regression: malware reminder on every read still causes subagent refusals",
+          "imageUrl": "https://opengraph.githubassets.com/1064771c48ee8924f01657569f38b44040f2a114639cd110cdf58bf25a4cd0db/anthropics/claude-code/issues/49363"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47942437",
+          "author": "lmbbuchodi",
+          "description": "Article URL: https://www.buchodi.com/how-chatgpt-serves-ads-heres-the-full-attribution-loop/\nComments URL: https://news.ycombinator.com/item?id=47942437\nPoints: 195\n# Comments: 132",
+          "link": "https://www.buchodi.com/how-chatgpt-serves-ads-heres-the-full-attribution-loop/",
+          "publishedOn": "2026-04-28T23:54:14.000Z",
+          "wordCount": 946,
+          "title": "How ChatGPT serves ads",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47942386",
+          "author": "elsewhen",
+          "description": "Article URL: https://www.anthropic.com/news/claude-for-creative-work\nComments URL: https://news.ycombinator.com/item?id=47942386\nPoints: 77\n# Comments: 48",
+          "link": "https://www.anthropic.com/news/claude-for-creative-work",
+          "publishedOn": "2026-04-28T23:46:56.000Z",
+          "wordCount": 2168,
+          "title": "Claude for Creative Work",
+          "imageUrl": "https://www.anthropic.com/api/opengraph-illustration?name=Hand%20ShapeArrow&backgroundColor=cactus"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=47940921",
           "author": "mlex",
           "description": "Article URL: https://lucumr.pocoo.org/2026/4/28/before-github/\nComments URL: https://news.ycombinator.com/item?id=47940921\nPoints: 55\n# Comments: 9",
@@ -164,6 +204,16 @@
           "wordCount": 3395,
           "title": "AISLE Discovers 38 CVEs in OpenEMR Healthcare Software",
           "imageUrl": "https://aisle.com/api/media/file/OpenEMR%20-%20SOME%20post-1200x630.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47936312",
+          "author": "frabonacci",
+          "description": "Hi HN, Francesco from Cua here.\nI hacked this project together last weekend, inspired by the Codex Computer-Use release and lessons learned from deploying GUI-operating agents for our customers.\nThe main problem: when a UI automation process controls a desktop app today, it usually takes over the human’s session. Your cursor moves, keyboard focus gets stolen, windows jump to the front, and you have to stop working until the agent is done. That is why we have historically avoided encouraging users to run these processes directly on their host machine, instead relying on VMs or GUI containers for concurrency and background execution.\nBut computer-use - the tools we give agents to operate computers like humans - does not scale cleanly that way. As models get smarter, agents need to share host…",
+          "link": "https://github.com/trycua/cua",
+          "publishedOn": "2026-04-28T16:03:34.000Z",
+          "wordCount": 3534,
+          "title": "Show HN: Drive any macOS app in the background without stealing the cursor",
+          "imageUrl": "https://opengraph.githubassets.com/0f1e4850709f6c2510af10d84d3eedc2fb3b6336330584c766787eb09864683a/trycua/cua"
         },
         {
           "id": "https://news.ycombinator.com/item?id=47936264",
@@ -13333,136 +13383,6 @@
           "publishedOn": "2026-03-30T15:58:11.000Z",
           "wordCount": 3010,
           "title": "An NSFW filter for Marginalia search",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47575616",
-          "author": "gnabgib",
-          "description": "Article URL: https://www.ftc.gov/news-events/news/press-releases/2026/03/ftc-takes-action-against-match-okcupid-deceiving-users-sharing-personal-data-third-party\nComments URL: https://news.ycombinator.com/item?id=47575616\nPoints: 63\n# Comments: 26",
-          "link": "https://www.ftc.gov/news-events/news/press-releases/2026/03/ftc-takes-action-against-match-okcupid-deceiving-users-sharing-personal-data-third-party",
-          "publishedOn": "2026-03-30T15:32:37.000Z",
-          "wordCount": null,
-          "title": "FTC Action Against Match and OkCupid for Deceiving Users, Sharing Personal Data",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47575557",
-          "author": "mooreds",
-          "description": "Article URL: https://mtg.jessitron.honeydemo.io/\nComments URL: https://news.ycombinator.com/item?id=47575557\nPoints: 55\n# Comments: 15",
-          "link": "https://mtg.jessitron.honeydemo.io/",
-          "publishedOn": "2026-03-30T15:28:45.000Z",
-          "wordCount": 103,
-          "title": "Magic the Gathering Deck Shuffler",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47575417",
-          "author": "jsunderland323",
-          "description": "Hi HN - We've been working on Coasts (“containerized hosts”) to make it so you can run multiple localhost instances, and multiple docker-compose runtimes, across git worktrees on the same computer. Here’s a demo: https://www.youtube.com/watch?v=yRiySdGQZZA. There are also videos in our docs that give a good conceptual overview: https://coasts.dev/docs/learn-coasts-videos.\nAgents can make code changes in different worktrees in isolation, but it's hard for them to test their changes without multiple localhost runtimes that are isolated and scoped to those worktrees as well. You can do it up to a point with port hacking tricks, but it becomes impractical when you have a complex docker-compose with many services and multiple volumes.\nWe started playing with Codex and Conductor in the beginning…",
-          "link": "https://github.com/coast-guard/coasts",
-          "publishedOn": "2026-03-30T15:17:51.000Z",
-          "wordCount": 5800,
-          "title": "Show HN: Coasts – Containerized Hosts for Agents",
-          "imageUrl": "https://opengraph.githubassets.com/08237fb46b45b11db757df786a7fbca3918dcb5744f54f09e4b64adbe963eecd/coast-guard/coasts"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47575403",
-          "author": "nvahalik",
-          "description": "Article URL: https://www.codingfont.com/\nComments URL: https://news.ycombinator.com/item?id=47575403\nPoints: 64\n# Comments: 38",
-          "link": "https://www.codingfont.com/",
-          "publishedOn": "2026-03-30T15:16:35.000Z",
-          "wordCount": 92,
-          "title": "CodingFont: A game to help you pick a coding font",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47575212",
-          "author": "bundie",
-          "description": "Article URL: https://www.neowin.net/news/microsoft-copilot-is-now-injecting-ads-into-pull-requests-on-github-gitlab/\nComments URL: https://news.ycombinator.com/item?id=47575212\nPoints: 226\n# Comments: 116",
-          "link": "https://www.neowin.net/news/microsoft-copilot-is-now-injecting-ads-into-pull-requests-on-github-gitlab/",
-          "publishedOn": "2026-03-30T15:00:28.000Z",
-          "wordCount": null,
-          "title": "\"Over 1.5 million GitHub PRs have had ads injected into them by Copilot\"",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47575089",
-          "author": "latentframe",
-          "description": "Article URL: https://eco3min.fr/en/us-inflation-is-not-linear/\nComments URL: https://news.ycombinator.com/item?id=47575089\nPoints: 137\n# Comments: 123",
-          "link": "https://eco3min.fr/en/us-inflation-is-not-linear/",
-          "publishedOn": "2026-03-30T14:49:58.000Z",
-          "wordCount": 8633,
-          "title": "72% of the dollar's purchasing power was destroyed in just four episodes",
-          "imageUrl": "https://mlde8o0xa4ew.i.optimole.com/cb:VNTn.d9a/w:1793/h:1277/q:mauto/f:best/https://eco3min.fr/wp-content/uploads/2026/03/cpi-inflation-episode-decomposition-v1-1.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47574871",
-          "author": "afshinmeh",
-          "description": "I'm excited to introduce Zerobox, a cross-platform, single binary process sandboxing CLI written in Rust. It uses the sandboxing crates from the OpenAI Codex repo and adds additional functionalities like secret injection, SDK, etc.\nWatch the demo: https://www.youtube.com/watch?v=wZiPm9BOPCg\nZerobox follows the same sandboxing policy as Deno which is deny by default. The only operation that the command can run is reading files, all writes and network I/O are blocked by default. No VMs, no Docker, no remote servers.\nWant to block reads to /etc?\n  zerobox --deny-read=/etc -- cat /etc/passwd\n\n  cat: /etc/passwd: Operation not permitted\n\nZerobox wraps any commands/programs, runs an MITM proxy and uses the native sandboxing solutions on each operating system (e.g BubbleWrap on Linux) to run the given process in a sandbox. The MITM proxy has two jobs: blocking network calls and injecting credentials at the network level.\nThink of it this way, I want to inject \"Bearer OPENAI_API_KEY\" but I don't want my sandboxed command to know about it, Zerobox does that by replacing \"OPENAI_API_KEY\" with a placeholder, then replaces it when the actual outbound network call is made, see this example:\n  zerobox --secret OPENAI_API_KEY=$OPENAI_API_KEY --secret-host OPENAI_API_KEY=api.openai.com -- bun agent.ts\n\nThe next thing I'm exploring is `zerobox claude` or `zerobox openclaw` which would wrap the entire agent and preload the correct policy profiles.\nI'd love to hear your feedback, especially if you are running AI Agents (e.g. OpenClaw), MCPs, AI Tools locally.\nComments URL: https://news.ycombinator.com/item?id=47574871\nPoints: 63\n# Comments: 64",
-          "link": "https://github.com/afshinm/zerobox",
-          "publishedOn": "2026-03-30T14:32:36.000Z",
-          "wordCount": 7473,
-          "title": "Show HN: Zerobox – Sandbox any command with file, network, credential controls",
-          "imageUrl": "https://opengraph.githubassets.com/9c4d5e8cbe7f7372382c7a9a8ab461f886c6911c5f7c46a6bbc48a697937a844/afshinm/zerobox"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47574034",
-          "author": "yabones",
-          "description": "Article URL: https://nbailey.ca/post/router/\nComments URL: https://news.ycombinator.com/item?id=47574034\nPoints: 126\n# Comments: 44",
-          "link": "https://nbailey.ca/post/router/",
-          "publishedOn": "2026-03-30T13:28:54.000Z",
-          "wordCount": 2007,
-          "title": "How to Turn Anything into a Router",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47573887",
-          "author": "DiffTheEnder",
-          "description": "Article URL: https://www.dhanishsemar.com/writing/bird-brains\nComments URL: https://news.ycombinator.com/item?id=47573887\nPoints: 78\n# Comments: 41",
-          "link": "https://www.dhanishsemar.com/writing/bird-brains",
-          "publishedOn": "2026-03-30T13:14:27.000Z",
-          "wordCount": 3541,
-          "title": "Parrots pack twice as many neurons as primate brains of the same mass",
-          "imageUrl": "https://dhanishsemar.com/writing/bird-brains/opengraph-image?065a48ba6584b675"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47573519",
-          "author": "karimf",
-          "description": "Article URL: https://alexhwoods.com/dont-let-ai-write-for-you/\nComments URL: https://news.ycombinator.com/item?id=47573519\nPoints: 164\n# Comments: 51",
-          "link": "https://alexhwoods.com/dont-let-ai-write-for-you/",
-          "publishedOn": "2026-03-30T12:39:56.000Z",
-          "wordCount": 919,
-          "title": "Do your own writing",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47573450",
-          "author": "signa11",
-          "description": "Article URL: https://louis.co.nz/2026/03/26/pratt-parsing.html\nComments URL: https://news.ycombinator.com/item?id=47573450\nPoints: 64\n# Comments: 13",
-          "link": "https://louis.co.nz/2026/03/26/pratt-parsing.html",
-          "publishedOn": "2026-03-30T12:31:52.000Z",
-          "wordCount": 1853,
-          "title": "Intuiting Pratt Parsing",
-          "imageUrl": "https://louis.co.nz/assets/img/pratt/ast.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47573420",
-          "author": "martinvol",
-          "description": "Article URL: https://martinvol.pe/blog/2026/03/30/how-the-ai-bubble-bursts/\nComments URL: https://news.ycombinator.com/item?id=47573420\nPoints: 180\n# Comments: 179",
-          "link": "https://martinvol.pe/blog/2026/03/30/how-the-ai-bubble-bursts/",
-          "publishedOn": "2026-03-30T12:28:36.000Z",
-          "wordCount": 1980,
-          "title": "How the AI Bubble Bursts",
-          "imageUrl": "https://martinvol.pe/blog/assets/images/2026-03-30-how-the-ai-bubble-bursts/cover.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47573138",
-          "author": "surprisetalk",
-          "description": "Article URL: https://nomagicpill.substack.com/p/set-the-line-before-its-crossed\nComments URL: https://news.ycombinator.com/item?id=47573138\nPoints: 50\n# Comments: 23",
-          "link": "https://nomagicpill.substack.com/p/set-the-line-before-its-crossed",
-          "publishedOn": "2026-03-30T11:59:53.000Z",
-          "wordCount": null,
-          "title": "Set the Line Before It's Crossed",
           "imageUrl": null
         }
       ]

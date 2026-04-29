@@ -2,10 +2,62 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-04-28T23:59:02.593Z</updated>
+    <updated>2026-04-29T03:56:23.457Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[We decreased our LLM costs with Opus]]></title>
+        <id>https://news.ycombinator.com/item?id=47942903</id>
+        <link href="https://www.mendral.com/blog/frontier-model-lower-costs"/>
+        <updated>2026-04-29T00:57:12.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.mendral.com/blog/frontier-model-lower-costs
+Comments URL: https://news.ycombinator.com/item?id=47942903
+Points: 56
+# Comments: 16]]></summary>
+        <author>
+            <name>shad42</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Regression: malware reminder on every read still causes subagent refusals]]></title>
+        <id>https://news.ycombinator.com/item?id=47942492</id>
+        <link href="https://github.com/anthropics/claude-code/issues/49363"/>
+        <updated>2026-04-28T23:59:57.000Z</updated>
+        <summary type="html"><![CDATA[Not sure if anybody else has experienced this, but for my job I've been playing around with Claude Managed Agents to run code generation tasks in our repo. Every read operation in the managed agent is appended with a system prompt instructing Claude to scan the file for malware; Claude then wastes a bunch of time and tokens (money) performing the analysis; then, once the agent has confirmed that it is not malware, it still interprets the appended prompt to mean that it is disallowed to augment or write any code, and quits. And we're charged for every session that this happens in. Posting here because apparently they only addressed the issue in the past because of a Hacker News discussion. So here's hoping they'll see this and prioritize fixing it again so we can stop losing money.
+Comments URL: https://news.ycombinator.com/item?id=47942492
+Points: 168
+# Comments: 61]]></summary>
+        <author>
+            <name>thomashobohm</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How ChatGPT serves ads]]></title>
+        <id>https://news.ycombinator.com/item?id=47942437</id>
+        <link href="https://www.buchodi.com/how-chatgpt-serves-ads-heres-the-full-attribution-loop/"/>
+        <updated>2026-04-28T23:54:14.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.buchodi.com/how-chatgpt-serves-ads-heres-the-full-attribution-loop/
+Comments URL: https://news.ycombinator.com/item?id=47942437
+Points: 195
+# Comments: 132]]></summary>
+        <author>
+            <name>lmbbuchodi</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Claude for Creative Work]]></title>
+        <id>https://news.ycombinator.com/item?id=47942386</id>
+        <link href="https://www.anthropic.com/news/claude-for-creative-work"/>
+        <updated>2026-04-28T23:46:56.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.anthropic.com/news/claude-for-creative-work
+Comments URL: https://news.ycombinator.com/item?id=47942386
+Points: 77
+# Comments: 48]]></summary>
+        <author>
+            <name>elsewhen</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Before GitHub]]></title>
         <id>https://news.ycombinator.com/item?id=47940921</id>
@@ -215,6 +267,19 @@ Points: 125
 # Comments: 73]]></summary>
         <author>
             <name>mmsc</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Drive any macOS app in the background without stealing the cursor]]></title>
+        <id>https://news.ycombinator.com/item?id=47936312</id>
+        <link href="https://github.com/trycua/cua"/>
+        <updated>2026-04-28T16:03:34.000Z</updated>
+        <summary type="html"><![CDATA[Hi HN, Francesco from Cua here.
+I hacked this project together last weekend, inspired by the Codex Computer-Use release and lessons learned from deploying GUI-operating agents for our customers.
+The main problem: when a UI automation process controls a desktop app today, it usually takes over the human’s session. Your cursor moves, keyboard focus gets stolen, windows jump to the front, and you have to stop working until the agent is done. That is why we have historically avoided encouraging users to run these processes directly on their host machine, instead relying on VMs or GUI containers for concurrency and background execution.
+But computer-use - the tools we give agents to operate computers like humans - does not scale cleanly that way. As models get smarter, agents need to share host…]]></summary>
+        <author>
+            <name>frabonacci</name>
         </author>
     </entry>
     <entry>
@@ -17683,187 +17748,6 @@ Points: 60
 # Comments: 13]]></summary>
         <author>
             <name>speckx</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[FTC Action Against Match and OkCupid for Deceiving Users, Sharing Personal Data]]></title>
-        <id>https://news.ycombinator.com/item?id=47575616</id>
-        <link href="https://www.ftc.gov/news-events/news/press-releases/2026/03/ftc-takes-action-against-match-okcupid-deceiving-users-sharing-personal-data-third-party"/>
-        <updated>2026-03-30T15:32:37.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.ftc.gov/news-events/news/press-releases/2026/03/ftc-takes-action-against-match-okcupid-deceiving-users-sharing-personal-data-third-party
-Comments URL: https://news.ycombinator.com/item?id=47575616
-Points: 63
-# Comments: 26]]></summary>
-        <author>
-            <name>gnabgib</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Magic the Gathering Deck Shuffler]]></title>
-        <id>https://news.ycombinator.com/item?id=47575557</id>
-        <link href="https://mtg.jessitron.honeydemo.io/"/>
-        <updated>2026-03-30T15:28:45.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://mtg.jessitron.honeydemo.io/
-Comments URL: https://news.ycombinator.com/item?id=47575557
-Points: 55
-# Comments: 15]]></summary>
-        <author>
-            <name>mooreds</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: Coasts – Containerized Hosts for Agents]]></title>
-        <id>https://news.ycombinator.com/item?id=47575417</id>
-        <link href="https://github.com/coast-guard/coasts"/>
-        <updated>2026-03-30T15:17:51.000Z</updated>
-        <summary type="html"><![CDATA[Hi HN - We've been working on Coasts (“containerized hosts”) to make it so you can run multiple localhost instances, and multiple docker-compose runtimes, across git worktrees on the same computer. Here’s a demo: https://www.youtube.com/watch?v=yRiySdGQZZA. There are also videos in our docs that give a good conceptual overview: https://coasts.dev/docs/learn-coasts-videos.
-Agents can make code changes in different worktrees in isolation, but it's hard for them to test their changes without multiple localhost runtimes that are isolated and scoped to those worktrees as well. You can do it up to a point with port hacking tricks, but it becomes impractical when you have a complex docker-compose with many services and multiple volumes.
-We started playing with Codex and Conductor in the beginning…]]></summary>
-        <author>
-            <name>jsunderland323</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[CodingFont: A game to help you pick a coding font]]></title>
-        <id>https://news.ycombinator.com/item?id=47575403</id>
-        <link href="https://www.codingfont.com/"/>
-        <updated>2026-03-30T15:16:35.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.codingfont.com/
-Comments URL: https://news.ycombinator.com/item?id=47575403
-Points: 64
-# Comments: 38]]></summary>
-        <author>
-            <name>nvahalik</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA["Over 1.5 million GitHub PRs have had ads injected into them by Copilot"]]></title>
-        <id>https://news.ycombinator.com/item?id=47575212</id>
-        <link href="https://www.neowin.net/news/microsoft-copilot-is-now-injecting-ads-into-pull-requests-on-github-gitlab/"/>
-        <updated>2026-03-30T15:00:28.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.neowin.net/news/microsoft-copilot-is-now-injecting-ads-into-pull-requests-on-github-gitlab/
-Comments URL: https://news.ycombinator.com/item?id=47575212
-Points: 226
-# Comments: 116]]></summary>
-        <author>
-            <name>bundie</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[72% of the dollar's purchasing power was destroyed in just four episodes]]></title>
-        <id>https://news.ycombinator.com/item?id=47575089</id>
-        <link href="https://eco3min.fr/en/us-inflation-is-not-linear/"/>
-        <updated>2026-03-30T14:49:58.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://eco3min.fr/en/us-inflation-is-not-linear/
-Comments URL: https://news.ycombinator.com/item?id=47575089
-Points: 137
-# Comments: 123]]></summary>
-        <author>
-            <name>latentframe</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: Zerobox – Sandbox any command with file, network, credential controls]]></title>
-        <id>https://news.ycombinator.com/item?id=47574871</id>
-        <link href="https://github.com/afshinm/zerobox"/>
-        <updated>2026-03-30T14:32:36.000Z</updated>
-        <summary type="html"><![CDATA[I'm excited to introduce Zerobox, a cross-platform, single binary process sandboxing CLI written in Rust. It uses the sandboxing crates from the OpenAI Codex repo and adds additional functionalities like secret injection, SDK, etc.
-Watch the demo: https://www.youtube.com/watch?v=wZiPm9BOPCg
-Zerobox follows the same sandboxing policy as Deno which is deny by default. The only operation that the command can run is reading files, all writes and network I/O are blocked by default. No VMs, no Docker, no remote servers.
-Want to block reads to /etc?
-  zerobox --deny-read=/etc -- cat /etc/passwd
-
-  cat: /etc/passwd: Operation not permitted
-
-Zerobox wraps any commands/programs, runs an MITM proxy and uses the native sandboxing solutions on each operating system (e.g BubbleWrap on Linux) to run the given process in a sandbox. The MITM proxy has two jobs: blocking network calls and injecting credentials at the network level.
-Think of it this way, I want to inject "Bearer OPENAI_API_KEY" but I don't want my sandboxed command to know about it, Zerobox does that by replacing "OPENAI_API_KEY" with a placeholder, then replaces it when the actual outbound network call is made, see this example:
-  zerobox --secret OPENAI_API_KEY=$OPENAI_API_KEY --secret-host OPENAI_API_KEY=api.openai.com -- bun agent.ts
-
-The next thing I'm exploring is `zerobox claude` or `zerobox openclaw` which would wrap the entire agent and preload the correct policy profiles.
-I'd love to hear your feedback, especially if you are running AI Agents (e.g. OpenClaw), MCPs, AI Tools locally.
-Comments URL: https://news.ycombinator.com/item?id=47574871
-Points: 63
-# Comments: 64]]></summary>
-        <author>
-            <name>afshinmeh</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How to Turn Anything into a Router]]></title>
-        <id>https://news.ycombinator.com/item?id=47574034</id>
-        <link href="https://nbailey.ca/post/router/"/>
-        <updated>2026-03-30T13:28:54.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://nbailey.ca/post/router/
-Comments URL: https://news.ycombinator.com/item?id=47574034
-Points: 126
-# Comments: 44]]></summary>
-        <author>
-            <name>yabones</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Parrots pack twice as many neurons as primate brains of the same mass]]></title>
-        <id>https://news.ycombinator.com/item?id=47573887</id>
-        <link href="https://www.dhanishsemar.com/writing/bird-brains"/>
-        <updated>2026-03-30T13:14:27.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.dhanishsemar.com/writing/bird-brains
-Comments URL: https://news.ycombinator.com/item?id=47573887
-Points: 78
-# Comments: 41]]></summary>
-        <author>
-            <name>DiffTheEnder</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Do your own writing]]></title>
-        <id>https://news.ycombinator.com/item?id=47573519</id>
-        <link href="https://alexhwoods.com/dont-let-ai-write-for-you/"/>
-        <updated>2026-03-30T12:39:56.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://alexhwoods.com/dont-let-ai-write-for-you/
-Comments URL: https://news.ycombinator.com/item?id=47573519
-Points: 164
-# Comments: 51]]></summary>
-        <author>
-            <name>karimf</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Intuiting Pratt Parsing]]></title>
-        <id>https://news.ycombinator.com/item?id=47573450</id>
-        <link href="https://louis.co.nz/2026/03/26/pratt-parsing.html"/>
-        <updated>2026-03-30T12:31:52.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://louis.co.nz/2026/03/26/pratt-parsing.html
-Comments URL: https://news.ycombinator.com/item?id=47573450
-Points: 64
-# Comments: 13]]></summary>
-        <author>
-            <name>signa11</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How the AI Bubble Bursts]]></title>
-        <id>https://news.ycombinator.com/item?id=47573420</id>
-        <link href="https://martinvol.pe/blog/2026/03/30/how-the-ai-bubble-bursts/"/>
-        <updated>2026-03-30T12:28:36.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://martinvol.pe/blog/2026/03/30/how-the-ai-bubble-bursts/
-Comments URL: https://news.ycombinator.com/item?id=47573420
-Points: 180
-# Comments: 179]]></summary>
-        <author>
-            <name>martinvol</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Set the Line Before It's Crossed]]></title>
-        <id>https://news.ycombinator.com/item?id=47573138</id>
-        <link href="https://nomagicpill.substack.com/p/set-the-line-before-its-crossed"/>
-        <updated>2026-03-30T11:59:53.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://nomagicpill.substack.com/p/set-the-line-before-its-crossed
-Comments URL: https://news.ycombinator.com/item?id=47573138
-Points: 50
-# Comments: 23]]></summary>
-        <author>
-            <name>surprisetalk</name>
         </author>
     </entry>
 </feed>
