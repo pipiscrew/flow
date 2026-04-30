@@ -2,10 +2,49 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-04-30T20:13:11.002Z</updated>
+    <updated>2026-04-30T22:01:20.870Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Rivian allows you to disable all internet connectivity]]></title>
+        <id>https://news.ycombinator.com/item?id=47967786</id>
+        <link href="https://rivian.com/support/article/can-i-disable-all-data-collection-from-my-vehicle"/>
+        <updated>2026-04-30T20:27:22.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://rivian.com/support/article/can-i-disable-all-data-collection-from-my-vehicle
+Comments URL: https://news.ycombinator.com/item?id=47967786
+Points: 219
+# Comments: 85]]></summary>
+        <author>
+            <name>Cider9986</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[LinkedIn scans for 6,278 extensions and encrypts the results into every request]]></title>
+        <id>https://news.ycombinator.com/item?id=47967262</id>
+        <link href="https://404privacy.com/blog/linkedin-is-scanning-your-browser-extensions-this-is-how-they-use-the-data/"/>
+        <updated>2026-04-30T19:40:20.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://404privacy.com/blog/linkedin-is-scanning-your-browser-extensions-this-is-how-they-use-the-data/
+Comments URL: https://news.ycombinator.com/item?id=47967262
+Points: 176
+# Comments: 57]]></summary>
+        <author>
+            <name>un-nf</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Full-Text Search with DuckDB]]></title>
+        <id>https://news.ycombinator.com/item?id=47966254</id>
+        <link href="https://peterdohertys.website/blog-posts/full-text-search-w-duckdb.html"/>
+        <updated>2026-04-30T18:14:18.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://peterdohertys.website/blog-posts/full-text-search-w-duckdb.html
+Comments URL: https://news.ycombinator.com/item?id=47966254
+Points: 50
+# Comments: 14]]></summary>
+        <author>
+            <name>ethagnawl</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[I built a Game Boy emulator in F#]]></title>
         <id>https://news.ycombinator.com/item?id=47965503</id>
@@ -43,6 +82,19 @@ Points: 127
 # Comments: 13]]></summary>
         <author>
             <name>the-mitr</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[American Dads Became the Parents Their Fathers Never Were]]></title>
+        <id>https://news.ycombinator.com/item?id=47965027</id>
+        <link href="https://www.derekthompson.org/p/why-do-richer-dads-spend-more-time"/>
+        <updated>2026-04-30T16:38:14.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.derekthompson.org/p/why-do-richer-dads-spend-more-time
+Comments URL: https://news.ycombinator.com/item?id=47965027
+Points: 55
+# Comments: 23]]></summary>
+        <author>
+            <name>ozozozd</name>
         </author>
     </entry>
     <entry>
@@ -1180,6 +1232,24 @@ Points: 190
 # Comments: 156]]></summary>
         <author>
             <name>shorsher</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Reverse Engineering SimTower]]></title>
+        <id>https://news.ycombinator.com/item?id=47937814</id>
+        <link href="https://phulin.me/blog/simtower"/>
+        <updated>2026-04-28T17:41:38.000Z</updated>
+        <summary type="html"><![CDATA[This is the story of building https://towers.world, a ~perfect, tick-for-tick reproduction of 1993 game SimTower.
+I spent weeks reverse-engineering the original EXE and writing up a detailed spec of how the simulation actually works under the hood — population flow, elevator AI, the whole star-rating system. The specs are all on GitHub if you want to read them: https://github.com/phulin/tower-together/tree/main/specs
+It's also collaborative. Multiple players can connect to the same tower, the simulation keeps running as long as anyone's connected, and build actions sync across clients in real time.
+Because I rebuilt the UI, I could add features like shift-click to build grids of rooms - instead of painstakingly clicking to build rows of offices and hotels, shift-click allows a 10-floor grid to be built all at once.
+The game runs on Cloudflare Durable Objects, one of my favorite web primitives.
+Everything is open source: https://github.com/phulin/tower-together
+Comments URL: https://news.ycombinator.com/item?id=47937814
+Points: 56
+# Comments: 5]]></summary>
+        <author>
+            <name>patrickhulin</name>
         </author>
     </entry>
     <entry>
@@ -17884,45 +17954,6 @@ Points: 66
 # Comments: 31]]></summary>
         <author>
             <name>hackernewsblues</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Rubysyn: Clarifying Ruby's Syntax and Semantics]]></title>
-        <id>https://news.ycombinator.com/item?id=47598835</id>
-        <link href="https://github.com/squadette/rubysyn/blob/master/README.md"/>
-        <updated>2026-04-01T09:54:18.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://github.com/squadette/rubysyn/blob/master/README.md
-Comments URL: https://news.ycombinator.com/item?id=47598835
-Points: 54
-# Comments: 5]]></summary>
-        <author>
-            <name>petalmind</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[I Quit. The Clankers Won]]></title>
-        <id>https://news.ycombinator.com/item?id=47598511</id>
-        <link href="https://dbushell.com/2026/04/01/i-quit-the-clankers-won/"/>
-        <updated>2026-04-01T09:00:34.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://dbushell.com/2026/04/01/i-quit-the-clankers-won/
-Comments URL: https://news.ycombinator.com/item?id=47598511
-Points: 175
-# Comments: 137]]></summary>
-        <author>
-            <name>domysee</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[C89cc.sh – standalone C89/ELF64 compiler in pure portable shell]]></title>
-        <id>https://news.ycombinator.com/item?id=47598413</id>
-        <link href="https://gist.github.com/alganet/2b89c4368f8d23d033961d8a3deb5c19"/>
-        <updated>2026-04-01T08:41:49.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://gist.github.com/alganet/2b89c4368f8d23d033961d8a3deb5c19
-Comments URL: https://news.ycombinator.com/item?id=47598413
-Points: 67
-# Comments: 10]]></summary>
-        <author>
-            <name>gaigalas</name>
         </author>
     </entry>
 </feed>

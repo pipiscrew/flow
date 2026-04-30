@@ -6,6 +6,36 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=47967786",
+          "author": "Cider9986",
+          "description": "Article URL: https://rivian.com/support/article/can-i-disable-all-data-collection-from-my-vehicle\nComments URL: https://news.ycombinator.com/item?id=47967786\nPoints: 219\n# Comments: 85",
+          "link": "https://rivian.com/support/article/can-i-disable-all-data-collection-from-my-vehicle",
+          "publishedOn": "2026-04-30T20:27:22.000Z",
+          "wordCount": 2199,
+          "title": "Rivian allows you to disable all internet connectivity",
+          "imageUrl": "https://media.rivian.com/image/upload/f_auto,q_auto/v1695930282/rivian-com/default-riv-com-sharing-image_gjg8mw.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47967262",
+          "author": "un-nf",
+          "description": "Article URL: https://404privacy.com/blog/linkedin-is-scanning-your-browser-extensions-this-is-how-they-use-the-data/\nComments URL: https://news.ycombinator.com/item?id=47967262\nPoints: 176\n# Comments: 57",
+          "link": "https://404privacy.com/blog/linkedin-is-scanning-your-browser-extensions-this-is-how-they-use-the-data/",
+          "publishedOn": "2026-04-30T19:40:20.000Z",
+          "wordCount": 3089,
+          "title": "LinkedIn scans for 6,278 extensions and encrypts the results into every request",
+          "imageUrl": "https://images.unsplash.com/photo-1592093947163-51f1d258d110?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDZ8fGxpbmtlZCUyMGlufGVufDB8fHx8MTc3NTQ5NjQ2OXww&ixlib=rb-4.1.0&q=80&w=2000"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47966254",
+          "author": "ethagnawl",
+          "description": "Article URL: https://peterdohertys.website/blog-posts/full-text-search-w-duckdb.html\nComments URL: https://news.ycombinator.com/item?id=47966254\nPoints: 50\n# Comments: 14",
+          "link": "https://peterdohertys.website/blog-posts/full-text-search-w-duckdb.html",
+          "publishedOn": "2026-04-30T18:14:18.000Z",
+          "wordCount": 1805,
+          "title": "Full-Text Search with DuckDB",
+          "imageUrl": null
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=47965503",
           "author": "elvis70",
           "description": "Article URL: https://nickkossolapov.github.io/fame-boy/building-a-game-boy-emulator-in-fsharp/\nComments URL: https://news.ycombinator.com/item?id=47965503\nPoints: 106\n# Comments: 27",
@@ -34,6 +64,16 @@
           "wordCount": null,
           "title": "The Whistleblower Who Uncovered the NSA's 'Big Brother Machine'",
           "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47965027",
+          "author": "ozozozd",
+          "description": "Article URL: https://www.derekthompson.org/p/why-do-richer-dads-spend-more-time\nComments URL: https://news.ycombinator.com/item?id=47965027\nPoints: 55\n# Comments: 23",
+          "link": "https://www.derekthompson.org/p/why-do-richer-dads-spend-more-time",
+          "publishedOn": "2026-04-30T16:38:14.000Z",
+          "wordCount": 7687,
+          "title": "American Dads Became the Parents Their Fathers Never Were",
+          "imageUrl": "https://images.unsplash.com/photo-1562494855-e008650bb2c6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzMDAzMzh8MHwxfHNlYXJjaHwxMHx8ZGFkfGVufDB8fHx8MTc3NzQ3MzYzM3ww&ixlib=rb-4.1.0&q=80&w=1080"
         },
         {
           "id": "https://news.ycombinator.com/item?id=47964617",
@@ -904,6 +944,16 @@
           "wordCount": 3969,
           "title": "Claude.ai unavailable and elevated errors on the API",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47937814",
+          "author": "patrickhulin",
+          "description": "This is the story of building https://towers.world, a ~perfect, tick-for-tick reproduction of 1993 game SimTower.\nI spent weeks reverse-engineering the original EXE and writing up a detailed spec of how the simulation actually works under the hood — population flow, elevator AI, the whole star-rating system. The specs are all on GitHub if you want to read them: https://github.com/phulin/tower-together/tree/main/specs\nIt's also collaborative. Multiple players can connect to the same tower, the simulation keeps running as long as anyone's connected, and build actions sync across clients in real time.\nBecause I rebuilt the UI, I could add features like shift-click to build grids of rooms - instead of painstakingly clicking to build rows of offices and hotels, shift-click allows a 10-floor grid to be built all at once.\nThe game runs on Cloudflare Durable Objects, one of my favorite web primitives.\nEverything is open source: https://github.com/phulin/tower-together\nComments URL: https://news.ycombinator.com/item?id=47937814\nPoints: 56\n# Comments: 5",
+          "link": "https://phulin.me/blog/simtower",
+          "publishedOn": "2026-04-28T17:41:38.000Z",
+          "wordCount": 1825,
+          "title": "Reverse Engineering SimTower",
+          "imageUrl": "https://phulin.me/assets/og-image.png"
         },
         {
           "id": "https://news.ycombinator.com/item?id=47937380",
@@ -13494,36 +13544,6 @@
           "wordCount": 2383,
           "title": "The Document Foundation ejects its core developers",
           "imageUrl": "https://www.collaboraonline.com/wp-content/uploads/2026/04/TDF-ejects-thumb.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47598835",
-          "author": "petalmind",
-          "description": "Article URL: https://github.com/squadette/rubysyn/blob/master/README.md\nComments URL: https://news.ycombinator.com/item?id=47598835\nPoints: 54\n# Comments: 5",
-          "link": "https://github.com/squadette/rubysyn/blob/master/README.md",
-          "publishedOn": "2026-04-01T09:54:18.000Z",
-          "wordCount": 24383,
-          "title": "Rubysyn: Clarifying Ruby's Syntax and Semantics",
-          "imageUrl": "https://opengraph.githubassets.com/a77afde1632fbded8fae039daa3149fde3dc9ce5bb58c3aead0701d8538768ba/squadette/rubysyn"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47598511",
-          "author": "domysee",
-          "description": "Article URL: https://dbushell.com/2026/04/01/i-quit-the-clankers-won/\nComments URL: https://news.ycombinator.com/item?id=47598511\nPoints: 175\n# Comments: 137",
-          "link": "https://dbushell.com/2026/04/01/i-quit-the-clankers-won/",
-          "publishedOn": "2026-04-01T09:00:34.000Z",
-          "wordCount": 2060,
-          "title": "I Quit. The Clankers Won",
-          "imageUrl": "https://dbushell.com/images/articles/2026-04-01-i-quit-the-clankers-won.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47598413",
-          "author": "gaigalas",
-          "description": "Article URL: https://gist.github.com/alganet/2b89c4368f8d23d033961d8a3deb5c19\nComments URL: https://news.ycombinator.com/item?id=47598413\nPoints: 67\n# Comments: 10",
-          "link": "https://gist.github.com/alganet/2b89c4368f8d23d033961d8a3deb5c19",
-          "publishedOn": "2026-04-01T08:41:49.000Z",
-          "wordCount": 32127,
-          "title": "C89cc.sh – standalone C89/ELF64 compiler in pure portable shell",
-          "imageUrl": "https://github.githubassets.com/assets/gist-og-image-54fd7dc0713e.png"
         }
       ]
     }
