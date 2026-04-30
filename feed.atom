@@ -2,10 +2,38 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-04-30T22:01:20.870Z</updated>
+    <updated>2026-04-30T23:56:33.249Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Pu.sh – a full coding-agent harness in 400 lines of shell]]></title>
+        <id>https://news.ycombinator.com/item?id=47968112</id>
+        <link href="https://pu.dev/"/>
+        <updated>2026-04-30T20:55:12.000Z</updated>
+        <summary type="html"><![CDATA[I originally was just messing with pi-autoresearch. Gave it a sample task to build the most portable coding agent.
+First cut was 6 KB of shell. Great for one-shots, unusable interactively. I was shocked it actually worked.
+Started building up -- adding features — but with a self-imposed rule: no new dependencies, and sub 500 LOC. This thing had to be truly portable. Just sh, curl, awk. System primitives only.
+Which means I did some genuinely disgusting things in awk, including JSON parsing and the OpenAI
+Responses tool loop with reasoning items carried across turns.
+It's now ~400 lines. In the box: Anthropic + OpenAI, 7 tools (bash, read, write, edit, grep, find, ls),
+REPL, auto-compaction, checkpoint/resume, pipe mode, 90 no-API tests. Not in the box: TUI, streaming,
+images, OAuth, Windows, dignity.
+Two honest things:
+1. I stole/modified the system prompt and the architecture. Pi/Claude/Codex wrote the awk. I cannot read most of this code. This wasn't possible for me a year ago.
+2. Heavily inspired by Pi (pi.dev) — same 7-tool surface, same exact-text edit model. Credit where it's
+due. Pi is awesome -- you should probably use them.
+The agent loop itself is tiny. Almost everything else in a "real" agent CLI is DX and hardening. You can
+probably build your own harness exactly how you like it. Mario Zechner's AI Engineer talk on taking back control of
+your tools nudged me here.
+The name is because it's a .sh file. The other thing it sounds like is, regrettably, also accurate.
+Comments URL: https://news.ycombinator.com/item?id=47968112
+Points: 50
+# Comments: 16]]></summary>
+        <author>
+            <name>nahimn</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Rivian allows you to disable all internet connectivity]]></title>
         <id>https://news.ycombinator.com/item?id=47967786</id>
@@ -20,6 +48,19 @@ Points: 219
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[The upsell game – Vercel upselling tactics revealed]]></title>
+        <id>https://news.ycombinator.com/item?id=47967508</id>
+        <link href="https://theupsellgame.com/"/>
+        <updated>2026-04-30T20:02:35.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://theupsellgame.com/
+Comments URL: https://news.ycombinator.com/item?id=47967508
+Points: 60
+# Comments: 10]]></summary>
+        <author>
+            <name>bartoindahouse</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[LinkedIn scans for 6,278 extensions and encrypts the results into every request]]></title>
         <id>https://news.ycombinator.com/item?id=47967262</id>
         <link href="https://404privacy.com/blog/linkedin-is-scanning-your-browser-extensions-this-is-how-they-use-the-data/"/>
@@ -30,6 +71,19 @@ Points: 176
 # Comments: 57]]></summary>
         <author>
             <name>un-nf</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Does Postgres Scale?]]></title>
+        <id>https://news.ycombinator.com/item?id=47966625</id>
+        <link href="https://www.dbos.dev/blog/benchmarking-workflow-execution-scalability-on-postgres"/>
+        <updated>2026-04-30T18:45:22.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.dbos.dev/blog/benchmarking-workflow-execution-scalability-on-postgres
+Comments URL: https://news.ycombinator.com/item?id=47966625
+Points: 65
+# Comments: 30]]></summary>
+        <author>
+            <name>KraftyOne</name>
         </author>
     </entry>
     <entry>
@@ -589,6 +643,19 @@ Points: 75
 # Comments: 25]]></summary>
         <author>
             <name>takira</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Opus 4.7 knows the real Kelsey]]></title>
+        <id>https://news.ycombinator.com/item?id=47951295</id>
+        <link href="https://www.theargumentmag.com/p/i-can-never-talk-to-an-ai-anonymously"/>
+        <updated>2026-04-29T17:09:03.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.theargumentmag.com/p/i-can-never-talk-to-an-ai-anonymously
+Comments URL: https://news.ycombinator.com/item?id=47951295
+Points: 89
+# Comments: 38]]></summary>
+        <author>
+            <name>ilamont</name>
         </author>
     </entry>
     <entry>
@@ -17928,32 +17995,6 @@ Points: 57
 # Comments: 40]]></summary>
         <author>
             <name>lukechu10</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Random numbers, Persian code: A mysterious signal transfixes radio sleuths]]></title>
-        <id>https://news.ycombinator.com/item?id=47599510</id>
-        <link href="https://www.rferl.org/a/mystery-numbers-station-persian-signal-iran-war/33700659.html"/>
-        <updated>2026-04-01T11:39:04.000Z</updated>
-        <summary type="html"><![CDATA[https://www.wired.com/story/a-mysterious-numbers-station-is-...
-Comments URL: https://news.ycombinator.com/item?id=47599510
-Points: 74
-# Comments: 78]]></summary>
-        <author>
-            <name>thinkingemote</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Document Foundation ejects its core developers]]></title>
-        <id>https://news.ycombinator.com/item?id=47599305</id>
-        <link href="https://www.collaboraonline.com/blog/tdf-ejects-its-core-developers/"/>
-        <updated>2026-04-01T11:09:11.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.collaboraonline.com/blog/tdf-ejects-its-core-developers/
-Comments URL: https://news.ycombinator.com/item?id=47599305
-Points: 66
-# Comments: 31]]></summary>
-        <author>
-            <name>hackernewsblues</name>
         </author>
     </entry>
 </feed>

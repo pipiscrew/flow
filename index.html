@@ -22,8 +22,8 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2026-04-30 datetime="2026-04-30T20:27:22.000Z">2026-04-30</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2026-04-30 datetime="2026-04-30T20:27:22.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2026-04-30 datetime="2026-04-30T20:55:12.000Z">2026-04-30</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2026-04-30 datetime="2026-04-30T20:55:12.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
@@ -38,6 +38,44 @@
                   <a class="source-heading__link" href="https://news.ycombinator.com/">Open</a>
                 </h3>
                 <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;47968112"
+                        open
+                      >
+                        <summary class="article-expander__title">Show HN: Pu.sh – a full coding-agent harness in 400 lines of shell</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://pu.dev/">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://pu.dev/logo.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>I originally was just messing with pi-autoresearch. Gave it a sample task to build the most portable coding agent.
+First cut was 6 KB of shell. Great for one-shots, unusable interactively. I was shocked it actually worked.
+Started building up -- adding features — but with a self-imposed rule: no new dependencies, and sub 500 LOC. This thing had to be truly portable. Just sh, curl, awk. System primitives only.
+Which means I did some genuinely disgusting things in awk, including JSON parsing and the OpenAI
+Responses tool loop with reasoning items carried across turns.
+It&#x27;s now ~400 lines. In the box: Anthropic + OpenAI, 7 tools (bash, read, write, edit, grep, find, ls),
+REPL, auto-compaction, checkpoint/resume, pipe mode, 90 no-API tests. Not in the box: TUI, streaming,
+images, OAuth, Windows, dignity.
+Two honest things:
+1. I stole/modified the system prompt and the architecture. Pi/Claude/Codex wrote the awk. I cannot read most of this code. This wasn&#x27;t possible for me a year ago.
+2. Heavily inspired by Pi (pi.dev) — same 7-tool surface, same exact-text edit model. Credit where it&#x27;s
+due. Pi is awesome -- you should probably use them.
+The agent loop itself is tiny. Almost everything else in a &quot;real&quot; agent CLI is DX and hardening. You can
+probably build your own harness exactly how you like it. Mario Zechner&#x27;s AI Engineer talk on taking back control of
+your tools nudged me here.
+The name is because it&#x27;s a .sh file. The other thing it sounds like is, regrettably, also accurate.
+Comments URL: https://news.ycombinator.com/item?id&#x3D;47968112
+Points: 50
+# Comments: 16</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
                     <article>
                       <details
                         class="article-expander"
@@ -65,6 +103,27 @@ Points: 219
                       <details
                         class="article-expander"
                         data-action="toggle-native-accordion"
+                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;47967508"
+                        open
+                      >
+                        <summary class="article-expander__title">The upsell game – Vercel upselling tactics revealed</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://theupsellgame.com/">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://theupsellgame.com/og.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Article URL: https://theupsellgame.com/
+Comments URL: https://news.ycombinator.com/item?id&#x3D;47967508
+Points: 60
+# Comments: 10</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
                         data-accordion-key="https://news.ycombinator.com/item?id&#x3D;47967262"
                         open
                       >
@@ -78,6 +137,29 @@ Comments URL: https://news.ycombinator.com/item?id&#x3D;47967262
 Points: 176
 # Comments: 57</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;10
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;47966625"
+                        open
+                      >
+                        <summary class="article-expander__title">Does Postgres Scale?</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.dbos.dev/blog/benchmarking-workflow-execution-scalability-on-postgres">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://cdn.prod.website-files.com/672411cbf038560468c9e68f/69ea2ef1c3fc50d09e3def99_Workflow-Execution-on-Postgres-Benchmark.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Article URL: https://www.dbos.dev/blog/benchmarking-workflow-execution-scalability-on-postgres
+Comments URL: https://news.ycombinator.com/item?id&#x3D;47966625
+Points: 65
+# Comments: 30</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -1060,6 +1142,29 @@ Comments URL: https://news.ycombinator.com/item?id&#x3D;47951786
 Points: 75
 # Comments: 25</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;37
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;47951295"
+                        open
+                      >
+                        <summary class="article-expander__title">Opus 4.7 knows the real Kelsey</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theargumentmag.com/p/i-can-never-talk-to-an-ai-anonymously">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://substackcdn.com/image/fetch/$s_!q0IX!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F830c09c6-06a9-47e6-8552-6ba2cbfd3da5_2121x1414.jpeg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Article URL: https://www.theargumentmag.com/p/i-can-never-talk-to-an-ai-anonymously
+Comments URL: https://news.ycombinator.com/item?id&#x3D;47951295
+Points: 89
+# Comments: 38</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;24
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -31352,52 +31457,6 @@ Points: 57
                         </a>
                       </details>
                     </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;47599510"
-                        open
-                      >
-                        <summary class="article-expander__title">Random numbers, Persian code: A mysterious signal transfixes radio sleuths</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.rferl.org/a/mystery-numbers-station-persian-signal-iran-war/33700659.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://gdb.rferl.org/139f7feb-eea0-4e7f-33af-08de3be37656_w1200_h630.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>https://www.wired.com/story/a-mysterious-numbers-station-is-...
-Comments URL: https://news.ycombinator.com/item?id&#x3D;47599510
-Points: 74
-# Comments: 78</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;8
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;47599305"
-                        open
-                      >
-                        <summary class="article-expander__title">The Document Foundation ejects its core developers</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.collaboraonline.com/blog/tdf-ejects-its-core-developers/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://www.collaboraonline.com/wp-content/uploads/2026/04/TDF-ejects-thumb.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Article URL: https://www.collaboraonline.com/blog/tdf-ejects-its-core-developers/
-Comments URL: https://news.ycombinator.com/item?id&#x3D;47599305
-Points: 66
-# Comments: 31</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;8
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
                 </section>
               </section>
             </li>
@@ -31405,8 +31464,8 @@ Points: 66
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/pipiscrew/flow/actions/runs/25191475035">
-        <time id="build-timestamp" datetime="2026-04-30T22:01:20.810Z">2026-04-30T22:01:20.810Z</time>
+      <a class="footer-link" href="https://github.com/pipiscrew/flow/actions/runs/25195273866">
+        <time id="build-timestamp" datetime="2026-04-30T23:56:33.194Z">2026-04-30T23:56:33.194Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
