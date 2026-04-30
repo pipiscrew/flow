@@ -2,10 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-04-30T03:58:56.907Z</updated>
+    <updated>2026-04-30T06:36:14.219Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Biology is a Burrito: A text- and visual-based journey through a living cell]]></title>
+        <id>https://news.ycombinator.com/item?id=47957714</id>
+        <link href="https://burrito.bio/essays/biology-is-a-burrito"/>
+        <updated>2026-04-30T03:24:41.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://burrito.bio/essays/biology-is-a-burrito
+Comments URL: https://news.ycombinator.com/item?id=47957714
+Points: 56
+# Comments: 8]]></summary>
+        <author>
+            <name>the-mitr</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Where the Goblins Came From]]></title>
         <id>https://news.ycombinator.com/item?id=47957688</id>
@@ -17,6 +30,45 @@ Points: 62
 # Comments: 13]]></summary>
         <author>
             <name>ilreb</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Alignment whack-a-mole: Finetuning activates recall of copyrighted books in LLMs]]></title>
+        <id>https://news.ycombinator.com/item?id=47957627</id>
+        <link href="https://github.com/cauchy221/Alignment-Whack-a-Mole-Code"/>
+        <updated>2026-04-30T03:11:51.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://github.com/cauchy221/Alignment-Whack-a-Mole-Code
+Comments URL: https://news.ycombinator.com/item?id=47957627
+Points: 83
+# Comments: 47]]></summary>
+        <author>
+            <name>reconnecting</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Functional programmers need to take a look at Zig]]></title>
+        <id>https://news.ycombinator.com/item?id=47957624</id>
+        <link href="https://pure-systems.org/posts/2026-04-29-functional-programmers-need-to-take-a-look-at-zig.html"/>
+        <updated>2026-04-30T03:11:33.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://pure-systems.org/posts/2026-04-29-functional-programmers-need-to-take-a-look-at-zig.html
+Comments URL: https://news.ycombinator.com/item?id=47957624
+Points: 57
+# Comments: 40]]></summary>
+        <author>
+            <name>xngbuilds</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Zig project's rationale for their firm anti-AI contribution policy]]></title>
+        <id>https://news.ycombinator.com/item?id=47957294</id>
+        <link href="https://simonwillison.net/2026/Apr/30/zig-anti-ai/"/>
+        <updated>2026-04-30T02:15:47.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://simonwillison.net/2026/Apr/30/zig-anti-ai/
+Comments URL: https://news.ycombinator.com/item?id=47957294
+Points: 120
+# Comments: 41]]></summary>
+        <author>
+            <name>lumpa</name>
         </author>
     </entry>
     <entry>
@@ -43,6 +95,19 @@ Points: 101
 # Comments: 92]]></summary>
         <author>
             <name>rob</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Mike: open-source legal AI]]></title>
+        <id>https://news.ycombinator.com/item?id=47956739</id>
+        <link href="https://mikeoss.com/"/>
+        <updated>2026-04-30T00:56:23.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://mikeoss.com/
+Comments URL: https://news.ycombinator.com/item?id=47956739
+Points: 63
+# Comments: 18]]></summary>
+        <author>
+            <name>noleary</name>
         </author>
     </entry>
     <entry>
@@ -17705,44 +17770,6 @@ Points: 248
 # Comments: 68]]></summary>
         <author>
             <name>todsacerdoti</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[OkCupid gave 3M dating-app photos to facial recognition firm, FTC says]]></title>
-        <id>https://news.ycombinator.com/item?id=47591104</id>
-        <link href="https://arstechnica.com/tech-policy/2026/03/okcupid-match-pay-no-fine-for-sharing-user-photos-with-facial-recognition-firm/"/>
-        <updated>2026-03-31T17:55:04.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://arstechnica.com/tech-policy/2026/03/okcupid-match-pay-no-fine-for-sharing-user-photos-with-facial-recognition-firm/
-Comments URL: https://news.ycombinator.com/item?id=47591104
-Points: 163
-# Comments: 38]]></summary>
-        <author>
-            <name>whiteboardr</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: Postgres extension for BM25 relevance-ranked full-text search]]></title>
-        <id>https://news.ycombinator.com/item?id=47589856</id>
-        <link href="https://github.com/timescale/pg_textsearch"/>
-        <updated>2026-03-31T16:29:52.000Z</updated>
-        <summary type="html"><![CDATA[Last summer we faced a conundrum at my company, Tiger Data, a Postgres cloud vendor whose main business is in timeseries data.  We were trying to grow our business towards emerging AI-centric workloads and wanted to provide a state-of-the-art hybrid search stack in Postgres.  We'd already built pgvectorscale in house with the goal of scaling semantic search beyond pgvector's main memory limitations.  We just needed a scalable ranked keyword search solution too.
-The problem: core Postgres doesn't provide this; the leading Postgres BM25 extension, ParadeDB, is guarded behind AGPL; developing our own extension appeared daunting.  We'd need a small team of sharp engineers and 6-12 months, I figured.  And we'd probably still fall short of the performance of a mature system like Parade/Tantivy.
-…]]></summary>
-        <author>
-            <name>tjgreen</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Cohere Transcribe: Speech Recognition]]></title>
-        <id>https://news.ycombinator.com/item?id=47589818</id>
-        <link href="https://cohere.com/blog/transcribe"/>
-        <updated>2026-03-31T16:27:02.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://cohere.com/blog/transcribe
-Comments URL: https://news.ycombinator.com/item?id=47589818
-Points: 92
-# Comments: 30]]></summary>
-        <author>
-            <name>gmays</name>
         </author>
     </entry>
 </feed>

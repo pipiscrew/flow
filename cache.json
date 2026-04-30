@@ -6,6 +6,16 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=47957714",
+          "author": "the-mitr",
+          "description": "Article URL: https://burrito.bio/essays/biology-is-a-burrito\nComments URL: https://news.ycombinator.com/item?id=47957714\nPoints: 56\n# Comments: 8",
+          "link": "https://burrito.bio/essays/biology-is-a-burrito",
+          "publishedOn": "2026-04-30T03:24:41.000Z",
+          "wordCount": 2346,
+          "title": "Biology is a Burrito: A text- and visual-based journey through a living cell",
+          "imageUrl": null
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=47957688",
           "author": "ilreb",
           "description": "Article URL: https://openai.com/index/where-the-goblins-came-from/\nComments URL: https://news.ycombinator.com/item?id=47957688\nPoints: 62\n# Comments: 13",
@@ -13,6 +23,36 @@
           "publishedOn": "2026-04-30T03:21:04.000Z",
           "wordCount": null,
           "title": "Where the Goblins Came From",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47957627",
+          "author": "reconnecting",
+          "description": "Article URL: https://github.com/cauchy221/Alignment-Whack-a-Mole-Code\nComments URL: https://news.ycombinator.com/item?id=47957627\nPoints: 83\n# Comments: 47",
+          "link": "https://github.com/cauchy221/Alignment-Whack-a-Mole-Code",
+          "publishedOn": "2026-04-30T03:11:51.000Z",
+          "wordCount": 4695,
+          "title": "Alignment whack-a-mole: Finetuning activates recall of copyrighted books in LLMs",
+          "imageUrl": "https://opengraph.githubassets.com/5619272f1719e1e9dbeb643897eb2ec8e8a4e28a2c133ef48edc0fb7b93c0df7/cauchy221/Alignment-Whack-a-Mole-Code"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47957624",
+          "author": "xngbuilds",
+          "description": "Article URL: https://pure-systems.org/posts/2026-04-29-functional-programmers-need-to-take-a-look-at-zig.html\nComments URL: https://news.ycombinator.com/item?id=47957624\nPoints: 57\n# Comments: 40",
+          "link": "https://pure-systems.org/posts/2026-04-29-functional-programmers-need-to-take-a-look-at-zig.html",
+          "publishedOn": "2026-04-30T03:11:33.000Z",
+          "wordCount": 2371,
+          "title": "Functional programmers need to take a look at Zig",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47957294",
+          "author": "lumpa",
+          "description": "Article URL: https://simonwillison.net/2026/Apr/30/zig-anti-ai/\nComments URL: https://news.ycombinator.com/item?id=47957294\nPoints: 120\n# Comments: 41",
+          "link": "https://simonwillison.net/2026/Apr/30/zig-anti-ai/",
+          "publishedOn": "2026-04-30T02:15:47.000Z",
+          "wordCount": 1186,
+          "title": "The Zig project's rationale for their firm anti-AI contribution policy",
           "imageUrl": null
         },
         {
@@ -34,6 +74,16 @@
           "wordCount": 3846,
           "title": "Claude.ai and API unavailable [fixed]",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47956739",
+          "author": "noleary",
+          "description": "Article URL: https://mikeoss.com/\nComments URL: https://news.ycombinator.com/item?id=47956739\nPoints: 63\n# Comments: 18",
+          "link": "https://mikeoss.com/",
+          "publishedOn": "2026-04-30T00:56:23.000Z",
+          "wordCount": 1076,
+          "title": "Mike: open-source legal AI",
+          "imageUrl": null
         },
         {
           "id": "https://news.ycombinator.com/item?id=47955297",
@@ -13354,36 +13404,6 @@
           "wordCount": 6,
           "title": "GitHub's Historic Uptime",
           "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47591104",
-          "author": "whiteboardr",
-          "description": "Article URL: https://arstechnica.com/tech-policy/2026/03/okcupid-match-pay-no-fine-for-sharing-user-photos-with-facial-recognition-firm/\nComments URL: https://news.ycombinator.com/item?id=47591104\nPoints: 163\n# Comments: 38",
-          "link": "https://arstechnica.com/tech-policy/2026/03/okcupid-match-pay-no-fine-for-sharing-user-photos-with-facial-recognition-firm/",
-          "publishedOn": "2026-03-31T17:55:04.000Z",
-          "wordCount": 3120,
-          "title": "OkCupid gave 3M dating-app photos to facial recognition firm, FTC says",
-          "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2026/03/okcupid-1152x648-1774975675.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47589856",
-          "author": "tjgreen",
-          "description": "Last summer we faced a conundrum at my company, Tiger Data, a Postgres cloud vendor whose main business is in timeseries data.  We were trying to grow our business towards emerging AI-centric workloads and wanted to provide a state-of-the-art hybrid search stack in Postgres.  We'd already built pgvectorscale in house with the goal of scaling semantic search beyond pgvector's main memory limitations.  We just needed a scalable ranked keyword search solution too.\nThe problem: core Postgres doesn't provide this; the leading Postgres BM25 extension, ParadeDB, is guarded behind AGPL; developing our own extension appeared daunting.  We'd need a small team of sharp engineers and 6-12 months, I figured.  And we'd probably still fall short of the performance of a mature system like Parade/Tantivy.\n…",
-          "link": "https://github.com/timescale/pg_textsearch",
-          "publishedOn": "2026-03-31T16:29:52.000Z",
-          "wordCount": 11979,
-          "title": "Show HN: Postgres extension for BM25 relevance-ranked full-text search",
-          "imageUrl": "https://opengraph.githubassets.com/f63088a1d36896f34a561475f5903dc28566d7067b82016234cb947d1f2c7fca/timescale/pg_textsearch"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47589818",
-          "author": "gmays",
-          "description": "Article URL: https://cohere.com/blog/transcribe\nComments URL: https://news.ycombinator.com/item?id=47589818\nPoints: 92\n# Comments: 30",
-          "link": "https://cohere.com/blog/transcribe",
-          "publishedOn": "2026-03-31T16:27:02.000Z",
-          "wordCount": 4915,
-          "title": "Cohere Transcribe: Speech Recognition",
-          "imageUrl": "https://cdn.sanity.io/images/rjtqmwfu/web3-prod/80ae8c2e82c1538e418a8c751a8965708d370236-3840x1920.png?rect=92,0,3657,1920&w=1200&h=630"
         }
       ]
     }
