@@ -6,6 +6,26 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=47969288",
+          "author": "zikani_03",
+          "description": "Article URL: https://labs.watchtowr.com/the-internet-is-falling-down-falling-down-falling-down-cpanel-whm-authentication-bypass-cve-2026-41940/\nComments URL: https://news.ycombinator.com/item?id=47969288\nPoints: 61\n# Comments: 19",
+          "link": "https://labs.watchtowr.com/the-internet-is-falling-down-falling-down-falling-down-cpanel-whm-authentication-bypass-cve-2026-41940/",
+          "publishedOn": "2026-04-30T22:48:51.000Z",
+          "wordCount": 4082,
+          "title": "CPanel and WHM Authentication Bypass – CVE-2026-41940",
+          "imageUrl": "https://storage.ghost.io/c/a0/dc/a0dcbbe4-0ae7-4d7e-90f7-ebbc3a0f5a84/content/images/size/w1200/2026/04/Group-8730--2-.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47968982",
+          "author": "wglb",
+          "description": "Article URL: https://sciencex.com/news/2026-04-snowball-earth-stranger-climate.html\nComments URL: https://news.ycombinator.com/item?id=47968982\nPoints: 51\n# Comments: 6",
+          "link": "https://sciencex.com/news/2026-04-snowball-earth-stranger-climate.html",
+          "publishedOn": "2026-04-30T22:18:57.000Z",
+          "wordCount": 2484,
+          "title": "Snowball Earth may hide a far stranger climate cycle than anyone expected",
+          "imageUrl": "https://scx2.b-cdn.net/gfx/news/2018/5af0afa4a666b.jpg"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=47968112",
           "author": "nahimn",
           "description": "I originally was just messing with pi-autoresearch. Gave it a sample task to build the most portable coding agent.\nFirst cut was 6 KB of shell. Great for one-shots, unusable interactively. I was shocked it actually worked.\nStarted building up -- adding features — but with a self-imposed rule: no new dependencies, and sub 500 LOC. This thing had to be truly portable. Just sh, curl, awk. System primitives only.\nWhich means I did some genuinely disgusting things in awk, including JSON parsing and the OpenAI\nResponses tool loop with reasoning items carried across turns.\nIt's now ~400 lines. In the box: Anthropic + OpenAI, 7 tools (bash, read, write, edit, grep, find, ls),\nREPL, auto-compaction, checkpoint/resume, pipe mode, 90 no-API tests. Not in the box: TUI, streaming,\nimages, OAuth, Windows, dignity.\nTwo honest things:\n1. I stole/modified the system prompt and the architecture. Pi/Claude/Codex wrote the awk. I cannot read most of this code. This wasn't possible for me a year ago.\n2. Heavily inspired by Pi (pi.dev) — same 7-tool surface, same exact-text edit model. Credit where it's\ndue. Pi is awesome -- you should probably use them.\nThe agent loop itself is tiny. Almost everything else in a \"real\" agent CLI is DX and hardening. You can\nprobably build your own harness exactly how you like it. Mario Zechner's AI Engineer talk on taking back control of\nyour tools nudged me here.\nThe name is because it's a .sh file. The other thing it sounds like is, regrettably, also accurate.\nComments URL: https://news.ycombinator.com/item?id=47968112\nPoints: 50\n# Comments: 16",
@@ -44,6 +64,16 @@
           "wordCount": 3089,
           "title": "LinkedIn scans for 6,278 extensions and encrypts the results into every request",
           "imageUrl": "https://images.unsplash.com/photo-1592093947163-51f1d258d110?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDZ8fGxpbmtlZCUyMGlufGVufDB8fHx8MTc3NTQ5NjQ2OXww&ixlib=rb-4.1.0&q=80&w=2000"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47967069",
+          "author": "homebrewer",
+          "description": "Article URL: https://dustri.org/b/follow-up-to-carrot-disclosure-forgejo.html\nComments URL: https://news.ycombinator.com/item?id=47967069\nPoints: 51\n# Comments: 7",
+          "link": "https://dustri.org/b/follow-up-to-carrot-disclosure-forgejo.html",
+          "publishedOn": "2026-04-30T19:22:55.000Z",
+          "wordCount": 383,
+          "title": "Follow-up to Carrot disclosure: Forgejo",
+          "imageUrl": null
         },
         {
           "id": "https://news.ycombinator.com/item?id=47966625",
@@ -13494,76 +13524,6 @@
           "wordCount": 3490,
           "title": "EmDash – a spiritual successor to WordPress that solves plugin security",
           "imageUrl": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/hBSrp5YJXIsn2IwBqdg2m/a22cf1285db3826ca159d83ab81076e0/EmDash-OG.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47602565",
-          "author": "dherls",
-          "description": "Article URL: https://www.forbes.com/sites/phoebeliu/2026/03/31/openai-graveyard-deals-and-products-havent-happened-openai/\nComments URL: https://news.ycombinator.com/item?id=47602565\nPoints: 129\n# Comments: 84",
-          "link": "https://www.forbes.com/sites/phoebeliu/2026/03/31/openai-graveyard-deals-and-products-havent-happened-openai/",
-          "publishedOn": "2026-04-01T15:55:30.000Z",
-          "wordCount": null,
-          "title": "The OpenAI Graveyard: All the Deals and Products That Haven't Happened",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47601859",
-          "author": "whoishiring",
-          "description": "Please state the location and include REMOTE for remote work, REMOTE (US)\nor similar if the country is restricted, and ONSITE when remote work is not an option.\nPlease only post if you personally are part of the hiring company—no\nrecruiting firms or job boards. One post per company. If it isn't a household name,\nexplain what your company does.\nPlease only post if you are actively filling a position and are committed\nto replying to applicants.\nCommenters: please don't reply to job posts to complain about\nsomething. It's off topic here.\nReaders: please only email if you are personally interested in the job.\nSearchers: try http://nchelluri.github.io/hnjobs/, https://hnjobs.emilburzo.com,\nor this (unofficial) Chrome extension:\nhttps://chromewebstore.google.com/detail/hn-hiring-pro/mpfal....\nDon't miss this other fine thread: Who wants to be hired? https://news.ycombinator.com/item?id=47601858\nComments URL: https://news.ycombinator.com/item?id=47601859\nPoints: 112\n# Comments: 92",
-          "link": "https://news.ycombinator.com/item?id=47601859",
-          "publishedOn": "2026-04-01T15:01:36.000Z",
-          "wordCount": 14297,
-          "title": "Ask HN: Who is hiring? (April 2026)",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47601405",
-          "author": "helsinkiandrew",
-          "description": "Article URL: https://www.bloomberg.com/news/articles/2026-04-01/openai-demand-sinks-on-secondary-market-as-anthropic-runs-hot\nComments URL: https://news.ycombinator.com/item?id=47601405\nPoints: 57\n# Comments: 21",
-          "link": "https://www.bloomberg.com/news/articles/2026-04-01/openai-demand-sinks-on-secondary-market-as-anthropic-runs-hot",
-          "publishedOn": "2026-04-01T14:26:16.000Z",
-          "wordCount": null,
-          "title": "OpenAI Demand Sinks on Secondary Market as Anthropic Runs Hot",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47601194",
-          "author": "dbreunig",
-          "description": "Article URL: https://www.dbreunig.com/2026/03/26/winchester-mystery-house.html\nComments URL: https://news.ycombinator.com/item?id=47601194\nPoints: 77\n# Comments: 26",
-          "link": "https://www.dbreunig.com/2026/03/26/winchester-mystery-house.html",
-          "publishedOn": "2026-04-01T14:13:34.000Z",
-          "wordCount": 3907,
-          "title": "The Cathedral, the Bazaar, and the Winchester Mystery House",
-          "imageUrl": "https://www.dbreunig.com/img/winchester.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47600434",
-          "author": "Bender",
-          "description": "Article URL: https://www.phoronix.com/news/Linux-IPv6-IPv4-Legacy-Knobs\nComments URL: https://news.ycombinator.com/item?id=47600434\nPoints: 54\n# Comments: 14",
-          "link": "https://www.phoronix.com/news/Linux-IPv6-IPv4-Legacy-Knobs",
-          "publishedOn": "2026-04-01T13:15:33.000Z",
-          "wordCount": 1937,
-          "title": "New Patches Allow Building Linux IPv6-Only, Option to Deprecate \"Legacy\" IPv4",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47600382",
-          "author": "janandonly",
-          "description": "Article URL: https://isbgpsafeyet.com/\nComments URL: https://news.ycombinator.com/item?id=47600382\nPoints: 95\n# Comments: 38",
-          "link": "https://isbgpsafeyet.com/",
-          "publishedOn": "2026-04-01T13:10:29.000Z",
-          "wordCount": 4546,
-          "title": "Is BGP Safe Yet? No. Test Your ISP",
-          "imageUrl": "https://isbgpsafeyet.com/resources/open-graph.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47599956",
-          "author": "lukechu10",
-          "description": "Article URL: https://sycamore.dev\nComments URL: https://news.ycombinator.com/item?id=47599956\nPoints: 57\n# Comments: 40",
-          "link": "https://sycamore.dev/",
-          "publishedOn": "2026-04-01T12:30:18.000Z",
-          "wordCount": 299,
-          "title": "Show HN: Sycamore – next gen Rust web UI library using fine-grained reactivity",
-          "imageUrl": null
         }
       ]
     }
