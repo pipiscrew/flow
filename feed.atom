@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-05-01T07:28:11.601Z</updated>
+    <updated>2026-05-01T09:52:00.730Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
@@ -1037,6 +1037,19 @@ Points: 245
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[New copy of earliest poem in English, written 1,3k years ago, discovered in Rome]]></title>
+        <id>https://news.ycombinator.com/item?id=47946899</id>
+        <link href="https://www.tcd.ie/news_events/articles/2026/caedmons-hymn-discovery/"/>
+        <updated>2026-04-29T11:35:40.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.tcd.ie/news_events/articles/2026/caedmons-hymn-discovery/
+Comments URL: https://news.ycombinator.com/item?id=47946899
+Points: 58
+# Comments: 26]]></summary>
+        <author>
+            <name>giuliomagnifico</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[GitHub – DOS 1.0: Transcription of Tim Paterson's DOS Printouts]]></title>
         <id>https://news.ycombinator.com/item?id=47946813</id>
         <link href="https://github.com/DOS-History/Paterson-Listings"/>
@@ -1315,6 +1328,19 @@ Points: 114
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[The Church Rock Uranium Mill Spill]]></title>
+        <id>https://news.ycombinator.com/item?id=47939158</id>
+        <link href="https://en.wikipedia.org/wiki/Church_Rock_uranium_mill_spill"/>
+        <updated>2026-04-28T19:13:26.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://en.wikipedia.org/wiki/Church_Rock_uranium_mill_spill
+Comments URL: https://news.ycombinator.com/item?id=47939158
+Points: 100
+# Comments: 5]]></summary>
+        <author>
+            <name>Sir_Twist</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[CJIT: C, Just in Time]]></title>
         <id>https://news.ycombinator.com/item?id=47939105</id>
         <link href="https://dyne.org/cjit/"/>
@@ -1421,6 +1447,19 @@ Points: 65
 # Comments: 21]]></summary>
         <author>
             <name>doppp</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New mechanical panoramic film camera from Jeff Bridges]]></title>
+        <id>https://news.ycombinator.com/item?id=47937033</id>
+        <link href="https://wideluxx.com/"/>
+        <updated>2026-04-28T16:49:12.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://wideluxx.com
+Comments URL: https://news.ycombinator.com/item?id=47937033
+Points: 142
+# Comments: 68]]></summary>
+        <author>
+            <name>armadsen</name>
         </author>
     </entry>
     <entry>
@@ -17684,75 +17723,6 @@ Points: 69
 # Comments: 35]]></summary>
         <author>
             <name>OsrsNeedsf2P</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[DRAM pricing is killing the hobbyist SBC market]]></title>
-        <id>https://news.ycombinator.com/item?id=47606840</id>
-        <link href="https://www.jeffgeerling.com/blog/2026/dram-pricing-is-killing-the-hobbyist-sbc-market/"/>
-        <updated>2026-04-01T21:36:41.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.jeffgeerling.com/blog/2026/dram-pricing-is-killing-the-hobbyist-sbc-market/
-Comments URL: https://news.ycombinator.com/item?id=47606840
-Points: 84
-# Comments: 34]]></summary>
-        <author>
-            <name>ingve</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: Dull – Instagram Without Reels, YouTube Without Shorts (iOS)]]></title>
-        <id>https://news.ycombinator.com/item?id=47606560</id>
-        <link href="https://getdull.app/"/>
-        <updated>2026-04-01T21:04:53.000Z</updated>
-        <summary type="html"><![CDATA[I kept deleting and redownloading Instagram because I couldn't stop watching Reels but needed the app for DMs. Tried screen time limits, just overrode them. So I built this.
-Dull loads Instagram, YouTube, Facebook, and X and filters out short-form content with a mix of CSS and JS injection. MutationObserver handles anything that lazy-loads after the page renders, which is most of the annoying stuff since these platforms love to load content dynamically.
-The ongoing work is maintaining the filters. Platforms change their DOM all the time, Instagram obfuscates class names, YouTube restructures how Shorts appear in the feed, etc. It's a cat-and-mouse thing that never really ends.
-Also has grayscale mode, time limits, and usage tracking.
-Happy to answer questions.
-Comments URL: https://news.ycombinator.com/item?id=47606560
-Points: 64
-# Comments: 44]]></summary>
-        <author>
-            <name>kasparnoor</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Training mRNA Language Models Across 25 Species for $165]]></title>
-        <id>https://news.ycombinator.com/item?id=47606244</id>
-        <link href="https://news.ycombinator.com/item?id=47606244"/>
-        <updated>2026-04-01T20:38:24.000Z</updated>
-        <summary type="html"><![CDATA[We built an end-to-end protein AI pipeline covering structure prediction, sequence design, and codon optimization. After comparing multiple transformer architectures for codon-level language modeling, CodonRoBERTa-large-v2 emerged as the clear winner with a perplexity of 4.10 and a Spearman CAI correlation of 0.40, significantly outperforming ModernBERT. We then scaled to 25 species, trained 4 production models in 55 GPU-hours, and built a species-conditioned system that no other open-source project offers. Complete results, architectural decisions, and runnable code below.
-Comments URL: https://news.ycombinator.com/item?id=47606244
-Points: 63
-# Comments: 20]]></summary>
-        <author>
-            <name>maziyar</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Signing data structures the wrong way]]></title>
-        <id>https://news.ycombinator.com/item?id=47605677</id>
-        <link href="https://blog.foks.pub/posts/domain-separation-in-idl/"/>
-        <updated>2026-04-01T19:52:00.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://blog.foks.pub/posts/domain-separation-in-idl/
-Comments URL: https://news.ycombinator.com/item?id=47605677
-Points: 56
-# Comments: 32]]></summary>
-        <author>
-            <name>malgorithms</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Jax's true calling: Ray-Marching renderers on WebGL]]></title>
-        <id>https://news.ycombinator.com/item?id=47605494</id>
-        <link href="https://benoit.paris/posts/jax-ray-marcher/"/>
-        <updated>2026-04-01T19:36:07.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://benoit.paris/posts/jax-ray-marcher/
-Comments URL: https://news.ycombinator.com/item?id=47605494
-Points: 57
-# Comments: 8]]></summary>
-        <author>
-            <name>BenoitP</name>
         </author>
     </entry>
 </feed>
