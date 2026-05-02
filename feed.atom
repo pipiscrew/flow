@@ -2,10 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-05-02T16:57:08.453Z</updated>
+    <updated>2026-05-02T17:54:07.152Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Zugzwang]]></title>
+        <id>https://news.ycombinator.com/item?id=47987304</id>
+        <link href="https://en.wikipedia.org/wiki/Zugzwang"/>
+        <updated>2026-05-02T15:34:25.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://en.wikipedia.org/wiki/Zugzwang
+Comments URL: https://news.ycombinator.com/item?id=47987304
+Points: 59
+# Comments: 27]]></summary>
+        <author>
+            <name>Qem</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[LLMs consistently pick resumes they generate over ones by humans or other models]]></title>
         <id>https://news.ycombinator.com/item?id=47987256</id>
@@ -17,6 +30,19 @@ Points: 168
 # Comments: 77]]></summary>
         <author>
             <name>laurex</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[America's Expanding Domestic Surveillance]]></title>
+        <id>https://news.ycombinator.com/item?id=47987006</id>
+        <link href="https://www.wsj.com/articles/americas-expanding-domestic-surveillance-08b73187"/>
+        <updated>2026-05-02T15:02:13.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.wsj.com/articles/americas-expanding-domestic-surveillance-08b73187
+Comments URL: https://news.ycombinator.com/item?id=47987006
+Points: 86
+# Comments: 36]]></summary>
+        <author>
+            <name>Brajeshwar</name>
         </author>
     </entry>
     <entry>
@@ -69,6 +95,36 @@ Points: 55
 # Comments: 34]]></summary>
         <author>
             <name>voisin</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Mljar Studio – local AI data analyst that saves analysis as notebooks]]></title>
+        <id>https://news.ycombinator.com/item?id=47985077</id>
+        <link href="https://mljar.com/"/>
+        <updated>2026-05-02T10:21:31.000Z</updated>
+        <summary type="html"><![CDATA[Hi HN,
+I’ve been working on mljar-supervised (open-source AutoML for tabular data) for a few years. Recently I built a desktop app around it called MLJAR Studio.
+The idea is simple: you talk to your data in natural language, the AI generates Python code, executes it locally, and the whole conversation becomes a reproducible notebook (*.ipynb file). So instead of just chatting with data, you end up with something you can inspect, modify, and rerun.
+What MLJAR Studio does:
+- Sets up a local Python environment automatically, runs on Mac, Windows, and Linux
+- Installs missing packages during the conversation
+- Built-in AutoML for tabular data (classification, regression, multiclass)
+- Works with standard Python libraries (pandas, matplotlib, etc.)
+- Works with any data file: CSV, Excel, Stata, Parquet ...
+- Connects to PostgreSQL, MySQL, SQL Server, Snowflake, Databricks, and Supabase.
+For AI: use Ollama locally (zero data egress), bring your own OpenAI key, or use MLJAR AI add-on.
+I built this because I wanted something between Jupyter Notebook (flexible but manual) and AI tools that generate code but don’t preserve the workflow. Most tools I tried either hide too much or don’t give reproducible results and are cloud based
+Demos:
+- 60-second demo: https://youtu.be/BjxpZYRiY4c
+- Full 3-minute analysis: https://youtu.be/1DHMMxaNJxI
+Pricing is $199 one-time, with a 7-day trial.
+Curious if this is useful for others doing real data work, or if I’m solving my own problem here.
+Happy to answer questions.
+Comments URL: https://news.ycombinator.com/item?id=47985077
+Points: 51
+# Comments: 11]]></summary>
+        <author>
+            <name>pplonski86</name>
         </author>
     </entry>
     <entry>
