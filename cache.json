@@ -6,6 +6,16 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=47981995",
+          "author": "andsoitis",
+          "description": "Article URL: https://evilgeniuslabs.ca/blog/good-developers-learn-to-program-not-a-language\nComments URL: https://news.ycombinator.com/item?id=47981995\nPoints: 57\n# Comments: 35",
+          "link": "https://evilgeniuslabs.ca/blog/good-developers-learn-to-program-not-a-language",
+          "publishedOn": "2026-05-02T00:14:33.000Z",
+          "wordCount": 2651,
+          "title": "Good developers learn to program. Most courses teach a language",
+          "imageUrl": "https://evilgeniuslabs.ca/img/og-default.png"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=47979839",
           "author": "kodbraker",
           "description": "Article URL: https://metin.nextc.org/posts/Credit_Cards_Are_Vulnerable_To_Brute_Force_Kind_Attacks.html\nComments URL: https://news.ycombinator.com/item?id=47979839\nPoints: 81\n# Comments: 71",
@@ -26,6 +36,16 @@
           "imageUrl": "https://education.ti.com/-/media/ti/education/images/global-images/logos/ti-edtech-og-social-400x.png?rev=ec2fd198-6664-4265-951e-8d68e29d91b5"
         },
         {
+          "id": "https://news.ycombinator.com/item?id=47979190",
+          "author": "SpyCoder77",
+          "description": "Article URL: https://courses.joshwcomeau.com/wham/open-house/00-introduction\nComments URL: https://news.ycombinator.com/item?id=47979190\nPoints: 77\n# Comments: 9",
+          "link": "https://courses.joshwcomeau.com/wham/open-house/00-introduction",
+          "publishedOn": "2026-05-01T19:35:39.000Z",
+          "wordCount": 2238,
+          "title": "Whimsical Animations Course Open House",
+          "imageUrl": "https://courses.joshwcomeau.com/open-house/og-open-house.png"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=47978892",
           "author": "RattlesnakeJake",
           "description": "Article URL: https://arstechnica.com/security/2026/05/ubuntu-infrastructure-has-been-down-for-more-than-a-day/\nComments URL: https://news.ycombinator.com/item?id=47978892\nPoints: 57\n# Comments: 11",
@@ -34,6 +54,16 @@
           "wordCount": 2294,
           "title": "Ubuntu servers taken offline by \"sustained, cross-border attack\"",
           "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2022/11/error-503-1000x648.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47978834",
+          "author": "wooster",
+          "description": "Article URL: https://github.com/microsoft/lib0xc\nComments URL: https://news.ycombinator.com/item?id=47978834\nPoints: 88\n# Comments: 28",
+          "link": "https://github.com/microsoft/lib0xc",
+          "publishedOn": "2026-05-01T19:10:56.000Z",
+          "wordCount": 6521,
+          "title": "Lib0xc: A set of C standard library-adjacent APIs for safer systems programming",
+          "imageUrl": "https://opengraph.githubassets.com/c1fed7defd84d93376cd589c2bafbabb96fa12fc08d423874015610eb8a35f49/microsoft/lib0xc"
         },
         {
           "id": "https://news.ycombinator.com/item?id=47978386",
@@ -64,6 +94,26 @@
           "wordCount": 23383,
           "title": "New research suggests people can communicate and practice skills while dreaming",
           "imageUrl": "https://media.newyorker.com/photos/69f38c2c92c2d134aec145ec/16:9/w_1280,c_limit/image2%20(4).jpeg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47977694",
+          "author": "zachdive",
+          "description": "Hi HN, I'm Zach, one of the co-founders of Adam (https://adam.new).\nWe've been on HN twice before with text-to-CAD/3D experiments [1][2]. The honest takeaway from those threads: prompt-to-3D model web apps are fun, but serious mechanical engineers don't want a black box that spits out an STL. They want help inside the CAD tool they already use, with full visibility and control over the feature tree.\nSo we built that. Adam is now a harness that integrates directly with your CAD. It reads your parts, understands the existing feature tree, and edits it for you agentically. We are now live in beta on Onshape and Fusion! [3]:\nInstall link Autodesk Fusion: https://fusion.adam.new/install\nInstall link PTC Onshape:\nhttps://cad.onshape.com/appstore/apps/Design%20&%20Documenta...\nThings people are u…",
+          "link": "https://fusion.adam.new/install",
+          "publishedOn": "2026-05-01T17:43:53.000Z",
+          "wordCount": 1164,
+          "title": "Show HN: AI CAD Harness",
+          "imageUrl": "https://fusion.adam.new/opengraph-image?bfdae25aab0c7a47"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47977645",
+          "author": "speckx",
+          "description": "Article URL: https://alearningaday.blog/2026/05/01/artemis-ii-fault-tolerance/\nComments URL: https://news.ycombinator.com/item?id=47977645\nPoints: 66\n# Comments: 33",
+          "link": "https://alearningaday.blog/2026/05/01/artemis-ii-fault-tolerance/",
+          "publishedOn": "2026-05-01T17:39:11.000Z",
+          "wordCount": 4256,
+          "title": "Artemis II fault tolerance",
+          "imageUrl": "https://alearningaday.blog/wp-content/uploads/2017/05/cropped-alearningadaylogov6.png?w=200"
         },
         {
           "id": "https://news.ycombinator.com/item?id=47977583",
@@ -13394,136 +13444,6 @@
           "wordCount": 711,
           "title": "The case for zero-error horizons in trustworthy LLMs",
           "imageUrl": "/static/browse/0.3.4/images/arxiv-logo-fb.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47615756",
-          "author": "Growtika",
-          "description": "Article URL: https://www.theregister.com/2026/04/01/renewables_generated_nearly_half_global_power/\nComments URL: https://news.ycombinator.com/item?id=47615756\nPoints: 53\n# Comments: 11",
-          "link": "https://www.theregister.com/2026/04/01/renewables_generated_nearly_half_global_power/",
-          "publishedOn": "2026-04-02T15:26:18.000Z",
-          "wordCount": 1463,
-          "title": "Renewables reached nearly 50% of global electricity capacity last year",
-          "imageUrl": "https://regmedia.co.uk/2025/09/26/shutterstock_solarandwind.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47615490",
-          "author": "mooreds",
-          "description": "Article URL: https://bsky.app/profile/nikigrayson.com/post/3miik2wzosk25\nComments URL: https://news.ycombinator.com/item?id=47615490\nPoints: 100\n# Comments: 55",
-          "link": "https://bsky.app/profile/nikigrayson.com/post/3miik2wzosk25",
-          "publishedOn": "2026-04-02T15:08:45.000Z",
-          "wordCount": 453,
-          "title": "Artemis computer running two instances of MS outlook; they can't figure out why",
-          "imageUrl": "https://video.bsky.app/watch/did%3Aplc%3Ajzhiqz7fb5dj6h7cydluryvn/bafkreigqekn26g6ismbcxsyyx3w3ifa3ruoozkyjfdmkx2enz6am64fzhm/thumbnail.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47615449",
-          "author": "speckx",
-          "description": "Article URL: https://www.tomshardware.com/networking/artemis-ii-will-use-laser-beams-to-live-stream-4k-moon-footage-one-giant-step-beyond-the-s-band-radio-comms-of-the-apollo-era\nComments URL: https://news.ycombinator.com/item?id=47615449\nPoints: 101\n# Comments: 42",
-          "link": "https://www.tomshardware.com/networking/artemis-ii-will-use-laser-beams-to-live-stream-4k-moon-footage-one-giant-step-beyond-the-s-band-radio-comms-of-the-apollo-era",
-          "publishedOn": "2026-04-02T15:04:44.000Z",
-          "wordCount": 37090,
-          "title": "Artemis II will use laser beams to live-stream 4K moon footage at 260 Mbps",
-          "imageUrl": "https://cdn.mos.cms.futurecdn.net/UxfVoNCm3hz9WnPYj3XzAQ-854-80.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47615434",
-          "author": "nickvec",
-          "description": "Article URL: https://techcrunch.com/2026/04/01/the-reputation-of-troubled-yc-startup-delve-has-gotten-even-worse/\nComments URL: https://news.ycombinator.com/item?id=47615434\nPoints: 104\n# Comments: 51",
-          "link": "https://techcrunch.com/2026/04/01/the-reputation-of-troubled-yc-startup-delve-has-gotten-even-worse/",
-          "publishedOn": "2026-04-02T15:03:08.000Z",
-          "wordCount": 3271,
-          "title": "Delve allegedly forked an open-source tool and sold it as its own",
-          "imageUrl": "https://techcrunch.com/wp-content/uploads/2025/07/IMG_1542.jpeg?w=1170"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47615002",
-          "author": "pretext",
-          "description": "Article URL: https://qwen.ai/blog?id=qwen3.6\nComments URL: https://news.ycombinator.com/item?id=47615002\nPoints: 188\n# Comments: 67",
-          "link": "https://qwen.ai/blog?id=qwen3.6",
-          "publishedOn": "2026-04-02T14:28:52.000Z",
-          "wordCount": 206,
-          "title": "Qwen3.6-Plus: Towards Real World Agents",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47614532",
-          "author": "nsm",
-          "description": "Article URL: https://ruckus.defn.io/\nComments URL: https://news.ycombinator.com/item?id=47614532\nPoints: 51\n# Comments: 1",
-          "link": "https://ruckus.defn.io/",
-          "publishedOn": "2026-04-02T13:54:12.000Z",
-          "wordCount": 113,
-          "title": "Ruckus: Racket for iOS",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47614528",
-          "author": "surprisetalk",
-          "description": "Article URL: https://xd009642.github.io/2026/04/01/My-Experience-as-a-Rice-Farmer.html\nComments URL: https://news.ycombinator.com/item?id=47614528\nPoints: 222\n# Comments: 100",
-          "link": "https://xd009642.github.io/2026/04/01/My-Experience-as-a-Rice-Farmer.html",
-          "publishedOn": "2026-04-02T13:53:55.000Z",
-          "wordCount": 2754,
-          "title": "My Experience as a Rice Farmer",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47614100",
-          "author": "anarbadalov",
-          "description": "Article URL: https://thereader.mitpress.mit.edu/backrooms-and-the-rise-of-the-institutional-gothic/\nComments URL: https://news.ycombinator.com/item?id=47614100\nPoints: 61\n# Comments: 30",
-          "link": "https://thereader.mitpress.mit.edu/backrooms-and-the-rise-of-the-institutional-gothic/",
-          "publishedOn": "2026-04-02T13:18:05.000Z",
-          "wordCount": null,
-          "title": "'Backrooms' and the Rise of the Institutional Gothic",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47613981",
-          "author": "digitalWestie",
-          "description": "Article URL: https://browsergate.eu/\nComments URL: https://news.ycombinator.com/item?id=47613981\nPoints: 94\n# Comments: 27",
-          "link": "https://browsergate.eu/",
-          "publishedOn": "2026-04-02T13:09:09.000Z",
-          "wordCount": 765,
-          "title": "LinkedIn Is Illegally Searching Your Computer",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47613272",
-          "author": "darccio",
-          "description": "Article URL: https://sazak.io/articles/tracing-goroutines-in-realtime-with-ebpf-2026-03-31\nComments URL: https://news.ycombinator.com/item?id=47613272\nPoints: 55\n# Comments: 6",
-          "link": "https://sazak.io/articles/tracing-goroutines-in-realtime-with-ebpf-2026-03-31",
-          "publishedOn": "2026-04-02T12:01:27.000Z",
-          "wordCount": 63815,
-          "title": "Tracing Goroutines in Realtime with eBPF",
-          "imageUrl": "https://sazak.io/articles/tracing-goroutines-in-realtime-with-ebpf-2026-03-31/opengraph-image?5797a0998f54d9e9"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47613078",
-          "author": "lode",
-          "description": "Article URL: https://kathmandupost.com/money/2026/03/27/inside-nepal-s-fake-rescue-racket\nComments URL: https://news.ycombinator.com/item?id=47613078\nPoints: 75\n# Comments: 20",
-          "link": "https://kathmandupost.com/money/2026/03/27/inside-nepal-s-fake-rescue-racket",
-          "publishedOn": "2026-04-02T11:40:41.000Z",
-          "wordCount": 3134,
-          "title": "Inside Nepal's Fake Rescue Racket",
-          "imageUrl": "https://assets-cdn.kathmandupost.com/uploads/source/news/2026/money/1280522ManojPhoto2-1774616809.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47612775",
-          "author": "u1hcw9nx",
-          "description": "Article URL: https://report.bearblog.dev/the-spacex-ipo-will-be-the-perfect-storm-of-retail-investor-fallacies/\nComments URL: https://news.ycombinator.com/item?id=47612775\nPoints: 78\n# Comments: 52",
-          "link": "https://report.bearblog.dev/the-spacex-ipo-will-be-the-perfect-storm-of-retail-investor-fallacies/",
-          "publishedOn": "2026-04-02T11:11:27.000Z",
-          "wordCount": null,
-          "title": "The SpaceX IPO: retail investor notes",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47612724",
-          "author": "AbuAssar",
-          "description": "Article URL: https://lemonade-server.ai\nComments URL: https://news.ycombinator.com/item?id=47612724\nPoints: 113\n# Comments: 28",
-          "link": "https://lemonade-server.ai/",
-          "publishedOn": "2026-04-02T11:04:51.000Z",
-          "wordCount": 1743,
-          "title": "Lemonade by AMD: a fast and open source local LLM server using GPU and NPU",
-          "imageUrl": null
         }
       ]
     }
