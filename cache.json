@@ -56,6 +56,16 @@
           "imageUrl": null
         },
         {
+          "id": "https://news.ycombinator.com/item?id=47992802",
+          "author": "victorkulla",
+          "description": "Article URL: https://fshot.org/techzone/the-algorithm-knows.php\nComments URL: https://news.ycombinator.com/item?id=47992802\nPoints: 57\n# Comments: 2",
+          "link": "https://fshot.org/techzone/the-algorithm-knows.php",
+          "publishedOn": "2026-05-03T02:42:43.000Z",
+          "wordCount": 523,
+          "title": "AI, Intimacy, and the Data You Never Meant to Share",
+          "imageUrl": null
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=47992772",
           "author": "RohanAdwankar",
           "description": "Article URL: https://blog.feld.me/posts/2026/04/open-source-does-not-imply-open-community/\nComments URL: https://news.ycombinator.com/item?id=47992772\nPoints: 114\n# Comments: 26",
@@ -746,6 +756,16 @@
           "imageUrl": "https://www.online-tribute.com/memorial/uploads/photo/page-1899-2696-17423572810.jpeg"
         },
         {
+          "id": "https://news.ycombinator.com/item?id=47974307",
+          "author": "mrtz",
+          "description": "Article URL: https://arxiv.org/abs/2604.25679\nComments URL: https://news.ycombinator.com/item?id=47974307\nPoints: 70\n# Comments: 38",
+          "link": "https://arxiv.org/abs/2604.25679",
+          "publishedOn": "2026-05-01T13:02:30.000Z",
+          "wordCount": 694,
+          "title": "Embedded Rust or C Firmware? Lessons from an Industrial Microcontroller Use Case",
+          "imageUrl": "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=47973755",
           "author": "ingve",
           "description": "Article URL: https://www.pagetable.com/?p=1854\nComments URL: https://news.ycombinator.com/item?id=47973755\nPoints: 54\n# Comments: 14",
@@ -904,6 +924,16 @@
           "wordCount": 4082,
           "title": "CPanel and WHM Authentication Bypass – CVE-2026-41940",
           "imageUrl": "https://storage.ghost.io/c/a0/dc/a0dcbbe4-0ae7-4d7e-90f7-ebbc3a0f5a84/content/images/size/w1200/2026/04/Group-8730--2-.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47969142",
+          "author": "hhs",
+          "description": "Article URL: https://med.stanford.edu/news/all-news/2026/04/brain-scans-individual-versus-group.html\nComments URL: https://news.ycombinator.com/item?id=47969142\nPoints: 66\n# Comments: 17",
+          "link": "https://med.stanford.edu/news/all-news/2026/04/brain-scans-individual-versus-group.html",
+          "publishedOn": "2026-04-30T22:35:36.000Z",
+          "wordCount": 2373,
+          "title": "Group averages obscure how an individual's brain controls behavior: study",
+          "imageUrl": "https://med.stanford.edu/news/all-news/2026/04/brain-scans-individual-versus-group/_jcr_content/cq:socialfeaturedimage.coreimg.jpeg/1777295241330/Menon-brain-scans.jpeg"
         },
         {
           "id": "https://news.ycombinator.com/item?id=47968982",
@@ -13434,36 +13464,6 @@
           "wordCount": 6383,
           "title": "Emotion concepts and their function in a large language model",
           "imageUrl": "https://cdn.sanity.io/images/4zrzovbb/website/1f6efd2520ecc6bc7b5bccd6f4bbcf79bb47dbc1-3764x2380.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47635056",
-          "author": "lxm",
-          "description": "Article URL: https://economictimes.indiatimes.com/news/international/us/gold-overtakes-u-s-treasuries-as-the-worlds-largest-foreign-reserve-asset-in-2026-can-gold-challenge-the-u-s-dollars-dominance-and-hold-its-ground/articleshow/126420128.cms?from=mdr\nComments URL: https://news.ycombinator.com/item?id=47635056\nPoints: 66\n# Comments: 23",
-          "link": "https://economictimes.indiatimes.com/news/international/us/gold-overtakes-u-s-treasuries-as-the-worlds-largest-foreign-reserve-asset-in-2026-can-gold-challenge-the-u-s-dollars-dominance-and-hold-its-ground/articleshow/126420128.cms?from=mdr",
-          "publishedOn": "2026-04-04T02:30:32.000Z",
-          "wordCount": 8901,
-          "title": "Gold overtakes U.S. Treasuries as the largest foreign reserve asset",
-          "imageUrl": "https://img.etimg.com/thumb/msid-126420713,width-1200,height-630,imgsize-43114,overlay-economictimes/articleshow.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47635033",
-          "author": "borski",
-          "description": "I use points and miles for most of my travel. Every booking comes down to the same decision: use points or pay cash? To answer that, you need award availability across multiple programs, cash prices, your current balances, transfer partner ratios, and the math to compare them. I got tired of doing it manually across a dozen tabs.\nThis toolkit teaches Claude Code and OpenCode how to do it. 7 skills (markdown files with API docs and curl examples) and 6 MCP servers (real-time tools the AI calls directly).\nIt searches award flights across 25+ mileage programs (Seats.aero), compares cash prices (Google Flights, Skiplagged, Kiwi.com, Duffel), pulls your loyalty balances (AwardWallet), searches hotels (Trivago, LiteAPI, Airbnb, Booking.com), finds ferry routes across 33 countries, and looks up weird hidden gems near your destination (Atlas Obscura).\nReference data is included: transfer partner ratios for Chase UR, Amex MR, Bilt, Capital One, and Citi TY. Point valuations sourced from TPG, Upgraded Points, OMAAT, and View From The Wing. Alliance membership, sweet spot redemptions, booking windows, hotel chain brand lookups.\n5 of the 6 MCP servers need zero API keys. Clone, run setup.sh, start \nsearching.\nSkills are, as usual, plain markdown. They work in OpenCode and Claude Code automatically (I added a tiny setup script), and they'll work in anything else that supports skills.\nPRs welcome! Help me expand the toolkit! :)\nhttps://github.com/borski/travel-hacking-toolkit\nComments URL: https://news.ycombinator.com/item?id=47635033\nPoints: 60\n# Comments: 27",
-          "link": "https://github.com/borski/travel-hacking-toolkit",
-          "publishedOn": "2026-04-04T02:26:42.000Z",
-          "wordCount": 4118,
-          "title": "Show HN: Travel Hacking Toolkit – Points search and trip planning with AI",
-          "imageUrl": "https://opengraph.githubassets.com/8c5d94016ebf65355955aaaafd78910c0eb915337ffa029a91e0993eb93bdf79/borski/travel-hacking-toolkit"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47634690",
-          "author": "carabiner",
-          "description": "Article URL: https://www.ycombinator.com/companies/delve\nComments URL: https://news.ycombinator.com/item?id=47634690\nPoints: 118\n# Comments: 52",
-          "link": "https://www.ycombinator.com/companies/delve",
-          "publishedOn": "2026-04-04T01:37:02.000Z",
-          "wordCount": null,
-          "title": "Delve removed from Y Combinator",
-          "imageUrl": null
         }
       ]
     }
