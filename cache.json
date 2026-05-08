@@ -6,6 +6,16 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=48069192",
+          "author": "tcp_handshaker",
+          "description": "Article URL: https://www.pcmag.com/news/meta-shuts-down-end-to-end-encryption-for-instagram-dms-messaging\nComments URL: https://news.ycombinator.com/item?id=48069192\nPoints: 84\n# Comments: 60",
+          "link": "https://www.pcmag.com/news/meta-shuts-down-end-to-end-encryption-for-instagram-dms-messaging",
+          "publishedOn": "2026-05-08T21:47:47.000Z",
+          "wordCount": 6440,
+          "title": "Meta Shuts Down End-to-End Encryption for Instagram Messaging",
+          "imageUrl": "https://i.pcmag.com/imagery/articles/01VCs6SZdta2WftLSUptXTG-1.fit_lim.size_1200x630.v1778247916.jpg"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=48067790",
           "author": "rbaudibert",
           "description": "Article URL: https://letsencrypt.status.io/pages/incident/55957a99e800baa4470002da/69fe2d6698ca07050eb4b1b3\nComments URL: https://news.ycombinator.com/item?id=48067790\nPoints: 53\n# Comments: 12",
@@ -34,6 +44,16 @@
           "wordCount": 3050,
           "title": "Google Broke reCAPTCHA for De-Googled Android Users",
           "imageUrl": "https://reclaimthenet.org/wp-content/uploads/2026/05/BAPiBKSUNDTJ-scaled.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48066592",
+          "author": "pretext",
+          "description": "Article URL: https://www.anthropic.com/research/teaching-claude-why\nComments URL: https://news.ycombinator.com/item?id=48066592\nPoints: 61\n# Comments: 12",
+          "link": "https://www.anthropic.com/research/teaching-claude-why",
+          "publishedOn": "2026-05-08T17:59:41.000Z",
+          "wordCount": 4709,
+          "title": "Teaching Claude Why",
+          "imageUrl": "https://www.anthropic.com/api/opengraph-illustration?name=Hand%20Knot&backgroundColor=cactus"
         },
         {
           "id": "https://news.ycombinator.com/item?id=48066524",
@@ -254,6 +274,16 @@
           "wordCount": 3781,
           "title": "Blaise – A modern self-hosting zero-legacy Object Pascal compiler targeting QBE",
           "imageUrl": "https://opengraph.githubassets.com/22299ea8549208ec4c3933fee145c46f20d5a04d11c7eee588add38b64c0438f/graemeg/blaise"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48058197",
+          "author": "christhecaribou",
+          "description": "https://health.aws.amazon.com/health/status?t=2026-05-07\nhttps://www.cnbc.com/2026/05/08/aws-outage-data-center-fandu...\nhttps://www.theregister.com/off-prem/2026/05/08/aws-warns-of...\nComments URL: https://news.ycombinator.com/item?id=48058197\nPoints: 85\n# Comments: 38",
+          "link": "https://www.reuters.com/business/retail-consumer/amazon-cloud-unit-says-data-center-overheating-north-virginia-disrupts-services-2026-05-08/",
+          "publishedOn": "2026-05-08T03:31:58.000Z",
+          "wordCount": null,
+          "title": "Amazon cloud outage at North Virginia data center largely resolved",
+          "imageUrl": null
         },
         {
           "id": "https://news.ycombinator.com/item?id=48057901",
@@ -13664,46 +13694,6 @@
           "wordCount": 2240,
           "title": "A WebGPU Implementation of Augmented Vertex Block Descent",
           "imageUrl": "https://opengraph.githubassets.com/585bf9b8417c3bb4476a8eccf7a649817727444e89b5ddab22d0ad5decb7f761/jure/webphysics"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47702499",
-          "author": "stevage",
-          "description": "Article URL: https://lichess.org/@/Lichess/blog/lichess-and-take-take-take-sign-cooperation-agreement/DZS0S0Dy\nComments URL: https://news.ycombinator.com/item?id=47702499\nPoints: 72\n# Comments: 9",
-          "link": "https://lichess.org/@/Lichess/blog/lichess-and-take-take-take-sign-cooperation-agreement/DZS0S0Dy",
-          "publishedOn": "2026-04-09T11:56:56.000Z",
-          "wordCount": 2096,
-          "title": "Lichess and Take Take Take Sign Cooperation Agreement",
-          "imageUrl": "https://image.lichess1.org/display?fmt=webp&h=550&op=thumbnail&path=dduL1ssXcPAd.webp&w=880&sig=dacea0a81945aa87307b94bc5077ea7d484e0d5b"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47702196",
-          "author": "SirHound",
-          "description": "Hi HN! I've just released CSS Studio, a design tool that lives on your site, runs on your browser, sends updates to your existing AI agent, which edits any codebase. You can actually play around with the latest version directly on the site.\nTechnically, the way this works is you view your site in dev mode and start editing it. In your agent, you can run /studio which then polls (or uses Claude Channels) an MCP server. Changes are streamed as JSON via the MCP, along with some viewport and URL information, and the skill has some instructions on how best to implement them.\nIt contains a lot of the tools you'd expect from a visual editing tool, like text editing, styles and an animation timeline editor.\nComments URL: https://news.ycombinator.com/item?id=47702196\nPoints: 61\n# Comments: 49",
-          "link": "https://cssstudio.ai/",
-          "publishedOn": "2026-04-09T11:23:31.000Z",
-          "wordCount": 35,
-          "title": "Show HN: CSS Studio. Design by hand, code by agent",
-          "imageUrl": "https://images.motion.dev/cssstudio/social.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47701769",
-          "author": "sohkamyung",
-          "description": "Article URL: https://thereader.mitpress.mit.edu/the-bra-and-girdle-maker-that-fashioned-the-impossible-for-nasa/\nComments URL: https://news.ycombinator.com/item?id=47701769\nPoints: 77\n# Comments: 4",
-          "link": "https://thereader.mitpress.mit.edu/the-bra-and-girdle-maker-that-fashioned-the-impossible-for-nasa/",
-          "publishedOn": "2026-04-09T10:28:28.000Z",
-          "wordCount": null,
-          "title": "The Bra-and-Girdle Maker That Fashioned the Impossible for NASA",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47701572",
-          "author": "eigenspace",
-          "description": "Article URL: https://www.bbc.com/future/article/20260408-the-extinct-english-words-for-just-the-two-of-us\nComments URL: https://news.ycombinator.com/item?id=47701572\nPoints: 63\n# Comments: 29",
-          "link": "https://www.bbc.com/future/article/20260408-the-extinct-english-words-for-just-the-two-of-us",
-          "publishedOn": "2026-04-09T10:10:19.000Z",
-          "wordCount": 10023,
-          "title": "Wit, unker, Git: The lost medieval pronouns of English intimacy",
-          "imageUrl": "https://ychef.files.bbci.co.uk/624x351/p0nc7ttl.jpg"
         }
       ]
     }
