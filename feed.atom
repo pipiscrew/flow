@@ -2,10 +2,36 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-05-08T08:24:08.981Z</updated>
+    <updated>2026-05-08T10:42:51.306Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[ClojureScript Gets Async/Await]]></title>
+        <id>https://news.ycombinator.com/item?id=48059662</id>
+        <link href="https://clojurescript.org/news/2026-05-07-release"/>
+        <updated>2026-05-08T07:04:24.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://clojurescript.org/news/2026-05-07-release
+Comments URL: https://news.ycombinator.com/item?id=48059662
+Points: 66
+# Comments: 18]]></summary>
+        <author>
+            <name>Borkdude</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Blaise – A modern self-hosting zero-legacy Object Pascal compiler targeting QBE]]></title>
+        <id>https://news.ycombinator.com/item?id=48058644</id>
+        <link href="https://github.com/graemeg/blaise"/>
+        <updated>2026-05-08T04:44:02.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://github.com/graemeg/blaise
+Comments URL: https://news.ycombinator.com/item?id=48058644
+Points: 50
+# Comments: 17]]></summary>
+        <author>
+            <name>peter_d_sherman</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[GNU IFUNC is the real culprit behind CVE-2024-3094]]></title>
         <id>https://news.ycombinator.com/item?id=48056749</id>
@@ -17945,35 +17971,6 @@ Points: 51
 # Comments: 13]]></summary>
         <author>
             <name>danielam</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: Is Hormuz open yet?]]></title>
-        <id>https://news.ycombinator.com/item?id=47696562</id>
-        <link href="https://www.ishormuzopenyet.com/"/>
-        <updated>2026-04-08T21:33:06.000Z</updated>
-        <summary type="html"><![CDATA[I built this because I was interested in the data. Didn't fully get it to what I wanted, but thought I'd share it nonetheless. Maybe someone has better data sources they could share!
-Turns out live ship tracking APIs are expensive so I manually just copied the json from https://www.marinetraffic.com/en/ais/home/centerx:57.4/cente... I'll probably have an ai agent do the same thing on some cron interval, if this gets any fanfare.
-To actually know if the port is open without live ship tracking I found https://portwatch.imf.org/pages/cb5856222a5b4105adc6ee7e880a... which was perfect, except it has 4 day lag!
-I also thought of adding news feed parsing or prediction market data to get a more definitive answer on if it's open right when you load it, but I spent a few hours and am gonna move on for now.
-Comments URL: https://news.ycombinator.com/item?id=47696562
-Points: 124
-# Comments: 46]]></summary>
-        <author>
-            <name>anonfunction</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[John Deere to pay $99M in right-to-repair settlement]]></title>
-        <id>https://news.ycombinator.com/item?id=47696035</id>
-        <link href="https://www.thedrive.com/news/john-deere-to-pay-99-million-in-monumental-right-to-repair-settlement"/>
-        <updated>2026-04-08T20:46:27.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.thedrive.com/news/john-deere-to-pay-99-million-in-monumental-right-to-repair-settlement
-Comments URL: https://news.ycombinator.com/item?id=47696035
-Points: 79
-# Comments: 18]]></summary>
-        <author>
-            <name>CharlesW</name>
         </author>
     </entry>
 </feed>

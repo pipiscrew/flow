@@ -6,6 +6,26 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=48059662",
+          "author": "Borkdude",
+          "description": "Article URL: https://clojurescript.org/news/2026-05-07-release\nComments URL: https://news.ycombinator.com/item?id=48059662\nPoints: 66\n# Comments: 18",
+          "link": "https://clojurescript.org/news/2026-05-07-release",
+          "publishedOn": "2026-05-08T07:04:24.000Z",
+          "wordCount": 392,
+          "title": "ClojureScript Gets Async/Await",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48058644",
+          "author": "peter_d_sherman",
+          "description": "Article URL: https://github.com/graemeg/blaise\nComments URL: https://news.ycombinator.com/item?id=48058644\nPoints: 50\n# Comments: 17",
+          "link": "https://github.com/graemeg/blaise",
+          "publishedOn": "2026-05-08T04:44:02.000Z",
+          "wordCount": 3781,
+          "title": "Blaise – A modern self-hosting zero-legacy Object Pascal compiler targeting QBE",
+          "imageUrl": "https://opengraph.githubassets.com/22299ea8549208ec4c3933fee145c46f20d5a04d11c7eee588add38b64c0438f/graemeg/blaise"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=48056749",
           "author": "foltik",
           "description": "Article URL: https://github.com/robertdfrench/ifuncd-up\nComments URL: https://news.ycombinator.com/item?id=48056749\nPoints: 55\n# Comments: 25",
@@ -13544,26 +13564,6 @@
           "wordCount": null,
           "title": "Previously unknown verses by Empedocles found on papyrus",
           "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47696562",
-          "author": "anonfunction",
-          "description": "I built this because I was interested in the data. Didn't fully get it to what I wanted, but thought I'd share it nonetheless. Maybe someone has better data sources they could share!\nTurns out live ship tracking APIs are expensive so I manually just copied the json from https://www.marinetraffic.com/en/ais/home/centerx:57.4/cente... I'll probably have an ai agent do the same thing on some cron interval, if this gets any fanfare.\nTo actually know if the port is open without live ship tracking I found https://portwatch.imf.org/pages/cb5856222a5b4105adc6ee7e880a... which was perfect, except it has 4 day lag!\nI also thought of adding news feed parsing or prediction market data to get a more definitive answer on if it's open right when you load it, but I spent a few hours and am gonna move on for now.\nComments URL: https://news.ycombinator.com/item?id=47696562\nPoints: 124\n# Comments: 46",
-          "link": "https://www.ishormuzopenyet.com/",
-          "publishedOn": "2026-04-08T21:33:06.000Z",
-          "wordCount": 44,
-          "title": "Show HN: Is Hormuz open yet?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47696035",
-          "author": "CharlesW",
-          "description": "Article URL: https://www.thedrive.com/news/john-deere-to-pay-99-million-in-monumental-right-to-repair-settlement\nComments URL: https://news.ycombinator.com/item?id=47696035\nPoints: 79\n# Comments: 18",
-          "link": "https://www.thedrive.com/news/john-deere-to-pay-99-million-in-monumental-right-to-repair-settlement",
-          "publishedOn": "2026-04-08T20:46:27.000Z",
-          "wordCount": 2391,
-          "title": "John Deere to pay $99M in right-to-repair settlement",
-          "imageUrl": "https://www.thedrive.com/wp-content/uploads/2026/04/John-Deere-Right-to-Repair-Hero-1.jpg?w=1200"
         }
       ]
     }
