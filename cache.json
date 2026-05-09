@@ -16,6 +16,16 @@
           "imageUrl": null
         },
         {
+          "id": "https://news.ycombinator.com/item?id=48076815",
+          "author": "marcingas",
+          "description": "Let-go is a Clojure-like language (~90% compatible with JVM Clojure) written in pure Go. It ships as a ~10MB static binary and cold boots in ~7ms - that's about 50x faster than JVM and 3x faster than Babashka. It has decent throughput on algorithmic workloads - within ballpark of the GraalVM-backed sci.\nI started this project in 2021 as an elaborate practical joke: I wanted to have an excuse for writing Clojure while pretending to write Go.\nJokes aside, it turned out to be pretty decent: it feels like real Clojure, it has an nREPL server (supported in Calva, CIDER, etc.), it's easily embeddable in your Go programs (funcs, structs and channels cross the boundary without fuss). It's good for writing CLIs, web servers, data processing scripts and even doing some systems programming - I used it to write a deamonless container runtime. Oh, and it runs on Plan9.\nUnder the hood there is a fairly simple compiler and a stack VM, both handcrafted specifically for running Clojure-like code. The compiler can work in AOT mode producing portable bytecode blobs and standalone binaries (runtime+bytecode).\nThis is not a drop-in replacement for Clojure in general - it does not load JARs, it does not have all Java APIs and it most probably won't run your exiting Clojure projects without modifications. At least not at the moment.\nTake it for a spin, tell me what you think. Issues and PRs are welcome!\nComments URL: https://news.ycombinator.com/item?id=48076815\nPoints: 60\n# Comments: 12",
+          "link": "https://github.com/nooga/let-go",
+          "publishedOn": "2026-05-09T17:52:13.000Z",
+          "wordCount": 7677,
+          "title": "Show HN: I made a Clojure-like language in Go, boots in 7ms",
+          "imageUrl": "https://repository-images.githubusercontent.com/340518175/b16d0200-7540-11eb-9ca9-1b74271ac6f7"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=48076651",
           "author": "cuechan",
           "description": "Article URL: https://zed.dev/theme-builder\nComments URL: https://news.ycombinator.com/item?id=48076651\nPoints: 77\n# Comments: 27",
@@ -13534,26 +13544,6 @@
           "wordCount": 4169,
           "title": "Intel 486 CPU announced April 10, 1989",
           "imageUrl": "https://i0.wp.com/dfarq.homeip.net/wp-content/uploads/2025/02/intel-486-social.jpg?fit=892%2C502&ssl=1"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47716490",
-          "author": "01-_-",
-          "description": "Article URL: https://9to5mac.com/2026/04/09/fbi-used-iphone-notification-data-to-retrieve-deleted-signal-messages/\nComments URL: https://news.ycombinator.com/item?id=47716490\nPoints: 100\n# Comments: 38",
-          "link": "https://9to5mac.com/2026/04/09/fbi-used-iphone-notification-data-to-retrieve-deleted-signal-messages/",
-          "publishedOn": "2026-04-10T11:29:04.000Z",
-          "wordCount": 3436,
-          "title": "FBI used iPhone notification data to retrieve deleted Signal messages",
-          "imageUrl": "https://i0.wp.com/9to5mac.com/wp-content/uploads/sites/6/2025/12/Reddit-comment-led-police-to-identify-Brown-University-shooter.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47716412",
-          "author": "N19PEDL2",
-          "description": "Article URL: https://www.bleepingcomputer.com/news/microsoft/microsoft-suspends-dev-accounts-for-high-profile-open-source-projects/\nComments URL: https://news.ycombinator.com/item?id=47716412\nPoints: 258\n# Comments: 62",
-          "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-suspends-dev-accounts-for-high-profile-open-source-projects/",
-          "publishedOn": "2026-04-10T11:20:51.000Z",
-          "wordCount": null,
-          "title": "Microsoft suspends dev accounts for high-profile open source projects",
-          "imageUrl": null
         }
       ]
     }

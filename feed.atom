@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-05-09T22:53:50.451Z</updated>
+    <updated>2026-05-09T23:55:19.622Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
@@ -17,6 +17,24 @@ Points: 77
 # Comments: 21]]></summary>
         <author>
             <name>JumpCrisscross</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: I made a Clojure-like language in Go, boots in 7ms]]></title>
+        <id>https://news.ycombinator.com/item?id=48076815</id>
+        <link href="https://github.com/nooga/let-go"/>
+        <updated>2026-05-09T17:52:13.000Z</updated>
+        <summary type="html"><![CDATA[Let-go is a Clojure-like language (~90% compatible with JVM Clojure) written in pure Go. It ships as a ~10MB static binary and cold boots in ~7ms - that's about 50x faster than JVM and 3x faster than Babashka. It has decent throughput on algorithmic workloads - within ballpark of the GraalVM-backed sci.
+I started this project in 2021 as an elaborate practical joke: I wanted to have an excuse for writing Clojure while pretending to write Go.
+Jokes aside, it turned out to be pretty decent: it feels like real Clojure, it has an nREPL server (supported in Calva, CIDER, etc.), it's easily embeddable in your Go programs (funcs, structs and channels cross the boundary without fuss). It's good for writing CLIs, web servers, data processing scripts and even doing some systems programming - I used it to write a deamonless container runtime. Oh, and it runs on Plan9.
+Under the hood there is a fairly simple compiler and a stack VM, both handcrafted specifically for running Clojure-like code. The compiler can work in AOT mode producing portable bytecode blobs and standalone binaries (runtime+bytecode).
+This is not a drop-in replacement for Clojure in general - it does not load JARs, it does not have all Java APIs and it most probably won't run your exiting Clojure projects without modifications. At least not at the moment.
+Take it for a spin, tell me what you think. Issues and PRs are welcome!
+Comments URL: https://news.ycombinator.com/item?id=48076815
+Points: 60
+# Comments: 12]]></summary>
+        <author>
+            <name>marcingas</name>
         </author>
     </entry>
     <entry>
@@ -17936,32 +17954,6 @@ Points: 95
 # Comments: 67]]></summary>
         <author>
             <name>jnord</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[FBI used iPhone notification data to retrieve deleted Signal messages]]></title>
-        <id>https://news.ycombinator.com/item?id=47716490</id>
-        <link href="https://9to5mac.com/2026/04/09/fbi-used-iphone-notification-data-to-retrieve-deleted-signal-messages/"/>
-        <updated>2026-04-10T11:29:04.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://9to5mac.com/2026/04/09/fbi-used-iphone-notification-data-to-retrieve-deleted-signal-messages/
-Comments URL: https://news.ycombinator.com/item?id=47716490
-Points: 100
-# Comments: 38]]></summary>
-        <author>
-            <name>01-_-</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Microsoft suspends dev accounts for high-profile open source projects]]></title>
-        <id>https://news.ycombinator.com/item?id=47716412</id>
-        <link href="https://www.bleepingcomputer.com/news/microsoft/microsoft-suspends-dev-accounts-for-high-profile-open-source-projects/"/>
-        <updated>2026-04-10T11:20:51.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.bleepingcomputer.com/news/microsoft/microsoft-suspends-dev-accounts-for-high-profile-open-source-projects/
-Comments URL: https://news.ycombinator.com/item?id=47716412
-Points: 258
-# Comments: 62]]></summary>
-        <author>
-            <name>N19PEDL2</name>
         </author>
     </entry>
 </feed>
