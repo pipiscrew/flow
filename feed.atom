@@ -2,10 +2,76 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-05-09T23:55:19.622Z</updated>
+    <updated>2026-05-10T03:55:13.747Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Building a web server in assembly to give my life (a lack of) meaning]]></title>
+        <id>https://news.ycombinator.com/item?id=48080587</id>
+        <link href="https://github.com/imtomt/ymawky"/>
+        <updated>2026-05-10T03:01:44.000Z</updated>
+        <summary type="html"><![CDATA[This is ymawky, a static file web server for MacOS written entirely in ARM64 assembly. It supports GET, PUT, DELETE, HEAD, and OPTIONS requests, and supports Range: bytes=X-Y headers (which allows scrubbing for video streaming). It decodes percent-encoded URLs, strictly enforces docroot, serves custom error pages for any HTTP error response, supports directory listing, and has (some) mitigations against slowloris-like attacks.
+I’ve also written a more detailed writeup here: https://imtomt.github.io/ymawky/
+Comments URL: https://news.ycombinator.com/item?id=48080587
+Points: 53
+# Comments: 13]]></summary>
+        <author>
+            <name>imtomt</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[France moves to break encrypted messaging]]></title>
+        <id>https://news.ycombinator.com/item?id=48078811</id>
+        <link href="https://reclaimthenet.org/france-moves-to-break-encrypted-messaging"/>
+        <updated>2026-05-09T22:14:35.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://reclaimthenet.org/france-moves-to-break-encrypted-messaging
+Comments URL: https://news.ycombinator.com/item?id=48078811
+Points: 105
+# Comments: 60]]></summary>
+        <author>
+            <name>Cider9986</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Getting arrested in Japan]]></title>
+        <id>https://news.ycombinator.com/item?id=48078647</id>
+        <link href="https://sundaicity.com/blogs/getting-arrested-in-japan"/>
+        <updated>2026-05-09T21:56:19.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://sundaicity.com/blogs/getting-arrested-in-japan
+Comments URL: https://news.ycombinator.com/item?id=48078647
+Points: 172
+# Comments: 195]]></summary>
+        <author>
+            <name>bane</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Rust but Lisp]]></title>
+        <id>https://news.ycombinator.com/item?id=48078575</id>
+        <link href="https://github.com/ThatXliner/rust-but-lisp"/>
+        <updated>2026-05-09T21:46:27.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://github.com/ThatXliner/rust-but-lisp
+Comments URL: https://news.ycombinator.com/item?id=48078575
+Points: 96
+# Comments: 55]]></summary>
+        <author>
+            <name>thatxliner</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Local privilege escalation via execve()]]></title>
+        <id>https://news.ycombinator.com/item?id=48077971</id>
+        <link href="https://www.freebsd.org/security/advisories/FreeBSD-SA-26:13.exec.asc"/>
+        <updated>2026-05-09T20:31:21.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.freebsd.org/security/advisories/FreeBSD-SA-26:13.exec.asc
+Comments URL: https://news.ycombinator.com/item?id=48077971
+Points: 105
+# Comments: 60]]></summary>
+        <author>
+            <name>Deeg9rie9usi</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Meta's Embrace of A.I. Is Making Its Employees Miserable]]></title>
         <id>https://news.ycombinator.com/item?id=48077126</id>
@@ -17731,229 +17797,6 @@ Before Twill, building with Claude Code locally, we kept hitting three walls
 2. Persistence: close your laptop and the agent stops. We wanted to kick off a batch of tasks …]]></summary>
         <author>
             <name>danoandco</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Bluesky April 2026 Outage Post-Mortem]]></title>
-        <id>https://news.ycombinator.com/item?id=47719975</id>
-        <link href="https://pckt.blog/b/jcalabro/april-2026-outage-post-mortem-219ebg2"/>
-        <updated>2026-04-10T15:51:41.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://pckt.blog/b/jcalabro/april-2026-outage-post-mortem-219ebg2
-Comments URL: https://news.ycombinator.com/item?id=47719975
-Points: 82
-# Comments: 24]]></summary>
-        <author>
-            <name>jcalabro</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[WireGuard makes new Windows release following Microsoft signing resolution]]></title>
-        <id>https://news.ycombinator.com/item?id=47719942</id>
-        <link href="https://lists.zx2c4.com/pipermail/wireguard/2026-April/009561.html"/>
-        <updated>2026-04-10T15:49:52.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://lists.zx2c4.com/pipermail/wireguard/2026-April/009561.html
-Comments URL: https://news.ycombinator.com/item?id=47719942
-Points: 86
-# Comments: 35]]></summary>
-        <author>
-            <name>zx2c4</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[1D Chess]]></title>
-        <id>https://news.ycombinator.com/item?id=47719740</id>
-        <link href="https://rowan441.github.io/1dchess/chess.html"/>
-        <updated>2026-04-10T15:37:28.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://rowan441.github.io/1dchess/chess.html
-Comments URL: https://news.ycombinator.com/item?id=47719740
-Points: 103
-# Comments: 18]]></summary>
-        <author>
-            <name>burnt-resistor</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[You can't trust macOS Privacy and Security settings]]></title>
-        <id>https://news.ycombinator.com/item?id=47719602</id>
-        <link href="https://eclecticlight.co/2026/04/10/why-you-cant-trust-privacy-security/"/>
-        <updated>2026-04-10T15:28:24.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://eclecticlight.co/2026/04/10/why-you-cant-trust-privacy-security/
-Comments URL: https://news.ycombinator.com/item?id=47719602
-Points: 144
-# Comments: 56]]></summary>
-        <author>
-            <name>zdw</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[I gave every train in New York an instrument]]></title>
-        <id>https://news.ycombinator.com/item?id=47719490</id>
-        <link href="https://www.trainjazz.com/"/>
-        <updated>2026-04-10T15:21:07.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.trainjazz.com/
-Comments URL: https://news.ycombinator.com/item?id=47719490
-Points: 86
-# Comments: 17]]></summary>
-        <author>
-            <name>joshuawolk</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[France to ditch Windows for Linux to reduce reliance on US tech]]></title>
-        <id>https://news.ycombinator.com/item?id=47719486</id>
-        <link href="https://techcrunch.com/2026/04/10/france-to-ditch-windows-for-linux-to-reduce-reliance-on-us-tech/"/>
-        <updated>2026-04-10T15:20:48.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://techcrunch.com/2026/04/10/france-to-ditch-windows-for-linux-to-reduce-reliance-on-us-tech/
-Comments URL: https://news.ycombinator.com/item?id=47719486
-Points: 71
-# Comments: 20]]></summary>
-        <author>
-            <name>Teever</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Helium Is Hard to Replace]]></title>
-        <id>https://news.ycombinator.com/item?id=47719274</id>
-        <link href="https://www.construction-physics.com/p/helium-is-hard-to-replace"/>
-        <updated>2026-04-10T15:06:51.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.construction-physics.com/p/helium-is-hard-to-replace
-Comments URL: https://news.ycombinator.com/item?id=47719274
-Points: 78
-# Comments: 36]]></summary>
-        <author>
-            <name>JumpCrisscross</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Supply chain nightmare: How Rust will be attacked and what we can do to mitigate]]></title>
-        <id>https://news.ycombinator.com/item?id=47718891</id>
-        <link href="https://kerkour.com/rust-supply-chain-nightmare"/>
-        <updated>2026-04-10T14:42:04.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://kerkour.com/rust-supply-chain-nightmare
-Comments URL: https://news.ycombinator.com/item?id=47718891
-Points: 53
-# Comments: 24]]></summary>
-        <author>
-            <name>fanf2</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[CPU-Z and HWMonitor Compromised]]></title>
-        <id>https://news.ycombinator.com/item?id=47718830</id>
-        <link href="https://old.reddit.com/r/pcmasterrace/comments/1sh4e5l/warning_hwmonitor_163_download_on_the_official/"/>
-        <updated>2026-04-10T14:37:29.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://old.reddit.com/r/pcmasterrace/comments/1sh4e5l/warning_hwmonitor_163_download_on_the_official/
-Comments URL: https://news.ycombinator.com/item?id=47718830
-Points: 112
-# Comments: 13]]></summary>
-        <author>
-            <name>Wingy</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Code is run more than read (2023)]]></title>
-        <id>https://news.ycombinator.com/item?id=47718470</id>
-        <link href="https://olano.dev/blog/code-is-run-more-than-read/"/>
-        <updated>2026-04-10T14:12:48.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://olano.dev/blog/code-is-run-more-than-read/
-Comments URL: https://news.ycombinator.com/item?id=47718470
-Points: 89
-# Comments: 51]]></summary>
-        <author>
-            <name>facundo_olano</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Design and implementation of DuckDB internals]]></title>
-        <id>https://news.ycombinator.com/item?id=47718284</id>
-        <link href="https://duckdb.org/library/design-and-implementation-of-duckdb-internals/"/>
-        <updated>2026-04-10T13:59:26.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://duckdb.org/library/design-and-implementation-of-duckdb-internals/
-Comments URL: https://news.ycombinator.com/item?id=47718284
-Points: 114
-# Comments: 8]]></summary>
-        <author>
-            <name>mpweiher</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[US summons bank bosses over cyber risks from Anthropic's latest AI model]]></title>
-        <id>https://news.ycombinator.com/item?id=47718114</id>
-        <link href="https://www.theguardian.com/technology/2026/apr/10/us-summoned-bank-bosses-to-discuss-cyber-risks-posed-by-anthropic-latest-ai-model"/>
-        <updated>2026-04-10T13:47:17.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.theguardian.com/technology/2026/apr/10/us-summoned-bank-bosses-to-discuss-cyber-risks-posed-by-anthropic-latest-ai-model
-Comments URL: https://news.ycombinator.com/item?id=47718114
-Points: 65
-# Comments: 35]]></summary>
-        <author>
-            <name>ascold</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[CPU-Z and HWMonitor compromised]]></title>
-        <id>https://news.ycombinator.com/item?id=47717847</id>
-        <link href="https://www.theregister.com/2026/04/10/cpuid_site_hijacked/"/>
-        <updated>2026-04-10T13:29:20.000Z</updated>
-        <summary type="html"><![CDATA[https://xcancel.com/vxunderground/status/2042483067655262461
-https://old.reddit.com/r/pcmasterrace/comments/1sh4e5l/warni...
-https://www.bleepingcomputer.com/news/security/supply-chain-...
-Comments URL: https://news.ycombinator.com/item?id=47717847
-Points: 58
-# Comments: 37]]></summary>
-        <author>
-            <name>pashadee</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[OpenAI backs Illinois bill that would limit when AI labs can be held liable]]></title>
-        <id>https://news.ycombinator.com/item?id=47717587</id>
-        <link href="https://www.wired.com/story/openai-backs-bill-exempt-ai-firms-model-harm-lawsuits/"/>
-        <updated>2026-04-10T13:08:43.000Z</updated>
-        <summary type="html"><![CDATA[https://archive.md/WzwBY
-Comments URL: https://news.ycombinator.com/item?id=47717587
-Points: 307
-# Comments: 195]]></summary>
-        <author>
-            <name>smurda</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The acyclic e-graph: Cranelift's mid-end optimizer]]></title>
-        <id>https://news.ycombinator.com/item?id=47717192</id>
-        <link href="https://cfallin.org/blog/2026/04/09/aegraph/"/>
-        <updated>2026-04-10T12:37:27.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://cfallin.org/blog/2026/04/09/aegraph/
-Comments URL: https://news.ycombinator.com/item?id=47717192
-Points: 58
-# Comments: 15]]></summary>
-        <author>
-            <name>tekknolagi</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Nucleus Nouns]]></title>
-        <id>https://news.ycombinator.com/item?id=47716840</id>
-        <link href="https://ben-mini.com/2026/nucleus-nouns"/>
-        <updated>2026-04-10T12:06:43.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://ben-mini.com/2026/nucleus-nouns
-Comments URL: https://news.ycombinator.com/item?id=47716840
-Points: 51
-# Comments: 12]]></summary>
-        <author>
-            <name>bewal416</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Intel 486 CPU announced April 10, 1989]]></title>
-        <id>https://news.ycombinator.com/item?id=47716809</id>
-        <link href="https://dfarq.homeip.net/intel-486-cpu-announced-april-10-1989/"/>
-        <updated>2026-04-10T12:03:34.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://dfarq.homeip.net/intel-486-cpu-announced-april-10-1989/
-Comments URL: https://news.ycombinator.com/item?id=47716809
-Points: 95
-# Comments: 67]]></summary>
-        <author>
-            <name>jnord</name>
         </author>
     </entry>
 </feed>
