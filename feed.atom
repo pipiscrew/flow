@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-05-12T21:23:32.084Z</updated>
+    <updated>2026-05-12T23:07:22.459Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
@@ -159,6 +159,20 @@ Points: 313
 # Comments: 109]]></summary>
         <author>
             <name>rubenbe</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Statewright – Visual state machines that make AI agents reliable]]></title>
+        <id>https://news.ycombinator.com/item?id=48108778</id>
+        <link href="https://github.com/statewright/statewright"/>
+        <updated>2026-05-12T14:24:55.000Z</updated>
+        <summary type="html"><![CDATA[Agentic problem solving in its current state is very brittle.  I fell in love with it, but it creates as many problems as it solves.
+I'm Ben Cochran, I spent 20+ years in the trenches with full-stack Engineering, DevOps, high performance computing & ML with stints at NVIDIA, AMD and various other organizations most recently as a Distinguished Engineer.
+For agents to work reliably you either need massive parameter counts or massive context windows to keep the solution spaces workable. Most people are brute forcing reliability with bigger models and longer prompts.
+What if I made the problem smaller instead of making the model bigger?
+I took a different approach by using smaller models: models in the 13-20B parameter range and set them to task solving real SWE-bench problems. I constrained t…]]></summary>
+        <author>
+            <name>azurewraith</name>
         </author>
     </entry>
     <entry>
@@ -17833,32 +17847,6 @@ Points: 56
 # Comments: 34]]></summary>
         <author>
             <name>CJefferson</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: I built a social media management tool in 3 weeks with Claude and Codex]]></title>
-        <id>https://news.ycombinator.com/item?id=47749674</id>
-        <link href="https://github.com/brightbeanxyz/brightbean-studio"/>
-        <updated>2026-04-13T09:26:56.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://github.com/brightbeanxyz/brightbean-studio
-Comments URL: https://news.ycombinator.com/item?id=47749674
-Points: 104
-# Comments: 73]]></summary>
-        <author>
-            <name>JanSchu</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Six Characters]]></title>
-        <id>https://news.ycombinator.com/item?id=47749659</id>
-        <link href="https://ajitem.com/blog/iron-core-part-2-six-characters/"/>
-        <updated>2026-04-13T09:24:44.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://ajitem.com/blog/iron-core-part-2-six-characters/
-Comments URL: https://news.ycombinator.com/item?id=47749659
-Points: 73
-# Comments: 13]]></summary>
-        <author>
-            <name>Airplanepasta</name>
         </author>
     </entry>
 </feed>

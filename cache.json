@@ -126,6 +126,16 @@
           "imageUrl": ""
         },
         {
+          "id": "https://news.ycombinator.com/item?id=48108778",
+          "author": "azurewraith",
+          "description": "Agentic problem solving in its current state is very brittle.  I fell in love with it, but it creates as many problems as it solves.\nI'm Ben Cochran, I spent 20+ years in the trenches with full-stack Engineering, DevOps, high performance computing & ML with stints at NVIDIA, AMD and various other organizations most recently as a Distinguished Engineer.\nFor agents to work reliably you either need massive parameter counts or massive context windows to keep the solution spaces workable. Most people are brute forcing reliability with bigger models and longer prompts.\nWhat if I made the problem smaller instead of making the model bigger?\nI took a different approach by using smaller models: models in the 13-20B parameter range and set them to task solving real SWE-bench problems. I constrained t…",
+          "link": "https://github.com/statewright/statewright",
+          "publishedOn": "2026-05-12T14:24:55.000Z",
+          "wordCount": 4823,
+          "title": "Show HN: Statewright – Visual state machines that make AI agents reliable",
+          "imageUrl": "https://opengraph.githubassets.com/f882bbe7dd3ef0d94bfb5843c275f47c9a39f47ac17892a9e951c6bc8e24e59b/statewright/statewright"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=48107997",
           "author": "ibobev",
           "description": "Article URL: https://blog.maximeheckel.com/posts/on-rendering-the-sky-sunsets-and-planets/\nComments URL: https://news.ycombinator.com/item?id=48107997\nPoints: 182\n# Comments: 14",
@@ -13494,26 +13504,6 @@
           "wordCount": 4649,
           "title": "Too much discussion of the XOR swap trick",
           "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47749674",
-          "author": "JanSchu",
-          "description": "Article URL: https://github.com/brightbeanxyz/brightbean-studio\nComments URL: https://news.ycombinator.com/item?id=47749674\nPoints: 104\n# Comments: 73",
-          "link": "https://github.com/brightbeanxyz/brightbean-studio",
-          "publishedOn": "2026-04-13T09:26:56.000Z",
-          "wordCount": 9930,
-          "title": "Show HN: I built a social media management tool in 3 weeks with Claude and Codex",
-          "imageUrl": "https://opengraph.githubassets.com/d7a380430a390078f9385cbf9364727a141104ffe3681e168693218d9fb57fcc/brightbeanxyz/brightbean-studio"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47749659",
-          "author": "Airplanepasta",
-          "description": "Article URL: https://ajitem.com/blog/iron-core-part-2-six-characters/\nComments URL: https://news.ycombinator.com/item?id=47749659\nPoints: 73\n# Comments: 13",
-          "link": "https://ajitem.com/blog/iron-core-part-2-six-characters/",
-          "publishedOn": "2026-04-13T09:24:44.000Z",
-          "wordCount": 5677,
-          "title": "Six Characters",
-          "imageUrl": "https://ajitem.com/optimized/images/blog/iron-core-part-2-six-characters-hero.webp"
         }
       ]
     }
