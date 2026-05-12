@@ -6,6 +6,56 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=48113895",
+          "author": "_vaporwave_",
+          "description": "Article URL: https://typesetinthefuture.com/2016/02/18/futuristic/\nComments URL: https://news.ycombinator.com/item?id=48113895\nPoints: 53\n# Comments: 7",
+          "link": "https://typesetinthefuture.com/2016/02/18/futuristic/",
+          "publishedOn": "2026-05-12T20:16:26.000Z",
+          "wordCount": 4603,
+          "title": "How to make your text look futuristic (2016)",
+          "imageUrl": "https://i0.wp.com/typesetinthefuture.com/wp-content/uploads/2016/02/futuristic_starfield_full.jpg?fit=1200%2C800&ssl=1"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48112042",
+          "author": "chizhik-pyzhik",
+          "description": "Article URL: https://lists.thekelleys.org.uk/pipermail/dnsmasq-discuss/2026q2/018471.html\nComments URL: https://news.ycombinator.com/item?id=48112042\nPoints: 146\n# Comments: 44",
+          "link": "https://lists.thekelleys.org.uk/pipermail/dnsmasq-discuss/2026q2/018471.html",
+          "publishedOn": "2026-05-12T18:12:28.000Z",
+          "wordCount": 516,
+          "title": "CERT is releasing six CVEs for serious security vulnerabilities in dnsmasq",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48111896",
+          "author": "HenryNdubuaku",
+          "description": "Hey HN, Henry here from Cactus. We open-sourced Needle, a 26M parameter function-calling (tool use) model. It runs at 6000 tok/s prefill and 1200 tok/s decode on consumer devices.\nWe were always frustrated by the little effort made towards building agentic models that run on budget phones, so we conducted investigations that led to an observation: agentic experiences are built upon tool calling, and massive models are overkill for it. Tool calling is fundamentally retrieval-and-assembly (match query to tool name, extract argument values, emit JSON), not reasoning. Cross-attention is the right primitive for this, and FFN parameters are wasted at this scale.\nSimple Attention Networks: the entire model is just attention and gating, no MLPs anywhere. Needle is an experimental run for single-sh…",
+          "link": "https://github.com/cactus-compute/needle",
+          "publishedOn": "2026-05-12T18:03:11.000Z",
+          "wordCount": 2299,
+          "title": "Show HN: Needle: We Distilled Gemini Tool Calling into a 26M Model",
+          "imageUrl": "https://opengraph.githubassets.com/8016391e6a0a31d00d7c86366f03255279a59989234b6856db0f004f072e2967/cactus-compute/needle"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48111765",
+          "author": "aduffy",
+          "description": "Article URL: https://duckdb.org/2026/05/12/quack-remote-protocol\nComments URL: https://news.ycombinator.com/item?id=48111765\nPoints: 79\n# Comments: 16",
+          "link": "https://duckdb.org/2026/05/12/quack-remote-protocol",
+          "publishedOn": "2026-05-12T17:54:12.000Z",
+          "wordCount": 3524,
+          "title": "Quack: The DuckDB Client-Server Protocol",
+          "imageUrl": "https://duckdb.org/images/blog/thumbs/quack-release.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48111581",
+          "author": "devhouse",
+          "description": "Article URL: https://deepmind.google/blog/ai-pointer/\nComments URL: https://news.ycombinator.com/item?id=48111581\nPoints: 69\n# Comments: 58",
+          "link": "https://deepmind.google/blog/ai-pointer/",
+          "publishedOn": "2026-05-12T17:40:13.000Z",
+          "wordCount": 2099,
+          "title": "Reimagining the mouse pointer for the AI era",
+          "imageUrl": "https://lh3.googleusercontent.com/6ktOlNMbk7CGwt_Oyi8aCEfeSX1B2DJUnrMF5X9bmzo0MdX9AHqW3iCCGo4RUFX2_8eN_4U3Sam_3tnc8Q0uLK6dMmcC3j5aiAyFMe9AhwYaYF59KA=w1200-h630-n-nu-rw"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=48111545",
           "author": "tambourine_man",
           "description": "https://www.reddit.com/r/Android/comments/1tb8xls/introducin...\nComments URL: https://news.ycombinator.com/item?id=48111545\nPoints: 161\n# Comments: 189",
@@ -374,6 +424,16 @@
           "wordCount": 1041,
           "title": "Students Boo Commencement Speaker After She Calls AI Next Industrial Revolution",
           "imageUrl": "https://storage.ghost.io/c/0f/76/0f76b548-bc58-4f25-abc3-3f5ebca07da4/content/images/size/w1200/2026/05/ucf.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48096328",
+          "author": "surprisetalk",
+          "description": "Article URL: https://www.construction-physics.com/p/the-surprisingly-long-life-of-the\nComments URL: https://news.ycombinator.com/item?id=48096328\nPoints: 53\n# Comments: 33",
+          "link": "https://www.construction-physics.com/p/the-surprisingly-long-life-of-the",
+          "publishedOn": "2026-05-11T15:30:17.000Z",
+          "wordCount": 7484,
+          "title": "The Surprisingly Long Life of the Vacuum Tube",
+          "imageUrl": "https://substackcdn.com/image/fetch/$s_!s3OW!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F48d5bbd5-2579-4ffb-9519-47997926caae_1200x854.png"
         },
         {
           "id": "https://news.ycombinator.com/item?id=48095550",
@@ -1234,6 +1294,16 @@
           "wordCount": 6440,
           "title": "Meta Shuts Down End-to-End Encryption for Instagram Messaging",
           "imageUrl": "https://i.pcmag.com/imagery/articles/01VCs6SZdta2WftLSUptXTG-1.fit_lim.size_1200x630.v1778247916.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48069032",
+          "author": "luispa",
+          "description": "Article URL: https://wix-ux.com/when-life-gives-you-lemons-write-better-error-messages-46c5223e1a2f\nComments URL: https://news.ycombinator.com/item?id=48069032\nPoints: 77\n# Comments: 23",
+          "link": "https://wix-ux.com/when-life-gives-you-lemons-write-better-error-messages-46c5223e1a2f",
+          "publishedOn": "2026-05-08T21:31:44.000Z",
+          "wordCount": null,
+          "title": "When life gives you lemons, write better error messages",
+          "imageUrl": null
         },
         {
           "id": "https://news.ycombinator.com/item?id=48068254",
@@ -13444,16 +13514,6 @@
           "wordCount": 5677,
           "title": "Six Characters",
           "imageUrl": "https://ajitem.com/optimized/images/blog/iron-core-part-2-six-characters-hero.webp"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47749548",
-          "author": "luu",
-          "description": "Article URL: https://gpfault.net/posts/sph.html\nComments URL: https://news.ycombinator.com/item?id=47749548\nPoints: 68\n# Comments: 7",
-          "link": "https://gpfault.net/posts/sph.html",
-          "publishedOn": "2026-04-13T09:05:45.000Z",
-          "wordCount": 8872,
-          "title": "Introduction to spherical harmonics for graphics programmers",
-          "imageUrl": null
         }
       ]
     }

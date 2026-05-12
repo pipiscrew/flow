@@ -2,10 +2,74 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-05-12T19:01:20.460Z</updated>
+    <updated>2026-05-12T21:23:32.084Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[How to make your text look futuristic (2016)]]></title>
+        <id>https://news.ycombinator.com/item?id=48113895</id>
+        <link href="https://typesetinthefuture.com/2016/02/18/futuristic/"/>
+        <updated>2026-05-12T20:16:26.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://typesetinthefuture.com/2016/02/18/futuristic/
+Comments URL: https://news.ycombinator.com/item?id=48113895
+Points: 53
+# Comments: 7]]></summary>
+        <author>
+            <name>_vaporwave_</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CERT is releasing six CVEs for serious security vulnerabilities in dnsmasq]]></title>
+        <id>https://news.ycombinator.com/item?id=48112042</id>
+        <link href="https://lists.thekelleys.org.uk/pipermail/dnsmasq-discuss/2026q2/018471.html"/>
+        <updated>2026-05-12T18:12:28.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://lists.thekelleys.org.uk/pipermail/dnsmasq-discuss/2026q2/018471.html
+Comments URL: https://news.ycombinator.com/item?id=48112042
+Points: 146
+# Comments: 44]]></summary>
+        <author>
+            <name>chizhik-pyzhik</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Needle: We Distilled Gemini Tool Calling into a 26M Model]]></title>
+        <id>https://news.ycombinator.com/item?id=48111896</id>
+        <link href="https://github.com/cactus-compute/needle"/>
+        <updated>2026-05-12T18:03:11.000Z</updated>
+        <summary type="html"><![CDATA[Hey HN, Henry here from Cactus. We open-sourced Needle, a 26M parameter function-calling (tool use) model. It runs at 6000 tok/s prefill and 1200 tok/s decode on consumer devices.
+We were always frustrated by the little effort made towards building agentic models that run on budget phones, so we conducted investigations that led to an observation: agentic experiences are built upon tool calling, and massive models are overkill for it. Tool calling is fundamentally retrieval-and-assembly (match query to tool name, extract argument values, emit JSON), not reasoning. Cross-attention is the right primitive for this, and FFN parameters are wasted at this scale.
+Simple Attention Networks: the entire model is just attention and gating, no MLPs anywhere. Needle is an experimental run for single-sh…]]></summary>
+        <author>
+            <name>HenryNdubuaku</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Quack: The DuckDB Client-Server Protocol]]></title>
+        <id>https://news.ycombinator.com/item?id=48111765</id>
+        <link href="https://duckdb.org/2026/05/12/quack-remote-protocol"/>
+        <updated>2026-05-12T17:54:12.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://duckdb.org/2026/05/12/quack-remote-protocol
+Comments URL: https://news.ycombinator.com/item?id=48111765
+Points: 79
+# Comments: 16]]></summary>
+        <author>
+            <name>aduffy</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Reimagining the mouse pointer for the AI era]]></title>
+        <id>https://news.ycombinator.com/item?id=48111581</id>
+        <link href="https://deepmind.google/blog/ai-pointer/"/>
+        <updated>2026-05-12T17:40:13.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://deepmind.google/blog/ai-pointer/
+Comments URL: https://news.ycombinator.com/item?id=48111581
+Points: 69
+# Comments: 58]]></summary>
+        <author>
+            <name>devhouse</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Googlebook]]></title>
         <id>https://news.ycombinator.com/item?id=48111545</id>
@@ -487,6 +551,19 @@ Points: 100
 # Comments: 74]]></summary>
         <author>
             <name>cdrnsf</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Surprisingly Long Life of the Vacuum Tube]]></title>
+        <id>https://news.ycombinator.com/item?id=48096328</id>
+        <link href="https://www.construction-physics.com/p/the-surprisingly-long-life-of-the"/>
+        <updated>2026-05-11T15:30:17.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.construction-physics.com/p/the-surprisingly-long-life-of-the
+Comments URL: https://news.ycombinator.com/item?id=48096328
+Points: 53
+# Comments: 33]]></summary>
+        <author>
+            <name>surprisetalk</name>
         </author>
     </entry>
     <entry>
@@ -1617,6 +1694,19 @@ Points: 84
 # Comments: 60]]></summary>
         <author>
             <name>tcp_handshaker</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[When life gives you lemons, write better error messages]]></title>
+        <id>https://news.ycombinator.com/item?id=48069032</id>
+        <link href="https://wix-ux.com/when-life-gives-you-lemons-write-better-error-messages-46c5223e1a2f"/>
+        <updated>2026-05-08T21:31:44.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://wix-ux.com/when-life-gives-you-lemons-write-better-error-messages-46c5223e1a2f
+Comments URL: https://news.ycombinator.com/item?id=48069032
+Points: 77
+# Comments: 23]]></summary>
+        <author>
+            <name>luispa</name>
         </author>
     </entry>
     <entry>
@@ -17769,19 +17859,6 @@ Points: 73
 # Comments: 13]]></summary>
         <author>
             <name>Airplanepasta</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Introduction to spherical harmonics for graphics programmers]]></title>
-        <id>https://news.ycombinator.com/item?id=47749548</id>
-        <link href="https://gpfault.net/posts/sph.html"/>
-        <updated>2026-04-13T09:05:45.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://gpfault.net/posts/sph.html
-Comments URL: https://news.ycombinator.com/item?id=47749548
-Points: 68
-# Comments: 7]]></summary>
-        <author>
-            <name>luu</name>
         </author>
     </entry>
 </feed>
