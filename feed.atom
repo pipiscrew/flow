@@ -2,10 +2,62 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-05-12T00:07:24.283Z</updated>
+    <updated>2026-05-12T04:40:26.097Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Claude Platform on AWS]]></title>
+        <id>https://news.ycombinator.com/item?id=48103042</id>
+        <link href="https://claude.com/blog/claude-platform-on-aws"/>
+        <updated>2026-05-12T01:24:29.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://claude.com/blog/claude-platform-on-aws
+Comments URL: https://news.ycombinator.com/item?id=48103042
+Points: 60
+# Comments: 34]]></summary>
+        <author>
+            <name>matrixhelix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[They Live (1988) inspired Adblocker]]></title>
+        <id>https://news.ycombinator.com/item?id=48102700</id>
+        <link href="https://github.com/davmlaw/they_live_adblocker"/>
+        <updated>2026-05-12T00:37:54.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://github.com/davmlaw/they_live_adblocker
+Comments URL: https://news.ycombinator.com/item?id=48102700
+Points: 56
+# Comments: 6]]></summary>
+        <author>
+            <name>tokenburner</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Griffin PowerMate driver for modern macOS]]></title>
+        <id>https://news.ycombinator.com/item?id=48100970</id>
+        <link href="https://github.com/jameslockman/Griffin-PowerMate-Driver"/>
+        <updated>2026-05-11T21:35:38.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://github.com/jameslockman/Griffin-PowerMate-Driver
+Comments URL: https://news.ycombinator.com/item?id=48100970
+Points: 56
+# Comments: 19]]></summary>
+        <author>
+            <name>classichasclass</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Postmortem: TanStack npm supply-chain compromise]]></title>
+        <id>https://news.ycombinator.com/item?id=48100706</id>
+        <link href="https://tanstack.com/blog/npm-supply-chain-compromise-postmortem"/>
+        <updated>2026-05-11T21:08:25.000Z</updated>
+        <summary type="html"><![CDATA[https://github.com/TanStack/router/issues/7383
+Comments URL: https://news.ycombinator.com/item?id=48100706
+Points: 626
+# Comments: 238]]></summary>
+        <author>
+            <name>varunsharma07</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[TanStack NPM Packages Compromised]]></title>
         <id>https://news.ycombinator.com/item?id=48100706</id>
@@ -17,6 +69,19 @@ Points: 274
 # Comments: 69]]></summary>
         <author>
             <name>varunsharma07</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[I let AI build a tool to help me figure out what was waking me up at night]]></title>
+        <id>https://news.ycombinator.com/item?id=48100662</id>
+        <link href="https://martin.sh/i-let-ai-build-a-tool-to-help-me-figure-out-what-was-waking-me-up-at-night/"/>
+        <updated>2026-05-11T21:04:10.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://martin.sh/i-let-ai-build-a-tool-to-help-me-figure-out-what-was-waking-me-up-at-night/
+Comments URL: https://news.ycombinator.com/item?id=48100662
+Points: 110
+# Comments: 115]]></summary>
+        <author>
+            <name>showmypost</name>
         </author>
     </entry>
     <entry>
@@ -43,6 +108,33 @@ Points: 159
 # Comments: 116]]></summary>
         <author>
             <name>AnonGitLabEmpl</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[If AI writes your code, why use Python?]]></title>
+        <id>https://news.ycombinator.com/item?id=48100433</id>
+        <link href="https://medium.com/@NMitchem/if-ai-writes-your-code-why-use-python-bf8c4ba1a055"/>
+        <updated>2026-05-11T20:45:55.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://medium.com/@NMitchem/if-ai-writes-your-code-why-use-python-bf8c4ba1a055
+Comments URL: https://news.ycombinator.com/item?id=48100433
+Points: 275
+# Comments: 278]]></summary>
+        <author>
+            <name>indigodaddy</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: OpenGravity – A zero-install, BYOK vanilla JS clone of Antigravity]]></title>
+        <id>https://news.ycombinator.com/item?id=48100192</id>
+        <link href="https://github.com/ab-613/opengravity"/>
+        <updated>2026-05-11T20:23:25.000Z</updated>
+        <summary type="html"><![CDATA[Hi. I’m a high school student studying for my GCSEs. I was using Google Antigravity heavily for my side projects, but I kept hitting the usage limits, and getting random "agent terminated" errors. So I decided to try build my own version of the IDE. I love the UI, so I copied it as accurately as possible, and then hooked up some logic into it, including the INCREDIBLY finicky webcontainer api.
+I tried to keep it super lightweight, no build steps, or dependencies, and now that its open source, I'm hoping people can build things on top of it that arent possible with closed source tools, like complex custom agent workflows.
+Some screenshots: - https://github.com/ab-613/OpenGravity/blob/main/examples/scr... - https://github.com/ab-613/OpenGravity/blob/main/examples/htm...
+What it's made from:
+…]]></summary>
+        <author>
+            <name>ab613</name>
         </author>
     </entry>
     <entry>
@@ -1173,6 +1265,19 @@ Points: 55
 # Comments: 45]]></summary>
         <author>
             <name>amanaplanacanal</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Boston library where you still can borrow a giant puppet]]></title>
+        <id>https://news.ycombinator.com/item?id=48069685</id>
+        <link href="https://binj.news/2026/05/06/the-boston-library-where-you-still-can-borrow-a-giant-puppet/"/>
+        <updated>2026-05-08T22:47:06.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://binj.news/2026/05/06/the-boston-library-where-you-still-can-borrow-a-giant-puppet/
+Comments URL: https://news.ycombinator.com/item?id=48069685
+Points: 60
+# Comments: 8]]></summary>
+        <author>
+            <name>gnabgib</name>
         </author>
     </entry>
     <entry>
@@ -17586,193 +17691,6 @@ Points: 66
 # Comments: 13]]></summary>
         <author>
             <name>halfwhey</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[DIY Soft Drinks]]></title>
-        <id>https://news.ycombinator.com/item?id=47741701</id>
-        <link href="https://blinry.org/diy-soft-drinks/"/>
-        <updated>2026-04-12T16:38:43.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://blinry.org/diy-soft-drinks/
-Comments URL: https://news.ycombinator.com/item?id=47741701
-Points: 65
-# Comments: 16]]></summary>
-        <author>
-            <name>_Microft</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Building a SaaS in 2026 Using Only EU Infrastructure]]></title>
-        <id>https://news.ycombinator.com/item?id=47741634</id>
-        <link href="https://eualternative.eu/guides/building-saas-eu-stack/"/>
-        <updated>2026-04-12T16:33:19.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://eualternative.eu/guides/building-saas-eu-stack/
-Comments URL: https://news.ycombinator.com/item?id=47741634
-Points: 110
-# Comments: 30]]></summary>
-        <author>
-            <name>sparkling</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ask HN: What Are You Working On? (April 2026)]]></title>
-        <id>https://news.ycombinator.com/item?id=47741527</id>
-        <link href="https://news.ycombinator.com/item?id=47741527"/>
-        <updated>2026-04-12T16:24:43.000Z</updated>
-        <summary type="html"><![CDATA[What are you working on?  Any new ideas that you're thinking about?
-Comments URL: https://news.ycombinator.com/item?id=47741527
-Points: 51
-# Comments: 122]]></summary>
-        <author>
-            <name>david927</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Investigating How Long-Distance Couples Use Digital Games to Facilitate Intimacy]]></title>
-        <id>https://news.ycombinator.com/item?id=47741460</id>
-        <link href="https://arxiv.org/abs/2505.09509"/>
-        <updated>2026-04-12T16:17:59.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://arxiv.org/abs/2505.09509
-Comments URL: https://news.ycombinator.com/item?id=47741460
-Points: 71
-# Comments: 21]]></summary>
-        <author>
-            <name>radeeyate</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Costasiella kuroshimae – Solar Powered animals, that do indirect photosynthesis]]></title>
-        <id>https://news.ycombinator.com/item?id=47740840</id>
-        <link href="https://en.wikipedia.org/wiki/Costasiella_kuroshimae"/>
-        <updated>2026-04-12T15:26:24.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://en.wikipedia.org/wiki/Costasiella_kuroshimae
-Comments URL: https://news.ycombinator.com/item?id=47740840
-Points: 70
-# Comments: 25]]></summary>
-        <author>
-            <name>vinnyglennon</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Seven countries now generate 100% of their electricity from renewable energy]]></title>
-        <id>https://news.ycombinator.com/item?id=47739313</id>
-        <link href="https://www.the-independent.com/tech/renewable-energy-solar-nepal-bhutan-iceland-b2533699.html"/>
-        <updated>2026-04-12T13:21:39.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.the-independent.com/tech/renewable-energy-solar-nepal-bhutan-iceland-b2533699.html
-Comments URL: https://news.ycombinator.com/item?id=47739313
-Points: 55
-# Comments: 19]]></summary>
-        <author>
-            <name>mpweiher</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Tell HN: OpenAI silently removed Study Mode from ChatGPT]]></title>
-        <id>https://news.ycombinator.com/item?id=47739305</id>
-        <link href="https://news.ycombinator.com/item?id=47739305"/>
-        <updated>2026-04-12T13:20:58.000Z</updated>
-        <summary type="html"><![CDATA[Here's hoping that it will return soon, as I really liked it.
-Comments URL: https://news.ycombinator.com/item?id=47739305
-Points: 85
-# Comments: 21]]></summary>
-        <author>
-            <name>smokel</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[My adventure in designing API keys]]></title>
-        <id>https://news.ycombinator.com/item?id=47739278</id>
-        <link href="https://vjay15.github.io/blog/apikeys/"/>
-        <updated>2026-04-12T13:17:45.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://vjay15.github.io/blog/apikeys/
-Comments URL: https://news.ycombinator.com/item?id=47739278
-Points: 76
-# Comments: 56]]></summary>
-        <author>
-            <name>vjay15</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Pro Max 5x Quota Exhausted in 1.5 Hours Despite Moderate Usage]]></title>
-        <id>https://news.ycombinator.com/item?id=47739260</id>
-        <link href="https://github.com/anthropics/claude-code/issues/45756"/>
-        <updated>2026-04-12T13:15:31.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://github.com/anthropics/claude-code/issues/45756
-Comments URL: https://news.ycombinator.com/item?id=47739260
-Points: 221
-# Comments: 145]]></summary>
-        <author>
-            <name>cmaster11</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: Oberon System 3 runs natively on Raspberry Pi 3 (with ready SD card)]]></title>
-        <id>https://news.ycombinator.com/item?id=47739174</id>
-        <link href="https://github.com/rochus-keller/OberonSystem3Native/releases"/>
-        <updated>2026-04-12T13:06:44.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://github.com/rochus-keller/OberonSystem3Native/releases
-Comments URL: https://news.ycombinator.com/item?id=47739174
-Points: 73
-# Comments: 6]]></summary>
-        <author>
-            <name>Rochus</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[We have a 99% email reputation. Gmail disagrees]]></title>
-        <id>https://news.ycombinator.com/item?id=47738978</id>
-        <link href="https://blogfontawesome.wpcomstaging.com/we-have-a-99-email-reputation-gmail-disagrees/"/>
-        <updated>2026-04-12T12:42:25.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://blogfontawesome.wpcomstaging.com/we-have-a-99-email-reputation-gmail-disagrees/
-Comments URL: https://news.ycombinator.com/item?id=47738978
-Points: 53
-# Comments: 35]]></summary>
-        <author>
-            <name>em-bee</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Troubleshooting Email Delivery to Microsoft Users]]></title>
-        <id>https://news.ycombinator.com/item?id=47738962</id>
-        <link href="https://rozumem.xyz/posts/14"/>
-        <updated>2026-04-12T12:40:34.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://rozumem.xyz/posts/14
-Comments URL: https://news.ycombinator.com/item?id=47738962
-Points: 60
-# Comments: 15]]></summary>
-        <author>
-            <name>rozumem</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Tell HN: docker pull fails in spain due to football cloudflare block]]></title>
-        <id>https://news.ycombinator.com/item?id=47738883</id>
-        <link href="https://news.ycombinator.com/item?id=47738883"/>
-        <updated>2026-04-12T12:28:57.000Z</updated>
-        <summary type="html"><![CDATA[I just spent 1h+ debugging why my locally-hosted gitlab runner would fail to create pipelines. The gitlab job output would just display weird TLS errors when trying to pull a docker images. After debugging gitlab and the runner, I realized after a while I could not even run "docker pull " on my machine as root:
-> error pulling image configuration: download failed after attempts=6: tls: failed to verify certificate: x509: certificate is not valid for any names, but wanted to match docker-images-prod.6aa30f8b08e16409b46e0173d6de2f56.r2.cloudflarestorage.com
-First blaming tailscale, dns configuration and all other stuff. Until I just copied that above URL into my browser on my laptop, and received a website banner:
-> El acceso a la presente dirección IP ha sido bloqueado en cumplimiento de lo dispuesto en la Sentencia de 18 de diciembre de 2024, dictada por el Juzgado de lo Mercantil nº 6 de Barcelona en el marco del procedimiento ordinario (Materia mercantil art. 249.1.4)-1005/2024-H instado por la Liga Nacional de Fútbol Profesional y por Telefónica Audiovisual Digital, S.L.U.
-https://www.laliga.com/noticias/nota-informativa-en-relacion-con-el-bloqueo-de-ips-durante-las-ultimas-jornadas-de-laliga-ea-sports-vinculadas-a-las-practicas-ilegales-de-cloudflare
-For those non-spanish speakers: It means there is football match on, and during that time that specific host is blocked. This is just plain madness. I guess that means my gitlab pipelines will not run when football is on. Thank you, Spain.
-Comments URL: https://news.ycombinator.com/item?id=47738883
-Points: 74
-# Comments: 28]]></summary>
-        <author>
-            <name>littlecranky67</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Bring Back Idiomatic Design]]></title>
-        <id>https://news.ycombinator.com/item?id=47738827</id>
-        <link href="https://essays.johnloeber.com/p/4-bring-back-idiomatic-design"/>
-        <updated>2026-04-12T12:21:26.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://essays.johnloeber.com/p/4-bring-back-idiomatic-design
-Comments URL: https://news.ycombinator.com/item?id=47738827
-Points: 79
-# Comments: 36]]></summary>
-        <author>
-            <name>phil294</name>
         </author>
     </entry>
 </feed>
