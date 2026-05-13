@@ -2,10 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-05-13T06:52:52.877Z</updated>
+    <updated>2026-05-13T09:49:00.890Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[SecurityBaseline.eu]]></title>
+        <id>https://news.ycombinator.com/item?id=48118763</id>
+        <link href="https://internetcleanup.foundation/2026/05/european-governments-3000-tracking-sites-1000-phpmyadmins-and-99pct-poorly-encrypted-email-introducing-securitybaseline-eu/"/>
+        <updated>2026-05-13T07:11:17.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://internetcleanup.foundation/2026/05/european-governments-3000-tracking-sites-1000-phpmyadmins-and-99pct-poorly-encrypted-email-introducing-securitybaseline-eu/
+Comments URL: https://news.ycombinator.com/item?id=48118763
+Points: 145
+# Comments: 59]]></summary>
+        <author>
+            <name>aequitas</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Deterministic Fully-Static Whole-Binary Translation Without Heuristics]]></title>
         <id>https://news.ycombinator.com/item?id=48117810</id>
@@ -17583,88 +17596,6 @@ Points: 53
 # Comments: 14]]></summary>
         <author>
             <name>mufeedvh</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Stanford report highlights growing disconnect between AI insiders and everyone]]></title>
-        <id>https://news.ycombinator.com/item?id=47758028</id>
-        <link href="https://techcrunch.com/2026/04/13/stanford-report-highlights-growing-disconnect-between-ai-insiders-and-everyone-else/"/>
-        <updated>2026-04-13T21:25:38.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://techcrunch.com/2026/04/13/stanford-report-highlights-growing-disconnect-between-ai-insiders-and-everyone-else/
-Comments URL: https://news.ycombinator.com/item?id=47758028
-Points: 129
-# Comments: 137]]></summary>
-        <author>
-            <name>ZeidJ</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The tech jobs bust is real. Don't blame AI (yet)]]></title>
-        <id>https://news.ycombinator.com/item?id=47757775</id>
-        <link href="https://economist.com/finance-and-economics/2026/04/13/the-tech-jobs-bust-is-real-dont-blame-ai-yet"/>
-        <updated>2026-04-13T21:02:21.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://economist.com/finance-and-economics/2026/04/13/the-tech-jobs-bust-is-real-dont-blame-ai-yet
-Comments URL: https://news.ycombinator.com/item?id=47757775
-Points: 66
-# Comments: 41]]></summary>
-        <author>
-            <name>andsoitis</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GitHub Stacked PRs]]></title>
-        <id>https://news.ycombinator.com/item?id=47757495</id>
-        <link href="https://github.github.com/gh-stack/"/>
-        <updated>2026-04-13T20:36:49.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://github.github.com/gh-stack/
-Comments URL: https://news.ycombinator.com/item?id=47757495
-Points: 271
-# Comments: 174]]></summary>
-        <author>
-            <name>ezekg</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[(AMD) Build AI Agents That Run Locally]]></title>
-        <id>https://news.ycombinator.com/item?id=47756772</id>
-        <link href="https://amd-gaia.ai/docs"/>
-        <updated>2026-04-13T19:28:41.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://amd-gaia.ai/docs
-Comments URL: https://news.ycombinator.com/item?id=47756772
-Points: 67
-# Comments: 13]]></summary>
-        <author>
-            <name>galaxyLogic</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The looming college-enrollment death spiral]]></title>
-        <id>https://news.ycombinator.com/item?id=47756672</id>
-        <link href="https://www.theatlantic.com/ideas/2026/04/college-enrollment-demographic-cliff/686750/"/>
-        <updated>2026-04-13T19:18:34.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.theatlantic.com/ideas/2026/04/college-enrollment-demographic-cliff/686750/
-Comments URL: https://news.ycombinator.com/item?id=47756672
-Points: 79
-# Comments: 83]]></summary>
-        <author>
-            <name>JumpCrisscross</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: Ithihāsas – a character explorer for Hindu epics, built in a few hours]]></title>
-        <id>https://news.ycombinator.com/item?id=47756569</id>
-        <link href="https://www.ithihasas.in/"/>
-        <updated>2026-04-13T19:10:07.000Z</updated>
-        <summary type="html"><![CDATA[Hi HN!
-I’ve always found it hard to explore the Mahābhārata and Rāmāyaṇa online. Most content is either long-form or scattered, and understanding a character like Karna or Bhishma usually means opening multiple tabs.
-I built https://www.ithihasas.in/ to solve that. It is a simple character explorer that lets you navigate the epics through people and their relationships instead of reading everything linearly.
-This was also an experiment with Claude CLI. I was able to put together the first version in a couple of hours. It helped a lot with generating structured content and speeding up development, but UX and data consistency still needed manual work.
-Would love feedback on the UX and whether this way of exploring mythology works for you.
-Comments URL: https://news.ycombinator.com/item?id=47756569
-Points: 72
-# Comments: 20]]></summary>
-        <author>
-            <name>cvrajeesh</name>
         </author>
     </entry>
 </feed>
