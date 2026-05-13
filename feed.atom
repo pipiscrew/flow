@@ -2,10 +2,96 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-05-13T20:48:04.287Z</updated>
+    <updated>2026-05-13T22:18:48.829Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[In-person examinations at Princeton will be proctored starting July 1]]></title>
+        <id>https://news.ycombinator.com/item?id=48126848</id>
+        <link href="https://www.dailyprincetonian.com/article/2026/05/princeton-news-adpol-proctoring-in-person-examinations-passed-faculty-133-years-precedent"/>
+        <updated>2026-05-13T20:12:16.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.dailyprincetonian.com/article/2026/05/princeton-news-adpol-proctoring-in-person-examinations-passed-faculty-133-years-precedent
+Comments URL: https://news.ycombinator.com/item?id=48126848
+Points: 152
+# Comments: 196]]></summary>
+        <author>
+            <name>bookofjoe</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Rars: a Rust RAR implementation, mostly written by LLMs]]></title>
+        <id>https://news.ycombinator.com/item?id=48126675</id>
+        <link href="https://bitplane.net/log/2026/05/rars/"/>
+        <updated>2026-05-13T19:59:35.000Z</updated>
+        <summary type="html"><![CDATA[I spent a fortnight using Claude to create specs for every version of RAR, then another using gpt-5.5 to write compressors in Rust.
+It's not fast and it's not pretty, but it works.
+Comments URL: https://news.ycombinator.com/item?id=48126675
+Points: 65
+# Comments: 44]]></summary>
+        <author>
+            <name>davidsong</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Making the news available at no cost is a victory]]></title>
+        <id>https://news.ycombinator.com/item?id=48126156</id>
+        <link href="https://www.sltrib.com/opinion/commentary/2026/05/12/just-days-tribune-reporting/"/>
+        <updated>2026-05-13T19:14:47.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.sltrib.com/opinion/commentary/2026/05/12/just-days-tribune-reporting/
+Comments URL: https://news.ycombinator.com/item?id=48126156
+Points: 85
+# Comments: 95]]></summary>
+        <author>
+            <name>danso</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA["Not Medically Necessary": Helping America's Health Insurers Deny Coverage]]></title>
+        <id>https://news.ycombinator.com/item?id=48126000</id>
+        <link href="https://www.propublica.org/article/evicore-health-insurance-denials-cigna-unitedhealthcare-aetna-prior-authorizations"/>
+        <updated>2026-05-13T19:01:54.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.propublica.org/article/evicore-health-insurance-denials-cigna-unitedhealthcare-aetna-prior-authorizations
+Comments URL: https://news.ycombinator.com/item?id=48126000
+Points: 105
+# Comments: 63]]></summary>
+        <author>
+            <name>ceejayoz</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[MacBook Neo Deep Dive: Benchmarks, Wafer Economics, and the 8GB Gamble]]></title>
+        <id>https://news.ycombinator.com/item?id=48125617</id>
+        <link href="https://www.jdhodges.com/blog/macbook-neo-benchmarks-analysis/"/>
+        <updated>2026-05-13T18:30:51.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.jdhodges.com/blog/macbook-neo-benchmarks-analysis/
+Comments URL: https://news.ycombinator.com/item?id=48125617
+Points: 107
+# Comments: 58]]></summary>
+        <author>
+            <name>tosh</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Launch HN: Ardent (YC P26) – Postgres sandboxes in seconds with zero migration]]></title>
+        <id>https://news.ycombinator.com/item?id=48124436</id>
+        <link href="https://www.tryardent.com/"/>
+        <updated>2026-05-13T16:54:03.000Z</updated>
+        <summary type="html"><![CDATA[Hey HN! We’re Vikram and Evan from Ardent (https://tryardent.com). We're building database sandboxes for you and your coding agents.
+In the last two years coding agents have gotten dramatically more capable at handling complex engineering tasks. But without access to a realistic sandbox at the DB layer for testing, they ship garbage that can take down production databases. I spent over a year building an AI Data Engineer that failed for this exact reason. Evan spent the last 12 years in data engineering and hit this wall building agents at his last company.
+Ardent was built to make it possible for coding agents to get near instant access to production-like sandboxes so they can test their work. To do this we write a replication stream out of the target DB, scaling with kafka onto a read replica with copy on write enabled and autoscaling compute (we currently prefer neon as a primary branching engine due to their implementation of these properties).
+Our replication stream uses logical replication + ddl triggers to enable usage on any hosted postgres DB since most platforms do not allow physical replication which is traditionally used for creating replicas.
+This provides a few primary benefits:
+1. Does not require a platform migration to a DB provider like neon, allowing strong separation of production and development concerns.
+2. Minimal impact on the production database while allowing clones to spin up in https://youtu.be/5S1kwPtiRU0
+We’d love to understand how you work with coding agents on the DB and if you try Ardent (it's free to get started) what worked, what broke and what’s missing.
+Comments URL: https://news.ycombinator.com/item?id=48124436
+Points: 51
+# Comments: 20]]></summary>
+        <author>
+            <name>vc289</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Haiku]]></title>
         <id>https://news.ycombinator.com/item?id=48124002</id>
@@ -160,6 +246,19 @@ Points: 145
 # Comments: 59]]></summary>
         <author>
             <name>aequitas</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Emacsification of Software]]></title>
+        <id>https://news.ycombinator.com/item?id=48118727</id>
+        <link href="https://sockpuppet.org/blog/2026/05/12/emacsification/"/>
+        <updated>2026-05-13T07:06:14.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://sockpuppet.org/blog/2026/05/12/emacsification/
+Comments URL: https://news.ycombinator.com/item?id=48118727
+Points: 135
+# Comments: 87]]></summary>
+        <author>
+            <name>rdslw</name>
         </author>
     </entry>
     <entry>
@@ -1194,6 +1293,19 @@ Points: 96
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Linux gaming is faster because Windows APIs are becoming Linux kernel features]]></title>
+        <id>https://news.ycombinator.com/item?id=48087887</id>
+        <link href="https://www.xda-developers.com/linux-gaming-is-getting-faster-because-windows-apis-are-becoming-linux-kernel-features/"/>
+        <updated>2026-05-10T20:54:06.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.xda-developers.com/linux-gaming-is-getting-faster-because-windows-apis-are-becoming-linux-kernel-features/
+Comments URL: https://news.ycombinator.com/item?id=48087887
+Points: 308
+# Comments: 215]]></summary>
+        <author>
+            <name>haunter</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Hardware Attestation as Monopoly Enabler]]></title>
         <id>https://news.ycombinator.com/item?id=48086190</id>
         <link href="https://grapheneos.social/@GrapheneOS/116550899908879585"/>
@@ -1530,6 +1642,19 @@ Points: 109
 # Comments: 22]]></summary>
         <author>
             <name>robalni</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Xs of Y – roguelike that names itself every run. Written in 4kLoC]]></title>
+        <id>https://news.ycombinator.com/item?id=48080755</id>
+        <link href="https://github.com/nooga/xsofy"/>
+        <updated>2026-05-10T03:32:59.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://github.com/nooga/xsofy
+Comments URL: https://news.ycombinator.com/item?id=48080755
+Points: 131
+# Comments: 58]]></summary>
+        <author>
+            <name>andsoitis</name>
         </author>
     </entry>
     <entry>
@@ -17480,97 +17605,6 @@ Points: 263
 # Comments: 160]]></summary>
         <author>
             <name>tigerlily</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ransomware Is Growing Three Times Faster Than the Spending Meant to Stop It]]></title>
-        <id>https://news.ycombinator.com/item?id=47762994</id>
-        <link href="https://ciphercue.com/blog/ransomware-claims-grew-faster-than-security-spend-2025"/>
-        <updated>2026-04-14T08:52:12.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://ciphercue.com/blog/ransomware-claims-grew-faster-than-security-spend-2025
-Comments URL: https://news.ycombinator.com/item?id=47762994
-Points: 62
-# Comments: 50]]></summary>
-        <author>
-            <name>adulion</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[An AI Vibe Coding Horror Story]]></title>
-        <id>https://news.ycombinator.com/item?id=47762901</id>
-        <link href="https://www.tobru.ch/an-ai-vibe-coding-horror-story/"/>
-        <updated>2026-04-14T08:35:45.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.tobru.ch/an-ai-vibe-coding-horror-story/
-Comments URL: https://news.ycombinator.com/item?id=47762901
-Points: 123
-# Comments: 91]]></summary>
-        <author>
-            <name>teichmann</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Backblaze has stopped backing up your data]]></title>
-        <id>https://news.ycombinator.com/item?id=47762864</id>
-        <link href="https://rareese.com/posts/backblaze/"/>
-        <updated>2026-04-14T08:30:27.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://rareese.com/posts/backblaze/
-Comments URL: https://news.ycombinator.com/item?id=47762864
-Points: 100
-# Comments: 46]]></summary>
-        <author>
-            <name>rrreese</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Introspective Diffusion Language Models]]></title>
-        <id>https://news.ycombinator.com/item?id=47762641</id>
-        <link href="https://introspective-diffusion.github.io/"/>
-        <updated>2026-04-14T07:57:33.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://introspective-diffusion.github.io/
-Comments URL: https://news.ycombinator.com/item?id=47762641
-Points: 78
-# Comments: 22]]></summary>
-        <author>
-            <name>zagwdt</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The secrets of the Shinkansen]]></title>
-        <id>https://news.ycombinator.com/item?id=47762060</id>
-        <link href="https://www.worksinprogress.news/p/the-secret-behind-japans-railways"/>
-        <updated>2026-04-14T06:41:01.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.worksinprogress.news/p/the-secret-behind-japans-railways
-Comments URL: https://news.ycombinator.com/item?id=47762060
-Points: 80
-# Comments: 68]]></summary>
-        <author>
-            <name>WillDaSilva</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Can Claude Fly a Plane?]]></title>
-        <id>https://news.ycombinator.com/item?id=47762006</id>
-        <link href="https://so.long.thanks.fish/can-claude-fly-a-plane/"/>
-        <updated>2026-04-14T06:32:45.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://so.long.thanks.fish/can-claude-fly-a-plane/
-Comments URL: https://news.ycombinator.com/item?id=47762006
-Points: 74
-# Comments: 65]]></summary>
-        <author>
-            <name>casi</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Distributed DuckDB Instance]]></title>
-        <id>https://news.ycombinator.com/item?id=47761997</id>
-        <link href="https://github.com/citguru/openduck"/>
-        <updated>2026-04-14T06:31:44.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://github.com/citguru/openduck
-Comments URL: https://news.ycombinator.com/item?id=47761997
-Points: 57
-# Comments: 11]]></summary>
-        <author>
-            <name>citguru</name>
         </author>
     </entry>
 </feed>
