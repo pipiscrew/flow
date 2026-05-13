@@ -2,10 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-05-13T09:49:00.890Z</updated>
+    <updated>2026-05-13T12:09:10.483Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[I Moved My Digital Stack to Europe]]></title>
+        <id>https://news.ycombinator.com/item?id=48120629</id>
+        <link href="https://monokai.com/articles/how-i-moved-my-digital-stack-to-europe/"/>
+        <updated>2026-05-13T11:42:20.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://monokai.com/articles/how-i-moved-my-digital-stack-to-europe/
+Comments URL: https://news.ycombinator.com/item?id=48120629
+Points: 69
+# Comments: 25]]></summary>
+        <author>
+            <name>monokai_nl</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[SecurityBaseline.eu]]></title>
         <id>https://news.ycombinator.com/item?id=48118763</id>
@@ -17493,109 +17506,6 @@ Points: 119
 # Comments: 66]]></summary>
         <author>
             <name>bumbledraven</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[30 Years of HPC: many hardware advances, little adoption of new languages]]></title>
-        <id>https://news.ycombinator.com/item?id=47759436</id>
-        <link href="https://chapel-lang.org/blog/posts/30years/"/>
-        <updated>2026-04-13T23:45:58.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://chapel-lang.org/blog/posts/30years/
-Comments URL: https://news.ycombinator.com/item?id=47759436
-Points: 54
-# Comments: 23]]></summary>
-        <author>
-            <name>matt_d</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The dangers of California's legislation to censor 3D printing]]></title>
-        <id>https://news.ycombinator.com/item?id=47759420</id>
-        <link href="https://www.eff.org/deeplinks/2026/04/dangers-californias-legislation-censor-3d-printing"/>
-        <updated>2026-04-13T23:44:24.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.eff.org/deeplinks/2026/04/dangers-californias-legislation-censor-3d-printing
-Comments URL: https://news.ycombinator.com/item?id=47759420
-Points: 103
-# Comments: 170]]></summary>
-        <author>
-            <name>salkahfi</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[WiiFin – Jellyfin Client for Nintendo Wii]]></title>
-        <id>https://news.ycombinator.com/item?id=47759341</id>
-        <link href="https://github.com/fabienmillet/WiiFin"/>
-        <updated>2026-04-13T23:33:18.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://github.com/fabienmillet/WiiFin
-Comments URL: https://news.ycombinator.com/item?id=47759341
-Points: 72
-# Comments: 25]]></summary>
-        <author>
-            <name>throwawayk7h</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The AI revolution in math has arrived]]></title>
-        <id>https://news.ycombinator.com/item?id=47759292</id>
-        <link href="https://www.quantamagazine.org/the-ai-revolution-in-math-has-arrived-20260413/"/>
-        <updated>2026-04-13T23:26:04.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.quantamagazine.org/the-ai-revolution-in-math-has-arrived-20260413/
-Comments URL: https://news.ycombinator.com/item?id=47759292
-Points: 74
-# Comments: 39]]></summary>
-        <author>
-            <name>sonabinu</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: CodeBurn – Analyze Claude Code token usage by task]]></title>
-        <id>https://news.ycombinator.com/item?id=47759035</id>
-        <link href="https://github.com/AgentSeal/codeburn"/>
-        <updated>2026-04-13T22:57:05.000Z</updated>
-        <summary type="html"><![CDATA[Built this after realizing I was spending ~$1400/week on Claude Code with almost no visibility into what was actually consuming tokens.
-Tools like ccusage give a cost breakdown per model and per day, but I wanted to understand usage at the task level.
-CodeBurn reads the JSONL session transcripts that Claude Code stores locally (~/.claude/projects/) and classifies each turn into 13 categories based on tool usage patterns (no LLM calls involved).
-One surprising result: about 56% of my spend was on conversation turns with no tool usage. Actual coding (edits/writes) was only ~21%.
-The interface is an interactive terminal UI built with Ink (React for terminals), with gradient bar charts, responsive panels, and keyboard navigation. There’s also a SwiftBar menu bar integration for macOS.
-Happy to hear feedback or ideas.
-Comments URL: https://news.ycombinator.com/item?id=47759035
-Points: 52
-# Comments: 13]]></summary>
-        <author>
-            <name>agentseal</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Let's Talk Space Toilets]]></title>
-        <id>https://news.ycombinator.com/item?id=47758870</id>
-        <link href="https://mceglowski.substack.com/p/lets-talk-space-toilets"/>
-        <updated>2026-04-13T22:41:19.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://mceglowski.substack.com/p/lets-talk-space-toilets
-Comments URL: https://news.ycombinator.com/item?id=47758870
-Points: 70
-# Comments: 19]]></summary>
-        <author>
-            <name>zdw</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[N-Day-Bench – Can LLMs find real vulnerabilities in real codebases?]]></title>
-        <id>https://news.ycombinator.com/item?id=47758347</id>
-        <link href="https://ndaybench.winfunc.com/"/>
-        <updated>2026-04-13T21:54:03.000Z</updated>
-        <summary type="html"><![CDATA[N-Day-Bench tests whether frontier LLMs can find known security vulnerabilities in real repository code. Each month it pulls fresh cases from GitHub security advisories, checks out the repo at the last commit before the patch, and gives models a sandboxed bash shell to explore the codebase.
-Static vulnerability discovery benchmarks become outdated quickly. Cases leak into training data, and scores start measuring memorization. The monthly refresh keeps the test set ahead of contamination — or at least makes the contamination window honest.
-Each case runs three agents: a Curator reads the advisory and builds an answer key, a Finder (the model under test) gets 24 shell steps to explore the code and write a structured report, and a Judge scores the blinded submission. The Finder never sees the patch. It starts from sink hints and must trace the bug through actual code.
-Only repos with 10k+ stars qualify. A diversity pass prevents any single repo from dominating the set. Ambiguous advisories (merge commits, multi-repo references, unresolvable refs) are dropped.
-Currently evaluating GPT-5.4, Claude Opus 4.6, Gemini 3.1 Pro, GLM-5.1, and Kimi K2.5. All traces are public.
-Methodology: https://ndaybench.winfunc.com/methodology
-Live Leaderboard: https://ndaybench.winfunc.com/leaderboard
-Live Traces: https://ndaybench.winfunc.com/traces
-Comments URL: https://news.ycombinator.com/item?id=47758347
-Points: 53
-# Comments: 14]]></summary>
-        <author>
-            <name>mufeedvh</name>
         </author>
     </entry>
 </feed>

@@ -6,6 +6,16 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=48120629",
+          "author": "monokai_nl",
+          "description": "Article URL: https://monokai.com/articles/how-i-moved-my-digital-stack-to-europe/\nComments URL: https://news.ycombinator.com/item?id=48120629\nPoints: 69\n# Comments: 25",
+          "link": "https://monokai.com/articles/how-i-moved-my-digital-stack-to-europe/",
+          "publishedOn": "2026-05-13T11:42:20.000Z",
+          "wordCount": 2175,
+          "title": "I Moved My Digital Stack to Europe",
+          "imageUrl": "https://monokai.com/_app/immutable/assets/ybUIHW7NXm96qqZi.jpg"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=48118763",
           "author": "aequitas",
           "description": "Article URL: https://internetcleanup.foundation/2026/05/european-governments-3000-tracking-sites-1000-phpmyadmins-and-99pct-poorly-encrypted-email-introducing-securitybaseline-eu/\nComments URL: https://news.ycombinator.com/item?id=48118763\nPoints: 145\n# Comments: 59",
@@ -13243,76 +13253,6 @@
           "publishedOn": "2026-04-14T00:25:08.000Z",
           "wordCount": 1483,
           "title": "Lean proved this program correct; then I found a bug",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47759436",
-          "author": "matt_d",
-          "description": "Article URL: https://chapel-lang.org/blog/posts/30years/\nComments URL: https://news.ycombinator.com/item?id=47759436\nPoints: 54\n# Comments: 23",
-          "link": "https://chapel-lang.org/blog/posts/30years/",
-          "publishedOn": "2026-04-13T23:45:58.000Z",
-          "wordCount": 5847,
-          "title": "30 Years of HPC: many hardware advances, little adoption of new languages",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47759420",
-          "author": "salkahfi",
-          "description": "Article URL: https://www.eff.org/deeplinks/2026/04/dangers-californias-legislation-censor-3d-printing\nComments URL: https://news.ycombinator.com/item?id=47759420\nPoints: 103\n# Comments: 170",
-          "link": "https://www.eff.org/deeplinks/2026/04/dangers-californias-legislation-censor-3d-printing",
-          "publishedOn": "2026-04-13T23:44:24.000Z",
-          "wordCount": 2288,
-          "title": "The dangers of California's legislation to censor 3D printing",
-          "imageUrl": "https://www.eff.org/files/banner_library/printer-labels-2.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47759341",
-          "author": "throwawayk7h",
-          "description": "Article URL: https://github.com/fabienmillet/WiiFin\nComments URL: https://news.ycombinator.com/item?id=47759341\nPoints: 72\n# Comments: 25",
-          "link": "https://github.com/fabienmillet/WiiFin",
-          "publishedOn": "2026-04-13T23:33:18.000Z",
-          "wordCount": 2969,
-          "title": "WiiFin – Jellyfin Client for Nintendo Wii",
-          "imageUrl": "https://opengraph.githubassets.com/67cebecbc4fa69d8dbb1103dcecfe1902d7b03e914881a94c011d485c592300a/fabienmillet/WiiFin"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47759292",
-          "author": "sonabinu",
-          "description": "Article URL: https://www.quantamagazine.org/the-ai-revolution-in-math-has-arrived-20260413/\nComments URL: https://news.ycombinator.com/item?id=47759292\nPoints: 74\n# Comments: 39",
-          "link": "https://www.quantamagazine.org/the-ai-revolution-in-math-has-arrived-20260413/",
-          "publishedOn": "2026-04-13T23:26:04.000Z",
-          "wordCount": 6812,
-          "title": "The AI revolution in math has arrived",
-          "imageUrl": "https://www.quantamagazine.org/wp-content/uploads/2026/04/Math-AI-Update-cr-Nash-Weerasekera-Social.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47759035",
-          "author": "agentseal",
-          "description": "Built this after realizing I was spending ~$1400/week on Claude Code with almost no visibility into what was actually consuming tokens.\nTools like ccusage give a cost breakdown per model and per day, but I wanted to understand usage at the task level.\nCodeBurn reads the JSONL session transcripts that Claude Code stores locally (~/.claude/projects/) and classifies each turn into 13 categories based on tool usage patterns (no LLM calls involved).\nOne surprising result: about 56% of my spend was on conversation turns with no tool usage. Actual coding (edits/writes) was only ~21%.\nThe interface is an interactive terminal UI built with Ink (React for terminals), with gradient bar charts, responsive panels, and keyboard navigation. There’s also a SwiftBar menu bar integration for macOS.\nHappy to hear feedback or ideas.\nComments URL: https://news.ycombinator.com/item?id=47759035\nPoints: 52\n# Comments: 13",
-          "link": "https://github.com/AgentSeal/codeburn",
-          "publishedOn": "2026-04-13T22:57:05.000Z",
-          "wordCount": 5700,
-          "title": "Show HN: CodeBurn – Analyze Claude Code token usage by task",
-          "imageUrl": "https://opengraph.githubassets.com/f39a5a3c1378ae57cfe039a56044b960b18cbc8d4cf4e41703fdf7955c76f383/AgentSeal/codeburn"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47758870",
-          "author": "zdw",
-          "description": "Article URL: https://mceglowski.substack.com/p/lets-talk-space-toilets\nComments URL: https://news.ycombinator.com/item?id=47758870\nPoints: 70\n# Comments: 19",
-          "link": "https://mceglowski.substack.com/p/lets-talk-space-toilets",
-          "publishedOn": "2026-04-13T22:41:19.000Z",
-          "wordCount": null,
-          "title": "Let's Talk Space Toilets",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47758347",
-          "author": "mufeedvh",
-          "description": "N-Day-Bench tests whether frontier LLMs can find known security vulnerabilities in real repository code. Each month it pulls fresh cases from GitHub security advisories, checks out the repo at the last commit before the patch, and gives models a sandboxed bash shell to explore the codebase.\nStatic vulnerability discovery benchmarks become outdated quickly. Cases leak into training data, and scores start measuring memorization. The monthly refresh keeps the test set ahead of contamination — or at least makes the contamination window honest.\nEach case runs three agents: a Curator reads the advisory and builds an answer key, a Finder (the model under test) gets 24 shell steps to explore the code and write a structured report, and a Judge scores the blinded submission. The Finder never sees the patch. It starts from sink hints and must trace the bug through actual code.\nOnly repos with 10k+ stars qualify. A diversity pass prevents any single repo from dominating the set. Ambiguous advisories (merge commits, multi-repo references, unresolvable refs) are dropped.\nCurrently evaluating GPT-5.4, Claude Opus 4.6, Gemini 3.1 Pro, GLM-5.1, and Kimi K2.5. All traces are public.\nMethodology: https://ndaybench.winfunc.com/methodology\nLive Leaderboard: https://ndaybench.winfunc.com/leaderboard\nLive Traces: https://ndaybench.winfunc.com/traces\nComments URL: https://news.ycombinator.com/item?id=47758347\nPoints: 53\n# Comments: 14",
-          "link": "https://ndaybench.winfunc.com/",
-          "publishedOn": "2026-04-13T21:54:03.000Z",
-          "wordCount": 788,
-          "title": "N-Day-Bench – Can LLMs find real vulnerabilities in real codebases?",
           "imageUrl": null
         }
       ]
