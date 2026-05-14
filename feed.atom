@@ -2,10 +2,36 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-05-14T07:47:13.546Z</updated>
+    <updated>2026-05-14T10:25:37.015Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Rewrite Bun in Rust has been merged]]></title>
+        <id>https://news.ycombinator.com/item?id=48132488</id>
+        <link href="https://github.com/oven-sh/bun/pull/30412"/>
+        <updated>2026-05-14T08:15:31.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://github.com/oven-sh/bun/pull/30412
+Comments URL: https://news.ycombinator.com/item?id=48132488
+Points: 65
+# Comments: 46]]></summary>
+        <author>
+            <name>Chaoses</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Classic 7 is a Windows 10 LTSC mod to look 1:1 to Windows 7]]></title>
+        <id>https://news.ycombinator.com/item?id=48132030</id>
+        <link href="https://classic7.lol/"/>
+        <updated>2026-05-14T07:03:18.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://classic7.lol/
+Comments URL: https://news.ycombinator.com/item?id=48132030
+Points: 53
+# Comments: 40]]></summary>
+        <author>
+            <name>jandeboevrie</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Claude for Small Business]]></title>
         <id>https://news.ycombinator.com/item?id=48130950</id>
@@ -17,6 +43,28 @@ Points: 176
 # Comments: 106]]></summary>
         <author>
             <name>neilfrndes</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Arena AI Model ELO History]]></title>
+        <id>https://news.ycombinator.com/item?id=48130711</id>
+        <link href="https://mayerwin.github.io/AI-Arena-History/"/>
+        <updated>2026-05-14T03:19:05.000Z</updated>
+        <summary type="html"><![CDATA[Hi HN,
+I built a live tracker to visualize the lifecycle and performance changes of flagship AI models.
+We've all experienced the phenomenon where a flagship model feels amazing at launch, but weeks later, it suddenly feels a bit off. I wanted to see if this was just a feeling or a measurable reality, so I built a dashboard to track historical ELO ratings from Arena AI.
+Instead of a massive spaghetti chart of every single model variant, the logic plots exactly ONE continuous curve per major AI lab. 
+It dynamically tracks their highest-rated flagship model over time, which makes both the sudden generational jumps and the slow performance decays much easier to see. 
+It took quite a lot of iterations to get the chart to look nice on mobile as well. Optional dark mode included.
+However, I have a specific data blindspot that I'm hoping this community might have insights on.
+Arena AI largely relies on testing API endpoints. But as we know, consumer chat UIs often layer on heavy system prompts, safety wrappers, or silently switch to heavily quantized models under high load to save compute. API benchmarks don't fully capture this "nerfing" that everyday web users experience.
+Does anyone know of any historical ELO or evaluation datasets that specifically scrape or test outputs from the consumer web UIs rather than raw APIs?
+I'd love to integrate that data for a more accurate picture of the consumer experience. The project is open-source (repo link in the footer), so I'd appreciate any feedback, or pointers to datasets!
+Comments URL: https://news.ycombinator.com/item?id=48130711
+Points: 59
+# Comments: 44]]></summary>
+        <author>
+            <name>mayerwin</name>
         </author>
     </entry>
     <entry>
@@ -33,6 +81,19 @@ Points: 128
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Show HN: Nibble]]></title>
+        <id>https://news.ycombinator.com/item?id=48130186</id>
+        <link href="https://github.com/glouw/nibble"/>
+        <updated>2026-05-14T01:46:45.000Z</updated>
+        <summary type="html"><![CDATA[An attempt at a single pass LLVM frontend in ~3000 lines of C without external dependencies, malloc, or an AST. Included are some graphical examples. The IR isn't perfect, and the README touches on one particular downfall
+Comments URL: https://news.ycombinator.com/item?id=48130186
+Points: 60
+# Comments: 8]]></summary>
+        <author>
+            <name>glouwbug</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Cisco workforce reductions]]></title>
         <id>https://news.ycombinator.com/item?id=48130123</id>
         <link href="https://blogs.cisco.com/news/our-path-forward"/>
@@ -43,6 +104,19 @@ Points: 94
 # Comments: 58]]></summary>
         <author>
             <name>ahmedomran8</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[delta time]]></title>
+        <id>https://news.ycombinator.com/item?id=48129953</id>
+        <link href="https://www.deltatime.life/"/>
+        <updated>2026-05-14T01:15:24.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.deltatime.life/
+Comments URL: https://news.ycombinator.com/item?id=48129953
+Points: 53
+# Comments: 30]]></summary>
+        <author>
+            <name>mxfh</name>
         </author>
     </entry>
     <entry>
@@ -17447,58 +17521,6 @@ Points: 133
 # Comments: 22]]></summary>
         <author>
             <name>gregsadetsky</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[H.R.8250 – To require operating system providers to verify the age of any user]]></title>
-        <id>https://news.ycombinator.com/item?id=47772203</id>
-        <link href="https://www.congress.gov/bill/119th-congress/house-bill/8250/all-info"/>
-        <updated>2026-04-14T22:18:55.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.congress.gov/bill/119th-congress/house-bill/8250/all-info
-Comments URL: https://news.ycombinator.com/item?id=47772203
-Points: 159
-# Comments: 100]]></summary>
-        <author>
-            <name>cft</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Fuck the cloud (2009)]]></title>
-        <id>https://news.ycombinator.com/item?id=47772048</id>
-        <link href="https://ascii.textfiles.com/archives/1717"/>
-        <updated>2026-04-14T22:00:11.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://ascii.textfiles.com/archives/1717
-Comments URL: https://news.ycombinator.com/item?id=47772048
-Points: 118
-# Comments: 71]]></summary>
-        <author>
-            <name>downbad_</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Stop Flock]]></title>
-        <id>https://news.ycombinator.com/item?id=47772012</id>
-        <link href="https://stopflock.com/"/>
-        <updated>2026-04-14T21:56:05.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://stopflock.com
-Comments URL: https://news.ycombinator.com/item?id=47772012
-Points: 350
-# Comments: 71]]></summary>
-        <author>
-            <name>cdrnsf</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Trusted access for the next era of cyber defense]]></title>
-        <id>https://news.ycombinator.com/item?id=47770770</id>
-        <link href="https://openai.com/index/scaling-trusted-access-for-cyber-defense/"/>
-        <updated>2026-04-14T20:07:20.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://openai.com/index/scaling-trusted-access-for-cyber-defense/
-Comments URL: https://news.ycombinator.com/item?id=47770770
-Points: 64
-# Comments: 45]]></summary>
-        <author>
-            <name>surprisetalk</name>
         </author>
     </entry>
 </feed>

@@ -6,6 +6,26 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=48132488",
+          "author": "Chaoses",
+          "description": "Article URL: https://github.com/oven-sh/bun/pull/30412\nComments URL: https://news.ycombinator.com/item?id=48132488\nPoints: 65\n# Comments: 46",
+          "link": "https://github.com/oven-sh/bun/pull/30412",
+          "publishedOn": "2026-05-14T08:15:31.000Z",
+          "wordCount": 1036,
+          "title": "Rewrite Bun in Rust has been merged",
+          "imageUrl": "https://opengraph.githubassets.com/26a71c452bcbf7466aac8ebcda92bd15617c681bb55c3263e98713a10f96103a/oven-sh/bun/pull/30412"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48132030",
+          "author": "jandeboevrie",
+          "description": "Article URL: https://classic7.lol/\nComments URL: https://news.ycombinator.com/item?id=48132030\nPoints: 53\n# Comments: 40",
+          "link": "https://classic7.lol/",
+          "publishedOn": "2026-05-14T07:03:18.000Z",
+          "wordCount": 332,
+          "title": "Classic 7 is a Windows 10 LTSC mod to look 1:1 to Windows 7",
+          "imageUrl": "https://classic7.lol/Assets/Preview.png"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=48130950",
           "author": "neilfrndes",
           "description": "Article URL: https://www.anthropic.com/news/claude-for-small-business\nComments URL: https://news.ycombinator.com/item?id=48130950\nPoints: 176\n# Comments: 106",
@@ -14,6 +34,16 @@
           "wordCount": 3818,
           "title": "Claude for Small Business",
           "imageUrl": "https://www.anthropic.com/api/opengraph-illustration?name=Object%20Store&backgroundColor=clay"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48130711",
+          "author": "mayerwin",
+          "description": "Hi HN,\nI built a live tracker to visualize the lifecycle and performance changes of flagship AI models.\nWe've all experienced the phenomenon where a flagship model feels amazing at launch, but weeks later, it suddenly feels a bit off. I wanted to see if this was just a feeling or a measurable reality, so I built a dashboard to track historical ELO ratings from Arena AI.\nInstead of a massive spaghetti chart of every single model variant, the logic plots exactly ONE continuous curve per major AI lab. \nIt dynamically tracks their highest-rated flagship model over time, which makes both the sudden generational jumps and the slow performance decays much easier to see. \nIt took quite a lot of iterations to get the chart to look nice on mobile as well. Optional dark mode included.\nHowever, I have a specific data blindspot that I'm hoping this community might have insights on.\nArena AI largely relies on testing API endpoints. But as we know, consumer chat UIs often layer on heavy system prompts, safety wrappers, or silently switch to heavily quantized models under high load to save compute. API benchmarks don't fully capture this \"nerfing\" that everyday web users experience.\nDoes anyone know of any historical ELO or evaluation datasets that specifically scrape or test outputs from the consumer web UIs rather than raw APIs?\nI'd love to integrate that data for a more accurate picture of the consumer experience. The project is open-source (repo link in the footer), so I'd appreciate any feedback, or pointers to datasets!\nComments URL: https://news.ycombinator.com/item?id=48130711\nPoints: 59\n# Comments: 44",
+          "link": "https://mayerwin.github.io/AI-Arena-History/",
+          "publishedOn": "2026-05-14T03:19:05.000Z",
+          "wordCount": 4701,
+          "title": "Arena AI Model ELO History",
+          "imageUrl": null
         },
         {
           "id": "https://news.ycombinator.com/item?id=48130519",
@@ -26,6 +56,16 @@
           "imageUrl": null
         },
         {
+          "id": "https://news.ycombinator.com/item?id=48130186",
+          "author": "glouwbug",
+          "description": "An attempt at a single pass LLVM frontend in ~3000 lines of C without external dependencies, malloc, or an AST. Included are some graphical examples. The IR isn't perfect, and the README touches on one particular downfall\nComments URL: https://news.ycombinator.com/item?id=48130186\nPoints: 60\n# Comments: 8",
+          "link": "https://github.com/glouw/nibble",
+          "publishedOn": "2026-05-14T01:46:45.000Z",
+          "wordCount": 1108,
+          "title": "Show HN: Nibble",
+          "imageUrl": "https://opengraph.githubassets.com/3d7932559d0f27e04ddd8c2f6150412be5137226df16ce75276c9c6bdd4ad2fe/glouw/nibble"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=48130123",
           "author": "ahmedomran8",
           "description": "Article URL: https://blogs.cisco.com/news/our-path-forward\nComments URL: https://news.ycombinator.com/item?id=48130123\nPoints: 94\n# Comments: 58",
@@ -34,6 +74,16 @@
           "wordCount": 2174,
           "title": "Cisco workforce reductions",
           "imageUrl": "https://blogs.cisco.com/gcs/ciscoblogs/1/2025/09/Cisco-Logo-Midnight-Blue-with-white-logo.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48129953",
+          "author": "mxfh",
+          "description": "Article URL: https://www.deltatime.life/\nComments URL: https://news.ycombinator.com/item?id=48129953\nPoints: 53\n# Comments: 30",
+          "link": "https://www.deltatime.life/",
+          "publishedOn": "2026-05-14T01:15:24.000Z",
+          "wordCount": 25,
+          "title": "delta time",
+          "imageUrl": "/og-image.png?v=logo2"
         },
         {
           "id": "https://news.ycombinator.com/item?id=48129789",
@@ -13203,46 +13253,6 @@
           "publishedOn": "2026-04-14T23:20:39.000Z",
           "wordCount": 83,
           "title": "CadQuery is an open-source Python library for building 3D CAD models",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47772203",
-          "author": "cft",
-          "description": "Article URL: https://www.congress.gov/bill/119th-congress/house-bill/8250/all-info\nComments URL: https://news.ycombinator.com/item?id=47772203\nPoints: 159\n# Comments: 100",
-          "link": "https://www.congress.gov/bill/119th-congress/house-bill/8250/all-info",
-          "publishedOn": "2026-04-14T22:18:55.000Z",
-          "wordCount": null,
-          "title": "H.R.8250 – To require operating system providers to verify the age of any user",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47772048",
-          "author": "downbad_",
-          "description": "Article URL: https://ascii.textfiles.com/archives/1717\nComments URL: https://news.ycombinator.com/item?id=47772048\nPoints: 118\n# Comments: 71",
-          "link": "https://ascii.textfiles.com/archives/1717",
-          "publishedOn": "2026-04-14T22:00:11.000Z",
-          "wordCount": 2836,
-          "title": "Fuck the cloud (2009)",
-          "imageUrl": "https://s0.wp.com/i/blank.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47772012",
-          "author": "cdrnsf",
-          "description": "Article URL: https://stopflock.com\nComments URL: https://news.ycombinator.com/item?id=47772012\nPoints: 350\n# Comments: 71",
-          "link": "https://stopflock.com/",
-          "publishedOn": "2026-04-14T21:56:05.000Z",
-          "wordCount": 3147,
-          "title": "Stop Flock",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47770770",
-          "author": "surprisetalk",
-          "description": "Article URL: https://openai.com/index/scaling-trusted-access-for-cyber-defense/\nComments URL: https://news.ycombinator.com/item?id=47770770\nPoints: 64\n# Comments: 45",
-          "link": "https://openai.com/index/scaling-trusted-access-for-cyber-defense/",
-          "publishedOn": "2026-04-14T20:07:20.000Z",
-          "wordCount": null,
-          "title": "Trusted access for the next era of cyber defense",
           "imageUrl": null
         }
       ]
