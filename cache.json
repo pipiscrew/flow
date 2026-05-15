@@ -6,6 +6,36 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=48147058",
+          "author": "yminsky",
+          "description": "Article URL: https://gazagnaire.org/blog/2026-05-14-borealis.html\nComments URL: https://news.ycombinator.com/item?id=48147058\nPoints: 84\n# Comments: 3",
+          "link": "https://gazagnaire.org/blog/2026-05-14-borealis.html",
+          "publishedOn": "2026-05-15T10:55:51.000Z",
+          "wordCount": 2598,
+          "title": "O(x)Caml in Space",
+          "imageUrl": "https://gazagnaire.org/blog/og/2026-05-14-borealis.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48146424",
+          "author": "benjamintnorris",
+          "description": "Article URL: https://relax.ai/docs\nComments URL: https://news.ycombinator.com/item?id=48146424\nPoints: 87\n# Comments: 92",
+          "link": "https://relax.ai/docs",
+          "publishedOn": "2026-05-15T09:27:26.000Z",
+          "wordCount": 8,
+          "title": "UK sovereign LLM inference",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48146369",
+          "author": "andyyyy64",
+          "description": "Article URL: https://github.com/Andyyyy64/whichllm\nComments URL: https://news.ycombinator.com/item?id=48146369\nPoints: 166\n# Comments: 16",
+          "link": "https://github.com/Andyyyy64/whichllm",
+          "publishedOn": "2026-05-15T09:19:24.000Z",
+          "wordCount": 6830,
+          "title": "Show HN: Find the best local LLM for your hardware, ranked by benchmarks",
+          "imageUrl": "https://opengraph.githubassets.com/b81bb482d9d98c3f3988fba5cbd57a0b1a7db5419d8ddd5b527a2c1546831870/Andyyyy64/whichllm"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=48146129",
           "author": "smusamashah",
           "description": "Article URL: https://explorer.samismith.com/\nComments URL: https://news.ycombinator.com/item?id=48146129\nPoints: 53\n# Comments: 12",
@@ -14,6 +44,16 @@
           "wordCount": 270,
           "title": "Explore Wikipedia Like a Windows XP Desktop",
           "imageUrl": "https://explorer.samismith.com/og.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48144670",
+          "author": "jlengelbrecht",
+          "description": "I'm a Type 1 diabetic and software engineer. Last year I went months between endocrinologists with no clinician reviewing my data. I'm an engineer, so I built the tool I needed — and now I'm open sourcing it.\nGlycemicGPT is a self-hosted platform that connects continuous glucose monitors, insulin pumps, and existing Nightscout instances to an AI analysis layer running on your own infrastructure.\nData sources:\nDexcom G7 (cloud API)\nTandem t:slim X2 and Mobi pumps (direct BLE)\nNightscout (point it at your existing instance and you're running in minutes)\nWhat the AI layer does:\nDaily briefs summarizing overnight and 24-hour patterns\nMeal response analysis\nConversational chat with RAG-backed clinical knowledge\nPredictive alerting with configurable thresholds and caregiver escalation\nImportant:…",
+          "link": "https://github.com/GlycemicGPT/GlycemicGPT",
+          "publishedOn": "2026-05-15T04:48:23.000Z",
+          "wordCount": 4470,
+          "title": "Show HN: GlycemicGPT – Open-source AI-powered diabetes management",
+          "imageUrl": "https://opengraph.githubassets.com/b137cf14f95428f9e03a41963d51ddbb8134129c1dd80bfb13201b8bf4576867/GlycemicGPT/GlycemicGPT"
         },
         {
           "id": "https://news.ycombinator.com/item?id=48144494",
@@ -274,6 +314,16 @@
           "wordCount": 1873,
           "title": "Removing the modem and GPS from my 2024 RAV4 hybrid",
           "imageUrl": "https://arkadiyt.com/images/rav4/rav4.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48137629",
+          "author": "adamnemecek",
+          "description": "Article URL: https://hghalebi.github.io/category_theory_transformer_rs/\nComments URL: https://news.ycombinator.com/item?id=48137629\nPoints: 54\n# Comments: 14",
+          "link": "https://hghalebi.github.io/category_theory_transformer_rs/",
+          "publishedOn": "2026-05-14T16:24:28.000Z",
+          "wordCount": 1642,
+          "title": "Building ML framework with Rust and Category Theory",
+          "imageUrl": null
         },
         {
           "id": "https://news.ycombinator.com/item?id=48137553",
@@ -13104,36 +13154,6 @@
           "wordCount": 12585,
           "title": "Stealth signals are bypassing Iran’s internet blackout",
           "imageUrl": "https://spectrum.ieee.org/media-library/image.png?id=65538859&width=1200&height=600&coordinates=0%2C202%2C0%2C202"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47787368",
-          "author": "vmbrasseur",
-          "description": "Article URL: http://www.kleefeldoncomics.com/2026/04/amazon-ai-cancelling-webcomics.html\nComments URL: https://news.ycombinator.com/item?id=47787368\nPoints: 50\n# Comments: 7",
-          "link": "http://www.kleefeldoncomics.com/2026/04/amazon-ai-cancelling-webcomics.html",
-          "publishedOn": "2026-04-16T00:52:33.000Z",
-          "wordCount": 12839,
-          "title": "Amazon AI Cancelling Webcomics",
-          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhxuYZdoldE9gMT6bMQpKf8Ops5cNWtEIFV40f0jNrZl5h7YKX30kOUfbOUVfbn_zBPG3Iaw8XcHw0vN4CYxUxxcHO3Uwo5JFg7FZmftOv8AXzpZg-kVHq2rroApoTeFStoevJSX8FfQwlNNnCPaSrjCdupx8rNVB7aXnEJNwz8UlPTPpOaP-ij/w1200-h630-p-k-no-nu/260326-then-this-happened-comic.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47787127",
-          "author": "jv22222",
-          "description": "Article URL: https://github.com/macOS26/Agent\nComments URL: https://news.ycombinator.com/item?id=47787127\nPoints: 51\n# Comments: 24",
-          "link": "https://github.com/macOS26/Agent",
-          "publishedOn": "2026-04-16T00:19:40.000Z",
-          "wordCount": 15532,
-          "title": "Agent - Native Mac OS X coding ide/harness",
-          "imageUrl": "https://opengraph.githubassets.com/2f69e2a912f9476094eeb172f6b5da0dc2c56f3a7642b6addaabc88e9abf309a/macOS26/Agent"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47786791",
-          "author": "pentagrama",
-          "description": "Article URL: https://www.theverge.com/streaming/912898/youtube-shorts-feed-limit-zero-minutes\nComments URL: https://news.ycombinator.com/item?id=47786791\nPoints: 218\n# Comments: 93",
-          "link": "https://www.theverge.com/streaming/912898/youtube-shorts-feed-limit-zero-minutes",
-          "publishedOn": "2026-04-15T23:36:56.000Z",
-          "wordCount": 6634,
-          "title": "YouTube now lets you turn off Shorts",
-          "imageUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/04/youtube-shorts-feed-time-limit.jpg?quality=90&strip=all&crop=0,3.4199101935869,100,93.160179612826"
         }
       ]
     }
