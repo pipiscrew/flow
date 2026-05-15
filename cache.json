@@ -6,6 +6,46 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=48143880",
+          "author": "RGBCube",
+          "description": "Article URL: https://tmctmt.com/posts/mullvad-exit-ips-as-a-fingerprinting-vector/\nComments URL: https://news.ycombinator.com/item?id=48143880\nPoints: 96\n# Comments: 23",
+          "link": "https://tmctmt.com/posts/mullvad-exit-ips-as-a-fingerprinting-vector/",
+          "publishedOn": "2026-05-15T02:35:35.000Z",
+          "wordCount": 1117,
+          "title": "Mullvad exit IPs are surprisingly identifying",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48142193",
+          "author": "littlexsparkee",
+          "description": "Article URL: https://news.vt.edu/articles/2026/05/drought-united-states-la-nina-expert.html\nComments URL: https://news.ycombinator.com/item?id=48142193\nPoints: 128\n# Comments: 56",
+          "link": "https://news.vt.edu/articles/2026/05/drought-united-states-la-nina-expert.html",
+          "publishedOn": "2026-05-14T22:38:18.000Z",
+          "wordCount": 1788,
+          "title": "More than sixty percent of the United States is experiencing drought conditions",
+          "imageUrl": "https://news.vt.edu/content/news_vt_edu/en/articles/2026/05/drought-united-states-la-nina-expert/_jcr_content/image.transform/l-medium/image.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48142188",
+          "author": "sohkamyung",
+          "description": "Article URL: https://www.theregister.com/ai-ml/2026/05/14/ontario-auditors-find-doctors-ai-note-takers-routinely-blow-basic-facts/5240771\nComments URL: https://news.ycombinator.com/item?id=48142188\nPoints: 152\n# Comments: 69",
+          "link": "https://www.theregister.com/ai-ml/2026/05/14/ontario-auditors-find-doctors-ai-note-takers-routinely-blow-basic-facts/5240771",
+          "publishedOn": "2026-05-14T22:37:40.000Z",
+          "wordCount": 7532,
+          "title": "Ontario auditors find doctors' AI note takers routinely blow basic facts",
+          "imageUrl": "https://image.theregister.com/5240796.jpg?imageId=5240796&x=0&y=0&cropw=100&croph=100&panox=0&panoy=0&panow=100&panoh=100&width=1200&height=683"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48142108",
+          "author": "caust1c",
+          "description": "Article URL: https://antirez.com/news/165\nComments URL: https://news.ycombinator.com/item?id=48142108\nPoints: 201\n# Comments: 63",
+          "link": "https://antirez.com/news/165",
+          "publishedOn": "2026-05-14T22:29:12.000Z",
+          "wordCount": 700,
+          "title": "A few words on DS4",
+          "imageUrl": null
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=48141234",
           "author": "Einenlum",
           "description": "Article URL: https://github.com/anthropics/claude-for-legal\nComments URL: https://news.ycombinator.com/item?id=48141234\nPoints: 51\n# Comments: 42",
@@ -14,6 +54,16 @@
           "wordCount": 15238,
           "title": "Claude for Legal",
           "imageUrl": "https://opengraph.githubassets.com/fbbf473010bfffeb71918dd8baad7cf415419e861bae3d5301023bdea9a5290a/anthropics/claude-for-legal"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48140953",
+          "author": "p_stuart82",
+          "description": "Article URL: https://www.synacktiv.com/en/publications/exploiting-the-tesla-wall-connector-from-its-charge-port-connector-part-2-bypassing\nComments URL: https://news.ycombinator.com/item?id=48140953\nPoints: 73\n# Comments: 28",
+          "link": "https://www.synacktiv.com/en/publications/exploiting-the-tesla-wall-connector-from-its-charge-port-connector-part-2-bypassing",
+          "publishedOn": "2026-05-14T20:41:48.000Z",
+          "wordCount": 1972,
+          "title": "Tesla Wall Connector bootloader bypasses the firmware downgrade ratchet",
+          "imageUrl": "https://www.synacktiv.com/sites/default/files/styles/blog_grid_view/public/2026-04/blogpost.png"
         },
         {
           "id": "https://news.ycombinator.com/item?id=48140922",
@@ -33,6 +83,16 @@
           "publishedOn": "2026-05-14T20:22:35.000Z",
           "wordCount": 437,
           "title": "Amazonbot is finally respecting robots.txt",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48140541",
+          "author": "janandonly",
+          "description": "Article URL: https://router.start9.com/\nComments URL: https://news.ycombinator.com/item?id=48140541\nPoints: 89\n# Comments: 51",
+          "link": "https://router.start9.com/",
+          "publishedOn": "2026-05-14T20:06:53.000Z",
+          "wordCount": 1976,
+          "title": "RISC-V Router",
           "imageUrl": null
         },
         {
@@ -13193,246 +13253,6 @@
           "publishedOn": "2026-04-15T16:19:48.000Z",
           "wordCount": null,
           "title": "CRISPR takes important step toward silencing Down syndrome’s extra chromosome",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47780971",
-          "author": "muchael",
-          "description": "Libretto (https://libretto.sh) is a Skill+CLI that makes it easy for your coding agent to generate deterministic browser automations and debug existing ones. Key shift is going from “give an agent a prompt at runtime and hope it figures things out” to: “Use coding agents to generate real scripts you can inspect, run, and debug”.\nHere’s a demo: https://www.youtube.com/watch?v=0cDpIntmHAM. Docs start at https://libretto.sh/docs/get-started/introduction.\nWe spent a year building and maintaining browser automations for EHR and payer portal integrations at our healthcare startup. Building these automations and debugging failed ones was incredibly time-consuming.\nThere’s lots of tools that use runtime AI like Browseruse and Stagehand which we tried, but (1) they’re reliant on custom DOM parsing …",
-          "link": "https://github.com/saffron-health/libretto",
-          "publishedOn": "2026-04-15T15:57:54.000Z",
-          "wordCount": 4886,
-          "title": "Show HN: Libretto – Making AI browser automations deterministic",
-          "imageUrl": "https://opengraph.githubassets.com/2c543c9ea924346078822c9607b80f60de20a2926c6f57fbb338568fe19206b3/saffron-health/libretto"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47780743",
-          "author": "akashwadhwani35",
-          "description": "Article URL: https://sheets.works/data-viz/keyboard-sounds\nComments URL: https://news.ycombinator.com/item?id=47780743\nPoints: 118\n# Comments: 36",
-          "link": "https://sheets.works/data-viz/keyboard-sounds",
-          "publishedOn": "2026-04-15T15:45:45.000Z",
-          "wordCount": 5804,
-          "title": "Mechanical Keyboard Sounds – A listening Museum",
-          "imageUrl": "https://sheets.works/og-keyboard-sounds.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47780712",
-          "author": "bearsyankees",
-          "description": "Article URL: https://www.strix.ai/blog/cal-com-is-closing-its-code-due-to-ai-threats\nComments URL: https://news.ycombinator.com/item?id=47780712\nPoints: 100\n# Comments: 49",
-          "link": "https://www.strix.ai/blog/cal-com-is-closing-its-code-due-to-ai-threats",
-          "publishedOn": "2026-04-15T15:43:37.000Z",
-          "wordCount": 37,
-          "title": "Open Source Isn't Dead. Cal.com Just Learned the Wrong Lesson",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47780456",
-          "author": "Benjamin_Dobell",
-          "description": "Article URL: https://cal.com/blog/cal-com-goes-closed-source-why\nComments URL: https://news.ycombinator.com/item?id=47780456\nPoints: 66\n# Comments: 88",
-          "link": "https://cal.com/blog/cal-com-goes-closed-source-why",
-          "publishedOn": "2026-04-15T15:26:46.000Z",
-          "wordCount": 26156,
-          "title": "Cal.com is going closed source",
-          "imageUrl": "https://framerusercontent.com/images/kbv1qXf6TM85jTRqb8m0ToBSh8.png?width=1000&height=595"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47779730",
-          "author": "redm",
-          "description": "Article URL: https://claudestatus.com/\nComments URL: https://news.ycombinator.com/item?id=47779730\nPoints: 109\n# Comments: 91",
-          "link": "https://claudestatus.com/",
-          "publishedOn": "2026-04-15T14:44:00.000Z",
-          "wordCount": 2195,
-          "title": "Daily Claude outage is upon us. Waiting for Claude Status to update",
-          "imageUrl": "https://claudestatus.com/og-image.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47779659",
-          "author": "larve",
-          "description": "Article URL: https://fset.common-lisp.dev/Modern-CL/Top_html/index.html\nComments URL: https://news.ycombinator.com/item?id=47779659\nPoints: 53\n# Comments: 4",
-          "link": "https://fset.common-lisp.dev/Modern-CL/Top_html/index.html",
-          "publishedOn": "2026-04-15T14:38:38.000Z",
-          "wordCount": 602,
-          "title": "Modern Common Lisp with FSet",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47779372",
-          "author": "surprisetalk",
-          "description": "Article URL: https://alexwlchan.net/2025/cool-to-care/\nComments URL: https://news.ycombinator.com/item?id=47779372\nPoints: 63\n# Comments: 29",
-          "link": "https://alexwlchan.net/2025/cool-to-care/",
-          "publishedOn": "2026-04-15T14:20:42.000Z",
-          "wordCount": 1242,
-          "title": "It's cool to care (2025)",
-          "imageUrl": "https://alexwlchan.net/images/cards/2025/cool-to-care.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47779094",
-          "author": "markerbrod",
-          "description": "Article URL: https://deepmind.google/blog/gemini-robotics-er-1-6/\nComments URL: https://news.ycombinator.com/item?id=47779094\nPoints: 115\n# Comments: 27",
-          "link": "https://deepmind.google/blog/gemini-robotics-er-1-6/",
-          "publishedOn": "2026-04-15T14:02:31.000Z",
-          "wordCount": 2690,
-          "title": "Gemini Robotics-ER 1.6",
-          "imageUrl": "https://lh3.googleusercontent.com/bQ5TgF2iHJq48mxL5ZVxz3KGmIhOj7c62H7WEWrHqIWGrMexTYoqtrAhF8z12ESUeAj4miWZrHKF-SpMkXG3VVqNtzfJDBULlkMZZw06k05QLuHCww=w1200-h630-n-nu-rw"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47779049",
-          "author": "wespiser_2018",
-          "description": "Article URL: https://www.wespiser.com/posts/2026-04-12-3D-Printing-Biz.html\nComments URL: https://news.ycombinator.com/item?id=47779049\nPoints: 58\n# Comments: 55",
-          "link": "https://www.wespiser.com/posts/2026-04-12-3D-Printing-Biz.html",
-          "publishedOn": "2026-04-15T13:59:07.000Z",
-          "wordCount": 1753,
-          "title": "I built a 3D printing business and ran it for 8 months",
-          "imageUrl": "https://wespiser.com/img/home_compress.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47778938",
-          "author": "eshelyaron",
-          "description": "Article URL: https://eshelyaron.com/posts/2026-04-15-towards-trust-in-emacs.html\nComments URL: https://news.ycombinator.com/item?id=47778938\nPoints: 64\n# Comments: 4",
-          "link": "https://eshelyaron.com/posts/2026-04-15-towards-trust-in-emacs.html",
-          "publishedOn": "2026-04-15T13:49:15.000Z",
-          "wordCount": 788,
-          "title": "Towards trust in Emacs",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47778922",
-          "author": "louiereederson",
-          "description": "Article URL: https://www.tobyord.com/writing/hourly-costs-for-ai-agents\nComments URL: https://news.ycombinator.com/item?id=47778922\nPoints: 50\n# Comments: 3",
-          "link": "https://www.tobyord.com/writing/hourly-costs-for-ai-agents",
-          "publishedOn": "2026-04-15T13:47:58.000Z",
-          "wordCount": 3050,
-          "title": "Are the costs of AI agents also rising exponentially? (2025)",
-          "imageUrl": "http://static1.squarespace.com/static/562652dbe4b05bbfdc596fd7/t/69498e19a310233e798dfd42/1766428185819/Sweet+Spots.png?format=1500w"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47778920",
-          "author": "1vuio0pswjnm7",
-          "description": "Article URL: https://fingfx.thomsonreuters.com/gfx/legaldocs/xmvjyjekkpr/Rakoff%20-%20order%20-%20AI.pdf\nComments URL: https://news.ycombinator.com/item?id=47778920\nPoints: 70\n# Comments: 50",
-          "link": "https://fingfx.thomsonreuters.com/gfx/legaldocs/xmvjyjekkpr/Rakoff%20-%20order%20-%20AI.pdf",
-          "publishedOn": "2026-04-15T13:47:40.000Z",
-          "wordCount": 37384,
-          "title": "US v. Heppner (S.D.N.Y. 2026) no attorney-client privilege for AI chats [pdf]",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47778758",
-          "author": "aphyr",
-          "description": "Article URL: https://aphyr.com/posts/419-the-future-of-everything-is-lies-i-guess-new-jobs\nComments URL: https://news.ycombinator.com/item?id=47778758\nPoints: 83\n# Comments: 41",
-          "link": "https://aphyr.com/posts/419-the-future-of-everything-is-lies-i-guess-new-jobs",
-          "publishedOn": "2026-04-15T13:34:11.000Z",
-          "wordCount": 1735,
-          "title": "The Future of Everything Is Lies, I Guess: New Jobs",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47778524",
-          "author": "speckx",
-          "description": "Article URL: https://www.thamesandhudson.com/blogs/all-news-features/designing-the-transport-typeface-margaret-calvert-on-the-making-of-britain-s-road-signs\nComments URL: https://news.ycombinator.com/item?id=47778524\nPoints: 53\n# Comments: 7",
-          "link": "https://www.thamesandhudson.com/blogs/all-news-features/designing-the-transport-typeface-margaret-calvert-on-the-making-of-britain-s-road-signs",
-          "publishedOn": "2026-04-15T13:13:20.000Z",
-          "wordCount": 32523,
-          "title": "Designing the Transport Typeface",
-          "imageUrl": "http://www.thamesandhudson.com/cdn/shop/articles/Margaret_Calvert_1.jpg?v=1771512993"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47778475",
-          "author": "speckx",
-          "description": "Article URL: https://wchambliss.wordpress.com/2026/03/03/god-sleeps-in-the-minerals/\nComments URL: https://news.ycombinator.com/item?id=47778475\nPoints: 123\n# Comments: 36",
-          "link": "https://wchambliss.wordpress.com/2026/03/03/god-sleeps-in-the-minerals/",
-          "publishedOn": "2026-04-15T13:08:10.000Z",
-          "wordCount": 2219,
-          "title": "God Sleeps in the Minerals",
-          "imageUrl": "https://wchambliss.wordpress.com/wp-content/uploads/2026/03/img_3933.jpeg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47778366",
-          "author": "marvinborner",
-          "description": "Article URL: https://social.coop/@cwebber/116408556882122186\nComments URL: https://news.ycombinator.com/item?id=47778366\nPoints: 83\n# Comments: 60",
-          "link": "https://social.coop/@cwebber/116408556882122186",
-          "publishedOn": "2026-04-15T12:58:11.000Z",
-          "wordCount": 157,
-          "title": "US national level OS-level age verification bill",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47778308",
-          "author": "alephnerd",
-          "description": "Article URL: https://www.reuters.com/legal/government/ai-ruling-prompts-warnings-us-lawyers-your-chats-could-be-used-against-you-2026-04-15/\nComments URL: https://news.ycombinator.com/item?id=47778308\nPoints: 87\n# Comments: 47",
-          "link": "https://www.reuters.com/legal/government/ai-ruling-prompts-warnings-us-lawyers-your-chats-could-be-used-against-you-2026-04-15/",
-          "publishedOn": "2026-04-15T12:51:13.000Z",
-          "wordCount": null,
-          "title": "AI ruling prompts warnings from US lawyers: Your chats could be used against you",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47778306",
-          "author": "porsche959",
-          "description": "Built this solo. It watches SEC filings for executive and board changes, extracts the data, and shows it in real time. 2,100+ changes in the last 30 days. The comp data is interesting: average new CEO total comp is $8.4M across 284 appointments. The /explore page is fully open, no login needed.\nComments URL: https://news.ycombinator.com/item?id=47778306\nPoints: 81\n# Comments: 30",
-          "link": "https://tracksuccession.com/explore",
-          "publishedOn": "2026-04-15T12:51:04.000Z",
-          "wordCount": 645,
-          "title": "Show HN: Every CEO and CFO change at US public companies, live from SEC",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47778274",
-          "author": "bjornroberg",
-          "description": "Article URL: https://keepandroidopen.org/cta/\nComments URL: https://news.ycombinator.com/item?id=47778274\nPoints: 116\n# Comments: 18",
-          "link": "https://keepandroidopen.org/cta/",
-          "publishedOn": "2026-04-15T12:47:36.000Z",
-          "wordCount": 3861,
-          "title": "Keep Android Open",
-          "imageUrl": "https://keepandroidopen.org/img/lockdowns/android_lockdown_banner1.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47778086",
-          "author": "upmostly",
-          "description": "Article URL: https://www.dbpro.app/blog/do-you-even-need-a-database\nComments URL: https://news.ycombinator.com/item?id=47778086\nPoints: 65\n# Comments: 108",
-          "link": "https://www.dbpro.app/blog/do-you-even-need-a-database",
-          "publishedOn": "2026-04-15T12:26:11.000Z",
-          "wordCount": 7300,
-          "title": "Do you even need a database?",
-          "imageUrl": "https://www.dbpro.app/blog/do-you-even-need-a-database/opengraph-image"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47777897",
-          "author": "ltratt",
-          "description": "Article URL: https://tratt.net/laurie/blog/2026/retrofitting_jit_compilers_into_c_interpreters.html\nComments URL: https://news.ycombinator.com/item?id=47777897\nPoints: 51\n# Comments: 10",
-          "link": "https://tratt.net/laurie/blog/2026/retrofitting_jit_compilers_into_c_interpreters.html",
-          "publishedOn": "2026-04-15T12:00:24.000Z",
-          "wordCount": 9837,
-          "title": "Retrofitting JIT Compilers into C Interpreters",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47777894",
-          "author": "Aaronmacaron",
-          "description": "Article URL: https://www.google.com/intl/en/ipv6/statistics.html?yzh=28197\nComments URL: https://news.ycombinator.com/item?id=47777894\nPoints: 130\n# Comments: 74",
-          "link": "https://www.google.com/intl/en/ipv6/statistics.html?yzh=28197",
-          "publishedOn": "2026-04-15T11:59:49.000Z",
-          "wordCount": 189,
-          "title": "IPv6 traffic crosses the 50% mark",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47777715",
-          "author": "NordStreamYacht",
-          "description": "Article URL: https://nanopass.org/\nComments URL: https://news.ycombinator.com/item?id=47777715\nPoints: 60\n# Comments: 6",
-          "link": "https://nanopass.org/",
-          "publishedOn": "2026-04-15T11:38:22.000Z",
-          "wordCount": 58,
-          "title": "Nanopass Framework: Clean Compiler Creation Language",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47777633",
-          "author": "FailMore",
-          "description": "Hi HN, I’d like to introduce you to SmallDocs (https://sdocs.dev). SDocs is a CLI + webapp to instantly and 100% privately elegantly preview and share markdown files. (Code: https://github.com/espressoplease/SDocs)\nThe more we work with command line based agents the more `.md` files are part of our daily lives. Their output is great for agents to produce, but a little bit frustrating for humans: Markdown files are slightly annoying to read/preview and fiddly to share/receive. SDocs was built to resolve these pain points.\nIf you `sdoc path/to/file.md` (after `npm i -g sdocs-dev`) it instantly opens in the browser for you to preview (with our hopefully-nice-to-look-at default styling) and you can immediately share the url.\nThe `.md` files our agents produce contain some of the most sensitive…",
-          "link": "https://news.ycombinator.com/item?id=47777633",
-          "publishedOn": "2026-04-15T11:29:12.000Z",
-          "wordCount": 2198,
-          "title": "Show HN: SmallDocs – Markdown without the frustrations",
           "imageUrl": null
         }
       ]

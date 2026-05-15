@@ -2,10 +2,62 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-05-14T23:02:03.082Z</updated>
+    <updated>2026-05-15T04:00:44.264Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Mullvad exit IPs are surprisingly identifying]]></title>
+        <id>https://news.ycombinator.com/item?id=48143880</id>
+        <link href="https://tmctmt.com/posts/mullvad-exit-ips-as-a-fingerprinting-vector/"/>
+        <updated>2026-05-15T02:35:35.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://tmctmt.com/posts/mullvad-exit-ips-as-a-fingerprinting-vector/
+Comments URL: https://news.ycombinator.com/item?id=48143880
+Points: 96
+# Comments: 23]]></summary>
+        <author>
+            <name>RGBCube</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[More than sixty percent of the United States is experiencing drought conditions]]></title>
+        <id>https://news.ycombinator.com/item?id=48142193</id>
+        <link href="https://news.vt.edu/articles/2026/05/drought-united-states-la-nina-expert.html"/>
+        <updated>2026-05-14T22:38:18.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://news.vt.edu/articles/2026/05/drought-united-states-la-nina-expert.html
+Comments URL: https://news.ycombinator.com/item?id=48142193
+Points: 128
+# Comments: 56]]></summary>
+        <author>
+            <name>littlexsparkee</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Ontario auditors find doctors' AI note takers routinely blow basic facts]]></title>
+        <id>https://news.ycombinator.com/item?id=48142188</id>
+        <link href="https://www.theregister.com/ai-ml/2026/05/14/ontario-auditors-find-doctors-ai-note-takers-routinely-blow-basic-facts/5240771"/>
+        <updated>2026-05-14T22:37:40.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.theregister.com/ai-ml/2026/05/14/ontario-auditors-find-doctors-ai-note-takers-routinely-blow-basic-facts/5240771
+Comments URL: https://news.ycombinator.com/item?id=48142188
+Points: 152
+# Comments: 69]]></summary>
+        <author>
+            <name>sohkamyung</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A few words on DS4]]></title>
+        <id>https://news.ycombinator.com/item?id=48142108</id>
+        <link href="https://antirez.com/news/165"/>
+        <updated>2026-05-14T22:29:12.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://antirez.com/news/165
+Comments URL: https://news.ycombinator.com/item?id=48142108
+Points: 201
+# Comments: 63]]></summary>
+        <author>
+            <name>caust1c</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Claude for Legal]]></title>
         <id>https://news.ycombinator.com/item?id=48141234</id>
@@ -17,6 +69,19 @@ Points: 51
 # Comments: 42]]></summary>
         <author>
             <name>Einenlum</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Tesla Wall Connector bootloader bypasses the firmware downgrade ratchet]]></title>
+        <id>https://news.ycombinator.com/item?id=48140953</id>
+        <link href="https://www.synacktiv.com/en/publications/exploiting-the-tesla-wall-connector-from-its-charge-port-connector-part-2-bypassing"/>
+        <updated>2026-05-14T20:41:48.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.synacktiv.com/en/publications/exploiting-the-tesla-wall-connector-from-its-charge-port-connector-part-2-bypassing
+Comments URL: https://news.ycombinator.com/item?id=48140953
+Points: 73
+# Comments: 28]]></summary>
+        <author>
+            <name>p_stuart82</name>
         </author>
     </entry>
     <entry>
@@ -43,6 +108,19 @@ Points: 81
 # Comments: 20]]></summary>
         <author>
             <name>xena</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[RISC-V Router]]></title>
+        <id>https://news.ycombinator.com/item?id=48140541</id>
+        <link href="https://router.start9.com/"/>
+        <updated>2026-05-14T20:06:53.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://router.start9.com/
+Comments URL: https://news.ycombinator.com/item?id=48140541
+Points: 89
+# Comments: 51]]></summary>
+        <author>
+            <name>janandonly</name>
         </author>
     </entry>
     <entry>
@@ -17443,318 +17521,6 @@ Points: 59
 # Comments: 47]]></summary>
         <author>
             <name>amichail</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: Libretto – Making AI browser automations deterministic]]></title>
-        <id>https://news.ycombinator.com/item?id=47780971</id>
-        <link href="https://github.com/saffron-health/libretto"/>
-        <updated>2026-04-15T15:57:54.000Z</updated>
-        <summary type="html"><![CDATA[Libretto (https://libretto.sh) is a Skill+CLI that makes it easy for your coding agent to generate deterministic browser automations and debug existing ones. Key shift is going from “give an agent a prompt at runtime and hope it figures things out” to: “Use coding agents to generate real scripts you can inspect, run, and debug”.
-Here’s a demo: https://www.youtube.com/watch?v=0cDpIntmHAM. Docs start at https://libretto.sh/docs/get-started/introduction.
-We spent a year building and maintaining browser automations for EHR and payer portal integrations at our healthcare startup. Building these automations and debugging failed ones was incredibly time-consuming.
-There’s lots of tools that use runtime AI like Browseruse and Stagehand which we tried, but (1) they’re reliant on custom DOM parsing …]]></summary>
-        <author>
-            <name>muchael</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Mechanical Keyboard Sounds – A listening Museum]]></title>
-        <id>https://news.ycombinator.com/item?id=47780743</id>
-        <link href="https://sheets.works/data-viz/keyboard-sounds"/>
-        <updated>2026-04-15T15:45:45.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://sheets.works/data-viz/keyboard-sounds
-Comments URL: https://news.ycombinator.com/item?id=47780743
-Points: 118
-# Comments: 36]]></summary>
-        <author>
-            <name>akashwadhwani35</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Open Source Isn't Dead. Cal.com Just Learned the Wrong Lesson]]></title>
-        <id>https://news.ycombinator.com/item?id=47780712</id>
-        <link href="https://www.strix.ai/blog/cal-com-is-closing-its-code-due-to-ai-threats"/>
-        <updated>2026-04-15T15:43:37.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.strix.ai/blog/cal-com-is-closing-its-code-due-to-ai-threats
-Comments URL: https://news.ycombinator.com/item?id=47780712
-Points: 100
-# Comments: 49]]></summary>
-        <author>
-            <name>bearsyankees</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Cal.com is going closed source]]></title>
-        <id>https://news.ycombinator.com/item?id=47780456</id>
-        <link href="https://cal.com/blog/cal-com-goes-closed-source-why"/>
-        <updated>2026-04-15T15:26:46.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://cal.com/blog/cal-com-goes-closed-source-why
-Comments URL: https://news.ycombinator.com/item?id=47780456
-Points: 66
-# Comments: 88]]></summary>
-        <author>
-            <name>Benjamin_Dobell</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Daily Claude outage is upon us. Waiting for Claude Status to update]]></title>
-        <id>https://news.ycombinator.com/item?id=47779730</id>
-        <link href="https://claudestatus.com/"/>
-        <updated>2026-04-15T14:44:00.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://claudestatus.com/
-Comments URL: https://news.ycombinator.com/item?id=47779730
-Points: 109
-# Comments: 91]]></summary>
-        <author>
-            <name>redm</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Modern Common Lisp with FSet]]></title>
-        <id>https://news.ycombinator.com/item?id=47779659</id>
-        <link href="https://fset.common-lisp.dev/Modern-CL/Top_html/index.html"/>
-        <updated>2026-04-15T14:38:38.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://fset.common-lisp.dev/Modern-CL/Top_html/index.html
-Comments URL: https://news.ycombinator.com/item?id=47779659
-Points: 53
-# Comments: 4]]></summary>
-        <author>
-            <name>larve</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[It's cool to care (2025)]]></title>
-        <id>https://news.ycombinator.com/item?id=47779372</id>
-        <link href="https://alexwlchan.net/2025/cool-to-care/"/>
-        <updated>2026-04-15T14:20:42.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://alexwlchan.net/2025/cool-to-care/
-Comments URL: https://news.ycombinator.com/item?id=47779372
-Points: 63
-# Comments: 29]]></summary>
-        <author>
-            <name>surprisetalk</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Gemini Robotics-ER 1.6]]></title>
-        <id>https://news.ycombinator.com/item?id=47779094</id>
-        <link href="https://deepmind.google/blog/gemini-robotics-er-1-6/"/>
-        <updated>2026-04-15T14:02:31.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://deepmind.google/blog/gemini-robotics-er-1-6/
-Comments URL: https://news.ycombinator.com/item?id=47779094
-Points: 115
-# Comments: 27]]></summary>
-        <author>
-            <name>markerbrod</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[I built a 3D printing business and ran it for 8 months]]></title>
-        <id>https://news.ycombinator.com/item?id=47779049</id>
-        <link href="https://www.wespiser.com/posts/2026-04-12-3D-Printing-Biz.html"/>
-        <updated>2026-04-15T13:59:07.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.wespiser.com/posts/2026-04-12-3D-Printing-Biz.html
-Comments URL: https://news.ycombinator.com/item?id=47779049
-Points: 58
-# Comments: 55]]></summary>
-        <author>
-            <name>wespiser_2018</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Towards trust in Emacs]]></title>
-        <id>https://news.ycombinator.com/item?id=47778938</id>
-        <link href="https://eshelyaron.com/posts/2026-04-15-towards-trust-in-emacs.html"/>
-        <updated>2026-04-15T13:49:15.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://eshelyaron.com/posts/2026-04-15-towards-trust-in-emacs.html
-Comments URL: https://news.ycombinator.com/item?id=47778938
-Points: 64
-# Comments: 4]]></summary>
-        <author>
-            <name>eshelyaron</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Are the costs of AI agents also rising exponentially? (2025)]]></title>
-        <id>https://news.ycombinator.com/item?id=47778922</id>
-        <link href="https://www.tobyord.com/writing/hourly-costs-for-ai-agents"/>
-        <updated>2026-04-15T13:47:58.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.tobyord.com/writing/hourly-costs-for-ai-agents
-Comments URL: https://news.ycombinator.com/item?id=47778922
-Points: 50
-# Comments: 3]]></summary>
-        <author>
-            <name>louiereederson</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[US v. Heppner (S.D.N.Y. 2026) no attorney-client privilege for AI chats [pdf]]]></title>
-        <id>https://news.ycombinator.com/item?id=47778920</id>
-        <link href="https://fingfx.thomsonreuters.com/gfx/legaldocs/xmvjyjekkpr/Rakoff%20-%20order%20-%20AI.pdf"/>
-        <updated>2026-04-15T13:47:40.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://fingfx.thomsonreuters.com/gfx/legaldocs/xmvjyjekkpr/Rakoff%20-%20order%20-%20AI.pdf
-Comments URL: https://news.ycombinator.com/item?id=47778920
-Points: 70
-# Comments: 50]]></summary>
-        <author>
-            <name>1vuio0pswjnm7</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Future of Everything Is Lies, I Guess: New Jobs]]></title>
-        <id>https://news.ycombinator.com/item?id=47778758</id>
-        <link href="https://aphyr.com/posts/419-the-future-of-everything-is-lies-i-guess-new-jobs"/>
-        <updated>2026-04-15T13:34:11.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://aphyr.com/posts/419-the-future-of-everything-is-lies-i-guess-new-jobs
-Comments URL: https://news.ycombinator.com/item?id=47778758
-Points: 83
-# Comments: 41]]></summary>
-        <author>
-            <name>aphyr</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Designing the Transport Typeface]]></title>
-        <id>https://news.ycombinator.com/item?id=47778524</id>
-        <link href="https://www.thamesandhudson.com/blogs/all-news-features/designing-the-transport-typeface-margaret-calvert-on-the-making-of-britain-s-road-signs"/>
-        <updated>2026-04-15T13:13:20.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.thamesandhudson.com/blogs/all-news-features/designing-the-transport-typeface-margaret-calvert-on-the-making-of-britain-s-road-signs
-Comments URL: https://news.ycombinator.com/item?id=47778524
-Points: 53
-# Comments: 7]]></summary>
-        <author>
-            <name>speckx</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[God Sleeps in the Minerals]]></title>
-        <id>https://news.ycombinator.com/item?id=47778475</id>
-        <link href="https://wchambliss.wordpress.com/2026/03/03/god-sleeps-in-the-minerals/"/>
-        <updated>2026-04-15T13:08:10.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://wchambliss.wordpress.com/2026/03/03/god-sleeps-in-the-minerals/
-Comments URL: https://news.ycombinator.com/item?id=47778475
-Points: 123
-# Comments: 36]]></summary>
-        <author>
-            <name>speckx</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[US national level OS-level age verification bill]]></title>
-        <id>https://news.ycombinator.com/item?id=47778366</id>
-        <link href="https://social.coop/@cwebber/116408556882122186"/>
-        <updated>2026-04-15T12:58:11.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://social.coop/@cwebber/116408556882122186
-Comments URL: https://news.ycombinator.com/item?id=47778366
-Points: 83
-# Comments: 60]]></summary>
-        <author>
-            <name>marvinborner</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AI ruling prompts warnings from US lawyers: Your chats could be used against you]]></title>
-        <id>https://news.ycombinator.com/item?id=47778308</id>
-        <link href="https://www.reuters.com/legal/government/ai-ruling-prompts-warnings-us-lawyers-your-chats-could-be-used-against-you-2026-04-15/"/>
-        <updated>2026-04-15T12:51:13.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.reuters.com/legal/government/ai-ruling-prompts-warnings-us-lawyers-your-chats-could-be-used-against-you-2026-04-15/
-Comments URL: https://news.ycombinator.com/item?id=47778308
-Points: 87
-# Comments: 47]]></summary>
-        <author>
-            <name>alephnerd</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: Every CEO and CFO change at US public companies, live from SEC]]></title>
-        <id>https://news.ycombinator.com/item?id=47778306</id>
-        <link href="https://tracksuccession.com/explore"/>
-        <updated>2026-04-15T12:51:04.000Z</updated>
-        <summary type="html"><![CDATA[Built this solo. It watches SEC filings for executive and board changes, extracts the data, and shows it in real time. 2,100+ changes in the last 30 days. The comp data is interesting: average new CEO total comp is $8.4M across 284 appointments. The /explore page is fully open, no login needed.
-Comments URL: https://news.ycombinator.com/item?id=47778306
-Points: 81
-# Comments: 30]]></summary>
-        <author>
-            <name>porsche959</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Keep Android Open]]></title>
-        <id>https://news.ycombinator.com/item?id=47778274</id>
-        <link href="https://keepandroidopen.org/cta/"/>
-        <updated>2026-04-15T12:47:36.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://keepandroidopen.org/cta/
-Comments URL: https://news.ycombinator.com/item?id=47778274
-Points: 116
-# Comments: 18]]></summary>
-        <author>
-            <name>bjornroberg</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Do you even need a database?]]></title>
-        <id>https://news.ycombinator.com/item?id=47778086</id>
-        <link href="https://www.dbpro.app/blog/do-you-even-need-a-database"/>
-        <updated>2026-04-15T12:26:11.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.dbpro.app/blog/do-you-even-need-a-database
-Comments URL: https://news.ycombinator.com/item?id=47778086
-Points: 65
-# Comments: 108]]></summary>
-        <author>
-            <name>upmostly</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Retrofitting JIT Compilers into C Interpreters]]></title>
-        <id>https://news.ycombinator.com/item?id=47777897</id>
-        <link href="https://tratt.net/laurie/blog/2026/retrofitting_jit_compilers_into_c_interpreters.html"/>
-        <updated>2026-04-15T12:00:24.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://tratt.net/laurie/blog/2026/retrofitting_jit_compilers_into_c_interpreters.html
-Comments URL: https://news.ycombinator.com/item?id=47777897
-Points: 51
-# Comments: 10]]></summary>
-        <author>
-            <name>ltratt</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[IPv6 traffic crosses the 50% mark]]></title>
-        <id>https://news.ycombinator.com/item?id=47777894</id>
-        <link href="https://www.google.com/intl/en/ipv6/statistics.html?yzh=28197"/>
-        <updated>2026-04-15T11:59:49.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.google.com/intl/en/ipv6/statistics.html?yzh=28197
-Comments URL: https://news.ycombinator.com/item?id=47777894
-Points: 130
-# Comments: 74]]></summary>
-        <author>
-            <name>Aaronmacaron</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Nanopass Framework: Clean Compiler Creation Language]]></title>
-        <id>https://news.ycombinator.com/item?id=47777715</id>
-        <link href="https://nanopass.org/"/>
-        <updated>2026-04-15T11:38:22.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://nanopass.org/
-Comments URL: https://news.ycombinator.com/item?id=47777715
-Points: 60
-# Comments: 6]]></summary>
-        <author>
-            <name>NordStreamYacht</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: SmallDocs – Markdown without the frustrations]]></title>
-        <id>https://news.ycombinator.com/item?id=47777633</id>
-        <link href="https://news.ycombinator.com/item?id=47777633"/>
-        <updated>2026-04-15T11:29:12.000Z</updated>
-        <summary type="html"><![CDATA[Hi HN, I’d like to introduce you to SmallDocs (https://sdocs.dev). SDocs is a CLI + webapp to instantly and 100% privately elegantly preview and share markdown files. (Code: https://github.com/espressoplease/SDocs)
-The more we work with command line based agents the more `.md` files are part of our daily lives. Their output is great for agents to produce, but a little bit frustrating for humans: Markdown files are slightly annoying to read/preview and fiddly to share/receive. SDocs was built to resolve these pain points.
-If you `sdoc path/to/file.md` (after `npm i -g sdocs-dev`) it instantly opens in the browser for you to preview (with our hopefully-nice-to-look-at default styling) and you can immediately share the url.
-The `.md` files our agents produce contain some of the most sensitive…]]></summary>
-        <author>
-            <name>FailMore</name>
         </author>
     </entry>
 </feed>
