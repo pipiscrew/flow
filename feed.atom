@@ -2,10 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-05-17T21:00:40.914Z</updated>
+    <updated>2026-05-17T22:57:26.309Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[VoIP brings back old-fashioned pay phones to rural Vermont (2025)]]></title>
+        <id>https://news.ycombinator.com/item?id=48172505</id>
+        <link href="https://spectrum.ieee.org/payphone-voip"/>
+        <updated>2026-05-17T19:39:10.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://spectrum.ieee.org/payphone-voip
+Comments URL: https://news.ycombinator.com/item?id=48172505
+Points: 88
+# Comments: 16]]></summary>
+        <author>
+            <name>bookofjoe</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[EU weighs restricting use of US cloud platforms to process sensitive gov data]]></title>
         <id>https://news.ycombinator.com/item?id=48171015</id>
@@ -56,6 +69,33 @@ Points: 337
 # Comments: 246]]></summary>
         <author>
             <name>rolph</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Semble – Code search for agents that uses 98% fewer tokens than grep]]></title>
+        <id>https://news.ycombinator.com/item?id=48169874</id>
+        <link href="https://github.com/MinishLab/semble"/>
+        <updated>2026-05-17T15:37:07.000Z</updated>
+        <summary type="html"><![CDATA[Hey HN! We (Stephan and Thomas) recently open-sourced Semble. We kept running into the same problem while using Claude Code on large codebases: when the agent can't find something directly, it falls back to grep, reading full files or launching subagents. This uses a lot of tokens, and often still misses the relevant code. There are existing tools for this, but they were either too slow to index on demand, needed API keys, or had poor retrieval quality.
+Semble is our solution for this. It combines static Model2Vec embeddings (using our latest static model: potion-code-16M) with BM25, fused via RRF and reranked with code-aware signals. Everything runs on CPU since there's no transformers involved. On our benchmark of ~1250 query/document pairs across 63 repos and 19 languages, it uses 98% fewer tokens than grep+read and reaches 99% of the retrieval quality of a 137M-parameter code-trained transformer, while being ~200x faster.
+Main features:
+- Token-efficient: 98% fewer tokens than grep+read
+- Fast: ~250ms to index a typical repo on our benchmark, ~1.5ms per query on CPU (very large repos may take longer)
+- Accurate: 0.854 NDCG@10, 99% of the best transformer setup we tested
+- MCP server: drop-in for Claude Code, Cursor, Codex, OpenCode
+- Zero config: no API keys, no GPU, no external services
+Install in Claude Code with:
+claude mcp add semble -s user -- uvx --from "semble[mcp]" semble
+Or check our README for other installation instructions, benchmarks, and methodology:
+Semble: https://github.com/MinishLab/semble
+Benchmarks: https://github.com/MinishLab/semble/tree/main/benchmarks
+Model: https://huggingface.co/minishlab/potion-code-16M
+Let us know if you have any feedback or questions!
+Comments URL: https://news.ycombinator.com/item?id=48169874
+Points: 89
+# Comments: 32]]></summary>
+        <author>
+            <name>Bibabomas</name>
         </author>
     </entry>
     <entry>
@@ -147,6 +187,19 @@ Points: 73
 # Comments: 41]]></summary>
         <author>
             <name>datadrivenangel</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Trials on veterans suggest ibogaine could provide a new treatment for PTSD]]></title>
+        <id>https://news.ycombinator.com/item?id=48168159</id>
+        <link href="https://www.bbc.com/future/article/20260514-how-hallucinogenic-ibogaine-helps-veterans-overcome-ptsd"/>
+        <updated>2026-05-17T12:03:04.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.bbc.com/future/article/20260514-how-hallucinogenic-ibogaine-helps-veterans-overcome-ptsd
+Comments URL: https://news.ycombinator.com/item?id=48168159
+Points: 69
+# Comments: 73]]></summary>
+        <author>
+            <name>bushwart</name>
         </author>
     </entry>
     <entry>
@@ -17509,19 +17562,6 @@ Points: 127
 # Comments: 46]]></summary>
         <author>
             <name>f_r_d</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Stephen's Sausage Roll remains one of the most influential puzzle games]]></title>
-        <id>https://news.ycombinator.com/item?id=47814874</id>
-        <link href="https://thinkygames.com/features/10-years-of-grilling-stephens-sausage-roll-remains-one-of-the-most-influential-puzzle-games-ever-created/"/>
-        <updated>2026-04-18T10:53:42.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://thinkygames.com/features/10-years-of-grilling-stephens-sausage-roll-remains-one-of-the-most-influential-puzzle-games-ever-created/
-Comments URL: https://news.ycombinator.com/item?id=47814874
-Points: 145
-# Comments: 72]]></summary>
-        <author>
-            <name>tobr</name>
         </author>
     </entry>
 </feed>
