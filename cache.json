@@ -6,6 +6,56 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=48196764",
+          "author": "evo_9",
+          "description": "Article URL: https://techcrunch.com/2026/05/19/google-search-as-you-know-it-is-over/\nComments URL: https://news.ycombinator.com/item?id=48196764\nPoints: 70\n# Comments: 56",
+          "link": "https://techcrunch.com/2026/05/19/google-search-as-you-know-it-is-over/",
+          "publishedOn": "2026-05-19T17:56:35.000Z",
+          "wordCount": 3943,
+          "title": "Google Search as you know it is over",
+          "imageUrl": "https://techcrunch.com/wp-content/uploads/2025/02/GettyImages-2196352264.jpg?w=1024"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48196656",
+          "author": "meetpateltech",
+          "description": "Article URL: https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5/\nComments URL: https://news.ycombinator.com/item?id=48196656\nPoints: 145\n# Comments: 76",
+          "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5/",
+          "publishedOn": "2026-05-19T17:49:50.000Z",
+          "wordCount": 6065,
+          "title": "Gemini 3.5 Flash: frontier intelligence with action",
+          "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-5__keywordstatement__metacard__light.width-1300.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48196020",
+          "author": "thanhhaimai",
+          "description": "Article URL: https://io.google/2026/\nComments URL: https://news.ycombinator.com/item?id=48196020\nPoints: 149\n# Comments: 188",
+          "link": "https://io.google/2026/",
+          "publishedOn": "2026-05-19T17:01:25.000Z",
+          "wordCount": 414,
+          "title": "Google I/O",
+          "imageUrl": "https://io.google/2026/assets/images/io26-og-image.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48195009",
+          "author": "andreww591",
+          "description": "Article URL: https://virtualosmuseum.org/\nComments URL: https://news.ycombinator.com/item?id=48195009\nPoints: 321\n# Comments: 64",
+          "link": "https://virtualosmuseum.org/",
+          "publishedOn": "2026-05-19T15:53:38.000Z",
+          "wordCount": 1700,
+          "title": "I’ve built a virtual museum with nearly every operating system you can think of",
+          "imageUrl": "https://virtualosmuseum.org/images/front_page/0.%20Launcher%20main%20window.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48194614",
+          "author": "akhuettel",
+          "description": "Article URL: https://www.gentoo.org/news/2026/05/19/copy-fail-fragnesia-vulnerabilities.html\nComments URL: https://news.ycombinator.com/item?id=48194614\nPoints: 62\n# Comments: 17",
+          "link": "https://www.gentoo.org/news/2026/05/19/copy-fail-fragnesia-vulnerabilities.html",
+          "publishedOn": "2026-05-19T15:27:53.000Z",
+          "wordCount": 382,
+          "title": "Gentoo News: Copy Fail, Dirty Frag, and Fragnesia Kernel Vulnerabilities",
+          "imageUrl": "https://www.gentoo.org/assets/img/og-image.jpg"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=48194352",
           "author": "dmarcos",
           "description": "Article URL: https://twitter.com/karpathy/status/2056753169888334312\nComments URL: https://news.ycombinator.com/item?id=48194352\nPoints: 394\n# Comments: 144",
@@ -14,6 +64,16 @@
           "wordCount": 1016,
           "title": "I’ve joined Anthropic",
           "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48193474",
+          "author": "augustvdv",
+          "description": "Article URL: https://setpose.com/\nComments URL: https://news.ycombinator.com/item?id=48193474\nPoints: 54\n# Comments: 27",
+          "link": "https://setpose.com/",
+          "publishedOn": "2026-05-19T14:04:19.000Z",
+          "wordCount": 1661,
+          "title": "Show HN: I made a 3D pose maker for artists",
+          "imageUrl": "https://cdn.setpose.com/imgs/mannequin.png"
         },
         {
           "id": "https://news.ycombinator.com/item?id=48192882",
@@ -686,6 +746,16 @@
           "imageUrl": null
         },
         {
+          "id": "https://news.ycombinator.com/item?id=48170007",
+          "author": "zdw",
+          "description": "Article URL: https://emptysqua.re/blog/intro-to-tla-plus-for-the-llm-era/\nComments URL: https://news.ycombinator.com/item?id=48170007\nPoints: 69\n# Comments: 17",
+          "link": "https://emptysqua.re/blog/intro-to-tla-plus-for-the-llm-era/",
+          "publishedOn": "2026-05-17T15:52:21.000Z",
+          "wordCount": 6339,
+          "title": "Intro to TLA+ for the LLM Era: Prompt Your Way to Victory",
+          "imageUrl": null
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=48169874",
           "author": "Bibabomas",
           "description": "Hey HN! We (Stephan and Thomas) recently open-sourced Semble. We kept running into the same problem while using Claude Code on large codebases: when the agent can't find something directly, it falls back to grep, reading full files or launching subagents. This uses a lot of tokens, and often still misses the relevant code. There are existing tools for this, but they were either too slow to index on demand, needed API keys, or had poor retrieval quality.\nSemble is our solution for this. It combines static Model2Vec embeddings (using our latest static model: potion-code-16M) with BM25, fused via RRF and reranked with code-aware signals. Everything runs on CPU since there's no transformers involved. On our benchmark of ~1250 query/document pairs across 63 repos and 19 languages, it uses 98% fewer tokens than grep+read and reaches 99% of the retrieval quality of a 137M-parameter code-trained transformer, while being ~200x faster.\nMain features:\n- Token-efficient: 98% fewer tokens than grep+read\n- Fast: ~250ms to index a typical repo on our benchmark, ~1.5ms per query on CPU (very large repos may take longer)\n- Accurate: 0.854 NDCG@10, 99% of the best transformer setup we tested\n- MCP server: drop-in for Claude Code, Cursor, Codex, OpenCode\n- Zero config: no API keys, no GPU, no external services\nInstall in Claude Code with:\nclaude mcp add semble -s user -- uvx --from \"semble[mcp]\" semble\nOr check our README for other installation instructions, benchmarks, and methodology:\nSemble: https://github.com/MinishLab/semble\nBenchmarks: https://github.com/MinishLab/semble/tree/main/benchmarks\nModel: https://huggingface.co/minishlab/potion-code-16M\nLet us know if you have any feedback or questions!\nComments URL: https://news.ycombinator.com/item?id=48169874\nPoints: 89\n# Comments: 32",
@@ -744,6 +814,16 @@
           "wordCount": 1225,
           "title": "AI is a technology not a product",
           "imageUrl": "https://daringfireball.net/graphics/df-wide-card.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48168610",
+          "author": "TheWiggles",
+          "description": "Article URL: https://github.com/status-im/nim-presto\nComments URL: https://news.ycombinator.com/item?id=48168610\nPoints: 54\n# Comments: 10",
+          "link": "https://github.com/status-im/nim-presto",
+          "publishedOn": "2026-05-17T13:09:20.000Z",
+          "wordCount": 1333,
+          "title": "Nim-Presto – REST API Framework for Nim Language (2024)",
+          "imageUrl": "https://opengraph.githubassets.com/e1fccb49d092a950cb75be1fb550e63eaf832ae42e0e3df4a348850689d5dc7e/status-im/nim-presto"
         },
         {
           "id": "https://news.ycombinator.com/item?id=48168485",
@@ -13434,16 +13514,6 @@
           "wordCount": 3950,
           "title": "IEA: Solar overtakes all energy sources in a major global first",
           "imageUrl": "https://i0.wp.com/electrek.co/wp-content/uploads/sites/3/2026/04/Springwell-Solar-Farm.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47830575",
-          "author": "tibbar",
-          "description": "Article URL: https://stripe.dev/blog/payment-api-design\nComments URL: https://news.ycombinator.com/item?id=47830575\nPoints: 56\n# Comments: 30",
-          "link": "https://stripe.dev/blog/payment-api-design",
-          "publishedOn": "2026-04-20T05:05:43.000Z",
-          "wordCount": 5697,
-          "title": "Stripe's Payment APIs: the first 10 years (2020)",
-          "imageUrl": "https://stripe.dev/dev_social.jpeg"
         }
       ]
     }
