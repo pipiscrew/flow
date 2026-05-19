@@ -2,10 +2,49 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-05-19T08:31:43.424Z</updated>
+    <updated>2026-05-19T12:14:51.331Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Gaussian Splat of a Strawberry]]></title>
+        <id>https://news.ycombinator.com/item?id=48191602</id>
+        <link href="https://superspl.at/scene/84df8849"/>
+        <updated>2026-05-19T10:38:47.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://superspl.at/scene/84df8849
+Comments URL: https://news.ycombinator.com/item?id=48191602
+Points: 103
+# Comments: 44]]></summary>
+        <author>
+            <name>danybittel</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Mini Shai-Hulud Strikes Again: 314 npm Packages Compromised]]></title>
+        <id>https://news.ycombinator.com/item?id=48189368</id>
+        <link href="https://safedep.io/mini-shai-hulud-strikes-again-314-npm-packages-compromised/"/>
+        <updated>2026-05-19T05:04:49.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://safedep.io/mini-shai-hulud-strikes-again-314-npm-packages-compromised/
+Comments URL: https://news.ycombinator.com/item?id=48189368
+Points: 130
+# Comments: 71]]></summary>
+        <author>
+            <name>theanonymousone</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[PyTorch Landscape]]></title>
+        <id>https://news.ycombinator.com/item?id=48189178</id>
+        <link href="https://pytorch.landscape2.io/"/>
+        <updated>2026-05-19T04:29:39.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://pytorch.landscape2.io
+Comments URL: https://news.ycombinator.com/item?id=48189178
+Points: 50
+# Comments: 14]]></summary>
+        <author>
+            <name>salamo</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Codex-maxxing]]></title>
         <id>https://news.ycombinator.com/item?id=48189156</id>
@@ -971,6 +1010,19 @@ Points: 76
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Polypad]]></title>
+        <id>https://news.ycombinator.com/item?id=48166744</id>
+        <link href="https://polypad.amplify.com/"/>
+        <updated>2026-05-17T07:20:14.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://polypad.amplify.com/
+Comments URL: https://news.ycombinator.com/item?id=48166744
+Points: 99
+# Comments: 8]]></summary>
+        <author>
+            <name>ivank</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Mozilla to UK regulators: VPNs are essential privacy and security tools]]></title>
         <id>https://news.ycombinator.com/item?id=48166459</id>
         <link href="https://blog.mozilla.org/netpolicy/2026/05/15/mozilla-to-uk-regulators-vpns-are-essential-privacy-and-security-tools-and-should-not-be-undermined/"/>
@@ -1007,6 +1059,19 @@ Points: 93
 # Comments: 55]]></summary>
         <author>
             <name>jrdres</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[I Found Ultra-Pure Quantum Crystals in an Abandoned Mine in the Atacama Desert]]></title>
+        <id>https://news.ycombinator.com/item?id=48165797</id>
+        <link href="https://medium.com/@breid.at/ultra-pure-quantum-crystals-from-an-abandoned-mine-in-a-mysterious-desert-93cc87d12314"/>
+        <updated>2026-05-17T03:25:23.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://medium.com/@breid.at/ultra-pure-quantum-crystals-from-an-abandoned-mine-in-a-mysterious-desert-93cc87d12314
+Comments URL: https://news.ycombinator.com/item?id=48165797
+Points: 103
+# Comments: 25]]></summary>
+        <author>
+            <name>vi_sextus_vi</name>
         </author>
     </entry>
     <entry>
@@ -17613,48 +17678,6 @@ Points: 97
 # Comments: 37]]></summary>
         <author>
             <name>twapi</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: Run TRELLIS.2 Image-to-3D generation natively on Apple Silicon]]></title>
-        <id>https://news.ycombinator.com/item?id=47828896</id>
-        <link href="https://github.com/shivampkumar/trellis-mac"/>
-        <updated>2026-04-20T00:07:16.000Z</updated>
-        <summary type="html"><![CDATA[I ported Microsoft's TRELLIS.2 (4B parameter image-to-3D model) to run on Apple Silicon via PyTorch MPS. The original requires CUDA with flash_attn, nvdiffrast, and custom sparse convolution kernels:  none of which work on Mac.
-I replaced the CUDA-specific ops with pure-PyTorch alternatives: a gather-scatter sparse 3D convolution, SDPA attention for sparse transformers, and a Python-based mesh extraction replacing CUDA hashmap operations. Total changes are a few hundred lines across 9 files.
-Generates ~400K vertex meshes from single photos in about 3.5 minutes on M4 Pro (24GB). Not as fast as H100 (where it takes seconds), but it works offline with no cloud dependency.
-https://github.com/shivampkumar/trellis-mac
-Comments URL: https://news.ycombinator.com/item?id=47828896
-Points: 157
-# Comments: 26]]></summary>
-        <author>
-            <name>shivampkumar</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Swiss AI Initiative (2023)]]></title>
-        <id>https://news.ycombinator.com/item?id=47828444</id>
-        <link href="https://www.swiss-ai.org/"/>
-        <updated>2026-04-19T22:58:35.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.swiss-ai.org
-Comments URL: https://news.ycombinator.com/item?id=47828444
-Points: 66
-# Comments: 25]]></summary>
-        <author>
-            <name>doener</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[2,100 Swiss municipalities showing which provider handles their official email]]></title>
-        <id>https://news.ycombinator.com/item?id=47828420</id>
-        <link href="https://mxmap.ch/"/>
-        <updated>2026-04-19T22:55:47.000Z</updated>
-        <summary type="html"><![CDATA[Related ongoing thread: Swiss authorities want to reduce dependency on Microsoft - https://news.ycombinator.com/item?id=47827383
-Comments URL: https://news.ycombinator.com/item?id=47828420
-Points: 179
-# Comments: 51]]></summary>
-        <author>
-            <name>doener</name>
         </author>
     </entry>
 </feed>

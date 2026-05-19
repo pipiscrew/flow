@@ -6,6 +6,36 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=48191602",
+          "author": "danybittel",
+          "description": "Article URL: https://superspl.at/scene/84df8849\nComments URL: https://news.ycombinator.com/item?id=48191602\nPoints: 103\n# Comments: 44",
+          "link": "https://superspl.at/scene/84df8849",
+          "publishedOn": "2026-05-19T10:38:47.000Z",
+          "wordCount": 580,
+          "title": "Gaussian Splat of a Strawberry",
+          "imageUrl": "https://s3-eu-west-1.amazonaws.com/images.playcanvas.com/splat/84df8849/v1/xl.webp"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48189368",
+          "author": "theanonymousone",
+          "description": "Article URL: https://safedep.io/mini-shai-hulud-strikes-again-314-npm-packages-compromised/\nComments URL: https://news.ycombinator.com/item?id=48189368\nPoints: 130\n# Comments: 71",
+          "link": "https://safedep.io/mini-shai-hulud-strikes-again-314-npm-packages-compromised/",
+          "publishedOn": "2026-05-19T05:04:49.000Z",
+          "wordCount": 6076,
+          "title": "Mini Shai-Hulud Strikes Again: 314 npm Packages Compromised",
+          "imageUrl": "https://safedep.io/images/antv-npm-supply-chain-attack.png?v=20260519"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48189178",
+          "author": "salamo",
+          "description": "Article URL: https://pytorch.landscape2.io\nComments URL: https://news.ycombinator.com/item?id=48189178\nPoints: 50\n# Comments: 14",
+          "link": "https://pytorch.landscape2.io/",
+          "publishedOn": "2026-05-19T04:29:39.000Z",
+          "wordCount": 509,
+          "title": "PyTorch Landscape",
+          "imageUrl": "https://cncf.github.io/landscape2-sites/pytorch/open_graph.png"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=48189156",
           "author": "dnw",
           "description": "Article URL: https://jxnl.co/writing/2026/05/10/codex-maxxing/\nComments URL: https://news.ycombinator.com/item?id=48189156\nPoints: 67\n# Comments: 46",
@@ -736,6 +766,16 @@
           "imageUrl": "https://arnaud-carre.github.io/assets/img/ymemu/fastym_title.jpg"
         },
         {
+          "id": "https://news.ycombinator.com/item?id=48166744",
+          "author": "ivank",
+          "description": "Article URL: https://polypad.amplify.com/\nComments URL: https://news.ycombinator.com/item?id=48166744\nPoints: 99\n# Comments: 8",
+          "link": "https://polypad.amplify.com/",
+          "publishedOn": "2026-05-17T07:20:14.000Z",
+          "wordCount": 514,
+          "title": "Polypad",
+          "imageUrl": "https://polypad.amplify.com/images/og-tile.png"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=48166459",
           "author": "WithinReason",
           "description": "Article URL: https://blog.mozilla.org/netpolicy/2026/05/15/mozilla-to-uk-regulators-vpns-are-essential-privacy-and-security-tools-and-should-not-be-undermined/\nComments URL: https://news.ycombinator.com/item?id=48166459\nPoints: 172\n# Comments: 47",
@@ -764,6 +804,16 @@
           "wordCount": 8082,
           "title": "Anyone on the Internet Can Ring Your Doorbell",
           "imageUrl": "https://www.abgeo.dev/blog/anyone-can-ring-your-doorbell/images/cover.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48165797",
+          "author": "vi_sextus_vi",
+          "description": "Article URL: https://medium.com/@breid.at/ultra-pure-quantum-crystals-from-an-abandoned-mine-in-a-mysterious-desert-93cc87d12314\nComments URL: https://news.ycombinator.com/item?id=48165797\nPoints: 103\n# Comments: 25",
+          "link": "https://medium.com/@breid.at/ultra-pure-quantum-crystals-from-an-abandoned-mine-in-a-mysterious-desert-93cc87d12314",
+          "publishedOn": "2026-05-17T03:25:23.000Z",
+          "wordCount": null,
+          "title": "I Found Ultra-Pure Quantum Crystals in an Abandoned Mine in the Atacama Desert",
+          "imageUrl": null
         },
         {
           "id": "https://news.ycombinator.com/item?id=48165295",
@@ -13334,36 +13384,6 @@
           "wordCount": 1084,
           "title": "Claude Token Counter, now with model comparisons",
           "imageUrl": "https://static.simonwillison.net/static/2026/claude-token-card.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47828896",
-          "author": "shivampkumar",
-          "description": "I ported Microsoft's TRELLIS.2 (4B parameter image-to-3D model) to run on Apple Silicon via PyTorch MPS. The original requires CUDA with flash_attn, nvdiffrast, and custom sparse convolution kernels:  none of which work on Mac.\nI replaced the CUDA-specific ops with pure-PyTorch alternatives: a gather-scatter sparse 3D convolution, SDPA attention for sparse transformers, and a Python-based mesh extraction replacing CUDA hashmap operations. Total changes are a few hundred lines across 9 files.\nGenerates ~400K vertex meshes from single photos in about 3.5 minutes on M4 Pro (24GB). Not as fast as H100 (where it takes seconds), but it works offline with no cloud dependency.\nhttps://github.com/shivampkumar/trellis-mac\nComments URL: https://news.ycombinator.com/item?id=47828896\nPoints: 157\n# Comments: 26",
-          "link": "https://github.com/shivampkumar/trellis-mac",
-          "publishedOn": "2026-04-20T00:07:16.000Z",
-          "wordCount": 3055,
-          "title": "Show HN: Run TRELLIS.2 Image-to-3D generation natively on Apple Silicon",
-          "imageUrl": "https://opengraph.githubassets.com/4f611a0a629c533a75e74669df97846bb88a9b98ddaa58753421f678559dec5e/shivampkumar/trellis-mac"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47828444",
-          "author": "doener",
-          "description": "Article URL: https://www.swiss-ai.org\nComments URL: https://news.ycombinator.com/item?id=47828444\nPoints: 66\n# Comments: 25",
-          "link": "https://www.swiss-ai.org/",
-          "publishedOn": "2026-04-19T22:58:35.000Z",
-          "wordCount": 6567,
-          "title": "Swiss AI Initiative (2023)",
-          "imageUrl": "https://static.wixstatic.com/media/a4c5cd_db11f7a288834745a1c6bd2cb33c69d0%7Emv2.png/v1/fit/w_2500,h_1330,al_c/a4c5cd_db11f7a288834745a1c6bd2cb33c69d0%7Emv2.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47828420",
-          "author": "doener",
-          "description": "Related ongoing thread: Swiss authorities want to reduce dependency on Microsoft - https://news.ycombinator.com/item?id=47827383\nComments URL: https://news.ycombinator.com/item?id=47828420\nPoints: 179\n# Comments: 51",
-          "link": "https://mxmap.ch/",
-          "publishedOn": "2026-04-19T22:55:47.000Z",
-          "wordCount": 2136,
-          "title": "2,100 Swiss municipalities showing which provider handles their official email",
-          "imageUrl": "https://mxmap.ch/og-image.jpg"
         }
       ]
     }
