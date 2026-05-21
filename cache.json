@@ -6,6 +6,46 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=48216278",
+          "author": "wapasta",
+          "description": "Article URL: https://techcrunch.com/2026/05/20/intuit-to-lay-off-over-3000-employees-to-refocus-on-ai/\nComments URL: https://news.ycombinator.com/item?id=48216278\nPoints: 96\n# Comments: 50",
+          "link": "https://techcrunch.com/2026/05/20/intuit-to-lay-off-over-3000-employees-to-refocus-on-ai/",
+          "publishedOn": "2026-05-21T00:36:01.000Z",
+          "wordCount": 3225,
+          "title": "Intuit to lay off over 3k employees to refocus on AI",
+          "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/05/GettyImages-2261740845.jpg?w=1024"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48216016",
+          "author": "bambax",
+          "description": "Article URL: https://gwern.net/doc/design/typography/1980-knuth.pdf\nComments URL: https://news.ycombinator.com/item?id=48216016\nPoints: 78\n# Comments: 8",
+          "link": "https://gwern.net/doc/design/typography/1980-knuth.pdf",
+          "publishedOn": "2026-05-20T23:58:51.000Z",
+          "wordCount": 10591,
+          "title": "The Letter S, by Donald Knuth (1980) [pdf]",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48215979",
+          "author": "kageroumado",
+          "description": "Ever since Apple introduced their video wallpapers I wanted to be able to put custom videos there. I decided to reverse engineer and see what I can do.\nI built Phosphene to sell it, but the existing competitors were polished enough that the time it would have taken to catch up wasn't going to pay off. So I'm open-sourcing it.\nWallpaperExtensionKit.framework is what powers macOS wallpapers. It controls what’s shows in the Settings app. It took a lot of trial and error to replicate the behavior, but the result is that your custom wallpapers appear alongside everything else. I wanted to have an “add” button there too, but I couldn’t find a way to do so, so there’s a companion app that will put your video where it needs to be.\nUnlike Apple's Aerials, the video keeps playing on the desktop (not just the lock screen). The renderer drives AVSampleBufferDisplayLayer directly with PTS-offset gapless looping, and pauses or downshifts based on thermal state, battery level, brightness, and window occlusion.\nIt’s free and works well.\nComments URL: https://news.ycombinator.com/item?id=48215979\nPoints: 134\n# Comments: 32",
+          "link": "https://github.com/kageroumado/phosphene",
+          "publishedOn": "2026-05-20T23:54:06.000Z",
+          "wordCount": 3262,
+          "title": "Show HN: I reverse engineered Apple's video wallpapers",
+          "imageUrl": "https://opengraph.githubassets.com/60e50437459f18f77f47bbd3e98f3602896e57e7620ccc63ca3e8706dba474c8/kageroumado/phosphene"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48215418",
+          "author": "rglover",
+          "description": "Article URL: https://dos.zone/\nComments URL: https://news.ycombinator.com/item?id=48215418\nPoints: 144\n# Comments: 28",
+          "link": "https://dos.zone/",
+          "publishedOn": "2026-05-20T22:53:27.000Z",
+          "wordCount": 955,
+          "title": "DOS Zone",
+          "imageUrl": "https://dos.zone/images/containers/assets/seo_image.jpg/305f8ab86e22fdd50cb3762298d95219.webp"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=48214558",
           "author": "pantalaimon",
           "description": "Article URL: https://www.spacex.com/launches/starship-flight-12\nComments URL: https://news.ycombinator.com/item?id=48214558\nPoints: 61\n# Comments: 39",
@@ -33,6 +73,16 @@
           "publishedOn": "2026-05-20T20:49:59.000Z",
           "wordCount": null,
           "title": "SpaceX S-1",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48213651",
+          "author": "ki4jgt",
+          "description": "Article URL: https://legiscan.com/CO/bill/SB051/2026\nComments URL: https://news.ycombinator.com/item?id=48213651\nPoints: 169\n# Comments: 47",
+          "link": "https://legiscan.com/CO/bill/SB051/2026",
+          "publishedOn": "2026-05-20T20:28:18.000Z",
+          "wordCount": null,
+          "title": "Colorado Amended SB051 (Age Verification Bill) to Exclude Open Source Projects",
           "imageUrl": null
         },
         {
@@ -804,6 +854,16 @@
           "wordCount": 5054,
           "title": "We let AIs run radio stations",
           "imageUrl": "https://andonlabs.com/andon-fm-blog-og.webp"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48183167",
+          "author": "jger15",
+          "description": "Article URL: https://kevinkelly.substack.com/p/your-most-improbable-life\nComments URL: https://news.ycombinator.com/item?id=48183167\nPoints: 60\n# Comments: 35",
+          "link": "https://kevinkelly.substack.com/p/your-most-improbable-life",
+          "publishedOn": "2026-05-18T18:04:13.000Z",
+          "wordCount": null,
+          "title": "Your Most Improbable Life",
+          "imageUrl": null
         },
         {
           "id": "https://news.ycombinator.com/item?id=48183038",
@@ -13324,126 +13384,6 @@
           "wordCount": 10325,
           "title": "A Periodic Map of Cheese",
           "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47850212",
-          "author": "pedrofranceschi",
-          "description": "https://www.brex.com/journal/building-crabtrap-open-source\nComments URL: https://news.ycombinator.com/item?id=47850212\nPoints: 91\n# Comments: 25",
-          "link": "https://www.brex.com/crabtrap",
-          "publishedOn": "2026-04-21T15:29:16.000Z",
-          "wordCount": 2637,
-          "title": "CrabTrap: An LLM-as-a-judge HTTP proxy to secure agents in production",
-          "imageUrl": "https://www.brex.com/api/proxy-image?url=https%3A%2F%2Fbrand.brex.com%2Ftransform%2Fd355afa8-98bc-4424-be0c-236bb6bf77ed%2FCrabTrap-landing-page-preview%3Fio%3Dtransform%3Afit%2Cwidth%3A1200"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47849854",
-          "author": "ChrisArchitect",
-          "description": "Article URL: https://discuss.grapheneos.org/d/34369-original-grapheneos-responses-to-wired-fact-checker\nComments URL: https://news.ycombinator.com/item?id=47849854\nPoints: 190\n# Comments: 102",
-          "link": "https://discuss.grapheneos.org/d/34369-original-grapheneos-responses-to-wired-fact-checker",
-          "publishedOn": "2026-04-21T15:04:24.000Z",
-          "wordCount": 12846,
-          "title": "Original GrapheneOS responses to WIRED fact checker",
-          "imageUrl": "https://discuss.grapheneos.org/opengraph.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47849592",
-          "author": "speckx",
-          "description": "Article URL: https://e360.yale.edu/digest/great-white-sharks-climate\nComments URL: https://news.ycombinator.com/item?id=47849592\nPoints: 73\n# Comments: 37",
-          "link": "https://e360.yale.edu/digest/great-white-sharks-climate",
-          "publishedOn": "2026-04-21T14:48:55.000Z",
-          "wordCount": 1264,
-          "title": "As Oceans Warm, Great White Sharks Are Overheating",
-          "imageUrl": "https://yale-threesixty.transforms.svdcdn.com/production/Great-White_Wikipedia.jpg?w=1200&q=60&auto=format&fit=max&dm=1776762631&s=9449d79f7186d96a82d0ca990473e42b"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47849455",
-          "author": "colinprince",
-          "description": "Article URL: https://www.gamefile.news/p/panic-mail-arco-despelote-time-flies-thank-goodness-teeth\nComments URL: https://news.ycombinator.com/item?id=47849455\nPoints: 89\n# Comments: 2",
-          "link": "https://www.gamefile.news/p/panic-mail-arco-despelote-time-flies-thank-goodness-teeth",
-          "publishedOn": "2026-04-21T14:39:04.000Z",
-          "wordCount": 5676,
-          "title": "The mail sent to a video game publisher",
-          "imageUrl": "https://substackcdn.com/image/fetch/$s_!7whD!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F75a41406-0680-455b-9755-2cd0fdb9f459_4032x2319.jpeg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47849315",
-          "author": "sam",
-          "description": "Article URL: https://www.fusionenergybase.com/fusion-power-plant-simulator\nComments URL: https://news.ycombinator.com/item?id=47849315\nPoints: 79\n# Comments: 27",
-          "link": "https://www.fusionenergybase.com/fusion-power-plant-simulator",
-          "publishedOn": "2026-04-21T14:26:52.000Z",
-          "wordCount": 17497,
-          "title": "Fusion Power Plant Simulator",
-          "imageUrl": "https://www.fusionenergybase.com/images/fusion-simulator-preview.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47849221",
-          "author": "neon_electro",
-          "description": "Article URL: https://www.worseonpurpose.com/p/your-favorite-brands-got-worse-on-purpose\nComments URL: https://news.ycombinator.com/item?id=47849221\nPoints: 85\n# Comments: 24",
-          "link": "https://www.worseonpurpose.com/p/your-favorite-brands-got-worse-on-purpose",
-          "publishedOn": "2026-04-21T14:19:49.000Z",
-          "wordCount": 17500,
-          "title": "Your favorite brands got worse on purpose",
-          "imageUrl": "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/3b24affa-eff7-4a2a-a557-ed9df33e98eb/Worse_on_Purpose_-_Thumbnail_Preview.png?t=1774308955"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47849097",
-          "author": "santiago-pl",
-          "description": "Hi, I’m Jakub, a solo founder based in Warsaw.\nI’ve been building GoModel since December with a couple of contributors. It's an open-source AI gateway that sits between your app and model providers like OpenAI, Anthropic or others.\nI built it for my startup to solve a few problems:\n  - track AI usage and cost per client or team\n  - switch models without changing app code\n  - debug request flows more easily\n  - reduce AI spendings with exact and semantic caching\n\n  - ~17MB docker image\n    - LiteLLM's image is more than 44x bigger (\"docker.litellm.ai/berriai/litellm:latest\" ~ 746 MB on amd64)\n  - request workflow is visible and easy to inspect    \n  - config is environment-variable-first by default\n\nWebsite: https://gomodel.enterpilot.io\nAny feedback is appreciated.\nComments URL: https://news.ycombinator.com/item?id=47849097\nPoints: 93\n# Comments: 29",
-          "link": "https://github.com/ENTERPILOT/GOModel/",
-          "publishedOn": "2026-04-21T14:11:53.000Z",
-          "wordCount": 5026,
-          "title": "Show HN: GoModel – an open-source AI gateway in Go",
-          "imageUrl": "https://opengraph.githubassets.com/77206f01ebcb6a0f12aa518faa7b7cd6a3490020849047d6eb3cb8060720da58/ENTERPILOT/GoModel"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47848276",
-          "author": "Brajeshwar",
-          "description": "Article URL: https://techcrunch.com/2026/04/20/anthropic-takes-5b-from-amazon-and-pledges-100b-in-cloud-spending-in-return/\nComments URL: https://news.ycombinator.com/item?id=47848276\nPoints: 67\n# Comments: 67",
-          "link": "https://techcrunch.com/2026/04/20/anthropic-takes-5b-from-amazon-and-pledges-100b-in-cloud-spending-in-return/",
-          "publishedOn": "2026-04-21T13:08:25.000Z",
-          "wordCount": 3044,
-          "title": "Anthropic takes $5B from Amazon and pledges $100B in cloud spending in return",
-          "imageUrl": "https://techcrunch.com/wp-content/uploads/2024/11/GettyImages-1445867611.jpg?w=1024"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47848195",
-          "author": "somemisopaste",
-          "description": "Article URL: https://www.tindie.com/\nComments URL: https://news.ycombinator.com/item?id=47848195\nPoints: 63\n# Comments: 19",
-          "link": "https://www.tindie.com/",
-          "publishedOn": "2026-04-21T13:02:00.000Z",
-          "wordCount": null,
-          "title": "Tindie store under \"scheduled maintenance\" for days",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47848162",
-          "author": "sohkamyung",
-          "description": "Article URL: https://www.scientificamerican.com/article/how-a-renaissance-gambling-dispute-spawned-probability-theory/\nComments URL: https://news.ycombinator.com/item?id=47848162\nPoints: 61\n# Comments: 8",
-          "link": "https://www.scientificamerican.com/article/how-a-renaissance-gambling-dispute-spawned-probability-theory/",
-          "publishedOn": "2026-04-21T12:59:59.000Z",
-          "wordCount": 4766,
-          "title": "A Renaissance gambling dispute spawned probability theory",
-          "imageUrl": "https://static.scientificamerican.com/dam/asset/eb2e8ed0-c13b-4c11-8a4c-afe23c1ed280/points-problem_graphic_leadImage.png?m=1776449332.201&w=1200"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47847558",
-          "author": "kolx",
-          "description": "Hi HN,\nI built VidStudio, a privacy focused video editor that runs in the browser. I tried to keep it as frictionless as possible, so there are no accounts and no uploads. Everything is persisted on your\nmachine.\nSome of the features: multi-track timeline, frame accurate seek, MP4 export, audio, video, image, and text tracks, and a WebGL backed canvas where available. It also works on mobile.\nUnder the hood, WebCodecs handles frame decode for timeline playback and scrubbing, which is what makes seeking responsive since decode runs on the hardware decoder when the browser supports it.\nFFmpeg compiled to WebAssembly handles final encode, format conversion, and anything WebCodecs does not cover. Rendering goes through Pixi.js on a WebGL canvas, with a software fallback when WebGL is\nnot available. Projects live in IndexedDB and the heavy work runs in Web Workers so the UI stays responsive during exports.\nHappy to answer technical questions about the tradeoffs involved in keeping the whole pipeline client-side. Any feedback welcome.\nLink: https://vidstudio.app/video-editor\nComments URL: https://news.ycombinator.com/item?id=47847558\nPoints: 108\n# Comments: 47",
-          "link": "https://vidstudio.app/video-editor",
-          "publishedOn": "2026-04-21T11:58:16.000Z",
-          "wordCount": 320,
-          "title": "Show HN: VidStudio, a browser based video editor that doesn't upload your files",
-          "imageUrl": "https://vidstudio.app/og-image.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47847324",
-          "author": "hasheddan",
-          "description": "Article URL: https://stratechery.com/2026/tim-cooks-impeccable-timing/\nComments URL: https://news.ycombinator.com/item?id=47847324\nPoints: 70\n# Comments: 85",
-          "link": "https://stratechery.com/2026/tim-cooks-impeccable-timing/",
-          "publishedOn": "2026-04-21T11:30:03.000Z",
-          "wordCount": 6130,
-          "title": "Tim Cook's Impeccable Timing",
-          "imageUrl": "https://stratechery.com/wp-content/uploads/2026/04/cook-1.png"
         }
       ]
     }

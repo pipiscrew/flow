@@ -2,10 +2,66 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-05-20T23:18:15.215Z</updated>
+    <updated>2026-05-21T04:17:39.335Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Intuit to lay off over 3k employees to refocus on AI]]></title>
+        <id>https://news.ycombinator.com/item?id=48216278</id>
+        <link href="https://techcrunch.com/2026/05/20/intuit-to-lay-off-over-3000-employees-to-refocus-on-ai/"/>
+        <updated>2026-05-21T00:36:01.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://techcrunch.com/2026/05/20/intuit-to-lay-off-over-3000-employees-to-refocus-on-ai/
+Comments URL: https://news.ycombinator.com/item?id=48216278
+Points: 96
+# Comments: 50]]></summary>
+        <author>
+            <name>wapasta</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Letter S, by Donald Knuth (1980) [pdf]]]></title>
+        <id>https://news.ycombinator.com/item?id=48216016</id>
+        <link href="https://gwern.net/doc/design/typography/1980-knuth.pdf"/>
+        <updated>2026-05-20T23:58:51.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://gwern.net/doc/design/typography/1980-knuth.pdf
+Comments URL: https://news.ycombinator.com/item?id=48216016
+Points: 78
+# Comments: 8]]></summary>
+        <author>
+            <name>bambax</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: I reverse engineered Apple's video wallpapers]]></title>
+        <id>https://news.ycombinator.com/item?id=48215979</id>
+        <link href="https://github.com/kageroumado/phosphene"/>
+        <updated>2026-05-20T23:54:06.000Z</updated>
+        <summary type="html"><![CDATA[Ever since Apple introduced their video wallpapers I wanted to be able to put custom videos there. I decided to reverse engineer and see what I can do.
+I built Phosphene to sell it, but the existing competitors were polished enough that the time it would have taken to catch up wasn't going to pay off. So I'm open-sourcing it.
+WallpaperExtensionKit.framework is what powers macOS wallpapers. It controls what’s shows in the Settings app. It took a lot of trial and error to replicate the behavior, but the result is that your custom wallpapers appear alongside everything else. I wanted to have an “add” button there too, but I couldn’t find a way to do so, so there’s a companion app that will put your video where it needs to be.
+Unlike Apple's Aerials, the video keeps playing on the desktop (not just the lock screen). The renderer drives AVSampleBufferDisplayLayer directly with PTS-offset gapless looping, and pauses or downshifts based on thermal state, battery level, brightness, and window occlusion.
+It’s free and works well.
+Comments URL: https://news.ycombinator.com/item?id=48215979
+Points: 134
+# Comments: 32]]></summary>
+        <author>
+            <name>kageroumado</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[DOS Zone]]></title>
+        <id>https://news.ycombinator.com/item?id=48215418</id>
+        <link href="https://dos.zone/"/>
+        <updated>2026-05-20T22:53:27.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://dos.zone/
+Comments URL: https://news.ycombinator.com/item?id=48215418
+Points: 144
+# Comments: 28]]></summary>
+        <author>
+            <name>rglover</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Starship's Twelfth Flight Test]]></title>
         <id>https://news.ycombinator.com/item?id=48214558</id>
@@ -43,6 +99,19 @@ Points: 139
 # Comments: 99]]></summary>
         <author>
             <name>cachecow</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Colorado Amended SB051 (Age Verification Bill) to Exclude Open Source Projects]]></title>
+        <id>https://news.ycombinator.com/item?id=48213651</id>
+        <link href="https://legiscan.com/CO/bill/SB051/2026"/>
+        <updated>2026-05-20T20:28:18.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://legiscan.com/CO/bill/SB051/2026
+Comments URL: https://news.ycombinator.com/item?id=48213651
+Points: 169
+# Comments: 47]]></summary>
+        <author>
+            <name>ki4jgt</name>
         </author>
     </entry>
     <entry>
@@ -1052,6 +1121,19 @@ Points: 62
 # Comments: 59]]></summary>
         <author>
             <name>lukaspetersson</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Your Most Improbable Life]]></title>
+        <id>https://news.ycombinator.com/item?id=48183167</id>
+        <link href="https://kevinkelly.substack.com/p/your-most-improbable-life"/>
+        <updated>2026-05-18T18:04:13.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://kevinkelly.substack.com/p/your-most-improbable-life
+Comments URL: https://news.ycombinator.com/item?id=48183167
+Points: 60
+# Comments: 35]]></summary>
+        <author>
+            <name>jger15</name>
         </author>
     </entry>
     <entry>
@@ -17578,184 +17660,6 @@ Points: 93
 # Comments: 51]]></summary>
         <author>
             <name>sfrechtling</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[CrabTrap: An LLM-as-a-judge HTTP proxy to secure agents in production]]></title>
-        <id>https://news.ycombinator.com/item?id=47850212</id>
-        <link href="https://www.brex.com/crabtrap"/>
-        <updated>2026-04-21T15:29:16.000Z</updated>
-        <summary type="html"><![CDATA[https://www.brex.com/journal/building-crabtrap-open-source
-Comments URL: https://news.ycombinator.com/item?id=47850212
-Points: 91
-# Comments: 25]]></summary>
-        <author>
-            <name>pedrofranceschi</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Original GrapheneOS responses to WIRED fact checker]]></title>
-        <id>https://news.ycombinator.com/item?id=47849854</id>
-        <link href="https://discuss.grapheneos.org/d/34369-original-grapheneos-responses-to-wired-fact-checker"/>
-        <updated>2026-04-21T15:04:24.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://discuss.grapheneos.org/d/34369-original-grapheneos-responses-to-wired-fact-checker
-Comments URL: https://news.ycombinator.com/item?id=47849854
-Points: 190
-# Comments: 102]]></summary>
-        <author>
-            <name>ChrisArchitect</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[As Oceans Warm, Great White Sharks Are Overheating]]></title>
-        <id>https://news.ycombinator.com/item?id=47849592</id>
-        <link href="https://e360.yale.edu/digest/great-white-sharks-climate"/>
-        <updated>2026-04-21T14:48:55.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://e360.yale.edu/digest/great-white-sharks-climate
-Comments URL: https://news.ycombinator.com/item?id=47849592
-Points: 73
-# Comments: 37]]></summary>
-        <author>
-            <name>speckx</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The mail sent to a video game publisher]]></title>
-        <id>https://news.ycombinator.com/item?id=47849455</id>
-        <link href="https://www.gamefile.news/p/panic-mail-arco-despelote-time-flies-thank-goodness-teeth"/>
-        <updated>2026-04-21T14:39:04.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.gamefile.news/p/panic-mail-arco-despelote-time-flies-thank-goodness-teeth
-Comments URL: https://news.ycombinator.com/item?id=47849455
-Points: 89
-# Comments: 2]]></summary>
-        <author>
-            <name>colinprince</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Fusion Power Plant Simulator]]></title>
-        <id>https://news.ycombinator.com/item?id=47849315</id>
-        <link href="https://www.fusionenergybase.com/fusion-power-plant-simulator"/>
-        <updated>2026-04-21T14:26:52.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.fusionenergybase.com/fusion-power-plant-simulator
-Comments URL: https://news.ycombinator.com/item?id=47849315
-Points: 79
-# Comments: 27]]></summary>
-        <author>
-            <name>sam</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Your favorite brands got worse on purpose]]></title>
-        <id>https://news.ycombinator.com/item?id=47849221</id>
-        <link href="https://www.worseonpurpose.com/p/your-favorite-brands-got-worse-on-purpose"/>
-        <updated>2026-04-21T14:19:49.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.worseonpurpose.com/p/your-favorite-brands-got-worse-on-purpose
-Comments URL: https://news.ycombinator.com/item?id=47849221
-Points: 85
-# Comments: 24]]></summary>
-        <author>
-            <name>neon_electro</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: GoModel – an open-source AI gateway in Go]]></title>
-        <id>https://news.ycombinator.com/item?id=47849097</id>
-        <link href="https://github.com/ENTERPILOT/GOModel/"/>
-        <updated>2026-04-21T14:11:53.000Z</updated>
-        <summary type="html"><![CDATA[Hi, I’m Jakub, a solo founder based in Warsaw.
-I’ve been building GoModel since December with a couple of contributors. It's an open-source AI gateway that sits between your app and model providers like OpenAI, Anthropic or others.
-I built it for my startup to solve a few problems:
-  - track AI usage and cost per client or team
-  - switch models without changing app code
-  - debug request flows more easily
-  - reduce AI spendings with exact and semantic caching
-
-  - ~17MB docker image
-    - LiteLLM's image is more than 44x bigger ("docker.litellm.ai/berriai/litellm:latest" ~ 746 MB on amd64)
-  - request workflow is visible and easy to inspect    
-  - config is environment-variable-first by default
-
-Website: https://gomodel.enterpilot.io
-Any feedback is appreciated.
-Comments URL: https://news.ycombinator.com/item?id=47849097
-Points: 93
-# Comments: 29]]></summary>
-        <author>
-            <name>santiago-pl</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Anthropic takes $5B from Amazon and pledges $100B in cloud spending in return]]></title>
-        <id>https://news.ycombinator.com/item?id=47848276</id>
-        <link href="https://techcrunch.com/2026/04/20/anthropic-takes-5b-from-amazon-and-pledges-100b-in-cloud-spending-in-return/"/>
-        <updated>2026-04-21T13:08:25.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://techcrunch.com/2026/04/20/anthropic-takes-5b-from-amazon-and-pledges-100b-in-cloud-spending-in-return/
-Comments URL: https://news.ycombinator.com/item?id=47848276
-Points: 67
-# Comments: 67]]></summary>
-        <author>
-            <name>Brajeshwar</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Tindie store under "scheduled maintenance" for days]]></title>
-        <id>https://news.ycombinator.com/item?id=47848195</id>
-        <link href="https://www.tindie.com/"/>
-        <updated>2026-04-21T13:02:00.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.tindie.com/
-Comments URL: https://news.ycombinator.com/item?id=47848195
-Points: 63
-# Comments: 19]]></summary>
-        <author>
-            <name>somemisopaste</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A Renaissance gambling dispute spawned probability theory]]></title>
-        <id>https://news.ycombinator.com/item?id=47848162</id>
-        <link href="https://www.scientificamerican.com/article/how-a-renaissance-gambling-dispute-spawned-probability-theory/"/>
-        <updated>2026-04-21T12:59:59.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.scientificamerican.com/article/how-a-renaissance-gambling-dispute-spawned-probability-theory/
-Comments URL: https://news.ycombinator.com/item?id=47848162
-Points: 61
-# Comments: 8]]></summary>
-        <author>
-            <name>sohkamyung</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: VidStudio, a browser based video editor that doesn't upload your files]]></title>
-        <id>https://news.ycombinator.com/item?id=47847558</id>
-        <link href="https://vidstudio.app/video-editor"/>
-        <updated>2026-04-21T11:58:16.000Z</updated>
-        <summary type="html"><![CDATA[Hi HN,
-I built VidStudio, a privacy focused video editor that runs in the browser. I tried to keep it as frictionless as possible, so there are no accounts and no uploads. Everything is persisted on your
-machine.
-Some of the features: multi-track timeline, frame accurate seek, MP4 export, audio, video, image, and text tracks, and a WebGL backed canvas where available. It also works on mobile.
-Under the hood, WebCodecs handles frame decode for timeline playback and scrubbing, which is what makes seeking responsive since decode runs on the hardware decoder when the browser supports it.
-FFmpeg compiled to WebAssembly handles final encode, format conversion, and anything WebCodecs does not cover. Rendering goes through Pixi.js on a WebGL canvas, with a software fallback when WebGL is
-not available. Projects live in IndexedDB and the heavy work runs in Web Workers so the UI stays responsive during exports.
-Happy to answer technical questions about the tradeoffs involved in keeping the whole pipeline client-side. Any feedback welcome.
-Link: https://vidstudio.app/video-editor
-Comments URL: https://news.ycombinator.com/item?id=47847558
-Points: 108
-# Comments: 47]]></summary>
-        <author>
-            <name>kolx</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Tim Cook's Impeccable Timing]]></title>
-        <id>https://news.ycombinator.com/item?id=47847324</id>
-        <link href="https://stratechery.com/2026/tim-cooks-impeccable-timing/"/>
-        <updated>2026-04-21T11:30:03.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://stratechery.com/2026/tim-cooks-impeccable-timing/
-Comments URL: https://news.ycombinator.com/item?id=47847324
-Points: 70
-# Comments: 85]]></summary>
-        <author>
-            <name>hasheddan</name>
         </author>
     </entry>
 </feed>
