@@ -2,10 +2,65 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-05-21T08:37:20.004Z</updated>
+    <updated>2026-05-21T12:20:11.409Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Flipper One – we need your help]]></title>
+        <id>https://news.ycombinator.com/item?id=48220647</id>
+        <link href="https://blog.flipper.net/flipper-one-we-need-your-help/"/>
+        <updated>2026-05-21T11:03:38.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://blog.flipper.net/flipper-one-we-need-your-help/
+Comments URL: https://news.ycombinator.com/item?id=48220647
+Points: 108
+# Comments: 39]]></summary>
+        <author>
+            <name>sandebert</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Google officially announces that ads will be included in AI Mode search results]]></title>
+        <id>https://news.ycombinator.com/item?id=48220105</id>
+        <link href="https://blog.google/products/ads-commerce/google-marketing-live-search-ads/"/>
+        <updated>2026-05-21T09:49:46.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://blog.google/products/ads-commerce/google-marketing-live-search-ads/
+Comments URL: https://news.ycombinator.com/item?id=48220105
+Points: 159
+# Comments: 170]]></summary>
+        <author>
+            <name>sofumel</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[No Slop Grenade]]></title>
+        <id>https://news.ycombinator.com/item?id=48219992</id>
+        <link href="https://noslopgrenade.com/"/>
+        <updated>2026-05-21T09:31:15.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://noslopgrenade.com/
+Comments URL: https://news.ycombinator.com/item?id=48219992
+Points: 67
+# Comments: 38]]></summary>
+        <author>
+            <name>napolux</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Rmux – A programmable terminal multiplexer with a Playwright-style SDK]]></title>
+        <id>https://news.ycombinator.com/item?id=48219918</id>
+        <link href="https://github.com/helvesec/rmux"/>
+        <updated>2026-05-21T09:22:00.000Z</updated>
+        <summary type="html"><![CDATA[Author here. RMUX started from a frustration: I've used tmux for years and got tired of scraping output with grep and sleeps to automate anything. So I rebuilt the multiplexer from scratch in Rust, with a programmable layer on top.
+Two surfaces: a tmux-compatible CLI (~90 commands, your keybindings just work), and a typed async Rust SDK on the same daemon — stable pane IDs, structured snapshots, locator-style waits. The idea is Playwright-style automation, but for terminals.
+Native on Linux, macOS, Windows (real ConPTY, no WSL).
+Demos and docs at rmux.io. Happy to answer questions about the daemon protocol, ConPTY, or the SDK design.
+Comments URL: https://news.ycombinator.com/item?id=48219918
+Points: 81
+# Comments: 46]]></summary>
+        <author>
+            <name>shideneyu</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Vivaldi 8.0]]></title>
         <id>https://news.ycombinator.com/item?id=48219060</id>
@@ -1188,6 +1243,19 @@ Points: 75
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Simulating Infinity in Conway's Game of Life with Modern C++]]></title>
+        <id>https://news.ycombinator.com/item?id=48183563</id>
+        <link href="https://ryanjk5.github.io/posts/GOLDE/"/>
+        <updated>2026-05-18T18:29:43.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://ryanjk5.github.io/posts/GOLDE/
+Comments URL: https://news.ycombinator.com/item?id=48183563
+Points: 50
+# Comments: 11]]></summary>
+        <author>
+            <name>HeliumHydride</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[We let AIs run radio stations]]></title>
         <id>https://news.ycombinator.com/item?id=48183301</id>
         <link href="https://andonlabs.com/blog/andon-fm"/>
@@ -1342,6 +1410,27 @@ Points: 256
 # Comments: 27]]></summary>
         <author>
             <name>gok</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: I made a tactical map-based WWII submarine simulator (public beta)]]></title>
+        <id>https://news.ycombinator.com/item?id=48180924</id>
+        <link href="https://silentshark.app/alpha/"/>
+        <updated>2026-05-18T15:08:21.000Z</updated>
+        <summary type="html"><![CDATA[I've seen quite a few simming discussions on HN, so thought some of you might like this - I've created a map-centered, tactical submarine simulator and it's been a blast to make.
+I grew up playing Silent Service II on Atari ST with my dad, then got into Silent Hunter IV in the 2000s, and most recently have been loving the more recent UBoat. In each case, the part I always enjoy the most is the plotting and charting aspect - essentially beating uncertain estimates with geometry.
+So I decided to see how far I could get making my own sim that focused nearly entirely on that aspect. You listen on the hydrophone, estimate course and speed, identify ships through the periscope to get the mast height, use a working stadimeter for range estimates, and then try to build a good enough firing solution before getting discovered and hunted by any escorts.
+Things I'm particularly proud of are the working stadimeter, the dynamic music (Holst Mars stings when your torpedo is nearing a ship), and pretty intelligent destroyer logic. I've found great reference materials online and have modeled several of the gauges directly after actual submarine instruments.
+Tech-wise it’s a Vite/TypeScript app which enables me to offer the whole free version of the app as a browser version.
+The Steam page is here => https://store.steampowered.com/app/4705650
+The landing page is here => https://silentshark.app
+I plan on releasing a full version soonish, including a WWII campaign with progression, patrol zones, and much more on Steam (PC, Mac, Linux/Steam Deck), App Store (iPhone, iPad, Mac), and Play Store (Android).
+Would highly appreciate any feedback anyone has!
+Comments URL: https://news.ycombinator.com/item?id=48180924
+Points: 70
+# Comments: 25]]></summary>
+        <author>
+            <name>epaga</name>
         </author>
     </entry>
     <entry>
@@ -17475,99 +17564,6 @@ Points: 141
 # Comments: 62]]></summary>
         <author>
             <name>jonthepirate</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Drunk post: Things I've learned as a senior engineer (2021)]]></title>
-        <id>https://news.ycombinator.com/item?id=47856535</id>
-        <link href="https://luminousmen.substack.com/p/drunk-post-things-ive-learned-as"/>
-        <updated>2026-04-21T23:53:45.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://luminousmen.substack.com/p/drunk-post-things-ive-learned-as
-Comments URL: https://news.ycombinator.com/item?id=47856535
-Points: 100
-# Comments: 49]]></summary>
-        <author>
-            <name>zdw</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[SpaceX Says It Has Agreement to Acquire Cursor for $60B]]></title>
-        <id>https://news.ycombinator.com/item?id=47855616</id>
-        <link href="https://www.bloomberg.com/news/articles/2026-04-21/spacex-says-has-agreement-to-acquire-cursor-for-60-billion"/>
-        <updated>2026-04-21T22:40:46.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.bloomberg.com/news/articles/2026-04-21/spacex-says-has-agreement-to-acquire-cursor-for-60-billion
-Comments URL: https://news.ycombinator.com/item?id=47855616
-Points: 75
-# Comments: 20]]></summary>
-        <author>
-            <name>Jimmc414</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Claude Code no longer included in Pro tier]]></title>
-        <id>https://news.ycombinator.com/item?id=47855565</id>
-        <link href="https://bsky.app/profile/edzitron.com/post/3mjzxwfx3qs2a"/>
-        <updated>2026-04-21T22:36:24.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://bsky.app/profile/edzitron.com/post/3mjzxwfx3qs2a
-Comments URL: https://news.ycombinator.com/item?id=47855565
-Points: 106
-# Comments: 54]]></summary>
-        <author>
-            <name>johnduhart</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[SpaceX says it has agreement to acquire Cursor for $60B]]></title>
-        <id>https://news.ycombinator.com/item?id=47855293</id>
-        <link href="https://twitter.com/spacex/status/2046713419978453374"/>
-        <updated>2026-04-21T22:13:18.000Z</updated>
-        <summary type="html"><![CDATA[https://www.reuters.com/technology/spacex-says-it-has-option...
-https://www.nytimes.com/2026/04/21/business/spacex-cursor-de... (https://archive.ph/c2Tac)
-https://www.bloomberg.com/news/articles/2026-04-21/spacex-sa...
-Comments URL: https://news.ycombinator.com/item?id=47855293
-Points: 340
-# Comments: 468]]></summary>
-        <author>
-            <name>dmarcos</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[WireGuard for Windows Reaches v1.0]]></title>
-        <id>https://news.ycombinator.com/item?id=47854710</id>
-        <link href="https://lists.zx2c4.com/pipermail/wireguard/2026-April/009580.html"/>
-        <updated>2026-04-21T21:26:25.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://lists.zx2c4.com/pipermail/wireguard/2026-April/009580.html
-Comments URL: https://news.ycombinator.com/item?id=47854710
-Points: 59
-# Comments: 1]]></summary>
-        <author>
-            <name>zx2c4</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Claude Code removed from Anthropic's Pro plan]]></title>
-        <id>https://news.ycombinator.com/item?id=47854477</id>
-        <link href="https://claude.com/pricing"/>
-        <updated>2026-04-21T21:03:04.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://claude.com/pricing
-Comments URL: https://news.ycombinator.com/item?id=47854477
-Points: 68
-# Comments: 21]]></summary>
-        <author>
-            <name>JamesMcMinn</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Another Day Has Come]]></title>
-        <id>https://news.ycombinator.com/item?id=47854365</id>
-        <link href="https://daringfireball.net/2026/04/another_day_has_come"/>
-        <updated>2026-04-21T20:52:19.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://daringfireball.net/2026/04/another_day_has_come
-Comments URL: https://news.ycombinator.com/item?id=47854365
-Points: 61
-# Comments: 53]]></summary>
-        <author>
-            <name>ndr42</name>
         </author>
     </entry>
 </feed>

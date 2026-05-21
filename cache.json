@@ -6,6 +6,46 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=48220647",
+          "author": "sandebert",
+          "description": "Article URL: https://blog.flipper.net/flipper-one-we-need-your-help/\nComments URL: https://news.ycombinator.com/item?id=48220647\nPoints: 108\n# Comments: 39",
+          "link": "https://blog.flipper.net/flipper-one-we-need-your-help/",
+          "publishedOn": "2026-05-21T11:03:38.000Z",
+          "wordCount": 5952,
+          "title": "Flipper One – we need your help",
+          "imageUrl": "https://blog.flipper.net/content/images/size/w1200/2026/05/Flipper-One-we-need-your-help-main-v2.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48220105",
+          "author": "sofumel",
+          "description": "Article URL: https://blog.google/products/ads-commerce/google-marketing-live-search-ads/\nComments URL: https://news.ycombinator.com/item?id=48220105\nPoints: 159\n# Comments: 170",
+          "link": "https://blog.google/products/ads-commerce/google-marketing-live-search-ads/",
+          "publishedOn": "2026-05-21T09:49:46.000Z",
+          "wordCount": 4634,
+          "title": "Google officially announces that ads will be included in AI Mode search results",
+          "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/GML_Search_social.width-1300.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48219992",
+          "author": "napolux",
+          "description": "Article URL: https://noslopgrenade.com/\nComments URL: https://news.ycombinator.com/item?id=48219992\nPoints: 67\n# Comments: 38",
+          "link": "https://noslopgrenade.com/",
+          "publishedOn": "2026-05-21T09:31:15.000Z",
+          "wordCount": 1116,
+          "title": "No Slop Grenade",
+          "imageUrl": "https://noslopgrenade.com/og-image.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48219918",
+          "author": "shideneyu",
+          "description": "Author here. RMUX started from a frustration: I've used tmux for years and got tired of scraping output with grep and sleeps to automate anything. So I rebuilt the multiplexer from scratch in Rust, with a programmable layer on top.\nTwo surfaces: a tmux-compatible CLI (~90 commands, your keybindings just work), and a typed async Rust SDK on the same daemon — stable pane IDs, structured snapshots, locator-style waits. The idea is Playwright-style automation, but for terminals.\nNative on Linux, macOS, Windows (real ConPTY, no WSL).\nDemos and docs at rmux.io. Happy to answer questions about the daemon protocol, ConPTY, or the SDK design.\nComments URL: https://news.ycombinator.com/item?id=48219918\nPoints: 81\n# Comments: 46",
+          "link": "https://github.com/helvesec/rmux",
+          "publishedOn": "2026-05-21T09:22:00.000Z",
+          "wordCount": 4188,
+          "title": "Show HN: Rmux – A programmable terminal multiplexer with a Playwright-style SDK",
+          "imageUrl": "https://opengraph.githubassets.com/38bcfd2a5633b17b7a31dd2862cca265dd8d3b2f6529806384bd9d538cca6897/Helvesec/rmux"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=48219060",
           "author": "OuterVale",
           "description": "Article URL: https://vivaldi.com/blog/vivaldi-on-desktop-8-0/\nComments URL: https://news.ycombinator.com/item?id=48219060\nPoints: 69\n# Comments: 20",
@@ -906,6 +946,16 @@
           "imageUrl": "https://discuss.haiku-os.org/uploads/default/optimized/2X/5/5345a61737d0cd39d8490fc19d2efc4be47d4c95_2_1024x822.jpeg"
         },
         {
+          "id": "https://news.ycombinator.com/item?id=48183563",
+          "author": "HeliumHydride",
+          "description": "Article URL: https://ryanjk5.github.io/posts/GOLDE/\nComments URL: https://news.ycombinator.com/item?id=48183563\nPoints: 50\n# Comments: 11",
+          "link": "https://ryanjk5.github.io/posts/GOLDE/",
+          "publishedOn": "2026-05-18T18:29:43.000Z",
+          "wordCount": 3084,
+          "title": "Simulating Infinity in Conway's Game of Life with Modern C++",
+          "imageUrl": null
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=48183301",
           "author": "lukaspetersson",
           "description": "Hey HN!\nI'm Lukas from Andon Labs. We let AIs run companies without humans in the loop and report to the public on what can go wrong. Previously, we've done experiments in retail (vending machines, stores, and cafes), but we just launched one in the media sector. We gave four AI agents all the tools they need to both broadcast radio shows live and handle all the business side of running a media company. The agents' revenue is so far terrible (you can try to strike a sponsor deal with them if you want!), but their shows are at times hilarious. You can listen to them at andon.fm, I hope you enjoy this!\nComments URL: https://news.ycombinator.com/item?id=48183301\nPoints: 62\n# Comments: 59",
@@ -1023,6 +1073,16 @@
           "publishedOn": "2026-05-18T15:18:19.000Z",
           "wordCount": null,
           "title": "Garry Tan, the CEO of YC, accused me of unethical reporting",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48180924",
+          "author": "epaga",
+          "description": "I've seen quite a few simming discussions on HN, so thought some of you might like this - I've created a map-centered, tactical submarine simulator and it's been a blast to make.\nI grew up playing Silent Service II on Atari ST with my dad, then got into Silent Hunter IV in the 2000s, and most recently have been loving the more recent UBoat. In each case, the part I always enjoy the most is the plotting and charting aspect - essentially beating uncertain estimates with geometry.\nSo I decided to see how far I could get making my own sim that focused nearly entirely on that aspect. You listen on the hydrophone, estimate course and speed, identify ships through the periscope to get the mast height, use a working stadimeter for range estimates, and then try to build a good enough firing solution before getting discovered and hunted by any escorts.\nThings I'm particularly proud of are the working stadimeter, the dynamic music (Holst Mars stings when your torpedo is nearing a ship), and pretty intelligent destroyer logic. I've found great reference materials online and have modeled several of the gauges directly after actual submarine instruments.\nTech-wise it’s a Vite/TypeScript app which enables me to offer the whole free version of the app as a browser version.\nThe Steam page is here => https://store.steampowered.com/app/4705650\nThe landing page is here => https://silentshark.app\nI plan on releasing a full version soonish, including a WWII campaign with progression, patrol zones, and much more on Steam (PC, Mac, Linux/Steam Deck), App Store (iPhone, iPad, Mac), and Play Store (Android).\nWould highly appreciate any feedback anyone has!\nComments URL: https://news.ycombinator.com/item?id=48180924\nPoints: 70\n# Comments: 25",
+          "link": "https://silentshark.app/alpha/",
+          "publishedOn": "2026-05-18T15:08:21.000Z",
+          "wordCount": 4,
+          "title": "Show HN: I made a tactical map-based WWII submarine simulator (public beta)",
           "imageUrl": null
         },
         {
@@ -13244,76 +13304,6 @@
           "wordCount": 4175,
           "title": "I'm Sick of AI Everything",
           "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47856535",
-          "author": "zdw",
-          "description": "Article URL: https://luminousmen.substack.com/p/drunk-post-things-ive-learned-as\nComments URL: https://news.ycombinator.com/item?id=47856535\nPoints: 100\n# Comments: 49",
-          "link": "https://luminousmen.substack.com/p/drunk-post-things-ive-learned-as",
-          "publishedOn": "2026-04-21T23:53:45.000Z",
-          "wordCount": null,
-          "title": "Drunk post: Things I've learned as a senior engineer (2021)",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47855616",
-          "author": "Jimmc414",
-          "description": "Article URL: https://www.bloomberg.com/news/articles/2026-04-21/spacex-says-has-agreement-to-acquire-cursor-for-60-billion\nComments URL: https://news.ycombinator.com/item?id=47855616\nPoints: 75\n# Comments: 20",
-          "link": "https://www.bloomberg.com/news/articles/2026-04-21/spacex-says-has-agreement-to-acquire-cursor-for-60-billion",
-          "publishedOn": "2026-04-21T22:40:46.000Z",
-          "wordCount": null,
-          "title": "SpaceX Says It Has Agreement to Acquire Cursor for $60B",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47855565",
-          "author": "johnduhart",
-          "description": "Article URL: https://bsky.app/profile/edzitron.com/post/3mjzxwfx3qs2a\nComments URL: https://news.ycombinator.com/item?id=47855565\nPoints: 106\n# Comments: 54",
-          "link": "https://bsky.app/profile/edzitron.com/post/3mjzxwfx3qs2a",
-          "publishedOn": "2026-04-21T22:36:24.000Z",
-          "wordCount": 441,
-          "title": "Claude Code no longer included in Pro tier",
-          "imageUrl": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:qc6xzgctorfsm35w6i3vdebx/bafkreiddpkqpxwsi42rgzrktvrzurcwjcmwbegqouwd5u3qsz5c5c4drte"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47855293",
-          "author": "dmarcos",
-          "description": "https://www.reuters.com/technology/spacex-says-it-has-option...\nhttps://www.nytimes.com/2026/04/21/business/spacex-cursor-de... (https://archive.ph/c2Tac)\nhttps://www.bloomberg.com/news/articles/2026-04-21/spacex-sa...\nComments URL: https://news.ycombinator.com/item?id=47855293\nPoints: 340\n# Comments: 468",
-          "link": "https://twitter.com/spacex/status/2046713419978453374",
-          "publishedOn": "2026-04-21T22:13:18.000Z",
-          "wordCount": 883,
-          "title": "SpaceX says it has agreement to acquire Cursor for $60B",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47854710",
-          "author": "zx2c4",
-          "description": "Article URL: https://lists.zx2c4.com/pipermail/wireguard/2026-April/009580.html\nComments URL: https://news.ycombinator.com/item?id=47854710\nPoints: 59\n# Comments: 1",
-          "link": "https://lists.zx2c4.com/pipermail/wireguard/2026-April/009580.html",
-          "publishedOn": "2026-04-21T21:26:25.000Z",
-          "wordCount": 1401,
-          "title": "WireGuard for Windows Reaches v1.0",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47854477",
-          "author": "JamesMcMinn",
-          "description": "Article URL: https://claude.com/pricing\nComments URL: https://news.ycombinator.com/item?id=47854477\nPoints: 68\n# Comments: 21",
-          "link": "https://claude.com/pricing",
-          "publishedOn": "2026-04-21T21:03:04.000Z",
-          "wordCount": 19360,
-          "title": "Claude Code removed from Anthropic's Pro plan",
-          "imageUrl": "https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/68c469d23594abeb9ab6ee48_70ed020ecf8fa028b9bc95fa819720b6_og_claude-generic.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47854365",
-          "author": "ndr42",
-          "description": "Article URL: https://daringfireball.net/2026/04/another_day_has_come\nComments URL: https://news.ycombinator.com/item?id=47854365\nPoints: 61\n# Comments: 53",
-          "link": "https://daringfireball.net/2026/04/another_day_has_come",
-          "publishedOn": "2026-04-21T20:52:19.000Z",
-          "wordCount": 1388,
-          "title": "Another Day Has Come",
-          "imageUrl": "https://daringfireball.net/graphics/df-wide-card.png"
         }
       ]
     }
