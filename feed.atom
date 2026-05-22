@@ -2,10 +2,49 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-05-22T17:11:43.727Z</updated>
+    <updated>2026-05-22T19:56:20.592Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Open source Kanban desktop app that runs parallel agents on every card]]></title>
+        <id>https://news.ycombinator.com/item?id=48239413</id>
+        <link href="https://www.kanbots.dev/"/>
+        <updated>2026-05-22T18:17:57.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.kanbots.dev/
+Comments URL: https://news.ycombinator.com/item?id=48239413
+Points: 53
+# Comments: 28]]></summary>
+        <author>
+            <name>vitriapp</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Microsoft starts canceling Claude Code licenses]]></title>
+        <id>https://news.ycombinator.com/item?id=48238896</id>
+        <link href="https://www.theverge.com/tech/930447/microsoft-claude-code-discontinued-notepad"/>
+        <updated>2026-05-22T17:32:04.000Z</updated>
+        <summary type="html"><![CDATA[https://archive.ph/WfCta
+Comments URL: https://news.ycombinator.com/item?id=48238896
+Points: 92
+# Comments: 50]]></summary>
+        <author>
+            <name>robertkarl</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Bun support is now limited and deprecated]]></title>
+        <id>https://news.ycombinator.com/item?id=48238789</id>
+        <link href="https://github.com/yt-dlp/yt-dlp/issues/16766"/>
+        <updated>2026-05-22T17:24:12.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://github.com/yt-dlp/yt-dlp/issues/16766
+Comments URL: https://news.ycombinator.com/item?id=48238789
+Points: 189
+# Comments: 145]]></summary>
+        <author>
+            <name>tamnd</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[U.S. researchers face new restrictions on publishing with foreign collaborators]]></title>
         <id>https://news.ycombinator.com/item?id=48238025</id>
@@ -33,6 +72,33 @@ Points: 82
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[DeepSeek makes the V4 Pro price discount permanent]]></title>
+        <id>https://news.ycombinator.com/item?id=48237663</id>
+        <link href="https://api-docs.deepseek.com/quick_start/pricing"/>
+        <updated>2026-05-22T15:59:26.000Z</updated>
+        <summary type="html"><![CDATA[> (3) The deepseek-v4-pro model API pricing will be officially adjusted to 1/4 of the original price after the 75% discount promotion ends on 2026/05/31 15:59 UTC.
+https://x.com/deepseek_ai/status/2057854261699195173
+Comments URL: https://news.ycombinator.com/item?id=48237663
+Points: 157
+# Comments: 79]]></summary>
+        <author>
+            <name>Tiberium</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to convert between wealth and income tax]]></title>
+        <id>https://news.ycombinator.com/item?id=48237422</id>
+        <link href="https://paulgraham.com/winc.html"/>
+        <updated>2026-05-22T15:43:28.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://paulgraham.com/winc.html
+Comments URL: https://news.ycombinator.com/item?id=48237422
+Points: 90
+# Comments: 279]]></summary>
+        <author>
+            <name>bifftastic</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Why Japanese companies do so many different things]]></title>
         <id>https://news.ycombinator.com/item?id=48237163</id>
         <link href="https://davidoks.blog/p/why-japanese-companies-do-so-many"/>
@@ -43,6 +109,33 @@ Points: 178
 # Comments: 73]]></summary>
         <author>
             <name>d0ks</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A Forth-inspired language for writing websites]]></title>
+        <id>https://news.ycombinator.com/item?id=48236887</id>
+        <link href="https://robida.net/entries/2026/05/21/a-forth-inspired-language-for-writing-websites"/>
+        <updated>2026-05-22T15:00:50.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://robida.net/entries/2026/05/21/a-forth-inspired-language-for-writing-websites
+Comments URL: https://news.ycombinator.com/item?id=48236887
+Points: 73
+# Comments: 9]]></summary>
+        <author>
+            <name>speckx</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Launch HN: Superset (YC P26) – IDE for the agents era]]></title>
+        <id>https://news.ycombinator.com/item?id=48236770</id>
+        <link href="https://github.com/superset-sh/superset"/>
+        <updated>2026-05-22T14:53:55.000Z</updated>
+        <summary type="html"><![CDATA[Hey HN, we’re Avi, Kiet, and Satya. We’re building Superset (https://github.com/superset-sh/superset), an open-source agentic IDE for running coding agents like Claude Code, Codex, OpenCode etc in parallel.
+Demo: https://www.youtube.com/watch?v=YWDHn7gUwfg
+Try it: https://superset.sh/
+We’re three engineers who’ve built and maintained large codebases, and we kept wanting to work on more than one thing at a time. Once CLI coding agents got good enough we found ourselves running several of them in parallel: triaging Github issues, adding a few ui features, reviewing PRs, researching a refactor, etc.
+The funny part was that we and a lot of our friends had all hacked together similar scripts around git worktrees. Worktrees are a nice primitive for this because each agent can get an isolated cop…]]></summary>
+        <author>
+            <name>avipeltz</name>
         </author>
     </entry>
     <entry>
@@ -160,6 +253,19 @@ Points: 54
 # Comments: 21]]></summary>
         <author>
             <name>unprovable</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Chess invariants]]></title>
+        <id>https://news.ycombinator.com/item?id=48234252</id>
+        <link href="http://muratbuffalo.blogspot.com/2026/05/chess-invariants.html"/>
+        <updated>2026-05-22T11:06:52.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: http://muratbuffalo.blogspot.com/2026/05/chess-invariants.html
+Comments URL: https://news.ycombinator.com/item?id=48234252
+Points: 74
+# Comments: 45]]></summary>
+        <author>
+            <name>ingve</name>
         </author>
     </entry>
     <entry>
@@ -17446,19 +17552,6 @@ Points: 96
 # Comments: 81]]></summary>
         <author>
             <name>maguay</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Our newsroom AI policy]]></title>
-        <id>https://news.ycombinator.com/item?id=47872452</id>
-        <link href="https://arstechnica.com/staff/2026/04/our-newsroom-ai-policy/"/>
-        <updated>2026-04-23T05:14:05.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://arstechnica.com/staff/2026/04/our-newsroom-ai-policy/
-Comments URL: https://news.ycombinator.com/item?id=47872452
-Points: 61
-# Comments: 40]]></summary>
-        <author>
-            <name>zdw</name>
         </author>
     </entry>
 </feed>
