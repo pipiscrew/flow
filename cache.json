@@ -6,6 +6,36 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=48260140",
+          "author": "Ember_Wipe",
+          "description": "Article URL: https://www.cbp.gov/document/directives/cbp-directive-no-3340-049b-border-search-electronic-devices\nComments URL: https://news.ycombinator.com/item?id=48260140\nPoints: 81\n# Comments: 22",
+          "link": "https://www.cbp.gov/document/directives/cbp-directive-no-3340-049b-border-search-electronic-devices",
+          "publishedOn": "2026-05-24T19:12:46.000Z",
+          "wordCount": 1286,
+          "title": "CBP Directive 3340-049B: Border Search of Electronic Devices",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48259990",
+          "author": "randycupertino",
+          "description": "Article URL: https://scienceaim.com/australia-just-proved-the-four-day-work-week-works-here-is-what-the-data-actually-says/\nComments URL: https://news.ycombinator.com/item?id=48259990\nPoints: 104\n# Comments: 43",
+          "link": "https://scienceaim.com/australia-just-proved-the-four-day-work-week-works-here-is-what-the-data-actually-says/",
+          "publishedOn": "2026-05-24T18:56:09.000Z",
+          "wordCount": 3135,
+          "title": "Australia Four-Day Work Week Study Data Shows Boosted Productivity",
+          "imageUrl": "https://scienceaim.com/wp-content/uploads/2026/05/Screenshot_3.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48259808",
+          "author": "jabits",
+          "description": "Article URL: https://corrode.dev/learn/migration-guides/go-to-rust/\nComments URL: https://news.ycombinator.com/item?id=48259808\nPoints: 77\n# Comments: 56",
+          "link": "https://corrode.dev/learn/migration-guides/go-to-rust/",
+          "publishedOn": "2026-05-24T18:31:42.000Z",
+          "wordCount": 8077,
+          "title": "Migrating from Go to Rust",
+          "imageUrl": "https://corrode.dev/learn/migration-guides/go-to-rust/social.png"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=48259784",
           "author": "cdrnsf",
           "description": "Article URL: https://www.hollandtech.net/claude-is-not-your-architect/\nComments URL: https://news.ycombinator.com/item?id=48259784\nPoints: 77\n# Comments: 48",
@@ -13124,16 +13154,6 @@
           "wordCount": 875,
           "title": "Martin Galway's music source files from 1980's Commodore 64 games",
           "imageUrl": "https://opengraph.githubassets.com/62aaf245e80932e872943aa98fec27c266aa4af9fec55736191a4689c587fc84/MartinGalway/C64_music"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47899844",
-          "author": "najmuzzaman",
-          "description": "I shipped a wiki layer for AI agents that uses markdown + git as the source of truth, with a bleve (BM25) + SQLite index on top. No vector or graph db yet.\nIt runs locally in ~/.wuphf/wiki/ and you can git clone it out if you want to take your knowledge with you.\nThe shape is the one Karpathy has been circling for a while: an LLM-native knowledge substrate that agents both read from and write into, so context compounds across sessions rather than getting re-pasted every morning. Most implementations of that idea land on Postgres, pgvector, Neo4j, Kafka, and a dashboard.\nI wanted to go back to the basics and see how far markdown + git could go before I added anything heavier.\nWhat it does:\n-> Each agent gets a private notebook at agents/{slug}/notebook/.md, plus access to a shared team wiki…",
-          "link": "https://github.com/nex-crm/wuphf",
-          "publishedOn": "2026-04-25T08:53:53.000Z",
-          "wordCount": 7495,
-          "title": "Show HN: A Karpathy-style LLM wiki your agents maintain (Markdown and Git)",
-          "imageUrl": "https://opengraph.githubassets.com/62a97fdb0daa238957cafd52f65ff64c918324eebd2dd8a7191b4271d066ccd1/nex-crm/wuphf"
         }
       ]
     }

@@ -2,10 +2,49 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-05-24T20:10:52.261Z</updated>
+    <updated>2026-05-24T21:59:52.870Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[CBP Directive 3340-049B: Border Search of Electronic Devices]]></title>
+        <id>https://news.ycombinator.com/item?id=48260140</id>
+        <link href="https://www.cbp.gov/document/directives/cbp-directive-no-3340-049b-border-search-electronic-devices"/>
+        <updated>2026-05-24T19:12:46.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.cbp.gov/document/directives/cbp-directive-no-3340-049b-border-search-electronic-devices
+Comments URL: https://news.ycombinator.com/item?id=48260140
+Points: 81
+# Comments: 22]]></summary>
+        <author>
+            <name>Ember_Wipe</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Australia Four-Day Work Week Study Data Shows Boosted Productivity]]></title>
+        <id>https://news.ycombinator.com/item?id=48259990</id>
+        <link href="https://scienceaim.com/australia-just-proved-the-four-day-work-week-works-here-is-what-the-data-actually-says/"/>
+        <updated>2026-05-24T18:56:09.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://scienceaim.com/australia-just-proved-the-four-day-work-week-works-here-is-what-the-data-actually-says/
+Comments URL: https://news.ycombinator.com/item?id=48259990
+Points: 104
+# Comments: 43]]></summary>
+        <author>
+            <name>randycupertino</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Migrating from Go to Rust]]></title>
+        <id>https://news.ycombinator.com/item?id=48259808</id>
+        <link href="https://corrode.dev/learn/migration-guides/go-to-rust/"/>
+        <updated>2026-05-24T18:31:42.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://corrode.dev/learn/migration-guides/go-to-rust/
+Comments URL: https://news.ycombinator.com/item?id=48259808
+Points: 77
+# Comments: 56]]></summary>
+        <author>
+            <name>jabits</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Claude Is Not Your Architect. Stop Letting It Pretend]]></title>
         <id>https://news.ycombinator.com/item?id=48259784</id>
@@ -17286,21 +17325,6 @@ Points: 74
 # Comments: 12]]></summary>
         <author>
             <name>ingve</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: A Karpathy-style LLM wiki your agents maintain (Markdown and Git)]]></title>
-        <id>https://news.ycombinator.com/item?id=47899844</id>
-        <link href="https://github.com/nex-crm/wuphf"/>
-        <updated>2026-04-25T08:53:53.000Z</updated>
-        <summary type="html"><![CDATA[I shipped a wiki layer for AI agents that uses markdown + git as the source of truth, with a bleve (BM25) + SQLite index on top. No vector or graph db yet.
-It runs locally in ~/.wuphf/wiki/ and you can git clone it out if you want to take your knowledge with you.
-The shape is the one Karpathy has been circling for a while: an LLM-native knowledge substrate that agents both read from and write into, so context compounds across sessions rather than getting re-pasted every morning. Most implementations of that idea land on Postgres, pgvector, Neo4j, Kafka, and a dashboard.
-I wanted to go back to the basics and see how far markdown + git could go before I added anything heavier.
-What it does:
--> Each agent gets a private notebook at agents/{slug}/notebook/.md, plus access to a shared team wiki…]]></summary>
-        <author>
-            <name>najmuzzaman</name>
         </author>
     </entry>
 </feed>

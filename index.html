@@ -22,8 +22,8 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2026-05-24 datetime="2026-05-24T18:28:11.000Z">2026-05-24</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2026-05-24 datetime="2026-05-24T18:28:11.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2026-05-24 datetime="2026-05-24T19:12:46.000Z">2026-05-24</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2026-05-24 datetime="2026-05-24T19:12:46.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
@@ -38,6 +38,74 @@
                   <a class="source-heading__link" href="https://news.ycombinator.com/">Open</a>
                 </h3>
                 <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;48260140"
+                        open
+                      >
+                        <summary class="article-expander__title">CBP Directive 3340-049B: Border Search of Electronic Devices</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.cbp.gov/document/directives/cbp-directive-no-3340-049b-border-search-electronic-devices">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Article URL: https://www.cbp.gov/document/directives/cbp-directive-no-3340-049b-border-search-electronic-devices
+Comments URL: https://news.ycombinator.com/item?id&#x3D;48260140
+Points: 81
+# Comments: 22</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;4
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;48259990"
+                        open
+                      >
+                        <summary class="article-expander__title">Australia Four-Day Work Week Study Data Shows Boosted Productivity</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://scienceaim.com/australia-just-proved-the-four-day-work-week-works-here-is-what-the-data-actually-says/">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://scienceaim.com/wp-content/uploads/2026/05/Screenshot_3.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Article URL: https://scienceaim.com/australia-just-proved-the-four-day-work-week-works-here-is-what-the-data-actually-says/
+Comments URL: https://news.ycombinator.com/item?id&#x3D;48259990
+Points: 104
+# Comments: 43</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;10
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;48259808"
+                        open
+                      >
+                        <summary class="article-expander__title">Migrating from Go to Rust</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://corrode.dev/learn/migration-guides/go-to-rust/">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://corrode.dev/learn/migration-guides/go-to-rust/social.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Article URL: https://corrode.dev/learn/migration-guides/go-to-rust/
+Comments URL: https://news.ycombinator.com/item?id&#x3D;48259808
+Points: 77
+# Comments: 56</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;27
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
                     <article>
                       <details
                         class="article-expander"
@@ -30360,31 +30428,6 @@ Points: 74
                         </a>
                       </details>
                     </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;47899844"
-                        open
-                      >
-                        <summary class="article-expander__title">Show HN: A Karpathy-style LLM wiki your agents maintain (Markdown and Git)</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://github.com/nex-crm/wuphf">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://opengraph.githubassets.com/62a97fdb0daa238957cafd52f65ff64c918324eebd2dd8a7191b4271d066ccd1/nex-crm/wuphf" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>I shipped a wiki layer for AI agents that uses markdown + git as the source of truth, with a bleve (BM25) + SQLite index on top. No vector or graph db yet.
-It runs locally in ~/.wuphf/wiki/ and you can git clone it out if you want to take your knowledge with you.
-The shape is the one Karpathy has been circling for a while: an LLM-native knowledge substrate that agents both read from and write into, so context compounds across sessions rather than getting re-pasted every morning. Most implementations of that idea land on Postgres, pgvector, Neo4j, Kafka, and a dashboard.
-I wanted to go back to the basics and see how far markdown + git could go before I added anything heavier.
-What it does:
--&gt; Each agent gets a private notebook at agents/{slug}/notebook/.md, plus access to a shared team wiki…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;25
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
                 </section>
               </section>
             </li>
@@ -30392,8 +30435,8 @@ What it does:
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/pipiscrew/flow/actions/runs/26371551341">
-        <time id="build-timestamp" datetime="2026-05-24T20:10:52.207Z">2026-05-24T20:10:52.207Z</time>
+      <a class="footer-link" href="https://github.com/pipiscrew/flow/actions/runs/26373891267">
+        <time id="build-timestamp" datetime="2026-05-24T21:59:52.814Z">2026-05-24T21:59:52.814Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
