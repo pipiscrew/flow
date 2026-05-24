@@ -6,6 +6,26 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=48256475",
+          "author": "tosh",
+          "description": "Article URL: https://mastering.dyalog.com/README.html\nComments URL: https://news.ycombinator.com/item?id=48256475\nPoints: 55\n# Comments: 4",
+          "link": "https://mastering.dyalog.com/README.html",
+          "publishedOn": "2026-05-24T11:42:15.000Z",
+          "wordCount": 518,
+          "title": "Mastering Dyalog APL",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48255593",
+          "author": "prakashqwerty",
+          "description": "Article URL: https://fs.blog/knowledge-project-podcast/greg-brockman/\nComments URL: https://news.ycombinator.com/item?id=48255593\nPoints: 113\n# Comments: 73",
+          "link": "https://fs.blog/knowledge-project-podcast/greg-brockman/",
+          "publishedOn": "2026-05-24T08:29:38.000Z",
+          "wordCount": 1845,
+          "title": "Greg Brockman: Inside the 72 Hours That Almost Killed OpenAI",
+          "imageUrl": "https://fs.blog/wp-content/uploads/2026/04/Cover-White-1024x1024.png"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=48254475",
           "author": "RyeCombinator",
           "description": "Article URL: https://www.adventuresinoss.com/aws-four-years/\nComments URL: https://news.ycombinator.com/item?id=48254475\nPoints: 186\n# Comments: 49",
@@ -956,6 +976,16 @@
           "imageUrl": null
         },
         {
+          "id": "https://news.ycombinator.com/item?id=48223997",
+          "author": "dougdude3339",
+          "description": "Article URL: https://www.dougmacdowell.com/50-hours-to-draw-some-lines.html\nComments URL: https://news.ycombinator.com/item?id=48223997\nPoints: 175\n# Comments: 27",
+          "link": "https://www.dougmacdowell.com/50-hours-to-draw-some-lines.html",
+          "publishedOn": "2026-05-21T15:05:28.000Z",
+          "wordCount": 1628,
+          "title": "I spent 50 hours drawing a line graph",
+          "imageUrl": "https://dougmacdowell.com/images/coffeematic-pc-coffee-maker-computer-temperature-analysis.webp"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=48223362",
           "author": "sanity",
           "description": "For the past 5 years or so I've been working on a ground-up redesign of Freenet, my peer-to-peer project from the early 2000s (now renamed Hyphanet).\nThe new Freenet has been up and running since December along with some early applications like River[1], our decentralized group chat and Delta - a decentralized CMS. Users have already started to build their own apps on Freenet including games, and we have some interesting apps in development like Atlas, a search/recommendation engine.\nArchitecturally, this new Freenet is a global, decentralized key-value store where keys are webassembly contracts which define what values (aka \"state\") are valid for that key, how or when the values can be mutated, and how the state can be efficiently synchronized between peers.\nWe've developed a unique (AFAI…",
@@ -1344,6 +1374,16 @@
           "wordCount": 1088,
           "title": "Why is Inkwell stuck in review",
           "imageUrl": "https://s3.amazonaws.com/micro.blog/opengraph/2026/05/19/5871173.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48210937",
+          "author": "animetyan",
+          "description": "Article URL: https://github.com/ClickHouse/silk\nComments URL: https://news.ycombinator.com/item?id=48210937\nPoints: 68\n# Comments: 7",
+          "link": "https://github.com/ClickHouse/silk",
+          "publishedOn": "2026-05-20T17:15:40.000Z",
+          "wordCount": 5641,
+          "title": "Silk: Open-source cooperative fiber scheduler",
+          "imageUrl": "https://opengraph.githubassets.com/1501f8553456e307e031e9c4daf8e0a22781c97e5e8cd37daf3b5be2d24d6814/ClickHouse/silk"
         },
         {
           "id": "https://news.ycombinator.com/item?id=48210644",
@@ -12964,66 +13004,6 @@
           "wordCount": 26427,
           "title": "Turbo Vision 2.0 – a modern port",
           "imageUrl": "https://repository-images.githubusercontent.com/184303095/5badcd00-9313-11ea-8554-4d4949084174"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47897891",
-          "author": "nreece",
-          "description": "Article URL: https://itsfoss.com/news/firefox-ships-brave-adblock-engine/\nComments URL: https://news.ycombinator.com/item?id=47897891\nPoints: 109\n# Comments: 44",
-          "link": "https://itsfoss.com/news/firefox-ships-brave-adblock-engine/",
-          "publishedOn": "2026-04-25T01:47:33.000Z",
-          "wordCount": 2573,
-          "title": "Firefox Has Integrated Brave's Adblock Engine",
-          "imageUrl": "https://itsfoss.com/content/images/2026/04/firefox-brave-adblock-rust-banner.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47897790",
-          "author": "alash3al",
-          "description": "Article URL: https://alash3al.github.io/stash?_v01\nComments URL: https://news.ycombinator.com/item?id=47897790\nPoints: 66\n# Comments: 23",
-          "link": "https://alash3al.github.io/stash?_v01",
-          "publishedOn": "2026-04-25T01:24:40.000Z",
-          "wordCount": 6755,
-          "title": "Open source memory layer so any AI agent can do what Claude.ai and ChatGPT do",
-          "imageUrl": "https://stash.alash3al.com/og-image.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47897706",
-          "author": "shankysingh",
-          "description": "Article URL: https://www.blender.org/user-stories/cosmology-with-geometry-nodes/\nComments URL: https://news.ycombinator.com/item?id=47897706\nPoints: 61\n# Comments: 1",
-          "link": "https://www.blender.org/user-stories/cosmology-with-geometry-nodes/",
-          "publishedOn": "2026-04-25T01:08:14.000Z",
-          "wordCount": 4006,
-          "title": "Cosmology with Geometry Nodes",
-          "imageUrl": "https://www.blender.org/wp-content/uploads/2026/01/CosmologyWithGN-480x270.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47897681",
-          "author": "rbanffy",
-          "description": "Article URL: https://unsung.aresluna.org/plain-text-has-been-around-for-decades-and-its-here-to-stay/\nComments URL: https://news.ycombinator.com/item?id=47897681\nPoints: 63\n# Comments: 10",
-          "link": "https://unsung.aresluna.org/plain-text-has-been-around-for-decades-and-its-here-to-stay/",
-          "publishedOn": "2026-04-25T01:03:09.000Z",
-          "wordCount": 310,
-          "title": "\"Plain text has been around for decades and it's here to stay.\" – Unsung",
-          "imageUrl": "https://unsung.aresluna.org/_media/plain-text-has-been-around-for-decades-and-its-here-to-stay/ogimage.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47897647",
-          "author": "pigeons",
-          "description": "Article URL: https://github.com/yuvadm/quantumslop/blob/25ad2e76ae58baa96f6219742459407db9dd17f5/URANDOM_DEMO.md\nComments URL: https://news.ycombinator.com/item?id=47897647\nPoints: 92\n# Comments: 12",
-          "link": "https://github.com/yuvadm/quantumslop/blob/25ad2e76ae58baa96f6219742459407db9dd17f5/URANDOM_DEMO.md",
-          "publishedOn": "2026-04-25T00:58:38.000Z",
-          "wordCount": 3982,
-          "title": "Replace IBM Quantum back end with /dev/urandom",
-          "imageUrl": "https://opengraph.githubassets.com/dd20bdd87354499b4da3683102de22da6f2cab80331acbcf67dd7b7dcdc1c14a/yuvadm/quantumslop"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47897349",
-          "author": "signor_bosco",
-          "description": "Article URL: https://www.ncregister.com/commentaries/schnell-repairing-the-ruins\nComments URL: https://news.ycombinator.com/item?id=47897349\nPoints: 51\n# Comments: 15",
-          "link": "https://www.ncregister.com/commentaries/schnell-repairing-the-ruins",
-          "publishedOn": "2026-04-25T00:11:43.000Z",
-          "wordCount": 3452,
-          "title": "Education must go beyond the mere production of words",
-          "imageUrl": "https://publisher-ncreg.s3.us-east-2.amazonaws.com/pb-ncregister/swp/hv9hms/media/20260413130448_4d60cd45bf09ec6c6458206316ebcdb787d8eff3f45c203e05d3b521f31886ef.jpg"
         }
       ]
     }
