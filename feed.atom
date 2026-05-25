@@ -2,10 +2,36 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-05-25T16:25:42.821Z</updated>
+    <updated>2026-05-25T18:46:57.201Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Uber’s COO says it’s getting harder to justify money spent on tokenmaxxing]]></title>
+        <id>https://news.ycombinator.com/item?id=48268871</id>
+        <link href="https://www.businessinsider.com/uber-coo-andrew-macdonald-ai-token-spending-harder-justify-2026-5"/>
+        <updated>2026-05-25T16:44:49.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.businessinsider.com/uber-coo-andrew-macdonald-ai-token-spending-harder-justify-2026-5
+Comments URL: https://news.ycombinator.com/item?id=48268871
+Points: 134
+# Comments: 161]]></summary>
+        <author>
+            <name>_____k</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[C extensions, portability, and alternative compilers]]></title>
+        <id>https://news.ycombinator.com/item?id=48267126</id>
+        <link href="https://lemon.rip/w/6-c-extensions-compilers/"/>
+        <updated>2026-05-25T14:15:19.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://lemon.rip/w/6-c-extensions-compilers/
+Comments URL: https://news.ycombinator.com/item?id=48267126
+Points: 94
+# Comments: 23]]></summary>
+        <author>
+            <name>xngbuilds</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Netherlands Seizes 800 Servers, Arrests 2 for Aiding Cyberattacks]]></title>
         <id>https://news.ycombinator.com/item?id=48266906</id>
@@ -17,6 +43,19 @@ Points: 109
 # Comments: 14]]></summary>
         <author>
             <name>jruohonen</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[2026 HIPAA Security Rule Update]]></title>
+        <id>https://news.ycombinator.com/item?id=48266895</id>
+        <link href="https://medcurity.com/hipaa-security-rule-2026-update/"/>
+        <updated>2026-05-25T13:55:28.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://medcurity.com/hipaa-security-rule-2026-update/
+Comments URL: https://news.ycombinator.com/item?id=48266895
+Points: 76
+# Comments: 66]]></summary>
+        <author>
+            <name>mooreds</name>
         </author>
     </entry>
     <entry>
@@ -121,6 +160,20 @@ Points: 76
 # Comments: 21]]></summary>
         <author>
             <name>rbanffy</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Geomatic – A command-driven geometry studio enabled with autodiff]]></title>
+        <id>https://news.ycombinator.com/item?id=48264635</id>
+        <link href="https://www.tinyvolt.com/geomatic"/>
+        <updated>2026-05-25T08:25:00.000Z</updated>
+        <summary type="html"><![CDATA[All commands have the format `output = \func inputs` or just `\function inputs`. Points and scalars are built on the fly. Eg `\line a b` to an empty canvas creates points `a` and `b`, and joins them with a line.
+One can use broadcasting semantics similar to NumPy and PyTorch in a visual setting (imagine creating a list of circles where one dim corresponds to radius and another to the center). One can also use backpropagation, run gradient descent or visualize vector fields. Almost everything is reactive so changing a variable updates all of the downstream geometry. It also allows anyone to write and load their own visualization, which can be broadcasted and differentiated through.
+Comments URL: https://news.ycombinator.com/item?id=48264635
+Points: 55
+# Comments: 13]]></summary>
+        <author>
+            <name>nivter</name>
         </author>
     </entry>
     <entry>
@@ -17089,32 +17142,6 @@ Points: 106
 # Comments: 17]]></summary>
         <author>
             <name>bjhess</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The West Forgot How to Make Things. Now It's Forgetting How to Code]]></title>
-        <id>https://news.ycombinator.com/item?id=47907879</id>
-        <link href="https://techtrenches.dev/p/the-west-forgot-how-to-make-things"/>
-        <updated>2026-04-26T06:24:42.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://techtrenches.dev/p/the-west-forgot-how-to-make-things
-Comments URL: https://news.ycombinator.com/item?id=47907879
-Points: 155
-# Comments: 63]]></summary>
-        <author>
-            <name>milkglass</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AGPLv3§74 Empowers Users to Thwart Badgeware Like OnlyOffice]]></title>
-        <id>https://news.ycombinator.com/item?id=47907543</id>
-        <link href="https://sfconservancy.org/blog/2026/apr/16/badgeware-onlyoffice-nextcloud-affero-gpl/"/>
-        <updated>2026-04-26T05:06:58.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://sfconservancy.org/blog/2026/apr/16/badgeware-onlyoffice-nextcloud-affero-gpl/
-Comments URL: https://news.ycombinator.com/item?id=47907543
-Points: 56
-# Comments: 9]]></summary>
-        <author>
-            <name>pabs3</name>
         </author>
     </entry>
 </feed>
