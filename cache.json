@@ -6,6 +6,46 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=48283914",
+          "author": "speckx",
+          "description": "Article URL: https://akselmo.dev/posts/stop-advertising-in-your-commits/\nComments URL: https://news.ycombinator.com/item?id=48283914\nPoints: 100\n# Comments: 70",
+          "link": "https://akselmo.dev/posts/stop-advertising-in-your-commits/",
+          "publishedOn": "2026-05-26T18:37:07.000Z",
+          "wordCount": 274,
+          "title": "Stop Advertising in Your Commits",
+          "imageUrl": "https://akselmo.dev/assets/images/oc/fefairy_avatar_small.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48281611",
+          "author": "ggcr",
+          "description": "Article URL: https://ericturner.dev/posts/cost-of-home-ownership/\nComments URL: https://news.ycombinator.com/item?id=48281611\nPoints: 115\n# Comments: 319",
+          "link": "https://ericturner.dev/posts/cost-of-home-ownership/",
+          "publishedOn": "2026-05-26T16:04:39.000Z",
+          "wordCount": 1720,
+          "title": "The real cost of owning a home",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48281539",
+          "author": "surprisetalk",
+          "description": "Article URL: https://dynomight.net/crc-rates/\nComments URL: https://news.ycombinator.com/item?id=48281539\nPoints: 106\n# Comments: 108",
+          "link": "https://dynomight.net/crc-rates/",
+          "publishedOn": "2026-05-26T16:00:21.000Z",
+          "wordCount": 1753,
+          "title": "Is \"colorectal cancer\" rising in \"young people\"?",
+          "imageUrl": "https://dynomight.net/img/crc-rates/little_girl_in_a_blue_armchair.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48281515",
+          "author": "tosh",
+          "description": "Article URL: https://journal.stuffwithstuff.com/2015/02/01/what-color-is-your-function/\nComments URL: https://news.ycombinator.com/item?id=48281515\nPoints: 59\n# Comments: 48",
+          "link": "https://journal.stuffwithstuff.com/2015/02/01/what-color-is-your-function/",
+          "publishedOn": "2026-05-26T15:58:32.000Z",
+          "wordCount": 3456,
+          "title": "What color is your function? (2015)",
+          "imageUrl": null
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=48281509",
           "author": "onemoresoop",
           "description": "Article URL: https://www.reuters.com/business/world-at-work/uber-lyft-drivers-massachusetts-form-first-us-ride-share-union-2026-05-26/\nComments URL: https://news.ycombinator.com/item?id=48281509\nPoints: 105\n# Comments: 36",
@@ -14,6 +54,16 @@
           "wordCount": null,
           "title": "Uber, Lyft drivers in Massachusetts form first US ride-share union",
           "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48281367",
+          "author": "crescit_eundo",
+          "description": "Article URL: https://www.owlposting.com/p/the-ballad-of-tigit\nComments URL: https://news.ycombinator.com/item?id=48281367\nPoints: 71\n# Comments: 12",
+          "link": "https://www.owlposting.com/p/the-ballad-of-tigit",
+          "publishedOn": "2026-05-26T15:47:32.000Z",
+          "wordCount": 6667,
+          "title": "The Ballad of TIGIT",
+          "imageUrl": "https://substackcdn.com/image/fetch/$s_!G4SA!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1a3da017-dc0e-4ab9-8356-e1ac23a8134a_2944x1648.png"
         },
         {
           "id": "https://news.ycombinator.com/item?id=48281226",
@@ -26,6 +76,16 @@
           "imageUrl": "/static/browse/0.3.4/images/arxiv-logo-fb.png"
         },
         {
+          "id": "https://news.ycombinator.com/item?id=48280729",
+          "author": "fchishtie",
+          "description": "Hey we’re Faiz and Saheed and we built Minicor so AI companies who need to integrate to desktop systems with no API can quickly build scalable desktop RPAs. Demo: https://www.youtube.com/watch?v=MD0GHZIJ1cw\nWe were working on non-RPA integrations when a customer promised to sign a deal in 2 days if we could unblock a sale of theirs that involved integrating with a clinic’s Windows based medical record system. We didn’t know it at the time but it turns out that building desktop RPAs at scale is extremely difficult because scripting is hard (learning the system, defining the automation, UIs changing constantly), orchestration is hard (is the VM up? queuing, parallelizing) and debugging is hard (zero observability, false positives, cascading failures). 30%+ failure rates are not uncommon. At scale we’ve seen cases of failed RPAs leading to thousands of support tickets a month.\nTo solve the problems we were facing, we built an MCP that Claude Code/Codex can use to navigate a virtual machine running desktop software with Python to create RPA workflows. The RPA workflows run as Python scripts for speed, cost, and determinism. These workflows can be triggered by API following any input/output schema specified, with video replays and logs stored with each run. The MCP can debug RPAs and make changes to the underlying code, all of which are version controlled. We also built tools for cloning VMs for parallelizing RPAs, and handling 2FA/OTP challenges. Plus since workflows are code based: we were also able to add triggers for Slack notifications, human-in-the-loop steps, or call an LLM to verify the state of a VM by passing a screenshot.\nWould love to hear your feedback and if you have any RPA horror stories! (:\nComments URL: https://news.ycombinator.com/item?id=48280729\nPoints: 55\n# Comments: 41",
+          "link": "https://www.minicor.com/",
+          "publishedOn": "2026-05-26T14:57:27.000Z",
+          "wordCount": 2278,
+          "title": "Launch HN: Minicor (YC P26) – Windows desktop automations at scale",
+          "imageUrl": "https://github.com/laminar-run/public-assets/blob/main/Business%20Banner%20Linkedin.png?raw=true"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=48280636",
           "author": "shmublu",
           "description": "Article URL: https://thebestworstcase.substack.com/p/dont-subscribe-so-casually\nComments URL: https://news.ycombinator.com/item?id=48280636\nPoints: 70\n# Comments: 55",
@@ -34,6 +94,26 @@
           "wordCount": null,
           "title": "Don't Subscribe So Casually",
           "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48279842",
+          "author": "ibobev",
+          "description": "Article URL: https://retrogamecoders.com/overhead-camera-view/\nComments URL: https://news.ycombinator.com/item?id=48279842\nPoints: 53\n# Comments: 7",
+          "link": "https://retrogamecoders.com/overhead-camera-view/",
+          "publishedOn": "2026-05-26T13:47:39.000Z",
+          "wordCount": 7405,
+          "title": "C64 Basic: Game Map Overhead \"Camera View\"",
+          "imageUrl": "https://retrogamecoders.com/wp-content/uploads/2026/05/C64-Viewport-Map-smaller.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48279453",
+          "author": "aghuang",
+          "description": "https://blog.dropbox.com/topics/company/dropbox-leadership-u...\nComments URL: https://news.ycombinator.com/item?id=48279453\nPoints: 157\n# Comments: 160",
+          "link": "https://www.cnbc.com/2026/05/26/dropbox-ceo-drew-houston-ashraf-alkarmi.html",
+          "publishedOn": "2026-05-26T13:18:33.000Z",
+          "wordCount": 16875,
+          "title": "Dropbox CEO Drew Houston to step down",
+          "imageUrl": "https://image.cnbcfm.com/api/v1/image/106782155-1604608931113-gettyimages-1177668394-WSJ_TECH_LIVE.jpeg?v=1676578588&w=1920&h=1080"
         },
         {
           "id": "https://news.ycombinator.com/item?id=48279321",
@@ -254,6 +334,16 @@
           "wordCount": null,
           "title": "Ferrari Luce",
           "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48271448",
+          "author": "zdw",
+          "description": "Article URL: https://unsung.aresluna.org/a-few-interesting-modern-pixel-fonts/\nComments URL: https://news.ycombinator.com/item?id=48271448\nPoints: 74\n# Comments: 19",
+          "link": "https://unsung.aresluna.org/a-few-interesting-modern-pixel-fonts/",
+          "publishedOn": "2026-05-25T20:41:49.000Z",
+          "wordCount": 374,
+          "title": "A few interesting modern pixel fonts",
+          "imageUrl": "https://unsung.aresluna.org/_media/a-few-interesting-modern-pixel-fonts/ogimage.png"
         },
         {
           "id": "https://news.ycombinator.com/item?id=48271327",
@@ -13034,46 +13124,6 @@
           "wordCount": 599,
           "title": "Quarkdown – Markdown with Superpowers",
           "imageUrl": "https://quarkdown.com/og-image.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47918961",
-          "author": "hisamafahri",
-          "description": "Article URL: https://robbowen.digital/wrote-about/abandoned-side-projects/\nComments URL: https://news.ycombinator.com/item?id=47918961\nPoints: 101\n# Comments: 46",
-          "link": "https://robbowen.digital/wrote-about/abandoned-side-projects/",
-          "publishedOn": "2026-04-27T08:11:16.000Z",
-          "wordCount": 1636,
-          "title": "It's OK to abandon your side-project (2024)",
-          "imageUrl": "https://robbowen.digital/assets/img/cards/abandoned-side-projects.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47918891",
-          "author": "ColinWright",
-          "description": "Article URL: https://apod.nasa.gov/apod/ap260427.html\nComments URL: https://news.ycombinator.com/item?id=47918891\nPoints: 64\n# Comments: 18",
-          "link": "https://apod.nasa.gov/apod/ap260427.html",
-          "publishedOn": "2026-04-27T07:59:37.000Z",
-          "wordCount": 285,
-          "title": "Can You Find the Comet?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47918657",
-          "author": "thunderbong",
-          "description": "Article URL: https://www.vice.com/en/article/meet-the-mushroom-that-make-people-have-the-exact-same-hallucination/\nComments URL: https://news.ycombinator.com/item?id=47918657\nPoints: 61\n# Comments: 42",
-          "link": "https://www.vice.com/en/article/meet-the-mushroom-that-make-people-have-the-exact-same-hallucination/",
-          "publishedOn": "2026-04-27T07:21:17.000Z",
-          "wordCount": 7992,
-          "title": "The Mushroom That Makes People Have the Exact Same Hallucination",
-          "imageUrl": "https://www.vice.com/wp-content/uploads/sites/2/2026/01/Meet-The-Mushroom-That-Make-People-Have-The-Exact-Same-Hallucination.jpg?w=1200"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47918549",
-          "author": "alin23",
-          "description": "Article URL: https://leblancfg.com/intensity-pad-founder-story.html\nComments URL: https://news.ycombinator.com/item?id=47918549\nPoints: 51\n# Comments: 42",
-          "link": "https://leblancfg.com/intensity-pad-founder-story.html",
-          "publishedOn": "2026-04-27T07:02:25.000Z",
-          "wordCount": 1284,
-          "title": "I Spent My Sabbatical Building a Power Meter for Sledgehammers",
-          "imageUrl": "https://avatars0.githubusercontent.com/u/15659410?s=400&u=e3bc92486becb34e77028eef0f4dfc302540fcb3&v=4"
         }
       ]
     }

@@ -2,10 +2,62 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-05-26T17:30:59.102Z</updated>
+    <updated>2026-05-26T20:20:25.771Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Stop Advertising in Your Commits]]></title>
+        <id>https://news.ycombinator.com/item?id=48283914</id>
+        <link href="https://akselmo.dev/posts/stop-advertising-in-your-commits/"/>
+        <updated>2026-05-26T18:37:07.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://akselmo.dev/posts/stop-advertising-in-your-commits/
+Comments URL: https://news.ycombinator.com/item?id=48283914
+Points: 100
+# Comments: 70]]></summary>
+        <author>
+            <name>speckx</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The real cost of owning a home]]></title>
+        <id>https://news.ycombinator.com/item?id=48281611</id>
+        <link href="https://ericturner.dev/posts/cost-of-home-ownership/"/>
+        <updated>2026-05-26T16:04:39.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://ericturner.dev/posts/cost-of-home-ownership/
+Comments URL: https://news.ycombinator.com/item?id=48281611
+Points: 115
+# Comments: 319]]></summary>
+        <author>
+            <name>ggcr</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Is "colorectal cancer" rising in "young people"?]]></title>
+        <id>https://news.ycombinator.com/item?id=48281539</id>
+        <link href="https://dynomight.net/crc-rates/"/>
+        <updated>2026-05-26T16:00:21.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://dynomight.net/crc-rates/
+Comments URL: https://news.ycombinator.com/item?id=48281539
+Points: 106
+# Comments: 108]]></summary>
+        <author>
+            <name>surprisetalk</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[What color is your function? (2015)]]></title>
+        <id>https://news.ycombinator.com/item?id=48281515</id>
+        <link href="https://journal.stuffwithstuff.com/2015/02/01/what-color-is-your-function/"/>
+        <updated>2026-05-26T15:58:32.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://journal.stuffwithstuff.com/2015/02/01/what-color-is-your-function/
+Comments URL: https://news.ycombinator.com/item?id=48281515
+Points: 59
+# Comments: 48]]></summary>
+        <author>
+            <name>tosh</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Uber, Lyft drivers in Massachusetts form first US ride-share union]]></title>
         <id>https://news.ycombinator.com/item?id=48281509</id>
@@ -17,6 +69,19 @@ Points: 105
 # Comments: 36]]></summary>
         <author>
             <name>onemoresoop</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Ballad of TIGIT]]></title>
+        <id>https://news.ycombinator.com/item?id=48281367</id>
+        <link href="https://www.owlposting.com/p/the-ballad-of-tigit"/>
+        <updated>2026-05-26T15:47:32.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.owlposting.com/p/the-ballad-of-tigit
+Comments URL: https://news.ycombinator.com/item?id=48281367
+Points: 71
+# Comments: 12]]></summary>
+        <author>
+            <name>crescit_eundo</name>
         </author>
     </entry>
     <entry>
@@ -33,6 +98,22 @@ Points: 92
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Launch HN: Minicor (YC P26) – Windows desktop automations at scale]]></title>
+        <id>https://news.ycombinator.com/item?id=48280729</id>
+        <link href="https://www.minicor.com/"/>
+        <updated>2026-05-26T14:57:27.000Z</updated>
+        <summary type="html"><![CDATA[Hey we’re Faiz and Saheed and we built Minicor so AI companies who need to integrate to desktop systems with no API can quickly build scalable desktop RPAs. Demo: https://www.youtube.com/watch?v=MD0GHZIJ1cw
+We were working on non-RPA integrations when a customer promised to sign a deal in 2 days if we could unblock a sale of theirs that involved integrating with a clinic’s Windows based medical record system. We didn’t know it at the time but it turns out that building desktop RPAs at scale is extremely difficult because scripting is hard (learning the system, defining the automation, UIs changing constantly), orchestration is hard (is the VM up? queuing, parallelizing) and debugging is hard (zero observability, false positives, cascading failures). 30%+ failure rates are not uncommon. At scale we’ve seen cases of failed RPAs leading to thousands of support tickets a month.
+To solve the problems we were facing, we built an MCP that Claude Code/Codex can use to navigate a virtual machine running desktop software with Python to create RPA workflows. The RPA workflows run as Python scripts for speed, cost, and determinism. These workflows can be triggered by API following any input/output schema specified, with video replays and logs stored with each run. The MCP can debug RPAs and make changes to the underlying code, all of which are version controlled. We also built tools for cloning VMs for parallelizing RPAs, and handling 2FA/OTP challenges. Plus since workflows are code based: we were also able to add triggers for Slack notifications, human-in-the-loop steps, or call an LLM to verify the state of a VM by passing a screenshot.
+Would love to hear your feedback and if you have any RPA horror stories! (:
+Comments URL: https://news.ycombinator.com/item?id=48280729
+Points: 55
+# Comments: 41]]></summary>
+        <author>
+            <name>fchishtie</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Don't Subscribe So Casually]]></title>
         <id>https://news.ycombinator.com/item?id=48280636</id>
         <link href="https://thebestworstcase.substack.com/p/dont-subscribe-so-casually"/>
@@ -43,6 +124,32 @@ Points: 70
 # Comments: 55]]></summary>
         <author>
             <name>shmublu</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[C64 Basic: Game Map Overhead "Camera View"]]></title>
+        <id>https://news.ycombinator.com/item?id=48279842</id>
+        <link href="https://retrogamecoders.com/overhead-camera-view/"/>
+        <updated>2026-05-26T13:47:39.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://retrogamecoders.com/overhead-camera-view/
+Comments URL: https://news.ycombinator.com/item?id=48279842
+Points: 53
+# Comments: 7]]></summary>
+        <author>
+            <name>ibobev</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Dropbox CEO Drew Houston to step down]]></title>
+        <id>https://news.ycombinator.com/item?id=48279453</id>
+        <link href="https://www.cnbc.com/2026/05/26/dropbox-ceo-drew-houston-ashraf-alkarmi.html"/>
+        <updated>2026-05-26T13:18:33.000Z</updated>
+        <summary type="html"><![CDATA[https://blog.dropbox.com/topics/company/dropbox-leadership-u...
+Comments URL: https://news.ycombinator.com/item?id=48279453
+Points: 157
+# Comments: 160]]></summary>
+        <author>
+            <name>aghuang</name>
         </author>
     </entry>
     <entry>
@@ -329,6 +436,19 @@ Points: 131
 # Comments: 292]]></summary>
         <author>
             <name>jumploops</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A few interesting modern pixel fonts]]></title>
+        <id>https://news.ycombinator.com/item?id=48271448</id>
+        <link href="https://unsung.aresluna.org/a-few-interesting-modern-pixel-fonts/"/>
+        <updated>2026-05-25T20:41:49.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://unsung.aresluna.org/a-few-interesting-modern-pixel-fonts/
+Comments URL: https://news.ycombinator.com/item?id=48271448
+Points: 74
+# Comments: 19]]></summary>
+        <author>
+            <name>zdw</name>
         </author>
     </entry>
     <entry>
@@ -17164,58 +17284,6 @@ Points: 54
 # Comments: 9]]></summary>
         <author>
             <name>amai</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[It's OK to abandon your side-project (2024)]]></title>
-        <id>https://news.ycombinator.com/item?id=47918961</id>
-        <link href="https://robbowen.digital/wrote-about/abandoned-side-projects/"/>
-        <updated>2026-04-27T08:11:16.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://robbowen.digital/wrote-about/abandoned-side-projects/
-Comments URL: https://news.ycombinator.com/item?id=47918961
-Points: 101
-# Comments: 46]]></summary>
-        <author>
-            <name>hisamafahri</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Can You Find the Comet?]]></title>
-        <id>https://news.ycombinator.com/item?id=47918891</id>
-        <link href="https://apod.nasa.gov/apod/ap260427.html"/>
-        <updated>2026-04-27T07:59:37.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://apod.nasa.gov/apod/ap260427.html
-Comments URL: https://news.ycombinator.com/item?id=47918891
-Points: 64
-# Comments: 18]]></summary>
-        <author>
-            <name>ColinWright</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Mushroom That Makes People Have the Exact Same Hallucination]]></title>
-        <id>https://news.ycombinator.com/item?id=47918657</id>
-        <link href="https://www.vice.com/en/article/meet-the-mushroom-that-make-people-have-the-exact-same-hallucination/"/>
-        <updated>2026-04-27T07:21:17.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.vice.com/en/article/meet-the-mushroom-that-make-people-have-the-exact-same-hallucination/
-Comments URL: https://news.ycombinator.com/item?id=47918657
-Points: 61
-# Comments: 42]]></summary>
-        <author>
-            <name>thunderbong</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[I Spent My Sabbatical Building a Power Meter for Sledgehammers]]></title>
-        <id>https://news.ycombinator.com/item?id=47918549</id>
-        <link href="https://leblancfg.com/intensity-pad-founder-story.html"/>
-        <updated>2026-04-27T07:02:25.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://leblancfg.com/intensity-pad-founder-story.html
-Comments URL: https://news.ycombinator.com/item?id=47918549
-Points: 51
-# Comments: 42]]></summary>
-        <author>
-            <name>alin23</name>
         </author>
     </entry>
 </feed>
