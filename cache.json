@@ -16,6 +16,16 @@
           "imageUrl": null
         },
         {
+          "id": "https://news.ycombinator.com/item?id=48285344",
+          "author": "oliverio",
+          "description": "Article URL: https://www.oliverio.dev/blog/the-worst-job-interview-i-had\nComments URL: https://news.ycombinator.com/item?id=48285344\nPoints: 111\n# Comments: 81",
+          "link": "https://www.oliverio.dev/blog/the-worst-job-interview-i-had",
+          "publishedOn": "2026-05-26T20:11:49.000Z",
+          "wordCount": 1400,
+          "title": "The worst job interview I ever had",
+          "imageUrl": "https://oliverio.dev/og?title=The%20worst%20job%20interview%20I%20ever%20had"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=48284712",
           "author": "nooks",
           "description": "Article URL: https://www.science.org/content/blog-post/methyl-methacrylate-tank\nComments URL: https://news.ycombinator.com/item?id=48284712\nPoints: 121\n# Comments: 41",
@@ -1416,6 +1426,16 @@
           "imageUrl": "https://opengraph.githubassets.com/4a3813554b303732a0892bad6ea0ffb9bd60f7eee6e3bfd6250e4b9534e7674d/yt-dlp/yt-dlp/issues/16766"
         },
         {
+          "id": "https://news.ycombinator.com/item?id=48238703",
+          "author": "dustin1114",
+          "description": "Article URL: https://www.djspeckhals.com/posts/2026-05-22-how-i-bypassed-adobe-and-microsoft-to-build-a-git-tracked-book-production-pipeline/\nComments URL: https://news.ycombinator.com/item?id=48238703\nPoints: 145\n# Comments: 36",
+          "link": "https://www.djspeckhals.com/posts/2026-05-22-how-i-bypassed-adobe-and-microsoft-to-build-a-git-tracked-book-production-pipeline/",
+          "publishedOn": "2026-05-22T17:17:43.000Z",
+          "wordCount": 2187,
+          "title": "I Bypassed Adobe and Microsoft to Build a Git-Tracked Book Production Pipeline",
+          "imageUrl": "https://www.djspeckhals.com/images/typesetting-unsplash.jpg"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=48238568",
           "author": "weaponeer",
           "description": "Article URL: https://www.1940airterminal.org/news/liquidation-of-simulators\nComments URL: https://news.ycombinator.com/item?id=48238568\nPoints: 52\n# Comments: 11",
@@ -1494,6 +1514,16 @@
           "wordCount": 584,
           "title": "Don't put aria-label on generic elements like divs",
           "imageUrl": "https://res.cloudinary.com/dp3mem7or/image/upload/w_1200/articles/sm_aria-label-generic.png?s=050326"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48237012",
+          "author": "evakhoury",
+          "description": "Article URL: https://jry.io/writing/use-boring-languages-with-llms/\nComments URL: https://news.ycombinator.com/item?id=48237012\nPoints: 159\n# Comments: 129",
+          "link": "https://jry.io/writing/use-boring-languages-with-llms/",
+          "publishedOn": "2026-05-22T15:10:22.000Z",
+          "wordCount": 1530,
+          "title": "Use boring languages with LLMs",
+          "imageUrl": "https://jry.io/writing/use-boring-languages-with-llms/python_environment_2x.png"
         },
         {
           "id": "https://news.ycombinator.com/item?id=48236887",
@@ -13084,46 +13114,6 @@
           "wordCount": 3930,
           "title": "Show HN: OSS Agent I built topped the TerminalBench on Gemini-3-flash-preview",
           "imageUrl": "https://repository-images.githubusercontent.com/1202290616/3387b54d-bb91-4e2a-a35b-b933836bafad"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47920315",
-          "author": "yakkomajuri",
-          "description": "https://www.reuters.com/world/asia-pacific/china-blocks-fore...\nhttps://www.bbc.com/news/articles/cj0v0gr2yz7o\nComments URL: https://news.ycombinator.com/item?id=47920315\nPoints: 83\n# Comments: 36",
-          "link": "https://www.cnbc.com/2026/04/27/meta-manus-china-blocks-acquisition-ai-startup.html",
-          "publishedOn": "2026-04-27T11:43:59.000Z",
-          "wordCount": 14658,
-          "title": "China blocks Meta's acquisition of AI startup Manus",
-          "imageUrl": "https://image.cnbcfm.com/api/v1/image/108279325-1773812817915-gettyimages-2255015559-img_4584.jpeg?v=1773812854&w=1920&h=1080"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47920289",
-          "author": "garritfra",
-          "description": "While speccing out this spreadsheet tool, I realized that I never had to think about the keybindings. It all just came naturally from Vim. Normal/insert/visual modes, hjkl navigation, dd/yy/p, :w, :q. The usual muscle memory works.\nIt supports CSV/TSV import and export, and a native .cell format that preserves formulas. The formula engine handles SUM, AVERAGE, COUNT, MIN, MAX, and IF with range references.\nThe codebase is a Cargo workspace: a pure cell-sheet-core library (no TUI dependency) and a cell-sheet-tui crate on top of ratatui. Early days, but it's usable.\nTo try it out:\ncargo install cell-sheet-tui\nFeedback of any kind is greatly appreciated!\nComments URL: https://news.ycombinator.com/item?id=47920289\nPoints: 50\n# Comments: 24",
-          "link": "https://github.com/garritfra/cell",
-          "publishedOn": "2026-04-27T11:39:49.000Z",
-          "wordCount": 4405,
-          "title": "Show HN: A terminal spreadsheet editor with Vim keybindings",
-          "imageUrl": "https://opengraph.githubassets.com/890ee489052e270ee7b58f8c9cab33b6e6fd90838a2e66cfa20cce3e7febfc74/garritfra/cell"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47920074",
-          "author": "aselimov3",
-          "description": "Article URL: https://www.alexselimov.com/posts/men_who_stare_at_walls/\nComments URL: https://news.ycombinator.com/item?id=47920074\nPoints: 64\n# Comments: 31",
-          "link": "https://www.alexselimov.com/posts/men_who_stare_at_walls/",
-          "publishedOn": "2026-04-27T11:08:26.000Z",
-          "wordCount": 596,
-          "title": "Men Who Stare at Walls",
-          "imageUrl": "https://www.alexselimov.com/images/social_card_bg_hu_127c2191fa265490.webp"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47919997",
-          "author": "c0l0",
-          "description": "Article URL: https://github.com/pgbackrest/pgbackrest\nComments URL: https://news.ycombinator.com/item?id=47919997\nPoints: 70\n# Comments: 17",
-          "link": "https://github.com/pgbackrest/pgbackrest",
-          "publishedOn": "2026-04-27T10:56:34.000Z",
-          "wordCount": 5925,
-          "title": "Pgbackrest is no longer being maintained",
-          "imageUrl": "https://opengraph.githubassets.com/beb0889337e1ef0dadace087f246eef118212b557b3130e0d5077c0da30f382d/pgbackrest/pgbackrest"
         }
       ]
     }
