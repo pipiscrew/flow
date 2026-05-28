@@ -2,10 +2,49 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-05-27T23:21:09.170Z</updated>
+    <updated>2026-05-28T04:11:55.073Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Google employee charged with $1M Polymarket insider trading bet on search term]]></title>
+        <id>https://news.ycombinator.com/item?id=48302822</id>
+        <link href="https://www.cnbc.com/2026/05/27/google-employee-polymarket-insider-trading.html"/>
+        <updated>2026-05-28T00:49:58.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.cnbc.com/2026/05/27/google-employee-polymarket-insider-trading.html
+Comments URL: https://news.ycombinator.com/item?id=48302822
+Points: 64
+# Comments: 30]]></summary>
+        <author>
+            <name>pseudolus</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Can we have the day off?]]></title>
+        <id>https://news.ycombinator.com/item?id=48302745</id>
+        <link href="https://mlsu.io/posts/day-off/"/>
+        <updated>2026-05-28T00:40:26.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://mlsu.io/posts/day-off/
+Comments URL: https://news.ycombinator.com/item?id=48302745
+Points: 657
+# Comments: 385]]></summary>
+        <author>
+            <name>mlsu</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[FBI Arrests CIA Official with $40M in Gold Bars in His Home]]></title>
+        <id>https://news.ycombinator.com/item?id=48302151</id>
+        <link href="https://www.nytimes.com/2026/05/27/us/politics/fbi-arrest-cia-official-gold-bars.html"/>
+        <updated>2026-05-27T23:23:29.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.nytimes.com/2026/05/27/us/politics/fbi-arrest-cia-official-gold-bars.html
+Comments URL: https://news.ycombinator.com/item?id=48302151
+Points: 162
+# Comments: 89]]></summary>
+        <author>
+            <name>cwwc</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[YouTube to automatically label AI-generated videos]]></title>
         <id>https://news.ycombinator.com/item?id=48299753</id>
@@ -30,6 +69,19 @@ Points: 141
 # Comments: 65]]></summary>
         <author>
             <name>nopg</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[I'm Getting into Mesh Networks (Meshtastic, MeshCore, and Reticulum)]]></title>
+        <id>https://news.ycombinator.com/item?id=48299638</id>
+        <link href="https://www.jonaharagon.com/posts/im-getting-into-mesh-networks-meshtastic-meshcore-and-reticulum/"/>
+        <updated>2026-05-27T19:52:49.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.jonaharagon.com/posts/im-getting-into-mesh-networks-meshtastic-meshcore-and-reticulum/
+Comments URL: https://news.ycombinator.com/item?id=48299638
+Points: 103
+# Comments: 35]]></summary>
+        <author>
+            <name>Panda_</name>
         </author>
     </entry>
     <entry>
@@ -17219,251 +17271,6 @@ Points: 121
 # Comments: 35]]></summary>
         <author>
             <name>bo0tzz</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Anthropic Joins the Blender Development Fund as Corporate Patron]]></title>
-        <id>https://news.ycombinator.com/item?id=47936370</id>
-        <link href="https://www.blender.org/press/anthropic-joins-the-blender-development-fund-as-corporate-patron/"/>
-        <updated>2026-04-28T16:07:58.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.blender.org/press/anthropic-joins-the-blender-development-fund-as-corporate-patron/
-Comments URL: https://news.ycombinator.com/item?id=47936370
-Points: 116
-# Comments: 88]]></summary>
-        <author>
-            <name>Philpax</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AISLE Discovers 38 CVEs in OpenEMR Healthcare Software]]></title>
-        <id>https://news.ycombinator.com/item?id=47936347</id>
-        <link href="https://aisle.com/blog/aisle-discovers-38-critical-security-vulnerabilities-in-healthcare-software-used-by-100000-providers"/>
-        <updated>2026-04-28T16:06:01.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://aisle.com/blog/aisle-discovers-38-critical-security-vulnerabilities-in-healthcare-software-used-by-100000-providers
-Comments URL: https://news.ycombinator.com/item?id=47936347
-Points: 125
-# Comments: 73]]></summary>
-        <author>
-            <name>mmsc</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: Drive any macOS app in the background without stealing the cursor]]></title>
-        <id>https://news.ycombinator.com/item?id=47936312</id>
-        <link href="https://github.com/trycua/cua"/>
-        <updated>2026-04-28T16:03:34.000Z</updated>
-        <summary type="html"><![CDATA[Hi HN, Francesco from Cua here.
-I hacked this project together last weekend, inspired by the Codex Computer-Use release and lessons learned from deploying GUI-operating agents for our customers.
-The main problem: when a UI automation process controls a desktop app today, it usually takes over the human’s session. Your cursor moves, keyboard focus gets stolen, windows jump to the front, and you have to stop working until the agent is done. That is why we have historically avoided encouraging users to run these processes directly on their host machine, instead relying on VMs or GUI containers for concurrency and background execution.
-But computer-use - the tools we give agents to operate computers like humans - does not scale cleanly that way. As models get smarter, agents need to share host…]]></summary>
-        <author>
-            <name>frabonacci</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Warp is now open-source]]></title>
-        <id>https://news.ycombinator.com/item?id=47936264</id>
-        <link href="https://www.warp.dev/blog/warp-is-now-open-source"/>
-        <updated>2026-04-28T15:58:30.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.warp.dev/blog/warp-is-now-open-source
-Comments URL: https://news.ycombinator.com/item?id=47936264
-Points: 73
-# Comments: 30]]></summary>
-        <author>
-            <name>meetpateltech</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[FCC Funding Application Notes Paramount Will Be 49.5% Foreign-Owned Post-Merger]]></title>
-        <id>https://news.ycombinator.com/item?id=47936210</id>
-        <link href="https://deadline.com/2026/04/paramount-fcc-request-wbd-merger-middle-east-1236873732/"/>
-        <updated>2026-04-28T15:54:21.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://deadline.com/2026/04/paramount-fcc-request-wbd-merger-middle-east-1236873732/
-Comments URL: https://news.ycombinator.com/item?id=47936210
-Points: 50
-# Comments: 12]]></summary>
-        <author>
-            <name>throw0101c</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Auto Polo]]></title>
-        <id>https://news.ycombinator.com/item?id=47936184</id>
-        <link href="https://en.wikipedia.org/wiki/Auto_polo"/>
-        <updated>2026-04-28T15:51:37.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://en.wikipedia.org/wiki/Auto_polo
-Comments URL: https://news.ycombinator.com/item?id=47936184
-Points: 65
-# Comments: 18]]></summary>
-        <author>
-            <name>canjobear</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Google and Pentagon reportedly agree on deal for 'any lawful' use of AI]]></title>
-        <id>https://news.ycombinator.com/item?id=47936156</id>
-        <link href="https://www.theverge.com/ai-artificial-intelligence/919494/google-pentagon-classified-ai-deal"/>
-        <updated>2026-04-28T15:49:22.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.theverge.com/ai-artificial-intelligence/919494/google-pentagon-classified-ai-deal
-Comments URL: https://news.ycombinator.com/item?id=47936156
-Points: 88
-# Comments: 55]]></summary>
-        <author>
-            <name>granzymes</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Your phone is about to stop being yours]]></title>
-        <id>https://news.ycombinator.com/item?id=47935853</id>
-        <link href="https://keepandroidopen.org/en/"/>
-        <updated>2026-04-28T15:21:00.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://keepandroidopen.org/en/
-Comments URL: https://news.ycombinator.com/item?id=47935853
-Points: 186
-# Comments: 92]]></summary>
-        <author>
-            <name>doener</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: Rocky – Rust SQL engine with branches, replay, column lineage]]></title>
-        <id>https://news.ycombinator.com/item?id=47935246</id>
-        <link href="https://github.com/rocky-data/rocky"/>
-        <updated>2026-04-28T14:35:59.000Z</updated>
-        <summary type="html"><![CDATA[Hi HN, I'm Hugo. I've been building Rocky over the past month, shipping fast in the open. The binary is on GitHub Releases, `dagster-rocky` on PyPI, and the VS Code extension on the Marketplace. I held off on a broader announcement until the trust-system surface was coherent enough to talk about as one thing. The governance waveplan — column classification, per-env masking, 8-field audit trail on every run, `rocky compliance` rollup, role-graph reconciliation, retention policies — landed end-to-end last week in engine-v1.16.0 and rounded out in v1.17.4 (tagged 2026-04-26). That's the milestone I'd been waiting for.
-The pitch: keep Databricks or Snowflake. Bring Rocky for the DAG. Rocky is a Rust-based control plane for warehouse pipelines. Storage and compute stay with your warehouse. Rock…]]></summary>
-        <author>
-            <name>hugocorreia90</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[OpenAI CEO's Identity Verification Company Announced Fake Bruno Mars Partnership]]></title>
-        <id>https://news.ycombinator.com/item?id=47934269</id>
-        <link href="https://www.vice.com/en/article/openai-ceo-identity-verification-company-fake-bruno-mars-partnership-mistaken-identity/"/>
-        <updated>2026-04-28T13:26:26.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.vice.com/en/article/openai-ceo-identity-verification-company-fake-bruno-mars-partnership-mistaken-identity/
-Comments URL: https://news.ycombinator.com/item?id=47934269
-Points: 52
-# Comments: 21]]></summary>
-        <author>
-            <name>BoggleOhYeah</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: Live Sun and Moon Dashboard with NASA Footage]]></title>
-        <id>https://news.ycombinator.com/item?id=47934261</id>
-        <link href="https://www.lumara-space.app/"/>
-        <updated>2026-04-28T13:25:48.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.lumara-space.app/
-Comments URL: https://news.ycombinator.com/item?id=47934261
-Points: 81
-# Comments: 19]]></summary>
-        <author>
-            <name>beeswaxpat</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[UAE Leaves OPEC and OPEC+]]></title>
-        <id>https://news.ycombinator.com/item?id=47934120</id>
-        <link href="https://www.reuters.com/markets/commodities/uae-says-it-quits-opec-opec-statement-2026-04-28/"/>
-        <updated>2026-04-28T13:13:54.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.reuters.com/markets/commodities/uae-says-it-quits-opec-opec-statement-2026-04-28/
-Comments URL: https://news.ycombinator.com/item?id=47934120
-Points: 73
-# Comments: 3]]></summary>
-        <author>
-            <name>TechTechTech</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[UAE to leave OPEC in blow to oil cartel]]></title>
-        <id>https://news.ycombinator.com/item?id=47933983</id>
-        <link href="https://www.ft.com/content/8c354f2d-3e66-47f1-aad4-9b4aa30e386d"/>
-        <updated>2026-04-28T13:02:01.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.ft.com/content/8c354f2d-3e66-47f1-aad4-9b4aa30e386d
-Comments URL: https://news.ycombinator.com/item?id=47933983
-Points: 106
-# Comments: 96]]></summary>
-        <author>
-            <name>bazzmt</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A Primer on Bézier Curves – So What Makes a Bézier Curve?]]></title>
-        <id>https://news.ycombinator.com/item?id=47933934</id>
-        <link href="https://pomax.github.io/bezierinfo/"/>
-        <updated>2026-04-28T12:57:53.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://pomax.github.io/bezierinfo/
-Comments URL: https://news.ycombinator.com/item?id=47933934
-Points: 90
-# Comments: 19]]></summary>
-        <author>
-            <name>mostlyk</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GitHub Actions is the weakest link]]></title>
-        <id>https://news.ycombinator.com/item?id=47933257</id>
-        <link href="https://nesbitt.io/2026/04/28/github-actions-is-the-weakest-link.html"/>
-        <updated>2026-04-28T11:58:14.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://nesbitt.io/2026/04/28/github-actions-is-the-weakest-link.html
-Comments URL: https://news.ycombinator.com/item?id=47933257
-Points: 66
-# Comments: 13]]></summary>
-        <author>
-            <name>dochtman</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Microsoft VibeVoice: Open-Source Frontier Voice AI]]></title>
-        <id>https://news.ycombinator.com/item?id=47933236</id>
-        <link href="https://github.com/microsoft/VibeVoice"/>
-        <updated>2026-04-28T11:56:04.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://github.com/microsoft/VibeVoice
-Comments URL: https://news.ycombinator.com/item?id=47933236
-Points: 108
-# Comments: 64]]></summary>
-        <author>
-            <name>tosh</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Localsend: An open-source cross-platform alternative to AirDrop]]></title>
-        <id>https://news.ycombinator.com/item?id=47933208</id>
-        <link href="https://github.com/localsend/localsend"/>
-        <updated>2026-04-28T11:54:20.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://github.com/localsend/localsend
-Comments URL: https://news.ycombinator.com/item?id=47933208
-Points: 242
-# Comments: 99]]></summary>
-        <author>
-            <name>bilsbie</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Period tracking app has been yapping about your flow to Meta]]></title>
-        <id>https://news.ycombinator.com/item?id=47932990</id>
-        <link href="https://femtechdesigndesk.substack.com/p/your-period-tracking-app-has-been"/>
-        <updated>2026-04-28T11:31:40.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://femtechdesigndesk.substack.com/p/your-period-tracking-app-has-been
-Comments URL: https://news.ycombinator.com/item?id=47932990
-Points: 115
-# Comments: 96]]></summary>
-        <author>
-            <name>campuscodi</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Who owns the code Claude Code wrote?]]></title>
-        <id>https://news.ycombinator.com/item?id=47932937</id>
-        <link href="https://legallayer.substack.com/p/who-owns-the-claude-code-wrote"/>
-        <updated>2026-04-28T11:24:52.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://legallayer.substack.com/p/who-owns-the-claude-code-wrote
-Comments URL: https://news.ycombinator.com/item?id=47932937
-Points: 94
-# Comments: 112]]></summary>
-        <author>
-            <name>senaevren</name>
         </author>
     </entry>
 </feed>
