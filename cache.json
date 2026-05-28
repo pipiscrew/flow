@@ -6,6 +6,36 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=48307231",
+          "author": "teleforce",
+          "description": "Article URL: https://itsfoss.com/news/amd-vivado-bait-and-switch-on-linux-users/\nComments URL: https://news.ycombinator.com/item?id=48307231\nPoints: 88\n# Comments: 28",
+          "link": "https://itsfoss.com/news/amd-vivado-bait-and-switch-on-linux-users/",
+          "publishedOn": "2026-05-28T10:56:55.000Z",
+          "wordCount": 2907,
+          "title": "AMD pulls a bait-and-switch on Linux users with Vivado licensing changes",
+          "imageUrl": "https://itsfoss.com/content/images/2026/05/amd-vivado-licensing-change-banner.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48307098",
+          "author": "1vuio0pswjnm7",
+          "description": "Article URL: https://www.axios.com/2026/05/28/ai-spending-roi-enterprise-costs\nComments URL: https://news.ycombinator.com/item?id=48307098\nPoints: 62\n# Comments: 31",
+          "link": "https://www.axios.com/2026/05/28/ai-spending-roi-enterprise-costs",
+          "publishedOn": "2026-05-28T10:39:32.000Z",
+          "wordCount": null,
+          "title": "AI sticker shock hits corporate America",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48305446",
+          "author": "kunalsin9h",
+          "description": "Article URL: https://iisc.ac.in/a-eureka-machine-that-thinks-like-nature-and-explores-what-ai-cannot/\nComments URL: https://news.ycombinator.com/item?id=48305446\nPoints: 100\n# Comments: 30",
+          "link": "https://iisc.ac.in/a-eureka-machine-that-thinks-like-nature-and-explores-what-ai-cannot/",
+          "publishedOn": "2026-05-28T06:40:31.000Z",
+          "wordCount": 3334,
+          "title": "A Eureka machine that thinks like nature and explores what AI cannot",
+          "imageUrl": "https://iisc.ac.in/wp-content/uploads/2018/03/IISc-logo.jpg"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=48304260",
           "author": "stagas",
           "description": "Article URL: https://hallucinate.site\nComments URL: https://news.ycombinator.com/item?id=48304260\nPoints: 176\n# Comments: 70",
@@ -584,6 +614,16 @@
           "wordCount": 7405,
           "title": "C64 Basic: Game Map Overhead \"Camera View\"",
           "imageUrl": "https://retrogamecoders.com/wp-content/uploads/2026/05/C64-Viewport-Map-smaller.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48279507",
+          "author": "ibobev",
+          "description": "Article URL: https://retrogamecoders.com/zero-lines-maze/\nComments URL: https://news.ycombinator.com/item?id=48279507\nPoints: 57\n# Comments: 19",
+          "link": "https://retrogamecoders.com/zero-lines-maze/",
+          "publishedOn": "2026-05-26T13:22:36.000Z",
+          "wordCount": 5952,
+          "title": "Zero Lines Maze: What the 8-Bit Guy's One-Liner Can Still Teach Us",
+          "imageUrl": "https://retrogamecoders.com/wp-content/uploads/2026/05/c64-basic-8-BIT-GUY-RANDOM-MAZE.png"
         },
         {
           "id": "https://news.ycombinator.com/item?id=48279453",
@@ -12924,76 +12964,6 @@
           "wordCount": 4161,
           "title": "Maladaptive Frugality",
           "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47942492",
-          "author": "thomashobohm",
-          "description": "Not sure if anybody else has experienced this, but for my job I've been playing around with Claude Managed Agents to run code generation tasks in our repo. Every read operation in the managed agent is appended with a system prompt instructing Claude to scan the file for malware; Claude then wastes a bunch of time and tokens (money) performing the analysis; then, once the agent has confirmed that it is not malware, it still interprets the appended prompt to mean that it is disallowed to augment or write any code, and quits. And we're charged for every session that this happens in. Posting here because apparently they only addressed the issue in the past because of a Hacker News discussion. So here's hoping they'll see this and prioritize fixing it again so we can stop losing money.\nComments URL: https://news.ycombinator.com/item?id=47942492\nPoints: 168\n# Comments: 61",
-          "link": "https://github.com/anthropics/claude-code/issues/49363",
-          "publishedOn": "2026-04-28T23:59:57.000Z",
-          "wordCount": 6905,
-          "title": "Regression: malware reminder on every read still causes subagent refusals",
-          "imageUrl": "https://opengraph.githubassets.com/1064771c48ee8924f01657569f38b44040f2a114639cd110cdf58bf25a4cd0db/anthropics/claude-code/issues/49363"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47942437",
-          "author": "lmbbuchodi",
-          "description": "Article URL: https://www.buchodi.com/how-chatgpt-serves-ads-heres-the-full-attribution-loop/\nComments URL: https://news.ycombinator.com/item?id=47942437\nPoints: 195\n# Comments: 132",
-          "link": "https://www.buchodi.com/how-chatgpt-serves-ads-heres-the-full-attribution-loop/",
-          "publishedOn": "2026-04-28T23:54:14.000Z",
-          "wordCount": 946,
-          "title": "How ChatGPT serves ads",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47942386",
-          "author": "elsewhen",
-          "description": "Article URL: https://www.anthropic.com/news/claude-for-creative-work\nComments URL: https://news.ycombinator.com/item?id=47942386\nPoints: 77\n# Comments: 48",
-          "link": "https://www.anthropic.com/news/claude-for-creative-work",
-          "publishedOn": "2026-04-28T23:46:56.000Z",
-          "wordCount": 2168,
-          "title": "Claude for Creative Work",
-          "imageUrl": "https://www.anthropic.com/api/opengraph-illustration?name=Hand%20ShapeArrow&backgroundColor=cactus"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47942353",
-          "author": "HeyMeco",
-          "description": "Article URL: https://www.lttlabs.com/articles/2026/04/11/apple-studio-display-xdr-display-testing-results\nComments URL: https://news.ycombinator.com/item?id=47942353\nPoints: 66\n# Comments: 2",
-          "link": "https://www.lttlabs.com/articles/2026/04/11/apple-studio-display-xdr-display-testing-results",
-          "publishedOn": "2026-04-28T23:43:53.000Z",
-          "wordCount": null,
-          "title": "Apple CMF (Color-Matching Functions) 2026",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47941931",
-          "author": "CGMthrowaway",
-          "description": "Article URL: https://www.amusingplanet.com/2022/08/london-to-calcutta-by-bus.html\nComments URL: https://news.ycombinator.com/item?id=47941931\nPoints: 50\n# Comments: 18",
-          "link": "https://www.amusingplanet.com/2022/08/london-to-calcutta-by-bus.html",
-          "publishedOn": "2026-04-28T22:52:22.000Z",
-          "wordCount": 6955,
-          "title": "London to Calcutta by Bus (2022)",
-          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEitSZVWkxBUwRGVuAIDgsFZwzwABuvFOMldax7rYiZkLOBsGa9QD-UoJXPsKDtYn-YSP1f8ArKD8VpGVK9Wdo-v1aZk-AduIoQMKW31iBQiu4cEfnmUU9mw66uEM25fv-qKAlnk09OLw_O38mc7h4BQYuFDtvG1lMRkEZchk7czvChHriOhToJJEEmc/w600-h314-p-k-no-nu/london-to-calcutta-18.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47940921",
-          "author": "mlex",
-          "description": "Article URL: https://lucumr.pocoo.org/2026/4/28/before-github/\nComments URL: https://news.ycombinator.com/item?id=47940921\nPoints: 55\n# Comments: 9",
-          "link": "https://lucumr.pocoo.org/2026/4/28/before-github/",
-          "publishedOn": "2026-04-28T21:17:40.000Z",
-          "wordCount": 2675,
-          "title": "Before GitHub",
-          "imageUrl": "https://lucumr.pocoo.org/social/2026-04-28-before-github-social.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47940789",
-          "author": "oceansky",
-          "description": "Article URL: https://www.tomshardware.com/video-games/pc-gaming/denuvo-has-been-bypassed-in-all-single-player-games-it-previously-protected-2k-games-and-denuvo-reportedly-retaliate-with-mandatory-14-day-online-checks\nComments URL: https://news.ycombinator.com/item?id=47940789\nPoints: 154\n# Comments: 57",
-          "link": "https://www.tomshardware.com/video-games/pc-gaming/denuvo-has-been-bypassed-in-all-single-player-games-it-previously-protected-2k-games-and-denuvo-reportedly-retaliate-with-mandatory-14-day-online-checks",
-          "publishedOn": "2026-04-28T21:08:29.000Z",
-          "wordCount": 39137,
-          "title": "Denuvo has been cracked in all single-player games it previously protected",
-          "imageUrl": "https://cdn.mos.cms.futurecdn.net/NgNprVVnWz46KEcoC6U6V8-2048-80.jpg"
         }
       ]
     }

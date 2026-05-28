@@ -2,10 +2,49 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-05-28T08:47:40.691Z</updated>
+    <updated>2026-05-28T12:34:27.813Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[AMD pulls a bait-and-switch on Linux users with Vivado licensing changes]]></title>
+        <id>https://news.ycombinator.com/item?id=48307231</id>
+        <link href="https://itsfoss.com/news/amd-vivado-bait-and-switch-on-linux-users/"/>
+        <updated>2026-05-28T10:56:55.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://itsfoss.com/news/amd-vivado-bait-and-switch-on-linux-users/
+Comments URL: https://news.ycombinator.com/item?id=48307231
+Points: 88
+# Comments: 28]]></summary>
+        <author>
+            <name>teleforce</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AI sticker shock hits corporate America]]></title>
+        <id>https://news.ycombinator.com/item?id=48307098</id>
+        <link href="https://www.axios.com/2026/05/28/ai-spending-roi-enterprise-costs"/>
+        <updated>2026-05-28T10:39:32.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.axios.com/2026/05/28/ai-spending-roi-enterprise-costs
+Comments URL: https://news.ycombinator.com/item?id=48307098
+Points: 62
+# Comments: 31]]></summary>
+        <author>
+            <name>1vuio0pswjnm7</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A Eureka machine that thinks like nature and explores what AI cannot]]></title>
+        <id>https://news.ycombinator.com/item?id=48305446</id>
+        <link href="https://iisc.ac.in/a-eureka-machine-that-thinks-like-nature-and-explores-what-ai-cannot/"/>
+        <updated>2026-05-28T06:40:31.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://iisc.ac.in/a-eureka-machine-that-thinks-like-nature-and-explores-what-ai-cannot/
+Comments URL: https://news.ycombinator.com/item?id=48305446
+Points: 100
+# Comments: 30]]></summary>
+        <author>
+            <name>kunalsin9h</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Hallucinate – Massively Multiplayer Online Rave]]></title>
         <id>https://news.ycombinator.com/item?id=48304260</id>
@@ -762,6 +801,19 @@ Points: 61
 Comments URL: https://news.ycombinator.com/item?id=48279842
 Points: 53
 # Comments: 7]]></summary>
+        <author>
+            <name>ibobev</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Zero Lines Maze: What the 8-Bit Guy's One-Liner Can Still Teach Us]]></title>
+        <id>https://news.ycombinator.com/item?id=48279507</id>
+        <link href="https://retrogamecoders.com/zero-lines-maze/"/>
+        <updated>2026-05-26T13:22:36.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://retrogamecoders.com/zero-lines-maze/
+Comments URL: https://news.ycombinator.com/item?id=48279507
+Points: 57
+# Comments: 19]]></summary>
         <author>
             <name>ibobev</name>
         </author>
@@ -17003,97 +17055,6 @@ Points: 80
 # Comments: 54]]></summary>
         <author>
             <name>herbertl</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Regression: malware reminder on every read still causes subagent refusals]]></title>
-        <id>https://news.ycombinator.com/item?id=47942492</id>
-        <link href="https://github.com/anthropics/claude-code/issues/49363"/>
-        <updated>2026-04-28T23:59:57.000Z</updated>
-        <summary type="html"><![CDATA[Not sure if anybody else has experienced this, but for my job I've been playing around with Claude Managed Agents to run code generation tasks in our repo. Every read operation in the managed agent is appended with a system prompt instructing Claude to scan the file for malware; Claude then wastes a bunch of time and tokens (money) performing the analysis; then, once the agent has confirmed that it is not malware, it still interprets the appended prompt to mean that it is disallowed to augment or write any code, and quits. And we're charged for every session that this happens in. Posting here because apparently they only addressed the issue in the past because of a Hacker News discussion. So here's hoping they'll see this and prioritize fixing it again so we can stop losing money.
-Comments URL: https://news.ycombinator.com/item?id=47942492
-Points: 168
-# Comments: 61]]></summary>
-        <author>
-            <name>thomashobohm</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How ChatGPT serves ads]]></title>
-        <id>https://news.ycombinator.com/item?id=47942437</id>
-        <link href="https://www.buchodi.com/how-chatgpt-serves-ads-heres-the-full-attribution-loop/"/>
-        <updated>2026-04-28T23:54:14.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.buchodi.com/how-chatgpt-serves-ads-heres-the-full-attribution-loop/
-Comments URL: https://news.ycombinator.com/item?id=47942437
-Points: 195
-# Comments: 132]]></summary>
-        <author>
-            <name>lmbbuchodi</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Claude for Creative Work]]></title>
-        <id>https://news.ycombinator.com/item?id=47942386</id>
-        <link href="https://www.anthropic.com/news/claude-for-creative-work"/>
-        <updated>2026-04-28T23:46:56.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.anthropic.com/news/claude-for-creative-work
-Comments URL: https://news.ycombinator.com/item?id=47942386
-Points: 77
-# Comments: 48]]></summary>
-        <author>
-            <name>elsewhen</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Apple CMF (Color-Matching Functions) 2026]]></title>
-        <id>https://news.ycombinator.com/item?id=47942353</id>
-        <link href="https://www.lttlabs.com/articles/2026/04/11/apple-studio-display-xdr-display-testing-results"/>
-        <updated>2026-04-28T23:43:53.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.lttlabs.com/articles/2026/04/11/apple-studio-display-xdr-display-testing-results
-Comments URL: https://news.ycombinator.com/item?id=47942353
-Points: 66
-# Comments: 2]]></summary>
-        <author>
-            <name>HeyMeco</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[London to Calcutta by Bus (2022)]]></title>
-        <id>https://news.ycombinator.com/item?id=47941931</id>
-        <link href="https://www.amusingplanet.com/2022/08/london-to-calcutta-by-bus.html"/>
-        <updated>2026-04-28T22:52:22.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.amusingplanet.com/2022/08/london-to-calcutta-by-bus.html
-Comments URL: https://news.ycombinator.com/item?id=47941931
-Points: 50
-# Comments: 18]]></summary>
-        <author>
-            <name>CGMthrowaway</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Before GitHub]]></title>
-        <id>https://news.ycombinator.com/item?id=47940921</id>
-        <link href="https://lucumr.pocoo.org/2026/4/28/before-github/"/>
-        <updated>2026-04-28T21:17:40.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://lucumr.pocoo.org/2026/4/28/before-github/
-Comments URL: https://news.ycombinator.com/item?id=47940921
-Points: 55
-# Comments: 9]]></summary>
-        <author>
-            <name>mlex</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Denuvo has been cracked in all single-player games it previously protected]]></title>
-        <id>https://news.ycombinator.com/item?id=47940789</id>
-        <link href="https://www.tomshardware.com/video-games/pc-gaming/denuvo-has-been-bypassed-in-all-single-player-games-it-previously-protected-2k-games-and-denuvo-reportedly-retaliate-with-mandatory-14-day-online-checks"/>
-        <updated>2026-04-28T21:08:29.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.tomshardware.com/video-games/pc-gaming/denuvo-has-been-bypassed-in-all-single-player-games-it-previously-protected-2k-games-and-denuvo-reportedly-retaliate-with-mandatory-14-day-online-checks
-Comments URL: https://news.ycombinator.com/item?id=47940789
-Points: 154
-# Comments: 57]]></summary>
-        <author>
-            <name>oceansky</name>
         </author>
     </entry>
 </feed>
