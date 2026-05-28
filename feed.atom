@@ -2,10 +2,75 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-05-28T16:57:55.538Z</updated>
+    <updated>2026-05-28T19:41:05.562Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Just Use Postgres for Durable Workflows]]></title>
+        <id>https://news.ycombinator.com/item?id=48313530</id>
+        <link href="https://www.dbos.dev/blog/postgres-is-all-you-need-for-durable-execution"/>
+        <updated>2026-05-28T18:41:46.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.dbos.dev/blog/postgres-is-all-you-need-for-durable-execution
+Comments URL: https://news.ycombinator.com/item?id=48313530
+Points: 56
+# Comments: 17]]></summary>
+        <author>
+            <name>KraftyOne</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Anthropic raises $65B in Series H funding at $965B post-money valuation]]></title>
+        <id>https://news.ycombinator.com/item?id=48313048</id>
+        <link href="https://www.anthropic.com/news/series-h"/>
+        <updated>2026-05-28T18:09:44.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.anthropic.com/news/series-h
+Comments URL: https://news.ycombinator.com/item?id=48313048
+Points: 90
+# Comments: 66]]></summary>
+        <author>
+            <name>meetpateltech</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Dynamic Workflows in Claude Code]]></title>
+        <id>https://news.ycombinator.com/item?id=48311705</id>
+        <link href="https://claude.com/blog/introducing-dynamic-workflows-in-claude-code"/>
+        <updated>2026-05-28T16:52:21.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://claude.com/blog/introducing-dynamic-workflows-in-claude-code
+Comments URL: https://news.ycombinator.com/item?id=48311705
+Points: 96
+# Comments: 84]]></summary>
+        <author>
+            <name>mil22</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Claude Opus 4.8]]></title>
+        <id>https://news.ycombinator.com/item?id=48311647</id>
+        <link href="https://www.anthropic.com/news/claude-opus-4-8"/>
+        <updated>2026-05-28T16:49:14.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.anthropic.com/news/claude-opus-4-8
+Comments URL: https://news.ycombinator.com/item?id=48311647
+Points: 749
+# Comments: 559]]></summary>
+        <author>
+            <name>craigmart</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Permanent Upper Crow]]></title>
+        <id>https://news.ycombinator.com/item?id=48310280</id>
+        <link href="https://permanent-upper-crow.jasonwu.ink/"/>
+        <updated>2026-05-28T15:23:04.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://permanent-upper-crow.jasonwu.ink/
+Comments URL: https://news.ycombinator.com/item?id=48310280
+Points: 88
+# Comments: 31]]></summary>
+        <author>
+            <name>whiteblossom</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[New York Passes Tax on the Ultra-Wealthy]]></title>
         <id>https://news.ycombinator.com/item?id=48309584</id>
@@ -124,6 +189,19 @@ Points: 176
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Bttf is a command line datetime Swiss army knife]]></title>
+        <id>https://news.ycombinator.com/item?id=48303881</id>
+        <link href="https://github.com/BurntSushi/bttf"/>
+        <updated>2026-05-28T02:58:44.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://github.com/BurntSushi/bttf
+Comments URL: https://news.ycombinator.com/item?id=48303881
+Points: 114
+# Comments: 81]]></summary>
+        <author>
+            <name>burntsushi</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Biff is a command line datetime Swiss army knife]]></title>
         <id>https://news.ycombinator.com/item?id=48303881</id>
         <link href="https://github.com/BurntSushi/biff"/>
@@ -199,6 +277,23 @@ Points: 77
 # Comments: 71]]></summary>
         <author>
             <name>kristianp</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Open-Source AI Racing Harness]]></title>
+        <id>https://news.ycombinator.com/item?id=48300280</id>
+        <link href="https://www.elodin.systems/post/elodin-ai-grand-prix-race-sim-harness"/>
+        <updated>2026-05-27T20:37:42.000Z</updated>
+        <summary type="html"><![CDATA[Hi I'm Dan from Elodin, making an open source real-time capable flight software simulation.
+For AI Grand Prix contestants, the wait for the Round 1 virtual qualifier simulation has been grueling.
+If you’re competing, check out our simulation harness to tide you over, built to match the published competition constraints and message format. It runs against real Betaflight, which we learned requires at least 1000 sensor samples per second to run real-time correctly.
+The competition warranted introducing a new feature to generate the camera sensor directly in the simulation loop. Typically people connect to Unreal or similar game engine to create a camera sensor, which works well but is very heavy. For the simple needs of this challenge, creating sample directly in the loop is very handy and easy to use. Happy to hear your feedback on this! While it's not fancy looking currently, it uses the Rust Bevy game engine, which should allow us to improve the visual fidelity quickly.
+We all should easily be able to shift our implementation to the published competition sim once it lands. Hope you enjoy and good luck!
+Comments URL: https://news.ycombinator.com/item?id=48300280
+Points: 53
+# Comments: 6]]></summary>
+        <author>
+            <name>danAtElodin</name>
         </author>
     </entry>
     <entry>
@@ -1053,6 +1148,19 @@ Points: 97
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[News about Raspberry Pi 6 and Microcontroller Development]]></title>
+        <id>https://news.ycombinator.com/item?id=48276598</id>
+        <link href="https://www.jeffgeerling.com/blog/2026/news-about-raspberry-pi-6-and-microcontroller-development/"/>
+        <updated>2026-05-26T08:02:52.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.jeffgeerling.com/blog/2026/news-about-raspberry-pi-6-and-microcontroller-development/
+Comments URL: https://news.ycombinator.com/item?id=48276598
+Points: 51
+# Comments: 36]]></summary>
+        <author>
+            <name>rbanffy</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Investigating how prompt politeness affects LLM accuracy (2025)]]></title>
         <id>https://news.ycombinator.com/item?id=48276429</id>
         <link href="https://arxiv.org/abs/2510.04950"/>
@@ -1193,6 +1301,19 @@ Points: 326
 # Comments: 128]]></summary>
         <author>
             <name>signa11</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[US's big bet on quantum computing may not be legal]]></title>
+        <id>https://news.ycombinator.com/item?id=48272948</id>
+        <link href="https://arstechnica.com/tech-policy/2026/05/uss-big-bet-on-quantum-computing-may-not-be-entirely-legal/"/>
+        <updated>2026-05-25T23:11:14.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://arstechnica.com/tech-policy/2026/05/uss-big-bet-on-quantum-computing-may-not-be-entirely-legal/
+Comments URL: https://news.ycombinator.com/item?id=48272948
+Points: 77
+# Comments: 70]]></summary>
+        <author>
+            <name>Bender</name>
         </author>
     </entry>
     <entry>
@@ -17081,32 +17202,6 @@ Tindie is now owned by EETree LLC, a Washington State company. Our team took ove
 The recent transition was more complex than expected. Tindie runs on an older technical framework with many connected services, and the migration from the previous operating envir…]]></summary>
         <author>
             <name>altairprime</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Low-Compilation-Cost Register Allocation in LLVM-Based Binary Translation]]></title>
-        <id>https://news.ycombinator.com/item?id=47944931</id>
-        <link href="https://dl.acm.org/doi/abs/10.1145/3767295.3803591"/>
-        <updated>2026-04-29T06:47:53.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://dl.acm.org/doi/abs/10.1145/3767295.3803591
-Comments URL: https://news.ycombinator.com/item?id=47944931
-Points: 56
-# Comments: 1]]></summary>
-        <author>
-            <name>matt_d</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[HardenedBSD Is Now Officially on Radicle]]></title>
-        <id>https://news.ycombinator.com/item?id=47944864</id>
-        <link href="https://hardenedbsd.org/article/shawn-webb/2026-04-26/hardenedbsd-officially-radicle"/>
-        <updated>2026-04-29T06:38:44.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://hardenedbsd.org/article/shawn-webb/2026-04-26/hardenedbsd-officially-radicle
-Comments URL: https://news.ycombinator.com/item?id=47944864
-Points: 59
-# Comments: 7]]></summary>
-        <author>
-            <name>lftherios</name>
         </author>
     </entry>
 </feed>

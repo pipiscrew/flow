@@ -6,6 +6,56 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=48313530",
+          "author": "KraftyOne",
+          "description": "Article URL: https://www.dbos.dev/blog/postgres-is-all-you-need-for-durable-execution\nComments URL: https://news.ycombinator.com/item?id=48313530\nPoints: 56\n# Comments: 17",
+          "link": "https://www.dbos.dev/blog/postgres-is-all-you-need-for-durable-execution",
+          "publishedOn": "2026-05-28T18:41:46.000Z",
+          "wordCount": 1533,
+          "title": "Just Use Postgres for Durable Workflows",
+          "imageUrl": "https://cdn.prod.website-files.com/672411cbf038560468c9e68f/6a0dd8d2a4cb225be7b5c6c9_Postgres-backed-durable-workflow-execution.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48313048",
+          "author": "meetpateltech",
+          "description": "Article URL: https://www.anthropic.com/news/series-h\nComments URL: https://news.ycombinator.com/item?id=48313048\nPoints: 90\n# Comments: 66",
+          "link": "https://www.anthropic.com/news/series-h",
+          "publishedOn": "2026-05-28T18:09:44.000Z",
+          "wordCount": 1917,
+          "title": "Anthropic raises $65B in Series H funding at $965B post-money valuation",
+          "imageUrl": "https://www.anthropic.com/api/opengraph-illustration?name=Object%20Growth&backgroundColor=coral"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48311705",
+          "author": "mil22",
+          "description": "Article URL: https://claude.com/blog/introducing-dynamic-workflows-in-claude-code\nComments URL: https://news.ycombinator.com/item?id=48311705\nPoints: 96\n# Comments: 84",
+          "link": "https://claude.com/blog/introducing-dynamic-workflows-in-claude-code",
+          "publishedOn": "2026-05-28T16:52:21.000Z",
+          "wordCount": 14234,
+          "title": "Dynamic Workflows in Claude Code",
+          "imageUrl": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a1871a9d0a0bd93c860cda7_og-dynamic-workflows.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48311647",
+          "author": "craigmart",
+          "description": "Article URL: https://www.anthropic.com/news/claude-opus-4-8\nComments URL: https://news.ycombinator.com/item?id=48311647\nPoints: 749\n# Comments: 559",
+          "link": "https://www.anthropic.com/news/claude-opus-4-8",
+          "publishedOn": "2026-05-28T16:49:14.000Z",
+          "wordCount": 3734,
+          "title": "Claude Opus 4.8",
+          "imageUrl": "https://cdn.sanity.io/images/4zrzovbb/website/0eaa0ed2dce9810169112e1c77de2585fcf1f5c2-2880x1620.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48310280",
+          "author": "whiteblossom",
+          "description": "Article URL: https://permanent-upper-crow.jasonwu.ink/\nComments URL: https://news.ycombinator.com/item?id=48310280\nPoints: 88\n# Comments: 31",
+          "link": "https://permanent-upper-crow.jasonwu.ink/",
+          "publishedOn": "2026-05-28T15:23:04.000Z",
+          "wordCount": 5,
+          "title": "The Permanent Upper Crow",
+          "imageUrl": "https://permanent-upper-crow.jasonwu.ink/og-image.png"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=48309584",
           "author": "proofofcontempt",
           "description": "Article URL: https://www.cnbc.com/2026/05/28/new-york-mamdani-pied-a-terre-tax-passes.html\nComments URL: https://news.ycombinator.com/item?id=48309584\nPoints: 142\n# Comments: 159",
@@ -98,6 +148,16 @@
         {
           "id": "https://news.ycombinator.com/item?id=48303881",
           "author": "burntsushi",
+          "description": "Article URL: https://github.com/BurntSushi/bttf\nComments URL: https://news.ycombinator.com/item?id=48303881\nPoints: 114\n# Comments: 81",
+          "link": "https://github.com/BurntSushi/bttf",
+          "publishedOn": "2026-05-28T02:58:44.000Z",
+          "wordCount": 5192,
+          "title": "Bttf is a command line datetime Swiss army knife",
+          "imageUrl": "https://opengraph.githubassets.com/f4562fa28096a34616e8499e415ef29037d19828cd88687c6b704efa51e9ca88/BurntSushi/bttf"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48303881",
+          "author": "burntsushi",
           "description": "Article URL: https://github.com/BurntSushi/biff\nComments URL: https://news.ycombinator.com/item?id=48303881\nPoints: 92\n# Comments: 62",
           "link": "https://github.com/BurntSushi/biff",
           "publishedOn": "2026-05-28T02:58:44.000Z",
@@ -154,6 +214,16 @@
           "wordCount": 294,
           "title": "Warm up your MacBook (2019)",
           "imageUrl": "/images/frozen-mac-610x371.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48300280",
+          "author": "danAtElodin",
+          "description": "Hi I'm Dan from Elodin, making an open source real-time capable flight software simulation.\nFor AI Grand Prix contestants, the wait for the Round 1 virtual qualifier simulation has been grueling.\nIf you’re competing, check out our simulation harness to tide you over, built to match the published competition constraints and message format. It runs against real Betaflight, which we learned requires at least 1000 sensor samples per second to run real-time correctly.\nThe competition warranted introducing a new feature to generate the camera sensor directly in the simulation loop. Typically people connect to Unreal or similar game engine to create a camera sensor, which works well but is very heavy. For the simple needs of this challenge, creating sample directly in the loop is very handy and easy to use. Happy to hear your feedback on this! While it's not fancy looking currently, it uses the Rust Bevy game engine, which should allow us to improve the visual fidelity quickly.\nWe all should easily be able to shift our implementation to the published competition sim once it lands. Hope you enjoy and good luck!\nComments URL: https://news.ycombinator.com/item?id=48300280\nPoints: 53\n# Comments: 6",
+          "link": "https://www.elodin.systems/post/elodin-ai-grand-prix-race-sim-harness",
+          "publishedOn": "2026-05-27T20:37:42.000Z",
+          "wordCount": 1828,
+          "title": "Show HN: Open-Source AI Racing Harness",
+          "imageUrl": null
         },
         {
           "id": "https://news.ycombinator.com/item?id=48299753",
@@ -806,6 +876,16 @@
           "imageUrl": null
         },
         {
+          "id": "https://news.ycombinator.com/item?id=48276598",
+          "author": "rbanffy",
+          "description": "Article URL: https://www.jeffgeerling.com/blog/2026/news-about-raspberry-pi-6-and-microcontroller-development/\nComments URL: https://news.ycombinator.com/item?id=48276598\nPoints: 51\n# Comments: 36",
+          "link": "https://www.jeffgeerling.com/blog/2026/news-about-raspberry-pi-6-and-microcontroller-development/",
+          "publishedOn": "2026-05-26T08:02:52.000Z",
+          "wordCount": 661,
+          "title": "News about Raspberry Pi 6 and Microcontroller Development",
+          "imageUrl": ""
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=48276429",
           "author": "KnuthIsGod",
           "description": "Article URL: https://arxiv.org/abs/2510.04950\nComments URL: https://news.ycombinator.com/item?id=48276429\nPoints: 69\n# Comments: 66",
@@ -914,6 +994,16 @@
           "wordCount": 4217,
           "title": "Using AI to write better code more slowly",
           "imageUrl": "https://nolanlawson.com/wp-content/uploads/2025/01/favicon.png?w=32"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48272948",
+          "author": "Bender",
+          "description": "Article URL: https://arstechnica.com/tech-policy/2026/05/uss-big-bet-on-quantum-computing-may-not-be-entirely-legal/\nComments URL: https://news.ycombinator.com/item?id=48272948\nPoints: 77\n# Comments: 70",
+          "link": "https://arstechnica.com/tech-policy/2026/05/uss-big-bet-on-quantum-computing-may-not-be-entirely-legal/",
+          "publishedOn": "2026-05-25T23:11:14.000Z",
+          "wordCount": 3765,
+          "title": "US's big bet on quantum computing may not be legal",
+          "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2026/05/image-2-1152x648.jpeg"
         },
         {
           "id": "https://news.ycombinator.com/item?id=48272763",
@@ -12983,26 +13073,6 @@
           "publishedOn": "2026-04-29T08:16:37.000Z",
           "wordCount": 1999,
           "title": "Tell HN: An update from the new Tindie team",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47944931",
-          "author": "matt_d",
-          "description": "Article URL: https://dl.acm.org/doi/abs/10.1145/3767295.3803591\nComments URL: https://news.ycombinator.com/item?id=47944931\nPoints: 56\n# Comments: 1",
-          "link": "https://dl.acm.org/doi/abs/10.1145/3767295.3803591",
-          "publishedOn": "2026-04-29T06:47:53.000Z",
-          "wordCount": null,
-          "title": "Low-Compilation-Cost Register Allocation in LLVM-Based Binary Translation",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47944864",
-          "author": "lftherios",
-          "description": "Article URL: https://hardenedbsd.org/article/shawn-webb/2026-04-26/hardenedbsd-officially-radicle\nComments URL: https://news.ycombinator.com/item?id=47944864\nPoints: 59\n# Comments: 7",
-          "link": "https://hardenedbsd.org/article/shawn-webb/2026-04-26/hardenedbsd-officially-radicle",
-          "publishedOn": "2026-04-29T06:38:44.000Z",
-          "wordCount": 452,
-          "title": "HardenedBSD Is Now Officially on Radicle",
           "imageUrl": null
         }
       ]
