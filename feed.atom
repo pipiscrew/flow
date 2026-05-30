@@ -2,10 +2,36 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-05-30T21:06:34.489Z</updated>
+    <updated>2026-05-30T23:04:12.016Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Domain expertise has always been the real moat]]></title>
+        <id>https://news.ycombinator.com/item?id=48340411</id>
+        <link href="https://www.brethorsting.com/blog/2026/05/domain-expertise-has-always-been-the-real-moat/"/>
+        <updated>2026-05-30T20:40:57.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.brethorsting.com/blog/2026/05/domain-expertise-has-always-been-the-real-moat/
+Comments URL: https://news.ycombinator.com/item?id=48340411
+Points: 136
+# Comments: 81]]></summary>
+        <author>
+            <name>aaronbrethorst</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: 500 years of Joseon court omens as an observability dashboard]]></title>
+        <id>https://news.ycombinator.com/item?id=48339753</id>
+        <link href="https://ajin.im/is/building/omen.ops/"/>
+        <updated>2026-05-30T19:23:36.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://ajin.im/is/building/omen.ops/
+Comments URL: https://news.ycombinator.com/item?id=48339753
+Points: 62
+# Comments: 8]]></summary>
+        <author>
+            <name>poppypetalmask</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[EY Canada published a cybersecurity report and most citations were hallucinated]]></title>
         <id>https://news.ycombinator.com/item?id=48339580</id>
@@ -16999,70 +17025,6 @@ Points: 94
 # Comments: 58]]></summary>
         <author>
             <name>pumbaa</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[After dissing Anthropic for limiting Mythos, OpenAI restricts access to Cyber]]></title>
-        <id>https://news.ycombinator.com/item?id=47973108</id>
-        <link href="https://techcrunch.com/2026/04/30/after-dissing-anthropic-for-limiting-mythos-openai-restricts-access-to-cyber-too/"/>
-        <updated>2026-05-01T10:28:12.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://techcrunch.com/2026/04/30/after-dissing-anthropic-for-limiting-mythos-openai-restricts-access-to-cyber-too/
-Comments URL: https://news.ycombinator.com/item?id=47973108
-Points: 85
-# Comments: 65]]></summary>
-        <author>
-            <name>gbourne1</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[What is Z-Angle Memory and why is Intel developing it?]]></title>
-        <id>https://news.ycombinator.com/item?id=47972922</id>
-        <link href="https://www.hpcwire.com/2026/02/05/what-is-z-angle-memory-and-why-is-intel-developing-it/"/>
-        <updated>2026-05-01T09:56:47.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.hpcwire.com/2026/02/05/what-is-z-angle-memory-and-why-is-intel-developing-it/
-Comments URL: https://news.ycombinator.com/item?id=47972922
-Points: 53
-# Comments: 20]]></summary>
-        <author>
-            <name>rbanffy</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: Perfect Bluetooth MIDI for Windows]]></title>
-        <id>https://news.ycombinator.com/item?id=47972888</id>
-        <link href="https://news.ycombinator.com/item?id=47972888"/>
-        <updated>2026-05-01T09:52:15.000Z</updated>
-        <summary type="html"><![CDATA[Hi HN, I'm Erwin. I built a small free open-source utility that bridges Bluetooth LE MIDI keyboards into the new Windows MIDI Services stack so any DAW or Web MIDI app can use them as if they were wired.
-I bought a Roland FP-90X piano partly because it had Bluetooth MIDI. On my Windows 11 PC, pairing succeeded, but my DAW couldn't see the keyboard, and notes I sent from the PC never made the piano sing. After a regrettable number of evenings, I'd separated this into three independent bugs stacked on top of each other.
-The first one is the famous one: Windows only natively exposes BLE-MIDI through the WinRT API, which almost no DAW polls. So even when pairing succeeds, MIDI apps still don't see the device. The usual workaround is MIDIberry + loopMIDI, but I couldn't get that combination to …]]></summary>
-        <author>
-            <name>mayerwin</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Rotary Un-Smartphone (2023)]]></title>
-        <id>https://news.ycombinator.com/item?id=47972807</id>
-        <link href="https://skysedge.com/telecom/RUSP/index.html"/>
-        <updated>2026-05-01T09:39:07.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://skysedge.com/telecom/RUSP/index.html
-Comments URL: https://news.ycombinator.com/item?id=47972807
-Points: 51
-# Comments: 10]]></summary>
-        <author>
-            <name>tzury</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Advanced Quantization Algorithm for LLMs]]></title>
-        <id>https://news.ycombinator.com/item?id=47972659</id>
-        <link href="https://github.com/intel/auto-round"/>
-        <updated>2026-05-01T09:10:02.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://github.com/intel/auto-round
-Comments URL: https://news.ycombinator.com/item?id=47972659
-Points: 68
-# Comments: 13]]></summary>
-        <author>
-            <name>lastdong</name>
         </author>
     </entry>
 </feed>

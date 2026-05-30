@@ -6,6 +6,26 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=48340411",
+          "author": "aaronbrethorst",
+          "description": "Article URL: https://www.brethorsting.com/blog/2026/05/domain-expertise-has-always-been-the-real-moat/\nComments URL: https://news.ycombinator.com/item?id=48340411\nPoints: 136\n# Comments: 81",
+          "link": "https://www.brethorsting.com/blog/2026/05/domain-expertise-has-always-been-the-real-moat/",
+          "publishedOn": "2026-05-30T20:40:57.000Z",
+          "wordCount": 1130,
+          "title": "Domain expertise has always been the real moat",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48339753",
+          "author": "poppypetalmask",
+          "description": "Article URL: https://ajin.im/is/building/omen.ops/\nComments URL: https://news.ycombinator.com/item?id=48339753\nPoints: 62\n# Comments: 8",
+          "link": "https://ajin.im/is/building/omen.ops/",
+          "publishedOn": "2026-05-30T19:23:36.000Z",
+          "wordCount": 17432,
+          "title": "Show HN: 500 years of Joseon court omens as an observability dashboard",
+          "imageUrl": null
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=48339580",
           "author": "smartmic",
           "description": "Article URL: https://gptzero.me/investigations/ey\nComments URL: https://news.ycombinator.com/item?id=48339580\nPoints: 204\n# Comments: 88",
@@ -12924,56 +12944,6 @@
           "wordCount": null,
           "title": "Your Website Is Not for You",
           "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47973108",
-          "author": "gbourne1",
-          "description": "Article URL: https://techcrunch.com/2026/04/30/after-dissing-anthropic-for-limiting-mythos-openai-restricts-access-to-cyber-too/\nComments URL: https://news.ycombinator.com/item?id=47973108\nPoints: 85\n# Comments: 65",
-          "link": "https://techcrunch.com/2026/04/30/after-dissing-anthropic-for-limiting-mythos-openai-restricts-access-to-cyber-too/",
-          "publishedOn": "2026-05-01T10:28:12.000Z",
-          "wordCount": 2973,
-          "title": "After dissing Anthropic for limiting Mythos, OpenAI restricts access to Cyber",
-          "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/04/Screenshot-2026-04-14-at-7.00.44-PM.png?resize=1200,783"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47972922",
-          "author": "rbanffy",
-          "description": "Article URL: https://www.hpcwire.com/2026/02/05/what-is-z-angle-memory-and-why-is-intel-developing-it/\nComments URL: https://news.ycombinator.com/item?id=47972922\nPoints: 53\n# Comments: 20",
-          "link": "https://www.hpcwire.com/2026/02/05/what-is-z-angle-memory-and-why-is-intel-developing-it/",
-          "publishedOn": "2026-05-01T09:56:47.000Z",
-          "wordCount": null,
-          "title": "What is Z-Angle Memory and why is Intel developing it?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47972888",
-          "author": "mayerwin",
-          "description": "Hi HN, I'm Erwin. I built a small free open-source utility that bridges Bluetooth LE MIDI keyboards into the new Windows MIDI Services stack so any DAW or Web MIDI app can use them as if they were wired.\nI bought a Roland FP-90X piano partly because it had Bluetooth MIDI. On my Windows 11 PC, pairing succeeded, but my DAW couldn't see the keyboard, and notes I sent from the PC never made the piano sing. After a regrettable number of evenings, I'd separated this into three independent bugs stacked on top of each other.\nThe first one is the famous one: Windows only natively exposes BLE-MIDI through the WinRT API, which almost no DAW polls. So even when pairing succeeds, MIDI apps still don't see the device. The usual workaround is MIDIberry + loopMIDI, but I couldn't get that combination to …",
-          "link": "https://news.ycombinator.com/item?id=47972888",
-          "publishedOn": "2026-05-01T09:52:15.000Z",
-          "wordCount": 1181,
-          "title": "Show HN: Perfect Bluetooth MIDI for Windows",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47972807",
-          "author": "tzury",
-          "description": "Article URL: https://skysedge.com/telecom/RUSP/index.html\nComments URL: https://news.ycombinator.com/item?id=47972807\nPoints: 51\n# Comments: 10",
-          "link": "https://skysedge.com/telecom/RUSP/index.html",
-          "publishedOn": "2026-05-01T09:39:07.000Z",
-          "wordCount": 918,
-          "title": "The Rotary Un-Smartphone (2023)",
-          "imageUrl": "https://www.skysedge.us/images/favicon.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47972659",
-          "author": "lastdong",
-          "description": "Article URL: https://github.com/intel/auto-round\nComments URL: https://news.ycombinator.com/item?id=47972659\nPoints: 68\n# Comments: 13",
-          "link": "https://github.com/intel/auto-round",
-          "publishedOn": "2026-05-01T09:10:02.000Z",
-          "wordCount": 7672,
-          "title": "Advanced Quantization Algorithm for LLMs",
-          "imageUrl": "https://opengraph.githubassets.com/27d3582b8a574dd7dafeb462d7af0e9aea0454d5a82e54b7dee141b7623f5231/intel/auto-round"
         }
       ]
     }
