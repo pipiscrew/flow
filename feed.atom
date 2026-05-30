@@ -2,10 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-05-30T06:52:44.174Z</updated>
+    <updated>2026-05-30T09:23:15.647Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Danish pension fund excludes SpaceX citing governance and valuation]]></title>
+        <id>https://news.ycombinator.com/item?id=48333820</id>
+        <link href="https://www.reuters.com/legal/transactional/danish-pension-fund-excludes-spacex-citing-governance-valuation-2026-05-29/"/>
+        <updated>2026-05-30T08:00:20.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.reuters.com/legal/transactional/danish-pension-fund-excludes-spacex-citing-governance-valuation-2026-05-29/
+Comments URL: https://news.ycombinator.com/item?id=48333820
+Points: 50
+# Comments: 19]]></summary>
+        <author>
+            <name>vrganj</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Perry Compiles TypeScript directly to executables using SWC and LLVM]]></title>
         <id>https://news.ycombinator.com/item?id=48332151</id>
@@ -82,6 +95,28 @@ Points: 119
 # Comments: 100]]></summary>
         <author>
             <name>nadis</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Open-source private home security camera system (end-to-end encryption)]]></title>
+        <id>https://news.ycombinator.com/item?id=48330192</id>
+        <link href="https://github.com/secluso/core"/>
+        <updated>2026-05-29T22:32:29.000Z</updated>
+        <summary type="html"><![CDATA[Hey everyone,
+I previously introduced an open source private home security camera in 2024, which uses OpenMLS for end-to-end encryption: https://news.ycombinator.com/item?id=42284412.
+It was called Privastead then and it's now renamed to Secluso.
+John Kaczman found my project from here and has been working on it with me over the last year and half. We've made a lot of improvements to the software, which we would like to share with you:
+- You can now set this up on your Raspberry Pi in less than 5 minutes with no technical expertise using our easy-to-use GUI deploy tool. We've put together a comprehensive build-your-own guide that walks you through the required steps (you can find a link at the top of the repository README).
+- We use a customized, minimal OS based on the Yocto project for the camera.
+- Every part of our stack except for the iOS app has reproducible builds. This includes our Android app, camera/server binaries, deploy tool, and the aforementioned OS.
+- We've re-designed our mobile app, which is now on the iOS App Store and Google Play store.
+- We now support UnifiedPush for more privacy-preserving push notifications.
+Looking forward to seeing what you all think!
+Comments URL: https://news.ycombinator.com/item?id=48330192
+Points: 60
+# Comments: 15]]></summary>
+        <author>
+            <name>arrdalan</name>
         </author>
     </entry>
     <entry>
@@ -1622,6 +1657,19 @@ Points: 84
 # Comments: 28]]></summary>
         <author>
             <name>prismatic</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Snowboard Kids 2 is 100% Decompiled]]></title>
+        <id>https://news.ycombinator.com/item?id=48284494</id>
+        <link href="https://blog.chrislewis.au/snowboard-kids-2-is-100-decompiled/"/>
+        <updated>2026-05-26T19:12:59.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://blog.chrislewis.au/snowboard-kids-2-is-100-decompiled/
+Comments URL: https://news.ycombinator.com/item?id=48284494
+Points: 195
+# Comments: 71]]></summary>
+        <author>
+            <name>GaggiX</name>
         </author>
     </entry>
     <entry>
@@ -16778,86 +16826,6 @@ Points: 51
 # Comments: 6]]></summary>
         <author>
             <name>wglb</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: Pu.sh – a full coding-agent harness in 400 lines of shell]]></title>
-        <id>https://news.ycombinator.com/item?id=47968112</id>
-        <link href="https://pu.dev/"/>
-        <updated>2026-04-30T20:55:12.000Z</updated>
-        <summary type="html"><![CDATA[I originally was just messing with pi-autoresearch. Gave it a sample task to build the most portable coding agent.
-First cut was 6 KB of shell. Great for one-shots, unusable interactively. I was shocked it actually worked.
-Started building up -- adding features — but with a self-imposed rule: no new dependencies, and sub 500 LOC. This thing had to be truly portable. Just sh, curl, awk. System primitives only.
-Which means I did some genuinely disgusting things in awk, including JSON parsing and the OpenAI
-Responses tool loop with reasoning items carried across turns.
-It's now ~400 lines. In the box: Anthropic + OpenAI, 7 tools (bash, read, write, edit, grep, find, ls),
-REPL, auto-compaction, checkpoint/resume, pipe mode, 90 no-API tests. Not in the box: TUI, streaming,
-images, OAuth, Windows, dignity.
-Two honest things:
-1. I stole/modified the system prompt and the architecture. Pi/Claude/Codex wrote the awk. I cannot read most of this code. This wasn't possible for me a year ago.
-2. Heavily inspired by Pi (pi.dev) — same 7-tool surface, same exact-text edit model. Credit where it's
-due. Pi is awesome -- you should probably use them.
-The agent loop itself is tiny. Almost everything else in a "real" agent CLI is DX and hardening. You can
-probably build your own harness exactly how you like it. Mario Zechner's AI Engineer talk on taking back control of
-your tools nudged me here.
-The name is because it's a .sh file. The other thing it sounds like is, regrettably, also accurate.
-Comments URL: https://news.ycombinator.com/item?id=47968112
-Points: 50
-# Comments: 16]]></summary>
-        <author>
-            <name>nahimn</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Rivian allows you to disable all internet connectivity]]></title>
-        <id>https://news.ycombinator.com/item?id=47967786</id>
-        <link href="https://rivian.com/support/article/can-i-disable-all-data-collection-from-my-vehicle"/>
-        <updated>2026-04-30T20:27:22.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://rivian.com/support/article/can-i-disable-all-data-collection-from-my-vehicle
-Comments URL: https://news.ycombinator.com/item?id=47967786
-Points: 219
-# Comments: 85]]></summary>
-        <author>
-            <name>Cider9986</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The upsell game – Vercel upselling tactics revealed]]></title>
-        <id>https://news.ycombinator.com/item?id=47967508</id>
-        <link href="https://theupsellgame.com/"/>
-        <updated>2026-04-30T20:02:35.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://theupsellgame.com/
-Comments URL: https://news.ycombinator.com/item?id=47967508
-Points: 60
-# Comments: 10]]></summary>
-        <author>
-            <name>bartoindahouse</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[LinkedIn scans for 6,278 extensions and encrypts the results into every request]]></title>
-        <id>https://news.ycombinator.com/item?id=47967262</id>
-        <link href="https://404privacy.com/blog/linkedin-is-scanning-your-browser-extensions-this-is-how-they-use-the-data/"/>
-        <updated>2026-04-30T19:40:20.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://404privacy.com/blog/linkedin-is-scanning-your-browser-extensions-this-is-how-they-use-the-data/
-Comments URL: https://news.ycombinator.com/item?id=47967262
-Points: 176
-# Comments: 57]]></summary>
-        <author>
-            <name>un-nf</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Follow-up to Carrot disclosure: Forgejo]]></title>
-        <id>https://news.ycombinator.com/item?id=47967069</id>
-        <link href="https://dustri.org/b/follow-up-to-carrot-disclosure-forgejo.html"/>
-        <updated>2026-04-30T19:22:55.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://dustri.org/b/follow-up-to-carrot-disclosure-forgejo.html
-Comments URL: https://news.ycombinator.com/item?id=47967069
-Points: 51
-# Comments: 7]]></summary>
-        <author>
-            <name>homebrewer</name>
         </author>
     </entry>
 </feed>

@@ -6,6 +6,16 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=48333820",
+          "author": "vrganj",
+          "description": "Article URL: https://www.reuters.com/legal/transactional/danish-pension-fund-excludes-spacex-citing-governance-valuation-2026-05-29/\nComments URL: https://news.ycombinator.com/item?id=48333820\nPoints: 50\n# Comments: 19",
+          "link": "https://www.reuters.com/legal/transactional/danish-pension-fund-excludes-spacex-citing-governance-valuation-2026-05-29/",
+          "publishedOn": "2026-05-30T08:00:20.000Z",
+          "wordCount": null,
+          "title": "Danish pension fund excludes SpaceX citing governance and valuation",
+          "imageUrl": null
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=48332151",
           "author": "0x1997",
           "description": "Article URL: https://www.perryts.com/\nComments URL: https://news.ycombinator.com/item?id=48332151\nPoints: 52\n# Comments: 33",
@@ -64,6 +74,16 @@
           "wordCount": 2566,
           "title": "MCP is dead?",
           "imageUrl": "https://cdn.prod.website-files.com/668aa55ff9fc77f31f6cc2f0/6a0f2926a73de3ec41126467_post%20image%20b.webp"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48330192",
+          "author": "arrdalan",
+          "description": "Hey everyone,\nI previously introduced an open source private home security camera in 2024, which uses OpenMLS for end-to-end encryption: https://news.ycombinator.com/item?id=42284412.\nIt was called Privastead then and it's now renamed to Secluso.\nJohn Kaczman found my project from here and has been working on it with me over the last year and half. We've made a lot of improvements to the software, which we would like to share with you:\n- You can now set this up on your Raspberry Pi in less than 5 minutes with no technical expertise using our easy-to-use GUI deploy tool. We've put together a comprehensive build-your-own guide that walks you through the required steps (you can find a link at the top of the repository README).\n- We use a customized, minimal OS based on the Yocto project for the camera.\n- Every part of our stack except for the iOS app has reproducible builds. This includes our Android app, camera/server binaries, deploy tool, and the aforementioned OS.\n- We've re-designed our mobile app, which is now on the iOS App Store and Google Play store.\n- We now support UnifiedPush for more privacy-preserving push notifications.\nLooking forward to seeing what you all think!\nComments URL: https://news.ycombinator.com/item?id=48330192\nPoints: 60\n# Comments: 15",
+          "link": "https://github.com/secluso/core",
+          "publishedOn": "2026-05-29T22:32:29.000Z",
+          "wordCount": 2763,
+          "title": "Show HN: Open-source private home security camera system (end-to-end encryption)",
+          "imageUrl": "https://repository-images.githubusercontent.com/894270616/599f4d48-21dd-4b24-954d-b1a21c690579"
         },
         {
           "id": "https://news.ycombinator.com/item?id=48328405",
@@ -1244,6 +1264,16 @@
           "wordCount": null,
           "title": "The Melancholy of Slaying Monsters",
           "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48284494",
+          "author": "GaggiX",
+          "description": "Article URL: https://blog.chrislewis.au/snowboard-kids-2-is-100-decompiled/\nComments URL: https://news.ycombinator.com/item?id=48284494\nPoints: 195\n# Comments: 71",
+          "link": "https://blog.chrislewis.au/snowboard-kids-2-is-100-decompiled/",
+          "publishedOn": "2026-05-26T19:12:59.000Z",
+          "wordCount": 766,
+          "title": "Snowboard Kids 2 is 100% Decompiled",
+          "imageUrl": "http://blog.chrislewis.au/snowboardkids2-decomp-report.png"
         },
         {
           "id": "https://news.ycombinator.com/item?id=48284032",
@@ -12764,56 +12794,6 @@
           "wordCount": 2484,
           "title": "Snowball Earth may hide a far stranger climate cycle than anyone expected",
           "imageUrl": "https://scx2.b-cdn.net/gfx/news/2018/5af0afa4a666b.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47968112",
-          "author": "nahimn",
-          "description": "I originally was just messing with pi-autoresearch. Gave it a sample task to build the most portable coding agent.\nFirst cut was 6 KB of shell. Great for one-shots, unusable interactively. I was shocked it actually worked.\nStarted building up -- adding features — but with a self-imposed rule: no new dependencies, and sub 500 LOC. This thing had to be truly portable. Just sh, curl, awk. System primitives only.\nWhich means I did some genuinely disgusting things in awk, including JSON parsing and the OpenAI\nResponses tool loop with reasoning items carried across turns.\nIt's now ~400 lines. In the box: Anthropic + OpenAI, 7 tools (bash, read, write, edit, grep, find, ls),\nREPL, auto-compaction, checkpoint/resume, pipe mode, 90 no-API tests. Not in the box: TUI, streaming,\nimages, OAuth, Windows, dignity.\nTwo honest things:\n1. I stole/modified the system prompt and the architecture. Pi/Claude/Codex wrote the awk. I cannot read most of this code. This wasn't possible for me a year ago.\n2. Heavily inspired by Pi (pi.dev) — same 7-tool surface, same exact-text edit model. Credit where it's\ndue. Pi is awesome -- you should probably use them.\nThe agent loop itself is tiny. Almost everything else in a \"real\" agent CLI is DX and hardening. You can\nprobably build your own harness exactly how you like it. Mario Zechner's AI Engineer talk on taking back control of\nyour tools nudged me here.\nThe name is because it's a .sh file. The other thing it sounds like is, regrettably, also accurate.\nComments URL: https://news.ycombinator.com/item?id=47968112\nPoints: 50\n# Comments: 16",
-          "link": "https://pu.dev/",
-          "publishedOn": "2026-04-30T20:55:12.000Z",
-          "wordCount": 544,
-          "title": "Show HN: Pu.sh – a full coding-agent harness in 400 lines of shell",
-          "imageUrl": "https://pu.dev/logo.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47967786",
-          "author": "Cider9986",
-          "description": "Article URL: https://rivian.com/support/article/can-i-disable-all-data-collection-from-my-vehicle\nComments URL: https://news.ycombinator.com/item?id=47967786\nPoints: 219\n# Comments: 85",
-          "link": "https://rivian.com/support/article/can-i-disable-all-data-collection-from-my-vehicle",
-          "publishedOn": "2026-04-30T20:27:22.000Z",
-          "wordCount": 2199,
-          "title": "Rivian allows you to disable all internet connectivity",
-          "imageUrl": "https://media.rivian.com/image/upload/f_auto,q_auto/v1695930282/rivian-com/default-riv-com-sharing-image_gjg8mw.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47967508",
-          "author": "bartoindahouse",
-          "description": "Article URL: https://theupsellgame.com/\nComments URL: https://news.ycombinator.com/item?id=47967508\nPoints: 60\n# Comments: 10",
-          "link": "https://theupsellgame.com/",
-          "publishedOn": "2026-04-30T20:02:35.000Z",
-          "wordCount": 9,
-          "title": "The upsell game – Vercel upselling tactics revealed",
-          "imageUrl": "https://theupsellgame.com/og.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47967262",
-          "author": "un-nf",
-          "description": "Article URL: https://404privacy.com/blog/linkedin-is-scanning-your-browser-extensions-this-is-how-they-use-the-data/\nComments URL: https://news.ycombinator.com/item?id=47967262\nPoints: 176\n# Comments: 57",
-          "link": "https://404privacy.com/blog/linkedin-is-scanning-your-browser-extensions-this-is-how-they-use-the-data/",
-          "publishedOn": "2026-04-30T19:40:20.000Z",
-          "wordCount": 3089,
-          "title": "LinkedIn scans for 6,278 extensions and encrypts the results into every request",
-          "imageUrl": "https://images.unsplash.com/photo-1592093947163-51f1d258d110?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDZ8fGxpbmtlZCUyMGlufGVufDB8fHx8MTc3NTQ5NjQ2OXww&ixlib=rb-4.1.0&q=80&w=2000"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47967069",
-          "author": "homebrewer",
-          "description": "Article URL: https://dustri.org/b/follow-up-to-carrot-disclosure-forgejo.html\nComments URL: https://news.ycombinator.com/item?id=47967069\nPoints: 51\n# Comments: 7",
-          "link": "https://dustri.org/b/follow-up-to-carrot-disclosure-forgejo.html",
-          "publishedOn": "2026-04-30T19:22:55.000Z",
-          "wordCount": 383,
-          "title": "Follow-up to Carrot disclosure: Forgejo",
-          "imageUrl": null
         }
       ]
     }
