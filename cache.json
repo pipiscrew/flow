@@ -6,6 +6,16 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=48344961",
+          "author": "captain_bender",
+          "description": "Article URL: https://jbkempf.com/blog/2026/dav2d/\nComments URL: https://news.ycombinator.com/item?id=48344961\nPoints: 168\n# Comments: 46",
+          "link": "https://jbkempf.com/blog/2026/dav2d/",
+          "publishedOn": "2026-05-31T11:44:45.000Z",
+          "wordCount": 1230,
+          "title": "Dav2d",
+          "imageUrl": "https://jbkempf.com/images/JBK_haut.jpeg"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=48343714",
           "author": "zeristor",
           "description": "Article URL: https://diamondgeezer.blogspot.com/2026/05/londons-free-roof-terraces.html\nComments URL: https://news.ycombinator.com/item?id=48343714\nPoints: 71\n# Comments: 13",
@@ -24,6 +34,16 @@
           "wordCount": 526,
           "title": "The Website Specification",
           "imageUrl": "https://specification.website/og-default.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48343424",
+          "author": "fdb",
+          "description": "Article URL: https://theodore.net/projects/AvianVisitors/\nComments URL: https://news.ycombinator.com/item?id=48343424\nPoints: 74\n# Comments: 7",
+          "link": "https://theodore.net/projects/AvianVisitors/",
+          "publishedOn": "2026-05-31T06:13:59.000Z",
+          "wordCount": 2419,
+          "title": "Avian Visitors",
+          "imageUrl": "https://theodore.nethttps://bird.onethreenine.net/thumb.png"
         },
         {
           "id": "https://news.ycombinator.com/item?id=48343287",
@@ -124,6 +144,16 @@
           "wordCount": 1130,
           "title": "Domain expertise has always been the real moat",
           "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48340315",
+          "author": "marekkowalczyk",
+          "description": "I built a terminal app that paces slow breathing at 6 breaths per minute for vagal tone training. It's a single Python file, stdlib only, no dependencies — just run breathe and follow the bar.\nI'm a cardiology patient (HFrEF). Slow breathing at resonance frequency is one of the few non-pharmacological interventions shown to improve cardiac vagal tone and baroreflex sensitivity (Bernardi et al., Circulation 2002; Lancet 1998). I wanted a frictionless daily habit tool — no app store, no account, no subscription, just open terminal and go.\nDesign constraints, all grounded in the clinical literature:\n- No breath retention — Valsalva risk in cardiac patients\n- No rapid breathing — minimum 8-second cycles\n- Exhale ≤ 2x inhale — no evidence for extreme ratios\n- Immediate exit, always — q or Ctrl+C restores the terminal even on crash\nThe README includes a resonance frequency measurement protocol for anyone with a chest-strap HRV monitor who wants to find their individual optimum instead of using the 6 bpm default.\nmacOS only (uses afplay for audio cues). MIT licensed.\npip install breathe-cli\nor\nbrew tap marekkowalczyk/breathe && brew install breathe.\nComments URL: https://news.ycombinator.com/item?id=48340315\nPoints: 73\n# Comments: 9",
+          "link": "https://github.com/marekkowalczyk/breathe-cli",
+          "publishedOn": "2026-05-30T20:30:53.000Z",
+          "wordCount": 7115,
+          "title": "Show HN: Breathe CLI – Paced resonance breathing in the macOS terminal",
+          "imageUrl": "https://repository-images.githubusercontent.com/1254611876/129922ae-a5f0-4e47-b8df-6ab3ac572954"
         },
         {
           "id": "https://news.ycombinator.com/item?id=48340262",
@@ -674,6 +704,16 @@
           "wordCount": 951,
           "title": "Headway Therapy Patients Forced to Scan Their Faces to Keep Getting Care",
           "imageUrl": "https://storage.ghost.io/c/0f/76/0f76b548-bc58-4f25-abc3-3f5ebca07da4/content/images/size/w1200/2026/05/venlier-anh-9hvajxl0NSc-unsplash.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48323303",
+          "author": "Hasnep",
+          "description": "Article URL: https://blog.nlnetlabs.nl/one-year-of-roto-the-compiled-scripting-language-for-rust/\nComments URL: https://news.ycombinator.com/item?id=48323303\nPoints: 70\n# Comments: 15",
+          "link": "https://blog.nlnetlabs.nl/one-year-of-roto-the-compiled-scripting-language-for-rust/",
+          "publishedOn": "2026-05-29T14:07:59.000Z",
+          "wordCount": 1865,
+          "title": "One year of Roto, a compiled scripting language for Rust",
+          "imageUrl": "https://storage.ghost.io/c/31/f1/31f186f7-72df-42cc-8a40-b4e49e603d1f/content/images/size/w1200/2026/05/roto_header.svg"
         },
         {
           "id": "https://news.ycombinator.com/item?id=48322929",
@@ -12684,46 +12724,6 @@
           "wordCount": 7653,
           "title": "I built the Playwright for desktop apps. 80% token savings",
           "imageUrl": "https://opengraph.githubassets.com/d32afdf29489b26ea5f93089fa7283dbe73650e58ecf599eae45fbb33e6767ca/lahfir/agent-desktop"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47982512",
-          "author": "delichon",
-          "description": "Article URL: https://www.citadelsecurities.com/news-and-insights/2026-global-intelligence-crisis/\nComments URL: https://news.ycombinator.com/item?id=47982512\nPoints: 99\n# Comments: 31",
-          "link": "https://www.citadelsecurities.com/news-and-insights/2026-global-intelligence-crisis/",
-          "publishedOn": "2026-05-02T01:46:24.000Z",
-          "wordCount": null,
-          "title": "Job Postings for Software Engineers Are Rapidly Rising",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47981995",
-          "author": "andsoitis",
-          "description": "Article URL: https://evilgeniuslabs.ca/blog/good-developers-learn-to-program-not-a-language\nComments URL: https://news.ycombinator.com/item?id=47981995\nPoints: 57\n# Comments: 35",
-          "link": "https://evilgeniuslabs.ca/blog/good-developers-learn-to-program-not-a-language",
-          "publishedOn": "2026-05-02T00:14:33.000Z",
-          "wordCount": 2651,
-          "title": "Good developers learn to program. Most courses teach a language",
-          "imageUrl": "https://evilgeniuslabs.ca/img/og-default.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47981979",
-          "author": "BSTRhino",
-          "description": "Article URL: https://easel.games/blog/2026-rollback-physics\nComments URL: https://news.ycombinator.com/item?id=47981979\nPoints: 50\n# Comments: 19",
-          "link": "https://easel.games/blog/2026-rollback-physics",
-          "publishedOn": "2026-05-02T00:12:00.000Z",
-          "wordCount": 1774,
-          "title": "A Physics Engine with Incremental Rollback for Multiplayer Games",
-          "imageUrl": "https://easel.games/img/social4.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47981669",
-          "author": "susam",
-          "description": "Article URL: https://mirandaheath.website/static/oss_burnout_report_mh_25.pdf\nComments URL: https://news.ycombinator.com/item?id=47981669\nPoints: 54\n# Comments: 12",
-          "link": "https://mirandaheath.website/static/oss_burnout_report_mh_25.pdf",
-          "publishedOn": "2026-05-01T23:24:10.000Z",
-          "wordCount": 60795,
-          "title": "A Report on Burnout in Open Source Software Communities (2025) [pdf]",
-          "imageUrl": null
         }
       ]
     }
