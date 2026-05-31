@@ -2,10 +2,49 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-05-31T21:07:31.375Z</updated>
+    <updated>2026-05-31T23:07:00.362Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Atherton spent $145K to delay train electrification. The rest of us paid $400M]]></title>
+        <id>https://news.ycombinator.com/item?id=48350131</id>
+        <link href="https://peninsulaforeveryone.org/blog/atherton-spent-145k-to-delay-caltrain-electrification-the-rest-of-us-paid-400-million-and-waited-3-extra-years/"/>
+        <updated>2026-05-31T21:55:33.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://peninsulaforeveryone.org/blog/atherton-spent-145k-to-delay-caltrain-electrification-the-rest-of-us-paid-400-million-and-waited-3-extra-years/
+Comments URL: https://news.ycombinator.com/item?id=48350131
+Points: 97
+# Comments: 18]]></summary>
+        <author>
+            <name>mslate</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[US healthcare still stupidly expensive, with pathetic outcomes, study finds]]></title>
+        <id>https://news.ycombinator.com/item?id=48349527</id>
+        <link href="https://arstechnica.com/health/2026/05/us-healthcare-still-stupidly-expensive-with-pathetic-outcomes-study-finds/"/>
+        <updated>2026-05-31T20:41:10.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://arstechnica.com/health/2026/05/us-healthcare-still-stupidly-expensive-with-pathetic-outcomes-study-finds/
+Comments URL: https://news.ycombinator.com/item?id=48349527
+Points: 74
+# Comments: 44]]></summary>
+        <author>
+            <name>rbanffy</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ChatGPT for Google Sheets Exfiltrates Workbooks]]></title>
+        <id>https://news.ycombinator.com/item?id=48349487</id>
+        <link href="https://www.promptarmor.com/resources/gpt-for-google-sheets-data-exfiltration"/>
+        <updated>2026-05-31T20:35:38.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.promptarmor.com/resources/gpt-for-google-sheets-data-exfiltration
+Comments URL: https://news.ycombinator.com/item?id=48349487
+Points: 73
+# Comments: 22]]></summary>
+        <author>
+            <name>hackerBanana</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA['Backrooms' Stuns with $81M Debut]]></title>
         <id>https://news.ycombinator.com/item?id=48348864</id>
@@ -43,6 +82,19 @@ Points: 63
 # Comments: 15]]></summary>
         <author>
             <name>pilingual</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Meta launches Instagram, Facebook, and WhatsApp subscriptions]]></title>
+        <id>https://news.ycombinator.com/item?id=48347354</id>
+        <link href="https://techcrunch.com/2026/05/27/meta-officially-launches-instagram-facebook-and-whatsapp-subscriptions-with-more-to-come-including-ai-plans/"/>
+        <updated>2026-05-31T17:02:23.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://techcrunch.com/2026/05/27/meta-officially-launches-instagram-facebook-and-whatsapp-subscriptions-with-more-to-come-including-ai-plans/
+Comments URL: https://news.ycombinator.com/item?id=48347354
+Points: 88
+# Comments: 123]]></summary>
+        <author>
+            <name>tambourine_man</name>
         </author>
     </entry>
     <entry>
@@ -16798,62 +16850,6 @@ Points: 63
 # Comments: 35]]></summary>
         <author>
             <name>steveharing1</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GameStop Preparing Offer for eBay]]></title>
-        <id>https://news.ycombinator.com/item?id=47985271</id>
-        <link href="https://www.wsj.com/business/deals/gamestop-preparing-offer-for-ebay-1678e6de"/>
-        <updated>2026-05-02T10:55:25.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.wsj.com/business/deals/gamestop-preparing-offer-for-ebay-1678e6de
-Comments URL: https://news.ycombinator.com/item?id=47985271
-Points: 55
-# Comments: 34]]></summary>
-        <author>
-            <name>voisin</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: Mljar Studio – local AI data analyst that saves analysis as notebooks]]></title>
-        <id>https://news.ycombinator.com/item?id=47985077</id>
-        <link href="https://mljar.com/"/>
-        <updated>2026-05-02T10:21:31.000Z</updated>
-        <summary type="html"><![CDATA[Hi HN,
-I’ve been working on mljar-supervised (open-source AutoML for tabular data) for a few years. Recently I built a desktop app around it called MLJAR Studio.
-The idea is simple: you talk to your data in natural language, the AI generates Python code, executes it locally, and the whole conversation becomes a reproducible notebook (*.ipynb file). So instead of just chatting with data, you end up with something you can inspect, modify, and rerun.
-What MLJAR Studio does:
-- Sets up a local Python environment automatically, runs on Mac, Windows, and Linux
-- Installs missing packages during the conversation
-- Built-in AutoML for tabular data (classification, regression, multiclass)
-- Works with standard Python libraries (pandas, matplotlib, etc.)
-- Works with any data file: CSV, Excel, Stata, Parquet ...
-- Connects to PostgreSQL, MySQL, SQL Server, Snowflake, Databricks, and Supabase.
-For AI: use Ollama locally (zero data egress), bring your own OpenAI key, or use MLJAR AI add-on.
-I built this because I wanted something between Jupyter Notebook (flexible but manual) and AI tools that generate code but don’t preserve the workflow. Most tools I tried either hide too much or don’t give reproducible results and are cloud based
-Demos:
-- 60-second demo: https://youtu.be/BjxpZYRiY4c
-- Full 3-minute analysis: https://youtu.be/1DHMMxaNJxI
-Pricing is $199 one-time, with a 7-day trial.
-Curious if this is useful for others doing real data work, or if I’m solving my own problem here.
-Happy to answer questions.
-Comments URL: https://news.ycombinator.com/item?id=47985077
-Points: 51
-# Comments: 11]]></summary>
-        <author>
-            <name>pplonski86</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How fast is a macOS VM, and how small could it be?]]></title>
-        <id>https://news.ycombinator.com/item?id=47984852</id>
-        <link href="https://eclecticlight.co/2026/05/02/how-fast-is-a-macos-vm-and-how-small-could-it-be/"/>
-        <updated>2026-05-02T09:30:49.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://eclecticlight.co/2026/05/02/how-fast-is-a-macos-vm-and-how-small-could-it-be/
-Comments URL: https://news.ycombinator.com/item?id=47984852
-Points: 80
-# Comments: 19]]></summary>
-        <author>
-            <name>moosia</name>
         </author>
     </entry>
 </feed>

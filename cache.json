@@ -6,6 +6,36 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=48350131",
+          "author": "mslate",
+          "description": "Article URL: https://peninsulaforeveryone.org/blog/atherton-spent-145k-to-delay-caltrain-electrification-the-rest-of-us-paid-400-million-and-waited-3-extra-years/\nComments URL: https://news.ycombinator.com/item?id=48350131\nPoints: 97\n# Comments: 18",
+          "link": "https://peninsulaforeveryone.org/blog/atherton-spent-145k-to-delay-caltrain-electrification-the-rest-of-us-paid-400-million-and-waited-3-extra-years/",
+          "publishedOn": "2026-05-31T21:55:33.000Z",
+          "wordCount": 1705,
+          "title": "Atherton spent $145K to delay train electrification. The rest of us paid $400M",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48349527",
+          "author": "rbanffy",
+          "description": "Article URL: https://arstechnica.com/health/2026/05/us-healthcare-still-stupidly-expensive-with-pathetic-outcomes-study-finds/\nComments URL: https://news.ycombinator.com/item?id=48349527\nPoints: 74\n# Comments: 44",
+          "link": "https://arstechnica.com/health/2026/05/us-healthcare-still-stupidly-expensive-with-pathetic-outcomes-study-finds/",
+          "publishedOn": "2026-05-31T20:41:10.000Z",
+          "wordCount": 3211,
+          "title": "US healthcare still stupidly expensive, with pathetic outcomes, study finds",
+          "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2026/05/GettyImages-1143294153-1-1152x648.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48349487",
+          "author": "hackerBanana",
+          "description": "Article URL: https://www.promptarmor.com/resources/gpt-for-google-sheets-data-exfiltration\nComments URL: https://news.ycombinator.com/item?id=48349487\nPoints: 73\n# Comments: 22",
+          "link": "https://www.promptarmor.com/resources/gpt-for-google-sheets-data-exfiltration",
+          "publishedOn": "2026-05-31T20:35:38.000Z",
+          "wordCount": 11293,
+          "title": "ChatGPT for Google Sheets Exfiltrates Workbooks",
+          "imageUrl": "https://framerusercontent.com/images/eJKU8yDyAKTNNHfYvQqWDm5e25s.png?width=6679&height=4516"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=48348864",
           "author": "mindcrime",
           "description": "Article URL: https://variety.com/2026/film/box-office/backrooms-box-office-record-opening-weekend-obsession-jumps-star-wars-crumbles-1236763355/\nComments URL: https://news.ycombinator.com/item?id=48348864\nPoints: 52\n# Comments: 5",
@@ -34,6 +64,16 @@
           "wordCount": 20,
           "title": "Deflock hits 100k ALPRs Mapped in USA",
           "imageUrl": "https://deflock.org/og-banner.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48347354",
+          "author": "tambourine_man",
+          "description": "Article URL: https://techcrunch.com/2026/05/27/meta-officially-launches-instagram-facebook-and-whatsapp-subscriptions-with-more-to-come-including-ai-plans/\nComments URL: https://news.ycombinator.com/item?id=48347354\nPoints: 88\n# Comments: 123",
+          "link": "https://techcrunch.com/2026/05/27/meta-officially-launches-instagram-facebook-and-whatsapp-subscriptions-with-more-to-come-including-ai-plans/",
+          "publishedOn": "2026-05-31T17:02:23.000Z",
+          "wordCount": 3936,
+          "title": "Meta launches Instagram, Facebook, and WhatsApp subscriptions",
+          "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/05/meta-apps-GettyImages-2164040793.jpg?w=1024"
         },
         {
           "id": "https://news.ycombinator.com/item?id=48347153",
@@ -12794,36 +12834,6 @@
           "wordCount": 20217,
           "title": "Open Design: Use Your Coding Agent as a Design Engine",
           "imageUrl": "https://repository-images.githubusercontent.com/1223170290/5eec4959-c821-4927-83fb-e904b5cbc396"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47985271",
-          "author": "voisin",
-          "description": "Article URL: https://www.wsj.com/business/deals/gamestop-preparing-offer-for-ebay-1678e6de\nComments URL: https://news.ycombinator.com/item?id=47985271\nPoints: 55\n# Comments: 34",
-          "link": "https://www.wsj.com/business/deals/gamestop-preparing-offer-for-ebay-1678e6de",
-          "publishedOn": "2026-05-02T10:55:25.000Z",
-          "wordCount": null,
-          "title": "GameStop Preparing Offer for eBay",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47985077",
-          "author": "pplonski86",
-          "description": "Hi HN,\nI’ve been working on mljar-supervised (open-source AutoML for tabular data) for a few years. Recently I built a desktop app around it called MLJAR Studio.\nThe idea is simple: you talk to your data in natural language, the AI generates Python code, executes it locally, and the whole conversation becomes a reproducible notebook (*.ipynb file). So instead of just chatting with data, you end up with something you can inspect, modify, and rerun.\nWhat MLJAR Studio does:\n- Sets up a local Python environment automatically, runs on Mac, Windows, and Linux\n- Installs missing packages during the conversation\n- Built-in AutoML for tabular data (classification, regression, multiclass)\n- Works with standard Python libraries (pandas, matplotlib, etc.)\n- Works with any data file: CSV, Excel, Stata, Parquet ...\n- Connects to PostgreSQL, MySQL, SQL Server, Snowflake, Databricks, and Supabase.\nFor AI: use Ollama locally (zero data egress), bring your own OpenAI key, or use MLJAR AI add-on.\nI built this because I wanted something between Jupyter Notebook (flexible but manual) and AI tools that generate code but don’t preserve the workflow. Most tools I tried either hide too much or don’t give reproducible results and are cloud based\nDemos:\n- 60-second demo: https://youtu.be/BjxpZYRiY4c\n- Full 3-minute analysis: https://youtu.be/1DHMMxaNJxI\nPricing is $199 one-time, with a 7-day trial.\nCurious if this is useful for others doing real data work, or if I’m solving my own problem here.\nHappy to answer questions.\nComments URL: https://news.ycombinator.com/item?id=47985077\nPoints: 51\n# Comments: 11",
-          "link": "https://mljar.com/",
-          "publishedOn": "2026-05-02T10:21:31.000Z",
-          "wordCount": 5389,
-          "title": "Show HN: Mljar Studio – local AI data analyst that saves analysis as notebooks",
-          "imageUrl": "https://mljar.com/images/mljar-card.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=47984852",
-          "author": "moosia",
-          "description": "Article URL: https://eclecticlight.co/2026/05/02/how-fast-is-a-macos-vm-and-how-small-could-it-be/\nComments URL: https://news.ycombinator.com/item?id=47984852\nPoints: 80\n# Comments: 19",
-          "link": "https://eclecticlight.co/2026/05/02/how-fast-is-a-macos-vm-and-how-small-could-it-be/",
-          "publishedOn": "2026-05-02T09:30:49.000Z",
-          "wordCount": 5077,
-          "title": "How fast is a macOS VM, and how small could it be?",
-          "imageUrl": "https://eclecticlight.co/wp-content/uploads/2015/01/cropped-eclecticlightlogo-e1421784280911.png?w=200"
         }
       ]
     }
