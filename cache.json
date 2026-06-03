@@ -6,6 +6,16 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=48379669",
+          "author": "ray__",
+          "description": "Article URL: https://research.ligo.bio/posts/unreasonable-redundancy-of-natural-protein-folds/\nComments URL: https://news.ycombinator.com/item?id=48379669\nPoints: 95\n# Comments: 24",
+          "link": "https://research.ligo.bio/posts/unreasonable-redundancy-of-natural-protein-folds/",
+          "publishedOn": "2026-06-03T03:47:56.000Z",
+          "wordCount": 4253,
+          "title": "The Unreasonable Redundancy of Nature's Protein Folds",
+          "imageUrl": null
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=48379203",
           "author": "elmerland",
           "description": "Article URL: https://agenticmotherfucking.website\nComments URL: https://news.ycombinator.com/item?id=48379203\nPoints: 76\n# Comments: 21",
@@ -14,6 +24,26 @@
           "wordCount": 1014,
           "title": "Agentic Mfw",
           "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48378925",
+          "author": "gregsadetsky",
+          "description": "Article URL: https://www.capstone-engine.org/\nComments URL: https://news.ycombinator.com/item?id=48378925\nPoints: 55\n# Comments: 1",
+          "link": "https://www.capstone-engine.org/",
+          "publishedOn": "2026-06-03T01:59:46.000Z",
+          "wordCount": 796,
+          "title": "Capstone – multi-platform, multi-architecture disassembly framework",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48378495",
+          "author": "dpmdpm",
+          "description": "Article URL: https://blog.roku.com/developer/roku-lt-os\nComments URL: https://news.ycombinator.com/item?id=48378495\nPoints: 73\n# Comments: 23",
+          "link": "https://blog.roku.com/developer/roku-lt-os",
+          "publishedOn": "2026-06-03T01:13:38.000Z",
+          "wordCount": 360,
+          "title": "Roku LT Operating System open source distribution",
+          "imageUrl": "https://www.roku.com/assets/roku-logo-purple.png"
         },
         {
           "id": "https://news.ycombinator.com/item?id=48377761",
@@ -204,6 +234,16 @@
           "wordCount": 12929,
           "title": "How we index images for RAG",
           "imageUrl": "https://framerusercontent.com/images/LJwUi6OIskYSaLLXynnJExGaA.png?width=993&height=670"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48372036",
+          "author": "felixzeller",
+          "description": "Hi everyone, I am Felix, a famliy doctor from ZH, Switzerland. \nA couple of month ago I started this little project called \nshii • haa, a breathing app that uses the phone`s microphone \nfor live biofeedback\nMy prior work in emergency medicine and intensive care was \nclosesly linked to breathing, mostly in critical situations...\nand let me to reevaluate my own way of breathing. over time \none question popped into my mind: can medical knowledge and \nbiofeedback make an app actually promote self-awareness instead \nof attaching your goals to the award system of the app.\nit combines signal processing, a breathing state machine and ML. \nThe state machine follows inhale, exhale and transitions in the \nmic signal. A quality layer rejects noisy or ambiguous windows \nbefore signals are used for feedback. All processing is done \non-device, no speech or raw audio is uploaded.\nWhat I'm trying to avoid is turning breathing into another score \nor game. The app gives feedback on rhythm, depth and regularity, \nbut the point is more \"notice what you are doing\" than \"perform \nwell\".\nI'd be interested in feedback, especially from people who have \nworked on signal processing, health UX, or Android/iOS audio \nissues.\nComments URL: https://news.ycombinator.com/item?id=48372036\nPoints: 50\n# Comments: 17",
+          "link": "https://github.com/shiihaa-app/shiihaa-breath-detection",
+          "publishedOn": "2026-06-02T16:02:47.000Z",
+          "wordCount": 4422,
+          "title": "Show HN: Live breath detection and biofeedback from a phone microphone",
+          "imageUrl": "https://opengraph.githubassets.com/611438492d5122304ccb662c3f56416076e9d5c13624bec1a94367836d152de9/shiihaa-app/shiihaa-breath-detection"
         },
         {
           "id": "https://news.ycombinator.com/item?id=48371562",
@@ -704,6 +744,16 @@
           "wordCount": 2184,
           "title": "Show HN: Streambed – Stream Postgres to Iceberg on S3, Supports Postgres Wire",
           "imageUrl": "https://opengraph.githubassets.com/3c0aab9694e9205329a1357523c1d7a3fce3609940355646f243d0c9c7e4ffb7/viggy28/streambed"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48348286",
+          "author": "tobr",
+          "description": "Article URL: https://wiki.wordsoftype.com/\nComments URL: https://news.ycombinator.com/item?id=48348286\nPoints: 62\n# Comments: 11",
+          "link": "https://wiki.wordsoftype.com/",
+          "publishedOn": "2026-05-31T18:28:45.000Z",
+          "wordCount": 47731,
+          "title": "Words of Type",
+          "imageUrl": "https://cdn.sanity.io/images/vbh5vdbd/production/132598be42e3b8cadacbb1cdb938dbb7f8c93bee-6702x3519.png?w=1200&h=630"
         },
         {
           "id": "https://news.ycombinator.com/item?id=48347961",
@@ -12504,186 +12554,6 @@
           "wordCount": 775,
           "title": "Y Combinator's Stake in OpenAI (0.6%)",
           "imageUrl": "https://daringfireball.net/graphics/df-wide-card.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48015397",
-          "author": "BOOSTERHIDROGEN",
-          "description": "Article URL: https://addyosmani.com/blog/agent-skills/\nComments URL: https://news.ycombinator.com/item?id=48015397\nPoints: 150\n# Comments: 51",
-          "link": "https://addyosmani.com/blog/agent-skills/",
-          "publishedOn": "2026-05-04T21:40:42.000Z",
-          "wordCount": 5947,
-          "title": "Agent Skills",
-          "imageUrl": "https://addyosmani.com/assets/images/addys-agent-skills.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48014868",
-          "author": "kencausey",
-          "description": "Article URL: https://www.os2museum.com/wp/when-networking-doesnt-work/\nComments URL: https://news.ycombinator.com/item?id=48014868\nPoints: 62\n# Comments: 10",
-          "link": "https://www.os2museum.com/wp/when-networking-doesnt-work/",
-          "publishedOn": "2026-05-04T20:56:19.000Z",
-          "wordCount": 2561,
-          "title": "When Networking Doesn't Work",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48014521",
-          "author": "suoken",
-          "description": "Article URL: https://www.ticalc.org/programming/columns/83plus-bas/cherny/\nComments URL: https://news.ycombinator.com/item?id=48014521\nPoints: 96\n# Comments: 40",
-          "link": "https://www.ticalc.org/programming/columns/83plus-bas/cherny/",
-          "publishedOn": "2026-05-04T20:28:24.000Z",
-          "wordCount": 4304,
-          "title": "Boris Cherny: TI-83 Plus Basic Programming Tutorial (2004)",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48014325",
-          "author": "r00k",
-          "description": "Article URL: https://stripe.dev/blog/formatting-an-entire-25-million-line-codebase-overnight-the-rubyfmt-story\nComments URL: https://news.ycombinator.com/item?id=48014325\nPoints: 50\n# Comments: 26",
-          "link": "https://stripe.dev/blog/formatting-an-entire-25-million-line-codebase-overnight-the-rubyfmt-story",
-          "publishedOn": "2026-05-04T20:11:53.000Z",
-          "wordCount": 2676,
-          "title": "Formatting a 25M-line codebase overnight",
-          "imageUrl": "https://stripe.dev/dev_social.jpeg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48013919",
-          "author": "Sean-Der",
-          "description": "Article URL: https://openai.com/index/delivering-low-latency-voice-ai-at-scale/\nComments URL: https://news.ycombinator.com/item?id=48013919\nPoints: 116\n# Comments: 57",
-          "link": "https://openai.com/index/delivering-low-latency-voice-ai-at-scale/",
-          "publishedOn": "2026-05-04T19:42:47.000Z",
-          "wordCount": null,
-          "title": "How OpenAI delivers low-latency voice AI at scale",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48013750",
-          "author": "frizlab",
-          "description": "Article URL: https://unsung.aresluna.org/photoshops-challenges-with-focus-pt-2/\nComments URL: https://news.ycombinator.com/item?id=48013750\nPoints: 58\n# Comments: 19",
-          "link": "https://unsung.aresluna.org/photoshops-challenges-with-focus-pt-2/",
-          "publishedOn": "2026-05-04T19:27:30.000Z",
-          "wordCount": 1321,
-          "title": "Photoshop's challenges with focus, pt. 2",
-          "imageUrl": "https://unsung.aresluna.org/_media/photoshops-challenges-with-focus-pt-2/ogimage.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48012735",
-          "author": "cft",
-          "description": "Article URL: https://twitter.com/L1v1ng0ffTh3L4N/status/2051308329880719730\nComments URL: https://news.ycombinator.com/item?id=48012735\nPoints: 159\n# Comments: 68",
-          "link": "https://twitter.com/L1v1ng0ffTh3L4N/status/2051308329880719730",
-          "publishedOn": "2026-05-04T18:22:42.000Z",
-          "wordCount": 924,
-          "title": "Microsoft Edge stores all passwords in memory in clear text, even when unused",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48012649",
-          "author": "mindcrime",
-          "description": "Article URL: https://www.chevrolet.com/performance-parts/crate-engines/ecrate\nComments URL: https://news.ycombinator.com/item?id=48012649\nPoints: 64\n# Comments: 34",
-          "link": "https://www.chevrolet.com/performance-parts/crate-engines/ecrate",
-          "publishedOn": "2026-05-04T18:17:22.000Z",
-          "wordCount": 2286,
-          "title": "Chevrolet Performance eCrate package (400v/200hp)",
-          "imageUrl": "https://www.chevrolet.com/content/dam/chevrolet/na/us/english/index/performance/new/ecrate/01-images/cpp-ecrate-masthead-l.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48012477",
-          "author": "ironyman",
-          "description": "Article URL: https://www.taipeitimes.com/News/front/archives/2026/04/28/2003856358\nComments URL: https://news.ycombinator.com/item?id=48012477\nPoints: 63\n# Comments: 0",
-          "link": "https://www.taipeitimes.com/News/front/archives/2026/04/28/2003856358",
-          "publishedOn": "2026-05-04T18:04:33.000Z",
-          "wordCount": 2409,
-          "title": "Offenders sentenced up to 10 years for spying on TSMC",
-          "imageUrl": "https://img.taipeitimes.com/images/2026/04/28/P01-260428-601.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48012162",
-          "author": "bearsyankees",
-          "description": "Article URL: https://www.strix.ai/blog/how-strix-found-zero-auth-vulnerability-dod-backed-startup\nComments URL: https://news.ycombinator.com/item?id=48012162\nPoints: 109\n# Comments: 38",
-          "link": "https://www.strix.ai/blog/how-strix-found-zero-auth-vulnerability-dod-backed-startup",
-          "publishedOn": "2026-05-04T17:46:32.000Z",
-          "wordCount": 43,
-          "title": "Securing a DoD Contractor: Finding a Multi-Tenant Authorization Vulnerability",
-          "imageUrl": "https://strix.ai/blog-schemata-cover.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48012022",
-          "author": "goalieca",
-          "description": "Article URL: https://www.dayswithoutgithubincident.com/\nComments URL: https://news.ycombinator.com/item?id=48012022\nPoints: 73\n# Comments: 16",
-          "link": "https://www.dayswithoutgithubincident.com/",
-          "publishedOn": "2026-05-04T17:36:32.000Z",
-          "wordCount": 199,
-          "title": "Days Without GitHub Incidents",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48012003",
-          "author": "doener",
-          "description": "Article URL: https://www.pv-magazine.com/2026/05/04/heat-pump-sales-rise-17-across-europe-in-q1-as-energy-prices-surge/\nComments URL: https://news.ycombinator.com/item?id=48012003\nPoints: 111\n# Comments: 34",
-          "link": "https://www.pv-magazine.com/2026/05/04/heat-pump-sales-rise-17-across-europe-in-q1-as-energy-prices-surge/",
-          "publishedOn": "2026-05-04T17:35:15.000Z",
-          "wordCount": 4180,
-          "title": "Heat pump sales rise across Europe",
-          "imageUrl": "https://www.pv-magazine.com/wp-content/uploads/2025/07/Unbenannt-13-1200x662.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48011980",
-          "author": "Tomte",
-          "description": "Article URL: https://www.space.com/entertainment/space-games/kitten-space-agency-is-the-spiritual-successor-to-kerbal-space-program-and-they-have-an-ex-spacex-engineer-on-the-team-interview\nComments URL: https://news.ycombinator.com/item?id=48011980\nPoints: 74\n# Comments: 24",
-          "link": "https://www.space.com/entertainment/space-games/kitten-space-agency-is-the-spiritual-successor-to-kerbal-space-program-and-they-have-an-ex-spacex-engineer-on-the-team-interview",
-          "publishedOn": "2026-05-04T17:33:48.000Z",
-          "wordCount": 36478,
-          "title": "'Kitten Space Agency', the Spiritual Successor to 'Kerbal Space Program' (2025)",
-          "imageUrl": "https://cdn.mos.cms.futurecdn.net/rPHvfduWsJ57gkKjGqC64Q-1920-80.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48011904",
-          "author": "cdrnsf",
-          "description": "Article URL: https://www.b-list.org/weblog/2026/apr/09/llms/\nComments URL: https://news.ycombinator.com/item?id=48011904\nPoints: 86\n# Comments: 55",
-          "link": "https://www.b-list.org/weblog/2026/apr/09/llms/",
-          "publishedOn": "2026-05-04T17:29:39.000Z",
-          "wordCount": 6490,
-          "title": "Let's talk about LLMs",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48011781",
-          "author": "koolhead17",
-          "description": "Article URL: https://www.bloomberg.com/news/features/2026-05-03/trillions-in-us-retirement-dollars-flow-into-opaque-trusts-that-rival-etfs\nComments URL: https://news.ycombinator.com/item?id=48011781\nPoints: 73\n# Comments: 8",
-          "link": "https://www.bloomberg.com/news/features/2026-05-03/trillions-in-us-retirement-dollars-flow-into-opaque-trusts-that-rival-etfs",
-          "publishedOn": "2026-05-04T17:21:44.000Z",
-          "wordCount": null,
-          "title": "Trillions in Retirement Dollars Flow into Opaque Trusts",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48011689",
-          "author": "ZeidJ",
-          "description": "Article URL: https://techcrunch.com/2026/05/04/us-healthcare-marketplaces-shared-citizenship-and-race-data-with-ad-tech-giants/\nComments URL: https://news.ycombinator.com/item?id=48011689\nPoints: 302\n# Comments: 96",
-          "link": "https://techcrunch.com/2026/05/04/us-healthcare-marketplaces-shared-citizenship-and-race-data-with-ad-tech-giants/",
-          "publishedOn": "2026-05-04T17:16:36.000Z",
-          "wordCount": 3228,
-          "title": "US healthcare marketplaces shared citizenship and race data with ad tech giants",
-          "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/05/pixel-mouse-2217637165.jpg?resize=1200,870"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48011603",
-          "author": "andsoitis",
-          "description": "Article URL: https://economist.com/by-invitation/2026/04/29/stop-big-tech-from-making-users-behave-in-ways-they-dont-want-to\nComments URL: https://news.ycombinator.com/item?id=48011603\nPoints: 151\n# Comments: 86",
-          "link": "https://economist.com/by-invitation/2026/04/29/stop-big-tech-from-making-users-behave-in-ways-they-dont-want-to",
-          "publishedOn": "2026-05-04T17:10:57.000Z",
-          "wordCount": null,
-          "title": "Stop big tech from making users behave in ways they don't want to",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48011440",
-          "author": "zarlez",
-          "description": "Article URL: https://eblong.com/infocom/visi/zork3/\nComments URL: https://news.ycombinator.com/item?id=48011440\nPoints: 61\n# Comments: 6",
-          "link": "https://eblong.com/infocom/visi/zork3/",
-          "publishedOn": "2026-05-04T16:59:28.000Z",
-          "wordCount": 73,
-          "title": "The Visible Zorker: Zork 3",
-          "imageUrl": "https://eblong.com/infocom/visi/zork3/pic/snapshot.png"
         }
       ]
     }
