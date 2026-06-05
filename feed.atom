@@ -2,10 +2,85 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-06-05T12:13:08.189Z</updated>
+    <updated>2026-06-05T16:03:30.220Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Astronauts on ISS told to shelter as repairs under way to fix air leaks]]></title>
+        <id>https://news.ycombinator.com/item?id=48413464</id>
+        <link href="https://www.bbc.com/news/live/c4g44ew3g1kt"/>
+        <updated>2026-06-05T15:00:31.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.bbc.com/news/live/c4g44ew3g1kt
+Comments URL: https://news.ycombinator.com/item?id=48413464
+Points: 104
+# Comments: 54]]></summary>
+        <author>
+            <name>janpot</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Programmers will document for Claude, but not for each other]]></title>
+        <id>https://news.ycombinator.com/item?id=48411510</id>
+        <link href="https://blog.plover.com/2026/03/09/#documentation-wins-2"/>
+        <updated>2026-06-05T12:30:17.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://blog.plover.com/2026/03/09/#documentation-wins-2
+Comments URL: https://news.ycombinator.com/item?id=48411510
+Points: 108
+# Comments: 104]]></summary>
+        <author>
+            <name>surprisetalk</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Communication on European Tech Sovereignty, and an EU Open-Source Strategy]]></title>
+        <id>https://news.ycombinator.com/item?id=48410602</id>
+        <link href="https://digital-strategy.ec.europa.eu/en/library/communication-european-tech-sovereignty-accompanied-eu-open-source-strategy"/>
+        <updated>2026-06-05T10:44:48.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://digital-strategy.ec.europa.eu/en/library/communication-european-tech-sovereignty-accompanied-eu-open-source-strategy
+Comments URL: https://news.ycombinator.com/item?id=48410602
+Points: 83
+# Comments: 53]]></summary>
+        <author>
+            <name>jrepinc</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Lowfat – pluggable CLI filter that saved 91.8% of my LLM tokens]]></title>
+        <id>https://news.ycombinator.com/item?id=48409955</id>
+        <link href="https://github.com/zdk/lowfat"/>
+        <updated>2026-06-05T09:10:42.000Z</updated>
+        <summary type="html"><![CDATA[Hi HN,
+Not sure if anyone would be interested.
+But, just wanted to share that I've been maintaining my small tool called 'lowfat' that helps me filters some of my verbose CLI output.
+It's a single binary, works as an agent hook or a shell wrapper. 
+It has a plugin system to customize filters per command.
+The idea is pretty simple: agents don't need the full kubectl get -o yaml or any 10k-line dump to make decisions. 
+So that lowfat sits in between, strips the noise, and passes through what matters.
+Here's my real report after 2 months of personal use:
+lowfat history --all
+  lowfat plugin candidates
+  ─────────────────────────────────────────────────────────
+
+    #  command                    runs   avg raw      cost   savings  source    status  
+    1  kubectl get                101x     1…]]></summary>
+        <author>
+            <name>zdkaster</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Entanglement Builds Space-Time. Now "Magic" Gives It Gravity]]></title>
+        <id>https://news.ycombinator.com/item?id=48409675</id>
+        <link href="https://www.quantamagazine.org/entanglement-builds-space-time-now-magic-gives-it-gravity-20260603/"/>
+        <updated>2026-06-05T08:33:37.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.quantamagazine.org/entanglement-builds-space-time-now-magic-gives-it-gravity-20260603/
+Comments URL: https://news.ycombinator.com/item?id=48409675
+Points: 112
+# Comments: 102]]></summary>
+        <author>
+            <name>rbanffy</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Tracing a powerful GNSS interference source over Europe]]></title>
         <id>https://news.ycombinator.com/item?id=48409664</id>
@@ -20,6 +95,19 @@ Points: 122
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[ESP32 Bit Pirate, a Hardware Hacking Tool with WebCLI That Speaks Every Protocol]]></title>
+        <id>https://news.ycombinator.com/item?id=48409306</id>
+        <link href="https://github.com/geo-tp/ESP32-Bit-Pirate"/>
+        <updated>2026-06-05T07:40:04.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://github.com/geo-tp/ESP32-Bit-Pirate
+Comments URL: https://news.ycombinator.com/item?id=48409306
+Points: 112
+# Comments: 36]]></summary>
+        <author>
+            <name>geotp</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Changing How We Develop Ladybird]]></title>
         <id>https://news.ycombinator.com/item?id=48409191</id>
         <link href="https://ladybird.org/posts/changing-how-we-develop-ladybird/"/>
@@ -30,6 +118,19 @@ Points: 50
 # Comments: 25]]></summary>
         <author>
             <name>EdwinHoksberg</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Lee Kuan Yew's Singapore Story (2023)]]></title>
+        <id>https://news.ycombinator.com/item?id=48409173</id>
+        <link href="https://www.historytoday.com/archive/feature/lee-kuan-yews-singapore-story"/>
+        <updated>2026-06-05T07:23:44.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.historytoday.com/archive/feature/lee-kuan-yews-singapore-story
+Comments URL: https://news.ycombinator.com/item?id=48409173
+Points: 104
+# Comments: 91]]></summary>
+        <author>
+            <name>pepys</name>
         </author>
     </entry>
     <entry>
@@ -82,6 +183,19 @@ Points: 51
 # Comments: 8]]></summary>
         <author>
             <name>selvan</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Linear Cosine Palettes(2025)]]></title>
+        <id>https://news.ycombinator.com/item?id=48407653</id>
+        <link href="https://blog.djnavarro.net/posts/2025-09-14_cosine-palettes/"/>
+        <updated>2026-06-05T03:40:02.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://blog.djnavarro.net/posts/2025-09-14_cosine-palettes/
+Comments URL: https://news.ycombinator.com/item?id=48407653
+Points: 52
+# Comments: 2]]></summary>
+        <author>
+            <name>num42</name>
         </author>
     </entry>
     <entry>
@@ -264,6 +378,19 @@ Points: 131
 # Comments: 98]]></summary>
         <author>
             <name>haydenbarnes</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Leap in DNA synthesis slashes time to build new genetic sequences]]></title>
+        <id>https://news.ycombinator.com/item?id=48402116</id>
+        <link href="https://spectrum.ieee.org/faster-dna-synthesis-sidewinder"/>
+        <updated>2026-06-04T17:51:10.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://spectrum.ieee.org/faster-dna-synthesis-sidewinder
+Comments URL: https://news.ycombinator.com/item?id=48402116
+Points: 90
+# Comments: 18]]></summary>
+        <author>
+            <name>natalcleft</name>
         </author>
     </entry>
     <entry>
@@ -780,6 +907,19 @@ Points: 178
 # Comments: 25]]></summary>
         <author>
             <name>frereubu</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Mouseless – keyboard-driven control of macOS/Linux/Windows]]></title>
+        <id>https://news.ycombinator.com/item?id=48383667</id>
+        <link href="https://mouseless.click/"/>
+        <updated>2026-06-03T13:22:06.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://mouseless.click
+Comments URL: https://news.ycombinator.com/item?id=48383667
+Points: 224
+# Comments: 109]]></summary>
+        <author>
+            <name>riddley</name>
         </author>
     </entry>
     <entry>
@@ -16308,71 +16448,6 @@ Points: 66
 # Comments: 36]]></summary>
         <author>
             <name>wojtczyk</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[ProgramBench: Can Language Models Rebuild Programs from Scratch?]]></title>
-        <id>https://news.ycombinator.com/item?id=48045174</id>
-        <link href="https://arxiv.org/abs/2605.03546"/>
-        <updated>2026-05-07T03:46:15.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://arxiv.org/abs/2605.03546
-Comments URL: https://news.ycombinator.com/item?id=48045174
-Points: 68
-# Comments: 36]]></summary>
-        <author>
-            <name>jonbaer</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Diskless Linux boot using ZFS, iSCSI and PXE]]></title>
-        <id>https://news.ycombinator.com/item?id=48045012</id>
-        <link href="https://aniket.foo/posts/20260505-netboot/"/>
-        <updated>2026-05-07T03:13:24.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://aniket.foo/posts/20260505-netboot/
-Comments URL: https://news.ycombinator.com/item?id=48045012
-Points: 51
-# Comments: 16]]></summary>
-        <author>
-            <name>stereo-highway</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Permacomputing Principles]]></title>
-        <id>https://news.ycombinator.com/item?id=48044638</id>
-        <link href="https://permacomputing.net/principles/"/>
-        <updated>2026-05-07T02:18:23.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://permacomputing.net/principles/
-Comments URL: https://news.ycombinator.com/item?id=48044638
-Points: 87
-# Comments: 24]]></summary>
-        <author>
-            <name>andsoitis</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Vatican's Website in Latin]]></title>
-        <id>https://news.ycombinator.com/item?id=48044311</id>
-        <link href="https://www.vatican.va/latin/latin_index.html"/>
-        <updated>2026-05-07T01:26:03.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.vatican.va/latin/latin_index.html
-Comments URL: https://news.ycombinator.com/item?id=48044311
-Points: 67
-# Comments: 43]]></summary>
-        <author>
-            <name>ks2048</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[RSS Feeds Send Me More Traffic Than Google]]></title>
-        <id>https://news.ycombinator.com/item?id=48043964</id>
-        <link href="https://shkspr.mobi/blog/2026/05/rss-feeds-send-me-more-traffic-than-google/"/>
-        <updated>2026-05-07T00:40:06.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://shkspr.mobi/blog/2026/05/rss-feeds-send-me-more-traffic-than-google/
-Comments URL: https://news.ycombinator.com/item?id=48043964
-Points: 97
-# Comments: 17]]></summary>
-        <author>
-            <name>SpyCoder77</name>
         </author>
     </entry>
 </feed>

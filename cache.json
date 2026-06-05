@@ -6,6 +6,56 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=48413464",
+          "author": "janpot",
+          "description": "Article URL: https://www.bbc.com/news/live/c4g44ew3g1kt\nComments URL: https://news.ycombinator.com/item?id=48413464\nPoints: 104\n# Comments: 54",
+          "link": "https://www.bbc.com/news/live/c4g44ew3g1kt",
+          "publishedOn": "2026-06-05T15:00:31.000Z",
+          "wordCount": 9351,
+          "title": "Astronauts on ISS told to shelter as repairs under way to fix air leaks",
+          "imageUrl": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/de4c/live/1c088020-60f1-11f1-89a3-d1f559421220.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48411510",
+          "author": "surprisetalk",
+          "description": "Article URL: https://blog.plover.com/2026/03/09/#documentation-wins-2\nComments URL: https://news.ycombinator.com/item?id=48411510\nPoints: 108\n# Comments: 104",
+          "link": "https://blog.plover.com/2026/03/09/#documentation-wins-2",
+          "publishedOn": "2026-06-05T12:30:17.000Z",
+          "wordCount": 1179,
+          "title": "Programmers will document for Claude, but not for each other",
+          "imageUrl": "https://pic.blog.plover.com/FIRST_IMAGE_DEFAULT.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48410602",
+          "author": "jrepinc",
+          "description": "Article URL: https://digital-strategy.ec.europa.eu/en/library/communication-european-tech-sovereignty-accompanied-eu-open-source-strategy\nComments URL: https://news.ycombinator.com/item?id=48410602\nPoints: 83\n# Comments: 53",
+          "link": "https://digital-strategy.ec.europa.eu/en/library/communication-european-tech-sovereignty-accompanied-eu-open-source-strategy",
+          "publishedOn": "2026-06-05T10:44:48.000Z",
+          "wordCount": 358,
+          "title": "Communication on European Tech Sovereignty, and an EU Open-Source Strategy",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48409955",
+          "author": "zdkaster",
+          "description": "Hi HN,\nNot sure if anyone would be interested.\nBut, just wanted to share that I've been maintaining my small tool called 'lowfat' that helps me filters some of my verbose CLI output.\nIt's a single binary, works as an agent hook or a shell wrapper. \nIt has a plugin system to customize filters per command.\nThe idea is pretty simple: agents don't need the full kubectl get -o yaml or any 10k-line dump to make decisions. \nSo that lowfat sits in between, strips the noise, and passes through what matters.\nHere's my real report after 2 months of personal use:\nlowfat history --all\n  lowfat plugin candidates\n  ─────────────────────────────────────────────────────────\n\n    #  command                    runs   avg raw      cost   savings  source    status  \n    1  kubectl get                101x     1…",
+          "link": "https://github.com/zdk/lowfat",
+          "publishedOn": "2026-06-05T09:10:42.000Z",
+          "wordCount": 2486,
+          "title": "Show HN: Lowfat – pluggable CLI filter that saved 91.8% of my LLM tokens",
+          "imageUrl": "https://opengraph.githubassets.com/5e5513d95d71f767ba373ecd97270cb16fe1e7404db11ee0ba390b04d5193678/zdk/lowfat"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48409675",
+          "author": "rbanffy",
+          "description": "Article URL: https://www.quantamagazine.org/entanglement-builds-space-time-now-magic-gives-it-gravity-20260603/\nComments URL: https://news.ycombinator.com/item?id=48409675\nPoints: 112\n# Comments: 102",
+          "link": "https://www.quantamagazine.org/entanglement-builds-space-time-now-magic-gives-it-gravity-20260603/",
+          "publishedOn": "2026-06-05T08:33:37.000Z",
+          "wordCount": 3786,
+          "title": "Entanglement Builds Space-Time. Now \"Magic\" Gives It Gravity",
+          "imageUrl": "https://www.quantamagazine.org/wp-content/uploads/2026/06/Magic-Gravity-cr-Irene-Perez-Social.jpg"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=48409664",
           "author": "mimorigasaka",
           "description": "Article URL: https://arxiv.org/abs/2606.03673\nComments URL: https://news.ycombinator.com/item?id=48409664\nPoints: 122\n# Comments: 32",
@@ -16,6 +66,16 @@
           "imageUrl": "/static/browse/0.3.4/images/arxiv-logo-fb.png"
         },
         {
+          "id": "https://news.ycombinator.com/item?id=48409306",
+          "author": "geotp",
+          "description": "Article URL: https://github.com/geo-tp/ESP32-Bit-Pirate\nComments URL: https://news.ycombinator.com/item?id=48409306\nPoints: 112\n# Comments: 36",
+          "link": "https://github.com/geo-tp/ESP32-Bit-Pirate",
+          "publishedOn": "2026-06-05T07:40:04.000Z",
+          "wordCount": 4843,
+          "title": "ESP32 Bit Pirate, a Hardware Hacking Tool with WebCLI That Speaks Every Protocol",
+          "imageUrl": "https://repository-images.githubusercontent.com/1014515436/a9640a65-58e5-407e-bec8-df5a9a7e1845"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=48409191",
           "author": "EdwinHoksberg",
           "description": "Article URL: https://ladybird.org/posts/changing-how-we-develop-ladybird/\nComments URL: https://news.ycombinator.com/item?id=48409191\nPoints: 50\n# Comments: 25",
@@ -24,6 +84,16 @@
           "wordCount": 622,
           "title": "Changing How We Develop Ladybird",
           "imageUrl": "/assets/img/logo-new.webp"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48409173",
+          "author": "pepys",
+          "description": "Article URL: https://www.historytoday.com/archive/feature/lee-kuan-yews-singapore-story\nComments URL: https://news.ycombinator.com/item?id=48409173\nPoints: 104\n# Comments: 91",
+          "link": "https://www.historytoday.com/archive/feature/lee-kuan-yews-singapore-story",
+          "publishedOn": "2026-06-05T07:23:44.000Z",
+          "wordCount": null,
+          "title": "Lee Kuan Yew's Singapore Story (2023)",
+          "imageUrl": null
         },
         {
           "id": "https://news.ycombinator.com/item?id=48408442",
@@ -64,6 +134,16 @@
           "wordCount": 2923,
           "title": "Magenta RealTime 2: Open and Local Live Music Models",
           "imageUrl": "https://magenta.withgoogle.com/assets/magenta_realtime_2/jam.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48407653",
+          "author": "num42",
+          "description": "Article URL: https://blog.djnavarro.net/posts/2025-09-14_cosine-palettes/\nComments URL: https://news.ycombinator.com/item?id=48407653\nPoints: 52\n# Comments: 2",
+          "link": "https://blog.djnavarro.net/posts/2025-09-14_cosine-palettes/",
+          "publishedOn": "2026-06-05T03:40:02.000Z",
+          "wordCount": 3466,
+          "title": "Linear Cosine Palettes(2025)",
+          "imageUrl": "https://blog.djnavarro.net/posts/2025-09-14_cosine-palettes/cover.png"
         },
         {
           "id": "https://news.ycombinator.com/item?id=48407499",
@@ -204,6 +284,16 @@
           "wordCount": 1345,
           "title": "WSL 2 is getting faster Windows file system access",
           "imageUrl": "https://www.boxofcables.dev/content/images/size/w1200/2026/05/Screenshot-2026-05-31-174734.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48402116",
+          "author": "natalcleft",
+          "description": "Article URL: https://spectrum.ieee.org/faster-dna-synthesis-sidewinder\nComments URL: https://news.ycombinator.com/item?id=48402116\nPoints: 90\n# Comments: 18",
+          "link": "https://spectrum.ieee.org/faster-dna-synthesis-sidewinder",
+          "publishedOn": "2026-06-04T17:51:10.000Z",
+          "wordCount": 11638,
+          "title": "Leap in DNA synthesis slashes time to build new genetic sequences",
+          "imageUrl": "https://spectrum.ieee.org/media-library/image.jpg?id=66745352&width=1200&height=600&coordinates=0%2C375%2C0%2C875"
         },
         {
           "id": "https://news.ycombinator.com/item?id=48401965",
@@ -593,6 +683,16 @@
           "publishedOn": "2026-06-03T13:33:00.000Z",
           "wordCount": null,
           "title": "I built a ceiling projection mapping of the planes flying over my house",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48383667",
+          "author": "riddley",
+          "description": "Article URL: https://mouseless.click\nComments URL: https://news.ycombinator.com/item?id=48383667\nPoints: 224\n# Comments: 109",
+          "link": "https://mouseless.click/",
+          "publishedOn": "2026-06-03T13:22:06.000Z",
+          "wordCount": 28,
+          "title": "Mouseless – keyboard-driven control of macOS/Linux/Windows",
           "imageUrl": null
         },
         {
@@ -12384,56 +12484,6 @@
           "wordCount": 2098,
           "title": "Show HN: Trust – Coding Rust like it's 1989",
           "imageUrl": "https://opengraph.githubassets.com/13e40368e5aa4f023806d3e9732d320b807b1630f4a480c6982834ce009cd8b6/wojtczyk/trust"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48045174",
-          "author": "jonbaer",
-          "description": "Article URL: https://arxiv.org/abs/2605.03546\nComments URL: https://news.ycombinator.com/item?id=48045174\nPoints: 68\n# Comments: 36",
-          "link": "https://arxiv.org/abs/2605.03546",
-          "publishedOn": "2026-05-07T03:46:15.000Z",
-          "wordCount": 698,
-          "title": "ProgramBench: Can Language Models Rebuild Programs from Scratch?",
-          "imageUrl": "/static/browse/0.3.4/images/arxiv-logo-fb.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48045012",
-          "author": "stereo-highway",
-          "description": "Article URL: https://aniket.foo/posts/20260505-netboot/\nComments URL: https://news.ycombinator.com/item?id=48045012\nPoints: 51\n# Comments: 16",
-          "link": "https://aniket.foo/posts/20260505-netboot/",
-          "publishedOn": "2026-05-07T03:13:24.000Z",
-          "wordCount": 2453,
-          "title": "Diskless Linux boot using ZFS, iSCSI and PXE",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48044638",
-          "author": "andsoitis",
-          "description": "Article URL: https://permacomputing.net/principles/\nComments URL: https://news.ycombinator.com/item?id=48044638\nPoints: 87\n# Comments: 24",
-          "link": "https://permacomputing.net/principles/",
-          "publishedOn": "2026-05-07T02:18:23.000Z",
-          "wordCount": 2348,
-          "title": "Permacomputing Principles",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48044311",
-          "author": "ks2048",
-          "description": "Article URL: https://www.vatican.va/latin/latin_index.html\nComments URL: https://news.ycombinator.com/item?id=48044311\nPoints: 67\n# Comments: 43",
-          "link": "https://www.vatican.va/latin/latin_index.html",
-          "publishedOn": "2026-05-07T01:26:03.000Z",
-          "wordCount": 6,
-          "title": "The Vatican's Website in Latin",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48043964",
-          "author": "SpyCoder77",
-          "description": "Article URL: https://shkspr.mobi/blog/2026/05/rss-feeds-send-me-more-traffic-than-google/\nComments URL: https://news.ycombinator.com/item?id=48043964\nPoints: 97\n# Comments: 17",
-          "link": "https://shkspr.mobi/blog/2026/05/rss-feeds-send-me-more-traffic-than-google/",
-          "publishedOn": "2026-05-07T00:40:06.000Z",
-          "wordCount": null,
-          "title": "RSS Feeds Send Me More Traffic Than Google",
-          "imageUrl": null
         }
       ]
     }
