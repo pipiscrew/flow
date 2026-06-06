@@ -2,10 +2,42 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-06-06T00:13:54.467Z</updated>
+    <updated>2026-06-06T04:57:52.435Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Ask HN: Why is the HN crowd so anti-AI?]]></title>
+        <id>https://news.ycombinator.com/item?id=48420827</id>
+        <link href="https://news.ycombinator.com/item?id=48420827"/>
+        <updated>2026-06-06T02:31:51.000Z</updated>
+        <summary type="html"><![CDATA[Genuine question.
+Over the past six months, there hasn’t been a single day where I’ve checked the HN Best RSS feed without seeing a post about how AI “writes bad code,” “introduces bugs,” “creates technical debt,” or something along those lines.
+I’ll probably make a lot of enemies by saying this, but do people realize that code is just a means to an end?
+Users don’t care whether the code was written by AI or by hand, or which framework you used. They care that the product works.
+I say this as someone who has spent more than 20 years honing their craft as a software engineer.
+Let’s face it: by the time I manually ship version 1.0 of a product, the AI-assisted version could have been deployed 10x faster. By then, enough real-world feedback would have surfaced to identify the major issues, and tools like Claude Code would make it possible to fix and ship version 2.0 at an incredible pace.
+At some point, execution speed starts to matter more than the elegance of the code.
+Comments URL: https://news.ycombinator.com/item?id=48420827
+Points: 55
+# Comments: 92]]></summary>
+        <author>
+            <name>Ekami</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The intracies of modern camera lens repair (2024)]]></title>
+        <id>https://news.ycombinator.com/item?id=48420148</id>
+        <link href="https://salvagedcircuitry.com/sigma-45mm.html"/>
+        <updated>2026-06-06T00:33:26.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://salvagedcircuitry.com/sigma-45mm.html
+Comments URL: https://news.ycombinator.com/item?id=48420148
+Points: 115
+# Comments: 39]]></summary>
+        <author>
+            <name>transistor-man</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Microsoft wants users to be addicted to Scout, their AI personal assistant]]></title>
         <id>https://news.ycombinator.com/item?id=48419023</id>
@@ -213,6 +245,21 @@ Points: 151
 # Comments: 42]]></summary>
         <author>
             <name>vquemener</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Quiet Numbers Station: Decoding Nineteen Years of GPS Cryptography]]></title>
+        <id>https://news.ycombinator.com/item?id=48411799</id>
+        <link href="https://www.benthamsgaze.org/2026/06/02/the-quiet-numbers-station-decoding-nineteen-years-of-gps-cryptography/"/>
+        <updated>2026-06-05T12:56:44.000Z</updated>
+        <summary type="html"><![CDATA[https://lsc-pagepro.mydigitalpublication.com/publication/?i=...
+PDF: https://cdn.coverstand.com/61061/865273/2c88ea662e2b57478723... (article is on page 62)
+Related: https://www.404media.co/the-u-s-military-quietly-turned-gps-...
+Comments URL: https://news.ycombinator.com/item?id=48411799
+Points: 77
+# Comments: 69]]></summary>
+        <author>
+            <name>lordgilman</name>
         </author>
     </entry>
     <entry>
@@ -954,6 +1001,19 @@ Points: 85
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[How LLMs work]]></title>
+        <id>https://news.ycombinator.com/item?id=48389360</id>
+        <link href="https://www.0xkato.xyz/how-llms-actually-work/"/>
+        <updated>2026-06-03T20:15:13.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.0xkato.xyz/how-llms-actually-work/
+Comments URL: https://news.ycombinator.com/item?id=48389360
+Points: 88
+# Comments: 11]]></summary>
+        <author>
+            <name>0xkato</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[A Man Who Reads Books for a Living (One Every Two Days)]]></title>
         <id>https://news.ycombinator.com/item?id=48389284</id>
         <link href="https://lithub.com/the-man-who-reads-books-for-a-living-one-every-two-days/"/>
@@ -1315,6 +1375,19 @@ Points: 73
 # Comments: 22]]></summary>
         <author>
             <name>zvr</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Cooldown Support for Ruby Bundler]]></title>
+        <id>https://news.ycombinator.com/item?id=48380174</id>
+        <link href="https://blog.rubygems.org/2026/06/03/cooldown-let-new-gems-be-vetted.html"/>
+        <updated>2026-06-03T05:15:09.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://blog.rubygems.org/2026/06/03/cooldown-let-new-gems-be-vetted.html
+Comments URL: https://news.ycombinator.com/item?id=48380174
+Points: 151
+# Comments: 42]]></summary>
+        <author>
+            <name>calyhre</name>
         </author>
     </entry>
     <entry>
@@ -16310,292 +16383,6 @@ Points: 170
 # Comments: 39]]></summary>
         <author>
             <name>atgctg</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Agents need control flow, not more prompts]]></title>
-        <id>https://news.ycombinator.com/item?id=48051562</id>
-        <link href="https://bsuh.bearblog.dev/agents-need-control-flow/"/>
-        <updated>2026-05-07T16:43:35.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://bsuh.bearblog.dev/agents-need-control-flow/
-Comments URL: https://news.ycombinator.com/item?id=48051562
-Points: 78
-# Comments: 36]]></summary>
-        <author>
-            <name>bsuh</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Authorities say Flock cameras' data allegedly used for immigration enforcement]]></title>
-        <id>https://news.ycombinator.com/item?id=48051080</id>
-        <link href="https://www.ohio.news/stories/dayton-authorities-say-that-flock-cameras-data-allegedly-used-for-immigration-enforcement/"/>
-        <updated>2026-05-07T16:05:45.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.ohio.news/stories/dayton-authorities-say-that-flock-cameras-data-allegedly-used-for-immigration-enforcement/
-Comments URL: https://news.ycombinator.com/item?id=48051080
-Points: 58
-# Comments: 30]]></summary>
-        <author>
-            <name>pseudolus</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Hardening Firefox with Claude Mythos Preview]]></title>
-        <id>https://news.ycombinator.com/item?id=48051079</id>
-        <link href="https://hacks.mozilla.org/2026/05/behind-the-scenes-hardening-firefox/"/>
-        <updated>2026-05-07T16:05:33.000Z</updated>
-        <summary type="html"><![CDATA[https://arstechnica.com/information-technology/2026/05/mozil...
-Comments URL: https://news.ycombinator.com/item?id=48051079
-Points: 126
-# Comments: 72]]></summary>
-        <author>
-            <name>HieronymusBosch</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[I switched from Mac to a Lenovo Chromebook]]></title>
-        <id>https://news.ycombinator.com/item?id=48051025</id>
-        <link href="https://blog.johnozbay.com/i-left-apples-ecosystem-for-a-lenovo-chromebook-and-you-can-too.html"/>
-        <updated>2026-05-07T16:01:24.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://blog.johnozbay.com/i-left-apples-ecosystem-for-a-lenovo-chromebook-and-you-can-too.html
-Comments URL: https://news.ycombinator.com/item?id=48051025
-Points: 64
-# Comments: 86]]></summary>
-        <author>
-            <name>speckx</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Chrome removes claim of On-device Al not sending data to Google Servers]]></title>
-        <id>https://news.ycombinator.com/item?id=48050964</id>
-        <link href="https://old.reddit.com/r/chrome/comments/1t5qayz/chrome_removes_claim_of_ondevice_al_not_sending/"/>
-        <updated>2026-05-07T15:56:33.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://old.reddit.com/r/chrome/comments/1t5qayz/chrome_removes_claim_of_ondevice_al_not_sending/
-Comments URL: https://news.ycombinator.com/item?id=48050964
-Points: 189
-# Comments: 52]]></summary>
-        <author>
-            <name>newsoftheday</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[DeepSeek 4 Flash local inference engine for Metal]]></title>
-        <id>https://news.ycombinator.com/item?id=48050751</id>
-        <link href="https://github.com/antirez/ds4"/>
-        <updated>2026-05-07T15:40:24.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://github.com/antirez/ds4
-Comments URL: https://news.ycombinator.com/item?id=48050751
-Points: 99
-# Comments: 31]]></summary>
-        <author>
-            <name>tamnd</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[First tunnel element of the Fehmarnbelt Tunnel immersed]]></title>
-        <id>https://news.ycombinator.com/item?id=48050666</id>
-        <link href="https://www.arup.com/en-us/news/first-fehmarnbelt-tunnel-element-lowered/"/>
-        <updated>2026-05-07T15:34:04.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.arup.com/en-us/news/first-fehmarnbelt-tunnel-element-lowered/
-Comments URL: https://news.ycombinator.com/item?id=48050666
-Points: 114
-# Comments: 49]]></summary>
-        <author>
-            <name>robin_reala</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Motherboard sales are now collapsing amid unprecedented shortages fueled by AI]]></title>
-        <id>https://news.ycombinator.com/item?id=48050540</id>
-        <link href="https://www.tomshardware.com/pc-components/motherboards/motherboard-sales-collapse-by-more-than-25-percent-as-chipmakers-strangle-enthusiast-pc-market-to-build-more-ai-chips-asus-projected-to-sell-5-million-fewer-boards-in-2025-gigabyte-msi-and-asrock-also-expected-to-see-reduced-sales-numbers"/>
-        <updated>2026-05-07T15:23:23.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.tomshardware.com/pc-components/motherboards/motherboard-sales-collapse-by-more-than-25-percent-as-chipmakers-strangle-enthusiast-pc-market-to-build-more-ai-chips-asus-projected-to-sell-5-million-fewer-boards-in-2025-gigabyte-msi-and-asrock-also-expected-to-see-reduced-sales-numbers
-Comments URL: https://news.ycombinator.com/item?id=48050540
-Points: 78
-# Comments: 37]]></summary>
-        <author>
-            <name>speckx</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[I want to live like Costco people]]></title>
-        <id>https://news.ycombinator.com/item?id=48050499</id>
-        <link href="https://tastecooking.com/i-want-to-live-like-costco-people/"/>
-        <updated>2026-05-07T15:19:27.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://tastecooking.com/i-want-to-live-like-costco-people/
-Comments URL: https://news.ycombinator.com/item?id=48050499
-Points: 52
-# Comments: 122]]></summary>
-        <author>
-            <name>speckx</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AlphaEvolve: Gemini-powered coding agent scaling impact across fields]]></title>
-        <id>https://news.ycombinator.com/item?id=48050278</id>
-        <link href="https://deepmind.google/blog/alphaevolve-impact/"/>
-        <updated>2026-05-07T15:02:20.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://deepmind.google/blog/alphaevolve-impact/
-Comments URL: https://news.ycombinator.com/item?id=48050278
-Points: 100
-# Comments: 27]]></summary>
-        <author>
-            <name>berlianta</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[MPEG-2 Transport Stream Packaging for Media over QUIC Transport]]></title>
-        <id>https://news.ycombinator.com/item?id=48049963</id>
-        <link href="https://www.ietf.org/archive/id/draft-gregoire-moq-msfts-00.html"/>
-        <updated>2026-05-07T14:32:25.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.ietf.org/archive/id/draft-gregoire-moq-msfts-00.html
-Comments URL: https://news.ycombinator.com/item?id=48049963
-Points: 53
-# Comments: 15]]></summary>
-        <author>
-            <name>mondainx</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Serial TTL connector we deserve]]></title>
-        <id>https://news.ycombinator.com/item?id=48049828</id>
-        <link href="https://kohlschuetter.github.io/blog/posts/2026/05/07/serial-ttl-connector/"/>
-        <updated>2026-05-07T14:19:55.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://kohlschuetter.github.io/blog/posts/2026/05/07/serial-ttl-connector/
-Comments URL: https://news.ycombinator.com/item?id=48049828
-Points: 78
-# Comments: 53]]></summary>
-        <author>
-            <name>kohlschuetter</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Self-Cancelling Subscription]]></title>
-        <id>https://news.ycombinator.com/item?id=48049764</id>
-        <link href="https://predr.ag/blog/the-self-cancelling-subscription/"/>
-        <updated>2026-05-07T14:15:16.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://predr.ag/blog/the-self-cancelling-subscription/
-Comments URL: https://news.ycombinator.com/item?id=48049764
-Points: 54
-# Comments: 23]]></summary>
-        <author>
-            <name>surprisetalk</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The map that keeps Burning Man honest]]></title>
-        <id>https://news.ycombinator.com/item?id=48049653</id>
-        <link href="https://www.not-ship.com/burning-man-moop/"/>
-        <updated>2026-05-07T14:06:10.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.not-ship.com/burning-man-moop/
-Comments URL: https://news.ycombinator.com/item?id=48049653
-Points: 278
-# Comments: 100]]></summary>
-        <author>
-            <name>speckx</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The River Otter's Remarkable Comeback]]></title>
-        <id>https://news.ycombinator.com/item?id=48049577</id>
-        <link href="https://www.rewildingmag.com/the-river-otters-remarkable-comeback/"/>
-        <updated>2026-05-07T14:00:29.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.rewildingmag.com/the-river-otters-remarkable-comeback/
-Comments URL: https://news.ycombinator.com/item?id=48049577
-Points: 53
-# Comments: 11]]></summary>
-        <author>
-            <name>surprisetalk</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Child marriages plunged when girls stayed in school in Nigeria]]></title>
-        <id>https://news.ycombinator.com/item?id=48049208</id>
-        <link href="https://www.nature.com/articles/d41586-026-00720-8"/>
-        <updated>2026-05-07T13:30:04.000Z</updated>
-        <summary type="html"><![CDATA[Related: https://www.nature.com/articles/d41586-026-00796-2 (https://archive.ph/otvAa)
-Comments URL: https://news.ycombinator.com/item?id=48049208
-Points: 244
-# Comments: 157]]></summary>
-        <author>
-            <name>surprisetalk</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Child marriages plunged when girls stayed in school in Nigeria]]></title>
-        <id>https://news.ycombinator.com/item?id=48049208</id>
-        <link href="https://www.nature.com/articles/d41586-026-00796-2"/>
-        <updated>2026-05-07T13:30:04.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.nature.com/articles/d41586-026-00796-2
-Comments URL: https://news.ycombinator.com/item?id=48049208
-Points: 156
-# Comments: 89]]></summary>
-        <author>
-            <name>surprisetalk</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How Cloudflare responded to the “Copy Fail” Linux vulnerability]]></title>
-        <id>https://news.ycombinator.com/item?id=48049160</id>
-        <link href="https://blog.cloudflare.com/copy-fail-linux-vulnerability-mitigation/"/>
-        <updated>2026-05-07T13:25:31.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://blog.cloudflare.com/copy-fail-linux-vulnerability-mitigation/
-Comments URL: https://news.ycombinator.com/item?id=48049160
-Points: 54
-# Comments: 53]]></summary>
-        <author>
-            <name>mobeigi</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Looking at the data behind prediction markets]]></title>
-        <id>https://news.ycombinator.com/item?id=48049014</id>
-        <link href="https://asteriskmag.com/issues/14/are-prediction-markets-good-for-anything"/>
-        <updated>2026-05-07T13:12:39.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://asteriskmag.com/issues/14/are-prediction-markets-good-for-anything
-Comments URL: https://news.ycombinator.com/item?id=48049014
-Points: 64
-# Comments: 29]]></summary>
-        <author>
-            <name>kqr</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Making your own programming language is easier than you think (but also harder)]]></title>
-        <id>https://news.ycombinator.com/item?id=48048902</id>
-        <link href="https://lisyarus.github.io/blog/posts/making-your-own-programming-language.html"/>
-        <updated>2026-05-07T13:01:21.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://lisyarus.github.io/blog/posts/making-your-own-programming-language.html
-Comments URL: https://news.ycombinator.com/item?id=48048902
-Points: 77
-# Comments: 36]]></summary>
-        <author>
-            <name>ibobev</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The One Dollar Counterfeiter]]></title>
-        <id>https://news.ycombinator.com/item?id=48048684</id>
-        <link href="https://www.amusingplanet.com/2026/05/emerich-juettner-one-dollar.html"/>
-        <updated>2026-05-07T12:40:35.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.amusingplanet.com/2026/05/emerich-juettner-one-dollar.html
-Comments URL: https://news.ycombinator.com/item?id=48048684
-Points: 127
-# Comments: 39]]></summary>
-        <author>
-            <name>cainxinth</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How LEDs are made (2014)]]></title>
-        <id>https://news.ycombinator.com/item?id=48048679</id>
-        <link href="https://learn.sparkfun.com/tutorials/how-leds-are-made/all"/>
-        <updated>2026-05-07T12:39:45.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://learn.sparkfun.com/tutorials/how-leds-are-made/all
-Comments URL: https://news.ycombinator.com/item?id=48048679
-Points: 59
-# Comments: 6]]></summary>
-        <author>
-            <name>smig0</name>
         </author>
     </entry>
 </feed>
