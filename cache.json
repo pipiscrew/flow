@@ -6,6 +6,16 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=48427523",
+          "author": "MilnerRoute",
+          "description": "Article URL: https://www.nbcnews.com/politics/national-security/pentagon-raised-threat-israeli-spying-us-highest-level-sources-say-rcna348565\nComments URL: https://news.ycombinator.com/item?id=48427523\nPoints: 160\n# Comments: 92",
+          "link": "https://www.nbcnews.com/politics/national-security/pentagon-raised-threat-israeli-spying-us-highest-level-sources-say-rcna348565",
+          "publishedOn": "2026-06-06T18:21:06.000Z",
+          "wordCount": 9805,
+          "title": "Pentagon raised threat of Israeli spying on U.S. to highest level, sources say",
+          "imageUrl": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2026-06/260604-trump-netanyahu-vsb-1755-912832.jpg"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=48426022",
           "author": "nmstoker",
           "description": "Article URL: https://www.ft.com/content/229e5949-3ebc-4151-8a86-a01b5e259241\nComments URL: https://news.ycombinator.com/item?id=48426022\nPoints: 69\n# Comments: 20",
@@ -13,6 +23,26 @@
           "publishedOn": "2026-06-06T15:35:49.000Z",
           "wordCount": null,
           "title": "Police in England and Wales told to halt AI use in court statements",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48425982",
+          "author": "kbumsik",
+          "description": "Article URL: https://discuss.python.org/t/an-announcement-from-the-steering-council-regarding-the-jit-project/107638\nComments URL: https://news.ycombinator.com/item?id=48425982\nPoints: 98\n# Comments: 33",
+          "link": "https://discuss.python.org/t/an-announcement-from-the-steering-council-regarding-the-jit-project/107638",
+          "publishedOn": "2026-06-06T15:30:09.000Z",
+          "wordCount": 2567,
+          "title": "Python JIT project was asked to pause development",
+          "imageUrl": "https://us1.discourse-cdn.com/flex002/uploads/python1/original/1X/f93ff97c4f381b5e8add5a0c163b4ded29f20ed7.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48425723",
+          "author": "losfair",
+          "description": "Article URL: https://su3.io/posts/introducing-zeroserve\nComments URL: https://news.ycombinator.com/item?id=48425723\nPoints: 110\n# Comments: 27",
+          "link": "https://su3.io/posts/introducing-zeroserve",
+          "publishedOn": "2026-06-06T14:59:43.000Z",
+          "wordCount": 6157,
+          "title": "Zeroserve: A zero-config web server you can script with eBPF",
           "imageUrl": null
         },
         {
@@ -1516,6 +1546,16 @@
           "imageUrl": "https://framerusercontent.com/images/LJwUi6OIskYSaLLXynnJExGaA.png?width=993&height=670"
         },
         {
+          "id": "https://news.ycombinator.com/item?id=48372138",
+          "author": "uonr",
+          "description": "Hi!\nThis is an infinite canvas note-taking tool where notes are laid out in a non-Euclidean, hyperbolic geometric space. As you drag and navigate through the view, you’ll experience a unique fluid distortion that naturally leverages your brain's spatial memory.\nI’ve been obsessed with the concept of space in HCI for years. Many modern UI patterns are essentially workarounds for the lack of screen real estate. While researching zoom-based UIs a while back, I stumbled upon old HCI papers that used the Poincaré disk model of the hyperbolic plane to organize data. It elegantly projects an infinite space into a finite disk, keeping everything contextually visible.\nI wanted to build an experimental app around this concept years ago, but the non-Euclidean math was a significant roadblock. Recently, I decided to give it a shot with the help of LLMs. It turns out that LLMs can handle the mathematical heavy lifting quite well, specifically in designing the coordinate systems and optimization algorithms, provided that you guide them with a solid architectural design.\nThis is still an experimental demo, but I hope it leaves an impression. I’d love to know if you find this paradigm practical for organizing your thoughts.\nComments URL: https://news.ycombinator.com/item?id=48372138\nPoints: 61\n# Comments: 8",
+          "link": "https://uonr.github.io/poincake/",
+          "publishedOn": "2026-06-02T16:08:26.000Z",
+          "wordCount": 3,
+          "title": "Show HN: Infinite canvas notes in the non-Euclidean Poincaré disk",
+          "imageUrl": null
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=48372036",
           "author": "felixzeller",
           "description": "Hi everyone, I am Felix, a famliy doctor from ZH, Switzerland. \nA couple of month ago I started this little project called \nshii • haa, a breathing app that uses the phone`s microphone \nfor live biofeedback\nMy prior work in emergency medicine and intensive care was \nclosesly linked to breathing, mostly in critical situations...\nand let me to reevaluate my own way of breathing. over time \none question popped into my mind: can medical knowledge and \nbiofeedback make an app actually promote self-awareness instead \nof attaching your goals to the award system of the app.\nit combines signal processing, a breathing state machine and ML. \nThe state machine follows inhale, exhale and transitions in the \nmic signal. A quality layer rejects noisy or ambiguous windows \nbefore signals are used for feedback. All processing is done \non-device, no speech or raw audio is uploaded.\nWhat I'm trying to avoid is turning breathing into another score \nor game. The app gives feedback on rhythm, depth and regularity, \nbut the point is more \"notice what you are doing\" than \"perform \nwell\".\nI'd be interested in feedback, especially from people who have \nworked on signal processing, health UX, or Android/iOS audio \nissues.\nComments URL: https://news.ycombinator.com/item?id=48372036\nPoints: 50\n# Comments: 17",
@@ -2134,6 +2174,16 @@
           "wordCount": 11293,
           "title": "ChatGPT for Google Sheets Exfiltrates Workbooks",
           "imageUrl": "https://framerusercontent.com/images/eJKU8yDyAKTNNHfYvQqWDm5e25s.png?width=6679&height=4516"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48348876",
+          "author": "Sagi21805",
+          "description": "Article URL: https://www.learnix-os.com/ch02-03-implementing-the-bitfields-proc-macro.html\nComments URL: https://news.ycombinator.com/item?id=48348876\nPoints: 60\n# Comments: 13",
+          "link": "https://www.learnix-os.com/ch02-03-implementing-the-bitfields-proc-macro.html",
+          "publishedOn": "2026-05-31T19:28:49.000Z",
+          "wordCount": 12964,
+          "title": "Building Rust Procedural Macros from the Grounds Up",
+          "imageUrl": null
         },
         {
           "id": "https://news.ycombinator.com/item?id=48348864",
@@ -12294,66 +12344,6 @@
           "wordCount": 112,
           "title": "GeoJSON",
           "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48060077",
-          "author": "downbad_",
-          "description": "Article URL: https://slate.com/technology/2004/11/the-death-of-the-last-maverick-tech-company.html\nComments URL: https://news.ycombinator.com/item?id=48060077\nPoints: 106\n# Comments: 32",
-          "link": "https://slate.com/technology/2004/11/the-death-of-the-last-maverick-tech-company.html",
-          "publishedOn": "2026-05-08T08:00:44.000Z",
-          "wordCount": 10202,
-          "title": "Nullsoft, 1997-2004 (2004)",
-          "imageUrl": "https://compote.slate.com/images/b58d1c35-93a6-4f0e-a689-756fe37b31c8.gif?width=1560"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48060054",
-          "author": "mittermayr",
-          "description": "I know what you're thinking... and I still can't believe it, but...\nThis morning, our database flagged a duplicate UUID (v4). I checked, thinking it may have been a double-insert bug or something, but no.\nThe original UUID was from a record added in 2025 (about a year ago), and today the system inserted a new document with a fresh UUIDv4 and it came up with the exact same one:\nb6133fd6-70fe-4fe3-bed6-8ca8fc9386cd\nWe're using this:\nhttps://www.npmjs.com/package/uuid\nI thought this is technically impossible, and it will never happen, and since we're not modifying the UUIDs in any way, I really wonder how that.... is possible!? We're literally only calling:\nimport { v4 as uuidv4 } from \"uuid\";\nconst document_id = uuidv4();\n... and then insert into the database, that's it.\nAdditionally, the database only has about 15.000 records, and now one collision. Statistically... impossible.\nHas that ever happened to anyone?! What in the...\nComments URL: https://news.ycombinator.com/item?id=48060054\nPoints: 136\n# Comments: 142",
-          "link": "https://news.ycombinator.com/item?id=48060054",
-          "publishedOn": "2026-05-08T07:57:14.000Z",
-          "wordCount": 7614,
-          "title": "Ask HN: We just had an actual UUID v4 collision...",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48059831",
-          "author": "James72689",
-          "description": "Article URL: https://user8.bearblog.dev/rant/\nComments URL: https://news.ycombinator.com/item?id=48059831\nPoints: 117\n# Comments: 103",
-          "link": "https://user8.bearblog.dev/rant/",
-          "publishedOn": "2026-05-08T07:26:37.000Z",
-          "wordCount": 928,
-          "title": "I hate soldering",
-          "imageUrl": "/static/og-image.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48059662",
-          "author": "Borkdude",
-          "description": "Article URL: https://clojurescript.org/news/2026-05-07-release\nComments URL: https://news.ycombinator.com/item?id=48059662\nPoints: 66\n# Comments: 18",
-          "link": "https://clojurescript.org/news/2026-05-07-release",
-          "publishedOn": "2026-05-08T07:04:24.000Z",
-          "wordCount": 392,
-          "title": "ClojureScript Gets Async/Await",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48059633",
-          "author": "smartmic",
-          "description": "Article URL: https://c9x.me/compile/\nComments URL: https://news.ycombinator.com/item?id=48059633\nPoints: 54\n# Comments: 10",
-          "link": "https://c9x.me/compile/",
-          "publishedOn": "2026-05-08T07:00:25.000Z",
-          "wordCount": 407,
-          "title": "QBE – Compiler Back End",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48059606",
-          "author": "razorbeamz",
-          "description": "Article URL: https://www.nintendo.co.jp/corporate/release/en/2026/260508.html\nComments URL: https://news.ycombinator.com/item?id=48059606\nPoints: 82\n# Comments: 56",
-          "link": "https://www.nintendo.co.jp/corporate/release/en/2026/260508.html",
-          "publishedOn": "2026-05-08T06:56:13.000Z",
-          "wordCount": 677,
-          "title": "Nintendo announces price increases for Nintendo Switch 2",
-          "imageUrl": "https://www.nintendo.co.jp/img/og_nintendo.png"
         }
       ]
     }

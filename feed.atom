@@ -2,10 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-06-06T18:11:57.257Z</updated>
+    <updated>2026-06-06T20:14:05.083Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Pentagon raised threat of Israeli spying on U.S. to highest level, sources say]]></title>
+        <id>https://news.ycombinator.com/item?id=48427523</id>
+        <link href="https://www.nbcnews.com/politics/national-security/pentagon-raised-threat-israeli-spying-us-highest-level-sources-say-rcna348565"/>
+        <updated>2026-06-06T18:21:06.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.nbcnews.com/politics/national-security/pentagon-raised-threat-israeli-spying-us-highest-level-sources-say-rcna348565
+Comments URL: https://news.ycombinator.com/item?id=48427523
+Points: 160
+# Comments: 92]]></summary>
+        <author>
+            <name>MilnerRoute</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Police in England and Wales told to halt AI use in court statements]]></title>
         <id>https://news.ycombinator.com/item?id=48426022</id>
@@ -17,6 +30,32 @@ Points: 69
 # Comments: 20]]></summary>
         <author>
             <name>nmstoker</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Python JIT project was asked to pause development]]></title>
+        <id>https://news.ycombinator.com/item?id=48425982</id>
+        <link href="https://discuss.python.org/t/an-announcement-from-the-steering-council-regarding-the-jit-project/107638"/>
+        <updated>2026-06-06T15:30:09.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://discuss.python.org/t/an-announcement-from-the-steering-council-regarding-the-jit-project/107638
+Comments URL: https://news.ycombinator.com/item?id=48425982
+Points: 98
+# Comments: 33]]></summary>
+        <author>
+            <name>kbumsik</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Zeroserve: A zero-config web server you can script with eBPF]]></title>
+        <id>https://news.ycombinator.com/item?id=48425723</id>
+        <link href="https://su3.io/posts/introducing-zeroserve"/>
+        <updated>2026-06-06T14:59:43.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://su3.io/posts/introducing-zeroserve
+Comments URL: https://news.ycombinator.com/item?id=48425723
+Points: 110
+# Comments: 27]]></summary>
+        <author>
+            <name>losfair</name>
         </author>
     </entry>
     <entry>
@@ -2008,6 +2047,23 @@ Points: 76
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Show HN: Infinite canvas notes in the non-Euclidean Poincaré disk]]></title>
+        <id>https://news.ycombinator.com/item?id=48372138</id>
+        <link href="https://uonr.github.io/poincake/"/>
+        <updated>2026-06-02T16:08:26.000Z</updated>
+        <summary type="html"><![CDATA[Hi!
+This is an infinite canvas note-taking tool where notes are laid out in a non-Euclidean, hyperbolic geometric space. As you drag and navigate through the view, you’ll experience a unique fluid distortion that naturally leverages your brain's spatial memory.
+I’ve been obsessed with the concept of space in HCI for years. Many modern UI patterns are essentially workarounds for the lack of screen real estate. While researching zoom-based UIs a while back, I stumbled upon old HCI papers that used the Poincaré disk model of the hyperbolic plane to organize data. It elegantly projects an infinite space into a finite disk, keeping everything contextually visible.
+I wanted to build an experimental app around this concept years ago, but the non-Euclidean math was a significant roadblock. Recently, I decided to give it a shot with the help of LLMs. It turns out that LLMs can handle the mathematical heavy lifting quite well, specifically in designing the coordinate systems and optimization algorithms, provided that you guide them with a solid architectural design.
+This is still an experimental demo, but I hope it leaves an impression. I’d love to know if you find this paradigm practical for organizing your thoughts.
+Comments URL: https://news.ycombinator.com/item?id=48372138
+Points: 61
+# Comments: 8]]></summary>
+        <author>
+            <name>uonr</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Show HN: Live breath detection and biofeedback from a phone microphone]]></title>
         <id>https://news.ycombinator.com/item?id=48372036</id>
         <link href="https://github.com/shiihaa-app/shiihaa-breath-detection"/>
@@ -2856,6 +2912,19 @@ Points: 73
 # Comments: 22]]></summary>
         <author>
             <name>hackerBanana</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Building Rust Procedural Macros from the Grounds Up]]></title>
+        <id>https://news.ycombinator.com/item?id=48348876</id>
+        <link href="https://www.learnix-os.com/ch02-03-implementing-the-bitfields-proc-macro.html"/>
+        <updated>2026-05-31T19:28:49.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.learnix-os.com/ch02-03-implementing-the-bitfields-proc-macro.html
+Comments URL: https://news.ycombinator.com/item?id=48348876
+Points: 60
+# Comments: 13]]></summary>
+        <author>
+            <name>Sagi21805</name>
         </author>
     </entry>
     <entry>
@@ -16198,95 +16267,6 @@ Points: 73
 # Comments: 33]]></summary>
         <author>
             <name>tosh</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Nullsoft, 1997-2004 (2004)]]></title>
-        <id>https://news.ycombinator.com/item?id=48060077</id>
-        <link href="https://slate.com/technology/2004/11/the-death-of-the-last-maverick-tech-company.html"/>
-        <updated>2026-05-08T08:00:44.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://slate.com/technology/2004/11/the-death-of-the-last-maverick-tech-company.html
-Comments URL: https://news.ycombinator.com/item?id=48060077
-Points: 106
-# Comments: 32]]></summary>
-        <author>
-            <name>downbad_</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ask HN: We just had an actual UUID v4 collision...]]></title>
-        <id>https://news.ycombinator.com/item?id=48060054</id>
-        <link href="https://news.ycombinator.com/item?id=48060054"/>
-        <updated>2026-05-08T07:57:14.000Z</updated>
-        <summary type="html"><![CDATA[I know what you're thinking... and I still can't believe it, but...
-This morning, our database flagged a duplicate UUID (v4). I checked, thinking it may have been a double-insert bug or something, but no.
-The original UUID was from a record added in 2025 (about a year ago), and today the system inserted a new document with a fresh UUIDv4 and it came up with the exact same one:
-b6133fd6-70fe-4fe3-bed6-8ca8fc9386cd
-We're using this:
-https://www.npmjs.com/package/uuid
-I thought this is technically impossible, and it will never happen, and since we're not modifying the UUIDs in any way, I really wonder how that.... is possible!? We're literally only calling:
-import { v4 as uuidv4 } from "uuid";
-const document_id = uuidv4();
-... and then insert into the database, that's it.
-Additionally, the database only has about 15.000 records, and now one collision. Statistically... impossible.
-Has that ever happened to anyone?! What in the...
-Comments URL: https://news.ycombinator.com/item?id=48060054
-Points: 136
-# Comments: 142]]></summary>
-        <author>
-            <name>mittermayr</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[I hate soldering]]></title>
-        <id>https://news.ycombinator.com/item?id=48059831</id>
-        <link href="https://user8.bearblog.dev/rant/"/>
-        <updated>2026-05-08T07:26:37.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://user8.bearblog.dev/rant/
-Comments URL: https://news.ycombinator.com/item?id=48059831
-Points: 117
-# Comments: 103]]></summary>
-        <author>
-            <name>James72689</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[ClojureScript Gets Async/Await]]></title>
-        <id>https://news.ycombinator.com/item?id=48059662</id>
-        <link href="https://clojurescript.org/news/2026-05-07-release"/>
-        <updated>2026-05-08T07:04:24.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://clojurescript.org/news/2026-05-07-release
-Comments URL: https://news.ycombinator.com/item?id=48059662
-Points: 66
-# Comments: 18]]></summary>
-        <author>
-            <name>Borkdude</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[QBE – Compiler Back End]]></title>
-        <id>https://news.ycombinator.com/item?id=48059633</id>
-        <link href="https://c9x.me/compile/"/>
-        <updated>2026-05-08T07:00:25.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://c9x.me/compile/
-Comments URL: https://news.ycombinator.com/item?id=48059633
-Points: 54
-# Comments: 10]]></summary>
-        <author>
-            <name>smartmic</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Nintendo announces price increases for Nintendo Switch 2]]></title>
-        <id>https://news.ycombinator.com/item?id=48059606</id>
-        <link href="https://www.nintendo.co.jp/corporate/release/en/2026/260508.html"/>
-        <updated>2026-05-08T06:56:13.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.nintendo.co.jp/corporate/release/en/2026/260508.html
-Comments URL: https://news.ycombinator.com/item?id=48059606
-Points: 82
-# Comments: 56]]></summary>
-        <author>
-            <name>razorbeamz</name>
         </author>
     </entry>
 </feed>
