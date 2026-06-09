@@ -2,10 +2,92 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-06-09T12:08:57.822Z</updated>
+    <updated>2026-06-09T16:07:11.354Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Solar Energy Saves Europeans $135M a Day]]></title>
+        <id>https://news.ycombinator.com/item?id=48462156</id>
+        <link href="https://cleantechnica.com/2026/06/08/solar-energy-saves-europeans-135-million-a-day/"/>
+        <updated>2026-06-09T15:09:38.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://cleantechnica.com/2026/06/08/solar-energy-saves-europeans-135-million-a-day/
+Comments URL: https://news.ycombinator.com/item?id=48462156
+Points: 86
+# Comments: 21]]></summary>
+        <author>
+            <name>vrganj</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[WWDC 2026: Apple is Folding]]></title>
+        <id>https://news.ycombinator.com/item?id=48461226</id>
+        <link href="https://cupertinolens.com/2026/06/09/wwdc-2026-apple-is-folding/"/>
+        <updated>2026-06-09T13:56:38.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://cupertinolens.com/2026/06/09/wwdc-2026-apple-is-folding/
+Comments URL: https://news.ycombinator.com/item?id=48461226
+Points: 128
+# Comments: 115]]></summary>
+        <author>
+            <name>brandonb</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Albania Is Not for Sale: Kushner's $4B Resort Triggers'Flamingo Revolution']]></title>
+        <id>https://news.ycombinator.com/item?id=48461012</id>
+        <link href="https://www.yacnews.com/albania-is-not-for-sale-kushners-4-billion-resort-triggers-flamingo-revolution-asset-freeze-and-an-eu-warning/"/>
+        <updated>2026-06-09T13:39:31.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.yacnews.com/albania-is-not-for-sale-kushners-4-billion-resort-triggers-flamingo-revolution-asset-freeze-and-an-eu-warning/
+Comments URL: https://news.ycombinator.com/item?id=48461012
+Points: 361
+# Comments: 120]]></summary>
+        <author>
+            <name>ortr</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Gravity – interactive solar-system simulator, from Newton to Einstein]]></title>
+        <id>https://news.ycombinator.com/item?id=48459837</id>
+        <link href="https://qunabu.github.io/Gravity/"/>
+        <updated>2026-06-09T11:46:40.000Z</updated>
+        <summary type="html"><![CDATA[Just for fun and self education, I've built this over a weekend to teach myself why orbits exist, not just show planets going around. Something that was never clearly explain to me in school. 
+It opens with a guided tour that builds the idea up step by step: two bodies and the equal/opposite force, inertia (the Sun is removed and Earth just drifts straight), then "an orbit is falling and continuously missing," cosmic velocities with a little rocket, Voyager 1 & 2's real gravity assists (the clock runs the actual 1977–1989 dates so the planets orbit into their grand-tour alignment and the slingshots line up), and it ends on Einstein — gravity as curved spacetime, the classic rubber-sheet well.
+What's real: every body uses its real radius/mass and J2000 orbital elements; positions come from solving Kepler's equation each  frame. You can toggle to an N-body mode (symplectic leapfrog) that shows live energy drift (~1e-6%) so you can see the integrator is honest. The only thing faked is scale — at true scale you can't see anything — so there's a toggle between true scale and a log-remapped "visual" scale, with physics always running in real AU.
+Tech: TypeScript + Three.js + Vite, fully client-side, no backend, works offline (surface textures are generated procedurally from value-noise; only Earth uses a real image). Source: https://github.com/qunabu/Gravity
+Happy to answer questions — and feedback on the physics or the explanations is very welcome. This project might be totally inaccurate in terms of real physics, this is how i do understand this on my own - i'm happy to confront this with reality
+Comments URL: https://news.ycombinator.com/item?id=48459837
+Points: 61
+# Comments: 17]]></summary>
+        <author>
+            <name>qunabu</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Making Graphics Like it's 1993]]></title>
+        <id>https://news.ycombinator.com/item?id=48459294</id>
+        <link href="https://staniks.github.io/articles/catlantean-3d-blog-1/"/>
+        <updated>2026-06-09T10:46:14.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://staniks.github.io/articles/catlantean-3d-blog-1/
+Comments URL: https://news.ycombinator.com/item?id=48459294
+Points: 382
+# Comments: 53]]></summary>
+        <author>
+            <name>sklopec</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The iPhone's Last Stand]]></title>
+        <id>https://news.ycombinator.com/item?id=48459001</id>
+        <link href="https://stratechery.com/2026/the-iphones-last-stand/"/>
+        <updated>2026-06-09T10:08:18.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://stratechery.com/2026/the-iphones-last-stand/
+Comments URL: https://news.ycombinator.com/item?id=48459001
+Points: 92
+# Comments: 140]]></summary>
+        <author>
+            <name>swolpers</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[GentleOS – Classic operating system with a lovely retro GUI]]></title>
         <id>https://news.ycombinator.com/item?id=48458890</id>
@@ -17,6 +99,19 @@ Points: 114
 # Comments: 20]]></summary>
         <author>
             <name>tekkertje</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Cleaning up after AI rockstar developers]]></title>
+        <id>https://news.ycombinator.com/item?id=48458586</id>
+        <link href="https://www.codingwithjesse.com/blog/rockstar-developers/"/>
+        <updated>2026-06-09T09:10:10.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.codingwithjesse.com/blog/rockstar-developers/
+Comments URL: https://news.ycombinator.com/item?id=48458586
+Points: 273
+# Comments: 188]]></summary>
+        <author>
+            <name>BrunoBernardino</name>
         </author>
     </entry>
     <entry>
@@ -830,6 +925,19 @@ Points: 58
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[An introduction to functional analysis for science and engineering]]></title>
+        <id>https://news.ycombinator.com/item?id=48436672</id>
+        <link href="https://arxiv.org/abs/1904.02539"/>
+        <updated>2026-06-07T17:01:34.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://arxiv.org/abs/1904.02539
+Comments URL: https://news.ycombinator.com/item?id=48436672
+Points: 79
+# Comments: 9]]></summary>
+        <author>
+            <name>Anon84</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[The gamers taking on the industry to stop it switching off games]]></title>
         <id>https://news.ycombinator.com/item?id=48436246</id>
         <link href="https://www.bbc.com/news/articles/c8e8e7g0r82o"/>
@@ -1129,6 +1237,19 @@ Points: 225
 # Comments: 76]]></summary>
         <author>
             <name>speckx</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Corrupting a ZFS File on Purpose]]></title>
+        <id>https://news.ycombinator.com/item?id=48427629</id>
+        <link href="https://oshogbo.com/blog/90/"/>
+        <updated>2026-06-06T18:34:03.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://oshogbo.com/blog/90/
+Comments URL: https://news.ycombinator.com/item?id=48427629
+Points: 55
+# Comments: 9]]></summary>
+        <author>
+            <name>zdw</name>
         </author>
     </entry>
     <entry>
@@ -16090,45 +16211,6 @@ Points: 59
 # Comments: 15]]></summary>
         <author>
             <name>azhenley</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Greatest Shot in Television: James Burke Had One Chance to Nail This Scene (2024)]]></title>
-        <id>https://news.ycombinator.com/item?id=48090521</id>
-        <link href="https://www.openculture.com/2024/10/the-greatest-shot-in-television.html"/>
-        <updated>2026-05-11T02:43:34.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.openculture.com/2024/10/the-greatest-shot-in-television.html
-Comments URL: https://news.ycombinator.com/item?id=48090521
-Points: 135
-# Comments: 57]]></summary>
-        <author>
-            <name>susam</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[I'm going back to writing code by hand]]></title>
-        <id>https://news.ycombinator.com/item?id=48090029</id>
-        <link href="https://blog.k10s.dev/im-going-back-to-writing-code-by-hand/"/>
-        <updated>2026-05-11T01:23:51.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://blog.k10s.dev/im-going-back-to-writing-code-by-hand/
-Comments URL: https://news.ycombinator.com/item?id=48090029
-Points: 123
-# Comments: 52]]></summary>
-        <author>
-            <name>dropbox_miner</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New stainless steel can survive conditions for hydrogen production in seawater]]></title>
-        <id>https://news.ycombinator.com/item?id=48089921</id>
-        <link href="https://www.sciencedaily.com/releases/2026/05/260510030950.htm"/>
-        <updated>2026-05-11T01:05:59.000Z</updated>
-        <summary type="html"><![CDATA[https://www.sciencedirect.com/science/article/abs/pii/S13697...
-Comments URL: https://news.ycombinator.com/item?id=48089921
-Points: 197
-# Comments: 80]]></summary>
-        <author>
-            <name>HardwareLust</name>
         </author>
     </entry>
 </feed>

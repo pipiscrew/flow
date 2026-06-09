@@ -6,6 +6,66 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=48462156",
+          "author": "vrganj",
+          "description": "Article URL: https://cleantechnica.com/2026/06/08/solar-energy-saves-europeans-135-million-a-day/\nComments URL: https://news.ycombinator.com/item?id=48462156\nPoints: 86\n# Comments: 21",
+          "link": "https://cleantechnica.com/2026/06/08/solar-energy-saves-europeans-135-million-a-day/",
+          "publishedOn": "2026-06-09T15:09:38.000Z",
+          "wordCount": 5157,
+          "title": "Solar Energy Saves Europeans $135M a Day",
+          "imageUrl": "https://cleantechnica.com/wp-content/uploads/2024/08/agrivoltaic-central-europe-ember-report.jpeg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48461226",
+          "author": "brandonb",
+          "description": "Article URL: https://cupertinolens.com/2026/06/09/wwdc-2026-apple-is-folding/\nComments URL: https://news.ycombinator.com/item?id=48461226\nPoints: 128\n# Comments: 115",
+          "link": "https://cupertinolens.com/2026/06/09/wwdc-2026-apple-is-folding/",
+          "publishedOn": "2026-06-09T13:56:38.000Z",
+          "wordCount": 3213,
+          "title": "WWDC 2026: Apple is Folding",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48461012",
+          "author": "ortr",
+          "description": "Article URL: https://www.yacnews.com/albania-is-not-for-sale-kushners-4-billion-resort-triggers-flamingo-revolution-asset-freeze-and-an-eu-warning/\nComments URL: https://news.ycombinator.com/item?id=48461012\nPoints: 361\n# Comments: 120",
+          "link": "https://www.yacnews.com/albania-is-not-for-sale-kushners-4-billion-resort-triggers-flamingo-revolution-asset-freeze-and-an-eu-warning/",
+          "publishedOn": "2026-06-09T13:39:31.000Z",
+          "wordCount": 3270,
+          "title": "Albania Is Not for Sale: Kushner's $4B Resort Triggers'Flamingo Revolution'",
+          "imageUrl": "https://storage.ghost.io/c/68/39/68391714-ec65-4136-9c0d-4f4102b0de6e/content/images/2026/06/flamingorevolution.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48459837",
+          "author": "qunabu",
+          "description": "Just for fun and self education, I've built this over a weekend to teach myself why orbits exist, not just show planets going around. Something that was never clearly explain to me in school. \nIt opens with a guided tour that builds the idea up step by step: two bodies and the equal/opposite force, inertia (the Sun is removed and Earth just drifts straight), then \"an orbit is falling and continuously missing,\" cosmic velocities with a little rocket, Voyager 1 & 2's real gravity assists (the clock runs the actual 1977–1989 dates so the planets orbit into their grand-tour alignment and the slingshots line up), and it ends on Einstein — gravity as curved spacetime, the classic rubber-sheet well.\nWhat's real: every body uses its real radius/mass and J2000 orbital elements; positions come from solving Kepler's equation each  frame. You can toggle to an N-body mode (symplectic leapfrog) that shows live energy drift (~1e-6%) so you can see the integrator is honest. The only thing faked is scale — at true scale you can't see anything — so there's a toggle between true scale and a log-remapped \"visual\" scale, with physics always running in real AU.\nTech: TypeScript + Three.js + Vite, fully client-side, no backend, works offline (surface textures are generated procedurally from value-noise; only Earth uses a real image). Source: https://github.com/qunabu/Gravity\nHappy to answer questions — and feedback on the physics or the explanations is very welcome. This project might be totally inaccurate in terms of real physics, this is how i do understand this on my own - i'm happy to confront this with reality\nComments URL: https://news.ycombinator.com/item?id=48459837\nPoints: 61\n# Comments: 17",
+          "link": "https://qunabu.github.io/Gravity/",
+          "publishedOn": "2026-06-09T11:46:40.000Z",
+          "wordCount": 19,
+          "title": "Show HN: Gravity – interactive solar-system simulator, from Newton to Einstein",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48459294",
+          "author": "sklopec",
+          "description": "Article URL: https://staniks.github.io/articles/catlantean-3d-blog-1/\nComments URL: https://news.ycombinator.com/item?id=48459294\nPoints: 382\n# Comments: 53",
+          "link": "https://staniks.github.io/articles/catlantean-3d-blog-1/",
+          "publishedOn": "2026-06-09T10:46:14.000Z",
+          "wordCount": 4178,
+          "title": "Making Graphics Like it's 1993",
+          "imageUrl": "https://staniks.github.io/img/articles/catlantean-3d/banner1.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48459001",
+          "author": "swolpers",
+          "description": "Article URL: https://stratechery.com/2026/the-iphones-last-stand/\nComments URL: https://news.ycombinator.com/item?id=48459001\nPoints: 92\n# Comments: 140",
+          "link": "https://stratechery.com/2026/the-iphones-last-stand/",
+          "publishedOn": "2026-06-09T10:08:18.000Z",
+          "wordCount": 4906,
+          "title": "The iPhone's Last Stand",
+          "imageUrl": "https://s0.wp.com/_si/?t=eyJpbWciOiJodHRwczpcL1wvaTAud3AuY29tXC9zdHJhdGVjaGVyeS5jb21cL3dwLWNvbnRlbnRcL3VwbG9hZHNcLzIwMThcLzAzXC9jcm9wcGVkLWFuZHJvaWQtY2hyb21lLTUxMng1MTItMS5wbmc_Zml0PTUxMiUyQzUxMiZzc2w9MSIsInR4dCI6IlN0cmF0ZWNoZXJ5IGJ5IEJlbiBUaG9tcHNvbiIsInRlbXBsYXRlIjoiZWRnZSIsImZvbnQiOiIiLCJibG9nX2lkIjoxODgwNDM0MTV9.5VWck4PcKPWCTPe_HVznn3n3xsgn-G0b3d2OeiNNC7cMQ"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=48458890",
           "author": "tekkertje",
           "description": "Article URL: https://github.com/luke8086/gentleos32\nComments URL: https://news.ycombinator.com/item?id=48458890\nPoints: 114\n# Comments: 20",
@@ -14,6 +74,16 @@
           "wordCount": 1308,
           "title": "GentleOS – Classic operating system with a lovely retro GUI",
           "imageUrl": "https://opengraph.githubassets.com/5e81865baf3df6bcd536ea4f043d855426ab87afceb3792ed15d40e4898fb9ad/luke8086/gentleos32"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48458586",
+          "author": "BrunoBernardino",
+          "description": "Article URL: https://www.codingwithjesse.com/blog/rockstar-developers/\nComments URL: https://news.ycombinator.com/item?id=48458586\nPoints: 273\n# Comments: 188",
+          "link": "https://www.codingwithjesse.com/blog/rockstar-developers/",
+          "publishedOn": "2026-06-09T09:10:10.000Z",
+          "wordCount": 1992,
+          "title": "Cleaning up after AI rockstar developers",
+          "imageUrl": "https://www.codingwithjesse.com/images/2026-06-08-rockstar-developers.jpg"
         },
         {
           "id": "https://news.ycombinator.com/item?id=48458257",
@@ -636,6 +706,16 @@
           "imageUrl": "https://lh3.googleusercontent.com/blogger_img_proxy/AEn0k_s1ZYH2U-vgkjHCD2LbEhuNgwKUE_6EU-VNlex17htcA0s2u7mlNn7g2tOZkrR_3n6poWDuBfxgkT5UdRtVh87JXStZ8C0pLUoV5M9RWP5_MUDPNV24Fn7juqDRJWEthQ-1ZCYMYZY=w1200-h630-p-k-no-nu"
         },
         {
+          "id": "https://news.ycombinator.com/item?id=48436672",
+          "author": "Anon84",
+          "description": "Article URL: https://arxiv.org/abs/1904.02539\nComments URL: https://news.ycombinator.com/item?id=48436672\nPoints: 79\n# Comments: 9",
+          "link": "https://arxiv.org/abs/1904.02539",
+          "publishedOn": "2026-06-07T17:01:34.000Z",
+          "wordCount": 799,
+          "title": "An introduction to functional analysis for science and engineering",
+          "imageUrl": "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=48436246",
           "author": "Brajeshwar",
           "description": "Article URL: https://www.bbc.com/news/articles/c8e8e7g0r82o\nComments URL: https://news.ycombinator.com/item?id=48436246\nPoints: 85\n# Comments: 94",
@@ -864,6 +944,16 @@
           "wordCount": 1382,
           "title": "Meta confirms 1000s of Instagram accounts were hacked by abusing its AI chatbot",
           "imageUrl": "https://storage.ghost.io/c/ed/a2/eda2c6f7-faef-48b4-9ed4-86a4fa4dca68/content/images/size/w1200/2026/06/meta-ai-chatbot-twis-story-2.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48427629",
+          "author": "zdw",
+          "description": "Article URL: https://oshogbo.com/blog/90/\nComments URL: https://news.ycombinator.com/item?id=48427629\nPoints: 55\n# Comments: 9",
+          "link": "https://oshogbo.com/blog/90/",
+          "publishedOn": "2026-06-06T18:34:03.000Z",
+          "wordCount": 3813,
+          "title": "Corrupting a ZFS File on Purpose",
+          "imageUrl": "https://oshogbo.com/image/openzfs.png"
         },
         {
           "id": "https://news.ycombinator.com/item?id=48427523",
@@ -12214,36 +12304,6 @@
           "wordCount": 2006,
           "title": "7 lines of code, 3 minutes: Implement a programming language (2010)",
           "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48090521",
-          "author": "susam",
-          "description": "Article URL: https://www.openculture.com/2024/10/the-greatest-shot-in-television.html\nComments URL: https://news.ycombinator.com/item?id=48090521\nPoints: 135\n# Comments: 57",
-          "link": "https://www.openculture.com/2024/10/the-greatest-shot-in-television.html",
-          "publishedOn": "2026-05-11T02:43:34.000Z",
-          "wordCount": 6517,
-          "title": "The Greatest Shot in Television: James Burke Had One Chance to Nail This Scene (2024)",
-          "imageUrl": "https://cdn8.openculture.com/2024/10/03224124/The-Greatest-Shot-in-Television-1024x576.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48090029",
-          "author": "dropbox_miner",
-          "description": "Article URL: https://blog.k10s.dev/im-going-back-to-writing-code-by-hand/\nComments URL: https://news.ycombinator.com/item?id=48090029\nPoints: 123\n# Comments: 52",
-          "link": "https://blog.k10s.dev/im-going-back-to-writing-code-by-hand/",
-          "publishedOn": "2026-05-11T01:23:51.000Z",
-          "wordCount": 4256,
-          "title": "I'm going back to writing code by hand",
-          "imageUrl": "/static/og-image.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48089921",
-          "author": "HardwareLust",
-          "description": "https://www.sciencedirect.com/science/article/abs/pii/S13697...\nComments URL: https://news.ycombinator.com/item?id=48089921\nPoints: 197\n# Comments: 80",
-          "link": "https://www.sciencedaily.com/releases/2026/05/260510030950.htm",
-          "publishedOn": "2026-05-11T01:05:59.000Z",
-          "wordCount": 2487,
-          "title": "New stainless steel can survive conditions for hydrogen production in seawater",
-          "imageUrl": "https://www.sciencedaily.com/images/1920/ultra-stainless-steel.webp"
         }
       ]
     }
