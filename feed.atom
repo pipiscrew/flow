@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-06-11T18:20:26.794Z</updated>
+    <updated>2026-06-11T21:25:12.742Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
@@ -33,6 +33,19 @@ Points: 204
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Waymo Premier]]></title>
+        <id>https://news.ycombinator.com/item?id=48492304</id>
+        <link href="https://waymo.com/blog/2026/06/waymo-premier/"/>
+        <updated>2026-06-11T16:10:02.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://waymo.com/blog/2026/06/waymo-premier/
+Comments URL: https://news.ycombinator.com/item?id=48492304
+Points: 119
+# Comments: 282]]></summary>
+        <author>
+            <name>boulos</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[The RCE that AMD wouldn't fix]]></title>
         <id>https://news.ycombinator.com/item?id=48492215</id>
         <link href="https://mrbruh.com/amd2/"/>
@@ -43,6 +56,19 @@ Points: 82
 # Comments: 30]]></summary>
         <author>
             <name>MrBruh</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Claude Fable 5: mid-tier results on coding tasks]]></title>
+        <id>https://news.ycombinator.com/item?id=48492210</id>
+        <link href="https://www.endorlabs.com/learn/claude-fable-5-mythos-grade-hype"/>
+        <updated>2026-06-11T16:03:21.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.endorlabs.com/learn/claude-fable-5-mythos-grade-hype
+Comments URL: https://news.ycombinator.com/item?id=48492210
+Points: 126
+# Comments: 43]]></summary>
+        <author>
+            <name>bugvader</name>
         </author>
     </entry>
     <entry>
@@ -1101,6 +1127,24 @@ Points: 93
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Show HN: Claw Patrol, a security firewall for agents]]></title>
+        <id>https://news.ycombinator.com/item?id=48462928</id>
+        <link href="https://github.com/denoland/clawpatrol"/>
+        <updated>2026-06-09T16:06:50.000Z</updated>
+        <summary type="html"><![CDATA[At Deno we've been using OpenClaw and other agents increasingly for addressing production problems in Deno Deploy - when a PagerDuty alert fires, the agent starts researching the cause and making fixes.
+In order to do this, the agent needs access to real production systems - postgres, kubernetes, gcp, clickhouse, github, etc. But this is dangerous to say the least - we want destructive actions to be reviewed by other LLMs, approved by humans, and logged appropriately.
+Claw Patrol terminates TCP connections over WireGuard or Tailscale, then parses application protocols (eg http, postgres, ssh) to apply rules that allow you to deny/allow requests.
+There are a few projects that sit as a proxy in front of agents to do secret injection or apply various guardrails, but none met our needs (LLM gateways, MCP proxies, sandboxes), particularly the need to handle low-level protocols, or handle complex real world situations like tunneling postgres through k8s.
+Written in Go, configured in HCL, MIT licensed. Happy to answer any questions.
+https://clawpatrol.dev/
+Comments URL: https://news.ycombinator.com/item?id=48462928
+Points: 68
+# Comments: 24]]></summary>
+        <author>
+            <name>rough-sea</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[FCC wants to kill burner phones by forcing telecoms to get all customers' IDs]]></title>
         <id>https://news.ycombinator.com/item?id=48462308</id>
         <link href="https://www.404media.co/fcc-wants-to-kill-burner-phones-by-forcing-telecoms-to-get-all-customers-ids/"/>
@@ -1720,6 +1764,19 @@ Points: 56
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Ear Training Practice Exercises]]></title>
+        <id>https://news.ycombinator.com/item?id=48447598</id>
+        <link href="https://tonedear.com/"/>
+        <updated>2026-06-08T16:38:07.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://tonedear.com/
+Comments URL: https://news.ycombinator.com/item?id=48447598
+Points: 71
+# Comments: 50]]></summary>
+        <author>
+            <name>mattbit</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Old'aVista – The most powerful guide to the old Internet]]></title>
         <id>https://news.ycombinator.com/item?id=48447111</id>
         <link href="https://oldavista.com/"/>
@@ -1938,6 +1995,19 @@ Points: 148
 # Comments: 78]]></summary>
         <author>
             <name>kisamoto</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Doing nothing at work]]></title>
+        <id>https://news.ycombinator.com/item?id=48442880</id>
+        <link href="https://www.seangoedecke.com/doing-nothing-at-work/"/>
+        <updated>2026-06-08T08:57:11.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.seangoedecke.com/doing-nothing-at-work/
+Comments URL: https://news.ycombinator.com/item?id=48442880
+Points: 295
+# Comments: 99]]></summary>
+        <author>
+            <name>Sukram21</name>
         </author>
     </entry>
     <entry>
@@ -2383,6 +2453,19 @@ Points: 79
 # Comments: 28]]></summary>
         <author>
             <name>BerislavLopac</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A new era for software testing]]></title>
+        <id>https://news.ycombinator.com/item?id=48433351</id>
+        <link href="https://antirez.com/news/168"/>
+        <updated>2026-06-07T09:57:18.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://antirez.com/news/168
+Comments URL: https://news.ycombinator.com/item?id=48433351
+Points: 93
+# Comments: 31]]></summary>
+        <author>
+            <name>Chrisszz</name>
         </author>
     </entry>
     <entry>
@@ -16482,45 +16565,6 @@ Points: 71
 # Comments: 28]]></summary>
         <author>
             <name>ibobev</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[SecurityBaseline.eu]]></title>
-        <id>https://news.ycombinator.com/item?id=48118763</id>
-        <link href="https://internetcleanup.foundation/2026/05/european-governments-3000-tracking-sites-1000-phpmyadmins-and-99pct-poorly-encrypted-email-introducing-securitybaseline-eu/"/>
-        <updated>2026-05-13T07:11:17.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://internetcleanup.foundation/2026/05/european-governments-3000-tracking-sites-1000-phpmyadmins-and-99pct-poorly-encrypted-email-introducing-securitybaseline-eu/
-Comments URL: https://news.ycombinator.com/item?id=48118763
-Points: 145
-# Comments: 59]]></summary>
-        <author>
-            <name>aequitas</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Emacsification of Software]]></title>
-        <id>https://news.ycombinator.com/item?id=48118727</id>
-        <link href="https://sockpuppet.org/blog/2026/05/12/emacsification/"/>
-        <updated>2026-05-13T07:06:14.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://sockpuppet.org/blog/2026/05/12/emacsification/
-Comments URL: https://news.ycombinator.com/item?id=48118727
-Points: 135
-# Comments: 87]]></summary>
-        <author>
-            <name>rdslw</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[England Runestones]]></title>
-        <id>https://news.ycombinator.com/item?id=48118478</id>
-        <link href="https://en.wikipedia.org/wiki/England_runestones"/>
-        <updated>2026-05-13T06:25:01.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://en.wikipedia.org/wiki/England_runestones
-Comments URL: https://news.ycombinator.com/item?id=48118478
-Points: 57
-# Comments: 22]]></summary>
-        <author>
-            <name>cl3misch</name>
         </author>
     </entry>
 </feed>

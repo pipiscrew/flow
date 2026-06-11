@@ -26,6 +26,16 @@
           "imageUrl": "https://i.guim.co.uk/img/media/6896f10f7c27f4e6f179c666f072c6bdd627772a/548_0_5821_4658/master/5821.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=5b460ece2e3b1f906962e06dbad7b3c3"
         },
         {
+          "id": "https://news.ycombinator.com/item?id=48492304",
+          "author": "boulos",
+          "description": "Article URL: https://waymo.com/blog/2026/06/waymo-premier/\nComments URL: https://news.ycombinator.com/item?id=48492304\nPoints: 119\n# Comments: 282",
+          "link": "https://waymo.com/blog/2026/06/waymo-premier/",
+          "publishedOn": "2026-06-11T16:10:02.000Z",
+          "wordCount": 586,
+          "title": "Waymo Premier",
+          "imageUrl": "https://lh3.googleusercontent.com/O2q3bqw8VNHREWK0cERCElNJAlJ8TlTjC8R851702A_mvfGKQ_hHmn9P03Ntv7kMBEY8JWcZNqfSeUtO4opkaywHajG51KpBO7c"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=48492215",
           "author": "MrBruh",
           "description": "Article URL: https://mrbruh.com/amd2/\nComments URL: https://news.ycombinator.com/item?id=48492215\nPoints: 82\n# Comments: 30",
@@ -34,6 +44,16 @@
           "wordCount": 1652,
           "title": "The RCE that AMD wouldn't fix",
           "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48492210",
+          "author": "bugvader",
+          "description": "Article URL: https://www.endorlabs.com/learn/claude-fable-5-mythos-grade-hype\nComments URL: https://news.ycombinator.com/item?id=48492210\nPoints: 126\n# Comments: 43",
+          "link": "https://www.endorlabs.com/learn/claude-fable-5-mythos-grade-hype",
+          "publishedOn": "2026-06-11T16:03:21.000Z",
+          "wordCount": 6063,
+          "title": "Claude Fable 5: mid-tier results on coding tasks",
+          "imageUrl": "https://cdn.prod.website-files.com/6574c9e538a34feac8cec013/6a2a386899570e6f8d646e19_new%20model%20claude.png"
         },
         {
           "id": "https://news.ycombinator.com/item?id=48491830",
@@ -836,6 +856,16 @@
           "imageUrl": "https://biffweb.com/cards/core.png"
         },
         {
+          "id": "https://news.ycombinator.com/item?id=48462928",
+          "author": "rough-sea",
+          "description": "At Deno we've been using OpenClaw and other agents increasingly for addressing production problems in Deno Deploy - when a PagerDuty alert fires, the agent starts researching the cause and making fixes.\nIn order to do this, the agent needs access to real production systems - postgres, kubernetes, gcp, clickhouse, github, etc. But this is dangerous to say the least - we want destructive actions to be reviewed by other LLMs, approved by humans, and logged appropriately.\nClaw Patrol terminates TCP connections over WireGuard or Tailscale, then parses application protocols (eg http, postgres, ssh) to apply rules that allow you to deny/allow requests.\nThere are a few projects that sit as a proxy in front of agents to do secret injection or apply various guardrails, but none met our needs (LLM gateways, MCP proxies, sandboxes), particularly the need to handle low-level protocols, or handle complex real world situations like tunneling postgres through k8s.\nWritten in Go, configured in HCL, MIT licensed. Happy to answer any questions.\nhttps://clawpatrol.dev/\nComments URL: https://news.ycombinator.com/item?id=48462928\nPoints: 68\n# Comments: 24",
+          "link": "https://github.com/denoland/clawpatrol",
+          "publishedOn": "2026-06-09T16:06:50.000Z",
+          "wordCount": 1806,
+          "title": "Show HN: Claw Patrol, a security firewall for agents",
+          "imageUrl": "https://opengraph.githubassets.com/651f821c1f05f0c613694a35af07491dd1da468b94a5b68f27716f0a8e807373/denoland/clawpatrol"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=48462308",
           "author": "berlianta",
           "description": "Article URL: https://www.404media.co/fcc-wants-to-kill-burner-phones-by-forcing-telecoms-to-get-all-customers-ids/\nComments URL: https://news.ycombinator.com/item?id=48462308\nPoints: 251\n# Comments: 158",
@@ -1306,6 +1336,16 @@
           "imageUrl": null
         },
         {
+          "id": "https://news.ycombinator.com/item?id=48447598",
+          "author": "mattbit",
+          "description": "Article URL: https://tonedear.com/\nComments URL: https://news.ycombinator.com/item?id=48447598\nPoints: 71\n# Comments: 50",
+          "link": "https://tonedear.com/",
+          "publishedOn": "2026-06-08T16:38:07.000Z",
+          "wordCount": 385,
+          "title": "Ear Training Practice Exercises",
+          "imageUrl": null
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=48447111",
           "author": "abnercoimbre",
           "description": "Article URL: https://oldavista.com/\nComments URL: https://news.ycombinator.com/item?id=48447111\nPoints: 90\n# Comments: 20",
@@ -1474,6 +1514,16 @@
           "wordCount": 4,
           "title": "Buy a train, bridge or tracks from the Swiss Railway",
           "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48442880",
+          "author": "Sukram21",
+          "description": "Article URL: https://www.seangoedecke.com/doing-nothing-at-work/\nComments URL: https://news.ycombinator.com/item?id=48442880\nPoints: 295\n# Comments: 99",
+          "link": "https://www.seangoedecke.com/doing-nothing-at-work/",
+          "publishedOn": "2026-06-08T08:57:11.000Z",
+          "wordCount": 2172,
+          "title": "Doing nothing at work",
+          "imageUrl": "https://www.seangoedecke.com/og-image.jpg"
         },
         {
           "id": "https://news.ycombinator.com/item?id=48442725",
@@ -1814,6 +1864,16 @@
           "wordCount": 3265,
           "title": "Scientists ejected from diabetes conference for distributing journal reprints",
           "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2026/06/diabetes1-1152x648-1780778332.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48433351",
+          "author": "Chrisszz",
+          "description": "Article URL: https://antirez.com/news/168\nComments URL: https://news.ycombinator.com/item?id=48433351\nPoints: 93\n# Comments: 31",
+          "link": "https://antirez.com/news/168",
+          "publishedOn": "2026-06-07T09:57:18.000Z",
+          "wordCount": 874,
+          "title": "A new era for software testing",
+          "imageUrl": null
         },
         {
           "id": "https://news.ycombinator.com/item?id=48432722",
@@ -12504,36 +12564,6 @@
           "wordCount": 1366,
           "title": "Windows 9x Subsystem for Linux",
           "imageUrl": "https://codeberg.org/hails/wsl9x/-/summary-card"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48118763",
-          "author": "aequitas",
-          "description": "Article URL: https://internetcleanup.foundation/2026/05/european-governments-3000-tracking-sites-1000-phpmyadmins-and-99pct-poorly-encrypted-email-introducing-securitybaseline-eu/\nComments URL: https://news.ycombinator.com/item?id=48118763\nPoints: 145\n# Comments: 59",
-          "link": "https://internetcleanup.foundation/2026/05/european-governments-3000-tracking-sites-1000-phpmyadmins-and-99pct-poorly-encrypted-email-introducing-securitybaseline-eu/",
-          "publishedOn": "2026-05-13T07:11:17.000Z",
-          "wordCount": 4055,
-          "title": "SecurityBaseline.eu",
-          "imageUrl": "https://internetcleanup.foundation/wp-content/uploads/sites/4/2026/05/plaatje-eu-introduction-2026-2-1.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48118727",
-          "author": "rdslw",
-          "description": "Article URL: https://sockpuppet.org/blog/2026/05/12/emacsification/\nComments URL: https://news.ycombinator.com/item?id=48118727\nPoints: 135\n# Comments: 87",
-          "link": "https://sockpuppet.org/blog/2026/05/12/emacsification/",
-          "publishedOn": "2026-05-13T07:06:14.000Z",
-          "wordCount": 1756,
-          "title": "The Emacsification of Software",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48118478",
-          "author": "cl3misch",
-          "description": "Article URL: https://en.wikipedia.org/wiki/England_runestones\nComments URL: https://news.ycombinator.com/item?id=48118478\nPoints: 57\n# Comments: 22",
-          "link": "https://en.wikipedia.org/wiki/England_runestones",
-          "publishedOn": "2026-05-13T06:25:01.000Z",
-          "wordCount": null,
-          "title": "England Runestones",
-          "imageUrl": null
         }
       ]
     }
