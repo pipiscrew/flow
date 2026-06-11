@@ -2,10 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-06-11T00:21:26.301Z</updated>
+    <updated>2026-06-11T05:56:04.403Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[AI agent runs amok in Fedora and elsewhere]]></title>
+        <id>https://news.ycombinator.com/item?id=48484584</id>
+        <link href="https://lwn.net/SubscriberLink/1077035/c7e7c14fbd60fae9/"/>
+        <updated>2026-06-11T00:10:08.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://lwn.net/SubscriberLink/1077035/c7e7c14fbd60fae9/
+Comments URL: https://news.ycombinator.com/item?id=48484584
+Points: 274
+# Comments: 78]]></summary>
+        <author>
+            <name>tanelpoder</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[A Written Language for the Cherokee So Efficient It Was Thought to Be Magic]]></title>
         <id>https://news.ycombinator.com/item?id=48483387</id>
@@ -300,6 +313,18 @@ Points: 135
 # Comments: 76]]></summary>
         <author>
             <name>eries</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Notes on DeepSeek]]></title>
+        <id>https://news.ycombinator.com/item?id=48476474</id>
+        <link href="https://news.ycombinator.com/item?id=48476474"/>
+        <updated>2026-06-10T14:03:40.000Z</updated>
+        <summary type="html"><![CDATA[Comments URL: https://news.ycombinator.com/item?id=48476474
+Points: 167
+# Comments: 99]]></summary>
+        <author>
+            <name>vinhnx</name>
         </author>
     </entry>
     <entry>
@@ -659,6 +684,19 @@ Points: 177
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Who's the smartest corvid?]]></title>
+        <id>https://news.ycombinator.com/item?id=48464484</id>
+        <link href="https://thetyee.ca/Culture/2026/06/05/Whos-the-Smartest-Corvid/"/>
+        <updated>2026-06-09T17:37:11.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://thetyee.ca/Culture/2026/06/05/Whos-the-Smartest-Corvid/
+Comments URL: https://news.ycombinator.com/item?id=48464484
+Points: 88
+# Comments: 79]]></summary>
+        <author>
+            <name>NaOH</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Where is the AI jobs crisis?]]></title>
         <id>https://news.ycombinator.com/item?id=48464333</id>
         <link href="https://www.apollo.com/wealth/the-daily-spark/where-is-the-ai-jobs-crisis"/>
@@ -682,6 +720,19 @@ Points: 51
 # Comments: 1]]></summary>
         <author>
             <name>tanelpoder</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Anthropic requires 30 day data retention for Fable and Mythos]]></title>
+        <id>https://news.ycombinator.com/item?id=48464258</id>
+        <link href="https://support.claude.com/en/articles/15425996-data-retention-practices-for-mythos-class-models"/>
+        <updated>2026-06-09T17:23:40.000Z</updated>
+        <summary type="html"><![CDATA[https://www.theverge.com/report/947575/microsoft-claude-fabl...
+Comments URL: https://news.ycombinator.com/item?id=48464258
+Points: 309
+# Comments: 144]]></summary>
+        <author>
+            <name>lebovic</name>
         </author>
     </entry>
     <entry>
@@ -933,6 +984,19 @@ Points: 60
 # Comments: 20]]></summary>
         <author>
             <name>vrganj</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[L'Affaire Siloxane]]></title>
+        <id>https://news.ycombinator.com/item?id=48456808</id>
+        <link href="https://mceglowski.substack.com/p/laffaire-siloxane"/>
+        <updated>2026-06-09T05:21:39.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://mceglowski.substack.com/p/laffaire-siloxane
+Comments URL: https://news.ycombinator.com/item?id=48456808
+Points: 188
+# Comments: 29]]></summary>
+        <author>
+            <name>idlewords</name>
         </author>
     </entry>
     <entry>
@@ -16247,254 +16311,6 @@ We were always frustrated by the little effort made towards building agentic mod
 Simple Attention Networks: the entire model is just attention and gating, no MLPs anywhere. Needle is an experimental run for single-sh…]]></summary>
         <author>
             <name>HenryNdubuaku</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Quack: The DuckDB Client-Server Protocol]]></title>
-        <id>https://news.ycombinator.com/item?id=48111765</id>
-        <link href="https://duckdb.org/2026/05/12/quack-remote-protocol"/>
-        <updated>2026-05-12T17:54:12.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://duckdb.org/2026/05/12/quack-remote-protocol
-Comments URL: https://news.ycombinator.com/item?id=48111765
-Points: 79
-# Comments: 16]]></summary>
-        <author>
-            <name>aduffy</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Dead.Letter (CVE-2026-45185) – How XBOW found an unauthenticated RCE on Exim]]></title>
-        <id>https://news.ycombinator.com/item?id=48111748</id>
-        <link href="https://xbow.com/blog/dead-letter-cve-2026-45185-xbow-found-rce-exim"/>
-        <updated>2026-05-12T17:52:34.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://xbow.com/blog/dead-letter-cve-2026-45185-xbow-found-rce-exim
-Comments URL: https://news.ycombinator.com/item?id=48111748
-Points: 63
-# Comments: 33]]></summary>
-        <author>
-            <name>fedek_</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Reimagining the mouse pointer for the AI era]]></title>
-        <id>https://news.ycombinator.com/item?id=48111581</id>
-        <link href="https://deepmind.google/blog/ai-pointer/"/>
-        <updated>2026-05-12T17:40:13.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://deepmind.google/blog/ai-pointer/
-Comments URL: https://news.ycombinator.com/item?id=48111581
-Points: 69
-# Comments: 58]]></summary>
-        <author>
-            <name>devhouse</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Googlebook]]></title>
-        <id>https://news.ycombinator.com/item?id=48111545</id>
-        <link href="https://googlebook.google/"/>
-        <updated>2026-05-12T17:37:36.000Z</updated>
-        <summary type="html"><![CDATA[https://www.reddit.com/r/Android/comments/1tb8xls/introducin...
-Comments URL: https://news.ycombinator.com/item?id=48111545
-Points: 161
-# Comments: 189]]></summary>
-        <author>
-            <name>tambourine_man</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Canada’s Bill C-22 Is a Repackaged Version of Last Year’s Surveillance Nightmare]]></title>
-        <id>https://news.ycombinator.com/item?id=48111531</id>
-        <link href="https://www.eff.org/deeplinks/2026/05/canadas-bill-c-22-repackaged-version-last-years-surveillance-nightmare"/>
-        <updated>2026-05-12T17:35:58.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.eff.org/deeplinks/2026/05/canadas-bill-c-22-repackaged-version-last-years-surveillance-nightmare
-Comments URL: https://news.ycombinator.com/item?id=48111531
-Points: 57
-# Comments: 20]]></summary>
-        <author>
-            <name>Brajeshwar</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[As researchers age, they produce less disruptive work]]></title>
-        <id>https://news.ycombinator.com/item?id=48111243</id>
-        <link href="https://nautil.us/is-this-why-science-advances-one-funeral-at-a-time-1280650"/>
-        <updated>2026-05-12T17:16:59.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://nautil.us/is-this-why-science-advances-one-funeral-at-a-time-1280650
-Comments URL: https://news.ycombinator.com/item?id=48111243
-Points: 54
-# Comments: 52]]></summary>
-        <author>
-            <name>Brajeshwar</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: Agentic interface for mainframes and COBOL]]></title>
-        <id>https://news.ycombinator.com/item?id=48111143</id>
-        <link href="https://www.hypercubic.ai/hopper"/>
-        <updated>2026-05-12T17:10:22.000Z</updated>
-        <summary type="html"><![CDATA[Hi HN, we’re Sai and Aayush, and we’re building Hypercubic (https://www.hypercubic.ai/), bringing AI tools to the mainframe and COBOL world. (We did a Launch HN last year: https://news.ycombinator.com/item?id=45877517.) Today we’re launching Hopper, an agentic development environment for mainframes.
-You can download it here: https://www.hypercubic.ai/hopper, and you can also request access and immediately get a mainframe user account to play with.
-There's also a video runthrough at https://www.youtube.com/watch?v=q81L5DcfBvE.
-Mainframes still run a surprising amount of critical infrastructure: banking, payments, insurance, airlines, government programs, logistics, and core operations at large institutions. Many of these systems are decades old, but they continue to process enormous transac…]]></summary>
-        <author>
-            <name>sai18</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Nearly 50 Years Later, WKRP in Cincinnati Becomes a Real Radio Station]]></title>
-        <id>https://news.ycombinator.com/item?id=48110804</id>
-        <link href="https://www.openculture.com/2026/05/nearly-50-years-later-wkrp-in-cincinnati-becomes-a-real-radio-station.html"/>
-        <updated>2026-05-12T16:47:38.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.openculture.com/2026/05/nearly-50-years-later-wkrp-in-cincinnati-becomes-a-real-radio-station.html
-Comments URL: https://news.ycombinator.com/item?id=48110804
-Points: 91
-# Comments: 56]]></summary>
-        <author>
-            <name>bookofjoe</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Amazon employees are "tokenmaxxing" due to pressure to use AI tools]]></title>
-        <id>https://news.ycombinator.com/item?id=48110529</id>
-        <link href="https://arstechnica.com/ai/2026/05/amazon-employees-are-tokenmaxxing-due-to-pressure-to-use-ai-tools/"/>
-        <updated>2026-05-12T16:29:21.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://arstechnica.com/ai/2026/05/amazon-employees-are-tokenmaxxing-due-to-pressure-to-use-ai-tools/
-Comments URL: https://news.ycombinator.com/item?id=48110529
-Points: 166
-# Comments: 146]]></summary>
-        <author>
-            <name>Bender</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[eBay Rejects GameStop's $56B Takeover as Not Credible]]></title>
-        <id>https://news.ycombinator.com/item?id=48110021</id>
-        <link href="https://www.bloomberg.com/news/articles/2026-05-12/ebay-rejects-gamestop-s-56-billion-takeover-as-not-credible"/>
-        <updated>2026-05-12T15:49:47.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.bloomberg.com/news/articles/2026-05-12/ebay-rejects-gamestop-s-56-billion-takeover-as-not-credible
-Comments URL: https://news.ycombinator.com/item?id=48110021
-Points: 177
-# Comments: 160]]></summary>
-        <author>
-            <name>voisin</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Future of Obsidian Plugins]]></title>
-        <id>https://news.ycombinator.com/item?id=48109970</id>
-        <link href="https://obsidian.md/blog/future-of-plugins/"/>
-        <updated>2026-05-12T15:45:54.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://obsidian.md/blog/future-of-plugins/
-Comments URL: https://news.ycombinator.com/item?id=48109970
-Points: 137
-# Comments: 62]]></summary>
-        <author>
-            <name>xz18r</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Launch HN: Voker (YC S24) – Analytics for AI Agents]]></title>
-        <id>https://news.ycombinator.com/item?id=48109962</id>
-        <link href="https://voker.ai/"/>
-        <updated>2026-05-12T15:45:20.000Z</updated>
-        <summary type="html"><![CDATA[Hey HN, we're Alex and Tyler, co-founders of Voker.ai (https://voker.ai/), an agent analytics platform for AI product teams. Voker gives full visibility into what users are asking of your agents, and whether your agents are delivering, without having to dig through logs. Our main product is a lightweight SDK that is LLM stack agnostic and purpose-built for agent products. (https://app.voker.ai/docs)
-Agent Engineers and AI product teams don’t have the right level of visibility into agent performance in production, which results in bad user experiences, churn, and hundreds of hours wasted with spot checks to find and debug issues with agent configurations.
-Demo: https://www.tella.tv/video/vid_cmoukcsk1000i07jgb4j65u67/vie...
-We recently conducted a survey of YC Founders and 90%+ of responden…]]></summary>
-        <author>
-            <name>ttpost</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Heritability of human life span is ~50% when heritability is redefined]]></title>
-        <id>https://news.ycombinator.com/item?id=48109772</id>
-        <link href="https://dynomight.net/lifespan/"/>
-        <updated>2026-05-12T15:30:05.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://dynomight.net/lifespan/
-Comments URL: https://news.ycombinator.com/item?id=48109772
-Points: 79
-# Comments: 51]]></summary>
-        <author>
-            <name>surprisetalk</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Why senior developers fail to communicate their expertise]]></title>
-        <id>https://news.ycombinator.com/item?id=48109460</id>
-        <link href="https://www.nair.sh/guides-and-opinions/communicating-your-expertise/why-senior-developers-fail-to-communicate-their-expertise"/>
-        <updated>2026-05-12T15:08:40.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.nair.sh/guides-and-opinions/communicating-your-expertise/why-senior-developers-fail-to-communicate-their-expertise
-Comments URL: https://news.ycombinator.com/item?id=48109460
-Points: 114
-# Comments: 49]]></summary>
-        <author>
-            <name>nilirl</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Bambu Lab is abusing the open source social contract]]></title>
-        <id>https://news.ycombinator.com/item?id=48109224</id>
-        <link href="https://www.jeffgeerling.com/blog/2026/bambu-lab-abusing-open-source-social-contract/"/>
-        <updated>2026-05-12T14:54:41.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.jeffgeerling.com/blog/2026/bambu-lab-abusing-open-source-social-contract/
-Comments URL: https://news.ycombinator.com/item?id=48109224
-Points: 313
-# Comments: 109]]></summary>
-        <author>
-            <name>rubenbe</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: Statewright – Visual state machines that make AI agents reliable]]></title>
-        <id>https://news.ycombinator.com/item?id=48108778</id>
-        <link href="https://github.com/statewright/statewright"/>
-        <updated>2026-05-12T14:24:55.000Z</updated>
-        <summary type="html"><![CDATA[Agentic problem solving in its current state is very brittle.  I fell in love with it, but it creates as many problems as it solves.
-I'm Ben Cochran, I spent 20+ years in the trenches with full-stack Engineering, DevOps, high performance computing & ML with stints at NVIDIA, AMD and various other organizations most recently as a Distinguished Engineer.
-For agents to work reliably you either need massive parameter counts or massive context windows to keep the solution spaces workable. Most people are brute forcing reliability with bigger models and longer prompts.
-What if I made the problem smaller instead of making the model bigger?
-I took a different approach by using smaller models: models in the 13-20B parameter range and set them to task solving real SWE-bench problems. I constrained t…]]></summary>
-        <author>
-            <name>azurewraith</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Int a = 5; a = a++ + ++a; a =? (2011)]]></title>
-        <id>https://news.ycombinator.com/item?id=48108621</id>
-        <link href="https://gynvael.coldwind.pl/?id=372"/>
-        <updated>2026-05-12T14:14:04.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://gynvael.coldwind.pl/?id=372
-Comments URL: https://news.ycombinator.com/item?id=48108621
-Points: 50
-# Comments: 97]]></summary>
-        <author>
-            <name>e-topy</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Rendering the Sky, Sunsets, and Planets]]></title>
-        <id>https://news.ycombinator.com/item?id=48107997</id>
-        <link href="https://blog.maximeheckel.com/posts/on-rendering-the-sky-sunsets-and-planets/"/>
-        <updated>2026-05-12T13:26:46.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://blog.maximeheckel.com/posts/on-rendering-the-sky-sunsets-and-planets/
-Comments URL: https://news.ycombinator.com/item?id=48107997
-Points: 182
-# Comments: 14]]></summary>
-        <author>
-            <name>ibobev</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[UnDUNE II]]></title>
-        <id>https://news.ycombinator.com/item?id=48107404</id>
-        <link href="https://liquidream.itch.io/undune2"/>
-        <updated>2026-05-12T12:38:45.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://liquidream.itch.io/undune2
-Comments URL: https://news.ycombinator.com/item?id=48107404
-Points: 90
-# Comments: 20]]></summary>
-        <author>
-            <name>tosh</name>
         </author>
     </entry>
 </feed>
