@@ -6,6 +6,36 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=48519092",
+          "author": "ls612",
+          "description": "Article URL: https://www.wsj.com/tech/ai/amazon-ceos-talks-with-u-s-officials-triggered-crackdown-on-anthropic-models-dcc90578\nComments URL: https://news.ycombinator.com/item?id=48519092\nPoints: 85\n# Comments: 51",
+          "link": "https://www.wsj.com/tech/ai/amazon-ceos-talks-with-u-s-officials-triggered-crackdown-on-anthropic-models-dcc90578",
+          "publishedOn": "2026-06-13T16:57:49.000Z",
+          "wordCount": null,
+          "title": "Amazon CEO's Talks with U.S. Officials Triggered Crackdown on Anthropic Models",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48518969",
+          "author": "sbochins",
+          "description": "Article URL: https://stephen.bochinski.dev/blog/2026/06/13/ai-coding-at-home-without-going-broke/\nComments URL: https://news.ycombinator.com/item?id=48518969\nPoints: 72\n# Comments: 74",
+          "link": "https://stephen.bochinski.dev/blog/2026/06/13/ai-coding-at-home-without-going-broke/",
+          "publishedOn": "2026-06-13T16:45:03.000Z",
+          "wordCount": 413,
+          "title": "AI Coding at Home Without Going Broke",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48518684",
+          "author": "aloknnikhil",
+          "description": "Article URL: https://digg.com/tech/ii9xibgn\nComments URL: https://news.ycombinator.com/item?id=48518684\nPoints: 65\n# Comments: 15",
+          "link": "https://digg.com/tech/ii9xibgn",
+          "publishedOn": "2026-06-13T16:18:31.000Z",
+          "wordCount": 7355,
+          "title": "GLM 5.2 Is Out",
+          "imageUrl": "https://cnl5taoq5on9lswk.public.blob.vercel-storage.com/cluster-share-cards/154ee890-ca35-4d87-87f3-3fac9adbffee/1781374369756.png"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=48517377",
           "author": "nl",
           "description": "Article URL: https://desfontain.es/blog/banning-noise.html\nComments URL: https://news.ycombinator.com/item?id=48517377\nPoints: 180\n# Comments: 56",
@@ -14,6 +44,26 @@
           "wordCount": 1533,
           "title": "US bans differential privacy in Census data",
           "imageUrl": "https://desfontain.es/blog/images/banning-noise.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48517199",
+          "author": "andsoitis",
+          "description": "Article URL: https://economist.com/science-and-technology/2026/06/12/treating-pancreatic-tumours-may-have-revealed-cancers-master-switch\nComments URL: https://news.ycombinator.com/item?id=48517199\nPoints: 133\n# Comments: 38",
+          "link": "https://economist.com/science-and-technology/2026/06/12/treating-pancreatic-tumours-may-have-revealed-cancers-master-switch",
+          "publishedOn": "2026-06-13T13:34:00.000Z",
+          "wordCount": null,
+          "title": "Treating pancreatic tumours may have revealed cancer's master switch",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48516710",
+          "author": "bookofjoe",
+          "description": "Article URL: https://lr0.org/blog/p/arabic/\nComments URL: https://news.ycombinator.com/item?id=48516710\nPoints: 88\n# Comments: 17",
+          "link": "https://lr0.org/blog/p/arabic/",
+          "publishedOn": "2026-06-13T12:40:16.000Z",
+          "wordCount": 9164,
+          "title": "Introduction to the experience of rendering Arabic typography&its technical debt",
+          "imageUrl": null
         },
         {
           "id": "https://news.ycombinator.com/item?id=48516558",
@@ -12323,26 +12373,6 @@
           "publishedOn": "2026-05-15T07:18:23.000Z",
           "wordCount": 6763,
           "title": "Ask HN: How to be SOC2 Type 2 compliant as a solo-entreprenuer?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48144670",
-          "author": "jlengelbrecht",
-          "description": "I'm a Type 1 diabetic and software engineer. Last year I went months between endocrinologists with no clinician reviewing my data. I'm an engineer, so I built the tool I needed — and now I'm open sourcing it.\nGlycemicGPT is a self-hosted platform that connects continuous glucose monitors, insulin pumps, and existing Nightscout instances to an AI analysis layer running on your own infrastructure.\nData sources:\nDexcom G7 (cloud API)\nTandem t:slim X2 and Mobi pumps (direct BLE)\nNightscout (point it at your existing instance and you're running in minutes)\nWhat the AI layer does:\nDaily briefs summarizing overnight and 24-hour patterns\nMeal response analysis\nConversational chat with RAG-backed clinical knowledge\nPredictive alerting with configurable thresholds and caregiver escalation\nImportant:…",
-          "link": "https://github.com/GlycemicGPT/GlycemicGPT",
-          "publishedOn": "2026-05-15T04:48:23.000Z",
-          "wordCount": 4470,
-          "title": "Show HN: GlycemicGPT – Open-source AI-powered diabetes management",
-          "imageUrl": "https://opengraph.githubassets.com/b137cf14f95428f9e03a41963d51ddbb8134129c1dd80bfb13201b8bf4576867/GlycemicGPT/GlycemicGPT"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48144584",
-          "author": "signa11",
-          "description": "Article URL: https://lucisqr.substack.com/p/c26-shipped-a-simd-library-nobody\nComments URL: https://news.ycombinator.com/item?id=48144584\nPoints: 50\n# Comments: 22",
-          "link": "https://lucisqr.substack.com/p/c26-shipped-a-simd-library-nobody",
-          "publishedOn": "2026-05-15T04:32:21.000Z",
-          "wordCount": null,
-          "title": "C++26 Shipped a SIMD Library Nobody Asked For",
           "imageUrl": null
         }
       ]

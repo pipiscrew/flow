@@ -2,10 +2,49 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-06-13T16:19:30.437Z</updated>
+    <updated>2026-06-13T18:13:50.162Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Amazon CEO's Talks with U.S. Officials Triggered Crackdown on Anthropic Models]]></title>
+        <id>https://news.ycombinator.com/item?id=48519092</id>
+        <link href="https://www.wsj.com/tech/ai/amazon-ceos-talks-with-u-s-officials-triggered-crackdown-on-anthropic-models-dcc90578"/>
+        <updated>2026-06-13T16:57:49.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.wsj.com/tech/ai/amazon-ceos-talks-with-u-s-officials-triggered-crackdown-on-anthropic-models-dcc90578
+Comments URL: https://news.ycombinator.com/item?id=48519092
+Points: 85
+# Comments: 51]]></summary>
+        <author>
+            <name>ls612</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AI Coding at Home Without Going Broke]]></title>
+        <id>https://news.ycombinator.com/item?id=48518969</id>
+        <link href="https://stephen.bochinski.dev/blog/2026/06/13/ai-coding-at-home-without-going-broke/"/>
+        <updated>2026-06-13T16:45:03.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://stephen.bochinski.dev/blog/2026/06/13/ai-coding-at-home-without-going-broke/
+Comments URL: https://news.ycombinator.com/item?id=48518969
+Points: 72
+# Comments: 74]]></summary>
+        <author>
+            <name>sbochins</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GLM 5.2 Is Out]]></title>
+        <id>https://news.ycombinator.com/item?id=48518684</id>
+        <link href="https://digg.com/tech/ii9xibgn"/>
+        <updated>2026-06-13T16:18:31.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://digg.com/tech/ii9xibgn
+Comments URL: https://news.ycombinator.com/item?id=48518684
+Points: 65
+# Comments: 15]]></summary>
+        <author>
+            <name>aloknnikhil</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[US bans differential privacy in Census data]]></title>
         <id>https://news.ycombinator.com/item?id=48517377</id>
@@ -17,6 +56,32 @@ Points: 180
 # Comments: 56]]></summary>
         <author>
             <name>nl</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Treating pancreatic tumours may have revealed cancer's master switch]]></title>
+        <id>https://news.ycombinator.com/item?id=48517199</id>
+        <link href="https://economist.com/science-and-technology/2026/06/12/treating-pancreatic-tumours-may-have-revealed-cancers-master-switch"/>
+        <updated>2026-06-13T13:34:00.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://economist.com/science-and-technology/2026/06/12/treating-pancreatic-tumours-may-have-revealed-cancers-master-switch
+Comments URL: https://news.ycombinator.com/item?id=48517199
+Points: 133
+# Comments: 38]]></summary>
+        <author>
+            <name>andsoitis</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Introduction to the experience of rendering Arabic typography&its technical debt]]></title>
+        <id>https://news.ycombinator.com/item?id=48516710</id>
+        <link href="https://lr0.org/blog/p/arabic/"/>
+        <updated>2026-06-13T12:40:16.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://lr0.org/blog/p/arabic/
+Comments URL: https://news.ycombinator.com/item?id=48516710
+Points: 88
+# Comments: 17]]></summary>
+        <author>
+            <name>bookofjoe</name>
         </author>
     </entry>
     <entry>
@@ -16222,40 +16287,6 @@ Points: 101
 # Comments: 92]]></summary>
         <author>
             <name>sochix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: GlycemicGPT – Open-source AI-powered diabetes management]]></title>
-        <id>https://news.ycombinator.com/item?id=48144670</id>
-        <link href="https://github.com/GlycemicGPT/GlycemicGPT"/>
-        <updated>2026-05-15T04:48:23.000Z</updated>
-        <summary type="html"><![CDATA[I'm a Type 1 diabetic and software engineer. Last year I went months between endocrinologists with no clinician reviewing my data. I'm an engineer, so I built the tool I needed — and now I'm open sourcing it.
-GlycemicGPT is a self-hosted platform that connects continuous glucose monitors, insulin pumps, and existing Nightscout instances to an AI analysis layer running on your own infrastructure.
-Data sources:
-Dexcom G7 (cloud API)
-Tandem t:slim X2 and Mobi pumps (direct BLE)
-Nightscout (point it at your existing instance and you're running in minutes)
-What the AI layer does:
-Daily briefs summarizing overnight and 24-hour patterns
-Meal response analysis
-Conversational chat with RAG-backed clinical knowledge
-Predictive alerting with configurable thresholds and caregiver escalation
-Important:…]]></summary>
-        <author>
-            <name>jlengelbrecht</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[C++26 Shipped a SIMD Library Nobody Asked For]]></title>
-        <id>https://news.ycombinator.com/item?id=48144584</id>
-        <link href="https://lucisqr.substack.com/p/c26-shipped-a-simd-library-nobody"/>
-        <updated>2026-05-15T04:32:21.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://lucisqr.substack.com/p/c26-shipped-a-simd-library-nobody
-Comments URL: https://news.ycombinator.com/item?id=48144584
-Points: 50
-# Comments: 22]]></summary>
-        <author>
-            <name>signa11</name>
         </author>
     </entry>
 </feed>
