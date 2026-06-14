@@ -2,10 +2,36 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-06-14T21:19:30.717Z</updated>
+    <updated>2026-06-14T23:14:47.420Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Why Is Claude Turning into an a**Hole?]]></title>
+        <id>https://news.ycombinator.com/item?id=48533308</id>
+        <link href="https://bramcohen.com/p/why-is-claude-turning-into-an-asshole"/>
+        <updated>2026-06-14T22:04:01.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://bramcohen.com/p/why-is-claude-turning-into-an-asshole
+Comments URL: https://news.ycombinator.com/item?id=48533308
+Points: 77
+# Comments: 91]]></summary>
+        <author>
+            <name>drob518</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Yserver: A modern X11 server written in Rust]]></title>
+        <id>https://news.ycombinator.com/item?id=48531394</id>
+        <link href="https://github.com/joske/yserver"/>
+        <updated>2026-06-14T19:10:35.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://github.com/joske/yserver
+Comments URL: https://news.ycombinator.com/item?id=48531394
+Points: 83
+# Comments: 68]]></summary>
+        <author>
+            <name>Venn1</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Show HN: Kage – Shadow any website to a single binary for offline viewing]]></title>
         <id>https://news.ycombinator.com/item?id=48529990</id>
@@ -369,6 +395,18 @@ Points: 53
 # Comments: 26]]></summary>
         <author>
             <name>zx321</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Trace – Offline Mac meeting transcripts you can flag mid-call]]></title>
+        <id>https://news.ycombinator.com/item?id=48521236</id>
+        <link href="https://traceapp.info/"/>
+        <updated>2026-06-13T20:41:58.000Z</updated>
+        <summary type="html"><![CDATA[I'm the developer of Trace, a non-intrusive, shortcut-driven Mac app that records and transcribes your meetings on-device. I know, another meeting transcription app. Please bear with me though, I'm confident that this is at least a little novel.
+I primarily built Trace for myself. I'd been using MacWhisper, but there was enough fiddling before each call that I'd forget to start it and walk out of an hour-long meeting with nothing written down. So the things I cared about most were that it's quick to activate and stays out of the way. You activate Trace by pressing a global shortcut (configurable), which reveals a small bar at the bottom of your screen (there's also a keystroke and/or option to hide it entirely if you'd rather not see it at all).
+As I was building it I wanted to bake in a c…]]></summary>
+        <author>
+            <name>AG342</name>
         </author>
     </entry>
     <entry>
@@ -1660,6 +1698,19 @@ Points: 81
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Segmented type appreciation corner (2018)]]></title>
+        <id>https://news.ycombinator.com/item?id=48489636</id>
+        <link href="https://aresluna.org/segmented-type/"/>
+        <updated>2026-06-11T12:50:29.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://aresluna.org/segmented-type/
+Comments URL: https://news.ycombinator.com/item?id=48489636
+Points: 53
+# Comments: 12]]></summary>
+        <author>
+            <name>unexpectedVCR</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Lines of Code Got a Better Publicist]]></title>
         <id>https://news.ycombinator.com/item?id=48489402</id>
         <link href="https://curlewis.co.nz/posts/lines-of-code-got-a-better-publicist/"/>
@@ -2831,6 +2882,23 @@ Points: 79
 # Comments: 38]]></summary>
         <author>
             <name>Anon84</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: 3D print Z reinforcement via injected loops]]></title>
+        <id>https://news.ycombinator.com/item?id=48460762</id>
+        <link href="https://mgunlogson.github.io/magma/"/>
+        <updated>2026-06-09T13:17:53.000Z</updated>
+        <summary type="html"><![CDATA[Commodity FDM print strength is limited by poor Z-axis layer bonding. Parts crack along Z under stress. MAGMA tries to fix this in software that works on any FDM 3D printer.
+It's a fork of OrcaSlicer with a new infill type that creates paired U-shaped vertical channels inside the print, plus G-code that injects molten plastic into those channels to bridge Z layer interfaces with continuous plastic.
+Big caveat: I have a junky Ender 3 and haven't gotten a clean physical print yet. Don't expect this to work out of the box! After months of tinkering, I'm releasing the software so the 3DP community can experiment with nozzles, multi-material, weird hardware, and other print parameters I can't. There's around 40 MAGMA-specific settings to fiddle with, plus some general quality-of-life features (e.g. printing thin infill sections as solid, and a "dual infill shell" feature that applies MAGMA only to the outer shell to save print time).
+THIS CODE IS ALPHA. Around 50 prints old. The injection G-code is novel. Some printer firmware won't like extruding without movement. In extreme cases it could damage your printer or start a fire. DON'T WALK AWAY WHILE PRINTING.
+Why MAGMA? "Lava tubes" is a misnomer. Molten rock is magma underground, lava only after it surfaces. The injected tubes are buried inside the print, so "magma tubes" is the correct term.
+Comments URL: https://news.ycombinator.com/item?id=48460762
+Points: 51
+# Comments: 20]]></summary>
+        <author>
+            <name>mgunlogson</name>
         </author>
     </entry>
     <entry>
@@ -16117,84 +16185,6 @@ Points: 62
 # Comments: 71]]></summary>
         <author>
             <name>eamag</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Futhark by Example]]></title>
-        <id>https://news.ycombinator.com/item?id=48158606</id>
-        <link href="https://futhark-lang.org/examples.html"/>
-        <updated>2026-05-16T09:50:10.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://futhark-lang.org/examples.html
-Comments URL: https://news.ycombinator.com/item?id=48158606
-Points: 51
-# Comments: 13]]></summary>
-        <author>
-            <name>tosh</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Δ-Mem: Efficient Online Memory for Large Language Models]]></title>
-        <id>https://news.ycombinator.com/item?id=48158506</id>
-        <link href="https://arxiv.org/abs/2605.12357"/>
-        <updated>2026-05-16T09:30:06.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://arxiv.org/abs/2605.12357
-Comments URL: https://news.ycombinator.com/item?id=48158506
-Points: 54
-# Comments: 12]]></summary>
-        <author>
-            <name>44za12</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Fecal transplants for autism deliver success in clinical trials]]></title>
-        <id>https://news.ycombinator.com/item?id=48158494</id>
-        <link href="https://refractor.io/adhd-autism/fecal-transplants-for-autism-delivers-success-in-clinical-trials/"/>
-        <updated>2026-05-16T09:27:59.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://refractor.io/adhd-autism/fecal-transplants-for-autism-delivers-success-in-clinical-trials/
-Comments URL: https://news.ycombinator.com/item?id=48158494
-Points: 84
-# Comments: 51]]></summary>
-        <author>
-            <name>breve</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Moving away from Tailwind, and learning to structure my CSS]]></title>
-        <id>https://news.ycombinator.com/item?id=48158400</id>
-        <link href="https://jvns.ca/blog/2026/05/15/moving-away-from-tailwind--and-learning-to-structure-my-css-/"/>
-        <updated>2026-05-16T09:14:26.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://jvns.ca/blog/2026/05/15/moving-away-from-tailwind--and-learning-to-structure-my-css-/
-Comments URL: https://news.ycombinator.com/item?id=48158400
-Points: 93
-# Comments: 40]]></summary>
-        <author>
-            <name>mpweiher</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Where to buy a non-Apple, non-Google smartphone]]></title>
-        <id>https://news.ycombinator.com/item?id=48158130</id>
-        <link href="https://www.theregister.com/on-prem/2026/05/01/where-to-buy-a-non-apple-non-google-smartphone/5219681"/>
-        <updated>2026-05-16T08:34:28.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.theregister.com/on-prem/2026/05/01/where-to-buy-a-non-apple-non-google-smartphone/5219681
-Comments URL: https://news.ycombinator.com/item?id=48158130
-Points: 51
-# Comments: 23]]></summary>
-        <author>
-            <name>_____k</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[We've made the world too complicated]]></title>
-        <id>https://news.ycombinator.com/item?id=48158065</id>
-        <link href="https://user8.bearblog.dev/the-world-is-too-complicated/"/>
-        <updated>2026-05-16T08:25:17.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://user8.bearblog.dev/the-world-is-too-complicated/
-Comments URL: https://news.ycombinator.com/item?id=48158065
-Points: 85
-# Comments: 93]]></summary>
-        <author>
-            <name>James72689</name>
         </author>
     </entry>
 </feed>

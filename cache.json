@@ -6,6 +6,26 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=48533308",
+          "author": "drob518",
+          "description": "Article URL: https://bramcohen.com/p/why-is-claude-turning-into-an-asshole\nComments URL: https://news.ycombinator.com/item?id=48533308\nPoints: 77\n# Comments: 91",
+          "link": "https://bramcohen.com/p/why-is-claude-turning-into-an-asshole",
+          "publishedOn": "2026-06-14T22:04:01.000Z",
+          "wordCount": 3164,
+          "title": "Why Is Claude Turning into an a**Hole?",
+          "imageUrl": "https://substackcdn.com/image/youtube/w_728,c_limit/DUAK7t3Lf8s"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48531394",
+          "author": "Venn1",
+          "description": "Article URL: https://github.com/joske/yserver\nComments URL: https://news.ycombinator.com/item?id=48531394\nPoints: 83\n# Comments: 68",
+          "link": "https://github.com/joske/yserver",
+          "publishedOn": "2026-06-14T19:10:35.000Z",
+          "wordCount": 3318,
+          "title": "Yserver: A modern X11 server written in Rust",
+          "imageUrl": "https://opengraph.githubassets.com/6c4a3162bf5fb6f7aaca94db49a60f894ffce68b6b27ee7de994ca199ea2907b/joske/yserver"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=48529990",
           "author": "tamnd",
           "description": "Article URL: https://github.com/tamnd/kage\nComments URL: https://news.ycombinator.com/item?id=48529990\nPoints: 123\n# Comments: 32",
@@ -284,6 +304,16 @@
           "wordCount": 1221,
           "title": "Human Routers of Machine Words",
           "imageUrl": "https://borretti.me/assets/card/human-routers-of-machine-words.webp"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48521236",
+          "author": "AG342",
+          "description": "I'm the developer of Trace, a non-intrusive, shortcut-driven Mac app that records and transcribes your meetings on-device. I know, another meeting transcription app. Please bear with me though, I'm confident that this is at least a little novel.\nI primarily built Trace for myself. I'd been using MacWhisper, but there was enough fiddling before each call that I'd forget to start it and walk out of an hour-long meeting with nothing written down. So the things I cared about most were that it's quick to activate and stays out of the way. You activate Trace by pressing a global shortcut (configurable), which reveals a small bar at the bottom of your screen (there's also a keystroke and/or option to hide it entirely if you'd rather not see it at all).\nAs I was building it I wanted to bake in a c…",
+          "link": "https://traceapp.info/",
+          "publishedOn": "2026-06-13T20:41:58.000Z",
+          "wordCount": 680,
+          "title": "Show HN: Trace – Offline Mac meeting transcripts you can flag mid-call",
+          "imageUrl": "/og/landing.png"
         },
         {
           "id": "https://news.ycombinator.com/item?id=48520807",
@@ -1276,6 +1306,16 @@
           "imageUrl": null
         },
         {
+          "id": "https://news.ycombinator.com/item?id=48489636",
+          "author": "unexpectedVCR",
+          "description": "Article URL: https://aresluna.org/segmented-type/\nComments URL: https://news.ycombinator.com/item?id=48489636\nPoints: 53\n# Comments: 12",
+          "link": "https://aresluna.org/segmented-type/",
+          "publishedOn": "2026-06-11T12:50:29.000Z",
+          "wordCount": 3763,
+          "title": "Segmented type appreciation corner (2018)",
+          "imageUrl": null
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=48489402",
           "author": "RyeCombinator",
           "description": "Article URL: https://curlewis.co.nz/posts/lines-of-code-got-a-better-publicist/\nComments URL: https://news.ycombinator.com/item?id=48489402\nPoints: 147\n# Comments: 71",
@@ -2164,6 +2204,16 @@
           "wordCount": 742,
           "title": "Is Grep All You Need? How Agent Harnesses Reshape Agentic Search",
           "imageUrl": "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48460762",
+          "author": "mgunlogson",
+          "description": "Commodity FDM print strength is limited by poor Z-axis layer bonding. Parts crack along Z under stress. MAGMA tries to fix this in software that works on any FDM 3D printer.\nIt's a fork of OrcaSlicer with a new infill type that creates paired U-shaped vertical channels inside the print, plus G-code that injects molten plastic into those channels to bridge Z layer interfaces with continuous plastic.\nBig caveat: I have a junky Ender 3 and haven't gotten a clean physical print yet. Don't expect this to work out of the box! After months of tinkering, I'm releasing the software so the 3DP community can experiment with nozzles, multi-material, weird hardware, and other print parameters I can't. There's around 40 MAGMA-specific settings to fiddle with, plus some general quality-of-life features (e.g. printing thin infill sections as solid, and a \"dual infill shell\" feature that applies MAGMA only to the outer shell to save print time).\nTHIS CODE IS ALPHA. Around 50 prints old. The injection G-code is novel. Some printer firmware won't like extruding without movement. In extreme cases it could damage your printer or start a fire. DON'T WALK AWAY WHILE PRINTING.\nWhy MAGMA? \"Lava tubes\" is a misnomer. Molten rock is magma underground, lava only after it surfaces. The injected tubes are buried inside the print, so \"magma tubes\" is the correct term.\nComments URL: https://news.ycombinator.com/item?id=48460762\nPoints: 51\n# Comments: 20",
+          "link": "https://mgunlogson.github.io/magma/",
+          "publishedOn": "2026-06-09T13:17:53.000Z",
+          "wordCount": 1482,
+          "title": "Show HN: 3D print Z reinforcement via injected loops",
+          "imageUrl": null
         },
         {
           "id": "https://news.ycombinator.com/item?id=48459837",
@@ -12244,66 +12294,6 @@
           "wordCount": 940,
           "title": "OpenClaw Creator Spent $1.3M on OpenAI Tokens in 30 Days",
           "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48158606",
-          "author": "tosh",
-          "description": "Article URL: https://futhark-lang.org/examples.html\nComments URL: https://news.ycombinator.com/item?id=48158606\nPoints: 51\n# Comments: 13",
-          "link": "https://futhark-lang.org/examples.html",
-          "publishedOn": "2026-05-16T09:50:10.000Z",
-          "wordCount": 631,
-          "title": "Futhark by Example",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48158506",
-          "author": "44za12",
-          "description": "Article URL: https://arxiv.org/abs/2605.12357\nComments URL: https://news.ycombinator.com/item?id=48158506\nPoints: 54\n# Comments: 12",
-          "link": "https://arxiv.org/abs/2605.12357",
-          "publishedOn": "2026-05-16T09:30:06.000Z",
-          "wordCount": 672,
-          "title": "Δ-Mem: Efficient Online Memory for Large Language Models",
-          "imageUrl": "/static/browse/0.3.4/images/arxiv-logo-fb.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48158494",
-          "author": "breve",
-          "description": "Article URL: https://refractor.io/adhd-autism/fecal-transplants-for-autism-delivers-success-in-clinical-trials/\nComments URL: https://news.ycombinator.com/item?id=48158494\nPoints: 84\n# Comments: 51",
-          "link": "https://refractor.io/adhd-autism/fecal-transplants-for-autism-delivers-success-in-clinical-trials/",
-          "publishedOn": "2026-05-16T09:27:59.000Z",
-          "wordCount": 5718,
-          "title": "Fecal transplants for autism deliver success in clinical trials",
-          "imageUrl": "https://assets.newatlas.com/dims4/default/1487b32/2147483647/strip/true/crop/1080x567+0+257/resize/1200x630!/quality/85/?url=https%3A%2F%2Fnewatlas-brightspot.s3.amazonaws.com%2F2a%2F1f%2F20ecfe324eaa915abc13453ccd38%2Fautism-fecal-transplant-2b.jpg&rf.image_optimisation=0"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48158400",
-          "author": "mpweiher",
-          "description": "Article URL: https://jvns.ca/blog/2026/05/15/moving-away-from-tailwind--and-learning-to-structure-my-css-/\nComments URL: https://news.ycombinator.com/item?id=48158400\nPoints: 93\n# Comments: 40",
-          "link": "https://jvns.ca/blog/2026/05/15/moving-away-from-tailwind--and-learning-to-structure-my-css-/",
-          "publishedOn": "2026-05-16T09:14:26.000Z",
-          "wordCount": 2201,
-          "title": "Moving away from Tailwind, and learning to structure my CSS",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48158130",
-          "author": "_____k",
-          "description": "Article URL: https://www.theregister.com/on-prem/2026/05/01/where-to-buy-a-non-apple-non-google-smartphone/5219681\nComments URL: https://news.ycombinator.com/item?id=48158130\nPoints: 51\n# Comments: 23",
-          "link": "https://www.theregister.com/on-prem/2026/05/01/where-to-buy-a-non-apple-non-google-smartphone/5219681",
-          "publishedOn": "2026-05-16T08:34:28.000Z",
-          "wordCount": 8173,
-          "title": "Where to buy a non-Apple, non-Google smartphone",
-          "imageUrl": "https://image.theregister.com/5220039.jpg?imageId=5220039&panox=0&panoy=0&panow=0&panoh=0&width=1200&height=683"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48158065",
-          "author": "James72689",
-          "description": "Article URL: https://user8.bearblog.dev/the-world-is-too-complicated/\nComments URL: https://news.ycombinator.com/item?id=48158065\nPoints: 85\n# Comments: 93",
-          "link": "https://user8.bearblog.dev/the-world-is-too-complicated/",
-          "publishedOn": "2026-05-16T08:25:17.000Z",
-          "wordCount": 1250,
-          "title": "We've made the world too complicated",
-          "imageUrl": "/static/og-image.png"
         }
       ]
     }
