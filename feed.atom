@@ -2,10 +2,62 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-06-15T17:58:00.990Z</updated>
+    <updated>2026-06-15T21:12:26.217Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[A backdoor in a LinkedIn job offer]]></title>
+        <id>https://news.ycombinator.com/item?id=48546294</id>
+        <link href="https://roman.pt/posts/linkedin-backdoor/"/>
+        <updated>2026-06-15T20:00:57.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://roman.pt/posts/linkedin-backdoor/
+Comments URL: https://news.ycombinator.com/item?id=48546294
+Points: 133
+# Comments: 24]]></summary>
+        <author>
+            <name>lwhsiao</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Game Engine White Papers Commander Keen]]></title>
+        <id>https://news.ycombinator.com/item?id=48544781</id>
+        <link href="https://forgottenbytes.net/commander_keen.html"/>
+        <updated>2026-06-15T17:52:39.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://forgottenbytes.net/commander_keen.html
+Comments URL: https://news.ycombinator.com/item?id=48544781
+Points: 92
+# Comments: 27]]></summary>
+        <author>
+            <name>mfiguiere</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How TimescaleDB compresses time-series data]]></title>
+        <id>https://news.ycombinator.com/item?id=48544451</id>
+        <link href="https://roszigit.com/en/blog/timescaledb-compression-hypercore"/>
+        <updated>2026-06-15T17:29:17.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://roszigit.com/en/blog/timescaledb-compression-hypercore
+Comments URL: https://news.ycombinator.com/item?id=48544451
+Points: 77
+# Comments: 8]]></summary>
+        <author>
+            <name>lkanwoqwp</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Typst 0.15.0]]></title>
+        <id>https://news.ycombinator.com/item?id=48544396</id>
+        <link href="https://typst.app/docs/changelog/0.15.0/"/>
+        <updated>2026-06-15T17:24:17.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://typst.app/docs/changelog/0.15.0/
+Comments URL: https://news.ycombinator.com/item?id=48544396
+Points: 200
+# Comments: 46]]></summary>
+        <author>
+            <name>schu</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[TinyWind: A pixel pirate sailing game with real wind physics (380k+ kms sailed)]]></title>
         <id>https://news.ycombinator.com/item?id=48543475</id>
@@ -17,6 +69,44 @@ Points: 151
 # Comments: 35]]></summary>
         <author>
             <name>tinywind</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How memory safety CVEs differ between Rust and C/C++]]></title>
+        <id>https://news.ycombinator.com/item?id=48543392</id>
+        <link href="https://kobzol.github.io/rust/2026/06/15/how-memory-safety-cves-differ-between-rust-and-c-cpp.html"/>
+        <updated>2026-06-15T16:11:02.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://kobzol.github.io/rust/2026/06/15/how-memory-safety-cves-differ-between-rust-and-c-cpp.html
+Comments URL: https://news.ycombinator.com/item?id=48543392
+Points: 75
+# Comments: 75]]></summary>
+        <author>
+            <name>nicoburns</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Boot Naked Linux]]></title>
+        <id>https://news.ycombinator.com/item?id=48543269</id>
+        <link href="https://nick.zoic.org/art/boot-naked-linux/"/>
+        <updated>2026-06-15T16:03:26.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://nick.zoic.org/art/boot-naked-linux/
+Comments URL: https://news.ycombinator.com/item?id=48543269
+Points: 61
+# Comments: 30]]></summary>
+        <author>
+            <name>abnercoimbre</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: machine0 – Persistent NixOS VMs You Control from the CLI]]></title>
+        <id>https://news.ycombinator.com/item?id=48543245</id>
+        <link href="https://machine0.io/"/>
+        <updated>2026-06-15T16:01:43.000Z</updated>
+        <summary type="html"><![CDATA[Hi HN! Excited to launch machine0, a CLI that makes it easy to create, provision and snapshot persistent NixOS (& Ubuntu) VMs.
+You can think of machine0 as a modern VPS provider. VMs stay on unless switched-off (with 99.99% uptime), they have static IPs and HTTPS endpoints, 1-60 vCPU, up to 240GB RAM and optionally GPUs. The CLI provides commands to manage lifecycle, snapshots and also provision the VMs using Nix flakes or Ansible playbooks. VMs are priced by the minute of usage.
+What makes machine0 unique is that it has first class support for NixOS! In a nutshell, NixOS lets you define your entire OS as code (think Terraform but for your Linux). A flake declares your system state (packages, services, firewall rules, users...) and pins all dependencies via a lockfile. Given the same flake…]]></summary>
+        <author>
+            <name>bwm</name>
         </author>
     </entry>
     <entry>
@@ -69,6 +159,19 @@ Points: 105
 # Comments: 57]]></summary>
         <author>
             <name>cloudking</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Can Europe train a frontier AI model on the compute it owns?]]></title>
+        <id>https://news.ycombinator.com/item?id=48541014</id>
+        <link href="https://github.com/sammysltd/euromesh"/>
+        <updated>2026-06-15T13:31:09.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://github.com/sammysltd/euromesh
+Comments URL: https://news.ycombinator.com/item?id=48541014
+Points: 96
+# Comments: 137]]></summary>
+        <author>
+            <name>smashini</name>
         </author>
     </entry>
     <entry>
@@ -16094,71 +16197,6 @@ Points: 161
 # Comments: 124]]></summary>
         <author>
             <name>SockThief</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[When can the C++ compiler devirtualize a call?]]></title>
-        <id>https://news.ycombinator.com/item?id=48167187</id>
-        <link href="https://quuxplusone.github.io/blog/2021/02/15/devirtualization/"/>
-        <updated>2026-05-17T08:58:31.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://quuxplusone.github.io/blog/2021/02/15/devirtualization/
-Comments URL: https://news.ycombinator.com/item?id=48167187
-Points: 54
-# Comments: 18]]></summary>
-        <author>
-            <name>lionkor</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Porting my 3D points renderer on a ZX Spectrum 48K]]></title>
-        <id>https://news.ycombinator.com/item?id=48167177</id>
-        <link href="https://github.com/ttsiodras/3D-on-a-ZX-Spectrum-48K/"/>
-        <updated>2026-05-17T08:55:28.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://github.com/ttsiodras/3D-on-a-ZX-Spectrum-48K/
-Comments URL: https://news.ycombinator.com/item?id=48167177
-Points: 60
-# Comments: 9]]></summary>
-        <author>
-            <name>ttsiodras</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Playing Atari ST Music on the Amiga with Zero CPU]]></title>
-        <id>https://news.ycombinator.com/item?id=48166920</id>
-        <link href="https://arnaud-carre.github.io/2026-05-15-ym-fast-emu/"/>
-        <updated>2026-05-17T08:00:04.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://arnaud-carre.github.io/2026-05-15-ym-fast-emu/
-Comments URL: https://news.ycombinator.com/item?id=48166920
-Points: 76
-# Comments: 26]]></summary>
-        <author>
-            <name>z303</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Polypad]]></title>
-        <id>https://news.ycombinator.com/item?id=48166744</id>
-        <link href="https://polypad.amplify.com/"/>
-        <updated>2026-05-17T07:20:14.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://polypad.amplify.com/
-Comments URL: https://news.ycombinator.com/item?id=48166744
-Points: 99
-# Comments: 8]]></summary>
-        <author>
-            <name>ivank</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Mozilla to UK regulators: VPNs are essential privacy and security tools]]></title>
-        <id>https://news.ycombinator.com/item?id=48166459</id>
-        <link href="https://blog.mozilla.org/netpolicy/2026/05/15/mozilla-to-uk-regulators-vpns-are-essential-privacy-and-security-tools-and-should-not-be-undermined/"/>
-        <updated>2026-05-17T06:17:26.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://blog.mozilla.org/netpolicy/2026/05/15/mozilla-to-uk-regulators-vpns-are-essential-privacy-and-security-tools-and-should-not-be-undermined/
-Comments URL: https://news.ycombinator.com/item?id=48166459
-Points: 172
-# Comments: 47]]></summary>
-        <author>
-            <name>WithinReason</name>
         </author>
     </entry>
 </feed>

@@ -6,6 +6,46 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=48546294",
+          "author": "lwhsiao",
+          "description": "Article URL: https://roman.pt/posts/linkedin-backdoor/\nComments URL: https://news.ycombinator.com/item?id=48546294\nPoints: 133\n# Comments: 24",
+          "link": "https://roman.pt/posts/linkedin-backdoor/",
+          "publishedOn": "2026-06-15T20:00:57.000Z",
+          "wordCount": 707,
+          "title": "A backdoor in a LinkedIn job offer",
+          "imageUrl": "https://roman.pt/posts/linkedin-backdoor/splash.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48544781",
+          "author": "mfiguiere",
+          "description": "Article URL: https://forgottenbytes.net/commander_keen.html\nComments URL: https://news.ycombinator.com/item?id=48544781\nPoints: 92\n# Comments: 27",
+          "link": "https://forgottenbytes.net/commander_keen.html",
+          "publishedOn": "2026-06-15T17:52:39.000Z",
+          "wordCount": 220,
+          "title": "Game Engine White Papers Commander Keen",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48544451",
+          "author": "lkanwoqwp",
+          "description": "Article URL: https://roszigit.com/en/blog/timescaledb-compression-hypercore\nComments URL: https://news.ycombinator.com/item?id=48544451\nPoints: 77\n# Comments: 8",
+          "link": "https://roszigit.com/en/blog/timescaledb-compression-hypercore",
+          "publishedOn": "2026-06-15T17:29:17.000Z",
+          "wordCount": null,
+          "title": "How TimescaleDB compresses time-series data",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48544396",
+          "author": "schu",
+          "description": "Article URL: https://typst.app/docs/changelog/0.15.0/\nComments URL: https://news.ycombinator.com/item?id=48544396\nPoints: 200\n# Comments: 46",
+          "link": "https://typst.app/docs/changelog/0.15.0/",
+          "publishedOn": "2026-06-15T17:24:17.000Z",
+          "wordCount": 4798,
+          "title": "Typst 0.15.0",
+          "imageUrl": "https://typst.app/assets/social.png"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=48543475",
           "author": "tinywind",
           "description": "Article URL: https://tinywind.io\nComments URL: https://news.ycombinator.com/item?id=48543475\nPoints: 151\n# Comments: 35",
@@ -14,6 +54,36 @@
           "wordCount": 151,
           "title": "TinyWind: A pixel pirate sailing game with real wind physics (380k+ kms sailed)",
           "imageUrl": "https://tinywind.io/opengraph-image?ca63dcafdaa67b1f"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48543392",
+          "author": "nicoburns",
+          "description": "Article URL: https://kobzol.github.io/rust/2026/06/15/how-memory-safety-cves-differ-between-rust-and-c-cpp.html\nComments URL: https://news.ycombinator.com/item?id=48543392\nPoints: 75\n# Comments: 75",
+          "link": "https://kobzol.github.io/rust/2026/06/15/how-memory-safety-cves-differ-between-rust-and-c-cpp.html",
+          "publishedOn": "2026-06-15T16:11:02.000Z",
+          "wordCount": 2149,
+          "title": "How memory safety CVEs differ between Rust and C/C++",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48543269",
+          "author": "abnercoimbre",
+          "description": "Article URL: https://nick.zoic.org/art/boot-naked-linux/\nComments URL: https://news.ycombinator.com/item?id=48543269\nPoints: 61\n# Comments: 30",
+          "link": "https://nick.zoic.org/art/boot-naked-linux/",
+          "publishedOn": "2026-06-15T16:03:26.000Z",
+          "wordCount": 2846,
+          "title": "Boot Naked Linux",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48543245",
+          "author": "bwm",
+          "description": "Hi HN! Excited to launch machine0, a CLI that makes it easy to create, provision and snapshot persistent NixOS (& Ubuntu) VMs.\nYou can think of machine0 as a modern VPS provider. VMs stay on unless switched-off (with 99.99% uptime), they have static IPs and HTTPS endpoints, 1-60 vCPU, up to 240GB RAM and optionally GPUs. The CLI provides commands to manage lifecycle, snapshots and also provision the VMs using Nix flakes or Ansible playbooks. VMs are priced by the minute of usage.\nWhat makes machine0 unique is that it has first class support for NixOS! In a nutshell, NixOS lets you define your entire OS as code (think Terraform but for your Linux). A flake declares your system state (packages, services, firewall rules, users...) and pins all dependencies via a lockfile. Given the same flake…",
+          "link": "https://machine0.io/",
+          "publishedOn": "2026-06-15T16:01:43.000Z",
+          "wordCount": 2143,
+          "title": "Show HN: machine0 – Persistent NixOS VMs You Control from the CLI",
+          "imageUrl": "https://machine0.io/opengraph-image?d0b124732c7005de"
         },
         {
           "id": "https://news.ycombinator.com/item?id=48542480",
@@ -54,6 +124,16 @@
           "wordCount": 4161,
           "title": "Ask HN: Has anyone replaced Claude/GPT with a local model for daily coding?",
           "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48541014",
+          "author": "smashini",
+          "description": "Article URL: https://github.com/sammysltd/euromesh\nComments URL: https://news.ycombinator.com/item?id=48541014\nPoints: 96\n# Comments: 137",
+          "link": "https://github.com/sammysltd/euromesh",
+          "publishedOn": "2026-06-15T13:31:09.000Z",
+          "wordCount": 2666,
+          "title": "Can Europe train a frontier AI model on the compute it owns?",
+          "imageUrl": "https://opengraph.githubassets.com/2e654a272de333fc68be310107f8cb4b04106fcd7540b22588dadd2190311189/sammysltd/euromesh"
         },
         {
           "id": "https://news.ycombinator.com/item?id=48540945",
@@ -12224,56 +12304,6 @@
           "wordCount": 6433,
           "title": "Photo GIMP – A Patch for GIMP 3 for Photoshop Users",
           "imageUrl": "https://repository-images.githubusercontent.com/273572029/f6123ad8-c71e-4767-844e-f1fae73181b7"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48167187",
-          "author": "lionkor",
-          "description": "Article URL: https://quuxplusone.github.io/blog/2021/02/15/devirtualization/\nComments URL: https://news.ycombinator.com/item?id=48167187\nPoints: 54\n# Comments: 18",
-          "link": "https://quuxplusone.github.io/blog/2021/02/15/devirtualization/",
-          "publishedOn": "2026-05-17T08:58:31.000Z",
-          "wordCount": 1534,
-          "title": "When can the C++ compiler devirtualize a call?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48167177",
-          "author": "ttsiodras",
-          "description": "Article URL: https://github.com/ttsiodras/3D-on-a-ZX-Spectrum-48K/\nComments URL: https://news.ycombinator.com/item?id=48167177\nPoints: 60\n# Comments: 9",
-          "link": "https://github.com/ttsiodras/3D-on-a-ZX-Spectrum-48K/",
-          "publishedOn": "2026-05-17T08:55:28.000Z",
-          "wordCount": 7546,
-          "title": "Porting my 3D points renderer on a ZX Spectrum 48K",
-          "imageUrl": "https://opengraph.githubassets.com/6d569648f292480f59628256dca676c2aeaec7ec1b9f73845243c601872fe319/ttsiodras/3D-on-a-ZX-Spectrum-48K"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48166920",
-          "author": "z303",
-          "description": "Article URL: https://arnaud-carre.github.io/2026-05-15-ym-fast-emu/\nComments URL: https://news.ycombinator.com/item?id=48166920\nPoints: 76\n# Comments: 26",
-          "link": "https://arnaud-carre.github.io/2026-05-15-ym-fast-emu/",
-          "publishedOn": "2026-05-17T08:00:04.000Z",
-          "wordCount": 2352,
-          "title": "Playing Atari ST Music on the Amiga with Zero CPU",
-          "imageUrl": "https://arnaud-carre.github.io/assets/img/ymemu/fastym_title.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48166744",
-          "author": "ivank",
-          "description": "Article URL: https://polypad.amplify.com/\nComments URL: https://news.ycombinator.com/item?id=48166744\nPoints: 99\n# Comments: 8",
-          "link": "https://polypad.amplify.com/",
-          "publishedOn": "2026-05-17T07:20:14.000Z",
-          "wordCount": 514,
-          "title": "Polypad",
-          "imageUrl": "https://polypad.amplify.com/images/og-tile.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48166459",
-          "author": "WithinReason",
-          "description": "Article URL: https://blog.mozilla.org/netpolicy/2026/05/15/mozilla-to-uk-regulators-vpns-are-essential-privacy-and-security-tools-and-should-not-be-undermined/\nComments URL: https://news.ycombinator.com/item?id=48166459\nPoints: 172\n# Comments: 47",
-          "link": "https://blog.mozilla.org/netpolicy/2026/05/15/mozilla-to-uk-regulators-vpns-are-essential-privacy-and-security-tools-and-should-not-be-undermined/",
-          "publishedOn": "2026-05-17T06:17:26.000Z",
-          "wordCount": 1736,
-          "title": "Mozilla to UK regulators: VPNs are essential privacy and security tools",
-          "imageUrl": null
         }
       ]
     }
