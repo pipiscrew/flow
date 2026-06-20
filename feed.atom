@@ -2,10 +2,36 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-06-20T20:19:14.558Z</updated>
+    <updated>2026-06-20T22:14:38.394Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[AMD will reinstate memory encryption on Ryzen 9000 CPUs via BIOS update in July]]></title>
+        <id>https://news.ycombinator.com/item?id=48612098</id>
+        <link href="https://www.tomshardware.com/pc-components/cpus/amd-will-reinstate-memory-encryption-on-ryzen-9000-cpus-through-a-bios-update-in-july-tsme-is-coming-back-after-valuable-community-feedback"/>
+        <updated>2026-06-20T19:19:06.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.tomshardware.com/pc-components/cpus/amd-will-reinstate-memory-encryption-on-ryzen-9000-cpus-through-a-bios-update-in-july-tsme-is-coming-back-after-valuable-community-feedback
+Comments URL: https://news.ycombinator.com/item?id=48612098
+Points: 70
+# Comments: 17]]></summary>
+        <author>
+            <name>roboror</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Make PDFs look scanned (CLI or in the browser via WASM)]]></title>
+        <id>https://news.ycombinator.com/item?id=48611513</id>
+        <link href="https://github.com/overflowy/make-look-scanned"/>
+        <updated>2026-06-20T18:17:58.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://github.com/overflowy/make-look-scanned
+Comments URL: https://news.ycombinator.com/item?id=48611513
+Points: 51
+# Comments: 24]]></summary>
+        <author>
+            <name>overflowy</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[The Wholesale Plagiarism of Obscure Sorrows]]></title>
         <id>https://news.ycombinator.com/item?id=48611411</id>
@@ -122,6 +148,19 @@ Points: 86
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Vacation With An Artist – Mini-Apprenticeships with Artists in Their Studios]]></title>
+        <id>https://news.ycombinator.com/item?id=48609553</id>
+        <link href="https://vawaa.com/"/>
+        <updated>2026-06-20T14:40:12.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://vawaa.com/
+Comments URL: https://news.ycombinator.com/item?id=48609553
+Points: 56
+# Comments: 10]]></summary>
+        <author>
+            <name>karakoram</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[US Scientist John Jumper to Leave Google DeepMind for Anthropic]]></title>
         <id>https://news.ycombinator.com/item?id=48609506</id>
         <link href="https://www.reuters.com/technology/us-scientist-john-jumper-leave-google-deepmind-anthropic-2026-06-19/"/>
@@ -174,6 +213,19 @@ Points: 111
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Show HN: We post-trained a model that pen tests instead of refusing]]></title>
+        <id>https://news.ycombinator.com/item?id=48609231</id>
+        <link href="https://www.argusred.com/cli"/>
+        <updated>2026-06-20T13:49:03.000Z</updated>
+        <summary type="html"><![CDATA[Anthropic and OpenAI's publicly available models are explicitly guard-railed so that they refuse offensive tasks. And their cyber-focussed models are gated for enterprises. This leaves SMEs and mid market open to major vulnerabilities.
+AI can be used as both an adversarial and defensive tool in the world of cyber. A worst case outcome is if only the adversaries have access.
+Meanwhile, most existing AI cyber tools are just wrappers. The problem is that they still have all the guardrails on from the foundation model where they will inherit its refusals.
+For this project we've post-trained a specific model on a decade of capture-the-flag contests. This won't be made available to anyone and everyone, but we do believe that responsible SMEs and midmarket companies also need access to these tool…]]></summary>
+        <author>
+            <name>dk189</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[From PGP to Mythos: a brief history of export controls that didn't stop anyone]]></title>
         <id>https://news.ycombinator.com/item?id=48609194</id>
         <link href="https://techcrunch.com/2026/06/19/encryption-spyware-and-now-mythos-history-shows-why-cyber-export-control-doesnt-work/"/>
@@ -197,6 +249,19 @@ Points: 90
 # Comments: 72]]></summary>
         <author>
             <name>giuliomagnifico</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The rise of South Korea’s weapons business]]></title>
+        <id>https://news.ycombinator.com/item?id=48608515</id>
+        <link href="https://www.politico.com/news/magazine/2026/06/20/south-korea-weapons-dealer-trump-00959559"/>
+        <updated>2026-06-20T11:44:52.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.politico.com/news/magazine/2026/06/20/south-korea-weapons-dealer-trump-00959559
+Comments URL: https://news.ycombinator.com/item?id=48608515
+Points: 69
+# Comments: 27]]></summary>
+        <author>
+            <name>JumpCrisscross</name>
         </author>
     </entry>
     <entry>
@@ -1407,6 +1472,19 @@ Points: 69
 # Comments: 48]]></summary>
         <author>
             <name>ddrmaxgt37</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Microcrad – Micrograd Reimplemented in C]]></title>
+        <id>https://news.ycombinator.com/item?id=48570364</id>
+        <link href="https://github.com/oraziorillo/microcrad"/>
+        <updated>2026-06-17T13:34:42.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://github.com/oraziorillo/microcrad
+Comments URL: https://news.ycombinator.com/item?id=48570364
+Points: 52
+# Comments: 18]]></summary>
+        <author>
+            <name>oraziorillo</name>
         </author>
     </entry>
     <entry>
@@ -15944,32 +16022,6 @@ Points: 163
 # Comments: 68]]></summary>
         <author>
             <name>jetter</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Steve Wozniak cheered after telling students they have AI – actual intelligence]]></title>
-        <id>https://news.ycombinator.com/item?id=48233563</id>
-        <link href="https://www.businessinsider.com/steve-wozniak-apple-ai-graduation-speech-2026-5"/>
-        <updated>2026-05-22T09:04:54.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.businessinsider.com/steve-wozniak-apple-ai-graduation-speech-2026-5
-Comments URL: https://news.ycombinator.com/item?id=48233563
-Points: 114
-# Comments: 66]]></summary>
-        <author>
-            <name>signa11</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[I keep bouncing off the Scheme language]]></title>
-        <id>https://news.ycombinator.com/item?id=48233398</id>
-        <link href="https://www.sicpers.info/2026/05/i-keep-bouncing-off-the-scheme-language/"/>
-        <updated>2026-05-22T08:32:39.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.sicpers.info/2026/05/i-keep-bouncing-off-the-scheme-language/
-Comments URL: https://news.ycombinator.com/item?id=48233398
-Points: 59
-# Comments: 22]]></summary>
-        <author>
-            <name>ingve</name>
         </author>
     </entry>
 </feed>
