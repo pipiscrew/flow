@@ -6,6 +6,26 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=48647799",
+          "author": "tosh",
+          "description": "Article URL: https://github.com/future-file-format/f3\nComments URL: https://news.ycombinator.com/item?id=48647799\nPoints: 155\n# Comments: 45",
+          "link": "https://github.com/future-file-format/f3",
+          "publishedOn": "2026-06-23T16:53:32.000Z",
+          "wordCount": 2718,
+          "title": "F3",
+          "imageUrl": "https://opengraph.githubassets.com/3c972654a0cf66aad1f135784c525abeeab881c8cfa11c9e815f2df24b16c6f9/future-file-format/F3"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48645721",
+          "author": "ilreb",
+          "description": "Article URL: https://lift4d.github.io/\nComments URL: https://news.ycombinator.com/item?id=48645721\nPoints: 65\n# Comments: 5",
+          "link": "https://lift4d.github.io/",
+          "publishedOn": "2026-06-23T14:40:17.000Z",
+          "wordCount": 3399,
+          "title": "Lift4D: Harmonizing Single-View 3D Estimation for 4D Reconstruction In-the-Wild",
+          "imageUrl": null
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=48645437",
           "author": "DominikPeters",
           "description": "Hi all! TikZ is a widely-used LaTeX package for drawing figures in papers. It uses commands like \\draw[->] (0,0) -- (1,2); to draw lines, shapes, text, etc. Academics usually code up their figures by hand, so there is lots of twiddling around with the coordinates and recompiling until things look nice. I guess it’s a bit like SVG, but it’s more code than markup, for example it has loops with \\foreach.\nI built an open-source WYSIWYG TikZ editor (available for web and desktop) that allows you to edit your TikZ source code visually by dragging and resizing elements. It simultaneously shows the source code and the rendered figure, and lets you edit either one while the two views stay in sync. I’m not aware of any other editors that are simultaneously source editors and WYSIWYG (even for editing SVG or HTML), and I’m quite pleased with how well the combination works.\nThe way the app is implemented is by parsing the TikZ code, and at all times keeping track of the exact source location of each object. Thereby, when a user drags an element to a new position, the app can override just the numbers in the coordinate without changing anything else in the code (such as line breaks or indentation).\nThis approach essentially required reimplementing a large fraction of TikZ, which is the kind of task that no human would ever want to do. I think building software that doesn’t exist yet because it would be impossibly tedious to code up is one of the great new possibilities thanks to coding agents, and it’s worth brainstorming for other examples. (This app was built almost entirely by Codex.)\nImplementing the app came with lots of fun side quests, including building converters from SVG / pptx / ipe to TikZ, re-implementing the LaTeX hyphenation and line-breaking algorithm to support multi-line nodes, and making a color picker that uses the red!20!black color mixing notation used in LaTeX papers.\nComments URL: https://news.ycombinator.com/item?id=48645437\nPoints: 97\n# Comments: 21",
@@ -64,6 +84,16 @@
           "wordCount": 4059,
           "title": "Unlimited OCR: One-Shot Long-Horizon Parsing",
           "imageUrl": "https://opengraph.githubassets.com/8847c3489257c9f8cf2258763fa53ad234c46ae007655c1d377d9bb1a754bdb1/baidu/Unlimited-OCR"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48643180",
+          "author": "ingve",
+          "description": "Article URL: https://lucumr.pocoo.org/2026/6/23/the-coming-loop/\nComments URL: https://news.ycombinator.com/item?id=48643180\nPoints: 169\n# Comments: 142",
+          "link": "https://lucumr.pocoo.org/2026/6/23/the-coming-loop/",
+          "publishedOn": "2026-06-23T11:06:41.000Z",
+          "wordCount": 3075,
+          "title": "The Coming Loop",
+          "imageUrl": "https://lucumr.pocoo.org/social/2026-06-23-the-coming-loop-social.png"
         },
         {
           "id": "https://news.ycombinator.com/item?id=48642699",
@@ -12143,16 +12173,6 @@
           "publishedOn": "2026-05-25T07:26:20.000Z",
           "wordCount": 1746,
           "title": "Theseus: Translating Win32 to WASM",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48263560",
-          "author": "signa11",
-          "description": "Article URL: https://anselmschueler.com/blogposts/2025-c-pointers/\nComments URL: https://news.ycombinator.com/item?id=48263560\nPoints: 87\n# Comments: 87",
-          "link": "https://anselmschueler.com/blogposts/2025-c-pointers/",
-          "publishedOn": "2026-05-25T05:05:11.000Z",
-          "wordCount": 2065,
-          "title": "C array types are weird",
           "imageUrl": null
         }
       ]
