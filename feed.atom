@@ -2,10 +2,92 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-06-23T12:38:23.538Z</updated>
+    <updated>2026-06-23T15:54:39.582Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Show HN: TikZ Editor – WYSIWYG editor for figures in LaTeX]]></title>
+        <id>https://news.ycombinator.com/item?id=48645437</id>
+        <link href="https://tikz.dev/editor/"/>
+        <updated>2026-06-23T14:24:21.000Z</updated>
+        <summary type="html"><![CDATA[Hi all! TikZ is a widely-used LaTeX package for drawing figures in papers. It uses commands like \draw[->] (0,0) -- (1,2); to draw lines, shapes, text, etc. Academics usually code up their figures by hand, so there is lots of twiddling around with the coordinates and recompiling until things look nice. I guess it’s a bit like SVG, but it’s more code than markup, for example it has loops with \foreach.
+I built an open-source WYSIWYG TikZ editor (available for web and desktop) that allows you to edit your TikZ source code visually by dragging and resizing elements. It simultaneously shows the source code and the rendered figure, and lets you edit either one while the two views stay in sync. I’m not aware of any other editors that are simultaneously source editors and WYSIWYG (even for editing SVG or HTML), and I’m quite pleased with how well the combination works.
+The way the app is implemented is by parsing the TikZ code, and at all times keeping track of the exact source location of each object. Thereby, when a user drags an element to a new position, the app can override just the numbers in the coordinate without changing anything else in the code (such as line breaks or indentation).
+This approach essentially required reimplementing a large fraction of TikZ, which is the kind of task that no human would ever want to do. I think building software that doesn’t exist yet because it would be impossibly tedious to code up is one of the great new possibilities thanks to coding agents, and it’s worth brainstorming for other examples. (This app was built almost entirely by Codex.)
+Implementing the app came with lots of fun side quests, including building converters from SVG / pptx / ipe to TikZ, re-implementing the LaTeX hyphenation and line-breaking algorithm to support multi-line nodes, and making a color picker that uses the red!20!black color mixing notation used in LaTeX papers.
+Comments URL: https://news.ycombinator.com/item?id=48645437
+Points: 97
+# Comments: 21]]></summary>
+        <author>
+            <name>DominikPeters</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Elevated error rate across multiple models]]></title>
+        <id>https://news.ycombinator.com/item?id=48645386</id>
+        <link href="https://status.claude.com/incidents/jbhf20wjmzrf"/>
+        <updated>2026-06-23T14:19:47.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://status.claude.com/incidents/jbhf20wjmzrf
+Comments URL: https://news.ycombinator.com/item?id=48645386
+Points: 149
+# Comments: 174]]></summary>
+        <author>
+            <name>rob</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Spying on kids to save kids from spying is stupid]]></title>
+        <id>https://news.ycombinator.com/item?id=48645173</id>
+        <link href="https://pluralistic.net/2026/06/23/destroy-the-village/"/>
+        <updated>2026-06-23T14:04:43.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://pluralistic.net/2026/06/23/destroy-the-village/
+Comments URL: https://news.ycombinator.com/item?id=48645173
+Points: 190
+# Comments: 129]]></summary>
+        <author>
+            <name>hn_acker</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Mistral OCR 4]]></title>
+        <id>https://news.ycombinator.com/item?id=48645152</id>
+        <link href="https://mistral.ai/news/ocr-4/"/>
+        <updated>2026-06-23T14:03:19.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://mistral.ai/news/ocr-4/
+Comments URL: https://news.ycombinator.com/item?id=48645152
+Points: 127
+# Comments: 39]]></summary>
+        <author>
+            <name>meetpateltech</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[MSG Made Dossier on Activists Who Opposed Facial Recognition]]></title>
+        <id>https://news.ycombinator.com/item?id=48644781</id>
+        <link href="https://www.404media.co/madison-square-garden-made-dossier-on-activists-who-opposed-facial-recognition/"/>
+        <updated>2026-06-23T13:36:10.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.404media.co/madison-square-garden-made-dossier-on-activists-who-opposed-facial-recognition/
+Comments URL: https://news.ycombinator.com/item?id=48644781
+Points: 111
+# Comments: 15]]></summary>
+        <author>
+            <name>cdrnsf</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Unlimited OCR: One-Shot Long-Horizon Parsing]]></title>
+        <id>https://news.ycombinator.com/item?id=48643426</id>
+        <link href="https://github.com/baidu/Unlimited-OCR"/>
+        <updated>2026-06-23T11:35:05.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://github.com/baidu/Unlimited-OCR
+Comments URL: https://news.ycombinator.com/item?id=48643426
+Points: 257
+# Comments: 71]]></summary>
+        <author>
+            <name>ingve</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Crypto in 2026: Oh, This Is the Bad Place]]></title>
         <id>https://news.ycombinator.com/item?id=48642699</id>
@@ -17,6 +99,21 @@ Points: 113
 # Comments: 114]]></summary>
         <author>
             <name>ibobev</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Neural Particle Automata]]></title>
+        <id>https://news.ycombinator.com/item?id=48642030</id>
+        <link href="https://selforg-npa.github.io/"/>
+        <updated>2026-06-23T08:31:48.000Z</updated>
+        <summary type="html"><![CDATA[Neural CAs model self-organizing pattern formation on grids. Now the grid is gone. Each cell is an agentic particle that can move freely in space and change its state.
+While each particle follows a simple shared rule, many together can grow complex morphologies or form intricate patterns. The resulting particle system as a whole can regenerate from damage and exhibits surprising emergent behavior.
+Try cutting the lizard and watch it heal itself!
+Comments URL: https://news.ycombinator.com/item?id=48642030
+Points: 60
+# Comments: 14]]></summary>
+        <author>
+            <name>esychology</name>
         </author>
     </entry>
     <entry>
@@ -859,6 +956,19 @@ Points: 60
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[8086 Segmented Memory was a good idea]]></title>
+        <id>https://news.ycombinator.com/item?id=48619125</id>
+        <link href="https://owl.billpg.com/8086-segmented-memory-was-a-good-idea-almost/"/>
+        <updated>2026-06-21T14:07:11.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://owl.billpg.com/8086-segmented-memory-was-a-good-idea-almost/
+Comments URL: https://news.ycombinator.com/item?id=48619125
+Points: 50
+# Comments: 94]]></summary>
+        <author>
+            <name>billpg</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Show HN: Teach your kids perfect pitch]]></title>
         <id>https://news.ycombinator.com/item?id=48618488</id>
         <link href="https://github.com/paytonjjones/bsharp"/>
@@ -1259,6 +1369,19 @@ Points: 63
 # Comments: 13]]></summary>
         <author>
             <name>sylwester</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Epidurals are a miracle technology]]></title>
+        <id>https://news.ycombinator.com/item?id=48610475</id>
+        <link href="https://worksinprogress.co/issue/the-wonder-of-epidurals/"/>
+        <updated>2026-06-20T16:24:44.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://worksinprogress.co/issue/the-wonder-of-epidurals/
+Comments URL: https://news.ycombinator.com/item?id=48610475
+Points: 70
+# Comments: 47]]></summary>
+        <author>
+            <name>karakoram</name>
         </author>
     </entry>
     <entry>
@@ -15920,32 +16043,6 @@ Points: 87
 # Comments: 87]]></summary>
         <author>
             <name>signa11</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Jira Is Turing-Complete]]></title>
-        <id>https://news.ycombinator.com/item?id=48263253</id>
-        <link href="https://seriot.ch/computation/jira.html"/>
-        <updated>2026-05-25T03:54:14.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://seriot.ch/computation/jira.html
-Comments URL: https://news.ycombinator.com/item?id=48263253
-Points: 160
-# Comments: 62]]></summary>
-        <author>
-            <name>vinhnx</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Eternal Sloptember]]></title>
-        <id>https://news.ycombinator.com/item?id=48263238</id>
-        <link href="https://geohot.github.io//blog/jekyll/update/2026/05/24/the-eternal-sloptember.html"/>
-        <updated>2026-05-25T03:47:24.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://geohot.github.io//blog/jekyll/update/2026/05/24/the-eternal-sloptember.html
-Comments URL: https://news.ycombinator.com/item?id=48263238
-Points: 311
-# Comments: 239]]></summary>
-        <author>
-            <name>razin</name>
         </author>
     </entry>
 </feed>

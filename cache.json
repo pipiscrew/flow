@@ -6,6 +6,66 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=48645437",
+          "author": "DominikPeters",
+          "description": "Hi all! TikZ is a widely-used LaTeX package for drawing figures in papers. It uses commands like \\draw[->] (0,0) -- (1,2); to draw lines, shapes, text, etc. Academics usually code up their figures by hand, so there is lots of twiddling around with the coordinates and recompiling until things look nice. I guess it’s a bit like SVG, but it’s more code than markup, for example it has loops with \\foreach.\nI built an open-source WYSIWYG TikZ editor (available for web and desktop) that allows you to edit your TikZ source code visually by dragging and resizing elements. It simultaneously shows the source code and the rendered figure, and lets you edit either one while the two views stay in sync. I’m not aware of any other editors that are simultaneously source editors and WYSIWYG (even for editing SVG or HTML), and I’m quite pleased with how well the combination works.\nThe way the app is implemented is by parsing the TikZ code, and at all times keeping track of the exact source location of each object. Thereby, when a user drags an element to a new position, the app can override just the numbers in the coordinate without changing anything else in the code (such as line breaks or indentation).\nThis approach essentially required reimplementing a large fraction of TikZ, which is the kind of task that no human would ever want to do. I think building software that doesn’t exist yet because it would be impossibly tedious to code up is one of the great new possibilities thanks to coding agents, and it’s worth brainstorming for other examples. (This app was built almost entirely by Codex.)\nImplementing the app came with lots of fun side quests, including building converters from SVG / pptx / ipe to TikZ, re-implementing the LaTeX hyphenation and line-breaking algorithm to support multi-line nodes, and making a color picker that uses the red!20!black color mixing notation used in LaTeX papers.\nComments URL: https://news.ycombinator.com/item?id=48645437\nPoints: 97\n# Comments: 21",
+          "link": "https://tikz.dev/editor/",
+          "publishedOn": "2026-06-23T14:24:21.000Z",
+          "wordCount": 4,
+          "title": "Show HN: TikZ Editor – WYSIWYG editor for figures in LaTeX",
+          "imageUrl": "https://tikz.dev/editor/og-image.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48645386",
+          "author": "rob",
+          "description": "Article URL: https://status.claude.com/incidents/jbhf20wjmzrf\nComments URL: https://news.ycombinator.com/item?id=48645386\nPoints: 149\n# Comments: 174",
+          "link": "https://status.claude.com/incidents/jbhf20wjmzrf",
+          "publishedOn": "2026-06-23T14:19:47.000Z",
+          "wordCount": 3876,
+          "title": "Elevated error rate across multiple models",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48645173",
+          "author": "hn_acker",
+          "description": "Article URL: https://pluralistic.net/2026/06/23/destroy-the-village/\nComments URL: https://news.ycombinator.com/item?id=48645173\nPoints: 190\n# Comments: 129",
+          "link": "https://pluralistic.net/2026/06/23/destroy-the-village/",
+          "publishedOn": "2026-06-23T14:04:43.000Z",
+          "wordCount": 3278,
+          "title": "Spying on kids to save kids from spying is stupid",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48645152",
+          "author": "meetpateltech",
+          "description": "Article URL: https://mistral.ai/news/ocr-4/\nComments URL: https://news.ycombinator.com/item?id=48645152\nPoints: 127\n# Comments: 39",
+          "link": "https://mistral.ai/news/ocr-4/",
+          "publishedOn": "2026-06-23T14:03:19.000Z",
+          "wordCount": 2283,
+          "title": "Mistral OCR 4",
+          "imageUrl": "https://mistral.ai/cms-media/api/media/file/OCR-OG.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48644781",
+          "author": "cdrnsf",
+          "description": "Article URL: https://www.404media.co/madison-square-garden-made-dossier-on-activists-who-opposed-facial-recognition/\nComments URL: https://news.ycombinator.com/item?id=48644781\nPoints: 111\n# Comments: 15",
+          "link": "https://www.404media.co/madison-square-garden-made-dossier-on-activists-who-opposed-facial-recognition/",
+          "publishedOn": "2026-06-23T13:36:10.000Z",
+          "wordCount": 1637,
+          "title": "MSG Made Dossier on Activists Who Opposed Facial Recognition",
+          "imageUrl": "https://storage.ghost.io/c/0f/76/0f76b548-bc58-4f25-abc3-3f5ebca07da4/content/images/size/w1200/2026/06/msg-activists-facial-rec.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48643426",
+          "author": "ingve",
+          "description": "Article URL: https://github.com/baidu/Unlimited-OCR\nComments URL: https://news.ycombinator.com/item?id=48643426\nPoints: 257\n# Comments: 71",
+          "link": "https://github.com/baidu/Unlimited-OCR",
+          "publishedOn": "2026-06-23T11:35:05.000Z",
+          "wordCount": 4059,
+          "title": "Unlimited OCR: One-Shot Long-Horizon Parsing",
+          "imageUrl": "https://opengraph.githubassets.com/8847c3489257c9f8cf2258763fa53ad234c46ae007655c1d377d9bb1a754bdb1/baidu/Unlimited-OCR"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=48642699",
           "author": "ibobev",
           "description": "Article URL: https://www.stephendiehl.com/posts/bad_place_2026/\nComments URL: https://news.ycombinator.com/item?id=48642699\nPoints: 113\n# Comments: 114",
@@ -14,6 +74,16 @@
           "wordCount": 10384,
           "title": "Crypto in 2026: Oh, This Is the Bad Place",
           "imageUrl": "https://www.stephendiehl.com/images/sd-social-preview.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48642030",
+          "author": "esychology",
+          "description": "Neural CAs model self-organizing pattern formation on grids. Now the grid is gone. Each cell is an agentic particle that can move freely in space and change its state.\nWhile each particle follows a simple shared rule, many together can grow complex morphologies or form intricate patterns. The resulting particle system as a whole can regenerate from damage and exhibits surprising emergent behavior.\nTry cutting the lizard and watch it heal itself!\nComments URL: https://news.ycombinator.com/item?id=48642030\nPoints: 60\n# Comments: 14",
+          "link": "https://selforg-npa.github.io/",
+          "publishedOn": "2026-06-23T08:31:48.000Z",
+          "wordCount": 1305,
+          "title": "Show HN: Neural Particle Automata",
+          "imageUrl": "https://selforg-npa.github.io/data/images/teaser.jpg"
         },
         {
           "id": "https://news.ycombinator.com/item?id=48641927",
@@ -656,6 +726,16 @@
           "imageUrl": "//wsrv.nl/?url=https://cdn.satellite.earth/982124c8576aeb2bcddeec69f0bec1eb4e93d601318113272791c9f817ab5430.png"
         },
         {
+          "id": "https://news.ycombinator.com/item?id=48619125",
+          "author": "billpg",
+          "description": "Article URL: https://owl.billpg.com/8086-segmented-memory-was-a-good-idea-almost/\nComments URL: https://news.ycombinator.com/item?id=48619125\nPoints: 50\n# Comments: 94",
+          "link": "https://owl.billpg.com/8086-segmented-memory-was-a-good-idea-almost/",
+          "publishedOn": "2026-06-21T14:07:11.000Z",
+          "wordCount": null,
+          "title": "8086 Segmented Memory was a good idea",
+          "imageUrl": null
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=48618488",
           "author": "paytonjjones",
           "description": "Article URL: https://github.com/paytonjjones/bsharp\nComments URL: https://news.ycombinator.com/item?id=48618488\nPoints: 83\n# Comments: 56",
@@ -964,6 +1044,16 @@
           "wordCount": 4426,
           "title": "Ember, a native iOS Hacker News reader I built around accessibility",
           "imageUrl": "https://opengraph.githubassets.com/ccc81a75b0a480f51c1632aa4424f42c74640aaee47aaeab80493d96d5d583ae/DatanoiseTV/ember-hackernews"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48610475",
+          "author": "karakoram",
+          "description": "Article URL: https://worksinprogress.co/issue/the-wonder-of-epidurals/\nComments URL: https://news.ycombinator.com/item?id=48610475\nPoints: 70\n# Comments: 47",
+          "link": "https://worksinprogress.co/issue/the-wonder-of-epidurals/",
+          "publishedOn": "2026-06-20T16:24:44.000Z",
+          "wordCount": 2130,
+          "title": "Epidurals are a miracle technology",
+          "imageUrl": "https://worksinprogress.co/wip-image/uploads/2026/06/website-image-size-epidurals-scaled.jpg"
         },
         {
           "id": "https://news.ycombinator.com/item?id=48610224",
@@ -12063,26 +12153,6 @@
           "publishedOn": "2026-05-25T05:05:11.000Z",
           "wordCount": 2065,
           "title": "C array types are weird",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48263253",
-          "author": "vinhnx",
-          "description": "Article URL: https://seriot.ch/computation/jira.html\nComments URL: https://news.ycombinator.com/item?id=48263253\nPoints: 160\n# Comments: 62",
-          "link": "https://seriot.ch/computation/jira.html",
-          "publishedOn": "2026-05-25T03:54:14.000Z",
-          "wordCount": 762,
-          "title": "Jira Is Turing-Complete",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48263238",
-          "author": "razin",
-          "description": "Article URL: https://geohot.github.io//blog/jekyll/update/2026/05/24/the-eternal-sloptember.html\nComments URL: https://news.ycombinator.com/item?id=48263238\nPoints: 311\n# Comments: 239",
-          "link": "https://geohot.github.io//blog/jekyll/update/2026/05/24/the-eternal-sloptember.html",
-          "publishedOn": "2026-05-25T03:47:24.000Z",
-          "wordCount": 999,
-          "title": "The Eternal Sloptember",
           "imageUrl": null
         }
       ]
