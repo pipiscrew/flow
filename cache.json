@@ -6,6 +6,26 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=48690101",
+          "author": "alain94040",
+          "description": "https://archive.ph/PCQQl\nComments URL: https://news.ycombinator.com/item?id=48690101\nPoints: 251\n# Comments: 486",
+          "link": "https://www.washingtonpost.com/technology/2026/06/26/openai-says-us-government-will-vet-users-its-latest-ai-model/",
+          "publishedOn": "2026-06-26T18:23:14.000Z",
+          "wordCount": null,
+          "title": "U.S. government will decide who gets to use GPT-5.6",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48689275",
+          "author": "randycupertino",
+          "description": "Article URL: https://www.newsweek.com/cost-me-the-election-data-centers-trigger-voter-backlash-12118327\nComments URL: https://news.ycombinator.com/item?id=48689275\nPoints: 66\n# Comments: 57",
+          "link": "https://www.newsweek.com/cost-me-the-election-data-centers-trigger-voter-backlash-12118327",
+          "publishedOn": "2026-06-26T17:24:21.000Z",
+          "wordCount": 9777,
+          "title": "Data centers trigger voter backlash",
+          "imageUrl": "https://assets.newsweek.com/wp-content/uploads/2026/06/AP20003647701029.jpg?w=1200&crop=1"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=48689028",
           "author": "minimaxir",
           "description": "Article URL: https://openai.com/index/previewing-gpt-5-6-sol/\nComments URL: https://news.ycombinator.com/item?id=48689028\nPoints: 156\n# Comments: 152",
@@ -14,6 +34,16 @@
           "wordCount": null,
           "title": "Previewing GPT‑5.6 Sol: a next-generation model",
           "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48688700",
+          "author": "adchurch",
+          "description": "We built a model router that plugs into coding agents (e.g. Claude Code, Codex, Cursor, etc.) and intelligently sends requests to the best model to serve them. Here's a quick demo of running it locally: https://www.youtube.com/watch?v=isKhAyivtfM.\nAt Weave, we write most of our code with AI, and it's been getting more expensive. This came to a head when Opus 4.7 was released and, thanks to its tokenizer changes, our costs shot up. We knew we didn't need Opus for everything but we didn't want to lose out on the intelligence for the cases where you really need it. So we decided to build a model router to handle this for us.\nThe Weave Router acts as an Anthropic/OpenAI endpoint specifically for coding agents. It looks at every inference request and intelligently (more on that in a sec) decide…",
+          "link": "https://github.com/workweave/router",
+          "publishedOn": "2026-06-26T16:40:11.000Z",
+          "wordCount": 3196,
+          "title": "Show HN: Smart model routing directly in Claude, Codex and Cursor",
+          "imageUrl": "https://opengraph.githubassets.com/dc4372835290a320c184b4665b13dd555732b5c863f0a2aecd21256633dc6ccd/workweave/router"
         },
         {
           "id": "https://news.ycombinator.com/item?id=48687272",
@@ -976,6 +1006,16 @@
           "imageUrl": null
         },
         {
+          "id": "https://news.ycombinator.com/item?id=48650550",
+          "author": "theanonymousone",
+          "description": "Article URL: https://www.swiftlatex.com/\nComments URL: https://news.ycombinator.com/item?id=48650550\nPoints: 54\n# Comments: 15",
+          "link": "https://www.swiftlatex.com/",
+          "publishedOn": "2026-06-23T20:04:33.000Z",
+          "wordCount": 361,
+          "title": "LaTeX.wasm: LaTeX Engines in Browsers",
+          "imageUrl": null
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=48650311",
           "author": "arunc",
           "description": "Article URL: https://www.anthropic.com/legal/privacy\nComments URL: https://news.ycombinator.com/item?id=48650311\nPoints: 158\n# Comments: 115",
@@ -1054,6 +1094,16 @@
           "wordCount": 4345,
           "title": "FUTO Swipe – A new swipe typing model",
           "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48648550",
+          "author": "speckx",
+          "description": "Article URL: https://blog.matthewbrunelle.com/my-steam-machine-is-a-50ft-hdmi-cable/\nComments URL: https://news.ycombinator.com/item?id=48648550\nPoints: 88\n# Comments: 100",
+          "link": "https://blog.matthewbrunelle.com/my-steam-machine-is-a-50ft-hdmi-cable/",
+          "publishedOn": "2026-06-23T17:45:20.000Z",
+          "wordCount": 1838,
+          "title": "My Steam Machine is a 50ft HDMI cable",
+          "imageUrl": "https://blog.matthewbrunelle.com/content/images/size/w1200/2026/06/2615.jpg"
         },
         {
           "id": "https://news.ycombinator.com/item?id=48648039",
@@ -1254,6 +1304,16 @@
           "wordCount": 10384,
           "title": "Crypto in 2026: Oh, This Is the Bad Place",
           "imageUrl": "https://www.stephendiehl.com/images/sd-social-preview.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48642510",
+          "author": "justincormack",
+          "description": "Article URL: https://aws.amazon.com/blogs/aws/run-isolated-sandboxes-with-full-lifecycle-control-aws-lambda-introduces-microvms/\nComments URL: https://news.ycombinator.com/item?id=48642510\nPoints: 184\n# Comments: 103",
+          "link": "https://aws.amazon.com/blogs/aws/run-isolated-sandboxes-with-full-lifecycle-control-aws-lambda-introduces-microvms/",
+          "publishedOn": "2026-06-23T09:39:35.000Z",
+          "wordCount": 33119,
+          "title": "MicroVMs: Run isolated sandboxes with full lifecycle control",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/06/22/AdobeStock_44802230-1260x630.jpeg"
         },
         {
           "id": "https://news.ycombinator.com/item?id=48642503",
@@ -12314,16 +12374,6 @@
           "wordCount": 5688,
           "title": "The four programming questions from my 1994 Microsoft internship interview (2023)",
           "imageUrl": "https://substackcdn.com/image/fetch/$s_!FSx0!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd4fa5ee8-43b0-4aed-9b71-6675eebe270a_1920x1080.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48305446",
-          "author": "kunalsin9h",
-          "description": "Article URL: https://iisc.ac.in/a-eureka-machine-that-thinks-like-nature-and-explores-what-ai-cannot/\nComments URL: https://news.ycombinator.com/item?id=48305446\nPoints: 100\n# Comments: 30",
-          "link": "https://iisc.ac.in/a-eureka-machine-that-thinks-like-nature-and-explores-what-ai-cannot/",
-          "publishedOn": "2026-05-28T06:40:31.000Z",
-          "wordCount": 3334,
-          "title": "A Eureka machine that thinks like nature and explores what AI cannot",
-          "imageUrl": "https://iisc.ac.in/wp-content/uploads/2018/03/IISc-logo.jpg"
         }
       ]
     }

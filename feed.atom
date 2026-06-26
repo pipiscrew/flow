@@ -2,10 +2,36 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-06-26T17:55:34.431Z</updated>
+    <updated>2026-06-26T20:00:19.786Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[U.S. government will decide who gets to use GPT-5.6]]></title>
+        <id>https://news.ycombinator.com/item?id=48690101</id>
+        <link href="https://www.washingtonpost.com/technology/2026/06/26/openai-says-us-government-will-vet-users-its-latest-ai-model/"/>
+        <updated>2026-06-26T18:23:14.000Z</updated>
+        <summary type="html"><![CDATA[https://archive.ph/PCQQl
+Comments URL: https://news.ycombinator.com/item?id=48690101
+Points: 251
+# Comments: 486]]></summary>
+        <author>
+            <name>alain94040</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Data centers trigger voter backlash]]></title>
+        <id>https://news.ycombinator.com/item?id=48689275</id>
+        <link href="https://www.newsweek.com/cost-me-the-election-data-centers-trigger-voter-backlash-12118327"/>
+        <updated>2026-06-26T17:24:21.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.newsweek.com/cost-me-the-election-data-centers-trigger-voter-backlash-12118327
+Comments URL: https://news.ycombinator.com/item?id=48689275
+Points: 66
+# Comments: 57]]></summary>
+        <author>
+            <name>randycupertino</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Previewing GPT‑5.6 Sol: a next-generation model]]></title>
         <id>https://news.ycombinator.com/item?id=48689028</id>
@@ -17,6 +43,18 @@ Points: 156
 # Comments: 152]]></summary>
         <author>
             <name>minimaxir</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Smart model routing directly in Claude, Codex and Cursor]]></title>
+        <id>https://news.ycombinator.com/item?id=48688700</id>
+        <link href="https://github.com/workweave/router"/>
+        <updated>2026-06-26T16:40:11.000Z</updated>
+        <summary type="html"><![CDATA[We built a model router that plugs into coding agents (e.g. Claude Code, Codex, Cursor, etc.) and intelligently sends requests to the best model to serve them. Here's a quick demo of running it locally: https://www.youtube.com/watch?v=isKhAyivtfM.
+At Weave, we write most of our code with AI, and it's been getting more expensive. This came to a head when Opus 4.7 was released and, thanks to its tokenizer changes, our costs shot up. We knew we didn't need Opus for everything but we didn't want to lose out on the intelligence for the cases where you really need it. So we decided to build a model router to handle this for us.
+The Weave Router acts as an Anthropic/OpenAI endpoint specifically for coding agents. It looks at every inference request and intelligently (more on that in a sec) decide…]]></summary>
+        <author>
+            <name>adchurch</name>
         </author>
     </entry>
     <entry>
@@ -1281,6 +1319,19 @@ Points: 108
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[LaTeX.wasm: LaTeX Engines in Browsers]]></title>
+        <id>https://news.ycombinator.com/item?id=48650550</id>
+        <link href="https://www.swiftlatex.com/"/>
+        <updated>2026-06-23T20:04:33.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.swiftlatex.com/
+Comments URL: https://news.ycombinator.com/item?id=48650550
+Points: 54
+# Comments: 15]]></summary>
+        <author>
+            <name>theanonymousone</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Anthropic updates their terms to verify age or identity]]></title>
         <id>https://news.ycombinator.com/item?id=48650311</id>
         <link href="https://www.anthropic.com/legal/privacy"/>
@@ -1382,6 +1433,19 @@ Points: 86
 # Comments: 31]]></summary>
         <author>
             <name>futohq</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[My Steam Machine is a 50ft HDMI cable]]></title>
+        <id>https://news.ycombinator.com/item?id=48648550</id>
+        <link href="https://blog.matthewbrunelle.com/my-steam-machine-is-a-50ft-hdmi-cable/"/>
+        <updated>2026-06-23T17:45:20.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://blog.matthewbrunelle.com/my-steam-machine-is-a-50ft-hdmi-cable/
+Comments URL: https://news.ycombinator.com/item?id=48648550
+Points: 88
+# Comments: 100]]></summary>
+        <author>
+            <name>speckx</name>
         </author>
     </entry>
     <entry>
@@ -1650,6 +1714,19 @@ Points: 113
 # Comments: 114]]></summary>
         <author>
             <name>ibobev</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[MicroVMs: Run isolated sandboxes with full lifecycle control]]></title>
+        <id>https://news.ycombinator.com/item?id=48642510</id>
+        <link href="https://aws.amazon.com/blogs/aws/run-isolated-sandboxes-with-full-lifecycle-control-aws-lambda-introduces-microvms/"/>
+        <updated>2026-06-23T09:39:35.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://aws.amazon.com/blogs/aws/run-isolated-sandboxes-with-full-lifecycle-control-aws-lambda-introduces-microvms/
+Comments URL: https://news.ycombinator.com/item?id=48642510
+Points: 184
+# Comments: 103]]></summary>
+        <author>
+            <name>justincormack</name>
         </author>
     </entry>
     <entry>
@@ -16263,19 +16340,6 @@ Points: 140
 # Comments: 57]]></summary>
         <author>
             <name>tosh</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A Eureka machine that thinks like nature and explores what AI cannot]]></title>
-        <id>https://news.ycombinator.com/item?id=48305446</id>
-        <link href="https://iisc.ac.in/a-eureka-machine-that-thinks-like-nature-and-explores-what-ai-cannot/"/>
-        <updated>2026-05-28T06:40:31.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://iisc.ac.in/a-eureka-machine-that-thinks-like-nature-and-explores-what-ai-cannot/
-Comments URL: https://news.ycombinator.com/item?id=48305446
-Points: 100
-# Comments: 30]]></summary>
-        <author>
-            <name>kunalsin9h</name>
         </author>
     </entry>
 </feed>
