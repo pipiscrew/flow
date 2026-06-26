@@ -2,10 +2,36 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-06-26T00:15:13.605Z</updated>
+    <updated>2026-06-26T05:13:23.401Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Framework's 10G Ethernet module exposes USB-C's complexity]]></title>
+        <id>https://news.ycombinator.com/item?id=48681220</id>
+        <link href="https://www.jeffgeerling.com/blog/2026/framework-10g-ethernet-module-usb-c-complexity/"/>
+        <updated>2026-06-26T01:10:52.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.jeffgeerling.com/blog/2026/framework-10g-ethernet-module-usb-c-complexity/
+Comments URL: https://news.ycombinator.com/item?id=48681220
+Points: 90
+# Comments: 30]]></summary>
+        <author>
+            <name>Alupis</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Garbage Collection Handbook: The Art of Automatic Memory Management (2nd Ed) (2023)]]></title>
+        <id>https://news.ycombinator.com/item?id=48680370</id>
+        <link href="https://gchandbook.org/"/>
+        <updated>2026-06-25T23:10:30.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://gchandbook.org/
+Comments URL: https://news.ycombinator.com/item?id=48680370
+Points: 85
+# Comments: 12]]></summary>
+        <author>
+            <name>teleforce</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Military branches restore flu shot requirement after virus swept through base]]></title>
         <id>https://news.ycombinator.com/item?id=48679934</id>
@@ -82,6 +108,46 @@ Points: 57
 # Comments: 14]]></summary>
         <author>
             <name>tosh</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Parallel Parentheses Matching]]></title>
+        <id>https://news.ycombinator.com/item?id=48678623</id>
+        <link href="https://williamdue.github.io/blog/parallel-parentheses-matching"/>
+        <updated>2026-06-25T20:12:24.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://williamdue.github.io/blog/parallel-parentheses-matching
+Comments URL: https://news.ycombinator.com/item?id=48678623
+Points: 72
+# Comments: 9]]></summary>
+        <author>
+            <name>Athas</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Doorman's Fallacy in action]]></title>
+        <id>https://news.ycombinator.com/item?id=48678495</id>
+        <link href="https://rozumem.xyz/posts/17"/>
+        <updated>2026-06-25T20:00:35.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://rozumem.xyz/posts/17
+Comments URL: https://news.ycombinator.com/item?id=48678495
+Points: 80
+# Comments: 113]]></summary>
+        <author>
+            <name>rozumem</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Apple to skip high-end M6 Mac chips in favor of AI-focused M7 line]]></title>
+        <id>https://news.ycombinator.com/item?id=48676795</id>
+        <link href="https://www.bloomberg.com/news/articles/2026-06-25/apple-to-skip-high-end-m6-mac-chips-to-launch-m7-pro-m7-max-m7-ultra-instead?embedded-checkout=true"/>
+        <updated>2026-06-25T17:38:44.000Z</updated>
+        <summary type="html"><![CDATA[Giftlink: https://www.bloomberg.com/news/articles/2026-06-25/apple-to-...
+also https://www.msn.com/en-ca/lifestyle/shopping/apple-to-skip-h...
+Comments URL: https://news.ycombinator.com/item?id=48676795
+Points: 162
+# Comments: 127]]></summary>
+        <author>
+            <name>scrlk</name>
         </author>
     </entry>
     <entry>
@@ -1349,6 +1415,23 @@ Points: 111
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Overfitted a 900KB Transformer to Compress a 100MB CSV into 7MB]]></title>
+        <id>https://news.ycombinator.com/item?id=48644463</id>
+        <link href="https://news.ycombinator.com/item?id=48644463"/>
+        <updated>2026-06-23T13:11:27.000Z</updated>
+        <summary type="html"><![CDATA[I built an experiment that uses an overfitted transformer and arithmetic coding to compress individual files.
+Instead of training the model to generalize, I train a 900KB transformer to memorize a single file and predict the next byte. Those predictions are fed into an arithmetic coder to produce the compressed output.
+On a 100MB NYC taxi CSV, it compresses to about 7MB (~0.5 bits/byte). On a 100MB slice of enwik9, it compresses to about 21MB (~1.68 bits/byte).
+It's pretty slow right now (roughly 20–30 minutes of training and 45 minutes each for compression and decompression on my AMD 7800XT).
+Checkout the repo - https://github.com/samyak112/pym-particles
+Comments URL: https://news.ycombinator.com/item?id=48644463
+Points: 61
+# Comments: 26]]></summary>
+        <author>
+            <name>spidy__</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[The Low-Tech AI of Elden Ring]]></title>
         <id>https://news.ycombinator.com/item?id=48643489</id>
         <link href="https://nega.tv/posts/low-tech-ai-of-elden-ring.html"/>
@@ -1977,6 +2060,19 @@ Points: 71
 # Comments: 30]]></summary>
         <author>
             <name>petekp</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The last Romans are still around]]></title>
+        <id>https://news.ycombinator.com/item?id=48631119</id>
+        <link href="https://signoregalilei.com/2026/06/20/the-last-romans-are-still-around/"/>
+        <updated>2026-06-22T15:00:04.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://signoregalilei.com/2026/06/20/the-last-romans-are-still-around/
+Comments URL: https://news.ycombinator.com/item?id=48631119
+Points: 58
+# Comments: 77]]></summary>
+        <author>
+            <name>surprisetalk</name>
         </author>
     </entry>
     <entry>
@@ -16275,178 +16371,6 @@ Points: 52
 # Comments: 16]]></summary>
         <author>
             <name>ChrisArchitect</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Canada to order military plane fleet from Sweden in shift from US suppliers]]></title>
-        <id>https://news.ycombinator.com/item?id=48296994</id>
-        <link href="https://www.theguardian.com/world/2026/may/27/canada-sweden-saab-globaleye-aircraft"/>
-        <updated>2026-05-27T16:53:25.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.theguardian.com/world/2026/may/27/canada-sweden-saab-globaleye-aircraft
-Comments URL: https://news.ycombinator.com/item?id=48296994
-Points: 217
-# Comments: 134]]></summary>
-        <author>
-            <name>tosh</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A new register allocator for ZJIT]]></title>
-        <id>https://news.ycombinator.com/item?id=48296946</id>
-        <link href="https://railsatscale.com/2026-05-27-a-new-register-allocator-for-zjit/"/>
-        <updated>2026-05-27T16:50:10.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://railsatscale.com/2026-05-27-a-new-register-allocator-for-zjit/
-Comments URL: https://news.ycombinator.com/item?id=48296946
-Points: 50
-# Comments: 4]]></summary>
-        <author>
-            <name>tenderlove</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[I think Anthropic and OpenAI have found product-market fit]]></title>
-        <id>https://news.ycombinator.com/item?id=48296794</id>
-        <link href="https://simonwillison.net/2026/May/27/product-market-fit/"/>
-        <updated>2026-05-27T16:39:13.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://simonwillison.net/2026/May/27/product-market-fit/
-Comments URL: https://news.ycombinator.com/item?id=48296794
-Points: 76
-# Comments: 58]]></summary>
-        <author>
-            <name>simonw</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[DuckDuckGo search saw 28% more visits after Google said people love AI mode]]></title>
-        <id>https://news.ycombinator.com/item?id=48296649</id>
-        <link href="https://www.pcgamer.com/hardware/duckduckgos-ai-free-search-saw-nearly-28-percent-more-visits-in-the-week-following-googles-insistence-that-people-love-ai-mode/"/>
-        <updated>2026-05-27T16:28:41.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.pcgamer.com/hardware/duckduckgos-ai-free-search-saw-nearly-28-percent-more-visits-in-the-week-following-googles-insistence-that-people-love-ai-mode/
-Comments URL: https://news.ycombinator.com/item?id=48296649
-Points: 196
-# Comments: 73]]></summary>
-        <author>
-            <name>HelloUsername</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Stress disrupts hippocampal integration of overlapping events, memory inference]]></title>
-        <id>https://news.ycombinator.com/item?id=48296622</id>
-        <link href="https://www.science.org/doi/10.1126/sciadv.aea5496?user_id=66c4bf745d78644b3aa57b08"/>
-        <updated>2026-05-27T16:26:31.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.science.org/doi/10.1126/sciadv.aea5496?user_id=66c4bf745d78644b3aa57b08
-Comments URL: https://news.ycombinator.com/item?id=48296622
-Points: 61
-# Comments: 9]]></summary>
-        <author>
-            <name>gmays</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Training our own AI models]]></title>
-        <id>https://news.ycombinator.com/item?id=48296359</id>
-        <link href="https://posthog.com/blog/training-ai-models"/>
-        <updated>2026-05-27T16:08:42.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://posthog.com/blog/training-ai-models
-Comments URL: https://news.ycombinator.com/item?id=48296359
-Points: 129
-# Comments: 94]]></summary>
-        <author>
-            <name>tartieret</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Last.fm is now independent]]></title>
-        <id>https://news.ycombinator.com/item?id=48295892</id>
-        <link href="https://support.last.fm/t/last-fm-is-now-independent/118591"/>
-        <updated>2026-05-27T15:36:09.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://support.last.fm/t/last-fm-is-now-independent/118591
-Comments URL: https://news.ycombinator.com/item?id=48295892
-Points: 292
-# Comments: 90]]></summary>
-        <author>
-            <name>twistslider</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Tech CEOs are apparently suffering from AI psychosis]]></title>
-        <id>https://news.ycombinator.com/item?id=48295679</id>
-        <link href="https://techcrunch.com/2026/05/27/tech-ceos-are-apparently-suffering-from-ai-psychosis/"/>
-        <updated>2026-05-27T15:20:47.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://techcrunch.com/2026/05/27/tech-ceos-are-apparently-suffering-from-ai-psychosis/
-Comments URL: https://news.ycombinator.com/item?id=48295679
-Points: 223
-# Comments: 98]]></summary>
-        <author>
-            <name>IAmGraydon</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: Open-source Workspace (mail,docs,spreadsheet,drive) web/iOS]]></title>
-        <id>https://news.ycombinator.com/item?id=48295071</id>
-        <link href="https://tinycld.org/"/>
-        <updated>2026-05-27T14:36:41.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://tinycld.org/
-Comments URL: https://news.ycombinator.com/item?id=48295071
-Points: 52
-# Comments: 22]]></summary>
-        <author>
-            <name>nathanstitt</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Declassified CIA Cartography Maps from the 1980s]]></title>
-        <id>https://news.ycombinator.com/item?id=48294831</id>
-        <link href="https://brilliantmaps.com/cia-maps-1980s/"/>
-        <updated>2026-05-27T14:21:20.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://brilliantmaps.com/cia-maps-1980s/
-Comments URL: https://news.ycombinator.com/item?id=48294831
-Points: 54
-# Comments: 19]]></summary>
-        <author>
-            <name>speckx</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: I made an emergency page for my family]]></title>
-        <id>https://news.ycombinator.com/item?id=48294791</id>
-        <link href="https://help.delduca.org/"/>
-        <updated>2026-05-27T14:18:03.000Z</updated>
-        <summary type="html"><![CDATA[I have a bad memory and can't memorize some important numbers, so I created this project.
-I've always been concerned about being without my phone (getting robbed - which is common in Brazil - running out of battery, having it break, etc.), so I decided to create a page that sends SMS messages (LLM-summarized) and emails with more detailed information such as geolocation, IP address, and the full message.
-It’s a simple page that allows sending one or more messages, with recipients being myself and other people - for example, in case I or they need help or need to communicate something important.
-The source code is available at https://github.com/skhaz/dokku/tree/main/apps/help
-Comments URL: https://news.ycombinator.com/item?id=48294791
-Points: 59
-# Comments: 74]]></summary>
-        <author>
-            <name>delduca</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Math-to-Manim]]></title>
-        <id>https://news.ycombinator.com/item?id=48293119</id>
-        <link href="https://github.com/HarleyCoops/Math-To-Manim"/>
-        <updated>2026-05-27T12:18:19.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://github.com/HarleyCoops/Math-To-Manim
-Comments URL: https://news.ycombinator.com/item?id=48293119
-Points: 52
-# Comments: 6]]></summary>
-        <author>
-            <name>georgewsinger</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Incident with Pull Requests, Issues, Git Operations and API Requests]]></title>
-        <id>https://news.ycombinator.com/item?id=48293080</id>
-        <link href="https://www.githubstatus.com/incidents/xy1tt3hs572m"/>
-        <updated>2026-05-27T12:15:14.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.githubstatus.com/incidents/xy1tt3hs572m
-Comments URL: https://news.ycombinator.com/item?id=48293080
-Points: 133
-# Comments: 110]]></summary>
-        <author>
-            <name>maxnoe</name>
         </author>
     </entry>
 </feed>

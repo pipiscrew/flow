@@ -6,6 +6,26 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=48681220",
+          "author": "Alupis",
+          "description": "Article URL: https://www.jeffgeerling.com/blog/2026/framework-10g-ethernet-module-usb-c-complexity/\nComments URL: https://news.ycombinator.com/item?id=48681220\nPoints: 90\n# Comments: 30",
+          "link": "https://www.jeffgeerling.com/blog/2026/framework-10g-ethernet-module-usb-c-complexity/",
+          "publishedOn": "2026-06-26T01:10:52.000Z",
+          "wordCount": 713,
+          "title": "Framework's 10G Ethernet module exposes USB-C's complexity",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48680370",
+          "author": "teleforce",
+          "description": "Article URL: https://gchandbook.org/\nComments URL: https://news.ycombinator.com/item?id=48680370\nPoints: 85\n# Comments: 12",
+          "link": "https://gchandbook.org/",
+          "publishedOn": "2026-06-25T23:10:30.000Z",
+          "wordCount": 1345,
+          "title": "The Garbage Collection Handbook: The Art of Automatic Memory Management (2nd Ed) (2023)",
+          "imageUrl": null
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=48679934",
           "author": "tzs",
           "description": "Article URL: https://arstechnica.com/health/2026/06/military-branches-restore-flu-shot-requirement-after-virus-swept-through-base/\nComments URL: https://news.ycombinator.com/item?id=48679934\nPoints: 61\n# Comments: 25",
@@ -64,6 +84,36 @@
           "wordCount": 4080,
           "title": "An oral history of Bank Python (2021)",
           "imageUrl": "https://calpaterson.com/images/photo/wharf.jpeg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48678623",
+          "author": "Athas",
+          "description": "Article URL: https://williamdue.github.io/blog/parallel-parentheses-matching\nComments URL: https://news.ycombinator.com/item?id=48678623\nPoints: 72\n# Comments: 9",
+          "link": "https://williamdue.github.io/blog/parallel-parentheses-matching",
+          "publishedOn": "2026-06-25T20:12:24.000Z",
+          "wordCount": null,
+          "title": "Parallel Parentheses Matching",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48678495",
+          "author": "rozumem",
+          "description": "Article URL: https://rozumem.xyz/posts/17\nComments URL: https://news.ycombinator.com/item?id=48678495\nPoints: 80\n# Comments: 113",
+          "link": "https://rozumem.xyz/posts/17",
+          "publishedOn": "2026-06-25T20:00:35.000Z",
+          "wordCount": 578,
+          "title": "The Doorman's Fallacy in action",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48676795",
+          "author": "scrlk",
+          "description": "Giftlink: https://www.bloomberg.com/news/articles/2026-06-25/apple-to-...\nalso https://www.msn.com/en-ca/lifestyle/shopping/apple-to-skip-h...\nComments URL: https://news.ycombinator.com/item?id=48676795\nPoints: 162\n# Comments: 127",
+          "link": "https://www.bloomberg.com/news/articles/2026-06-25/apple-to-skip-high-end-m6-mac-chips-to-launch-m7-pro-m7-max-m7-ultra-instead?embedded-checkout=true",
+          "publishedOn": "2026-06-25T17:38:44.000Z",
+          "wordCount": null,
+          "title": "Apple to skip high-end M6 Mac chips in favor of AI-focused M7 line",
+          "imageUrl": null
         },
         {
           "id": "https://news.ycombinator.com/item?id=48675717",
@@ -1026,6 +1076,16 @@
           "imageUrl": "https://storage.ghost.io/c/0f/76/0f76b548-bc58-4f25-abc3-3f5ebca07da4/content/images/size/w1200/2026/06/msg-activists-facial-rec.png"
         },
         {
+          "id": "https://news.ycombinator.com/item?id=48644463",
+          "author": "spidy__",
+          "description": "I built an experiment that uses an overfitted transformer and arithmetic coding to compress individual files.\nInstead of training the model to generalize, I train a 900KB transformer to memorize a single file and predict the next byte. Those predictions are fed into an arithmetic coder to produce the compressed output.\nOn a 100MB NYC taxi CSV, it compresses to about 7MB (~0.5 bits/byte). On a 100MB slice of enwik9, it compresses to about 21MB (~1.68 bits/byte).\nIt's pretty slow right now (roughly 20–30 minutes of training and 45 minutes each for compression and decompression on my AMD 7800XT).\nCheckout the repo - https://github.com/samyak112/pym-particles\nComments URL: https://news.ycombinator.com/item?id=48644463\nPoints: 61\n# Comments: 26",
+          "link": "https://news.ycombinator.com/item?id=48644463",
+          "publishedOn": "2026-06-23T13:11:27.000Z",
+          "wordCount": 1811,
+          "title": "Overfitted a 900KB Transformer to Compress a 100MB CSV into 7MB",
+          "imageUrl": null
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=48643489",
           "author": "g0xA52A2A",
           "description": "Article URL: https://nega.tv/posts/low-tech-ai-of-elden-ring.html\nComments URL: https://news.ycombinator.com/item?id=48643489\nPoints: 70\n# Comments: 42",
@@ -1504,6 +1564,16 @@
           "wordCount": 545,
           "title": "Tw-fade: pure CSS scroll-driven edge masking",
           "imageUrl": "https://pete.design/tw-fade/og-image.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48631119",
+          "author": "surprisetalk",
+          "description": "Article URL: https://signoregalilei.com/2026/06/20/the-last-romans-are-still-around/\nComments URL: https://news.ycombinator.com/item?id=48631119\nPoints: 58\n# Comments: 77",
+          "link": "https://signoregalilei.com/2026/06/20/the-last-romans-are-still-around/",
+          "publishedOn": "2026-06-22T15:00:04.000Z",
+          "wordCount": 3702,
+          "title": "The last Romans are still around",
+          "imageUrl": "https://signoregalilei.com/wp-content/uploads/2026/06/Flag_of_Vatican_City_2023–present.svg_.png"
         },
         {
           "id": "https://news.ycombinator.com/item?id=48631058",
@@ -12324,136 +12394,6 @@
           "wordCount": 6807,
           "title": "Gemini, Gophers, and Fingers. Oh My Alternative Internets Beyond HTTPS",
           "imageUrl": "https://brennan.day/assets/images/blog/gemini.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48296994",
-          "author": "tosh",
-          "description": "Article URL: https://www.theguardian.com/world/2026/may/27/canada-sweden-saab-globaleye-aircraft\nComments URL: https://news.ycombinator.com/item?id=48296994\nPoints: 217\n# Comments: 134",
-          "link": "https://www.theguardian.com/world/2026/may/27/canada-sweden-saab-globaleye-aircraft",
-          "publishedOn": "2026-05-27T16:53:25.000Z",
-          "wordCount": 4179,
-          "title": "Canada to order military plane fleet from Sweden in shift from US suppliers",
-          "imageUrl": "https://i.guim.co.uk/img/media/65d5f6f80b88938d817176d98e43c9404840ddd6/387_0_5431_4345/master/5431.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=659c9398c5ec5062376e332ab41a4aa9"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48296946",
-          "author": "tenderlove",
-          "description": "Article URL: https://railsatscale.com/2026-05-27-a-new-register-allocator-for-zjit/\nComments URL: https://news.ycombinator.com/item?id=48296946\nPoints: 50\n# Comments: 4",
-          "link": "https://railsatscale.com/2026-05-27-a-new-register-allocator-for-zjit/",
-          "publishedOn": "2026-05-27T16:50:10.000Z",
-          "wordCount": 2349,
-          "title": "A new register allocator for ZJIT",
-          "imageUrl": "https://railsatscale.com/2026-05-27-a-new-register-allocator-for-zjit/6bdf42c0fd13f8a51e884dc2a8ed8622efb62546.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48296794",
-          "author": "simonw",
-          "description": "Article URL: https://simonwillison.net/2026/May/27/product-market-fit/\nComments URL: https://news.ycombinator.com/item?id=48296794\nPoints: 76\n# Comments: 58",
-          "link": "https://simonwillison.net/2026/May/27/product-market-fit/",
-          "publishedOn": "2026-05-27T16:39:13.000Z",
-          "wordCount": 2537,
-          "title": "I think Anthropic and OpenAI have found product-market fit",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48296649",
-          "author": "HelloUsername",
-          "description": "Article URL: https://www.pcgamer.com/hardware/duckduckgos-ai-free-search-saw-nearly-28-percent-more-visits-in-the-week-following-googles-insistence-that-people-love-ai-mode/\nComments URL: https://news.ycombinator.com/item?id=48296649\nPoints: 196\n# Comments: 73",
-          "link": "https://www.pcgamer.com/hardware/duckduckgos-ai-free-search-saw-nearly-28-percent-more-visits-in-the-week-following-googles-insistence-that-people-love-ai-mode/",
-          "publishedOn": "2026-05-27T16:28:41.000Z",
-          "wordCount": 38837,
-          "title": "DuckDuckGo search saw 28% more visits after Google said people love AI mode",
-          "imageUrl": "https://cdn.mos.cms.futurecdn.net/CiEBkxLPHniUeZDcJCDbD7-1920-80.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48296622",
-          "author": "gmays",
-          "description": "Article URL: https://www.science.org/doi/10.1126/sciadv.aea5496?user_id=66c4bf745d78644b3aa57b08\nComments URL: https://news.ycombinator.com/item?id=48296622\nPoints: 61\n# Comments: 9",
-          "link": "https://www.science.org/doi/10.1126/sciadv.aea5496?user_id=66c4bf745d78644b3aa57b08",
-          "publishedOn": "2026-05-27T16:26:31.000Z",
-          "wordCount": null,
-          "title": "Stress disrupts hippocampal integration of overlapping events, memory inference",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48296359",
-          "author": "tartieret",
-          "description": "Article URL: https://posthog.com/blog/training-ai-models\nComments URL: https://news.ycombinator.com/item?id=48296359\nPoints: 129\n# Comments: 94",
-          "link": "https://posthog.com/blog/training-ai-models",
-          "publishedOn": "2026-05-27T16:08:42.000Z",
-          "wordCount": 11241,
-          "title": "Training our own AI models",
-          "imageUrl": "https://d36j3rcgc2qfsv.cloudfront.net/blogtraining-ai-models.jpeg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48295892",
-          "author": "twistslider",
-          "description": "Article URL: https://support.last.fm/t/last-fm-is-now-independent/118591\nComments URL: https://news.ycombinator.com/item?id=48295892\nPoints: 292\n# Comments: 90",
-          "link": "https://support.last.fm/t/last-fm-is-now-independent/118591",
-          "publishedOn": "2026-05-27T15:36:09.000Z",
-          "wordCount": 688,
-          "title": "Last.fm is now independent",
-          "imageUrl": "https://us1.discourse-cdn.com/flex021/uploads/lastfm/original/2X/f/f1f8c34ea6f18aad5b8f89905e38ba7b3424d9b1.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48295679",
-          "author": "IAmGraydon",
-          "description": "Article URL: https://techcrunch.com/2026/05/27/tech-ceos-are-apparently-suffering-from-ai-psychosis/\nComments URL: https://news.ycombinator.com/item?id=48295679\nPoints: 223\n# Comments: 98",
-          "link": "https://techcrunch.com/2026/05/27/tech-ceos-are-apparently-suffering-from-ai-psychosis/",
-          "publishedOn": "2026-05-27T15:20:47.000Z",
-          "wordCount": 3764,
-          "title": "Tech CEOs are apparently suffering from AI psychosis",
-          "imageUrl": "https://techcrunch.com/wp-content/uploads/2022/11/GettyImages-1265000101.jpg?resize=1200,857"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48295071",
-          "author": "nathanstitt",
-          "description": "Article URL: https://tinycld.org/\nComments URL: https://news.ycombinator.com/item?id=48295071\nPoints: 52\n# Comments: 22",
-          "link": "https://tinycld.org/",
-          "publishedOn": "2026-05-27T14:36:41.000Z",
-          "wordCount": 1891,
-          "title": "Show HN: Open-source Workspace (mail,docs,spreadsheet,drive) web/iOS",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48294831",
-          "author": "speckx",
-          "description": "Article URL: https://brilliantmaps.com/cia-maps-1980s/\nComments URL: https://news.ycombinator.com/item?id=48294831\nPoints: 54\n# Comments: 19",
-          "link": "https://brilliantmaps.com/cia-maps-1980s/",
-          "publishedOn": "2026-05-27T14:21:20.000Z",
-          "wordCount": 7929,
-          "title": "Declassified CIA Cartography Maps from the 1980s",
-          "imageUrl": "https://brilliantmaps.com/wp-content/uploads/1985-3D-Afghanistan-Panjsher-Valley.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48294791",
-          "author": "delduca",
-          "description": "I have a bad memory and can't memorize some important numbers, so I created this project.\nI've always been concerned about being without my phone (getting robbed - which is common in Brazil - running out of battery, having it break, etc.), so I decided to create a page that sends SMS messages (LLM-summarized) and emails with more detailed information such as geolocation, IP address, and the full message.\nIt’s a simple page that allows sending one or more messages, with recipients being myself and other people - for example, in case I or they need help or need to communicate something important.\nThe source code is available at https://github.com/skhaz/dokku/tree/main/apps/help\nComments URL: https://news.ycombinator.com/item?id=48294791\nPoints: 59\n# Comments: 74",
-          "link": "https://help.delduca.org/",
-          "publishedOn": "2026-05-27T14:18:03.000Z",
-          "wordCount": 595,
-          "title": "Show HN: I made an emergency page for my family",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48293119",
-          "author": "georgewsinger",
-          "description": "Article URL: https://github.com/HarleyCoops/Math-To-Manim\nComments URL: https://news.ycombinator.com/item?id=48293119\nPoints: 52\n# Comments: 6",
-          "link": "https://github.com/HarleyCoops/Math-To-Manim",
-          "publishedOn": "2026-05-27T12:18:19.000Z",
-          "wordCount": 6458,
-          "title": "Math-to-Manim",
-          "imageUrl": "https://opengraph.githubassets.com/924e45ac54ddc640e943e520920f0d98515d4a71716d919734c8d3f8197d5d5d/HarleyCoops/Math-To-Manim"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48293080",
-          "author": "maxnoe",
-          "description": "Article URL: https://www.githubstatus.com/incidents/xy1tt3hs572m\nComments URL: https://news.ycombinator.com/item?id=48293080\nPoints: 133\n# Comments: 110",
-          "link": "https://www.githubstatus.com/incidents/xy1tt3hs572m",
-          "publishedOn": "2026-05-27T12:15:14.000Z",
-          "wordCount": 5584,
-          "title": "Incident with Pull Requests, Issues, Git Operations and API Requests",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
         }
       ]
     }
