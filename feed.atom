@@ -2,10 +2,62 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-06-26T05:13:23.401Z</updated>
+    <updated>2026-06-26T09:38:19.392Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Why current LLM costs are not sustainable]]></title>
+        <id>https://news.ycombinator.com/item?id=48683588</id>
+        <link href="https://aditya.patadia.org/p/ai-and-cloud-costs"/>
+        <updated>2026-06-26T07:44:11.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://aditya.patadia.org/p/ai-and-cloud-costs
+Comments URL: https://news.ycombinator.com/item?id=48683588
+Points: 73
+# Comments: 69]]></summary>
+        <author>
+            <name>adityapatadia</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[We All Depend on Open Source. We Will Defend It Together]]></title>
+        <id>https://news.ycombinator.com/item?id=48682737</id>
+        <link href="https://akrites.org/letter/"/>
+        <updated>2026-06-26T05:40:36.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://akrites.org/letter/
+Comments URL: https://news.ycombinator.com/item?id=48682737
+Points: 78
+# Comments: 26]]></summary>
+        <author>
+            <name>dhruv3006</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Libre Barcode Project]]></title>
+        <id>https://news.ycombinator.com/item?id=48681949</id>
+        <link href="https://graphicore.github.io/librebarcode/"/>
+        <updated>2026-06-26T03:12:42.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://graphicore.github.io/librebarcode/
+Comments URL: https://news.ycombinator.com/item?id=48681949
+Points: 141
+# Comments: 15]]></summary>
+        <author>
+            <name>luu</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[What happened after 2k people tried to hack my AI assistant]]></title>
+        <id>https://news.ycombinator.com/item?id=48681687</id>
+        <link href="https://www.fernandoi.cl/posts/hackmyclaw/"/>
+        <updated>2026-06-26T02:29:23.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.fernandoi.cl/posts/hackmyclaw/
+Comments URL: https://news.ycombinator.com/item?id=48681687
+Points: 144
+# Comments: 51]]></summary>
+        <author>
+            <name>cuchoi</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Framework's 10G Ethernet module exposes USB-C's complexity]]></title>
         <id>https://news.ycombinator.com/item?id=48681220</id>
@@ -319,6 +371,19 @@ Points: 430
 # Comments: 643]]></summary>
         <author>
             <name>virgildotcodes</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Hey Nico, you didn't vibe code your data room but stole it from Papermark]]></title>
+        <id>https://news.ycombinator.com/item?id=48672328</id>
+        <link href="https://twitter.com/mfts0/status/2070080422482977095"/>
+        <updated>2026-06-25T12:23:05.000Z</updated>
+        <summary type="html"><![CDATA[https://xcancel.com/mfts0/status/2070080422482977095
+Comments URL: https://news.ycombinator.com/item?id=48672328
+Points: 330
+# Comments: 136]]></summary>
+        <author>
+            <name>mmunj</name>
         </author>
     </entry>
     <entry>
@@ -16211,166 +16276,6 @@ Points: 162
 # Comments: 89]]></summary>
         <author>
             <name>cwwc</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Warm up your MacBook (2019)]]></title>
-        <id>https://news.ycombinator.com/item?id=48300342</id>
-        <link href="https://z3ugma.github.io/2019/11/18/warm-up-your-macbook/"/>
-        <updated>2026-05-27T20:42:01.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://z3ugma.github.io/2019/11/18/warm-up-your-macbook/
-Comments URL: https://news.ycombinator.com/item?id=48300342
-Points: 77
-# Comments: 71]]></summary>
-        <author>
-            <name>kristianp</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: Open-Source AI Racing Harness]]></title>
-        <id>https://news.ycombinator.com/item?id=48300280</id>
-        <link href="https://www.elodin.systems/post/elodin-ai-grand-prix-race-sim-harness"/>
-        <updated>2026-05-27T20:37:42.000Z</updated>
-        <summary type="html"><![CDATA[Hi I'm Dan from Elodin, making an open source real-time capable flight software simulation.
-For AI Grand Prix contestants, the wait for the Round 1 virtual qualifier simulation has been grueling.
-If you’re competing, check out our simulation harness to tide you over, built to match the published competition constraints and message format. It runs against real Betaflight, which we learned requires at least 1000 sensor samples per second to run real-time correctly.
-The competition warranted introducing a new feature to generate the camera sensor directly in the simulation loop. Typically people connect to Unreal or similar game engine to create a camera sensor, which works well but is very heavy. For the simple needs of this challenge, creating sample directly in the loop is very handy and easy to use. Happy to hear your feedback on this! While it's not fancy looking currently, it uses the Rust Bevy game engine, which should allow us to improve the visual fidelity quickly.
-We all should easily be able to shift our implementation to the published competition sim once it lands. Hope you enjoy and good luck!
-Comments URL: https://news.ycombinator.com/item?id=48300280
-Points: 53
-# Comments: 6]]></summary>
-        <author>
-            <name>danAtElodin</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[YouTube to automatically label AI-generated videos]]></title>
-        <id>https://news.ycombinator.com/item?id=48299753</id>
-        <link href="https://blog.youtube/news-and-events/improving-ai-labels-viewers-creators/"/>
-        <updated>2026-05-27T20:00:51.000Z</updated>
-        <summary type="html"><![CDATA[https://variety.com/2026/digital/news/youtube-ai-video-label...
-Comments URL: https://news.ycombinator.com/item?id=48299753
-Points: 402
-# Comments: 209]]></summary>
-        <author>
-            <name>nopg</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[YouTube to automatically label AI-generated videos]]></title>
-        <id>https://news.ycombinator.com/item?id=48299753</id>
-        <link href="https://variety.com/2026/digital/news/youtube-ai-video-labels-automatic-detection-1236758865/"/>
-        <updated>2026-05-27T20:00:51.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://variety.com/2026/digital/news/youtube-ai-video-labels-automatic-detection-1236758865/
-Comments URL: https://news.ycombinator.com/item?id=48299753
-Points: 141
-# Comments: 65]]></summary>
-        <author>
-            <name>nopg</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[I'm Getting into Mesh Networks (Meshtastic, MeshCore, and Reticulum)]]></title>
-        <id>https://news.ycombinator.com/item?id=48299638</id>
-        <link href="https://www.jonaharagon.com/posts/im-getting-into-mesh-networks-meshtastic-meshcore-and-reticulum/"/>
-        <updated>2026-05-27T19:52:49.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.jonaharagon.com/posts/im-getting-into-mesh-networks-meshtastic-meshcore-and-reticulum/
-Comments URL: https://news.ycombinator.com/item?id=48299638
-Points: 103
-# Comments: 35]]></summary>
-        <author>
-            <name>Panda_</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Rust (and Slint) on a Jailbroken Kindle]]></title>
-        <id>https://news.ycombinator.com/item?id=48299623</id>
-        <link href="https://sverre.me/blog/rust-on-kindle/"/>
-        <updated>2026-05-27T19:51:47.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://sverre.me/blog/rust-on-kindle/
-Comments URL: https://news.ycombinator.com/item?id=48299623
-Points: 70
-# Comments: 8]]></summary>
-        <author>
-            <name>homarp</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[On Labubu and the Hyperreal]]></title>
-        <id>https://news.ycombinator.com/item?id=48299335</id>
-        <link href="https://2earth.github.io/website/20260525.html"/>
-        <updated>2026-05-27T19:31:47.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://2earth.github.io/website/20260525.html
-Comments URL: https://news.ycombinator.com/item?id=48299335
-Points: 53
-# Comments: 56]]></summary>
-        <author>
-            <name>2earth</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[What Apple and Google are doing to your push notifications]]></title>
-        <id>https://news.ycombinator.com/item?id=48299220</id>
-        <link href="https://www.jacquescorbytuech.com/writing/what-apple-and-google-are-doing-your-push-notifications"/>
-        <updated>2026-05-27T19:24:10.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.jacquescorbytuech.com/writing/what-apple-and-google-are-doing-your-push-notifications
-Comments URL: https://news.ycombinator.com/item?id=48299220
-Points: 64
-# Comments: 53]]></summary>
-        <author>
-            <name>iamacyborg</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[IXI's autofocusing lenses are almost ready to replace multifocal glasses]]></title>
-        <id>https://news.ycombinator.com/item?id=48298912</id>
-        <link href="https://www.engadget.com/wearables/ixis-autofocusing-lenses-multifocal-glasses-ces-2026-212608427.html"/>
-        <updated>2026-05-27T19:03:17.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.engadget.com/wearables/ixis-autofocusing-lenses-multifocal-glasses-ces-2026-212608427.html
-Comments URL: https://news.ycombinator.com/item?id=48298912
-Points: 54
-# Comments: 16]]></summary>
-        <author>
-            <name>amichail</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Valve raises Steam Deck prices by more than $200]]></title>
-        <id>https://news.ycombinator.com/item?id=48297976</id>
-        <link href="https://www.theverge.com/games/938340/valve-steam-deck-price-increase"/>
-        <updated>2026-05-27T17:58:47.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.theverge.com/games/938340/valve-steam-deck-price-increase
-Comments URL: https://news.ycombinator.com/item?id=48297976
-Points: 186
-# Comments: 155]]></summary>
-        <author>
-            <name>droidjj</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[SimCity 3k in 4k (2025)]]></title>
-        <id>https://news.ycombinator.com/item?id=48297645</id>
-        <link href="https://www.thran.uk/writ/hdid/2025/12/simcity-3k-in-4k.html"/>
-        <updated>2026-05-27T17:36:29.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.thran.uk/writ/hdid/2025/12/simcity-3k-in-4k.html
-Comments URL: https://news.ycombinator.com/item?id=48297645
-Points: 178
-# Comments: 56]]></summary>
-        <author>
-            <name>speckx</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Gemini, Gophers, and Fingers. Oh My Alternative Internets Beyond HTTPS]]></title>
-        <id>https://news.ycombinator.com/item?id=48297467</id>
-        <link href="https://brennan.day/gemini-gophers-and-fingers-oh-my-alternative-internets-beyond-https/"/>
-        <updated>2026-05-27T17:24:25.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://brennan.day/gemini-gophers-and-fingers-oh-my-alternative-internets-beyond-https/
-Comments URL: https://news.ycombinator.com/item?id=48297467
-Points: 52
-# Comments: 16]]></summary>
-        <author>
-            <name>ChrisArchitect</name>
         </author>
     </entry>
 </feed>

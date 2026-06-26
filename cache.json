@@ -6,6 +6,46 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=48683588",
+          "author": "adityapatadia",
+          "description": "Article URL: https://aditya.patadia.org/p/ai-and-cloud-costs\nComments URL: https://news.ycombinator.com/item?id=48683588\nPoints: 73\n# Comments: 69",
+          "link": "https://aditya.patadia.org/p/ai-and-cloud-costs",
+          "publishedOn": "2026-06-26T07:44:11.000Z",
+          "wordCount": 2481,
+          "title": "Why current LLM costs are not sustainable",
+          "imageUrl": "https://substackcdn.com/image/fetch/$s_!0_fU!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd4b10bb3-234b-43c3-aa85-8ac23ceb7a35_1200x1017.jpeg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48682737",
+          "author": "dhruv3006",
+          "description": "Article URL: https://akrites.org/letter/\nComments URL: https://news.ycombinator.com/item?id=48682737\nPoints: 78\n# Comments: 26",
+          "link": "https://akrites.org/letter/",
+          "publishedOn": "2026-06-26T05:40:36.000Z",
+          "wordCount": 4415,
+          "title": "We All Depend on Open Source. We Will Defend It Together",
+          "imageUrl": "https://akrites.org/wp-content/uploads/sites/9/2026/06/social.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48681949",
+          "author": "luu",
+          "description": "Article URL: https://graphicore.github.io/librebarcode/\nComments URL: https://news.ycombinator.com/item?id=48681949\nPoints: 141\n# Comments: 15",
+          "link": "https://graphicore.github.io/librebarcode/",
+          "publishedOn": "2026-06-26T03:12:42.000Z",
+          "wordCount": 161,
+          "title": "Libre Barcode Project",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48681687",
+          "author": "cuchoi",
+          "description": "Article URL: https://www.fernandoi.cl/posts/hackmyclaw/\nComments URL: https://news.ycombinator.com/item?id=48681687\nPoints: 144\n# Comments: 51",
+          "link": "https://www.fernandoi.cl/posts/hackmyclaw/",
+          "publishedOn": "2026-06-26T02:29:23.000Z",
+          "wordCount": 741,
+          "title": "What happened after 2k people tried to hack my AI assistant",
+          "imageUrl": null
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=48681220",
           "author": "Alupis",
           "description": "Article URL: https://www.jeffgeerling.com/blog/2026/framework-10g-ethernet-module-usb-c-complexity/\nComments URL: https://news.ycombinator.com/item?id=48681220\nPoints: 90\n# Comments: 30",
@@ -244,6 +284,16 @@
           "wordCount": null,
           "title": "Apple raises prices of MacBooks, iPads",
           "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48672328",
+          "author": "mmunj",
+          "description": "https://xcancel.com/mfts0/status/2070080422482977095\nComments URL: https://news.ycombinator.com/item?id=48672328\nPoints: 330\n# Comments: 136",
+          "link": "https://twitter.com/mfts0/status/2070080422482977095",
+          "publishedOn": "2026-06-25T12:23:05.000Z",
+          "wordCount": 489,
+          "title": "Hey Nico, you didn't vibe code your data room but stole it from Papermark",
+          "imageUrl": "https://pbs.twimg.com/media/HLpkzuLWIAEqu-e.jpg:large"
         },
         {
           "id": "https://news.ycombinator.com/item?id=48671886",
@@ -12274,126 +12324,6 @@
           "wordCount": null,
           "title": "FBI Arrests CIA Official with $40M in Gold Bars in His Home",
           "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48300342",
-          "author": "kristianp",
-          "description": "Article URL: https://z3ugma.github.io/2019/11/18/warm-up-your-macbook/\nComments URL: https://news.ycombinator.com/item?id=48300342\nPoints: 77\n# Comments: 71",
-          "link": "https://z3ugma.github.io/2019/11/18/warm-up-your-macbook/",
-          "publishedOn": "2026-05-27T20:42:01.000Z",
-          "wordCount": 294,
-          "title": "Warm up your MacBook (2019)",
-          "imageUrl": "/images/frozen-mac-610x371.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48300280",
-          "author": "danAtElodin",
-          "description": "Hi I'm Dan from Elodin, making an open source real-time capable flight software simulation.\nFor AI Grand Prix contestants, the wait for the Round 1 virtual qualifier simulation has been grueling.\nIf you’re competing, check out our simulation harness to tide you over, built to match the published competition constraints and message format. It runs against real Betaflight, which we learned requires at least 1000 sensor samples per second to run real-time correctly.\nThe competition warranted introducing a new feature to generate the camera sensor directly in the simulation loop. Typically people connect to Unreal or similar game engine to create a camera sensor, which works well but is very heavy. For the simple needs of this challenge, creating sample directly in the loop is very handy and easy to use. Happy to hear your feedback on this! While it's not fancy looking currently, it uses the Rust Bevy game engine, which should allow us to improve the visual fidelity quickly.\nWe all should easily be able to shift our implementation to the published competition sim once it lands. Hope you enjoy and good luck!\nComments URL: https://news.ycombinator.com/item?id=48300280\nPoints: 53\n# Comments: 6",
-          "link": "https://www.elodin.systems/post/elodin-ai-grand-prix-race-sim-harness",
-          "publishedOn": "2026-05-27T20:37:42.000Z",
-          "wordCount": 1828,
-          "title": "Show HN: Open-Source AI Racing Harness",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48299753",
-          "author": "nopg",
-          "description": "https://variety.com/2026/digital/news/youtube-ai-video-label...\nComments URL: https://news.ycombinator.com/item?id=48299753\nPoints: 402\n# Comments: 209",
-          "link": "https://blog.youtube/news-and-events/improving-ai-labels-viewers-creators/",
-          "publishedOn": "2026-05-27T20:00:51.000Z",
-          "wordCount": 1111,
-          "title": "YouTube to automatically label AI-generated videos",
-          "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/en_HowThisWasMade_WithPopout.max-1440x810.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48299753",
-          "author": "nopg",
-          "description": "Article URL: https://variety.com/2026/digital/news/youtube-ai-video-labels-automatic-detection-1236758865/\nComments URL: https://news.ycombinator.com/item?id=48299753\nPoints: 141\n# Comments: 65",
-          "link": "https://variety.com/2026/digital/news/youtube-ai-video-labels-automatic-detection-1236758865/",
-          "publishedOn": "2026-05-27T20:00:51.000Z",
-          "wordCount": 11974,
-          "title": "YouTube to automatically label AI-generated videos",
-          "imageUrl": "https://variety.com/wp-content/uploads/2025/10/YouTube.png?crop=0px%2C8px%2C1024px%2C576px&resize=1000%2C563"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48299638",
-          "author": "Panda_",
-          "description": "Article URL: https://www.jonaharagon.com/posts/im-getting-into-mesh-networks-meshtastic-meshcore-and-reticulum/\nComments URL: https://news.ycombinator.com/item?id=48299638\nPoints: 103\n# Comments: 35",
-          "link": "https://www.jonaharagon.com/posts/im-getting-into-mesh-networks-meshtastic-meshcore-and-reticulum/",
-          "publishedOn": "2026-05-27T19:52:49.000Z",
-          "wordCount": 4452,
-          "title": "I'm Getting into Mesh Networks (Meshtastic, MeshCore, and Reticulum)",
-          "imageUrl": "https://images.unsplash.com/photo-1590859808308-3d2d9c515b1a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDN8fG1lc2h8ZW58MHx8fHwxNzY5NDYwNTA5fDA&ixlib=rb-4.1.0&q=80&w=2000"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48299623",
-          "author": "homarp",
-          "description": "Article URL: https://sverre.me/blog/rust-on-kindle/\nComments URL: https://news.ycombinator.com/item?id=48299623\nPoints: 70\n# Comments: 8",
-          "link": "https://sverre.me/blog/rust-on-kindle/",
-          "publishedOn": "2026-05-27T19:51:47.000Z",
-          "wordCount": 982,
-          "title": "Rust (and Slint) on a Jailbroken Kindle",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48299335",
-          "author": "2earth",
-          "description": "Article URL: https://2earth.github.io/website/20260525.html\nComments URL: https://news.ycombinator.com/item?id=48299335\nPoints: 53\n# Comments: 56",
-          "link": "https://2earth.github.io/website/20260525.html",
-          "publishedOn": "2026-05-27T19:31:47.000Z",
-          "wordCount": 2937,
-          "title": "On Labubu and the Hyperreal",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48299220",
-          "author": "iamacyborg",
-          "description": "Article URL: https://www.jacquescorbytuech.com/writing/what-apple-and-google-are-doing-your-push-notifications\nComments URL: https://news.ycombinator.com/item?id=48299220\nPoints: 64\n# Comments: 53",
-          "link": "https://www.jacquescorbytuech.com/writing/what-apple-and-google-are-doing-your-push-notifications",
-          "publishedOn": "2026-05-27T19:24:10.000Z",
-          "wordCount": 7193,
-          "title": "What Apple and Google are doing to your push notifications",
-          "imageUrl": "http://www.jacquescorbytuech.com/themes/jacques_2026/icons/og-default.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48298912",
-          "author": "amichail",
-          "description": "Article URL: https://www.engadget.com/wearables/ixis-autofocusing-lenses-multifocal-glasses-ces-2026-212608427.html\nComments URL: https://news.ycombinator.com/item?id=48298912\nPoints: 54\n# Comments: 16",
-          "link": "https://www.engadget.com/wearables/ixis-autofocusing-lenses-multifocal-glasses-ces-2026-212608427.html",
-          "publishedOn": "2026-05-27T19:03:17.000Z",
-          "wordCount": 1349,
-          "title": "IXI's autofocusing lenses are almost ready to replace multifocal glasses",
-          "imageUrl": "https://www.engadget.com/engadget/ixis-autofocusing-lenses-multifocal-glasses-ces-2026-212608427/12d9d1f0-ec27-11f0-a995-1202d195cabc.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48297976",
-          "author": "droidjj",
-          "description": "Article URL: https://www.theverge.com/games/938340/valve-steam-deck-price-increase\nComments URL: https://news.ycombinator.com/item?id=48297976\nPoints: 186\n# Comments: 155",
-          "link": "https://www.theverge.com/games/938340/valve-steam-deck-price-increase",
-          "publishedOn": "2026-05-27T17:58:47.000Z",
-          "wordCount": 7351,
-          "title": "Valve raises Steam Deck prices by more than $200",
-          "imageUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25070054/DSCF9155.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48297645",
-          "author": "speckx",
-          "description": "Article URL: https://www.thran.uk/writ/hdid/2025/12/simcity-3k-in-4k.html\nComments URL: https://news.ycombinator.com/item?id=48297645\nPoints: 178\n# Comments: 56",
-          "link": "https://www.thran.uk/writ/hdid/2025/12/simcity-3k-in-4k.html",
-          "publishedOn": "2026-05-27T17:36:29.000Z",
-          "wordCount": 1055,
-          "title": "SimCity 3k in 4k (2025)",
-          "imageUrl": "https://www.thran.uk/theme/img/thranman_92px.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48297467",
-          "author": "ChrisArchitect",
-          "description": "Article URL: https://brennan.day/gemini-gophers-and-fingers-oh-my-alternative-internets-beyond-https/\nComments URL: https://news.ycombinator.com/item?id=48297467\nPoints: 52\n# Comments: 16",
-          "link": "https://brennan.day/gemini-gophers-and-fingers-oh-my-alternative-internets-beyond-https/",
-          "publishedOn": "2026-05-27T17:24:25.000Z",
-          "wordCount": 6807,
-          "title": "Gemini, Gophers, and Fingers. Oh My Alternative Internets Beyond HTTPS",
-          "imageUrl": "https://brennan.day/assets/images/blog/gemini.jpg"
         }
       ]
     }
