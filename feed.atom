@@ -2,10 +2,66 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-06-27T04:00:40.113Z</updated>
+    <updated>2026-06-27T07:52:13.144Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[OpenTTD 16.0-Beta1]]></title>
+        <id>https://news.ycombinator.com/item?id=48695149</id>
+        <link href="https://www.openttd.org/news/2026/06/25/openttd-16-0-beta1"/>
+        <updated>2026-06-27T04:31:06.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.openttd.org/news/2026/06/25/openttd-16-0-beta1
+Comments URL: https://news.ycombinator.com/item?id=48695149
+Points: 93
+# Comments: 11]]></summary>
+        <author>
+            <name>untilted</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[WordStar: A Writer's Word Processor (1996)]]></title>
+        <id>https://news.ycombinator.com/item?id=48694853</id>
+        <link href="https://www.sfwriter.com/wordstar.htm"/>
+        <updated>2026-06-27T03:30:01.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.sfwriter.com/wordstar.htm
+Comments URL: https://news.ycombinator.com/item?id=48694853
+Points: 67
+# Comments: 23]]></summary>
+        <author>
+            <name>droidjj</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Hacker News on a train station-style flip board]]></title>
+        <id>https://news.ycombinator.com/item?id=48693912</id>
+        <link href="https://popflame.quickish.space/hn-flipboard/"/>
+        <updated>2026-06-27T00:43:39.000Z</updated>
+        <summary type="html"><![CDATA[Although the page itself is more just fun to have made and look at (I like the flip sound), the fun part is how I made it to verify the (and I hate to say it) vibe host service I've been working on. The recent flip board back and forth's on Twitter (X) are what inspired me.
+The idea here is that people (like me or you) can create something neat like this, and others can remix it, change it and publish their own version. This is that all in action and it worked great. I wrote a blog about it (the blog is dogfooding, it's just an app hosted on quickish that uses the built in db lib).
+For the HN version of this flip board I use their firebase api via the built in quickish server functions that make use of the fact that the front-end can get realtime updates (now that you mention firebase) from cloud function db updates. Of course that's over-kill but I wanted to show something fun. You can remix and host your own version for free, just need a google oauth login that's it.
+OG flip board I built (Portland Based - Current Weather): https://popflame.quickish.space/flipboard-preview
+Blog post that dives a tiny bit deeper: https://popflame.quickish.space/blog/hacker-news-on-a-split-...
+Comments URL: https://news.ycombinator.com/item?id=48693912
+Points: 60
+# Comments: 10]]></summary>
+        <author>
+            <name>PaybackTony</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Foreign funds help make housing unaffordable: research]]></title>
+        <id>https://news.ycombinator.com/item?id=48693420</id>
+        <link href="https://news.mccombs.utexas.edu/research/foreign-funds-help-make-housing-unaffordable/"/>
+        <updated>2026-06-26T23:36:30.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://news.mccombs.utexas.edu/research/foreign-funds-help-make-housing-unaffordable/
+Comments URL: https://news.ycombinator.com/item?id=48693420
+Points: 58
+# Comments: 16]]></summary>
+        <author>
+            <name>hhs</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Om]]></title>
         <id>https://news.ycombinator.com/item?id=48693391</id>
@@ -967,6 +1023,19 @@ Points: 82
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Show HN: DBOSify – Drop-in Temporal replacement built on Postgres]]></title>
+        <id>https://news.ycombinator.com/item?id=48662988</id>
+        <link href="https://github.com/dbos-inc/dbosify-py"/>
+        <updated>2026-06-24T17:20:48.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://github.com/dbos-inc/dbosify-py
+Comments URL: https://news.ycombinator.com/item?id=48662988
+Points: 55
+# Comments: 8]]></summary>
+        <author>
+            <name>KraftyOne</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Big AI labs are hiring philosophers]]></title>
         <id>https://news.ycombinator.com/item?id=48662452</id>
         <link href="https://www.economist.com/science-and-technology/2026/06/24/why-big-ai-labs-are-hiring-so-many-philosophers"/>
@@ -1107,6 +1176,19 @@ Points: 93
 # Comments: 63]]></summary>
         <author>
             <name>dakshgupta</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A human postmortem of the 1996 AOL outage]]></title>
+        <id>https://news.ycombinator.com/item?id=48660522</id>
+        <link href="https://ngrok.com/blog/aol-was-down-1996"/>
+        <updated>2026-06-24T14:29:17.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://ngrok.com/blog/aol-was-down-1996
+Comments URL: https://news.ycombinator.com/item?id=48660522
+Points: 64
+# Comments: 15]]></summary>
+        <author>
+            <name>EndEntire</name>
         </author>
     </entry>
     <entry>
@@ -16185,240 +16267,6 @@ Points: 68
 # Comments: 23]]></summary>
         <author>
             <name>jart</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Sam Altman and Dario Amodei are both walking back AI jobs apocalypse predictions]]></title>
-        <id>https://news.ycombinator.com/item?id=48314363</id>
-        <link href="https://fortune.com/2026/05/26/sam-altman-dario-amodei-walking-back-ai-jobs-apocalypse-prophecies-ipo/"/>
-        <updated>2026-05-28T19:43:14.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://fortune.com/2026/05/26/sam-altman-dario-amodei-walking-back-ai-jobs-apocalypse-prophecies-ipo/
-Comments URL: https://news.ycombinator.com/item?id=48314363
-Points: 157
-# Comments: 127]]></summary>
-        <author>
-            <name>ianrahman</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Bricks and Minifigs Stole a Man's $200k Lego Collection]]></title>
-        <id>https://news.ycombinator.com/item?id=48314136</id>
-        <link href="https://mybricklog.com/blog/bricks-minifigs-corporate-stole-old-mans-200000-lego-collection"/>
-        <updated>2026-05-28T19:24:09.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://mybricklog.com/blog/bricks-minifigs-corporate-stole-old-mans-200000-lego-collection
-Comments URL: https://news.ycombinator.com/item?id=48314136
-Points: 472
-# Comments: 257]]></summary>
-        <author>
-            <name>philips</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Announcing Rust 1.96]]></title>
-        <id>https://news.ycombinator.com/item?id=48314069</id>
-        <link href="https://blog.rust-lang.org/2026/05/28/Rust-1.96.0/"/>
-        <updated>2026-05-28T19:20:06.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://blog.rust-lang.org/2026/05/28/Rust-1.96.0/
-Comments URL: https://news.ycombinator.com/item?id=48314069
-Points: 80
-# Comments: 7]]></summary>
-        <author>
-            <name>adamch</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Nitpicking the shell history scene in 'Tron: Legacy']]></title>
-        <id>https://news.ycombinator.com/item?id=48314002</id>
-        <link href="https://www.chiark.greenend.org.uk/~sgtatham/quasiblog/tron-legacy/"/>
-        <updated>2026-05-28T19:15:54.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.chiark.greenend.org.uk/~sgtatham/quasiblog/tron-legacy/
-Comments URL: https://news.ycombinator.com/item?id=48314002
-Points: 109
-# Comments: 42]]></summary>
-        <author>
-            <name>speckx</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Separate the Cord from the Device]]></title>
-        <id>https://news.ycombinator.com/item?id=48313990</id>
-        <link href="https://bookofjoe2.blogspot.com/2026/05/blog-post_27.html"/>
-        <updated>2026-05-28T19:14:38.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://bookofjoe2.blogspot.com/2026/05/blog-post_27.html
-Comments URL: https://news.ycombinator.com/item?id=48313990
-Points: 52
-# Comments: 38]]></summary>
-        <author>
-            <name>bookofjoe</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Associative learning turns DEET from aversive to appetitive in Aedes aegypti]]></title>
-        <id>https://news.ycombinator.com/item?id=48313952</id>
-        <link href="https://journals.biologists.com/jeb/article/229/10/jeb251935/371741/Associative-learning-switches-DEET-valence-from"/>
-        <updated>2026-05-28T19:11:59.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://journals.biologists.com/jeb/article/229/10/jeb251935/371741/Associative-learning-switches-DEET-valence-from
-Comments URL: https://news.ycombinator.com/item?id=48313952
-Points: 57
-# Comments: 25]]></summary>
-        <author>
-            <name>croes</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Various LLM Smells]]></title>
-        <id>https://news.ycombinator.com/item?id=48313810</id>
-        <link href="https://shvbsle.in/various-llm-smells/"/>
-        <updated>2026-05-28T19:02:18.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://shvbsle.in/various-llm-smells/
-Comments URL: https://news.ycombinator.com/item?id=48313810
-Points: 159
-# Comments: 116]]></summary>
-        <author>
-            <name>speckx</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Just Use Postgres for Durable Workflows]]></title>
-        <id>https://news.ycombinator.com/item?id=48313530</id>
-        <link href="https://www.dbos.dev/blog/postgres-is-all-you-need-for-durable-execution"/>
-        <updated>2026-05-28T18:41:46.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.dbos.dev/blog/postgres-is-all-you-need-for-durable-execution
-Comments URL: https://news.ycombinator.com/item?id=48313530
-Points: 56
-# Comments: 17]]></summary>
-        <author>
-            <name>KraftyOne</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Having your insulin pump die while you're on vacation]]></title>
-        <id>https://news.ycombinator.com/item?id=48313427</id>
-        <link href="https://blog.lauramichet.com/what-its-like-to-have-the-machine-that-keeps-you-alive-die-while-youre-on-vacation/"/>
-        <updated>2026-05-28T18:33:54.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://blog.lauramichet.com/what-its-like-to-have-the-machine-that-keeps-you-alive-die-while-youre-on-vacation/
-Comments URL: https://news.ycombinator.com/item?id=48313427
-Points: 144
-# Comments: 147]]></summary>
-        <author>
-            <name>speckx</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Anthropic raises $65B in Series H funding at $965B post-money valuation]]></title>
-        <id>https://news.ycombinator.com/item?id=48313048</id>
-        <link href="https://www.anthropic.com/news/series-h"/>
-        <updated>2026-05-28T18:09:44.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.anthropic.com/news/series-h
-Comments URL: https://news.ycombinator.com/item?id=48313048
-Points: 90
-# Comments: 66]]></summary>
-        <author>
-            <name>meetpateltech</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Bitburner, programming-based incremental game]]></title>
-        <id>https://news.ycombinator.com/item?id=48312616</id>
-        <link href="https://bitburner-official.github.io/"/>
-        <updated>2026-05-28T17:43:36.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://bitburner-official.github.io/
-Comments URL: https://news.ycombinator.com/item?id=48312616
-Points: 70
-# Comments: 13]]></summary>
-        <author>
-            <name>agmater</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[I hated writing until I learned there’s a science to it (2024)]]></title>
-        <id>https://news.ycombinator.com/item?id=48312528</id>
-        <link href="https://www.science.org/content/article/i-hated-writing-until-i-learned-there-s-science-it"/>
-        <updated>2026-05-28T17:36:47.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.science.org/content/article/i-hated-writing-until-i-learned-there-s-science-it
-Comments URL: https://news.ycombinator.com/item?id=48312528
-Points: 108
-# Comments: 49]]></summary>
-        <author>
-            <name>o4c</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Legislation Killed Would Have Effectively Blocked Police LPR, Including Flock]]></title>
-        <id>https://news.ycombinator.com/item?id=48312082</id>
-        <link href="https://ipvm.com/reports/bipartisan-alpr-amendment-killed"/>
-        <updated>2026-05-28T17:10:05.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://ipvm.com/reports/bipartisan-alpr-amendment-killed
-Comments URL: https://news.ycombinator.com/item?id=48312082
-Points: 91
-# Comments: 54]]></summary>
-        <author>
-            <name>jhonovich</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Dynamic Workflows in Claude Code]]></title>
-        <id>https://news.ycombinator.com/item?id=48311705</id>
-        <link href="https://claude.com/blog/introducing-dynamic-workflows-in-claude-code"/>
-        <updated>2026-05-28T16:52:21.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://claude.com/blog/introducing-dynamic-workflows-in-claude-code
-Comments URL: https://news.ycombinator.com/item?id=48311705
-Points: 96
-# Comments: 84]]></summary>
-        <author>
-            <name>mil22</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Claude Opus 4.8]]></title>
-        <id>https://news.ycombinator.com/item?id=48311647</id>
-        <link href="https://www.anthropic.com/news/claude-opus-4-8"/>
-        <updated>2026-05-28T16:49:14.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.anthropic.com/news/claude-opus-4-8
-Comments URL: https://news.ycombinator.com/item?id=48311647
-Points: 749
-# Comments: 559]]></summary>
-        <author>
-            <name>craigmart</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Tracing HTTP Requests with Go's net/HTTP/httptrace]]></title>
-        <id>https://news.ycombinator.com/item?id=48311587</id>
-        <link href="https://blainsmith.com/articles/httptrace-with-go/"/>
-        <updated>2026-05-28T16:46:10.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://blainsmith.com/articles/httptrace-with-go/
-Comments URL: https://news.ycombinator.com/item?id=48311587
-Points: 134
-# Comments: 8]]></summary>
-        <author>
-            <name>speckx</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Endive: A JVM native WebAssembly runtime]]></title>
-        <id>https://news.ycombinator.com/item?id=48311490</id>
-        <link href="https://github.com/bytecodealliance/endive"/>
-        <updated>2026-05-28T16:40:33.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://github.com/bytecodealliance/endive
-Comments URL: https://news.ycombinator.com/item?id=48311490
-Points: 52
-# Comments: 14]]></summary>
-        <author>
-            <name>theanonymousone</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Only 17% of all 64-bit Integers are products of two 32-bit integers]]></title>
-        <id>https://news.ycombinator.com/item?id=48311003</id>
-        <link href="https://lemire.me/blog/2026/05/22/only-17-of-all-64-bit-integers-are-products-of-two-32-bit-integers/"/>
-        <updated>2026-05-28T16:11:45.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://lemire.me/blog/2026/05/22/only-17-of-all-64-bit-integers-are-products-of-two-32-bit-integers/
-Comments URL: https://news.ycombinator.com/item?id=48311003
-Points: 106
-# Comments: 49]]></summary>
-        <author>
-            <name>sebg</name>
         </author>
     </entry>
 </feed>
