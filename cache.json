@@ -6,6 +6,36 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=48702060",
+          "author": "littlexsparkee",
+          "description": "Article URL: https://www.msn.com/en-us/money/general/michigan-spent-1-8-billion-and-only-created-602-jobs/ar-AA26Cusu\nComments URL: https://news.ycombinator.com/item?id=48702060\nPoints: 64\n# Comments: 28",
+          "link": "https://www.msn.com/en-us/money/general/michigan-spent-1-8-billion-and-only-created-602-jobs/ar-AA26Cusu",
+          "publishedOn": "2026-06-27T21:44:57.000Z",
+          "wordCount": 585,
+          "title": "Michigan spent $1.8B and only created 602 jobs",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48701512",
+          "author": "kageroumado",
+          "description": "A month ago there was a wave of posts and tweets about engineers walking around cafes and parks with their MacBooks propped half-open, as fully closing the lid forces sleep that stops their AI agents. Some people made snarky comments about using tmux or Amphetamine, and some defended their choice with “but I only need it sometimes, and forgetting to disable Amphetamine and finding my laptop discharged in my bag is worse.”\nThis is a solution to this problem. Unlike caffeinate, it will prevent your MacBook from sleeping even with the lid closed, with no external power or display, using pmset disablesleep 1. Unlike other sleep-preventing apps, Adrafinil only activates when there’s an agent actively doing something. It detects agent activity through hooks it installs into Claude Code, Codex, and others. To reassure you it’s working, the app shows the active status in the menu bar, and it plays a chime when you close the lid.\nOnce the agent is done, Adrafinil detects it and lets the laptop go to sleep by setting pmset disablesleep back to 0. It will also let it sleep in case of overheating. And if you want to manually toggle it, you can install an optional MCP and tell your agent to keep the MacBook awake for a specific time.\nIt has four binaries, one of which is a root helper exposing a single setSleepBlocked call. All the logic and policy live in the unprivileged parts. They’re all notarized, and the app is fully open source (MIT).\nComments URL: https://news.ycombinator.com/item?id=48701512\nPoints: 71\n# Comments: 39",
+          "link": "https://github.com/kageroumado/adrafinil",
+          "publishedOn": "2026-06-27T20:34:53.000Z",
+          "wordCount": 4524,
+          "title": "Show HN: Adrafinil – keep a lid-closed Mac awake only while agents work",
+          "imageUrl": "https://opengraph.githubassets.com/d7da9ce82b6d982dce468d2114109caf8be623162c6cc6d6b11d392cc3cca1c1/kageroumado/adrafinil"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48700834",
+          "author": "arm32",
+          "description": "Article URL: https://ipcrawl.com/\nComments URL: https://news.ycombinator.com/item?id=48700834\nPoints: 203\n# Comments: 110",
+          "link": "https://ipcrawl.com/",
+          "publishedOn": "2026-06-27T19:09:49.000Z",
+          "wordCount": null,
+          "title": "IP Crawl: Living atlas of open webcams discovered on the public internet",
+          "imageUrl": null
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=48699928",
           "author": "eustoria",
           "description": "Article URL: https://cauenapier.com/blog/townsquare_release/\nComments URL: https://news.ycombinator.com/item?id=48699928\nPoints: 56\n# Comments: 26",
@@ -54,6 +84,16 @@
           "wordCount": 3755,
           "title": "Suspicious Discontinuities",
           "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48697958",
+          "author": "bogdiyan",
+          "description": "Article URL: https://techcrunch.com/2026/06/27/asian-ai-startups-launch-mythos-like-models-as-anthropics-export-ban-drags-on/\nComments URL: https://news.ycombinator.com/item?id=48697958\nPoints: 112\n# Comments: 108",
+          "link": "https://techcrunch.com/2026/06/27/asian-ai-startups-launch-mythos-like-models-as-anthropics-export-ban-drags-on/",
+          "publishedOn": "2026-06-27T13:10:21.000Z",
+          "wordCount": 3712,
+          "title": "Asian AI startups launch Mythos-like models",
+          "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/06/GettyImages-2278736523.jpeg?resize=1200,798"
         },
         {
           "id": "https://news.ycombinator.com/item?id=48697768",
@@ -864,6 +904,16 @@
           "wordCount": 9222,
           "title": "Elastic lays off 7% of employees",
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blta938e80fc038a16f/6a3c068485bc9cd31bc21ab7/Elastic-dark-header_(1).png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48665125",
+          "author": "NaOH",
+          "description": "Article URL: https://texashighways.com/culture/how-heb-became-texas-most-beloved-brand/\nComments URL: https://news.ycombinator.com/item?id=48665125\nPoints: 82\n# Comments: 81",
+          "link": "https://texashighways.com/culture/how-heb-became-texas-most-beloved-brand/",
+          "publishedOn": "2026-06-24T20:19:52.000Z",
+          "wordCount": null,
+          "title": "How H-E-B became Texas' most beloved brand (2024)",
+          "imageUrl": null
         },
         {
           "id": "https://news.ycombinator.com/item?id=48665093",
@@ -12294,56 +12344,6 @@
           "wordCount": 606,
           "title": "We should be more tired than the model",
           "imageUrl": "https://vickiboykis.com/images/logo.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48321956",
-          "author": "dotcoma",
-          "description": "Article URL: https://dutchreview.com/culture/tulip-mania-netherlands/\nComments URL: https://news.ycombinator.com/item?id=48321956\nPoints: 110\n# Comments: 97",
-          "link": "https://dutchreview.com/culture/tulip-mania-netherlands/",
-          "publishedOn": "2026-05-29T11:51:34.000Z",
-          "wordCount": null,
-          "title": "Tulip mania: when a single flower was worth more than a house (2025)",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48321916",
-          "author": "doener",
-          "description": "Article URL: http://www.linux-m68k.org/\nComments URL: https://news.ycombinator.com/item?id=48321916\nPoints: 73\n# Comments: 20",
-          "link": "http://www.linux-m68k.org/",
-          "publishedOn": "2026-05-29T11:46:52.000Z",
-          "wordCount": 406,
-          "title": "Linux/M68k",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48321631",
-          "author": "xyzal",
-          "description": "Article URL: https://mastrojs.github.io/blog/2026-05-23-is-AI-causing-a-repeat-of-frontends-lost-decade/\nComments URL: https://news.ycombinator.com/item?id=48321631\nPoints: 180\n# Comments: 174",
-          "link": "https://mastrojs.github.io/blog/2026-05-23-is-AI-causing-a-repeat-of-frontends-lost-decade/",
-          "publishedOn": "2026-05-29T11:09:32.000Z",
-          "wordCount": 2609,
-          "title": "Is AI causing a repeat of Front end's Lost Decade?",
-          "imageUrl": "https://mastrojs.github.io/blog/2026-05-23-is-AI-causing-a-repeat-of-frontends-lost-decade/og.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48321089",
-          "author": "ColinWright",
-          "description": "Article URL: https://secret-archive.org/\nComments URL: https://news.ycombinator.com/item?id=48321089\nPoints: 51\n# Comments: 5",
-          "link": "https://secret-archive.org/",
-          "publishedOn": "2026-05-29T09:49:13.000Z",
-          "wordCount": 7260,
-          "title": "Security Envelope Pattern collection – S.E.C.R.E.T",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48321076",
-          "author": "NicoConstant",
-          "description": "Article URL: https://blog.kog.ai/real-time-llm-inference-on-standard-gpus-3-000-tokens-s-per-request/\nComments URL: https://news.ycombinator.com/item?id=48321076\nPoints: 139\n# Comments: 66",
-          "link": "https://blog.kog.ai/real-time-llm-inference-on-standard-gpus-3-000-tokens-s-per-request/",
-          "publishedOn": "2026-05-29T09:47:23.000Z",
-          "wordCount": 4864,
-          "title": "Real-time LLM Inference on Standard GPUs: 3k tokens/s per request",
-          "imageUrl": "https://storage.ghost.io/c/07/80/0780d8de-243c-4e4d-9876-7e3ee2a55df5/content/images/size/w1200/2026/05/blog-post-reduced-2.png"
         }
       ]
     }

@@ -2,10 +2,52 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-06-27T22:07:53.643Z</updated>
+    <updated>2026-06-28T00:07:52.231Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Michigan spent $1.8B and only created 602 jobs]]></title>
+        <id>https://news.ycombinator.com/item?id=48702060</id>
+        <link href="https://www.msn.com/en-us/money/general/michigan-spent-1-8-billion-and-only-created-602-jobs/ar-AA26Cusu"/>
+        <updated>2026-06-27T21:44:57.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.msn.com/en-us/money/general/michigan-spent-1-8-billion-and-only-created-602-jobs/ar-AA26Cusu
+Comments URL: https://news.ycombinator.com/item?id=48702060
+Points: 64
+# Comments: 28]]></summary>
+        <author>
+            <name>littlexsparkee</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Adrafinil – keep a lid-closed Mac awake only while agents work]]></title>
+        <id>https://news.ycombinator.com/item?id=48701512</id>
+        <link href="https://github.com/kageroumado/adrafinil"/>
+        <updated>2026-06-27T20:34:53.000Z</updated>
+        <summary type="html"><![CDATA[A month ago there was a wave of posts and tweets about engineers walking around cafes and parks with their MacBooks propped half-open, as fully closing the lid forces sleep that stops their AI agents. Some people made snarky comments about using tmux or Amphetamine, and some defended their choice with “but I only need it sometimes, and forgetting to disable Amphetamine and finding my laptop discharged in my bag is worse.”
+This is a solution to this problem. Unlike caffeinate, it will prevent your MacBook from sleeping even with the lid closed, with no external power or display, using pmset disablesleep 1. Unlike other sleep-preventing apps, Adrafinil only activates when there’s an agent actively doing something. It detects agent activity through hooks it installs into Claude Code, Codex, and others. To reassure you it’s working, the app shows the active status in the menu bar, and it plays a chime when you close the lid.
+Once the agent is done, Adrafinil detects it and lets the laptop go to sleep by setting pmset disablesleep back to 0. It will also let it sleep in case of overheating. And if you want to manually toggle it, you can install an optional MCP and tell your agent to keep the MacBook awake for a specific time.
+It has four binaries, one of which is a root helper exposing a single setSleepBlocked call. All the logic and policy live in the unprivileged parts. They’re all notarized, and the app is fully open source (MIT).
+Comments URL: https://news.ycombinator.com/item?id=48701512
+Points: 71
+# Comments: 39]]></summary>
+        <author>
+            <name>kageroumado</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[IP Crawl: Living atlas of open webcams discovered on the public internet]]></title>
+        <id>https://news.ycombinator.com/item?id=48700834</id>
+        <link href="https://ipcrawl.com/"/>
+        <updated>2026-06-27T19:09:49.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://ipcrawl.com/
+Comments URL: https://news.ycombinator.com/item?id=48700834
+Points: 203
+# Comments: 110]]></summary>
+        <author>
+            <name>arm32</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Turn your site into a place people can bump into each other]]></title>
         <id>https://news.ycombinator.com/item?id=48699928</id>
@@ -69,6 +111,19 @@ Points: 59
 # Comments: 9]]></summary>
         <author>
             <name>tosh</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Asian AI startups launch Mythos-like models]]></title>
+        <id>https://news.ycombinator.com/item?id=48697958</id>
+        <link href="https://techcrunch.com/2026/06/27/asian-ai-startups-launch-mythos-like-models-as-anthropics-export-ban-drags-on/"/>
+        <updated>2026-06-27T13:10:21.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://techcrunch.com/2026/06/27/asian-ai-startups-launch-mythos-like-models-as-anthropics-export-ban-drags-on/
+Comments URL: https://news.ycombinator.com/item?id=48697958
+Points: 112
+# Comments: 108]]></summary>
+        <author>
+            <name>bogdiyan</name>
         </author>
     </entry>
     <entry>
@@ -1135,6 +1190,19 @@ Points: 54
 # Comments: 21]]></summary>
         <author>
             <name>dakrone</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How H-E-B became Texas' most beloved brand (2024)]]></title>
+        <id>https://news.ycombinator.com/item?id=48665125</id>
+        <link href="https://texashighways.com/culture/how-heb-became-texas-most-beloved-brand/"/>
+        <updated>2026-06-24T20:19:52.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://texashighways.com/culture/how-heb-became-texas-most-beloved-brand/
+Comments URL: https://news.ycombinator.com/item?id=48665125
+Points: 82
+# Comments: 81]]></summary>
+        <author>
+            <name>NaOH</name>
         </author>
     </entry>
     <entry>
@@ -16241,71 +16309,6 @@ Points: 84
 # Comments: 77]]></summary>
         <author>
             <name>tosh</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Tulip mania: when a single flower was worth more than a house (2025)]]></title>
-        <id>https://news.ycombinator.com/item?id=48321956</id>
-        <link href="https://dutchreview.com/culture/tulip-mania-netherlands/"/>
-        <updated>2026-05-29T11:51:34.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://dutchreview.com/culture/tulip-mania-netherlands/
-Comments URL: https://news.ycombinator.com/item?id=48321956
-Points: 110
-# Comments: 97]]></summary>
-        <author>
-            <name>dotcoma</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Linux/M68k]]></title>
-        <id>https://news.ycombinator.com/item?id=48321916</id>
-        <link href="http://www.linux-m68k.org/"/>
-        <updated>2026-05-29T11:46:52.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: http://www.linux-m68k.org/
-Comments URL: https://news.ycombinator.com/item?id=48321916
-Points: 73
-# Comments: 20]]></summary>
-        <author>
-            <name>doener</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Is AI causing a repeat of Front end's Lost Decade?]]></title>
-        <id>https://news.ycombinator.com/item?id=48321631</id>
-        <link href="https://mastrojs.github.io/blog/2026-05-23-is-AI-causing-a-repeat-of-frontends-lost-decade/"/>
-        <updated>2026-05-29T11:09:32.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://mastrojs.github.io/blog/2026-05-23-is-AI-causing-a-repeat-of-frontends-lost-decade/
-Comments URL: https://news.ycombinator.com/item?id=48321631
-Points: 180
-# Comments: 174]]></summary>
-        <author>
-            <name>xyzal</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Security Envelope Pattern collection – S.E.C.R.E.T]]></title>
-        <id>https://news.ycombinator.com/item?id=48321089</id>
-        <link href="https://secret-archive.org/"/>
-        <updated>2026-05-29T09:49:13.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://secret-archive.org/
-Comments URL: https://news.ycombinator.com/item?id=48321089
-Points: 51
-# Comments: 5]]></summary>
-        <author>
-            <name>ColinWright</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Real-time LLM Inference on Standard GPUs: 3k tokens/s per request]]></title>
-        <id>https://news.ycombinator.com/item?id=48321076</id>
-        <link href="https://blog.kog.ai/real-time-llm-inference-on-standard-gpus-3-000-tokens-s-per-request/"/>
-        <updated>2026-05-29T09:47:23.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://blog.kog.ai/real-time-llm-inference-on-standard-gpus-3-000-tokens-s-per-request/
-Comments URL: https://news.ycombinator.com/item?id=48321076
-Points: 139
-# Comments: 66]]></summary>
-        <author>
-            <name>NicoConstant</name>
         </author>
     </entry>
 </feed>
