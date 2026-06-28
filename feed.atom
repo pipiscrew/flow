@@ -2,10 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-06-28T09:19:46.652Z</updated>
+    <updated>2026-06-28T11:50:05.670Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Bashblog – a single bash script to create blogs]]></title>
+        <id>https://news.ycombinator.com/item?id=48704454</id>
+        <link href="https://github.com/cfenollosa/bashblog"/>
+        <updated>2026-06-28T04:48:32.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://github.com/cfenollosa/bashblog
+Comments URL: https://news.ycombinator.com/item?id=48704454
+Points: 62
+# Comments: 32]]></summary>
+        <author>
+            <name>ludicrousdispla</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Wayfinder Router: deterministic routing of queries between local and hosted LLM]]></title>
         <id>https://news.ycombinator.com/item?id=48704373</id>
@@ -712,6 +725,19 @@ Points: 55
 # Comments: 9]]></summary>
         <author>
             <name>uticus</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Engineering for Bounded Cognition]]></title>
+        <id>https://news.ycombinator.com/item?id=48685967</id>
+        <link href="https://shapeofthesystem.com/posts/2026/02/03/bounded-cognition"/>
+        <updated>2026-06-26T12:41:31.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://shapeofthesystem.com/posts/2026/02/03/bounded-cognition
+Comments URL: https://news.ycombinator.com/item?id=48685967
+Points: 53
+# Comments: 9]]></summary>
+        <author>
+            <name>supermatt</name>
         </author>
     </entry>
     <entry>
@@ -15988,41 +16014,6 @@ Points: 169
 # Comments: 78]]></summary>
         <author>
             <name>tambourine_man</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[MCP is dead?]]></title>
-        <id>https://news.ycombinator.com/item?id=48330436</id>
-        <link href="https://www.quandri.io/engineering-blog/mcp-is-dead"/>
-        <updated>2026-05-29T22:56:49.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.quandri.io/engineering-blog/mcp-is-dead
-Comments URL: https://news.ycombinator.com/item?id=48330436
-Points: 119
-# Comments: 100]]></summary>
-        <author>
-            <name>nadis</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: Open-source private home security camera system (end-to-end encryption)]]></title>
-        <id>https://news.ycombinator.com/item?id=48330192</id>
-        <link href="https://github.com/secluso/core"/>
-        <updated>2026-05-29T22:32:29.000Z</updated>
-        <summary type="html"><![CDATA[Hey everyone,
-I previously introduced an open source private home security camera in 2024, which uses OpenMLS for end-to-end encryption: https://news.ycombinator.com/item?id=42284412.
-It was called Privastead then and it's now renamed to Secluso.
-John Kaczman found my project from here and has been working on it with me over the last year and half. We've made a lot of improvements to the software, which we would like to share with you:
-- You can now set this up on your Raspberry Pi in less than 5 minutes with no technical expertise using our easy-to-use GUI deploy tool. We've put together a comprehensive build-your-own guide that walks you through the required steps (you can find a link at the top of the repository README).
-- We use a customized, minimal OS based on the Yocto project for the camera.
-- Every part of our stack except for the iOS app has reproducible builds. This includes our Android app, camera/server binaries, deploy tool, and the aforementioned OS.
-- We've re-designed our mobile app, which is now on the iOS App Store and Google Play store.
-- We now support UnifiedPush for more privacy-preserving push notifications.
-Looking forward to seeing what you all think!
-Comments URL: https://news.ycombinator.com/item?id=48330192
-Points: 60
-# Comments: 15]]></summary>
-        <author>
-            <name>arrdalan</name>
         </author>
     </entry>
 </feed>

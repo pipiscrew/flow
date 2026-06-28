@@ -6,6 +6,16 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=48704454",
+          "author": "ludicrousdispla",
+          "description": "Article URL: https://github.com/cfenollosa/bashblog\nComments URL: https://news.ycombinator.com/item?id=48704454\nPoints: 62\n# Comments: 32",
+          "link": "https://github.com/cfenollosa/bashblog",
+          "publishedOn": "2026-06-28T04:48:32.000Z",
+          "wordCount": 4131,
+          "title": "Bashblog – a single bash script to create blogs",
+          "imageUrl": "https://opengraph.githubassets.com/653a19e8db8f97bd41716d6bbbddf7347ab81182c351f3d824cef69a759a479c/cfenollosa/bashblog"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=48704373",
           "author": "handfuloflight",
           "description": "Article URL: https://github.com/itsthelore/wayfinder-router\nComments URL: https://news.ycombinator.com/item?id=48704373\nPoints: 61\n# Comments: 12",
@@ -544,6 +554,16 @@
           "wordCount": null,
           "title": "Space Shuttle Endeavour's 20-story vertical display",
           "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48685967",
+          "author": "supermatt",
+          "description": "Article URL: https://shapeofthesystem.com/posts/2026/02/03/bounded-cognition\nComments URL: https://news.ycombinator.com/item?id=48685967\nPoints: 53\n# Comments: 9",
+          "link": "https://shapeofthesystem.com/posts/2026/02/03/bounded-cognition",
+          "publishedOn": "2026-06-26T12:41:31.000Z",
+          "wordCount": 2513,
+          "title": "Engineering for Bounded Cognition",
+          "imageUrl": "https://shapeofthesystem.com/assets/og.png"
         },
         {
           "id": "https://news.ycombinator.com/item?id=48685558",
@@ -12104,26 +12124,6 @@
           "wordCount": 1882,
           "title": "What Is a Dickover?",
           "imageUrl": "https://daringfireball.net/graphics/df-wide-card.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48330436",
-          "author": "nadis",
-          "description": "Article URL: https://www.quandri.io/engineering-blog/mcp-is-dead\nComments URL: https://news.ycombinator.com/item?id=48330436\nPoints: 119\n# Comments: 100",
-          "link": "https://www.quandri.io/engineering-blog/mcp-is-dead",
-          "publishedOn": "2026-05-29T22:56:49.000Z",
-          "wordCount": 2566,
-          "title": "MCP is dead?",
-          "imageUrl": "https://cdn.prod.website-files.com/668aa55ff9fc77f31f6cc2f0/6a0f2926a73de3ec41126467_post%20image%20b.webp"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48330192",
-          "author": "arrdalan",
-          "description": "Hey everyone,\nI previously introduced an open source private home security camera in 2024, which uses OpenMLS for end-to-end encryption: https://news.ycombinator.com/item?id=42284412.\nIt was called Privastead then and it's now renamed to Secluso.\nJohn Kaczman found my project from here and has been working on it with me over the last year and half. We've made a lot of improvements to the software, which we would like to share with you:\n- You can now set this up on your Raspberry Pi in less than 5 minutes with no technical expertise using our easy-to-use GUI deploy tool. We've put together a comprehensive build-your-own guide that walks you through the required steps (you can find a link at the top of the repository README).\n- We use a customized, minimal OS based on the Yocto project for the camera.\n- Every part of our stack except for the iOS app has reproducible builds. This includes our Android app, camera/server binaries, deploy tool, and the aforementioned OS.\n- We've re-designed our mobile app, which is now on the iOS App Store and Google Play store.\n- We now support UnifiedPush for more privacy-preserving push notifications.\nLooking forward to seeing what you all think!\nComments URL: https://news.ycombinator.com/item?id=48330192\nPoints: 60\n# Comments: 15",
-          "link": "https://github.com/secluso/core",
-          "publishedOn": "2026-05-29T22:32:29.000Z",
-          "wordCount": 2763,
-          "title": "Show HN: Open-source private home security camera system (end-to-end encryption)",
-          "imageUrl": "https://repository-images.githubusercontent.com/894270616/599f4d48-21dd-4b24-954d-b1a21c690579"
         }
       ]
     }
