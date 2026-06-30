@@ -2,10 +2,57 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-06-30T18:02:53.011Z</updated>
+    <updated>2026-06-30T20:59:27.092Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Tell HN: Installing Cursor on iOS irreversibly changes your privacy settings]]></title>
+        <id>https://news.ycombinator.com/item?id=48737226</id>
+        <link href="https://news.ycombinator.com/item?id=48737226"/>
+        <updated>2026-06-30T18:33:59.000Z</updated>
+        <summary type="html"><![CDATA[Just hit this today and I'm furious. I installed the Cursor iOS app to see what it had.
+I've been on `Privacy Mode (Legacy)` for a long time, which is the "Do not store my code" setting. A year or so ago they marked this as "Legacy" and hid it under a "Extra options" menu. They added a new Privacy Mode which is significantly more wishy-washy about what it might store - it includes a clause of "Code may be stored for Background Agents or Other Features", so I've never touched it or wanted to enable it.
+pic: https://us1.discourse-cdn.com/cursor1/optimized/3X/0/9/09412f800cb07a713d13c034f40eaf28e165e8f4_2_1032x1000.jpeg
+Upon installing and logging in to the iOS app, my account was changed to the softer Privacy Mode and the previous setting I was on has disappeared from all menus. I contacted support and they've said:
+> Really sorry about this. When you set up the mobile app, the prompt to turn on Cloud Agents switched you from Privacy Mode (Legacy) to our current Privacy Mode,
+> without making clear what that meant or that it's hard to undo. That wasn't right, and we're working on making that prompt clearer.
+>> To be straight with you: I'm not able to switch your account back to Privacy Mode (Legacy). The option to move back isn't available in the app today.
+So just a PSA I guess; do not install or set up the app if you want to keep your privacy settings.
+I honestly don't understand how it's legal to make logging into the iOS app change your privacy settings at all. Making the option then disappear from all menus so you can't get it back is doubly ridiculous.
+Comments URL: https://news.ycombinator.com/item?id=48737226
+Points: 140
+# Comments: 20]]></summary>
+        <author>
+            <name>zkldi</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Claude Sonnet 5]]></title>
+        <id>https://news.ycombinator.com/item?id=48736605</id>
+        <link href="https://www.anthropic.com/news/claude-sonnet-5"/>
+        <updated>2026-06-30T17:59:52.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.anthropic.com/news/claude-sonnet-5
+Comments URL: https://news.ycombinator.com/item?id=48736605
+Points: 611
+# Comments: 326]]></summary>
+        <author>
+            <name>marinesebastian</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[I built a mmWave material classification radar]]></title>
+        <id>https://news.ycombinator.com/item?id=48736137</id>
+        <link href="https://gauthier-lechevalier.com/radar"/>
+        <updated>2026-06-30T17:29:36.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://gauthier-lechevalier.com/radar
+Comments URL: https://news.ycombinator.com/item?id=48736137
+Points: 92
+# Comments: 28]]></summary>
+        <author>
+            <name>GL26</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Claude Science]]></title>
         <id>https://news.ycombinator.com/item?id=48735770</id>
@@ -95,6 +142,19 @@ Points: 92
 # Comments: 74]]></summary>
         <author>
             <name>dotcoma</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Supreme Court upholds broad conception of birthright citizenship]]></title>
+        <id>https://news.ycombinator.com/item?id=48733406</id>
+        <link href="https://apnews.com/live/birthright-citizenship-decision-supreme-court-updates-06-30-2026"/>
+        <updated>2026-06-30T14:43:54.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://apnews.com/live/birthright-citizenship-decision-supreme-court-updates-06-30-2026
+Comments URL: https://news.ycombinator.com/item?id=48733406
+Points: 122
+# Comments: 279]]></summary>
+        <author>
+            <name>toomuchtodo</name>
         </author>
     </entry>
     <entry>
@@ -1416,6 +1476,19 @@ Points: 56
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[A peek into Reddit's anti-spam internals]]></title>
+        <id>https://news.ycombinator.com/item?id=48699010</id>
+        <link href="https://lyra.horse/blog/2026/06/reddit-spam-internals/"/>
+        <updated>2026-06-27T15:18:03.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://lyra.horse/blog/2026/06/reddit-spam-internals/
+Comments URL: https://news.ycombinator.com/item?id=48699010
+Points: 51
+# Comments: 7]]></summary>
+        <author>
+            <name>OuterVale</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Free the Icons]]></title>
         <id>https://news.ycombinator.com/item?id=48698908</id>
         <link href="https://weblog.rogueamoeba.com/2026/06/26/free-the-icons/"/>
@@ -1569,6 +1642,19 @@ Points: 111
 # Comments: 75]]></summary>
         <author>
             <name>cemdervis</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Factorio 2.1 Experimental Release]]></title>
+        <id>https://news.ycombinator.com/item?id=48697107</id>
+        <link href="https://factorio.com/blog/post/fff-444"/>
+        <updated>2026-06-27T10:52:44.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://factorio.com/blog/post/fff-444
+Comments URL: https://news.ycombinator.com/item?id=48697107
+Points: 127
+# Comments: 66]]></summary>
+        <author>
+            <name>ibobev</name>
         </author>
     </entry>
     <entry>
@@ -1914,6 +2000,19 @@ The Weave Router acts as an Anthropic/OpenAI endpoint specifically for coding ag
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[1.38 Millimeter Microcontroller]]></title>
+        <id>https://news.ycombinator.com/item?id=48688685</id>
+        <link href="https://www.ti.com/product/MSPM0C1104"/>
+        <updated>2026-06-26T16:38:55.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.ti.com/product/MSPM0C1104
+Comments URL: https://news.ycombinator.com/item?id=48688685
+Points: 120
+# Comments: 84]]></summary>
+        <author>
+            <name>kristianpaul</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[One man, two kernels, and a lot of RISC-V]]></title>
         <id>https://news.ycombinator.com/item?id=48688438</id>
         <link href="https://www.theregister.com/software/2026/06/26/one-man-two-kernels-and-a-lot-of-risc-v/5262858"/>
@@ -2041,6 +2140,19 @@ Points: 56
 # Comments: 6]]></summary>
         <author>
             <name>chantepierre</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Open Source Low Tech]]></title>
+        <id>https://news.ycombinator.com/item?id=48683098</id>
+        <link href="https://opensourcelowtech.org/"/>
+        <updated>2026-06-26T06:35:17.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://opensourcelowtech.org/
+Comments URL: https://news.ycombinator.com/item?id=48683098
+Points: 598
+# Comments: 120]]></summary>
+        <author>
+            <name>grep_it</name>
         </author>
     </entry>
     <entry>
@@ -16310,58 +16422,6 @@ Points: 66
 # Comments: 215]]></summary>
         <author>
             <name>jbk</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Go Experiments Explained]]></title>
-        <id>https://news.ycombinator.com/item?id=48354136</id>
-        <link href="https://www.alexedwards.net/blog/go-experiments-explained"/>
-        <updated>2026-06-01T08:39:31.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.alexedwards.net/blog/go-experiments-explained
-Comments URL: https://news.ycombinator.com/item?id=48354136
-Points: 52
-# Comments: 13]]></summary>
-        <author>
-            <name>ingve</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Using Git's rerere feature to escape recurring conflict hell]]></title>
-        <id>https://news.ycombinator.com/item?id=48353504</id>
-        <link href="https://gist.github.com/skipcloud/f1033afb4fa5681d69fa63458cc95928"/>
-        <updated>2026-06-01T07:06:21.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://gist.github.com/skipcloud/f1033afb4fa5681d69fa63458cc95928
-Comments URL: https://news.ycombinator.com/item?id=48353504
-Points: 65
-# Comments: 25]]></summary>
-        <author>
-            <name>ankitg12</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How turkey hacked the hair-transplant industry]]></title>
-        <id>https://news.ycombinator.com/item?id=48353477</id>
-        <link href="https://www.wired.com/story/how-turkey-hacked-the-hair-transplant-industry/"/>
-        <updated>2026-06-01T07:02:23.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.wired.com/story/how-turkey-hacked-the-hair-transplant-industry/
-Comments URL: https://news.ycombinator.com/item?id=48353477
-Points: 65
-# Comments: 78]]></summary>
-        <author>
-            <name>joozio</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A 10 year old Xeon is all you need]]></title>
-        <id>https://news.ycombinator.com/item?id=48353348</id>
-        <link href="https://point.free/blog/gemma-4-on-a-2016-xeon/"/>
-        <updated>2026-06-01T06:38:42.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://point.free/blog/gemma-4-on-a-2016-xeon/
-Comments URL: https://news.ycombinator.com/item?id=48353348
-Points: 115
-# Comments: 47]]></summary>
-        <author>
-            <name>cafkafk</name>
         </author>
     </entry>
 </feed>
