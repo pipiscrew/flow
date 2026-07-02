@@ -6,6 +6,16 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=48765663",
+          "author": "yu3zhou4",
+          "description": "Article URL: https://www.zachtronics.com/exapunks/\nComments URL: https://news.ycombinator.com/item?id=48765663\nPoints: 61\n# Comments: 17",
+          "link": "https://www.zachtronics.com/exapunks/",
+          "publishedOn": "2026-07-02T18:41:19.000Z",
+          "wordCount": 358,
+          "title": "Exapunks (2018)",
+          "imageUrl": null
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=48763035",
           "author": "IngoBlechschmid",
           "description": "Article URL: https://mathstodon.xyz/@iblech/116769502749142438\nComments URL: https://news.ycombinator.com/item?id=48763035\nPoints: 189\n# Comments: 91",
@@ -36,6 +46,26 @@
           "imageUrl": "https://imagedelivery.net/qIvImu8MgTZD-kGvW-i83w/production.gdh/b4f0dccd-d76f-4a2c-8132-24ae18004b72/w=1200,h=630,fit=cover,q=80"
         },
         {
+          "id": "https://news.ycombinator.com/item?id=48762098",
+          "author": "soheilpro",
+          "description": "Article URL: https://blog.podman.io/2026/07/introducing-podman-v6-0-0/\nComments URL: https://news.ycombinator.com/item?id=48762098\nPoints: 124\n# Comments: 38",
+          "link": "https://blog.podman.io/2026/07/introducing-podman-v6-0-0/",
+          "publishedOn": "2026-07-02T14:23:09.000Z",
+          "wordCount": 2576,
+          "title": "Podman v6.0.0",
+          "imageUrl": "https://s0.wp.com/i/blank.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48762038",
+          "author": "rkochanowski",
+          "description": "Article URL: https://github.com/rafal-qa/slopo\nComments URL: https://news.ycombinator.com/item?id=48762038\nPoints: 56\n# Comments: 24",
+          "link": "https://github.com/rafal-qa/slopo",
+          "publishedOn": "2026-07-02T14:19:24.000Z",
+          "wordCount": 4208,
+          "title": "Show HN: CLI tool for detecting non-exact code duplication with embedding models",
+          "imageUrl": "https://opengraph.githubassets.com/1a3c8edf95c22c85bd1194743ca1ab3e3be471e2e318e56ac31b95360e6a42a3/rafal-qa/slopo"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=48762000",
           "author": "ltiger",
           "description": "Hey HN, I’m the creator of Mail Memories. Like many of you, I've had my Gmail address for more than 20 years. A few years ago, I got curious and wanted to see what photos were buried deep in my account. I ended up finding lots of \"lost\" pictures of old friends, family members, and a ridiculous number of vintage memes.\nI originally built and launched this as a SaaS, but even with code and policies in place that kept users' photos private, I figured everyone would feel more comfortable with a desktop app.\nSo, I threw out the server architecture and completely rewrote it as a 100% local desktop app for Mac and Windows.\nHow it works now: The app connects directly to Google's server from your computer, processes everything entirely on your system, and saves photos straight to your hard drive.\nYou can download your 50 oldest photos for free (no credit card required) just to see what's in there. If you want to download all the pictures in your account, it's a one-time payment of $29. No subscriptions.\nIf you have an old, pre-2010 Gmail account, definitely give it a spin. You'll be surprised at what you find deep in your archive.\nI'd love to hear your feedback on the layout, scanning performance, or anything else.\nTL;DR: I turned my SaaS into a local desktop app (Mac/Windows) that recovers decades of forgotten photos from your Gmail. 100% local, no cloud, no subscriptions, no AI.\nComments URL: https://news.ycombinator.com/item?id=48762000\nPoints: 76\n# Comments: 25",
@@ -64,6 +94,16 @@
           "wordCount": 7074,
           "title": "Show HN: ZeroFS – A log-structured filesystem for S3",
           "imageUrl": "https://www.zerofs.net/assets/og-card.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48761294",
+          "author": "lam_hg94",
+          "description": "Article URL: https://freegraphpaper.net/\nComments URL: https://news.ycombinator.com/item?id=48761294\nPoints: 68\n# Comments: 16",
+          "link": "https://freegraphpaper.net/",
+          "publishedOn": "2026-07-02T13:29:09.000Z",
+          "wordCount": 851,
+          "title": "Show HN: A graph paper generator that renders vector PDFs in the browser",
+          "imageUrl": "https://freegraphpaper.net/images/og/default.png"
         },
         {
           "id": "https://news.ycombinator.com/item?id=48761229",
@@ -1393,6 +1433,16 @@
           "publishedOn": "2026-06-28T19:37:45.000Z",
           "wordCount": 4427,
           "title": "Ante: A new way to blend borrow checking and reference counting",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48710537",
+          "author": "piotrbednarsalt",
+          "description": "Article URL: https://bednars.me/blog/winpe-harness\nComments URL: https://news.ycombinator.com/item?id=48710537\nPoints: 72\n# Comments: 4",
+          "link": "https://bednars.me/blog/winpe-harness",
+          "publishedOn": "2026-06-28T19:17:42.000Z",
+          "wordCount": 1539,
+          "title": "WinPE as a stateless harness for Windows driver testing and fuzzing",
           "imageUrl": null
         },
         {
@@ -12444,16 +12494,6 @@
           "wordCount": 9285,
           "title": "Redis 8.8: New array data structure, rate limiter, performance improvements",
           "imageUrl": "https://cdn.sanity.io/images/sy1jschh/production/16fbd3e66be6168be8ab80fa714000b68dc0933c-1200x628.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48380670",
-          "author": "zvr",
-          "description": "Article URL: https://leidendeclaration.ai/\nComments URL: https://news.ycombinator.com/item?id=48380670\nPoints: 73\n# Comments: 22",
-          "link": "https://leidendeclaration.ai/",
-          "publishedOn": "2026-06-03T06:33:27.000Z",
-          "wordCount": 4239,
-          "title": "Leiden Declaration on Artificial Intelligence and Mathematics",
-          "imageUrl": "https://leidendeclaration.ai/static/img/og-card.png?v=tulips-purple-yellow-1"
         }
       ]
     }
