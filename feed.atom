@@ -2,10 +2,36 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-07-03T03:50:40.184Z</updated>
+    <updated>2026-07-03T07:28:55.024Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[The Free Market Lie: Why Switzerland Has 25 Gbit Internet and America Doesn't]]></title>
+        <id>https://news.ycombinator.com/item?id=48770647</id>
+        <link href="https://stefan.schueller.net/posts/the-free-market-lie/"/>
+        <updated>2026-07-03T04:16:17.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://stefan.schueller.net/posts/the-free-market-lie/
+Comments URL: https://news.ycombinator.com/item?id=48770647
+Points: 399
+# Comments: 242]]></summary>
+        <author>
+            <name>talonx</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Safari MCP server for web developers]]></title>
+        <id>https://news.ycombinator.com/item?id=48769639</id>
+        <link href="https://webkit.org/blog/18136/introducing-the-safari-mcp-server-for-web-developers/"/>
+        <updated>2026-07-03T01:37:11.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://webkit.org/blog/18136/introducing-the-safari-mcp-server-for-web-developers/
+Comments URL: https://news.ycombinator.com/item?id=48769639
+Points: 56
+# Comments: 2]]></summary>
+        <author>
+            <name>coloneltcb</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[CarPlay Is Additive]]></title>
         <id>https://news.ycombinator.com/item?id=48769397</id>
@@ -125,6 +151,19 @@ Points: 70
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[EFF letter to FTC on X consent order [pdf]]]></title>
+        <id>https://news.ycombinator.com/item?id=48766209</id>
+        <link href="https://www.eff.org/deeplinks/2026/06/eff-and-allies-xs-ftc-petition-waive-privacy-violation-order-should-be-rejected"/>
+        <updated>2026-07-02T19:27:38.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.eff.org/deeplinks/2026/06/eff-and-allies-xs-ftc-petition-waive-privacy-violation-order-should-be-rejected
+Comments URL: https://news.ycombinator.com/item?id=48766209
+Points: 133
+# Comments: 49]]></summary>
+        <author>
+            <name>Terretta</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[EFF letter to FTC on X consent order (2 July 2026) [pdf]]]></title>
         <id>https://news.ycombinator.com/item?id=48766209</id>
         <link href="https://cdn.arstechnica.net/wp-content/uploads/2026/07/EFF-letter-to-FTC-on-X-consent-order-7-2-26.pdf"/>
@@ -229,6 +268,26 @@ Points: 82
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Show HN: zkGolf – Competitive optimization of formally verified circuits]]></title>
+        <id>https://news.ycombinator.com/item?id=48763246</id>
+        <link href="https://zk.golf/"/>
+        <updated>2026-07-02T15:40:05.000Z</updated>
+        <summary type="html"><![CDATA[Zero-Knowledge Proofs (ZKPs) let an untrusted proved show that computation was executed correctly without revealing the inputs to the verifier.
+However to prove anything, the computation first has to be expressed as a circuit: a system of polynomial equations (constraints) over a finite field. 
+Circuits are the assembly language of zk and every constraint costs prover (and sometimes verifier) time, so production circuits are aggressively hand-optimized.
+Over the last months, we have been experimenting with writing formal specifications instead and letting LLMs produce the circuits: as long as they could prove that their implementation was correct. 
+It started with SHA-256: we hand wrote a specification in Lean for SHA-256 compression, and then we asked LLMs to write the circuit, targeting R1CS arithmetization and large fields.
+It took a few hours of work for Opus 4.7, and some light steering into the right direction, but in the end the model came up with a reasonable implementation. We then asked the LLM to aggressively optimize the circuits, by driving down a cost metric of the circuit (number of constraints). We immediately got very promising results, just by asking to come up with optimization ideas, implement them and prove that the new circuit still satisfies soundness and completeness. Sometimes, it came up with unsound optimizations, however, since it could not prove them, it backtracked and got itself back on to the right approach.
+The result was a (non-deterministic) circuit beating the current, human optimized, state of the art for SHA256 compression. This experience lead us to create "zk.golf" which is an open competition to produce optimized, formally verified circuits to lower the bar for the use of ZKPs and make their application more efficient.
+Come play (https://zk.golf/llms.txt) and learn about formal verification.
+Comments URL: https://news.ycombinator.com/item?id=48763246
+Points: 57
+# Comments: 7]]></summary>
+        <author>
+            <name>rot256</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Since Linux 6.9, LUKS suspend stopped wiping disk-encryption keys from memory]]></title>
         <id>https://news.ycombinator.com/item?id=48763035</id>
         <link href="https://mathstodon.xyz/@iblech/116769502749142438"/>
@@ -265,6 +324,19 @@ Points: 105
 # Comments: 9]]></summary>
         <author>
             <name>mgh2</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[FoundationDB's Flow – Bringing Actor-Based Concurrency to C++11]]></title>
+        <id>https://news.ycombinator.com/item?id=48762372</id>
+        <link href="https://apple.github.io/foundationdb/flow.html"/>
+        <updated>2026-07-02T14:41:56.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://apple.github.io/foundationdb/flow.html
+Comments URL: https://news.ycombinator.com/item?id=48762372
+Points: 56
+# Comments: 8]]></summary>
+        <author>
+            <name>sourdecor</name>
         </author>
     </entry>
     <entry>
@@ -16375,149 +16447,6 @@ Points: 69
 # Comments: 16]]></summary>
         <author>
             <name>tastyeffectco</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Elixir v1.20: Now a gradually typed language]]></title>
-        <id>https://news.ycombinator.com/item?id=48388324</id>
-        <link href="https://elixir-lang.org/blog/2026/06/03/elixir-v1-20-0-released/"/>
-        <updated>2026-06-03T19:02:26.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://elixir-lang.org/blog/2026/06/03/elixir-v1-20-0-released/
-Comments URL: https://news.ycombinator.com/item?id=48388324
-Points: 319
-# Comments: 99]]></summary>
-        <author>
-            <name>cloud8421</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Artificial intelligence is not conscious – Ted Chiang]]></title>
-        <id>https://news.ycombinator.com/item?id=48387270</id>
-        <link href="https://www.theatlantic.com/philosophy/2026/06/no-artificial-intelligence-is-not-conscious/687378/"/>
-        <updated>2026-06-03T17:51:37.000Z</updated>
-        <summary type="html"><![CDATA[https://web.archive.org/web/20260603173839/https://www.theat...
-https://archive.is/bcpZl
-Comments URL: https://news.ycombinator.com/item?id=48387270
-Points: 155
-# Comments: 221]]></summary>
-        <author>
-            <name>lordleft</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Embryos shape their limbs: a key discovery of "genetic brakes"]]></title>
-        <id>https://news.ycombinator.com/item?id=48387251</id>
-        <link href="https://nouvelles.umontreal.ca/en/article/2026/06/02/how-embryos-shape-their-limbs-a-key-discovery-of-genetic-brakes"/>
-        <updated>2026-06-03T17:50:16.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://nouvelles.umontreal.ca/en/article/2026/06/02/how-embryos-shape-their-limbs-a-key-discovery-of-genetic-brakes
-Comments URL: https://news.ycombinator.com/item?id=48387251
-Points: 62
-# Comments: 5]]></summary>
-        <author>
-            <name>gmays</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Bots have now passed human traffic online for the first time]]></title>
-        <id>https://news.ycombinator.com/item?id=48387144</id>
-        <link href="https://radar.cloudflare.com/traffic#bot-vs-human"/>
-        <updated>2026-06-03T17:43:00.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://radar.cloudflare.com/traffic#bot-vs-human
-Comments URL: https://news.ycombinator.com/item?id=48387144
-Points: 72
-# Comments: 28]]></summary>
-        <author>
-            <name>jmsflknr</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Launch HN: Hyper (YC P26) – Company brain to power agentic development]]></title>
-        <id>https://news.ycombinator.com/item?id=48387095</id>
-        <link href="https://news.ycombinator.com/item?id=48387095"/>
-        <updated>2026-06-03T17:39:53.000Z</updated>
-        <summary type="html"><![CDATA[Hey HN, we’re Shalin & Kanyes, best friends who've been hacking together for 10+yrs, and now founders of Hyper (https://heyhyper.ai/). Hyper is a shared “company brain” that plugs into information flowing inside a company to make AI agents and automations better and ultimately save people time.
-Models have gotten good enough that they can (mostly) take on long-horizon, complex tasks. We believe the bottleneck now is that these smart-enough models often lack information about your company, which is scattered in people's heads, Slack threads, stale docs, and in back-and-forth convos with AI.
-MCP is useful for getting some info in front of an agent, but there are problems: (1) Once the session dies, so does the insight, so instead of copy-pasting a whole doc each time you're telling the agent…]]></summary>
-        <author>
-            <name>shalinshah</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Gooey: A GPU-accelerated UI framework for Zig]]></title>
-        <id>https://news.ycombinator.com/item?id=48386725</id>
-        <link href="https://github.com/duanebester/gooey"/>
-        <updated>2026-06-03T17:12:27.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://github.com/duanebester/gooey
-Comments URL: https://news.ycombinator.com/item?id=48386725
-Points: 101
-# Comments: 23]]></summary>
-        <author>
-            <name>ksec</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Angular v22]]></title>
-        <id>https://news.ycombinator.com/item?id=48386463</id>
-        <link href="https://blog.angular.dev/announcing-angular-v22-c52bb83a4664"/>
-        <updated>2026-06-03T16:51:49.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://blog.angular.dev/announcing-angular-v22-c52bb83a4664
-Comments URL: https://news.ycombinator.com/item?id=48386463
-Points: 76
-# Comments: 36]]></summary>
-        <author>
-            <name>Klaster_1</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[MacBook Neo Is So Popular That Apple Doubled Production]]></title>
-        <id>https://news.ycombinator.com/item?id=48386238</id>
-        <link href="https://www.macrumors.com/2026/06/03/macbook-neo-production-doubled-says-kuo/"/>
-        <updated>2026-06-03T16:33:17.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.macrumors.com/2026/06/03/macbook-neo-production-doubled-says-kuo/
-Comments URL: https://news.ycombinator.com/item?id=48386238
-Points: 89
-# Comments: 58]]></summary>
-        <author>
-            <name>tosh</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New Texas Instruments 5532 chips are not the 5532s we’ve used for decades]]></title>
-        <id>https://news.ycombinator.com/item?id=48386133</id>
-        <link href="https://groupdiy.com/threads/the-new-ti-5532-chips-are-not-5532s-weve-used-for-decades.93707/"/>
-        <updated>2026-06-03T16:25:08.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://groupdiy.com/threads/the-new-ti-5532-chips-are-not-5532s-weve-used-for-decades.93707/
-Comments URL: https://news.ycombinator.com/item?id=48386133
-Points: 52
-# Comments: 23]]></summary>
-        <author>
-            <name>SpikedCola</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[ESP32-S31]]></title>
-        <id>https://news.ycombinator.com/item?id=48385965</id>
-        <link href="https://www.espressif.com/en/products/socs/esp32-s31"/>
-        <updated>2026-06-03T16:10:25.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.espressif.com/en/products/socs/esp32-s31
-Comments URL: https://news.ycombinator.com/item?id=48385965
-Points: 144
-# Comments: 68]]></summary>
-        <author>
-            <name>volemo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Gemma 4 12B: A unified, encoder-free multimodal model]]></title>
-        <id>https://news.ycombinator.com/item?id=48385906</id>
-        <link href="https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemma-4-12b/"/>
-        <updated>2026-06-03T16:04:42.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemma-4-12b/
-Comments URL: https://news.ycombinator.com/item?id=48385906
-Points: 348
-# Comments: 127]]></summary>
-        <author>
-            <name>rvz</name>
         </author>
     </entry>
 </feed>
