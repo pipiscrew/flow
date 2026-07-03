@@ -2,10 +2,36 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-07-03T19:37:51.776Z</updated>
+    <updated>2026-07-03T21:14:15.880Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Farmer, marketer at odds over sales of white nectarines]]></title>
+        <id>https://news.ycombinator.com/item?id=48778031</id>
+        <link href="https://apnews.com/article/california-farmer-nectarines-lawsuit-patent-4f7bc8ab185e8b9cbdd6d6ad4f2aabd1"/>
+        <updated>2026-07-03T18:11:32.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://apnews.com/article/california-farmer-nectarines-lawsuit-patent-4f7bc8ab185e8b9cbdd6d6ad4f2aabd1
+Comments URL: https://news.ycombinator.com/item?id=48778031
+Points: 94
+# Comments: 88]]></summary>
+        <author>
+            <name>djoldman</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Holes]]></title>
+        <id>https://news.ycombinator.com/item?id=48777832</id>
+        <link href="https://xkcd.com/3266/large/"/>
+        <updated>2026-07-03T17:54:25.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://xkcd.com/3266/large/
+Comments URL: https://news.ycombinator.com/item?id=48777832
+Points: 79
+# Comments: 12]]></summary>
+        <author>
+            <name>caminanteblanco</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[International chess federation sanctions Kramnik]]></title>
         <id>https://news.ycombinator.com/item?id=48777266</id>
@@ -150,6 +176,19 @@ Points: 56
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Instead of banning AI, I made a classroom contract with my students]]></title>
+        <id>https://news.ycombinator.com/item?id=48775499</id>
+        <link href="https://www.science.org/content/article/instead-banning-ai-i-made-classroom-contract-my-students"/>
+        <updated>2026-07-03T14:28:33.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.science.org/content/article/instead-banning-ai-i-made-classroom-contract-my-students
+Comments URL: https://news.ycombinator.com/item?id=48775499
+Points: 57
+# Comments: 48]]></summary>
+        <author>
+            <name>digital55</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Valve open source the Steam Machine e-ink screen so you can make your own]]></title>
         <id>https://news.ycombinator.com/item?id=48774518</id>
         <link href="https://www.gamingonlinux.com/2026/07/valve-open-source-the-steam-machine-e-ink-screen-so-you-can-make-your-own/"/>
@@ -264,6 +303,24 @@ Points: 107
 # Comments: 26]]></summary>
         <author>
             <name>weli</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Ask HN: Is anyone experimenting with different ways of using LLMs for coding?]]></title>
+        <id>https://news.ycombinator.com/item?id=48771515</id>
+        <link href="https://news.ycombinator.com/item?id=48771515"/>
+        <updated>2026-07-03T06:21:44.000Z</updated>
+        <summary type="html"><![CDATA[I'm a bit annoyed by the feeling that we're kind of stuck when it comes to using LLMs for programming.
+I use Claude Code and Codex, but I haven't been able to enter flow state like I can when I hand write code.
+This is kind of ironic to me since AI should be a bicycle for the mind, but right now it feels like a bicycle that just brakes abruptly every couple minutes. I stop, wait, review, prompt again.
+Is there anyone exploring something fundamentally different than the prompt response loop we have today?
+I actually think the idea of a tab model is directionally better than prompt response.
+Would love to hear about any startups, personal experiments, etc.
+Comments URL: https://news.ycombinator.com/item?id=48771515
+Points: 78
+# Comments: 97]]></summary>
+        <author>
+            <name>yehiaabdelm</name>
         </author>
     </entry>
     <entry>
@@ -16610,40 +16667,6 @@ Points: 121
 # Comments: 43]]></summary>
         <author>
             <name>ibobev</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: Uruky (EU-based Kagi alternative) now has Image Search and URL Rewrites]]></title>
-        <id>https://news.ycombinator.com/item?id=48396004</id>
-        <link href="https://uruky.com/?il=en"/>
-        <updated>2026-06-04T08:56:10.000Z</updated>
-        <summary type="html"><![CDATA[You can get a 2h free trial by solving a proof-of-work captcha when topping up your account for the first time.
-If you'd like to learn more, an independent interview was posted a couple of weeks ago [1], and the FAQ [2] has a lot of information as well.
-For the source code sharing, we've talked with lawyers and are inclined to no longer require the NDA/NCC for privacy reasons shared with us before (signing requires identification), but instead use a source-available permissive license that doesn't allow competition, like PolyForm Shield [3] (we do still have about 6 months before finalising a decision, here).
-This does come with a lot more risks for us (it's harder to track down if someone publishes the code or uses it against the license), but given we've already passed 100 monthly active accounts, we're feeling more confident it's an acceptable risk.
-The plan is to give logged in accounts (who are 12 months old or more) a way to download a ZIP of the current code base that's in the server.
-Obviously there's no easy way to prove that's the case, but we're open to ideas/suggestions if someone here has them.
-[1]: https://theprivacydad.com/interview-with-the-engineer-of-uru...
-[2]: https://uruky.com/faq
-[3]: https://polyformproject.org/licenses/shield/1.0.0
-Comments URL: https://news.ycombinator.com/item?id=48396004
-Points: 90
-# Comments: 80]]></summary>
-        <author>
-            <name>BrunoBernardino</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[UK media fails to disclose defence sector links in nearly 60% of cases]]></title>
-        <id>https://news.ycombinator.com/item?id=48395938</id>
-        <link href="https://aoav.org.uk/2026/military-experts-or-arms-industry-insiders-uk-media-fails-to-disclose-defence-sector-links-in-nearly-60-of-cases/"/>
-        <updated>2026-06-04T08:45:36.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://aoav.org.uk/2026/military-experts-or-arms-industry-insiders-uk-media-fails-to-disclose-defence-sector-links-in-nearly-60-of-cases/
-Comments URL: https://news.ycombinator.com/item?id=48395938
-Points: 154
-# Comments: 106]]></summary>
-        <author>
-            <name>XzetaU8</name>
         </author>
     </entry>
 </feed>

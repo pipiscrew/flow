@@ -6,6 +6,26 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=48778031",
+          "author": "djoldman",
+          "description": "Article URL: https://apnews.com/article/california-farmer-nectarines-lawsuit-patent-4f7bc8ab185e8b9cbdd6d6ad4f2aabd1\nComments URL: https://news.ycombinator.com/item?id=48778031\nPoints: 94\n# Comments: 88",
+          "link": "https://apnews.com/article/california-farmer-nectarines-lawsuit-patent-4f7bc8ab185e8b9cbdd6d6ad4f2aabd1",
+          "publishedOn": "2026-07-03T18:11:32.000Z",
+          "wordCount": 17313,
+          "title": "Farmer, marketer at odds over sales of white nectarines",
+          "imageUrl": "https://dims.apnews.com/dims4/default/d7bb3a4/2147483647/strip/true/crop/6755x4501+0+1/resize/980x653!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fb6%2F14%2F985c371f3f4aeb1974eae79f6b32%2Fca1474869f4e45e2bd8d1de39762c477"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48777832",
+          "author": "caminanteblanco",
+          "description": "Article URL: https://xkcd.com/3266/large/\nComments URL: https://news.ycombinator.com/item?id=48777832\nPoints: 79\n# Comments: 12",
+          "link": "https://xkcd.com/3266/large/",
+          "publishedOn": "2026-07-03T17:54:25.000Z",
+          "wordCount": 2,
+          "title": "Holes",
+          "imageUrl": null
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=48777266",
           "author": "DarkContinent",
           "description": "Article URL: https://www.fide.com/fide-ethics-disciplinary-commission-issues-a-decision-in-case-involving-gm-vladimir-kramnik/\nComments URL: https://news.ycombinator.com/item?id=48777266\nPoints: 61\n# Comments: 31",
@@ -116,6 +136,16 @@
           "imageUrl": "https://superuserdone.com/og/og-background_hu_ca9a6aaf37d1ad9d.png"
         },
         {
+          "id": "https://news.ycombinator.com/item?id=48775499",
+          "author": "digital55",
+          "description": "Article URL: https://www.science.org/content/article/instead-banning-ai-i-made-classroom-contract-my-students\nComments URL: https://news.ycombinator.com/item?id=48775499\nPoints: 57\n# Comments: 48",
+          "link": "https://www.science.org/content/article/instead-banning-ai-i-made-classroom-contract-my-students",
+          "publishedOn": "2026-07-03T14:28:33.000Z",
+          "wordCount": null,
+          "title": "Instead of banning AI, I made a classroom contract with my students",
+          "imageUrl": null
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=48774518",
           "author": "ahlCVA",
           "description": "Article URL: https://www.gamingonlinux.com/2026/07/valve-open-source-the-steam-machine-e-ink-screen-so-you-can-make-your-own/\nComments URL: https://news.ycombinator.com/item?id=48774518\nPoints: 178\n# Comments: 23",
@@ -203,6 +233,16 @@
           "publishedOn": "2026-07-03T08:23:32.000Z",
           "wordCount": null,
           "title": "Half-Baked Product",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48771515",
+          "author": "yehiaabdelm",
+          "description": "I'm a bit annoyed by the feeling that we're kind of stuck when it comes to using LLMs for programming.\nI use Claude Code and Codex, but I haven't been able to enter flow state like I can when I hand write code.\nThis is kind of ironic to me since AI should be a bicycle for the mind, but right now it feels like a bicycle that just brakes abruptly every couple minutes. I stop, wait, review, prompt again.\nIs there anyone exploring something fundamentally different than the prompt response loop we have today?\nI actually think the idea of a tab model is directionally better than prompt response.\nWould love to hear about any startups, personal experiments, etc.\nComments URL: https://news.ycombinator.com/item?id=48771515\nPoints: 78\n# Comments: 97",
+          "link": "https://news.ycombinator.com/item?id=48771515",
+          "publishedOn": "2026-07-03T06:21:44.000Z",
+          "wordCount": 12459,
+          "title": "Ask HN: Is anyone experimenting with different ways of using LLMs for coding?",
           "imageUrl": null
         },
         {
@@ -12603,26 +12643,6 @@
           "publishedOn": "2026-06-04T10:48:13.000Z",
           "wordCount": 793,
           "title": "Gaussian Point Splatting",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48396004",
-          "author": "BrunoBernardino",
-          "description": "You can get a 2h free trial by solving a proof-of-work captcha when topping up your account for the first time.\nIf you'd like to learn more, an independent interview was posted a couple of weeks ago [1], and the FAQ [2] has a lot of information as well.\nFor the source code sharing, we've talked with lawyers and are inclined to no longer require the NDA/NCC for privacy reasons shared with us before (signing requires identification), but instead use a source-available permissive license that doesn't allow competition, like PolyForm Shield [3] (we do still have about 6 months before finalising a decision, here).\nThis does come with a lot more risks for us (it's harder to track down if someone publishes the code or uses it against the license), but given we've already passed 100 monthly active accounts, we're feeling more confident it's an acceptable risk.\nThe plan is to give logged in accounts (who are 12 months old or more) a way to download a ZIP of the current code base that's in the server.\nObviously there's no easy way to prove that's the case, but we're open to ideas/suggestions if someone here has them.\n[1]: https://theprivacydad.com/interview-with-the-engineer-of-uru...\n[2]: https://uruky.com/faq\n[3]: https://polyformproject.org/licenses/shield/1.0.0\nComments URL: https://news.ycombinator.com/item?id=48396004\nPoints: 90\n# Comments: 80",
-          "link": "https://uruky.com/?il=en",
-          "publishedOn": "2026-06-04T08:56:10.000Z",
-          "wordCount": 429,
-          "title": "Show HN: Uruky (EU-based Kagi alternative) now has Image Search and URL Rewrites",
-          "imageUrl": "https://uruky.com/public/images/social-card.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48395938",
-          "author": "XzetaU8",
-          "description": "Article URL: https://aoav.org.uk/2026/military-experts-or-arms-industry-insiders-uk-media-fails-to-disclose-defence-sector-links-in-nearly-60-of-cases/\nComments URL: https://news.ycombinator.com/item?id=48395938\nPoints: 154\n# Comments: 106",
-          "link": "https://aoav.org.uk/2026/military-experts-or-arms-industry-insiders-uk-media-fails-to-disclose-defence-sector-links-in-nearly-60-of-cases/",
-          "publishedOn": "2026-06-04T08:45:36.000Z",
-          "wordCount": null,
-          "title": "UK media fails to disclose defence sector links in nearly 60% of cases",
           "imageUrl": null
         }
       ]
