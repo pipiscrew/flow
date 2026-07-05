@@ -6,6 +6,46 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=48794446",
+          "author": "tosh",
+          "description": "Article URL: https://organicmaps.app/\nComments URL: https://news.ycombinator.com/item?id=48794446\nPoints: 94\n# Comments: 20",
+          "link": "https://organicmaps.app/",
+          "publishedOn": "2026-07-05T14:14:30.000Z",
+          "wordCount": 1225,
+          "title": "Organic Maps",
+          "imageUrl": "https://organicmaps.app/images/screenshots/prague.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48794179",
+          "author": "edward",
+          "description": "Article URL: https://phosh.mobi/releases/rel-0.56.0/\nComments URL: https://news.ycombinator.com/item?id=48794179\nPoints: 86\n# Comments: 20",
+          "link": "https://phosh.mobi/releases/rel-0.56.0/",
+          "publishedOn": "2026-07-05T13:28:11.000Z",
+          "wordCount": 1252,
+          "title": "Phosh 0.56.0",
+          "imageUrl": "https://phosh.mobi/releases/rel-0.56.0/phosh-release-0.56.0.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48793492",
+          "author": "RickJWagner",
+          "description": "Article URL: https://www.acc.org/about-acc/press-releases/2025/03/17/15/35/cannabis-users-face-substantially-higher-risk\nComments URL: https://news.ycombinator.com/item?id=48793492\nPoints: 75\n# Comments: 62",
+          "link": "https://www.acc.org/about-acc/press-releases/2025/03/17/15/35/cannabis-users-face-substantially-higher-risk",
+          "publishedOn": "2026-07-05T11:59:27.000Z",
+          "wordCount": 4356,
+          "title": "Cannabis Users Face Substantially Higher Risk of Heart Attack (2025)",
+          "imageUrl": "http://www.acc.org/-/media/9E7FA8BE7B44449AB9993CC9237EF455.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48793454",
+          "author": "AlexeyBrin",
+          "description": "Article URL: https://dthain.github.io/books/compiler/\nComments URL: https://news.ycombinator.com/item?id=48793454\nPoints: 94\n# Comments: 6",
+          "link": "https://dthain.github.io/books/compiler/",
+          "publishedOn": "2026-07-05T11:54:16.000Z",
+          "wordCount": 457,
+          "title": "Introduction to Compilers and Language Design",
+          "imageUrl": null
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=48792399",
           "author": "handfuloflight",
           "description": "Article URL: https://github.com/Trystan-SA/claude-design-system-prompt\nComments URL: https://news.ycombinator.com/item?id=48792399\nPoints: 69\n# Comments: 18",
@@ -14,6 +54,16 @@
           "wordCount": 3886,
           "title": "Claude Design System Prompt",
           "imageUrl": "https://opengraph.githubassets.com/5d45610dd81b64e3fe6f96d0d8d16a09aba855ed6c724dfa501d615f7d2bf0e5/Trystan-SA/claude-design-system-prompt"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48792195",
+          "author": "nezhar",
+          "description": "Article URL: https://www.formaly.io/blog/knowledge-should-not-be-gated\nComments URL: https://news.ycombinator.com/item?id=48792195\nPoints: 57\n# Comments: 35",
+          "link": "https://www.formaly.io/blog/knowledge-should-not-be-gated",
+          "publishedOn": "2026-07-05T07:59:48.000Z",
+          "wordCount": 4998,
+          "title": "Knowledge Should Not Be Gated",
+          "imageUrl": "https://www.formaly.io/knowledge-should-not-be-gated.png"
         },
         {
           "id": "https://news.ycombinator.com/item?id=48792080",
@@ -44,6 +94,16 @@
           "wordCount": 3028,
           "title": "sqlite-utils 4.0rc2, mostly written by Claude Fable (for about $149.25)",
           "imageUrl": "https://static.simonwillison.net/static/2026/fable-plan-usage.webp"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48791591",
+          "author": "eternauta3k",
+          "description": "Article URL: https://computer.rip/2026-07-04-microwave-and-power.html\nComments URL: https://news.ycombinator.com/item?id=48791591\nPoints: 54\n# Comments: 5",
+          "link": "https://computer.rip/2026-07-04-microwave-and-power.html",
+          "publishedOn": "2026-07-05T05:56:03.000Z",
+          "wordCount": 7603,
+          "title": "Megawatts by Microwave",
+          "imageUrl": "/static/img/bpa/1.png"
         },
         {
           "id": "https://news.ycombinator.com/item?id=48791328",
@@ -12524,16 +12584,6 @@
           "wordCount": 7738,
           "title": "The back cover of C++: The Language raises questions not answered by front cover",
           "imageUrl": "https://devblogs.microsoft.com/oldnewthing/wp-content/uploads/sites/38/2019/02/ShowCover.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48420827",
-          "author": "Ekami",
-          "description": "Genuine question.\nOver the past six months, there hasn’t been a single day where I’ve checked the HN Best RSS feed without seeing a post about how AI “writes bad code,” “introduces bugs,” “creates technical debt,” or something along those lines.\nI’ll probably make a lot of enemies by saying this, but do people realize that code is just a means to an end?\nUsers don’t care whether the code was written by AI or by hand, or which framework you used. They care that the product works.\nI say this as someone who has spent more than 20 years honing their craft as a software engineer.\nLet’s face it: by the time I manually ship version 1.0 of a product, the AI-assisted version could have been deployed 10x faster. By then, enough real-world feedback would have surfaced to identify the major issues, and tools like Claude Code would make it possible to fix and ship version 2.0 at an incredible pace.\nAt some point, execution speed starts to matter more than the elegance of the code.\nComments URL: https://news.ycombinator.com/item?id=48420827\nPoints: 55\n# Comments: 92",
-          "link": "https://news.ycombinator.com/item?id=48420827",
-          "publishedOn": "2026-06-06T02:31:51.000Z",
-          "wordCount": 7603,
-          "title": "Ask HN: Why is the HN crowd so anti-AI?",
-          "imageUrl": null
         }
       ]
     }
