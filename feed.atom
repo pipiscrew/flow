@@ -2,10 +2,88 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-07-06T18:59:32.727Z</updated>
+    <updated>2026-07-06T20:57:14.663Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Price per 1M tokens is meaningless]]></title>
+        <id>https://news.ycombinator.com/item?id=48809542</id>
+        <link href="https://janilowski.pl/en/blog/2026/price-per-m-tokens/"/>
+        <updated>2026-07-06T19:43:36.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://janilowski.pl/en/blog/2026/price-per-m-tokens/
+Comments URL: https://news.ycombinator.com/item?id=48809542
+Points: 50
+# Comments: 22]]></summary>
+        <author>
+            <name>janilowski</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CoMaps – FOSS Offline Maps]]></title>
+        <id>https://news.ycombinator.com/item?id=48808928</id>
+        <link href="https://www.comaps.app/"/>
+        <updated>2026-07-06T18:55:07.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.comaps.app/
+Comments URL: https://news.ycombinator.com/item?id=48808928
+Points: 76
+# Comments: 10]]></summary>
+        <author>
+            <name>basilikum</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Linux on the Atari Jaguar. No, really.]]></title>
+        <id>https://news.ycombinator.com/item?id=48808663</id>
+        <link href="https://cakehonolulu.github.io/linux-for-jaguar/"/>
+        <updated>2026-07-06T18:35:54.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://cakehonolulu.github.io/linux-for-jaguar/
+Comments URL: https://news.ycombinator.com/item?id=48808663
+Points: 51
+# Comments: 4]]></summary>
+        <author>
+            <name>cakehonolulu</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Pros and Cons of Solo Development]]></title>
+        <id>https://news.ycombinator.com/item?id=48808508</id>
+        <link href="https://johnjeffers.com/pros-and-cons-of-solo-development/"/>
+        <updated>2026-07-06T18:24:34.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://johnjeffers.com/pros-and-cons-of-solo-development/
+Comments URL: https://news.ycombinator.com/item?id=48808508
+Points: 77
+# Comments: 32]]></summary>
+        <author>
+            <name>johnj-hn</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[OpenWrt One – Open Hardware Router]]></title>
+        <id>https://news.ycombinator.com/item?id=48808482</id>
+        <link href="https://openwrt.org/toh/openwrt/one"/>
+        <updated>2026-07-06T18:23:12.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://openwrt.org/toh/openwrt/one
+Comments URL: https://news.ycombinator.com/item?id=48808482
+Points: 187
+# Comments: 90]]></summary>
+        <author>
+            <name>peter_d_sherman</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A global workspace in language models]]></title>
+        <id>https://news.ycombinator.com/item?id=48808002</id>
+        <link href="https://www.anthropic.com/research/global-workspace"/>
+        <updated>2026-07-06T17:44:08.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.anthropic.com/research/global-workspace
+Comments URL: https://news.ycombinator.com/item?id=48808002
+Points: 112
+# Comments: 34]]></summary>
+        <author>
+            <name>in-silico</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[The Supreme Court Just Lit a Fuse Under Flock's License Plate Camera Empire]]></title>
         <id>https://news.ycombinator.com/item?id=48807383</id>
@@ -17,6 +95,38 @@ Points: 59
 # Comments: 38]]></summary>
         <author>
             <name>bilsbie</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[OfficeCLI: Office suite for AI agents to read and edit Microsoft Office files]]></title>
+        <id>https://news.ycombinator.com/item?id=48807225</id>
+        <link href="https://github.com/iOfficeAI/OfficeCLI"/>
+        <updated>2026-07-06T16:47:44.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://github.com/iOfficeAI/OfficeCLI
+Comments URL: https://news.ycombinator.com/item?id=48807225
+Points: 67
+# Comments: 13]]></summary>
+        <author>
+            <name>maxloh</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Pulpie – Models for Cleaning the Web]]></title>
+        <id>https://news.ycombinator.com/item?id=48806575</id>
+        <link href="https://usefeyn.com/blog/pulpie-pareto-optimal-models-for-cleaning-the-web/"/>
+        <updated>2026-07-06T16:04:27.000Z</updated>
+        <summary type="html"><![CDATA[Hey HN, I'm Shreyash, founder of Feyn. We built Pulpie, a family of Pareto optimal models for cleaning the web. Pulpie strips boilerplate (ads, footers, sidebars) from raw HTML and returns just the main content as HTML or Markdown.
+We match SOTA extraction quality while being 20x cheaper. Cleaning 1 billion webpages costs $7,900 with Pulpie versus $159,000 with Dripper, the current leading extractor.
+The gains come from architecture. Today's leading extractors are decoders that generate output one token at a time. Each step reads the full model from memory to produce a single token. Conversely, Pulpie models are encoders. They run one forward pass over the full input HTML and label each block as boilerplate or content. As a result, Pulpie is compute-bound while decoders are memory-bound. Cheaper GPUs have relatively more compute than memory bandwidth. This makes Pulpie easy to run optimally.
+Here's Pulpie and Dripper cleaning the same pages side by side: https://www.youtube.com/watch?v=ibd-tIiQECo. You can try a side-by-side comparison yourself: https://huggingface.co/spaces/feyninc/pulpie
+Our motivation for Pulpie came from building a deep research harness. Every search API returns noisy content that contains ads, nav elements, and sidebars. In one instance, an ad for "Gemini on Pixel" slipped into our search results, got passed into LLM context, and ended up in the final answer served to the user. Pretty embarrassing moment for us but it helped us realize how bad data kills model intelligence. We built Pulpie to get clean data for cheap.
+All models are open source on Hugging Face. You can read about our training process and how to use Pulpie here: https://usefeyn.com/blog/pulpie-pareto-optimal-models-for-cl...
+Happy to answer any questions!
+Comments URL: https://news.ycombinator.com/item?id=48806575
+Points: 63
+# Comments: 14]]></summary>
+        <author>
+            <name>snyy</name>
         </author>
     </entry>
     <entry>
@@ -69,6 +179,19 @@ Points: 57
 # Comments: 22]]></summary>
         <author>
             <name>surprisetalk</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CS2 Fog Of War: Server-sided anti-wallhack occlusion culling for CS2 servers]]></title>
+        <id>https://news.ycombinator.com/item?id=48805965</id>
+        <link href="https://github.com/karola3vax/CS2FOW"/>
+        <updated>2026-07-06T15:23:34.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://github.com/karola3vax/CS2FOW
+Comments URL: https://news.ycombinator.com/item?id=48805965
+Points: 70
+# Comments: 35]]></summary>
+        <author>
+            <name>LorenDB</name>
         </author>
     </entry>
     <entry>
@@ -16813,19 +16936,6 @@ Points: 93
 # Comments: 31]]></summary>
         <author>
             <name>Chrisszz</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: Kyushu – A self-hostable WASM sandbox for JavaScript workers]]></title>
-        <id>https://news.ycombinator.com/item?id=48432722</id>
-        <link href="https://kyushu.dev/"/>
-        <updated>2026-06-07T07:35:02.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://kyushu.dev/
-Comments URL: https://news.ycombinator.com/item?id=48432722
-Points: 66
-# Comments: 24]]></summary>
-        <author>
-            <name>le_chuck</name>
         </author>
     </entry>
 </feed>
