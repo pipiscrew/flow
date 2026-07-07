@@ -6,6 +6,36 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=48819512",
+          "author": "sync",
+          "description": "Article URL: https://better-auth.com/blog/better-auth-joins-vercel\nComments URL: https://news.ycombinator.com/item?id=48819512\nPoints: 74\n# Comments: 44",
+          "link": "https://better-auth.com/blog/better-auth-joins-vercel",
+          "publishedOn": "2026-07-07T15:52:22.000Z",
+          "wordCount": 3895,
+          "title": "Better Auth is joining Vercel",
+          "imageUrl": "https://better-auth.com/blogs/better-auth-joins-vercel.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48819244",
+          "author": "bauc",
+          "description": "Article URL: https://gamefromscratch.com/microsoft-fire-idtech-team-at-id-software/\nComments URL: https://news.ycombinator.com/item?id=48819244\nPoints: 219\n# Comments: 208",
+          "link": "https://gamefromscratch.com/microsoft-fire-idtech-team-at-id-software/",
+          "publishedOn": "2026-07-07T15:33:20.000Z",
+          "wordCount": 7577,
+          "title": "Microsoft Fire IdTech Team at Id Software",
+          "imageUrl": "https://gamefromscratch.com/wp-content/uploads/2026/07/RIPIdTechBLUM1080.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48819008",
+          "author": "miroljub",
+          "description": "Article URL: https://www.heise.de/en/news/Showdown-in-Strasbourg-The-unexpected-return-of-Chat-Control-1-0-11356680.html\nComments URL: https://news.ycombinator.com/item?id=48819008\nPoints: 217\n# Comments: 93",
+          "link": "https://www.heise.de/en/news/Showdown-in-Strasbourg-The-unexpected-return-of-Chat-Control-1-0-11356680.html",
+          "publishedOn": "2026-07-07T15:16:15.000Z",
+          "wordCount": 2104,
+          "title": "Chat Control passed first round in EU Parliament",
+          "imageUrl": "https://heise.cloudimg.io/bound/1200x1200/q85.png-lossy-85.webp-lossy-85.foil1/_www-heise-de_/imgs/18/5/1/1/2/7/6/7/shutterstock_2248568015-21aebc31fb107116.jpg"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=48817017",
           "author": "pax",
           "description": "Article URL: https://www.euronews.com/culture/2026/06/29/dua-lipa-opens-library-for-banned-and-censored-books-in-portugal\nComments URL: https://news.ycombinator.com/item?id=48817017\nPoints: 117\n# Comments: 97",
@@ -33,6 +63,16 @@
           "publishedOn": "2026-07-07T12:45:06.000Z",
           "wordCount": null,
           "title": "A better way to tie your gym shorts. (Or any drawstring) [video]",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48816900",
+          "author": "anivan_",
+          "description": "Hey! I'm Andrei.\nI got frustrated by how people tend to build overcomplicated backend systems, being \"motivated\" by big tech case studies and popular books.\nSo, I started exploring lean architecture, and building my digital garden of ideas, approaches and data that align with this direction.\nHere I want to present one of the tools – Sizing tool for PostgreSQL. I've benchmarked PostgreSQL on different EC2 instances and disks, with different initial data sets to see performance that these instances can give you. And I've built a tool to visualize this data, which I welcome you to explore.\nSo, you can put your usual input parameters, like needed RPS and disk size as input, and find out which instance will be the most cost-efficient for your needs.\nYou can read about the methodology here: https://postgres.saneengineer.com/about\nI've tested one workload – mixed 90/10 read/write, and only selected configurations. But it is extensible, and I (and you – benchmark is open source: https://github.com/anivaniuk/sanebench) can run more configurations to have more data represented.\nDoes it look interesting? What workload should I benchmark next?\nComments URL: https://news.ycombinator.com/item?id=48816900\nPoints: 52\n# Comments: 4",
+          "link": "https://postgres.saneengineer.com/",
+          "publishedOn": "2026-07-07T12:40:28.000Z",
+          "wordCount": 1435,
+          "title": "Show HN: PostgreSQL performance and cost across 23 EC2 instance types",
           "imageUrl": null
         },
         {
@@ -1014,6 +1054,16 @@
           "wordCount": 2389,
           "title": "Verizon is About to Break our Watches",
           "imageUrl": "https://www.jefftk.com/gizmo-hub-going-away-email-big.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48787124",
+          "author": "ohjeez",
+          "description": "Article URL: https://www.theatlantic.com/photo/2018/05/historic-photos-of-nasas-cavernous-wind-tunnels/560660/\nComments URL: https://news.ycombinator.com/item?id=48787124\nPoints: 87\n# Comments: 23",
+          "link": "https://www.theatlantic.com/photo/2018/05/historic-photos-of-nasas-cavernous-wind-tunnels/560660/",
+          "publishedOn": "2026-07-04T17:28:57.000Z",
+          "wordCount": 6058,
+          "title": "Historic Photos of NASA's Cavernous Wind Tunnels",
+          "imageUrl": "https://cdn.theatlantic.com/thumbor/UIEAZ_tzUCR-wrBZXIvgs4cT2VI=/0x170:2000x1212/960x500/media/img/photo/2018/05/historic-photos-of-nasas-cavernous-1/w01_836249-1/original.jpg"
         },
         {
           "id": "https://news.ycombinator.com/item?id=48787042",
@@ -12774,26 +12824,6 @@
           "wordCount": 5917,
           "title": "How much of Thermo Fisher's antibody data has been manipulated?",
           "imageUrl": "https://i0.wp.com/reeserichardson.blog/wp-content/uploads/2026/05/thermo_fisher_wb_featured_image.png?fit=1200%2C574&ssl=1"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48441242",
-          "author": "nicwilson",
-          "description": "Article URL: https://www.bbc.com/news/articles/c14yz5jg476o\nComments URL: https://news.ycombinator.com/item?id=48441242\nPoints: 77\n# Comments: 17",
-          "link": "https://www.bbc.com/news/articles/c14yz5jg476o",
-          "publishedOn": "2026-06-08T04:10:08.000Z",
-          "wordCount": 6321,
-          "title": "Richard Scolyer Has Died",
-          "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/c108/live/21da3800-6249-11f1-a7c4-8d00479306ea.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48440952",
-          "author": "882542F3884314B",
-          "description": "Article URL: https://www.troyhunt.com/1000-data-breaches-later-the-disclosure-lag-is-worse-than-ever/\nComments URL: https://news.ycombinator.com/item?id=48440952\nPoints: 161\n# Comments: 61",
-          "link": "https://www.troyhunt.com/1000-data-breaches-later-the-disclosure-lag-is-worse-than-ever/",
-          "publishedOn": "2026-06-08T03:17:10.000Z",
-          "wordCount": 2330,
-          "title": "1k Data Breaches Later, the Disclosure Lag Is Worse",
-          "imageUrl": "https://storage.ghost.io/c/fb/33/fb3391dc-723d-4e74-b95a-d641b5feb38e/content/images/size/w1200/2026/06/photo_2026-05-31_20-34-34.jpg"
         }
       ]
     }

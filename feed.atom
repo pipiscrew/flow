@@ -2,10 +2,49 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-07-07T14:56:05.726Z</updated>
+    <updated>2026-07-07T17:23:15.112Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Better Auth is joining Vercel]]></title>
+        <id>https://news.ycombinator.com/item?id=48819512</id>
+        <link href="https://better-auth.com/blog/better-auth-joins-vercel"/>
+        <updated>2026-07-07T15:52:22.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://better-auth.com/blog/better-auth-joins-vercel
+Comments URL: https://news.ycombinator.com/item?id=48819512
+Points: 74
+# Comments: 44]]></summary>
+        <author>
+            <name>sync</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Microsoft Fire IdTech Team at Id Software]]></title>
+        <id>https://news.ycombinator.com/item?id=48819244</id>
+        <link href="https://gamefromscratch.com/microsoft-fire-idtech-team-at-id-software/"/>
+        <updated>2026-07-07T15:33:20.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://gamefromscratch.com/microsoft-fire-idtech-team-at-id-software/
+Comments URL: https://news.ycombinator.com/item?id=48819244
+Points: 219
+# Comments: 208]]></summary>
+        <author>
+            <name>bauc</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Chat Control passed first round in EU Parliament]]></title>
+        <id>https://news.ycombinator.com/item?id=48819008</id>
+        <link href="https://www.heise.de/en/news/Showdown-in-Strasbourg-The-unexpected-return-of-Chat-Control-1-0-11356680.html"/>
+        <updated>2026-07-07T15:16:15.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.heise.de/en/news/Showdown-in-Strasbourg-The-unexpected-return-of-Chat-Control-1-0-11356680.html
+Comments URL: https://news.ycombinator.com/item?id=48819008
+Points: 217
+# Comments: 93]]></summary>
+        <author>
+            <name>miroljub</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Dua Lipa opens library for banned and censored books in Portugal]]></title>
         <id>https://news.ycombinator.com/item?id=48817017</id>
@@ -43,6 +82,26 @@ Points: 137
 # Comments: 49]]></summary>
         <author>
             <name>surprisetalk</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: PostgreSQL performance and cost across 23 EC2 instance types]]></title>
+        <id>https://news.ycombinator.com/item?id=48816900</id>
+        <link href="https://postgres.saneengineer.com/"/>
+        <updated>2026-07-07T12:40:28.000Z</updated>
+        <summary type="html"><![CDATA[Hey! I'm Andrei.
+I got frustrated by how people tend to build overcomplicated backend systems, being "motivated" by big tech case studies and popular books.
+So, I started exploring lean architecture, and building my digital garden of ideas, approaches and data that align with this direction.
+Here I want to present one of the tools – Sizing tool for PostgreSQL. I've benchmarked PostgreSQL on different EC2 instances and disks, with different initial data sets to see performance that these instances can give you. And I've built a tool to visualize this data, which I welcome you to explore.
+So, you can put your usual input parameters, like needed RPS and disk size as input, and find out which instance will be the most cost-efficient for your needs.
+You can read about the methodology here: https://postgres.saneengineer.com/about
+I've tested one workload – mixed 90/10 read/write, and only selected configurations. But it is extensible, and I (and you – benchmark is open source: https://github.com/anivaniuk/sanebench) can run more configurations to have more data represented.
+Does it look interesting? What workload should I benchmark next?
+Comments URL: https://news.ycombinator.com/item?id=48816900
+Points: 52
+# Comments: 4]]></summary>
+        <author>
+            <name>anivan_</name>
         </author>
     </entry>
     <entry>
@@ -1328,6 +1387,19 @@ Points: 80
 # Comments: 31]]></summary>
         <author>
             <name>jefftk</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Historic Photos of NASA's Cavernous Wind Tunnels]]></title>
+        <id>https://news.ycombinator.com/item?id=48787124</id>
+        <link href="https://www.theatlantic.com/photo/2018/05/historic-photos-of-nasas-cavernous-wind-tunnels/560660/"/>
+        <updated>2026-07-04T17:28:57.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.theatlantic.com/photo/2018/05/historic-photos-of-nasas-cavernous-wind-tunnels/560660/
+Comments URL: https://news.ycombinator.com/item?id=48787124
+Points: 87
+# Comments: 23]]></summary>
+        <author>
+            <name>ohjeez</name>
         </author>
     </entry>
     <entry>
@@ -16816,32 +16888,6 @@ Points: 342
 # Comments: 76]]></summary>
         <author>
             <name>mhrmsn</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Richard Scolyer Has Died]]></title>
-        <id>https://news.ycombinator.com/item?id=48441242</id>
-        <link href="https://www.bbc.com/news/articles/c14yz5jg476o"/>
-        <updated>2026-06-08T04:10:08.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.bbc.com/news/articles/c14yz5jg476o
-Comments URL: https://news.ycombinator.com/item?id=48441242
-Points: 77
-# Comments: 17]]></summary>
-        <author>
-            <name>nicwilson</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[1k Data Breaches Later, the Disclosure Lag Is Worse]]></title>
-        <id>https://news.ycombinator.com/item?id=48440952</id>
-        <link href="https://www.troyhunt.com/1000-data-breaches-later-the-disclosure-lag-is-worse-than-ever/"/>
-        <updated>2026-06-08T03:17:10.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.troyhunt.com/1000-data-breaches-later-the-disclosure-lag-is-worse-than-ever/
-Comments URL: https://news.ycombinator.com/item?id=48440952
-Points: 161
-# Comments: 61]]></summary>
-        <author>
-            <name>882542F3884314B</name>
         </author>
     </entry>
 </feed>
