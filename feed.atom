@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-07-06T22:21:02.934Z</updated>
+    <updated>2026-07-07T00:14:04.756Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
@@ -17,6 +17,19 @@ Points: 65
 # Comments: 59]]></summary>
         <author>
             <name>stevekrouse</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GLM 5.2 and the coming AI margin collapse]]></title>
+        <id>https://news.ycombinator.com/item?id=48809877</id>
+        <link href="https://martinalderson.com/posts/the-upcoming-ai-margin-collapse-part-1-glm-5-2/"/>
+        <updated>2026-07-06T20:14:55.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://martinalderson.com/posts/the-upcoming-ai-margin-collapse-part-1-glm-5-2/
+Comments URL: https://news.ycombinator.com/item?id=48809877
+Points: 91
+# Comments: 56]]></summary>
+        <author>
+            <name>martinald</name>
         </author>
     </entry>
     <entry>
@@ -2957,6 +2970,19 @@ Points: 65
 # Comments: 79]]></summary>
         <author>
             <name>whoishiring</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Rotman Lens]]></title>
+        <id>https://news.ycombinator.com/item?id=48747889</id>
+        <link href="https://en.wikipedia.org/wiki/Rotman_lens"/>
+        <updated>2026-07-01T14:56:17.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://en.wikipedia.org/wiki/Rotman_lens
+Comments URL: https://news.ycombinator.com/item?id=48747889
+Points: 66
+# Comments: 17]]></summary>
+        <author>
+            <name>thomasjb</name>
         </author>
     </entry>
     <entry>
@@ -16933,22 +16959,6 @@ Points: 186
 # Comments: 139]]></summary>
         <author>
             <name>poisonfountain</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: Lathe – Use LLMs to learn a new domain, not skip past it]]></title>
-        <id>https://news.ycombinator.com/item?id=48433756</id>
-        <link href="https://github.com/devenjarvis/lathe"/>
-        <updated>2026-06-07T11:16:46.000Z</updated>
-        <summary type="html"><![CDATA[Hey HN!
-Lathe is an experiment in using LLMs to teach me something new, instead of doing the work for me. It generates a hands-on, source-backed tutorial for any technical topic you want to learn. Then you work through it yourself by reading and typing the code by hand (gasp) in a local UI built for exactly that.
-It's a Go CLI plus LLM agent skills (Claude Code / Cursor / Codex). You prompt something like "/lathe build a 3D slicer in Erlang", run `lathe serve` to spin up a local webapp, and read it in your browser. Every tutorial comes with the things that have made self-learning a pleasant experience for me in the past:
-- table of contents that follows along as you scroll
-- side-notes that nudge you to think
-- exercises for the reader
-- sources backing up the content that you can use to t…]]></summary>
-        <author>
-            <name>devenjarvis</name>
         </author>
     </entry>
 </feed>
