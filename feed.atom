@@ -2,10 +2,52 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-07-10T00:10:49.713Z</updated>
+    <updated>2026-07-10T04:57:15.872Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Focus]]></title>
+        <id>https://news.ycombinator.com/item?id=48854363</id>
+        <link href="https://boz.com/articles/focus"/>
+        <updated>2026-07-10T00:40:33.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://boz.com/articles/focus
+Comments URL: https://news.ycombinator.com/item?id=48854363
+Points: 84
+# Comments: 44]]></summary>
+        <author>
+            <name>iacguy</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Why American ambulance rides are so expensive]]></title>
+        <id>https://news.ycombinator.com/item?id=48853091</id>
+        <link href="https://davidoks.blog/p/why-american-ambulance-rides-are"/>
+        <updated>2026-07-09T22:15:56.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://davidoks.blog/p/why-american-ambulance-rides-are
+Comments URL: https://news.ycombinator.com/item?id=48853091
+Points: 139
+# Comments: 180]]></summary>
+        <author>
+            <name>jyunwai</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Building a real-time AI tutor for 5-year-olds]]></title>
+        <id>https://news.ycombinator.com/item?id=48852199</id>
+        <link href="https://www.ello.com/blog/teaching-a-child-in-1000-ms"/>
+        <updated>2026-07-09T20:51:06.000Z</updated>
+        <summary type="html"><![CDATA[Hey HN! We've spent the good part of this past year building an AI tutor that teaches kids ages 4-9 reading, math, ESL and more. Getting an AI tutor to effectively teach a child turns out to be a really hard technical challenge, this took getting the underlying architecture right.
+Our tutor steers the UX in real-time and makes complex decisions on the fly. Doing both at conversation speed required us to replace the standard tool-use loop. We built our own tutor harness that utilizes a streaming interpreter that executes actions, while an asynchronous planner model reasons ahead of the conversation and makes calls that drive the child's learning. On top of it all, we developed a safety system that checks every turn without it causing an interruption to the activity and conversation flow.
+Effective teaching isn't just about answering a child's  question quickly, rather making the right move at the right moment. AI is also going to be an integral part shaping how this generation of kids learn to read and think, tackling this responsibly means getting the design right.
+Happy to answer questions and curious what you all think, critical feedback included, we've been working on this problem for a long time and love to hear from the HN community.
+Comments URL: https://news.ycombinator.com/item?id=48852199
+Points: 65
+# Comments: 100]]></summary>
+        <author>
+            <name>catalinvoss</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[GLM 5.2 is nearly as accurate as a human book keeper]]></title>
         <id>https://news.ycombinator.com/item?id=48850414</id>
@@ -2001,6 +2043,19 @@ Points: 69
 # Comments: 18]]></summary>
         <author>
             <name>handfuloflight</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Train sim created by just one person is being called the best ever made]]></title>
+        <id>https://news.ycombinator.com/item?id=48792383</id>
+        <link href="https://kotaku.com/a-train-sim-created-by-just-one-person-is-being-called-the-best-ever-made-2000699429"/>
+        <updated>2026-07-05T08:40:27.000Z</updated>
+        <summary type="html"><![CDATA[https://store.steampowered.com/app/4630570/RUNNING_TRAIN/
+Comments URL: https://news.ycombinator.com/item?id=48792383
+Points: 383
+# Comments: 133]]></summary>
+        <author>
+            <name>oumua_don17</name>
         </author>
     </entry>
     <entry>
@@ -16106,277 +16161,6 @@ Points: 111
 # Comments: 133]]></summary>
         <author>
             <name>freejoe76</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Case for Free Online Books (2014)]]></title>
-        <id>https://news.ycombinator.com/item?id=48479177</id>
-        <link href="http://from-a-to-remzi.blogspot.com/2014/01/the-case-for-free-online-books-fobs.html"/>
-        <updated>2026-06-10T16:54:29.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: http://from-a-to-remzi.blogspot.com/2014/01/the-case-for-free-online-books-fobs.html
-Comments URL: https://news.ycombinator.com/item?id=48479177
-Points: 74
-# Comments: 67]]></summary>
-        <author>
-            <name>jimsojim</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The state of building user interfaces in Rust]]></title>
-        <id>https://news.ycombinator.com/item?id=48479008</id>
-        <link href="https://areweguiyet.com/#ecosystem"/>
-        <updated>2026-06-10T16:44:23.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://areweguiyet.com/#ecosystem
-Comments URL: https://news.ycombinator.com/item?id=48479008
-Points: 135
-# Comments: 98]]></summary>
-        <author>
-            <name>mahirsaid</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Cybersecurity researchers aren't happy about the guardrails on Anthropic's Fable]]></title>
-        <id>https://news.ycombinator.com/item?id=48478969</id>
-        <link href="https://techcrunch.com/2026/06/10/cybersecurity-researchers-arent-happy-about-the-guardrails-on-anthropics-fable/"/>
-        <updated>2026-06-10T16:42:00.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://techcrunch.com/2026/06/10/cybersecurity-researchers-arent-happy-about-the-guardrails-on-anthropics-fable/
-Comments URL: https://news.ycombinator.com/item?id=48478969
-Points: 107
-# Comments: 92]]></summary>
-        <author>
-            <name>speckx</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[DiffusionGemma: 4x Faster Text Generation]]></title>
-        <id>https://news.ycombinator.com/item?id=48478471</id>
-        <link href="https://blog.google/innovation-and-ai/technology/developers-tools/diffusion-gemma-faster-text-generation/"/>
-        <updated>2026-06-10T16:09:37.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://blog.google/innovation-and-ai/technology/developers-tools/diffusion-gemma-faster-text-generation/
-Comments URL: https://news.ycombinator.com/item?id=48478471
-Points: 176
-# Comments: 38]]></summary>
-        <author>
-            <name>meetpateltech</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: Extend UI – open-source UI kit for modern document apps]]></title>
-        <id>https://news.ycombinator.com/item?id=48478469</id>
-        <link href="https://www.extend.ai/ui"/>
-        <updated>2026-06-10T16:09:26.000Z</updated>
-        <summary type="html"><![CDATA[We're open-sourcing 14 components & examples today for PDF, DOCX, and XLSX viewers, plus bounding box citations, file upload, e-signature, and more. It's MIT licensed and fully customizable.
-Demo video here: https://share.extend.ai/kRmSGKRF
-When we started, we tried every file viewer and document component library we could find. Unfortunately, none of them had all the functionality (and polish) that we wanted, so we ended up building our own for https://extend.ai/. It was only ever meant to be internal, but enough customers kept asking for it that we decided to open source it.
-It's useful for building document processing agents, real-time user facing document intake flows, or all kinds of internal tooling.
-We naively thought this would be a solved problem. Turns out, making PDF/XLSX/DOCX viewers that work at scale is not trivial...we use and maintain it for Extend ourselves, so we've fixed a lot of edge cases that came up while running millions of pages / day through our own system. Our hope is that with our resources + community support, it'll keep getting better over time.
-Comments URL: https://news.ycombinator.com/item?id=48478469
-Points: 91
-# Comments: 18]]></summary>
-        <author>
-            <name>kbyatnal</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: HelixDB – A graph database built on object storage]]></title>
-        <id>https://news.ycombinator.com/item?id=48478148</id>
-        <link href="https://github.com/HelixDB/helix-db/tree/main"/>
-        <updated>2026-06-10T15:47:31.000Z</updated>
-        <summary type="html"><![CDATA[Hey HN, it’s been just over a year since we launched HelixDB (https://news.ycombinator.com/item?id=43975423), a project a friend and I started in college. It’s an OLTP graph database built on object-storage, with native vector search and full-text search (FTS).
-Why graph, vector and FTS? Graph databases provide a natural cognitive model for data, vectors allow for a semantic understanding of the entities and relationships in the graph, and FTS provides more specific filtering. Many AI-driven applications attempt to combine all of these functionalities by stitching together multiple disconnected systems, but even then there’s no native way to perform joins or queries that span all systems. You still need to handle this logic at the application level.
-Helix started as a graph DB, but we move…]]></summary>
-        <author>
-            <name>GeorgeCurtis</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GitHub Authentication issues related to API requests]]></title>
-        <id>https://news.ycombinator.com/item?id=48477851</id>
-        <link href="https://www.githubstatus.com/incidents/fcj3088jg1wx"/>
-        <updated>2026-06-10T15:29:52.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.githubstatus.com/incidents/fcj3088jg1wx
-Comments URL: https://news.ycombinator.com/item?id=48477851
-Points: 114
-# Comments: 23]]></summary>
-        <author>
-            <name>Multicomp</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[US Consumer Price Index up 4.2%]]></title>
-        <id>https://news.ycombinator.com/item?id=48477551</id>
-        <link href="https://www.bls.gov/news.release/cpi.nr0.htm"/>
-        <updated>2026-06-10T15:10:40.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.bls.gov/news.release/cpi.nr0.htm
-Comments URL: https://news.ycombinator.com/item?id=48477551
-Points: 92
-# Comments: 51]]></summary>
-        <author>
-            <name>ortusdux</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Apache Burr: Build reliable AI agents and applications]]></title>
-        <id>https://news.ycombinator.com/item?id=48477400</id>
-        <link href="https://burr.apache.org/"/>
-        <updated>2026-06-10T15:01:06.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://burr.apache.org/
-Comments URL: https://news.ycombinator.com/item?id=48477400
-Points: 51
-# Comments: 22]]></summary>
-        <author>
-            <name>anhldbk</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Spoiling Linux Kernel with "sanctioned" code]]></title>
-        <id>https://news.ycombinator.com/item?id=48477208</id>
-        <link href="https://printserver.ink/blog/spoiling-the-kernel/"/>
-        <updated>2026-06-10T14:51:11.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://printserver.ink/blog/spoiling-the-kernel/
-Comments URL: https://news.ycombinator.com/item?id=48477208
-Points: 67
-# Comments: 16]]></summary>
-        <author>
-            <name>ValdikSS</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AMA: I'm Eric Ries (The Lean Startup) & Author of New Bestseller Incorruptible]]></title>
-        <id>https://news.ycombinator.com/item?id=48477135</id>
-        <link href="https://news.ycombinator.com/item?id=48477135"/>
-        <updated>2026-06-10T14:47:52.000Z</updated>
-        <summary type="html"><![CDATA[Hey gang, you may remember me from such books as _The Lean Startup_ and _The Startup Way_.
-It's been fifteen years since I wrote The Lean Startup, and in that time I've seen some things. In both big companies and tiny startups, NGOs and governments, in almost every industry you can name.
-I've helped a lot of people create a lot of amazing companies, but I've also seen so many ways this can go wrong. There's a darkness in our industry that we often don't talk about.
-I kept watching good companies drift away from the missions they were founded on. Not because anyone woke up one day and decided to be evil, but because the structure they were built on slowly pulled them there. I call that pull "financial gravity."
-We've all experienced watching a company we love or admire be warped and broken beyond recognition; until it's a husk of its former self, or worse. I wanted to understand why. And I wanted to know what all of us can do to stop that from happening.
-My new book _Incorruptible_ is my attempt to explain the invisible forces that shape organizations, and how a handful of companies (like Costco, Patagonia, and Novo Nordisk) have successfully been structured to resist gravity and thrive for decades -- or even centuries.
-Along the way, I founded the Long-Term Stock Exchange, co-founded an AI R&D lab called Answer.AI with Jeremy Howard, and helped a number of notable companies with their governance (yes, including Anthropic).
-I won't pretend I have this all figured out, but I've probably spent more time than is healthy on the "why do good companies go bad" question. Ask me anything!
-Comments URL: https://news.ycombinator.com/item?id=48477135
-Points: 135
-# Comments: 76]]></summary>
-        <author>
-            <name>eries</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Notes on DeepSeek]]></title>
-        <id>https://news.ycombinator.com/item?id=48476474</id>
-        <link href="https://news.ycombinator.com/item?id=48476474"/>
-        <updated>2026-06-10T14:03:40.000Z</updated>
-        <summary type="html"><![CDATA[Comments URL: https://news.ycombinator.com/item?id=48476474
-Points: 167
-# Comments: 99]]></summary>
-        <author>
-            <name>vinhnx</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Notes on DeepSeek]]></title>
-        <id>https://news.ycombinator.com/item?id=48476474</id>
-        <link href="https://twitter.com/NikoMcCarty/status/2064686557400100884"/>
-        <updated>2026-06-10T14:03:40.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://twitter.com/NikoMcCarty/status/2064686557400100884
-Comments URL: https://news.ycombinator.com/item?id=48476474
-Points: 68
-# Comments: 49]]></summary>
-        <author>
-            <name>vinhnx</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[PgDog is funded and coming to a database near you]]></title>
-        <id>https://news.ycombinator.com/item?id=48476466</id>
-        <link href="https://pgdog.dev/blog/our-funding-announcement"/>
-        <updated>2026-06-10T14:02:59.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://pgdog.dev/blog/our-funding-announcement
-Comments URL: https://news.ycombinator.com/item?id=48476466
-Points: 136
-# Comments: 74]]></summary>
-        <author>
-            <name>levkk</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Fully autonomous drones have killed human soldiers for the first time]]></title>
-        <id>https://news.ycombinator.com/item?id=48476214</id>
-        <link href="https://www.newscientist.com/article/2529849-fully-autonomous-drones-have-killed-human-soldiers-for-the-first-time/"/>
-        <updated>2026-06-10T13:46:14.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.newscientist.com/article/2529849-fully-autonomous-drones-have-killed-human-soldiers-for-the-first-time/
-Comments URL: https://news.ycombinator.com/item?id=48476214
-Points: 68
-# Comments: 43]]></summary>
-        <author>
-            <name>deadgopher</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A €0.01 bank transfer could compromise a banking AI agent]]></title>
-        <id>https://news.ycombinator.com/item?id=48476136</id>
-        <link href="https://blue41.com/blog/how-we-helped-bunq-secure-their-financial-ai-assistant/"/>
-        <updated>2026-06-10T13:39:11.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://blue41.com/blog/how-we-helped-bunq-secure-their-financial-ai-assistant/
-Comments URL: https://news.ycombinator.com/item?id=48476136
-Points: 117
-# Comments: 96]]></summary>
-        <author>
-            <name>tvissers</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[I Hate (Most) Keyboard 'Fn' Keys]]></title>
-        <id>https://news.ycombinator.com/item?id=48475938</id>
-        <link href="https://danq.me/2026/06/09/fn-keys/"/>
-        <updated>2026-06-10T13:22:52.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://danq.me/2026/06/09/fn-keys/
-Comments URL: https://news.ycombinator.com/item?id=48475938
-Points: 136
-# Comments: 151]]></summary>
-        <author>
-            <name>speckx</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ask HN: Are most corporate SWE jobs performative?]]></title>
-        <id>https://news.ycombinator.com/item?id=48475871</id>
-        <link href="https://news.ycombinator.com/item?id=48475871"/>
-        <updated>2026-06-10T13:18:34.000Z</updated>
-        <summary type="html"><![CDATA[The large companies I’ve worked at (including FAANG) seemed to thrive on kudos via performative actions. Like the majority of the team is doing useless stuff that management thinks is impressive while the couple all stars get the team closer to the goal.
-Meanwhile, a lot of managers calendars are purely just 1:1s with devs on the team which clearly has very little value add to the team.
-Anyone else notice this? Not sure if there’s a word for it, but it’s somewhat demoralising working with a bunch of corporate office workers cosplaying as engineers
-Comments URL: https://news.ycombinator.com/item?id=48475871
-Points: 62
-# Comments: 78]]></summary>
-        <author>
-            <name>hnthrow10282910</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Building an HTML-first site doubled our users overnight]]></title>
-        <id>https://news.ycombinator.com/item?id=48475483</id>
-        <link href="https://mohkohn.co.uk/writing/html-first/"/>
-        <updated>2026-06-10T12:45:47.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://mohkohn.co.uk/writing/html-first/
-Comments URL: https://news.ycombinator.com/item?id=48475483
-Points: 524
-# Comments: 229]]></summary>
-        <author>
-            <name>edent</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[All 9,300 Japanese train station, animated by the year it opened (1872–2026)]]></title>
-        <id>https://news.ycombinator.com/item?id=48475100</id>
-        <link href="https://jivx.com/eki"/>
-        <updated>2026-06-10T12:11:28.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://jivx.com/eki
-Comments URL: https://news.ycombinator.com/item?id=48475100
-Points: 103
-# Comments: 38]]></summary>
-        <author>
-            <name>momentmaker</name>
         </author>
     </entry>
 </feed>
