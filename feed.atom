@@ -2,10 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-07-10T23:02:49.743Z</updated>
+    <updated>2026-07-11T03:19:31.669Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Einstein's relativity rules chemical bonds in heavy elements, new research shows]]></title>
+        <id>https://news.ycombinator.com/item?id=48866134</id>
+        <link href="https://www.brown.edu/news/2026-07-09/chemical-bonds-relativity"/>
+        <updated>2026-07-10T22:30:44.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.brown.edu/news/2026-07-09/chemical-bonds-relativity
+Comments URL: https://news.ycombinator.com/item?id=48866134
+Points: 124
+# Comments: 43]]></summary>
+        <author>
+            <name>hhs</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Apple sues OpenAI, accuses ex-employees of stealing trade secrets]]></title>
         <id>https://news.ycombinator.com/item?id=48865019</id>
@@ -108,6 +121,19 @@ Points: 61
 # Comments: 22]]></summary>
         <author>
             <name>NaOH</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SpaceX wants to launch 100k more Starlink satellites for 100x the bandwidth]]></title>
+        <id>https://news.ycombinator.com/item?id=48863064</id>
+        <link href="https://www.zdnet.com/home-and-office/networking/spacex-wants-to-launch-100000-more-starlink-satellites/"/>
+        <updated>2026-07-10T17:51:07.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.zdnet.com/home-and-office/networking/spacex-wants-to-launch-100000-more-starlink-satellites/
+Comments URL: https://news.ycombinator.com/item?id=48863064
+Points: 92
+# Comments: 299]]></summary>
+        <author>
+            <name>CrankyBear</name>
         </author>
     </entry>
     <entry>
@@ -415,6 +441,19 @@ Points: 314
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[AI 2040: Plan A]]></title>
+        <id>https://news.ycombinator.com/item?id=48848425</id>
+        <link href="https://ai-2040.com/"/>
+        <updated>2026-07-09T16:21:44.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://ai-2040.com/
+Comments URL: https://news.ycombinator.com/item?id=48848425
+Points: 169
+# Comments: 168]]></summary>
+        <author>
+            <name>kschaul</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[AI content is everywhere on social media, especially LinkedIn]]></title>
         <id>https://news.ycombinator.com/item?id=48847940</id>
         <link href="https://www.pangram.com/blog/ai-in-your-feed"/>
@@ -587,6 +626,26 @@ Points: 746
 # Comments: 271]]></summary>
         <author>
             <name>pompomsheep</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Wyrm – Solve algebra by touch, built on an open-source soundness engine]]></title>
+        <id>https://news.ycombinator.com/item?id=48844046</id>
+        <link href="https://github.com/dicroce/wyrm_math"/>
+        <updated>2026-07-09T11:16:18.000Z</updated>
+        <summary type="html"><![CDATA[There is a mobile game called DragonBox. It sort of tricks you into learning algebra by starting with very abstract manipulations of a puzzle that must follow rules... gradually the game teaches you more and more rules and also strips out the more abstract elements until on the last levels you are finally solving real equations. I loved it, it taught my kids algebra.... and it was just fun.
+Over the years I often thought that there should be a calculator for Algebra that works this way... something where you can drag terms around and cancel & distribute with gestures, but most importantly enter your own problems.  It should also do more kinds of problems than DragonBox allowed. So I finally decided to build it.
+https://dicroce.github.io/wyrm/home.html
+Here's a video showing it: https://www.youtube.com/watch?v=_STbS4zvIlU. If you'd rather just play with it: there's a limited in-browser demo (real engine, a few example equations, no download) on the landing page — https://dicroce.github.io/wyrm/home.html.
+The app can be found on iOS (https://apps.apple.com/us/app/wyrm-math/id6782342042) and as of this week on Google Play (https://play.google.com/store/apps/details?id=com.dicroce.wy...).
+I also decided to open source the underlying math engine so others could build on it: https://github.com/dicroce/wyrm_math. My goal for the engine btw is to build it all the way up to Calculus.
+Monetization is deliberately boring: the engine is free (MIT), and the polished gesture app is $4.99 once. No subscriptions, ads, accounts, or analytics.
+I'd love feedback on the engine design — especially from anyone who's worked on CAS or proof-assistant-adjacent problems. And if you played DragonBox as a kid and wished it went further: this is for you!
+Comments URL: https://news.ycombinator.com/item?id=48844046
+Points: 63
+# Comments: 9]]></summary>
+        <author>
+            <name>dicroce</name>
         </author>
     </entry>
     <entry>
@@ -1308,6 +1367,19 @@ Points: 112
 # Comments: 48]]></summary>
         <author>
             <name>ifh-hn</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Inference Optimization for MiMo v2.5: Pushing Hybrid SWA Efficiency to the Limit]]></title>
+        <id>https://news.ycombinator.com/item?id=48814170</id>
+        <link href="https://mimo.xiaomi.com/blog/mimo-v2-5-inference"/>
+        <updated>2026-07-07T06:06:25.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://mimo.xiaomi.com/blog/mimo-v2-5-inference
+Comments URL: https://news.ycombinator.com/item?id=48814170
+Points: 51
+# Comments: 19]]></summary>
+        <author>
+            <name>theanonymousone</name>
         </author>
     </entry>
     <entry>
@@ -16043,221 +16115,6 @@ Points: 113
 # Comments: 43]]></summary>
         <author>
             <name>hmokiguess</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[FPS.cob: A first person shooter in COBOL]]></title>
-        <id>https://news.ycombinator.com/item?id=48491486</id>
-        <link href="https://github.com/icitry/FPS.cob"/>
-        <updated>2026-06-11T15:13:57.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://github.com/icitry/FPS.cob
-Comments URL: https://news.ycombinator.com/item?id=48491486
-Points: 63
-# Comments: 28]]></summary>
-        <author>
-            <name>MBCook</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Lisp's Influence on Ruby]]></title>
-        <id>https://news.ycombinator.com/item?id=48491048</id>
-        <link href="https://blog.tacoda.dev/lisps-influence-on-ruby-6a54f1a7740e"/>
-        <updated>2026-06-11T14:43:11.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://blog.tacoda.dev/lisps-influence-on-ruby-6a54f1a7740e
-Comments URL: https://news.ycombinator.com/item?id=48491048
-Points: 96
-# Comments: 4]]></summary>
-        <author>
-            <name>tacoda</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[FreeOberon – Open-Source, Cross-Platform, Free Pascal/Turbo Pascal-Like Language]]></title>
-        <id>https://news.ycombinator.com/item?id=48490927</id>
-        <link href="https://github.com/kekcleader/FreeOberon"/>
-        <updated>2026-06-11T14:34:46.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://github.com/kekcleader/FreeOberon
-Comments URL: https://news.ycombinator.com/item?id=48490927
-Points: 58
-# Comments: 21]]></summary>
-        <author>
-            <name>peter_d_sherman</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[MiMo Code is now released and open-source]]></title>
-        <id>https://news.ycombinator.com/item?id=48490826</id>
-        <link href="https://mimo.xiaomi.com/mimocode"/>
-        <updated>2026-06-11T14:27:19.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://mimo.xiaomi.com/mimocode
-Comments URL: https://news.ycombinator.com/item?id=48490826
-Points: 277
-# Comments: 147]]></summary>
-        <author>
-            <name>apeters</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Nextcloud Hub 26 Spring: Built together, designed for the future]]></title>
-        <id>https://news.ycombinator.com/item?id=48490715</id>
-        <link href="https://nextcloud.com/blog/nextcloud-hub26-spring/"/>
-        <updated>2026-06-11T14:17:47.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://nextcloud.com/blog/nextcloud-hub26-spring/
-Comments URL: https://news.ycombinator.com/item?id=48490715
-Points: 99
-# Comments: 69]]></summary>
-        <author>
-            <name>doener</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[MapComplete: Maps about various topics which you can contribute to]]></title>
-        <id>https://news.ycombinator.com/item?id=48490532</id>
-        <link href="https://mapcomplete.org/"/>
-        <updated>2026-06-11T14:04:05.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://mapcomplete.org/
-Comments URL: https://news.ycombinator.com/item?id=48490532
-Points: 148
-# Comments: 27]]></summary>
-        <author>
-            <name>GTP</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[US-Canada border library gets new Quebec-only entrance]]></title>
-        <id>https://news.ycombinator.com/item?id=48490245</id>
-        <link href="https://www.bbc.com/news/videos/clyrvrde160o"/>
-        <updated>2026-06-11T13:42:42.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.bbc.com/news/videos/clyrvrde160o
-Comments URL: https://news.ycombinator.com/item?id=48490245
-Points: 50
-# Comments: 20]]></summary>
-        <author>
-            <name>NalNezumi</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Workers are spending over 6 hours a week botsitting AI, fueling job frustration]]></title>
-        <id>https://news.ycombinator.com/item?id=48490057</id>
-        <link href="https://www.businessinsider.com/botsitting-ai-hidden-human-labor-at-work-2026-6"/>
-        <updated>2026-06-11T13:26:59.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.businessinsider.com/botsitting-ai-hidden-human-labor-at-work-2026-6
-Comments URL: https://news.ycombinator.com/item?id=48490057
-Points: 86
-# Comments: 43]]></summary>
-        <author>
-            <name>ZeidJ</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: Homebrew 6.0.0]]></title>
-        <id>https://news.ycombinator.com/item?id=48490024</id>
-        <link href="https://brew.sh/2026/06/11/homebrew-6.0.0/"/>
-        <updated>2026-06-11T13:24:29.000Z</updated>
-        <summary type="html"><![CDATA[Today, I’m proud to announce Homebrew 6.0.0. The most significant changes since 5.1.0 are a new tap trust security mechanism, the new faster, smaller, default internal Homebrew JSON API, sandboxing on Linux, better defaults informed by our user survey, many brew bundle improvements, improved performance and initial support for macOS 27 (Golden Gate).
-Happy to discuss any questions here!
-Comments URL: https://news.ycombinator.com/item?id=48490024
-Points: 255
-# Comments: 56]]></summary>
-        <author>
-            <name>mikemcquaid</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Open Reproduction of DeepSeek-R1]]></title>
-        <id>https://news.ycombinator.com/item?id=48489917</id>
-        <link href="https://github.com/huggingface/open-r1"/>
-        <updated>2026-06-11T13:14:31.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://github.com/huggingface/open-r1
-Comments URL: https://news.ycombinator.com/item?id=48489917
-Points: 132
-# Comments: 14]]></summary>
-        <author>
-            <name>yogthos</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Core PPI up 9.6% annualized (0.8% MoM) in May]]></title>
-        <id>https://news.ycombinator.com/item?id=48489655</id>
-        <link href="https://www.bls.gov/news.release/ppi.nr0.htm"/>
-        <updated>2026-06-11T12:51:43.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.bls.gov/news.release/ppi.nr0.htm
-Comments URL: https://news.ycombinator.com/item?id=48489655
-Points: 81
-# Comments: 65]]></summary>
-        <author>
-            <name>JumpCrisscross</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Segmented type appreciation corner (2018)]]></title>
-        <id>https://news.ycombinator.com/item?id=48489636</id>
-        <link href="https://aresluna.org/segmented-type/"/>
-        <updated>2026-06-11T12:50:29.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://aresluna.org/segmented-type/
-Comments URL: https://news.ycombinator.com/item?id=48489636
-Points: 53
-# Comments: 12]]></summary>
-        <author>
-            <name>unexpectedVCR</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Lines of Code Got a Better Publicist]]></title>
-        <id>https://news.ycombinator.com/item?id=48489402</id>
-        <link href="https://curlewis.co.nz/posts/lines-of-code-got-a-better-publicist/"/>
-        <updated>2026-06-11T12:26:42.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://curlewis.co.nz/posts/lines-of-code-got-a-better-publicist/
-Comments URL: https://news.ycombinator.com/item?id=48489402
-Points: 147
-# Comments: 71]]></summary>
-        <author>
-            <name>RyeCombinator</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Anthropic apologizes for invisible Claude Fable guardrails]]></title>
-        <id>https://news.ycombinator.com/item?id=48489229</id>
-        <link href="https://www.theverge.com/ai-artificial-intelligence/948280/anthropic-claude-fable-invisible-distillation-guardrail"/>
-        <updated>2026-06-11T12:05:02.000Z</updated>
-        <summary type="html"><![CDATA[https://web.archive.org/web/20260611122253/https://www.theve..., https://archive.ph/y4V4k
-Comments URL: https://news.ycombinator.com/item?id=48489229
-Points: 171
-# Comments: 173]]></summary>
-        <author>
-            <name>rarisma</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: Fata – Spaced repetition to fight skill rot from AI coding]]></title>
-        <id>https://news.ycombinator.com/item?id=48489163</id>
-        <link href="https://fata.dev/"/>
-        <updated>2026-06-11T11:57:03.000Z</updated>
-        <summary type="html"><![CDATA[Hi HN, I'm Djoumé. I've been a developer for over 20 years, and like a lot of you I've been coding almost exclusively through an agent in the past few months.
-It's been amazing to vibe code prototypes in any stack, but when it comes to building something reliable/scalable, I couldn't effectively guide the agent unless I knew the technology. And the scariest part is that I'm seeing a lot of my technical skills decreasing due to AI coding.
-Reflecting on my journey, I also worry about how the new "AI native" generation of software developer is going to acquire technical depth.
-So I built fata.dev: short daily spaced-repetition sessions for programming skills (Rust, CSS, React, Python, TypeScript, Architecture).
-You can try it in the browser with no signup: https://fata.app/courses
-It's an offline-first mobile app built with Capacitor, RxDB and Firebase. The first courses were painfully written by hand, but most content is now AI-generated. It takes about 3000 LLM calls to generate a course, and every code samples goes through compilation, linting, unit testing, AI and a final manual review.
-Would very much appreciate any feedback on the product & website, what works and what could be better. Thanks!
-Comments URL: https://news.ycombinator.com/item?id=48489163
-Points: 71
-# Comments: 43]]></summary>
-        <author>
-            <name>djoume</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Global population movements from 1990 to 2023]]></title>
-        <id>https://news.ycombinator.com/item?id=48488901</id>
-        <link href="https://www.nature.com/articles/d41586-026-01796-y"/>
-        <updated>2026-06-11T11:26:25.000Z</updated>
-        <summary type="html"><![CDATA[https://www.socsc.hku.hk/rhps/global-migration/
-Comments URL: https://news.ycombinator.com/item?id=48488901
-Points: 72
-# Comments: 65]]></summary>
-        <author>
-            <name>tzury</name>
         </author>
     </entry>
 </feed>
