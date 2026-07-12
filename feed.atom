@@ -2,10 +2,65 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-07-12T17:05:45.273Z</updated>
+    <updated>2026-07-12T19:13:15.526Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Claude Code sends 33k tokens before reading the prompt; OpenCode sends 7k]]></title>
+        <id>https://news.ycombinator.com/item?id=48883275</id>
+        <link href="https://systima.ai/blog/claude-code-vs-opencode-token-overhead"/>
+        <updated>2026-07-12T18:25:51.000Z</updated>
+        <summary type="html"><![CDATA[This started based off of a hunch. We usually use OpenCode, but were 'forced' to use Claude Code for a while due to issues with Meridian. In that time, we saw the usage meter rise much, much more quickly than when using OpenCode.
+This was the initial anecdotal evidence, but we undertook this small study to collect empirical data:
+We added logging between the agentic coding tool (Claude Code and OpenCode) and Anthropic's endpoint, and captured all requests (and the returned usage blocks).
+With one caveat (toward the end of the post) we found unambiguously that Claude Code was far more inefficient in terms of its cache strategy and its harness token usage than OpenCode.
+Comments URL: https://news.ycombinator.com/item?id=48883275
+Points: 74
+# Comments: 26]]></summary>
+        <author>
+            <name>systima</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to Read More Books]]></title>
+        <id>https://news.ycombinator.com/item?id=48882056</id>
+        <link href="https://scotto.me/blog/2026-07-12-how-to-read-more-books/"/>
+        <updated>2026-07-12T15:47:16.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://scotto.me/blog/2026-07-12-how-to-read-more-books/
+Comments URL: https://news.ycombinator.com/item?id=48882056
+Points: 161
+# Comments: 89]]></summary>
+        <author>
+            <name>silcoon</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The shingles vaccine may reduce the risk of dementia]]></title>
+        <id>https://news.ycombinator.com/item?id=48881874</id>
+        <link href="https://www.economist.com/leaders/2026/07/09/a-no-brainer-for-protecting-your-brain"/>
+        <updated>2026-07-12T15:23:59.000Z</updated>
+        <summary type="html"><![CDATA[https://archive.ph/PzPop
+Comments URL: https://news.ycombinator.com/item?id=48881874
+Points: 111
+# Comments: 87]]></summary>
+        <author>
+            <name>saikatsg</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Don't you mean extinct?]]></title>
+        <id>https://news.ycombinator.com/item?id=48881830</id>
+        <link href="https://fabiensanglard.net/extinct/index.html"/>
+        <updated>2026-07-12T15:17:20.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://fabiensanglard.net/extinct/index.html
+Comments URL: https://news.ycombinator.com/item?id=48881830
+Points: 118
+# Comments: 51]]></summary>
+        <author>
+            <name>zdw</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[AI Boosts Research Careers but Flattens Scientific Discovery]]></title>
         <id>https://news.ycombinator.com/item?id=48881043</id>
@@ -69,6 +124,19 @@ Points: 159
 # Comments: 33]]></summary>
         <author>
             <name>subset</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Death of the Status Update: Why 55% of Americans Stopped Posting on Social Media]]></title>
+        <id>https://news.ycombinator.com/item?id=48879902</id>
+        <link href="https://ca.pcmag.com/social-media/16790/the-death-of-the-status-update-why-55-of-americans-stopped-posting-on-social-media"/>
+        <updated>2026-07-12T10:14:40.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://ca.pcmag.com/social-media/16790/the-death-of-the-status-update-why-55-of-americans-stopped-posting-on-social-media
+Comments URL: https://news.ycombinator.com/item?id=48879902
+Points: 53
+# Comments: 59]]></summary>
+        <author>
+            <name>thunderbong</name>
         </author>
     </entry>
     <entry>
@@ -2285,6 +2353,19 @@ Points: 65
 # Comments: 59]]></summary>
         <author>
             <name>stevekrouse</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Ditching Zotero for a Text File]]></title>
+        <id>https://news.ycombinator.com/item?id=48809916</id>
+        <link href="https://atthis.link/blog/2026/57207.html"/>
+        <updated>2026-07-06T20:17:19.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://atthis.link/blog/2026/57207.html
+Comments URL: https://news.ycombinator.com/item?id=48809916
+Points: 50
+# Comments: 29]]></summary>
+        <author>
+            <name>speckx</name>
         </author>
     </entry>
     <entry>
@@ -16006,45 +16087,6 @@ Points: 303
 # Comments: 157]]></summary>
         <author>
             <name>pera</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Leaving Mozilla]]></title>
-        <id>https://news.ycombinator.com/item?id=48513806</id>
-        <link href="https://blog.unitedheroes.net/5751"/>
-        <updated>2026-06-13T05:57:14.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://blog.unitedheroes.net/5751
-Comments URL: https://news.ycombinator.com/item?id=48513806
-Points: 70
-# Comments: 5]]></summary>
-        <author>
-            <name>martey</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Shepherd's Dog: A Game by the Most Dangerous AI Model]]></title>
-        <id>https://news.ycombinator.com/item?id=48513728</id>
-        <link href="https://koenvangilst.nl/lab/claude-fable-shepherds-dog"/>
-        <updated>2026-06-13T05:44:46.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://koenvangilst.nl/lab/claude-fable-shepherds-dog
-Comments URL: https://news.ycombinator.com/item?id=48513728
-Points: 52
-# Comments: 40]]></summary>
-        <author>
-            <name>vnglst</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[There is a shadow hanging over this Fable thing]]></title>
-        <id>https://news.ycombinator.com/item?id=48513536</id>
-        <link href="https://12gramsofcarbon.com/p/tech-things-there-is-a-massive-shadow"/>
-        <updated>2026-06-13T05:16:41.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://12gramsofcarbon.com/p/tech-things-there-is-a-massive-shadow
-Comments URL: https://news.ycombinator.com/item?id=48513536
-Points: 190
-# Comments: 164]]></summary>
-        <author>
-            <name>theahura</name>
         </author>
     </entry>
 </feed>

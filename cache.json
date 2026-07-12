@@ -6,6 +6,46 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=48883275",
+          "author": "systima",
+          "description": "This started based off of a hunch. We usually use OpenCode, but were 'forced' to use Claude Code for a while due to issues with Meridian. In that time, we saw the usage meter rise much, much more quickly than when using OpenCode.\nThis was the initial anecdotal evidence, but we undertook this small study to collect empirical data:\nWe added logging between the agentic coding tool (Claude Code and OpenCode) and Anthropic's endpoint, and captured all requests (and the returned usage blocks).\nWith one caveat (toward the end of the post) we found unambiguously that Claude Code was far more inefficient in terms of its cache strategy and its harness token usage than OpenCode.\nComments URL: https://news.ycombinator.com/item?id=48883275\nPoints: 74\n# Comments: 26",
+          "link": "https://systima.ai/blog/claude-code-vs-opencode-token-overhead",
+          "publishedOn": "2026-07-12T18:25:51.000Z",
+          "wordCount": 10479,
+          "title": "Claude Code sends 33k tokens before reading the prompt; OpenCode sends 7k",
+          "imageUrl": "https://systima.ai/images/claude-code-vs-opencode-banner.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48882056",
+          "author": "silcoon",
+          "description": "Article URL: https://scotto.me/blog/2026-07-12-how-to-read-more-books/\nComments URL: https://news.ycombinator.com/item?id=48882056\nPoints: 161\n# Comments: 89",
+          "link": "https://scotto.me/blog/2026-07-12-how-to-read-more-books/",
+          "publishedOn": "2026-07-12T15:47:16.000Z",
+          "wordCount": 2021,
+          "title": "How to Read More Books",
+          "imageUrl": "https://scotto.me/og/2026-07-12-how-to-read-more-books.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48881874",
+          "author": "saikatsg",
+          "description": "https://archive.ph/PzPop\nComments URL: https://news.ycombinator.com/item?id=48881874\nPoints: 111\n# Comments: 87",
+          "link": "https://www.economist.com/leaders/2026/07/09/a-no-brainer-for-protecting-your-brain",
+          "publishedOn": "2026-07-12T15:23:59.000Z",
+          "wordCount": null,
+          "title": "The shingles vaccine may reduce the risk of dementia",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48881830",
+          "author": "zdw",
+          "description": "Article URL: https://fabiensanglard.net/extinct/index.html\nComments URL: https://news.ycombinator.com/item?id=48881830\nPoints: 118\n# Comments: 51",
+          "link": "https://fabiensanglard.net/extinct/index.html",
+          "publishedOn": "2026-07-12T15:17:20.000Z",
+          "wordCount": 2473,
+          "title": "Don't you mean extinct?",
+          "imageUrl": null
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=48881043",
           "author": "zaikunzhang",
           "description": "Article URL: https://spectrum.ieee.org/ai-science-research-flattens-discovery\nComments URL: https://news.ycombinator.com/item?id=48881043\nPoints: 85\n# Comments: 68",
@@ -54,6 +94,16 @@
           "wordCount": 4577,
           "title": "Old and new apps, via modern coding agents by Terry Tao",
           "imageUrl": "https://terrytao.wordpress.com/wp-content/uploads/2026/07/image-2.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48879902",
+          "author": "thunderbong",
+          "description": "Article URL: https://ca.pcmag.com/social-media/16790/the-death-of-the-status-update-why-55-of-americans-stopped-posting-on-social-media\nComments URL: https://news.ycombinator.com/item?id=48879902\nPoints: 53\n# Comments: 59",
+          "link": "https://ca.pcmag.com/social-media/16790/the-death-of-the-status-update-why-55-of-americans-stopped-posting-on-social-media",
+          "publishedOn": "2026-07-12T10:14:40.000Z",
+          "wordCount": 5283,
+          "title": "Death of the Status Update: Why 55% of Americans Stopped Posting on Social Media",
+          "imageUrl": "https://sm.pcmag.com/t/pcmag_ca/news/t/the-death-/the-death-of-the-status-update-why-55-of-americans-stopped-p_esbq.1200.png"
         },
         {
           "id": "https://news.ycombinator.com/item?id=48879504",
@@ -1734,6 +1784,16 @@
           "wordCount": 940,
           "title": "Learning to code is still worthwhile",
           "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48809916",
+          "author": "speckx",
+          "description": "Article URL: https://atthis.link/blog/2026/57207.html\nComments URL: https://news.ycombinator.com/item?id=48809916\nPoints: 50\n# Comments: 29",
+          "link": "https://atthis.link/blog/2026/57207.html",
+          "publishedOn": "2026-07-06T20:17:19.000Z",
+          "wordCount": 1010,
+          "title": "Ditching Zotero for a Text File",
+          "imageUrl": "https://atthis.link/social.jpg"
         },
         {
           "id": "https://news.ycombinator.com/item?id=48809877",
@@ -12154,36 +12214,6 @@
           "wordCount": null,
           "title": "Israeli firm BlackCore suspected of meddling in New York and Scotland votes",
           "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48513806",
-          "author": "martey",
-          "description": "Article URL: https://blog.unitedheroes.net/5751\nComments URL: https://news.ycombinator.com/item?id=48513806\nPoints: 70\n# Comments: 5",
-          "link": "https://blog.unitedheroes.net/5751",
-          "publishedOn": "2026-06-13T05:57:14.000Z",
-          "wordCount": 4491,
-          "title": "Leaving Mozilla",
-          "imageUrl": "https://blog.unitedheroes.net/JRS_128x128.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48513728",
-          "author": "vnglst",
-          "description": "Article URL: https://koenvangilst.nl/lab/claude-fable-shepherds-dog\nComments URL: https://news.ycombinator.com/item?id=48513728\nPoints: 52\n# Comments: 40",
-          "link": "https://koenvangilst.nl/lab/claude-fable-shepherds-dog",
-          "publishedOn": "2026-06-13T05:44:46.000Z",
-          "wordCount": 338,
-          "title": "Shepherd's Dog: A Game by the Most Dangerous AI Model",
-          "imageUrl": "https://koenvangilst.nl/og/claude-fable-shepherds-dog.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48513536",
-          "author": "theahura",
-          "description": "Article URL: https://12gramsofcarbon.com/p/tech-things-there-is-a-massive-shadow\nComments URL: https://news.ycombinator.com/item?id=48513536\nPoints: 190\n# Comments: 164",
-          "link": "https://12gramsofcarbon.com/p/tech-things-there-is-a-massive-shadow",
-          "publishedOn": "2026-06-13T05:16:41.000Z",
-          "wordCount": 6414,
-          "title": "There is a shadow hanging over this Fable thing",
-          "imageUrl": "https://substackcdn.com/image/fetch/$s_!jq2v!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fdb77ab5f-d7bc-49cf-a995-77b976afe0fc_1200x630.png"
         }
       ]
     }
