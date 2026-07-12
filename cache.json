@@ -6,6 +6,16 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=48883343",
+          "author": "therepanic",
+          "description": "Article URL: https://geohot.github.io//blog/jekyll/update/2026/07/12/i-love-llms.html\nComments URL: https://news.ycombinator.com/item?id=48883343\nPoints: 163\n# Comments: 83",
+          "link": "https://geohot.github.io//blog/jekyll/update/2026/07/12/i-love-llms.html",
+          "publishedOn": "2026-07-12T18:31:56.000Z",
+          "wordCount": 675,
+          "title": "I love LLMs, I hate hype",
+          "imageUrl": null
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=48883275",
           "author": "systima",
           "description": "This started based off of a hunch. We usually use OpenCode, but were 'forced' to use Claude Code for a while due to issues with Meridian. In that time, we saw the usage meter rise much, much more quickly than when using OpenCode.\nThis was the initial anecdotal evidence, but we undertook this small study to collect empirical data:\nWe added logging between the agentic coding tool (Claude Code and OpenCode) and Anthropic's endpoint, and captured all requests (and the returned usage blocks).\nWith one caveat (toward the end of the post) we found unambiguously that Claude Code was far more inefficient in terms of its cache strategy and its harness token usage than OpenCode.\nComments URL: https://news.ycombinator.com/item?id=48883275\nPoints: 74\n# Comments: 26",
@@ -14,6 +24,66 @@
           "wordCount": 10479,
           "title": "Claude Code sends 33k tokens before reading the prompt; OpenCode sends 7k",
           "imageUrl": "https://systima.ai/images/claude-code-vs-opencode-banner.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48882956",
+          "author": "supo",
+          "description": "Article URL: https://www.motivenotes.ai/p/against-usefulness\nComments URL: https://news.ycombinator.com/item?id=48882956\nPoints: 51\n# Comments: 11",
+          "link": "https://www.motivenotes.ai/p/against-usefulness",
+          "publishedOn": "2026-07-12T17:47:07.000Z",
+          "wordCount": 5241,
+          "title": "Against Usefulness",
+          "imageUrl": "https://substackcdn.com/image/fetch/$s_!PChk!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F568f9825-5d39-466d-919c-45f7811bf475_1536x2048.jpeg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48882569",
+          "author": "BerislavLopac",
+          "description": "Article URL: https://www.larp.website/\nComments URL: https://news.ycombinator.com/item?id=48882569\nPoints: 71\n# Comments: 12",
+          "link": "https://www.larp.website/",
+          "publishedOn": "2026-07-12T16:56:41.000Z",
+          "wordCount": 4476,
+          "title": "LARP – Revenue infrastructure for serious founders",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48882562",
+          "author": "hsn915",
+          "description": "Article URL: https://github.com/hasenj/go-shirei/\nComments URL: https://news.ycombinator.com/item?id=48882562\nPoints: 65\n# Comments: 35",
+          "link": "https://github.com/hasenj/go-shirei/",
+          "publishedOn": "2026-07-12T16:55:42.000Z",
+          "wordCount": 2309,
+          "title": "Show HN: Shirei, cross-platform GUI framework in native Go",
+          "imageUrl": "https://opengraph.githubassets.com/0ef07295b116064f1e36655f5b01cf69626e817bf6f97b08111a7fccec8b4ee9/hasenj/go-shirei"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48882554",
+          "author": "root-parent",
+          "description": "Article URL: https://arxiv.org/abs/2607.06377\nComments URL: https://news.ycombinator.com/item?id=48882554\nPoints: 65\n# Comments: 33",
+          "link": "https://arxiv.org/abs/2607.06377",
+          "publishedOn": "2026-07-12T16:54:47.000Z",
+          "wordCount": 616,
+          "title": "Automation Without Understanding",
+          "imageUrl": "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48882189",
+          "author": "turrini",
+          "description": "Article URL: https://marc.info/?l=openbsd-misc&m=119318909016582\nComments URL: https://news.ycombinator.com/item?id=48882189\nPoints: 63\n# Comments: 53",
+          "link": "https://marc.info/?l=openbsd-misc&m=119318909016582",
+          "publishedOn": "2026-07-12T16:05:29.000Z",
+          "wordCount": 218,
+          "title": "Theo de Raadt: \"You've been smoking something mind altering\" (2007)",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48882097",
+          "author": "mb1699",
+          "description": "Article URL: https://hidden-phenomena.com/articles/modular\nComments URL: https://news.ycombinator.com/item?id=48882097\nPoints: 52\n# Comments: 16",
+          "link": "https://hidden-phenomena.com/articles/modular",
+          "publishedOn": "2026-07-12T15:53:53.000Z",
+          "wordCount": 1005,
+          "title": "Why study Diophantine equations?",
+          "imageUrl": null
         },
         {
           "id": "https://news.ycombinator.com/item?id=48882056",
@@ -12204,16 +12274,6 @@
           "wordCount": 1693,
           "title": "A low-carbon computing platform from your retired phones",
           "imageUrl": "https://storage.googleapis.com/gweb-research2023-media/images/HO_previewImage1.width-800.format-jpeg.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48514560",
-          "author": "pera",
-          "description": "Article URL: https://www.reuters.com/world/israeli-firm-blackcore-also-suspected-meddling-nyc-scotland-votes-french-2026-06-11/\nComments URL: https://news.ycombinator.com/item?id=48514560\nPoints: 303\n# Comments: 157",
-          "link": "https://www.reuters.com/world/israeli-firm-blackcore-also-suspected-meddling-nyc-scotland-votes-french-2026-06-11/",
-          "publishedOn": "2026-06-13T07:45:39.000Z",
-          "wordCount": null,
-          "title": "Israeli firm BlackCore suspected of meddling in New York and Scotland votes",
-          "imageUrl": null
         }
       ]
     }
