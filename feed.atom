@@ -2,10 +2,39 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-07-13T23:00:02.632Z</updated>
+    <updated>2026-07-14T00:01:09.461Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Claude is just Mr. Meeseeks]]></title>
+        <id>https://news.ycombinator.com/item?id=48899529</id>
+        <link href="https://github.com/thephw/claude-meseeks"/>
+        <updated>2026-07-13T22:03:54.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://github.com/thephw/claude-meseeks
+Comments URL: https://news.ycombinator.com/item?id=48899529
+Points: 83
+# Comments: 26]]></summary>
+        <author>
+            <name>patrickwiseman</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: YouTube Guitar Tab Parser]]></title>
+        <id>https://news.ycombinator.com/item?id=48898154</id>
+        <link href="https://github.com/marcelpanse/youtube-guitar-tab-parser"/>
+        <updated>2026-07-13T20:13:14.000Z</updated>
+        <summary type="html"><![CDATA[I created a simple CLI that turns a YouTube guitar-lesson video into a PDF of the guitar tab.
+There are services that transcribe music from Youtube videos into tabs, but they never work well enough for me. Instead I'm taking a simpler approach. 
+It downloads the video, samples frames, uses Claude vision to locate the tab region, crops every frame to that region, de-duplicates the crops by the bar number printed on each line of the score, and stitches the distinct tab lines vertically into a PDF.
+I didn't test it on a lot of different Youtube videos yet, so problem will arise for sure.
+Comments URL: https://news.ycombinator.com/item?id=48898154
+Points: 54
+# Comments: 40]]></summary>
+        <author>
+            <name>neogenix</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Linux 0.11 rewritten in idiomatic Rust, boots in QEMU]]></title>
         <id>https://news.ycombinator.com/item?id=48898134</id>
@@ -59,6 +88,19 @@ Points: 59
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[The infinite scroll may become endangered if controversial Calif. law passes]]></title>
+        <id>https://news.ycombinator.com/item?id=48897104</id>
+        <link href="https://www.sfgate.com/politics/article/meta-social-media-teenagers-22337724.php"/>
+        <updated>2026-07-13T18:53:53.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.sfgate.com/politics/article/meta-social-media-teenagers-22337724.php
+Comments URL: https://news.ycombinator.com/item?id=48897104
+Points: 50
+# Comments: 62]]></summary>
+        <author>
+            <name>Stratoscope</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[The real prices of frontier models. Tokens * Price, right?]]></title>
         <id>https://news.ycombinator.com/item?id=48896800</id>
         <link href="https://playcode.io/blog/real-price-of-frontier-models"/>
@@ -108,6 +150,19 @@ Points: 75
 # Comments: 17]]></summary>
         <author>
             <name>cakehonolulu</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: BillAI Bass, an AI-Powered Big Mouth Billy Bass Using Strands Agents]]></title>
+        <id>https://news.ycombinator.com/item?id=48896599</id>
+        <link href="https://github.com/morganwilliscloud/billai-bass"/>
+        <updated>2026-07-13T18:18:23.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://github.com/morganwilliscloud/billai-bass
+Comments URL: https://news.ycombinator.com/item?id=48896599
+Points: 52
+# Comments: 25]]></summary>
+        <author>
+            <name>mtw14</name>
         </author>
     </entry>
     <entry>
@@ -16297,34 +16352,6 @@ Points: 61
 # Comments: 16]]></summary>
         <author>
             <name>eatonphil</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How to Earn a Billion Dollars]]></title>
-        <id>https://news.ycombinator.com/item?id=48526360</id>
-        <link href="https://paulgraham.com/earn.html"/>
-        <updated>2026-06-14T11:50:48.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://paulgraham.com/earn.html
-Comments URL: https://news.ycombinator.com/item?id=48526360
-Points: 139
-# Comments: 353]]></summary>
-        <author>
-            <name>kingstoned</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: Capacitor Alarm Clock]]></title>
-        <id>https://news.ycombinator.com/item?id=48526174</id>
-        <link href="https://github.com/ArcaEge/capacitor-alarm-clock"/>
-        <updated>2026-06-14T11:19:56.000Z</updated>
-        <summary type="html"><![CDATA[I made an alarm clock that blows up capacitors to wake you up.
-There are more details on the Github repo but it's made from an esp32-c3 as the microcontroller, with 3 capacitor slots. There are relays on each capacitor slot to put 15v reverse voltage on the capacitor, with 5.1 ohm resistors on each slot for current limiting in case the capacitor shorts out. I also chucked in an SSD1315 OLED to show the time and a menu to configure it, although there's a web UI as well. The esp32 also means you can fetch the time from NTP.
-It also functions as a small heater since I used LDOs to step down 15v to 3.3v for the esp32, I was lazy and didn't use a buck converter circuit :)
-Comments URL: https://news.ycombinator.com/item?id=48526174
-Points: 115
-# Comments: 34]]></summary>
-        <author>
-            <name>arcaege</name>
         </author>
     </entry>
 </feed>

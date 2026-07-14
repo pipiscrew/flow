@@ -6,6 +6,26 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=48899529",
+          "author": "patrickwiseman",
+          "description": "Article URL: https://github.com/thephw/claude-meseeks\nComments URL: https://news.ycombinator.com/item?id=48899529\nPoints: 83\n# Comments: 26",
+          "link": "https://github.com/thephw/claude-meseeks",
+          "publishedOn": "2026-07-13T22:03:54.000Z",
+          "wordCount": 3439,
+          "title": "Claude is just Mr. Meeseeks",
+          "imageUrl": "https://opengraph.githubassets.com/17d9c0b7270cdcff3eb0bb8770dc48891e60af94d3ed040a9e0addd7d840b8a0/thephw/claude-meseeks"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48898154",
+          "author": "neogenix",
+          "description": "I created a simple CLI that turns a YouTube guitar-lesson video into a PDF of the guitar tab.\nThere are services that transcribe music from Youtube videos into tabs, but they never work well enough for me. Instead I'm taking a simpler approach. \nIt downloads the video, samples frames, uses Claude vision to locate the tab region, crops every frame to that region, de-duplicates the crops by the bar number printed on each line of the score, and stitches the distinct tab lines vertically into a PDF.\nI didn't test it on a lot of different Youtube videos yet, so problem will arise for sure.\nComments URL: https://news.ycombinator.com/item?id=48898154\nPoints: 54\n# Comments: 40",
+          "link": "https://github.com/marcelpanse/youtube-guitar-tab-parser",
+          "publishedOn": "2026-07-13T20:13:14.000Z",
+          "wordCount": 2202,
+          "title": "Show HN: YouTube Guitar Tab Parser",
+          "imageUrl": "https://opengraph.githubassets.com/ff9cbdfd1eeb216c3ae1e860c4bf66380a9f629c50d67a524eb073e0fb9da41b/marcelpanse/youtube-guitar-tab-parser"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=48898134",
           "author": "arto",
           "description": "Article URL: https://github.com/Poseidon-fan/linux-0.11-rs\nComments URL: https://news.ycombinator.com/item?id=48898134\nPoints: 58\n# Comments: 39",
@@ -43,6 +63,16 @@
           "publishedOn": "2026-07-13T19:52:25.000Z",
           "wordCount": null,
           "title": "Telegram's t.me domain has been suspended",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48897104",
+          "author": "Stratoscope",
+          "description": "Article URL: https://www.sfgate.com/politics/article/meta-social-media-teenagers-22337724.php\nComments URL: https://news.ycombinator.com/item?id=48897104\nPoints: 50\n# Comments: 62",
+          "link": "https://www.sfgate.com/politics/article/meta-social-media-teenagers-22337724.php",
+          "publishedOn": "2026-07-13T18:53:53.000Z",
+          "wordCount": 177,
+          "title": "The infinite scroll may become endangered if controversial Calif. law passes",
           "imageUrl": null
         },
         {
@@ -84,6 +114,16 @@
           "wordCount": 2813,
           "title": "Linux on the Sega 32X. Who needs hardware synchronization primitives anyway?",
           "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48896599",
+          "author": "mtw14",
+          "description": "Article URL: https://github.com/morganwilliscloud/billai-bass\nComments URL: https://news.ycombinator.com/item?id=48896599\nPoints: 52\n# Comments: 25",
+          "link": "https://github.com/morganwilliscloud/billai-bass",
+          "publishedOn": "2026-07-13T18:18:23.000Z",
+          "wordCount": 15968,
+          "title": "Show HN: BillAI Bass, an AI-Powered Big Mouth Billy Bass Using Strands Agents",
+          "imageUrl": "https://opengraph.githubassets.com/ff9cbdfd1eeb216c3ae1e860c4bf66380a9f629c50d67a524eb073e0fb9da41b/morganwilliscloud/billai-bass"
         },
         {
           "id": "https://news.ycombinator.com/item?id=48896286",
@@ -12374,26 +12414,6 @@
           "wordCount": 2159,
           "title": "Formal Methods and the Future of Programming",
           "imageUrl": "https://blog.janestreet.com/formal-methods-at-jane-street-index/./oxcaml-prover.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48526360",
-          "author": "kingstoned",
-          "description": "Article URL: https://paulgraham.com/earn.html\nComments URL: https://news.ycombinator.com/item?id=48526360\nPoints: 139\n# Comments: 353",
-          "link": "https://paulgraham.com/earn.html",
-          "publishedOn": "2026-06-14T11:50:48.000Z",
-          "wordCount": 2547,
-          "title": "How to Earn a Billion Dollars",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48526174",
-          "author": "arcaege",
-          "description": "I made an alarm clock that blows up capacitors to wake you up.\nThere are more details on the Github repo but it's made from an esp32-c3 as the microcontroller, with 3 capacitor slots. There are relays on each capacitor slot to put 15v reverse voltage on the capacitor, with 5.1 ohm resistors on each slot for current limiting in case the capacitor shorts out. I also chucked in an SSD1315 OLED to show the time and a menu to configure it, although there's a web UI as well. The esp32 also means you can fetch the time from NTP.\nIt also functions as a small heater since I used LDOs to step down 15v to 3.3v for the esp32, I was lazy and didn't use a buck converter circuit :)\nComments URL: https://news.ycombinator.com/item?id=48526174\nPoints: 115\n# Comments: 34",
-          "link": "https://github.com/ArcaEge/capacitor-alarm-clock",
-          "publishedOn": "2026-06-14T11:19:56.000Z",
-          "wordCount": 2974,
-          "title": "Show HN: Capacitor Alarm Clock",
-          "imageUrl": "https://opengraph.githubassets.com/96b27d00c8c87dd22271fe2bdecebd9a4bd239a925caa63559f29b53aebea6a0/ArcaEge/capacitor-alarm-clock"
         }
       ]
     }
