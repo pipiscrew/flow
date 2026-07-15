@@ -6,6 +6,56 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=48915004",
+          "author": "jervant",
+          "description": "Article URL: https://tailscale.com/security-bulletins\nComments URL: https://news.ycombinator.com/item?id=48915004\nPoints: 54\n# Comments: 21",
+          "link": "https://tailscale.com/security-bulletins",
+          "publishedOn": "2026-07-15T01:08:26.000Z",
+          "wordCount": 27840,
+          "title": "TS-2026-009: Insecure argument handling in Tailscale SSH permitted root access",
+          "imageUrl": "https://cdn.sanity.io/images/w77i7m8x/production/8e0455b2d9b33c6151016afdf2ea81d7623c2f04-1200x628.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48914683",
+          "author": "measurablefunc",
+          "description": "Article URL: https://fortune.com/2026/07/14/data-centers-23-billion-electricity-bills/\nComments URL: https://news.ycombinator.com/item?id=48914683\nPoints: 85\n# Comments: 42",
+          "link": "https://fortune.com/2026/07/14/data-centers-23-billion-electricity-bills/",
+          "publishedOn": "2026-07-15T00:20:31.000Z",
+          "wordCount": 9059,
+          "title": "Data centers have hiked electricity prices on the public by $23B",
+          "imageUrl": "https://fortune.com/img-assets/wp-content/uploads/2026/07/GettyImages-2285284906-e1783971804803.jpg?resize=1200,600"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48914644",
+          "author": "LookAtThatBacon",
+          "description": "Article URL: https://vpd.ca/\nComments URL: https://news.ycombinator.com/item?id=48914644\nPoints: 141\n# Comments: 53",
+          "link": "https://vpd.ca/",
+          "publishedOn": "2026-07-15T00:15:53.000Z",
+          "wordCount": null,
+          "title": "Vancouver PD website features Quick Escape button that wipes itself from history",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48913763",
+          "author": "kevinjosethomas",
+          "description": "Article URL: https://www.benjamin-bai.com/projects/lemario\nComments URL: https://news.ycombinator.com/item?id=48913763\nPoints: 61\n# Comments: 7",
+          "link": "https://www.benjamin-bai.com/projects/lemario",
+          "publishedOn": "2026-07-14T22:30:47.000Z",
+          "wordCount": 2285,
+          "title": "LeMario: Training a JEPA World Model on Super Mario Bros",
+          "imageUrl": "https://www.benjamin-bai.com/project-assets/lemario/architecture.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48913443",
+          "author": "1vuio0pswjnm7",
+          "description": "Article URL: https://www.bis.org/publ/bisbull120.pdf\nComments URL: https://news.ycombinator.com/item?id=48913443\nPoints: 103\n# Comments: 53",
+          "link": "https://www.bis.org/publ/bisbull120.pdf",
+          "publishedOn": "2026-07-14T21:58:36.000Z",
+          "wordCount": 9847,
+          "title": "Financing the AI boom: from cash flows to debt [pdf]",
+          "imageUrl": null
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=48913050",
           "author": "woodruffw",
           "description": "Article URL: https://github.blog/changelog/2026-07-14-dependabot-version-updates-introduce-default-package-cooldown/\nComments URL: https://news.ycombinator.com/item?id=48913050\nPoints: 62\n# Comments: 41",
@@ -156,6 +206,16 @@
           "imageUrl": null
         },
         {
+          "id": "https://news.ycombinator.com/item?id=48906041",
+          "author": "andsoitis",
+          "description": "Article URL: https://gwern.net/guardian-angel\nComments URL: https://news.ycombinator.com/item?id=48906041\nPoints: 62\n# Comments: 11",
+          "link": "https://gwern.net/guardian-angel",
+          "publishedOn": "2026-07-14T12:50:29.000Z",
+          "wordCount": 12889,
+          "title": "Guardian Angels: LLM Personalization for Productivity and Security",
+          "imageUrl": null
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=48905919",
           "author": "Danau5tin",
           "description": "Article URL: https://github.com/Danau5tin/ai-trains-ai\nComments URL: https://news.ycombinator.com/item?id=48905919\nPoints: 55\n# Comments: 23",
@@ -204,6 +264,16 @@
           "wordCount": 458,
           "title": "How to stop Claude from saying load-bearing",
           "imageUrl": "https://jola.dev/images/og/posts/how-to-stop-claude-from-saying-load-bearing.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48905183",
+          "author": "homarp",
+          "description": "Article URL: https://www.nature.com/articles/d41586-026-02170-8\nComments URL: https://news.ycombinator.com/item?id=48905183\nPoints: 51\n# Comments: 9",
+          "link": "https://www.nature.com/articles/d41586-026-02170-8",
+          "publishedOn": "2026-07-14T11:40:34.000Z",
+          "wordCount": 3360,
+          "title": "Mathematical texts from a Maya site in Guatemala identify an ancient astronomer",
+          "imageUrl": "https://media.nature.com/lw1200/magazine-assets/d41586-026-02170-8/d41586-026-02170-8_52959564.jpg"
         },
         {
           "id": "https://news.ycombinator.com/item?id=48905118",
@@ -12534,116 +12604,6 @@
           "wordCount": 2143,
           "title": "Show HN: machine0 – Persistent NixOS VMs You Control from the CLI",
           "imageUrl": "https://machine0.io/opengraph-image?d0b124732c7005de"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48542480",
-          "author": "chadfowler",
-          "description": "Article URL: https://www.iroh.computer/blog/v1\nComments URL: https://news.ycombinator.com/item?id=48542480\nPoints: 442\n# Comments: 151",
-          "link": "https://www.iroh.computer/blog/v1",
-          "publishedOn": "2026-06-15T15:13:06.000Z",
-          "wordCount": 2963,
-          "title": "Iroh 1.0",
-          "imageUrl": "https://www.iroh.computer/api/og?title=Blog&subtitle=Iroh%201.0%20-%20Dial%20Keys,%20not%20IPs"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48542433",
-          "author": "rsgm",
-          "description": "Article URL: https://rsgm.dev/post/ai-dev-platform/\nComments URL: https://news.ycombinator.com/item?id=48542433\nPoints: 74\n# Comments: 24",
-          "link": "https://rsgm.dev/post/ai-dev-platform/",
-          "publishedOn": "2026-06-15T15:09:40.000Z",
-          "wordCount": 971,
-          "title": "My Homelab AI Dev Platform",
-          "imageUrl": "https://rsgm.dev/_astro/ai-pr-1.PYIiaDRf.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48542132",
-          "author": "bookofjoe",
-          "description": "Article URL: https://www.monash.edu/news/articles/copper-drug-restores-memory-and-clears-toxic-alzheimers-proteins\nComments URL: https://news.ycombinator.com/item?id=48542132\nPoints: 124\n# Comments: 43",
-          "link": "https://www.monash.edu/news/articles/copper-drug-restores-memory-and-clears-toxic-alzheimers-proteins",
-          "publishedOn": "2026-06-15T14:48:47.000Z",
-          "wordCount": null,
-          "title": "Copper transport drug restores memory and clears toxic Alzheimer's proteins",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48542100",
-          "author": "cloudking",
-          "description": "Has anyone here fully swapped Claude/GPT for a local model as their main coding tool, not just for side experiments? If so, please share your setup and performance (e.g tok/s)\nComments URL: https://news.ycombinator.com/item?id=48542100\nPoints: 105\n# Comments: 57",
-          "link": "https://news.ycombinator.com/item?id=48542100",
-          "publishedOn": "2026-06-15T14:46:53.000Z",
-          "wordCount": 4161,
-          "title": "Ask HN: Has anyone replaced Claude/GPT with a local model for daily coding?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48541777",
-          "author": "pseudolus",
-          "description": "Article URL: https://spectrum.ieee.org/william-heronemus-wind-energy\nComments URL: https://news.ycombinator.com/item?id=48541777\nPoints: 55\n# Comments: 4",
-          "link": "https://spectrum.ieee.org/william-heronemus-wind-energy",
-          "publishedOn": "2026-06-15T14:25:51.000Z",
-          "wordCount": 14399,
-          "title": "A 1976 university experiment spun up the U.S. wind industry",
-          "imageUrl": "https://spectrum.ieee.org/media-library/image.jpg?id=66894045&width=1200&height=600&coordinates=0%2C125%2C0%2C125"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48541014",
-          "author": "smashini",
-          "description": "Article URL: https://github.com/sammysltd/euromesh\nComments URL: https://news.ycombinator.com/item?id=48541014\nPoints: 96\n# Comments: 137",
-          "link": "https://github.com/sammysltd/euromesh",
-          "publishedOn": "2026-06-15T13:31:09.000Z",
-          "wordCount": 2666,
-          "title": "Can Europe train a frontier AI model on the compute it owns?",
-          "imageUrl": "https://opengraph.githubassets.com/2e654a272de333fc68be310107f8cb4b04106fcd7540b22588dadd2190311189/sammysltd/euromesh"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48540945",
-          "author": "bookofjoe",
-          "description": "Article URL: https://developers.google.com/maps/documentation/earth/flight-simulator\nComments URL: https://news.ycombinator.com/item?id=48540945\nPoints: 116\n# Comments: 38",
-          "link": "https://developers.google.com/maps/documentation/earth/flight-simulator",
-          "publishedOn": "2026-06-15T13:26:08.000Z",
-          "wordCount": 1876,
-          "title": "Google Flight Simulator",
-          "imageUrl": "https://developers.google.com/static/maps/images/google-maps-platform-1200x675.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48540854",
-          "author": "rishikeshs",
-          "description": "Article URL: https://crankgpt.com\nComments URL: https://news.ycombinator.com/item?id=48540854\nPoints: 436\n# Comments: 173",
-          "link": "https://crankgpt.com/",
-          "publishedOn": "2026-06-15T13:20:13.000Z",
-          "wordCount": 415,
-          "title": "CrankGPT",
-          "imageUrl": "https://crankgpt.com/Images/og.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48540844",
-          "author": "tuhtah",
-          "description": "https://www.hetzner.com/pressroom/standardization-and-price-...\nComments URL: https://news.ycombinator.com/item?id=48540844\nPoints: 76\n# Comments: 236",
-          "link": "https://docs.hetzner.com/general/infrastructure-and-availability/price-adjustment/#cloud-servers",
-          "publishedOn": "2026-06-15T13:19:39.000Z",
-          "wordCount": 4485,
-          "title": "Hetzner Price Adjustment",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48540499",
-          "author": "thm",
-          "description": "Article URL: https://www.wsj.com/business/deals/fox-roku-deal-f6e564f9\nComments URL: https://news.ycombinator.com/item?id=48540499\nPoints: 150\n# Comments: 201",
-          "link": "https://www.wsj.com/business/deals/fox-roku-deal-f6e564f9",
-          "publishedOn": "2026-06-15T12:50:03.000Z",
-          "wordCount": null,
-          "title": "Fox to buy Roku",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48540126",
-          "author": "colesantiago",
-          "description": "Article URL: https://www.salesforce.com/news/press-releases/2026/06/15/salesforce-signs-definitive-agreement-to-acquire-fin/?bc=HL\nComments URL: https://news.ycombinator.com/item?id=48540126\nPoints: 222\n# Comments: 180",
-          "link": "https://www.salesforce.com/news/press-releases/2026/06/15/salesforce-signs-definitive-agreement-to-acquire-fin/?bc=HL",
-          "publishedOn": "2026-06-15T12:08:59.000Z",
-          "wordCount": 3878,
-          "title": "Salesforce to Acquire Fin (formerly Intercom) for $3.6B",
-          "imageUrl": "https://www.salesforce.com/news/wp-content/uploads/sites/3/2026/06/Option-02.png"
         }
       ]
     }

@@ -2,10 +2,75 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-07-14T23:56:44.907Z</updated>
+    <updated>2026-07-15T03:20:00.226Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[TS-2026-009: Insecure argument handling in Tailscale SSH permitted root access]]></title>
+        <id>https://news.ycombinator.com/item?id=48915004</id>
+        <link href="https://tailscale.com/security-bulletins"/>
+        <updated>2026-07-15T01:08:26.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://tailscale.com/security-bulletins
+Comments URL: https://news.ycombinator.com/item?id=48915004
+Points: 54
+# Comments: 21]]></summary>
+        <author>
+            <name>jervant</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Data centers have hiked electricity prices on the public by $23B]]></title>
+        <id>https://news.ycombinator.com/item?id=48914683</id>
+        <link href="https://fortune.com/2026/07/14/data-centers-23-billion-electricity-bills/"/>
+        <updated>2026-07-15T00:20:31.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://fortune.com/2026/07/14/data-centers-23-billion-electricity-bills/
+Comments URL: https://news.ycombinator.com/item?id=48914683
+Points: 85
+# Comments: 42]]></summary>
+        <author>
+            <name>measurablefunc</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Vancouver PD website features Quick Escape button that wipes itself from history]]></title>
+        <id>https://news.ycombinator.com/item?id=48914644</id>
+        <link href="https://vpd.ca/"/>
+        <updated>2026-07-15T00:15:53.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://vpd.ca/
+Comments URL: https://news.ycombinator.com/item?id=48914644
+Points: 141
+# Comments: 53]]></summary>
+        <author>
+            <name>LookAtThatBacon</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[LeMario: Training a JEPA World Model on Super Mario Bros]]></title>
+        <id>https://news.ycombinator.com/item?id=48913763</id>
+        <link href="https://www.benjamin-bai.com/projects/lemario"/>
+        <updated>2026-07-14T22:30:47.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.benjamin-bai.com/projects/lemario
+Comments URL: https://news.ycombinator.com/item?id=48913763
+Points: 61
+# Comments: 7]]></summary>
+        <author>
+            <name>kevinjosethomas</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Financing the AI boom: from cash flows to debt [pdf]]]></title>
+        <id>https://news.ycombinator.com/item?id=48913443</id>
+        <link href="https://www.bis.org/publ/bisbull120.pdf"/>
+        <updated>2026-07-14T21:58:36.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.bis.org/publ/bisbull120.pdf
+Comments URL: https://news.ycombinator.com/item?id=48913443
+Points: 103
+# Comments: 53]]></summary>
+        <author>
+            <name>1vuio0pswjnm7</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Dependabot version updates introduce default package cooldown]]></title>
         <id>https://news.ycombinator.com/item?id=48913050</id>
@@ -202,6 +267,19 @@ Points: 84
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Guardian Angels: LLM Personalization for Productivity and Security]]></title>
+        <id>https://news.ycombinator.com/item?id=48906041</id>
+        <link href="https://gwern.net/guardian-angel"/>
+        <updated>2026-07-14T12:50:29.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://gwern.net/guardian-angel
+Comments URL: https://news.ycombinator.com/item?id=48906041
+Points: 62
+# Comments: 11]]></summary>
+        <author>
+            <name>andsoitis</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Show HN: I RL-trained an agent that trains models with RL (for –$1.3k)]]></title>
         <id>https://news.ycombinator.com/item?id=48905919</id>
         <link href="https://github.com/Danau5tin/ai-trains-ai"/>
@@ -264,6 +342,19 @@ Points: 97
 # Comments: 166]]></summary>
         <author>
             <name>shintoist</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Mathematical texts from a Maya site in Guatemala identify an ancient astronomer]]></title>
+        <id>https://news.ycombinator.com/item?id=48905183</id>
+        <link href="https://www.nature.com/articles/d41586-026-02170-8"/>
+        <updated>2026-07-14T11:40:34.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.nature.com/articles/d41586-026-02170-8
+Comments URL: https://news.ycombinator.com/item?id=48905183
+Points: 51
+# Comments: 9]]></summary>
+        <author>
+            <name>homarp</name>
         </author>
     </entry>
     <entry>
@@ -16514,149 +16605,6 @@ You can think of machine0 as a modern VPS provider. VMs stay on unless switched-
 What makes machine0 unique is that it has first class support for NixOS! In a nutshell, NixOS lets you define your entire OS as code (think Terraform but for your Linux). A flake declares your system state (packages, services, firewall rules, users...) and pins all dependencies via a lockfile. Given the same flake…]]></summary>
         <author>
             <name>bwm</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Iroh 1.0]]></title>
-        <id>https://news.ycombinator.com/item?id=48542480</id>
-        <link href="https://www.iroh.computer/blog/v1"/>
-        <updated>2026-06-15T15:13:06.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.iroh.computer/blog/v1
-Comments URL: https://news.ycombinator.com/item?id=48542480
-Points: 442
-# Comments: 151]]></summary>
-        <author>
-            <name>chadfowler</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[My Homelab AI Dev Platform]]></title>
-        <id>https://news.ycombinator.com/item?id=48542433</id>
-        <link href="https://rsgm.dev/post/ai-dev-platform/"/>
-        <updated>2026-06-15T15:09:40.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://rsgm.dev/post/ai-dev-platform/
-Comments URL: https://news.ycombinator.com/item?id=48542433
-Points: 74
-# Comments: 24]]></summary>
-        <author>
-            <name>rsgm</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Copper transport drug restores memory and clears toxic Alzheimer's proteins]]></title>
-        <id>https://news.ycombinator.com/item?id=48542132</id>
-        <link href="https://www.monash.edu/news/articles/copper-drug-restores-memory-and-clears-toxic-alzheimers-proteins"/>
-        <updated>2026-06-15T14:48:47.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.monash.edu/news/articles/copper-drug-restores-memory-and-clears-toxic-alzheimers-proteins
-Comments URL: https://news.ycombinator.com/item?id=48542132
-Points: 124
-# Comments: 43]]></summary>
-        <author>
-            <name>bookofjoe</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ask HN: Has anyone replaced Claude/GPT with a local model for daily coding?]]></title>
-        <id>https://news.ycombinator.com/item?id=48542100</id>
-        <link href="https://news.ycombinator.com/item?id=48542100"/>
-        <updated>2026-06-15T14:46:53.000Z</updated>
-        <summary type="html"><![CDATA[Has anyone here fully swapped Claude/GPT for a local model as their main coding tool, not just for side experiments? If so, please share your setup and performance (e.g tok/s)
-Comments URL: https://news.ycombinator.com/item?id=48542100
-Points: 105
-# Comments: 57]]></summary>
-        <author>
-            <name>cloudking</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A 1976 university experiment spun up the U.S. wind industry]]></title>
-        <id>https://news.ycombinator.com/item?id=48541777</id>
-        <link href="https://spectrum.ieee.org/william-heronemus-wind-energy"/>
-        <updated>2026-06-15T14:25:51.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://spectrum.ieee.org/william-heronemus-wind-energy
-Comments URL: https://news.ycombinator.com/item?id=48541777
-Points: 55
-# Comments: 4]]></summary>
-        <author>
-            <name>pseudolus</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Can Europe train a frontier AI model on the compute it owns?]]></title>
-        <id>https://news.ycombinator.com/item?id=48541014</id>
-        <link href="https://github.com/sammysltd/euromesh"/>
-        <updated>2026-06-15T13:31:09.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://github.com/sammysltd/euromesh
-Comments URL: https://news.ycombinator.com/item?id=48541014
-Points: 96
-# Comments: 137]]></summary>
-        <author>
-            <name>smashini</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Google Flight Simulator]]></title>
-        <id>https://news.ycombinator.com/item?id=48540945</id>
-        <link href="https://developers.google.com/maps/documentation/earth/flight-simulator"/>
-        <updated>2026-06-15T13:26:08.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://developers.google.com/maps/documentation/earth/flight-simulator
-Comments URL: https://news.ycombinator.com/item?id=48540945
-Points: 116
-# Comments: 38]]></summary>
-        <author>
-            <name>bookofjoe</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[CrankGPT]]></title>
-        <id>https://news.ycombinator.com/item?id=48540854</id>
-        <link href="https://crankgpt.com/"/>
-        <updated>2026-06-15T13:20:13.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://crankgpt.com
-Comments URL: https://news.ycombinator.com/item?id=48540854
-Points: 436
-# Comments: 173]]></summary>
-        <author>
-            <name>rishikeshs</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Hetzner Price Adjustment]]></title>
-        <id>https://news.ycombinator.com/item?id=48540844</id>
-        <link href="https://docs.hetzner.com/general/infrastructure-and-availability/price-adjustment/#cloud-servers"/>
-        <updated>2026-06-15T13:19:39.000Z</updated>
-        <summary type="html"><![CDATA[https://www.hetzner.com/pressroom/standardization-and-price-...
-Comments URL: https://news.ycombinator.com/item?id=48540844
-Points: 76
-# Comments: 236]]></summary>
-        <author>
-            <name>tuhtah</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Fox to buy Roku]]></title>
-        <id>https://news.ycombinator.com/item?id=48540499</id>
-        <link href="https://www.wsj.com/business/deals/fox-roku-deal-f6e564f9"/>
-        <updated>2026-06-15T12:50:03.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.wsj.com/business/deals/fox-roku-deal-f6e564f9
-Comments URL: https://news.ycombinator.com/item?id=48540499
-Points: 150
-# Comments: 201]]></summary>
-        <author>
-            <name>thm</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Salesforce to Acquire Fin (formerly Intercom) for $3.6B]]></title>
-        <id>https://news.ycombinator.com/item?id=48540126</id>
-        <link href="https://www.salesforce.com/news/press-releases/2026/06/15/salesforce-signs-definitive-agreement-to-acquire-fin/?bc=HL"/>
-        <updated>2026-06-15T12:08:59.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.salesforce.com/news/press-releases/2026/06/15/salesforce-signs-definitive-agreement-to-acquire-fin/?bc=HL
-Comments URL: https://news.ycombinator.com/item?id=48540126
-Points: 222
-# Comments: 180]]></summary>
-        <author>
-            <name>colesantiago</name>
         </author>
     </entry>
 </feed>
