@@ -2,10 +2,36 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-07-15T06:20:25.483Z</updated>
+    <updated>2026-07-15T09:13:19.942Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[I tricked Claude into leaking your deepest, darkest secrets]]></title>
+        <id>https://news.ycombinator.com/item?id=48916975</id>
+        <link href="https://www.ayush.digital/blog/the-memory-heist"/>
+        <updated>2026-07-15T06:28:00.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.ayush.digital/blog/the-memory-heist
+Comments URL: https://news.ycombinator.com/item?id=48916975
+Points: 235
+# Comments: 103]]></summary>
+        <author>
+            <name>macleginn</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[RISC-V Is Inevitable: State of the Union Keynote Argues]]></title>
+        <id>https://news.ycombinator.com/item?id=48916805</id>
+        <link href="https://www.eetimes.com/risc-v-is-inevitable-state-of-the-union-keynote-argues/"/>
+        <updated>2026-07-15T06:02:17.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.eetimes.com/risc-v-is-inevitable-state-of-the-union-keynote-argues/
+Comments URL: https://news.ycombinator.com/item?id=48916805
+Points: 50
+# Comments: 34]]></summary>
+        <author>
+            <name>signa11</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Jurassic Park computers in excruciating detail]]></title>
         <id>https://news.ycombinator.com/item?id=48915709</id>
@@ -225,6 +251,20 @@ Points: 139
 # Comments: 57]]></summary>
         <author>
             <name>hoechst</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Launch HN: Agnost AI (YC S26) – Extract user feedback from agent conversations]]></title>
+        <id>https://news.ycombinator.com/item?id=48908950</id>
+        <link href="https://agnost.ai/"/>
+        <updated>2026-07-14T16:06:18.000Z</updated>
+        <summary type="html"><![CDATA[Hey HN, we’re Shubham & Parth, childhood friends building Agnost AI (https://agnost.ai), product analytics for teams building chat and voice agents.
+We read production conversations and find behavioral failures like users rageprompting (cursing at the agent), repeatedly rephrasing the same request, correcting the agent, asking for missing features, or leaving after an answer that was technically successful.
+We have an interactive demo with no signup here: https://app.agnost.ai?demo=true
+Here's a demo video: https://www.tella.tv/video/agnost-ai-launch-hn-demo-9haa
+The core problem is that chat and voice products do not have the same metrics as web apps. When the product interface is language, clicks and funnels become much less useful. Users also rarely give explicit feedback, and when they…]]></summary>
+        <author>
+            <name>laalshaitaan</name>
         </author>
     </entry>
     <entry>
@@ -16436,103 +16476,6 @@ Points: 109
 # Comments: 50]]></summary>
         <author>
             <name>karakoram</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Dead Economy Theory]]></title>
-        <id>https://news.ycombinator.com/item?id=48547062</id>
-        <link href="https://gmalandrakis.com/writings/ad-economicum.html"/>
-        <updated>2026-06-15T21:10:36.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://gmalandrakis.com/writings/ad-economicum.html
-Comments URL: https://news.ycombinator.com/item?id=48547062
-Points: 50
-# Comments: 49]]></summary>
-        <author>
-            <name>l0new0lf-G</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ten years of ClickHouse in open source]]></title>
-        <id>https://news.ycombinator.com/item?id=48546890</id>
-        <link href="https://clickhouse.com/blog/open-source-10"/>
-        <updated>2026-06-15T20:51:54.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://clickhouse.com/blog/open-source-10
-Comments URL: https://news.ycombinator.com/item?id=48546890
-Points: 252
-# Comments: 70]]></summary>
-        <author>
-            <name>saisrirampur</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[US battery manufacturing output continues to break records]]></title>
-        <id>https://news.ycombinator.com/item?id=48546616</id>
-        <link href="https://fred.stlouisfed.org/series/IPG33591S"/>
-        <updated>2026-06-15T20:28:24.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://fred.stlouisfed.org/series/IPG33591S
-Comments URL: https://news.ycombinator.com/item?id=48546616
-Points: 124
-# Comments: 96]]></summary>
-        <author>
-            <name>epistasis</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: We built an 8-bit CPU as 2nd year EE students]]></title>
-        <id>https://news.ycombinator.com/item?id=48546549</id>
-        <link href="https://github.com/c0rRupT9/STEPLA-1"/>
-        <updated>2026-06-15T20:22:48.000Z</updated>
-        <summary type="html"><![CDATA[Hi! me and my friends together built an 8 bit CPU implemented in Logisim purely from scratch. The control unit of this system does not implement the generic microcode ROM or any kind of RAM. This was made purely from discrete logic gates and coded the system to run different programs.
-key features:
-Custom 16-instruction Harvard ISA, 8-bit fixed 
-format, 4 general purpose registers
-Hardwired control unit built entirely from AND/OR gate logic matrix
-Dual-phase clocking to eliminate race conditions
-Bootstrap Control Unit that cold-boots via ROM-to-RAM transfer
-Early-exit conditional branching that saves upto 25% cycles when conditions aren't met
-Full design specification document with version control
-Since this was our first time doing such teamwork and a new thing we used RISC based system t…]]></summary>
-        <author>
-            <name>CorRupT9</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[I Love the Computer]]></title>
-        <id>https://news.ycombinator.com/item?id=48546441</id>
-        <link href="https://michaelenger.com/blog/i-love-the-computer/"/>
-        <updated>2026-06-15T20:14:15.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://michaelenger.com/blog/i-love-the-computer/
-Comments URL: https://news.ycombinator.com/item?id=48546441
-Points: 104
-# Comments: 58]]></summary>
-        <author>
-            <name>speckx</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[What job interviews taught me about Kubernetes]]></title>
-        <id>https://news.ycombinator.com/item?id=48546428</id>
-        <link href="https://notnotp.com/notes/what-job-interviews-taught-me-about-kubernetes/"/>
-        <updated>2026-06-15T20:12:37.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://notnotp.com/notes/what-job-interviews-taught-me-about-kubernetes/
-Comments URL: https://news.ycombinator.com/item?id=48546428
-Points: 126
-# Comments: 97]]></summary>
-        <author>
-            <name>chmaynard</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A backdoor in a LinkedIn job offer]]></title>
-        <id>https://news.ycombinator.com/item?id=48546294</id>
-        <link href="https://roman.pt/posts/linkedin-backdoor/"/>
-        <updated>2026-06-15T20:00:57.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://roman.pt/posts/linkedin-backdoor/
-Comments URL: https://news.ycombinator.com/item?id=48546294
-Points: 133
-# Comments: 24]]></summary>
-        <author>
-            <name>lwhsiao</name>
         </author>
     </entry>
 </feed>

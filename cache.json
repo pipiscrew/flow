@@ -6,6 +6,26 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=48916975",
+          "author": "macleginn",
+          "description": "Article URL: https://www.ayush.digital/blog/the-memory-heist\nComments URL: https://news.ycombinator.com/item?id=48916975\nPoints: 235\n# Comments: 103",
+          "link": "https://www.ayush.digital/blog/the-memory-heist",
+          "publishedOn": "2026-07-15T06:28:00.000Z",
+          "wordCount": 4806,
+          "title": "I tricked Claude into leaking your deepest, darkest secrets",
+          "imageUrl": "https://ayush.digital/blog/the-memory-heist/opengraph-image"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48916805",
+          "author": "signa11",
+          "description": "Article URL: https://www.eetimes.com/risc-v-is-inevitable-state-of-the-union-keynote-argues/\nComments URL: https://news.ycombinator.com/item?id=48916805\nPoints: 50\n# Comments: 34",
+          "link": "https://www.eetimes.com/risc-v-is-inevitable-state-of-the-union-keynote-argues/",
+          "publishedOn": "2026-07-15T06:02:17.000Z",
+          "wordCount": null,
+          "title": "RISC-V Is Inevitable: State of the Union Keynote Argues",
+          "imageUrl": null
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=48915709",
           "author": "vinhnx",
           "description": "Article URL: https://fabiensanglard.net/jurrasic_park_computers/index.html\nComments URL: https://news.ycombinator.com/item?id=48915709\nPoints: 214\n# Comments: 49",
@@ -174,6 +194,16 @@
           "wordCount": 2548,
           "title": "Measuring Input Latency on Linux: X11 vs. Wayland, VRR, and DXVK",
           "imageUrl": "https://marco-nett.de/blog/measuring-input-latency-on-linux-x11-vs-wayland-vrr-dxvk/index.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48908950",
+          "author": "laalshaitaan",
+          "description": "Hey HN, we’re Shubham & Parth, childhood friends building Agnost AI (https://agnost.ai), product analytics for teams building chat and voice agents.\nWe read production conversations and find behavioral failures like users rageprompting (cursing at the agent), repeatedly rephrasing the same request, correcting the agent, asking for missing features, or leaving after an answer that was technically successful.\nWe have an interactive demo with no signup here: https://app.agnost.ai?demo=true\nHere's a demo video: https://www.tella.tv/video/agnost-ai-launch-hn-demo-9haa\nThe core problem is that chat and voice products do not have the same metrics as web apps. When the product interface is language, clicks and funnels become much less useful. Users also rarely give explicit feedback, and when they…",
+          "link": "https://agnost.ai/",
+          "publishedOn": "2026-07-14T16:06:18.000Z",
+          "wordCount": 1799,
+          "title": "Launch HN: Agnost AI (YC S26) – Extract user feedback from agent conversations",
+          "imageUrl": "https://agnost.ai/agnost/og-card.png"
         },
         {
           "id": "https://news.ycombinator.com/item?id=48908271",
@@ -12484,76 +12514,6 @@
           "wordCount": 2408,
           "title": "Why I email complete strangers",
           "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48547062",
-          "author": "l0new0lf-G",
-          "description": "Article URL: https://gmalandrakis.com/writings/ad-economicum.html\nComments URL: https://news.ycombinator.com/item?id=48547062\nPoints: 50\n# Comments: 49",
-          "link": "https://gmalandrakis.com/writings/ad-economicum.html",
-          "publishedOn": "2026-06-15T21:10:36.000Z",
-          "wordCount": null,
-          "title": "The Dead Economy Theory",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48546890",
-          "author": "saisrirampur",
-          "description": "Article URL: https://clickhouse.com/blog/open-source-10\nComments URL: https://news.ycombinator.com/item?id=48546890\nPoints: 252\n# Comments: 70",
-          "link": "https://clickhouse.com/blog/open-source-10",
-          "publishedOn": "2026-06-15T20:51:54.000Z",
-          "wordCount": 6103,
-          "title": "Ten years of ClickHouse in open source",
-          "imageUrl": "https://clickhouse.com/_next/image?url=%2Fuploads%2Fgithub_c01a760d53.png&w=1200&h=630&q=80"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48546616",
-          "author": "epistasis",
-          "description": "Article URL: https://fred.stlouisfed.org/series/IPG33591S\nComments URL: https://news.ycombinator.com/item?id=48546616\nPoints: 124\n# Comments: 96",
-          "link": "https://fred.stlouisfed.org/series/IPG33591S",
-          "publishedOn": "2026-06-15T20:28:24.000Z",
-          "wordCount": 1258,
-          "title": "US battery manufacturing output continues to break records",
-          "imageUrl": "https://fred.stlouisfed.org/graph/fredgraph.png?width=880&height=440&id=IPG33591S"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48546549",
-          "author": "CorRupT9",
-          "description": "Hi! me and my friends together built an 8 bit CPU implemented in Logisim purely from scratch. The control unit of this system does not implement the generic microcode ROM or any kind of RAM. This was made purely from discrete logic gates and coded the system to run different programs.\nkey features:\nCustom 16-instruction Harvard ISA, 8-bit fixed \nformat, 4 general purpose registers\nHardwired control unit built entirely from AND/OR gate logic matrix\nDual-phase clocking to eliminate race conditions\nBootstrap Control Unit that cold-boots via ROM-to-RAM transfer\nEarly-exit conditional branching that saves upto 25% cycles when conditions aren't met\nFull design specification document with version control\nSince this was our first time doing such teamwork and a new thing we used RISC based system t…",
-          "link": "https://github.com/c0rRupT9/STEPLA-1",
-          "publishedOn": "2026-06-15T20:22:48.000Z",
-          "wordCount": 3804,
-          "title": "Show HN: We built an 8-bit CPU as 2nd year EE students",
-          "imageUrl": "https://opengraph.githubassets.com/dec8a4714dc111734ba75fbaf1088a25501e7b83fa341fa6676403435ac9dffa/c0rRupT9/STEPLA-1"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48546441",
-          "author": "speckx",
-          "description": "Article URL: https://michaelenger.com/blog/i-love-the-computer/\nComments URL: https://news.ycombinator.com/item?id=48546441\nPoints: 104\n# Comments: 58",
-          "link": "https://michaelenger.com/blog/i-love-the-computer/",
-          "publishedOn": "2026-06-15T20:14:15.000Z",
-          "wordCount": 2249,
-          "title": "I Love the Computer",
-          "imageUrl": "https://michaelenger.com/"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48546428",
-          "author": "chmaynard",
-          "description": "Article URL: https://notnotp.com/notes/what-job-interviews-taught-me-about-kubernetes/\nComments URL: https://news.ycombinator.com/item?id=48546428\nPoints: 126\n# Comments: 97",
-          "link": "https://notnotp.com/notes/what-job-interviews-taught-me-about-kubernetes/",
-          "publishedOn": "2026-06-15T20:12:37.000Z",
-          "wordCount": 888,
-          "title": "What job interviews taught me about Kubernetes",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48546294",
-          "author": "lwhsiao",
-          "description": "Article URL: https://roman.pt/posts/linkedin-backdoor/\nComments URL: https://news.ycombinator.com/item?id=48546294\nPoints: 133\n# Comments: 24",
-          "link": "https://roman.pt/posts/linkedin-backdoor/",
-          "publishedOn": "2026-06-15T20:00:57.000Z",
-          "wordCount": 707,
-          "title": "A backdoor in a LinkedIn job offer",
-          "imageUrl": "https://roman.pt/posts/linkedin-backdoor/splash.png"
         }
       ]
     }
