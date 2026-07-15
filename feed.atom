@@ -2,10 +2,114 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-07-15T17:22:35.319Z</updated>
+    <updated>2026-07-15T19:20:07.382Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Murati's Thinking Machines Releases Open-Weights 975B Parameter LLM]]></title>
+        <id>https://news.ycombinator.com/item?id=48924929</id>
+        <link href="https://thinkingmachines.ai/inkling/"/>
+        <updated>2026-07-15T18:14:23.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://thinkingmachines.ai/inkling/
+Comments URL: https://news.ycombinator.com/item?id=48924929
+Points: 93
+# Comments: 18]]></summary>
+        <author>
+            <name>htrp</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Inkling: Our Open-Weights Model]]></title>
+        <id>https://news.ycombinator.com/item?id=48924912</id>
+        <link href="https://thinkingmachines.ai/news/introducing-inkling/"/>
+        <updated>2026-07-15T18:12:45.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://thinkingmachines.ai/news/introducing-inkling/
+Comments URL: https://news.ycombinator.com/item?id=48924912
+Points: 57
+# Comments: 8]]></summary>
+        <author>
+            <name>vimarsh6739</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Collection of Digital Clock Designs]]></title>
+        <id>https://news.ycombinator.com/item?id=48923380</id>
+        <link href="https://clocks.dev/"/>
+        <updated>2026-07-15T16:33:15.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://clocks.dev
+Comments URL: https://news.ycombinator.com/item?id=48923380
+Points: 57
+# Comments: 15]]></summary>
+        <author>
+            <name>levmiseri</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Open-source memory for coding agents, synced over SSH]]></title>
+        <id>https://news.ycombinator.com/item?id=48923111</id>
+        <link href="https://github.com/vshulcz/deja-vu/"/>
+        <updated>2026-07-15T16:15:03.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://github.com/vshulcz/deja-vu/
+Comments URL: https://news.ycombinator.com/item?id=48923111
+Points: 60
+# Comments: 15]]></summary>
+        <author>
+            <name>vshulcz</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Codex Micro]]></title>
+        <id>https://news.ycombinator.com/item?id=48923079</id>
+        <link href="https://openai.com/supply/co-lab/work-louder/"/>
+        <updated>2026-07-15T16:12:58.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://openai.com/supply/co-lab/work-louder/
+Comments URL: https://news.ycombinator.com/item?id=48923079
+Points: 157
+# Comments: 132]]></summary>
+        <author>
+            <name>davidbarker</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: misa77 - a codec that decodes 2x faster than LZ4 (at better ratios)]]></title>
+        <id>https://news.ycombinator.com/item?id=48922838</id>
+        <link href="https://github.com/welcome-to-the-sunny-side/misa77"/>
+        <updated>2026-07-15T15:58:59.000Z</updated>
+        <summary type="html"><![CDATA[I've spent the last few months working on this codec.
+It has the following characteristics:
+  - SOTA decompression throughput in its ratio class
+  - Decent ratios (comparable to LZ4 at high effort levels)
+  - Slow compression
+
+Results on the tarred Silesia corpus on Intel x86-64 follow:
+  codec       decode      ratio    encode
+  misa77 -0   5219 MB/s   42.64%   54.5 MB/s
+  misa77 -1   4274 MB/s   39.65%   51.2 MB/s
+  lz4         2505 MB/s   47.59%   371 MB/s
+  lz4hc -12   2531 MB/s   36.45%   7.31 MB/s
+
+
+Comments URL: https://news.ycombinator.com/item?id=48922838
+Points: 74
+# Comments: 26]]></summary>
+        <author>
+            <name>nonadhocproblem</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Running Gemma 4 26B at 5 tokens/sec on a 13-year-old Xeon with no GPU]]></title>
+        <id>https://news.ycombinator.com/item?id=48922434</id>
+        <link href="https://www.neomindlabs.com/2026/06/08/running-gemma-4-26b-at-5-tokens-sec-on-a-13-year-old-xeon-with-no-gpu/"/>
+        <updated>2026-07-15T15:34:05.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.neomindlabs.com/2026/06/08/running-gemma-4-26b-at-5-tokens-sec-on-a-13-year-old-xeon-with-no-gpu/
+Comments URL: https://news.ycombinator.com/item?id=48922434
+Points: 138
+# Comments: 71]]></summary>
+        <author>
+            <name>neomindryan</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[DEA to Temporarily Schedule 7-Oh and Related Substances to Protect Public Safety]]></title>
         <id>https://news.ycombinator.com/item?id=48922185</id>
@@ -30,6 +134,19 @@ Points: 87
 # Comments: 85]]></summary>
         <author>
             <name>hermanzegerman</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[My midlife crisis Corolla is fast, furious, and modded]]></title>
+        <id>https://news.ycombinator.com/item?id=48921303</id>
+        <link href="https://www.zocalopublicsquare.org/my-midlife-crisis-corolla-fast-furious-fully-modded/"/>
+        <updated>2026-07-15T14:23:44.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.zocalopublicsquare.org/my-midlife-crisis-corolla-fast-furious-fully-modded/
+Comments URL: https://news.ycombinator.com/item?id=48921303
+Points: 89
+# Comments: 188]]></summary>
+        <author>
+            <name>gmays</name>
         </author>
     </entry>
     <entry>
@@ -199,6 +316,19 @@ Points: 50
 # Comments: 34]]></summary>
         <author>
             <name>signa11</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Stripe, Advent offer to buy PayPal for more than $53B]]></title>
+        <id>https://news.ycombinator.com/item?id=48915953</id>
+        <link href="https://www.reuters.com/business/finance/stripe-advent-offer-buy-paypal-more-than-53-billion-sources-say-2026-07-15/"/>
+        <updated>2026-07-15T03:32:45.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.reuters.com/business/finance/stripe-advent-offer-buy-paypal-more-than-53-billion-sources-say-2026-07-15/
+Comments URL: https://news.ycombinator.com/item?id=48915953
+Points: 105
+# Comments: 60]]></summary>
+        <author>
+            <name>rvz</name>
         </author>
     </entry>
     <entry>
