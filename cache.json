@@ -6,6 +6,46 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=48926939",
+          "author": "coolelectronics",
+          "description": "This is the entire Firefox browser rendering to a  element. Gecko, all UI components, and the Spidermonkey JS engine are all compiled and running in WebAssembly.\nHere are a few things you might find interesting:\n- This is fully end to end encrypted! We use the WISP protocol for TCP-over-websockets.\n- There is a novel WASM->JS JIT for experimental site speedup\n- This port cost over 25k in opus/fable tokens for debugging and JIT research\nThis was just a fun experiment to push the boundaries of WebAssembly. For a more usable \"browser in browser\" experience, we also built https://github.com/HeyPuter/browser.js that eats a bit less RAM.\nComments URL: https://news.ycombinator.com/item?id=48926939\nPoints: 72\n# Comments: 28",
+          "link": "https://developer.puter.com/labs/firefox-wasm/",
+          "publishedOn": "2026-07-15T21:00:17.000Z",
+          "wordCount": 80,
+          "title": "Show HN: Firefox in WebAssembly",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48926590",
+          "author": "skp1995",
+          "description": "Article URL: https://github.com/xai-org/grok-build\nComments URL: https://news.ycombinator.com/item?id=48926590\nPoints: 152\n# Comments: 170",
+          "link": "https://github.com/xai-org/grok-build",
+          "publishedOn": "2026-07-15T20:24:58.000Z",
+          "wordCount": 2737,
+          "title": "Grok Build",
+          "imageUrl": "https://avatars.githubusercontent.com/u/130314967?s=400&v=4"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48926085",
+          "author": "benswerd",
+          "description": "Article URL: https://brainless.swerdlow.dev\nComments URL: https://news.ycombinator.com/item?id=48926085\nPoints: 63\n# Comments: 9",
+          "link": "https://brainless.swerdlow.dev/",
+          "publishedOn": "2026-07-15T19:42:53.000Z",
+          "wordCount": 698,
+          "title": "Brainless: Shadcn components that look like Claude Code, Codex and Grok",
+          "imageUrl": "https://brainless.swerdlow.dev/opengraph-image?234ed435f7768d62"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48925888",
+          "author": "spacemarine1",
+          "description": "Article URL: https://elbowgreasegames.substack.com/p/misfits-attic-announces-duskers-20\nComments URL: https://news.ycombinator.com/item?id=48925888\nPoints: 74\n# Comments: 12",
+          "link": "https://elbowgreasegames.substack.com/p/misfits-attic-announces-duskers-20",
+          "publishedOn": "2026-07-15T19:27:59.000Z",
+          "wordCount": null,
+          "title": "Duskers, the scary command line game, is getting a sequel",
+          "imageUrl": null
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=48924929",
           "author": "htrp",
           "description": "Article URL: https://thinkingmachines.ai/inkling/\nComments URL: https://news.ycombinator.com/item?id=48924929\nPoints: 93\n# Comments: 18",
@@ -12614,66 +12654,6 @@
           "wordCount": 9277,
           "title": "DuckDB Internals: Why Is DuckDB Fast? (Part 1)",
           "imageUrl": "https://storage.ghost.io/c/eb/37/eb37738a-77f2-4eaf-9de2-43f9b30fffd5/content/images/2026/05/image--16-.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48553224",
-          "author": "itsmarcelg",
-          "description": "Article URL: https://www.reuters.com/legal/transactional/spacex-buy-anysphere-60-billion-2026-06-16/\nComments URL: https://news.ycombinator.com/item?id=48553224\nPoints: 335\n# Comments: 654",
-          "link": "https://www.reuters.com/legal/transactional/spacex-buy-anysphere-60-billion-2026-06-16/",
-          "publishedOn": "2026-06-16T10:44:24.000Z",
-          "wordCount": null,
-          "title": "SpaceX to buy Cursor for $60B",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48553161",
-          "author": "bookofjoe",
-          "description": "Article URL: https://kottke.org/26/06/telescope-ranchers\nComments URL: https://news.ycombinator.com/item?id=48553161\nPoints: 69\n# Comments: 27",
-          "link": "https://kottke.org/26/06/telescope-ranchers",
-          "publishedOn": "2026-06-16T10:34:10.000Z",
-          "wordCount": 1047,
-          "title": "Telescope Ranchers",
-          "imageUrl": "https://i.ytimg.com/vi/bN48vEqaQs8/sddefault.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48552844",
-          "author": "rdmuser",
-          "description": "Article URL: https://tck.mn/blog/correlated-randomness-sts2/\nComments URL: https://news.ycombinator.com/item?id=48552844\nPoints: 199\n# Comments: 62",
-          "link": "https://tck.mn/blog/correlated-randomness-sts2/",
-          "publishedOn": "2026-06-16T09:46:49.000Z",
-          "wordCount": 5957,
-          "title": "Correlated randomness in Slay the Spire 2",
-          "imageUrl": "https://tck.mn/blog/correlated-randomness-sts2/crng_chart.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48552723",
-          "author": "apulkit6",
-          "description": "Article URL: https://trinket.strivemath.org/\nComments URL: https://news.ycombinator.com/item?id=48552723\nPoints: 90\n# Comments: 11",
-          "link": "https://trinket.strivemath.org/",
-          "publishedOn": "2026-06-16T09:30:58.000Z",
-          "wordCount": null,
-          "title": "Trinket.io shutting down, so we saved it and hosted it a trinket.strivemath.org",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48552687",
-          "author": "_tk_",
-          "description": "Article URL: https://www.theregister.com/security/2026/06/15/feds-freaked-over-fable-5-after-simple-fix-this-code-prompt-not-jailbreak-says-researcher/5255827\nComments URL: https://news.ycombinator.com/item?id=48552687\nPoints: 435\n# Comments: 268",
-          "link": "https://www.theregister.com/security/2026/06/15/feds-freaked-over-fable-5-after-simple-fix-this-code-prompt-not-jailbreak-says-researcher/5255827",
-          "publishedOn": "2026-06-16T09:26:09.000Z",
-          "wordCount": 7494,
-          "title": "Feds freaked over Fable 5 after 'fix this code', not jailbreak, say researchers",
-          "imageUrl": "https://image.theregister.com/5255863.jpg?imageId=5255863&x=0&y=9.43&cropw=100&croph=81.13&panox=0&panoy=9.43&panow=100&panoh=81.13&width=1200&height=683"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48552614",
-          "author": "bartekrutkowski",
-          "description": "Article URL: https://commodore.net/why-a-flip-phone/\nComments URL: https://news.ycombinator.com/item?id=48552614\nPoints: 53\n# Comments: 19",
-          "link": "https://commodore.net/why-a-flip-phone/",
-          "publishedOn": "2026-06-16T09:15:31.000Z",
-          "wordCount": 1455,
-          "title": "Commodore Releases Flip Phone",
-          "imageUrl": "https://commodore.net/content/uploads/2026/06/Screenshot-2026-06-12-at-21.46.39-scaled-1-1024x507.png"
         }
       ]
     }
