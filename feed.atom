@@ -2,10 +2,36 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-07-16T20:05:03.227Z</updated>
+    <updated>2026-07-16T22:07:06.538Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[LM Studio Bionic: the AI agent for open models]]></title>
+        <id>https://news.ycombinator.com/item?id=48939662</id>
+        <link href="https://lmstudio.ai/blog/introducing-lm-studio-bionic"/>
+        <updated>2026-07-16T20:18:15.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://lmstudio.ai/blog/introducing-lm-studio-bionic
+Comments URL: https://news.ycombinator.com/item?id=48939662
+Points: 58
+# Comments: 17]]></summary>
+        <author>
+            <name>minimaxir</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[$100 AI Music Video: Claude Fable 5 vs. GPT-5.6 Sol]]></title>
+        <id>https://news.ycombinator.com/item?id=48939524</id>
+        <link href="https://www.tryai.dev/blog/ai-music-video-arena-claude-vs-gpt-5.6"/>
+        <updated>2026-07-16T20:03:23.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.tryai.dev/blog/ai-music-video-arena-claude-vs-gpt-5.6
+Comments URL: https://news.ycombinator.com/item?id=48939524
+Points: 59
+# Comments: 42]]></summary>
+        <author>
+            <name>hershyb_</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[German AI consortium releases Soofi S, an open 30B model that tops benchmarks]]></title>
         <id>https://news.ycombinator.com/item?id=48937756</id>
@@ -85,6 +111,38 @@ Points: 172
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Show HN: Leaves – A text-UI disk usage treemap visualizer]]></title>
+        <id>https://news.ycombinator.com/item?id=48936389</id>
+        <link href="https://github.com/patonw/leaves"/>
+        <updated>2026-07-16T16:03:43.000Z</updated>
+        <summary type="html"><![CDATA[GUI disk analyzers are great for figuring out what's filling up your laptop/desktop drive.
+On containers or remote servers, the options are limited to purely text based
+utilities (e.g. du) or list-centric TUIs (e.g. ncdu) which are usually limited
+to viewing one directory at a time.
+I created leaves to fill that gap.
+Inspired by classic utilities like WinDirStat and KDirStat, it uses a
+2-dimensional treemap^1 visualization to show the entire directory hierarchy
+with proportionally sized rectangles.
+It's performant enough to handle millions of files, thanks to Rust and
+multi-threading. However, block characters aren't as suited as pixels for
+resolving a large number of items. Leaves can show file-type summaries per
+directory or partition the top-level directories by extension, allowing you to
+see not only where space is being used, but also how.
+For instance, I can see the largest chunk of my home directory is taken up by
+uv caches for python and old Linux ISOs that I could easily re-download if
+needed. Or in a particular container, +600MB is used by standard Rust
+documentation and tutorials, and that it is the only location with HTML/JS files,
+when only the libraries and build tools are needed (note to self: remember to
+use the minimal profile next time).
+^1: https://github.com/shundhammer/qdirstat/blob/master/doc/Tree...
+Comments URL: https://news.ycombinator.com/item?id=48936389
+Points: 57
+# Comments: 17]]></summary>
+        <author>
+            <name>patonw</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Immersive Linear Algebra Book with Interactive Figures (2015)]]></title>
         <id>https://news.ycombinator.com/item?id=48935951</id>
         <link href="https://immersivemath.com/ila/"/>
@@ -134,6 +192,20 @@ Points: 50
 # Comments: 12]]></summary>
         <author>
             <name>OlegWock</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Kimi K3: Open Frontier Intelligence]]></title>
+        <id>https://news.ycombinator.com/item?id=48935342</id>
+        <link href="https://www.kimi.com/blog/kimi-k3"/>
+        <updated>2026-07-16T14:46:05.000Z</updated>
+        <summary type="html"><![CDATA[https://www.kimi.com/en
+Kimi K3 Intelligence, Performance & Price Analysis: https://artificialanalysis.ai/models/kimi-k3
+Comments URL: https://news.ycombinator.com/item?id=48935342
+Points: 877
+# Comments: 525]]></summary>
+        <author>
+            <name>vincent_s</name>
         </author>
     </entry>
     <entry>
@@ -16665,60 +16737,6 @@ Points: 111
 # Comments: 52]]></summary>
         <author>
             <name>schappim</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[U.S. science is in chaos]]></title>
-        <id>https://news.ycombinator.com/item?id=48568058</id>
-        <link href="https://www.scientificamerican.com/article/americas-compact-between-science-and-politics-is-broken/"/>
-        <updated>2026-06-17T09:54:21.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.scientificamerican.com/article/americas-compact-between-science-and-politics-is-broken/
-Comments URL: https://news.ycombinator.com/item?id=48568058
-Points: 360
-# Comments: 399]]></summary>
-        <author>
-            <name>presspot</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: I built 184 free browser tools – PDF, image, dev, AI tasks, no upload]]></title>
-        <id>https://news.ycombinator.com/item?id=48568023</id>
-        <link href="https://brevio.pro/"/>
-        <updated>2026-06-17T09:48:59.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://brevio.pro
-Comments URL: https://news.ycombinator.com/item?id=48568023
-Points: 75
-# Comments: 17]]></summary>
-        <author>
-            <name>ruimbarreira</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: High-Res Neural Cellular Automata]]></title>
-        <id>https://news.ycombinator.com/item?id=48567877</id>
-        <link href="https://cells2pixels.github.io/"/>
-        <updated>2026-06-17T09:28:36.000Z</updated>
-        <summary type="html"><![CDATA[Neural CAs model self-organizing pattern formation.
-Now they can generate patterns at HD resolution in real-time, enabled by turning each CA cell into a Neural Field.
-Try 3 demos: grow a pattern from a seed (and damage it, it heals), synthesize PBR textures that can regenerate, or create 3D textures like clouds.
-Comments URL: https://news.ycombinator.com/item?id=48567877
-Points: 109
-# Comments: 19]]></summary>
-        <author>
-            <name>esychology</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GLM-5.2 is the new leading open weights model on Artificial Analysis]]></title>
-        <id>https://news.ycombinator.com/item?id=48567759</id>
-        <link href="https://artificialanalysis.ai/articles/glm-5-2-is-the-new-leading-open-weights-model-on-the-artificial-analysis-intelligence-index"/>
-        <updated>2026-06-17T09:12:00.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://artificialanalysis.ai/articles/glm-5-2-is-the-new-leading-open-weights-model-on-the-artificial-analysis-intelligence-index
-Comments URL: https://news.ycombinator.com/item?id=48567759
-Points: 365
-# Comments: 187]]></summary>
-        <author>
-            <name>himata4113</name>
         </author>
     </entry>
 </feed>

@@ -6,6 +6,26 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=48939662",
+          "author": "minimaxir",
+          "description": "Article URL: https://lmstudio.ai/blog/introducing-lm-studio-bionic\nComments URL: https://news.ycombinator.com/item?id=48939662\nPoints: 58\n# Comments: 17",
+          "link": "https://lmstudio.ai/blog/introducing-lm-studio-bionic",
+          "publishedOn": "2026-07-16T20:18:15.000Z",
+          "wordCount": 2300,
+          "title": "LM Studio Bionic: the AI agent for open models",
+          "imageUrl": "https://files.lmstudio.ai/bionic/lm-studio-bionic-og.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48939524",
+          "author": "hershyb_",
+          "description": "Article URL: https://www.tryai.dev/blog/ai-music-video-arena-claude-vs-gpt-5.6\nComments URL: https://news.ycombinator.com/item?id=48939524\nPoints: 59\n# Comments: 42",
+          "link": "https://www.tryai.dev/blog/ai-music-video-arena-claude-vs-gpt-5.6",
+          "publishedOn": "2026-07-16T20:03:23.000Z",
+          "wordCount": 3611,
+          "title": "$100 AI Music Video: Claude Fable 5 vs. GPT-5.6 Sol",
+          "imageUrl": "https://www.tryai.dev/blog/ai-music-video-arena-claude-vs-gpt-5.6/opengraph-image-yqks0s?3313ef8f7f360358"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=48937756",
           "author": "amai",
           "description": "Article URL: https://the-decoder.com/german-ai-consortium-releases-soofi-s-an-open-30b-model-that-tops-benchmarks-in-both-english-and-german/\nComments URL: https://news.ycombinator.com/item?id=48937756\nPoints: 60\n# Comments: 9",
@@ -66,6 +86,16 @@
           "imageUrl": "https://opensource.microsoft.com/blog/wp-content/uploads/2026/07/Microsoft365-FY26-Consumer-C2-ArtStudio-2749-RGB-scaled.jpg"
         },
         {
+          "id": "https://news.ycombinator.com/item?id=48936389",
+          "author": "patonw",
+          "description": "GUI disk analyzers are great for figuring out what's filling up your laptop/desktop drive.\nOn containers or remote servers, the options are limited to purely text based\nutilities (e.g. du) or list-centric TUIs (e.g. ncdu) which are usually limited\nto viewing one directory at a time.\nI created leaves to fill that gap.\nInspired by classic utilities like WinDirStat and KDirStat, it uses a\n2-dimensional treemap^1 visualization to show the entire directory hierarchy\nwith proportionally sized rectangles.\nIt's performant enough to handle millions of files, thanks to Rust and\nmulti-threading. However, block characters aren't as suited as pixels for\nresolving a large number of items. Leaves can show file-type summaries per\ndirectory or partition the top-level directories by extension, allowing you to\nsee not only where space is being used, but also how.\nFor instance, I can see the largest chunk of my home directory is taken up by\nuv caches for python and old Linux ISOs that I could easily re-download if\nneeded. Or in a particular container, +600MB is used by standard Rust\ndocumentation and tutorials, and that it is the only location with HTML/JS files,\nwhen only the libraries and build tools are needed (note to self: remember to\nuse the minimal profile next time).\n^1: https://github.com/shundhammer/qdirstat/blob/master/doc/Tree...\nComments URL: https://news.ycombinator.com/item?id=48936389\nPoints: 57\n# Comments: 17",
+          "link": "https://github.com/patonw/leaves",
+          "publishedOn": "2026-07-16T16:03:43.000Z",
+          "wordCount": 5839,
+          "title": "Show HN: Leaves – A text-UI disk usage treemap visualizer",
+          "imageUrl": "https://opengraph.githubassets.com/fc9fb784ca3dc2ec068b875c8e809827d2eae1f2e6561af6e7ef054533e54ea9/patonw/leaves"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=48935951",
           "author": "srean",
           "description": "Article URL: https://immersivemath.com/ila/\nComments URL: https://news.ycombinator.com/item?id=48935951\nPoints: 89\n# Comments: 12",
@@ -104,6 +134,16 @@
           "wordCount": 19055,
           "title": "Guide to data tools landscape for developers",
           "imageUrl": "https://sinja.io/og/data-landscape-guide-for-developers.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48935342",
+          "author": "vincent_s",
+          "description": "https://www.kimi.com/en\nKimi K3 Intelligence, Performance & Price Analysis: https://artificialanalysis.ai/models/kimi-k3\nComments URL: https://news.ycombinator.com/item?id=48935342\nPoints: 877\n# Comments: 525",
+          "link": "https://www.kimi.com/blog/kimi-k3",
+          "publishedOn": "2026-07-16T14:46:05.000Z",
+          "wordCount": 5683,
+          "title": "Kimi K3: Open Frontier Intelligence",
+          "imageUrl": null
         },
         {
           "id": "https://news.ycombinator.com/item?id=48935342",
@@ -12654,46 +12694,6 @@
           "wordCount": 11416,
           "title": "RFC 10008: The new HTTP Query Method",
           "imageUrl": "https://www.rfc-editor.org/api/v1/meta-thumbnail/rfc10008.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48568058",
-          "author": "presspot",
-          "description": "Article URL: https://www.scientificamerican.com/article/americas-compact-between-science-and-politics-is-broken/\nComments URL: https://news.ycombinator.com/item?id=48568058\nPoints: 360\n# Comments: 399",
-          "link": "https://www.scientificamerican.com/article/americas-compact-between-science-and-politics-is-broken/",
-          "publishedOn": "2026-06-17T09:54:21.000Z",
-          "wordCount": 14905,
-          "title": "U.S. science is in chaos",
-          "imageUrl": "https://static.scientificamerican.com/dam/asset/14de7018-3a11-43b8-8392-6e83ccd5b0a3/saw070826Roge01.jpg?m=1779983432.668&w=1200"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48568023",
-          "author": "ruimbarreira",
-          "description": "Article URL: https://brevio.pro\nComments URL: https://news.ycombinator.com/item?id=48568023\nPoints: 75\n# Comments: 17",
-          "link": "https://brevio.pro/",
-          "publishedOn": "2026-06-17T09:48:59.000Z",
-          "wordCount": 7787,
-          "title": "Show HN: I built 184 free browser tools – PDF, image, dev, AI tasks, no upload",
-          "imageUrl": "https://brevio.pro/opengraph-image?c1b36dc0a543a598"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48567877",
-          "author": "esychology",
-          "description": "Neural CAs model self-organizing pattern formation.\nNow they can generate patterns at HD resolution in real-time, enabled by turning each CA cell into a Neural Field.\nTry 3 demos: grow a pattern from a seed (and damage it, it heals), synthesize PBR textures that can regenerate, or create 3D textures like clouds.\nComments URL: https://news.ycombinator.com/item?id=48567877\nPoints: 109\n# Comments: 19",
-          "link": "https://cells2pixels.github.io/",
-          "publishedOn": "2026-06-17T09:28:36.000Z",
-          "wordCount": 736,
-          "title": "Show HN: High-Res Neural Cellular Automata",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48567759",
-          "author": "himata4113",
-          "description": "Article URL: https://artificialanalysis.ai/articles/glm-5-2-is-the-new-leading-open-weights-model-on-the-artificial-analysis-intelligence-index\nComments URL: https://news.ycombinator.com/item?id=48567759\nPoints: 365\n# Comments: 187",
-          "link": "https://artificialanalysis.ai/articles/glm-5-2-is-the-new-leading-open-weights-model-on-the-artificial-analysis-intelligence-index",
-          "publishedOn": "2026-06-17T09:12:00.000Z",
-          "wordCount": 5408,
-          "title": "GLM-5.2 is the new leading open weights model on Artificial Analysis",
-          "imageUrl": "https://cdn.sanity.io/images/6vfeftx9/articles/204f6bd201e215286fd69d162a84dfdf4a24d197-768x768.webp?w=1200&auto=format"
         }
       ]
     }
