@@ -6,6 +6,56 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=48928402",
+          "author": "hmate9",
+          "description": "Article URL: https://playonemoreletter.com/\nComments URL: https://news.ycombinator.com/item?id=48928402\nPoints: 52\n# Comments: 31",
+          "link": "https://playonemoreletter.com/",
+          "publishedOn": "2026-07-15T23:10:10.000Z",
+          "wordCount": 9,
+          "title": "Show HN: One More Letter",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48928234",
+          "author": "ninglor",
+          "description": "Article URL: https://www.nngroup.com/articles/anti-mac-interface/\nComments URL: https://news.ycombinator.com/item?id=48928234\nPoints: 60\n# Comments: 20",
+          "link": "https://www.nngroup.com/articles/anti-mac-interface/",
+          "publishedOn": "2026-07-15T22:52:36.000Z",
+          "wordCount": 9034,
+          "title": "The Anti-Mac User Interface (1996)",
+          "imageUrl": "https://media.nngroup.com/media/articles/opengraph_images/Slide24articlesanti-mac-interface.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48928135",
+          "author": "gnyeki",
+          "description": "Article URL: https://mort.coffee/home/sqlite-editions/\nComments URL: https://news.ycombinator.com/item?id=48928135\nPoints: 138\n# Comments: 58",
+          "link": "https://mort.coffee/home/sqlite-editions/",
+          "publishedOn": "2026-07-15T22:42:58.000Z",
+          "wordCount": 2267,
+          "title": "SQLite should have (Rust-style) editions",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48927915",
+          "author": "gregsadetsky",
+          "description": "Article URL: https://blog.greg.technology/2026/07/14/llm-networking-with-mikrotik.html\nComments URL: https://news.ycombinator.com/item?id=48927915\nPoints: 59\n# Comments: 22",
+          "link": "https://blog.greg.technology/2026/07/14/llm-networking-with-mikrotik.html",
+          "publishedOn": "2026-07-15T22:23:27.000Z",
+          "wordCount": 1176,
+          "title": "LLM Networking with MikroTik",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48927095",
+          "author": "bilsbie",
+          "description": "Article URL: https://www.siegelendowment.org/wp-content/uploads/2026/07/fortune-david-siegel-open-source-ai.pdf\nComments URL: https://news.ycombinator.com/item?id=48927095\nPoints: 100\n# Comments: 44",
+          "link": "https://www.siegelendowment.org/wp-content/uploads/2026/07/fortune-david-siegel-open-source-ai.pdf",
+          "publishedOn": "2026-07-15T21:16:36.000Z",
+          "wordCount": 3029,
+          "title": "Governments, companies, nonprofits should invest in free, open source AI [pdf]",
+          "imageUrl": null
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=48926939",
           "author": "coolelectronics",
           "description": "This is the entire Firefox browser rendering to a  element. Gecko, all UI components, and the Spidermonkey JS engine are all compiled and running in WebAssembly.\nHere are a few things you might find interesting:\n- This is fully end to end encrypted! We use the WISP protocol for TCP-over-websockets.\n- There is a novel WASM->JS JIT for experimental site speedup\n- This port cost over 25k in opus/fable tokens for debugging and JIT research\nThis was just a fun experiment to push the boundaries of WebAssembly. For a more usable \"browser in browser\" experience, we also built https://github.com/HeyPuter/browser.js that eats a bit less RAM.\nComments URL: https://news.ycombinator.com/item?id=48926939\nPoints: 72\n# Comments: 28",
@@ -34,6 +84,16 @@
           "wordCount": 698,
           "title": "Brainless: Shadcn components that look like Claude Code, Codex and Grok",
           "imageUrl": "https://brainless.swerdlow.dev/opengraph-image?234ed435f7768d62"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48926053",
+          "author": "lsferreira42",
+          "description": "Article URL: https://www.lexaloffle.com/voxatron.php\nComments URL: https://news.ycombinator.com/item?id=48926053\nPoints: 70\n# Comments: 19",
+          "link": "https://www.lexaloffle.com/voxatron.php",
+          "publishedOn": "2026-07-15T19:40:23.000Z",
+          "wordCount": 3069,
+          "title": "Voxatron",
+          "imageUrl": null
         },
         {
           "id": "https://news.ycombinator.com/item?id=48925888",
@@ -354,6 +414,16 @@
           "wordCount": 2285,
           "title": "LeMario: Training a JEPA World Model on Super Mario Bros",
           "imageUrl": "https://www.benjamin-bai.com/project-assets/lemario/architecture.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48913653",
+          "author": "samclemens",
+          "description": "Article URL: https://rebeccamakkai.substack.com/p/book-prizes-dont-work-how-you-think\nComments URL: https://news.ycombinator.com/item?id=48913653\nPoints: 87\n# Comments: 41",
+          "link": "https://rebeccamakkai.substack.com/p/book-prizes-dont-work-how-you-think",
+          "publishedOn": "2026-07-14T22:19:01.000Z",
+          "wordCount": null,
+          "title": "Book prizes don't work how you think",
+          "imageUrl": null
         },
         {
           "id": "https://news.ycombinator.com/item?id=48913457",
@@ -1054,6 +1124,16 @@
           "wordCount": 3001,
           "title": "Logseq 2.0 Beta (DB version) is here",
           "imageUrl": "https://repository-images.githubusercontent.com/266231149/4a33065f-481b-4da7-bb7e-f7946055c0bc"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48894874",
+          "author": "benswerd",
+          "description": "Article URL: https://www.freestyle.sh/blog/opinion/designing-apis-for-agents\nComments URL: https://news.ycombinator.com/item?id=48894874\nPoints: 59\n# Comments: 27",
+          "link": "https://www.freestyle.sh/blog/opinion/designing-apis-for-agents",
+          "publishedOn": "2026-07-13T16:15:41.000Z",
+          "wordCount": 2970,
+          "title": "Designing APIs for Agents",
+          "imageUrl": "https://www.freestyle.sh/og/opinion/designing-apis-for-agents.png"
         },
         {
           "id": "https://news.ycombinator.com/item?id=48894752",
@@ -12554,106 +12634,6 @@
           "wordCount": null,
           "title": "Calvin and Hobbes and the price of integrity",
           "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48556561",
-          "author": "gregpr07",
-          "description": "Article URL: https://browser-use.com/posts/firecracker-browser-infra\nComments URL: https://news.ycombinator.com/item?id=48556561\nPoints: 75\n# Comments: 34",
-          "link": "https://browser-use.com/posts/firecracker-browser-infra",
-          "publishedOn": "2026-06-16T15:15:01.000Z",
-          "wordCount": 6320,
-          "title": "How we run Firecracker VMs inside EC2 and start browsers in less than 1s",
-          "imageUrl": "https://browser-use.com/images/microvm-infra/og.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48556163",
-          "author": "EDM115",
-          "description": "Article URL: https://subq.ai/subq-1-1-small-technical-report\nComments URL: https://news.ycombinator.com/item?id=48556163\nPoints: 55\n# Comments: 24",
-          "link": "https://subq.ai/subq-1-1-small-technical-report",
-          "publishedOn": "2026-06-16T14:50:10.000Z",
-          "wordCount": 994,
-          "title": "SubQ 1.1 Small",
-          "imageUrl": "https://subq.ai/images/technical-report.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48556082",
-          "author": "rakeda",
-          "description": "The concept for metiq.space came after playing Global Magnates with friends and realizing how fragmented live global data is. ships, aircraft, satellites, ports, weather, hazards, infrastructure, cyber, and public datasets all exist, but they usually live in separate tools and maps.\nThe goal was to build one interactive 3D globe where live public data could be visualized by latitude, longitude, and altitude. Surface data stays on the globe, while aircraft, satellites, and other above surface things can be represented in actual 3D space instead of being flattened onto a map.\nThe outcome is an interactive globe that showcases Earth, air, sea, space, cyber, defense, infrastructure, politics, and the list is continuously growing.\nMajority of development right now is going into data filtering and deduping.\nComments URL: https://news.ycombinator.com/item?id=48556082\nPoints: 53\n# Comments: 11",
-          "link": "https://metiq.space/",
-          "publishedOn": "2026-06-16T14:43:38.000Z",
-          "wordCount": 63,
-          "title": "Show HN: Metiq: a real time 3D globe for 100 public datasets",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48555993",
-          "author": "jfb",
-          "description": "Article URL: https://vickiboykis.com/2026/06/15/running-local-models-is-good-now/\nComments URL: https://news.ycombinator.com/item?id=48555993\nPoints: 337\n# Comments: 174",
-          "link": "https://vickiboykis.com/2026/06/15/running-local-models-is-good-now/",
-          "publishedOn": "2026-06-16T14:36:57.000Z",
-          "wordCount": 1379,
-          "title": "Running local models is good now",
-          "imageUrl": "https://vickiboykis.com/images/refactor_gemma.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48555838",
-          "author": "parksb",
-          "description": "Article URL: https://parksb.github.io/en/article/32.html\nComments URL: https://news.ycombinator.com/item?id=48555838\nPoints: 155\n# Comments: 45",
-          "link": "https://parksb.github.io/en/article/32.html",
-          "publishedOn": "2026-06-16T14:26:26.000Z",
-          "wordCount": 1570,
-          "title": "But yak shaving is fun",
-          "imageUrl": "https://og-image.parksb.vercel.app/api/parksb-github-io?title=But%20yak%20shaving%20is%20fun&subtitle=The%20joy%20of%20building%20from%20scratch&date=2019-07-31"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48555244",
-          "author": "speckx",
-          "description": "Recent and related:\nChrome is looking to permanently drop MV2 extension - https://news.ycombinator.com/item?id=48471970 - June 2026 (450 comments)\nComments URL: https://news.ycombinator.com/item?id=48555244\nPoints: 197\n# Comments: 234",
-          "link": "https://9to5google.com/2026/06/15/google-chromes-next-update-will-mark-the-end-of-popular-ad-blockers/",
-          "publishedOn": "2026-06-16T13:46:19.000Z",
-          "wordCount": 3147,
-          "title": "Google Chrome update will close the door on ad blockers",
-          "imageUrl": "https://i0.wp.com/9to5google.com/wp-content/uploads/sites/4/2024/05/chrome-logo-sign-2.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48554814",
-          "author": "ilreb",
-          "description": "Article URL: https://qwen.ai/blog?id=qwen-robotsuite\nComments URL: https://news.ycombinator.com/item?id=48554814\nPoints: 86\n# Comments: 13",
-          "link": "https://qwen.ai/blog?id=qwen-robotsuite",
-          "publishedOn": "2026-06-16T13:15:15.000Z",
-          "wordCount": 206,
-          "title": "Qwen-Robot Suite: A Foundation Model Suite for Physical World Intelligence",
-          "imageUrl": "https://img.alicdn.com/imgextra/i1/O1CN013ltlI61OTOnTStXfj_!!6000000001706-55-tps-330-327.svg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48553550",
-          "author": "razin",
-          "description": "Article URL: https://ciechanow.ski/mechanical-watch/\nComments URL: https://news.ycombinator.com/item?id=48553550\nPoints: 465\n# Comments: 86",
-          "link": "https://ciechanow.ski/mechanical-watch/",
-          "publishedOn": "2026-06-16T11:26:27.000Z",
-          "wordCount": 8103,
-          "title": "Mechanical Watch (2022)",
-          "imageUrl": "https://ciechanow.ski/images/og/watch.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48553450",
-          "author": "tosh",
-          "description": "Article URL: https://www.unicorn-engine.org/\nComments URL: https://news.ycombinator.com/item?id=48553450\nPoints: 54\n# Comments: 16",
-          "link": "https://www.unicorn-engine.org/",
-          "publishedOn": "2026-06-16T11:14:38.000Z",
-          "wordCount": 1941,
-          "title": "Unicorn – The Ultimate CPU Emulator",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48553388",
-          "author": "marklit",
-          "description": "Article URL: https://www.greybeam.ai/blog/duckdb-internals-part-1\nComments URL: https://news.ycombinator.com/item?id=48553388\nPoints: 399\n# Comments: 127",
-          "link": "https://www.greybeam.ai/blog/duckdb-internals-part-1",
-          "publishedOn": "2026-06-16T11:07:08.000Z",
-          "wordCount": 9277,
-          "title": "DuckDB Internals: Why Is DuckDB Fast? (Part 1)",
-          "imageUrl": "https://storage.ghost.io/c/eb/37/eb37738a-77f2-4eaf-9de2-43f9b30fffd5/content/images/2026/05/image--16-.png"
         }
       ]
     }
