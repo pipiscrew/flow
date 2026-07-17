@@ -2,10 +2,49 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-07-16T22:07:06.538Z</updated>
+    <updated>2026-07-17T00:02:48.214Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[My car's OTA update broke Android Auto, and it's a indictment of modern software]]></title>
+        <id>https://news.ycombinator.com/item?id=48941129</id>
+        <link href="https://imdanielkendall.com/the-great-software-regress-how-move-fast-and-break-things-broke-our-lives/"/>
+        <updated>2026-07-16T22:29:44.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://imdanielkendall.com/the-great-software-regress-how-move-fast-and-break-things-broke-our-lives/
+Comments URL: https://news.ycombinator.com/item?id=48941129
+Points: 84
+# Comments: 87]]></summary>
+        <author>
+            <name>Expletive4138</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Mathematics of Data Science]]></title>
+        <id>https://news.ycombinator.com/item?id=48939896</id>
+        <link href="https://arxiv.org/abs/2607.11938"/>
+        <updated>2026-07-16T20:38:48.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://arxiv.org/abs/2607.11938
+Comments URL: https://news.ycombinator.com/item?id=48939896
+Points: 76
+# Comments: 2]]></summary>
+        <author>
+            <name>Anon84</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Helium escaping from atmosphere of nearby rocky exoplanet in a habitable zone]]></title>
+        <id>https://news.ycombinator.com/item?id=48939742</id>
+        <link href="https://www.science.org/doi/10.1126/science.aea9708"/>
+        <updated>2026-07-16T20:24:02.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.science.org/doi/10.1126/science.aea9708
+Comments URL: https://news.ycombinator.com/item?id=48939742
+Points: 51
+# Comments: 12]]></summary>
+        <author>
+            <name>anyonecancode</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[LM Studio Bionic: the AI agent for open models]]></title>
         <id>https://news.ycombinator.com/item?id=48939662</id>
@@ -17,6 +56,19 @@ Points: 58
 # Comments: 17]]></summary>
         <author>
             <name>minimaxir</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The privacy problems hidden in your period tracker]]></title>
+        <id>https://news.ycombinator.com/item?id=48939641</id>
+        <link href="https://www.bbc.com/future/article/20260715-how-period-trackers-share-womens-private-details"/>
+        <updated>2026-07-16T20:15:58.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.bbc.com/future/article/20260715-how-period-trackers-share-womens-private-details
+Comments URL: https://news.ycombinator.com/item?id=48939641
+Points: 59
+# Comments: 35]]></summary>
+        <author>
+            <name>tchalla</name>
         </author>
     </entry>
     <entry>
@@ -3277,6 +3329,25 @@ Points: 75
 # Comments: 34]]></summary>
         <author>
             <name>serial_dev</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Clx – Compile Lua to Native Executables Through C++20]]></title>
+        <id>https://news.ycombinator.com/item?id=48871547</id>
+        <link href="https://github.com/samyeyo/clx"/>
+        <updated>2026-07-11T12:40:24.000Z</updated>
+        <summary type="html"><![CDATA[Hi HN,
+clx is an ahead-of-time compiler for standard Lua that generates C++20 and produces standalone native executables through GCC, Clang or MSVC.
+The project started as an experiment to see whether modern C++ could be used as a portable compiler backend instead of LLVM or direct machine code generation. The generated code is then compiled and optimized by the host toolchain.
+The latest release replaces the previous NaN-tagged value representation with a new shadow-types implementation, adds full int64 support, improves native arithmetic code generation and adds ARM64 macOS coroutine support.
+Performance is typically much faster than the Lua interpreter and can outperform LuaJIT on some computation-heavy workloads while remaining fully ahead-of-time compiled.
+The repository also contains graphical examples written in Lua, including a Pong game and a Mandelbrot explorer using a Sokol binary module (using the clx C++ API)
+I'd be very interested in feedback on clx :)
+Comments URL: https://news.ycombinator.com/item?id=48871547
+Points: 74
+# Comments: 2]]></summary>
+        <author>
+            <name>_samt_</name>
         </author>
     </entry>
     <entry>
@@ -16711,32 +16782,6 @@ Points: 98
 # Comments: 34]]></summary>
         <author>
             <name>peter_d_sherman</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The discovery that changed how scientists think about memory]]></title>
-        <id>https://news.ycombinator.com/item?id=48568652</id>
-        <link href="https://www.ibm.com/think/news/discovery-changed-how-scientists-think-about-memory-kavli-prize"/>
-        <updated>2026-06-17T11:09:29.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.ibm.com/think/news/discovery-changed-how-scientists-think-about-memory-kavli-prize
-Comments URL: https://news.ycombinator.com/item?id=48568652
-Points: 60
-# Comments: 17]]></summary>
-        <author>
-            <name>rbanffy</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[RFC 10008: The new HTTP Query Method]]></title>
-        <id>https://news.ycombinator.com/item?id=48568502</id>
-        <link href="https://www.rfc-editor.org/info/rfc10008/"/>
-        <updated>2026-06-17T10:51:17.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.rfc-editor.org/info/rfc10008/
-Comments URL: https://news.ycombinator.com/item?id=48568502
-Points: 111
-# Comments: 52]]></summary>
-        <author>
-            <name>schappim</name>
         </author>
     </entry>
 </feed>

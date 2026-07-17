@@ -6,6 +6,36 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=48941129",
+          "author": "Expletive4138",
+          "description": "Article URL: https://imdanielkendall.com/the-great-software-regress-how-move-fast-and-break-things-broke-our-lives/\nComments URL: https://news.ycombinator.com/item?id=48941129\nPoints: 84\n# Comments: 87",
+          "link": "https://imdanielkendall.com/the-great-software-regress-how-move-fast-and-break-things-broke-our-lives/",
+          "publishedOn": "2026-07-16T22:29:44.000Z",
+          "wordCount": 1818,
+          "title": "My car's OTA update broke Android Auto, and it's a indictment of modern software",
+          "imageUrl": "/static/og-image.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48939896",
+          "author": "Anon84",
+          "description": "Article URL: https://arxiv.org/abs/2607.11938\nComments URL: https://news.ycombinator.com/item?id=48939896\nPoints: 76\n# Comments: 2",
+          "link": "https://arxiv.org/abs/2607.11938",
+          "publishedOn": "2026-07-16T20:38:48.000Z",
+          "wordCount": 570,
+          "title": "Mathematics of Data Science",
+          "imageUrl": "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48939742",
+          "author": "anyonecancode",
+          "description": "Article URL: https://www.science.org/doi/10.1126/science.aea9708\nComments URL: https://news.ycombinator.com/item?id=48939742\nPoints: 51\n# Comments: 12",
+          "link": "https://www.science.org/doi/10.1126/science.aea9708",
+          "publishedOn": "2026-07-16T20:24:02.000Z",
+          "wordCount": null,
+          "title": "Helium escaping from atmosphere of nearby rocky exoplanet in a habitable zone",
+          "imageUrl": null
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=48939662",
           "author": "minimaxir",
           "description": "Article URL: https://lmstudio.ai/blog/introducing-lm-studio-bionic\nComments URL: https://news.ycombinator.com/item?id=48939662\nPoints: 58\n# Comments: 17",
@@ -14,6 +44,16 @@
           "wordCount": 2300,
           "title": "LM Studio Bionic: the AI agent for open models",
           "imageUrl": "https://files.lmstudio.ai/bionic/lm-studio-bionic-og.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48939641",
+          "author": "tchalla",
+          "description": "Article URL: https://www.bbc.com/future/article/20260715-how-period-trackers-share-womens-private-details\nComments URL: https://news.ycombinator.com/item?id=48939641\nPoints: 59\n# Comments: 35",
+          "link": "https://www.bbc.com/future/article/20260715-how-period-trackers-share-womens-private-details",
+          "publishedOn": "2026-07-16T20:15:58.000Z",
+          "wordCount": 10159,
+          "title": "The privacy problems hidden in your period tracker",
+          "imageUrl": "https://ychef.files.bbci.co.uk/624x351/p0nyzvlm.jpg"
         },
         {
           "id": "https://news.ycombinator.com/item?id=48939524",
@@ -2474,6 +2514,16 @@
           "wordCount": 285,
           "title": "G# – A modern .NET language with Go, Kotlin, and Swift ergonomics",
           "imageUrl": "https://davidobando.github.io/gsharp/img/gsharp-icon.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48871547",
+          "author": "_samt_",
+          "description": "Hi HN,\nclx is an ahead-of-time compiler for standard Lua that generates C++20 and produces standalone native executables through GCC, Clang or MSVC.\nThe project started as an experiment to see whether modern C++ could be used as a portable compiler backend instead of LLVM or direct machine code generation. The generated code is then compiled and optimized by the host toolchain.\nThe latest release replaces the previous NaN-tagged value representation with a new shadow-types implementation, adds full int64 support, improves native arithmetic code generation and adds ARM64 macOS coroutine support.\nPerformance is typically much faster than the Lua interpreter and can outperform LuaJIT on some computation-heavy workloads while remaining fully ahead-of-time compiled.\nThe repository also contains graphical examples written in Lua, including a Pong game and a Mandelbrot explorer using a Sokol binary module (using the clx C++ API)\nI'd be very interested in feedback on clx :)\nComments URL: https://news.ycombinator.com/item?id=48871547\nPoints: 74\n# Comments: 2",
+          "link": "https://github.com/samyeyo/clx",
+          "publishedOn": "2026-07-11T12:40:24.000Z",
+          "wordCount": 4214,
+          "title": "Show HN: Clx – Compile Lua to Native Executables Through C++20",
+          "imageUrl": "https://opengraph.githubassets.com/ed9364e92e081a5652802f4a5c8f0eeb1c9ef8846aee60b046b10416910d606f/samyeyo/clx"
         },
         {
           "id": "https://news.ycombinator.com/item?id=48871470",
@@ -12674,26 +12724,6 @@
           "wordCount": 1960,
           "title": "MicroUI – A tiny, portable, immediate-mode UI library written in ANSI C",
           "imageUrl": "https://opengraph.githubassets.com/256299c45c9654065dd209907bd4a980e79de677072333b8d99043b7a9f5387f/rxi/microui"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48568652",
-          "author": "rbanffy",
-          "description": "Article URL: https://www.ibm.com/think/news/discovery-changed-how-scientists-think-about-memory-kavli-prize\nComments URL: https://news.ycombinator.com/item?id=48568652\nPoints: 60\n# Comments: 17",
-          "link": "https://www.ibm.com/think/news/discovery-changed-how-scientists-think-about-memory-kavli-prize",
-          "publishedOn": "2026-06-17T11:09:29.000Z",
-          "wordCount": 5587,
-          "title": "The discovery that changed how scientists think about memory",
-          "imageUrl": "https://www.ibm.com/content/dam/worldwide-content/stock-assets/adb-stk/ul/g/70/de/adobestock_714367383.jpeg/_jcr_content/renditions/cq5dam.web.1280.1280.jpeg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48568502",
-          "author": "schappim",
-          "description": "Article URL: https://www.rfc-editor.org/info/rfc10008/\nComments URL: https://news.ycombinator.com/item?id=48568502\nPoints: 111\n# Comments: 52",
-          "link": "https://www.rfc-editor.org/info/rfc10008/",
-          "publishedOn": "2026-06-17T10:51:17.000Z",
-          "wordCount": 11416,
-          "title": "RFC 10008: The new HTTP Query Method",
-          "imageUrl": "https://www.rfc-editor.org/api/v1/meta-thumbnail/rfc10008.png"
         }
       ]
     }
