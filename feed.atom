@@ -2,10 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-07-21T21:16:07.285Z</updated>
+    <updated>2026-07-21T23:02:04.400Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[A digestion of the Jacobian conjecture counterexample]]></title>
+        <id>https://news.ycombinator.com/item?id=48998362</id>
+        <link href="https://terrytao.wordpress.com/2026/07/21/a-digestion-of-the-jacobian-conjecture-counterexample/"/>
+        <updated>2026-07-21T21:09:25.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://terrytao.wordpress.com/2026/07/21/a-digestion-of-the-jacobian-conjecture-counterexample/
+Comments URL: https://news.ycombinator.com/item?id=48998362
+Points: 78
+# Comments: 21]]></summary>
+        <author>
+            <name>jeremyscanvic</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[OpenAI and Hugging Face partner to address security incident]]></title>
         <id>https://news.ycombinator.com/item?id=48997548</id>
@@ -85,6 +98,25 @@ Points: 65
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Show HN: A self-running space economy SIM in Rust and Bevy]]></title>
+        <id>https://news.ycombinator.com/item?id=48996187</id>
+        <link href="https://github.com/Kalcode/spaceprojectsim"/>
+        <updated>2026-07-21T18:29:57.000Z</updated>
+        <summary type="html"><![CDATA[I built this with Claude cause I always wanted to tinker with a simulation economoy and I love space themes.
+A space-economy sim where nothing is scripted. A few hundred autonomous ships each run their own planner. Some chase the best trade route, take a delivery contract, refuel, retrofit at a shipyard, or dock so the crew can rest before morale tanks.
+Markets price everything off supply with shortage-urgency multipliers, factions tax and subsidize, populations migrate when they're unhappy, and stations that go broke get abandoned and rot.
+It started as an Elixir/Phoenix prototype, but the BEAM scheduler struggled on Windows gaming PCs, so I had Claude rewrite the engine in Rust.
+The sim core is pure, synchronous, IO-free (its own hecs ECS), and the Bevy client embeds it directly as a library, sim and renderer share one world with zero marshalling. Ship AI is a GOAP planner over a world state; ships replan mid-flight when a better option appears. ~485 agents today at p50 ~10-20ms/tick, architected to push toward 100k+. Single native binary, bundled SQLite, no runtime deps. Getting into 100k has been a struggle, but I have pushed it into the thousand and it was running fine.
+It's a sandbox, not a game yet, there's no objective yet, and I'm not actively pushing it toward "shippable." Anyone can fork it and take it over. Or it can stay as some type of AI slop, but part of me thinks it is already in a pretty good shape for a simulation use for various games or ideas.
+(Full disclosure: a lot of this was built pairing with Claude. That's how I had the bandwidth to take it this far. Happy to talk about what that workflow actually looked like.)
+Comments URL: https://news.ycombinator.com/item?id=48996187
+Points: 67
+# Comments: 23]]></summary>
+        <author>
+            <name>kalcode</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Cheap self-hosted Kubernetes on Hetzner cloud (2025)]]></title>
         <id>https://news.ycombinator.com/item?id=48996128</id>
         <link href="https://blog.qstars.nl/posts/cheap-self-hosted-kubernetes-on-hetzner-cloud/"/>
@@ -147,6 +179,19 @@ Points: 56
 # Comments: 39]]></summary>
         <author>
             <name>surprisetalk</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Roblox Officially Supports GrapheneOS]]></title>
+        <id>https://news.ycombinator.com/item?id=48994716</id>
+        <link href="https://en.help.roblox.com/hc/en-us/articles/49648939984916-Android-Remote-Attestation"/>
+        <updated>2026-07-21T16:39:30.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://en.help.roblox.com/hc/en-us/articles/49648939984916-Android-Remote-Attestation
+Comments URL: https://news.ycombinator.com/item?id=48994716
+Points: 67
+# Comments: 10]]></summary>
+        <author>
+            <name>Cider9986</name>
         </author>
     </entry>
     <entry>
@@ -2150,6 +2195,26 @@ Points: 72
 # Comments: 16]]></summary>
         <author>
             <name>frizlab</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Justif – Knuth-Plass justification and microtypography for the web]]></title>
+        <id>https://news.ycombinator.com/item?id=48946738</id>
+        <link href="https://justif.lyall.co/"/>
+        <updated>2026-07-17T12:47:20.000Z</updated>
+        <summary type="html"><![CDATA[Justif is a drop-in JavaScript library that progressively enhances web pages to TeX-level text justification. Installation is a single  line, standard text and accessibility affordances are unchanged, and users with JS disabled get native browser rendering.
+I made justif because I've long been a fan of justified text. I think it looks clean and elegant, and makes reading more enjoyable. But bad justification is the opposite, with gaping spaces that distract me to the point of making the text near unreadable.
+Browsers have got better recently at handling justified text [0][1], but still use suboptimal greedy algorithms for the most part, and are not near that TeX/InDesign level of quality that I crave. `text-wrap: pretty` exists but is far from a panacea, as you can see for yourself in the demo.
+Justif also has the benefit of providing more consistent text layout across browsers. Blink (Chrome), Gecko (Firefox) and WebKit (Safari) all justify text differently, so normally what the user sees depends on what browser they use.
+Take a look at the demo, play around with it, see if you can break anything. I'm open to improvements of the API design as well, so please let me know your thoughts.
+For more details, see the README: https://github.com/lyallcooper/justif
+0: https://cloudfour.com/thinks/justified-text-better-than-expe...
+1: https://owickstrom.github.io/the-proportional-web/
+Comments URL: https://news.ycombinator.com/item?id=48946738
+Points: 53
+# Comments: 8]]></summary>
+        <author>
+            <name>lyall</name>
         </author>
     </entry>
     <entry>
