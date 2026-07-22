@@ -6,6 +6,16 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=49010648",
+          "author": "WadeGrimridge",
+          "description": "Article URL: https://mitchellh.com/writing/everyone-should-know-simd\nComments URL: https://news.ycombinator.com/item?id=49010648\nPoints: 65\n# Comments: 21",
+          "link": "https://mitchellh.com/writing/everyone-should-know-simd",
+          "publishedOn": "2026-07-22T17:48:18.000Z",
+          "wordCount": 4763,
+          "title": "Everyone Should Know SIMD",
+          "imageUrl": null
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=49010345",
           "author": "gmays",
           "description": "Article URL: https://chatgpt.com/share/6a5fdc7a-d6f8-83e8-bbea-8deb42cfed56\nComments URL: https://news.ycombinator.com/item?id=49010345\nPoints: 80\n# Comments: 22",
@@ -16,6 +26,26 @@
           "imageUrl": "https://cdn.openai.com/chatgpt/share-og.png"
         },
         {
+          "id": "https://news.ycombinator.com/item?id=49010167",
+          "author": "syrusakbary",
+          "description": "Article URL: https://github.com/marcelroed/gigatoken/\nComments URL: https://news.ycombinator.com/item?id=49010167\nPoints: 193\n# Comments: 35",
+          "link": "https://github.com/marcelroed/gigatoken/",
+          "publishedOn": "2026-07-22T17:20:38.000Z",
+          "wordCount": 6265,
+          "title": "GigaToken: ~1000x faster Language model tokenization",
+          "imageUrl": "https://opengraph.githubassets.com/a5deb39a07b6e83996bfb1f45f645455ead94f166bdb80b48975daf415371819/marcelroed/gigatoken"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=49010129",
+          "author": "dcastm",
+          "description": "Article URL: https://dylancastillo.co/posts/pelicanmaxxing.html\nComments URL: https://news.ycombinator.com/item?id=49010129\nPoints: 156\n# Comments: 59",
+          "link": "https://dylancastillo.co/posts/pelicanmaxxing.html",
+          "publishedOn": "2026-07-22T17:17:54.000Z",
+          "wordCount": 4752,
+          "title": "Are AI Labs Pelicanmaxxing?",
+          "imageUrl": "https://dylancastillo.co/posts/images/social_media_card.webp"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=49008642",
           "author": "surprisetalk",
           "description": "Article URL: https://dynomight.net/creatine/\nComments URL: https://news.ycombinator.com/item?id=49008642\nPoints: 69\n# Comments: 35",
@@ -24,6 +54,16 @@
           "wordCount": 5023,
           "title": "Does creatine make you smarter?",
           "imageUrl": "https://dynomight.net/img/creatine/the_biglin_brothers_racing.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=49008538",
+          "author": "Davisb135",
+          "description": "I'm the author of a paper my friends and I wrote after we were curious if a MUD, text games originating in the 1970s, could be used to evaluate LLMs. We've spent the last several months on nights and weekends running this experiment and writing the paper on just our personal computers with about $99 in API credits.\nOur experiment did have an interesting leaderboard but even more surprising was the measurements of each LLM. We scored each on four behavioral dimensions, two of which lean heavily on an LLM classifier. When we removed those two, one of the frontier models fell six positions. When we then checked the classifier against a second judge, the per-model agreement between them ranged from 85% to 22%. The aggregate kappa (0.04 on probe detection) indicated the instrument was noisy without saying which models the noise was hitting. The most affected model shared a model family with the classifier. This isn't proof of bias, just one observation we recorded.\nWe realize LLM judges can be unreliable, and while it wasn't our original intent to test this, it ended up being the most interesting finding. The divergence between the two judges is the finding we think generalizes to other judge-based benchmarks.\nWe emphasize this is just a proof of concept and not a validated benchmark. We prepared a thorough limitations section in the paper, including just 50 runs per model, overlapping CIs among the top models, no human raters, a tiny environment, etc.\nEverything we did is publicly available, the paper and data are CC BY 4.0, while the code is MIT. The paper, transcripts, code, and complete API billing export  can be found at https://doi.org/10.5281/zenodo.21386663\nIf you find issues, please let us know, that's why we're sharing this. We're currently designing Phase 2 and want it to be as robust as possible. We're looking at human baselines, multiple judges, more objectives, a larger environment, etc.\nComments URL: https://news.ycombinator.com/item?id=49008538\nPoints: 65\n# Comments: 37",
+          "link": "https://cruciblebench.ai/",
+          "publishedOn": "2026-07-22T15:39:01.000Z",
+          "wordCount": 1229,
+          "title": "Can a MUD evaluate LLMs? A $99 proof of concept",
+          "imageUrl": "https://cruciblebench.ai/social-card.png"
         },
         {
           "id": "https://news.ycombinator.com/item?id=49008440",
@@ -54,6 +94,26 @@
           "wordCount": 246,
           "title": "Show HN: Bento - An entire PowerPoint in one HTML file (edit+view+data+collab)",
           "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=49007863",
+          "author": "ibobev",
+          "description": "Article URL: https://blog.jaysmito.dev/blog/02-perlins-noise-algorithm/\nComments URL: https://news.ycombinator.com/item?id=49007863\nPoints: 50\n# Comments: 10",
+          "link": "https://blog.jaysmito.dev/blog/02-perlins-noise-algorithm/",
+          "publishedOn": "2026-07-22T14:59:08.000Z",
+          "wordCount": null,
+          "title": "Perlin's Noise Algorithm (2023)",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=49007626",
+          "author": "willm",
+          "description": "Article URL: https://ishmael.textualize.io/blog/ghost-cut/\nComments URL: https://news.ycombinator.com/item?id=49007626\nPoints: 86\n# Comments: 57",
+          "link": "https://ishmael.textualize.io/blog/ghost-cut/",
+          "publishedOn": "2026-07-22T14:43:28.000Z",
+          "wordCount": 958,
+          "title": "Ghost Cut – or why Cut and Paste is broken everywhere",
+          "imageUrl": "https://ishmael.textualize.io/assets/img/og.png"
         },
         {
           "id": "https://news.ycombinator.com/item?id=49007620",

@@ -2,10 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-07-22T18:12:31.639Z</updated>
+    <updated>2026-07-22T20:14:34.235Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Everyone Should Know SIMD]]></title>
+        <id>https://news.ycombinator.com/item?id=49010648</id>
+        <link href="https://mitchellh.com/writing/everyone-should-know-simd"/>
+        <updated>2026-07-22T17:48:18.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://mitchellh.com/writing/everyone-should-know-simd
+Comments URL: https://news.ycombinator.com/item?id=49010648
+Points: 65
+# Comments: 21]]></summary>
+        <author>
+            <name>WadeGrimridge</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Terrence Tao's ChatGPT Conversation about the Jacobian Conjecture Counterexample]]></title>
         <id>https://news.ycombinator.com/item?id=49010345</id>
@@ -20,6 +33,32 @@ Points: 80
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[GigaToken: ~1000x faster Language model tokenization]]></title>
+        <id>https://news.ycombinator.com/item?id=49010167</id>
+        <link href="https://github.com/marcelroed/gigatoken/"/>
+        <updated>2026-07-22T17:20:38.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://github.com/marcelroed/gigatoken/
+Comments URL: https://news.ycombinator.com/item?id=49010167
+Points: 193
+# Comments: 35]]></summary>
+        <author>
+            <name>syrusakbary</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Are AI Labs Pelicanmaxxing?]]></title>
+        <id>https://news.ycombinator.com/item?id=49010129</id>
+        <link href="https://dylancastillo.co/posts/pelicanmaxxing.html"/>
+        <updated>2026-07-22T17:17:54.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://dylancastillo.co/posts/pelicanmaxxing.html
+Comments URL: https://news.ycombinator.com/item?id=49010129
+Points: 156
+# Comments: 59]]></summary>
+        <author>
+            <name>dcastm</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Does creatine make you smarter?]]></title>
         <id>https://news.ycombinator.com/item?id=49008642</id>
         <link href="https://dynomight.net/creatine/"/>
@@ -30,6 +69,24 @@ Points: 69
 # Comments: 35]]></summary>
         <author>
             <name>surprisetalk</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Can a MUD evaluate LLMs? A $99 proof of concept]]></title>
+        <id>https://news.ycombinator.com/item?id=49008538</id>
+        <link href="https://cruciblebench.ai/"/>
+        <updated>2026-07-22T15:39:01.000Z</updated>
+        <summary type="html"><![CDATA[I'm the author of a paper my friends and I wrote after we were curious if a MUD, text games originating in the 1970s, could be used to evaluate LLMs. We've spent the last several months on nights and weekends running this experiment and writing the paper on just our personal computers with about $99 in API credits.
+Our experiment did have an interesting leaderboard but even more surprising was the measurements of each LLM. We scored each on four behavioral dimensions, two of which lean heavily on an LLM classifier. When we removed those two, one of the frontier models fell six positions. When we then checked the classifier against a second judge, the per-model agreement between them ranged from 85% to 22%. The aggregate kappa (0.04 on probe detection) indicated the instrument was noisy without saying which models the noise was hitting. The most affected model shared a model family with the classifier. This isn't proof of bias, just one observation we recorded.
+We realize LLM judges can be unreliable, and while it wasn't our original intent to test this, it ended up being the most interesting finding. The divergence between the two judges is the finding we think generalizes to other judge-based benchmarks.
+We emphasize this is just a proof of concept and not a validated benchmark. We prepared a thorough limitations section in the paper, including just 50 runs per model, overlapping CIs among the top models, no human raters, a tiny environment, etc.
+Everything we did is publicly available, the paper and data are CC BY 4.0, while the code is MIT. The paper, transcripts, code, and complete API billing export  can be found at https://doi.org/10.5281/zenodo.21386663
+If you find issues, please let us know, that's why we're sharing this. We're currently designing Phase 2 and want it to be as robust as possible. We're looking at human baselines, multiple judges, more objectives, a larger environment, etc.
+Comments URL: https://news.ycombinator.com/item?id=49008538
+Points: 65
+# Comments: 37]]></summary>
+        <author>
+            <name>Davisb135</name>
         </author>
     </entry>
     <entry>
@@ -75,6 +132,32 @@ Points: 350
 # Comments: 76]]></summary>
         <author>
             <name>starfallg</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Perlin's Noise Algorithm (2023)]]></title>
+        <id>https://news.ycombinator.com/item?id=49007863</id>
+        <link href="https://blog.jaysmito.dev/blog/02-perlins-noise-algorithm/"/>
+        <updated>2026-07-22T14:59:08.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://blog.jaysmito.dev/blog/02-perlins-noise-algorithm/
+Comments URL: https://news.ycombinator.com/item?id=49007863
+Points: 50
+# Comments: 10]]></summary>
+        <author>
+            <name>ibobev</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Ghost Cut – or why Cut and Paste is broken everywhere]]></title>
+        <id>https://news.ycombinator.com/item?id=49007626</id>
+        <link href="https://ishmael.textualize.io/blog/ghost-cut/"/>
+        <updated>2026-07-22T14:43:28.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://ishmael.textualize.io/blog/ghost-cut/
+Comments URL: https://news.ycombinator.com/item?id=49007626
+Points: 86
+# Comments: 57]]></summary>
+        <author>
+            <name>willm</name>
         </author>
     </entry>
     <entry>
