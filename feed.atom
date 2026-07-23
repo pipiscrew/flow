@@ -2,10 +2,36 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-07-23T00:05:13.661Z</updated>
+    <updated>2026-07-23T04:19:01.746Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Petals: Run LLMs at home, BitTorrent-style]]></title>
+        <id>https://news.ycombinator.com/item?id=49015735</id>
+        <link href="https://petals.dev/"/>
+        <updated>2026-07-23T01:33:12.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://petals.dev/
+Comments URL: https://news.ycombinator.com/item?id=49015735
+Points: 71
+# Comments: 25]]></summary>
+        <author>
+            <name>snorbleck</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Codeberg Bans Cryptocurrency Projects]]></title>
+        <id>https://news.ycombinator.com/item?id=49015588</id>
+        <link href="https://codeberg.org/Codeberg/org/pulls/1254"/>
+        <updated>2026-07-23T01:06:56.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://codeberg.org/Codeberg/org/pulls/1254
+Comments URL: https://news.ycombinator.com/item?id=49015588
+Points: 157
+# Comments: 204]]></summary>
+        <author>
+            <name>intunderflow</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Medici family mystery may be solved after more than 400 years]]></title>
         <id>https://news.ycombinator.com/item?id=49014007</id>
@@ -59,6 +85,19 @@ Points: 138
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Fairphone 6 wide camera experimental Linux support]]></title>
+        <id>https://news.ycombinator.com/item?id=49012777</id>
+        <link href="https://nondescriptpointer.com/articles/fairphone-6-wide-camera-linux/"/>
+        <updated>2026-07-22T20:16:01.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://nondescriptpointer.com/articles/fairphone-6-wide-camera-linux/
+Comments URL: https://news.ycombinator.com/item?id=49012777
+Points: 83
+# Comments: 9]]></summary>
+        <author>
+            <name>helonaut</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[John C. Dvorak has died]]></title>
         <id>https://news.ycombinator.com/item?id=49012070</id>
         <link href="https://twitter.com/na_announce/status/2079952538040672302"/>
@@ -69,6 +108,35 @@ Points: 315
 # Comments: 62]]></summary>
         <author>
             <name>coleca</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Clarity didn't work, trying mysterianism (2012)]]></title>
+        <id>https://news.ycombinator.com/item?id=49011687</id>
+        <link href="https://gwern.net/doc/fiction/science-fiction/2012-10-03-yvain-thewhisperingearring.html"/>
+        <updated>2026-07-22T18:55:42.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://gwern.net/doc/fiction/science-fiction/2012-10-03-yvain-thewhisperingearring.html
+Comments URL: https://news.ycombinator.com/item?id=49011687
+Points: 51
+# Comments: 15]]></summary>
+        <author>
+            <name>dboon</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Cactus Hybrid: We taught Gemma 4 to know when it's wrong]]></title>
+        <id>https://news.ycombinator.com/item?id=49010782</id>
+        <link href="https://github.com/cactus-compute/cactus-hybrid"/>
+        <updated>2026-07-22T17:56:29.000Z</updated>
+        <summary type="html"><![CDATA[Hey HN, Henry & Roman here from Cactus.
+A small, on-device model is fast and private, but sometimes wrong, but frontier models are getting expensive pretty fast. So, we post-trained Gemma 4 E2B post-trained to know when it's wrong. Every response comes with a confidence score between 0 and 1. Developers can accept the on-device when it's high, hand off to a bigger cloud model when it's low. By routing only 15-35% of queries to Gemini 3.1 Flash-Lite, Gemma-4-E2B matches Gemini 3.1 Flash-Lite on most benchmarks.
+- ChartQA: 15-20%
+- LibriSpeech: 25-30%
+- MMBench, GigaSpeech, MMAU: 30-35%
+- MMLU-Pro: 45-55%
+We were always frustrated by the routing signals hybrid apps rely on: asking the model to rate itself in text (unreliable, and you're parsing prose), or token entropy heuristics (barely bet…]]></summary>
+        <author>
+            <name>HenryNdubuaku</name>
         </author>
     </entry>
     <entry>
@@ -16450,170 +16518,6 @@ Points: 155
 # Comments: 236]]></summary>
         <author>
             <name>madars</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Krea 2 Technical Report]]></title>
-        <id>https://news.ycombinator.com/item?id=48646659</id>
-        <link href="https://www.krea.ai/blog/krea-2-technical-report"/>
-        <updated>2026-06-23T15:31:21.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.krea.ai/blog/krea-2-technical-report
-Comments URL: https://news.ycombinator.com/item?id=48646659
-Points: 95
-# Comments: 6]]></summary>
-        <author>
-            <name>mattnewton</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AI's Affordability Crisis]]></title>
-        <id>https://news.ycombinator.com/item?id=48646276</id>
-        <link href="https://blog.dshr.org/2026/06/ais-affordability-crisis.html"/>
-        <updated>2026-06-23T15:11:17.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://blog.dshr.org/2026/06/ais-affordability-crisis.html
-Comments URL: https://news.ycombinator.com/item?id=48646276
-Points: 219
-# Comments: 279]]></summary>
-        <author>
-            <name>ilreb</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Markdy: Like Mermaid Diagrams, but for Motion]]></title>
-        <id>https://news.ycombinator.com/item?id=48646077</id>
-        <link href="https://markdy.com/"/>
-        <updated>2026-06-23T15:00:02.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://markdy.com
-Comments URL: https://news.ycombinator.com/item?id=48646077
-Points: 78
-# Comments: 37]]></summary>
-        <author>
-            <name>surprisetalk</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Lift4D: Harmonizing Single-View 3D Estimation for 4D Reconstruction In-the-Wild]]></title>
-        <id>https://news.ycombinator.com/item?id=48645721</id>
-        <link href="https://lift4d.github.io/"/>
-        <updated>2026-06-23T14:40:17.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://lift4d.github.io/
-Comments URL: https://news.ycombinator.com/item?id=48645721
-Points: 65
-# Comments: 5]]></summary>
-        <author>
-            <name>ilreb</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: TikZ Editor – WYSIWYG editor for figures in LaTeX]]></title>
-        <id>https://news.ycombinator.com/item?id=48645437</id>
-        <link href="https://tikz.dev/editor/"/>
-        <updated>2026-06-23T14:24:21.000Z</updated>
-        <summary type="html"><![CDATA[Hi all! TikZ is a widely-used LaTeX package for drawing figures in papers. It uses commands like \draw[->] (0,0) -- (1,2); to draw lines, shapes, text, etc. Academics usually code up their figures by hand, so there is lots of twiddling around with the coordinates and recompiling until things look nice. I guess it’s a bit like SVG, but it’s more code than markup, for example it has loops with \foreach.
-I built an open-source WYSIWYG TikZ editor (available for web and desktop) that allows you to edit your TikZ source code visually by dragging and resizing elements. It simultaneously shows the source code and the rendered figure, and lets you edit either one while the two views stay in sync. I’m not aware of any other editors that are simultaneously source editors and WYSIWYG (even for editing SVG or HTML), and I’m quite pleased with how well the combination works.
-The way the app is implemented is by parsing the TikZ code, and at all times keeping track of the exact source location of each object. Thereby, when a user drags an element to a new position, the app can override just the numbers in the coordinate without changing anything else in the code (such as line breaks or indentation).
-This approach essentially required reimplementing a large fraction of TikZ, which is the kind of task that no human would ever want to do. I think building software that doesn’t exist yet because it would be impossibly tedious to code up is one of the great new possibilities thanks to coding agents, and it’s worth brainstorming for other examples. (This app was built almost entirely by Codex.)
-Implementing the app came with lots of fun side quests, including building converters from SVG / pptx / ipe to TikZ, re-implementing the LaTeX hyphenation and line-breaking algorithm to support multi-line nodes, and making a color picker that uses the red!20!black color mixing notation used in LaTeX papers.
-Comments URL: https://news.ycombinator.com/item?id=48645437
-Points: 97
-# Comments: 21]]></summary>
-        <author>
-            <name>DominikPeters</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: Bun-sqlgen – Type-safe raw SQL for Bun, no ORM]]></title>
-        <id>https://news.ycombinator.com/item?id=48645390</id>
-        <link href="https://github.com/ilbertt/bun-sqlgen"/>
-        <updated>2026-06-23T14:20:24.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://github.com/ilbertt/bun-sqlgen
-Comments URL: https://news.ycombinator.com/item?id=48645390
-Points: 50
-# Comments: 23]]></summary>
-        <author>
-            <name>ilbert</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Elevated error rate across multiple models]]></title>
-        <id>https://news.ycombinator.com/item?id=48645386</id>
-        <link href="https://status.claude.com/incidents/jbhf20wjmzrf"/>
-        <updated>2026-06-23T14:19:47.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://status.claude.com/incidents/jbhf20wjmzrf
-Comments URL: https://news.ycombinator.com/item?id=48645386
-Points: 149
-# Comments: 174]]></summary>
-        <author>
-            <name>rob</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Spying on kids to save kids from spying is stupid]]></title>
-        <id>https://news.ycombinator.com/item?id=48645173</id>
-        <link href="https://pluralistic.net/2026/06/23/destroy-the-village/"/>
-        <updated>2026-06-23T14:04:43.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://pluralistic.net/2026/06/23/destroy-the-village/
-Comments URL: https://news.ycombinator.com/item?id=48645173
-Points: 190
-# Comments: 129]]></summary>
-        <author>
-            <name>hn_acker</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Mistral OCR 4]]></title>
-        <id>https://news.ycombinator.com/item?id=48645152</id>
-        <link href="https://mistral.ai/news/ocr-4/"/>
-        <updated>2026-06-23T14:03:19.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://mistral.ai/news/ocr-4/
-Comments URL: https://news.ycombinator.com/item?id=48645152
-Points: 127
-# Comments: 39]]></summary>
-        <author>
-            <name>meetpateltech</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[MSG Made Dossier on Activists Who Opposed Facial Recognition]]></title>
-        <id>https://news.ycombinator.com/item?id=48644781</id>
-        <link href="https://www.404media.co/madison-square-garden-made-dossier-on-activists-who-opposed-facial-recognition/"/>
-        <updated>2026-06-23T13:36:10.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.404media.co/madison-square-garden-made-dossier-on-activists-who-opposed-facial-recognition/
-Comments URL: https://news.ycombinator.com/item?id=48644781
-Points: 111
-# Comments: 15]]></summary>
-        <author>
-            <name>cdrnsf</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Overfitted a 900KB Transformer to Compress a 100MB CSV into 7MB]]></title>
-        <id>https://news.ycombinator.com/item?id=48644463</id>
-        <link href="https://news.ycombinator.com/item?id=48644463"/>
-        <updated>2026-06-23T13:11:27.000Z</updated>
-        <summary type="html"><![CDATA[I built an experiment that uses an overfitted transformer and arithmetic coding to compress individual files.
-Instead of training the model to generalize, I train a 900KB transformer to memorize a single file and predict the next byte. Those predictions are fed into an arithmetic coder to produce the compressed output.
-On a 100MB NYC taxi CSV, it compresses to about 7MB (~0.5 bits/byte). On a 100MB slice of enwik9, it compresses to about 21MB (~1.68 bits/byte).
-It's pretty slow right now (roughly 20–30 minutes of training and 45 minutes each for compression and decompression on my AMD 7800XT).
-Checkout the repo - https://github.com/samyak112/pym-particles
-Comments URL: https://news.ycombinator.com/item?id=48644463
-Points: 61
-# Comments: 26]]></summary>
-        <author>
-            <name>spidy__</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The "Bizarre Headgear" exhibit at the Sam Noble museum]]></title>
-        <id>https://news.ycombinator.com/item?id=48644111</id>
-        <link href="https://svpow.com/2026/05/15/the-bizarre-headgear-exhibit-at-the-sam-noble-museum-is-incredible/"/>
-        <updated>2026-06-23T12:45:09.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://svpow.com/2026/05/15/the-bizarre-headgear-exhibit-at-the-sam-noble-museum-is-incredible/
-Comments URL: https://news.ycombinator.com/item?id=48644111
-Points: 60
-# Comments: 6]]></summary>
-        <author>
-            <name>surprisetalk</name>
         </author>
     </entry>
 </feed>

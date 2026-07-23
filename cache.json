@@ -6,6 +6,26 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=49015735",
+          "author": "snorbleck",
+          "description": "Article URL: https://petals.dev/\nComments URL: https://news.ycombinator.com/item?id=49015735\nPoints: 71\n# Comments: 25",
+          "link": "https://petals.dev/",
+          "publishedOn": "2026-07-23T01:33:12.000Z",
+          "wordCount": 334,
+          "title": "Petals: Run LLMs at home, BitTorrent-style",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=49015588",
+          "author": "intunderflow",
+          "description": "Article URL: https://codeberg.org/Codeberg/org/pulls/1254\nComments URL: https://news.ycombinator.com/item?id=49015588\nPoints: 157\n# Comments: 204",
+          "link": "https://codeberg.org/Codeberg/org/pulls/1254",
+          "publishedOn": "2026-07-23T01:06:56.000Z",
+          "wordCount": 1360,
+          "title": "Codeberg Bans Cryptocurrency Projects",
+          "imageUrl": "https://codeberg.org/Codeberg/org/pulls/1254/summary-card"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=49014007",
           "author": "effects",
           "description": "Article URL: https://www.cnn.com/2026/07/15/science/medici-family-mystery-dna-malaria\nComments URL: https://news.ycombinator.com/item?id=49014007\nPoints: 57\n# Comments: 10",
@@ -46,6 +66,16 @@
           "imageUrl": null
         },
         {
+          "id": "https://news.ycombinator.com/item?id=49012777",
+          "author": "helonaut",
+          "description": "Article URL: https://nondescriptpointer.com/articles/fairphone-6-wide-camera-linux/\nComments URL: https://news.ycombinator.com/item?id=49012777\nPoints: 83\n# Comments: 9",
+          "link": "https://nondescriptpointer.com/articles/fairphone-6-wide-camera-linux/",
+          "publishedOn": "2026-07-22T20:16:01.000Z",
+          "wordCount": 2203,
+          "title": "Fairphone 6 wide camera experimental Linux support",
+          "imageUrl": null
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=49012070",
           "author": "coleca",
           "description": "https://xcancel.com/na_announce/status/2079952538040672302\nComments URL: https://news.ycombinator.com/item?id=49012070\nPoints: 315\n# Comments: 62",
@@ -54,6 +84,26 @@
           "wordCount": 328,
           "title": "John C. Dvorak has died",
           "imageUrl": "https://pbs.twimg.com/profile_images/1350980458/na_twitter2_200x200.gif"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=49011687",
+          "author": "dboon",
+          "description": "Article URL: https://gwern.net/doc/fiction/science-fiction/2012-10-03-yvain-thewhisperingearring.html\nComments URL: https://news.ycombinator.com/item?id=49011687\nPoints: 51\n# Comments: 15",
+          "link": "https://gwern.net/doc/fiction/science-fiction/2012-10-03-yvain-thewhisperingearring.html",
+          "publishedOn": "2026-07-22T18:55:42.000Z",
+          "wordCount": 3979,
+          "title": "Clarity didn't work, trying mysterianism (2012)",
+          "imageUrl": "http://web.archive.org/web/20121008025245im_/http://l-userpic.livejournal.com/88845746/3732453 "
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=49010782",
+          "author": "HenryNdubuaku",
+          "description": "Hey HN, Henry & Roman here from Cactus.\nA small, on-device model is fast and private, but sometimes wrong, but frontier models are getting expensive pretty fast. So, we post-trained Gemma 4 E2B post-trained to know when it's wrong. Every response comes with a confidence score between 0 and 1. Developers can accept the on-device when it's high, hand off to a bigger cloud model when it's low. By routing only 15-35% of queries to Gemini 3.1 Flash-Lite, Gemma-4-E2B matches Gemini 3.1 Flash-Lite on most benchmarks.\n- ChartQA: 15-20%\n- LibriSpeech: 25-30%\n- MMBench, GigaSpeech, MMAU: 30-35%\n- MMLU-Pro: 45-55%\nWe were always frustrated by the routing signals hybrid apps rely on: asking the model to rate itself in text (unreliable, and you're parsing prose), or token entropy heuristics (barely bet…",
+          "link": "https://github.com/cactus-compute/cactus-hybrid",
+          "publishedOn": "2026-07-22T17:56:29.000Z",
+          "wordCount": 2792,
+          "title": "Show HN: Cactus Hybrid: We taught Gemma 4 to know when it's wrong",
+          "imageUrl": "https://opengraph.githubassets.com/e702af2c3c3da3461c66e0d7e339e11de909cb6a159c694a5fcb5a3280aa1a51/cactus-compute/cactus-hybrid"
         },
         {
           "id": "https://news.ycombinator.com/item?id=49010648",
@@ -12484,126 +12534,6 @@
           "wordCount": 6897,
           "title": "Digital euro clears key hurdle as EU seeks to break free from U.S. credit cards",
           "imageUrl": "https://s.yimg.com/os/en/reuters-finance.com/433caafdaded4d5d25db94317076a334"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48646659",
-          "author": "mattnewton",
-          "description": "Article URL: https://www.krea.ai/blog/krea-2-technical-report\nComments URL: https://news.ycombinator.com/item?id=48646659\nPoints: 95\n# Comments: 6",
-          "link": "https://www.krea.ai/blog/krea-2-technical-report",
-          "publishedOn": "2026-06-23T15:31:21.000Z",
-          "wordCount": 12361,
-          "title": "Krea 2 Technical Report",
-          "imageUrl": "https://s.krea.ai/blog-posts/krea-2-technical-report/agent/1782227962641-krea2-hero-new.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48646276",
-          "author": "ilreb",
-          "description": "Article URL: https://blog.dshr.org/2026/06/ais-affordability-crisis.html\nComments URL: https://news.ycombinator.com/item?id=48646276\nPoints: 219\n# Comments: 279",
-          "link": "https://blog.dshr.org/2026/06/ais-affordability-crisis.html",
-          "publishedOn": "2026-06-23T15:11:17.000Z",
-          "wordCount": null,
-          "title": "AI's Affordability Crisis",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48646077",
-          "author": "surprisetalk",
-          "description": "Article URL: https://markdy.com\nComments URL: https://news.ycombinator.com/item?id=48646077\nPoints: 78\n# Comments: 37",
-          "link": "https://markdy.com/",
-          "publishedOn": "2026-06-23T15:00:02.000Z",
-          "wordCount": 3067,
-          "title": "Markdy: Like Mermaid Diagrams, but for Motion",
-          "imageUrl": "https://markdy.com/og-image.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48645721",
-          "author": "ilreb",
-          "description": "Article URL: https://lift4d.github.io/\nComments URL: https://news.ycombinator.com/item?id=48645721\nPoints: 65\n# Comments: 5",
-          "link": "https://lift4d.github.io/",
-          "publishedOn": "2026-06-23T14:40:17.000Z",
-          "wordCount": 3399,
-          "title": "Lift4D: Harmonizing Single-View 3D Estimation for 4D Reconstruction In-the-Wild",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48645437",
-          "author": "DominikPeters",
-          "description": "Hi all! TikZ is a widely-used LaTeX package for drawing figures in papers. It uses commands like \\draw[->] (0,0) -- (1,2); to draw lines, shapes, text, etc. Academics usually code up their figures by hand, so there is lots of twiddling around with the coordinates and recompiling until things look nice. I guess it’s a bit like SVG, but it’s more code than markup, for example it has loops with \\foreach.\nI built an open-source WYSIWYG TikZ editor (available for web and desktop) that allows you to edit your TikZ source code visually by dragging and resizing elements. It simultaneously shows the source code and the rendered figure, and lets you edit either one while the two views stay in sync. I’m not aware of any other editors that are simultaneously source editors and WYSIWYG (even for editing SVG or HTML), and I’m quite pleased with how well the combination works.\nThe way the app is implemented is by parsing the TikZ code, and at all times keeping track of the exact source location of each object. Thereby, when a user drags an element to a new position, the app can override just the numbers in the coordinate without changing anything else in the code (such as line breaks or indentation).\nThis approach essentially required reimplementing a large fraction of TikZ, which is the kind of task that no human would ever want to do. I think building software that doesn’t exist yet because it would be impossibly tedious to code up is one of the great new possibilities thanks to coding agents, and it’s worth brainstorming for other examples. (This app was built almost entirely by Codex.)\nImplementing the app came with lots of fun side quests, including building converters from SVG / pptx / ipe to TikZ, re-implementing the LaTeX hyphenation and line-breaking algorithm to support multi-line nodes, and making a color picker that uses the red!20!black color mixing notation used in LaTeX papers.\nComments URL: https://news.ycombinator.com/item?id=48645437\nPoints: 97\n# Comments: 21",
-          "link": "https://tikz.dev/editor/",
-          "publishedOn": "2026-06-23T14:24:21.000Z",
-          "wordCount": 4,
-          "title": "Show HN: TikZ Editor – WYSIWYG editor for figures in LaTeX",
-          "imageUrl": "https://tikz.dev/editor/og-image.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48645390",
-          "author": "ilbert",
-          "description": "Article URL: https://github.com/ilbertt/bun-sqlgen\nComments URL: https://news.ycombinator.com/item?id=48645390\nPoints: 50\n# Comments: 23",
-          "link": "https://github.com/ilbertt/bun-sqlgen",
-          "publishedOn": "2026-06-23T14:20:24.000Z",
-          "wordCount": 1733,
-          "title": "Show HN: Bun-sqlgen – Type-safe raw SQL for Bun, no ORM",
-          "imageUrl": "https://opengraph.githubassets.com/b2c6ec38c33bd485bd0eef5d35bacd5bda38b61fc22733c302ca35b00cc7b0ce/ilbertt/bun-sqlgen"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48645386",
-          "author": "rob",
-          "description": "Article URL: https://status.claude.com/incidents/jbhf20wjmzrf\nComments URL: https://news.ycombinator.com/item?id=48645386\nPoints: 149\n# Comments: 174",
-          "link": "https://status.claude.com/incidents/jbhf20wjmzrf",
-          "publishedOn": "2026-06-23T14:19:47.000Z",
-          "wordCount": 3876,
-          "title": "Elevated error rate across multiple models",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48645173",
-          "author": "hn_acker",
-          "description": "Article URL: https://pluralistic.net/2026/06/23/destroy-the-village/\nComments URL: https://news.ycombinator.com/item?id=48645173\nPoints: 190\n# Comments: 129",
-          "link": "https://pluralistic.net/2026/06/23/destroy-the-village/",
-          "publishedOn": "2026-06-23T14:04:43.000Z",
-          "wordCount": 3278,
-          "title": "Spying on kids to save kids from spying is stupid",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48645152",
-          "author": "meetpateltech",
-          "description": "Article URL: https://mistral.ai/news/ocr-4/\nComments URL: https://news.ycombinator.com/item?id=48645152\nPoints: 127\n# Comments: 39",
-          "link": "https://mistral.ai/news/ocr-4/",
-          "publishedOn": "2026-06-23T14:03:19.000Z",
-          "wordCount": 2283,
-          "title": "Mistral OCR 4",
-          "imageUrl": "https://mistral.ai/cms-media/api/media/file/OCR-OG.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48644781",
-          "author": "cdrnsf",
-          "description": "Article URL: https://www.404media.co/madison-square-garden-made-dossier-on-activists-who-opposed-facial-recognition/\nComments URL: https://news.ycombinator.com/item?id=48644781\nPoints: 111\n# Comments: 15",
-          "link": "https://www.404media.co/madison-square-garden-made-dossier-on-activists-who-opposed-facial-recognition/",
-          "publishedOn": "2026-06-23T13:36:10.000Z",
-          "wordCount": 1637,
-          "title": "MSG Made Dossier on Activists Who Opposed Facial Recognition",
-          "imageUrl": "https://storage.ghost.io/c/0f/76/0f76b548-bc58-4f25-abc3-3f5ebca07da4/content/images/size/w1200/2026/06/msg-activists-facial-rec.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48644463",
-          "author": "spidy__",
-          "description": "I built an experiment that uses an overfitted transformer and arithmetic coding to compress individual files.\nInstead of training the model to generalize, I train a 900KB transformer to memorize a single file and predict the next byte. Those predictions are fed into an arithmetic coder to produce the compressed output.\nOn a 100MB NYC taxi CSV, it compresses to about 7MB (~0.5 bits/byte). On a 100MB slice of enwik9, it compresses to about 21MB (~1.68 bits/byte).\nIt's pretty slow right now (roughly 20–30 minutes of training and 45 minutes each for compression and decompression on my AMD 7800XT).\nCheckout the repo - https://github.com/samyak112/pym-particles\nComments URL: https://news.ycombinator.com/item?id=48644463\nPoints: 61\n# Comments: 26",
-          "link": "https://news.ycombinator.com/item?id=48644463",
-          "publishedOn": "2026-06-23T13:11:27.000Z",
-          "wordCount": 1811,
-          "title": "Overfitted a 900KB Transformer to Compress a 100MB CSV into 7MB",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48644111",
-          "author": "surprisetalk",
-          "description": "Article URL: https://svpow.com/2026/05/15/the-bizarre-headgear-exhibit-at-the-sam-noble-museum-is-incredible/\nComments URL: https://news.ycombinator.com/item?id=48644111\nPoints: 60\n# Comments: 6",
-          "link": "https://svpow.com/2026/05/15/the-bizarre-headgear-exhibit-at-the-sam-noble-museum-is-incredible/",
-          "publishedOn": "2026-06-23T12:45:09.000Z",
-          "wordCount": 5923,
-          "title": "The \"Bizarre Headgear\" exhibit at the Sam Noble museum",
-          "imageUrl": "https://svpow.com/wp-content/uploads/2026/05/bizarre-headgear-1-juvenile-utahceratops.jpg?w=480"
         }
       ]
     }
