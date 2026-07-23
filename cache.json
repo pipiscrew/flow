@@ -6,6 +6,26 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=49028037",
+          "author": "Thrashed",
+          "description": "I’ve been a NameCheap customer for 13 years. I’ve also helped out an old college club paying for a .com they use (that is registered to me under my name, address, and phone number). During a recent leadership transition, the incoming club lead wanted to make changes to the DNS and didn’t know to contact me. They figured out the domain name was parked at NameCheap, so they initiated a password reset using the domain name. I got a password reset email and immediately filed a NameCheap support ticket saying “I did not initiate this”. They called me to verify I was the one who filed the ticket, and then followed up with a canned email with tips like check your anti-virus.\nThe incoming club leader was persistent though, and called NameCheap support. He convinced them the domain registered in my…",
+          "link": "https://news.ycombinator.com/item?id=49028037",
+          "publishedOn": "2026-07-23T21:05:29.000Z",
+          "wordCount": 4187,
+          "title": "Namecheap Gave My Account to an Unverified Third Party Just Because They Asked",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=49027892",
+          "author": "Shortness8",
+          "description": "Article URL: https://www.science.org/content/article/exclusive-death-girl-chinese-gene-editing-trial-was-never-made-public\nComments URL: https://news.ycombinator.com/item?id=49027892\nPoints: 173\n# Comments: 76",
+          "link": "https://www.science.org/content/article/exclusive-death-girl-chinese-gene-editing-trial-was-never-made-public",
+          "publishedOn": "2026-07-23T20:52:19.000Z",
+          "wordCount": null,
+          "title": "Couple pay >$800k for a gene-editing therapy for their daughter. She died.",
+          "imageUrl": null
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=49026810",
           "author": "adam_rida",
           "description": "I’ve been building Echo (https://echo.tracerml.ai/), an experiment in making one AI system out of a pool of open-weight models rather than choosing a single model and using it for every task.\nIt started with a simple experiment. I took a group of models, including GLM-5.2, Kimi K2.7 and others, and ran them on the same evaluations. Then I measured what would happen if, for each problem, you somehow knew in advance which models would be useful and how their outputs should be combined.\nThat hypothetical system performed substantially better than any individual model in the pool. Of course, it is not something you can actually deploy because it relies on knowing which decisions were good after seeing the result. Echo is my attempt to recover some of that advantage without having that informat…",
@@ -23,6 +43,16 @@
           "publishedOn": "2026-07-23T18:23:50.000Z",
           "wordCount": 2555,
           "title": "Building on ATProto",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=49025831",
+          "author": "MarcoDewey",
+          "description": "Article URL: https://pme.uchicago.edu/news-events/news/cleaner-route-purifying-rare-earth-elements\nComments URL: https://news.ycombinator.com/item?id=49025831\nPoints: 59\n# Comments: 10",
+          "link": "https://pme.uchicago.edu/news-events/news/cleaner-route-purifying-rare-earth-elements",
+          "publishedOn": "2026-07-23T18:13:03.000Z",
+          "wordCount": 1923,
+          "title": "A solid-state “atomic channel” for separating rare earth elements",
           "imageUrl": null
         },
         {
@@ -44,6 +74,16 @@
           "wordCount": 1688,
           "title": "The arguments against open source AI are bad",
           "imageUrl": "https://tombedor.dev/img/social-card.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=49024620",
+          "author": "louis030195",
+          "description": "Hi Hacker News, I'm Louis. I built Screenpipe (https://screenpipe.com), an app that records your screen and audio locally (only!), and gives AI agents a searchable memory of what you've seen, said, and heard. This makes it easier to automate your repetitive tasks, turn them into SOPs (Standard Operating Procedure) and so on.\nI made a HN-style demo video at https://www.tella.tv/video/build-your-ai-second-brain-with-s... and there’s a marketing video at https://www.youtube.com/watch?v=c1jV6E9pyug.\nI’ve been obsessed with this for a long time. I’ve been maintaining a “second brain” since 2020, in which I would store journals, handwritten notes, music I listen to, projects I'm working on, conversations I have with people, personal CRM etc. I experimented a lot of RAG in the early days with Par…",
+          "link": "https://news.ycombinator.com/item?id=49024620",
+          "publishedOn": "2026-07-23T16:48:38.000Z",
+          "wordCount": 3660,
+          "title": "Launch HN: Screenpipe (YC S26) – Record how you work and turn that into agents",
+          "imageUrl": null
         },
         {
           "id": "https://news.ycombinator.com/item?id=49023809",
@@ -12534,16 +12574,6 @@
           "wordCount": 915,
           "title": "Haystack: Open-Source AI Framework for Production Ready Agents, RAG",
           "imageUrl": "https://haystack.deepset.ai/images/haystack-ogimage.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48657940",
-          "author": "ionychal",
-          "description": "Article URL: https://rworks.dev/posts/too-many-R-packages/\nComments URL: https://news.ycombinator.com/item?id=48657940\nPoints: 57\n# Comments: 42",
-          "link": "https://rworks.dev/posts/too-many-R-packages/",
-          "publishedOn": "2026-06-24T10:59:59.000Z",
-          "wordCount": 2313,
-          "title": "Too many R packages: CRAN is inundated with submissions",
-          "imageUrl": "https://rworks.dev/posts/too-many-R-packages/index_files/figure-html/unnamed-chunk-1-1.png"
         }
       ]
     }
