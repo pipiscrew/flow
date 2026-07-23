@@ -6,6 +6,26 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=49026810",
+          "author": "adam_rida",
+          "description": "I’ve been building Echo (https://echo.tracerml.ai/), an experiment in making one AI system out of a pool of open-weight models rather than choosing a single model and using it for every task.\nIt started with a simple experiment. I took a group of models, including GLM-5.2, Kimi K2.7 and others, and ran them on the same evaluations. Then I measured what would happen if, for each problem, you somehow knew in advance which models would be useful and how their outputs should be combined.\nThat hypothetical system performed substantially better than any individual model in the pool. Of course, it is not something you can actually deploy because it relies on knowing which decisions were good after seeing the result. Echo is my attempt to recover some of that advantage without having that informat…",
+          "link": "https://news.ycombinator.com/item?id=49026810",
+          "publishedOn": "2026-07-23T19:26:01.000Z",
+          "wordCount": 2765,
+          "title": "Show HN: Echo – Fable-level results at 1/3 the cost using open-weight models",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=49025984",
+          "author": "speckx",
+          "description": "Article URL: https://lukekanies.com/writing/building-on-atproto/\nComments URL: https://news.ycombinator.com/item?id=49025984\nPoints: 85\n# Comments: 38",
+          "link": "https://lukekanies.com/writing/building-on-atproto/",
+          "publishedOn": "2026-07-23T18:23:50.000Z",
+          "wordCount": 2555,
+          "title": "Building on ATProto",
+          "imageUrl": null
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=49024691",
           "author": "nickthegreek",
           "description": "Article URL: https://stephenfollows.com/p/what-just-happened-to-thenumberscom-should-worry-us-all\nComments URL: https://news.ycombinator.com/item?id=49024691\nPoints: 141\n# Comments: 53",
@@ -46,6 +66,16 @@
           "imageUrl": "https://opengraph.githubassets.com/b8b1091f2a15847b4f75f716f8f31d52d38fbfff891678c48d87bb0f3a03ad08/Conradqh/scrapemychats"
         },
         {
+          "id": "https://news.ycombinator.com/item?id=49023427",
+          "author": "Jonathanfishner",
+          "description": "hey HN, Jonathan and Guy here, creators of OneCLI (https://onecli.sh/). OneCLI is an open source vault for AI Agents.\nTraditional vaults are used to store your secrets and, on demand, provide them to you all in a secure way, trusting the person to keep them safe. We figured that in the agent's world, this is not the case, as you don't know what happens with the secret after it's delivered to the agent, or where it was saved. Or maybe someone even manipulated them to hand them over...\nFrom that understanding, we decided to build a network gateway that sits between your AI agents and the services they call. OneCLI matches the request by host/path, verifies the agent should have access, swaps the placeholder for the real credential, and forwards the request. \nthe secrets set inside the OneCLI…",
+          "link": "https://github.com/onecli/onecli",
+          "publishedOn": "2026-07-23T15:42:40.000Z",
+          "wordCount": 3284,
+          "title": "Show HN: OneCLI – OSS credential gateway that keeps secrets out of AI agents",
+          "imageUrl": "https://repository-images.githubusercontent.com/1175900220/ef74e755-ef2e-4166-8437-b1ad4830e2ff"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=49023019",
           "author": "dhorthy",
           "description": "Article URL: https://github.com/humanlayer/advanced-context-engineering-for-coding-agents/blob/main/wsff.md\nComments URL: https://news.ycombinator.com/item?id=49023019\nPoints: 90\n# Comments: 65",
@@ -64,6 +94,26 @@
           "wordCount": null,
           "title": "Startup founders urge U.S. government not to shut off Chinese open weight AI",
           "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=49022911",
+          "author": "harrisontin",
+          "description": "Hi HN, we are Marcos and Harrison, cofounders of Palmier (https://palmier.io). We are building Palmier Pro, an open source macOS video editor, with built-in AI generation and a local MCP server that connects to your agent. Here are a few demos:\n- Making some AI transitions: https://www.youtube.com/watch?v=hbM_-eR1GX4\n- Multicam editing with Codex: https://www.youtube.com/watch?v=SjS2q2LT1q8\n- Cutting long form clips into shorts: https://www.youtube.com/watch?v=PR66eN2ouuQ\nWe built Palmier Pro as an internal tool when we were making AI launch videos for other startups. The main problem it solved in the beginning was the back-and-forth between AI generation platform and video editor. The iteration loop was awkward: AI videos → download → import to editor → edit → realize we need to change th…",
+          "link": "https://github.com/palmier-io/palmier-pro",
+          "publishedOn": "2026-07-23T15:11:37.000Z",
+          "wordCount": 2583,
+          "title": "Show HN: Palmier Pro – Open-source macOS video editor built for AI",
+          "imageUrl": "https://opengraph.githubassets.com/87c9d1aab33efb451ec2e982be58a64b574f0332517e4c37ea7f0c3d96eb9070/palmier-io/palmier-pro"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=49022663",
+          "author": "ibobev",
+          "description": "Article URL: https://eliemichel.github.io/LearnWebGPU/\nComments URL: https://news.ycombinator.com/item?id=49022663\nPoints: 63\n# Comments: 10",
+          "link": "https://eliemichel.github.io/LearnWebGPU/",
+          "publishedOn": "2026-07-23T14:55:32.000Z",
+          "wordCount": 1238,
+          "title": "Learn WebGPU for C++",
+          "imageUrl": "https://eliemichel.github.io/LearnWebGPU/_static/preview.png"
         },
         {
           "id": "https://news.ycombinator.com/item?id=49022634",
@@ -96,6 +146,16 @@
           "imageUrl": null
         },
         {
+          "id": "https://news.ycombinator.com/item?id=49022137",
+          "author": "nill0",
+          "description": "Article URL: https://www.mathunion.org/imu-awards/fields-medal/fields-medals-2026\nComments URL: https://news.ycombinator.com/item?id=49022137\nPoints: 91\n# Comments: 36",
+          "link": "https://www.mathunion.org/imu-awards/fields-medal/fields-medals-2026",
+          "publishedOn": "2026-07-23T14:23:51.000Z",
+          "wordCount": null,
+          "title": "Fields Medals 2026",
+          "imageUrl": null
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=49022038",
           "author": "mpweiher",
           "description": "Article URL: https://haqr.eu/tinyrenderer/\nComments URL: https://news.ycombinator.com/item?id=49022038\nPoints: 124\n# Comments: 24",
@@ -114,6 +174,16 @@
           "wordCount": 1165,
           "title": "Hybrid-Electric Aicraft Engine Targeting 30% Fuel Efficiency",
           "imageUrl": "https://prd-sc102-cdn.rtx.com/-/media/rtx/news-images/2026/07/hybrid-electric-flight-demonstrator-engine_test-cell-1920x1080.jpg?rev=1eea54e7348d4c80a8953590bdbe72a0&rid=b07712ad28b94b93a524d8bd29ca9d8d"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=49021786",
+          "author": "andros",
+          "description": "Article URL: https://en.andros.dev/blog/06bfd107/emacs-is-a-lispboard/\nComments URL: https://news.ycombinator.com/item?id=49021786\nPoints: 68\n# Comments: 27",
+          "link": "https://en.andros.dev/blog/06bfd107/emacs-is-a-lispboard/",
+          "publishedOn": "2026-07-23T14:02:45.000Z",
+          "wordCount": 3170,
+          "title": "Emacs Is a Lispboard",
+          "imageUrl": "https://img.andros.dev/nBgRNg17UB_JOm4H0xVbgc4r7Pg=/600x0/filters:format(avif):quality(85)/https://andros.dev/media/thumbnails/ai_thumbnail_94e69e19.png"
         },
         {
           "id": "https://news.ycombinator.com/item?id=49021783",
@@ -12474,36 +12544,6 @@
           "wordCount": 2313,
           "title": "Too many R packages: CRAN is inundated with submissions",
           "imageUrl": "https://rworks.dev/posts/too-many-R-packages/index_files/figure-html/unnamed-chunk-1-1.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48657049",
-          "author": "kalli",
-          "description": "Article URL: https://dev.karltryggvason.com/you-cant-unit-test-for-taste/\nComments URL: https://news.ycombinator.com/item?id=48657049\nPoints: 85\n# Comments: 29",
-          "link": "https://dev.karltryggvason.com/you-cant-unit-test-for-taste/",
-          "publishedOn": "2026-06-24T08:54:12.000Z",
-          "wordCount": 2695,
-          "title": "You can't unit test for taste",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48657030",
-          "author": "dabinat",
-          "description": "Article URL: https://bunny.net/blog/were-making-bunny-dns-free/\nComments URL: https://news.ycombinator.com/item?id=48657030\nPoints: 485\n# Comments: 167",
-          "link": "https://bunny.net/blog/were-making-bunny-dns-free/",
-          "publishedOn": "2026-06-24T08:50:41.000Z",
-          "wordCount": 10935,
-          "title": "We're making Bunny DNS free: because a faster internet won't build itself",
-          "imageUrl": "https://bunny.net/blog/content/images/2026/06/DNS_-Free-DNS-blog-post--1-.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48656986",
-          "author": "ddecoene",
-          "description": "Article URL: https://github.com/DDecoene/WebBaseIII\nComments URL: https://news.ycombinator.com/item?id=48656986\nPoints: 53\n# Comments: 13",
-          "link": "https://github.com/DDecoene/WebBaseIII",
-          "publishedOn": "2026-06-24T08:46:16.000Z",
-          "wordCount": 7464,
-          "title": "Show HN: WebBase-III – dBASE III rebuilt in the browser with its own interpreter",
-          "imageUrl": "https://repository-images.githubusercontent.com/1261150371/15e15e6f-f1f2-4342-b06b-56df4cec77a6"
         }
       ]
     }

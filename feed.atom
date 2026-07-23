@@ -2,10 +2,35 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-07-23T19:26:48.594Z</updated>
+    <updated>2026-07-23T21:10:36.809Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Echo – Fable-level results at 1/3 the cost using open-weight models]]></title>
+        <id>https://news.ycombinator.com/item?id=49026810</id>
+        <link href="https://news.ycombinator.com/item?id=49026810"/>
+        <updated>2026-07-23T19:26:01.000Z</updated>
+        <summary type="html"><![CDATA[I’ve been building Echo (https://echo.tracerml.ai/), an experiment in making one AI system out of a pool of open-weight models rather than choosing a single model and using it for every task.
+It started with a simple experiment. I took a group of models, including GLM-5.2, Kimi K2.7 and others, and ran them on the same evaluations. Then I measured what would happen if, for each problem, you somehow knew in advance which models would be useful and how their outputs should be combined.
+That hypothetical system performed substantially better than any individual model in the pool. Of course, it is not something you can actually deploy because it relies on knowing which decisions were good after seeing the result. Echo is my attempt to recover some of that advantage without having that informat…]]></summary>
+        <author>
+            <name>adam_rida</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Building on ATProto]]></title>
+        <id>https://news.ycombinator.com/item?id=49025984</id>
+        <link href="https://lukekanies.com/writing/building-on-atproto/"/>
+        <updated>2026-07-23T18:23:50.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://lukekanies.com/writing/building-on-atproto/
+Comments URL: https://news.ycombinator.com/item?id=49025984
+Points: 85
+# Comments: 38]]></summary>
+        <author>
+            <name>speckx</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[What happened to TheNumbers.com]]></title>
         <id>https://news.ycombinator.com/item?id=49024691</id>
@@ -59,6 +84,19 @@ Points: 57
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Show HN: OneCLI – OSS credential gateway that keeps secrets out of AI agents]]></title>
+        <id>https://news.ycombinator.com/item?id=49023427</id>
+        <link href="https://github.com/onecli/onecli"/>
+        <updated>2026-07-23T15:42:40.000Z</updated>
+        <summary type="html"><![CDATA[hey HN, Jonathan and Guy here, creators of OneCLI (https://onecli.sh/). OneCLI is an open source vault for AI Agents.
+Traditional vaults are used to store your secrets and, on demand, provide them to you all in a secure way, trusting the person to keep them safe. We figured that in the agent's world, this is not the case, as you don't know what happens with the secret after it's delivered to the agent, or where it was saved. Or maybe someone even manipulated them to hand them over...
+From that understanding, we decided to build a network gateway that sits between your AI agents and the services they call. OneCLI matches the request by host/path, verifies the agent should have access, swaps the placeholder for the real credential, and forwards the request. 
+the secrets set inside the OneCLI…]]></summary>
+        <author>
+            <name>Jonathanfishner</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Why Software Factories Fail (or: harness engineering is not enough)]]></title>
         <id>https://news.ycombinator.com/item?id=49023019</id>
         <link href="https://github.com/humanlayer/advanced-context-engineering-for-coding-agents/blob/main/wsff.md"/>
@@ -83,6 +121,33 @@ Points: 312
 # Comments: 314]]></summary>
         <author>
             <name>theanonymousone</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Palmier Pro – Open-source macOS video editor built for AI]]></title>
+        <id>https://news.ycombinator.com/item?id=49022911</id>
+        <link href="https://github.com/palmier-io/palmier-pro"/>
+        <updated>2026-07-23T15:11:37.000Z</updated>
+        <summary type="html"><![CDATA[Hi HN, we are Marcos and Harrison, cofounders of Palmier (https://palmier.io). We are building Palmier Pro, an open source macOS video editor, with built-in AI generation and a local MCP server that connects to your agent. Here are a few demos:
+- Making some AI transitions: https://www.youtube.com/watch?v=hbM_-eR1GX4
+- Multicam editing with Codex: https://www.youtube.com/watch?v=SjS2q2LT1q8
+- Cutting long form clips into shorts: https://www.youtube.com/watch?v=PR66eN2ouuQ
+We built Palmier Pro as an internal tool when we were making AI launch videos for other startups. The main problem it solved in the beginning was the back-and-forth between AI generation platform and video editor. The iteration loop was awkward: AI videos → download → import to editor → edit → realize we need to change th…]]></summary>
+        <author>
+            <name>harrisontin</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Learn WebGPU for C++]]></title>
+        <id>https://news.ycombinator.com/item?id=49022663</id>
+        <link href="https://eliemichel.github.io/LearnWebGPU/"/>
+        <updated>2026-07-23T14:55:32.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://eliemichel.github.io/LearnWebGPU/
+Comments URL: https://news.ycombinator.com/item?id=49022663
+Points: 63
+# Comments: 10]]></summary>
+        <author>
+            <name>ibobev</name>
         </author>
     </entry>
     <entry>
@@ -125,6 +190,19 @@ Points: 401
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Fields Medals 2026]]></title>
+        <id>https://news.ycombinator.com/item?id=49022137</id>
+        <link href="https://www.mathunion.org/imu-awards/fields-medal/fields-medals-2026"/>
+        <updated>2026-07-23T14:23:51.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.mathunion.org/imu-awards/fields-medal/fields-medals-2026
+Comments URL: https://news.ycombinator.com/item?id=49022137
+Points: 91
+# Comments: 36]]></summary>
+        <author>
+            <name>nill0</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Software rendering in 500 lines of bare C++]]></title>
         <id>https://news.ycombinator.com/item?id=49022038</id>
         <link href="https://haqr.eu/tinyrenderer/"/>
@@ -148,6 +226,19 @@ Points: 66
 # Comments: 46]]></summary>
         <author>
             <name>r2sk5t</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Emacs Is a Lispboard]]></title>
+        <id>https://news.ycombinator.com/item?id=49021786</id>
+        <link href="https://en.andros.dev/blog/06bfd107/emacs-is-a-lispboard/"/>
+        <updated>2026-07-23T14:02:45.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://en.andros.dev/blog/06bfd107/emacs-is-a-lispboard/
+Comments URL: https://news.ycombinator.com/item?id=49021786
+Points: 68
+# Comments: 27]]></summary>
+        <author>
+            <name>andros</name>
         </author>
     </entry>
     <entry>
@@ -16441,45 +16532,6 @@ Points: 57
 # Comments: 42]]></summary>
         <author>
             <name>ionychal</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[You can't unit test for taste]]></title>
-        <id>https://news.ycombinator.com/item?id=48657049</id>
-        <link href="https://dev.karltryggvason.com/you-cant-unit-test-for-taste/"/>
-        <updated>2026-06-24T08:54:12.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://dev.karltryggvason.com/you-cant-unit-test-for-taste/
-Comments URL: https://news.ycombinator.com/item?id=48657049
-Points: 85
-# Comments: 29]]></summary>
-        <author>
-            <name>kalli</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[We're making Bunny DNS free: because a faster internet won't build itself]]></title>
-        <id>https://news.ycombinator.com/item?id=48657030</id>
-        <link href="https://bunny.net/blog/were-making-bunny-dns-free/"/>
-        <updated>2026-06-24T08:50:41.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://bunny.net/blog/were-making-bunny-dns-free/
-Comments URL: https://news.ycombinator.com/item?id=48657030
-Points: 485
-# Comments: 167]]></summary>
-        <author>
-            <name>dabinat</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: WebBase-III – dBASE III rebuilt in the browser with its own interpreter]]></title>
-        <id>https://news.ycombinator.com/item?id=48656986</id>
-        <link href="https://github.com/DDecoene/WebBaseIII"/>
-        <updated>2026-06-24T08:46:16.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://github.com/DDecoene/WebBaseIII
-Comments URL: https://news.ycombinator.com/item?id=48656986
-Points: 53
-# Comments: 13]]></summary>
-        <author>
-            <name>ddecoene</name>
         </author>
     </entry>
 </feed>
