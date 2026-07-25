@@ -2,10 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-07-24T23:06:20.919Z</updated>
+    <updated>2026-07-25T03:19:05.406Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Opus 5 is currently #1 on Artificial Analysis Intelligence Leaderboard]]></title>
+        <id>https://news.ycombinator.com/item?id=49040741</id>
+        <link href="https://artificialanalysis.ai/models"/>
+        <updated>2026-07-24T19:45:10.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://artificialanalysis.ai/models
+Comments URL: https://news.ycombinator.com/item?id=49040741
+Points: 161
+# Comments: 106]]></summary>
+        <author>
+            <name>aarondong</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Postgres LISTEN/NOTIFY actually scales]]></title>
         <id>https://news.ycombinator.com/item?id=49040296</id>
@@ -888,6 +901,31 @@ Points: 168
 # Comments: 81]]></summary>
         <author>
             <name>technewssss</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: I simulated closing the Strait of Hormuz on real oil trade data]]></title>
+        <id>https://news.ycombinator.com/item?id=49020545</id>
+        <link href="https://globaloilnetwork.staffinganalytics.io/"/>
+        <updated>2026-07-23T12:31:21.000Z</updated>
+        <summary type="html"><![CDATA[OP here: I created this visualization tool as the byproduct of a supply chain class I taught at Columbia. The pedagogical exercise grew into a full blown visualization and paper about global oil trade.
+The model:
+The mechanics are the same as the financial network Eisenberg-Noe: Instead of banks, every country consumes oil interconnected via bilateral trading. Shocks propagate throughout the network, depleting oil reserves when bottleneck nodes (such as the Strait of Hormuz) are blocked.
+Insights:
+The interesting part is the mechanics of how the crisis unfolds: for example, France receives 0 oil from Hormuz directly, yet their reserves are depleted faster because other countries reactively increase their safety oil stock, increasing oil price, making stockouts more expensive for everyone.
+The model also gives price dynamics which are interesting on their own: the price increase is not immediate, it follows sequentially as countries reserves deplete.
+Some caveats:
+1. For producer nodes, depletion means their export slack is reduced/exhausted.
+2. No sanctioned trade (UN Comtrade data)
+Technical Details:
+The visualization is 600 lines of flask plus js frontend (LLM assisted visualization with ground-truth matching the original numerical exercise of the paper)
+Paper with proofs/theory:
+https://arxiv.org/abs/2607.17491
+Comments URL: https://news.ycombinator.com/item?id=49020545
+Points: 110
+# Comments: 55]]></summary>
+        <author>
+            <name>eliotho</name>
         </author>
     </entry>
     <entry>
@@ -16250,181 +16288,6 @@ Points: 105
 # Comments: 31]]></summary>
         <author>
             <name>nekitamo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[OS9Map]]></title>
-        <id>https://news.ycombinator.com/item?id=48674484</id>
-        <link href="https://yllan.org/software/OS9Map/"/>
-        <updated>2026-06-25T15:01:06.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://yllan.org/software/OS9Map/
-Comments URL: https://news.ycombinator.com/item?id=48674484
-Points: 109
-# Comments: 15]]></summary>
-        <author>
-            <name>LaSombra</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ford rehires 350 engineers after AI fails to preserve expertise or train juniors]]></title>
-        <id>https://news.ycombinator.com/item?id=48674446</id>
-        <link href="https://www.bloomberg.com/news/articles/2026-06-25/ford-has-been-rehiring-quality-inspectors-after-ai-fell-short"/>
-        <updated>2026-06-25T14:58:50.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.bloomberg.com/news/articles/2026-06-25/ford-has-been-rehiring-quality-inspectors-after-ai-fell-short
-Comments URL: https://news.ycombinator.com/item?id=48674446
-Points: 495
-# Comments: 230]]></summary>
-        <author>
-            <name>alanwreath</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Do Babies Dream of Baby Sheep?]]></title>
-        <id>https://news.ycombinator.com/item?id=48674290</id>
-        <link href="https://devz.cl/posts/do-babies-dream-of-electric-sheep/"/>
-        <updated>2026-06-25T14:48:07.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://devz.cl/posts/do-babies-dream-of-electric-sheep/
-Comments URL: https://news.ycombinator.com/item?id=48674290
-Points: 85
-# Comments: 23]]></summary>
-        <author>
-            <name>DanielVZ</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Apple increases MacBook and iPad prices by 20%]]></title>
-        <id>https://news.ycombinator.com/item?id=48674096</id>
-        <link href="https://www.ft.com/content/0f067265-2baf-4b6e-8fb2-ed56daef6f3c"/>
-        <updated>2026-06-25T14:37:15.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.ft.com/content/0f067265-2baf-4b6e-8fb2-ed56daef6f3c
-Comments URL: https://news.ycombinator.com/item?id=48674096
-Points: 236
-# Comments: 184]]></summary>
-        <author>
-            <name>bazzmt</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Zig's New BitCast Semantics and LLVM Back End Improvements]]></title>
-        <id>https://news.ycombinator.com/item?id=48673825</id>
-        <link href="https://ziglang.org/devlog/2026/#2026-06-25"/>
-        <updated>2026-06-25T14:19:28.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://ziglang.org/devlog/2026/#2026-06-25
-Comments URL: https://news.ycombinator.com/item?id=48673825
-Points: 95
-# Comments: 25]]></summary>
-        <author>
-            <name>kouosi</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: I made Google Trends for Hacker News by indexing 18 years of comments]]></title>
-        <id>https://news.ycombinator.com/item?id=48673671</id>
-        <link href="https://hackernewstrends.com/"/>
-        <updated>2026-06-25T14:08:55.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://hackernewstrends.com
-Comments URL: https://news.ycombinator.com/item?id=48673671
-Points: 381
-# Comments: 101]]></summary>
-        <author>
-            <name>ytkimirti</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[1-Bit Pixel Art Emojis]]></title>
-        <id>https://news.ycombinator.com/item?id=48672848</id>
-        <link href="https://hypertalking.com/2023/05/15/1-bit-pixel-art-emojis/"/>
-        <updated>2026-06-25T13:15:18.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://hypertalking.com/2023/05/15/1-bit-pixel-art-emojis/
-Comments URL: https://news.ycombinator.com/item?id=48672848
-Points: 66
-# Comments: 10]]></summary>
-        <author>
-            <name>surprisetalk</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Political bias in AI: Where the AI models stand]]></title>
-        <id>https://news.ycombinator.com/item?id=48672779</id>
-        <link href="https://trakkr.ai/bias"/>
-        <updated>2026-06-25T13:08:31.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://trakkr.ai/bias
-Comments URL: https://news.ycombinator.com/item?id=48672779
-Points: 60
-# Comments: 131]]></summary>
-        <author>
-            <name>mektrik</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Countries are competing to see which can carry out mass surveillance the best]]></title>
-        <id>https://news.ycombinator.com/item?id=48672764</id>
-        <link href="https://mullvad.net/en/why-privacy-matters/state-mass-surveillance"/>
-        <updated>2026-06-25T13:07:07.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://mullvad.net/en/why-privacy-matters/state-mass-surveillance
-Comments URL: https://news.ycombinator.com/item?id=48672764
-Points: 179
-# Comments: 58]]></summary>
-        <author>
-            <name>Cider9986</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Apple raises prices of MacBooks, iPads]]></title>
-        <id>https://news.ycombinator.com/item?id=48672732</id>
-        <link href="https://www.reuters.com/world/asia-pacific/apple-raises-prices-macbooks-ipads-memory-costs-skyrocket-2026-06-25/"/>
-        <updated>2026-06-25T13:02:56.000Z</updated>
-        <summary type="html"><![CDATA[https://9to5mac.com/2026/06/25/apple-price-increases-mac-ipa...
-Comments URL: https://news.ycombinator.com/item?id=48672732
-Points: 430
-# Comments: 643]]></summary>
-        <author>
-            <name>virgildotcodes</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Hey Nico, you didn't vibe code your data room but stole it from Papermark]]></title>
-        <id>https://news.ycombinator.com/item?id=48672328</id>
-        <link href="https://twitter.com/mfts0/status/2070080422482977095"/>
-        <updated>2026-06-25T12:23:05.000Z</updated>
-        <summary type="html"><![CDATA[https://xcancel.com/mfts0/status/2070080422482977095
-Comments URL: https://news.ycombinator.com/item?id=48672328
-Points: 330
-# Comments: 136]]></summary>
-        <author>
-            <name>mmunj</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Regular expressions that work "everywhere"]]></title>
-        <id>https://news.ycombinator.com/item?id=48672232</id>
-        <link href="https://www.johndcook.com/blog/2026/06/23/regex-everywhere/"/>
-        <updated>2026-06-25T12:13:24.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.johndcook.com/blog/2026/06/23/regex-everywhere/
-Comments URL: https://news.ycombinator.com/item?id=48672232
-Points: 53
-# Comments: 25]]></summary>
-        <author>
-            <name>ColinWright</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: Turn native language audio into flashcards and shadowing practice]]></title>
-        <id>https://news.ycombinator.com/item?id=48671886</id>
-        <link href="https://lingochunk.com/try"/>
-        <updated>2026-06-25T11:29:13.000Z</updated>
-        <summary type="html"><![CDATA[Here is a tool I built initially for myself to help with my German and Greek language studies. It started as a hack for creating Anki cards from native language audio. It extracts the words, finds their base forms (lemmas) and groups the examples by the lemma. At some point I realised that I have a transcription with word level timestamps that opens a lot of other opportunities. So I added a mode to click the first and last word in the transcript and it starts looping with the right gap and repeat count.
-Another feature I use a lot is selecting an audio fragment, sending a predefined prompt to an AI to "explain grammar" or "explain nuances of meaning" and I still experimenting with prompts.
-And because shadowing is so easy I also use it as a player to improve my English pronunciation. (I am not a native English speaker.)
-I made a quick video showing the workflow for creating Anki cards and shadowing: https://youtu.be/TaR58uuDBvU?si=o5aGLAi2S-BZ7Zy9
-The app supports 15 input languages (Japanese and Chinese are the latest experimental additions), and more than 30 output languages.
-I would really appreciate it if you could try it https://lingochunk.com/try. I know there are other tools with similar functionality but I created something that fits my workflow and it is fun to build.
-Also I struggled to find public domain audio for the try page. I'd be grateful if anyone could point me to public domain sources (I used LibriVox, Wikimedia and FSI courses), or if you're a creator, let me feature some of your own recordings with credits and links.
-Comments URL: https://news.ycombinator.com/item?id=48671886
-Points: 64
-# Comments: 27]]></summary>
-        <author>
-            <name>alder</name>
         </author>
     </entry>
 </feed>

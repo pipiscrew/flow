@@ -6,6 +6,16 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=49040741",
+          "author": "aarondong",
+          "description": "Article URL: https://artificialanalysis.ai/models\nComments URL: https://news.ycombinator.com/item?id=49040741\nPoints: 161\n# Comments: 106",
+          "link": "https://artificialanalysis.ai/models",
+          "publishedOn": "2026-07-24T19:45:10.000Z",
+          "wordCount": 10236,
+          "title": "Opus 5 is currently #1 on Artificial Analysis Intelligence Leaderboard",
+          "imageUrl": "https://artificialanalysis.ai/opengraph-image.png?732728ccc2829321"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=49040296",
           "author": "KraftyOne",
           "description": "Article URL: https://www.dbos.dev/blog/postgres-listen-notify-scalability\nComments URL: https://news.ycombinator.com/item?id=49040296\nPoints: 93\n# Comments: 17",
@@ -684,6 +694,16 @@
           "wordCount": 3297,
           "title": "AI Companies Are Trying to Hide a Staggering Amount of Debt",
           "imageUrl": "https://futurism.com/wp-content/uploads/2026/07/ai-companies-hide-debt-off-balance-sheet.jpg?w=1200"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=49020545",
+          "author": "eliotho",
+          "description": "OP here: I created this visualization tool as the byproduct of a supply chain class I taught at Columbia. The pedagogical exercise grew into a full blown visualization and paper about global oil trade.\nThe model:\nThe mechanics are the same as the financial network Eisenberg-Noe: Instead of banks, every country consumes oil interconnected via bilateral trading. Shocks propagate throughout the network, depleting oil reserves when bottleneck nodes (such as the Strait of Hormuz) are blocked.\nInsights:\nThe interesting part is the mechanics of how the crisis unfolds: for example, France receives 0 oil from Hormuz directly, yet their reserves are depleted faster because other countries reactively increase their safety oil stock, increasing oil price, making stockouts more expensive for everyone.\nThe model also gives price dynamics which are interesting on their own: the price increase is not immediate, it follows sequentially as countries reserves deplete.\nSome caveats:\n1. For producer nodes, depletion means their export slack is reduced/exhausted.\n2. No sanctioned trade (UN Comtrade data)\nTechnical Details:\nThe visualization is 600 lines of flask plus js frontend (LLM assisted visualization with ground-truth matching the original numerical exercise of the paper)\nPaper with proofs/theory:\nhttps://arxiv.org/abs/2607.17491\nComments URL: https://news.ycombinator.com/item?id=49020545\nPoints: 110\n# Comments: 55",
+          "link": "https://globaloilnetwork.staffinganalytics.io/",
+          "publishedOn": "2026-07-23T12:31:21.000Z",
+          "wordCount": 1667,
+          "title": "Show HN: I simulated closing the Strait of Hormuz on real oil trade data",
+          "imageUrl": null
         },
         {
           "id": "https://news.ycombinator.com/item?id=49019647",
@@ -12333,136 +12353,6 @@
           "publishedOn": "2026-06-25T15:28:24.000Z",
           "wordCount": 14283,
           "title": "Halvar's Guide to Entrepreneurship",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48674484",
-          "author": "LaSombra",
-          "description": "Article URL: https://yllan.org/software/OS9Map/\nComments URL: https://news.ycombinator.com/item?id=48674484\nPoints: 109\n# Comments: 15",
-          "link": "https://yllan.org/software/OS9Map/",
-          "publishedOn": "2026-06-25T15:01:06.000Z",
-          "wordCount": 149,
-          "title": "OS9Map",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48674446",
-          "author": "alanwreath",
-          "description": "Article URL: https://www.bloomberg.com/news/articles/2026-06-25/ford-has-been-rehiring-quality-inspectors-after-ai-fell-short\nComments URL: https://news.ycombinator.com/item?id=48674446\nPoints: 495\n# Comments: 230",
-          "link": "https://www.bloomberg.com/news/articles/2026-06-25/ford-has-been-rehiring-quality-inspectors-after-ai-fell-short",
-          "publishedOn": "2026-06-25T14:58:50.000Z",
-          "wordCount": null,
-          "title": "Ford rehires 350 engineers after AI fails to preserve expertise or train juniors",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48674290",
-          "author": "DanielVZ",
-          "description": "Article URL: https://devz.cl/posts/do-babies-dream-of-electric-sheep/\nComments URL: https://news.ycombinator.com/item?id=48674290\nPoints: 85\n# Comments: 23",
-          "link": "https://devz.cl/posts/do-babies-dream-of-electric-sheep/",
-          "publishedOn": "2026-06-25T14:48:07.000Z",
-          "wordCount": 778,
-          "title": "Do Babies Dream of Baby Sheep?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48674096",
-          "author": "bazzmt",
-          "description": "Article URL: https://www.ft.com/content/0f067265-2baf-4b6e-8fb2-ed56daef6f3c\nComments URL: https://news.ycombinator.com/item?id=48674096\nPoints: 236\n# Comments: 184",
-          "link": "https://www.ft.com/content/0f067265-2baf-4b6e-8fb2-ed56daef6f3c",
-          "publishedOn": "2026-06-25T14:37:15.000Z",
-          "wordCount": null,
-          "title": "Apple increases MacBook and iPad prices by 20%",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48673825",
-          "author": "kouosi",
-          "description": "Article URL: https://ziglang.org/devlog/2026/#2026-06-25\nComments URL: https://news.ycombinator.com/item?id=48673825\nPoints: 95\n# Comments: 25",
-          "link": "https://ziglang.org/devlog/2026/#2026-06-25",
-          "publishedOn": "2026-06-25T14:19:28.000Z",
-          "wordCount": 5990,
-          "title": "Zig's New BitCast Semantics and LLVM Back End Improvements",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48673671",
-          "author": "ytkimirti",
-          "description": "Article URL: https://hackernewstrends.com\nComments URL: https://news.ycombinator.com/item?id=48673671\nPoints: 381\n# Comments: 101",
-          "link": "https://hackernewstrends.com/",
-          "publishedOn": "2026-06-25T14:08:55.000Z",
-          "wordCount": 2076,
-          "title": "Show HN: I made Google Trends for Hacker News by indexing 18 years of comments",
-          "imageUrl": "https://hackernewstrends.com/opengraph-image?72011d0134607af3"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48672848",
-          "author": "surprisetalk",
-          "description": "Article URL: https://hypertalking.com/2023/05/15/1-bit-pixel-art-emojis/\nComments URL: https://news.ycombinator.com/item?id=48672848\nPoints: 66\n# Comments: 10",
-          "link": "https://hypertalking.com/2023/05/15/1-bit-pixel-art-emojis/",
-          "publishedOn": "2026-06-25T13:15:18.000Z",
-          "wordCount": 279,
-          "title": "1-Bit Pixel Art Emojis",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48672779",
-          "author": "mektrik",
-          "description": "Article URL: https://trakkr.ai/bias\nComments URL: https://news.ycombinator.com/item?id=48672779\nPoints: 60\n# Comments: 131",
-          "link": "https://trakkr.ai/bias",
-          "publishedOn": "2026-06-25T13:08:31.000Z",
-          "wordCount": 2350,
-          "title": "Political bias in AI: Where the AI models stand",
-          "imageUrl": "https://trakkr.ai/og-bias.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48672764",
-          "author": "Cider9986",
-          "description": "Article URL: https://mullvad.net/en/why-privacy-matters/state-mass-surveillance\nComments URL: https://news.ycombinator.com/item?id=48672764\nPoints: 179\n# Comments: 58",
-          "link": "https://mullvad.net/en/why-privacy-matters/state-mass-surveillance",
-          "publishedOn": "2026-06-25T13:07:07.000Z",
-          "wordCount": 5843,
-          "title": "Countries are competing to see which can carry out mass surveillance the best",
-          "imageUrl": "https://mullvad.net/press/MullvadVPN_logo_Round_RGB_Color_positive.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48672732",
-          "author": "virgildotcodes",
-          "description": "https://9to5mac.com/2026/06/25/apple-price-increases-mac-ipa...\nComments URL: https://news.ycombinator.com/item?id=48672732\nPoints: 430\n# Comments: 643",
-          "link": "https://www.reuters.com/world/asia-pacific/apple-raises-prices-macbooks-ipads-memory-costs-skyrocket-2026-06-25/",
-          "publishedOn": "2026-06-25T13:02:56.000Z",
-          "wordCount": null,
-          "title": "Apple raises prices of MacBooks, iPads",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48672328",
-          "author": "mmunj",
-          "description": "https://xcancel.com/mfts0/status/2070080422482977095\nComments URL: https://news.ycombinator.com/item?id=48672328\nPoints: 330\n# Comments: 136",
-          "link": "https://twitter.com/mfts0/status/2070080422482977095",
-          "publishedOn": "2026-06-25T12:23:05.000Z",
-          "wordCount": 489,
-          "title": "Hey Nico, you didn't vibe code your data room but stole it from Papermark",
-          "imageUrl": "https://pbs.twimg.com/media/HLpkzuLWIAEqu-e.jpg:large"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48672232",
-          "author": "ColinWright",
-          "description": "Article URL: https://www.johndcook.com/blog/2026/06/23/regex-everywhere/\nComments URL: https://news.ycombinator.com/item?id=48672232\nPoints: 53\n# Comments: 25",
-          "link": "https://www.johndcook.com/blog/2026/06/23/regex-everywhere/",
-          "publishedOn": "2026-06-25T12:13:24.000Z",
-          "wordCount": 1722,
-          "title": "Regular expressions that work \"everywhere\"",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48671886",
-          "author": "alder",
-          "description": "Here is a tool I built initially for myself to help with my German and Greek language studies. It started as a hack for creating Anki cards from native language audio. It extracts the words, finds their base forms (lemmas) and groups the examples by the lemma. At some point I realised that I have a transcription with word level timestamps that opens a lot of other opportunities. So I added a mode to click the first and last word in the transcript and it starts looping with the right gap and repeat count.\nAnother feature I use a lot is selecting an audio fragment, sending a predefined prompt to an AI to \"explain grammar\" or \"explain nuances of meaning\" and I still experimenting with prompts.\nAnd because shadowing is so easy I also use it as a player to improve my English pronunciation. (I am not a native English speaker.)\nI made a quick video showing the workflow for creating Anki cards and shadowing: https://youtu.be/TaR58uuDBvU?si=o5aGLAi2S-BZ7Zy9\nThe app supports 15 input languages (Japanese and Chinese are the latest experimental additions), and more than 30 output languages.\nI would really appreciate it if you could try it https://lingochunk.com/try. I know there are other tools with similar functionality but I created something that fits my workflow and it is fun to build.\nAlso I struggled to find public domain audio for the try page. I'd be grateful if anyone could point me to public domain sources (I used LibriVox, Wikimedia and FSI courses), or if you're a creator, let me feature some of your own recordings with credits and links.\nComments URL: https://news.ycombinator.com/item?id=48671886\nPoints: 64\n# Comments: 27",
-          "link": "https://lingochunk.com/try",
-          "publishedOn": "2026-06-25T11:29:13.000Z",
-          "wordCount": null,
-          "title": "Show HN: Turn native language audio into flashcards and shadowing practice",
           "imageUrl": null
         }
       ]
