@@ -926,6 +926,16 @@
           "imageUrl": "http://web.archive.org/web/20121008025245im_/http://l-userpic.livejournal.com/88845746/3732453 "
         },
         {
+          "id": "https://news.ycombinator.com/item?id=49010993",
+          "author": "g0xA52A2A",
+          "description": "Article URL: https://saffroncr.itch.io/katavatis/devlog/1534514/building-a-tiny-3d-renderer-for-a-tiny-handheld\nComments URL: https://news.ycombinator.com/item?id=49010993\nPoints: 53\n# Comments: 2",
+          "link": "https://saffroncr.itch.io/katavatis/devlog/1534514/building-a-tiny-3d-renderer-for-a-tiny-handheld",
+          "publishedOn": "2026-07-22T18:09:26.000Z",
+          "wordCount": null,
+          "title": "Building a Tiny 3D Renderer for a Tiny Handheld",
+          "imageUrl": null
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=49010782",
           "author": "HenryNdubuaku",
           "description": "Hey HN, Henry & Roman here from Cactus.\nA small, on-device model is fast and private, but sometimes wrong, but frontier models are getting expensive pretty fast. So, we post-trained Gemma 4 E2B post-trained to know when it's wrong. Every response comes with a confidence score between 0 and 1. Developers can accept the on-device when it's high, hand off to a bigger cloud model when it's low. By routing only 15-35% of queries to Gemini 3.1 Flash-Lite, Gemma-4-E2B matches Gemini 3.1 Flash-Lite on most benchmarks.\n- ChartQA: 15-20%\n- LibriSpeech: 25-30%\n- MMBench, GigaSpeech, MMAU: 30-35%\n- MMLU-Pro: 45-55%\nWe were always frustrated by the routing signals hybrid apps rely on: asking the model to rate itself in text (unreliable, and you're parsing prose), or token entropy heuristics (barely bet…",
@@ -1414,6 +1424,16 @@
           "wordCount": 5252,
           "title": "The Unity CLI: manage Unity from your terminal",
           "imageUrl": "htttps://unity.com/unity-logo-2024.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=48995409",
+          "author": "twapi",
+          "description": "Article URL: https://blog.mozilla.org/en/firefox/firefox-containers-preview/\nComments URL: https://news.ycombinator.com/item?id=48995409\nPoints: 356\n# Comments: 102",
+          "link": "https://blog.mozilla.org/en/firefox/firefox-containers-preview/",
+          "publishedOn": "2026-07-21T17:27:59.000Z",
+          "wordCount": 1793,
+          "title": "Firefox Containers Preview",
+          "imageUrl": "https://blog.mozilla.org/wp-content/blogs.dir/278/files/2026/03/Cursor_Green_1920x1080-1080x720.jpeg"
         },
         {
           "id": "https://news.ycombinator.com/item?id=48995261",
@@ -12234,36 +12254,6 @@
           "wordCount": 713,
           "title": "Framework's 10G Ethernet module exposes USB-C's complexity",
           "imageUrl": ""
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48680370",
-          "author": "teleforce",
-          "description": "Article URL: https://gchandbook.org/\nComments URL: https://news.ycombinator.com/item?id=48680370\nPoints: 85\n# Comments: 12",
-          "link": "https://gchandbook.org/",
-          "publishedOn": "2026-06-25T23:10:30.000Z",
-          "wordCount": 1345,
-          "title": "The Garbage Collection Handbook: The Art of Automatic Memory Management (2nd Ed) (2023)",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48679934",
-          "author": "tzs",
-          "description": "Article URL: https://arstechnica.com/health/2026/06/military-branches-restore-flu-shot-requirement-after-virus-swept-through-base/\nComments URL: https://news.ycombinator.com/item?id=48679934\nPoints: 61\n# Comments: 25",
-          "link": "https://arstechnica.com/health/2026/06/military-branches-restore-flu-shot-requirement-after-virus-swept-through-base/",
-          "publishedOn": "2026-06-25T22:16:55.000Z",
-          "wordCount": 3154,
-          "title": "Military branches restore flu shot requirement after virus swept through base",
-          "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2026/06/GettyImages-2224665122-1152x648.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48679608",
-          "author": "bilsbie",
-          "description": "Article URL: https://expression.fire.org/p/the-papers-please-era-of-the-internet\nComments URL: https://news.ycombinator.com/item?id=48679608\nPoints: 280\n# Comments: 128",
-          "link": "https://expression.fire.org/p/the-papers-please-era-of-the-internet",
-          "publishedOn": "2026-06-25T21:44:55.000Z",
-          "wordCount": 6104,
-          "title": "The 'papers, please' era of the internet will decimate your privacy",
-          "imageUrl": "https://substackcdn.com/image/fetch/$s_!ikRw!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9049285c-dc2e-420a-b023-0f94858244b3_1000x667.jpeg"
         }
       ]
     }
