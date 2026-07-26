@@ -2,10 +2,62 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-07-26T12:08:09.023Z</updated>
+    <updated>2026-07-26T14:40:14.041Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Google Discloses $94.1B in SpaceX Stock, Marking 6% Stake]]></title>
+        <id>https://news.ycombinator.com/item?id=49057574</id>
+        <link href="https://www.wsj.com/tech/google-discloses-94-1-billion-in-spacex-stock-marking-6-stake-91655d7c"/>
+        <updated>2026-07-26T12:43:21.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.wsj.com/tech/google-discloses-94-1-billion-in-spacex-stock-marking-6-stake-91655d7c
+Comments URL: https://news.ycombinator.com/item?id=49057574
+Points: 109
+# Comments: 53]]></summary>
+        <author>
+            <name>1vuio0pswjnm7</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Go Analysis Framework: modular static analysis by go team]]></title>
+        <id>https://news.ycombinator.com/item?id=49057398</id>
+        <link href="https://pkg.go.dev/golang.org/x/tools/go/analysis"/>
+        <updated>2026-07-26T12:21:26.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://pkg.go.dev/golang.org/x/tools/go/analysis
+Comments URL: https://news.ycombinator.com/item?id=49057398
+Points: 53
+# Comments: 4]]></summary>
+        <author>
+            <name>AbuAssar</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Third Drone Shot Down in Three Days in Romanian Territory]]></title>
+        <id>https://news.ycombinator.com/item?id=49057248</id>
+        <link href="https://english.mapn.ro/"/>
+        <updated>2026-07-26T12:00:42.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://english.mapn.ro/
+Comments URL: https://news.ycombinator.com/item?id=49057248
+Points: 138
+# Comments: 121]]></summary>
+        <author>
+            <name>_tk_</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Elevated Errors for Opus 5]]></title>
+        <id>https://news.ycombinator.com/item?id=49056194</id>
+        <link href="https://status.claude.com/incidents/zftg3gqkmv18"/>
+        <updated>2026-07-26T09:18:34.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://status.claude.com/incidents/zftg3gqkmv18
+Comments URL: https://news.ycombinator.com/item?id=49056194
+Points: 62
+# Comments: 53]]></summary>
+        <author>
+            <name>TimCTRL</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Ruff v0.16.0 – Significant new updates – 413 default rules up from 59]]></title>
         <id>https://news.ycombinator.com/item?id=49056112</id>
@@ -16262,23 +16314,6 @@ Points: 59
 # Comments: 9]]></summary>
         <author>
             <name>signa11</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: Hacker News on a train station-style flip board]]></title>
-        <id>https://news.ycombinator.com/item?id=48693912</id>
-        <link href="https://popflame.quickish.space/hn-flipboard/"/>
-        <updated>2026-06-27T00:43:39.000Z</updated>
-        <summary type="html"><![CDATA[Although the page itself is more just fun to have made and look at (I like the flip sound), the fun part is how I made it to verify the (and I hate to say it) vibe host service I've been working on. The recent flip board back and forth's on Twitter (X) are what inspired me.
-The idea here is that people (like me or you) can create something neat like this, and others can remix it, change it and publish their own version. This is that all in action and it worked great. I wrote a blog about it (the blog is dogfooding, it's just an app hosted on quickish that uses the built in db lib).
-For the HN version of this flip board I use their firebase api via the built in quickish server functions that make use of the fact that the front-end can get realtime updates (now that you mention firebase) from cloud function db updates. Of course that's over-kill but I wanted to show something fun. You can remix and host your own version for free, just need a google oauth login that's it.
-OG flip board I built (Portland Based - Current Weather): https://popflame.quickish.space/flipboard-preview
-Blog post that dives a tiny bit deeper: https://popflame.quickish.space/blog/hacker-news-on-a-split-...
-Comments URL: https://news.ycombinator.com/item?id=48693912
-Points: 60
-# Comments: 10]]></summary>
-        <author>
-            <name>PaybackTony</name>
         </author>
     </entry>
 </feed>
