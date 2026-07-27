@@ -6,6 +6,26 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=49067854",
+          "author": "tomlockwood",
+          "description": "Article URL: https://lockwood.dev/ai/2026/07/27/how-is-the-bun-rewrite-in-rust-going.html\nComments URL: https://news.ycombinator.com/item?id=49067854\nPoints: 67\n# Comments: 29",
+          "link": "https://lockwood.dev/ai/2026/07/27/how-is-the-bun-rewrite-in-rust-going.html",
+          "publishedOn": "2026-07-27T11:12:26.000Z",
+          "wordCount": 1046,
+          "title": "How is the Bun Rewrite in Rust going?",
+          "imageUrl": "https://lockwood.dev/assets/img/rust_rewrite/slop.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=49066962",
+          "author": "pingou",
+          "description": "Article URL: https://www.bbc.com/news/articles/c9q9w3x9qn2o\nComments URL: https://news.ycombinator.com/item?id=49066962\nPoints: 94\n# Comments: 79",
+          "link": "https://www.bbc.com/news/articles/c9q9w3x9qn2o",
+          "publishedOn": "2026-07-27T09:11:59.000Z",
+          "wordCount": 5417,
+          "title": "Chinese chipmaker shares surge 470%",
+          "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/0377/live/bb1db120-896a-11f1-a3ae-0dbbd1718109.jpg"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=49065752",
           "author": "nateb2022",
           "description": "Article URL: https://huggingface.co/moonshotai/Kimi-K3\nComments URL: https://news.ycombinator.com/item?id=49065752\nPoints: 162\n# Comments: 51",
@@ -1416,6 +1436,16 @@
           "imageUrl": "https://images.unsplash.com/photo-1548192746-dd526f154ed9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDJ8fGluZGllfGVufDB8fHx8MTc0OTY5ODcxM3ww&ixlib=rb-4.1.0&q=80&w=2000"
         },
         {
+          "id": "https://news.ycombinator.com/item?id=49021270",
+          "author": "aplavin",
+          "description": "We have a black hole at home — with actual relativistic physics, live in your browser.\nI'm Sasha (Alexander) Plavin, an astrophysicist at Harvard's Black Hole Initiative studying quasars and black hole environments. I work with raytracing/radiative transfer simulations professionally, and wanted to make one anyone can play with — so I built this app.\nPut the black hole onto your screen (any browser), or directly into your room with AR or VR (requires WebXR, for example Chrome on Android, or any VR headset). When looking around, pay attention to unintuitive relativistic effects: rays bending around the black hole, and special relativistic \"Doppler boosting\" changing brightness depending on the viewing angle — zoom out to see the fast jet where the latter effect is especially pronounced.\nFaint markers show where other viewers are standing right now.\nAlternatively, put the black hole in front of your camera and watch it lens\nyour actual surroundings. Light winds around the hole, so you see both what's in front of you and what's behind you at once (when the device and browser allow both camera feeds). The closer to the black hole, the stronger the bending — and the longer the light-travel delay: wave at it and watch the changes propagate inward.\n(unfortunately, WebXR restrictions make AR passthrough and the camera feed mutually exclusive)\nNo signup, basic features work on every device, no data uploaded — the camera feed never leaves your device. Source code: https://github.com/aplavin/blackhole.plav.in.\nEnjoy having a black hole in your room, or use it for education/outreach — any questions, feedback, or suggestions are welcome!\nComments URL: https://news.ycombinator.com/item?id=49021270\nPoints: 367\n# Comments: 111",
+          "link": "https://blackhole.plav.in/",
+          "publishedOn": "2026-07-23T13:29:24.000Z",
+          "wordCount": 713,
+          "title": "Show HN: Physically accurate black hole you can put in your room",
+          "imageUrl": null
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=49021006",
           "author": "1vuio0pswjnm7",
           "description": "Article URL: https://www.reuters.com/business/retail-consumer/alphabets-cash-burn-raises-alarm-big-tech-ai-spending-climbs-2026-07-23/\nComments URL: https://news.ycombinator.com/item?id=49021006\nPoints: 181\n# Comments: 177",
@@ -1436,6 +1466,16 @@
           "imageUrl": "https://futurism.com/wp-content/uploads/2026/07/ai-companies-hide-debt-off-balance-sheet.jpg?w=1200"
         },
         {
+          "id": "https://news.ycombinator.com/item?id=49020842",
+          "author": "jxmorris12",
+          "description": "Article URL: https://faculty.lsu.edu/kharms/files/flexner_1939.pdf\nComments URL: https://news.ycombinator.com/item?id=49020842\nPoints: 94\n# Comments: 4",
+          "link": "https://faculty.lsu.edu/kharms/files/flexner_1939.pdf",
+          "publishedOn": "2026-07-23T12:58:02.000Z",
+          "wordCount": 46234,
+          "title": "The Usefulness of Useless Knowledge (1939) [pdf]",
+          "imageUrl": null
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=49020545",
           "author": "eliotho",
           "description": "OP here: I created this visualization tool as the byproduct of a supply chain class I taught at Columbia. The pedagogical exercise grew into a full blown visualization and paper about global oil trade.\nThe model:\nThe mechanics are the same as the financial network Eisenberg-Noe: Instead of banks, every country consumes oil interconnected via bilateral trading. Shocks propagate throughout the network, depleting oil reserves when bottleneck nodes (such as the Strait of Hormuz) are blocked.\nInsights:\nThe interesting part is the mechanics of how the crisis unfolds: for example, France receives 0 oil from Hormuz directly, yet their reserves are depleted faster because other countries reactively increase their safety oil stock, increasing oil price, making stockouts more expensive for everyone.\nThe model also gives price dynamics which are interesting on their own: the price increase is not immediate, it follows sequentially as countries reserves deplete.\nSome caveats:\n1. For producer nodes, depletion means their export slack is reduced/exhausted.\n2. No sanctioned trade (UN Comtrade data)\nTechnical Details:\nThe visualization is 600 lines of flask plus js frontend (LLM assisted visualization with ground-truth matching the original numerical exercise of the paper)\nPaper with proofs/theory:\nhttps://arxiv.org/abs/2607.17491\nComments URL: https://news.ycombinator.com/item?id=49020545\nPoints: 110\n# Comments: 55",
@@ -1444,6 +1484,16 @@
           "wordCount": 1667,
           "title": "Show HN: I simulated closing the Strait of Hormuz on real oil trade data",
           "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=49020219",
+          "author": "lee_ars",
+          "description": "Article URL: https://arstechnica.com/gadgets/2026/07/i-wanted-a-clock-that-never-needed-setting-things-escalated/\nComments URL: https://news.ycombinator.com/item?id=49020219\nPoints: 133\n# Comments: 111",
+          "link": "https://arstechnica.com/gadgets/2026/07/i-wanted-a-clock-that-never-needed-setting-things-escalated/",
+          "publishedOn": "2026-07-23T12:01:52.000Z",
+          "wordCount": 5516,
+          "title": "I wanted a clock that never needed setting. Things escalated",
+          "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/JT3A6491-1152x648-1784649433.jpg"
         },
         {
           "id": "https://news.ycombinator.com/item?id=49019647",
@@ -1684,6 +1734,16 @@
           "wordCount": 4752,
           "title": "Are AI Labs Pelicanmaxxing?",
           "imageUrl": "https://dylancastillo.co/posts/images/social_media_card.webp"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=49009706",
+          "author": "speckx",
+          "description": "Article URL: https://mymodernmet.com/magnolia-ancient-flowers-beetles/\nComments URL: https://news.ycombinator.com/item?id=49009706\nPoints: 92\n# Comments: 34",
+          "link": "https://mymodernmet.com/magnolia-ancient-flowers-beetles/",
+          "publishedOn": "2026-07-22T16:49:29.000Z",
+          "wordCount": 5926,
+          "title": "Magnolias Are So Old That They're Pollinated by Beetles, Not Bees",
+          "imageUrl": "https://mymodernmet.com/wp/wp-content/uploads/2025/06/Magnolia-Beetle-Pollinator-thumbnail.jpg"
         },
         {
           "id": "https://news.ycombinator.com/item?id=49009324",
@@ -12354,116 +12414,6 @@
           "wordCount": 10063,
           "title": "AMD Strix Halo RDMA Cluster Setup Guide",
           "imageUrl": "https://opengraph.githubassets.com/53d0ae5d3be4207059820f7c8dd4a6ec5411525d18b2ece689656e21fca74f77/kyuz0/amd-strix-halo-vllm-toolboxes"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48702917",
-          "author": "louwrentius",
-          "description": "Article URL: https://louwrentius.com/i-build-a-10-inch-mini-rack-from-aluminium-extrusions.html\nComments URL: https://news.ycombinator.com/item?id=48702917\nPoints: 57\n# Comments: 26",
-          "link": "https://louwrentius.com/i-build-a-10-inch-mini-rack-from-aluminium-extrusions.html",
-          "publishedOn": "2026-06-27T23:45:45.000Z",
-          "wordCount": 1861,
-          "title": "I built a 10 inch mini rack from aluminium extrusions",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48702874",
-          "author": "vinhnx",
-          "description": "Article URL: https://johnsalvatier.org/blog/2017/reality-has-a-surprising-amount-of-detail\nComments URL: https://news.ycombinator.com/item?id=48702874\nPoints: 58\n# Comments: 20",
-          "link": "https://johnsalvatier.org/blog/2017/reality-has-a-surprising-amount-of-detail",
-          "publishedOn": "2026-06-27T23:36:25.000Z",
-          "wordCount": 2406,
-          "title": "Reality has a surprising amount of detail (2017)",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48702848",
-          "author": "saisrirampur",
-          "description": "Article URL: https://clickhouse.com/blog/walrus-postgres-backups-in-rust\nComments URL: https://news.ycombinator.com/item?id=48702848\nPoints: 66\n# Comments: 4",
-          "link": "https://clickhouse.com/blog/walrus-postgres-backups-in-rust",
-          "publishedOn": "2026-06-27T23:32:58.000Z",
-          "wordCount": 3669,
-          "title": "WAL-RUS: a Rust Rewrite of WAL-G for PostgreSQL Backups",
-          "imageUrl": "https://clickhouse.com/_next/image?url=%2Fuploads%2FWAL_RUS_Blog_Banner_00f644032a.jpg&w=1200&h=630&q=75"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48702825",
-          "author": "Jimmc414",
-          "description": "Article URL: https://arxiv.org/abs/2606.22283\nComments URL: https://news.ycombinator.com/item?id=48702825\nPoints: 67\n# Comments: 5",
-          "link": "https://arxiv.org/abs/2606.22283",
-          "publishedOn": "2026-06-27T23:30:14.000Z",
-          "wordCount": 717,
-          "title": "Apple Neural Engine: Architecture, Programming, and Performance",
-          "imageUrl": "/static/browse/0.3.4/images/arxiv-logo-fb.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48702361",
-          "author": "Bender",
-          "description": "Article URL: https://nochan.net/b/Internet-Crap/20260602-Set-Up-Your-Own-DoH-Service/\nComments URL: https://news.ycombinator.com/item?id=48702361\nPoints: 57\n# Comments: 22",
-          "link": "https://nochan.net/b/Internet-Crap/20260602-Set-Up-Your-Own-DoH-Service/",
-          "publishedOn": "2026-06-27T22:24:35.000Z",
-          "wordCount": null,
-          "title": "Set up your own DoH (DNS over HTTPS) service",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48702320",
-          "author": "wrxd",
-          "description": "Article URL: http://occ.sdf.org/\nComments URL: https://news.ycombinator.com/item?id=48702320\nPoints: 62\n# Comments: 24",
-          "link": "http://occ.sdf.org/",
-          "publishedOn": "2026-06-27T22:18:50.000Z",
-          "wordCount": 1285,
-          "title": "Old Computer Challenge",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48702273",
-          "author": "pawal",
-          "description": "Article URL: https://evilbit.de/dns-resolver-guide.html\nComments URL: https://news.ycombinator.com/item?id=48702273\nPoints: 105\n# Comments: 31",
-          "link": "https://evilbit.de/dns-resolver-guide.html",
-          "publishedOn": "2026-06-27T22:11:28.000Z",
-          "wordCount": 2889,
-          "title": "Choosing a Public DNS Resolver",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48702060",
-          "author": "littlexsparkee",
-          "description": "Article URL: https://www.msn.com/en-us/money/general/michigan-spent-1-8-billion-and-only-created-602-jobs/ar-AA26Cusu\nComments URL: https://news.ycombinator.com/item?id=48702060\nPoints: 64\n# Comments: 28",
-          "link": "https://www.msn.com/en-us/money/general/michigan-spent-1-8-billion-and-only-created-602-jobs/ar-AA26Cusu",
-          "publishedOn": "2026-06-27T21:44:57.000Z",
-          "wordCount": 585,
-          "title": "Michigan spent $1.8B and only created 602 jobs",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48702006",
-          "author": "bookofjoe",
-          "description": "Article URL: https://www.smithsonianmag.com/smithsonian-institution/how-one-german-button-maker-searched-the-rivers-of-the-american-midwest-for-the-shells-that-could-make-him-a-fortune-180989012/\nComments URL: https://news.ycombinator.com/item?id=48702006\nPoints: 120\n# Comments: 39",
-          "link": "https://www.smithsonianmag.com/smithsonian-institution/how-one-german-button-maker-searched-the-rivers-of-the-american-midwest-for-the-shells-that-could-make-him-a-fortune-180989012/",
-          "publishedOn": "2026-06-27T21:38:05.000Z",
-          "wordCount": 3030,
-          "title": "German button maker searched rivers of American Midwest for valuable shells",
-          "imageUrl": "https://th-thumbnailer.cdn-si-edu.com/IN2gnjUj5x-1OWQKu7Ryq9LZtwM=/fit-in/1600x0/filters:focal(1232x2018:1233x2019)/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer_public/ef/3b/ef3b4417-2b07-4c6d-8f69-6ca044e305a5/ebony_shell_to_buttons_copyright_historic_muscatine_inc.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48701984",
-          "author": "randycupertino",
-          "description": "Article URL: https://www.psychologytoday.com/au/blog/mood-by-microbe/202606/what-ozempic-does-to-the-gut-brain-axis\nComments URL: https://news.ycombinator.com/item?id=48701984\nPoints: 123\n# Comments: 280",
-          "link": "https://www.psychologytoday.com/au/blog/mood-by-microbe/202606/what-ozempic-does-to-the-gut-brain-axis",
-          "publishedOn": "2026-06-27T21:34:06.000Z",
-          "wordCount": 2368,
-          "title": "What Ozempic does to the gut-brain axis",
-          "imageUrl": "https://cdn2.psychologytoday.com/assets/styles/manual_crop_1_91_1_1528x800/public/teaser_image/blog_entry/2026-06/shutterstock_2284966451.jpg?h=99361e79&itok=GqJ4weXl"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48701936",
-          "author": "shirozuki",
-          "description": "Article URL: https://dobrowolski.dev/article/enhancing-x11-application-security-with-lxc/\nComments URL: https://news.ycombinator.com/item?id=48701936\nPoints: 56\n# Comments: 17",
-          "link": "https://dobrowolski.dev/article/enhancing-x11-application-security-with-lxc/",
-          "publishedOn": "2026-06-27T21:27:36.000Z",
-          "wordCount": 1462,
-          "title": "Enhancing X11 Application Security with LXC",
-          "imageUrl": null
         }
       ]
     }
