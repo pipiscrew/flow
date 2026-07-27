@@ -2,10 +2,36 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-07-27T04:40:57.645Z</updated>
+    <updated>2026-07-27T08:36:01.059Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Kimi-K3 Releases on HuggingFace 7/27]]></title>
+        <id>https://news.ycombinator.com/item?id=49065752</id>
+        <link href="https://huggingface.co/moonshotai/Kimi-K3"/>
+        <updated>2026-07-27T06:18:10.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://huggingface.co/moonshotai/Kimi-K3
+Comments URL: https://news.ycombinator.com/item?id=49065752
+Points: 162
+# Comments: 51]]></summary>
+        <author>
+            <name>nateb2022</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[EU Fines Google $1.02B for Favoring Its Own Services]]></title>
+        <id>https://news.ycombinator.com/item?id=49065498</id>
+        <link href="https://www.wsj.com/tech/google-fined-1-02-billion-under-eus-tech-antitrust-rules-7e8ae1fb"/>
+        <updated>2026-07-27T05:31:33.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.wsj.com/tech/google-fined-1-02-billion-under-eus-tech-antitrust-rules-7e8ae1fb
+Comments URL: https://news.ycombinator.com/item?id=49065498
+Points: 65
+# Comments: 59]]></summary>
+        <author>
+            <name>1vuio0pswjnm7</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[PGSimCity - How PostgreSQL Works]]></title>
         <id>https://news.ycombinator.com/item?id=49063754</id>
@@ -17,6 +43,19 @@ Points: 264
 # Comments: 34]]></summary>
         <author>
             <name>jonbaer</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Fonts In Use – Find out where a font is used]]></title>
+        <id>https://news.ycombinator.com/item?id=49063523</id>
+        <link href="https://fontsinuse.com/"/>
+        <updated>2026-07-26T23:45:09.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://fontsinuse.com/
+Comments URL: https://news.ycombinator.com/item?id=49063523
+Points: 58
+# Comments: 4]]></summary>
+        <author>
+            <name>open_</name>
         </author>
     </entry>
     <entry>
@@ -16389,48 +16428,6 @@ Points: 56
 # Comments: 17]]></summary>
         <author>
             <name>shirozuki</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: Adrafinil – keep a lid-closed Mac awake only while agents work]]></title>
-        <id>https://news.ycombinator.com/item?id=48701512</id>
-        <link href="https://github.com/kageroumado/adrafinil"/>
-        <updated>2026-06-27T20:34:53.000Z</updated>
-        <summary type="html"><![CDATA[A month ago there was a wave of posts and tweets about engineers walking around cafes and parks with their MacBooks propped half-open, as fully closing the lid forces sleep that stops their AI agents. Some people made snarky comments about using tmux or Amphetamine, and some defended their choice with “but I only need it sometimes, and forgetting to disable Amphetamine and finding my laptop discharged in my bag is worse.”
-This is a solution to this problem. Unlike caffeinate, it will prevent your MacBook from sleeping even with the lid closed, with no external power or display, using pmset disablesleep 1. Unlike other sleep-preventing apps, Adrafinil only activates when there’s an agent actively doing something. It detects agent activity through hooks it installs into Claude Code, Codex, and others. To reassure you it’s working, the app shows the active status in the menu bar, and it plays a chime when you close the lid.
-Once the agent is done, Adrafinil detects it and lets the laptop go to sleep by setting pmset disablesleep back to 0. It will also let it sleep in case of overheating. And if you want to manually toggle it, you can install an optional MCP and tell your agent to keep the MacBook awake for a specific time.
-It has four binaries, one of which is a root helper exposing a single setSleepBlocked call. All the logic and policy live in the unprivileged parts. They’re all notarized, and the app is fully open source (MIT).
-Comments URL: https://news.ycombinator.com/item?id=48701512
-Points: 71
-# Comments: 39]]></summary>
-        <author>
-            <name>kageroumado</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[IP Crawl: Living atlas of open webcams discovered on the public internet]]></title>
-        <id>https://news.ycombinator.com/item?id=48700834</id>
-        <link href="https://ipcrawl.com/"/>
-        <updated>2026-06-27T19:09:49.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://ipcrawl.com/
-Comments URL: https://news.ycombinator.com/item?id=48700834
-Points: 203
-# Comments: 110]]></summary>
-        <author>
-            <name>arm32</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Turn your site into a place people can bump into each other]]></title>
-        <id>https://news.ycombinator.com/item?id=48699928</id>
-        <link href="https://cauenapier.com/blog/townsquare_release/"/>
-        <updated>2026-06-27T17:11:20.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://cauenapier.com/blog/townsquare_release/
-Comments URL: https://news.ycombinator.com/item?id=48699928
-Points: 56
-# Comments: 26]]></summary>
-        <author>
-            <name>eustoria</name>
         </author>
     </entry>
 </feed>

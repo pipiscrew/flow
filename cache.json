@@ -6,6 +6,26 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=49065752",
+          "author": "nateb2022",
+          "description": "Article URL: https://huggingface.co/moonshotai/Kimi-K3\nComments URL: https://news.ycombinator.com/item?id=49065752\nPoints: 162\n# Comments: 51",
+          "link": "https://huggingface.co/moonshotai/Kimi-K3",
+          "publishedOn": "2026-07-27T06:18:10.000Z",
+          "wordCount": 302,
+          "title": "Kimi-K3 Releases on HuggingFace 7/27",
+          "imageUrl": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/moonshotai/Kimi-K3.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=49065498",
+          "author": "1vuio0pswjnm7",
+          "description": "Article URL: https://www.wsj.com/tech/google-fined-1-02-billion-under-eus-tech-antitrust-rules-7e8ae1fb\nComments URL: https://news.ycombinator.com/item?id=49065498\nPoints: 65\n# Comments: 59",
+          "link": "https://www.wsj.com/tech/google-fined-1-02-billion-under-eus-tech-antitrust-rules-7e8ae1fb",
+          "publishedOn": "2026-07-27T05:31:33.000Z",
+          "wordCount": null,
+          "title": "EU Fines Google $1.02B for Favoring Its Own Services",
+          "imageUrl": null
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=49063754",
           "author": "jonbaer",
           "description": "Article URL: https://nikolays.github.io/PGSimCity/\nComments URL: https://news.ycombinator.com/item?id=49063754\nPoints: 264\n# Comments: 34",
@@ -14,6 +34,16 @@
           "wordCount": 123,
           "title": "PGSimCity - How PostgreSQL Works",
           "imageUrl": "https://nikolays.github.io/PGSimCity/og.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=49063523",
+          "author": "open_",
+          "description": "Article URL: https://fontsinuse.com/\nComments URL: https://news.ycombinator.com/item?id=49063523\nPoints: 58\n# Comments: 4",
+          "link": "https://fontsinuse.com/",
+          "publishedOn": "2026-07-26T23:45:09.000Z",
+          "wordCount": 982,
+          "title": "Fonts In Use – Find out where a font is used",
+          "imageUrl": "https://cards.fontsinuse.com/cardshot?s=twitter&t=gallery&url=https://fontsinuse.com/&k=fea3b3b2f54abc640c7705b62dd465bd&v=9519c380"
         },
         {
           "id": "https://news.ycombinator.com/item?id=49063175",
@@ -12433,36 +12463,6 @@
           "publishedOn": "2026-06-27T21:27:36.000Z",
           "wordCount": 1462,
           "title": "Enhancing X11 Application Security with LXC",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48701512",
-          "author": "kageroumado",
-          "description": "A month ago there was a wave of posts and tweets about engineers walking around cafes and parks with their MacBooks propped half-open, as fully closing the lid forces sleep that stops their AI agents. Some people made snarky comments about using tmux or Amphetamine, and some defended their choice with “but I only need it sometimes, and forgetting to disable Amphetamine and finding my laptop discharged in my bag is worse.”\nThis is a solution to this problem. Unlike caffeinate, it will prevent your MacBook from sleeping even with the lid closed, with no external power or display, using pmset disablesleep 1. Unlike other sleep-preventing apps, Adrafinil only activates when there’s an agent actively doing something. It detects agent activity through hooks it installs into Claude Code, Codex, and others. To reassure you it’s working, the app shows the active status in the menu bar, and it plays a chime when you close the lid.\nOnce the agent is done, Adrafinil detects it and lets the laptop go to sleep by setting pmset disablesleep back to 0. It will also let it sleep in case of overheating. And if you want to manually toggle it, you can install an optional MCP and tell your agent to keep the MacBook awake for a specific time.\nIt has four binaries, one of which is a root helper exposing a single setSleepBlocked call. All the logic and policy live in the unprivileged parts. They’re all notarized, and the app is fully open source (MIT).\nComments URL: https://news.ycombinator.com/item?id=48701512\nPoints: 71\n# Comments: 39",
-          "link": "https://github.com/kageroumado/adrafinil",
-          "publishedOn": "2026-06-27T20:34:53.000Z",
-          "wordCount": 4524,
-          "title": "Show HN: Adrafinil – keep a lid-closed Mac awake only while agents work",
-          "imageUrl": "https://opengraph.githubassets.com/d7da9ce82b6d982dce468d2114109caf8be623162c6cc6d6b11d392cc3cca1c1/kageroumado/adrafinil"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48700834",
-          "author": "arm32",
-          "description": "Article URL: https://ipcrawl.com/\nComments URL: https://news.ycombinator.com/item?id=48700834\nPoints: 203\n# Comments: 110",
-          "link": "https://ipcrawl.com/",
-          "publishedOn": "2026-06-27T19:09:49.000Z",
-          "wordCount": null,
-          "title": "IP Crawl: Living atlas of open webcams discovered on the public internet",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48699928",
-          "author": "eustoria",
-          "description": "Article URL: https://cauenapier.com/blog/townsquare_release/\nComments URL: https://news.ycombinator.com/item?id=48699928\nPoints: 56\n# Comments: 26",
-          "link": "https://cauenapier.com/blog/townsquare_release/",
-          "publishedOn": "2026-06-27T17:11:20.000Z",
-          "wordCount": 625,
-          "title": "Turn your site into a place people can bump into each other",
           "imageUrl": null
         }
       ]
