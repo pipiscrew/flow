@@ -6,6 +6,36 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=49080664",
+          "author": "krembo",
+          "description": "Article URL: https://www.data.jma.go.jp/multi/quake/quake_detail.html?eventID=20260728163528&lang=en\nComments URL: https://news.ycombinator.com/item?id=49080664\nPoints: 167\n# Comments: 37",
+          "link": "https://www.data.jma.go.jp/multi/quake/quake_detail.html?eventID=20260728163528&lang=en",
+          "publishedOn": "2026-07-28T07:44:24.000Z",
+          "wordCount": 27,
+          "title": "7.1 Earthquake in Japan",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=49079727",
+          "author": "sweisman",
+          "description": "Article URL: https://arsastronomica.com/\nComments URL: https://news.ycombinator.com/item?id=49079727\nPoints: 59\n# Comments: 9",
+          "link": "https://arsastronomica.com/",
+          "publishedOn": "2026-07-28T05:25:34.000Z",
+          "wordCount": 2196,
+          "title": "Ars Astronomica – English translations of rare Hebrew and Latin astronomy texts",
+          "imageUrl": "https://arsastronomica.com/logo-with-name.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=49079490",
+          "author": "handfuloflight",
+          "description": "Article URL: https://www.fermionresearch.com/models/neutrino-8b/\nComments URL: https://news.ycombinator.com/item?id=49079490\nPoints: 78\n# Comments: 20",
+          "link": "https://www.fermionresearch.com/models/neutrino-8b/",
+          "publishedOn": "2026-07-28T04:49:54.000Z",
+          "wordCount": 6379,
+          "title": "Neutrino-1 8B",
+          "imageUrl": "https://fermionresearch.com/images/og/neutrino-8b.jpg"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=49078583",
           "author": "msaltz",
           "description": "Article URL: https://matthewsaltz.com/blog/using-an-open-model-feels-surprisingly-good/\nComments URL: https://news.ycombinator.com/item?id=49078583\nPoints: 210\n# Comments: 66",
@@ -76,6 +106,26 @@
           "imageUrl": "https://dconf.org/2026/images/logo-og.jpg"
         },
         {
+          "id": "https://news.ycombinator.com/item?id=49076791",
+          "author": "jcbhmr",
+          "description": "Article URL: https://github.com/allyourcodebase\nComments URL: https://news.ycombinator.com/item?id=49076791\nPoints: 59\n# Comments: 35",
+          "link": "https://github.com/allyourcodebase",
+          "publishedOn": "2026-07-27T23:09:50.000Z",
+          "wordCount": 1748,
+          "title": "C/C++ projects packaged for Zig",
+          "imageUrl": "https://avatars.githubusercontent.com/u/146390816?s=280&v=4"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=49076505",
+          "author": "fionaattelnyx",
+          "description": "Moonshot AI released open weights for Kimi K3 today and it's live on Telnyx Inference. The architecture and Moonshot's own benchmarks are in their technical blog. This post is about running it on Telnyx.\nWhat we are adding: K3 is now available via the Telnyx Inference API, hosted on GPUs that we own and operate.\nThis matters due to the size of this model. A 2.8T model needs dedicated infra to serve well. Because we own and operate the GPUs, we can contorl throughput. with no inter-provider hops and no cloud tenant, latency is minimized.\nWe have GPUs in each of the US, EU, APAC, and MENA. Inference runs in the region you pick, with zero data retention. We do not store prompts or completions after the response returns.\nBecause we own the infra, the per-token price reflects the cost of running the model, not the cost of renting someone else's plus their margin.\nWe have not benchmarked K3 ourselves yet. Moonshot's own numbers and early third-party evaluations put it at frontier level for coding and agentic work, trailing only Claude Fable 5 and GPT 5.6 Sol on aggregate. Full breakdown in their blog.\nPricing on Telnyx: $2.70/1M input tokens, $13.50/1M output tokens, $0.27/1M cached input tokens. Prompt caching enabled by default. Served via an OpenAI-compatible endpoint so you can test easily.\nModel ID: [MODEL_ID] API: https://api.telnyx.com/v2/ai/chat/completions Docs: https://developers.telnyx.com/docs/inference Technical blog (Moonshot): https://www.kimi.com/blog/kimi-k3\nComments URL: https://news.ycombinator.com/item?id=49076505\nPoints: 84\n# Comments: 36",
+          "link": "https://telnyx.com/release-notes/kimi-k3-telnyx-inference",
+          "publishedOn": "2026-07-27T22:46:28.000Z",
+          "wordCount": 1539,
+          "title": "Kimi K3 Now Available via Telnyx Inference API",
+          "imageUrl": "https://dotcom-payload-assets-prod.s3.us-east-1.amazonaws.com/cms-media/58db2ca1-0d1d-40c8-9ef5-a79897cb9ce9-a2f51d62.jpeg"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=49076391",
           "author": "dhorthy",
           "description": "Article URL: https://github.com/humanlayer/advanced-context-engineering-for-coding-agents/blob/main/benchmarking-opus-5-on-slop-code-bench.md\nComments URL: https://news.ycombinator.com/item?id=49076391\nPoints: 157\n# Comments: 39",
@@ -124,6 +174,16 @@
           "wordCount": 339,
           "title": "Self-contained highly-portable Python distributions",
           "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=49073834",
+          "author": "pancomplex",
+          "description": "Hey HN! I wanted to share this OSS project I've been working on.\nIt's called Yap and its a small menu-bar app for macOS that does voice to text for any input. You'll set a hotkey, press it, talk, press it again, and the text gets pasted into whatever field you were in. Everything runs locally and never leaves your computer. Fully OSS and MIT licensed.\nWith macOS 26, Apple recently added two new APIs, SpeechAnalyzer and SpeechTranscriber, that do streaming on-device speech to text using models the OS ships and manages. So the app ships no model of its own and loads nothing before the first word. A recent benchmark put Apple's model slightly ahead of Whisper Small on accuracy and about 3x faster (see: https://news.ycombinator.com/item?id=48894752). On Mac, there's really no need anymore to download models or pay for expensive APIs.\nA lot of existing dictation tools do one of a few things I wanted to avoid with this OSS project. They either:\n- cost money (for something that's literally built into the OS)\n- bundle memory-intensive models (e.g. Whisper or Parakeet)\n- webapps wrapped in Electron\n- Intel macs straight up don't work\n- closed source\n- use third-party APIs that will have access to all your transcripts\nIt's around 3,000 lines of native Swift in a 4 MB app and idles near 60 MB of memory. Audio comes off AVAudioEngine into SpeechAnalyzer with volatile results turned on for the live preview, history is stored in SwiftData. There's no network code in it at all.\nRepo and a demo available here: https://github.com/FrigadeHQ/yap\nHappy to answer questions and would love to hear any feature requests!\nComments URL: https://news.ycombinator.com/item?id=49073834\nPoints: 67\n# Comments: 24",
+          "link": "https://github.com/FrigadeHQ/yap",
+          "publishedOn": "2026-07-27T18:36:02.000Z",
+          "wordCount": 5021,
+          "title": "Show HN: Yap – OSS on-device voice dictation for macOS with no model to download",
+          "imageUrl": "https://opengraph.githubassets.com/4240452c83cce25c701a80a21fa5e91aa8ad5db5b92d1a0555a5eac0e8936d3e/FrigadeHQ/yap"
         },
         {
           "id": "https://news.ycombinator.com/item?id=49073785",
@@ -12354,86 +12414,6 @@
           "wordCount": 3200,
           "title": "30-year sentence for transporting zines is a five-alarm fire for free speech",
           "imageUrl": "https://theintercept.com/wp-content/uploads/2026/06/IMG_4281-e1782406948568.jpg?fit=2048%2C1024&w=1200&h=800"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48711052",
-          "author": "chimpanzee",
-          "description": "Article URL: https://phys.org/news/2026-06-newly-australian-ballista-spider-snare.html\nComments URL: https://news.ycombinator.com/item?id=48711052\nPoints: 110\n# Comments: 21",
-          "link": "https://phys.org/news/2026-06-newly-australian-ballista-spider-snare.html",
-          "publishedOn": "2026-06-28T20:05:56.000Z",
-          "wordCount": 3235,
-          "title": "Newly discovered spider builds spring loaded snare to catch ants",
-          "imageUrl": "https://scx2.b-cdn.net/gfx/news/hires/2026/newly-described-austra.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48710775",
-          "author": "rbanffy",
-          "description": "Article URL: https://chipsandcheese.com/p/top500-at-isc26-we-have-a-new-number\nComments URL: https://news.ycombinator.com/item?id=48710775\nPoints: 61\n# Comments: 31",
-          "link": "https://chipsandcheese.com/p/top500-at-isc26-we-have-a-new-number",
-          "publishedOn": "2026-06-28T19:38:00.000Z",
-          "wordCount": 3838,
-          "title": "TOP500 at ISC’26: We have a New Number 1 Supercomputer",
-          "imageUrl": "https://substackcdn.com/image/youtube/w_728,c_limit/sBmc3TjQhNM"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48710770",
-          "author": "g0xA52A2A",
-          "description": "Article URL: https://verdagon.dev/blog/ante-blending-borrowing-rc\nComments URL: https://news.ycombinator.com/item?id=48710770\nPoints: 69\n# Comments: 15",
-          "link": "https://verdagon.dev/blog/ante-blending-borrowing-rc",
-          "publishedOn": "2026-06-28T19:37:45.000Z",
-          "wordCount": 4427,
-          "title": "Ante: A new way to blend borrow checking and reference counting",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48710537",
-          "author": "piotrbednarsalt",
-          "description": "Article URL: https://bednars.me/blog/winpe-harness\nComments URL: https://news.ycombinator.com/item?id=48710537\nPoints: 72\n# Comments: 4",
-          "link": "https://bednars.me/blog/winpe-harness",
-          "publishedOn": "2026-06-28T19:17:42.000Z",
-          "wordCount": 1539,
-          "title": "WinPE as a stateless harness for Windows driver testing and fuzzing",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48710437",
-          "author": "mwexler",
-          "description": "Article URL: https://www.pcmag.com/opinions/the-us-used-to-demand-the-best-tech-now-we-ban-it\nComments URL: https://news.ycombinator.com/item?id=48710437\nPoints: 77\n# Comments: 58",
-          "link": "https://www.pcmag.com/opinions/the-us-used-to-demand-the-best-tech-now-we-ban-it",
-          "publishedOn": "2026-06-28T19:07:49.000Z",
-          "wordCount": 9086,
-          "title": "The US Used to Demand the Best Tech. Now We Ban It",
-          "imageUrl": "https://i.pcmag.com/imagery/articles/04ltqIf4ihFMDfo38F0qNgS-1.fit_lim.size_1200x630.v1782561174.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48710232",
-          "author": "rbanffy",
-          "description": "Article URL: https://github.com/librepods-org/librepods\nComments URL: https://news.ycombinator.com/item?id=48710232\nPoints: 176\n# Comments: 55",
-          "link": "https://github.com/librepods-org/librepods",
-          "publishedOn": "2026-06-28T18:48:53.000Z",
-          "wordCount": 5628,
-          "title": "Librepods: AirPods liberated",
-          "imageUrl": "https://repository-images.githubusercontent.com/863717537/80b4f2f1-52f9-4c3e-b32a-779933701089"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48710092",
-          "author": "vga1",
-          "description": "Article URL: https://dam.stanford.edu/memory-prices.html\nComments URL: https://news.ycombinator.com/item?id=48710092\nPoints: 75\n# Comments: 23",
-          "link": "https://dam.stanford.edu/memory-prices.html",
-          "publishedOn": "2026-06-28T18:32:53.000Z",
-          "wordCount": 2813,
-          "title": "Historical memory prices 1960-2026",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48710082",
-          "author": "kiyanwang",
-          "description": "Article URL: https://newsletter.kentbeck.com/p/the-cost-yagni-was-never-about\nComments URL: https://news.ycombinator.com/item?id=48710082\nPoints: 58\n# Comments: 34",
-          "link": "https://newsletter.kentbeck.com/p/the-cost-yagni-was-never-about",
-          "publishedOn": "2026-06-28T18:31:54.000Z",
-          "wordCount": 3153,
-          "title": "The cost YAGNI was never about",
-          "imageUrl": "https://substackcdn.com/image/fetch/$s_!hzhP!,f_auto,q_auto:best,fl_progressive:steep/https%3A%2F%2Ftidyfirst.substack.com%2Ftwitter%2Fsubscribe-card.jpg%3Fv%3D-1150222451%26version%3D9"
         }
       ]
     }

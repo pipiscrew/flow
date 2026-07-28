@@ -2,10 +2,49 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-07-28T06:31:28.140Z</updated>
+    <updated>2026-07-28T09:38:44.463Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[7.1 Earthquake in Japan]]></title>
+        <id>https://news.ycombinator.com/item?id=49080664</id>
+        <link href="https://www.data.jma.go.jp/multi/quake/quake_detail.html?eventID=20260728163528&amp;lang=en"/>
+        <updated>2026-07-28T07:44:24.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.data.jma.go.jp/multi/quake/quake_detail.html?eventID=20260728163528&lang=en
+Comments URL: https://news.ycombinator.com/item?id=49080664
+Points: 167
+# Comments: 37]]></summary>
+        <author>
+            <name>krembo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Ars Astronomica – English translations of rare Hebrew and Latin astronomy texts]]></title>
+        <id>https://news.ycombinator.com/item?id=49079727</id>
+        <link href="https://arsastronomica.com/"/>
+        <updated>2026-07-28T05:25:34.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://arsastronomica.com/
+Comments URL: https://news.ycombinator.com/item?id=49079727
+Points: 59
+# Comments: 9]]></summary>
+        <author>
+            <name>sweisman</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Neutrino-1 8B]]></title>
+        <id>https://news.ycombinator.com/item?id=49079490</id>
+        <link href="https://www.fermionresearch.com/models/neutrino-8b/"/>
+        <updated>2026-07-28T04:49:54.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.fermionresearch.com/models/neutrino-8b/
+Comments URL: https://news.ycombinator.com/item?id=49079490
+Points: 78
+# Comments: 20]]></summary>
+        <author>
+            <name>handfuloflight</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Using an open model feels surprisingly good]]></title>
         <id>https://news.ycombinator.com/item?id=49078583</id>
@@ -98,6 +137,39 @@ Points: 53
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[C/C++ projects packaged for Zig]]></title>
+        <id>https://news.ycombinator.com/item?id=49076791</id>
+        <link href="https://github.com/allyourcodebase"/>
+        <updated>2026-07-27T23:09:50.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://github.com/allyourcodebase
+Comments URL: https://news.ycombinator.com/item?id=49076791
+Points: 59
+# Comments: 35]]></summary>
+        <author>
+            <name>jcbhmr</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Kimi K3 Now Available via Telnyx Inference API]]></title>
+        <id>https://news.ycombinator.com/item?id=49076505</id>
+        <link href="https://telnyx.com/release-notes/kimi-k3-telnyx-inference"/>
+        <updated>2026-07-27T22:46:28.000Z</updated>
+        <summary type="html"><![CDATA[Moonshot AI released open weights for Kimi K3 today and it's live on Telnyx Inference. The architecture and Moonshot's own benchmarks are in their technical blog. This post is about running it on Telnyx.
+What we are adding: K3 is now available via the Telnyx Inference API, hosted on GPUs that we own and operate.
+This matters due to the size of this model. A 2.8T model needs dedicated infra to serve well. Because we own and operate the GPUs, we can contorl throughput. with no inter-provider hops and no cloud tenant, latency is minimized.
+We have GPUs in each of the US, EU, APAC, and MENA. Inference runs in the region you pick, with zero data retention. We do not store prompts or completions after the response returns.
+Because we own the infra, the per-token price reflects the cost of running the model, not the cost of renting someone else's plus their margin.
+We have not benchmarked K3 ourselves yet. Moonshot's own numbers and early third-party evaluations put it at frontier level for coding and agentic work, trailing only Claude Fable 5 and GPT 5.6 Sol on aggregate. Full breakdown in their blog.
+Pricing on Telnyx: $2.70/1M input tokens, $13.50/1M output tokens, $0.27/1M cached input tokens. Prompt caching enabled by default. Served via an OpenAI-compatible endpoint so you can test easily.
+Model ID: [MODEL_ID] API: https://api.telnyx.com/v2/ai/chat/completions Docs: https://developers.telnyx.com/docs/inference Technical blog (Moonshot): https://www.kimi.com/blog/kimi-k3
+Comments URL: https://news.ycombinator.com/item?id=49076505
+Points: 84
+# Comments: 36]]></summary>
+        <author>
+            <name>fionaattelnyx</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Benchmarking Opus 5 on SlopCodeBench]]></title>
         <id>https://news.ycombinator.com/item?id=49076391</id>
         <link href="https://github.com/humanlayer/advanced-context-engineering-for-coding-agents/blob/main/benchmarking-opus-5-on-slop-code-bench.md"/>
@@ -160,6 +232,31 @@ Points: 55
 # Comments: 12]]></summary>
         <author>
             <name>jcbhmr</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Yap – OSS on-device voice dictation for macOS with no model to download]]></title>
+        <id>https://news.ycombinator.com/item?id=49073834</id>
+        <link href="https://github.com/FrigadeHQ/yap"/>
+        <updated>2026-07-27T18:36:02.000Z</updated>
+        <summary type="html"><![CDATA[Hey HN! I wanted to share this OSS project I've been working on.
+It's called Yap and its a small menu-bar app for macOS that does voice to text for any input. You'll set a hotkey, press it, talk, press it again, and the text gets pasted into whatever field you were in. Everything runs locally and never leaves your computer. Fully OSS and MIT licensed.
+With macOS 26, Apple recently added two new APIs, SpeechAnalyzer and SpeechTranscriber, that do streaming on-device speech to text using models the OS ships and manages. So the app ships no model of its own and loads nothing before the first word. A recent benchmark put Apple's model slightly ahead of Whisper Small on accuracy and about 3x faster (see: https://news.ycombinator.com/item?id=48894752). On Mac, there's really no need anymore to download models or pay for expensive APIs.
+A lot of existing dictation tools do one of a few things I wanted to avoid with this OSS project. They either:
+- cost money (for something that's literally built into the OS)
+- bundle memory-intensive models (e.g. Whisper or Parakeet)
+- webapps wrapped in Electron
+- Intel macs straight up don't work
+- closed source
+- use third-party APIs that will have access to all your transcripts
+It's around 3,000 lines of native Swift in a 4 MB app and idles near 60 MB of memory. Audio comes off AVAudioEngine into SpeechAnalyzer with volatile results turned on for the live preview, history is stored in SwiftData. There's no network code in it at all.
+Repo and a demo available here: https://github.com/FrigadeHQ/yap
+Happy to answer questions and would love to hear any feature requests!
+Comments URL: https://news.ycombinator.com/item?id=49073834
+Points: 67
+# Comments: 24]]></summary>
+        <author>
+            <name>pancomplex</name>
         </author>
     </entry>
     <entry>
@@ -16296,110 +16393,6 @@ Points: 107
 # Comments: 27]]></summary>
         <author>
             <name>xrd</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Newly discovered spider builds spring loaded snare to catch ants]]></title>
-        <id>https://news.ycombinator.com/item?id=48711052</id>
-        <link href="https://phys.org/news/2026-06-newly-australian-ballista-spider-snare.html"/>
-        <updated>2026-06-28T20:05:56.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://phys.org/news/2026-06-newly-australian-ballista-spider-snare.html
-Comments URL: https://news.ycombinator.com/item?id=48711052
-Points: 110
-# Comments: 21]]></summary>
-        <author>
-            <name>chimpanzee</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[TOP500 at ISC’26: We have a New Number 1 Supercomputer]]></title>
-        <id>https://news.ycombinator.com/item?id=48710775</id>
-        <link href="https://chipsandcheese.com/p/top500-at-isc26-we-have-a-new-number"/>
-        <updated>2026-06-28T19:38:00.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://chipsandcheese.com/p/top500-at-isc26-we-have-a-new-number
-Comments URL: https://news.ycombinator.com/item?id=48710775
-Points: 61
-# Comments: 31]]></summary>
-        <author>
-            <name>rbanffy</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ante: A new way to blend borrow checking and reference counting]]></title>
-        <id>https://news.ycombinator.com/item?id=48710770</id>
-        <link href="https://verdagon.dev/blog/ante-blending-borrowing-rc"/>
-        <updated>2026-06-28T19:37:45.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://verdagon.dev/blog/ante-blending-borrowing-rc
-Comments URL: https://news.ycombinator.com/item?id=48710770
-Points: 69
-# Comments: 15]]></summary>
-        <author>
-            <name>g0xA52A2A</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[WinPE as a stateless harness for Windows driver testing and fuzzing]]></title>
-        <id>https://news.ycombinator.com/item?id=48710537</id>
-        <link href="https://bednars.me/blog/winpe-harness"/>
-        <updated>2026-06-28T19:17:42.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://bednars.me/blog/winpe-harness
-Comments URL: https://news.ycombinator.com/item?id=48710537
-Points: 72
-# Comments: 4]]></summary>
-        <author>
-            <name>piotrbednarsalt</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The US Used to Demand the Best Tech. Now We Ban It]]></title>
-        <id>https://news.ycombinator.com/item?id=48710437</id>
-        <link href="https://www.pcmag.com/opinions/the-us-used-to-demand-the-best-tech-now-we-ban-it"/>
-        <updated>2026-06-28T19:07:49.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.pcmag.com/opinions/the-us-used-to-demand-the-best-tech-now-we-ban-it
-Comments URL: https://news.ycombinator.com/item?id=48710437
-Points: 77
-# Comments: 58]]></summary>
-        <author>
-            <name>mwexler</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Librepods: AirPods liberated]]></title>
-        <id>https://news.ycombinator.com/item?id=48710232</id>
-        <link href="https://github.com/librepods-org/librepods"/>
-        <updated>2026-06-28T18:48:53.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://github.com/librepods-org/librepods
-Comments URL: https://news.ycombinator.com/item?id=48710232
-Points: 176
-# Comments: 55]]></summary>
-        <author>
-            <name>rbanffy</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Historical memory prices 1960-2026]]></title>
-        <id>https://news.ycombinator.com/item?id=48710092</id>
-        <link href="https://dam.stanford.edu/memory-prices.html"/>
-        <updated>2026-06-28T18:32:53.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://dam.stanford.edu/memory-prices.html
-Comments URL: https://news.ycombinator.com/item?id=48710092
-Points: 75
-# Comments: 23]]></summary>
-        <author>
-            <name>vga1</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The cost YAGNI was never about]]></title>
-        <id>https://news.ycombinator.com/item?id=48710082</id>
-        <link href="https://newsletter.kentbeck.com/p/the-cost-yagni-was-never-about"/>
-        <updated>2026-06-28T18:31:54.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://newsletter.kentbeck.com/p/the-cost-yagni-was-never-about
-Comments URL: https://news.ycombinator.com/item?id=48710082
-Points: 58
-# Comments: 34]]></summary>
-        <author>
-            <name>kiyanwang</name>
         </author>
     </entry>
 </feed>
