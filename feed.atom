@@ -2,10 +2,90 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-07-28T12:00:50.727Z</updated>
+    <updated>2026-07-28T15:24:32.053Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[New HIV vaccine shows unprecedented success in preclinical study]]></title>
+        <id>https://news.ycombinator.com/item?id=49083314</id>
+        <link href="https://www.lji.org/news-events/news/post/new-hiv-vaccine-shows-unprecedented-success-in-preclinical-study/"/>
+        <updated>2026-07-28T13:12:01.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.lji.org/news-events/news/post/new-hiv-vaccine-shows-unprecedented-success-in-preclinical-study/
+Comments URL: https://news.ycombinator.com/item?id=49083314
+Points: 193
+# Comments: 74]]></summary>
+        <author>
+            <name>codebyaditya</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Formally verified 3D CSG: Trust 93 lines spec, not 1000 lines AI code]]></title>
+        <id>https://news.ycombinator.com/item?id=49083239</id>
+        <link href="https://github.com/schildep/verified-3d-mesh-intersection"/>
+        <updated>2026-07-28T13:07:14.000Z</updated>
+        <summary type="html"><![CDATA[To my knowledge, this is the first formally verified implementation of a 3D constructive solid geometry (CSG) operation: mesh intersection, implemented in Lean 4 and verified against a concise specification that pins down the surface of the resulting mesh exactly and guarantees practical well-formedness conditions on the triangulation.
+This project is also an experiment in avoiding having to trust AI-generated code. A human reviewer only needs to read 93 lines of formal specification and run the Lean checker to certify the correctness of the kernel, skipping the intricate 1000+ lines of AI-written implementation. To prove correctness, AI autonomously wrote over 60,000 lines of Lean proofs, which also never have to be inspected by a human. The Lean checker guarantees conformance to the specification at compile time, with zero trust placed in any LLM. This allows us to treat the implementation and proofs as a black box. I guided the agent through the milestones described in the readme to arrive at the result presented here.
+Also take a look at the web demo https://schildep.github.io/verified-3d-mesh-intersection/, which runs the verified mesh intersection kernel compiled to WebAssembly in your browser.
+Comments URL: https://news.ycombinator.com/item?id=49083239
+Points: 59
+# Comments: 18]]></summary>
+        <author>
+            <name>permute</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Mondragon Corporation – a federation of co-operatives]]></title>
+        <id>https://news.ycombinator.com/item?id=49082695</id>
+        <link href="https://en.wikipedia.org/wiki/Mondragon_Corporation"/>
+        <updated>2026-07-28T12:19:07.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://en.wikipedia.org/wiki/Mondragon_Corporation
+Comments URL: https://news.ycombinator.com/item?id=49082695
+Points: 105
+# Comments: 14]]></summary>
+        <author>
+            <name>brnt</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Kimi Linear: An Expressive, Efficient Attention Architecture]]></title>
+        <id>https://news.ycombinator.com/item?id=49082022</id>
+        <link href="https://arxiv.org/abs/2510.26692"/>
+        <updated>2026-07-28T10:52:30.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://arxiv.org/abs/2510.26692
+Comments URL: https://news.ycombinator.com/item?id=49082022
+Points: 93
+# Comments: 22]]></summary>
+        <author>
+            <name>ronfriedhaber</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[DMARC Has Been Public Since 2012. 68.4% of Domains Still Don't Enforce It]]></title>
+        <id>https://news.ycombinator.com/item?id=49081783</id>
+        <link href="https://ciphercue.com/blog/dmarc-enforcement-gap-rua-fragmentation-2026"/>
+        <updated>2026-07-28T10:20:50.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://ciphercue.com/blog/dmarc-enforcement-gap-rua-fragmentation-2026
+Comments URL: https://news.ycombinator.com/item?id=49081783
+Points: 63
+# Comments: 43]]></summary>
+        <author>
+            <name>adulion</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Google's Beyond Zero: Enterprise Security for the AI Era]]></title>
+        <id>https://news.ycombinator.com/item?id=49081644</id>
+        <link href="https://spawn-queue.acm.org/doi/10.1145/3819083"/>
+        <updated>2026-07-28T09:59:13.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://spawn-queue.acm.org/doi/10.1145/3819083
+Comments URL: https://news.ycombinator.com/item?id=49081644
+Points: 78
+# Comments: 42]]></summary>
+        <author>
+            <name>jordigg</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[About the security content of macOS Tahoe 26.6]]></title>
         <id>https://news.ycombinator.com/item?id=49081555</id>
@@ -56,6 +136,19 @@ Points: 78
 # Comments: 20]]></summary>
         <author>
             <name>handfuloflight</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[PyTorch: A Reference Language]]></title>
+        <id>https://news.ycombinator.com/item?id=49079454</id>
+        <link href="https://docs.pytorch.org/devlogs/compiler/2026-07-25-pytorch-a-reference-language/"/>
+        <updated>2026-07-28T04:46:00.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://docs.pytorch.org/devlogs/compiler/2026-07-25-pytorch-a-reference-language/
+Comments URL: https://news.ycombinator.com/item?id=49079454
+Points: 64
+# Comments: 7]]></summary>
+        <author>
+            <name>matt_d</name>
         </author>
     </entry>
     <entry>
@@ -16380,19 +16473,6 @@ Points: 222
 # Comments: 94]]></summary>
         <author>
             <name>arkhiver</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[HackerRank open sourced its ATS. My resume scored 90/100. Oh wait 74. No – 88]]></title>
-        <id>https://news.ycombinator.com/item?id=48713832</id>
-        <link href="https://danunparsed.com/p/hackerrank-open-source-ats"/>
-        <updated>2026-06-29T01:44:40.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://danunparsed.com/p/hackerrank-open-source-ats
-Comments URL: https://news.ycombinator.com/item?id=48713832
-Points: 75
-# Comments: 28]]></summary>
-        <author>
-            <name>sambellll</name>
         </author>
     </entry>
 </feed>

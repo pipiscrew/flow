@@ -6,6 +6,66 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=49083314",
+          "author": "codebyaditya",
+          "description": "Article URL: https://www.lji.org/news-events/news/post/new-hiv-vaccine-shows-unprecedented-success-in-preclinical-study/\nComments URL: https://news.ycombinator.com/item?id=49083314\nPoints: 193\n# Comments: 74",
+          "link": "https://www.lji.org/news-events/news/post/new-hiv-vaccine-shows-unprecedented-success-in-preclinical-study/",
+          "publishedOn": "2026-07-28T13:12:01.000Z",
+          "wordCount": 4091,
+          "title": "New HIV vaccine shows unprecedented success in preclinical study",
+          "imageUrl": "https://www.lji.org/wp-content/uploads/2026/07/HIV_Virus_-_5412.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=49083239",
+          "author": "permute",
+          "description": "To my knowledge, this is the first formally verified implementation of a 3D constructive solid geometry (CSG) operation: mesh intersection, implemented in Lean 4 and verified against a concise specification that pins down the surface of the resulting mesh exactly and guarantees practical well-formedness conditions on the triangulation.\nThis project is also an experiment in avoiding having to trust AI-generated code. A human reviewer only needs to read 93 lines of formal specification and run the Lean checker to certify the correctness of the kernel, skipping the intricate 1000+ lines of AI-written implementation. To prove correctness, AI autonomously wrote over 60,000 lines of Lean proofs, which also never have to be inspected by a human. The Lean checker guarantees conformance to the specification at compile time, with zero trust placed in any LLM. This allows us to treat the implementation and proofs as a black box. I guided the agent through the milestones described in the readme to arrive at the result presented here.\nAlso take a look at the web demo https://schildep.github.io/verified-3d-mesh-intersection/, which runs the verified mesh intersection kernel compiled to WebAssembly in your browser.\nComments URL: https://news.ycombinator.com/item?id=49083239\nPoints: 59\n# Comments: 18",
+          "link": "https://github.com/schildep/verified-3d-mesh-intersection",
+          "publishedOn": "2026-07-28T13:07:14.000Z",
+          "wordCount": 8432,
+          "title": "Show HN: Formally verified 3D CSG: Trust 93 lines spec, not 1000 lines AI code",
+          "imageUrl": "https://opengraph.githubassets.com/8ef1efd8076c21252393a6ec41ffc6a377995ac236692192c5d1abe85d48300f/schildep/verified-3d-mesh-intersection"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=49082695",
+          "author": "brnt",
+          "description": "Article URL: https://en.wikipedia.org/wiki/Mondragon_Corporation\nComments URL: https://news.ycombinator.com/item?id=49082695\nPoints: 105\n# Comments: 14",
+          "link": "https://en.wikipedia.org/wiki/Mondragon_Corporation",
+          "publishedOn": "2026-07-28T12:19:07.000Z",
+          "wordCount": null,
+          "title": "Mondragon Corporation – a federation of co-operatives",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=49082022",
+          "author": "ronfriedhaber",
+          "description": "Article URL: https://arxiv.org/abs/2510.26692\nComments URL: https://news.ycombinator.com/item?id=49082022\nPoints: 93\n# Comments: 22",
+          "link": "https://arxiv.org/abs/2510.26692",
+          "publishedOn": "2026-07-28T10:52:30.000Z",
+          "wordCount": 833,
+          "title": "Kimi Linear: An Expressive, Efficient Attention Architecture",
+          "imageUrl": "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=49081783",
+          "author": "adulion",
+          "description": "Article URL: https://ciphercue.com/blog/dmarc-enforcement-gap-rua-fragmentation-2026\nComments URL: https://news.ycombinator.com/item?id=49081783\nPoints: 63\n# Comments: 43",
+          "link": "https://ciphercue.com/blog/dmarc-enforcement-gap-rua-fragmentation-2026",
+          "publishedOn": "2026-07-28T10:20:50.000Z",
+          "wordCount": 3689,
+          "title": "DMARC Has Been Public Since 2012. 68.4% of Domains Still Don't Enforce It",
+          "imageUrl": "https://ciphercue.com/img/og-card.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=49081644",
+          "author": "jordigg",
+          "description": "Article URL: https://spawn-queue.acm.org/doi/10.1145/3819083\nComments URL: https://news.ycombinator.com/item?id=49081644\nPoints: 78\n# Comments: 42",
+          "link": "https://spawn-queue.acm.org/doi/10.1145/3819083",
+          "publishedOn": "2026-07-28T09:59:13.000Z",
+          "wordCount": null,
+          "title": "Google's Beyond Zero: Enterprise Security for the AI Era",
+          "imageUrl": null
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=49081555",
           "author": "andor",
           "description": "Article URL: https://support.apple.com/en-us/128067\nComments URL: https://news.ycombinator.com/item?id=49081555\nPoints: 75\n# Comments: 32",
@@ -44,6 +104,16 @@
           "wordCount": 6379,
           "title": "Neutrino-1 8B",
           "imageUrl": "https://fermionresearch.com/images/og/neutrino-8b.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=49079454",
+          "author": "matt_d",
+          "description": "Article URL: https://docs.pytorch.org/devlogs/compiler/2026-07-25-pytorch-a-reference-language/\nComments URL: https://news.ycombinator.com/item?id=49079454\nPoints: 64\n# Comments: 7",
+          "link": "https://docs.pytorch.org/devlogs/compiler/2026-07-25-pytorch-a-reference-language/",
+          "publishedOn": "2026-07-28T04:46:00.000Z",
+          "wordCount": 827,
+          "title": "PyTorch: A Reference Language",
+          "imageUrl": null
         },
         {
           "id": "https://news.ycombinator.com/item?id=49078583",
@@ -12404,16 +12474,6 @@
           "wordCount": 2926,
           "title": "Age verification is just a precursor to automated attribution of speech",
           "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48713832",
-          "author": "sambellll",
-          "description": "Article URL: https://danunparsed.com/p/hackerrank-open-source-ats\nComments URL: https://news.ycombinator.com/item?id=48713832\nPoints: 75\n# Comments: 28",
-          "link": "https://danunparsed.com/p/hackerrank-open-source-ats",
-          "publishedOn": "2026-06-29T01:44:40.000Z",
-          "wordCount": 3653,
-          "title": "HackerRank open sourced its ATS. My resume scored 90/100. Oh wait 74. No – 88",
-          "imageUrl": "https://substackcdn.com/image/fetch/$s_!S-dx!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fbab22a57-acb5-4fe4-929f-132059bcb466_1800x900.png"
         }
       ]
     }
