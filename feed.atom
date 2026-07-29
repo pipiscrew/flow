@@ -2,10 +2,71 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-07-29T15:10:31.962Z</updated>
+    <updated>2026-07-29T17:20:24.299Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Superlogical – Mitchell Hashimoto]]></title>
+        <id>https://news.ycombinator.com/item?id=49099015</id>
+        <link href="https://mitchellh.com/writing/superlogical"/>
+        <updated>2026-07-29T15:45:56.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://mitchellh.com/writing/superlogical
+Comments URL: https://news.ycombinator.com/item?id=49099015
+Points: 102
+# Comments: 19]]></summary>
+        <author>
+            <name>tambourine_man</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Mitchellh starts a new company: Superlogical]]></title>
+        <id>https://news.ycombinator.com/item?id=49098965</id>
+        <link href="https://www.superlogical.com/"/>
+        <updated>2026-07-29T15:41:33.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.superlogical.com/
+Comments URL: https://news.ycombinator.com/item?id=49098965
+Points: 92
+# Comments: 29]]></summary>
+        <author>
+            <name>yan</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Open-source engine running Gemma 4 26B in 2 GB RAM on any M-series Mac]]></title>
+        <id>https://news.ycombinator.com/item?id=49098510</id>
+        <link href="https://github.com/drumih/turbo-fieldfare"/>
+        <updated>2026-07-29T15:05:43.000Z</updated>
+        <summary type="html"><![CDATA[Hi HN,
+I built a specialized inference engine for running 4-bit Gemma 4 26B-A4B-IT on any M-series Mac using about 2 GB of RAM. It is called TurboFieldfare and is written in Swift and Metal.
+I have always adored on-device AI. It feels like magic that you can run a powerful NN on your Mac or iPhone. So I wanted to push the limits a bit and run a model whose weights don’t fit in memory.
+The model’s 4-bit quantized weights occupy roughly 14 GB, which makes running it with conventional inference tools almost impossible on an 8 GB or even 16 GB Mac once the OS, applications, and KV cache are included.
+The trick is to keep the shared part of the model and the KV cache in RAM, then stream only the routed experts needed for each token from SSD. An SSD is way slower than RAM, so the runtime uses a small expert cache and bounded parallel `pread`. While those reads are in flight, the GPU runs the shared part of the layer.
+I ran more than 100 experiments. Most didn’t work. A few got me here. The experiments are described in the GitHub repo.
+It currently generates 5–6 tok/s on an 8 GB M2 MacBook Air and 31–35 tok/s on an M5 MacBook Pro.
+I also added an experimental OpenAI-compatible local server. It supports streaming and tool calls, and reuses one prompt prefix from the KV cache.
+Try it! The Mac app is easy to install. On the first run, it will download 15 GB of weights from Hugging Face. The model is surprisingly capable.
+I would love any kind of feedback!
+Comments URL: https://news.ycombinator.com/item?id=49098510
+Points: 239
+# Comments: 59]]></summary>
+        <author>
+            <name>gitpusher42</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Hugging Face: Anatomy of a frontier-lab agent intrusion]]></title>
+        <id>https://news.ycombinator.com/item?id=49098466</id>
+        <link href="https://huggingface-anatomy-of-frontier-lab-model-intrusion.static.hf.space/index.html"/>
+        <updated>2026-07-29T15:01:52.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://huggingface-anatomy-of-frontier-lab-model-intrusion.static.hf.space/index.html
+Comments URL: https://news.ycombinator.com/item?id=49098466
+Points: 58
+# Comments: 16]]></summary>
+        <author>
+            <name>dn2k</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Choose DuckDB rather than SQLite]]></title>
         <id>https://news.ycombinator.com/item?id=49097730</id>
@@ -33,6 +94,19 @@ Points: 106
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Shipping Godot VR and Porting to PSVR2: A Partial Post Mortem]]></title>
+        <id>https://news.ycombinator.com/item?id=49096811</id>
+        <link href="https://www.claire-blackshaw.com/blog/2026/07/shipping-godot-vr-and-porting-to-psvr2-a-partial-post-mortem/"/>
+        <updated>2026-07-29T12:48:18.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.claire-blackshaw.com/blog/2026/07/shipping-godot-vr-and-porting-to-psvr2-a-partial-post-mortem/
+Comments URL: https://news.ycombinator.com/item?id=49096811
+Points: 69
+# Comments: 0]]></summary>
+        <author>
+            <name>ibobev</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Darktable]]></title>
         <id>https://news.ycombinator.com/item?id=49096654</id>
         <link href="https://www.darktable.org/"/>
@@ -43,6 +117,19 @@ Points: 65
 # Comments: 22]]></summary>
         <author>
             <name>siatko</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Disrupting supply chain attacks on NPM and GitHub Actions]]></title>
+        <id>https://news.ycombinator.com/item?id=49096427</id>
+        <link href="https://github.blog/security/supply-chain-security/disrupting-supply-chain-attacks-on-npm-and-github-actions/"/>
+        <updated>2026-07-29T12:11:18.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://github.blog/security/supply-chain-security/disrupting-supply-chain-attacks-on-npm-and-github-actions/
+Comments URL: https://news.ycombinator.com/item?id=49096427
+Points: 66
+# Comments: 20]]></summary>
+        <author>
+            <name>nyku</name>
         </author>
     </entry>
     <entry>
@@ -1269,6 +1356,19 @@ Points: 65
 # Comments: 59]]></summary>
         <author>
             <name>1vuio0pswjnm7</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Hunter-gatherers introduced fish to a mountain lake 7000 years ago]]></title>
+        <id>https://news.ycombinator.com/item?id=49063983</id>
+        <link href="https://www.newscientist.com/article/2580119-hunter-gatherers-introduced-fish-to-a-mountain-lake-7000-years-ago/"/>
+        <updated>2026-07-27T00:58:45.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.newscientist.com/article/2580119-hunter-gatherers-introduced-fish-to-a-mountain-lake-7000-years-ago/
+Comments URL: https://news.ycombinator.com/item?id=49063983
+Points: 85
+# Comments: 59]]></summary>
+        <author>
+            <name>stevenwoo</name>
         </author>
     </entry>
     <entry>
@@ -16620,19 +16720,6 @@ Points: 565
 # Comments: 220]]></summary>
         <author>
             <name>robtherobber</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Popping the GPU Bubble]]></title>
-        <id>https://news.ycombinator.com/item?id=48728729</id>
-        <link href="https://moondream.ai/blog/popping-the-gpu-bubble"/>
-        <updated>2026-06-30T05:14:35.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://moondream.ai/blog/popping-the-gpu-bubble
-Comments URL: https://news.ycombinator.com/item?id=48728729
-Points: 128
-# Comments: 30]]></summary>
-        <author>
-            <name>radq</name>
         </author>
     </entry>
 </feed>

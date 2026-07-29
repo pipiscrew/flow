@@ -6,6 +6,46 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=49099015",
+          "author": "tambourine_man",
+          "description": "Article URL: https://mitchellh.com/writing/superlogical\nComments URL: https://news.ycombinator.com/item?id=49099015\nPoints: 102\n# Comments: 19",
+          "link": "https://mitchellh.com/writing/superlogical",
+          "publishedOn": "2026-07-29T15:45:56.000Z",
+          "wordCount": 1571,
+          "title": "Superlogical – Mitchell Hashimoto",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=49098965",
+          "author": "yan",
+          "description": "Article URL: https://www.superlogical.com/\nComments URL: https://news.ycombinator.com/item?id=49098965\nPoints: 92\n# Comments: 29",
+          "link": "https://www.superlogical.com/",
+          "publishedOn": "2026-07-29T15:41:33.000Z",
+          "wordCount": 681,
+          "title": "Mitchellh starts a new company: Superlogical",
+          "imageUrl": "https://www.superlogical.com/og.webp"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=49098510",
+          "author": "gitpusher42",
+          "description": "Hi HN,\nI built a specialized inference engine for running 4-bit Gemma 4 26B-A4B-IT on any M-series Mac using about 2 GB of RAM. It is called TurboFieldfare and is written in Swift and Metal.\nI have always adored on-device AI. It feels like magic that you can run a powerful NN on your Mac or iPhone. So I wanted to push the limits a bit and run a model whose weights don’t fit in memory.\nThe model’s 4-bit quantized weights occupy roughly 14 GB, which makes running it with conventional inference tools almost impossible on an 8 GB or even 16 GB Mac once the OS, applications, and KV cache are included.\nThe trick is to keep the shared part of the model and the KV cache in RAM, then stream only the routed experts needed for each token from SSD. An SSD is way slower than RAM, so the runtime uses a small expert cache and bounded parallel `pread`. While those reads are in flight, the GPU runs the shared part of the layer.\nI ran more than 100 experiments. Most didn’t work. A few got me here. The experiments are described in the GitHub repo.\nIt currently generates 5–6 tok/s on an 8 GB M2 MacBook Air and 31–35 tok/s on an M5 MacBook Pro.\nI also added an experimental OpenAI-compatible local server. It supports streaming and tool calls, and reuses one prompt prefix from the KV cache.\nTry it! The Mac app is easy to install. On the first run, it will download 15 GB of weights from Hugging Face. The model is surprisingly capable.\nI would love any kind of feedback!\nComments URL: https://news.ycombinator.com/item?id=49098510\nPoints: 239\n# Comments: 59",
+          "link": "https://github.com/drumih/turbo-fieldfare",
+          "publishedOn": "2026-07-29T15:05:43.000Z",
+          "wordCount": 6798,
+          "title": "Show HN: Open-source engine running Gemma 4 26B in 2 GB RAM on any M-series Mac",
+          "imageUrl": "https://repository-images.githubusercontent.com/github-production-repository-image-32fea6/1304159264/d6c0493d-d97a-45fc-b20a-dd40d1b6e090?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260729%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260729T172023Z&X-Amz-Expires=300&X-Amz-Signature=3e29c09588f2a22bba160af2006a63632c1e461e86e9dcefe65ca946b4bcf60b&X-Amz-SignedHeaders=host&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoiaHR0cHM6Ly9yZXBvc2l0b3J5LWltYWdlcy5naXRodWJ1c2VyY29udGVudC5jb20vIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NTM0NTkyMywibmJmIjoxNzg1MzQ1NjIzLCJwYXRoIjoicmVwb3NpdG9yeS1pbWFnZXMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIn0.9FWoMQ9nt7m0mpvAsXlk20cqMrN9VR7FbhX29oYOp6k"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=49098466",
+          "author": "dn2k",
+          "description": "Article URL: https://huggingface-anatomy-of-frontier-lab-model-intrusion.static.hf.space/index.html\nComments URL: https://news.ycombinator.com/item?id=49098466\nPoints: 58\n# Comments: 16",
+          "link": "https://huggingface-anatomy-of-frontier-lab-model-intrusion.static.hf.space/index.html",
+          "publishedOn": "2026-07-29T15:01:52.000Z",
+          "wordCount": 2915,
+          "title": "Hugging Face: Anatomy of a frontier-lab agent intrusion",
+          "imageUrl": null
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=49097730",
           "author": "rubenvanwyk",
           "description": "Article URL: https://tracewayapp.com/blog/sqlite-vs-duckdb\nComments URL: https://news.ycombinator.com/item?id=49097730\nPoints: 57\n# Comments: 32",
@@ -26,6 +66,16 @@
           "imageUrl": "/static/browse/0.3.4/images/arxiv-logo-fb.png"
         },
         {
+          "id": "https://news.ycombinator.com/item?id=49096811",
+          "author": "ibobev",
+          "description": "Article URL: https://www.claire-blackshaw.com/blog/2026/07/shipping-godot-vr-and-porting-to-psvr2-a-partial-post-mortem/\nComments URL: https://news.ycombinator.com/item?id=49096811\nPoints: 69\n# Comments: 0",
+          "link": "https://www.claire-blackshaw.com/blog/2026/07/shipping-godot-vr-and-porting-to-psvr2-a-partial-post-mortem/",
+          "publishedOn": "2026-07-29T12:48:18.000Z",
+          "wordCount": 7542,
+          "title": "Shipping Godot VR and Porting to PSVR2: A Partial Post Mortem",
+          "imageUrl": "https://www.claire-blackshaw.com/images/2026/porting_godot_vr/slide-01.jpg"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=49096654",
           "author": "siatko",
           "description": "Article URL: https://www.darktable.org/\nComments URL: https://news.ycombinator.com/item?id=49096654\nPoints: 65\n# Comments: 22",
@@ -34,6 +84,16 @@
           "wordCount": 321,
           "title": "Darktable",
           "imageUrl": "https://www.darktable.org/images/darktable-logo-only-512w.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=49096427",
+          "author": "nyku",
+          "description": "Article URL: https://github.blog/security/supply-chain-security/disrupting-supply-chain-attacks-on-npm-and-github-actions/\nComments URL: https://news.ycombinator.com/item?id=49096427\nPoints: 66\n# Comments: 20",
+          "link": "https://github.blog/security/supply-chain-security/disrupting-supply-chain-attacks-on-npm-and-github-actions/",
+          "publishedOn": "2026-07-29T12:11:18.000Z",
+          "wordCount": 4041,
+          "title": "Disrupting supply chain attacks on NPM and GitHub Actions",
+          "imageUrl": "https://github.blog/wp-content/uploads/2026/01/github-generic-security-blocks-logo.png?fit=1920%2C1080"
         },
         {
           "id": "https://news.ycombinator.com/item?id=49096290",
@@ -954,6 +1014,16 @@
           "wordCount": null,
           "title": "EU Fines Google $1.02B for Favoring Its Own Services",
           "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=49063983",
+          "author": "stevenwoo",
+          "description": "Article URL: https://www.newscientist.com/article/2580119-hunter-gatherers-introduced-fish-to-a-mountain-lake-7000-years-ago/\nComments URL: https://news.ycombinator.com/item?id=49063983\nPoints: 85\n# Comments: 59",
+          "link": "https://www.newscientist.com/article/2580119-hunter-gatherers-introduced-fish-to-a-mountain-lake-7000-years-ago/",
+          "publishedOn": "2026-07-27T00:58:45.000Z",
+          "wordCount": 3585,
+          "title": "Hunter-gatherers introduced fish to a mountain lake 7000 years ago",
+          "imageUrl": "https://www.newscientist.com/wp-content/uploads/2026/07/SEI_305290666.jpg"
         },
         {
           "id": "https://news.ycombinator.com/item?id=49063754",
@@ -12584,16 +12654,6 @@
           "wordCount": 5932,
           "title": "The US ambassador had Belgian police stop our reporting",
           "imageUrl": "https://images.europeancorrespondent.com/attRp54hjyayl13fH/public"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48728729",
-          "author": "radq",
-          "description": "Article URL: https://moondream.ai/blog/popping-the-gpu-bubble\nComments URL: https://news.ycombinator.com/item?id=48728729\nPoints: 128\n# Comments: 30",
-          "link": "https://moondream.ai/blog/popping-the-gpu-bubble",
-          "publishedOn": "2026-06-30T05:14:35.000Z",
-          "wordCount": 6225,
-          "title": "Popping the GPU Bubble",
-          "imageUrl": "https://moondream.ai/images/blog/popping-the-gpu-bubble/cover.jpg"
         }
       ]
     }
