@@ -6,6 +6,16 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=49090607",
+          "author": "twalichiewicz",
+          "description": "HN is great for the links people share, but a big part of the value I get comes from reading the discussion around them. I realized I was always opening the article in one tab and the comments in another, constantly switching back and forth.\nI figured there was probably a simpler way, so I threw together this userscript to merge the two.\n1. Clicking a link from Hacker News opens the article with a side panel containing the discussion. It doesn't require your credentials, is resizable, and is easy to tweak if you want to customize it.\n2. If you land on an article that has previously been shared on HN, the script finds the existing discussion and adds a button in the top-right to open the panel.\nFeedback welcome.\nComments URL: https://news.ycombinator.com/item?id=49090607\nPoints: 161\n# Comments: 52",
+          "link": "https://github.com/twalichiewicz/HNewhere",
+          "publishedOn": "2026-07-28T22:09:06.000Z",
+          "wordCount": 1372,
+          "title": "Show HN: I was tired of opening 2 tabs for every HN link, so I made a userscript",
+          "imageUrl": "https://opengraph.githubassets.com/6d2b066cba399063a9231efb7a36daef44b64e27446b6529cf7e7a304d20a4df/twalichiewicz/HNewhere"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=49090233",
           "author": "tito",
           "description": "Article URL: https://github.com/gavamedia/deltafin\nComments URL: https://news.ycombinator.com/item?id=49090233\nPoints: 58\n# Comments: 38",
@@ -34,6 +44,16 @@
           "wordCount": 1082,
           "title": "OpenAI just open-sourced Codex Security",
           "imageUrl": "https://opengraph.githubassets.com/e47e2abe296868e8c67f3b1ac5b120b7e2d718e68faab1519af4bd451ed49697/openai/codex-security"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=49089240",
+          "author": "reducesuffering",
+          "description": "Article URL: https://www.pacingthefrontier.com/\nComments URL: https://news.ycombinator.com/item?id=49089240\nPoints: 93\n# Comments: 91",
+          "link": "https://www.pacingthefrontier.com/",
+          "publishedOn": "2026-07-28T20:09:09.000Z",
+          "wordCount": 10069,
+          "title": "Pacing the frontier",
+          "imageUrl": "https://www.pacingthefrontier.com//pacing-the-frontier-preview.jpeg?v=4"
         },
         {
           "id": "https://news.ycombinator.com/item?id=49088887",
@@ -1044,6 +1064,16 @@
           "wordCount": 6051,
           "title": "Ruff v0.16.0 – Significant new updates – 413 default rules up from 59",
           "imageUrl": "https://astral.sh/static/PNG/Ruff_v_0_16_0.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=49055816",
+          "author": "vinhnx",
+          "description": "Article URL: https://www.norvig.com/21-days.html\nComments URL: https://news.ycombinator.com/item?id=49055816\nPoints: 63\n# Comments: 22",
+          "link": "https://www.norvig.com/21-days.html",
+          "publishedOn": "2026-07-26T08:06:45.000Z",
+          "wordCount": null,
+          "title": "Teach yourself programming in ten years (1998)",
+          "imageUrl": null
         },
         {
           "id": "https://news.ycombinator.com/item?id=49055169",
@@ -12514,156 +12544,6 @@
           "wordCount": 636,
           "title": "A native graphical shell for SSH",
           "imageUrl": "https://probablymarcus.com/images/2026-06-28-outer-shell.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48720190",
-          "author": "energeticbark",
-          "description": "Article URL: https://humphri.es/blog/WATaBoy/\nComments URL: https://news.ycombinator.com/item?id=48720190\nPoints: 98\n# Comments: 11",
-          "link": "https://humphri.es/blog/WATaBoy/",
-          "publishedOn": "2026-06-29T15:02:00.000Z",
-          "wordCount": 2690,
-          "title": "WATaBoy: JIT-Ing Game Boy Instructions to WASM Beats a Native Interpreter",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48720186",
-          "author": "HardwareLust",
-          "description": "https://hackaday.com/2026/06/29/its-linux-on-a-sega-megadriv...\nComments URL: https://news.ycombinator.com/item?id=48720186\nPoints: 107\n# Comments: 15",
-          "link": "https://github.com/LinuxMD/linuxmd",
-          "publishedOn": "2026-06-29T15:01:39.000Z",
-          "wordCount": 4435,
-          "title": "Linux for the Sega MegaDrive",
-          "imageUrl": "https://opengraph.githubassets.com/fe6eefbb46411311cc0592def09b7274b74a9aa946fcca35c776c6cff150c581/LinuxMD/linuxmd"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48720064",
-          "author": "comma_at",
-          "description": "Article URL: https://htmx.org/essays/working-with-ai/\nComments URL: https://news.ycombinator.com/item?id=48720064\nPoints: 50\n# Comments: 15",
-          "link": "https://htmx.org/essays/working-with-ai/",
-          "publishedOn": "2026-06-29T14:53:41.000Z",
-          "wordCount": 2022,
-          "title": "Working With AI: A concrete example",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48719532",
-          "author": "mooreds",
-          "description": "Article URL: https://www.apollo.com/content/dam/apolloaem/pdf/daily-spark/2026/jun/28/062826-Mag7.pdf\nComments URL: https://news.ycombinator.com/item?id=48719532\nPoints: 112\n# Comments: 84",
-          "link": "https://www.apollo.com/content/dam/apolloaem/pdf/daily-spark/2026/jun/28/062826-Mag7.pdf",
-          "publishedOn": "2026-06-29T14:12:55.000Z",
-          "wordCount": 55928,
-          "title": "Mag 7 starting to underperform [pdf]",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48719521",
-          "author": "eatonphil",
-          "description": "Article URL: https://queue.acm.org/detail.cfm?id=3819084\nComments URL: https://news.ycombinator.com/item?id=48719521\nPoints: 65\n# Comments: 19",
-          "link": "https://queue.acm.org/detail.cfm?id=3819084",
-          "publishedOn": "2026-06-29T14:12:05.000Z",
-          "wordCount": null,
-          "title": "You Don't Know Jack About Formal Verification",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48719485",
-          "author": "everfrustrated",
-          "description": "Article URL: https://investors.rocketlabcorp.com/news-releases/news-release-details/rocket-lab-acquire-iridium-historic-deal-creating-fully\nComments URL: https://news.ycombinator.com/item?id=48719485\nPoints: 75\n# Comments: 38",
-          "link": "https://investors.rocketlabcorp.com/news-releases/news-release-details/rocket-lab-acquire-iridium-historic-deal-creating-fully",
-          "publishedOn": "2026-06-29T14:09:24.000Z",
-          "wordCount": 3252,
-          "title": "Rocketlab acquires Iridium",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48719361",
-          "author": "simonpure",
-          "description": "Article URL: https://cachyos.org/blog/2606-june-release/\nComments URL: https://news.ycombinator.com/item?id=48719361\nPoints: 90\n# Comments: 47",
-          "link": "https://cachyos.org/blog/2606-june-release/",
-          "publishedOn": "2026-06-29T13:56:46.000Z",
-          "wordCount": 1205,
-          "title": "CachyOS June 2026 Release",
-          "imageUrl": "https://cachyos.org/_astro/default.DKkLOjN7_Z1uddFL.webp"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48719027",
-          "author": "notRobot",
-          "description": "Article URL: https://twitter.com/i/status/2071277885646868536\nComments URL: https://news.ycombinator.com/item?id=48719027\nPoints: 130\n# Comments: 50",
-          "link": "https://twitter.com/i/status/2071277885646868536",
-          "publishedOn": "2026-06-29T13:26:35.000Z",
-          "wordCount": 204,
-          "title": "Instagram is incorporating users' photos in ads for Meta Glasses",
-          "imageUrl": "https://pbs.twimg.com/media/HL6oQbca4AAwK_D.jpg:large"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48718995",
-          "author": "LorenDB",
-          "description": "Article URL: https://voxelmanip.se/2026/06/28/building-principia-for-windows-xp/\nComments URL: https://news.ycombinator.com/item?id=48718995\nPoints: 62\n# Comments: 12",
-          "link": "https://voxelmanip.se/2026/06/28/building-principia-for-windows-xp/",
-          "publishedOn": "2026-06-29T13:23:19.000Z",
-          "wordCount": 3011,
-          "title": "Building Principia for Windows XP",
-          "imageUrl": "https://voxelmanip.se/media/building-principia-for-windows-xp/cover.webp"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48718967",
-          "author": "kugelblitz",
-          "description": "Article URL: https://www.playstation.com/en-gb/legal/psvideocontent/\nComments URL: https://news.ycombinator.com/item?id=48718967\nPoints: 88\n# Comments: 45",
-          "link": "https://www.playstation.com/en-gb/legal/psvideocontent/",
-          "publishedOn": "2026-06-29T13:20:14.000Z",
-          "wordCount": 1407,
-          "title": "Studio Canal Movies purchased on PlayStation Store removed without refund",
-          "imageUrl": "https://gmedia.playstation.com/is/image/SIEPDC/facebook-shared-social-thumbnail?$facebook$"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48718863",
-          "author": "mezark",
-          "description": "Article URL: https://fergusfinn.com/blog/what-happens-when-you-run-a-gpu-kernel/\nComments URL: https://news.ycombinator.com/item?id=48718863\nPoints: 70\n# Comments: 4",
-          "link": "https://fergusfinn.com/blog/what-happens-when-you-run-a-gpu-kernel/",
-          "publishedOn": "2026-06-29T13:11:08.000Z",
-          "wordCount": 7223,
-          "title": "What happens when you run a CUDA kernel?",
-          "imageUrl": "https://fergusfinn.com/_astro/cover.jG4AhdiB.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48718840",
-          "author": "hn8726",
-          "description": "Article URL: https://tidal.com/ai-policy\nComments URL: https://news.ycombinator.com/item?id=48718840\nPoints: 178\n# Comments: 206",
-          "link": "https://tidal.com/ai-policy",
-          "publishedOn": "2026-06-29T13:09:03.000Z",
-          "wordCount": null,
-          "title": "Tidal AI Policy",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48718716",
-          "author": "buraksen",
-          "description": "Article URL: https://www.buraksen.dev/articles/internals-of-postgresql-db-cluster-and-tables\nComments URL: https://news.ycombinator.com/item?id=48718716\nPoints: 70\n# Comments: 1",
-          "link": "https://www.buraksen.dev/articles/internals-of-postgresql-db-cluster-and-tables",
-          "publishedOn": "2026-06-29T12:59:49.000Z",
-          "wordCount": 9233,
-          "title": "Reading the internals of Postgres: Database cluster, databases, and tables",
-          "imageUrl": "https://www.buraksen.dev/articles/internals-of-postgresql-db-cluster-and-tables/og.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48718102",
-          "author": "donohoe",
-          "description": "Article URL: https://en.sedaily.com/international/2026/06/29/samsung-sk-hynix-micron-sued-in-us-over-memory-price-fixing\nComments URL: https://news.ycombinator.com/item?id=48718102\nPoints: 131\n# Comments: 57",
-          "link": "https://en.sedaily.com/international/2026/06/29/samsung-sk-hynix-micron-sued-in-us-over-memory-price-fixing",
-          "publishedOn": "2026-06-29T11:58:48.000Z",
-          "wordCount": null,
-          "title": "Samsung, SK Hynix, Micron Sued in US over Memory Price Fixing",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48717905",
-          "author": "ingve",
-          "description": "Article URL: https://alexwlchan.net/2026/computer-room/\nComments URL: https://news.ycombinator.com/item?id=48717905\nPoints: 61\n# Comments: 30",
-          "link": "https://alexwlchan.net/2026/computer-room/",
-          "publishedOn": "2026-06-29T11:34:36.000Z",
-          "wordCount": 1542,
-          "title": "Rebuilding the Computer Room",
-          "imageUrl": "https://alexwlchan.net/images/cards/2026/computer-room.jpg"
         }
       ]
     }

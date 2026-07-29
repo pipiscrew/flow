@@ -2,10 +2,27 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-07-28T23:04:43.619Z</updated>
+    <updated>2026-07-29T03:15:54.201Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Show HN: I was tired of opening 2 tabs for every HN link, so I made a userscript]]></title>
+        <id>https://news.ycombinator.com/item?id=49090607</id>
+        <link href="https://github.com/twalichiewicz/HNewhere"/>
+        <updated>2026-07-28T22:09:06.000Z</updated>
+        <summary type="html"><![CDATA[HN is great for the links people share, but a big part of the value I get comes from reading the discussion around them. I realized I was always opening the article in one tab and the comments in another, constantly switching back and forth.
+I figured there was probably a simpler way, so I threw together this userscript to merge the two.
+1. Clicking a link from Hacker News opens the article with a side panel containing the discussion. It doesn't require your credentials, is resizable, and is easy to tweak if you want to customize it.
+2. If you land on an article that has previously been shared on HN, the script finds the existing discussion and adds a button in the top-right to open the panel.
+Feedback welcome.
+Comments URL: https://news.ycombinator.com/item?id=49090607
+Points: 161
+# Comments: 52]]></summary>
+        <author>
+            <name>twalichiewicz</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Running Kimi K3 on a M1 Max]]></title>
         <id>https://news.ycombinator.com/item?id=49090233</id>
@@ -43,6 +60,19 @@ Points: 221
 # Comments: 45]]></summary>
         <author>
             <name>bakigul</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Pacing the frontier]]></title>
+        <id>https://news.ycombinator.com/item?id=49089240</id>
+        <link href="https://www.pacingthefrontier.com/"/>
+        <updated>2026-07-28T20:09:09.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.pacingthefrontier.com/
+Comments URL: https://news.ycombinator.com/item?id=49089240
+Points: 93
+# Comments: 91]]></summary>
+        <author>
+            <name>reducesuffering</name>
         </author>
     </entry>
     <entry>
@@ -1382,6 +1412,19 @@ Points: 106
 # Comments: 46]]></summary>
         <author>
             <name>vismit2000</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Teach yourself programming in ten years (1998)]]></title>
+        <id>https://news.ycombinator.com/item?id=49055816</id>
+        <link href="https://www.norvig.com/21-days.html"/>
+        <updated>2026-07-26T08:06:45.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.norvig.com/21-days.html
+Comments URL: https://news.ycombinator.com/item?id=49055816
+Points: 63
+# Comments: 22]]></summary>
+        <author>
+            <name>vinhnx</name>
         </author>
     </entry>
     <entry>
@@ -16525,201 +16568,6 @@ Points: 92
 # Comments: 46]]></summary>
         <author>
             <name>mrcslws</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[WATaBoy: JIT-Ing Game Boy Instructions to WASM Beats a Native Interpreter]]></title>
-        <id>https://news.ycombinator.com/item?id=48720190</id>
-        <link href="https://humphri.es/blog/WATaBoy/"/>
-        <updated>2026-06-29T15:02:00.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://humphri.es/blog/WATaBoy/
-Comments URL: https://news.ycombinator.com/item?id=48720190
-Points: 98
-# Comments: 11]]></summary>
-        <author>
-            <name>energeticbark</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Linux for the Sega MegaDrive]]></title>
-        <id>https://news.ycombinator.com/item?id=48720186</id>
-        <link href="https://github.com/LinuxMD/linuxmd"/>
-        <updated>2026-06-29T15:01:39.000Z</updated>
-        <summary type="html"><![CDATA[https://hackaday.com/2026/06/29/its-linux-on-a-sega-megadriv...
-Comments URL: https://news.ycombinator.com/item?id=48720186
-Points: 107
-# Comments: 15]]></summary>
-        <author>
-            <name>HardwareLust</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Working With AI: A concrete example]]></title>
-        <id>https://news.ycombinator.com/item?id=48720064</id>
-        <link href="https://htmx.org/essays/working-with-ai/"/>
-        <updated>2026-06-29T14:53:41.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://htmx.org/essays/working-with-ai/
-Comments URL: https://news.ycombinator.com/item?id=48720064
-Points: 50
-# Comments: 15]]></summary>
-        <author>
-            <name>comma_at</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Mag 7 starting to underperform [pdf]]]></title>
-        <id>https://news.ycombinator.com/item?id=48719532</id>
-        <link href="https://www.apollo.com/content/dam/apolloaem/pdf/daily-spark/2026/jun/28/062826-Mag7.pdf"/>
-        <updated>2026-06-29T14:12:55.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.apollo.com/content/dam/apolloaem/pdf/daily-spark/2026/jun/28/062826-Mag7.pdf
-Comments URL: https://news.ycombinator.com/item?id=48719532
-Points: 112
-# Comments: 84]]></summary>
-        <author>
-            <name>mooreds</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[You Don't Know Jack About Formal Verification]]></title>
-        <id>https://news.ycombinator.com/item?id=48719521</id>
-        <link href="https://queue.acm.org/detail.cfm?id=3819084"/>
-        <updated>2026-06-29T14:12:05.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://queue.acm.org/detail.cfm?id=3819084
-Comments URL: https://news.ycombinator.com/item?id=48719521
-Points: 65
-# Comments: 19]]></summary>
-        <author>
-            <name>eatonphil</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Rocketlab acquires Iridium]]></title>
-        <id>https://news.ycombinator.com/item?id=48719485</id>
-        <link href="https://investors.rocketlabcorp.com/news-releases/news-release-details/rocket-lab-acquire-iridium-historic-deal-creating-fully"/>
-        <updated>2026-06-29T14:09:24.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://investors.rocketlabcorp.com/news-releases/news-release-details/rocket-lab-acquire-iridium-historic-deal-creating-fully
-Comments URL: https://news.ycombinator.com/item?id=48719485
-Points: 75
-# Comments: 38]]></summary>
-        <author>
-            <name>everfrustrated</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[CachyOS June 2026 Release]]></title>
-        <id>https://news.ycombinator.com/item?id=48719361</id>
-        <link href="https://cachyos.org/blog/2606-june-release/"/>
-        <updated>2026-06-29T13:56:46.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://cachyos.org/blog/2606-june-release/
-Comments URL: https://news.ycombinator.com/item?id=48719361
-Points: 90
-# Comments: 47]]></summary>
-        <author>
-            <name>simonpure</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Instagram is incorporating users' photos in ads for Meta Glasses]]></title>
-        <id>https://news.ycombinator.com/item?id=48719027</id>
-        <link href="https://twitter.com/i/status/2071277885646868536"/>
-        <updated>2026-06-29T13:26:35.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://twitter.com/i/status/2071277885646868536
-Comments URL: https://news.ycombinator.com/item?id=48719027
-Points: 130
-# Comments: 50]]></summary>
-        <author>
-            <name>notRobot</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Building Principia for Windows XP]]></title>
-        <id>https://news.ycombinator.com/item?id=48718995</id>
-        <link href="https://voxelmanip.se/2026/06/28/building-principia-for-windows-xp/"/>
-        <updated>2026-06-29T13:23:19.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://voxelmanip.se/2026/06/28/building-principia-for-windows-xp/
-Comments URL: https://news.ycombinator.com/item?id=48718995
-Points: 62
-# Comments: 12]]></summary>
-        <author>
-            <name>LorenDB</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Studio Canal Movies purchased on PlayStation Store removed without refund]]></title>
-        <id>https://news.ycombinator.com/item?id=48718967</id>
-        <link href="https://www.playstation.com/en-gb/legal/psvideocontent/"/>
-        <updated>2026-06-29T13:20:14.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.playstation.com/en-gb/legal/psvideocontent/
-Comments URL: https://news.ycombinator.com/item?id=48718967
-Points: 88
-# Comments: 45]]></summary>
-        <author>
-            <name>kugelblitz</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[What happens when you run a CUDA kernel?]]></title>
-        <id>https://news.ycombinator.com/item?id=48718863</id>
-        <link href="https://fergusfinn.com/blog/what-happens-when-you-run-a-gpu-kernel/"/>
-        <updated>2026-06-29T13:11:08.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://fergusfinn.com/blog/what-happens-when-you-run-a-gpu-kernel/
-Comments URL: https://news.ycombinator.com/item?id=48718863
-Points: 70
-# Comments: 4]]></summary>
-        <author>
-            <name>mezark</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Tidal AI Policy]]></title>
-        <id>https://news.ycombinator.com/item?id=48718840</id>
-        <link href="https://tidal.com/ai-policy"/>
-        <updated>2026-06-29T13:09:03.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://tidal.com/ai-policy
-Comments URL: https://news.ycombinator.com/item?id=48718840
-Points: 178
-# Comments: 206]]></summary>
-        <author>
-            <name>hn8726</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Reading the internals of Postgres: Database cluster, databases, and tables]]></title>
-        <id>https://news.ycombinator.com/item?id=48718716</id>
-        <link href="https://www.buraksen.dev/articles/internals-of-postgresql-db-cluster-and-tables"/>
-        <updated>2026-06-29T12:59:49.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.buraksen.dev/articles/internals-of-postgresql-db-cluster-and-tables
-Comments URL: https://news.ycombinator.com/item?id=48718716
-Points: 70
-# Comments: 1]]></summary>
-        <author>
-            <name>buraksen</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Samsung, SK Hynix, Micron Sued in US over Memory Price Fixing]]></title>
-        <id>https://news.ycombinator.com/item?id=48718102</id>
-        <link href="https://en.sedaily.com/international/2026/06/29/samsung-sk-hynix-micron-sued-in-us-over-memory-price-fixing"/>
-        <updated>2026-06-29T11:58:48.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://en.sedaily.com/international/2026/06/29/samsung-sk-hynix-micron-sued-in-us-over-memory-price-fixing
-Comments URL: https://news.ycombinator.com/item?id=48718102
-Points: 131
-# Comments: 57]]></summary>
-        <author>
-            <name>donohoe</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Rebuilding the Computer Room]]></title>
-        <id>https://news.ycombinator.com/item?id=48717905</id>
-        <link href="https://alexwlchan.net/2026/computer-room/"/>
-        <updated>2026-06-29T11:34:36.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://alexwlchan.net/2026/computer-room/
-Comments URL: https://news.ycombinator.com/item?id=48717905
-Points: 61
-# Comments: 30]]></summary>
-        <author>
-            <name>ingve</name>
         </author>
     </entry>
 </feed>
