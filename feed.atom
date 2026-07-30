@@ -2,10 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-07-30T20:17:48.511Z</updated>
+    <updated>2026-07-30T22:11:20.318Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Agent Skill to Force Docs in ASD-STE100 Simplified Technical English]]></title>
+        <id>https://news.ycombinator.com/item?id=49114639</id>
+        <link href="https://github.com/AminBlg/SimpleEnglish"/>
+        <updated>2026-07-30T19:34:27.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://github.com/AminBlg/SimpleEnglish
+Comments URL: https://news.ycombinator.com/item?id=49114639
+Points: 74
+# Comments: 23]]></summary>
+        <author>
+            <name>navs</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[UEFA and its national associations will not participate in FIFA competitions]]></title>
         <id>https://news.ycombinator.com/item?id=49113929</id>
@@ -43,6 +56,17 @@ Points: 50
 # Comments: 23]]></summary>
         <author>
             <name>surprisetalk</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Distilling DeepSeek into GPT-OSS doesn't transfer censorship. Try it]]></title>
+        <id>https://news.ycombinator.com/item?id=49113599</id>
+        <link href="https://www.ctgt.ai/research/distillation-censorship-transfer"/>
+        <updated>2026-07-30T18:13:06.000Z</updated>
+        <summary type="html"><![CDATA[We recently used DeepSeek V4 Flash as a teacher for finance tasks with GPT-OSS-120B. Distillation works well on this problem. At a constrained 8k token budget, our self-distilled 120B scores 83.61% on FinanceReasoning, above Kimi K3 (81.93%) and Inkling (65.13%). We released the 20B open weights. With V4 as the teacher though, we realized it would be timely to measure if the censorship characteristic of it transferred to the distilled version of the base model. tl;dr it didn't, the teacher answered politically sensitive questions 7 SDs differently than expected, but the distilled model's behavior remained the same as its American base. You can try a couple queries yourself with no auth here: http://playground.ctgt.ai/
+I will now dive in to the motivation, methodology and detailed results f…]]></summary>
+        <author>
+            <name>cgorlla</name>
         </author>
     </entry>
     <entry>
@@ -16796,45 +16820,6 @@ Points: 108
 # Comments: 10]]></summary>
         <author>
             <name>sashk</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Asahi Linux 7.1 Progress Report]]></title>
-        <id>https://news.ycombinator.com/item?id=48744518</id>
-        <link href="https://asahilinux.org/2026/06/progress-report-7-1/"/>
-        <updated>2026-07-01T10:07:04.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://asahilinux.org/2026/06/progress-report-7-1/
-Comments URL: https://news.ycombinator.com/item?id=48744518
-Points: 218
-# Comments: 46]]></summary>
-        <author>
-            <name>pantalaimon</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Pine64 launch $50 smart speaker for Home Assistant tinkerers]]></title>
-        <id>https://news.ycombinator.com/item?id=48744446</id>
-        <link href="https://www.omgubuntu.co.uk/2026/06/pine64-pinevoice-riscv-smart-speaker-launch"/>
-        <updated>2026-07-01T09:57:07.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.omgubuntu.co.uk/2026/06/pine64-pinevoice-riscv-smart-speaker-launch
-Comments URL: https://news.ycombinator.com/item?id=48744446
-Points: 65
-# Comments: 16]]></summary>
-        <author>
-            <name>edward</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Single Dose of Frog-Derived Gut Bacterium Eradicates 100% of Tumors in Mice]]></title>
-        <id>https://news.ycombinator.com/item?id=48744232</id>
-        <link href="https://www.thefocalpoints.com/p/new-study-frog-derived-gut-bacterium"/>
-        <updated>2026-07-01T09:21:44.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.thefocalpoints.com/p/new-study-frog-derived-gut-bacterium
-Comments URL: https://news.ycombinator.com/item?id=48744232
-Points: 94
-# Comments: 32]]></summary>
-        <author>
-            <name>mpweiher</name>
         </author>
     </entry>
 </feed>

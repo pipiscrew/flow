@@ -6,6 +6,16 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=49114639",
+          "author": "navs",
+          "description": "Article URL: https://github.com/AminBlg/SimpleEnglish\nComments URL: https://news.ycombinator.com/item?id=49114639\nPoints: 74\n# Comments: 23",
+          "link": "https://github.com/AminBlg/SimpleEnglish",
+          "publishedOn": "2026-07-30T19:34:27.000Z",
+          "wordCount": 3971,
+          "title": "Agent Skill to Force Docs in ASD-STE100 Simplified Technical English",
+          "imageUrl": "https://opengraph.githubassets.com/e15423e0e9c5a96d7a8acd4e4f1a2d27cbf125a9188507d4af92ebcd1566d786/AminBlg/SimpleEnglish"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=49113929",
           "author": "dickfickling",
           "description": "Article URL: https://www.uefa.com/news-media/news/02a7-213a92896eb0-54dfbf454e3b-1000--statement-on-behalf-of-uefa-and-its-55-national-associations/\nComments URL: https://news.ycombinator.com/item?id=49113929\nPoints: 322\n# Comments: 206",
@@ -34,6 +44,16 @@
           "wordCount": 2039,
           "title": "So you want to use plants to reduce CO₂",
           "imageUrl": "https://dynomight.net/img/plants/the_writer.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=49113599",
+          "author": "cgorlla",
+          "description": "We recently used DeepSeek V4 Flash as a teacher for finance tasks with GPT-OSS-120B. Distillation works well on this problem. At a constrained 8k token budget, our self-distilled 120B scores 83.61% on FinanceReasoning, above Kimi K3 (81.93%) and Inkling (65.13%). We released the 20B open weights. With V4 as the teacher though, we realized it would be timely to measure if the censorship characteristic of it transferred to the distilled version of the base model. tl;dr it didn't, the teacher answered politically sensitive questions 7 SDs differently than expected, but the distilled model's behavior remained the same as its American base. You can try a couple queries yourself with no auth here: http://playground.ctgt.ai/\nI will now dive in to the motivation, methodology and detailed results f…",
+          "link": "https://www.ctgt.ai/research/distillation-censorship-transfer",
+          "publishedOn": "2026-07-30T18:13:06.000Z",
+          "wordCount": 4037,
+          "title": "Show HN: Distilling DeepSeek into GPT-OSS doesn't transfer censorship. Try it",
+          "imageUrl": "https://cdn.prod.website-files.com/67c5c67a4c758597bd28fafd/6a69e158f9fd4e8b99da4607_OG%20Card-selection.png"
         },
         {
           "id": "https://news.ycombinator.com/item?id=49113338",
@@ -12714,36 +12734,6 @@
           "wordCount": 5478,
           "title": "Apple 'Hide My Email' vulnerability reveals peoples' real email addresses",
           "imageUrl": "https://easyoptouts.com/og-logo.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48744518",
-          "author": "pantalaimon",
-          "description": "Article URL: https://asahilinux.org/2026/06/progress-report-7-1/\nComments URL: https://news.ycombinator.com/item?id=48744518\nPoints: 218\n# Comments: 46",
-          "link": "https://asahilinux.org/2026/06/progress-report-7-1/",
-          "publishedOn": "2026-07-01T10:07:04.000Z",
-          "wordCount": 2292,
-          "title": "Asahi Linux 7.1 Progress Report",
-          "imageUrl": "https://asahilinux.org/img/AsahiLinux_logomark_256px.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48744446",
-          "author": "edward",
-          "description": "Article URL: https://www.omgubuntu.co.uk/2026/06/pine64-pinevoice-riscv-smart-speaker-launch\nComments URL: https://news.ycombinator.com/item?id=48744446\nPoints: 65\n# Comments: 16",
-          "link": "https://www.omgubuntu.co.uk/2026/06/pine64-pinevoice-riscv-smart-speaker-launch",
-          "publishedOn": "2026-07-01T09:57:07.000Z",
-          "wordCount": 2132,
-          "title": "Pine64 launch $50 smart speaker for Home Assistant tinkerers",
-          "imageUrl": "https://www.omgubuntu.co.uk/wp-content/uploads/2026/06/pinevoice-pine64-speaker.webp"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48744232",
-          "author": "mpweiher",
-          "description": "Article URL: https://www.thefocalpoints.com/p/new-study-frog-derived-gut-bacterium\nComments URL: https://news.ycombinator.com/item?id=48744232\nPoints: 94\n# Comments: 32",
-          "link": "https://www.thefocalpoints.com/p/new-study-frog-derived-gut-bacterium",
-          "publishedOn": "2026-07-01T09:21:44.000Z",
-          "wordCount": 2226,
-          "title": "Single Dose of Frog-Derived Gut Bacterium Eradicates 100% of Tumors in Mice",
-          "imageUrl": "https://substackcdn.com/image/fetch/$s_!Cc-z!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1e9690ca-bd6f-4f8c-8ee1-8a1f1ecd76a2_2409x1314.png"
         }
       ]
     }
