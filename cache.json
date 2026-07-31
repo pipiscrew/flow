@@ -486,6 +486,16 @@
           "imageUrl": "https://images.digitalfoundry.net/fd99c70884c44/large.jpg"
         },
         {
+          "id": "https://news.ycombinator.com/item?id=49099434",
+          "author": "wgjordan",
+          "description": "I'm building Kedge, a globally distributed platform for stateful serverless apps. Here's how you make a simple static site: `echo '# Hello world!' | ssh kedge.dev`\nI helped build Fly.io for 4 years and shared enthusiasm for the founders' vision of a 'global Heroku'.  While there, I wrote \"The Serverless Server\" (https://fly.io/blog/the-serverless-server/) as a study of Lambda and a sketch of a modern serverless product built around lightweight VMs. That essay was the initial inspiration for Kedge.\nKedge has a fast VM orchestrator that can create code sandboxes or scale service instances in 3ms, using a combination of forkable VM snapshots and a tree of warm pools (Linux kernel -> base runtime -> app). VMs are memory-dense thanks to shared copy-on-write memory pages. You can run lightweight…",
+          "link": "https://kedge.dev/",
+          "publishedOn": "2026-07-29T16:15:57.000Z",
+          "wordCount": 4025,
+          "title": "Show HN: Kedge – Full-stack cloud with forkable VM snapshots and global SQLite",
+          "imageUrl": null
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=49099143",
           "author": "rohaga",
           "description": "Hi HN, Rohit here from Tokenless (https://usetokenless.com/), which I’m building alongside co-founders Andrew and Kev. We’re building an API gateway which routes agent traffic dynamically turn-by-turn between different models to save on AI spend.\nThe cost of AI tokens is top-of-mind for many. Companies like Uber and Salesforce have been complaining about blowing their yearly AI spend faster than expected.\nFrontier models are amazing for dev work, but are so expensive. Open-source models are cheap and rapidly improving, closing the gap with frontier models, but aren’t quite there yet.\nTokenless gets you the best of both worlds–routing harder turns to smarter models only when needed, which keeps costs low.\nBefore Tokenless, I was doing a PhD at Princeton. While using coding/other agents, I c…",
@@ -2204,6 +2214,16 @@
           "wordCount": null,
           "title": "Open-weight AI is having its Kubernetes moment",
           "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=49047839",
+          "author": "tnisonoff",
+          "description": "Article URL: https://obryant.dev/p/2x-not-10x/\nComments URL: https://news.ycombinator.com/item?id=49047839\nPoints: 194\n# Comments: 147",
+          "link": "https://obryant.dev/p/2x-not-10x/",
+          "publishedOn": "2026-07-25T14:27:05.000Z",
+          "wordCount": 1021,
+          "title": "2x, not 10x: coding with LLMs in 2026",
+          "imageUrl": "https://obryant.dev/cards/47ab05e579879488de4768ed2c0f3c2d096b6732.png"
         },
         {
           "id": "https://news.ycombinator.com/item?id=49047707",
@@ -12704,36 +12724,6 @@
           "wordCount": 1498,
           "title": "Box3D, an open source 3D physics engine",
           "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48745113",
-          "author": "_tk_",
-          "description": "Article URL: https://mynintendonews.com/2026/06/26/nintendo-has-raised-its-employees-base-salary-by-10/\nComments URL: https://news.ycombinator.com/item?id=48745113\nPoints: 402\n# Comments: 213",
-          "link": "https://mynintendonews.com/2026/06/26/nintendo-has-raised-its-employees-base-salary-by-10/",
-          "publishedOn": "2026-07-01T11:35:20.000Z",
-          "wordCount": 4418,
-          "title": "Nintendo has raised its employees base salary by 10%",
-          "imageUrl": "https://i0.wp.com/mynintendonews.com/wp-content/uploads/2024/09/nintendo_logo.jpg?fit=2048%2C1341&ssl=1"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48744655",
-          "author": "felixdoerp",
-          "description": "Article URL: https://cleberg.net/blog/internet.html\nComments URL: https://news.ycombinator.com/item?id=48744655\nPoints: 59\n# Comments: 44",
-          "link": "https://cleberg.net/blog/internet.html",
-          "publishedOn": "2026-07-01T10:26:45.000Z",
-          "wordCount": 3428,
-          "title": "The Internet I Grew Up with Doesn't Exist Anymore",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48744606",
-          "author": "sashk",
-          "description": "https://www.404media.co/apple-hide-my-email-vulnerability-re..., https://archive.vn/mCbBw\nComments URL: https://news.ycombinator.com/item?id=48744606\nPoints: 108\n# Comments: 10",
-          "link": "https://easyoptouts.com/guides/apple-hide-my-email-is-leaking-email-addresses",
-          "publishedOn": "2026-07-01T10:19:45.000Z",
-          "wordCount": 5478,
-          "title": "Apple 'Hide My Email' vulnerability reveals peoples' real email addresses",
-          "imageUrl": "https://easyoptouts.com/og-logo.png"
         }
       ]
     }

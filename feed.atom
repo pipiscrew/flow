@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-07-30T22:11:20.318Z</updated>
+    <updated>2026-07-31T00:07:47.284Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
@@ -632,6 +632,18 @@ Points: 122
 # Comments: 53]]></summary>
         <author>
             <name>JLO64</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Kedge – Full-stack cloud with forkable VM snapshots and global SQLite]]></title>
+        <id>https://news.ycombinator.com/item?id=49099434</id>
+        <link href="https://kedge.dev/"/>
+        <updated>2026-07-29T16:15:57.000Z</updated>
+        <summary type="html"><![CDATA[I'm building Kedge, a globally distributed platform for stateful serverless apps. Here's how you make a simple static site: `echo '# Hello world!' | ssh kedge.dev`
+I helped build Fly.io for 4 years and shared enthusiasm for the founders' vision of a 'global Heroku'.  While there, I wrote "The Serverless Server" (https://fly.io/blog/the-serverless-server/) as a study of Lambda and a sketch of a modern serverless product built around lightweight VMs. That essay was the initial inspiration for Kedge.
+Kedge has a fast VM orchestrator that can create code sandboxes or scale service instances in 3ms, using a combination of forkable VM snapshots and a tree of warm pools (Linux kernel -> base runtime -> app). VMs are memory-dense thanks to shared copy-on-write memory pages. You can run lightweight…]]></summary>
+        <author>
+            <name>wgjordan</name>
         </author>
     </entry>
     <entry>
@@ -2913,6 +2925,19 @@ Points: 158
 # Comments: 106]]></summary>
         <author>
             <name>tknaup</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[2x, not 10x: coding with LLMs in 2026]]></title>
+        <id>https://news.ycombinator.com/item?id=49047839</id>
+        <link href="https://obryant.dev/p/2x-not-10x/"/>
+        <updated>2026-07-25T14:27:05.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://obryant.dev/p/2x-not-10x/
+Comments URL: https://news.ycombinator.com/item?id=49047839
+Points: 194
+# Comments: 147]]></summary>
+        <author>
+            <name>tnisonoff</name>
         </author>
     </entry>
     <entry>
@@ -16781,45 +16806,6 @@ Points: 246
 # Comments: 47]]></summary>
         <author>
             <name>makepanic</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Nintendo has raised its employees base salary by 10%]]></title>
-        <id>https://news.ycombinator.com/item?id=48745113</id>
-        <link href="https://mynintendonews.com/2026/06/26/nintendo-has-raised-its-employees-base-salary-by-10/"/>
-        <updated>2026-07-01T11:35:20.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://mynintendonews.com/2026/06/26/nintendo-has-raised-its-employees-base-salary-by-10/
-Comments URL: https://news.ycombinator.com/item?id=48745113
-Points: 402
-# Comments: 213]]></summary>
-        <author>
-            <name>_tk_</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Internet I Grew Up with Doesn't Exist Anymore]]></title>
-        <id>https://news.ycombinator.com/item?id=48744655</id>
-        <link href="https://cleberg.net/blog/internet.html"/>
-        <updated>2026-07-01T10:26:45.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://cleberg.net/blog/internet.html
-Comments URL: https://news.ycombinator.com/item?id=48744655
-Points: 59
-# Comments: 44]]></summary>
-        <author>
-            <name>felixdoerp</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Apple 'Hide My Email' vulnerability reveals peoples' real email addresses]]></title>
-        <id>https://news.ycombinator.com/item?id=48744606</id>
-        <link href="https://easyoptouts.com/guides/apple-hide-my-email-is-leaking-email-addresses"/>
-        <updated>2026-07-01T10:19:45.000Z</updated>
-        <summary type="html"><![CDATA[https://www.404media.co/apple-hide-my-email-vulnerability-re..., https://archive.vn/mCbBw
-Comments URL: https://news.ycombinator.com/item?id=48744606
-Points: 108
-# Comments: 10]]></summary>
-        <author>
-            <name>sashk</name>
         </author>
     </entry>
 </feed>
