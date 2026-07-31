@@ -6,6 +6,16 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=49120097",
+          "author": "Garbage",
+          "description": "Article URL: https://blog.google/security/chrome-stronger-with-every-update/\nComments URL: https://news.ycombinator.com/item?id=49120097\nPoints: 87\n# Comments: 90",
+          "link": "https://blog.google/security/chrome-stronger-with-every-update/",
+          "publishedOn": "2026-07-31T07:29:22.000Z",
+          "wordCount": 5793,
+          "title": "Google fixed more Chrome bugs in June than over the past two years, thanks to AI",
+          "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Screenshot_2026-07-17_at_5.00.43PM.width-1300.png"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=49119559",
           "author": "dnhkng",
           "description": "Article URL: https://api-docs.deepseek.com/updates/\nComments URL: https://news.ycombinator.com/item?id=49119559\nPoints: 115\n# Comments: 39",
@@ -14,6 +24,26 @@
           "wordCount": 1416,
           "title": "DeepSeek-V4-Flash Update",
           "imageUrl": "https://api-docs.deepseek.com/img/deepseek-social-card.jpeg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=49119425",
+          "author": "mokshablr",
+          "description": "Hi HN,\nI built an Android file viewer that opens PDF, Word, Excel, PowerPoint, images, video, audio, Markdown and code, and asks for no permissions at all.\nI have always been uneasy about opening files people send me. On Android you either install a 400 MB office suite and sign in or use a small free viewer that wants storage access and ends up uploading your file to a server to render it. Also the hassle of having to download different apps for different file formats was really annoying.\nGander holds no permissions, not even INTERNET so the OS itself guarantees the file cannot leave the phone.\nPDFs use Pdfium, media uses Media3, and Office formats are rendered by bundled JS libraries in a WebView and so no request goes to any server.\nIt is a viewer only. Complex PowerPoint decks come out approximately right, spreadsheet charts are not drawn, and old binary .doc and .ppt are unsupported. I'll work on it as issues come up :P\nIt is 14 MB, MIT licensed and uploaded on Github releases.\nDo try it! I would love some feedback especially on files that render badly or need new support.\nComments URL: https://news.ycombinator.com/item?id=49119425\nPoints: 66\n# Comments: 24",
+          "link": "https://github.com/mokshablr/gander",
+          "publishedOn": "2026-07-31T05:45:13.000Z",
+          "wordCount": 3573,
+          "title": "Show HN: Gander, an Android file viewer that asks for no permissions at all",
+          "imageUrl": "https://repository-images.githubusercontent.com/github-production-repository-image-32fea6/1305551246/3bdba722-936b-4bc3-ac49-6643d2056eb4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260731%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260731T104505Z&X-Amz-Expires=300&X-Amz-Signature=1d8ce2041474e4166c65936583608fb4052c4c1ea548b734ab583978eeb6506f&X-Amz-SignedHeaders=host&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoiaHR0cHM6Ly9yZXBvc2l0b3J5LWltYWdlcy5naXRodWJ1c2VyY29udGVudC5jb20vIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NTQ5NTAwNSwibmJmIjoxNzg1NDk0NzA1LCJwYXRoIjoicmVwb3NpdG9yeS1pbWFnZXMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIn0.UGHu38w0bepJdDmmXbcMT4yZaEI2qZANfbqNdt0Qhtc"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=49119274",
+          "author": "akbabu",
+          "description": "Hi HN! We’re Akilan and Miguel, the creators of MarbleOS.\nThe inspiration for Marble comes from the GUI work at Xerox PARC, the 1984 Macintosh, and later NeXTSTEP, which became the foundation for Mac OS X.\nBefore GUIs, interacting with a computer was limited to strange terminal commands:\nC:\\> DIR\nC:\\> COPY FILE.TXT A:\nYou had to remember the command, syntax, paths, and parameters.\nThe GUI made those capabilities visible. Instead of remembering commands, you could point at files, drag them, click buttons, and select actions from menus.\nIt didn't necessarily make entirely new things possible; it just made existing capabilities much easier to understand and use. We feel like AI is still somewhere around this command-line stage.\nEven though the strict syntax has been replaced with natural lang…",
+          "link": "https://marbleos.com/demo",
+          "publishedOn": "2026-07-31T05:17:29.000Z",
+          "wordCount": 26,
+          "title": "Show HN: What should the GUI for AI agents look like?",
+          "imageUrl": "https://marbleos.com/hn-og.png"
         },
         {
           "id": "https://news.ycombinator.com/item?id=49119063",
@@ -94,6 +124,16 @@
           "wordCount": 48,
           "title": "Rune 1.1: adds Python, an Emacs editor, a symbol index and is now free",
           "imageUrl": "https://rune.build/images/og4.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=49116074",
+          "author": "gmays",
+          "description": "Article URL: https://www.science.org/content/article/saber-toothed-cats-became-inbred-and-struggled-move-they-went-extinct\nComments URL: https://news.ycombinator.com/item?id=49116074\nPoints: 57\n# Comments: 24",
+          "link": "https://www.science.org/content/article/saber-toothed-cats-became-inbred-and-struggled-move-they-went-extinct",
+          "publishedOn": "2026-07-30T21:31:03.000Z",
+          "wordCount": null,
+          "title": "Saber-toothed cats became inbred–and struggled to move–before they went extinct",
+          "imageUrl": null
         },
         {
           "id": "https://news.ycombinator.com/item?id=49114639",
@@ -12454,76 +12494,6 @@
           "wordCount": 1343,
           "title": "Healthy but sedentary people show early decline in cellular energy production",
           "imageUrl": "https://news.cuanschutz.edu/hubfs/2026-06_reduced%20mitochondrial%20efficiency%20(1).png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48754080",
-          "author": "ccabraldev",
-          "description": "Article URL: https://underhanded-c.org/\nComments URL: https://news.ycombinator.com/item?id=48754080\nPoints: 61\n# Comments: 7",
-          "link": "https://underhanded-c.org/",
-          "publishedOn": "2026-07-01T22:39:15.000Z",
-          "wordCount": 6136,
-          "title": "The Underhanded C Contest",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48753979",
-          "author": "consumer451",
-          "description": "Article URL: https://blog.google/innovation-and-ai/technology/safety-security/opening-up-zero-knowledge-proof-technology-to-promote-privacy-in-age-assurance/\nComments URL: https://news.ycombinator.com/item?id=48753979\nPoints: 90\n# Comments: 67",
-          "link": "https://blog.google/innovation-and-ai/technology/safety-security/opening-up-zero-knowledge-proof-technology-to-promote-privacy-in-age-assurance/",
-          "publishedOn": "2026-07-01T22:27:47.000Z",
-          "wordCount": 4057,
-          "title": "Opening up 'Zero-Knowledge Proof' technology to promote privacy in age assurance",
-          "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Screenshot_2025-07-03_12.59.53_PM.width-1300.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48753715",
-          "author": "chvid",
-          "description": "Article URL: https://zcode.z.ai/en\nComments URL: https://news.ycombinator.com/item?id=48753715\nPoints: 132\n# Comments: 184",
-          "link": "https://zcode.z.ai/en",
-          "publishedOn": "2026-07-01T22:03:36.000Z",
-          "wordCount": 1798,
-          "title": "ZCode – Harness for GLM-5.2",
-          "imageUrl": "https://zcode.z.ai/images/summary_large_image.png?v=20260628"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48753524",
-          "author": "paulpauper",
-          "description": "Article URL: https://www.astralcodexten.com/p/chip-off-the-old-block\nComments URL: https://news.ycombinator.com/item?id=48753524\nPoints: 63\n# Comments: 7",
-          "link": "https://www.astralcodexten.com/p/chip-off-the-old-block",
-          "publishedOn": "2026-07-01T21:42:57.000Z",
-          "wordCount": 8487,
-          "title": "Chip Off The Old Block",
-          "imageUrl": "https://substackcdn.com/image/fetch/$s_!Zomw!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F23faa91b-8d6c-478f-85cc-2ecfac0aa5f5_713x480.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48753069",
-          "author": "gilgamesh3",
-          "description": "Article URL: https://www.qualcomm.com/developer/blog/2026/06/qualcomm-linux-2-now-available\nComments URL: https://news.ycombinator.com/item?id=48753069\nPoints: 72\n# Comments: 27",
-          "link": "https://www.qualcomm.com/developer/blog/2026/06/qualcomm-linux-2-now-available",
-          "publishedOn": "2026-07-01T21:01:42.000Z",
-          "wordCount": 126,
-          "title": "Qualcomm Linux 2.0",
-          "imageUrl": "https://s7d1.scene7.com/is/image/dmqualcommprod/HALF HERO 1"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48752949",
-          "author": "handfuloflight",
-          "description": "Article URL: https://github.com/langchain-ai/openwiki\nComments URL: https://news.ycombinator.com/item?id=48752949\nPoints: 52\n# Comments: 16",
-          "link": "https://github.com/langchain-ai/openwiki",
-          "publishedOn": "2026-07-01T20:51:52.000Z",
-          "wordCount": 1858,
-          "title": "OpenWiki: CLI that writes and maintains agent documentation for your codebase",
-          "imageUrl": "https://opengraph.githubassets.com/2c21f77fc4696c5bd3c94ac2fbbf2e6b52d2aaf54050ac7d914c1f8a48c2f87c/langchain-ai/openwiki"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48752905",
-          "author": "IESAI_ski",
-          "description": "Article URL: https://www.workerowned.info/\nComments URL: https://news.ycombinator.com/item?id=48752905\nPoints: 57\n# Comments: 11",
-          "link": "https://www.workerowned.info/",
-          "publishedOn": "2026-07-01T20:47:41.000Z",
-          "wordCount": 47,
-          "title": "Show HN: Searchable directory of 22k+ products from worker-owned co-ops",
-          "imageUrl": "https://www.workerowned.info/og-marketplace.png"
         }
       ]
     }
