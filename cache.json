@@ -6,6 +6,36 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=49130756",
+          "author": "goplayoutside",
+          "description": "Article URL: https://consumerrights.wiki/w/BMW_Spider-Man_in-car_advertising\nComments URL: https://news.ycombinator.com/item?id=49130756\nPoints: 174\n# Comments: 98",
+          "link": "https://consumerrights.wiki/w/BMW_Spider-Man_in-car_advertising",
+          "publishedOn": "2026-08-01T03:25:12.000Z",
+          "wordCount": 2021,
+          "title": "BMW Spider-Man in-car advertising",
+          "imageUrl": "https://consumerrights.wiki/images/logo/new_fixed_logo.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=49130726",
+          "author": "firefoxd",
+          "description": "Article URL: https://sundry.jerryorr.com/2026/07/31/development-pipeline-is-a-production-system\nComments URL: https://news.ycombinator.com/item?id=49130726\nPoints: 53\n# Comments: 18",
+          "link": "https://sundry.jerryorr.com/2026/07/31/development-pipeline-is-a-production-system",
+          "publishedOn": "2026-08-01T03:16:09.000Z",
+          "wordCount": 445,
+          "title": "The development pipeline is a production system",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=49130604",
+          "author": "vinhnx",
+          "description": "Article URL: https://microsoft.github.io/flint-chart/\nComments URL: https://news.ycombinator.com/item?id=49130604\nPoints: 67\n# Comments: 19",
+          "link": "https://microsoft.github.io/flint-chart/",
+          "publishedOn": "2026-08-01T02:45:09.000Z",
+          "wordCount": 195,
+          "title": "Flint: A Visualization Language for the AI Era",
+          "imageUrl": null
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=49129990",
           "author": "walterbell",
           "description": "Article URL: https://www.raptitude.com/2026/07/how-to-exist/\nComments URL: https://news.ycombinator.com/item?id=49129990\nPoints: 53\n# Comments: 18",
@@ -44,6 +74,16 @@
           "wordCount": 11713,
           "title": "Golang proposal: container/: generic collection types",
           "imageUrl": "https://opengraph.githubassets.com/a14e31cda43f4066af1e6ac174bf095a4ea64f324cab4037243c2f47f065d636/golang/go/issues/80590"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=49126919",
+          "author": "Jimmc414",
+          "description": "Article URL: https://media.ccc.de/v/emf2026-74-1-using-the-railway-network-as-a-flatbed-scanner\nComments URL: https://news.ycombinator.com/item?id=49126919\nPoints: 66\n# Comments: 29",
+          "link": "https://media.ccc.de/v/emf2026-74-1-using-the-railway-network-as-a-flatbed-scanner",
+          "publishedOn": "2026-07-31T18:30:44.000Z",
+          "wordCount": 460,
+          "title": "Using the railway network as a flatbed scanner [video]",
+          "imageUrl": "https://static.media.ccc.de/media/events/emf/2026/7401-a5fdc3db-2879-551b-80b1-fd11f5a1ae73_preview.jpg"
         },
         {
           "id": "https://news.ycombinator.com/item?id=49126883",
@@ -1114,6 +1154,16 @@
           "wordCount": 321,
           "title": "Darktable",
           "imageUrl": "https://www.darktable.org/images/darktable-logo-only-512w.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=49096605",
+          "author": "awaxman11",
+          "description": "Article URL: https://www.ajwaxman.com/writing/software-for-one\nComments URL: https://news.ycombinator.com/item?id=49096605\nPoints: 74\n# Comments: 51",
+          "link": "https://www.ajwaxman.com/writing/software-for-one",
+          "publishedOn": "2026-07-29T12:29:20.000Z",
+          "wordCount": 3557,
+          "title": "Software for One",
+          "imageUrl": "https://www.ajwaxman.com/og/software-for-one.png"
         },
         {
           "id": "https://news.ycombinator.com/item?id=49096427",
@@ -12524,46 +12574,6 @@
           "wordCount": 3044,
           "title": "This is my attempt to get Vulkan going on NetBSD",
           "imageUrl": "https://opengraph.githubassets.com/2bf18b303359fe81bb2732b75cf134dbd525f715f4a9ffc73781d9f587ca5a8f/segaboy/vulkan-netbsd"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48763790",
-          "author": "Kaapeine",
-          "description": "Article URL: https://people.xiph.org/~xiphmont/demo/neil-young.html#toc_wd2bm\nComments URL: https://news.ycombinator.com/item?id=48763790\nPoints: 82\n# Comments: 145",
-          "link": "https://people.xiph.org/~xiphmont/demo/neil-young.html#toc_wd2bm",
-          "publishedOn": "2026-07-02T16:24:49.000Z",
-          "wordCount": 8561,
-          "title": "24-bit/192kHz music downloads and why they make no sense (2012)",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48763462",
-          "author": "luca-ctx",
-          "description": "Coding agents don't have long-term memory.\nBut you do have months of full-fidelity agent transcripts stored on your machine.\nA simple solution that goes a long way: ingest those transcripts and logs into a structured SQLite database, then search them with ranked text match. Everything is fully local and doesn't require anything fancy like a graph database or hosted memory service.\nThis is the idea behind ctx, a Rust CLI that handles the ingestion and searching.\nWe give our agents a skill that tells them to reference past sessions before working in an area. Usually we do this through an \"Agent History Research Subagent\" whose job is just to prepare a short brief covering any relevant history before the task begins.\nA real example: sometimes our test suite runs would fail because disk was fu…",
-          "link": "https://github.com/ctxrs/ctx",
-          "publishedOn": "2026-07-02T15:58:32.000Z",
-          "wordCount": 3196,
-          "title": "Show HN: ctx – Search the coding agent history already on your machine",
-          "imageUrl": "https://opengraph.githubassets.com/f8b05ca4cf7f05c91608bac62b2b8c204d008e2274dce2075c7ba1ae4c3b3e06/ctxrs/ctx"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48763291",
-          "author": "spdegabrielle",
-          "description": "Article URL: https://lwn.net/SubscriberLink/1079001/67840550991151ed/\nComments URL: https://news.ycombinator.com/item?id=48763291\nPoints: 66\n# Comments: 1",
-          "link": "https://lwn.net/SubscriberLink/1079001/67840550991151ed/",
-          "publishedOn": "2026-07-02T15:43:39.000Z",
-          "wordCount": 3137,
-          "title": "Flexible metaprogramming with Rhombus",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48763246",
-          "author": "rot256",
-          "description": "Zero-Knowledge Proofs (ZKPs) let an untrusted proved show that computation was executed correctly without revealing the inputs to the verifier.\nHowever to prove anything, the computation first has to be expressed as a circuit: a system of polynomial equations (constraints) over a finite field. \nCircuits are the assembly language of zk and every constraint costs prover (and sometimes verifier) time, so production circuits are aggressively hand-optimized.\nOver the last months, we have been experimenting with writing formal specifications instead and letting LLMs produce the circuits: as long as they could prove that their implementation was correct. \nIt started with SHA-256: we hand wrote a specification in Lean for SHA-256 compression, and then we asked LLMs to write the circuit, targeting R1CS arithmetization and large fields.\nIt took a few hours of work for Opus 4.7, and some light steering into the right direction, but in the end the model came up with a reasonable implementation. We then asked the LLM to aggressively optimize the circuits, by driving down a cost metric of the circuit (number of constraints). We immediately got very promising results, just by asking to come up with optimization ideas, implement them and prove that the new circuit still satisfies soundness and completeness. Sometimes, it came up with unsound optimizations, however, since it could not prove them, it backtracked and got itself back on to the right approach.\nThe result was a (non-deterministic) circuit beating the current, human optimized, state of the art for SHA256 compression. This experience lead us to create \"zk.golf\" which is an open competition to produce optimized, formally verified circuits to lower the bar for the use of ZKPs and make their application more efficient.\nCome play (https://zk.golf/llms.txt) and learn about formal verification.\nComments URL: https://news.ycombinator.com/item?id=48763246\nPoints: 57\n# Comments: 7",
-          "link": "https://zk.golf/",
-          "publishedOn": "2026-07-02T15:40:05.000Z",
-          "wordCount": 111,
-          "title": "Show HN: zkGolf – Competitive optimization of formally verified circuits",
-          "imageUrl": "https://zk.golf/socials.png"
         }
       ]
     }

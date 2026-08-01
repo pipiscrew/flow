@@ -2,10 +2,49 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-08-01T03:31:15.650Z</updated>
+    <updated>2026-08-01T06:34:42.224Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[BMW Spider-Man in-car advertising]]></title>
+        <id>https://news.ycombinator.com/item?id=49130756</id>
+        <link href="https://consumerrights.wiki/w/BMW_Spider-Man_in-car_advertising"/>
+        <updated>2026-08-01T03:25:12.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://consumerrights.wiki/w/BMW_Spider-Man_in-car_advertising
+Comments URL: https://news.ycombinator.com/item?id=49130756
+Points: 174
+# Comments: 98]]></summary>
+        <author>
+            <name>goplayoutside</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The development pipeline is a production system]]></title>
+        <id>https://news.ycombinator.com/item?id=49130726</id>
+        <link href="https://sundry.jerryorr.com/2026/07/31/development-pipeline-is-a-production-system"/>
+        <updated>2026-08-01T03:16:09.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://sundry.jerryorr.com/2026/07/31/development-pipeline-is-a-production-system
+Comments URL: https://news.ycombinator.com/item?id=49130726
+Points: 53
+# Comments: 18]]></summary>
+        <author>
+            <name>firefoxd</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Flint: A Visualization Language for the AI Era]]></title>
+        <id>https://news.ycombinator.com/item?id=49130604</id>
+        <link href="https://microsoft.github.io/flint-chart/"/>
+        <updated>2026-08-01T02:45:09.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://microsoft.github.io/flint-chart/
+Comments URL: https://news.ycombinator.com/item?id=49130604
+Points: 67
+# Comments: 19]]></summary>
+        <author>
+            <name>vinhnx</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[How to Exist]]></title>
         <id>https://news.ycombinator.com/item?id=49129990</id>
@@ -56,6 +95,19 @@ Points: 60
 # Comments: 16]]></summary>
         <author>
             <name>jabits</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Using the railway network as a flatbed scanner [video]]]></title>
+        <id>https://news.ycombinator.com/item?id=49126919</id>
+        <link href="https://media.ccc.de/v/emf2026-74-1-using-the-railway-network-as-a-flatbed-scanner"/>
+        <updated>2026-07-31T18:30:44.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://media.ccc.de/v/emf2026-74-1-using-the-railway-network-as-a-flatbed-scanner
+Comments URL: https://news.ycombinator.com/item?id=49126919
+Points: 66
+# Comments: 29]]></summary>
+        <author>
+            <name>Jimmc414</name>
         </author>
     </entry>
     <entry>
@@ -1473,6 +1525,19 @@ Points: 65
 # Comments: 22]]></summary>
         <author>
             <name>siatko</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Software for One]]></title>
+        <id>https://news.ycombinator.com/item?id=49096605</id>
+        <link href="https://www.ajwaxman.com/writing/software-for-one"/>
+        <updated>2026-07-29T12:29:20.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.ajwaxman.com/writing/software-for-one
+Comments URL: https://news.ycombinator.com/item?id=49096605
+Points: 74
+# Comments: 51]]></summary>
+        <author>
+            <name>awaxman11</name>
         </author>
     </entry>
     <entry>
@@ -16520,67 +16585,6 @@ Points: 71
 # Comments: 14]]></summary>
         <author>
             <name>segaboy81</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[24-bit/192kHz music downloads and why they make no sense (2012)]]></title>
-        <id>https://news.ycombinator.com/item?id=48763790</id>
-        <link href="https://people.xiph.org/~xiphmont/demo/neil-young.html#toc_wd2bm"/>
-        <updated>2026-07-02T16:24:49.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://people.xiph.org/~xiphmont/demo/neil-young.html#toc_wd2bm
-Comments URL: https://news.ycombinator.com/item?id=48763790
-Points: 82
-# Comments: 145]]></summary>
-        <author>
-            <name>Kaapeine</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: ctx – Search the coding agent history already on your machine]]></title>
-        <id>https://news.ycombinator.com/item?id=48763462</id>
-        <link href="https://github.com/ctxrs/ctx"/>
-        <updated>2026-07-02T15:58:32.000Z</updated>
-        <summary type="html"><![CDATA[Coding agents don't have long-term memory.
-But you do have months of full-fidelity agent transcripts stored on your machine.
-A simple solution that goes a long way: ingest those transcripts and logs into a structured SQLite database, then search them with ranked text match. Everything is fully local and doesn't require anything fancy like a graph database or hosted memory service.
-This is the idea behind ctx, a Rust CLI that handles the ingestion and searching.
-We give our agents a skill that tells them to reference past sessions before working in an area. Usually we do this through an "Agent History Research Subagent" whose job is just to prepare a short brief covering any relevant history before the task begins.
-A real example: sometimes our test suite runs would fail because disk was fu…]]></summary>
-        <author>
-            <name>luca-ctx</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Flexible metaprogramming with Rhombus]]></title>
-        <id>https://news.ycombinator.com/item?id=48763291</id>
-        <link href="https://lwn.net/SubscriberLink/1079001/67840550991151ed/"/>
-        <updated>2026-07-02T15:43:39.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://lwn.net/SubscriberLink/1079001/67840550991151ed/
-Comments URL: https://news.ycombinator.com/item?id=48763291
-Points: 66
-# Comments: 1]]></summary>
-        <author>
-            <name>spdegabrielle</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: zkGolf – Competitive optimization of formally verified circuits]]></title>
-        <id>https://news.ycombinator.com/item?id=48763246</id>
-        <link href="https://zk.golf/"/>
-        <updated>2026-07-02T15:40:05.000Z</updated>
-        <summary type="html"><![CDATA[Zero-Knowledge Proofs (ZKPs) let an untrusted proved show that computation was executed correctly without revealing the inputs to the verifier.
-However to prove anything, the computation first has to be expressed as a circuit: a system of polynomial equations (constraints) over a finite field. 
-Circuits are the assembly language of zk and every constraint costs prover (and sometimes verifier) time, so production circuits are aggressively hand-optimized.
-Over the last months, we have been experimenting with writing formal specifications instead and letting LLMs produce the circuits: as long as they could prove that their implementation was correct. 
-It started with SHA-256: we hand wrote a specification in Lean for SHA-256 compression, and then we asked LLMs to write the circuit, targeting R1CS arithmetization and large fields.
-It took a few hours of work for Opus 4.7, and some light steering into the right direction, but in the end the model came up with a reasonable implementation. We then asked the LLM to aggressively optimize the circuits, by driving down a cost metric of the circuit (number of constraints). We immediately got very promising results, just by asking to come up with optimization ideas, implement them and prove that the new circuit still satisfies soundness and completeness. Sometimes, it came up with unsound optimizations, however, since it could not prove them, it backtracked and got itself back on to the right approach.
-The result was a (non-deterministic) circuit beating the current, human optimized, state of the art for SHA256 compression. This experience lead us to create "zk.golf" which is an open competition to produce optimized, formally verified circuits to lower the bar for the use of ZKPs and make their application more efficient.
-Come play (https://zk.golf/llms.txt) and learn about formal verification.
-Comments URL: https://news.ycombinator.com/item?id=48763246
-Points: 57
-# Comments: 7]]></summary>
-        <author>
-            <name>rot256</name>
         </author>
     </entry>
 </feed>
