@@ -6,6 +6,16 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=49145201",
+          "author": "jamesgill",
+          "description": "Article URL: https://www.ursulakleguin.com/a-rant-about-technology\nComments URL: https://news.ycombinator.com/item?id=49145201\nPoints: 73\n# Comments: 21",
+          "link": "https://www.ursulakleguin.com/a-rant-about-technology",
+          "publishedOn": "2026-08-02T14:51:18.000Z",
+          "wordCount": 1476,
+          "title": "A Rant About “Technology” (2005)",
+          "imageUrl": "http://static1.squarespace.com/static/5cad42ef90f904e520359371/t/61c1853628a5544251cbdc88/1640072502771/image-asset.jpeg?format=1500w"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=49143967",
           "author": "AlexeyBrin",
           "description": "Article URL: https://www.riscosopen.org/news/articles/2026/06/20/twenty-years-of-risc-os-open\nComments URL: https://news.ycombinator.com/item?id=49143967\nPoints: 50\n# Comments: 7",
@@ -13,6 +23,16 @@
           "publishedOn": "2026-08-02T12:36:07.000Z",
           "wordCount": 1388,
           "title": "Twenty Years of RISC OS Open",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=49143925",
+          "author": "ducktective",
+          "description": "Article URL: https://fstar-lang.org/\nComments URL: https://news.ycombinator.com/item?id=49143925\nPoints: 58\n# Comments: 17",
+          "link": "https://fstar-lang.org/",
+          "publishedOn": "2026-08-02T12:31:16.000Z",
+          "wordCount": 2685,
+          "title": "F*: A general-purpose proof-oriented programming language",
           "imageUrl": null
         },
         {
@@ -36,6 +56,16 @@
           "imageUrl": null
         },
         {
+          "id": "https://news.ycombinator.com/item?id=49143412",
+          "author": "the_unproven",
+          "description": "Hi HN! I've been working on the fuse programming language, it's a statically typed purely functional language with higher-kinder types and ad-hoc polymorphism. It compiles to the GRIN whole-program optimizer, producing LLVM-generated native code.\nFuse supports ADTs, Generics, Type Methods, Traits, Pattern matching etc. all in a functional style with no mutations.\nI’ve been developing the language for 5 years, with code written in Scala. I’ve started coding the language from the base of System F that was implemented as part of the book: Types and Programming Languages (tapl). And then extending with concepts such as Bidirectional Type Checking with Higher-Rank Polymorphism.\nI’ve mainly drawn inspiration from Rust, Haskell, Scala and Python (in terms of syntax). It all started because I wanted a language that has Rust-like concepts such as: ADT, Traits, Impl block syntax, etc. but have the pure functional semantics.\nI'd would love feedback on the language design and its general usage.\nComments URL: https://news.ycombinator.com/item?id=49143412\nPoints: 52\n# Comments: 9",
+          "link": "https://fuselang.org/",
+          "publishedOn": "2026-08-02T11:23:56.000Z",
+          "wordCount": 287,
+          "title": "Show HN: Fuse – statically typed functional programming language",
+          "imageUrl": null
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=49143188",
           "author": "23pointsNorth",
           "description": "Article URL: https://www.ft.com/content/0f9b2fe7-bde4-4f5f-b49e-93ccb5da9ea8\nComments URL: https://news.ycombinator.com/item?id=49143188\nPoints: 81\n# Comments: 48",
@@ -54,6 +84,16 @@
           "wordCount": 12892,
           "title": "Artificial Intelligence: Ars Notoria and the Promise of Instant Knowledge",
           "imageUrl": "https://pdr-assets.b-cdn.net/essays/ars-notoria/dedupmrg1191555822_IE4927965_FL5354893-edit-thumb.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=49142794",
+          "author": "quambo",
+          "description": "Article URL: https://github.com/syncular/syncular\nComments URL: https://news.ycombinator.com/item?id=49142794\nPoints: 56\n# Comments: 20",
+          "link": "https://github.com/syncular/syncular",
+          "publishedOn": "2026-08-02T09:48:08.000Z",
+          "wordCount": 1782,
+          "title": "Show HN: Syncular – offline-first SQL sync with TypeScript and Rust cores",
+          "imageUrl": "https://opengraph.githubassets.com/ec240bd111011cf3b0ac62f2eda15664431ade302b3eee4f4a33701b333a989f/syncular/syncular"
         },
         {
           "id": "https://news.ycombinator.com/item?id=49142569",
@@ -12464,26 +12504,6 @@
           "wordCount": 18328,
           "title": "Agentic coding notes from Galapagos Island",
           "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48782435",
-          "author": "tylerdane",
-          "description": "Article URL: https://www.marginalia.nu/log/a_135_learn/\nComments URL: https://news.ycombinator.com/item?id=48782435\nPoints: 189\n# Comments: 85",
-          "link": "https://www.marginalia.nu/log/a_135_learn/",
-          "publishedOn": "2026-07-04T03:36:03.000Z",
-          "wordCount": 725,
-          "title": "Maybe you should learn something",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48782219",
-          "author": "azhenley",
-          "description": "Article URL: https://surfingcomplexity.blog/2026/07/03/synthesis-is-harder-than-analysis/\nComments URL: https://news.ycombinator.com/item?id=48782219\nPoints: 112\n# Comments: 26",
-          "link": "https://surfingcomplexity.blog/2026/07/03/synthesis-is-harder-than-analysis/",
-          "publishedOn": "2026-07-04T02:45:24.000Z",
-          "wordCount": 4467,
-          "title": "Synthesis is harder than analysis",
-          "imageUrl": "https://surfingcomplexity.blog/wp-content/uploads/2026/07/image-6.png"
         }
       ]
     }

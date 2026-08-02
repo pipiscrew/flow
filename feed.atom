@@ -2,10 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-08-02T14:38:42.727Z</updated>
+    <updated>2026-08-02T16:04:24.500Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[A Rant About “Technology” (2005)]]></title>
+        <id>https://news.ycombinator.com/item?id=49145201</id>
+        <link href="https://www.ursulakleguin.com/a-rant-about-technology"/>
+        <updated>2026-08-02T14:51:18.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.ursulakleguin.com/a-rant-about-technology
+Comments URL: https://news.ycombinator.com/item?id=49145201
+Points: 73
+# Comments: 21]]></summary>
+        <author>
+            <name>jamesgill</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Twenty Years of RISC OS Open]]></title>
         <id>https://news.ycombinator.com/item?id=49143967</id>
@@ -17,6 +30,19 @@ Points: 50
 # Comments: 7]]></summary>
         <author>
             <name>AlexeyBrin</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[F*: A general-purpose proof-oriented programming language]]></title>
+        <id>https://news.ycombinator.com/item?id=49143925</id>
+        <link href="https://fstar-lang.org/"/>
+        <updated>2026-08-02T12:31:16.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://fstar-lang.org/
+Comments URL: https://news.ycombinator.com/item?id=49143925
+Points: 58
+# Comments: 17]]></summary>
+        <author>
+            <name>ducktective</name>
         </author>
     </entry>
     <entry>
@@ -46,6 +72,23 @@ Points: 188
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Show HN: Fuse – statically typed functional programming language]]></title>
+        <id>https://news.ycombinator.com/item?id=49143412</id>
+        <link href="https://fuselang.org/"/>
+        <updated>2026-08-02T11:23:56.000Z</updated>
+        <summary type="html"><![CDATA[Hi HN! I've been working on the fuse programming language, it's a statically typed purely functional language with higher-kinder types and ad-hoc polymorphism. It compiles to the GRIN whole-program optimizer, producing LLVM-generated native code.
+Fuse supports ADTs, Generics, Type Methods, Traits, Pattern matching etc. all in a functional style with no mutations.
+I’ve been developing the language for 5 years, with code written in Scala. I’ve started coding the language from the base of System F that was implemented as part of the book: Types and Programming Languages (tapl). And then extending with concepts such as Bidirectional Type Checking with Higher-Rank Polymorphism.
+I’ve mainly drawn inspiration from Rust, Haskell, Scala and Python (in terms of syntax). It all started because I wanted a language that has Rust-like concepts such as: ADT, Traits, Impl block syntax, etc. but have the pure functional semantics.
+I'd would love feedback on the language design and its general usage.
+Comments URL: https://news.ycombinator.com/item?id=49143412
+Points: 52
+# Comments: 9]]></summary>
+        <author>
+            <name>the_unproven</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[US Treasury undertakes historic intervention in yen market]]></title>
         <id>https://news.ycombinator.com/item?id=49143188</id>
         <link href="https://www.ft.com/content/0f9b2fe7-bde4-4f5f-b49e-93ccb5da9ea8"/>
@@ -69,6 +112,19 @@ Points: 62
 # Comments: 8]]></summary>
         <author>
             <name>jruohonen</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Syncular – offline-first SQL sync with TypeScript and Rust cores]]></title>
+        <id>https://news.ycombinator.com/item?id=49142794</id>
+        <link href="https://github.com/syncular/syncular"/>
+        <updated>2026-08-02T09:48:08.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://github.com/syncular/syncular
+Comments URL: https://news.ycombinator.com/item?id=49142794
+Points: 56
+# Comments: 20]]></summary>
+        <author>
+            <name>quambo</name>
         </author>
     </entry>
     <entry>
@@ -16439,32 +16495,6 @@ Points: 128
 # Comments: 60]]></summary>
         <author>
             <name>gm678</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Maybe you should learn something]]></title>
-        <id>https://news.ycombinator.com/item?id=48782435</id>
-        <link href="https://www.marginalia.nu/log/a_135_learn/"/>
-        <updated>2026-07-04T03:36:03.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.marginalia.nu/log/a_135_learn/
-Comments URL: https://news.ycombinator.com/item?id=48782435
-Points: 189
-# Comments: 85]]></summary>
-        <author>
-            <name>tylerdane</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Synthesis is harder than analysis]]></title>
-        <id>https://news.ycombinator.com/item?id=48782219</id>
-        <link href="https://surfingcomplexity.blog/2026/07/03/synthesis-is-harder-than-analysis/"/>
-        <updated>2026-07-04T02:45:24.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://surfingcomplexity.blog/2026/07/03/synthesis-is-harder-than-analysis/
-Comments URL: https://news.ycombinator.com/item?id=48782219
-Points: 112
-# Comments: 26]]></summary>
-        <author>
-            <name>azhenley</name>
         </author>
     </entry>
 </feed>
