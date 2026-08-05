@@ -2,10 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-08-05T08:44:28.827Z</updated>
+    <updated>2026-08-05T11:24:38.230Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Helsinki Hacker News Meetup]]></title>
+        <id>https://news.ycombinator.com/item?id=49180407</id>
+        <link href="https://calpaterson.com/helsinki-hn.html"/>
+        <updated>2026-08-05T09:15:33.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://calpaterson.com/helsinki-hn.html
+Comments URL: https://news.ycombinator.com/item?id=49180407
+Points: 88
+# Comments: 43]]></summary>
+        <author>
+            <name>calpaterson</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Rust-lang/rust is adopting an LLM policy]]></title>
         <id>https://news.ycombinator.com/item?id=49179039</id>
@@ -17,6 +30,19 @@ Points: 54
 # Comments: 32]]></summary>
         <author>
             <name>afdbcreid</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Zero-Mem: Zero-Token Memory Operations for LLM Agents]]></title>
+        <id>https://news.ycombinator.com/item?id=49178608</id>
+        <link href="https://arxiv.org/abs/2607.29377"/>
+        <updated>2026-08-05T04:36:44.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://arxiv.org/abs/2607.29377
+Comments URL: https://news.ycombinator.com/item?id=49178608
+Points: 51
+# Comments: 10]]></summary>
+        <author>
+            <name>theanonymousone</name>
         </author>
     </entry>
     <entry>
@@ -43,6 +69,32 @@ Points: 53
 # Comments: 34]]></summary>
         <author>
             <name>teleforce</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Bugtraq is back]]></title>
+        <id>https://news.ycombinator.com/item?id=49176947</id>
+        <link href="https://lists.securityfocus.com/hyperkitty/list/bugtraq@securityfocus.com/thread/CHKLXLA7SJEWLDFHWXB3QU57ADOXGL2E/"/>
+        <updated>2026-08-05T00:05:49.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://lists.securityfocus.com/hyperkitty/list/bugtraq@securityfocus.com/thread/CHKLXLA7SJEWLDFHWXB3QU57ADOXGL2E/
+Comments URL: https://news.ycombinator.com/item?id=49176947
+Points: 51
+# Comments: 18]]></summary>
+        <author>
+            <name>bashtoni</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Flowise is shutting down]]></title>
+        <id>https://news.ycombinator.com/item?id=49176920</id>
+        <link href="https://flowiseai.com/sunset"/>
+        <updated>2026-08-05T00:02:40.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://flowiseai.com/sunset
+Comments URL: https://news.ycombinator.com/item?id=49176920
+Points: 54
+# Comments: 38]]></summary>
+        <author>
+            <name>llmgraph</name>
         </author>
     </entry>
     <entry>
@@ -16510,84 +16562,6 @@ Points: 99
 # Comments: 82]]></summary>
         <author>
             <name>WatchDog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ternlight – 7 MB embedding model that runs in browser (WASM)]]></title>
-        <id>https://news.ycombinator.com/item?id=48811644</id>
-        <link href="https://ternlight-demo.vercel.app/"/>
-        <updated>2026-07-06T23:06:31.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://ternlight-demo.vercel.app/
-Comments URL: https://news.ycombinator.com/item?id=48811644
-Points: 135
-# Comments: 38]]></summary>
-        <author>
-            <name>soycaporal</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Fable turned reMarkable into Tom Riddle's diary from Harry Potter]]></title>
-        <id>https://news.ycombinator.com/item?id=48811591</id>
-        <link href="https://github.com/MaximeRivest/Riddle"/>
-        <updated>2026-07-06T23:00:24.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://github.com/MaximeRivest/Riddle
-Comments URL: https://news.ycombinator.com/item?id=48811591
-Points: 250
-# Comments: 145]]></summary>
-        <author>
-            <name>modinfo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[OpenSSH 10.4/10.4p1 Released]]></title>
-        <id>https://news.ycombinator.com/item?id=48811373</id>
-        <link href="https://www.openssh.org/txt/release-10.4"/>
-        <updated>2026-07-06T22:32:58.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.openssh.org/txt/release-10.4
-Comments URL: https://news.ycombinator.com/item?id=48811373
-Points: 71
-# Comments: 15]]></summary>
-        <author>
-            <name>throw0101a</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Full Writeup of the Windows GDID]]></title>
-        <id>https://news.ycombinator.com/item?id=48811081</id>
-        <link href="https://github.com/SmtimesIWndr/gdid-reversal"/>
-        <updated>2026-07-06T22:02:24.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://github.com/SmtimesIWndr/gdid-reversal
-Comments URL: https://news.ycombinator.com/item?id=48811081
-Points: 50
-# Comments: 26]]></summary>
-        <author>
-            <name>typeofhuman</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Alternate Clock Designs and Time Systems]]></title>
-        <id>https://news.ycombinator.com/item?id=48810543</id>
-        <link href="https://serialc.github.io/altClocks/"/>
-        <updated>2026-07-06T21:09:56.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://serialc.github.io/altClocks/
-Comments URL: https://news.ycombinator.com/item?id=48810543
-Points: 57
-# Comments: 34]]></summary>
-        <author>
-            <name>ethanpil</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Learning to code is still worthwhile]]></title>
-        <id>https://news.ycombinator.com/item?id=48810439</id>
-        <link href="https://stevekrouse.com/learn-to-code"/>
-        <updated>2026-07-06T20:59:54.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://stevekrouse.com/learn-to-code
-Comments URL: https://news.ycombinator.com/item?id=48810439
-Points: 65
-# Comments: 59]]></summary>
-        <author>
-            <name>stevekrouse</name>
         </author>
     </entry>
 </feed>
