@@ -2,10 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-08-06T04:17:37.405Z</updated>
+    <updated>2026-08-06T07:43:20.386Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Crime Pays but Botany Doesn't]]></title>
+        <id>https://news.ycombinator.com/item?id=49192566</id>
+        <link href="https://www.crimepaysbutbotanydoesnt.com/reading-list"/>
+        <updated>2026-08-06T04:46:35.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.crimepaysbutbotanydoesnt.com/reading-list
+Comments URL: https://news.ycombinator.com/item?id=49192566
+Points: 83
+# Comments: 27]]></summary>
+        <author>
+            <name>DarkContinent</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Nashville uses eminent domain to block data center near zoo]]></title>
         <id>https://news.ycombinator.com/item?id=49191624</id>
@@ -199,6 +212,21 @@ Points: 70
 # Comments: 4]]></summary>
         <author>
             <name>calvinfo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Launch HN: HyperProbe (YC S26) – Agents that do read-only debugging in prod]]></title>
+        <id>https://news.ycombinator.com/item?id=49185389</id>
+        <link href="https://www.hyperprobe.co/"/>
+        <updated>2026-08-05T16:47:15.000Z</updated>
+        <summary type="html"><![CDATA[Hi HN, this is Shailendra and Karan here. We are building a fast and safe way for coding agents to debug issues live in production.
+When prod breaks, it lets Cursor, Claude, and others drop virtual breakpoints or probes safely in your running code, and extract the exact variable values that logs don’t have.
+All this saves time and effort for engineers who’d otherwise dig through logs and traces or redeploy with console.logs or print statements until they find the root cause.
+Here is the link to the video that explains this: https://www.youtube.com/watch?v=ivV7I--ta5c
+Agents write most of our code now. This shrinks the useful context engineers need to debug AI written code, a problem not helped by the limited telemetry added in the same code by AI.
+So when something breaks in prod, the firs…]]></summary>
+        <author>
+            <name>shailendraht</name>
         </author>
     </entry>
     <entry>
@@ -16636,162 +16664,6 @@ Points: 223
 # Comments: 275]]></summary>
         <author>
             <name>nickslaughter02</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Amber the programming language compiled to Bash/Ksh/Zsh]]></title>
-        <id>https://news.ycombinator.com/item?id=48822441</id>
-        <link href="https://amber-lang.com/"/>
-        <updated>2026-07-07T19:22:56.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://amber-lang.com/
-Comments URL: https://news.ycombinator.com/item?id=48822441
-Points: 58
-# Comments: 33]]></summary>
-        <author>
-            <name>_superposition_</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: Davit, a Apple Containers UI]]></title>
-        <id>https://news.ycombinator.com/item?id=48821848</id>
-        <link href="https://davit.app/"/>
-        <updated>2026-07-07T18:44:29.000Z</updated>
-        <summary type="html"><![CDATA[Mostly vibe-coded Apple Containers front-end that I'd like to use myself. But if others want to use it, here's the source code.
-Comments URL: https://news.ycombinator.com/item?id=48821848
-Points: 103
-# Comments: 14]]></summary>
-        <author>
-            <name>xinit</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AI Meets Cryptography 1: What AI Found in Cloudflare's Circl]]></title>
-        <id>https://news.ycombinator.com/item?id=48821749</id>
-        <link href="https://blog.zksecurity.xyz/posts/circl-bugs/"/>
-        <updated>2026-07-07T18:36:35.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://blog.zksecurity.xyz/posts/circl-bugs/
-Comments URL: https://news.ycombinator.com/item?id=48821749
-Points: 55
-# Comments: 7]]></summary>
-        <author>
-            <name>duha</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Astro 7.0]]></title>
-        <id>https://news.ycombinator.com/item?id=48821653</id>
-        <link href="https://astro.build/blog/astro-7/"/>
-        <updated>2026-07-07T18:30:02.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://astro.build/blog/astro-7/
-Comments URL: https://news.ycombinator.com/item?id=48821653
-Points: 101
-# Comments: 23]]></summary>
-        <author>
-            <name>saikatsg</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Local, CPU-Friendly, High-Quality TTS (Text-to-Speech) with Kokoro]]></title>
-        <id>https://news.ycombinator.com/item?id=48821576</id>
-        <link href="https://ariya.io/2026/03/local-cpu-friendly-high-quality-tts-text-to-speech-with-kokoro/"/>
-        <updated>2026-07-07T18:24:10.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://ariya.io/2026/03/local-cpu-friendly-high-quality-tts-text-to-speech-with-kokoro/
-Comments URL: https://news.ycombinator.com/item?id=48821576
-Points: 152
-# Comments: 27]]></summary>
-        <author>
-            <name>speckx</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Notes on Software Quality]]></title>
-        <id>https://news.ycombinator.com/item?id=48821441</id>
-        <link href="https://anthonyhobday.com/blog/20260410"/>
-        <updated>2026-07-07T18:14:50.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://anthonyhobday.com/blog/20260410
-Comments URL: https://news.ycombinator.com/item?id=48821441
-Points: 53
-# Comments: 31]]></summary>
-        <author>
-            <name>speckx</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[l: A new runtime for k and q]]></title>
-        <id>https://news.ycombinator.com/item?id=48821378</id>
-        <link href="https://lv1.sh/"/>
-        <updated>2026-07-07T18:08:29.000Z</updated>
-        <summary type="html"><![CDATA[https://lv1.sh/blog/why-l/
-Comments URL: https://news.ycombinator.com/item?id=48821378
-Points: 76
-# Comments: 52]]></summary>
-        <author>
-            <name>skruger</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[We're extending access to Fable 5 on all paid plans through July 12]]></title>
-        <id>https://news.ycombinator.com/item?id=48821102</id>
-        <link href="https://twitter.com/claudeai/status/2074548242386178258"/>
-        <updated>2026-07-07T17:44:50.000Z</updated>
-        <summary type="html"><![CDATA[https://xcancel.com/claudeai/status/2074548242386178258
-Comments URL: https://news.ycombinator.com/item?id=48821102
-Points: 102
-# Comments: 87]]></summary>
-        <author>
-            <name>minimaxir</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Biff.graph: structure your Clojure codebase as a queryable graph]]></title>
-        <id>https://news.ycombinator.com/item?id=48820361</id>
-        <link href="https://github.com/jacobobryant/biff/tree/v2.x/libs/graph"/>
-        <updated>2026-07-07T16:48:48.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://github.com/jacobobryant/biff/tree/v2.x/libs/graph
-Comments URL: https://news.ycombinator.com/item?id=48820361
-Points: 55
-# Comments: 1]]></summary>
-        <author>
-            <name>jacobobryant</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[China sentences official to death for taking $325M in bribes]]></title>
-        <id>https://news.ycombinator.com/item?id=48820220</id>
-        <link href="https://www.bbc.com/news/articles/c33y0n1v1xjo"/>
-        <updated>2026-07-07T16:38:08.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.bbc.com/news/articles/c33y0n1v1xjo
-Comments URL: https://news.ycombinator.com/item?id=48820220
-Points: 173
-# Comments: 193]]></summary>
-        <author>
-            <name>randycupertino</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Jim's TrueType QR Code Font]]></title>
-        <id>https://news.ycombinator.com/item?id=48820119</id>
-        <link href="https://github.com/jimparis/qr-font"/>
-        <updated>2026-07-07T16:30:42.000Z</updated>
-        <summary type="html"><![CDATA[https://qr.jim.sh/
-Comments URL: https://news.ycombinator.com/item?id=48820119
-Points: 73
-# Comments: 6]]></summary>
-        <author>
-            <name>arantius</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[MacSurf 1.68 – NetSurf on OS 9 Released]]></title>
-        <id>https://news.ycombinator.com/item?id=48820022</id>
-        <link href="https://github.com/mplsllc/macsurf/releases/tag/v1.86"/>
-        <updated>2026-07-07T16:24:40.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://github.com/mplsllc/macsurf/releases/tag/v1.86
-Comments URL: https://news.ycombinator.com/item?id=48820022
-Points: 60
-# Comments: 9]]></summary>
-        <author>
-            <name>mplsllc</name>
         </author>
     </entry>
 </feed>
