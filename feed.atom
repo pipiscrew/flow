@@ -2,10 +2,36 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-08-06T00:03:39.569Z</updated>
+    <updated>2026-08-06T04:17:37.405Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Nashville uses eminent domain to block data center near zoo]]></title>
+        <id>https://news.ycombinator.com/item?id=49191624</id>
+        <link href="https://www.costar.com/article/970809918/nashville-council-approves-eminent-domain-action-to-halt-data-center-project"/>
+        <updated>2026-08-06T02:15:14.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.costar.com/article/970809918/nashville-council-approves-eminent-domain-action-to-halt-data-center-project
+Comments URL: https://news.ycombinator.com/item?id=49191624
+Points: 106
+# Comments: 92]]></summary>
+        <author>
+            <name>mapping365</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[LLMs won't break symmetric crypto]]></title>
+        <id>https://news.ycombinator.com/item?id=49191365</id>
+        <link href="https://www.bfswa.blog/p/llms-wont-break-symmetric-crypto"/>
+        <updated>2026-08-06T01:39:06.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.bfswa.blog/p/llms-wont-break-symmetric-crypto
+Comments URL: https://news.ycombinator.com/item?id=49191365
+Points: 56
+# Comments: 53]]></summary>
+        <author>
+            <name>rowbin</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[The title cards in Blade Runner are amazing]]></title>
         <id>https://news.ycombinator.com/item?id=49189287</id>
@@ -30,6 +56,19 @@ Points: 58
 # Comments: 6]]></summary>
         <author>
             <name>pella</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[I'll be stepping back from leading product for X]]></title>
+        <id>https://news.ycombinator.com/item?id=49189113</id>
+        <link href="https://twitter.com/nikitabier/status/2085105586966827343/"/>
+        <updated>2026-08-05T21:15:40.000Z</updated>
+        <summary type="html"><![CDATA[https://xcancel.com/nikitabier/status/2085105586966827343/
+Comments URL: https://news.ycombinator.com/item?id=49189113
+Points: 90
+# Comments: 138]]></summary>
+        <author>
+            <name>DearAll</name>
         </author>
     </entry>
     <entry>
@@ -124,6 +163,19 @@ Points: 99
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Sycophantic AI Decreases Prosocial Intentions and Promotes Dependence (2025)]]></title>
+        <id>https://news.ycombinator.com/item?id=49186720</id>
+        <link href="https://arxiv.org/abs/2510.01395"/>
+        <updated>2026-08-05T18:17:03.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://arxiv.org/abs/2510.01395
+Comments URL: https://news.ycombinator.com/item?id=49186720
+Points: 87
+# Comments: 58]]></summary>
+        <author>
+            <name>robin_reala</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Atlassian Rovo Exfiltrates Data, Bypassing Controls]]></title>
         <id>https://news.ycombinator.com/item?id=49185983</id>
         <link href="https://www.promptarmor.com/resources/atlassian-rovo-exfiltrates-data"/>
@@ -160,6 +212,19 @@ Points: 97
 # Comments: 152]]></summary>
         <author>
             <name>devanshp</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Something is changing in the unit economics of software]]></title>
+        <id>https://news.ycombinator.com/item?id=49185111</id>
+        <link href="https://nicolo.xyz/something-is-changing-in-the-unit-economics-of-software/"/>
+        <updated>2026-08-05T16:28:59.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://nicolo.xyz/something-is-changing-in-the-unit-economics-of-software/
+Comments URL: https://news.ycombinator.com/item?id=49185111
+Points: 50
+# Comments: 35]]></summary>
+        <author>
+            <name>coconido</name>
         </author>
     </entry>
     <entry>
@@ -16727,234 +16792,6 @@ Points: 60
 # Comments: 9]]></summary>
         <author>
             <name>mplsllc</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: Rowboat – Open-source, local-first alternative to Claude Desktop]]></title>
-        <id>https://news.ycombinator.com/item?id=48819808</id>
-        <link href="https://github.com/rowboatlabs/rowboat"/>
-        <updated>2026-07-07T16:10:44.000Z</updated>
-        <summary type="html"><![CDATA[Claude’s desktop app is brilliant, but for our own daily work we kept wanting it to be less like a chat app and more like a full-fledged work app. Rowboat is our attempt at that, including the ability to build your own work surfaces inside Rowboat (more below).
-Our repo is https://github.com/rowboatlabs/rowboat, and there’s a demo video here: https://www.youtube.com/watch?v=et5yQABJ3xI
-In a previous startup, we built a deep-learning product for enterprise support reps, including teams supporting P&G brands. Models took live notes, suggested replies, and recommended actions while support reps were on calls or handling emails. One lesson stuck with us: it's not enough for the AI to be right, the help has to show up where the work is happening.
-So we added what we came to call “work surfaces”…]]></summary>
-        <author>
-            <name>segmenta</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[30papers.com – Ilya's 30 essential ML papers, in a beginner friendly format]]></title>
-        <id>https://news.ycombinator.com/item?id=48819608</id>
-        <link href="https://30papers.com/"/>
-        <updated>2026-07-07T15:58:13.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://30papers.com/
-Comments URL: https://news.ycombinator.com/item?id=48819608
-Points: 194
-# Comments: 33]]></summary>
-        <author>
-            <name>notmcrowley</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Better Auth is joining Vercel]]></title>
-        <id>https://news.ycombinator.com/item?id=48819512</id>
-        <link href="https://better-auth.com/blog/better-auth-joins-vercel"/>
-        <updated>2026-07-07T15:52:22.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://better-auth.com/blog/better-auth-joins-vercel
-Comments URL: https://news.ycombinator.com/item?id=48819512
-Points: 74
-# Comments: 44]]></summary>
-        <author>
-            <name>sync</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Why we built yet another Postgres connection pooler]]></title>
-        <id>https://news.ycombinator.com/item?id=48819308</id>
-        <link href="https://pgdog.dev/blog/why-yet-another-connection-pooler"/>
-        <updated>2026-07-07T15:36:49.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://pgdog.dev/blog/why-yet-another-connection-pooler
-Comments URL: https://news.ycombinator.com/item?id=48819308
-Points: 72
-# Comments: 9]]></summary>
-        <author>
-            <name>levkk</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Microsoft Fire IdTech Team at Id Software]]></title>
-        <id>https://news.ycombinator.com/item?id=48819244</id>
-        <link href="https://gamefromscratch.com/microsoft-fire-idtech-team-at-id-software/"/>
-        <updated>2026-07-07T15:33:20.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://gamefromscratch.com/microsoft-fire-idtech-team-at-id-software/
-Comments URL: https://news.ycombinator.com/item?id=48819244
-Points: 219
-# Comments: 208]]></summary>
-        <author>
-            <name>bauc</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Chat Control passed first round in EU Parliament]]></title>
-        <id>https://news.ycombinator.com/item?id=48819008</id>
-        <link href="https://www.heise.de/en/news/Showdown-in-Strasbourg-The-unexpected-return-of-Chat-Control-1-0-11356680.html"/>
-        <updated>2026-07-07T15:16:15.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.heise.de/en/news/Showdown-in-Strasbourg-The-unexpected-return-of-Chat-Control-1-0-11356680.html
-Comments URL: https://news.ycombinator.com/item?id=48819008
-Points: 217
-# Comments: 93]]></summary>
-        <author>
-            <name>miroljub</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Amazon without the knockoffs]]></title>
-        <id>https://news.ycombinator.com/item?id=48818963</id>
-        <link href="https://knockoff.shopping/"/>
-        <updated>2026-07-07T15:13:01.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://knockoff.shopping/
-Comments URL: https://news.ycombinator.com/item?id=48818963
-Points: 262
-# Comments: 182]]></summary>
-        <author>
-            <name>plurby</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Automating AI Away]]></title>
-        <id>https://news.ycombinator.com/item?id=48818937</id>
-        <link href="https://replicated.live/blog/away"/>
-        <updated>2026-07-07T15:11:08.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://replicated.live/blog/away
-Comments URL: https://news.ycombinator.com/item?id=48818937
-Points: 57
-# Comments: 30]]></summary>
-        <author>
-            <name>gritzko</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The revenge of the philosophy majors]]></title>
-        <id>https://news.ycombinator.com/item?id=48818544</id>
-        <link href="https://www.nytimes.com/2026/07/05/business/philosophy-majors-ai-jobs.html"/>
-        <updated>2026-07-07T14:41:56.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.nytimes.com/2026/07/05/business/philosophy-majors-ai-jobs.html
-Comments URL: https://news.ycombinator.com/item?id=48818544
-Points: 96
-# Comments: 147]]></summary>
-        <author>
-            <name>benbreen</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Chat Control 1.0 and 2.0 Explained]]></title>
-        <id>https://news.ycombinator.com/item?id=48818311</id>
-        <link href="https://fightchatcontrol.eu/chat-control-overview"/>
-        <updated>2026-07-07T14:23:15.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://fightchatcontrol.eu/chat-control-overview
-Comments URL: https://news.ycombinator.com/item?id=48818311
-Points: 213
-# Comments: 61]]></summary>
-        <author>
-            <name>gasull</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[An iroh powered smart fan]]></title>
-        <id>https://news.ycombinator.com/item?id=48817539</id>
-        <link href="https://www.iroh.computer/blog/an-iroh-powered-smart-fan"/>
-        <updated>2026-07-07T13:30:17.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.iroh.computer/blog/an-iroh-powered-smart-fan
-Comments URL: https://news.ycombinator.com/item?id=48817539
-Points: 97
-# Comments: 20]]></summary>
-        <author>
-            <name>surprisetalk</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Dua Lipa opens library for banned and censored books in Portugal]]></title>
-        <id>https://news.ycombinator.com/item?id=48817017</id>
-        <link href="https://www.euronews.com/culture/2026/06/29/dua-lipa-opens-library-for-banned-and-censored-books-in-portugal"/>
-        <updated>2026-07-07T12:50:40.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.euronews.com/culture/2026/06/29/dua-lipa-opens-library-for-banned-and-censored-books-in-portugal
-Comments URL: https://news.ycombinator.com/item?id=48817017
-Points: 117
-# Comments: 97]]></summary>
-        <author>
-            <name>pax</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[98% Isn't Much]]></title>
-        <id>https://news.ycombinator.com/item?id=48816959</id>
-        <link href="https://whynothugo.nl/journal/2026/07/03/98-isnt-very-much/"/>
-        <updated>2026-07-07T12:45:14.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://whynothugo.nl/journal/2026/07/03/98-isnt-very-much/
-Comments URL: https://news.ycombinator.com/item?id=48816959
-Points: 203
-# Comments: 153]]></summary>
-        <author>
-            <name>speckx</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A better way to tie your gym shorts. (Or any drawstring) [video]]]></title>
-        <id>https://news.ycombinator.com/item?id=48816956</id>
-        <link href="https://www.youtube.com/watch?v=3R0Lp86GEBk"/>
-        <updated>2026-07-07T12:45:06.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.youtube.com/watch?v=3R0Lp86GEBk
-Comments URL: https://news.ycombinator.com/item?id=48816956
-Points: 137
-# Comments: 49]]></summary>
-        <author>
-            <name>surprisetalk</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: PostgreSQL performance and cost across 23 EC2 instance types]]></title>
-        <id>https://news.ycombinator.com/item?id=48816900</id>
-        <link href="https://postgres.saneengineer.com/"/>
-        <updated>2026-07-07T12:40:28.000Z</updated>
-        <summary type="html"><![CDATA[Hey! I'm Andrei.
-I got frustrated by how people tend to build overcomplicated backend systems, being "motivated" by big tech case studies and popular books.
-So, I started exploring lean architecture, and building my digital garden of ideas, approaches and data that align with this direction.
-Here I want to present one of the tools – Sizing tool for PostgreSQL. I've benchmarked PostgreSQL on different EC2 instances and disks, with different initial data sets to see performance that these instances can give you. And I've built a tool to visualize this data, which I welcome you to explore.
-So, you can put your usual input parameters, like needed RPS and disk size as input, and find out which instance will be the most cost-efficient for your needs.
-You can read about the methodology here: https://postgres.saneengineer.com/about
-I've tested one workload – mixed 90/10 read/write, and only selected configurations. But it is extensible, and I (and you – benchmark is open source: https://github.com/anivaniuk/sanebench) can run more configurations to have more data represented.
-Does it look interesting? What workload should I benchmark next?
-Comments URL: https://news.ycombinator.com/item?id=48816900
-Points: 52
-# Comments: 4]]></summary>
-        <author>
-            <name>anivan_</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[StreetComplete: Fixing OpenStreetMap, one tiny quest at a time]]></title>
-        <id>https://news.ycombinator.com/item?id=48816883</id>
-        <link href="https://streetcomplete.app/"/>
-        <updated>2026-07-07T12:38:35.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://streetcomplete.app/
-Comments URL: https://news.ycombinator.com/item?id=48816883
-Points: 173
-# Comments: 38]]></summary>
-        <author>
-            <name>kls0e</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Europe's company websites are mostly served by US vendors]]></title>
-        <id>https://news.ycombinator.com/item?id=48816612</id>
-        <link href="https://ciphercue.com/blog/european-web-hosting-vendor-share-2026"/>
-        <updated>2026-07-07T12:08:25.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://ciphercue.com/blog/european-web-hosting-vendor-share-2026
-Comments URL: https://news.ycombinator.com/item?id=48816612
-Points: 129
-# Comments: 90]]></summary>
-        <author>
-            <name>adulion</name>
         </author>
     </entry>
 </feed>
