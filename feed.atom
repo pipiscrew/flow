@@ -2,10 +2,49 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-08-07T14:58:17.623Z</updated>
+    <updated>2026-08-07T16:02:38.506Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Iceberg Collapses and Flips over in Ilulissat, Greenland (July 25, 2026) [video]]]></title>
+        <id>https://news.ycombinator.com/item?id=49211438</id>
+        <link href="https://www.youtube.com/watch?v=UufMqwyO7pY"/>
+        <updated>2026-08-07T14:55:08.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.youtube.com/watch?v=UufMqwyO7pY
+Comments URL: https://news.ycombinator.com/item?id=49211438
+Points: 64
+# Comments: 17]]></summary>
+        <author>
+            <name>Bender</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[99% of My Website Traffic Is Bots]]></title>
+        <id>https://news.ycombinator.com/item?id=49211386</id>
+        <link href="https://patronview.com/news/99-percent-of-my-website-traffic-is-bots/"/>
+        <updated>2026-08-07T14:51:57.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://patronview.com/news/99-percent-of-my-website-traffic-is-bots/
+Comments URL: https://news.ycombinator.com/item?id=49211386
+Points: 129
+# Comments: 100]]></summary>
+        <author>
+            <name>petercooper</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USA Today Co., partners with Palantir to analyze audience data]]></title>
+        <id>https://news.ycombinator.com/item?id=49210589</id>
+        <link href="https://www.niemanlab.org/2026/08/americas-largest-newspaper-chain-usa-today-co-partners-with-palantir-to-analyze-audience-data/"/>
+        <updated>2026-08-07T14:02:15.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.niemanlab.org/2026/08/americas-largest-newspaper-chain-usa-today-co-partners-with-palantir-to-analyze-audience-data/
+Comments URL: https://news.ycombinator.com/item?id=49210589
+Points: 89
+# Comments: 34]]></summary>
+        <author>
+            <name>cdrnsf</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[AI psychosis is the new leadership blind spot]]></title>
         <id>https://news.ycombinator.com/item?id=49210077</id>
@@ -30,6 +69,46 @@ Points: 189
 # Comments: 111]]></summary>
         <author>
             <name>ceejayoz</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Wyzer Programming Language]]></title>
+        <id>https://news.ycombinator.com/item?id=49209385</id>
+        <link href="https://github.com/Wyzer-Lang/wyzer"/>
+        <updated>2026-08-07T12:28:55.000Z</updated>
+        <summary type="html"><![CDATA[So i've been working on this project since a few days (or months i should say), it's called wyzer (meaning wiser) it's a statically typed, compiled, resource-oriented programming language with integrated distributed safety via choreographic programming and perceus memory model, The reason why i began this project is out of frustration from Rust, you see it does provide safety for your memory by the strict type checking but what it does not gurantee safety against are distributed deadlocks which is basically a few independent nodes or services wait permanently for resources or messages held by each other, forming a circular wait, the rest are cross-service correctness and protocol mismatch as well. If we are specific over here Wyzer works on mainly generalizing the concept of choreographic programming in a high level programming language because its the very few attempts of actually solving these gaps of safety. Instead of borrow checkers and lifetimes wyzer has linear/affine types and a perceus reference counting which is computationally much simpler for an LSP to understand as well
+after 5 months of research and a few weeks of development i am soon going to release version 0.1.0 of it, if you would like to contribute to it you're most welcome!
+Comments URL: https://news.ycombinator.com/item?id=49209385
+Points: 74
+# Comments: 31]]></summary>
+        <author>
+            <name>v0id_isgood</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Making Postgres 300x faster for analytics: batching, operator fusion, and SIMD]]></title>
+        <id>https://news.ycombinator.com/item?id=49208535</id>
+        <link href="https://malisper.me/how-we-made-postgres-hundreds-of-times-faster-the-query-engine/"/>
+        <updated>2026-08-07T11:00:35.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://malisper.me/how-we-made-postgres-hundreds-of-times-faster-the-query-engine/
+Comments URL: https://news.ycombinator.com/item?id=49208535
+Points: 56
+# Comments: 14]]></summary>
+        <author>
+            <name>poly2it</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Kitesurf: Agent-first browser that runs in V8 isolates]]></title>
+        <id>https://news.ycombinator.com/item?id=49208393</id>
+        <link href="https://blog.cloudflare.com/kitesurf/"/>
+        <updated>2026-08-07T10:42:07.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://blog.cloudflare.com/kitesurf/
+Comments URL: https://news.ycombinator.com/item?id=49208393
+Points: 54
+# Comments: 15]]></summary>
+        <author>
+            <name>m3h</name>
         </author>
     </entry>
     <entry>

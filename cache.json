@@ -6,6 +6,36 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=49211438",
+          "author": "Bender",
+          "description": "Article URL: https://www.youtube.com/watch?v=UufMqwyO7pY\nComments URL: https://news.ycombinator.com/item?id=49211438\nPoints: 64\n# Comments: 17",
+          "link": "https://www.youtube.com/watch?v=UufMqwyO7pY",
+          "publishedOn": "2026-08-07T14:55:08.000Z",
+          "wordCount": null,
+          "title": "Iceberg Collapses and Flips over in Ilulissat, Greenland (July 25, 2026) [video]",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=49211386",
+          "author": "petercooper",
+          "description": "Article URL: https://patronview.com/news/99-percent-of-my-website-traffic-is-bots/\nComments URL: https://news.ycombinator.com/item?id=49211386\nPoints: 129\n# Comments: 100",
+          "link": "https://patronview.com/news/99-percent-of-my-website-traffic-is-bots/",
+          "publishedOn": "2026-08-07T14:51:57.000Z",
+          "wordCount": null,
+          "title": "99% of My Website Traffic Is Bots",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=49210589",
+          "author": "cdrnsf",
+          "description": "Article URL: https://www.niemanlab.org/2026/08/americas-largest-newspaper-chain-usa-today-co-partners-with-palantir-to-analyze-audience-data/\nComments URL: https://news.ycombinator.com/item?id=49210589\nPoints: 89\n# Comments: 34",
+          "link": "https://www.niemanlab.org/2026/08/americas-largest-newspaper-chain-usa-today-co-partners-with-palantir-to-analyze-audience-data/",
+          "publishedOn": "2026-08-07T14:02:15.000Z",
+          "wordCount": null,
+          "title": "USA Today Co., partners with Palantir to analyze audience data",
+          "imageUrl": null
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=49210077",
           "author": "rwmj",
           "description": "Article URL: https://www.fastcompany.com/91576086/ai-psychosis-is-the-new-leadership-blind-spot-ai-leadership-blind-spots\nComments URL: https://news.ycombinator.com/item?id=49210077\nPoints: 104\n# Comments: 51",
@@ -24,6 +54,36 @@
           "wordCount": 10465,
           "title": "U.S. economy lost 23,000 jobs in July, a sudden reversal",
           "imageUrl": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2026-08/260806-job-fair-ch-0949-3e7dc6.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=49209385",
+          "author": "v0id_isgood",
+          "description": "So i've been working on this project since a few days (or months i should say), it's called wyzer (meaning wiser) it's a statically typed, compiled, resource-oriented programming language with integrated distributed safety via choreographic programming and perceus memory model, The reason why i began this project is out of frustration from Rust, you see it does provide safety for your memory by the strict type checking but what it does not gurantee safety against are distributed deadlocks which is basically a few independent nodes or services wait permanently for resources or messages held by each other, forming a circular wait, the rest are cross-service correctness and protocol mismatch as well. If we are specific over here Wyzer works on mainly generalizing the concept of choreographic programming in a high level programming language because its the very few attempts of actually solving these gaps of safety. Instead of borrow checkers and lifetimes wyzer has linear/affine types and a perceus reference counting which is computationally much simpler for an LSP to understand as well\nafter 5 months of research and a few weeks of development i am soon going to release version 0.1.0 of it, if you would like to contribute to it you're most welcome!\nComments URL: https://news.ycombinator.com/item?id=49209385\nPoints: 74\n# Comments: 31",
+          "link": "https://github.com/Wyzer-Lang/wyzer",
+          "publishedOn": "2026-08-07T12:28:55.000Z",
+          "wordCount": 4923,
+          "title": "Show HN: Wyzer Programming Language",
+          "imageUrl": "https://opengraph.githubassets.com/9c2d90b3466ce06549df00d235920e2f3ad171a4abf6a24dff7d5006647f7709/Wyzer-Lang/wyzer"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=49208535",
+          "author": "poly2it",
+          "description": "Article URL: https://malisper.me/how-we-made-postgres-hundreds-of-times-faster-the-query-engine/\nComments URL: https://news.ycombinator.com/item?id=49208535\nPoints: 56\n# Comments: 14",
+          "link": "https://malisper.me/how-we-made-postgres-hundreds-of-times-faster-the-query-engine/",
+          "publishedOn": "2026-08-07T11:00:35.000Z",
+          "wordCount": 3175,
+          "title": "Making Postgres 300x faster for analytics: batching, operator fusion, and SIMD",
+          "imageUrl": "https://malisper.me/wp-content/uploads/2026/08/image.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=49208393",
+          "author": "m3h",
+          "description": "Article URL: https://blog.cloudflare.com/kitesurf/\nComments URL: https://news.ycombinator.com/item?id=49208393\nPoints: 54\n# Comments: 15",
+          "link": "https://blog.cloudflare.com/kitesurf/",
+          "publishedOn": "2026-08-07T10:42:07.000Z",
+          "wordCount": 4373,
+          "title": "Kitesurf: Agent-first browser that runs in V8 isolates",
+          "imageUrl": "https://blog.cloudflare.com/_emdash/api/media/file/01KZBWYMKT77FDVB07PHA3R5WM.png"
         },
         {
           "id": "https://news.ycombinator.com/item?id=49208314",
