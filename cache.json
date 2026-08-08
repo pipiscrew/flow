@@ -12664,16 +12664,6 @@
           "wordCount": 9789,
           "title": "Why American ambulance rides are so expensive",
           "imageUrl": "https://substackcdn.com/image/fetch/$s_!KYj0!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F16d230e7-cc1d-491b-9e14-59f6f0aaf274_2048x1366.webp"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48852199",
-          "author": "catalinvoss",
-          "description": "Hey HN! We've spent the good part of this past year building an AI tutor that teaches kids ages 4-9 reading, math, ESL and more. Getting an AI tutor to effectively teach a child turns out to be a really hard technical challenge, this took getting the underlying architecture right.\nOur tutor steers the UX in real-time and makes complex decisions on the fly. Doing both at conversation speed required us to replace the standard tool-use loop. We built our own tutor harness that utilizes a streaming interpreter that executes actions, while an asynchronous planner model reasons ahead of the conversation and makes calls that drive the child's learning. On top of it all, we developed a safety system that checks every turn without it causing an interruption to the activity and conversation flow.\nEffective teaching isn't just about answering a child's  question quickly, rather making the right move at the right moment. AI is also going to be an integral part shaping how this generation of kids learn to read and think, tackling this responsibly means getting the design right.\nHappy to answer questions and curious what you all think, critical feedback included, we've been working on this problem for a long time and love to hear from the HN community.\nComments URL: https://news.ycombinator.com/item?id=48852199\nPoints: 65\n# Comments: 100",
-          "link": "https://www.ello.com/blog/teaching-a-child-in-1000-ms",
-          "publishedOn": "2026-07-09T20:51:06.000Z",
-          "wordCount": 5848,
-          "title": "Building a real-time AI tutor for 5-year-olds",
-          "imageUrl": "https://cdn.sanity.io/images/syk5spr9/production/ec494ad4e15d0f28ec8b04d522147735034ba902-1200x630.webp"
         }
       ]
     }
