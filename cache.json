@@ -6,6 +6,16 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=49235641",
+          "author": "berghoffer",
+          "description": "Article URL: https://propelmusic.co.nz/articles/the-sound-went-quiet-nz-music-media\nComments URL: https://news.ycombinator.com/item?id=49235641\nPoints: 78\n# Comments: 43",
+          "link": "https://propelmusic.co.nz/articles/the-sound-went-quiet-nz-music-media",
+          "publishedOn": "2026-08-09T20:42:29.000Z",
+          "wordCount": 2126,
+          "title": "New Zealand lost its music media, and what we're building to replace it",
+          "imageUrl": "https://media.propelmusic.co.nz/articles/nz-music-media/karangahape-road-auckland.webp"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=49235378",
           "author": "yu3zhou4",
           "description": "Article URL: https://phrack.org/issues/72/19#article\nComments URL: https://news.ycombinator.com/item?id=49235378\nPoints: 69\n# Comments: 49",
@@ -64,6 +74,16 @@
           "wordCount": 824,
           "title": "Saying No",
           "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=49234271",
+          "author": "gregsadetsky",
+          "description": "Article URL: https://mynoise.net/vlog.php?ep=20260803\nComments URL: https://news.ycombinator.com/item?id=49234271\nPoints: 83\n# Comments: 57",
+          "link": "https://mynoise.net/vlog.php?ep=20260803",
+          "publishedOn": "2026-08-09T18:41:35.000Z",
+          "wordCount": 5090,
+          "title": "I made tinnitus my friend, then it disappeared [video]",
+          "imageUrl": "https://mynoise.net/Pix/imageProxy.php?url=https%3A%2F%2Fvz-067b1f4d-df2.b-cdn.net%2F69b827da-0ce9-46bf-a0cb-cabb5d037e33%2Fthumbnail_ee8ebe97.jpg"
         },
         {
           "id": "https://news.ycombinator.com/item?id=49233448",
@@ -12963,76 +12983,6 @@
           "publishedOn": "2026-07-11T14:32:19.000Z",
           "wordCount": null,
           "title": "The largest available Minecraft world, totalling 15 TB",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48871973",
-          "author": "acley",
-          "description": "Article URL: https://shipthatcode.com\nComments URL: https://news.ycombinator.com/item?id=48871973\nPoints: 68\n# Comments: 30",
-          "link": "https://shipthatcode.com/",
-          "publishedOn": "2026-07-11T13:40:27.000Z",
-          "wordCount": 584,
-          "title": "Show HN: Learn by rebuilding Redis, Git, a database from scratch",
-          "imageUrl": "https://shipthatcode.com/opengraph-image?e5981ff808b13a14"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48871932",
-          "author": "zetalyrae",
-          "description": "Article URL: https://languagelog.ldc.upenn.edu/myl/Good1964.pdf\nComments URL: https://news.ycombinator.com/item?id=48871932\nPoints: 65\n# Comments: 32",
-          "link": "https://languagelog.ldc.upenn.edu/myl/Good1964.pdf",
-          "publishedOn": "2026-07-11T13:33:17.000Z",
-          "wordCount": 143490,
-          "title": "Speculations Concerning the First Ultraintelligent Machine (1965) [pdf]",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48871721",
-          "author": "serial_dev",
-          "description": "Article URL: https://davidobando.github.io/gsharp/\nComments URL: https://news.ycombinator.com/item?id=48871721\nPoints: 75\n# Comments: 34",
-          "link": "https://davidobando.github.io/gsharp/",
-          "publishedOn": "2026-07-11T13:04:46.000Z",
-          "wordCount": 285,
-          "title": "G# – A modern .NET language with Go, Kotlin, and Swift ergonomics",
-          "imageUrl": "https://davidobando.github.io/gsharp/img/gsharp-icon.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48871547",
-          "author": "_samt_",
-          "description": "Hi HN,\nclx is an ahead-of-time compiler for standard Lua that generates C++20 and produces standalone native executables through GCC, Clang or MSVC.\nThe project started as an experiment to see whether modern C++ could be used as a portable compiler backend instead of LLVM or direct machine code generation. The generated code is then compiled and optimized by the host toolchain.\nThe latest release replaces the previous NaN-tagged value representation with a new shadow-types implementation, adds full int64 support, improves native arithmetic code generation and adds ARM64 macOS coroutine support.\nPerformance is typically much faster than the Lua interpreter and can outperform LuaJIT on some computation-heavy workloads while remaining fully ahead-of-time compiled.\nThe repository also contains graphical examples written in Lua, including a Pong game and a Mandelbrot explorer using a Sokol binary module (using the clx C++ API)\nI'd be very interested in feedback on clx :)\nComments URL: https://news.ycombinator.com/item?id=48871547\nPoints: 74\n# Comments: 2",
-          "link": "https://github.com/samyeyo/clx",
-          "publishedOn": "2026-07-11T12:40:24.000Z",
-          "wordCount": 4214,
-          "title": "Show HN: Clx – Compile Lua to Native Executables Through C++20",
-          "imageUrl": "https://opengraph.githubassets.com/ed9364e92e081a5652802f4a5c8f0eeb1c9ef8846aee60b046b10416910d606f/samyeyo/clx"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48871470",
-          "author": "faza",
-          "description": "Article URL: https://fazamhd.com/mental-models/networking/\nComments URL: https://news.ycombinator.com/item?id=48871470\nPoints: 56\n# Comments: 28",
-          "link": "https://fazamhd.com/mental-models/networking/",
-          "publishedOn": "2026-07-11T12:30:40.000Z",
-          "wordCount": 18990,
-          "title": "Networking and the Internet, from First Principles",
-          "imageUrl": "https://fazamhd.com/og/mental-models/networking.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48871367",
-          "author": "reaperducer",
-          "description": "https://www.nytimes.com/2026/07/10/climate/fcc-space-mirror....\nhttps://www.pcmag.com/news/fcc-approves-reflect-orbitals-gia...\nComments URL: https://news.ycombinator.com/item?id=48871367\nPoints: 62\n# Comments: 62",
-          "link": "https://theconversation.com/the-u-s-just-approved-a-giant-space-mirror-to-test-sunlight-on-demand-low-earth-orbit-is-getting-weird-283482",
-          "publishedOn": "2026-07-11T12:12:34.000Z",
-          "wordCount": 4038,
-          "title": "FCC approves test of space mirror to light night sky",
-          "imageUrl": "https://images.theconversation.com/files/747250/original/file-20260710-57-3s3smh.jpg?ixlib=rb-4.1.0&rect=0%2C134%2C2400%2C1200&q=45&auto=format&w=1356&h=668&fit=crop"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48871367",
-          "author": "reaperducer",
-          "description": "Article URL: https://www.nytimes.com/2026/07/10/climate/fcc-space-mirror.html\nComments URL: https://news.ycombinator.com/item?id=48871367\nPoints: 51\n# Comments: 46",
-          "link": "https://www.nytimes.com/2026/07/10/climate/fcc-space-mirror.html",
-          "publishedOn": "2026-07-11T12:12:34.000Z",
-          "wordCount": null,
-          "title": "FCC Approves Test of Space Mirror to Light Night Sky Despite Outcry",
           "imageUrl": null
         }
       ]

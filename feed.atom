@@ -2,10 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-08-09T23:36:38.779Z</updated>
+    <updated>2026-08-10T02:14:09.140Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[New Zealand lost its music media, and what we're building to replace it]]></title>
+        <id>https://news.ycombinator.com/item?id=49235641</id>
+        <link href="https://propelmusic.co.nz/articles/the-sound-went-quiet-nz-music-media"/>
+        <updated>2026-08-09T20:42:29.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://propelmusic.co.nz/articles/the-sound-went-quiet-nz-music-media
+Comments URL: https://news.ycombinator.com/item?id=49235641
+Points: 78
+# Comments: 43]]></summary>
+        <author>
+            <name>berghoffer</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[The Hacker's Renaissance]]></title>
         <id>https://news.ycombinator.com/item?id=49235378</id>
@@ -82,6 +95,19 @@ Points: 60
 # Comments: 47]]></summary>
         <author>
             <name>rozumem</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[I made tinnitus my friend, then it disappeared [video]]]></title>
+        <id>https://news.ycombinator.com/item?id=49234271</id>
+        <link href="https://mynoise.net/vlog.php?ep=20260803"/>
+        <updated>2026-08-09T18:41:35.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://mynoise.net/vlog.php?ep=20260803
+Comments URL: https://news.ycombinator.com/item?id=49234271
+Points: 83
+# Comments: 57]]></summary>
+        <author>
+            <name>gregsadetsky</name>
         </author>
     </entry>
     <entry>
@@ -17088,104 +17114,6 @@ Points: 56
 # Comments: 12]]></summary>
         <author>
             <name>_____k</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: Learn by rebuilding Redis, Git, a database from scratch]]></title>
-        <id>https://news.ycombinator.com/item?id=48871973</id>
-        <link href="https://shipthatcode.com/"/>
-        <updated>2026-07-11T13:40:27.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://shipthatcode.com
-Comments URL: https://news.ycombinator.com/item?id=48871973
-Points: 68
-# Comments: 30]]></summary>
-        <author>
-            <name>acley</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Speculations Concerning the First Ultraintelligent Machine (1965) [pdf]]]></title>
-        <id>https://news.ycombinator.com/item?id=48871932</id>
-        <link href="https://languagelog.ldc.upenn.edu/myl/Good1964.pdf"/>
-        <updated>2026-07-11T13:33:17.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://languagelog.ldc.upenn.edu/myl/Good1964.pdf
-Comments URL: https://news.ycombinator.com/item?id=48871932
-Points: 65
-# Comments: 32]]></summary>
-        <author>
-            <name>zetalyrae</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[G# – A modern .NET language with Go, Kotlin, and Swift ergonomics]]></title>
-        <id>https://news.ycombinator.com/item?id=48871721</id>
-        <link href="https://davidobando.github.io/gsharp/"/>
-        <updated>2026-07-11T13:04:46.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://davidobando.github.io/gsharp/
-Comments URL: https://news.ycombinator.com/item?id=48871721
-Points: 75
-# Comments: 34]]></summary>
-        <author>
-            <name>serial_dev</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: Clx – Compile Lua to Native Executables Through C++20]]></title>
-        <id>https://news.ycombinator.com/item?id=48871547</id>
-        <link href="https://github.com/samyeyo/clx"/>
-        <updated>2026-07-11T12:40:24.000Z</updated>
-        <summary type="html"><![CDATA[Hi HN,
-clx is an ahead-of-time compiler for standard Lua that generates C++20 and produces standalone native executables through GCC, Clang or MSVC.
-The project started as an experiment to see whether modern C++ could be used as a portable compiler backend instead of LLVM or direct machine code generation. The generated code is then compiled and optimized by the host toolchain.
-The latest release replaces the previous NaN-tagged value representation with a new shadow-types implementation, adds full int64 support, improves native arithmetic code generation and adds ARM64 macOS coroutine support.
-Performance is typically much faster than the Lua interpreter and can outperform LuaJIT on some computation-heavy workloads while remaining fully ahead-of-time compiled.
-The repository also contains graphical examples written in Lua, including a Pong game and a Mandelbrot explorer using a Sokol binary module (using the clx C++ API)
-I'd be very interested in feedback on clx :)
-Comments URL: https://news.ycombinator.com/item?id=48871547
-Points: 74
-# Comments: 2]]></summary>
-        <author>
-            <name>_samt_</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Networking and the Internet, from First Principles]]></title>
-        <id>https://news.ycombinator.com/item?id=48871470</id>
-        <link href="https://fazamhd.com/mental-models/networking/"/>
-        <updated>2026-07-11T12:30:40.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://fazamhd.com/mental-models/networking/
-Comments URL: https://news.ycombinator.com/item?id=48871470
-Points: 56
-# Comments: 28]]></summary>
-        <author>
-            <name>faza</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[FCC approves test of space mirror to light night sky]]></title>
-        <id>https://news.ycombinator.com/item?id=48871367</id>
-        <link href="https://theconversation.com/the-u-s-just-approved-a-giant-space-mirror-to-test-sunlight-on-demand-low-earth-orbit-is-getting-weird-283482"/>
-        <updated>2026-07-11T12:12:34.000Z</updated>
-        <summary type="html"><![CDATA[https://www.nytimes.com/2026/07/10/climate/fcc-space-mirror....
-https://www.pcmag.com/news/fcc-approves-reflect-orbitals-gia...
-Comments URL: https://news.ycombinator.com/item?id=48871367
-Points: 62
-# Comments: 62]]></summary>
-        <author>
-            <name>reaperducer</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[FCC Approves Test of Space Mirror to Light Night Sky Despite Outcry]]></title>
-        <id>https://news.ycombinator.com/item?id=48871367</id>
-        <link href="https://www.nytimes.com/2026/07/10/climate/fcc-space-mirror.html"/>
-        <updated>2026-07-11T12:12:34.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.nytimes.com/2026/07/10/climate/fcc-space-mirror.html
-Comments URL: https://news.ycombinator.com/item?id=48871367
-Points: 51
-# Comments: 46]]></summary>
-        <author>
-            <name>reaperducer</name>
         </author>
     </entry>
 </feed>
