@@ -2,10 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-08-10T06:13:41.569Z</updated>
+    <updated>2026-08-10T08:43:04.628Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Docker Sandboxes – Disposable, isolated sandboxes for AI agents]]></title>
+        <id>https://news.ycombinator.com/item?id=49239751</id>
+        <link href="https://www.docker.com/products/docker-sandboxes/"/>
+        <updated>2026-08-10T06:02:38.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.docker.com/products/docker-sandboxes/
+Comments URL: https://news.ycombinator.com/item?id=49239751
+Points: 137
+# Comments: 87]]></summary>
+        <author>
+            <name>etoxin</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Auto mode is now the default in Claude Code]]></title>
         <id>https://news.ycombinator.com/item?id=49239021</id>
@@ -17,6 +30,39 @@ Points: 101
 # Comments: 62]]></summary>
         <author>
             <name>sbehere</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Voice driven murder mystery, Interview AI suspects with your voice]]></title>
+        <id>https://news.ycombinator.com/item?id=49238851</id>
+        <link href="https://www.whodunnitai.com/"/>
+        <updated>2026-08-10T03:18:40.000Z</updated>
+        <summary type="html"><![CDATA[Hey HN!
+I'm excited to show off this really fun project I put together. I originally built this project 2-3 years ago, AI was already booming at the time, however voice AI agents were still very early. I loved my proof of concept at the time, but wasn't quite happy with it.
+I recently had the desire to check out the tech again, and know many of you will be interested.
+Interviews are speech to speech with OpenAI's gpt-realtime-2.1 over WebRTC. This model is... expensive, and because of that, I have to add some amount of restrictions, conversations are tied to a authenticated Clerk user id. I have also added a 30 minute timer because well, I really don't want to go broke while I sleep tonight.
+Each suspect has a tool they call when you make a direct accusation. It captures who you accused and a faithful list of the evidence you actually stated.
+A separate gpt-5-mini judge then decides which of the case's required evidence facts you genuinely presented. Paraphrasing counts, vague suspicion and fishing don't.
+The rest is Next.js, MongoDB, and Clerk.
+Let me know whether the suspects hold up under a real interrogation.
+Comments URL: https://news.ycombinator.com/item?id=49238851
+Points: 67
+# Comments: 20]]></summary>
+        <author>
+            <name>MrRowTheBoat</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Run Android ARM64 VR APKs on Apple Vision Pro]]></title>
+        <id>https://news.ycombinator.com/item?id=49238818</id>
+        <link href="https://github.com/shinyquagsire23/Klepton"/>
+        <updated>2026-08-10T03:12:48.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://github.com/shinyquagsire23/Klepton
+Comments URL: https://news.ycombinator.com/item?id=49238818
+Points: 59
+# Comments: 6]]></summary>
+        <author>
+            <name>LorenDB</name>
         </author>
     </entry>
     <entry>
@@ -1295,6 +1341,19 @@ Points: 72
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA["The Persian MâR-Nâmeh Or, the Book for Taking Omens from Snakes" (1892)]]></title>
+        <id>https://news.ycombinator.com/item?id=49205793</id>
+        <link href="https://publicdomainreview.org/collection/marnameh/"/>
+        <updated>2026-08-07T04:04:56.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://publicdomainreview.org/collection/marnameh/
+Comments URL: https://news.ycombinator.com/item?id=49205793
+Points: 53
+# Comments: 9]]></summary>
+        <author>
+            <name>Thevet</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[New Orleans is testing Carbyne’s AI-powered Emergency Call Triage software]]></title>
         <id>https://news.ycombinator.com/item?id=49204546</id>
         <link href="https://www.shreveporttimes.com/story/news/local/louisiana/2026/07/28/is-new-orleans-using-ai-to-answer-911-calls-instead-of-human-dispatchers-impacts-emergencies-crime/91065014007/"/>
@@ -1338,6 +1397,19 @@ Points: 102
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Andrew Wiles on proving Fermat’s Last Theorem (1995) [video]]]></title>
+        <id>https://news.ycombinator.com/item?id=49203626</id>
+        <link href="https://www.youtube.com/watch?v=GS7CxAtV5Ks"/>
+        <updated>2026-08-06T22:41:24.000Z</updated>
+        <summary type="html"><![CDATA[Full documentary: https://www.bbc.co.uk/programmes/b0074rxx
+Comments URL: https://news.ycombinator.com/item?id=49203626
+Points: 56
+# Comments: 36]]></summary>
+        <author>
+            <name>jackdoe</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Welcoming the Nepalese Government to Have I Been Pwned]]></title>
         <id>https://news.ycombinator.com/item?id=49203105</id>
         <link href="https://www.troyhunt.com/welcoming-the-nepalese-government-to-have-i-been-pwned/"/>
@@ -1348,6 +1420,19 @@ Points: 107
 # Comments: 19]]></summary>
         <author>
             <name>gnabgib</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ATProto for Distributed Systems Engineers]]></title>
+        <id>https://news.ycombinator.com/item?id=49202912</id>
+        <link href="https://atproto.com/articles/atproto-for-distsys-engineers"/>
+        <updated>2026-08-06T21:35:37.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://atproto.com/articles/atproto-for-distsys-engineers
+Comments URL: https://news.ycombinator.com/item?id=49202912
+Points: 70
+# Comments: 12]]></summary>
+        <author>
+            <name>LelouBil</name>
         </author>
     </entry>
     <entry>
@@ -16964,48 +17049,6 @@ Points: 71
 # Comments: 17]]></summary>
         <author>
             <name>mariuz</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: Ant – A JavaScript runtime and ecosystem]]></title>
-        <id>https://news.ycombinator.com/item?id=48875377</id>
-        <link href="https://antjs.org/"/>
-        <updated>2026-07-11T20:07:18.000Z</updated>
-        <summary type="html"><![CDATA[Hello HN!
-I'm the author of Ant, a JavaScript ecosystem built around a runtime with its own JavaScript engine. Ant also includes a package manager, the ants.land package registry, a platform for deploying and hosting applications, and Ant Desktop for building native desktop apps with web technologies, similar to Electron.
-The goal is for these pieces to work as one coherent platform while remaining compatible with the wider JavaScript ecosystem. It's still early, and I'd appreciate any feedback on the overall direction or what you'd like to see from an e2e alternative to the existing JavaScript stacks.
-P.S. I’ve shared Ant here before as a runtime; since then, it has grown into the broader ecosystem you see today.
-Comments URL: https://news.ycombinator.com/item?id=48875377
-Points: 97
-# Comments: 41]]></summary>
-        <author>
-            <name>theMackabu</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How to hide from killer drones]]></title>
-        <id>https://news.ycombinator.com/item?id=48874357</id>
-        <link href="https://www.economist.com/science-and-technology/2026/07/08/how-to-hide-from-killer-drones"/>
-        <updated>2026-07-11T18:22:02.000Z</updated>
-        <summary type="html"><![CDATA[https://archive.ph/xiCSq
-Comments URL: https://news.ycombinator.com/item?id=48874357
-Points: 70
-# Comments: 85]]></summary>
-        <author>
-            <name>pseudolus</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[ZeroFS vs. Amazon S3 Files]]></title>
-        <id>https://news.ycombinator.com/item?id=48874297</id>
-        <link href="https://www.zerofs.net/blog/zerofs-vs-aws-s3-files/"/>
-        <updated>2026-07-11T18:15:35.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.zerofs.net/blog/zerofs-vs-aws-s3-files/
-Comments URL: https://news.ycombinator.com/item?id=48874297
-Points: 67
-# Comments: 16]]></summary>
-        <author>
-            <name>cbrewster</name>
         </author>
     </entry>
 </feed>
