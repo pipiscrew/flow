@@ -6,6 +6,26 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=49249971",
+          "author": "pjmlp",
+          "description": "Article URL: https://arstechnica.com/tech-policy/2026/08/amazon-funds-biggest-gas-power-plant-in-us-despite-climate-pledge/\nComments URL: https://news.ycombinator.com/item?id=49249971\nPoints: 64\n# Comments: 32",
+          "link": "https://arstechnica.com/tech-policy/2026/08/amazon-funds-biggest-gas-power-plant-in-us-despite-climate-pledge/",
+          "publishedOn": "2026-08-10T21:26:16.000Z",
+          "wordCount": 4361,
+          "title": "Amazon backs power plant that may become top source of US climate pollution",
+          "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2026/08/GettyImages-2267221283-1152x648.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=49249481",
+          "author": "EDM115",
+          "description": "Article URL: https://www.massaschadeconsument.nl/collectieve-acties/playstation/\nComments URL: https://news.ycombinator.com/item?id=49249481\nPoints: 58\n# Comments: 19",
+          "link": "https://www.massaschadeconsument.nl/collectieve-acties/playstation/",
+          "publishedOn": "2026-08-10T20:47:13.000Z",
+          "wordCount": 6727,
+          "title": "Stop Killing Games: It's time to sue Sony, join us",
+          "imageUrl": "/img/og-image-play.png"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=49249150",
           "author": "speckx",
           "description": "Article URL: https://linuxstans.com/illinois-hb5511-operating-system-age-verification/\nComments URL: https://news.ycombinator.com/item?id=49249150\nPoints: 150\n# Comments: 148",
@@ -24,6 +44,16 @@
           "wordCount": 5011,
           "title": "Rust SIMD on the GPU",
           "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=49246804",
+          "author": "HenryNdubuaku",
+          "description": "Hey HN,\nHenry from Cactus here!\nWe previously released Cactus Needle, a 14MB agentic LLM for tool call, device use, and structured extraction for phones, wearables, smart homes, small robots and microcontrollers. We got really great feedback here, and have now incorporated the suggestions to release Needle 2.\nThe whole model is a single 14MB binary that runs a full session in 28MB of RAM; 45m parameters at 2bit compression. Needle hits 500 tokens/sec decode speed on a Raspberry Pi 5, sits between 400-1,500 tokens/sec on VR devices like Meta Quest 3S and Apple Vision Pro, and ranges 300-700 on sub-$200 phones such as the Samsung A-Series.\nOn the tool call and mobile device use benchmarks, Needle 2 trades wins with closest small models like LFM2.5 230M and Apple Foundation Model, at 5x to 70…",
+          "link": "https://cactuscompute.com/needle",
+          "publishedOn": "2026-08-10T17:22:07.000Z",
+          "wordCount": 6482,
+          "title": "Show HN: Needle2: 14MB agentic LLM for phones, wearables, smart home and robots",
+          "imageUrl": "https://cactuscompute.com/opengraph-image?9df76a35fe8276e2"
         },
         {
           "id": "https://news.ycombinator.com/item?id=49246057",
@@ -13104,16 +13134,6 @@
           "wordCount": 4577,
           "title": "Old and new apps, via modern coding agents by Terry Tao",
           "imageUrl": "https://terrytao.wordpress.com/wp-content/uploads/2026/07/image-2.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48879902",
-          "author": "thunderbong",
-          "description": "Article URL: https://ca.pcmag.com/social-media/16790/the-death-of-the-status-update-why-55-of-americans-stopped-posting-on-social-media\nComments URL: https://news.ycombinator.com/item?id=48879902\nPoints: 53\n# Comments: 59",
-          "link": "https://ca.pcmag.com/social-media/16790/the-death-of-the-status-update-why-55-of-americans-stopped-posting-on-social-media",
-          "publishedOn": "2026-07-12T10:14:40.000Z",
-          "wordCount": 5283,
-          "title": "Death of the Status Update: Why 55% of Americans Stopped Posting on Social Media",
-          "imageUrl": "https://sm.pcmag.com/t/pcmag_ca/news/t/the-death-/the-death-of-the-status-update-why-55-of-americans-stopped-p_esbq.1200.png"
         }
       ]
     }
