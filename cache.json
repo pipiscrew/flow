@@ -6,6 +6,16 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=49252493",
+          "author": "swyx",
+          "description": "Article URL: https://hypercritical.co/hyperspace/\nComments URL: https://news.ycombinator.com/item?id=49252493\nPoints: 59\n# Comments: 41",
+          "link": "https://hypercritical.co/hyperspace/",
+          "publishedOn": "2026-08-11T02:04:35.000Z",
+          "wordCount": 11811,
+          "title": "Hyperspace",
+          "imageUrl": "https://hypercritical.co/hyperspace/images/hyperspace-icon-1024-lossy.png"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=49252179",
           "author": "swyx",
           "description": "Article URL: https://github.com/antirez/h3.c\nComments URL: https://news.ycombinator.com/item?id=49252179\nPoints: 93\n# Comments: 9",
@@ -56,6 +66,26 @@
           "imageUrl": "https://worldtrainmap.com/og.jpg?v=4"
         },
         {
+          "id": "https://news.ycombinator.com/item?id=49250836",
+          "author": "awnird",
+          "description": "Article URL: https://thewalrus.ca/google-search-is-dying/\nComments URL: https://news.ycombinator.com/item?id=49250836\nPoints: 153\n# Comments: 133",
+          "link": "https://thewalrus.ca/google-search-is-dying/",
+          "publishedOn": "2026-08-10T22:36:30.000Z",
+          "wordCount": null,
+          "title": "As AI eats the web, the internet’s collective memory is disappearing",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=49250109",
+          "author": "mfiguiere",
+          "description": "Article URL: https://support.claude.com/en/articles/16266773-how-claude-marks-ai-generated-content\nComments URL: https://news.ycombinator.com/item?id=49250109\nPoints: 114\n# Comments: 89",
+          "link": "https://support.claude.com/en/articles/16266773-how-claude-marks-ai-generated-content",
+          "publishedOn": "2026-08-10T21:36:56.000Z",
+          "wordCount": 8601,
+          "title": "How Claude marks AI-generated content",
+          "imageUrl": "https://downloads.intercomcdn.com/i/o/lupk8zyo/792494/717b10d3ebd874823db64841659b/76f3062d78ebbb04863fb1de3ef9cca0.png"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=49249971",
           "author": "pjmlp",
           "description": "Article URL: https://arstechnica.com/tech-policy/2026/08/amazon-funds-biggest-gas-power-plant-in-us-despite-climate-pledge/\nComments URL: https://news.ycombinator.com/item?id=49249971\nPoints: 64\n# Comments: 32",
@@ -104,6 +134,16 @@
           "wordCount": 5011,
           "title": "Rust SIMD on the GPU",
           "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=49247070",
+          "author": "tosh",
+          "description": "Article URL: https://www.anthropic.com/research/riemann-zeta\nComments URL: https://news.ycombinator.com/item?id=49247070\nPoints: 180\n# Comments: 122",
+          "link": "https://www.anthropic.com/research/riemann-zeta",
+          "publishedOn": "2026-08-10T17:41:13.000Z",
+          "wordCount": 3032,
+          "title": "Learning more about Claude's mathematical capabilities",
+          "imageUrl": "https://cdn.sanity.io/images/4zrzovbb/website/ca772f1b34e5b58e38694538f017d63f5dd196d9-1200x630.jpg"
         },
         {
           "id": "https://news.ycombinator.com/item?id=49246804",
@@ -12994,76 +13034,6 @@
           "wordCount": 793,
           "title": "Neocities: Create your own free website",
           "imageUrl": "https://neocities.org/img/neocities-front-screenshot.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48883578",
-          "author": "birdculture",
-          "description": "Article URL: https://danq.me/2026/07/10/rescuing-7234-gifs/\nComments URL: https://news.ycombinator.com/item?id=48883578\nPoints: 64\n# Comments: 5",
-          "link": "https://danq.me/2026/07/10/rescuing-7234-gifs/",
-          "publishedOn": "2026-07-12T19:00:49.000Z",
-          "wordCount": 2900,
-          "title": "Today I Rescued 7,234 Old GIFs",
-          "imageUrl": "https://danq.me/_q23-og/29658/0.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48883343",
-          "author": "therepanic",
-          "description": "Article URL: https://geohot.github.io//blog/jekyll/update/2026/07/12/i-love-llms.html\nComments URL: https://news.ycombinator.com/item?id=48883343\nPoints: 163\n# Comments: 83",
-          "link": "https://geohot.github.io//blog/jekyll/update/2026/07/12/i-love-llms.html",
-          "publishedOn": "2026-07-12T18:31:56.000Z",
-          "wordCount": 675,
-          "title": "I love LLMs, I hate hype",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48883305",
-          "author": "julesrms",
-          "description": "Hello HN, I don't post on here much, but wanted to get some eyes on a new project I'm just launching. I think we definitely need one more AI code agent..\nI'm a long-term C++ dev, and over 30+ years I've created some successful audio dev tools (JUCE, the Tracktion DAW, the Cmajor DSP language). All of these came from me getting annoyed with something I had to use, and deciding to have a go at my own take on whatever it was.\nSo Juggler is my attempt at an AI code agent, after spending too many hours loving what the models could do, but hating the CLI experience, and having some opinions of what a better UX might be for this stuff.\nLots more blurb on the website and github, but a quick tech dump which might grab your attention if you're into these things:\nA session is a document, not a log fi…",
-          "link": "https://github.com/juggler-ai/juggler",
-          "publishedOn": "2026-07-12T18:28:15.000Z",
-          "wordCount": 4473,
-          "title": "Show HN: Juggler – an open-source GUI coding agent, by the creator of JUCE",
-          "imageUrl": "https://opengraph.githubassets.com/d9b08728a87ad5a398bec25ec1e94632403469400a8f3ecba978ca28d25af411/juggler-ai/juggler"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48883275",
-          "author": "systima",
-          "description": "This started based off of a hunch. We usually use OpenCode, but were 'forced' to use Claude Code for a while due to issues with Meridian. In that time, we saw the usage meter rise much, much more quickly than when using OpenCode.\nThis was the initial anecdotal evidence, but we undertook this small study to collect empirical data:\nWe added logging between the agentic coding tool (Claude Code and OpenCode) and Anthropic's endpoint, and captured all requests (and the returned usage blocks).\nWith one caveat (toward the end of the post) we found unambiguously that Claude Code was far more inefficient in terms of its cache strategy and its harness token usage than OpenCode.\nComments URL: https://news.ycombinator.com/item?id=48883275\nPoints: 74\n# Comments: 26",
-          "link": "https://systima.ai/blog/claude-code-vs-opencode-token-overhead",
-          "publishedOn": "2026-07-12T18:25:51.000Z",
-          "wordCount": 10479,
-          "title": "Claude Code sends 33k tokens before reading the prompt; OpenCode sends 7k",
-          "imageUrl": "https://systima.ai/images/claude-code-vs-opencode-banner.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48883238",
-          "author": "georgex7",
-          "description": "Article URL: https://substack.magazinenongrata.com/p/how-i-learned-to-read-again\nComments URL: https://news.ycombinator.com/item?id=48883238\nPoints: 66\n# Comments: 26",
-          "link": "https://substack.magazinenongrata.com/p/how-i-learned-to-read-again",
-          "publishedOn": "2026-07-12T18:22:15.000Z",
-          "wordCount": 8666,
-          "title": "I Learned to Read Again",
-          "imageUrl": "https://substackcdn.com/image/fetch/$s_!3AdV!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F23985988-01ea-4d7b-a4f5-446c2a4f0a0b_1600x900.jpeg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48883090",
-          "author": "adunk",
-          "description": "https://arxiv.org/abs/2301.04709\nComments URL: https://news.ycombinator.com/item?id=48883090\nPoints: 71\n# Comments: 58",
-          "link": "https://cacm.acm.org/news/can-we-understand-how-large-language-models-reason/",
-          "publishedOn": "2026-07-12T18:04:41.000Z",
-          "wordCount": null,
-          "title": "Mechanistic interpretability researchers applying causality theory to LLMs",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48883036",
-          "author": "speckx",
-          "description": "Article URL: https://goughlui.com/2026/07/09/teardown-a-generic-7-port-usb-3-0-hub-that-wasnt/\nComments URL: https://news.ycombinator.com/item?id=48883036\nPoints: 126\n# Comments: 55",
-          "link": "https://goughlui.com/2026/07/09/teardown-a-generic-7-port-usb-3-0-hub-that-wasnt/",
-          "publishedOn": "2026-07-12T17:57:58.000Z",
-          "wordCount": 5790,
-          "title": "Teardown: A Generic 7-Port USB 3.0 Hub That Wasn't",
-          "imageUrl": "https://goughlui.com/wp-content/uploads/2026/07/202607022204196627.jpg"
         }
       ]
     }
