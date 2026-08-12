@@ -16,6 +16,16 @@
           "imageUrl": "/og-image-llama-cpp.png"
         },
         {
+          "id": "https://news.ycombinator.com/item?id=49267818",
+          "author": "Taikhoom10",
+          "description": "Article URL: https://s-1.vercel.app/posts/why-dropbox-is-a-obvious-pe-target/\nComments URL: https://news.ycombinator.com/item?id=49267818\nPoints: 51\n# Comments: 73",
+          "link": "https://s-1.vercel.app/posts/why-dropbox-is-a-obvious-pe-target/",
+          "publishedOn": "2026-08-12T04:30:34.000Z",
+          "wordCount": 615,
+          "title": "Dropbox is an obvious PE Target?",
+          "imageUrl": null
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=49267108",
           "author": "burnto",
           "description": "Article URL: https://brentfitzgerald.com/posts/the-human-is-the-loop/\nComments URL: https://news.ycombinator.com/item?id=49267108\nPoints: 50\n# Comments: 21",
@@ -1756,6 +1766,16 @@
           "imageUrl": null
         },
         {
+          "id": "https://news.ycombinator.com/item?id=49210199",
+          "author": "xiaoyu2006",
+          "description": "Article URL: https://github.com/yikerman/tamron-lens-control\nComments URL: https://news.ycombinator.com/item?id=49210199\nPoints: 61\n# Comments: 2",
+          "link": "https://github.com/yikerman/tamron-lens-control",
+          "publishedOn": "2026-08-07T13:36:39.000Z",
+          "wordCount": 2881,
+          "title": "Show HN: Tamron Lens Utility Alternative on Linux",
+          "imageUrl": "https://opengraph.githubassets.com/4ef0552a9f1b40e0a8cc821132fad11ea3e225f68edac1018d933524ea21db00/yikerman/tamron-lens-control"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=49210077",
           "author": "rwmj",
           "description": "Article URL: https://www.fastcompany.com/91576086/ai-psychosis-is-the-new-leadership-blind-spot-ai-leadership-blind-spots\nComments URL: https://news.ycombinator.com/item?id=49210077\nPoints: 104\n# Comments: 51",
@@ -2014,6 +2034,16 @@
           "wordCount": 7840,
           "title": "AMD acquires Taalas to boost inference performance by etching models in silicon",
           "imageUrl": "https://image.theregister.com/5284365.jpg?imageId=5284365&x=0&y=0&cropw=100&croph=100&panox=0&panoy=0&panow=100&panoh=100&width=1200&height=683"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=49201953",
+          "author": "dcminter",
+          "description": "Article URL: https://aresluna.org/the-hardest-working-font-in-manhattan/\nComments URL: https://news.ycombinator.com/item?id=49201953\nPoints: 181\n# Comments: 27",
+          "link": "https://aresluna.org/the-hardest-working-font-in-manhattan/",
+          "publishedOn": "2026-08-06T20:22:29.000Z",
+          "wordCount": 6629,
+          "title": "The hardest working font in Manhattan (2025)",
+          "imageUrl": "https://aresluna.org/images/the-hardest-working-font-in-manhattan/ogimage.png"
         },
         {
           "id": "https://news.ycombinator.com/item?id=49201930",
@@ -12824,126 +12854,6 @@
           "wordCount": 712,
           "title": "A Study of Microsoft's Early 2026 Rollout of Claude Code and GitHub Copilot CLI",
           "imageUrl": "/static/browse/0.3.4/images/arxiv-logo-fb.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48898154",
-          "author": "neogenix",
-          "description": "I created a simple CLI that turns a YouTube guitar-lesson video into a PDF of the guitar tab.\nThere are services that transcribe music from Youtube videos into tabs, but they never work well enough for me. Instead I'm taking a simpler approach. \nIt downloads the video, samples frames, uses Claude vision to locate the tab region, crops every frame to that region, de-duplicates the crops by the bar number printed on each line of the score, and stitches the distinct tab lines vertically into a PDF.\nI didn't test it on a lot of different Youtube videos yet, so problem will arise for sure.\nComments URL: https://news.ycombinator.com/item?id=48898154\nPoints: 54\n# Comments: 40",
-          "link": "https://github.com/marcelpanse/youtube-guitar-tab-parser",
-          "publishedOn": "2026-07-13T20:13:14.000Z",
-          "wordCount": 2202,
-          "title": "Show HN: YouTube Guitar Tab Parser",
-          "imageUrl": "https://opengraph.githubassets.com/ff9cbdfd1eeb216c3ae1e860c4bf66380a9f629c50d67a524eb073e0fb9da41b/marcelpanse/youtube-guitar-tab-parser"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48898134",
-          "author": "arto",
-          "description": "Article URL: https://github.com/Poseidon-fan/linux-0.11-rs\nComments URL: https://news.ycombinator.com/item?id=48898134\nPoints: 58\n# Comments: 39",
-          "link": "https://github.com/Poseidon-fan/linux-0.11-rs",
-          "publishedOn": "2026-07-13T20:11:29.000Z",
-          "wordCount": 3129,
-          "title": "Linux 0.11 rewritten in idiomatic Rust, boots in QEMU",
-          "imageUrl": "https://opengraph.githubassets.com/4f2428dd148a26f5de68567bfa29cba3a221457cd311dc520c7326ff4b7f7185/Poseidon-fan/linux-0.11-rs"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48897991",
-          "author": "bundie",
-          "description": "Article URL: https://neow.in/cWsyMTV3\nComments URL: https://news.ycombinator.com/item?id=48897991\nPoints: 188\n# Comments: 52",
-          "link": "https://neow.in/cWsyMTV3",
-          "publishedOn": "2026-07-13T20:01:43.000Z",
-          "wordCount": 3069,
-          "title": "Samsung Health app threatens data deletion if users opt out AI training",
-          "imageUrl": "https://cdn.neowin.com/news/images/uploaded/2026/07/1783952968_samsung-health_story.webp"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48897975",
-          "author": "alxmrs",
-          "description": "Two weeks ago I was on my babymoon in Corfu, Greece. While in transit, I was overseeing a GSoC intern submit an important feature to my array database library, Xarray-SQL. He added `to_dataset()`, which completed the roundtrip between thinking of array data in a tabular model simultaneously as gridded rasters (the premise of the project is that every Nd array can be mapped to 2d, where orthogonal dims of the Nd array are just primary keys of a tabular representation). We discussed in chat, now that this feature existed, what demos could we make that would prove this data model works?\nWith down time on a warm beach during a heatwave, cool salty water giving me fresh ideas, I had an idea: what if we used Coiled's Geospatial benchmark discussion as a comprehensive overview of geo and climate …",
-          "link": "https://github.com/xqlsystems/xarray-sql/blob/claude/xarray-sql-mnist-demo/benchmarks/nn.py",
-          "publishedOn": "2026-07-13T20:00:10.000Z",
-          "wordCount": 5295,
-          "title": "Show HN: I implemented a neural network in SQL",
-          "imageUrl": "https://opengraph.githubassets.com/a97642fe2e986f3aee65cec997a75d92c738792546d9c891e865f9604f47230f/xqlsystems/xarray-sql"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48897945",
-          "author": "benwerd",
-          "description": "Article URL: https://werd.io/climate-gov-was-destroyed-open-data-saved-it/\nComments URL: https://news.ycombinator.com/item?id=48897945\nPoints: 143\n# Comments: 60",
-          "link": "https://werd.io/climate-gov-was-destroyed-open-data-saved-it/",
-          "publishedOn": "2026-07-13T19:57:55.000Z",
-          "wordCount": 977,
-          "title": "Climate.gov was destroyed. Open data saved it",
-          "imageUrl": "https://images.unsplash.com/photo-1548192746-dd526f154ed9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDJ8fGluZGllfGVufDB8fHx8MTc0OTY5ODcxM3ww&ixlib=rb-4.1.0&q=80&w=2000"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48897878",
-          "author": "Tiberium",
-          "description": "Article URL: https://www.whois.com/whois/t.me\nComments URL: https://news.ycombinator.com/item?id=48897878\nPoints: 59\n# Comments: 43",
-          "link": "https://www.whois.com/whois/t.me",
-          "publishedOn": "2026-07-13T19:52:25.000Z",
-          "wordCount": null,
-          "title": "Telegram's t.me domain has been suspended",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48897329",
-          "author": "speckx",
-          "description": "Article URL: https://bruceediger.com/posts/tftp-honeypot-results/\nComments URL: https://news.ycombinator.com/item?id=48897329\nPoints: 66\n# Comments: 30",
-          "link": "https://bruceediger.com/posts/tftp-honeypot-results/",
-          "publishedOn": "2026-07-13T19:11:17.000Z",
-          "wordCount": 1004,
-          "title": "TFTP Honey Pot Results",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48897104",
-          "author": "Stratoscope",
-          "description": "Article URL: https://www.sfgate.com/politics/article/meta-social-media-teenagers-22337724.php\nComments URL: https://news.ycombinator.com/item?id=48897104\nPoints: 50\n# Comments: 62",
-          "link": "https://www.sfgate.com/politics/article/meta-social-media-teenagers-22337724.php",
-          "publishedOn": "2026-07-13T18:53:53.000Z",
-          "wordCount": 177,
-          "title": "The infinite scroll may become endangered if controversial Calif. law passes",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48896800",
-          "author": "ianberdin",
-          "description": "Article URL: https://playcode.io/blog/real-price-of-frontier-models\nComments URL: https://news.ycombinator.com/item?id=48896800\nPoints: 75\n# Comments: 38",
-          "link": "https://playcode.io/blog/real-price-of-frontier-models",
-          "publishedOn": "2026-07-13T18:32:27.000Z",
-          "wordCount": 19275,
-          "title": "The real prices of frontier models. Tokens * Price, right?",
-          "imageUrl": "https://playcode.io/assets/static/img/logo.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48896703",
-          "author": "matthewgapp",
-          "description": "Article URL: https://nobie.com\nComments URL: https://news.ycombinator.com/item?id=48896703\nPoints: 61\n# Comments: 30",
-          "link": "https://nobie.com/",
-          "publishedOn": "2026-07-13T18:26:04.000Z",
-          "wordCount": 637,
-          "title": "Show HN: Nobie – an Excel-compatible runtime for agents and humans",
-          "imageUrl": "https://nobie.com/assets/images/og-site.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48896672",
-          "author": "srijan4",
-          "description": "Article URL: https://www.joanwestenberg.com/p/the-bread-paradox-why-convenience\nComments URL: https://news.ycombinator.com/item?id=48896672\nPoints: 96\n# Comments: 89",
-          "link": "https://www.joanwestenberg.com/p/the-bread-paradox-why-convenience",
-          "publishedOn": "2026-07-13T18:23:12.000Z",
-          "wordCount": 4716,
-          "title": "The bread paradox: why convenience always wins, and why SaaS isn't doomed",
-          "imageUrl": "https://substackcdn.com/image/fetch/$s_!hEI4!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F87751782-29da-46c1-a929-8b1b5ba73709_1373x1037.jpeg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48896665",
-          "author": "speckx",
-          "description": "Article URL: https://scottwillsey.com/building-and-shipping-mac-and-ios-apps-without-ever-opening-xcode/\nComments URL: https://news.ycombinator.com/item?id=48896665\nPoints: 96\n# Comments: 51",
-          "link": "https://scottwillsey.com/building-and-shipping-mac-and-ios-apps-without-ever-opening-xcode/",
-          "publishedOn": "2026-07-13T18:22:16.000Z",
-          "wordCount": 3044,
-          "title": "Building and Shipping Mac and iOS Apps Without Ever Opening Xcode",
-          "imageUrl": null
         }
       ]
     }
