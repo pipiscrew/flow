@@ -6,6 +6,16 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=49303592",
+          "author": "pseudolus",
+          "description": "Article URL: https://www.cnn.com/2026/08/14/business/vishal-garg-better-ceo\nComments URL: https://news.ycombinator.com/item?id=49303592\nPoints: 59\n# Comments: 30",
+          "link": "https://www.cnn.com/2026/08/14/business/vishal-garg-better-ceo",
+          "publishedOn": "2026-08-14T19:36:18.000Z",
+          "wordCount": null,
+          "title": "CEO who fired 900 people on Zoom just before Christmas wants his job back",
+          "imageUrl": null
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=49301260",
           "author": "tcp_handshaker",
           "description": "Article URL: https://www.bbc.com/news/articles/ce97mm3vvemo\nComments URL: https://news.ycombinator.com/item?id=49301260\nPoints: 221\n# Comments: 135",
@@ -14,6 +24,16 @@
           "wordCount": 6957,
           "title": "Count Binface receives over a quarter of votes in Clacton by-election",
           "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/ee7b/live/00590490-9714-11f1-a7ab-8b30adf0800a.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=49301215",
+          "author": "adius",
+          "description": "LuaCAD models solids in Lua rather than the OpenSCAD language, with operator\noverloading for CSG (`a + b`, `a - b`, `a * b`).\nIt ships with a CLI and a desktop app, including a preview area and a text editor.\nI've always been a big fan of OpenSCAD, but the SCAD language itself is unfortunately quite cobbled-together and is a very poorly designed programming language.\nLuaCAD takes all the good parts of OpenSCAD and combines them with one of the best scripting languages. It has now completely replaced OpenSCAD for me, and I think it provides a better experience than OpenSCAD for all use cases. I'd love to hear any reasons why LuaCAD shouldn't fully replace OpenSCAD!\nIt’s fully open source and you can find the repo here: https://github.com/ad-si/LuaCAD\nTech stack:\n- It's implemented in Rust and uses mlua (https://github.com/mlua-rs/mlua) to execute the Lua code.\n- Uses OpenCSG (https://opencsg.org) for fast and correct rendering of the 3D models (like OpenSCAD)\n- Uses Manifold (https://github.com/elalish/manifold) to create the manifold triangle meshes\n- Native support for all BOSL2 functions (i.e. implemented in Rust for better performance)\nComments URL: https://news.ycombinator.com/item?id=49301215\nPoints: 53\n# Comments: 13",
+          "link": "https://luacad.ad-si.com/",
+          "publishedOn": "2026-08-14T16:43:22.000Z",
+          "wordCount": 591,
+          "title": "Show HN: LuaCAD – Parametric CAD Scripted in Lua",
+          "imageUrl": null
         },
         {
           "id": "https://news.ycombinator.com/item?id=49300800",

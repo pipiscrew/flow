@@ -2,10 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-08-14T20:35:27.618Z</updated>
+    <updated>2026-08-14T21:29:21.965Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[CEO who fired 900 people on Zoom just before Christmas wants his job back]]></title>
+        <id>https://news.ycombinator.com/item?id=49303592</id>
+        <link href="https://www.cnn.com/2026/08/14/business/vishal-garg-better-ceo"/>
+        <updated>2026-08-14T19:36:18.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.cnn.com/2026/08/14/business/vishal-garg-better-ceo
+Comments URL: https://news.ycombinator.com/item?id=49303592
+Points: 59
+# Comments: 30]]></summary>
+        <author>
+            <name>pseudolus</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Count Binface receives over a quarter of votes in Clacton by-election]]></title>
         <id>https://news.ycombinator.com/item?id=49301260</id>
@@ -17,6 +30,29 @@ Points: 221
 # Comments: 135]]></summary>
         <author>
             <name>tcp_handshaker</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: LuaCAD – Parametric CAD Scripted in Lua]]></title>
+        <id>https://news.ycombinator.com/item?id=49301215</id>
+        <link href="https://luacad.ad-si.com/"/>
+        <updated>2026-08-14T16:43:22.000Z</updated>
+        <summary type="html"><![CDATA[LuaCAD models solids in Lua rather than the OpenSCAD language, with operator
+overloading for CSG (`a + b`, `a - b`, `a * b`).
+It ships with a CLI and a desktop app, including a preview area and a text editor.
+I've always been a big fan of OpenSCAD, but the SCAD language itself is unfortunately quite cobbled-together and is a very poorly designed programming language.
+LuaCAD takes all the good parts of OpenSCAD and combines them with one of the best scripting languages. It has now completely replaced OpenSCAD for me, and I think it provides a better experience than OpenSCAD for all use cases. I'd love to hear any reasons why LuaCAD shouldn't fully replace OpenSCAD!
+It’s fully open source and you can find the repo here: https://github.com/ad-si/LuaCAD
+Tech stack:
+- It's implemented in Rust and uses mlua (https://github.com/mlua-rs/mlua) to execute the Lua code.
+- Uses OpenCSG (https://opencsg.org) for fast and correct rendering of the 3D models (like OpenSCAD)
+- Uses Manifold (https://github.com/elalish/manifold) to create the manifold triangle meshes
+- Native support for all BOSL2 functions (i.e. implemented in Rust for better performance)
+Comments URL: https://news.ycombinator.com/item?id=49301215
+Points: 53
+# Comments: 13]]></summary>
+        <author>
+            <name>adius</name>
         </author>
     </entry>
     <entry>
