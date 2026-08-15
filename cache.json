@@ -6,6 +6,16 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=49306577",
+          "author": "Bender",
+          "description": "Article URL: https://earthquake.usgs.gov/earthquakes/eventpage/us6000tkt2/executive\nComments URL: https://news.ycombinator.com/item?id=49306577\nPoints: 73\n# Comments: 15",
+          "link": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tkt2/executive",
+          "publishedOn": "2026-08-15T01:14:05.000Z",
+          "wordCount": 4440,
+          "title": "Magnitude 7.7 Earthquake – 68 km NNW of Ende, Indonesia",
+          "imageUrl": null
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=49305927",
           "author": "bobstax",
           "description": "Article URL: https://www.ft.com/content/47dd5308-dd17-404a-a615-61046defd697\nComments URL: https://news.ycombinator.com/item?id=49305927\nPoints: 80\n# Comments: 32",
@@ -13,6 +23,16 @@
           "publishedOn": "2026-08-14T23:40:37.000Z",
           "wordCount": null,
           "title": "Jane Street suffers $15B hit after meltdown at Situational Awareness",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=49305708",
+          "author": "andsoitis",
+          "description": "Article URL: https://www.economist.com/by-invitation/2026/08/13/the-case-for-overhauling-american-science\nComments URL: https://news.ycombinator.com/item?id=49305708\nPoints: 50\n# Comments: 43",
+          "link": "https://www.economist.com/by-invitation/2026/08/13/the-case-for-overhauling-american-science",
+          "publishedOn": "2026-08-14T23:11:34.000Z",
+          "wordCount": null,
+          "title": "The case for overhauling American science",
           "imageUrl": null
         },
         {
@@ -64,6 +84,16 @@
           "wordCount": 6785,
           "title": "Firefox is now the last major browser that still supports uBlock Origin",
           "imageUrl": "https://www.pcworld.com/wp-content/uploads/2026/08/3212428-0-62401400-1786636364-Firefox-foto-mozilla.png?w=1024"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=49303046",
+          "author": "lajosdeme",
+          "description": "Doing research with agents is fun until they blow way past budget, jumble the sources, and don't even give you the best possible answer, just sound confident.\nAnd if you want to run some research task on local data - you have no idea where your data ends up after the prompt consumes it.\nSo I built this tool: a deep-research agent with an enforced budget, verified quotes, and a privacy boundary for local data.\n1. Never spend more than you budgeted (measured overshoot is 0%).\n2. Every claim carries a source\n3. Data stays local (give a CSV, it'll analyze it without the data ever leaving your machine)\nWorks with most LLMs, including coding agents, subscriptions, local models, etc.\nIt's free and open source, would appreciate all feedback!\nComments URL: https://news.ycombinator.com/item?id=49303046\nPoints: 53\n# Comments: 8",
+          "link": "https://github.com/lajosdeme/mole",
+          "publishedOn": "2026-08-14T18:52:48.000Z",
+          "wordCount": 5856,
+          "title": "Show HN: Mole – Deep research agent for your terminal",
+          "imageUrl": "https://opengraph.githubassets.com/9bfefc2c54c9cd6142fa4845dc77c509c0bf07a5e6c4b2552185687d047d5934/lajosdeme/mole"
         },
         {
           "id": "https://news.ycombinator.com/item?id=49302943",
@@ -12784,26 +12814,6 @@
           "wordCount": 19055,
           "title": "Guide to data tools landscape for developers",
           "imageUrl": "https://sinja.io/og/data-landscape-guide-for-developers.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48935342",
-          "author": "vincent_s",
-          "description": "https://www.kimi.com/en\nKimi K3 Intelligence, Performance & Price Analysis: https://artificialanalysis.ai/models/kimi-k3\nComments URL: https://news.ycombinator.com/item?id=48935342\nPoints: 877\n# Comments: 525",
-          "link": "https://www.kimi.com/blog/kimi-k3",
-          "publishedOn": "2026-07-16T14:46:05.000Z",
-          "wordCount": 5683,
-          "title": "Kimi K3: Open Frontier Intelligence",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48935342",
-          "author": "vincent_s",
-          "description": "Article URL: https://www.kimi.com/en\nComments URL: https://news.ycombinator.com/item?id=48935342\nPoints: 269\n# Comments: 146",
-          "link": "https://www.kimi.com/en",
-          "publishedOn": "2026-07-16T14:46:05.000Z",
-          "wordCount": 281,
-          "title": "Kimi K3 is now live",
-          "imageUrl": null
         }
       ]
     }
