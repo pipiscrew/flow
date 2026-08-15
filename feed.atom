@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-08-15T03:46:42.379Z</updated>
+    <updated>2026-08-15T04:37:32.082Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
@@ -17,6 +17,32 @@ Points: 73
 # Comments: 15]]></summary>
         <author>
             <name>Bender</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Ploopy A+ Trackball Is Here]]></title>
+        <id>https://news.ycombinator.com/item?id=49306443</id>
+        <link href="https://blog.ploopy.co/the-aplus-is-finally-here-499"/>
+        <updated>2026-08-15T00:55:31.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://blog.ploopy.co/the-aplus-is-finally-here-499
+Comments URL: https://news.ycombinator.com/item?id=49306443
+Points: 54
+# Comments: 30]]></summary>
+        <author>
+            <name>big_toast</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Simplifying and Refactoring Introductory Calculus]]></title>
+        <id>https://news.ycombinator.com/item?id=49306196</id>
+        <link href="https://arxiv.org/abs/1811.03459"/>
+        <updated>2026-08-15T00:15:23.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://arxiv.org/abs/1811.03459
+Comments URL: https://news.ycombinator.com/item?id=49306196
+Points: 54
+# Comments: 13]]></summary>
+        <author>
+            <name>E-Reverance</name>
         </author>
     </entry>
     <entry>
@@ -16764,90 +16790,6 @@ Points: 91
 # Comments: 68]]></summary>
         <author>
             <name>uneven9434</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Photos of items from families in different countries with different incomes]]></title>
-        <id>https://news.ycombinator.com/item?id=48936654</id>
-        <link href="https://www.gapminder.org/dollar-street"/>
-        <updated>2026-07-16T16:24:33.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.gapminder.org/dollar-street
-Comments URL: https://news.ycombinator.com/item?id=48936654
-Points: 54
-# Comments: 16]]></summary>
-        <author>
-            <name>uneven9434</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Decoy Font]]></title>
-        <id>https://news.ycombinator.com/item?id=48936584</id>
-        <link href="https://www.mixfont.com/experiments/decoy-font"/>
-        <updated>2026-07-16T16:18:21.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.mixfont.com/experiments/decoy-font
-Comments URL: https://news.ycombinator.com/item?id=48936584
-Points: 78
-# Comments: 35]]></summary>
-        <author>
-            <name>ray__</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[NotebookLM is now Gemini Notebook]]></title>
-        <id>https://news.ycombinator.com/item?id=48936451</id>
-        <link href="https://blog.google/innovation-and-ai/products/gemini-notebook/notebooklm-gemini-notebook/"/>
-        <updated>2026-07-16T16:08:13.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://blog.google/innovation-and-ai/products/gemini-notebook/notebooklm-gemini-notebook/
-Comments URL: https://news.ycombinator.com/item?id=48936451
-Points: 117
-# Comments: 77]]></summary>
-        <author>
-            <name>xnx</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Microsoft Comic Chat is now open source]]></title>
-        <id>https://news.ycombinator.com/item?id=48936426</id>
-        <link href="https://opensource.microsoft.com/blog/2026/07/16/microsoft-comic-chat-is-now-open-source/"/>
-        <updated>2026-07-16T16:06:27.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://opensource.microsoft.com/blog/2026/07/16/microsoft-comic-chat-is-now-open-source/
-Comments URL: https://news.ycombinator.com/item?id=48936426
-Points: 172
-# Comments: 47]]></summary>
-        <author>
-            <name>jervant</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: Leaves – A text-UI disk usage treemap visualizer]]></title>
-        <id>https://news.ycombinator.com/item?id=48936389</id>
-        <link href="https://github.com/patonw/leaves"/>
-        <updated>2026-07-16T16:03:43.000Z</updated>
-        <summary type="html"><![CDATA[GUI disk analyzers are great for figuring out what's filling up your laptop/desktop drive.
-On containers or remote servers, the options are limited to purely text based
-utilities (e.g. du) or list-centric TUIs (e.g. ncdu) which are usually limited
-to viewing one directory at a time.
-I created leaves to fill that gap.
-Inspired by classic utilities like WinDirStat and KDirStat, it uses a
-2-dimensional treemap^1 visualization to show the entire directory hierarchy
-with proportionally sized rectangles.
-It's performant enough to handle millions of files, thanks to Rust and
-multi-threading. However, block characters aren't as suited as pixels for
-resolving a large number of items. Leaves can show file-type summaries per
-directory or partition the top-level directories by extension, allowing you to
-see not only where space is being used, but also how.
-For instance, I can see the largest chunk of my home directory is taken up by
-uv caches for python and old Linux ISOs that I could easily re-download if
-needed. Or in a particular container, +600MB is used by standard Rust
-documentation and tutorials, and that it is the only location with HTML/JS files,
-when only the libraries and build tools are needed (note to self: remember to
-use the minimal profile next time).
-^1: https://github.com/shundhammer/qdirstat/blob/master/doc/Tree...
-Comments URL: https://news.ycombinator.com/item?id=48936389
-Points: 57
-# Comments: 17]]></summary>
-        <author>
-            <name>patonw</name>
         </author>
     </entry>
 </feed>

@@ -16,6 +16,26 @@
           "imageUrl": null
         },
         {
+          "id": "https://news.ycombinator.com/item?id=49306443",
+          "author": "big_toast",
+          "description": "Article URL: https://blog.ploopy.co/the-aplus-is-finally-here-499\nComments URL: https://news.ycombinator.com/item?id=49306443\nPoints: 54\n# Comments: 30",
+          "link": "https://blog.ploopy.co/the-aplus-is-finally-here-499",
+          "publishedOn": "2026-08-15T00:55:31.000Z",
+          "wordCount": null,
+          "title": "The Ploopy A+ Trackball Is Here",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=49306196",
+          "author": "E-Reverance",
+          "description": "Article URL: https://arxiv.org/abs/1811.03459\nComments URL: https://news.ycombinator.com/item?id=49306196\nPoints: 54\n# Comments: 13",
+          "link": "https://arxiv.org/abs/1811.03459",
+          "publishedOn": "2026-08-15T00:15:23.000Z",
+          "wordCount": 523,
+          "title": "Simplifying and Refactoring Introductory Calculus",
+          "imageUrl": "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=49305927",
           "author": "bobstax",
           "description": "Article URL: https://www.ft.com/content/47dd5308-dd17-404a-a615-61046defd697\nComments URL: https://news.ycombinator.com/item?id=49305927\nPoints: 80\n# Comments: 32",
@@ -12734,56 +12754,6 @@
           "wordCount": 2733,
           "title": "Detecting LLM-Generated Texts with “Classical” Machine Learning",
           "imageUrl": "https://blog.lyc8503.net/en/post/llm-classifier/ppl.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48936654",
-          "author": "uneven9434",
-          "description": "Article URL: https://www.gapminder.org/dollar-street\nComments URL: https://news.ycombinator.com/item?id=48936654\nPoints: 54\n# Comments: 16",
-          "link": "https://www.gapminder.org/dollar-street",
-          "publishedOn": "2026-07-16T16:24:33.000Z",
-          "wordCount": 34083,
-          "title": "Photos of items from families in different countries with different incomes",
-          "imageUrl": "https://www.gapminder.org/dollar-street/static/images/social/screen-matrix.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48936584",
-          "author": "ray__",
-          "description": "Article URL: https://www.mixfont.com/experiments/decoy-font\nComments URL: https://news.ycombinator.com/item?id=48936584\nPoints: 78\n# Comments: 35",
-          "link": "https://www.mixfont.com/experiments/decoy-font",
-          "publishedOn": "2026-07-16T16:18:21.000Z",
-          "wordCount": 946,
-          "title": "Decoy Font",
-          "imageUrl": "https://static.mixfont.com/assets/20260715-083635-decoy-font-og-ctfx685m.webp"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48936451",
-          "author": "xnx",
-          "description": "Article URL: https://blog.google/innovation-and-ai/products/gemini-notebook/notebooklm-gemini-notebook/\nComments URL: https://news.ycombinator.com/item?id=48936451\nPoints: 117\n# Comments: 77",
-          "link": "https://blog.google/innovation-and-ai/products/gemini-notebook/notebooklm-gemini-notebook/",
-          "publishedOn": "2026-07-16T16:08:13.000Z",
-          "wordCount": 3617,
-          "title": "NotebookLM is now Gemini Notebook",
-          "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-notebook__cover.width-1300.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48936426",
-          "author": "jervant",
-          "description": "Article URL: https://opensource.microsoft.com/blog/2026/07/16/microsoft-comic-chat-is-now-open-source/\nComments URL: https://news.ycombinator.com/item?id=48936426\nPoints: 172\n# Comments: 47",
-          "link": "https://opensource.microsoft.com/blog/2026/07/16/microsoft-comic-chat-is-now-open-source/",
-          "publishedOn": "2026-07-16T16:06:27.000Z",
-          "wordCount": 6076,
-          "title": "Microsoft Comic Chat is now open source",
-          "imageUrl": "https://opensource.microsoft.com/blog/wp-content/uploads/2026/07/Microsoft365-FY26-Consumer-C2-ArtStudio-2749-RGB-scaled.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48936389",
-          "author": "patonw",
-          "description": "GUI disk analyzers are great for figuring out what's filling up your laptop/desktop drive.\nOn containers or remote servers, the options are limited to purely text based\nutilities (e.g. du) or list-centric TUIs (e.g. ncdu) which are usually limited\nto viewing one directory at a time.\nI created leaves to fill that gap.\nInspired by classic utilities like WinDirStat and KDirStat, it uses a\n2-dimensional treemap^1 visualization to show the entire directory hierarchy\nwith proportionally sized rectangles.\nIt's performant enough to handle millions of files, thanks to Rust and\nmulti-threading. However, block characters aren't as suited as pixels for\nresolving a large number of items. Leaves can show file-type summaries per\ndirectory or partition the top-level directories by extension, allowing you to\nsee not only where space is being used, but also how.\nFor instance, I can see the largest chunk of my home directory is taken up by\nuv caches for python and old Linux ISOs that I could easily re-download if\nneeded. Or in a particular container, +600MB is used by standard Rust\ndocumentation and tutorials, and that it is the only location with HTML/JS files,\nwhen only the libraries and build tools are needed (note to self: remember to\nuse the minimal profile next time).\n^1: https://github.com/shundhammer/qdirstat/blob/master/doc/Tree...\nComments URL: https://news.ycombinator.com/item?id=48936389\nPoints: 57\n# Comments: 17",
-          "link": "https://github.com/patonw/leaves",
-          "publishedOn": "2026-07-16T16:03:43.000Z",
-          "wordCount": 5839,
-          "title": "Show HN: Leaves – A text-UI disk usage treemap visualizer",
-          "imageUrl": "https://opengraph.githubassets.com/fc9fb784ca3dc2ec068b875c8e809827d2eae1f2e6561af6e7ef054533e54ea9/patonw/leaves"
         }
       ]
     }
