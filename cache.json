@@ -6,6 +6,36 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=49322107",
+          "author": "stagas",
+          "description": "A few hours ago I switched my nameservers to Cloudflare in order to enable R2 bucket serving through my own subdomain, and I found out that it silently had injected a JS analytics snippet in my HTML-only JS-free site textlog.cc — I had to go to the Analytics dashboard, Add the site to the analytics and then disable the snippet. I find this approach entirely invasive, you should opt-in to features like that not have to opt-out. Just a warning out there to folks who might not be aware of this.\nComments URL: https://news.ycombinator.com/item?id=49322107\nPoints: 51\n# Comments: 5",
+          "link": "https://news.ycombinator.com/item?id=49322107",
+          "publishedOn": "2026-08-16T17:49:46.000Z",
+          "wordCount": 307,
+          "title": "Tell HN: Cloudflare silently injects its analytics when you switch nameservers",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=49321717",
+          "author": "Narishma",
+          "description": "Article URL: https://rvembedded.com/blog_post/12/\nComments URL: https://news.ycombinator.com/item?id=49321717\nPoints: 138\n# Comments: 52",
+          "link": "https://rvembedded.com/blog_post/12/",
+          "publishedOn": "2026-08-16T17:01:07.000Z",
+          "wordCount": 4653,
+          "title": "A 3rd World Embedded Engineer Responds to \"RISC-V They Should Have Known Better\"",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=49321353",
+          "author": "brandonb",
+          "description": "Article URL: https://www.science.org/content/article/nih-ending-key-grant-budding-clinical-researchers\nComments URL: https://news.ycombinator.com/item?id=49321353\nPoints: 70\n# Comments: 25",
+          "link": "https://www.science.org/content/article/nih-ending-key-grant-budding-clinical-researchers",
+          "publishedOn": "2026-08-16T16:14:55.000Z",
+          "wordCount": null,
+          "title": "NIH is ending a key grant for budding clinical researchers",
+          "imageUrl": null
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=49320984",
           "author": "lentil_soup",
           "description": "Article URL: https://www.theguardian.com/money/2026/aug/16/the-weekend-is-100-years-old-skiveday-fridays-and-hybrid-working-ruined-it\nComments URL: https://news.ycombinator.com/item?id=49320984\nPoints: 65\n# Comments: 26",
@@ -34,6 +64,16 @@
           "wordCount": 1246,
           "title": "The AI Credit Resale Economy",
           "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=49319814",
+          "author": "adjohu",
+          "description": "Article URL: https://wildstatic.com/\nComments URL: https://news.ycombinator.com/item?id=49319814\nPoints: 59\n# Comments: 37",
+          "link": "https://wildstatic.com/",
+          "publishedOn": "2026-08-16T13:21:45.000Z",
+          "wordCount": 115,
+          "title": "Show HN: A public AI whose memory is shared across all users",
+          "imageUrl": "https://wildstatic.com/og.jpg"
         },
         {
           "id": "https://news.ycombinator.com/item?id=49319727",
