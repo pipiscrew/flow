@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-08-18T22:29:04.036Z</updated>
+    <updated>2026-08-18T23:26:56.171Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
@@ -98,6 +98,19 @@ Points: 112
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[And then the men with guns tell you to do it anyway]]></title>
+        <id>https://news.ycombinator.com/item?id=49348912</id>
+        <link href="https://shkspr.mobi/blog/2026/08/and-then-the-men-with-guns-tell-you-to-do-it-anyway/"/>
+        <updated>2026-08-18T17:11:28.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://shkspr.mobi/blog/2026/08/and-then-the-men-with-guns-tell-you-to-do-it-anyway/
+Comments URL: https://news.ycombinator.com/item?id=49348912
+Points: 104
+# Comments: 52]]></summary>
+        <author>
+            <name>_djo_</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Claude Code weekly limits reduce by a third tomorrow]]></title>
         <id>https://news.ycombinator.com/item?id=49348751</id>
         <link href="https://support.claude.com/en/articles/15910845-claude-code-may-august-2026-weekly-limits-promotion"/>
@@ -121,6 +134,33 @@ Points: 120
 # Comments: 98]]></summary>
         <author>
             <name>matt89</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Launch HN: machine0 (YC S26) – Persistent CPU and GPU VMs from the CLI]]></title>
+        <id>https://news.ycombinator.com/item?id=49348136</id>
+        <link href="https://machine0.io/"/>
+        <updated>2026-08-18T16:26:42.000Z</updated>
+        <summary type="html"><![CDATA[Hi HN! I’m Barnaby, founder of machine0 (https://machine0.io). I’m building a CLI for long horizon agent compute: `machine0 new mybox` gives your agent a persistent cloud VM, billed by the minute, from $0.013/hr up to 60 vCPU / 240 GB RAM and GPUs (H100s, H200s etc), with 99.99% VM level uptime. Agents self drive via CLI or MCP.
+Demo: https://www.youtube.com/watch?v=gyllkZ0M04E
+Agent workloads are moving from ephemeral to always-on. A coding agent working on a complex feature runs 6-8 hours. Agent orchestrated training & RL runs take days. OpenClaw & Hermes run 24/7. As you run more in parallel:
+- Resources: a few agents on a large codebase saturate RAM and CPU. Model training and RL needs GPUs you don't have.
+- Security: `--yolo` on your personal machine is one prompt injection away from …]]></summary>
+        <author>
+            <name>bwm</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Apple announces changes for apps in the European Union]]></title>
+        <id>https://news.ycombinator.com/item?id=49348055</id>
+        <link href="https://www.apple.com/newsroom/2026/08/apple-announces-changes-for-apps-in-the-european-union/"/>
+        <updated>2026-08-18T16:21:34.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.apple.com/newsroom/2026/08/apple-announces-changes-for-apps-in-the-european-union/
+Comments URL: https://news.ycombinator.com/item?id=49348055
+Points: 87
+# Comments: 144]]></summary>
+        <author>
+            <name>newusertoday</name>
         </author>
     </entry>
     <entry>
@@ -17189,32 +17229,6 @@ Points: 183
 # Comments: 105]]></summary>
         <author>
             <name>rapnie</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Who's afraid of Chinese models?]]></title>
-        <id>https://news.ycombinator.com/item?id=48977128</id>
-        <link href="https://stratechery.com/2026/whos-afraid-of-chinese-models/"/>
-        <updated>2026-07-20T11:05:58.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://stratechery.com/2026/whos-afraid-of-chinese-models/
-Comments URL: https://news.ycombinator.com/item?id=48977128
-Points: 396
-# Comments: 273]]></summary>
-        <author>
-            <name>mfiguiere</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Airport Simulator]]></title>
-        <id>https://news.ycombinator.com/item?id=48976846</id>
-        <link href="https://airport.apunen.com/"/>
-        <updated>2026-07-20T10:30:40.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://airport.apunen.com/
-Comments URL: https://news.ycombinator.com/item?id=48976846
-Points: 229
-# Comments: 63]]></summary>
-        <author>
-            <name>apunen</name>
         </author>
     </entry>
 </feed>
