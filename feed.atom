@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-08-19T08:44:00.444Z</updated>
+    <updated>2026-08-19T09:38:54.474Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
@@ -30,6 +30,24 @@ Points: 88
 # Comments: 65]]></summary>
         <author>
             <name>newsomix9xl</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Automatically detect and patch walking-dead states in Sierra games]]></title>
+        <id>https://news.ycombinator.com/item?id=49355607</id>
+        <link href="https://github.com/katiahayati/lucasartsifier/"/>
+        <updated>2026-08-19T01:58:33.000Z</updated>
+        <summary type="html"><![CDATA[Hi HN, I've become lazier in my old age and struggle to replay my favorite Sierra games from the 80s and 90s because I keep getting into those situations where I need an item from 3 acts ago, I have no save game handy, and now I gotta make dinner.
+So I'm building the Lucasartsifier: a static analysis tool that decompiles Sierra resource files, automatically finds those states, automatically generates code to prevent the player from getting into those states, then emits loose patch files that can be placed alongside the original game resources. There's no game-specific code involved; all the logic is generic, though of course Sierra introduces new idioms and mechanics in every game so every new supported game needs a bunch of engine work.
+So for example in Leisure Suit Larry 2, the patched game prevents you from boarding the cruise ship until you have both the sunscreen and the Grotesque Gulp. Without them you die on the raft 3 play-hours later.
+So far this works on Leisure Suit Larry 2 (SCI0), King's Quest 4 (SCI0), King's Quest 6 (SCI1.1), and Laura Bow 2 (SCI1.1). I'm currently working on King's Quest 5 (SCI1.0).
+This is work done with Claude -- I do the design and playtesting and it does the rest :D
+Any feedback, play testing, and suggestions would be great!
+Comments URL: https://news.ycombinator.com/item?id=49355607
+Points: 55
+# Comments: 22]]></summary>
+        <author>
+            <name>wkfauna</name>
         </author>
     </entry>
     <entry>
@@ -17005,19 +17023,6 @@ Points: 148
 # Comments: 80]]></summary>
         <author>
             <name>swat535</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Designing an Ethernet Switch ASIC]]></title>
-        <id>https://news.ycombinator.com/item?id=48985182</id>
-        <link href="https://essenceia.github.io/projects/ethernet_switch_asic/"/>
-        <updated>2026-07-20T21:35:33.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://essenceia.github.io/projects/ethernet_switch_asic/
-Comments URL: https://news.ycombinator.com/item?id=48985182
-Points: 200
-# Comments: 48]]></summary>
-        <author>
-            <name>random__duck</name>
         </author>
     </entry>
 </feed>

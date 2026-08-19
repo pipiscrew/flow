@@ -26,6 +26,16 @@
           "imageUrl": null
         },
         {
+          "id": "https://news.ycombinator.com/item?id=49355607",
+          "author": "wkfauna",
+          "description": "Hi HN, I've become lazier in my old age and struggle to replay my favorite Sierra games from the 80s and 90s because I keep getting into those situations where I need an item from 3 acts ago, I have no save game handy, and now I gotta make dinner.\nSo I'm building the Lucasartsifier: a static analysis tool that decompiles Sierra resource files, automatically finds those states, automatically generates code to prevent the player from getting into those states, then emits loose patch files that can be placed alongside the original game resources. There's no game-specific code involved; all the logic is generic, though of course Sierra introduces new idioms and mechanics in every game so every new supported game needs a bunch of engine work.\nSo for example in Leisure Suit Larry 2, the patched game prevents you from boarding the cruise ship until you have both the sunscreen and the Grotesque Gulp. Without them you die on the raft 3 play-hours later.\nSo far this works on Leisure Suit Larry 2 (SCI0), King's Quest 4 (SCI0), King's Quest 6 (SCI1.1), and Laura Bow 2 (SCI1.1). I'm currently working on King's Quest 5 (SCI1.0).\nThis is work done with Claude -- I do the design and playtesting and it does the rest :D\nAny feedback, play testing, and suggestions would be great!\nComments URL: https://news.ycombinator.com/item?id=49355607\nPoints: 55\n# Comments: 22",
+          "link": "https://github.com/katiahayati/lucasartsifier/",
+          "publishedOn": "2026-08-19T01:58:33.000Z",
+          "wordCount": 6515,
+          "title": "Show HN: Automatically detect and patch walking-dead states in Sierra games",
+          "imageUrl": "https://opengraph.githubassets.com/36fd2e57b59f2de81d36d92dd03c152b36caa4c153d03ed6e7c87266f4bccff3/katiahayati/lucasartsifier"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=49355606",
           "author": "amatheus",
           "description": "Article URL: https://openlogi.org/en\nComments URL: https://news.ycombinator.com/item?id=49355606\nPoints: 124\n# Comments: 29",
@@ -12924,16 +12934,6 @@
           "wordCount": 2066,
           "title": "Jellyfin founder Andrew leaves team",
           "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48985182",
-          "author": "random__duck",
-          "description": "Article URL: https://essenceia.github.io/projects/ethernet_switch_asic/\nComments URL: https://news.ycombinator.com/item?id=48985182\nPoints: 200\n# Comments: 48",
-          "link": "https://essenceia.github.io/projects/ethernet_switch_asic/",
-          "publishedOn": "2026-07-20T21:35:33.000Z",
-          "wordCount": 5430,
-          "title": "Designing an Ethernet Switch ASIC",
-          "imageUrl": "https://essenceia.github.io/projects/ethernet_switch_asic/feature_floorplan.png"
         }
       ]
     }
