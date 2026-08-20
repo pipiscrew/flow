@@ -6,6 +6,16 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=49373456",
+          "author": "simedw",
+          "description": "I trained a 125M-parameter transformer to autocomplete piano performances in real time (~108 notes/sec on an iPhone 15).\nThe idea is basically GitHub Copilot or Tabnine, except instead of prompting it with code, you prompt it by playing a few notes on a MIDI piano. The model then continues what you played, entirely on-device.\nThe app is free if anyone wants to try it. Happy to answer questions about the model, training, Core ML, or the many things that didn't work.\nComments URL: https://news.ycombinator.com/item?id=49373456\nPoints: 99\n# Comments: 26",
+          "link": "https://simedw.com/2026/08/20/midi-autocomplete/",
+          "publishedOn": "2026-08-20T12:04:38.000Z",
+          "wordCount": 2866,
+          "title": "Show HN: I trained a 125M model to autocomplete piano on-device",
+          "imageUrl": "https://simedw.com/2026/08/20/midi-autocomplete/images/rolltab_phone.jpg"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=49372583",
           "author": "emctech",
           "description": "Article URL: https://blog.laserphile.com/2026/08/aliexpress-webpage-keeping-multipoint.html\nComments URL: https://news.ycombinator.com/item?id=49372583\nPoints: 63\n# Comments: 21",
@@ -1294,6 +1304,16 @@
           "wordCount": 4805,
           "title": "Anthropic's 'Watermark' Text Adulteration in Claude Is a Perversion of Writing",
           "imageUrl": "https://daringfireball.net/graphics/df-wide-card.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=49323795",
+          "author": "gavide",
+          "description": "Article URL: https://www.benjoffe.com/fast-day-of-week\nComments URL: https://news.ycombinator.com/item?id=49323795\nPoints: 204\n# Comments: 48",
+          "link": "https://www.benjoffe.com/fast-day-of-week",
+          "publishedOn": "2026-08-16T21:20:40.000Z",
+          "wordCount": 7629,
+          "title": "A faster way to calculate the day of the week",
+          "imageUrl": "https://www.benjoffe.com/manual-assets/fast-day-of-week-socialthumb.png"
         },
         {
           "id": "https://news.ycombinator.com/item?id=49323686",
@@ -12904,26 +12924,6 @@
           "wordCount": 437,
           "title": "Late.sh – a command-line Clubhouse for computer people",
           "imageUrl": "https://late.sh/static/og-image.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49000864",
-          "author": "DemiGuru",
-          "description": "Article URL: https://krebsonsecurity.com/2026/07/lg-to-ban-residential-proxies-from-smart-tv-apps/\nComments URL: https://news.ycombinator.com/item?id=49000864\nPoints: 187\n# Comments: 143",
-          "link": "https://krebsonsecurity.com/2026/07/lg-to-ban-residential-proxies-from-smart-tv-apps/",
-          "publishedOn": "2026-07-22T01:52:31.000Z",
-          "wordCount": 1438,
-          "title": "LG to ban residential proxies from smart TV apps",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49000600",
-          "author": "emerongi",
-          "description": "Article URL: http://hintjens.com/blog:99\nComments URL: https://news.ycombinator.com/item?id=49000600\nPoints: 96\n# Comments: 22",
-          "link": "http://hintjens.com/blog:99",
-          "publishedOn": "2026-07-22T01:17:26.000Z",
-          "wordCount": 1342,
-          "title": "Ten Steps Towards Happiness (2015)",
-          "imageUrl": null
         }
       ]
     }

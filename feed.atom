@@ -2,10 +2,25 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-08-20T12:59:09.460Z</updated>
+    <updated>2026-08-20T13:53:35.221Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Show HN: I trained a 125M model to autocomplete piano on-device]]></title>
+        <id>https://news.ycombinator.com/item?id=49373456</id>
+        <link href="https://simedw.com/2026/08/20/midi-autocomplete/"/>
+        <updated>2026-08-20T12:04:38.000Z</updated>
+        <summary type="html"><![CDATA[I trained a 125M-parameter transformer to autocomplete piano performances in real time (~108 notes/sec on an iPhone 15).
+The idea is basically GitHub Copilot or Tabnine, except instead of prompting it with code, you prompt it by playing a few notes on a MIDI piano. The model then continues what you played, entirely on-device.
+The app is free if anyone wants to try it. Happy to answer questions about the model, training, Core ML, or the many things that didn't work.
+Comments URL: https://news.ycombinator.com/item?id=49373456
+Points: 99
+# Comments: 26]]></summary>
+        <author>
+            <name>simedw</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[AliExpress runs silent WebAudio fingerprinting that breaks Bluetooth multipoint]]></title>
         <id>https://news.ycombinator.com/item?id=49372583</id>
@@ -1694,6 +1709,19 @@ Points: 72
 # Comments: 50]]></summary>
         <author>
             <name>ropbear</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A faster way to calculate the day of the week]]></title>
+        <id>https://news.ycombinator.com/item?id=49323795</id>
+        <link href="https://www.benjoffe.com/fast-day-of-week"/>
+        <updated>2026-08-16T21:20:40.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.benjoffe.com/fast-day-of-week
+Comments URL: https://news.ycombinator.com/item?id=49323795
+Points: 204
+# Comments: 48]]></summary>
+        <author>
+            <name>gavide</name>
         </author>
     </entry>
     <entry>
@@ -16978,32 +17006,6 @@ Points: 70
 # Comments: 20]]></summary>
         <author>
             <name>itherseed</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[LG to ban residential proxies from smart TV apps]]></title>
-        <id>https://news.ycombinator.com/item?id=49000864</id>
-        <link href="https://krebsonsecurity.com/2026/07/lg-to-ban-residential-proxies-from-smart-tv-apps/"/>
-        <updated>2026-07-22T01:52:31.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://krebsonsecurity.com/2026/07/lg-to-ban-residential-proxies-from-smart-tv-apps/
-Comments URL: https://news.ycombinator.com/item?id=49000864
-Points: 187
-# Comments: 143]]></summary>
-        <author>
-            <name>DemiGuru</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ten Steps Towards Happiness (2015)]]></title>
-        <id>https://news.ycombinator.com/item?id=49000600</id>
-        <link href="http://hintjens.com/blog:99"/>
-        <updated>2026-07-22T01:17:26.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: http://hintjens.com/blog:99
-Comments URL: https://news.ycombinator.com/item?id=49000600
-Points: 96
-# Comments: 22]]></summary>
-        <author>
-            <name>emerongi</name>
         </author>
     </entry>
 </feed>
