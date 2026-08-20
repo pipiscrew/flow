@@ -66,6 +66,16 @@
           "imageUrl": null
         },
         {
+          "id": "https://news.ycombinator.com/item?id=49366264",
+          "author": "animalcule",
+          "description": "Article URL: https://www.theverge.com/tech/981956/google-pixel-11-pro-fold-review\nComments URL: https://news.ycombinator.com/item?id=49366264\nPoints: 55\n# Comments: 116",
+          "link": "https://www.theverge.com/tech/981956/google-pixel-11-pro-fold-review",
+          "publishedOn": "2026-08-19T19:43:48.000Z",
+          "wordCount": 11644,
+          "title": "Pixel 11 Pro Fold feels like the end of an era",
+          "imageUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/google-pixel-11-pro-fold-01.jpg?quality=90&strip=all&crop=0%2C10.741906587151%2C100%2C78.516186825698&w=1200"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=49366067",
           "author": "zackfield",
           "description": "Article URL: https://router.com\nComments URL: https://news.ycombinator.com/item?id=49366067\nPoints: 70\n# Comments: 38",
@@ -12984,116 +12994,6 @@
           "wordCount": null,
           "title": "Advertise in ChatGPT",
           "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48996318",
-          "author": "FriedPickles",
-          "description": "Article URL: https://freeink.org/\nComments URL: https://news.ycombinator.com/item?id=48996318\nPoints: 225\n# Comments: 51",
-          "link": "https://freeink.org/",
-          "publishedOn": "2026-07-21T18:39:06.000Z",
-          "wordCount": 10,
-          "title": "FreeInk: Open ecosystem for e-readers",
-          "imageUrl": "https://freeink.org/og-image.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48996211",
-          "author": "speckx",
-          "description": "Article URL: https://alex4d.com/notes/item/apple-competing-for-creativity-app-users\nComments URL: https://news.ycombinator.com/item?id=48996211\nPoints: 57\n# Comments: 38",
-          "link": "https://alex4d.com/notes/item/apple-competing-for-creativity-app-users",
-          "publishedOn": "2026-07-21T18:30:53.000Z",
-          "wordCount": 1036,
-          "title": "Apple has decided to compete for creativity app users",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48996197",
-          "author": "tchalla",
-          "description": "Article URL: https://cacm.acm.org/opinion/ai-didnt-make-programming-easier-it-just-made-it-differently-difficult/\nComments URL: https://news.ycombinator.com/item?id=48996197\nPoints: 65\n# Comments: 18",
-          "link": "https://cacm.acm.org/opinion/ai-didnt-make-programming-easier-it-just-made-it-differently-difficult/",
-          "publishedOn": "2026-07-21T18:30:21.000Z",
-          "wordCount": null,
-          "title": "AI Didn't Make Programming Easier. It Just Made It Differently Difficult",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48996187",
-          "author": "kalcode",
-          "description": "I built this with Claude cause I always wanted to tinker with a simulation economoy and I love space themes.\nA space-economy sim where nothing is scripted. A few hundred autonomous ships each run their own planner. Some chase the best trade route, take a delivery contract, refuel, retrofit at a shipyard, or dock so the crew can rest before morale tanks.\nMarkets price everything off supply with shortage-urgency multipliers, factions tax and subsidize, populations migrate when they're unhappy, and stations that go broke get abandoned and rot.\nIt started as an Elixir/Phoenix prototype, but the BEAM scheduler struggled on Windows gaming PCs, so I had Claude rewrite the engine in Rust.\nThe sim core is pure, synchronous, IO-free (its own hecs ECS), and the Bevy client embeds it directly as a library, sim and renderer share one world with zero marshalling. Ship AI is a GOAP planner over a world state; ships replan mid-flight when a better option appears. ~485 agents today at p50 ~10-20ms/tick, architected to push toward 100k+. Single native binary, bundled SQLite, no runtime deps. Getting into 100k has been a struggle, but I have pushed it into the thousand and it was running fine.\nIt's a sandbox, not a game yet, there's no objective yet, and I'm not actively pushing it toward \"shippable.\" Anyone can fork it and take it over. Or it can stay as some type of AI slop, but part of me thinks it is already in a pretty good shape for a simulation use for various games or ideas.\n(Full disclosure: a lot of this was built pairing with Claude. That's how I had the bandwidth to take it this far. Happy to talk about what that workflow actually looked like.)\nComments URL: https://news.ycombinator.com/item?id=48996187\nPoints: 67\n# Comments: 23",
-          "link": "https://github.com/Kalcode/spaceprojectsim",
-          "publishedOn": "2026-07-21T18:29:57.000Z",
-          "wordCount": 5152,
-          "title": "Show HN: A self-running space economy SIM in Rust and Bevy",
-          "imageUrl": "https://opengraph.githubassets.com/7c5af9d576ec1846a9a913edc0a496a9775ec38aaf0693ab856234512c8c7ebe/Kalcode/spaceprojectsim"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48996128",
-          "author": "victorbrink",
-          "description": "Article URL: https://blog.qstars.nl/posts/cheap-self-hosted-kubernetes-on-hetzner-cloud/\nComments URL: https://news.ycombinator.com/item?id=48996128\nPoints: 50\n# Comments: 26",
-          "link": "https://blog.qstars.nl/posts/cheap-self-hosted-kubernetes-on-hetzner-cloud/",
-          "publishedOn": "2026-07-21T18:25:08.000Z",
-          "wordCount": 2351,
-          "title": "Cheap self-hosted Kubernetes on Hetzner cloud (2025)",
-          "imageUrl": "https://blog.qstars.nl/posts/cheap-self-hosted-kubernetes-on-hetzner-cloud/cover.webp"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48995796",
-          "author": "throwfaraway4",
-          "description": "Article URL: https://support.apple.com/guide/certifications/apple-private-cloud-compute-soc-3-audit-apc95a31b9d8/web\nComments URL: https://news.ycombinator.com/item?id=48995796\nPoints: 57\n# Comments: 13",
-          "link": "https://support.apple.com/guide/certifications/apple-private-cloud-compute-soc-3-audit-apc95a31b9d8/web",
-          "publishedOn": "2026-07-21T17:58:21.000Z",
-          "wordCount": 21246,
-          "title": "Apple Private Cloud Compute SoC 3 audit reports",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48995712",
-          "author": "nateb2022",
-          "description": "Article URL: https://unity.com/blog/meet-the-unity-cli\nComments URL: https://news.ycombinator.com/item?id=48995712\nPoints: 51\n# Comments: 15",
-          "link": "https://unity.com/blog/meet-the-unity-cli",
-          "publishedOn": "2026-07-21T17:51:57.000Z",
-          "wordCount": 5252,
-          "title": "The Unity CLI: manage Unity from your terminal",
-          "imageUrl": "htttps://unity.com/unity-logo-2024.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48995409",
-          "author": "twapi",
-          "description": "Article URL: https://blog.mozilla.org/en/firefox/firefox-containers-preview/\nComments URL: https://news.ycombinator.com/item?id=48995409\nPoints: 356\n# Comments: 102",
-          "link": "https://blog.mozilla.org/en/firefox/firefox-containers-preview/",
-          "publishedOn": "2026-07-21T17:27:59.000Z",
-          "wordCount": 1793,
-          "title": "Firefox Containers Preview",
-          "imageUrl": "https://blog.mozilla.org/wp-content/blogs.dir/278/files/2026/03/Cursor_Green_1920x1080-1080x720.jpeg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48995261",
-          "author": "rexledesma",
-          "description": "Article URL: https://poolside.ai/blog/introducing-laguna-s-2-1\nComments URL: https://news.ycombinator.com/item?id=48995261\nPoints: 113\n# Comments: 26",
-          "link": "https://poolside.ai/blog/introducing-laguna-s-2-1",
-          "publishedOn": "2026-07-21T17:17:06.000Z",
-          "wordCount": 7636,
-          "title": "Laguna S 2.1",
-          "imageUrl": "https://cdn.sanity.io/images/n259s8jk/production/58719108368a357e8825d9ff7d40e46242edce3a-1200x628.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48995213",
-          "author": "ryanmerket",
-          "description": "Article URL: https://runtimewire.com/article/jack-dorsey-block-buzz-team-chat-ai-agents-git\nComments URL: https://news.ycombinator.com/item?id=48995213\nPoints: 75\n# Comments: 66",
-          "link": "https://runtimewire.com/article/jack-dorsey-block-buzz-team-chat-ai-agents-git",
-          "publishedOn": "2026-07-21T17:14:06.000Z",
-          "wordCount": 1854,
-          "title": "Jack Dorsey launches Buzz to combine team chat, AI agents and Git hosting",
-          "imageUrl": "https://runtimewire.com/og/jack-dorsey-block-buzz-team-chat-ai-agents-git.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=48995074",
-          "author": "surprisetalk",
-          "description": "Article URL: https://ai.meta.com/blog/genesis-mission-lawrence-berkeley-national-laboratory-segment-anything-dino/?_fb_noscript=1\nComments URL: https://news.ycombinator.com/item?id=48995074\nPoints: 56\n# Comments: 39",
-          "link": "https://ai.meta.com/blog/genesis-mission-lawrence-berkeley-national-laboratory-segment-anything-dino/?_fb_noscript=1",
-          "publishedOn": "2026-07-21T17:03:18.000Z",
-          "wordCount": 1308,
-          "title": "Meta's AI Models Are Powering the First Wave of Genesis Mission Projects",
-          "imageUrl": "https://scontent-dfw6-1.xx.fbcdn.net/v/t39.2365-6/752631850_918439901272497_2117962010845605116_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=pryaHqlei_cQ7kNvwHZvJWr&_nc_oc=AdoOR8Dp-uVM5WEXknab6jx-aP_qM5epIznp_Pt0qdmELUHLVdAIlSEHPiFBn6UQucA&_nc_zt=14&_nc_ht=scontent-dfw6-1.xx&_nc_gid=fr9MyX8pdYEXtXKwcWPiFA&_nc_ss=7320f&oh=00_AQB3UxwsUvg4CgPTyPEmk7VIbh70OTtuzH0lta6hFiYI4A&oe=6A7A287E"
         }
       ]
     }

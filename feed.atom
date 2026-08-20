@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-08-20T05:35:46.979Z</updated>
+    <updated>2026-08-20T06:54:28.856Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
@@ -82,6 +82,19 @@ Points: 56
 # Comments: 40]]></summary>
         <author>
             <name>ErenayDev</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Pixel 11 Pro Fold feels like the end of an era]]></title>
+        <id>https://news.ycombinator.com/item?id=49366264</id>
+        <link href="https://www.theverge.com/tech/981956/google-pixel-11-pro-fold-review"/>
+        <updated>2026-08-19T19:43:48.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.theverge.com/tech/981956/google-pixel-11-pro-fold-review
+Comments URL: https://news.ycombinator.com/item?id=49366264
+Points: 55
+# Comments: 116]]></summary>
+        <author>
+            <name>animalcule</name>
         </author>
     </entry>
     <entry>
@@ -17082,155 +17095,6 @@ Points: 100
 # Comments: 94]]></summary>
         <author>
             <name>montecarl</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[FreeInk: Open ecosystem for e-readers]]></title>
-        <id>https://news.ycombinator.com/item?id=48996318</id>
-        <link href="https://freeink.org/"/>
-        <updated>2026-07-21T18:39:06.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://freeink.org/
-Comments URL: https://news.ycombinator.com/item?id=48996318
-Points: 225
-# Comments: 51]]></summary>
-        <author>
-            <name>FriedPickles</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Apple has decided to compete for creativity app users]]></title>
-        <id>https://news.ycombinator.com/item?id=48996211</id>
-        <link href="https://alex4d.com/notes/item/apple-competing-for-creativity-app-users"/>
-        <updated>2026-07-21T18:30:53.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://alex4d.com/notes/item/apple-competing-for-creativity-app-users
-Comments URL: https://news.ycombinator.com/item?id=48996211
-Points: 57
-# Comments: 38]]></summary>
-        <author>
-            <name>speckx</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AI Didn't Make Programming Easier. It Just Made It Differently Difficult]]></title>
-        <id>https://news.ycombinator.com/item?id=48996197</id>
-        <link href="https://cacm.acm.org/opinion/ai-didnt-make-programming-easier-it-just-made-it-differently-difficult/"/>
-        <updated>2026-07-21T18:30:21.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://cacm.acm.org/opinion/ai-didnt-make-programming-easier-it-just-made-it-differently-difficult/
-Comments URL: https://news.ycombinator.com/item?id=48996197
-Points: 65
-# Comments: 18]]></summary>
-        <author>
-            <name>tchalla</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: A self-running space economy SIM in Rust and Bevy]]></title>
-        <id>https://news.ycombinator.com/item?id=48996187</id>
-        <link href="https://github.com/Kalcode/spaceprojectsim"/>
-        <updated>2026-07-21T18:29:57.000Z</updated>
-        <summary type="html"><![CDATA[I built this with Claude cause I always wanted to tinker with a simulation economoy and I love space themes.
-A space-economy sim where nothing is scripted. A few hundred autonomous ships each run their own planner. Some chase the best trade route, take a delivery contract, refuel, retrofit at a shipyard, or dock so the crew can rest before morale tanks.
-Markets price everything off supply with shortage-urgency multipliers, factions tax and subsidize, populations migrate when they're unhappy, and stations that go broke get abandoned and rot.
-It started as an Elixir/Phoenix prototype, but the BEAM scheduler struggled on Windows gaming PCs, so I had Claude rewrite the engine in Rust.
-The sim core is pure, synchronous, IO-free (its own hecs ECS), and the Bevy client embeds it directly as a library, sim and renderer share one world with zero marshalling. Ship AI is a GOAP planner over a world state; ships replan mid-flight when a better option appears. ~485 agents today at p50 ~10-20ms/tick, architected to push toward 100k+. Single native binary, bundled SQLite, no runtime deps. Getting into 100k has been a struggle, but I have pushed it into the thousand and it was running fine.
-It's a sandbox, not a game yet, there's no objective yet, and I'm not actively pushing it toward "shippable." Anyone can fork it and take it over. Or it can stay as some type of AI slop, but part of me thinks it is already in a pretty good shape for a simulation use for various games or ideas.
-(Full disclosure: a lot of this was built pairing with Claude. That's how I had the bandwidth to take it this far. Happy to talk about what that workflow actually looked like.)
-Comments URL: https://news.ycombinator.com/item?id=48996187
-Points: 67
-# Comments: 23]]></summary>
-        <author>
-            <name>kalcode</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Cheap self-hosted Kubernetes on Hetzner cloud (2025)]]></title>
-        <id>https://news.ycombinator.com/item?id=48996128</id>
-        <link href="https://blog.qstars.nl/posts/cheap-self-hosted-kubernetes-on-hetzner-cloud/"/>
-        <updated>2026-07-21T18:25:08.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://blog.qstars.nl/posts/cheap-self-hosted-kubernetes-on-hetzner-cloud/
-Comments URL: https://news.ycombinator.com/item?id=48996128
-Points: 50
-# Comments: 26]]></summary>
-        <author>
-            <name>victorbrink</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Apple Private Cloud Compute SoC 3 audit reports]]></title>
-        <id>https://news.ycombinator.com/item?id=48995796</id>
-        <link href="https://support.apple.com/guide/certifications/apple-private-cloud-compute-soc-3-audit-apc95a31b9d8/web"/>
-        <updated>2026-07-21T17:58:21.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://support.apple.com/guide/certifications/apple-private-cloud-compute-soc-3-audit-apc95a31b9d8/web
-Comments URL: https://news.ycombinator.com/item?id=48995796
-Points: 57
-# Comments: 13]]></summary>
-        <author>
-            <name>throwfaraway4</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Unity CLI: manage Unity from your terminal]]></title>
-        <id>https://news.ycombinator.com/item?id=48995712</id>
-        <link href="https://unity.com/blog/meet-the-unity-cli"/>
-        <updated>2026-07-21T17:51:57.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://unity.com/blog/meet-the-unity-cli
-Comments URL: https://news.ycombinator.com/item?id=48995712
-Points: 51
-# Comments: 15]]></summary>
-        <author>
-            <name>nateb2022</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Firefox Containers Preview]]></title>
-        <id>https://news.ycombinator.com/item?id=48995409</id>
-        <link href="https://blog.mozilla.org/en/firefox/firefox-containers-preview/"/>
-        <updated>2026-07-21T17:27:59.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://blog.mozilla.org/en/firefox/firefox-containers-preview/
-Comments URL: https://news.ycombinator.com/item?id=48995409
-Points: 356
-# Comments: 102]]></summary>
-        <author>
-            <name>twapi</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Laguna S 2.1]]></title>
-        <id>https://news.ycombinator.com/item?id=48995261</id>
-        <link href="https://poolside.ai/blog/introducing-laguna-s-2-1"/>
-        <updated>2026-07-21T17:17:06.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://poolside.ai/blog/introducing-laguna-s-2-1
-Comments URL: https://news.ycombinator.com/item?id=48995261
-Points: 113
-# Comments: 26]]></summary>
-        <author>
-            <name>rexledesma</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Jack Dorsey launches Buzz to combine team chat, AI agents and Git hosting]]></title>
-        <id>https://news.ycombinator.com/item?id=48995213</id>
-        <link href="https://runtimewire.com/article/jack-dorsey-block-buzz-team-chat-ai-agents-git"/>
-        <updated>2026-07-21T17:14:06.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://runtimewire.com/article/jack-dorsey-block-buzz-team-chat-ai-agents-git
-Comments URL: https://news.ycombinator.com/item?id=48995213
-Points: 75
-# Comments: 66]]></summary>
-        <author>
-            <name>ryanmerket</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Meta's AI Models Are Powering the First Wave of Genesis Mission Projects]]></title>
-        <id>https://news.ycombinator.com/item?id=48995074</id>
-        <link href="https://ai.meta.com/blog/genesis-mission-lawrence-berkeley-national-laboratory-segment-anything-dino/?_fb_noscript=1"/>
-        <updated>2026-07-21T17:03:18.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://ai.meta.com/blog/genesis-mission-lawrence-berkeley-national-laboratory-segment-anything-dino/?_fb_noscript=1
-Comments URL: https://news.ycombinator.com/item?id=48995074
-Points: 56
-# Comments: 39]]></summary>
-        <author>
-            <name>surprisetalk</name>
         </author>
     </entry>
 </feed>
