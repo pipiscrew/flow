@@ -6,6 +6,16 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=49383026",
+          "author": "Cider9986",
+          "description": "Article URL: https://annas-archive.gl/blog/physical-destruction.html\nComments URL: https://news.ycombinator.com/item?id=49383026\nPoints: 154\n# Comments: 99",
+          "link": "https://annas-archive.gl/blog/physical-destruction.html",
+          "publishedOn": "2026-08-21T02:37:47.000Z",
+          "wordCount": 3807,
+          "title": "AI companies destroy physical books – let's scan rare books before it's too late",
+          "imageUrl": "https://annas-archive.gl/blog/duxiu-examples/1.jpg"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=49382041",
           "author": "u1hcw9nx",
           "description": "Article URL: https://mathstodon.xyz/@maxpool/117128107757895678\nComments URL: https://news.ycombinator.com/item?id=49382041\nPoints: 50\n# Comments: 53",
@@ -14,6 +24,16 @@
           "wordCount": 206,
           "title": "Copyright does not protect AI-generated content in EU",
           "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=49381896",
+          "author": "mtokmak06",
+          "description": "https://twitter.com/OpenRouter/status/2090544970923184269, https://xcancel.com/OpenRouter/status/2090544970923184269\nComments URL: https://news.ycombinator.com/item?id=49381896\nPoints: 64\n# Comments: 49",
+          "link": "https://openrouter.ai/stealth/ox-alpha",
+          "publishedOn": "2026-08-20T23:56:35.000Z",
+          "wordCount": 4687,
+          "title": "Ox Alpha",
+          "imageUrl": "https://openrouter.ai/stealth/ox-alpha/opengraph-image-1oizug?abd1ffaa6102aa5f"
         },
         {
           "id": "https://news.ycombinator.com/item?id=49379550",
@@ -113,6 +133,16 @@
           "publishedOn": "2026-08-20T17:50:02.000Z",
           "wordCount": 3996,
           "title": "I should have loved biology (2020)",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=49377739",
+          "author": "cassepipe",
+          "description": "Article URL: https://bactra.org/notebooks/cybersyn.html\nComments URL: https://news.ycombinator.com/item?id=49377739\nPoints: 54\n# Comments: 41",
+          "link": "https://bactra.org/notebooks/cybersyn.html",
+          "publishedOn": "2026-08-20T17:40:49.000Z",
+          "wordCount": null,
+          "title": "Project Cybersyn (2022)",
           "imageUrl": null
         },
         {
@@ -12924,86 +12954,6 @@
           "wordCount": 5926,
           "title": "Magnolias Are So Old That They're Pollinated by Beetles, Not Bees",
           "imageUrl": "https://mymodernmet.com/wp/wp-content/uploads/2025/06/Magnolia-Beetle-Pollinator-thumbnail.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49009324",
-          "author": "shahahmed",
-          "description": "Article URL: https://www.swingnyc.com/\nComments URL: https://news.ycombinator.com/item?id=49009324\nPoints: 57\n# Comments: 24",
-          "link": "https://www.swingnyc.com/",
-          "publishedOn": "2026-07-22T16:25:08.000Z",
-          "wordCount": 964,
-          "title": "Show HN: Web swing through midtown NYC",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49008642",
-          "author": "surprisetalk",
-          "description": "Article URL: https://dynomight.net/creatine/\nComments URL: https://news.ycombinator.com/item?id=49008642\nPoints: 69\n# Comments: 35",
-          "link": "https://dynomight.net/creatine/",
-          "publishedOn": "2026-07-22T15:45:18.000Z",
-          "wordCount": 5023,
-          "title": "Does creatine make you smarter?",
-          "imageUrl": "https://dynomight.net/img/creatine/the_biglin_brothers_racing.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49008538",
-          "author": "Davisb135",
-          "description": "I'm the author of a paper my friends and I wrote after we were curious if a MUD, text games originating in the 1970s, could be used to evaluate LLMs. We've spent the last several months on nights and weekends running this experiment and writing the paper on just our personal computers with about $99 in API credits.\nOur experiment did have an interesting leaderboard but even more surprising was the measurements of each LLM. We scored each on four behavioral dimensions, two of which lean heavily on an LLM classifier. When we removed those two, one of the frontier models fell six positions. When we then checked the classifier against a second judge, the per-model agreement between them ranged from 85% to 22%. The aggregate kappa (0.04 on probe detection) indicated the instrument was noisy without saying which models the noise was hitting. The most affected model shared a model family with the classifier. This isn't proof of bias, just one observation we recorded.\nWe realize LLM judges can be unreliable, and while it wasn't our original intent to test this, it ended up being the most interesting finding. The divergence between the two judges is the finding we think generalizes to other judge-based benchmarks.\nWe emphasize this is just a proof of concept and not a validated benchmark. We prepared a thorough limitations section in the paper, including just 50 runs per model, overlapping CIs among the top models, no human raters, a tiny environment, etc.\nEverything we did is publicly available, the paper and data are CC BY 4.0, while the code is MIT. The paper, transcripts, code, and complete API billing export  can be found at https://doi.org/10.5281/zenodo.21386663\nIf you find issues, please let us know, that's why we're sharing this. We're currently designing Phase 2 and want it to be as robust as possible. We're looking at human baselines, multiple judges, more objectives, a larger environment, etc.\nComments URL: https://news.ycombinator.com/item?id=49008538\nPoints: 65\n# Comments: 37",
-          "link": "https://cruciblebench.ai/",
-          "publishedOn": "2026-07-22T15:39:01.000Z",
-          "wordCount": 1229,
-          "title": "Can a MUD evaluate LLMs? A $99 proof of concept",
-          "imageUrl": "https://cruciblebench.ai/social-card.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49008512",
-          "author": "crescit_eundo",
-          "description": "https://www.youtube.com/watch?v=AWig98GVIno\nhttps://www.tomshardware.com/3d-printing/mit-researchers-rev...\nhttps://www.yankodesign.com/2026/05/31/a-zipper-patent-sat-i...\nComments URL: https://news.ycombinator.com/item?id=49008512\nPoints: 89\n# Comments: 25",
-          "link": "https://news.mit.edu/2026/three-sided-y-zipper-design-0504",
-          "publishedOn": "2026-07-22T15:37:25.000Z",
-          "wordCount": 1908,
-          "title": "An old patent inspired the new \"Y-zipper\", a three-sided fastener",
-          "imageUrl": "https://news.mit.edu/sites/default/files/images/202604/MIT-csail-YZipper.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49008440",
-          "author": "erikschoster",
-          "description": "Article URL: https://beej.us/blog/data/ai-making/\nComments URL: https://news.ycombinator.com/item?id=49008440\nPoints: 122\n# Comments: 43",
-          "link": "https://beej.us/blog/data/ai-making/",
-          "publishedOn": "2026-07-22T15:33:48.000Z",
-          "wordCount": 3217,
-          "title": "Making",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49008406",
-          "author": "oyster143",
-          "description": "Article URL: https://www.orangecrumbs.com/hall/\nComments URL: https://news.ycombinator.com/item?id=49008406\nPoints: 129\n# Comments: 31",
-          "link": "https://www.orangecrumbs.com/hall/",
-          "publishedOn": "2026-07-22T15:30:36.000Z",
-          "wordCount": 1095,
-          "title": "Show HN: HN Hall of Fame – browse 3,100 legendary Hacker News links",
-          "imageUrl": "https://www.orangecrumbs.com/hall/assets/social-card.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49008396",
-          "author": "hn_acker",
-          "description": "Article URL: https://news.mongabay.com/2026/07/zero-roadkill-as-amazon-canopy-bridges-secure-15000-crossings/\nComments URL: https://news.ycombinator.com/item?id=49008396\nPoints: 72\n# Comments: 8",
-          "link": "https://news.mongabay.com/2026/07/zero-roadkill-as-amazon-canopy-bridges-secure-15000-crossings/",
-          "publishedOn": "2026-07-22T15:29:44.000Z",
-          "wordCount": 3789,
-          "title": "Zero roadkill as Amazon canopy bridges secure 15,000 crossings",
-          "imageUrl": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/07/20170143/4.-Macaco-aranha_Credito_Sergio-Leal-1-scaled-1-scaled.jpeg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49008211",
-          "author": "starfallg",
-          "description": "Over the past few months, our team has been building more and more slidedecks using web frontend technologies with coding harnesses like Claude Code, but a common complaint is to make even small edits we need to edit the code either manually or via the harness.\nTo avoid this loop, I ended up creating Bento, a single HTML file with everything you need in a slide tool including animations and shared editing. There's no install or cloud login, everything works offline. The default deck is around 560 KB and it doesn't need to fetch anything once you got it.\nOpen it in a browser and then you can edit, present, print and save. Share it via email or via Airdrop and all they need is a browser to edit, present and also do live collab on the slides. Drop it in to Claude or ChatGPT to transform existing pptx files into Bento slides. There is no cloud involved, only an encrypted blind relay to allow for shared editing. The relay doesn't see any of the data.\nCheck it out at https://bento.page/slides/ which takes you straight to the editor.\nGo to https://bento.page/guestbook/ to try out the live guestbook to experience share editing / collab.\nThere is also a gallery with some sample decks on the website - https://bento.page/\nAll the code is MIT licensed and you can find it here - https://github.com/nyblnet/bento . I used reveal.js with several other libraries (including some homegrown ones), and Claude Code.\nComments URL: https://news.ycombinator.com/item?id=49008211\nPoints: 350\n# Comments: 76",
-          "link": "https://bento.page/slides/",
-          "publishedOn": "2026-07-22T15:19:23.000Z",
-          "wordCount": 246,
-          "title": "Show HN: Bento - An entire PowerPoint in one HTML file (edit+view+data+collab)",
-          "imageUrl": null
         }
       ]
     }
