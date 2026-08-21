@@ -12904,36 +12904,6 @@
           "wordCount": 3979,
           "title": "Clarity didn't work, trying mysterianism (2012)",
           "imageUrl": "http://web.archive.org/web/20121008025245im_/http://l-userpic.livejournal.com/88845746/3732453 "
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49010993",
-          "author": "g0xA52A2A",
-          "description": "Article URL: https://saffroncr.itch.io/katavatis/devlog/1534514/building-a-tiny-3d-renderer-for-a-tiny-handheld\nComments URL: https://news.ycombinator.com/item?id=49010993\nPoints: 53\n# Comments: 2",
-          "link": "https://saffroncr.itch.io/katavatis/devlog/1534514/building-a-tiny-3d-renderer-for-a-tiny-handheld",
-          "publishedOn": "2026-07-22T18:09:26.000Z",
-          "wordCount": null,
-          "title": "Building a Tiny 3D Renderer for a Tiny Handheld",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49010782",
-          "author": "HenryNdubuaku",
-          "description": "Hey HN, Henry & Roman here from Cactus.\nA small, on-device model is fast and private, but sometimes wrong, but frontier models are getting expensive pretty fast. So, we post-trained Gemma 4 E2B post-trained to know when it's wrong. Every response comes with a confidence score between 0 and 1. Developers can accept the on-device when it's high, hand off to a bigger cloud model when it's low. By routing only 15-35% of queries to Gemini 3.1 Flash-Lite, Gemma-4-E2B matches Gemini 3.1 Flash-Lite on most benchmarks.\n- ChartQA: 15-20%\n- LibriSpeech: 25-30%\n- MMBench, GigaSpeech, MMAU: 30-35%\n- MMLU-Pro: 45-55%\nWe were always frustrated by the routing signals hybrid apps rely on: asking the model to rate itself in text (unreliable, and you're parsing prose), or token entropy heuristics (barely bet…",
-          "link": "https://github.com/cactus-compute/cactus-hybrid",
-          "publishedOn": "2026-07-22T17:56:29.000Z",
-          "wordCount": 2792,
-          "title": "Show HN: Cactus Hybrid: We taught Gemma 4 to know when it's wrong",
-          "imageUrl": "https://opengraph.githubassets.com/e702af2c3c3da3461c66e0d7e339e11de909cb6a159c694a5fcb5a3280aa1a51/cactus-compute/cactus-hybrid"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49010648",
-          "author": "WadeGrimridge",
-          "description": "Article URL: https://mitchellh.com/writing/everyone-should-know-simd\nComments URL: https://news.ycombinator.com/item?id=49010648\nPoints: 65\n# Comments: 21",
-          "link": "https://mitchellh.com/writing/everyone-should-know-simd",
-          "publishedOn": "2026-07-22T17:48:18.000Z",
-          "wordCount": 4763,
-          "title": "Everyone Should Know SIMD",
-          "imageUrl": null
         }
       ]
     }

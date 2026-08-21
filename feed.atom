@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-08-21T05:37:06.156Z</updated>
+    <updated>2026-08-21T06:55:40.685Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
@@ -16972,48 +16972,6 @@ Points: 51
 # Comments: 15]]></summary>
         <author>
             <name>dboon</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Building a Tiny 3D Renderer for a Tiny Handheld]]></title>
-        <id>https://news.ycombinator.com/item?id=49010993</id>
-        <link href="https://saffroncr.itch.io/katavatis/devlog/1534514/building-a-tiny-3d-renderer-for-a-tiny-handheld"/>
-        <updated>2026-07-22T18:09:26.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://saffroncr.itch.io/katavatis/devlog/1534514/building-a-tiny-3d-renderer-for-a-tiny-handheld
-Comments URL: https://news.ycombinator.com/item?id=49010993
-Points: 53
-# Comments: 2]]></summary>
-        <author>
-            <name>g0xA52A2A</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: Cactus Hybrid: We taught Gemma 4 to know when it's wrong]]></title>
-        <id>https://news.ycombinator.com/item?id=49010782</id>
-        <link href="https://github.com/cactus-compute/cactus-hybrid"/>
-        <updated>2026-07-22T17:56:29.000Z</updated>
-        <summary type="html"><![CDATA[Hey HN, Henry & Roman here from Cactus.
-A small, on-device model is fast and private, but sometimes wrong, but frontier models are getting expensive pretty fast. So, we post-trained Gemma 4 E2B post-trained to know when it's wrong. Every response comes with a confidence score between 0 and 1. Developers can accept the on-device when it's high, hand off to a bigger cloud model when it's low. By routing only 15-35% of queries to Gemini 3.1 Flash-Lite, Gemma-4-E2B matches Gemini 3.1 Flash-Lite on most benchmarks.
-- ChartQA: 15-20%
-- LibriSpeech: 25-30%
-- MMBench, GigaSpeech, MMAU: 30-35%
-- MMLU-Pro: 45-55%
-We were always frustrated by the routing signals hybrid apps rely on: asking the model to rate itself in text (unreliable, and you're parsing prose), or token entropy heuristics (barely bet…]]></summary>
-        <author>
-            <name>HenryNdubuaku</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Everyone Should Know SIMD]]></title>
-        <id>https://news.ycombinator.com/item?id=49010648</id>
-        <link href="https://mitchellh.com/writing/everyone-should-know-simd"/>
-        <updated>2026-07-22T17:48:18.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://mitchellh.com/writing/everyone-should-know-simd
-Comments URL: https://news.ycombinator.com/item?id=49010648
-Points: 65
-# Comments: 21]]></summary>
-        <author>
-            <name>WadeGrimridge</name>
         </author>
     </entry>
 </feed>
