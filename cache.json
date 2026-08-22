@@ -16,6 +16,16 @@
           "imageUrl": null
         },
         {
+          "id": "https://news.ycombinator.com/item?id=49394827",
+          "author": "dariusmonsef",
+          "description": "I think agent-first chat interfaces will be a primary software modality and busy dashboard/UI will go away. I’m not sure who exactly wins it, but I want my knowledge to grow/go with me.\nA lot of the “knowledge” ie research, analysis, reasoning will be done by agents as the primary user. Our current notes tools & tasks management systems were built for humans… I don’t care what the 17th thing on my bug backlog is. I want to conduct agents that can execute for me and do great work.\nWhat I built OzBrain to do:\n+ Create a central place for agent reasoned knowledge to live\n+ Be agnostic about what apps/agents connect to it\n+ Capture everything and track it so I can audit it\n+ Enable teams, collaborators or partners to share brains\n+ Handle conflicts so many agents in the same article doesn’t bl…",
+          "link": "https://ozbrain.com/",
+          "publishedOn": "2026-08-21T23:09:06.000Z",
+          "wordCount": 23290,
+          "title": "Show HN: OzBrain, a shared brain for knowledge between agents and your team",
+          "imageUrl": "https://ozbrain.com/og.png?v=4"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=49394496",
           "author": "tdullien",
           "description": "Article URL: https://thomasdullien.github.io/posts/2026-08-21-three-important-steps-in-my-maturation-process/\nComments URL: https://news.ycombinator.com/item?id=49394496\nPoints: 73\n# Comments: 17",
@@ -23,6 +33,16 @@
           "publishedOn": "2026-08-21T22:29:00.000Z",
           "wordCount": 2801,
           "title": "Three important steps in my maturation process",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=49393052",
+          "author": "matklad",
+          "description": "https://matklad.github.io/2026/08/21/rust-glancer.html\nComments URL: https://news.ycombinator.com/item?id=49393052\nPoints: 67\n# Comments: 24",
+          "link": "https://rust-glancer.github.io/blog/hello-world/",
+          "publishedOn": "2026-08-21T19:51:54.000Z",
+          "wordCount": 2575,
+          "title": "Rust Glancer: Rust LSP using 100x less RAM",
           "imageUrl": null
         },
         {
@@ -54,6 +74,16 @@
           "wordCount": 1886,
           "title": "Scientists release biggest 2D map of the universe",
           "imageUrl": "https://newscenter.lbl.gov/wp-content/uploads/2026/08/Newscenter_Feature_1400px-DR11-M96_DECam_TAR-CC9.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=49391553",
+          "author": "hn_acker",
+          "description": "Article URL: https://matduggan.com/otel-isnt-going-well-and-i-made-a-spreadsheet-about-it/\nComments URL: https://news.ycombinator.com/item?id=49391553\nPoints: 51\n# Comments: 18",
+          "link": "https://matduggan.com/otel-isnt-going-well-and-i-made-a-spreadsheet-about-it/",
+          "publishedOn": "2026-08-21T17:45:41.000Z",
+          "wordCount": 3842,
+          "title": "OTel isn't going well (and I made a spreadsheet about it)",
+          "imageUrl": null
         },
         {
           "id": "https://news.ycombinator.com/item?id=49390463",
@@ -563,6 +593,16 @@
           "publishedOn": "2026-08-20T17:40:49.000Z",
           "wordCount": null,
           "title": "Project Cybersyn (2022)",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=49376769",
+          "author": "adamrezich",
+          "description": "Article URL: https://www.gingerbill.org/article/2026/08/20/designing-odins-inline-asm/\nComments URL: https://news.ycombinator.com/item?id=49376769\nPoints: 51\n# Comments: 17",
+          "link": "https://www.gingerbill.org/article/2026/08/20/designing-odins-inline-asm/",
+          "publishedOn": "2026-08-20T16:22:58.000Z",
+          "wordCount": 6357,
+          "title": "Everyone says assembly is untyped—everyone is wrong",
           "imageUrl": null
         },
         {
@@ -12914,56 +12954,6 @@
           "wordCount": 4844,
           "title": "JEP 540: Simple JSON API (Now in Incubator)",
           "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49023486",
-          "author": "conradqh",
-          "description": "Article URL: https://github.com/Conradqh/scrapemychats\nComments URL: https://news.ycombinator.com/item?id=49023486\nPoints: 57\n# Comments: 5",
-          "link": "https://github.com/Conradqh/scrapemychats",
-          "publishedOn": "2026-07-23T15:45:51.000Z",
-          "wordCount": 4904,
-          "title": "Free way to get your data out of ChatGPT Business accounts",
-          "imageUrl": "https://opengraph.githubassets.com/b8b1091f2a15847b4f75f716f8f31d52d38fbfff891678c48d87bb0f3a03ad08/Conradqh/scrapemychats"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49023427",
-          "author": "Jonathanfishner",
-          "description": "hey HN, Jonathan and Guy here, creators of OneCLI (https://onecli.sh/). OneCLI is an open source vault for AI Agents.\nTraditional vaults are used to store your secrets and, on demand, provide them to you all in a secure way, trusting the person to keep them safe. We figured that in the agent's world, this is not the case, as you don't know what happens with the secret after it's delivered to the agent, or where it was saved. Or maybe someone even manipulated them to hand them over...\nFrom that understanding, we decided to build a network gateway that sits between your AI agents and the services they call. OneCLI matches the request by host/path, verifies the agent should have access, swaps the placeholder for the real credential, and forwards the request. \nthe secrets set inside the OneCLI…",
-          "link": "https://github.com/onecli/onecli",
-          "publishedOn": "2026-07-23T15:42:40.000Z",
-          "wordCount": 3284,
-          "title": "Show HN: OneCLI – OSS credential gateway that keeps secrets out of AI agents",
-          "imageUrl": "https://repository-images.githubusercontent.com/1175900220/ef74e755-ef2e-4166-8437-b1ad4830e2ff"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49023019",
-          "author": "dhorthy",
-          "description": "Article URL: https://github.com/humanlayer/advanced-context-engineering-for-coding-agents/blob/main/wsff.md\nComments URL: https://news.ycombinator.com/item?id=49023019\nPoints: 90\n# Comments: 65",
-          "link": "https://github.com/humanlayer/advanced-context-engineering-for-coding-agents/blob/main/wsff.md",
-          "publishedOn": "2026-07-23T15:18:48.000Z",
-          "wordCount": 26447,
-          "title": "Why Software Factories Fail (or: harness engineering is not enough)",
-          "imageUrl": "https://opengraph.githubassets.com/79921d150e24792a071105d4f686f49948c9f0fe332579390bd37801613955f0/humanlayer/advanced-context-engineering-for-coding-agents"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49023016",
-          "author": "theanonymousone",
-          "description": "https://littletech.org/\nhttps://static.politico.com/4a/bf/9c4021d8404386b0a311dcccf0...\nComments URL: https://news.ycombinator.com/item?id=49023016\nPoints: 312\n# Comments: 314",
-          "link": "https://www.politico.com/news/2026/07/22/startup-founders-urge-trump-not-to-shut-off-chinese-open-weight-ai-01008992",
-          "publishedOn": "2026-07-23T15:18:40.000Z",
-          "wordCount": null,
-          "title": "Startup founders urge U.S. government not to shut off Chinese open weight AI",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49022911",
-          "author": "harrisontin",
-          "description": "Hi HN, we are Marcos and Harrison, cofounders of Palmier (https://palmier.io). We are building Palmier Pro, an open source macOS video editor, with built-in AI generation and a local MCP server that connects to your agent. Here are a few demos:\n- Making some AI transitions: https://www.youtube.com/watch?v=hbM_-eR1GX4\n- Multicam editing with Codex: https://www.youtube.com/watch?v=SjS2q2LT1q8\n- Cutting long form clips into shorts: https://www.youtube.com/watch?v=PR66eN2ouuQ\nWe built Palmier Pro as an internal tool when we were making AI launch videos for other startups. The main problem it solved in the beginning was the back-and-forth between AI generation platform and video editor. The iteration loop was awkward: AI videos → download → import to editor → edit → realize we need to change th…",
-          "link": "https://github.com/palmier-io/palmier-pro",
-          "publishedOn": "2026-07-23T15:11:37.000Z",
-          "wordCount": 2583,
-          "title": "Show HN: Palmier Pro – Open-source macOS video editor built for AI",
-          "imageUrl": "https://opengraph.githubassets.com/87c9d1aab33efb451ec2e982be58a64b574f0332517e4c37ea7f0c3d96eb9070/palmier-io/palmier-pro"
         }
       ]
     }

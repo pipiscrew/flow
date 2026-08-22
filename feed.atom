@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-08-22T02:58:42.494Z</updated>
+    <updated>2026-08-22T03:49:17.255Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
@@ -20,6 +20,23 @@ Points: 81
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Show HN: OzBrain, a shared brain for knowledge between agents and your team]]></title>
+        <id>https://news.ycombinator.com/item?id=49394827</id>
+        <link href="https://ozbrain.com/"/>
+        <updated>2026-08-21T23:09:06.000Z</updated>
+        <summary type="html"><![CDATA[I think agent-first chat interfaces will be a primary software modality and busy dashboard/UI will go away. I’m not sure who exactly wins it, but I want my knowledge to grow/go with me.
+A lot of the “knowledge” ie research, analysis, reasoning will be done by agents as the primary user. Our current notes tools & tasks management systems were built for humans… I don’t care what the 17th thing on my bug backlog is. I want to conduct agents that can execute for me and do great work.
+What I built OzBrain to do:
++ Create a central place for agent reasoned knowledge to live
++ Be agnostic about what apps/agents connect to it
++ Capture everything and track it so I can audit it
++ Enable teams, collaborators or partners to share brains
++ Handle conflicts so many agents in the same article doesn’t bl…]]></summary>
+        <author>
+            <name>dariusmonsef</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Three important steps in my maturation process]]></title>
         <id>https://news.ycombinator.com/item?id=49394496</id>
         <link href="https://thomasdullien.github.io/posts/2026-08-21-three-important-steps-in-my-maturation-process/"/>
@@ -30,6 +47,19 @@ Points: 73
 # Comments: 17]]></summary>
         <author>
             <name>tdullien</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Rust Glancer: Rust LSP using 100x less RAM]]></title>
+        <id>https://news.ycombinator.com/item?id=49393052</id>
+        <link href="https://rust-glancer.github.io/blog/hello-world/"/>
+        <updated>2026-08-21T19:51:54.000Z</updated>
+        <summary type="html"><![CDATA[https://matklad.github.io/2026/08/21/rust-glancer.html
+Comments URL: https://news.ycombinator.com/item?id=49393052
+Points: 67
+# Comments: 24]]></summary>
+        <author>
+            <name>matklad</name>
         </author>
     </entry>
     <entry>
@@ -69,6 +99,19 @@ Points: 54
 # Comments: 15]]></summary>
         <author>
             <name>NKosmatos</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[OTel isn't going well (and I made a spreadsheet about it)]]></title>
+        <id>https://news.ycombinator.com/item?id=49391553</id>
+        <link href="https://matduggan.com/otel-isnt-going-well-and-i-made-a-spreadsheet-about-it/"/>
+        <updated>2026-08-21T17:45:41.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://matduggan.com/otel-isnt-going-well-and-i-made-a-spreadsheet-about-it/
+Comments URL: https://news.ycombinator.com/item?id=49391553
+Points: 51
+# Comments: 18]]></summary>
+        <author>
+            <name>hn_acker</name>
         </author>
     </entry>
     <entry>
@@ -742,6 +785,19 @@ Points: 54
 # Comments: 41]]></summary>
         <author>
             <name>cassepipe</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Everyone says assembly is untyped—everyone is wrong]]></title>
+        <id>https://news.ycombinator.com/item?id=49376769</id>
+        <link href="https://www.gingerbill.org/article/2026/08/20/designing-odins-inline-asm/"/>
+        <updated>2026-08-20T16:22:58.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.gingerbill.org/article/2026/08/20/designing-odins-inline-asm/
+Comments URL: https://news.ycombinator.com/item?id=49376769
+Points: 51
+# Comments: 17]]></summary>
+        <author>
+            <name>adamrezich</name>
         </author>
     </entry>
     <entry>
@@ -16965,73 +17021,6 @@ Points: 61
 # Comments: 43]]></summary>
         <author>
             <name>theanonymousone</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Free way to get your data out of ChatGPT Business accounts]]></title>
-        <id>https://news.ycombinator.com/item?id=49023486</id>
-        <link href="https://github.com/Conradqh/scrapemychats"/>
-        <updated>2026-07-23T15:45:51.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://github.com/Conradqh/scrapemychats
-Comments URL: https://news.ycombinator.com/item?id=49023486
-Points: 57
-# Comments: 5]]></summary>
-        <author>
-            <name>conradqh</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: OneCLI – OSS credential gateway that keeps secrets out of AI agents]]></title>
-        <id>https://news.ycombinator.com/item?id=49023427</id>
-        <link href="https://github.com/onecli/onecli"/>
-        <updated>2026-07-23T15:42:40.000Z</updated>
-        <summary type="html"><![CDATA[hey HN, Jonathan and Guy here, creators of OneCLI (https://onecli.sh/). OneCLI is an open source vault for AI Agents.
-Traditional vaults are used to store your secrets and, on demand, provide them to you all in a secure way, trusting the person to keep them safe. We figured that in the agent's world, this is not the case, as you don't know what happens with the secret after it's delivered to the agent, or where it was saved. Or maybe someone even manipulated them to hand them over...
-From that understanding, we decided to build a network gateway that sits between your AI agents and the services they call. OneCLI matches the request by host/path, verifies the agent should have access, swaps the placeholder for the real credential, and forwards the request. 
-the secrets set inside the OneCLI…]]></summary>
-        <author>
-            <name>Jonathanfishner</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Why Software Factories Fail (or: harness engineering is not enough)]]></title>
-        <id>https://news.ycombinator.com/item?id=49023019</id>
-        <link href="https://github.com/humanlayer/advanced-context-engineering-for-coding-agents/blob/main/wsff.md"/>
-        <updated>2026-07-23T15:18:48.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://github.com/humanlayer/advanced-context-engineering-for-coding-agents/blob/main/wsff.md
-Comments URL: https://news.ycombinator.com/item?id=49023019
-Points: 90
-# Comments: 65]]></summary>
-        <author>
-            <name>dhorthy</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Startup founders urge U.S. government not to shut off Chinese open weight AI]]></title>
-        <id>https://news.ycombinator.com/item?id=49023016</id>
-        <link href="https://www.politico.com/news/2026/07/22/startup-founders-urge-trump-not-to-shut-off-chinese-open-weight-ai-01008992"/>
-        <updated>2026-07-23T15:18:40.000Z</updated>
-        <summary type="html"><![CDATA[https://littletech.org/
-https://static.politico.com/4a/bf/9c4021d8404386b0a311dcccf0...
-Comments URL: https://news.ycombinator.com/item?id=49023016
-Points: 312
-# Comments: 314]]></summary>
-        <author>
-            <name>theanonymousone</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: Palmier Pro – Open-source macOS video editor built for AI]]></title>
-        <id>https://news.ycombinator.com/item?id=49022911</id>
-        <link href="https://github.com/palmier-io/palmier-pro"/>
-        <updated>2026-07-23T15:11:37.000Z</updated>
-        <summary type="html"><![CDATA[Hi HN, we are Marcos and Harrison, cofounders of Palmier (https://palmier.io). We are building Palmier Pro, an open source macOS video editor, with built-in AI generation and a local MCP server that connects to your agent. Here are a few demos:
-- Making some AI transitions: https://www.youtube.com/watch?v=hbM_-eR1GX4
-- Multicam editing with Codex: https://www.youtube.com/watch?v=SjS2q2LT1q8
-- Cutting long form clips into shorts: https://www.youtube.com/watch?v=PR66eN2ouuQ
-We built Palmier Pro as an internal tool when we were making AI launch videos for other startups. The main problem it solved in the beginning was the back-and-forth between AI generation platform and video editor. The iteration loop was awkward: AI videos → download → import to editor → edit → realize we need to change th…]]></summary>
-        <author>
-            <name>harrisontin</name>
         </author>
     </entry>
 </feed>
