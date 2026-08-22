@@ -6,6 +6,26 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=49401621",
+          "author": "MilnerRoute",
+          "description": "Article URL: https://www.cnn.com/2026/08/22/europe/prince-belgium-secret-son-scli-intl\nComments URL: https://news.ycombinator.com/item?id=49401621\nPoints: 58\n# Comments: 41",
+          "link": "https://www.cnn.com/2026/08/22/europe/prince-belgium-secret-son-scli-intl",
+          "publishedOn": "2026-08-22T17:09:27.000Z",
+          "wordCount": null,
+          "title": "Belgian car salesman becomes prince after DNA test proves royal parentage",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=49401549",
+          "author": "matthieu_bl",
+          "description": "Article URL: https://twitter.com/argofowl/status/2091150597374537729\nComments URL: https://news.ycombinator.com/item?id=49401549\nPoints: 69\n# Comments: 71",
+          "link": "https://twitter.com/argofowl/status/2091150597374537729",
+          "publishedOn": "2026-08-22T16:58:49.000Z",
+          "wordCount": 1146,
+          "title": "Anthropic appears to be A/B testing reduced effort levels in Claude Code",
+          "imageUrl": "https://pbs.twimg.com/profile_images/2046948500206940161/qOR9xYkA_400x400.jpg"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=49400408",
           "author": "jemoka",
           "description": "Article URL: https://quantumi.sh/public/labs.html\nComments URL: https://news.ycombinator.com/item?id=49400408\nPoints: 56\n# Comments: 13",
@@ -1356,6 +1376,16 @@
           "imageUrl": null
         },
         {
+          "id": "https://news.ycombinator.com/item?id=49355659",
+          "author": "gregsadetsky",
+          "description": "Article URL: https://www.rfcafe.com/\nComments URL: https://news.ycombinator.com/item?id=49355659\nPoints: 52\n# Comments: 8",
+          "link": "https://www.rfcafe.com/",
+          "publishedOn": "2026-08-19T02:05:43.000Z",
+          "wordCount": 4042,
+          "title": "RF Cafe",
+          "imageUrl": "https://www.rfcafe.com/rf-cafe-og-1.gif"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=49355607",
           "author": "wkfauna",
           "description": "Hi HN, I've become lazier in my old age and struggle to replay my favorite Sierra games from the 80s and 90s because I keep getting into those situations where I need an item from 3 acts ago, I have no save game handy, and now I gotta make dinner.\nSo I'm building the Lucasartsifier: a static analysis tool that decompiles Sierra resource files, automatically finds those states, automatically generates code to prevent the player from getting into those states, then emits loose patch files that can be placed alongside the original game resources. There's no game-specific code involved; all the logic is generic, though of course Sierra introduces new idioms and mechanics in every game so every new supported game needs a bunch of engine work.\nSo for example in Leisure Suit Larry 2, the patched game prevents you from boarding the cruise ship until you have both the sunscreen and the Grotesque Gulp. Without them you die on the raft 3 play-hours later.\nSo far this works on Leisure Suit Larry 2 (SCI0), King's Quest 4 (SCI0), King's Quest 6 (SCI1.1), and Laura Bow 2 (SCI1.1). I'm currently working on King's Quest 5 (SCI1.0).\nThis is work done with Claude -- I do the design and playtesting and it does the rest :D\nAny feedback, play testing, and suggestions would be great!\nComments URL: https://news.ycombinator.com/item?id=49355607\nPoints: 55\n# Comments: 22",
@@ -1474,6 +1504,16 @@
           "wordCount": 60780,
           "title": "Claude Code Teaching macOS to Natively Print to the HP Laser 1008a",
           "imageUrl": "https://cdn.kuber.studio/chat/og-hp-laser-1008a.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=49351802",
+          "author": "auraham",
+          "description": "Article URL: https://hister.org/\nComments URL: https://news.ycombinator.com/item?id=49351802\nPoints: 66\n# Comments: 15",
+          "link": "https://hister.org/",
+          "publishedOn": "2026-08-18T20:00:50.000Z",
+          "wordCount": 804,
+          "title": "Hister – A private, full content search index that you control",
+          "imageUrl": "https://hister.org/logo.png"
         },
         {
           "id": "https://news.ycombinator.com/item?id=49351330",
@@ -1634,6 +1674,16 @@
           "wordCount": 1285,
           "title": "Microgpt in pure C hits 10M tps on Apple m5",
           "imageUrl": "https://opengraph.githubassets.com/aa9b9768b6e0613ff86f978ae5a820dc92489962ba6c14a207c807d97e94f62b/vixhal-baraiya/microgpt-c"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=49346854",
+          "author": "bookofjoe",
+          "description": "Article URL: https://typ.ing/\nComments URL: https://news.ycombinator.com/item?id=49346854\nPoints: 55\n# Comments: 15",
+          "link": "https://typ.ing/",
+          "publishedOn": "2026-08-18T15:12:53.000Z",
+          "wordCount": 60,
+          "title": "typ.ing",
+          "imageUrl": null
         },
         {
           "id": "https://news.ycombinator.com/item?id=49346444",
@@ -12894,26 +12944,6 @@
           "wordCount": 1527,
           "title": "It's getting harder to focus every day",
           "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49032095",
-          "author": "signa11",
-          "description": "Article URL: https://mariusbancila.ro/blog/2026/07/23/the-pimpl-idiom-and-the-cpp26-stdindirect-type/\nComments URL: https://news.ycombinator.com/item?id=49032095\nPoints: 54\n# Comments: 50",
-          "link": "https://mariusbancila.ro/blog/2026/07/23/the-pimpl-idiom-and-the-cpp26-stdindirect-type/",
-          "publishedOn": "2026-07-24T07:02:43.000Z",
-          "wordCount": 3513,
-          "title": "The PImpl idiom and the C++26 std:indirect type",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49032072",
-          "author": "ingve",
-          "description": "Article URL: https://chipsandcheese.com/p/amds-instinct-mi455x-aiming-for-the\nComments URL: https://news.ycombinator.com/item?id=49032072\nPoints: 62\n# Comments: 28",
-          "link": "https://chipsandcheese.com/p/amds-instinct-mi455x-aiming-for-the",
-          "publishedOn": "2026-07-24T06:59:07.000Z",
-          "wordCount": 4560,
-          "title": "AMD's Instinct MI455X: Aiming for the Sun",
-          "imageUrl": "https://substackcdn.com/image/fetch/$s_!vm_9!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5aed42bb-f239-4316-89ea-e12fcafad025_964x1156.png"
         }
       ]
     }
