@@ -2,10 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-08-24T19:33:37.673Z</updated>
+    <updated>2026-08-24T20:36:27.936Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Oceans hit highest temperature on record]]></title>
+        <id>https://news.ycombinator.com/item?id=49424606</id>
+        <link href="https://www.bbc.com/news/articles/c62m4gpnp78o"/>
+        <updated>2026-08-24T19:19:08.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.bbc.com/news/articles/c62m4gpnp78o
+Comments URL: https://news.ycombinator.com/item?id=49424606
+Points: 136
+# Comments: 44]]></summary>
+        <author>
+            <name>tcp_handshaker</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[The entire city of San Francisco as a video game]]></title>
         <id>https://news.ycombinator.com/item?id=49422784</id>
@@ -17,6 +30,19 @@ Points: 81
 # Comments: 29]]></summary>
         <author>
             <name>centrosphere</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Hot Chips 2026: CUDA Targets RISC-V – By Chester Lam]]></title>
+        <id>https://news.ycombinator.com/item?id=49422548</id>
+        <link href="https://chipsandcheese.com/p/hot-chips-2026-cuda-targets-risc"/>
+        <updated>2026-08-24T16:52:01.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://chipsandcheese.com/p/hot-chips-2026-cuda-targets-risc
+Comments URL: https://news.ycombinator.com/item?id=49422548
+Points: 52
+# Comments: 6]]></summary>
+        <author>
+            <name>rbanffy</name>
         </author>
     </entry>
     <entry>
@@ -56,6 +82,20 @@ Points: 55
 # Comments: 29]]></summary>
         <author>
             <name>tke248</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: PicoMQ – Durable Streams over HTTP, on object storage]]></title>
+        <id>https://news.ycombinator.com/item?id=49421806</id>
+        <link href="https://picomq.com/"/>
+        <updated>2026-08-24T16:08:17.000Z</updated>
+        <summary type="html"><![CDATA[PicoMQ is a Rust server for Durable Streams, built on Object Store. Cheap, URL-addressable, granular streams (create/append/read/long-poll/SSE), with Pico Protocol or Durable Streams Protocol as the facade.
+S3Stream is the stream storage primitive, used in AutoMQ, shipped as a Rust library. Coordination is a command log in Postgres.
+Comments URL: https://news.ycombinator.com/item?id=49421806
+Points: 55
+# Comments: 7]]></summary>
+        <author>
+            <name>adesh_nalpet</name>
         </author>
     </entry>
     <entry>
@@ -16574,19 +16614,6 @@ Points: 106
 # Comments: 46]]></summary>
         <author>
             <name>vismit2000</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Teach yourself programming in ten years (1998)]]></title>
-        <id>https://news.ycombinator.com/item?id=49055816</id>
-        <link href="https://www.norvig.com/21-days.html"/>
-        <updated>2026-07-26T08:06:45.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.norvig.com/21-days.html
-Comments URL: https://news.ycombinator.com/item?id=49055816
-Points: 63
-# Comments: 22]]></summary>
-        <author>
-            <name>vinhnx</name>
         </author>
     </entry>
 </feed>
