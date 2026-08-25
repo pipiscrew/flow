@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-08-25T20:34:45.066Z</updated>
+    <updated>2026-08-25T21:33:32.060Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
@@ -149,6 +149,21 @@ Points: 134
 # Comments: 90]]></summary>
         <author>
             <name>surprisetalk</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: I made a Raspberry with Qwen my local car AI]]></title>
+        <id>https://news.ycombinator.com/item?id=49435675</id>
+        <link href="https://github.com/ThinkOffApp/CarWatch"/>
+        <updated>2026-08-25T15:20:20.000Z</updated>
+        <summary type="html"><![CDATA[Found that you can actually run a 35B Qwen model on a Pi with very impressive intelligence and stability. Built connectors for car ODB to read all about car internals, and manufacturer's cloud service for stuff like changing AC or opening/ locking doors. Gave it info such as the full car manual. And then hooked it up with my other agents in our discussion room!
+So now it can answer car questions such as "when should I add oil and what kind of oil?" and help you fully offline, and when online talk with the agent family that includes all the most powerful models so they know how the car is, plan new features and develop itself with them.
+For example, if car breaks and can't move  the car agent informs my agent family and they can already look for a suitable train ticket without me needing to check things or do something.
+Comments URL: https://news.ycombinator.com/item?id=49435675
+Points: 56
+# Comments: 12]]></summary>
+        <author>
+            <name>petruspennanen</name>
         </author>
     </entry>
     <entry>
@@ -570,6 +585,19 @@ Points: 56
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Visualizing Binary Files]]></title>
+        <id>https://news.ycombinator.com/item?id=49423878</id>
+        <link href="https://movq.de/blog/postings/2026-08-05/0/POSTING-en.html"/>
+        <updated>2026-08-24T18:21:17.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://movq.de/blog/postings/2026-08-05/0/POSTING-en.html
+Comments URL: https://news.ycombinator.com/item?id=49423878
+Points: 55
+# Comments: 14]]></summary>
+        <author>
+            <name>zdw</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[What Is a Syslog Server?]]></title>
         <id>https://news.ycombinator.com/item?id=49423799</id>
         <link href="https://blog.greencloudvps.com/what-is-a-syslog-server.php"/>
@@ -593,6 +621,19 @@ Points: 59
 # Comments: 20]]></summary>
         <author>
             <name>bookofjoe</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Tracking Costco gas prices]]></title>
+        <id>https://news.ycombinator.com/item?id=49423045</id>
+        <link href="https://www.jack.bio/blog/costco-gas-tracking"/>
+        <updated>2026-08-24T17:21:20.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.jack.bio/blog/costco-gas-tracking
+Comments URL: https://news.ycombinator.com/item?id=49423045
+Points: 50
+# Comments: 46]]></summary>
+        <author>
+            <name>lafond</name>
         </author>
     </entry>
     <entry>
@@ -16761,45 +16802,6 @@ Points: 101
 # Comments: 60]]></summary>
         <author>
             <name>Ralfp</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Shay Locomotives]]></title>
-        <id>https://news.ycombinator.com/item?id=49067043</id>
-        <link href="https://www.shaylocomotives.com/"/>
-        <updated>2026-07-27T09:23:29.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.shaylocomotives.com/
-Comments URL: https://news.ycombinator.com/item?id=49067043
-Points: 53
-# Comments: 12]]></summary>
-        <author>
-            <name>Rygian</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Chinese chipmaker shares surge 470%]]></title>
-        <id>https://news.ycombinator.com/item?id=49066962</id>
-        <link href="https://www.bbc.com/news/articles/c9q9w3x9qn2o"/>
-        <updated>2026-07-27T09:11:59.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.bbc.com/news/articles/c9q9w3x9qn2o
-Comments URL: https://news.ycombinator.com/item?id=49066962
-Points: 94
-# Comments: 79]]></summary>
-        <author>
-            <name>pingou</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[VLC for Unity now supported on Linux]]></title>
-        <id>https://news.ycombinator.com/item?id=49066928</id>
-        <link href="https://code.videolan.org/videolan/vlc-unity"/>
-        <updated>2026-07-27T09:06:34.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://code.videolan.org/videolan/vlc-unity
-Comments URL: https://news.ycombinator.com/item?id=49066928
-Points: 82
-# Comments: 20]]></summary>
-        <author>
-            <name>martz</name>
         </author>
     </entry>
 </feed>
