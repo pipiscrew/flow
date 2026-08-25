@@ -2,10 +2,25 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-08-25T09:40:33.278Z</updated>
+    <updated>2026-08-25T10:38:06.825Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Screen memory without screenshots, just text to Markdown]]></title>
+        <id>https://news.ycombinator.com/item?id=49429095</id>
+        <link href="https://github.com/dragthelake/ambient-context"/>
+        <updated>2026-08-25T04:33:24.000Z</updated>
+        <summary type="html"><![CDATA[It's a macOS menu bar app that reads the text of your focused window every few seconds through the Accessibility API. No screenshots, no video, or OCR. It writes plain markdown, one file per day, into a folder you choose.
+Point Claude Code (or anything with file access) at the folder and ask "what did I work on Tuesday?" or have it build memory about your projects. The folder contains an AGENTS.md explaining the format to the model.
+Thought it might be useful for someone so chucked it up on GitHub
+Comments URL: https://news.ycombinator.com/item?id=49429095
+Points: 51
+# Comments: 18]]></summary>
+        <author>
+            <name>Dramatize</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Headlong: A Microharness for Persistent Agents]]></title>
         <id>https://news.ycombinator.com/item?id=49428882</id>
@@ -16523,32 +16538,6 @@ Points: 66
 # Comments: 30]]></summary>
         <author>
             <name>maxloh</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[US citizen charged after GrapheneOS phone wipes during airport search]]></title>
-        <id>https://news.ycombinator.com/item?id=49063022</id>
-        <link href="https://www.techspot.com/news/113236-us-prosecutors-charge-atlanta-man-after-grapheneos-phone.html"/>
-        <updated>2026-07-26T22:21:41.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.techspot.com/news/113236-us-prosecutors-charge-atlanta-man-after-grapheneos-phone.html
-Comments URL: https://news.ycombinator.com/item?id=49063022
-Points: 382
-# Comments: 245]]></summary>
-        <author>
-            <name>eecc</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Refactoring cuisine: how an Iraqi stew sailed to Singapore]]></title>
-        <id>https://news.ycombinator.com/item?id=49062997</id>
-        <link href="https://iza.ac/posts/2026/07/the-journey-of-bamya/"/>
-        <updated>2026-07-26T22:18:42.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://iza.ac/posts/2026/07/the-journey-of-bamya/
-Comments URL: https://news.ycombinator.com/item?id=49062997
-Points: 52
-# Comments: 20]]></summary>
-        <author>
-            <name>infinitewalk</name>
         </author>
     </entry>
 </feed>
