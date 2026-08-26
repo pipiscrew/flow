@@ -6,6 +6,16 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=49441375",
+          "author": "swimmingbrain",
+          "description": "I'm a master's engineering student and a big fan of LaTeX, which I used for my thesis and research articles. I have used Overleaf and that was fine until I wanted to git sync, which unfortunately sits behind a paywall. Since I didn't want to pay subscriptions for things that should simply just work, I built the editor I wanted in my free time, where you open a tab, write LaTeX, get your PDF and the files stay all in one folder on my disk.\nTeXbrain is a static site with no backend. pdfTeX is compiled to WebAssembly (SwiftLaTeX) and runs in your browser. The editor can read and write your project folder through the File System Access API, so you can use git, any local TeX install, local AI Agents, or any other editor on the same files. Git is built in through isomorphic-git for anyone who wo…",
+          "link": "https://github.com/swimmingbrain/texbrain",
+          "publishedOn": "2026-08-25T22:08:50.000Z",
+          "wordCount": 3817,
+          "title": "Show HN: TeXbrain, a LaTeX editor that runs pdfTeX in the browser via WASM",
+          "imageUrl": "https://opengraph.githubassets.com/50e61103b2d9074da54c71b9301cc2b39d286ff722f408690bafdd5f5efc1248/swimmingbrain/texbrain"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=49441033",
           "author": "rbanffy",
           "description": "Article URL: https://sebsite.pw/w/20260801-pythonconstants.html\nComments URL: https://news.ycombinator.com/item?id=49441033\nPoints: 81\n# Comments: 27",
@@ -12713,56 +12723,6 @@
           "publishedOn": "2026-07-27T15:11:14.000Z",
           "wordCount": 2613,
           "title": "How JPEG works: Interactively explore JPEG's lossy compression methods",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49070756",
-          "author": "EatonZ",
-          "description": "Article URL: https://eaton-works.com/2026/07/27/my-eicher-hack/\nComments URL: https://news.ycombinator.com/item?id=49070756\nPoints: 92\n# Comments: 25",
-          "link": "https://eaton-works.com/2026/07/27/my-eicher-hack/",
-          "publishedOn": "2026-07-27T15:08:16.000Z",
-          "wordCount": 2796,
-          "title": "Exploiting Volvo/Eicher's fleet platform to gain control over all users/vehicles",
-          "imageUrl": "https://eaton-works.com/promo_gfx/volvo-eicher.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49070427",
-          "author": "thm",
-          "description": "Article URL: https://www.macrumors.com/2026/07/27/ed-zitron-apple-watch-it-burn-ai-bubble-bursts/\nComments URL: https://news.ycombinator.com/item?id=49070427\nPoints: 58\n# Comments: 5",
-          "link": "https://www.macrumors.com/2026/07/27/ed-zitron-apple-watch-it-burn-ai-bubble-bursts/",
-          "publishedOn": "2026-07-27T14:42:41.000Z",
-          "wordCount": 5080,
-          "title": "Apple Will 'Watch Everything Burn' When the AI Bubble Bursts",
-          "imageUrl": "https://images.macrumors.com/t/bDSnDh5rJkwhN6iKwOzp-X_CeWo=/2500x/article-new/2025/08/Apple-Intelligence-Comes-Under-Fire-Feature.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49070138",
-          "author": "laurensr",
-          "description": "Article URL: https://pagedout.institute/download/PagedOut_009.pdf\nComments URL: https://news.ycombinator.com/item?id=49070138\nPoints: 122\n# Comments: 17",
-          "link": "https://pagedout.institute/download/PagedOut_009.pdf",
-          "publishedOn": "2026-07-27T14:22:34.000Z",
-          "wordCount": null,
-          "title": "Paged Out #9 [pdf]",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49070073",
-          "author": "baud147258",
-          "description": "Article URL: https://edconway.substack.com/p/the-glass-famine\nComments URL: https://news.ycombinator.com/item?id=49070073\nPoints: 55\n# Comments: 22",
-          "link": "https://edconway.substack.com/p/the-glass-famine",
-          "publishedOn": "2026-07-27T14:18:23.000Z",
-          "wordCount": null,
-          "title": "The Glass Famine",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49069939",
-          "author": "1vuio0pswjnm7",
-          "description": "https://archive.ph/PASMJ\nComments URL: https://news.ycombinator.com/item?id=49069939\nPoints: 179\n# Comments: 78",
-          "link": "https://www.ft.com/content/d8a5f95e-3b6d-463a-a848-c9ef8e2394db",
-          "publishedOn": "2026-07-27T14:07:48.000Z",
-          "wordCount": null,
-          "title": "AI companies spend record sums on Washington lobbying",
           "imageUrl": null
         }
       ]

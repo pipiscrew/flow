@@ -2,10 +2,21 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-08-26T01:42:31.589Z</updated>
+    <updated>2026-08-26T03:10:31.147Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Show HN: TeXbrain, a LaTeX editor that runs pdfTeX in the browser via WASM]]></title>
+        <id>https://news.ycombinator.com/item?id=49441375</id>
+        <link href="https://github.com/swimmingbrain/texbrain"/>
+        <updated>2026-08-25T22:08:50.000Z</updated>
+        <summary type="html"><![CDATA[I'm a master's engineering student and a big fan of LaTeX, which I used for my thesis and research articles. I have used Overleaf and that was fine until I wanted to git sync, which unfortunately sits behind a paywall. Since I didn't want to pay subscriptions for things that should simply just work, I built the editor I wanted in my free time, where you open a tab, write LaTeX, get your PDF and the files stay all in one folder on my disk.
+TeXbrain is a static site with no backend. pdfTeX is compiled to WebAssembly (SwiftLaTeX) and runs in your browser. The editor can read and write your project folder through the File System Access API, so you can use git, any local TeX install, local AI Agents, or any other editor on the same files. Git is built in through isomorphic-git for anyone who wo…]]></summary>
+        <author>
+            <name>swimmingbrain</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Python's pre-declared constants are kinda weird]]></title>
         <id>https://news.ycombinator.com/item?id=49441033</id>
@@ -16716,71 +16727,6 @@ Points: 66
 # Comments: 6]]></summary>
         <author>
             <name>at1as</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Exploiting Volvo/Eicher's fleet platform to gain control over all users/vehicles]]></title>
-        <id>https://news.ycombinator.com/item?id=49070756</id>
-        <link href="https://eaton-works.com/2026/07/27/my-eicher-hack/"/>
-        <updated>2026-07-27T15:08:16.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://eaton-works.com/2026/07/27/my-eicher-hack/
-Comments URL: https://news.ycombinator.com/item?id=49070756
-Points: 92
-# Comments: 25]]></summary>
-        <author>
-            <name>EatonZ</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Apple Will 'Watch Everything Burn' When the AI Bubble Bursts]]></title>
-        <id>https://news.ycombinator.com/item?id=49070427</id>
-        <link href="https://www.macrumors.com/2026/07/27/ed-zitron-apple-watch-it-burn-ai-bubble-bursts/"/>
-        <updated>2026-07-27T14:42:41.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.macrumors.com/2026/07/27/ed-zitron-apple-watch-it-burn-ai-bubble-bursts/
-Comments URL: https://news.ycombinator.com/item?id=49070427
-Points: 58
-# Comments: 5]]></summary>
-        <author>
-            <name>thm</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Paged Out #9 [pdf]]]></title>
-        <id>https://news.ycombinator.com/item?id=49070138</id>
-        <link href="https://pagedout.institute/download/PagedOut_009.pdf"/>
-        <updated>2026-07-27T14:22:34.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://pagedout.institute/download/PagedOut_009.pdf
-Comments URL: https://news.ycombinator.com/item?id=49070138
-Points: 122
-# Comments: 17]]></summary>
-        <author>
-            <name>laurensr</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Glass Famine]]></title>
-        <id>https://news.ycombinator.com/item?id=49070073</id>
-        <link href="https://edconway.substack.com/p/the-glass-famine"/>
-        <updated>2026-07-27T14:18:23.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://edconway.substack.com/p/the-glass-famine
-Comments URL: https://news.ycombinator.com/item?id=49070073
-Points: 55
-# Comments: 22]]></summary>
-        <author>
-            <name>baud147258</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AI companies spend record sums on Washington lobbying]]></title>
-        <id>https://news.ycombinator.com/item?id=49069939</id>
-        <link href="https://www.ft.com/content/d8a5f95e-3b6d-463a-a848-c9ef8e2394db"/>
-        <updated>2026-07-27T14:07:48.000Z</updated>
-        <summary type="html"><![CDATA[https://archive.ph/PASMJ
-Comments URL: https://news.ycombinator.com/item?id=49069939
-Points: 179
-# Comments: 78]]></summary>
-        <author>
-            <name>1vuio0pswjnm7</name>
         </author>
     </entry>
 </feed>
