@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-08-26T05:39:07.005Z</updated>
+    <updated>2026-08-26T06:57:25.481Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
@@ -30,6 +30,19 @@ Points: 53
 # Comments: 7]]></summary>
         <author>
             <name>rguiscard</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Maiao: Gerrit-style code review workflow for GitHub, GitLab, Gitea, others]]></title>
+        <id>https://news.ycombinator.com/item?id=49441666</id>
+        <link href="https://github.com/runetes/maiao"/>
+        <updated>2026-08-25T22:40:07.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://github.com/runetes/maiao
+Comments URL: https://news.ycombinator.com/item?id=49441666
+Points: 61
+# Comments: 33]]></summary>
+        <author>
+            <name>zdw</name>
         </author>
     </entry>
     <entry>
@@ -16606,114 +16619,6 @@ Being in a two sided market allows us to target two large problems.
 (1) On t…]]></summary>
         <author>
             <name>george_rose25</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Self-contained highly-portable Python distributions]]></title>
-        <id>https://news.ycombinator.com/item?id=49073942</id>
-        <link href="https://gregoryszorc.com/docs/python-build-standalone/main/"/>
-        <updated>2026-07-27T18:43:31.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://gregoryszorc.com/docs/python-build-standalone/main/
-Comments URL: https://news.ycombinator.com/item?id=49073942
-Points: 55
-# Comments: 12]]></summary>
-        <author>
-            <name>jcbhmr</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: Yap – OSS on-device voice dictation for macOS with no model to download]]></title>
-        <id>https://news.ycombinator.com/item?id=49073834</id>
-        <link href="https://github.com/FrigadeHQ/yap"/>
-        <updated>2026-07-27T18:36:02.000Z</updated>
-        <summary type="html"><![CDATA[Hey HN! I wanted to share this OSS project I've been working on.
-It's called Yap and its a small menu-bar app for macOS that does voice to text for any input. You'll set a hotkey, press it, talk, press it again, and the text gets pasted into whatever field you were in. Everything runs locally and never leaves your computer. Fully OSS and MIT licensed.
-With macOS 26, Apple recently added two new APIs, SpeechAnalyzer and SpeechTranscriber, that do streaming on-device speech to text using models the OS ships and manages. So the app ships no model of its own and loads nothing before the first word. A recent benchmark put Apple's model slightly ahead of Whisper Small on accuracy and about 3x faster (see: https://news.ycombinator.com/item?id=48894752). On Mac, there's really no need anymore to download models or pay for expensive APIs.
-A lot of existing dictation tools do one of a few things I wanted to avoid with this OSS project. They either:
-- cost money (for something that's literally built into the OS)
-- bundle memory-intensive models (e.g. Whisper or Parakeet)
-- webapps wrapped in Electron
-- Intel macs straight up don't work
-- closed source
-- use third-party APIs that will have access to all your transcripts
-It's around 3,000 lines of native Swift in a 4 MB app and idles near 60 MB of memory. Audio comes off AVAudioEngine into SpeechAnalyzer with volatile results turned on for the live preview, history is stored in SwiftData. There's no network code in it at all.
-Repo and a demo available here: https://github.com/FrigadeHQ/yap
-Happy to answer questions and would love to hear any feature requests!
-Comments URL: https://news.ycombinator.com/item?id=49073834
-Points: 67
-# Comments: 24]]></summary>
-        <author>
-            <name>pancomplex</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Artist Who Colored Ghibli]]></title>
-        <id>https://news.ycombinator.com/item?id=49073785</id>
-        <link href="https://animationobsessive.substack.com/p/the-artist-who-colored-ghibli"/>
-        <updated>2026-07-27T18:32:09.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://animationobsessive.substack.com/p/the-artist-who-colored-ghibli
-Comments URL: https://news.ycombinator.com/item?id=49073785
-Points: 53
-# Comments: 2]]></summary>
-        <author>
-            <name>herbertl</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Judge Rejects Google's Attempt to DMCA Its Way Out of Being Scraped]]></title>
-        <id>https://news.ycombinator.com/item?id=49073513</id>
-        <link href="https://www.techdirt.com/2026/07/27/judge-rejects-googles-attempt-to-dmca-its-way-out-of-being-scraped/"/>
-        <updated>2026-07-27T18:15:35.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.techdirt.com/2026/07/27/judge-rejects-googles-attempt-to-dmca-its-way-out-of-being-scraped/
-Comments URL: https://news.ycombinator.com/item?id=49073513
-Points: 131
-# Comments: 45]]></summary>
-        <author>
-            <name>cdrnsf</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: FeyNoBg – Automatic background removal model and training library]]></title>
-        <id>https://news.ycombinator.com/item?id=49072462</id>
-        <link href="https://usefeyn.com/blog/feynobg/"/>
-        <updated>2026-07-27T16:59:08.000Z</updated>
-        <summary type="html"><![CDATA[Hey HN, I’m Shreyash from Feyn. We help companies build custom models from their data.
-Today, we’re releasing FeyNoBg, an automatic background removal model. Alongside it, we're open-sourcing NoBg, the Python library we built to train and run it.
-Try the model here: https://huggingface.co/spaces/feyninc/feynobg. Check out the library here: https://github.com/feyninc/nobg
-Some sample outputs:
-(1) Soccer Freekick: https://drive.google.com/file/d/1MZkAGLwbhNVOZ0Oi7XvpCfSEu9Q...
-(2) Hair in wind: https://drive.google.com/file/d/1Odc2m0XMVH9uZtvI_KjaRbXzhLL...
-(3) Bicycle with visible spokes: https://drive.google.com/file/d/1h99ahjfrtS1MFQJJgiKE2fuM3HZ...
-(4) Live Demo video: https://youtu.be/b1heHPvY8BM
-Background removal separates an image's subject from its surrounding. We've all tried it at…]]></summary>
-        <author>
-            <name>snyy</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[MAI-Cyber-1-Flash inside MDASH]]></title>
-        <id>https://news.ycombinator.com/item?id=49072361</id>
-        <link href="https://microsoft.ai/news/introducing-mai-cyber-1-flash-inside-mdash/"/>
-        <updated>2026-07-27T16:52:22.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://microsoft.ai/news/introducing-mai-cyber-1-flash-inside-mdash/
-Comments URL: https://news.ycombinator.com/item?id=49072361
-Points: 193
-# Comments: 101]]></summary>
-        <author>
-            <name>migmartri</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Decathlon Germany adds Wero payment option to decathlon.de website]]></title>
-        <id>https://news.ycombinator.com/item?id=49072310</id>
-        <link href="https://www.sgieurope.com/e-commerce/decathlon-germany-launches-wero-payment-on-its-website/122397.article"/>
-        <updated>2026-07-27T16:49:08.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.sgieurope.com/e-commerce/decathlon-germany-launches-wero-payment-on-its-website/122397.article
-Comments URL: https://news.ycombinator.com/item?id=49072310
-Points: 266
-# Comments: 180]]></summary>
-        <author>
-            <name>doener</name>
         </author>
     </entry>
 </feed>
