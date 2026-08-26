@@ -6,6 +6,26 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=49442743",
+          "author": "Anon84",
+          "description": "Article URL: https://www.economist.com/science-and-technology/2026/08/11/the-brain-may-be-about-to-have-its-ozempic-moment\nComments URL: https://news.ycombinator.com/item?id=49442743\nPoints: 64\n# Comments: 47",
+          "link": "https://www.economist.com/science-and-technology/2026/08/11/the-brain-may-be-about-to-have-its-ozempic-moment",
+          "publishedOn": "2026-08-26T00:40:41.000Z",
+          "wordCount": null,
+          "title": "The brain may be about to have its Ozempic moment",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=49442589",
+          "author": "rguiscard",
+          "description": "Article URL: https://fzakaria.com/2026/08/24/actually-queryable-executables\nComments URL: https://news.ycombinator.com/item?id=49442589\nPoints: 53\n# Comments: 7",
+          "link": "https://fzakaria.com/2026/08/24/actually-queryable-executables",
+          "publishedOn": "2026-08-26T00:20:49.000Z",
+          "wordCount": 1742,
+          "title": "Queryable Executables",
+          "imageUrl": null
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=49441375",
           "author": "swimmingbrain",
           "description": "I'm a master's engineering student and a big fan of LaTeX, which I used for my thesis and research articles. I have used Overleaf and that was fine until I wanted to git sync, which unfortunately sits behind a paywall. Since I didn't want to pay subscriptions for things that should simply just work, I built the editor I wanted in my free time, where you open a tab, write LaTeX, get your PDF and the files stay all in one folder on my disk.\nTeXbrain is a static site with no backend. pdfTeX is compiled to WebAssembly (SwiftLaTeX) and runs in your browser. The editor can read and write your project folder through the File System Access API, so you can use git, any local TeX install, local AI Agents, or any other editor on the same files. Git is built in through isomorphic-git for anyone who wo…",
@@ -53,6 +73,16 @@
           "publishedOn": "2026-08-25T19:38:24.000Z",
           "wordCount": 3085,
           "title": "C2PA Cameras Do Not Survive Contact with Reality",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=49439296",
+          "author": "CGMthrowaway",
+          "description": "Article URL: https://zakpodmore.substack.com/p/a-brief-history-of-federal-lift-ticket\nComments URL: https://news.ycombinator.com/item?id=49439296\nPoints: 50\n# Comments: 6",
+          "link": "https://zakpodmore.substack.com/p/a-brief-history-of-federal-lift-ticket",
+          "publishedOn": "2026-08-25T19:25:43.000Z",
+          "wordCount": null,
+          "title": "A brief history of federal lift ticket regulation",
           "imageUrl": null
         },
         {
@@ -12684,46 +12714,6 @@
           "wordCount": 4133,
           "title": "Decathlon Germany adds Wero payment option to decathlon.de website",
           "imageUrl": "https://d1f00kj7ad54bu.cloudfront.net/Pictures/1024x536/9/6/4/60964_wero_807274_crop.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49071512",
-          "author": "petethomas",
-          "description": "Article URL: https://www.bloomberg.com/news/articles/2026-07-27/nvidia-s-750-billion-deals-revive-fear-of-ai-circular-financing\nComments URL: https://news.ycombinator.com/item?id=49071512\nPoints: 57\n# Comments: 34",
-          "link": "https://www.bloomberg.com/news/articles/2026-07-27/nvidia-s-750-billion-deals-revive-fear-of-ai-circular-financing",
-          "publishedOn": "2026-07-27T16:02:00.000Z",
-          "wordCount": null,
-          "title": "Nvidia's $750B in Deals Reignite Circular AI Fears",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49071190",
-          "author": "surprisetalk",
-          "description": "Article URL: https://arxiv.org/abs/math/0411418\nComments URL: https://news.ycombinator.com/item?id=49071190\nPoints: 56\n# Comments: 47",
-          "link": "https://arxiv.org/abs/math/0411418",
-          "publishedOn": "2026-07-27T15:40:17.000Z",
-          "wordCount": 504,
-          "title": "How real are real numbers? (2004)",
-          "imageUrl": "/static/browse/0.3.4/images/arxiv-logo-fb.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49070985",
-          "author": "vinhnx",
-          "description": "Related: Kimi-K3 on HuggingFace - https://news.ycombinator.com/item?id=49065752\nComments URL: https://news.ycombinator.com/item?id=49070985\nPoints: 289\n# Comments: 106",
-          "link": "https://github.com/MoonshotAI/Kimi-K3/blob/main/k3_tech_report.pdf",
-          "publishedOn": "2026-07-27T15:23:45.000Z",
-          "wordCount": 431,
-          "title": "Kimi-K3 Technical Report [pdf]",
-          "imageUrl": "https://opengraph.githubassets.com/2ec0314878147b11a9250711caa340448a5f2a4bd9d00914a9da156a39c5d990/MoonshotAI/Kimi-K3"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49070810",
-          "author": "at1as",
-          "description": "Article URL: https://cgjennings.ca/articles/jpeg-compression/\nComments URL: https://news.ycombinator.com/item?id=49070810\nPoints: 66\n# Comments: 6",
-          "link": "https://cgjennings.ca/articles/jpeg-compression/",
-          "publishedOn": "2026-07-27T15:11:14.000Z",
-          "wordCount": 2613,
-          "title": "How JPEG works: Interactively explore JPEG's lossy compression methods",
-          "imageUrl": null
         }
       ]
     }
