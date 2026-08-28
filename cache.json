@@ -6,6 +6,116 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=49473522",
+          "author": "jbegley",
+          "description": "Article URL: https://www.nytimes.com/2026/08/27/technology/anthropic-government-blacklisting-ruling.html\nComments URL: https://news.ycombinator.com/item?id=49473522\nPoints: 117\n# Comments: 53",
+          "link": "https://www.nytimes.com/2026/08/27/technology/anthropic-government-blacklisting-ruling.html",
+          "publishedOn": "2026-08-28T02:03:38.000Z",
+          "wordCount": null,
+          "title": "Judge Rules Trump Administration’s Blacklisting of Anthropic Was Illegal",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=49472820",
+          "author": "matt_d",
+          "description": "Article URL: https://www.terminal-bench-science.ai/announcement\nComments URL: https://news.ycombinator.com/item?id=49472820\nPoints: 53\n# Comments: 11",
+          "link": "https://www.terminal-bench-science.ai/announcement",
+          "publishedOn": "2026-08-28T00:06:51.000Z",
+          "wordCount": 4583,
+          "title": "Terminal-Bench-Science: Evaluating AI agents on scientific research workflows",
+          "imageUrl": "https://terminal-bench-science.ai/terminal-bench-science-og-1200x630.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=49472161",
+          "author": "mmattbtw",
+          "description": "Article URL: https://pfrazee.leaflet.pub/3mu3p2smmis22\nComments URL: https://news.ycombinator.com/item?id=49472161\nPoints: 61\n# Comments: 22",
+          "link": "https://pfrazee.leaflet.pub/3mu3p2smmis22",
+          "publishedOn": "2026-08-27T22:34:32.000Z",
+          "wordCount": 3287,
+          "title": "Select * from Internet.blogposts",
+          "imageUrl": "https://leaflet.pub/lish/did%3Aplc%3Aragtjsm2j2vknwkz3zp4oxrd/3ly4hnkatvc2p/3mu3p2smmis22/opengraph-image-1qv6ug?3525228eea30403c"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=49471965",
+          "author": "elyosh",
+          "description": "Article URL: https://github.com/elyosh/OpenTIE/\nComments URL: https://news.ycombinator.com/item?id=49471965\nPoints: 99\n# Comments: 21",
+          "link": "https://github.com/elyosh/OpenTIE/",
+          "publishedOn": "2026-08-27T22:10:47.000Z",
+          "wordCount": 3069,
+          "title": "Show HN: OpenTIE and OpenXWA, Modern Ports of Tie Fighter and X-Wing Alliance",
+          "imageUrl": "https://opengraph.githubassets.com/a03f0e8a28ed3cf746c76d4244d474c6070fffbffa738fdd3771b59a9ffa64a2/elyosh/OpenTIE"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=49471714",
+          "author": "calmrocks",
+          "description": "Article URL: https://github.com/calmrocks/ai-engineer-notebooks\nComments URL: https://news.ycombinator.com/item?id=49471714\nPoints: 66\n# Comments: 7",
+          "link": "https://github.com/calmrocks/ai-engineer-notebooks",
+          "publishedOn": "2026-08-27T21:46:39.000Z",
+          "wordCount": 6200,
+          "title": "AI Engineer Notebooks – free, framework-free RAG/agents/evals on Colab",
+          "imageUrl": "https://repository-images.githubusercontent.com/1331428199/00fb8916-a7d6-4fde-9f57-93a2c480c40b"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=49471407",
+          "author": "SilenN",
+          "description": "Hi HN, we built an open source model gateway. It's a single place to manage our own self hosted, frontier, and open source models in one place.\nIt’s is rust native, built for concurrency, and implements all the config quirks across models and providers (streaming formats, tool calls, model parameters, rate limits, and different error behavior).\nThe gateway adds under 1 ms for BYOK requests and under 2 ms when Experiential supplies the provider key. It has every major inference provider, and 1000+ models refreshed daily via a codex agent that opens a PR.\nCompared to other similar projects we’re open source, take no markup, allow you to mix local models with a marketplace, and use your traffic to (opt in) train you a model. Simple routing doesn’t warrant a 10% token markup.\nThe way we do this is given standardized OTel traces, we mine representative real tasks, use text world models to simulate rollouts for various models, apply an LLM judge, and fit a nearest neighbor classifier on top of an embedding of a prompt to decide the optimal model for each request. Usually this can map out a better pareto curve on cost/quality than just calling single models but it’s not perfect.\nUsing these simulations we can also do things like suggesting cache hit optimizations, new model suggestions, and training models.\nIt’s open source, so you can deploy it on your own infrastructure, use our hosted version with 0 markup, or read how we design for maximum availability on our website.\nComments URL: https://news.ycombinator.com/item?id=49471407\nPoints: 131\n# Comments: 23",
+          "link": "https://github.com/experientiallabs/experiential",
+          "publishedOn": "2026-08-27T21:18:35.000Z",
+          "wordCount": 2500,
+          "title": "Show HN: We built open OpenRouter that turns usage into a better model",
+          "imageUrl": "https://opengraph.githubassets.com/d01475f35556d8fbdaad32dc06d44def17b8e00573b3c9cd059b708a6ff342c1/experientiallabs/experiential"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=49468834",
+          "author": "surprisetalk",
+          "description": "Article URL: https://www.anthropic.com/news/model-hardware-standard-research-preview\nComments URL: https://news.ycombinator.com/item?id=49468834\nPoints: 93\n# Comments: 34",
+          "link": "https://www.anthropic.com/news/model-hardware-standard-research-preview",
+          "publishedOn": "2026-08-27T18:04:50.000Z",
+          "wordCount": 26231,
+          "title": "Previewing the Model Hardware Standard",
+          "imageUrl": "https://cdn.sanity.io/images/4zrzovbb/website/5008271abbababe59f4fbb01998697f7dd0b5b60-1280x720.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=49468818",
+          "author": "k9294",
+          "description": "Article URL: https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5-transcribe/\nComments URL: https://news.ycombinator.com/item?id=49468818\nPoints: 182\n# Comments: 52",
+          "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5-transcribe/",
+          "publishedOn": "2026-08-27T18:03:42.000Z",
+          "wordCount": 4679,
+          "title": "Gemini-3.5-Transcribe",
+          "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini_3-5_transcribe.width-1300.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=49468816",
+          "author": "igpay",
+          "description": "I posted once before but wanted to share again because a lot has changed. There's now a fairly strong bot to play against (contributed by a community member) and also correspondence games. The combination of these things helps a bit in finding people to play against.\nComments URL: https://news.ycombinator.com/item?id=49468816\nPoints: 100\n# Comments: 13",
+          "link": "https://voronoigo.com/",
+          "publishedOn": "2026-08-27T18:03:37.000Z",
+          "wordCount": 106,
+          "title": "Show HN: Voronoi Go",
+          "imageUrl": "https://voronoigo.com/og-image.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=49468642",
+          "author": "dclavijo",
+          "description": "Article URL: https://code.ffmpeg.org/FFmpeg/FFmpeg/issues/24290\nComments URL: https://news.ycombinator.com/item?id=49468642\nPoints: 193\n# Comments: 155",
+          "link": "https://code.ffmpeg.org/FFmpeg/FFmpeg/issues/24290",
+          "publishedOn": "2026-08-27T17:53:40.000Z",
+          "wordCount": 2680,
+          "title": "We found a division by zero bug in FFmpeg with a vibecoded fuzzer",
+          "imageUrl": "https://code.ffmpeg.org/FFmpeg/FFmpeg/issues/24290/summary-card"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=49468593",
+          "author": "marksully",
+          "description": "Article URL: https://shop.m5stack.com/blogs/news/m5stack-launches-papermono-a-compact-e-ink-development-terminal-for-connected-projects\nComments URL: https://news.ycombinator.com/item?id=49468593\nPoints: 102\n# Comments: 42",
+          "link": "https://shop.m5stack.com/blogs/news/m5stack-launches-papermono-a-compact-e-ink-development-terminal-for-connected-projects",
+          "publishedOn": "2026-08-27T17:50:57.000Z",
+          "wordCount": 13635,
+          "title": "M5Stack Launches PaperMono",
+          "imageUrl": "http://shop.m5stack.com/cdn/shop/articles/m5stack-paper-mono-news_1200x1200.png?v=1787301484"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=49468315",
           "author": "vinni2",
           "description": "Article URL: https://www.bbc.com/news/articles/cz6zwgg9y8go\nComments URL: https://news.ycombinator.com/item?id=49468315\nPoints: 106\n# Comments: 58",
@@ -54,6 +164,16 @@
           "wordCount": null,
           "title": "Suica, Japan's First IC Transit Card",
           "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=49466622",
+          "author": "ehwa37",
+          "description": "Article URL: https://acs.digitellinc.com/live/37/session/586399\nComments URL: https://news.ycombinator.com/item?id=49466622\nPoints: 88\n# Comments: 64",
+          "link": "https://acs.digitellinc.com/live/37/session/586399",
+          "publishedOn": "2026-08-27T15:40:04.000Z",
+          "wordCount": 2972,
+          "title": "Engineered yeast for converting plastic and biomass compounds to food additives",
+          "imageUrl": ""
         },
         {
           "id": "https://news.ycombinator.com/item?id=49466006",
@@ -12354,266 +12474,6 @@
           "wordCount": 4025,
           "title": "Show HN: Kedge – Full-stack cloud with forkable VM snapshots and global SQLite",
           "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49099336",
-          "author": "marojejian",
-          "description": "Article URL: https://www.science.org/content/article/odd-shapes-hidden-dense-amazon-rainforest-reveal-sprawling-ancient-civilization\nComments URL: https://news.ycombinator.com/item?id=49099336\nPoints: 174\n# Comments: 141",
-          "link": "https://www.science.org/content/article/odd-shapes-hidden-dense-amazon-rainforest-reveal-sprawling-ancient-civilization",
-          "publishedOn": "2026-07-29T16:07:46.000Z",
-          "wordCount": null,
-          "title": "Amazonian civilization had estimated 3M people in 3% of forest area",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49099143",
-          "author": "rohaga",
-          "description": "Hi HN, Rohit here from Tokenless (https://usetokenless.com/), which I’m building alongside co-founders Andrew and Kev. We’re building an API gateway which routes agent traffic dynamically turn-by-turn between different models to save on AI spend.\nThe cost of AI tokens is top-of-mind for many. Companies like Uber and Salesforce have been complaining about blowing their yearly AI spend faster than expected.\nFrontier models are amazing for dev work, but are so expensive. Open-source models are cheap and rapidly improving, closing the gap with frontier models, but aren’t quite there yet.\nTokenless gets you the best of both worlds–routing harder turns to smarter models only when needed, which keeps costs low.\nBefore Tokenless, I was doing a PhD at Princeton. While using coding/other agents, I c…",
-          "link": "https://usetokenless.com/",
-          "publishedOn": "2026-07-29T15:55:27.000Z",
-          "wordCount": 710,
-          "title": "Launch HN: Tokenless (YC S26) – Automatic model switching to save money",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49099015",
-          "author": "tambourine_man",
-          "description": "Article URL: https://mitchellh.com/writing/superlogical\nComments URL: https://news.ycombinator.com/item?id=49099015\nPoints: 102\n# Comments: 19",
-          "link": "https://mitchellh.com/writing/superlogical",
-          "publishedOn": "2026-07-29T15:45:56.000Z",
-          "wordCount": 1571,
-          "title": "Superlogical – Mitchell Hashimoto",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49098965",
-          "author": "yan",
-          "description": "Article URL: https://www.superlogical.com/\nComments URL: https://news.ycombinator.com/item?id=49098965\nPoints: 92\n# Comments: 29",
-          "link": "https://www.superlogical.com/",
-          "publishedOn": "2026-07-29T15:41:33.000Z",
-          "wordCount": 681,
-          "title": "Mitchellh starts a new company: Superlogical",
-          "imageUrl": "https://www.superlogical.com/og.webp"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49098510",
-          "author": "gitpusher42",
-          "description": "Hi HN,\nI built a specialized inference engine for running 4-bit Gemma 4 26B-A4B-IT on any M-series Mac using about 2 GB of RAM. It is called TurboFieldfare and is written in Swift and Metal.\nI have always adored on-device AI. It feels like magic that you can run a powerful NN on your Mac or iPhone. So I wanted to push the limits a bit and run a model whose weights don’t fit in memory.\nThe model’s 4-bit quantized weights occupy roughly 14 GB, which makes running it with conventional inference tools almost impossible on an 8 GB or even 16 GB Mac once the OS, applications, and KV cache are included.\nThe trick is to keep the shared part of the model and the KV cache in RAM, then stream only the routed experts needed for each token from SSD. An SSD is way slower than RAM, so the runtime uses a small expert cache and bounded parallel `pread`. While those reads are in flight, the GPU runs the shared part of the layer.\nI ran more than 100 experiments. Most didn’t work. A few got me here. The experiments are described in the GitHub repo.\nIt currently generates 5–6 tok/s on an 8 GB M2 MacBook Air and 31–35 tok/s on an M5 MacBook Pro.\nI also added an experimental OpenAI-compatible local server. It supports streaming and tool calls, and reuses one prompt prefix from the KV cache.\nTry it! The Mac app is easy to install. On the first run, it will download 15 GB of weights from Hugging Face. The model is surprisingly capable.\nI would love any kind of feedback!\nComments URL: https://news.ycombinator.com/item?id=49098510\nPoints: 239\n# Comments: 59",
-          "link": "https://github.com/drumih/turbo-fieldfare",
-          "publishedOn": "2026-07-29T15:05:43.000Z",
-          "wordCount": 6798,
-          "title": "Show HN: Open-source engine running Gemma 4 26B in 2 GB RAM on any M-series Mac",
-          "imageUrl": "https://repository-images.githubusercontent.com/github-production-repository-image-32fea6/1304159264/d6c0493d-d97a-45fc-b20a-dd40d1b6e090?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260729%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260729T172023Z&X-Amz-Expires=300&X-Amz-Signature=3e29c09588f2a22bba160af2006a63632c1e461e86e9dcefe65ca946b4bcf60b&X-Amz-SignedHeaders=host&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoiaHR0cHM6Ly9yZXBvc2l0b3J5LWltYWdlcy5naXRodWJ1c2VyY29udGVudC5jb20vIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NTM0NTkyMywibmJmIjoxNzg1MzQ1NjIzLCJwYXRoIjoicmVwb3NpdG9yeS1pbWFnZXMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIn0.9FWoMQ9nt7m0mpvAsXlk20cqMrN9VR7FbhX29oYOp6k"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49098466",
-          "author": "dn2k",
-          "description": "Article URL: https://huggingface.co/blog/agent-intrusion-technical-timeline\nComments URL: https://news.ycombinator.com/item?id=49098466\nPoints: 129\n# Comments: 49",
-          "link": "https://huggingface.co/blog/agent-intrusion-technical-timeline",
-          "publishedOn": "2026-07-29T15:01:52.000Z",
-          "wordCount": 7094,
-          "title": "Anatomy of a Frontier Lab Agent Intrusion: A Timeline of the July 2026 Incident",
-          "imageUrl": "https://huggingface.co/blog/assets/agent-intrusion-technical-timeline/thumbnail.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49098466",
-          "author": "dn2k",
-          "description": "Article URL: https://huggingface-anatomy-of-frontier-lab-model-intrusion.static.hf.space/index.html\nComments URL: https://news.ycombinator.com/item?id=49098466\nPoints: 58\n# Comments: 16",
-          "link": "https://huggingface-anatomy-of-frontier-lab-model-intrusion.static.hf.space/index.html",
-          "publishedOn": "2026-07-29T15:01:52.000Z",
-          "wordCount": 2915,
-          "title": "Hugging Face: Anatomy of a frontier-lab agent intrusion",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49098388",
-          "author": "mbauman",
-          "description": "Article URL: https://juliahub.com/blog/frontier-models-physical-ai-evaluation\nComments URL: https://news.ycombinator.com/item?id=49098388\nPoints: 57\n# Comments: 12",
-          "link": "https://juliahub.com/blog/frontier-models-physical-ai-evaluation",
-          "publishedOn": "2026-07-29T14:56:28.000Z",
-          "wordCount": 29473,
-          "title": "GPT-5.6 vs. Claude Fable 5 for Physical AI, which performs best?",
-          "imageUrl": "https://framerusercontent.com/images/zsGtVGVvu1F0gBl160qdoLs0oAM.webp?width=2400&height=1350"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49098260",
-          "author": "sidclaw",
-          "description": "Article URL: https://github.com/VladUZH/qwen-scribe\nComments URL: https://news.ycombinator.com/item?id=49098260\nPoints: 59\n# Comments: 15",
-          "link": "https://github.com/VladUZH/qwen-scribe",
-          "publishedOn": "2026-07-29T14:47:22.000Z",
-          "wordCount": 4130,
-          "title": "Show HN: Qwen Scribe – local transcription and dictation for Apple Silicon",
-          "imageUrl": "https://repository-images.githubusercontent.com/github-production-repository-image-32fea6/1301750814/5c7e54f4-de61-4f83-a5c9-a5dcc19d2662?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260729%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260729T210217Z&X-Amz-Expires=300&X-Amz-Signature=99a198a234e66fd4c0a693dfb7faf1582270e859eb0c65db5cb66552ee09e23b&X-Amz-SignedHeaders=host&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoiaHR0cHM6Ly9yZXBvc2l0b3J5LWltYWdlcy5naXRodWJ1c2VyY29udGVudC5jb20vIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NTM1OTIzNywibmJmIjoxNzg1MzU4OTM3LCJwYXRoIjoicmVwb3NpdG9yeS1pbWFnZXMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIn0.lz2oq_OzmdeiPqjP3lq4UtubFH0p5stgDv2YXOFKj24"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49098198",
-          "author": "thm",
-          "description": "Article URL: https://www.nytimes.com/2026/07/29/business/economy/data-center-electricians-training.html\nComments URL: https://news.ycombinator.com/item?id=49098198\nPoints: 103\n# Comments: 156",
-          "link": "https://www.nytimes.com/2026/07/29/business/economy/data-center-electricians-training.html",
-          "publishedOn": "2026-07-29T14:43:47.000Z",
-          "wordCount": null,
-          "title": "A.I. companies are recruiting electricians and carpenters by the thousands",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49098130",
-          "author": "flifenstein",
-          "description": "Article URL: https://aistack.imec-int.com/blog/gpu-self-hosting\nComments URL: https://news.ycombinator.com/item?id=49098130\nPoints: 68\n# Comments: 29",
-          "link": "https://aistack.imec-int.com/blog/gpu-self-hosting",
-          "publishedOn": "2026-07-29T14:38:35.000Z",
-          "wordCount": 5584,
-          "title": "Self-hosting Kimi K3: 20% more hardware cost, 20% better task resolution",
-          "imageUrl": "https://aistack.imec-int.com/assets/img/gpu.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49097961",
-          "author": "HieronymusBosch",
-          "description": "Article URL: https://stackoverflow.blog/2026/07/29/developers-are-attached-to-tools-because-tools-encode-trust/\nComments URL: https://news.ycombinator.com/item?id=49097961\nPoints: 67\n# Comments: 27",
-          "link": "https://stackoverflow.blog/2026/07/29/developers-are-attached-to-tools-because-tools-encode-trust/",
-          "publishedOn": "2026-07-29T14:25:54.000Z",
-          "wordCount": 2734,
-          "title": "Developers are attached to tools because tools encode trust",
-          "imageUrl": "https://cdn.stackoverflow.co/images/jo7n4k8s/production/29bbae9c01de534b803084e4f0b9a77f9cd90e5c-12000x6300.jpg?w=1200&h=630&auto=format"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49097730",
-          "author": "rubenvanwyk",
-          "description": "Article URL: https://tracewayapp.com/blog/sqlite-vs-duckdb\nComments URL: https://news.ycombinator.com/item?id=49097730\nPoints: 57\n# Comments: 32",
-          "link": "https://tracewayapp.com/blog/sqlite-vs-duckdb",
-          "publishedOn": "2026-07-29T14:05:40.000Z",
-          "wordCount": 7609,
-          "title": "Choose DuckDB rather than SQLite",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49096969",
-          "author": "spIrr",
-          "description": "Article URL: https://arxiv.org/abs/2607.25398\nComments URL: https://news.ycombinator.com/item?id=49096969\nPoints: 106\n# Comments: 68",
-          "link": "https://arxiv.org/abs/2607.25398",
-          "publishedOn": "2026-07-29T13:01:57.000Z",
-          "wordCount": 792,
-          "title": "Handbook.md shows that long policy documents do not reliably govern agents",
-          "imageUrl": "/static/browse/0.3.4/images/arxiv-logo-fb.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49096847",
-          "author": "dtschump",
-          "description": "Article URL: https://gmic.eu/gmic40/\nComments URL: https://news.ycombinator.com/item?id=49096847\nPoints: 76\n# Comments: 4",
-          "link": "https://gmic.eu/gmic40/",
-          "publishedOn": "2026-07-29T12:51:40.000Z",
-          "wordCount": 4242,
-          "title": "G'mic 4.0: Squaring the Pixel, Easier",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49096811",
-          "author": "ibobev",
-          "description": "Article URL: https://www.claire-blackshaw.com/blog/2026/07/shipping-godot-vr-and-porting-to-psvr2-a-partial-post-mortem/\nComments URL: https://news.ycombinator.com/item?id=49096811\nPoints: 69\n# Comments: 0",
-          "link": "https://www.claire-blackshaw.com/blog/2026/07/shipping-godot-vr-and-porting-to-psvr2-a-partial-post-mortem/",
-          "publishedOn": "2026-07-29T12:48:18.000Z",
-          "wordCount": 7542,
-          "title": "Shipping Godot VR and Porting to PSVR2: A Partial Post Mortem",
-          "imageUrl": "https://www.claire-blackshaw.com/images/2026/porting_godot_vr/slide-01.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49096654",
-          "author": "siatko",
-          "description": "Article URL: https://www.darktable.org/\nComments URL: https://news.ycombinator.com/item?id=49096654\nPoints: 65\n# Comments: 22",
-          "link": "https://www.darktable.org/",
-          "publishedOn": "2026-07-29T12:33:02.000Z",
-          "wordCount": 321,
-          "title": "Darktable",
-          "imageUrl": "https://www.darktable.org/images/darktable-logo-only-512w.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49096605",
-          "author": "awaxman11",
-          "description": "Article URL: https://www.ajwaxman.com/writing/software-for-one\nComments URL: https://news.ycombinator.com/item?id=49096605\nPoints: 74\n# Comments: 51",
-          "link": "https://www.ajwaxman.com/writing/software-for-one",
-          "publishedOn": "2026-07-29T12:29:20.000Z",
-          "wordCount": 3557,
-          "title": "Software for One",
-          "imageUrl": "https://www.ajwaxman.com/og/software-for-one.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49096427",
-          "author": "nyku",
-          "description": "Article URL: https://github.blog/security/supply-chain-security/disrupting-supply-chain-attacks-on-npm-and-github-actions/\nComments URL: https://news.ycombinator.com/item?id=49096427\nPoints: 66\n# Comments: 20",
-          "link": "https://github.blog/security/supply-chain-security/disrupting-supply-chain-attacks-on-npm-and-github-actions/",
-          "publishedOn": "2026-07-29T12:11:18.000Z",
-          "wordCount": 4041,
-          "title": "Disrupting supply chain attacks on NPM and GitHub Actions",
-          "imageUrl": "https://github.blog/wp-content/uploads/2026/01/github-generic-security-blocks-logo.png?fit=1920%2C1080"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49096290",
-          "author": "bristleworm",
-          "description": "Article URL: https://www.euronews.com/culture/2026/07/29/dj-kavinsky-known-for-his-track-nightcall-found-dead-at-his-paris-home\nComments URL: https://news.ycombinator.com/item?id=49096290\nPoints: 212\n# Comments: 49",
-          "link": "https://www.euronews.com/culture/2026/07/29/dj-kavinsky-known-for-his-track-nightcall-found-dead-at-his-paris-home",
-          "publishedOn": "2026-07-29T11:54:37.000Z",
-          "wordCount": 885,
-          "title": "French musician Kavinsky found dead",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49096188",
-          "author": "Canopy9560",
-          "description": "Article URL: https://enklypesalt.com/posts/context-collapse-part3-ai-worming-through-word/\nComments URL: https://news.ycombinator.com/item?id=49096188\nPoints: 176\n# Comments: 156",
-          "link": "https://enklypesalt.com/posts/context-collapse-part3-ai-worming-through-word/",
-          "publishedOn": "2026-07-29T11:44:33.000Z",
-          "wordCount": 3713,
-          "title": "Document-borne AI worms can self-propagate through Copilot for Word",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49096170",
-          "author": "fanf2",
-          "description": "Article URL: https://fzakaria.com/2026/07/27/the-mean-means-nothing\nComments URL: https://news.ycombinator.com/item?id=49096170\nPoints: 90\n# Comments: 17",
-          "link": "https://fzakaria.com/2026/07/27/the-mean-means-nothing",
-          "publishedOn": "2026-07-29T11:42:04.000Z",
-          "wordCount": 1545,
-          "title": "The mean means nothing: data visualization to debug a latency problem",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49095865",
-          "author": "Cider9986",
-          "description": "Article URL: https://koreader.rocks/\nComments URL: https://news.ycombinator.com/item?id=49095865\nPoints: 364\n# Comments: 126",
-          "link": "https://koreader.rocks/",
-          "publishedOn": "2026-07-29T11:05:08.000Z",
-          "wordCount": 54,
-          "title": "KOReader",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49095628",
-          "author": "agnishom",
-          "description": "Article URL: https://docs.imiron.io/v/0.5.10/en/tour.html\nComments URL: https://news.ycombinator.com/item?id=49095628\nPoints: 54\n# Comments: 3",
-          "link": "https://docs.imiron.io/v/0.5.10/en/tour.html",
-          "publishedOn": "2026-07-29T10:35:19.000Z",
-          "wordCount": 1555,
-          "title": "SpecForge – A Platform for Authoring Formal Specifications",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49095511",
-          "author": "Bluestein",
-          "description": "Article URL: https://amiga.lychesis.net/index.html\nComments URL: https://news.ycombinator.com/item?id=49095511\nPoints: 93\n# Comments: 16",
-          "link": "https://amiga.lychesis.net/index.html",
-          "publishedOn": "2026-07-29T10:19:44.000Z",
-          "wordCount": 649,
-          "title": "Amiga Graphics Archive",
-          "imageUrl": "https://amiga.lychesis.net/assets/Articles/Home.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49095386",
-          "author": "wofo",
-          "description": "Article URL: https://ochagavia.nl/blog/that-time-when-i-failed-the-microsoft-interview/\nComments URL: https://news.ycombinator.com/item?id=49095386\nPoints: 79\n# Comments: 153",
-          "link": "https://ochagavia.nl/blog/that-time-when-i-failed-the-microsoft-interview/",
-          "publishedOn": "2026-07-29T10:02:50.000Z",
-          "wordCount": 1050,
-          "title": "That time when I failed the Microsoft interview",
-          "imageUrl": "https://ochagavia.nl/images/headshot.jpg"
         }
       ]
     }
