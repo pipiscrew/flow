@@ -2,10 +2,49 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-08-29T14:18:44.614Z</updated>
+    <updated>2026-08-29T18:15:40.510Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Nancy Grace Roman Space Telescope]]></title>
+        <id>https://news.ycombinator.com/item?id=49490870</id>
+        <link href="https://science.nasa.gov/mission/roman-space-telescope/"/>
+        <updated>2026-08-29T15:48:02.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://science.nasa.gov/mission/roman-space-telescope/
+Comments URL: https://news.ycombinator.com/item?id=49490870
+Points: 55
+# Comments: 14]]></summary>
+        <author>
+            <name>JumpCrisscross</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GrapheneOS project: pixel 11 no longer supports hardware memory tagging (MTE)]]></title>
+        <id>https://news.ycombinator.com/item?id=49490702</id>
+        <link href="https://bsky.app/profile/grapheneos.org/post/3mua32q4ds22e"/>
+        <updated>2026-08-29T15:26:28.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://bsky.app/profile/grapheneos.org/post/3mua32q4ds22e
+Comments URL: https://news.ycombinator.com/item?id=49490702
+Points: 94
+# Comments: 39]]></summary>
+        <author>
+            <name>400thecat</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Debian votes to allow "responsible use of generative AI"]]></title>
+        <id>https://news.ycombinator.com/item?id=49489982</id>
+        <link href="https://lwn.net/Articles/1091231/"/>
+        <updated>2026-08-29T14:02:10.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://lwn.net/Articles/1091231/
+Comments URL: https://news.ycombinator.com/item?id=49489982
+Points: 407
+# Comments: 326]]></summary>
+        <author>
+            <name>pluc</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Iceland votes on whether to restart talks on joining EU]]></title>
         <id>https://news.ycombinator.com/item?id=49489057</id>
@@ -1329,6 +1368,25 @@ Points: 151
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Show HN: Typebase – A single-folder back end you write in TypeScript]]></title>
+        <id>https://news.ycombinator.com/item?id=49447178</id>
+        <link href="https://typebase.io/"/>
+        <updated>2026-08-26T11:33:31.000Z</updated>
+        <summary type="html"><![CDATA[Hey HN!
+I built Typebase, a library that gives you Convex's DX with Supabase's openness.
+After trying Supabase I liked how fast it is to spin up a DB and auth, but really didn't like using RLS and SQL for authorization. With Convex I loved how your server "lives" in your code, but disliked the DB model and the realtime-first defaults.
+With Typebase you just write TS files inside a typebase/ folder in your existing repo. You can define your DB tables inside a schema.ts file and export server functions that your frontend calls like local functions, fully typed. Auth is built in.
+Then one CLI command uploads your server to any of the available providers (Vercel, Cloudflare Workers or Deno Deploy for the servera and Neon for the DB), or generates the code so you can deploy it wherever you want.
+Built on top of oRPC, Drizzle, and better-auth.
+Happy to answer any questions or feedback!
+Comments URL: https://news.ycombinator.com/item?id=49447178
+Points: 61
+# Comments: 11]]></summary>
+        <author>
+            <name>andrewww-dev</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[The turbulent AI era is here]]></title>
         <id>https://news.ycombinator.com/item?id=49447057</id>
         <link href="https://www.gatesnotes.com/work/make-ai-work-for-everyone/reader/a-turbulent-ai-era-and-critical-choices-to-make?WT.mc_id=20260826_ai-overture-2026-med-med"/>
@@ -1799,6 +1857,19 @@ Points: 56
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Time complexity of operations on Python's built-in types]]></title>
+        <id>https://news.ycombinator.com/item?id=49435595</id>
+        <link href="https://docs.python.org/3.16/library/time-complexity.html"/>
+        <updated>2026-08-25T15:15:08.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://docs.python.org/3.16/library/time-complexity.html
+Comments URL: https://news.ycombinator.com/item?id=49435595
+Points: 61
+# Comments: 17]]></summary>
+        <author>
+            <name>theanonymousone</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[AI is hitting entry-level jobs hardest, Stanford study finds]]></title>
         <id>https://news.ycombinator.com/item?id=49435147</id>
         <link href="https://arstechnica.com/ai/2026/08/ai-is-hitting-entry-level-jobs-hardest-stanford-study-finds/"/>
@@ -1887,6 +1958,19 @@ Points: 51
 # Comments: 30]]></summary>
         <author>
             <name>runako</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[EVE Online moves to Python 3]]></title>
+        <id>https://news.ycombinator.com/item?id=49433328</id>
+        <link href="https://www.eveonline.com/news/view/the-move-to-python-3-begins"/>
+        <updated>2026-08-25T13:04:55.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.eveonline.com/news/view/the-move-to-python-3-begins
+Comments URL: https://news.ycombinator.com/item?id=49433328
+Points: 192
+# Comments: 95]]></summary>
+        <author>
+            <name>TylerJaacks</name>
         </author>
     </entry>
     <entry>
@@ -2110,6 +2194,19 @@ Points: 60
 # Comments: 24]]></summary>
         <author>
             <name>arbayi</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SQLite as a Document Database (2020)]]></title>
+        <id>https://news.ycombinator.com/item?id=49426995</id>
+        <link href="https://dgl.cx/2020/06/sqlite-json-support"/>
+        <updated>2026-08-24T23:00:10.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://dgl.cx/2020/06/sqlite-json-support
+Comments URL: https://news.ycombinator.com/item?id=49426995
+Points: 83
+# Comments: 11]]></summary>
+        <author>
+            <name>lioeters</name>
         </author>
     </entry>
     <entry>
@@ -15909,109 +16006,6 @@ Points: 87
 # Comments: 46]]></summary>
         <author>
             <name>emilesilvis</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[DeepSeek-V4-Flash Update]]></title>
-        <id>https://news.ycombinator.com/item?id=49119559</id>
-        <link href="https://api-docs.deepseek.com/updates/"/>
-        <updated>2026-07-31T06:08:36.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://api-docs.deepseek.com/updates/
-Comments URL: https://news.ycombinator.com/item?id=49119559
-Points: 115
-# Comments: 39]]></summary>
-        <author>
-            <name>dnhkng</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: Gander, an Android file viewer that asks for no permissions at all]]></title>
-        <id>https://news.ycombinator.com/item?id=49119425</id>
-        <link href="https://github.com/mokshablr/gander"/>
-        <updated>2026-07-31T05:45:13.000Z</updated>
-        <summary type="html"><![CDATA[Hi HN,
-I built an Android file viewer that opens PDF, Word, Excel, PowerPoint, images, video, audio, Markdown and code, and asks for no permissions at all.
-I have always been uneasy about opening files people send me. On Android you either install a 400 MB office suite and sign in or use a small free viewer that wants storage access and ends up uploading your file to a server to render it. Also the hassle of having to download different apps for different file formats was really annoying.
-Gander holds no permissions, not even INTERNET so the OS itself guarantees the file cannot leave the phone.
-PDFs use Pdfium, media uses Media3, and Office formats are rendered by bundled JS libraries in a WebView and so no request goes to any server.
-It is a viewer only. Complex PowerPoint decks come out approximately right, spreadsheet charts are not drawn, and old binary .doc and .ppt are unsupported. I'll work on it as issues come up :P
-It is 14 MB, MIT licensed and uploaded on Github releases.
-Do try it! I would love some feedback especially on files that render badly or need new support.
-Comments URL: https://news.ycombinator.com/item?id=49119425
-Points: 66
-# Comments: 24]]></summary>
-        <author>
-            <name>mokshablr</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: What should the GUI for AI agents look like?]]></title>
-        <id>https://news.ycombinator.com/item?id=49119274</id>
-        <link href="https://marbleos.com/demo"/>
-        <updated>2026-07-31T05:17:29.000Z</updated>
-        <summary type="html"><![CDATA[Hi HN! We’re Akilan and Miguel, the creators of MarbleOS.
-The inspiration for Marble comes from the GUI work at Xerox PARC, the 1984 Macintosh, and later NeXTSTEP, which became the foundation for Mac OS X.
-Before GUIs, interacting with a computer was limited to strange terminal commands:
-C:\> DIR
-C:\> COPY FILE.TXT A:
-You had to remember the command, syntax, paths, and parameters.
-The GUI made those capabilities visible. Instead of remembering commands, you could point at files, drag them, click buttons, and select actions from menus.
-It didn't necessarily make entirely new things possible; it just made existing capabilities much easier to understand and use. We feel like AI is still somewhere around this command-line stage.
-Even though the strict syntax has been replaced with natural lang…]]></summary>
-        <author>
-            <name>akbabu</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Let's make the worst Htmx]]></title>
-        <id>https://news.ycombinator.com/item?id=49119270</id>
-        <link href="https://zserge.com/posts/worst-htmx-ever/"/>
-        <updated>2026-07-31T05:16:45.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://zserge.com/posts/worst-htmx-ever/
-Comments URL: https://news.ycombinator.com/item?id=49119270
-Points: 78
-# Comments: 22]]></summary>
-        <author>
-            <name>RebelPotato</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[JEP 401: Value Objects (Preview) merged to OpenJDK master]]></title>
-        <id>https://news.ycombinator.com/item?id=49119063</id>
-        <link href="https://github.com/openjdk/jdk/pull/31120"/>
-        <updated>2026-07-31T04:38:19.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://github.com/openjdk/jdk/pull/31120
-Comments URL: https://news.ycombinator.com/item?id=49119063
-Points: 61
-# Comments: 18]]></summary>
-        <author>
-            <name>mfiguiere</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The session you cannot take with you]]></title>
-        <id>https://news.ycombinator.com/item?id=49118781</id>
-        <link href="https://earendil.com/posts/session-portability/"/>
-        <updated>2026-07-31T03:47:59.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://earendil.com/posts/session-portability/
-Comments URL: https://news.ycombinator.com/item?id=49118781
-Points: 205
-# Comments: 36]]></summary>
-        <author>
-            <name>apitman</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A California aquifer may have crossed the point of no return]]></title>
-        <id>https://news.ycombinator.com/item?id=49118663</id>
-        <link href="https://www.science.org/content/article/california-aquifer-may-have-crossed-point-no-return"/>
-        <updated>2026-07-31T03:27:36.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.science.org/content/article/california-aquifer-may-have-crossed-point-no-return
-Comments URL: https://news.ycombinator.com/item?id=49118663
-Points: 65
-# Comments: 35]]></summary>
-        <author>
-            <name>Jimmc414</name>
         </author>
     </entry>
 </feed>

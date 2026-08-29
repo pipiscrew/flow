@@ -6,6 +6,36 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=49490870",
+          "author": "JumpCrisscross",
+          "description": "Article URL: https://science.nasa.gov/mission/roman-space-telescope/\nComments URL: https://news.ycombinator.com/item?id=49490870\nPoints: 55\n# Comments: 14",
+          "link": "https://science.nasa.gov/mission/roman-space-telescope/",
+          "publishedOn": "2026-08-29T15:48:02.000Z",
+          "wordCount": 3116,
+          "title": "Nancy Grace Roman Space Telescope",
+          "imageUrl": "https://assets.science.nasa.gov/content/dam/science/missions/rst/spacecraft-illustrations/Roman_BeautyPass2026-med.png/jcr:content/renditions/cq5dam.web.1280.1280.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=49490702",
+          "author": "400thecat",
+          "description": "Article URL: https://bsky.app/profile/grapheneos.org/post/3mua32q4ds22e\nComments URL: https://news.ycombinator.com/item?id=49490702\nPoints: 94\n# Comments: 39",
+          "link": "https://bsky.app/profile/grapheneos.org/post/3mua32q4ds22e",
+          "publishedOn": "2026-08-29T15:26:28.000Z",
+          "wordCount": 623,
+          "title": "GrapheneOS project: pixel 11 no longer supports hardware memory tagging (MTE)",
+          "imageUrl": "https://cdn.bsky.app/img/avatar_thumbnail/plain/did:plc:kym5w7pcv4v7xbz7lvbj24na/bafkreickcnmrwdtb3mwqzz7v7s2xgmczwzrdwp3ucvadpeuorzbsgvunjm"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=49489982",
+          "author": "pluc",
+          "description": "Article URL: https://lwn.net/Articles/1091231/\nComments URL: https://news.ycombinator.com/item?id=49489982\nPoints: 407\n# Comments: 326",
+          "link": "https://lwn.net/Articles/1091231/",
+          "publishedOn": "2026-08-29T14:02:10.000Z",
+          "wordCount": 1931,
+          "title": "Debian votes to allow \"responsible use of generative AI\"",
+          "imageUrl": null
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=49489057",
           "author": "tosh",
           "description": "Article URL: https://www.bbc.com/news/articles/cn45vdxyvvlo\nComments URL: https://news.ycombinator.com/item?id=49489057\nPoints: 184\n# Comments: 208",
@@ -1016,6 +1046,16 @@
           "imageUrl": "/static/og-image.png"
         },
         {
+          "id": "https://news.ycombinator.com/item?id=49447178",
+          "author": "andrewww-dev",
+          "description": "Hey HN!\nI built Typebase, a library that gives you Convex's DX with Supabase's openness.\nAfter trying Supabase I liked how fast it is to spin up a DB and auth, but really didn't like using RLS and SQL for authorization. With Convex I loved how your server \"lives\" in your code, but disliked the DB model and the realtime-first defaults.\nWith Typebase you just write TS files inside a typebase/ folder in your existing repo. You can define your DB tables inside a schema.ts file and export server functions that your frontend calls like local functions, fully typed. Auth is built in.\nThen one CLI command uploads your server to any of the available providers (Vercel, Cloudflare Workers or Deno Deploy for the servera and Neon for the DB), or generates the code so you can deploy it wherever you want.\nBuilt on top of oRPC, Drizzle, and better-auth.\nHappy to answer any questions or feedback!\nComments URL: https://news.ycombinator.com/item?id=49447178\nPoints: 61\n# Comments: 11",
+          "link": "https://typebase.io/",
+          "publishedOn": "2026-08-26T11:33:31.000Z",
+          "wordCount": 3727,
+          "title": "Show HN: Typebase – A single-folder back end you write in TypeScript",
+          "imageUrl": "https://typebase.io/og/site"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=49447057",
           "author": "nanna",
           "description": "Article URL: https://www.gatesnotes.com/work/make-ai-work-for-everyone/reader/a-turbulent-ai-era-and-critical-choices-to-make?WT.mc_id=20260826_ai-overture-2026-med-med\nComments URL: https://news.ycombinator.com/item?id=49447057\nPoints: 93\n# Comments: 353",
@@ -1366,6 +1406,16 @@
           "imageUrl": "https://opengraph.githubassets.com/c3c7d030a5e2e3b72159ef52a75ad73fb2ac4f1ba0870a5941346ea8c46646e8/ThinkOffApp/CarWatch"
         },
         {
+          "id": "https://news.ycombinator.com/item?id=49435595",
+          "author": "theanonymousone",
+          "description": "Article URL: https://docs.python.org/3.16/library/time-complexity.html\nComments URL: https://news.ycombinator.com/item?id=49435595\nPoints: 61\n# Comments: 17",
+          "link": "https://docs.python.org/3.16/library/time-complexity.html",
+          "publishedOn": "2026-08-25T15:15:08.000Z",
+          "wordCount": 1642,
+          "title": "Time complexity of operations on Python's built-in types",
+          "imageUrl": "https://docs.python.org/3.16/_images/social_previews/summary_library_time-complexity_afa55074.png"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=49435147",
           "author": "Brajeshwar",
           "description": "Article URL: https://arstechnica.com/ai/2026/08/ai-is-hitting-entry-level-jobs-hardest-stanford-study-finds/\nComments URL: https://news.ycombinator.com/item?id=49435147\nPoints: 93\n# Comments: 77",
@@ -1434,6 +1484,16 @@
           "wordCount": 7991,
           "title": "Apple's new Mac mini, featuring M6 and M5 Pro",
           "imageUrl": "https://www.apple.com/newsroom/images/2026/08/apple-unveils-a-more-powerful-mac-mini-featuring-the-all-new-m6-and-m5-pro/tile/Apple-Mac-mini-hero-260825-lp.jpg.og.jpg?202608251301"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=49433328",
+          "author": "TylerJaacks",
+          "description": "Article URL: https://www.eveonline.com/news/view/the-move-to-python-3-begins\nComments URL: https://news.ycombinator.com/item?id=49433328\nPoints: 192\n# Comments: 95",
+          "link": "https://www.eveonline.com/news/view/the-move-to-python-3-begins",
+          "publishedOn": "2026-08-25T13:04:55.000Z",
+          "wordCount": 3634,
+          "title": "EVE Online moves to Python 3",
+          "imageUrl": "https://images.ctfassets.net/7lhcm73ukv5p/6BrEmUHFq7uEWSrPzpV3HI/c885d66ada65315f14945778b85f691c/Screenshot_Copy_3_1920x1080.JPG?fm=jpg&w=1200&h=630&fit=fill"
         },
         {
           "id": "https://news.ycombinator.com/item?id=49433316",
@@ -1604,6 +1664,16 @@
           "wordCount": 4094,
           "title": "Bookshelf – Self-hosted eBook library that runs on object storage",
           "imageUrl": "https://opengraph.githubassets.com/d4658a956b2853d546c27d73f707cdbe4ada3d6c6c47fdb28463917e59ae2ea0/murerkinn/bookshelf"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=49426995",
+          "author": "lioeters",
+          "description": "Article URL: https://dgl.cx/2020/06/sqlite-json-support\nComments URL: https://news.ycombinator.com/item?id=49426995\nPoints: 83\n# Comments: 11",
+          "link": "https://dgl.cx/2020/06/sqlite-json-support",
+          "publishedOn": "2026-08-24T23:00:10.000Z",
+          "wordCount": 520,
+          "title": "SQLite as a Document Database (2020)",
+          "imageUrl": null
         },
         {
           "id": "https://news.ycombinator.com/item?id=49426564",
@@ -12124,76 +12194,6 @@
           "wordCount": 132,
           "title": "Show HN: A Handwritten Blogging Platform",
           "imageUrl": "https://handwritten.blog/rails/public_image_variants/eyJfcmFpbHMiOnsiZGF0YSI6MTQwLCJwdXIiOiJibG9iX2lkIn19--02c94840b3ef80583cdb996016d570bf04fc1be7/web_1600/homepage_hero.webp"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49119559",
-          "author": "dnhkng",
-          "description": "Article URL: https://api-docs.deepseek.com/updates/\nComments URL: https://news.ycombinator.com/item?id=49119559\nPoints: 115\n# Comments: 39",
-          "link": "https://api-docs.deepseek.com/updates/",
-          "publishedOn": "2026-07-31T06:08:36.000Z",
-          "wordCount": 1416,
-          "title": "DeepSeek-V4-Flash Update",
-          "imageUrl": "https://api-docs.deepseek.com/img/deepseek-social-card.jpeg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49119425",
-          "author": "mokshablr",
-          "description": "Hi HN,\nI built an Android file viewer that opens PDF, Word, Excel, PowerPoint, images, video, audio, Markdown and code, and asks for no permissions at all.\nI have always been uneasy about opening files people send me. On Android you either install a 400 MB office suite and sign in or use a small free viewer that wants storage access and ends up uploading your file to a server to render it. Also the hassle of having to download different apps for different file formats was really annoying.\nGander holds no permissions, not even INTERNET so the OS itself guarantees the file cannot leave the phone.\nPDFs use Pdfium, media uses Media3, and Office formats are rendered by bundled JS libraries in a WebView and so no request goes to any server.\nIt is a viewer only. Complex PowerPoint decks come out approximately right, spreadsheet charts are not drawn, and old binary .doc and .ppt are unsupported. I'll work on it as issues come up :P\nIt is 14 MB, MIT licensed and uploaded on Github releases.\nDo try it! I would love some feedback especially on files that render badly or need new support.\nComments URL: https://news.ycombinator.com/item?id=49119425\nPoints: 66\n# Comments: 24",
-          "link": "https://github.com/mokshablr/gander",
-          "publishedOn": "2026-07-31T05:45:13.000Z",
-          "wordCount": 3573,
-          "title": "Show HN: Gander, an Android file viewer that asks for no permissions at all",
-          "imageUrl": "https://repository-images.githubusercontent.com/github-production-repository-image-32fea6/1305551246/3bdba722-936b-4bc3-ac49-6643d2056eb4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260731%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260731T104505Z&X-Amz-Expires=300&X-Amz-Signature=1d8ce2041474e4166c65936583608fb4052c4c1ea548b734ab583978eeb6506f&X-Amz-SignedHeaders=host&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoiaHR0cHM6Ly9yZXBvc2l0b3J5LWltYWdlcy5naXRodWJ1c2VyY29udGVudC5jb20vIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NTQ5NTAwNSwibmJmIjoxNzg1NDk0NzA1LCJwYXRoIjoicmVwb3NpdG9yeS1pbWFnZXMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIn0.UGHu38w0bepJdDmmXbcMT4yZaEI2qZANfbqNdt0Qhtc"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49119274",
-          "author": "akbabu",
-          "description": "Hi HN! We’re Akilan and Miguel, the creators of MarbleOS.\nThe inspiration for Marble comes from the GUI work at Xerox PARC, the 1984 Macintosh, and later NeXTSTEP, which became the foundation for Mac OS X.\nBefore GUIs, interacting with a computer was limited to strange terminal commands:\nC:\\> DIR\nC:\\> COPY FILE.TXT A:\nYou had to remember the command, syntax, paths, and parameters.\nThe GUI made those capabilities visible. Instead of remembering commands, you could point at files, drag them, click buttons, and select actions from menus.\nIt didn't necessarily make entirely new things possible; it just made existing capabilities much easier to understand and use. We feel like AI is still somewhere around this command-line stage.\nEven though the strict syntax has been replaced with natural lang…",
-          "link": "https://marbleos.com/demo",
-          "publishedOn": "2026-07-31T05:17:29.000Z",
-          "wordCount": 26,
-          "title": "Show HN: What should the GUI for AI agents look like?",
-          "imageUrl": "https://marbleos.com/hn-og.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49119270",
-          "author": "RebelPotato",
-          "description": "Article URL: https://zserge.com/posts/worst-htmx-ever/\nComments URL: https://news.ycombinator.com/item?id=49119270\nPoints: 78\n# Comments: 22",
-          "link": "https://zserge.com/posts/worst-htmx-ever/",
-          "publishedOn": "2026-07-31T05:16:45.000Z",
-          "wordCount": 1949,
-          "title": "Let's make the worst Htmx",
-          "imageUrl": "https://zserge.com/logo.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49119063",
-          "author": "mfiguiere",
-          "description": "Article URL: https://github.com/openjdk/jdk/pull/31120\nComments URL: https://news.ycombinator.com/item?id=49119063\nPoints: 61\n# Comments: 18",
-          "link": "https://github.com/openjdk/jdk/pull/31120",
-          "publishedOn": "2026-07-31T04:38:19.000Z",
-          "wordCount": 4076,
-          "title": "JEP 401: Value Objects (Preview) merged to OpenJDK master",
-          "imageUrl": "https://opengraph.githubassets.com/67ff84f5a8a75f99e077db391d0d67e1d514afcfbe5eb82238682cd748f13270/openjdk/jdk/pull/31120"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49118781",
-          "author": "apitman",
-          "description": "Article URL: https://earendil.com/posts/session-portability/\nComments URL: https://news.ycombinator.com/item?id=49118781\nPoints: 205\n# Comments: 36",
-          "link": "https://earendil.com/posts/session-portability/",
-          "publishedOn": "2026-07-31T03:47:59.000Z",
-          "wordCount": 3079,
-          "title": "The session you cannot take with you",
-          "imageUrl": "https://earendil.com/static/og/posts/session-portability.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49118663",
-          "author": "Jimmc414",
-          "description": "Article URL: https://www.science.org/content/article/california-aquifer-may-have-crossed-point-no-return\nComments URL: https://news.ycombinator.com/item?id=49118663\nPoints: 65\n# Comments: 35",
-          "link": "https://www.science.org/content/article/california-aquifer-may-have-crossed-point-no-return",
-          "publishedOn": "2026-07-31T03:27:36.000Z",
-          "wordCount": null,
-          "title": "A California aquifer may have crossed the point of no return",
-          "imageUrl": null
         }
       ]
     }
