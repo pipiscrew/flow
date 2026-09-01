@@ -2,10 +2,124 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-09-01T17:45:11.563Z</updated>
+    <updated>2026-09-01T20:53:12.053Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[The ChatGPT/Codex app bundles a full copy of LibreOffice]]></title>
+        <id>https://news.ycombinator.com/item?id=49527396</id>
+        <link href="https://simonwillison.net/2026/Sep/1/codex-libreoffice/"/>
+        <updated>2026-09-01T20:07:57.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://simonwillison.net/2026/Sep/1/codex-libreoffice/
+Comments URL: https://news.ycombinator.com/item?id=49527396
+Points: 58
+# Comments: 30]]></summary>
+        <author>
+            <name>timpera</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How accurate have Ed Zitron's AI skeptic predictions been?]]></title>
+        <id>https://news.ycombinator.com/item?id=49526069</id>
+        <link href="https://danluu.com/zitron/"/>
+        <updated>2026-09-01T18:35:15.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://danluu.com/zitron/
+Comments URL: https://news.ycombinator.com/item?id=49526069
+Points: 144
+# Comments: 157]]></summary>
+        <author>
+            <name>jatins</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Claude Fable 5.1 and Claude Mythos 5.1]]></title>
+        <id>https://news.ycombinator.com/item?id=49525378</id>
+        <link href="https://www.anthropic.com/claude-fable-and-mythos-5-1"/>
+        <updated>2026-09-01T17:53:53.000Z</updated>
+        <summary type="html"><![CDATA[What's new in Claude Fable 5.1
+ – https://platform.claude.com/docs/en/models/fable-5-1/whats-n...
+System Card: https://www-cdn.anthropic.com/0339e6a7c5c7b87f5c07798616dc32...
+Comments URL: https://news.ycombinator.com/item?id=49525378
+Points: 619
+# Comments: 582]]></summary>
+        <author>
+            <name>denysvitali</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The creator of Jujutsu has joined ERSC]]></title>
+        <id>https://news.ycombinator.com/item?id=49525297</id>
+        <link href="https://ersc.io/blog/martin-joins-ersc"/>
+        <updated>2026-09-01T17:46:21.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://ersc.io/blog/martin-joins-ersc
+Comments URL: https://news.ycombinator.com/item?id=49525297
+Points: 122
+# Comments: 104]]></summary>
+        <author>
+            <name>steveklabnik</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Atlas: A World Model for Spatial Intelligence]]></title>
+        <id>https://news.ycombinator.com/item?id=49525160</id>
+        <link href="https://www.worldlabs.ai/blog/atlas"/>
+        <updated>2026-09-01T17:36:02.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.worldlabs.ai/blog/atlas
+Comments URL: https://news.ycombinator.com/item?id=49525160
+Points: 80
+# Comments: 7]]></summary>
+        <author>
+            <name>johnsutor</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Launch HN: Nori Robotics (YC S26) – A low-cost humanoid robot for development]]></title>
+        <id>https://news.ycombinator.com/item?id=49525153</id>
+        <link href="https://www.norirobotics.com/"/>
+        <updated>2026-09-01T17:35:10.000Z</updated>
+        <summary type="html"><![CDATA[Hey HN, I’m Antonio from Nori Robotics (https://norirobotics.com). We build a $1,688 bimanual mobile robot in San Francisco for robotics developers and researchers.
+I started working on Nori while doing robotics research at Columbia. I was teaching robots through human demonstrations, but getting my hands on affordable hardware was difficult. Most labs have one or two expensive robots, which makes it hard to collect large datasets, run long experiments, or test across several robots.
+So I built my own. After seven iterations the latest Nori has:
+* 19 degrees of freedom
+* Two 7+1 DOF arms with a 1.5 kg payload per arm
+* A 55 kg telescoping lift
+* A differential wheeled base
+* Four 720p, 30 fps RGB cameras
+* 2D lidar
+* A dual microphone array with full-duplex voice communication
+* A 432 Wh b…]]></summary>
+        <author>
+            <name>AntonioLi</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Running 104GB Qwen3.8-Flash-Next on 48GB Mac with at ~12 tok/s]]></title>
+        <id>https://news.ycombinator.com/item?id=49524447</id>
+        <link href="https://github.com/carloslfu/slotstream"/>
+        <updated>2026-09-01T16:42:46.000Z</updated>
+        <summary type="html"><![CDATA[I built slotstream, a way to run Qwen3.8-Flash-Next 4-bit on a low-memory mac starting from 16GB, a 125B parameter model that would need 100GB+ memory/RAM, thanks to expert-offloading/ssd-streaming. Easy to install/update, and mac-native using MLX and Swift.
+It ships with auto-mode, which makes a good tradeoff between memory usage and speed. I'll be implementing and porting the MTP module for speculative decoding next
+Comments URL: https://news.ycombinator.com/item?id=49524447
+Points: 95
+# Comments: 66]]></summary>
+        <author>
+            <name>carloslfu</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Movie Scene Map – 13,312 films, series, games, anime and manga]]></title>
+        <id>https://news.ycombinator.com/item?id=49524320</id>
+        <link href="https://moviescenemap.com/"/>
+        <updated>2026-09-01T16:34:45.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://moviescenemap.com/
+Comments URL: https://news.ycombinator.com/item?id=49524320
+Points: 94
+# Comments: 23]]></summary>
+        <author>
+            <name>Flightmussy</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Play Store blocks AuroraStore, hurting GrapheneOS users]]></title>
         <id>https://news.ycombinator.com/item?id=49523754</id>
@@ -15659,123 +15773,6 @@ Points: 67
 # Comments: 18]]></summary>
         <author>
             <name>adulion</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The true power of regular expressions (2012)]]></title>
-        <id>https://news.ycombinator.com/item?id=49152973</id>
-        <link href="https://www.npopov.com/2012/06/15/The-true-power-of-regular-expressions.html"/>
-        <updated>2026-08-03T08:47:23.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.npopov.com/2012/06/15/The-true-power-of-regular-expressions.html
-Comments URL: https://news.ycombinator.com/item?id=49152973
-Points: 52
-# Comments: 42]]></summary>
-        <author>
-            <name>uneven9434</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Bonsai: Janestreet's UI Library]]></title>
-        <id>https://news.ycombinator.com/item?id=49152842</id>
-        <link href="https://github.com/janestreet/bonsai"/>
-        <updated>2026-08-03T08:29:57.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://github.com/janestreet/bonsai
-Comments URL: https://news.ycombinator.com/item?id=49152842
-Points: 68
-# Comments: 17]]></summary>
-        <author>
-            <name>KolmogorovComp</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Octane – React's programming model, compiled]]></title>
-        <id>https://news.ycombinator.com/item?id=49152640</id>
-        <link href="https://octanejs.dev/"/>
-        <updated>2026-08-03T08:04:04.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://octanejs.dev
-Comments URL: https://news.ycombinator.com/item?id=49152640
-Points: 81
-# Comments: 27]]></summary>
-        <author>
-            <name>nnx</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[I stopped trusting USB-C cable labels and started testing them]]></title>
-        <id>https://news.ycombinator.com/item?id=49152255</id>
-        <link href="https://www.makeuseof.com/i-stopped-trusting-usb-c-cable-labels-started-testing-with-meter-instead/"/>
-        <updated>2026-08-03T07:12:57.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.makeuseof.com/i-stopped-trusting-usb-c-cable-labels-started-testing-with-meter-instead/
-Comments URL: https://news.ycombinator.com/item?id=49152255
-Points: 122
-# Comments: 100]]></summary>
-        <author>
-            <name>baranul</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The AI Productivity Gap]]></title>
-        <id>https://news.ycombinator.com/item?id=49152222</id>
-        <link href="https://bjorg.bjornroche.com/management/ai-productivity-gap/"/>
-        <updated>2026-08-03T07:07:20.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://bjorg.bjornroche.com/management/ai-productivity-gap/
-Comments URL: https://news.ycombinator.com/item?id=49152222
-Points: 58
-# Comments: 60]]></summary>
-        <author>
-            <name>kiyanwang</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Rust project goals: Immobile types and guaranteed destructors]]></title>
-        <id>https://news.ycombinator.com/item?id=49152023</id>
-        <link href="https://github.com/rust-lang/rust-project-goals/blob/main/src/2026/move-trait.md"/>
-        <updated>2026-08-03T06:42:00.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://github.com/rust-lang/rust-project-goals/blob/main/src/2026/move-trait.md
-Comments URL: https://news.ycombinator.com/item?id=49152023
-Points: 94
-# Comments: 22]]></summary>
-        <author>
-            <name>paavohtl</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Don't be a meat proxy]]></title>
-        <id>https://news.ycombinator.com/item?id=49151933</id>
-        <link href="https://gruhn.me/blog/2026-08-03/"/>
-        <updated>2026-08-03T06:28:01.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://gruhn.me/blog/2026-08-03/
-Comments URL: https://news.ycombinator.com/item?id=49151933
-Points: 165
-# Comments: 66]]></summary>
-        <author>
-            <name>ngruhn</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Situational Awareness and the Impending Stock Market Volatility]]></title>
-        <id>https://news.ycombinator.com/item?id=49151871</id>
-        <link href="https://www.emergingtrajectories.com/lh/situational-awareness-bigger-picture/"/>
-        <updated>2026-08-03T06:17:53.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.emergingtrajectories.com/lh/situational-awareness-bigger-picture/
-Comments URL: https://news.ycombinator.com/item?id=49151871
-Points: 51
-# Comments: 37]]></summary>
-        <author>
-            <name>cl42</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[More German than many Germans]]></title>
-        <id>https://news.ycombinator.com/item?id=49151734</id>
-        <link href="https://mertbulan.com/more-german-than-many-germans/"/>
-        <updated>2026-08-03T06:00:14.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://mertbulan.com/more-german-than-many-germans/
-Comments URL: https://news.ycombinator.com/item?id=49151734
-Points: 88
-# Comments: 13]]></summary>
-        <author>
-            <name>mertbio</name>
         </author>
     </entry>
 </feed>
