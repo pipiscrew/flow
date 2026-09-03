@@ -6,6 +6,66 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=49555691",
+          "author": "vignesh_warar",
+          "description": "Article URL: https://arcprize.org/blog/astra\nComments URL: https://news.ycombinator.com/item?id=49555691\nPoints: 133\n# Comments: 75",
+          "link": "https://arcprize.org/blog/astra",
+          "publishedOn": "2026-09-03T19:45:00.000Z",
+          "wordCount": 3867,
+          "title": "OpenAI's GPT-6 Astra on ARC-AGI-3",
+          "imageUrl": "https://arcprize.org/media/images/blog/astra-action-efficiency.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=49555233",
+          "author": "codechicago277",
+          "description": "Article URL: https://nolanlawson.com/2026/08/23/the-asteroid-currently-hitting-frontend-web-development/\nComments URL: https://news.ycombinator.com/item?id=49555233\nPoints: 51\n# Comments: 48",
+          "link": "https://nolanlawson.com/2026/08/23/the-asteroid-currently-hitting-frontend-web-development/",
+          "publishedOn": "2026-09-03T19:17:24.000Z",
+          "wordCount": 7306,
+          "title": "The asteroid currently hitting front end web development",
+          "imageUrl": "https://nolanlawson.com/wp-content/uploads/2025/01/favicon.png?w=32"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=49554643",
+          "author": "kibae",
+          "description": "System Card: https://deploymentsafety.openai.com/gpt-6-astra\nRelated ongoing threads:\nOpenAI's GPT-6 Astra on ARC-AGI-3 - https://news.ycombinator.com/item?id=49555691\nGPT-6 Astra makes major gains in the Artificial Analysis Coding Agent Index - https://news.ycombinator.com/item?id=49556147\nComments URL: https://news.ycombinator.com/item?id=49554643\nPoints: 1083\n# Comments: 799",
+          "link": "https://openai.com/index/gpt-6-astra/",
+          "publishedOn": "2026-09-03T18:41:05.000Z",
+          "wordCount": null,
+          "title": "GPT-6 Astra",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=49554520",
+          "author": "altertable",
+          "description": "Article URL: https://inference-docs.cerebras.ai/models/overview\nComments URL: https://news.ycombinator.com/item?id=49554520\nPoints: 390\n# Comments: 121",
+          "link": "https://inference-docs.cerebras.ai/models/overview",
+          "publishedOn": "2026-09-03T18:32:13.000Z",
+          "wordCount": 514,
+          "title": "Qwen 3.8 27B available on Cerebras at 1500 tokens/s",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=49553321",
+          "author": "yurivish",
+          "description": "Article URL: https://www.lesswrong.com/posts/PLisnSFir8y5AHkmP/how-concerned-should-we-be-about-astra-s-recurrent\nComments URL: https://news.ycombinator.com/item?id=49553321\nPoints: 69\n# Comments: 34",
+          "link": "https://www.lesswrong.com/posts/PLisnSFir8y5AHkmP/how-concerned-should-we-be-about-astra-s-recurrent",
+          "publishedOn": "2026-09-03T17:10:06.000Z",
+          "wordCount": null,
+          "title": "How concerned should we be about Astra's recurrent architecture?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=49552572",
+          "author": "speckx",
+          "description": "Article URL: https://www.discoverwildlife.com/animal-facts/artificial-beaver-dams-california\nComments URL: https://news.ycombinator.com/item?id=49552572\nPoints: 110\n# Comments: 32",
+          "link": "https://www.discoverwildlife.com/animal-facts/artificial-beaver-dams-california",
+          "publishedOn": "2026-09-03T16:21:33.000Z",
+          "wordCount": 56308,
+          "title": "Artificial beaver dams saw juvenile coho salmon survival rates go from 8% to 60%",
+          "imageUrl": "https://d2rj6cu2ik1biv.cloudfront.net/193c804a-a673-47bd-b09b-11baf4822a17/9ac494a4-627d-4fea-a827-dcf588dd6f96/fd5ffa75-92b9-459b-9465-2f2d37321e0d/thumbnails/5fdb6aa7-15a3-4f1c-8980-ce664981a95c.jpeg?appId=f347d34d-c1a6-4a00-b570-b78c2dcb3211&w=1200"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=49552055",
           "author": "tlhunter",
           "description": "Article URL: https://www.anildash.com/2026/09/02/cancer-capital/\nComments URL: https://news.ycombinator.com/item?id=49552055\nPoints: 60\n# Comments: 10",
@@ -76,6 +136,16 @@
           "imageUrl": "https://anyhumanever.com/static/og-card.png?v=100b"
         },
         {
+          "id": "https://news.ycombinator.com/item?id=49550375",
+          "author": "rabahs",
+          "description": "These are my notes from porting my Amiga game, which I originally built in Baghdad in 1993 in MC68000 assembly, to Godot, using Claude Fable 5 during last July holiday.  It took an evening! Getting the feel right and shipping it took a few more weekends and evenings.\nI spent the last few weeks analyzing what Claude did, feeding it my 33 years of memory of how I built the game, my notes and the git repos. It wrote the first draft of the article, and I edited line by line over a week. The screenshots of my 1993 map editor is the first I have run it since then. The one thing I never verified myself is the 108-byte explanation.\n\"Before starting everything, the model assembled the code using vasm on my Mac, and kept going till the binary is byte-identical to the binaries I had in my original game. Even after that, the there was mismatch of about 108 bytes. I originally used AsmOne  which assembles into memory, and the game saved into the disk by saving that memory after running the game. So the original shipped files are a snapshot of the game that had already been running, not clean asm-one output.\"\nPlease post any questions. I am also releasing the original game for free.\nComments URL: https://news.ycombinator.com/item?id=49550375\nPoints: 154\n# Comments: 53",
+          "link": "https://babyloniantwins.com/blog/porting-a-1993-amiga-game-to-godot/",
+          "publishedOn": "2026-09-03T14:28:18.000Z",
+          "wordCount": 4959,
+          "title": "Porting my 1993 Amiga game to Godot, with an LLM reading the 68000 assembly",
+          "imageUrl": "https://www.babyloniantwins.com/img/og.png"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=49549919",
           "author": "ChrisArchitect",
           "description": "Article URL: https://newsguild.org/new-york-times-and-the-athletic-workers-demand-company-scrap-kalshi-deal/\nComments URL: https://news.ycombinator.com/item?id=49549919\nPoints: 165\n# Comments: 106",
@@ -116,6 +186,16 @@
           "imageUrl": "https://opengraph.githubassets.com/bda56dd5fb280eb5e9f6e49e854d8cc7fd1ced9647d8f5a85966c6196bd079c1/audacity/audacity/releases/tag/Audacity-4.0.0"
         },
         {
+          "id": "https://news.ycombinator.com/item?id=49548256",
+          "author": "mellosouls",
+          "description": "https://www.nytimes.com/2026/09/03/us/politics/gloria-steine..., https://archive.ph/cfC1K\nComments URL: https://news.ycombinator.com/item?id=49548256\nPoints: 107\n# Comments: 39",
+          "link": "https://www.theguardian.com/books/2026/sep/03/gloria-steinem-groundbreaking-feminist-campaigner-dies-aged-92",
+          "publishedOn": "2026-09-03T10:31:18.000Z",
+          "wordCount": 5262,
+          "title": "Gloria Steinem has died",
+          "imageUrl": "https://i.guim.co.uk/img/media/40b70b8f5b6aa7ba38af77c2ac99e035c0c765db/0_68_5256_3154/master/5256.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=43971682c6296560810fc844e5b7bef8"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=49547888",
           "author": "ashazal",
           "description": "Article URL: https://claude.com/blog/claude-for-commerce-agents\nComments URL: https://news.ycombinator.com/item?id=49547888\nPoints: 50\n# Comments: 50",
@@ -144,6 +224,26 @@
           "wordCount": 1339,
           "title": "Pre-Release of Polars 2.0",
           "imageUrl": "/polars_2.0.0-rc1.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=49544762",
+          "author": "gmays",
+          "description": "Article URL: https://www.kedglobal.com/artificial-intelligence/newsView/ked202607210007\nComments URL: https://news.ycombinator.com/item?id=49544762\nPoints: 149\n# Comments: 41",
+          "link": "https://www.kedglobal.com/artificial-intelligence/newsView/ked202607210007",
+          "publishedOn": "2026-09-03T01:11:22.000Z",
+          "wordCount": 2016,
+          "title": "Go grandmaster Shin defeats AI KataGo with a two-stone handicap",
+          "imageUrl": "https://www.kedglobal.com/data/ked/image/2026/07/21/ked202607210032.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=49544618",
+          "author": "thread_id",
+          "description": "Article URL: https://www.sciencealert.com/gps-glitched-across-the-us-by-as-much-as-33-feet-scientists-have-never-seen-this-before\nComments URL: https://news.ycombinator.com/item?id=49544618\nPoints: 88\n# Comments: 27",
+          "link": "https://www.sciencealert.com/gps-glitched-across-the-us-by-as-much-as-33-feet-scientists-have-never-seen-this-before",
+          "publishedOn": "2026-09-03T00:49:07.000Z",
+          "wordCount": 4490,
+          "title": "GPS glitched across the US by as much as 33 feet",
+          "imageUrl": "https://www.sciencealert.com/images/2026/08/aurora-from-space.jpg"
         },
         {
           "id": "https://news.ycombinator.com/item?id=49543530",
@@ -246,6 +346,16 @@
           "imageUrl": "https://ploum.net/files/brokenphone.jpg"
         },
         {
+          "id": "https://news.ycombinator.com/item?id=49539556",
+          "author": "surprisetalk",
+          "description": "Article URL: https://matklad.github.io/2026/09/02/static-allocation-constant-work.html\nComments URL: https://news.ycombinator.com/item?id=49539556\nPoints: 99\n# Comments: 17",
+          "link": "https://matklad.github.io/2026/09/02/static-allocation-constant-work.html",
+          "publishedOn": "2026-09-02T17:30:55.000Z",
+          "wordCount": 1419,
+          "title": "Static Allocation, Constant Work",
+          "imageUrl": null
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=49539389",
           "author": "judah",
           "description": "Article URL: https://forums.paint.net/topic/134562-paintnet-52-alpha-build-9739/\nComments URL: https://news.ycombinator.com/item?id=49539389\nPoints: 142\n# Comments: 117",
@@ -273,6 +383,16 @@
           "publishedOn": "2026-09-02T16:07:18.000Z",
           "wordCount": null,
           "title": "Saving money on Google Photos with Immich: Your own personal photo storage",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=49538069",
+          "author": "beeperboy95",
+          "description": "Article URL: https://neal.fun/unusual-suspects/\nComments URL: https://news.ycombinator.com/item?id=49538069\nPoints: 85\n# Comments: 19",
+          "link": "https://neal.fun/unusual-suspects/",
+          "publishedOn": "2026-09-02T15:48:13.000Z",
+          "wordCount": null,
+          "title": "Unusual Suspects",
           "imageUrl": null
         },
         {
@@ -11854,56 +11974,6 @@
           "wordCount": 5022,
           "title": "Why the Legendary Erdős Problems Are Falling to AI",
           "imageUrl": "https://www.quantamagazine.org/wp-content/uploads/2026/08/Erdos-cr.DVDP-Social.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49181099",
-          "author": "dzdt",
-          "description": "Article URL: https://www.wired.com/story/a-civilian-plane-crashed-in-new-mexico-was-the-militarys-tech-to-blame/\nComments URL: https://news.ycombinator.com/item?id=49181099\nPoints: 223\n# Comments: 107",
-          "link": "https://www.wired.com/story/a-civilian-plane-crashed-in-new-mexico-was-the-militarys-tech-to-blame/",
-          "publishedOn": "2026-08-05T11:03:13.000Z",
-          "wordCount": 31545,
-          "title": "Civilian plane crash in New Mexico tied to military GPS blocking",
-          "imageUrl": "https://media.wired.com/photos/6a6a6d259beb8cd00d662700/191:100/w_1280,c_limit/072926_gps-jamming-roswell-flight.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49181083",
-          "author": "theanonymousone",
-          "description": "Article URL: https://openreview.net/challenge?redirect=%2Fforum%3Fid%3DklU4737opt\nComments URL: https://news.ycombinator.com/item?id=49181083\nPoints: 131\n# Comments: 80",
-          "link": "https://openreview.net/challenge?redirect=%2Fforum%3Fid%3DklU4737opt",
-          "publishedOn": "2026-08-05T11:01:37.000Z",
-          "wordCount": 434,
-          "title": "Position: LLMs Can't Jump",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49180649",
-          "author": "hakkikonu",
-          "description": "Article URL: http://www.davetech.co.uk/difficultycurves\nComments URL: https://news.ycombinator.com/item?id=49180649\nPoints: 61\n# Comments: 21",
-          "link": "http://www.davetech.co.uk/difficultycurves",
-          "publishedOn": "2026-08-05T09:59:34.000Z",
-          "wordCount": 2409,
-          "title": "Making difficulty curves in games",
-          "imageUrl": "http://davetech.co.uk/pages/difficultycurves/shareicon.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49180407",
-          "author": "calpaterson",
-          "description": "Article URL: https://calpaterson.com/helsinki-hn.html\nComments URL: https://news.ycombinator.com/item?id=49180407\nPoints: 88\n# Comments: 43",
-          "link": "https://calpaterson.com/helsinki-hn.html",
-          "publishedOn": "2026-08-05T09:15:33.000Z",
-          "wordCount": 153,
-          "title": "Helsinki Hacker News Meetup",
-          "imageUrl": "https://calpaterson.com/images/photo/hn.jpeg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49179039",
-          "author": "afdbcreid",
-          "description": "Article URL: https://blog.rust-lang.org/inside-rust/2026/08/05/rust-langrust-is-adopting-an-llm-policy/\nComments URL: https://news.ycombinator.com/item?id=49179039\nPoints: 54\n# Comments: 32",
-          "link": "https://blog.rust-lang.org/inside-rust/2026/08/05/rust-langrust-is-adopting-an-llm-policy/",
-          "publishedOn": "2026-08-05T05:52:24.000Z",
-          "wordCount": 2397,
-          "title": "Rust-lang/rust is adopting an LLM policy",
-          "imageUrl": "https://www.rust-lang.org/static/images/rust-social-wide.jpg"
         }
       ]
     }
