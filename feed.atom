@@ -2,10 +2,36 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-09-03T03:57:33.211Z</updated>
+    <updated>2026-09-03T08:51:35.120Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Pre-Release of Polars 2.0]]></title>
+        <id>https://news.ycombinator.com/item?id=49546753</id>
+        <link href="https://pola.rs/posts/announcing-polars-2/"/>
+        <updated>2026-09-03T06:59:08.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://pola.rs/posts/announcing-polars-2/
+Comments URL: https://news.ycombinator.com/item?id=49546753
+Points: 70
+# Comments: 3]]></summary>
+        <author>
+            <name>komape</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Launch HN: RonanRX (YC S26) – Personalized Peptides and GLP-1s]]></title>
+        <id>https://news.ycombinator.com/item?id=49543530</id>
+        <link href="https://news.ycombinator.com/item?id=49543530"/>
+        <updated>2026-09-02T22:36:04.000Z</updated>
+        <summary type="html"><![CDATA[Hi HN,
+I’m Lloyd, one of two founders of RonanRx (https://ronanrx.com/). We are building a vertically integrated pharmaceutical company with software for prescribing, telehealth, compounding, manufacturing, and delivery. We are starting with GLP-1s and peptides.
+The path to RonanRx is fairly unconventional. During the pandemic, I built one of the largest mask manufacturing factories in the US. We could make a million masks in a day. We converted raw polypropylene pellets into finished pallets of masks.
+I had a background in software from my YC W10 company, so we took a software approach to building our factory. We used machine learning and computer vision to optimize production. We also vertically integrated almost everything. It worked. We built an efficient manufacturing operation and gr…]]></summary>
+        <author>
+            <name>lloydarmbrust</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Reasons robotics is hard]]></title>
         <id>https://news.ycombinator.com/item?id=49543191</id>
@@ -30,6 +56,19 @@ Points: 111
 # Comments: 70]]></summary>
         <author>
             <name>handfuloflight</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Altair Basic Interpreter Source Code (1975) [pdf]]]></title>
+        <id>https://news.ycombinator.com/item?id=49541754</id>
+        <link href="https://images.gatesnotes.com/12514eb8-7b51-008e-41a9-512542cf683b/34d561c8-cf5c-4e69-af47-3782ea11482e/Original-Microsoft-Source-Code.pdf"/>
+        <updated>2026-09-02T20:08:22.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://images.gatesnotes.com/12514eb8-7b51-008e-41a9-512542cf683b/34d561c8-cf5c-4e69-af47-3782ea11482e/Original-Microsoft-Source-Code.pdf
+Comments URL: https://news.ycombinator.com/item?id=49541754
+Points: 58
+# Comments: 33]]></summary>
+        <author>
+            <name>Eridanus2</name>
         </author>
     </entry>
     <entry>
@@ -462,6 +501,26 @@ Points: 81
 # Comments: 25]]></summary>
         <author>
             <name>masteranza</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: OwnTime – a chess clock for your day's priorities]]></title>
+        <id>https://news.ycombinator.com/item?id=49528506</id>
+        <link href="https://owntime.app/"/>
+        <updated>2026-09-01T21:29:24.000Z</updated>
+        <summary type="html"><![CDATA[I made OwnTime to balance between competing priorities in my life. The idea is based on two main influences: the concept of "roles" from "The 5 Choices" (2015), and my repeated failure to effectively implement time blocking due to the necessary flexibility in my role.
+The app allows you to define time budgets, which are not much more than a few mutually exclusive countdown timers. The UX is essentially that of a chess clock for an arbitrary number of players with configurable time.
+The whole point of the app is to kick you out of the running role/priority when its time is up. One feature that was essential for me was AlarmKit alarms, which only became possible last year (>= iOS 26.1). Another was watchOS support, as a natural surface for time-related matters.
+The current version is strictly focussed. The timers track time allocation during one day. All timers are reset at midnight. I didn't build any statistics - you can export the raw internal SQLite store and make any evaluation or dashboard you want from there.
+I don't plan to extend the app nor to convert it into a service. All data stays local on your devices (synced between phone and watch locally) and fully open to you. No need for an account or subscription. Thus, I ask for a small one-time fee of $1.99.
+The website has a short video and rendered preview: https://owntime.app
+If you want to go straight to the App Store: https://apps.apple.com/app/id6770125662
+I look forward to your comments and feedback.
+Comments URL: https://news.ycombinator.com/item?id=49528506
+Points: 71
+# Comments: 37]]></summary>
+        <author>
+            <name>fmos</name>
         </author>
     </entry>
     <entry>
@@ -15554,176 +15613,6 @@ Points: 163
 # Comments: 32]]></summary>
         <author>
             <name>stymaar</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[I am retiring from fulltime writing (& pseudonymity) to launch Guardian Angel]]></title>
-        <id>https://news.ycombinator.com/item?id=49174900</id>
-        <link href="https://twitter.com/gwern/status/2084739205071343837"/>
-        <updated>2026-08-04T20:48:17.000Z</updated>
-        <summary type="html"><![CDATA[https://twitter.com/willdepue/status/2084750925013434768, https://xcancel.com/willdepue/status/2084750925013434768
-https://gwern.net/guardian-angel
-Comments URL: https://news.ycombinator.com/item?id=49174900
-Points: 195
-# Comments: 111]]></summary>
-        <author>
-            <name>mattsterett</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Oxide Computer raises $445M (SEC Form D)]]></title>
-        <id>https://news.ycombinator.com/item?id=49174407</id>
-        <link href="https://www.sec.gov/Archives/edgar/data/1795071/000179507126000002/xslFormDX01/primary_doc.xml"/>
-        <updated>2026-08-04T20:13:40.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.sec.gov/Archives/edgar/data/1795071/000179507126000002/xslFormDX01/primary_doc.xml
-Comments URL: https://news.ycombinator.com/item?id=49174407
-Points: 134
-# Comments: 50]]></summary>
-        <author>
-            <name>depr</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: Maple-Preview – ternary 20B MoE running at 120 tok/s on a iPhone]]></title>
-        <id>https://news.ycombinator.com/item?id=49173984</id>
-        <link href="https://deepgrove.ai/maple-preview"/>
-        <updated>2026-08-04T19:44:55.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://deepgrove.ai/maple-preview
-Comments URL: https://news.ycombinator.com/item?id=49173984
-Points: 59
-# Comments: 17]]></summary>
-        <author>
-            <name>edwardbzhang</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Stephen Wolfram's Wife Has Died]]></title>
-        <id>https://news.ycombinator.com/item?id=49173165</id>
-        <link href="https://writings.stephenwolfram.com/2026/08/in-memory-of-my-wife-elise-cawley-1961-2026-with-thanks-for-36-wonderful-years/"/>
-        <updated>2026-08-04T18:51:38.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://writings.stephenwolfram.com/2026/08/in-memory-of-my-wife-elise-cawley-1961-2026-with-thanks-for-36-wonderful-years/
-Comments URL: https://news.ycombinator.com/item?id=49173165
-Points: 55
-# Comments: 3]]></summary>
-        <author>
-            <name>jdcampolargo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Waymo – Dallas Open to All]]></title>
-        <id>https://news.ycombinator.com/item?id=49172836</id>
-        <link href="https://waymo.com/blog/shorts/dallas-open-to-all/"/>
-        <updated>2026-08-04T18:29:41.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://waymo.com/blog/shorts/dallas-open-to-all/
-Comments URL: https://news.ycombinator.com/item?id=49172836
-Points: 139
-# Comments: 130]]></summary>
-        <author>
-            <name>xnx</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Web security is too hard]]></title>
-        <id>https://news.ycombinator.com/item?id=49172834</id>
-        <link href="https://textslashplain.com/2026/08/04/security-is-hard-yall/"/>
-        <updated>2026-08-04T18:29:32.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://textslashplain.com/2026/08/04/security-is-hard-yall/
-Comments URL: https://news.ycombinator.com/item?id=49172834
-Points: 98
-# Comments: 35]]></summary>
-        <author>
-            <name>kevincox</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Golden Age of British Ice Cream]]></title>
-        <id>https://news.ycombinator.com/item?id=49172784</id>
-        <link href="https://www.vittlesmagazine.com/p/the-golden-age-of-british-ice-cream"/>
-        <updated>2026-08-04T18:25:16.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.vittlesmagazine.com/p/the-golden-age-of-british-ice-cream
-Comments URL: https://news.ycombinator.com/item?id=49172784
-Points: 55
-# Comments: 40]]></summary>
-        <author>
-            <name>bryanrasmussen</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Why some people mow a lawn better than others]]></title>
-        <id>https://news.ycombinator.com/item?id=49172550</id>
-        <link href="https://pudding.cool/2026/06/mow/"/>
-        <updated>2026-08-04T18:06:12.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://pudding.cool/2026/06/mow/
-Comments URL: https://news.ycombinator.com/item?id=49172550
-Points: 72
-# Comments: 60]]></summary>
-        <author>
-            <name>carlos-menezes</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Hop.earth – OpenStreetMap based car racing game]]></title>
-        <id>https://news.ycombinator.com/item?id=49172405</id>
-        <link href="https://hop.earth/?server=lkhr7&amp;route=fQ5nuu9R"/>
-        <updated>2026-08-04T17:55:19.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://hop.earth/?server=lkhr7&route=fQ5nuu9R
-Comments URL: https://news.ycombinator.com/item?id=49172405
-Points: 55
-# Comments: 28]]></summary>
-        <author>
-            <name>faebi</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Warp Agent CLI]]></title>
-        <id>https://news.ycombinator.com/item?id=49171766</id>
-        <link href="https://www.warp.dev/blog/introducing-the-warp-agent-cli-coding-agent"/>
-        <updated>2026-08-04T17:08:41.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.warp.dev/blog/introducing-the-warp-agent-cli-coding-agent
-Comments URL: https://news.ycombinator.com/item?id=49171766
-Points: 53
-# Comments: 27]]></summary>
-        <author>
-            <name>emschwartz</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Mistral's Shieldstral: 3B open-weights model for multimodal moderation]]></title>
-        <id>https://news.ycombinator.com/item?id=49171268</id>
-        <link href="https://mistral.ai/news/shieldstral/"/>
-        <updated>2026-08-04T16:36:05.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://mistral.ai/news/shieldstral/
-Comments URL: https://news.ycombinator.com/item?id=49171268
-Points: 60
-# Comments: 16]]></summary>
-        <author>
-            <name>riadsila</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Workers Drilling in Romania Broke into a Cave Sealed for 5.5M Years]]></title>
-        <id>https://news.ycombinator.com/item?id=49171223</id>
-        <link href="https://travelandtannins.com/workers-drilling-in-romania-broke-into-a-cave-sealed-for-5-5-million-years-and-found-an-entire-living-world-that-has-never-seen-the-sun/"/>
-        <updated>2026-08-04T16:32:08.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://travelandtannins.com/workers-drilling-in-romania-broke-into-a-cave-sealed-for-5-5-million-years-and-found-an-entire-living-world-that-has-never-seen-the-sun/
-Comments URL: https://news.ycombinator.com/item?id=49171223
-Points: 98
-# Comments: 45]]></summary>
-        <author>
-            <name>yk</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[When AI Benchmarks Plateau: A Systematic Study of Benchmark Saturation]]></title>
-        <id>https://news.ycombinator.com/item?id=49170915</id>
-        <link href="https://arxiv.org/abs/2602.16763"/>
-        <updated>2026-08-04T16:10:39.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://arxiv.org/abs/2602.16763
-Comments URL: https://news.ycombinator.com/item?id=49170915
-Points: 55
-# Comments: 61]]></summary>
-        <author>
-            <name>doppp</name>
         </author>
     </entry>
 </feed>

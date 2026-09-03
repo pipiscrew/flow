@@ -6,6 +6,26 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=49546753",
+          "author": "komape",
+          "description": "Article URL: https://pola.rs/posts/announcing-polars-2/\nComments URL: https://news.ycombinator.com/item?id=49546753\nPoints: 70\n# Comments: 3",
+          "link": "https://pola.rs/posts/announcing-polars-2/",
+          "publishedOn": "2026-09-03T06:59:08.000Z",
+          "wordCount": 1339,
+          "title": "Pre-Release of Polars 2.0",
+          "imageUrl": "/polars_2.0.0-rc1.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=49543530",
+          "author": "lloydarmbrust",
+          "description": "Hi HN,\nI’m Lloyd, one of two founders of RonanRx (https://ronanrx.com/). We are building a vertically integrated pharmaceutical company with software for prescribing, telehealth, compounding, manufacturing, and delivery. We are starting with GLP-1s and peptides.\nThe path to RonanRx is fairly unconventional. During the pandemic, I built one of the largest mask manufacturing factories in the US. We could make a million masks in a day. We converted raw polypropylene pellets into finished pallets of masks.\nI had a background in software from my YC W10 company, so we took a software approach to building our factory. We used machine learning and computer vision to optimize production. We also vertically integrated almost everything. It worked. We built an efficient manufacturing operation and gr…",
+          "link": "https://news.ycombinator.com/item?id=49543530",
+          "publishedOn": "2026-09-02T22:36:04.000Z",
+          "wordCount": 5243,
+          "title": "Launch HN: RonanRX (YC S26) – Personalized Peptides and GLP-1s",
+          "imageUrl": null
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=49543191",
           "author": "ddp26",
           "description": "Article URL: https://secondthoughts.ai/p/14-reasons-robotics-is-hard\nComments URL: https://news.ycombinator.com/item?id=49543191\nPoints: 61\n# Comments: 23",
@@ -23,6 +43,16 @@
           "publishedOn": "2026-09-02T20:57:04.000Z",
           "wordCount": null,
           "title": "Mamdani Bans AI in NYC Schools",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=49541754",
+          "author": "Eridanus2",
+          "description": "Article URL: https://images.gatesnotes.com/12514eb8-7b51-008e-41a9-512542cf683b/34d561c8-cf5c-4e69-af47-3782ea11482e/Original-Microsoft-Source-Code.pdf\nComments URL: https://news.ycombinator.com/item?id=49541754\nPoints: 58\n# Comments: 33",
+          "link": "https://images.gatesnotes.com/12514eb8-7b51-008e-41a9-512542cf683b/34d561c8-cf5c-4e69-af47-3782ea11482e/Original-Microsoft-Source-Code.pdf",
+          "publishedOn": "2026-09-02T20:08:22.000Z",
+          "wordCount": null,
+          "title": "Altair Basic Interpreter Source Code (1975) [pdf]",
           "imageUrl": null
         },
         {
@@ -354,6 +384,16 @@
           "wordCount": 257,
           "title": "Show HN: Weedout – Safari extension that hides YouTube AI-labeled videos",
           "imageUrl": "https://masteranza.github.io/weedout/screenshot.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=49528506",
+          "author": "fmos",
+          "description": "I made OwnTime to balance between competing priorities in my life. The idea is based on two main influences: the concept of \"roles\" from \"The 5 Choices\" (2015), and my repeated failure to effectively implement time blocking due to the necessary flexibility in my role.\nThe app allows you to define time budgets, which are not much more than a few mutually exclusive countdown timers. The UX is essentially that of a chess clock for an arbitrary number of players with configurable time.\nThe whole point of the app is to kick you out of the running role/priority when its time is up. One feature that was essential for me was AlarmKit alarms, which only became possible last year (>= iOS 26.1). Another was watchOS support, as a natural surface for time-related matters.\nThe current version is strictly focussed. The timers track time allocation during one day. All timers are reset at midnight. I didn't build any statistics - you can export the raw internal SQLite store and make any evaluation or dashboard you want from there.\nI don't plan to extend the app nor to convert it into a service. All data stays local on your devices (synced between phone and watch locally) and fully open to you. No need for an account or subscription. Thus, I ask for a small one-time fee of $1.99.\nThe website has a short video and rendered preview: https://owntime.app\nIf you want to go straight to the App Store: https://apps.apple.com/app/id6770125662\nI look forward to your comments and feedback.\nComments URL: https://news.ycombinator.com/item?id=49528506\nPoints: 71\n# Comments: 37",
+          "link": "https://owntime.app/",
+          "publishedOn": "2026-09-01T21:29:24.000Z",
+          "wordCount": 643,
+          "title": "Show HN: OwnTime – a chess clock for your day's priorities",
+          "imageUrl": null
         },
         {
           "id": "https://news.ycombinator.com/item?id=49528057",
@@ -11844,136 +11884,6 @@
           "wordCount": 2363,
           "title": "Thanks FedEx, This Is Why We Keep Getting Phished (2024)",
           "imageUrl": "https://storage.ghost.io/c/fb/33/fb3391dc-723d-4e74-b95a-d641b5feb38e/content/images/size/w1200/2024/02/Screenshot-2024-02-22-at-12.26.43-unnumbered-1.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49174900",
-          "author": "mattsterett",
-          "description": "https://twitter.com/willdepue/status/2084750925013434768, https://xcancel.com/willdepue/status/2084750925013434768\nhttps://gwern.net/guardian-angel\nComments URL: https://news.ycombinator.com/item?id=49174900\nPoints: 195\n# Comments: 111",
-          "link": "https://twitter.com/gwern/status/2084739205071343837",
-          "publishedOn": "2026-08-04T20:48:17.000Z",
-          "wordCount": 155,
-          "title": "I am retiring from fulltime writing (& pseudonymity) to launch Guardian Angel",
-          "imageUrl": "https://abs.twimg.com/rweb/ssr/default/v2/og/image.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49174407",
-          "author": "depr",
-          "description": "Article URL: https://www.sec.gov/Archives/edgar/data/1795071/000179507126000002/xslFormDX01/primary_doc.xml\nComments URL: https://news.ycombinator.com/item?id=49174407\nPoints: 134\n# Comments: 50",
-          "link": "https://www.sec.gov/Archives/edgar/data/1795071/000179507126000002/xslFormDX01/primary_doc.xml",
-          "publishedOn": "2026-08-04T20:13:40.000Z",
-          "wordCount": null,
-          "title": "Oxide Computer raises $445M (SEC Form D)",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49173984",
-          "author": "edwardbzhang",
-          "description": "Article URL: https://deepgrove.ai/maple-preview\nComments URL: https://news.ycombinator.com/item?id=49173984\nPoints: 59\n# Comments: 17",
-          "link": "https://deepgrove.ai/maple-preview",
-          "publishedOn": "2026-08-04T19:44:55.000Z",
-          "wordCount": null,
-          "title": "Show HN: Maple-Preview – ternary 20B MoE running at 120 tok/s on a iPhone",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49173165",
-          "author": "jdcampolargo",
-          "description": "Article URL: https://writings.stephenwolfram.com/2026/08/in-memory-of-my-wife-elise-cawley-1961-2026-with-thanks-for-36-wonderful-years/\nComments URL: https://news.ycombinator.com/item?id=49173165\nPoints: 55\n# Comments: 3",
-          "link": "https://writings.stephenwolfram.com/2026/08/in-memory-of-my-wife-elise-cawley-1961-2026-with-thanks-for-36-wonderful-years/",
-          "publishedOn": "2026-08-04T18:51:38.000Z",
-          "wordCount": null,
-          "title": "Stephen Wolfram's Wife Has Died",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49172836",
-          "author": "xnx",
-          "description": "Article URL: https://waymo.com/blog/shorts/dallas-open-to-all/\nComments URL: https://news.ycombinator.com/item?id=49172836\nPoints: 139\n# Comments: 130",
-          "link": "https://waymo.com/blog/shorts/dallas-open-to-all/",
-          "publishedOn": "2026-08-04T18:29:41.000Z",
-          "wordCount": 467,
-          "title": "Waymo – Dallas Open to All",
-          "imageUrl": "https://lh3.googleusercontent.com/UpGFncEYbr15chkw9d8DPh26pB8KSQq98ds8DQBSI96OgziXaaUYsebvbdgAS1a-e29jRUm2AqAmJwB-1M_B9BEtrWwfBNBNIg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49172834",
-          "author": "kevincox",
-          "description": "Article URL: https://textslashplain.com/2026/08/04/security-is-hard-yall/\nComments URL: https://news.ycombinator.com/item?id=49172834\nPoints: 98\n# Comments: 35",
-          "link": "https://textslashplain.com/2026/08/04/security-is-hard-yall/",
-          "publishedOn": "2026-08-04T18:29:32.000Z",
-          "wordCount": 2652,
-          "title": "Web security is too hard",
-          "imageUrl": "https://textslashplain.com/wp-content/uploads/2026/08/image-41.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49172784",
-          "author": "bryanrasmussen",
-          "description": "Article URL: https://www.vittlesmagazine.com/p/the-golden-age-of-british-ice-cream\nComments URL: https://news.ycombinator.com/item?id=49172784\nPoints: 55\n# Comments: 40",
-          "link": "https://www.vittlesmagazine.com/p/the-golden-age-of-british-ice-cream",
-          "publishedOn": "2026-08-04T18:25:16.000Z",
-          "wordCount": 11181,
-          "title": "The Golden Age of British Ice Cream",
-          "imageUrl": "https://substackcdn.com/image/fetch/$s_!FXMS!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff6bcd37f-05ee-4346-ab04-bb38b17597ab_2480x3508.jpeg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49172550",
-          "author": "carlos-menezes",
-          "description": "Article URL: https://pudding.cool/2026/06/mow/\nComments URL: https://news.ycombinator.com/item?id=49172550\nPoints: 72\n# Comments: 60",
-          "link": "https://pudding.cool/2026/06/mow/",
-          "publishedOn": "2026-08-04T18:06:12.000Z",
-          "wordCount": 2111,
-          "title": "Why some people mow a lawn better than others",
-          "imageUrl": "https://pudding.cool/2026/06/mow/assets/og.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49172405",
-          "author": "faebi",
-          "description": "Article URL: https://hop.earth/?server=lkhr7&route=fQ5nuu9R\nComments URL: https://news.ycombinator.com/item?id=49172405\nPoints: 55\n# Comments: 28",
-          "link": "https://hop.earth/?server=lkhr7&route=fQ5nuu9R",
-          "publishedOn": "2026-08-04T17:55:19.000Z",
-          "wordCount": 52,
-          "title": "Hop.earth – OpenStreetMap based car racing game",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49171766",
-          "author": "emschwartz",
-          "description": "Article URL: https://www.warp.dev/blog/introducing-the-warp-agent-cli-coding-agent\nComments URL: https://news.ycombinator.com/item?id=49171766\nPoints: 53\n# Comments: 27",
-          "link": "https://www.warp.dev/blog/introducing-the-warp-agent-cli-coding-agent",
-          "publishedOn": "2026-08-04T17:08:41.000Z",
-          "wordCount": 6012,
-          "title": "The Warp Agent CLI",
-          "imageUrl": "https://cdn.sanity.io/images/1ygbk6d0/production/e0bead02c24e74b9b0fe8c3a57f7ab48df02ce94-1920x1080.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49171268",
-          "author": "riadsila",
-          "description": "Article URL: https://mistral.ai/news/shieldstral/\nComments URL: https://news.ycombinator.com/item?id=49171268\nPoints: 60\n# Comments: 16",
-          "link": "https://mistral.ai/news/shieldstral/",
-          "publishedOn": "2026-08-04T16:36:05.000Z",
-          "wordCount": 1355,
-          "title": "Mistral's Shieldstral: 3B open-weights model for multimodal moderation",
-          "imageUrl": "https://mistral.ai/cms-media/api/media/file/Thumbnail-Model%3DShieldstral.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49171223",
-          "author": "yk",
-          "description": "Article URL: https://travelandtannins.com/workers-drilling-in-romania-broke-into-a-cave-sealed-for-5-5-million-years-and-found-an-entire-living-world-that-has-never-seen-the-sun/\nComments URL: https://news.ycombinator.com/item?id=49171223\nPoints: 98\n# Comments: 45",
-          "link": "https://travelandtannins.com/workers-drilling-in-romania-broke-into-a-cave-sealed-for-5-5-million-years-and-found-an-entire-living-world-that-has-never-seen-the-sun/",
-          "publishedOn": "2026-08-04T16:32:08.000Z",
-          "wordCount": 4330,
-          "title": "Workers Drilling in Romania Broke into a Cave Sealed for 5.5M Years",
-          "imageUrl": "https://travelandtannins.com/wp-content/uploads/2026/08/image-67.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49170915",
-          "author": "doppp",
-          "description": "Article URL: https://arxiv.org/abs/2602.16763\nComments URL: https://news.ycombinator.com/item?id=49170915\nPoints: 55\n# Comments: 61",
-          "link": "https://arxiv.org/abs/2602.16763",
-          "publishedOn": "2026-08-04T16:10:39.000Z",
-          "wordCount": 676,
-          "title": "When AI Benchmarks Plateau: A Systematic Study of Benchmark Saturation",
-          "imageUrl": "/static/browse/0.3.4/images/arxiv-logo-fb.png"
         }
       ]
     }
