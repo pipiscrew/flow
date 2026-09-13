@@ -6,6 +6,36 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=49679459",
+          "author": "mulmen",
+          "description": "Article URL: https://icm.museum/\nComments URL: https://news.ycombinator.com/item?id=49679459\nPoints: 63\n# Comments: 6",
+          "link": "https://icm.museum/",
+          "publishedOn": "2026-09-13T02:43:57.000Z",
+          "wordCount": 151,
+          "title": "The Interim Computer Museum",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=49678683",
+          "author": "xena",
+          "description": "Article URL: https://xeiaso.net/notes/2026/everyone-slowdown-but-me/\nComments URL: https://news.ycombinator.com/item?id=49678683\nPoints: 313\n# Comments: 172",
+          "link": "https://xeiaso.net/notes/2026/everyone-slowdown-but-me/",
+          "publishedOn": "2026-09-13T00:30:44.000Z",
+          "wordCount": 574,
+          "title": "Everyone should slow down AI development except for me",
+          "imageUrl": "https://files.xeiaso.net/hero/solution-nine.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=49677577",
+          "author": "dsubburam",
+          "description": "Article URL: https://twitter.com/ID_AA_Carmack/status/2098443262214230095\nComments URL: https://news.ycombinator.com/item?id=49677577\nPoints: 83\n# Comments: 50",
+          "link": "https://twitter.com/ID_AA_Carmack/status/2098443262214230095",
+          "publishedOn": "2026-09-12T21:51:43.000Z",
+          "wordCount": 2541,
+          "title": "Don't be the out of touch Kung Fu master",
+          "imageUrl": "https://pbs.twimg.com/profile_images/1560764938083352577/B1X3m4NN_400x400.jpg"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=49676820",
           "author": "theanonymousone",
           "description": "Article URL: https://withspecific.com/benchmarks/real-swe\nComments URL: https://news.ycombinator.com/item?id=49676820\nPoints: 91\n# Comments: 56",
@@ -1166,6 +1196,16 @@
           "imageUrl": "https://tailwindcss.com/_next/static/media/og-image.103kpqahmns2b.jpg"
         },
         {
+          "id": "https://news.ycombinator.com/item?id=49625056",
+          "author": "cjd8",
+          "description": "Article URL: https://lwn.net/SubscriberLink/1091015/d9e48318ed242b41/\nComments URL: https://news.ycombinator.com/item?id=49625056\nPoints: 161\n# Comments: 43",
+          "link": "https://lwn.net/SubscriberLink/1091015/d9e48318ed242b41/",
+          "publishedOn": "2026-09-09T11:57:45.000Z",
+          "wordCount": 6665,
+          "title": "Stabilizing Rust's Never Type",
+          "imageUrl": null
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=49624856",
           "author": "xlii",
           "description": "Article URL: https://xlii.space/eng/malicious-software-on-google-ads/\nComments URL: https://news.ycombinator.com/item?id=49624856\nPoints: 278\n# Comments: 170",
@@ -1314,6 +1354,16 @@
           "wordCount": 1465,
           "title": "Harvard study predicts most suicide attempts a week in advance",
           "imageUrl": "https://current.fas.harvard.edu/sites/default/files/styles/fas_fp_1200x630/public/2026-09/040523_Nock_Lab_009%20%28photo%20by%20Kris%20Snibbe%2C%20Harvard%20University%29_square.jpg?h=780563bb&itok=W44uUK0G"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=49619848",
+          "author": "NaOH",
+          "description": "Article URL: https://dunstanorchard.com/apple-ipod-engraver/\nComments URL: https://news.ycombinator.com/item?id=49619848\nPoints: 176\n# Comments: 40",
+          "link": "https://dunstanorchard.com/apple-ipod-engraver/",
+          "publishedOn": "2026-09-09T01:57:37.000Z",
+          "wordCount": 242,
+          "title": "Apple iPod Engraver (2019)",
+          "imageUrl": "https://dunstanorchard.com/apple-ipod-engraver/og.jpg"
         },
         {
           "id": "https://news.ycombinator.com/item?id=49619464",
@@ -11343,176 +11393,6 @@
           "publishedOn": "2026-08-14T18:14:48.000Z",
           "wordCount": 389,
           "title": "Racket v9.3",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49301260",
-          "author": "tcp_handshaker",
-          "description": "Article URL: https://www.bbc.com/news/articles/ce97mm3vvemo\nComments URL: https://news.ycombinator.com/item?id=49301260\nPoints: 221\n# Comments: 135",
-          "link": "https://www.bbc.com/news/articles/ce97mm3vvemo",
-          "publishedOn": "2026-08-14T16:45:49.000Z",
-          "wordCount": 6957,
-          "title": "Count Binface receives over a quarter of votes in Clacton by-election",
-          "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/ee7b/live/00590490-9714-11f1-a7ab-8b30adf0800a.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49301215",
-          "author": "adius",
-          "description": "LuaCAD models solids in Lua rather than the OpenSCAD language, with operator\noverloading for CSG (`a + b`, `a - b`, `a * b`).\nIt ships with a CLI and a desktop app, including a preview area and a text editor.\nI've always been a big fan of OpenSCAD, but the SCAD language itself is unfortunately quite cobbled-together and is a very poorly designed programming language.\nLuaCAD takes all the good parts of OpenSCAD and combines them with one of the best scripting languages. It has now completely replaced OpenSCAD for me, and I think it provides a better experience than OpenSCAD for all use cases. I'd love to hear any reasons why LuaCAD shouldn't fully replace OpenSCAD!\nIt’s fully open source and you can find the repo here: https://github.com/ad-si/LuaCAD\nTech stack:\n- It's implemented in Rust and uses mlua (https://github.com/mlua-rs/mlua) to execute the Lua code.\n- Uses OpenCSG (https://opencsg.org) for fast and correct rendering of the 3D models (like OpenSCAD)\n- Uses Manifold (https://github.com/elalish/manifold) to create the manifold triangle meshes\n- Native support for all BOSL2 functions (i.e. implemented in Rust for better performance)\nComments URL: https://news.ycombinator.com/item?id=49301215\nPoints: 53\n# Comments: 13",
-          "link": "https://luacad.ad-si.com/",
-          "publishedOn": "2026-08-14T16:43:22.000Z",
-          "wordCount": 591,
-          "title": "Show HN: LuaCAD – Parametric CAD Scripted in Lua",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49300800",
-          "author": "twapi",
-          "description": "Article URL: https://claude.com/blog/maximizing-the-value-of-your-claude-code-sessions\nComments URL: https://news.ycombinator.com/item?id=49300800\nPoints: 60\n# Comments: 29",
-          "link": "https://claude.com/blog/maximizing-the-value-of-your-claude-code-sessions",
-          "publishedOn": "2026-08-14T16:15:21.000Z",
-          "wordCount": 15968,
-          "title": "Maximizing the value of your Claude Code sessions",
-          "imageUrl": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a7f1f51730ca89a4d571062_og_maximizing-the-value-of-your-claude-code-sessions.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49300759",
-          "author": "rustdesk",
-          "description": "Article URL: https://rustdesk.com/blog/unattended-remote-access-wayland/\nComments URL: https://news.ycombinator.com/item?id=49300759\nPoints: 97\n# Comments: 37",
-          "link": "https://rustdesk.com/blog/unattended-remote-access-wayland/",
-          "publishedOn": "2026-08-14T16:12:52.000Z",
-          "wordCount": 642,
-          "title": "RustDesk now supports true unattended remote access on Wayland",
-          "imageUrl": "https://rustdesk.com/_astro/unattended-remote-access-wayland-og.BOcMxzVY_212cpk.webp"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49300671",
-          "author": "BlueBerry2001",
-          "description": "Article URL: https://www.reuters.com/world/frances-top-court-rules-social-media-ban-curtails-freedom-expression-2026-08-14/\nComments URL: https://news.ycombinator.com/item?id=49300671\nPoints: 132\n# Comments: 73",
-          "link": "https://www.reuters.com/world/frances-top-court-rules-social-media-ban-curtails-freedom-expression-2026-08-14/",
-          "publishedOn": "2026-08-14T16:06:49.000Z",
-          "wordCount": null,
-          "title": "France's top court blocks social media ban for under-15s",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49300568",
-          "author": "sans_souse",
-          "description": "Article URL: https://www.byhand.ai/\nComments URL: https://news.ycombinator.com/item?id=49300568\nPoints: 71\n# Comments: 7",
-          "link": "https://www.byhand.ai/",
-          "publishedOn": "2026-08-14T15:58:59.000Z",
-          "wordCount": 368,
-          "title": "AI by Hand",
-          "imageUrl": "https://substackcdn.com/image/fetch/$s_!uug6!,f_auto,q_auto:best,fl_progressive:steep/https%3A%2F%2Faibyhand.substack.com%2Ftwitter%2Fsubscribe-card.jpg%3Fv%3D-636237388%26version%3D9"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49300314",
-          "author": "u1hcw9nx",
-          "description": "Article URL: https://blog.google/security/how-google-is-making-private-ai-practical-with-homomorphic-encryption/\nComments URL: https://news.ycombinator.com/item?id=49300314\nPoints: 91\n# Comments: 66",
-          "link": "https://blog.google/security/how-google-is-making-private-ai-practical-with-homomorphic-encryption/",
-          "publishedOn": "2026-08-14T15:43:10.000Z",
-          "wordCount": 3266,
-          "title": "Google is making private AI practical with homomorphic encryption",
-          "imageUrl": "https://blog.google/static/blogv2/images/google-1000x1000.png?version=pr20260729-1718"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49300272",
-          "author": "surprisetalk",
-          "description": "Article URL: https://homosabiens.substack.com/p/activation-energy-is-a-good-model\nComments URL: https://news.ycombinator.com/item?id=49300272\nPoints: 126\n# Comments: 33",
-          "link": "https://homosabiens.substack.com/p/activation-energy-is-a-good-model",
-          "publishedOn": "2026-08-14T15:40:16.000Z",
-          "wordCount": null,
-          "title": "Activation Energy is a good model for a lot of things",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49299746",
-          "author": "mplappert",
-          "description": "Article URL: https://www.mixedbread.com/blog/toast-1\nComments URL: https://news.ycombinator.com/item?id=49299746\nPoints: 68\n# Comments: 20",
-          "link": "https://www.mixedbread.com/blog/toast-1",
-          "publishedOn": "2026-08-14T15:07:57.000Z",
-          "wordCount": 5429,
-          "title": "Introducing Toast 1",
-          "imageUrl": "https://www.mixedbread.com/images/blog/toast-1/intro-toast-1.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49299684",
-          "author": "mfiguiere",
-          "description": "Article URL: https://twitter.com/alibaba_qwen/status/2088280182356611304\nComments URL: https://news.ycombinator.com/item?id=49299684\nPoints: 147\n# Comments: 60",
-          "link": "https://twitter.com/alibaba_qwen/status/2088280182356611304",
-          "publishedOn": "2026-08-14T15:03:54.000Z",
-          "wordCount": 1011,
-          "title": "Qwen3.8-27B",
-          "imageUrl": "https://pbs.twimg.com/media/HPsKxzsbQAAJa4d.jpg:large"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49299675",
-          "author": "surprisetalk",
-          "description": "Article URL: https://blog.plover.com/2026/08/02/\nComments URL: https://news.ycombinator.com/item?id=49299675\nPoints: 91\n# Comments: 34",
-          "link": "https://blog.plover.com/2026/08/02/",
-          "publishedOn": "2026-08-14T15:03:26.000Z",
-          "wordCount": 4590,
-          "title": "Seven books I keep close because I love them",
-          "imageUrl": "https://pic.blog.plover.com/book/elbow-shelf/elbow-shelf-th.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49299605",
-          "author": "erdaltoprak",
-          "description": "Article URL: https://huggingface.co/Qwen/Qwen3.8-27B-FP8\nComments URL: https://news.ycombinator.com/item?id=49299605\nPoints: 50\n# Comments: 14",
-          "link": "https://huggingface.co/Qwen/Qwen3.8-27B-FP8",
-          "publishedOn": "2026-08-14T15:00:00.000Z",
-          "wordCount": 3305,
-          "title": "Qwen 3.8 27B is out: open weights, best local dense model yet",
-          "imageUrl": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/Qwen/Qwen3.8-27B-FP8.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49299282",
-          "author": "gmays",
-          "description": "Article URL: https://weightythoughts.com/p/when-genius-failsthe-intellectual\nComments URL: https://news.ycombinator.com/item?id=49299282\nPoints: 69\n# Comments: 51",
-          "link": "https://weightythoughts.com/p/when-genius-failsthe-intellectual",
-          "publishedOn": "2026-08-14T14:34:49.000Z",
-          "wordCount": 7559,
-          "title": "When Genius Fails: The Intellectual Arrogance of the AI Labs",
-          "imageUrl": "https://substackcdn.com/image/fetch/$s_!PLI0!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6a3790af-8609-45cc-bb7b-e4f006e27538_1536x1024.jpeg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49299222",
-          "author": "doubletwoyou",
-          "description": "Article URL: https://lxe.github.io/everywebsite/\nComments URL: https://news.ycombinator.com/item?id=49299222\nPoints: 337\n# Comments: 191",
-          "link": "https://lxe.github.io/everywebsite/",
-          "publishedOn": "2026-08-14T14:31:08.000Z",
-          "wordCount": 225,
-          "title": "Every Fucking Website (2020)",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49299081",
-          "author": "speckx",
-          "description": "Article URL: https://heyjonny.dev/posts/rss-to-eink-newspaper/\nComments URL: https://news.ycombinator.com/item?id=49299081\nPoints: 76\n# Comments: 32",
-          "link": "https://heyjonny.dev/posts/rss-to-eink-newspaper/",
-          "publishedOn": "2026-08-14T14:21:18.000Z",
-          "wordCount": 635,
-          "title": "I turned my RSS feeds into an e-ink newspaper to stop reading on my phone",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49298910",
-          "author": "speckx",
-          "description": "Article URL: https://e360.yale.edu/digest/australia-home-batteries\nComments URL: https://news.ycombinator.com/item?id=49298910\nPoints: 79\n# Comments: 32",
-          "link": "https://e360.yale.edu/digest/australia-home-batteries",
-          "publishedOn": "2026-08-14T14:07:52.000Z",
-          "wordCount": 834,
-          "title": "In Australia, a Home Battery Boom Has Helped Cut Wholesale Power Prices in Half",
-          "imageUrl": "https://yale-threesixty.transforms.svdcdn.com/production/Home-Battery_NSWECA.jpg?w=1200&q=60&auto=format&fit=max&dm=1786711355&s=786f9b9062891e45a0bd1b54e7ef1a57"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49298283",
-          "author": "pseudolus",
-          "description": "Article URL: https://phys.org/news/2026-08-forged-meteorites-fashionable-ancient-greek.html\nComments URL: https://news.ycombinator.com/item?id=49298283\nPoints: 96\n# Comments: 38",
-          "link": "https://phys.org/news/2026-08-forged-meteorites-fashionable-ancient-greek.html",
-          "publishedOn": "2026-08-14T13:17:06.000Z",
-          "wordCount": null,
-          "title": "Rings forged from meteorites may have been fashionable among ancient Greek elite",
           "imageUrl": null
         }
       ]

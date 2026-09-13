@@ -2,10 +2,49 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-09-13T00:44:29.769Z</updated>
+    <updated>2026-09-13T05:51:14.188Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[The Interim Computer Museum]]></title>
+        <id>https://news.ycombinator.com/item?id=49679459</id>
+        <link href="https://icm.museum/"/>
+        <updated>2026-09-13T02:43:57.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://icm.museum/
+Comments URL: https://news.ycombinator.com/item?id=49679459
+Points: 63
+# Comments: 6]]></summary>
+        <author>
+            <name>mulmen</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Everyone should slow down AI development except for me]]></title>
+        <id>https://news.ycombinator.com/item?id=49678683</id>
+        <link href="https://xeiaso.net/notes/2026/everyone-slowdown-but-me/"/>
+        <updated>2026-09-13T00:30:44.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://xeiaso.net/notes/2026/everyone-slowdown-but-me/
+Comments URL: https://news.ycombinator.com/item?id=49678683
+Points: 313
+# Comments: 172]]></summary>
+        <author>
+            <name>xena</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Don't be the out of touch Kung Fu master]]></title>
+        <id>https://news.ycombinator.com/item?id=49677577</id>
+        <link href="https://twitter.com/ID_AA_Carmack/status/2098443262214230095"/>
+        <updated>2026-09-12T21:51:43.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://twitter.com/ID_AA_Carmack/status/2098443262214230095
+Comments URL: https://news.ycombinator.com/item?id=49677577
+Points: 83
+# Comments: 50]]></summary>
+        <author>
+            <name>dsubburam</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Real-SWE: Benchmarking AI models on private, real-world, enterprise codebases]]></title>
         <id>https://news.ycombinator.com/item?id=49676820</id>
@@ -1533,6 +1572,19 @@ Points: 597
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Stabilizing Rust's Never Type]]></title>
+        <id>https://news.ycombinator.com/item?id=49625056</id>
+        <link href="https://lwn.net/SubscriberLink/1091015/d9e48318ed242b41/"/>
+        <updated>2026-09-09T11:57:45.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://lwn.net/SubscriberLink/1091015/d9e48318ed242b41/
+Comments URL: https://news.ycombinator.com/item?id=49625056
+Points: 161
+# Comments: 43]]></summary>
+        <author>
+            <name>cjd8</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[How I advertise malicious software on Google Ads]]></title>
         <id>https://news.ycombinator.com/item?id=49624856</id>
         <link href="https://xlii.space/eng/malicious-software-on-google-ads/"/>
@@ -1727,6 +1779,19 @@ Points: 101
 # Comments: 52]]></summary>
         <author>
             <name>jodacola</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Apple iPod Engraver (2019)]]></title>
+        <id>https://news.ycombinator.com/item?id=49619848</id>
+        <link href="https://dunstanorchard.com/apple-ipod-engraver/"/>
+        <updated>2026-09-09T01:57:37.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://dunstanorchard.com/apple-ipod-engraver/
+Comments URL: https://news.ycombinator.com/item?id=49619848
+Points: 176
+# Comments: 40]]></summary>
+        <author>
+            <name>NaOH</name>
         </author>
     </entry>
     <entry>
@@ -14906,237 +14971,6 @@ Points: 51
 # Comments: 1]]></summary>
         <author>
             <name>privong</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Count Binface receives over a quarter of votes in Clacton by-election]]></title>
-        <id>https://news.ycombinator.com/item?id=49301260</id>
-        <link href="https://www.bbc.com/news/articles/ce97mm3vvemo"/>
-        <updated>2026-08-14T16:45:49.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.bbc.com/news/articles/ce97mm3vvemo
-Comments URL: https://news.ycombinator.com/item?id=49301260
-Points: 221
-# Comments: 135]]></summary>
-        <author>
-            <name>tcp_handshaker</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: LuaCAD – Parametric CAD Scripted in Lua]]></title>
-        <id>https://news.ycombinator.com/item?id=49301215</id>
-        <link href="https://luacad.ad-si.com/"/>
-        <updated>2026-08-14T16:43:22.000Z</updated>
-        <summary type="html"><![CDATA[LuaCAD models solids in Lua rather than the OpenSCAD language, with operator
-overloading for CSG (`a + b`, `a - b`, `a * b`).
-It ships with a CLI and a desktop app, including a preview area and a text editor.
-I've always been a big fan of OpenSCAD, but the SCAD language itself is unfortunately quite cobbled-together and is a very poorly designed programming language.
-LuaCAD takes all the good parts of OpenSCAD and combines them with one of the best scripting languages. It has now completely replaced OpenSCAD for me, and I think it provides a better experience than OpenSCAD for all use cases. I'd love to hear any reasons why LuaCAD shouldn't fully replace OpenSCAD!
-It’s fully open source and you can find the repo here: https://github.com/ad-si/LuaCAD
-Tech stack:
-- It's implemented in Rust and uses mlua (https://github.com/mlua-rs/mlua) to execute the Lua code.
-- Uses OpenCSG (https://opencsg.org) for fast and correct rendering of the 3D models (like OpenSCAD)
-- Uses Manifold (https://github.com/elalish/manifold) to create the manifold triangle meshes
-- Native support for all BOSL2 functions (i.e. implemented in Rust for better performance)
-Comments URL: https://news.ycombinator.com/item?id=49301215
-Points: 53
-# Comments: 13]]></summary>
-        <author>
-            <name>adius</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Maximizing the value of your Claude Code sessions]]></title>
-        <id>https://news.ycombinator.com/item?id=49300800</id>
-        <link href="https://claude.com/blog/maximizing-the-value-of-your-claude-code-sessions"/>
-        <updated>2026-08-14T16:15:21.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://claude.com/blog/maximizing-the-value-of-your-claude-code-sessions
-Comments URL: https://news.ycombinator.com/item?id=49300800
-Points: 60
-# Comments: 29]]></summary>
-        <author>
-            <name>twapi</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[RustDesk now supports true unattended remote access on Wayland]]></title>
-        <id>https://news.ycombinator.com/item?id=49300759</id>
-        <link href="https://rustdesk.com/blog/unattended-remote-access-wayland/"/>
-        <updated>2026-08-14T16:12:52.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://rustdesk.com/blog/unattended-remote-access-wayland/
-Comments URL: https://news.ycombinator.com/item?id=49300759
-Points: 97
-# Comments: 37]]></summary>
-        <author>
-            <name>rustdesk</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[France's top court blocks social media ban for under-15s]]></title>
-        <id>https://news.ycombinator.com/item?id=49300671</id>
-        <link href="https://www.reuters.com/world/frances-top-court-rules-social-media-ban-curtails-freedom-expression-2026-08-14/"/>
-        <updated>2026-08-14T16:06:49.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.reuters.com/world/frances-top-court-rules-social-media-ban-curtails-freedom-expression-2026-08-14/
-Comments URL: https://news.ycombinator.com/item?id=49300671
-Points: 132
-# Comments: 73]]></summary>
-        <author>
-            <name>BlueBerry2001</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AI by Hand]]></title>
-        <id>https://news.ycombinator.com/item?id=49300568</id>
-        <link href="https://www.byhand.ai/"/>
-        <updated>2026-08-14T15:58:59.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.byhand.ai/
-Comments URL: https://news.ycombinator.com/item?id=49300568
-Points: 71
-# Comments: 7]]></summary>
-        <author>
-            <name>sans_souse</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Google is making private AI practical with homomorphic encryption]]></title>
-        <id>https://news.ycombinator.com/item?id=49300314</id>
-        <link href="https://blog.google/security/how-google-is-making-private-ai-practical-with-homomorphic-encryption/"/>
-        <updated>2026-08-14T15:43:10.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://blog.google/security/how-google-is-making-private-ai-practical-with-homomorphic-encryption/
-Comments URL: https://news.ycombinator.com/item?id=49300314
-Points: 91
-# Comments: 66]]></summary>
-        <author>
-            <name>u1hcw9nx</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Activation Energy is a good model for a lot of things]]></title>
-        <id>https://news.ycombinator.com/item?id=49300272</id>
-        <link href="https://homosabiens.substack.com/p/activation-energy-is-a-good-model"/>
-        <updated>2026-08-14T15:40:16.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://homosabiens.substack.com/p/activation-energy-is-a-good-model
-Comments URL: https://news.ycombinator.com/item?id=49300272
-Points: 126
-# Comments: 33]]></summary>
-        <author>
-            <name>surprisetalk</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Introducing Toast 1]]></title>
-        <id>https://news.ycombinator.com/item?id=49299746</id>
-        <link href="https://www.mixedbread.com/blog/toast-1"/>
-        <updated>2026-08-14T15:07:57.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.mixedbread.com/blog/toast-1
-Comments URL: https://news.ycombinator.com/item?id=49299746
-Points: 68
-# Comments: 20]]></summary>
-        <author>
-            <name>mplappert</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Qwen3.8-27B]]></title>
-        <id>https://news.ycombinator.com/item?id=49299684</id>
-        <link href="https://twitter.com/alibaba_qwen/status/2088280182356611304"/>
-        <updated>2026-08-14T15:03:54.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://twitter.com/alibaba_qwen/status/2088280182356611304
-Comments URL: https://news.ycombinator.com/item?id=49299684
-Points: 147
-# Comments: 60]]></summary>
-        <author>
-            <name>mfiguiere</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Seven books I keep close because I love them]]></title>
-        <id>https://news.ycombinator.com/item?id=49299675</id>
-        <link href="https://blog.plover.com/2026/08/02/"/>
-        <updated>2026-08-14T15:03:26.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://blog.plover.com/2026/08/02/
-Comments URL: https://news.ycombinator.com/item?id=49299675
-Points: 91
-# Comments: 34]]></summary>
-        <author>
-            <name>surprisetalk</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Qwen 3.8 27B is out: open weights, best local dense model yet]]></title>
-        <id>https://news.ycombinator.com/item?id=49299605</id>
-        <link href="https://huggingface.co/Qwen/Qwen3.8-27B-FP8"/>
-        <updated>2026-08-14T15:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://huggingface.co/Qwen/Qwen3.8-27B-FP8
-Comments URL: https://news.ycombinator.com/item?id=49299605
-Points: 50
-# Comments: 14]]></summary>
-        <author>
-            <name>erdaltoprak</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[When Genius Fails: The Intellectual Arrogance of the AI Labs]]></title>
-        <id>https://news.ycombinator.com/item?id=49299282</id>
-        <link href="https://weightythoughts.com/p/when-genius-failsthe-intellectual"/>
-        <updated>2026-08-14T14:34:49.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://weightythoughts.com/p/when-genius-failsthe-intellectual
-Comments URL: https://news.ycombinator.com/item?id=49299282
-Points: 69
-# Comments: 51]]></summary>
-        <author>
-            <name>gmays</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Every Fucking Website (2020)]]></title>
-        <id>https://news.ycombinator.com/item?id=49299222</id>
-        <link href="https://lxe.github.io/everywebsite/"/>
-        <updated>2026-08-14T14:31:08.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://lxe.github.io/everywebsite/
-Comments URL: https://news.ycombinator.com/item?id=49299222
-Points: 337
-# Comments: 191]]></summary>
-        <author>
-            <name>doubletwoyou</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[I turned my RSS feeds into an e-ink newspaper to stop reading on my phone]]></title>
-        <id>https://news.ycombinator.com/item?id=49299081</id>
-        <link href="https://heyjonny.dev/posts/rss-to-eink-newspaper/"/>
-        <updated>2026-08-14T14:21:18.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://heyjonny.dev/posts/rss-to-eink-newspaper/
-Comments URL: https://news.ycombinator.com/item?id=49299081
-Points: 76
-# Comments: 32]]></summary>
-        <author>
-            <name>speckx</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[In Australia, a Home Battery Boom Has Helped Cut Wholesale Power Prices in Half]]></title>
-        <id>https://news.ycombinator.com/item?id=49298910</id>
-        <link href="https://e360.yale.edu/digest/australia-home-batteries"/>
-        <updated>2026-08-14T14:07:52.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://e360.yale.edu/digest/australia-home-batteries
-Comments URL: https://news.ycombinator.com/item?id=49298910
-Points: 79
-# Comments: 32]]></summary>
-        <author>
-            <name>speckx</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Rings forged from meteorites may have been fashionable among ancient Greek elite]]></title>
-        <id>https://news.ycombinator.com/item?id=49298283</id>
-        <link href="https://phys.org/news/2026-08-forged-meteorites-fashionable-ancient-greek.html"/>
-        <updated>2026-08-14T13:17:06.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://phys.org/news/2026-08-forged-meteorites-fashionable-ancient-greek.html
-Comments URL: https://news.ycombinator.com/item?id=49298283
-Points: 96
-# Comments: 38]]></summary>
-        <author>
-            <name>pseudolus</name>
         </author>
     </entry>
 </feed>
