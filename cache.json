@@ -6,6 +6,26 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=49704008",
+          "author": "neom",
+          "description": "Article URL: https://law.justia.com/cases/federal/appellate-courts/ca9/26-1444/26-1444-2026-08-04.html\nComments URL: https://news.ycombinator.com/item?id=49704008\nPoints: 151\n# Comments: 155",
+          "link": "https://law.justia.com/cases/federal/appellate-courts/ca9/26-1444/26-1444-2026-08-04.html",
+          "publishedOn": "2026-09-14T21:05:22.000Z",
+          "wordCount": null,
+          "title": "Amazon vs. Perplexity – U.S. Court of Appeals for the Ninth Circuit",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=49703003",
+          "author": "theanonymousone",
+          "description": "Article URL: https://entelligence.ai/blogs/gpt-5.6-luna-vs-gpt-6-astra-is-a-1.20-model-good-enough-for-code-review\nComments URL: https://news.ycombinator.com/item?id=49703003\nPoints: 86\n# Comments: 99",
+          "link": "https://entelligence.ai/blogs/gpt-5.6-luna-vs-gpt-6-astra-is-a-1.20-model-good-enough-for-code-review",
+          "publishedOn": "2026-09-14T19:56:20.000Z",
+          "wordCount": 17201,
+          "title": "GPT-5.6 Luna vs. GPT-6 Astra: Is a $1.20 Model Good Enough for Code Review?",
+          "imageUrl": "https://framerusercontent.com/images/gPrTReKBwM5bVRyIqVcgBE4kEAk.png"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=49702239",
           "author": "akis33",
           "description": "Article URL: https://www.techtimes.co.uk/oracle-new-layoffs-restructuring-costs-2-8-billion-1808676\nComments URL: https://news.ycombinator.com/item?id=49702239\nPoints: 54\n# Comments: 27",
@@ -96,6 +116,16 @@
           "imageUrl": "https://image.theregister.com/259053.jpg?imageId=259053&x=0&y=0&cropw=100&croph=100&panox=0&panoy=0&panow=100&panoh=100&width=1200&height=683"
         },
         {
+          "id": "https://news.ycombinator.com/item?id=49699267",
+          "author": "toebee",
+          "description": "Hey HN, Toby from Nari Labs here.\nWe've been working on making OSS speech models super-fast. Last year, we built Dia, the first OSS text-to-speech model capable of doing natural dialogue. Since then, so many more great speech models have been released to the public.\nBut the market is still dominated by closed source models. We think that's an inference problem. Existing systems such as vLLM / SGLang are not well suited for multimodal inference. To prove this, we built an inference engine specialized for Qwen3-TTS and open-sourced it (https://github.com/nari-labs/nari-qwen3-tts). Running at sub-50 ms latency at 10 RPS, this showed open models can be run much faster and cheaper.\nSince then, we've been working hard to bring cheap, fast, and high quality serving to all. And we've even beat closed models at their game!\nMeasured on the highly cited Coval (YC S24) voice AI benchmarks, our Qwen3-TTS endpoint not just is #2 in latency, but #1 in accuracy (WER) compared to 11Labs, Cartesia etc. while being the cheapest endpoint. Our Qwen3-ASR endpoint has the lowest latency and #2 accuracy, just 0.1% away from #1. It is the second cheapest model on the list.\nIt took a lot of clever inference engineering to make these models quick, perform well while keeping costs low. Interestingly, Alibaba's official endpoints seem to perform worse in terms of accuracy and latency compared to ours. But nonetheless, much love to the Qwen team for OSS-ing these amazing speech models.\nWe want to continue to push prices down to make speech technology a commodity - so that every app can have great TTS and STT without worrying about unit costs. We're also working on other parts of audio such as diarization - as well as video and world model inference. More to come!\nComments URL: https://news.ycombinator.com/item?id=49699267\nPoints: 59\n# Comments: 18",
+          "link": "https://narilabs.com/blog/nari-labs-leads-coval-voice-ai-benchmarks/",
+          "publishedOn": "2026-09-14T16:07:58.000Z",
+          "wordCount": 699,
+          "title": "Show HN: Nari Qwen3-TTS and Qwen3-ASR – High accuracy, low latency and cost",
+          "imageUrl": null
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=49699159",
           "author": "samke-",
           "description": "Article URL: https://www.neobrutalism.dev/\nComments URL: https://news.ycombinator.com/item?id=49699159\nPoints: 100\n# Comments: 46",
@@ -136,6 +166,16 @@
           "imageUrl": null
         },
         {
+          "id": "https://news.ycombinator.com/item?id=49697893",
+          "author": "0x5FC3",
+          "description": "Article URL: https://pop.rdi.sh/dario-please/\nComments URL: https://news.ycombinator.com/item?id=49697893\nPoints: 221\n# Comments: 104",
+          "link": "https://pop.rdi.sh/dario-please/",
+          "publishedOn": "2026-09-14T14:50:32.000Z",
+          "wordCount": 2898,
+          "title": "Dario, Please",
+          "imageUrl": null
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=49697094",
           "author": "rbanffy",
           "description": "Article URL: https://spectrum.ieee.org/adversarial-fashion\nComments URL: https://news.ycombinator.com/item?id=49697094\nPoints: 79\n# Comments: 35",
@@ -153,6 +193,16 @@
           "publishedOn": "2026-09-14T13:59:09.000Z",
           "wordCount": 3778,
           "title": "Notes on gotchas while migrating 35kb preprompts from Opus to self-hosted Ollama",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=49696453",
+          "author": "giuliomagnifico",
+          "description": "Article URL: https://dailyneuron.com/aphantasia-mental-imagery-brain-network/\nComments URL: https://news.ycombinator.com/item?id=49696453\nPoints: 73\n# Comments: 143",
+          "link": "https://dailyneuron.com/aphantasia-mental-imagery-brain-network/",
+          "publishedOn": "2026-09-14T13:23:53.000Z",
+          "wordCount": null,
+          "title": "People who can't picture anything are rewriting the science of imagination",
           "imageUrl": null
         },
         {
@@ -11544,16 +11594,6 @@
           "wordCount": 4656,
           "title": "A True Telnet BBS on a Casio Calculator",
           "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49318735",
-          "author": "riskone",
-          "description": "Article URL: https://peterbloem.nl/blog/craft-coding\nComments URL: https://news.ycombinator.com/item?id=49318735\nPoints: 51\n# Comments: 28",
-          "link": "https://peterbloem.nl/blog/craft-coding",
-          "publishedOn": "2026-08-16T10:31:36.000Z",
-          "wordCount": 6935,
-          "title": "AI Coding Without the Vibes",
-          "imageUrl": "https://peterbloem.nl/images/soupcutter.jpg"
         }
       ]
     }

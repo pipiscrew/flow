@@ -2,10 +2,36 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-09-14T20:50:25.749Z</updated>
+    <updated>2026-09-14T23:47:23.712Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Amazon vs. Perplexity – U.S. Court of Appeals for the Ninth Circuit]]></title>
+        <id>https://news.ycombinator.com/item?id=49704008</id>
+        <link href="https://law.justia.com/cases/federal/appellate-courts/ca9/26-1444/26-1444-2026-08-04.html"/>
+        <updated>2026-09-14T21:05:22.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://law.justia.com/cases/federal/appellate-courts/ca9/26-1444/26-1444-2026-08-04.html
+Comments URL: https://news.ycombinator.com/item?id=49704008
+Points: 151
+# Comments: 155]]></summary>
+        <author>
+            <name>neom</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GPT-5.6 Luna vs. GPT-6 Astra: Is a $1.20 Model Good Enough for Code Review?]]></title>
+        <id>https://news.ycombinator.com/item?id=49703003</id>
+        <link href="https://entelligence.ai/blogs/gpt-5.6-luna-vs-gpt-6-astra-is-a-1.20-model-good-enough-for-code-review"/>
+        <updated>2026-09-14T19:56:20.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://entelligence.ai/blogs/gpt-5.6-luna-vs-gpt-6-astra-is-a-1.20-model-good-enough-for-code-review
+Comments URL: https://news.ycombinator.com/item?id=49703003
+Points: 86
+# Comments: 99]]></summary>
+        <author>
+            <name>theanonymousone</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Oracle's Cold 6AM Layoff Emails Hit Staff Amid New Wave of Cuts]]></title>
         <id>https://news.ycombinator.com/item?id=49702239</id>
@@ -124,6 +150,25 @@ Points: 138
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Show HN: Nari Qwen3-TTS and Qwen3-ASR – High accuracy, low latency and cost]]></title>
+        <id>https://news.ycombinator.com/item?id=49699267</id>
+        <link href="https://narilabs.com/blog/nari-labs-leads-coval-voice-ai-benchmarks/"/>
+        <updated>2026-09-14T16:07:58.000Z</updated>
+        <summary type="html"><![CDATA[Hey HN, Toby from Nari Labs here.
+We've been working on making OSS speech models super-fast. Last year, we built Dia, the first OSS text-to-speech model capable of doing natural dialogue. Since then, so many more great speech models have been released to the public.
+But the market is still dominated by closed source models. We think that's an inference problem. Existing systems such as vLLM / SGLang are not well suited for multimodal inference. To prove this, we built an inference engine specialized for Qwen3-TTS and open-sourced it (https://github.com/nari-labs/nari-qwen3-tts). Running at sub-50 ms latency at 10 RPS, this showed open models can be run much faster and cheaper.
+Since then, we've been working hard to bring cheap, fast, and high quality serving to all. And we've even beat closed models at their game!
+Measured on the highly cited Coval (YC S24) voice AI benchmarks, our Qwen3-TTS endpoint not just is #2 in latency, but #1 in accuracy (WER) compared to 11Labs, Cartesia etc. while being the cheapest endpoint. Our Qwen3-ASR endpoint has the lowest latency and #2 accuracy, just 0.1% away from #1. It is the second cheapest model on the list.
+It took a lot of clever inference engineering to make these models quick, perform well while keeping costs low. Interestingly, Alibaba's official endpoints seem to perform worse in terms of accuracy and latency compared to ours. But nonetheless, much love to the Qwen team for OSS-ing these amazing speech models.
+We want to continue to push prices down to make speech technology a commodity - so that every app can have great TTS and STT without worrying about unit costs. We're also working on other parts of audio such as diarization - as well as video and world model inference. More to come!
+Comments URL: https://news.ycombinator.com/item?id=49699267
+Points: 59
+# Comments: 18]]></summary>
+        <author>
+            <name>toebee</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Show HN: Neobrutalism.dev – Just added Base UI support and added new color theme]]></title>
         <id>https://news.ycombinator.com/item?id=49699159</id>
         <link href="https://www.neobrutalism.dev/"/>
@@ -176,6 +221,19 @@ Points: 125
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Dario, Please]]></title>
+        <id>https://news.ycombinator.com/item?id=49697893</id>
+        <link href="https://pop.rdi.sh/dario-please/"/>
+        <updated>2026-09-14T14:50:32.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://pop.rdi.sh/dario-please/
+Comments URL: https://news.ycombinator.com/item?id=49697893
+Points: 221
+# Comments: 104]]></summary>
+        <author>
+            <name>0x5FC3</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Adversarial Fashion Makes a Statement on AI Panopticon]]></title>
         <id>https://news.ycombinator.com/item?id=49697094</id>
         <link href="https://spectrum.ieee.org/adversarial-fashion"/>
@@ -199,6 +257,19 @@ Points: 65
 # Comments: 28]]></summary>
         <author>
             <name>0o_MrPatrick_o0</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[People who can't picture anything are rewriting the science of imagination]]></title>
+        <id>https://news.ycombinator.com/item?id=49696453</id>
+        <link href="https://dailyneuron.com/aphantasia-mental-imagery-brain-network/"/>
+        <updated>2026-09-14T13:23:53.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://dailyneuron.com/aphantasia-mental-imagery-brain-network/
+Comments URL: https://news.ycombinator.com/item?id=49696453
+Points: 73
+# Comments: 143]]></summary>
+        <author>
+            <name>giuliomagnifico</name>
         </author>
     </entry>
     <entry>
@@ -15163,19 +15234,6 @@ Points: 51
 # Comments: 6]]></summary>
         <author>
             <name>austinallegro</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AI Coding Without the Vibes]]></title>
-        <id>https://news.ycombinator.com/item?id=49318735</id>
-        <link href="https://peterbloem.nl/blog/craft-coding"/>
-        <updated>2026-08-16T10:31:36.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://peterbloem.nl/blog/craft-coding
-Comments URL: https://news.ycombinator.com/item?id=49318735
-Points: 51
-# Comments: 28]]></summary>
-        <author>
-            <name>riskone</name>
         </author>
     </entry>
 </feed>
