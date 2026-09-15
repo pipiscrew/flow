@@ -2,10 +2,75 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-09-15T14:47:25.636Z</updated>
+    <updated>2026-09-15T18:49:55.268Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[An Update on Wayback Machine Access]]></title>
+        <id>https://news.ycombinator.com/item?id=49716176</id>
+        <link href="https://blog.archive.org/2026/09/15/an-update-on-wayback-machine-access/"/>
+        <updated>2026-09-15T17:52:18.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://blog.archive.org/2026/09/15/an-update-on-wayback-machine-access/
+Comments URL: https://news.ycombinator.com/item?id=49716176
+Points: 74
+# Comments: 24]]></summary>
+        <author>
+            <name>ChrisArchitect</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[America's Driver's License Breach Is a National Security Disaster]]></title>
+        <id>https://news.ycombinator.com/item?id=49714547</id>
+        <link href="https://www.lawfaremedia.org/article/america%27s-drivers-licence-breach-is-a-national-security-disaster"/>
+        <updated>2026-09-15T15:58:48.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.lawfaremedia.org/article/america%27s-drivers-licence-breach-is-a-national-security-disaster
+Comments URL: https://news.ycombinator.com/item?id=49714547
+Points: 79
+# Comments: 39]]></summary>
+        <author>
+            <name>hn_acker</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Cartesian – AI 3D Modeling for Design]]></title>
+        <id>https://news.ycombinator.com/item?id=49713999</id>
+        <link href="https://www.formas.ai/cartesian"/>
+        <updated>2026-09-15T15:26:45.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.formas.ai/cartesian
+Comments URL: https://news.ycombinator.com/item?id=49713999
+Points: 57
+# Comments: 51]]></summary>
+        <author>
+            <name>eustoria</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The CSS Zen Garden dream, finally shipped]]></title>
+        <id>https://news.ycombinator.com/item?id=49713262</id>
+        <link href="https://josprague.com/blog/the-css-zen-garden-dream-finally-shipped/"/>
+        <updated>2026-09-15T14:40:08.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://josprague.com/blog/the-css-zen-garden-dream-finally-shipped/
+Comments URL: https://news.ycombinator.com/item?id=49713262
+Points: 64
+# Comments: 29]]></summary>
+        <author>
+            <name>yosito</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Capsule – Single-file web apps that save their data into SQLite]]></title>
+        <id>https://news.ycombinator.com/item?id=49712278</id>
+        <link href="https://withcapsule.app/"/>
+        <updated>2026-09-15T13:31:40.000Z</updated>
+        <summary type="html"><![CDATA[Hey HN,
+I always had the problem that building HTML pages is really simple now, but trying to save data required hosting it somewhere, and sharing it afterwards was not easy. Over the last few months, I've been building an app called Capsule (it’s also the file extension name) written in Rust with Tauri 2.0 that allows packing an HTML app and its data into a single SQLite file.
+The HTML file and any related assets are directly embedded in the database. User data can either be saved as a localStorage key/value store or via a MongoDB-inspired collections API as documents, saved in a table in the file. You can also save other assets, like PDF files or images, directly in the database to keep different documents together. All data can be easily exported to CSV or JSON if needed.
+Privacy and se…]]></summary>
+        <author>
+            <name>bashtian</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Australia 'on the same page' as Canada as it seeks deeper EU alliance]]></title>
         <id>https://news.ycombinator.com/item?id=49712186</id>
@@ -17,6 +82,19 @@ Points: 57
 # Comments: 30]]></summary>
         <author>
             <name>vrganj</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Hacking a $20 4G wireless hotspot into a texting device]]></title>
+        <id>https://news.ycombinator.com/item?id=49712102</id>
+        <link href="https://bkovac.github.io/modem-thing/"/>
+        <updated>2026-09-15T13:20:24.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://bkovac.github.io/modem-thing/
+Comments URL: https://news.ycombinator.com/item?id=49712102
+Points: 134
+# Comments: 21]]></summary>
+        <author>
+            <name>bobili1234</name>
         </author>
     </entry>
     <entry>
@@ -95,6 +173,32 @@ Points: 296
 # Comments: 273]]></summary>
         <author>
             <name>choult</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Let's make quality the norm again]]></title>
+        <id>https://news.ycombinator.com/item?id=49710109</id>
+        <link href="https://www.forbrukerradet.no/short-life/"/>
+        <updated>2026-09-15T10:00:16.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.forbrukerradet.no/short-life/
+Comments URL: https://news.ycombinator.com/item?id=49710109
+Points: 188
+# Comments: 173]]></summary>
+        <author>
+            <name>ingve</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How much of F-Droid is LLM generated?]]></title>
+        <id>https://news.ycombinator.com/item?id=49710015</id>
+        <link href="https://tintotint.eu/whacky-corner/f-droid_slop/"/>
+        <updated>2026-09-15T09:47:48.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://tintotint.eu/whacky-corner/f-droid_slop/
+Comments URL: https://news.ycombinator.com/item?id=49710015
+Points: 105
+# Comments: 133]]></summary>
+        <author>
+            <name>_ZeD_</name>
         </author>
     </entry>
     <entry>
@@ -212,6 +316,19 @@ Points: 145
 # Comments: 45]]></summary>
         <author>
             <name>thingsilearned</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A single firm is behind OpenAI, Anthropic, and Meta hacking scandals]]></title>
+        <id>https://news.ycombinator.com/item?id=49704132</id>
+        <link href="https://www.effort.news/irregular"/>
+        <updated>2026-09-14T21:15:01.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.effort.news/irregular
+Comments URL: https://news.ycombinator.com/item?id=49704132
+Points: 214
+# Comments: 74]]></summary>
+        <author>
+            <name>yusufozkan</name>
         </author>
     </entry>
     <entry>
@@ -456,6 +573,19 @@ Points: 221
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Most people prefer traditional architecture]]></title>
+        <id>https://news.ycombinator.com/item?id=49697496</id>
+        <link href="https://www.worksinprogress.news/p/do-people-prefer-traditional-architecture"/>
+        <updated>2026-09-14T14:30:17.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.worksinprogress.news/p/do-people-prefer-traditional-architecture
+Comments URL: https://news.ycombinator.com/item?id=49697496
+Points: 158
+# Comments: 76]]></summary>
+        <author>
+            <name>alihm</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Dropping eBPF CPU Cost by About 90% with Memoization (Not AI Gen)]]></title>
         <id>https://news.ycombinator.com/item?id=49697477</id>
         <link href="https://nathannaveen.dev/posts/dropping-ebpf-cpu-cost-by-90/"/>
@@ -573,6 +703,19 @@ Points: 197
 # Comments: 108]]></summary>
         <author>
             <name>tosh</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Archiving pirate radio station Kool FM]]></title>
+        <id>https://news.ycombinator.com/item?id=49694382</id>
+        <link href="https://londonist.com/london/music/kool-fm-archives"/>
+        <updated>2026-09-14T10:01:05.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://londonist.com/london/music/kool-fm-archives
+Comments URL: https://news.ycombinator.com/item?id=49694382
+Points: 64
+# Comments: 24]]></summary>
+        <author>
+            <name>rdmuser</name>
         </author>
     </entry>
     <entry>
@@ -15053,32 +15196,6 @@ Points: 68
 # Comments: 9]]></summary>
         <author>
             <name>signa11</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Linear algebra done right]]></title>
-        <id>https://news.ycombinator.com/item?id=49326816</id>
-        <link href="https://linear.axler.net/"/>
-        <updated>2026-08-17T05:21:34.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://linear.axler.net/
-Comments URL: https://news.ycombinator.com/item?id=49326816
-Points: 55
-# Comments: 26]]></summary>
-        <author>
-            <name>the-mitr</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GIMP Development Update]]></title>
-        <id>https://news.ycombinator.com/item?id=49326156</id>
-        <link href="https://www.gimp.org/news/2026/08/16/dev-update-august-2026/"/>
-        <updated>2026-08-17T03:08:47.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.gimp.org/news/2026/08/16/dev-update-august-2026/
-Comments URL: https://news.ycombinator.com/item?id=49326156
-Points: 111
-# Comments: 50]]></summary>
-        <author>
-            <name>lumpa</name>
         </author>
     </entry>
 </feed>
