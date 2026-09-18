@@ -2,10 +2,88 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-09-18T14:17:48.399Z</updated>
+    <updated>2026-09-18T18:14:19.597Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[There's no point at which turning your brain off will work]]></title>
+        <id>https://news.ycombinator.com/item?id=49757178</id>
+        <link href="https://danluu.com/brain-off/"/>
+        <updated>2026-09-18T17:02:52.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://danluu.com/brain-off/
+Comments URL: https://news.ycombinator.com/item?id=49757178
+Points: 131
+# Comments: 84]]></summary>
+        <author>
+            <name>robin_reala</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[North Korean nuclear test sets off years of earthquakes]]></title>
+        <id>https://news.ycombinator.com/item?id=49755160</id>
+        <link href="https://www.science.org/content/article/north-korean-nuclear-test-sets-years-earthquakes"/>
+        <updated>2026-09-18T14:45:32.000Z</updated>
+        <summary type="html"><![CDATA[https://archive.is/xjmvA
+Comments URL: https://news.ycombinator.com/item?id=49755160
+Points: 109
+# Comments: 80]]></summary>
+        <author>
+            <name>rbanffy</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[I vibed a proof of Conway's conjecture]]></title>
+        <id>https://news.ycombinator.com/item?id=49755024</id>
+        <link href="https://overreacted.io/how-i-vibed-a-proof-of-conways-conjecture/"/>
+        <updated>2026-09-18T14:36:10.000Z</updated>
+        <summary type="html"><![CDATA[https://github.com/gaearon/conway-refinement#why-i-think-its...
+Comments URL: https://news.ycombinator.com/item?id=49755024
+Points: 123
+# Comments: 116]]></summary>
+        <author>
+            <name>m-hodges</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Cloudflare Quick Tunnels]]></title>
+        <id>https://news.ycombinator.com/item?id=49754785</id>
+        <link href="https://try.cloudflare.com/"/>
+        <updated>2026-09-18T14:18:41.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://try.cloudflare.com/
+Comments URL: https://news.ycombinator.com/item?id=49754785
+Points: 270
+# Comments: 133]]></summary>
+        <author>
+            <name>jcbhmr</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Second Circuit Allows Government to Search Electronic Devices at the Border]]></title>
+        <id>https://news.ycombinator.com/item?id=49754687</id>
+        <link href="https://knightcolumbia.org/content/second-circuit-allows-government-to-search-electronic-devices-at-the-border-without-any-suspicion"/>
+        <updated>2026-09-18T14:11:22.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://knightcolumbia.org/content/second-circuit-allows-government-to-search-electronic-devices-at-the-border-without-any-suspicion
+Comments URL: https://news.ycombinator.com/item?id=49754687
+Points: 83
+# Comments: 49]]></summary>
+        <author>
+            <name>HotGarbage</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[An empirical study of harness design for coding agents]]></title>
+        <id>https://news.ycombinator.com/item?id=49753878</id>
+        <link href="https://arxiv.org/abs/2609.20804"/>
+        <updated>2026-09-18T13:06:30.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://arxiv.org/abs/2609.20804
+Comments URL: https://news.ycombinator.com/item?id=49753878
+Points: 183
+# Comments: 41]]></summary>
+        <author>
+            <name>wek</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[I don't like passkeys]]></title>
         <id>https://news.ycombinator.com/item?id=49753211</id>
@@ -163,6 +241,20 @@ Points: 80
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Show HN: Cactus Needle 3: 8-29MB automation models can match DeepSeek V4 Flash]]></title>
+        <id>https://news.ycombinator.com/item?id=49748553</id>
+        <link href="https://cactuscompute.com/needle"/>
+        <updated>2026-09-18T00:11:44.000Z</updated>
+        <summary type="html"><![CDATA[Hey HN, Henry from Cactus here.
+We submitted Needle 2 here a few weeks ago, and the feedback in the discussion thread was incredibly valuable, thanks! Thanks to all that feedback, we’ve been able to move quickly to release Needle 3 and I'd love to hear what you think again.
+The key features:
+1) Automation (tool calls & structured JSON output): Needle still doesn't chat by design, its quite challenging to pack general capacity into such small models, so we focus on tool calls and structured JSON. If no tool you declared fits the request, you get an empty list back (note for when playing with the demo).
+2) Intelligence Laddering: Every layer (2 to 20) is a deployable subnetwork, so one set of weights, 25 to 121 million parameters at 2-bit, shipping as 8-29MB binaries. On a Raspberry Pi 5 it …]]></summary>
+        <author>
+            <name>HenryNdubuaku</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Alibaba releases Qwen 3.8 Omni Flash]]></title>
         <id>https://news.ycombinator.com/item?id=49747925</id>
         <link href="https://qwen.ai/blog?id=qwen3.8-omni-flash"/>
@@ -238,6 +330,19 @@ Points: 69
 # Comments: 20]]></summary>
         <author>
             <name>ChrisArchitect</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[C++26: Trivial infinite loops are no longer undefined behaviour]]></title>
+        <id>https://news.ycombinator.com/item?id=49746406</id>
+        <link href="https://www.sandordargo.com/blog/2026/09/16/cpp26-trivial-infinite-loops"/>
+        <updated>2026-09-17T20:52:33.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.sandordargo.com/blog/2026/09/16/cpp26-trivial-infinite-loops
+Comments URL: https://news.ycombinator.com/item?id=49746406
+Points: 78
+# Comments: 107]]></summary>
+        <author>
+            <name>ibobev</name>
         </author>
     </entry>
     <entry>
@@ -1008,6 +1113,19 @@ Points: 70
 # Comments: 17]]></summary>
         <author>
             <name>bananaboy</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Shadows Lurking in the Equations – Underwater Islands]]></title>
+        <id>https://news.ycombinator.com/item?id=49721507</id>
+        <link href="https://gods.art/articles/equation_shadows"/>
+        <updated>2026-09-16T02:37:22.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://gods.art/articles/equation_shadows
+Comments URL: https://news.ycombinator.com/item?id=49721507
+Points: 53
+# Comments: 9]]></summary>
+        <author>
+            <name>vismit2000</name>
         </author>
     </entry>
     <entry>
@@ -14991,19 +15109,6 @@ Points: 69
 # Comments: 13]]></summary>
         <author>
             <name>luu</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Why Microsoft Entertainment Pack had a sticker announcing that it had Tetris?]]></title>
-        <id>https://news.ycombinator.com/item?id=49370440</id>
-        <link href="https://devblogs.microsoft.com/oldnewthing/20260818-00/?p=112621"/>
-        <updated>2026-08-20T04:42:02.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://devblogs.microsoft.com/oldnewthing/20260818-00/?p=112621
-Comments URL: https://news.ycombinator.com/item?id=49370440
-Points: 53
-# Comments: 28]]></summary>
-        <author>
-            <name>tybulewicz</name>
         </author>
     </entry>
 </feed>

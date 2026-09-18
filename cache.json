@@ -6,6 +6,66 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=49757178",
+          "author": "robin_reala",
+          "description": "Article URL: https://danluu.com/brain-off/\nComments URL: https://news.ycombinator.com/item?id=49757178\nPoints: 131\n# Comments: 84",
+          "link": "https://danluu.com/brain-off/",
+          "publishedOn": "2026-09-18T17:02:52.000Z",
+          "wordCount": 2214,
+          "title": "There's no point at which turning your brain off will work",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=49755160",
+          "author": "rbanffy",
+          "description": "https://archive.is/xjmvA\nComments URL: https://news.ycombinator.com/item?id=49755160\nPoints: 109\n# Comments: 80",
+          "link": "https://www.science.org/content/article/north-korean-nuclear-test-sets-years-earthquakes",
+          "publishedOn": "2026-09-18T14:45:32.000Z",
+          "wordCount": null,
+          "title": "North Korean nuclear test sets off years of earthquakes",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=49755024",
+          "author": "m-hodges",
+          "description": "https://github.com/gaearon/conway-refinement#why-i-think-its...\nComments URL: https://news.ycombinator.com/item?id=49755024\nPoints: 123\n# Comments: 116",
+          "link": "https://overreacted.io/how-i-vibed-a-proof-of-conways-conjecture/",
+          "publishedOn": "2026-09-18T14:36:10.000Z",
+          "wordCount": 39220,
+          "title": "I vibed a proof of Conway's conjecture",
+          "imageUrl": "https://overreacted.io/how-i-vibed-a-proof-of-conways-conjecture/opengraph-image?5b0b970dfd19bb8c"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=49754785",
+          "author": "jcbhmr",
+          "description": "Article URL: https://try.cloudflare.com/\nComments URL: https://news.ycombinator.com/item?id=49754785\nPoints: 270\n# Comments: 133",
+          "link": "https://try.cloudflare.com/",
+          "publishedOn": "2026-09-18T14:18:41.000Z",
+          "wordCount": 2706,
+          "title": "Cloudflare Quick Tunnels",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=49754687",
+          "author": "HotGarbage",
+          "description": "Article URL: https://knightcolumbia.org/content/second-circuit-allows-government-to-search-electronic-devices-at-the-border-without-any-suspicion\nComments URL: https://news.ycombinator.com/item?id=49754687\nPoints: 83\n# Comments: 49",
+          "link": "https://knightcolumbia.org/content/second-circuit-allows-government-to-search-electronic-devices-at-the-border-without-any-suspicion",
+          "publishedOn": "2026-09-18T14:11:22.000Z",
+          "wordCount": 1002,
+          "title": "Second Circuit Allows Government to Search Electronic Devices at the Border",
+          "imageUrl": "http://knightcolumbia.org/images/social/KFAI-social-card-updated.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=49753878",
+          "author": "wek",
+          "description": "Article URL: https://arxiv.org/abs/2609.20804\nComments URL: https://news.ycombinator.com/item?id=49753878\nPoints: 183\n# Comments: 41",
+          "link": "https://arxiv.org/abs/2609.20804",
+          "publishedOn": "2026-09-18T13:06:30.000Z",
+          "wordCount": 747,
+          "title": "An empirical study of harness design for coding agents",
+          "imageUrl": "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=49753211",
           "author": "ethanhawksley",
           "description": "Article URL: https://hawksley.dev/blog/i-dont-like-passkeys\nComments URL: https://news.ycombinator.com/item?id=49753211\nPoints: 222\n# Comments: 183",
@@ -126,6 +186,16 @@
           "imageUrl": "https://www.netnod.se/sites/default/files/styles/opengraph/public/styles/banner/public/2023-06/NETNOD_Time_v4.png?itok=o_C83R9A"
         },
         {
+          "id": "https://news.ycombinator.com/item?id=49748553",
+          "author": "HenryNdubuaku",
+          "description": "Hey HN, Henry from Cactus here.\nWe submitted Needle 2 here a few weeks ago, and the feedback in the discussion thread was incredibly valuable, thanks! Thanks to all that feedback, we’ve been able to move quickly to release Needle 3 and I'd love to hear what you think again.\nThe key features:\n1) Automation (tool calls & structured JSON output): Needle still doesn't chat by design, its quite challenging to pack general capacity into such small models, so we focus on tool calls and structured JSON. If no tool you declared fits the request, you get an empty list back (note for when playing with the demo).\n2) Intelligence Laddering: Every layer (2 to 20) is a deployable subnetwork, so one set of weights, 25 to 121 million parameters at 2-bit, shipping as 8-29MB binaries. On a Raspberry Pi 5 it …",
+          "link": "https://cactuscompute.com/needle",
+          "publishedOn": "2026-09-18T00:11:44.000Z",
+          "wordCount": 4251,
+          "title": "Show HN: Cactus Needle 3: 8-29MB automation models can match DeepSeek V4 Flash",
+          "imageUrl": "https://cactuscompute.com/opengraph-image?9df76a35fe8276e2"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=49747925",
           "author": "jjcm",
           "description": "Article URL: https://qwen.ai/blog?id=qwen3.8-omni-flash\nComments URL: https://news.ycombinator.com/item?id=49747925\nPoints: 87\n# Comments: 19",
@@ -184,6 +254,16 @@
           "wordCount": 1405,
           "title": "The most important product decision is what you don't build",
           "imageUrl": "https://liamnugent.me/img/og_image-1.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=49746406",
+          "author": "ibobev",
+          "description": "Article URL: https://www.sandordargo.com/blog/2026/09/16/cpp26-trivial-infinite-loops\nComments URL: https://news.ycombinator.com/item?id=49746406\nPoints: 78\n# Comments: 107",
+          "link": "https://www.sandordargo.com/blog/2026/09/16/cpp26-trivial-infinite-loops",
+          "publishedOn": "2026-09-17T20:52:33.000Z",
+          "wordCount": 3534,
+          "title": "C++26: Trivial infinite loops are no longer undefined behaviour",
+          "imageUrl": null
         },
         {
           "id": "https://news.ycombinator.com/item?id=49746290",
@@ -763,6 +843,16 @@
           "publishedOn": "2026-09-16T02:46:06.000Z",
           "wordCount": 2940,
           "title": "Negativland, Culture Jamming, and the Art of Making Something New",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=49721507",
+          "author": "vismit2000",
+          "description": "Article URL: https://gods.art/articles/equation_shadows\nComments URL: https://news.ycombinator.com/item?id=49721507\nPoints: 53\n# Comments: 9",
+          "link": "https://gods.art/articles/equation_shadows",
+          "publishedOn": "2026-09-16T02:37:22.000Z",
+          "wordCount": 3229,
+          "title": "The Shadows Lurking in the Equations – Underwater Islands",
           "imageUrl": null
         },
         {
@@ -11403,16 +11493,6 @@
           "publishedOn": "2026-08-20T06:16:40.000Z",
           "wordCount": 7442,
           "title": "Windows brings out the Rorschach test in everyone",
-          "imageUrl": "https://devblogs.microsoft.com/oldnewthing/wp-content/uploads/sites/38/2019/02/ShowCover.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49370440",
-          "author": "tybulewicz",
-          "description": "Article URL: https://devblogs.microsoft.com/oldnewthing/20260818-00/?p=112621\nComments URL: https://news.ycombinator.com/item?id=49370440\nPoints: 53\n# Comments: 28",
-          "link": "https://devblogs.microsoft.com/oldnewthing/20260818-00/?p=112621",
-          "publishedOn": "2026-08-20T04:42:02.000Z",
-          "wordCount": 7781,
-          "title": "Why Microsoft Entertainment Pack had a sticker announcing that it had Tetris?",
           "imageUrl": "https://devblogs.microsoft.com/oldnewthing/wp-content/uploads/sites/38/2019/02/ShowCover.jpg"
         }
       ]
