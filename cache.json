@@ -6,6 +6,26 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=49808023",
+          "author": "boredjohnny",
+          "description": "Article URL: https://foxscript.org/\nComments URL: https://news.ycombinator.com/item?id=49808023\nPoints: 133\n# Comments: 98",
+          "link": "https://foxscript.org/",
+          "publishedOn": "2026-09-22T21:00:30.000Z",
+          "wordCount": 1638,
+          "title": "Microsoft killed FoxPro in 2007. Anyway, here's FoxPro revived",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=49807021",
+          "author": "arbayi",
+          "description": "Article URL: https://github.com/geastack/examples\nComments URL: https://news.ycombinator.com/item?id=49807021\nPoints: 69\n# Comments: 19",
+          "link": "https://github.com/geastack/examples",
+          "publishedOn": "2026-09-22T19:42:20.000Z",
+          "wordCount": 2117,
+          "title": "Native apps written in TypeScript and CSS",
+          "imageUrl": "https://opengraph.githubassets.com/cc8f0598ef92f69699ebcdceac3f4b32abf335c5031916d4c42416c6b9fe2098/geastack/examples"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=49806430",
           "author": "devonnull",
           "description": "Article URL: https://www.bloomberg.com/graphics/2026-iran-school-attack/\nComments URL: https://news.ycombinator.com/item?id=49806430\nPoints: 256\n# Comments: 129",
@@ -196,6 +216,16 @@
           "imageUrl": null
         },
         {
+          "id": "https://news.ycombinator.com/item?id=49800574",
+          "author": "florianstandhar",
+          "description": "Hi HN! I built JevBench because Jev kicks ass, and the world deserves to know how the serious open source and fake lookalike projects really perform in comparison.\nJev-class models return bounded choices and probabilities instead of text, and are disruptively faster and cheaper than LLMs, while being similarly intelligent on the text input they operate on.\nJevBench allows looking at accuracy, latency and price all at once, in a weighted way - you can even configure the weighting.\nA full run asks 534 English decisions. The v1.3 score combines chance-corrected Intelligence, Calibration, Speed and Cost.\nLeaderboard right now:\n  #1 - Jev            74.4\n  #2 - SemIf          73.1\n  #3 - djev           73.0\n  #4 - Winnow-12B Q8  71.2\n  #5 reflex 4B        70.3.\n\nhttps://github.com/fstandhartinger/jevbench\nTwo no-signup demos:\nhttps://who-is-right.app.mintapis.com\nhttps://is-it-ai-slop.app.mintapis.com\nLimitations: English-only; latency from one German server; local/demo latency gets a disclosed ×2 adjustment (+150 ms on my servers) which is an informed assumption; held-out prompts still reach evaluated services; ~1-point gaps can be noise.\nWdyt?\nComments URL: https://news.ycombinator.com/item?id=49800574\nPoints: 53\n# Comments: 8",
+          "link": "https://benchmarkheaven.com/jev-models",
+          "publishedOn": "2026-09-22T13:01:03.000Z",
+          "wordCount": 32946,
+          "title": "Show HN: JevBench, a reproducible benchmark for typed decision models",
+          "imageUrl": "https://benchmarkheaven.com/jev-models/opengraph-image?v=v1.3.0"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=49799965",
           "author": "dimonomid",
           "description": "Article URL: https://alexn.org/blog/2026/09/22/ai-has-no-wisdom-and-neither-will-you/\nComments URL: https://news.ycombinator.com/item?id=49799965\nPoints: 240\n# Comments: 317",
@@ -264,6 +294,16 @@
           "wordCount": 16795,
           "title": "MiMo-v2.6-Pro: Intelligence, Performance and Price Analysis",
           "imageUrl": "https://artificialanalysis.ai/en/models/mimo-v2-6-pro/opengraph-image?ea6b93c60ecab06d"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=49795686",
+          "author": "alephnerd",
+          "description": "https://archive.ph/FvOhx\nComments URL: https://news.ycombinator.com/item?id=49795686\nPoints: 89\n# Comments: 78",
+          "link": "https://www.bloomberg.com/news/articles/2026-09-18/to-quit-vaping-some-are-starting-to-smoke",
+          "publishedOn": "2026-09-22T01:21:20.000Z",
+          "wordCount": null,
+          "title": "People hooked on vapes try a new way to quit: cigarettes",
+          "imageUrl": null
         },
         {
           "id": "https://news.ycombinator.com/item?id=49795579",
@@ -11784,16 +11824,6 @@
           "wordCount": 1813,
           "title": "How Europe is killing makers and micro-entrepreneurs",
           "imageUrl": "https://lectronz.com/lectronz/active_storage/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NzAzNjgsInB1ciI6ImJsb2JfaWQifX0=--86803ec7bfb65d5430f3e59aa9c5b2a8dafd15f0/DSC_1769.JPG"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49418255",
-          "author": "snvzz",
-          "description": "Article URL: https://proofcraft.systems/news-2026/#2026-08-21\nComments URL: https://news.ycombinator.com/item?id=49418255\nPoints: 146\n# Comments: 31",
-          "link": "https://proofcraft.systems/news-2026/#2026-08-21",
-          "publishedOn": "2026-08-24T11:32:51.000Z",
-          "wordCount": 1218,
-          "title": "SeL4 security proofs now complete on AArch64",
-          "imageUrl": "http://proofcraft.systems/proofcraft.png"
         }
       ]
     }

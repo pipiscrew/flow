@@ -2,10 +2,36 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-09-22T21:55:01.758Z</updated>
+    <updated>2026-09-23T00:12:51.296Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Microsoft killed FoxPro in 2007. Anyway, here's FoxPro revived]]></title>
+        <id>https://news.ycombinator.com/item?id=49808023</id>
+        <link href="https://foxscript.org/"/>
+        <updated>2026-09-22T21:00:30.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://foxscript.org/
+Comments URL: https://news.ycombinator.com/item?id=49808023
+Points: 133
+# Comments: 98]]></summary>
+        <author>
+            <name>boredjohnny</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Native apps written in TypeScript and CSS]]></title>
+        <id>https://news.ycombinator.com/item?id=49807021</id>
+        <link href="https://github.com/geastack/examples"/>
+        <updated>2026-09-22T19:42:20.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://github.com/geastack/examples
+Comments URL: https://news.ycombinator.com/item?id=49807021
+Points: 69
+# Comments: 19]]></summary>
+        <author>
+            <name>arbayi</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Pentagon says overreliance on AI contributed to missile strike on Iran school]]></title>
         <id>https://news.ycombinator.com/item?id=49806430</id>
@@ -260,6 +286,35 @@ Points: 50
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Show HN: JevBench, a reproducible benchmark for typed decision models]]></title>
+        <id>https://news.ycombinator.com/item?id=49800574</id>
+        <link href="https://benchmarkheaven.com/jev-models"/>
+        <updated>2026-09-22T13:01:03.000Z</updated>
+        <summary type="html"><![CDATA[Hi HN! I built JevBench because Jev kicks ass, and the world deserves to know how the serious open source and fake lookalike projects really perform in comparison.
+Jev-class models return bounded choices and probabilities instead of text, and are disruptively faster and cheaper than LLMs, while being similarly intelligent on the text input they operate on.
+JevBench allows looking at accuracy, latency and price all at once, in a weighted way - you can even configure the weighting.
+A full run asks 534 English decisions. The v1.3 score combines chance-corrected Intelligence, Calibration, Speed and Cost.
+Leaderboard right now:
+  #1 - Jev            74.4
+  #2 - SemIf          73.1
+  #3 - djev           73.0
+  #4 - Winnow-12B Q8  71.2
+  #5 reflex 4B        70.3.
+
+https://github.com/fstandhartinger/jevbench
+Two no-signup demos:
+https://who-is-right.app.mintapis.com
+https://is-it-ai-slop.app.mintapis.com
+Limitations: English-only; latency from one German server; local/demo latency gets a disclosed ×2 adjustment (+150 ms on my servers) which is an informed assumption; held-out prompts still reach evaluated services; ~1-point gaps can be noise.
+Wdyt?
+Comments URL: https://news.ycombinator.com/item?id=49800574
+Points: 53
+# Comments: 8]]></summary>
+        <author>
+            <name>florianstandhar</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[AI Has No Wisdom and Neither Will You]]></title>
         <id>https://news.ycombinator.com/item?id=49799965</id>
         <link href="https://alexn.org/blog/2026/09/22/ai-has-no-wisdom-and-neither-will-you/"/>
@@ -348,6 +403,19 @@ Points: 60
 # Comments: 15]]></summary>
         <author>
             <name>theanonymousone</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[People hooked on vapes try a new way to quit: cigarettes]]></title>
+        <id>https://news.ycombinator.com/item?id=49795686</id>
+        <link href="https://www.bloomberg.com/news/articles/2026-09-18/to-quit-vaping-some-are-starting-to-smoke"/>
+        <updated>2026-09-22T01:21:20.000Z</updated>
+        <summary type="html"><![CDATA[https://archive.ph/FvOhx
+Comments URL: https://news.ycombinator.com/item?id=49795686
+Points: 89
+# Comments: 78]]></summary>
+        <author>
+            <name>alephnerd</name>
         </author>
     </entry>
     <entry>
@@ -15502,19 +15570,6 @@ Points: 743
 # Comments: 492]]></summary>
         <author>
             <name>l-one-lone</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[SeL4 security proofs now complete on AArch64]]></title>
-        <id>https://news.ycombinator.com/item?id=49418255</id>
-        <link href="https://proofcraft.systems/news-2026/#2026-08-21"/>
-        <updated>2026-08-24T11:32:51.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://proofcraft.systems/news-2026/#2026-08-21
-Comments URL: https://news.ycombinator.com/item?id=49418255
-Points: 146
-# Comments: 31]]></summary>
-        <author>
-            <name>snvzz</name>
         </author>
     </entry>
 </feed>
