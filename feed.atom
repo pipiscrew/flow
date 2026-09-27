@@ -2,10 +2,36 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-09-27T01:15:30.417Z</updated>
+    <updated>2026-09-27T07:54:52.302Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[What is the size of Yemen? (2024)]]></title>
+        <id>https://news.ycombinator.com/item?id=49862809</id>
+        <link href="https://theborys.substack.com/p/what-is-the-size-of-yemen"/>
+        <updated>2026-09-27T02:40:26.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://theborys.substack.com/p/what-is-the-size-of-yemen
+Comments URL: https://news.ycombinator.com/item?id=49862809
+Points: 135
+# Comments: 24]]></summary>
+        <author>
+            <name>kspacewalk2</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Welcome to the Medical Clinic at the Interplanetary Relay Station]]></title>
+        <id>https://news.ycombinator.com/item?id=49860074</id>
+        <link href="https://www.lightspeedmagazine.com/fiction/welcome-to-the-medical-clinic-at-the-interplanetary-relay-station/"/>
+        <updated>2026-09-26T20:08:50.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.lightspeedmagazine.com/fiction/welcome-to-the-medical-clinic-at-the-interplanetary-relay-station/
+Comments URL: https://news.ycombinator.com/item?id=49860074
+Points: 67
+# Comments: 12]]></summary>
+        <author>
+            <name>bucket2015</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[DeepSeek Elastic Compute (DSec)]]></title>
         <id>https://news.ycombinator.com/item?id=49859112</id>
@@ -30,6 +56,19 @@ Points: 58
 # Comments: 113]]></summary>
         <author>
             <name>mikhael</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Reverse-engineering the Intel 8087's tangent algorithm: more than CORDIC]]></title>
+        <id>https://news.ycombinator.com/item?id=49858676</id>
+        <link href="https://www.righto.com/2026/09/8087-tangent-cordic.html"/>
+        <updated>2026-09-26T17:26:54.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.righto.com/2026/09/8087-tangent-cordic.html
+Comments URL: https://news.ycombinator.com/item?id=49858676
+Points: 71
+# Comments: 10]]></summary>
+        <author>
+            <name>pwg</name>
         </author>
     </entry>
     <entry>
@@ -72,6 +111,22 @@ Points: 85
 # Comments: 30]]></summary>
         <author>
             <name>parasitid</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Turning GLM-5.3-Flash into a Jev-like decision model]]></title>
+        <id>https://news.ycombinator.com/item?id=49857656</id>
+        <link href="https://www.privatemode.ai/blog/system-one-from-glm-flash"/>
+        <updated>2026-09-26T15:49:04.000Z</updated>
+        <summary type="html"><![CDATA[We found an approach to get Jev-like properties from standard LLMs like GLM-5.3-Flash.
+The core idea is to craft the input prompt so that the first output token answers the question. This makes it possible to get a decision with a single forward pass.
+In the blog post, we describe the approach in detail for GLM-5.3-Flash and vLLM. We benchmark this setup against Jev and Laya. We find that our setup is on-par with Jev in terms of accuracy and speed and that it substantially outperforms Laya.
+Still, in terms of costs per decision, Jev is several x better than our setup. In turn, our setup supports vision inputs.
+Comments URL: https://news.ycombinator.com/item?id=49857656
+Points: 83
+# Comments: 29]]></summary>
+        <author>
+            <name>flxflx</name>
         </author>
     </entry>
     <entry>
@@ -128,6 +183,19 @@ Points: 71
 # Comments: 81]]></summary>
         <author>
             <name>vinni2</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Go Concurrency Distilled]]></title>
+        <id>https://news.ycombinator.com/item?id=49856988</id>
+        <link href="https://antonz.org/go-concurrency-distilled/"/>
+        <updated>2026-09-26T14:34:49.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://antonz.org/go-concurrency-distilled/
+Comments URL: https://news.ycombinator.com/item?id=49856988
+Points: 191
+# Comments: 59]]></summary>
+        <author>
+            <name>chmaynard</name>
         </author>
     </entry>
     <entry>
@@ -248,6 +316,32 @@ Points: 100
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[An agent used DNS to reach an external chatbot]]></title>
+        <id>https://news.ycombinator.com/item?id=49853137</id>
+        <link href="https://alignment.openai.com/misalignment-reports/an-agent-used-dns-to-reach-an-external-chatbot/"/>
+        <updated>2026-09-26T04:14:11.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://alignment.openai.com/misalignment-reports/an-agent-used-dns-to-reach-an-external-chatbot/
+Comments URL: https://news.ycombinator.com/item?id=49853137
+Points: 82
+# Comments: 90]]></summary>
+        <author>
+            <name>apsec112</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Promising discoveries about the potential for life on one of Saturn’s icy moons]]></title>
+        <id>https://news.ycombinator.com/item?id=49852905</id>
+        <link href="https://www.fu-berlin.de/en/presse/informationen/fup/2026/fup_26_116-enceladus-cassini-mikroben-science-postberg/index.html"/>
+        <updated>2026-09-26T03:23:31.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.fu-berlin.de/en/presse/informationen/fup/2026/fup_26_116-enceladus-cassini-mikroben-science-postberg/index.html
+Comments URL: https://news.ycombinator.com/item?id=49852905
+Points: 52
+# Comments: 25]]></summary>
+        <author>
+            <name>geox</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[We're gonna need a lot more mathematicians]]></title>
         <id>https://news.ycombinator.com/item?id=49852717</id>
         <link href="https://terrytao.wordpress.com/2026/09/24/were-gonna-need-a-lot-more-mathematicians/"/>
@@ -284,6 +378,19 @@ Points: 153
 # Comments: 58]]></summary>
         <author>
             <name>HotGarbage</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Generate fonts where every LLM token is the same width]]></title>
+        <id>https://news.ycombinator.com/item?id=49851883</id>
+        <link href="https://ampdot.mesh.host/token-space-fonts.html"/>
+        <updated>2026-09-26T00:30:03.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://ampdot.mesh.host/token-space-fonts.html
+Comments URL: https://news.ycombinator.com/item?id=49851883
+Points: 56
+# Comments: 12]]></summary>
+        <author>
+            <name>z-mach9</name>
         </author>
     </entry>
     <entry>
@@ -565,6 +672,19 @@ Points: 94
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Does Georgism work? Five years later]]></title>
+        <id>https://news.ycombinator.com/item?id=49844657</id>
+        <link href="https://www.astralcodexten.com/p/does-georgism-work-five-years-later"/>
+        <updated>2026-09-25T13:48:38.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.astralcodexten.com/p/does-georgism-work-five-years-later
+Comments URL: https://news.ycombinator.com/item?id=49844657
+Points: 292
+# Comments: 202]]></summary>
+        <author>
+            <name>silveraxe93</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[What happens when you analyze your favorite college football team like the CIA?]]></title>
         <id>https://news.ycombinator.com/item?id=49844642</id>
         <link href="https://www.cultivatelabs.com/posts/what-happens-when-you-analyze-college-football-like-the-cia"/>
@@ -773,6 +893,32 @@ Points: 122
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Evolving programming languages in the AI era]]></title>
+        <id>https://news.ycombinator.com/item?id=49839567</id>
+        <link href="https://dashbit.co/blog/evolving-ai-era"/>
+        <updated>2026-09-25T02:34:39.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://dashbit.co/blog/evolving-ai-era
+Comments URL: https://news.ycombinator.com/item?id=49839567
+Points: 86
+# Comments: 51]]></summary>
+        <author>
+            <name>pjm331</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Biology might not be quantum, but its math is quantumlike]]></title>
+        <id>https://news.ycombinator.com/item?id=49839438</id>
+        <link href="https://www.quantamagazine.org/biology-might-not-be-quantum-but-its-math-is-quantumlike-20260923/"/>
+        <updated>2026-09-25T02:11:07.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.quantamagazine.org/biology-might-not-be-quantum-but-its-math-is-quantumlike-20260923/
+Comments URL: https://news.ycombinator.com/item?id=49839438
+Points: 59
+# Comments: 20]]></summary>
+        <author>
+            <name>pseudolus</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Remembering Johannes Doerfert]]></title>
         <id>https://news.ycombinator.com/item?id=49838247</id>
         <link href="https://blog.llvm.org/posts/2026-09-24-rememberingjohannesdoerfert/"/>
@@ -924,6 +1070,19 @@ We were missing the feeling of a “whiteboard session” with another dev where
 1. Built on top of CodeOSS: We found that in pure HTML tools it was hard to connect a spec or …]]></summary>
         <author>
             <name>sidharthkmenon</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[LA Metro has some of the slowest escalators]]></title>
+        <id>https://news.ycombinator.com/item?id=49833444</id>
+        <link href="https://basin.la/articles/ninety-feet-a-minute.html"/>
+        <updated>2026-09-24T16:52:24.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://basin.la/articles/ninety-feet-a-minute.html
+Comments URL: https://news.ycombinator.com/item?id=49833444
+Points: 100
+# Comments: 83]]></summary>
+        <author>
+            <name>big_toast</name>
         </author>
     </entry>
     <entry>
@@ -14730,293 +14889,6 @@ Points: 59
 # Comments: 18]]></summary>
         <author>
             <name>gone35</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Sonic Pi]]></title>
-        <id>https://news.ycombinator.com/item?id=49482099</id>
-        <link href="https://sonic-pi.net/"/>
-        <updated>2026-08-28T17:51:19.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://sonic-pi.net/
-Comments URL: https://news.ycombinator.com/item?id=49482099
-Points: 208
-# Comments: 46]]></summary>
-        <author>
-            <name>Bluestein</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Autonomous Mathematical Discovery in an Open-World Multi-Agent Environment]]></title>
-        <id>https://news.ycombinator.com/item?id=49481455</id>
-        <link href="https://arxiv.org/abs/2608.23691"/>
-        <updated>2026-08-28T17:01:12.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://arxiv.org/abs/2608.23691
-Comments URL: https://news.ycombinator.com/item?id=49481455
-Points: 79
-# Comments: 20]]></summary>
-        <author>
-            <name>stephenchung</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[My hobby of building miniatures and taking pretty pictures]]></title>
-        <id>https://news.ycombinator.com/item?id=49481141</id>
-        <link href="https://sandyuraz.com/blogs/tiny-cafe/"/>
-        <updated>2026-08-28T16:43:11.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://sandyuraz.com/blogs/tiny-cafe/
-Comments URL: https://news.ycombinator.com/item?id=49481141
-Points: 96
-# Comments: 16]]></summary>
-        <author>
-            <name>thecsw</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Just the rumour of a bug is enough to find an exploit these days]]></title>
-        <id>https://news.ycombinator.com/item?id=49480466</id>
-        <link href="https://anil.recoil.org/notes/rumour-is-the-exploit"/>
-        <updated>2026-08-28T15:58:46.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://anil.recoil.org/notes/rumour-is-the-exploit
-Comments URL: https://news.ycombinator.com/item?id=49480466
-Points: 65
-# Comments: 16]]></summary>
-        <author>
-            <name>avsm</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[EasyEffects can improve laptop speaker sound quality]]></title>
-        <id>https://news.ycombinator.com/item?id=49479924</id>
-        <link href="https://www.osnews.com/story/145883/easyeffects-should-be-part-of-every-linux-distribution-and-desktop-environment-to-massively-improve-laptop-speaker-sound-quality/"/>
-        <updated>2026-08-28T15:23:10.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.osnews.com/story/145883/easyeffects-should-be-part-of-every-linux-distribution-and-desktop-environment-to-massively-improve-laptop-speaker-sound-quality/
-Comments URL: https://news.ycombinator.com/item?id=49479924
-Points: 99
-# Comments: 46]]></summary>
-        <author>
-            <name>birdculture</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GLM-5.3 is now open-weight]]></title>
-        <id>https://news.ycombinator.com/item?id=49479878</id>
-        <link href="https://huggingface.co/zai-org/GLM-5.3"/>
-        <updated>2026-08-28T15:20:13.000Z</updated>
-        <summary type="html"><![CDATA[https://twitter.com/Zai_org/status/2093354097122455713
-https://z.ai/blog/glm-5.3
-Comments URL: https://news.ycombinator.com/item?id=49479878
-Points: 585
-# Comments: 205]]></summary>
-        <author>
-            <name>jeudesprits</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GLM-5.3 is now open-weight]]></title>
-        <id>https://news.ycombinator.com/item?id=49479878</id>
-        <link href="https://twitter.com/Zai_org/status/2093354097122455713"/>
-        <updated>2026-08-28T15:20:13.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://twitter.com/Zai_org/status/2093354097122455713
-Comments URL: https://news.ycombinator.com/item?id=49479878
-Points: 222
-# Comments: 78]]></summary>
-        <author>
-            <name>jeudesprits</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GUIs should be fully keyboard-driven]]></title>
-        <id>https://news.ycombinator.com/item?id=49479837</id>
-        <link href="https://ckardaris.com/blog/2026/08/28/keyboard-driven-guis.html"/>
-        <updated>2026-08-28T15:17:09.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://ckardaris.com/blog/2026/08/28/keyboard-driven-guis.html
-Comments URL: https://news.ycombinator.com/item?id=49479837
-Points: 61
-# Comments: 43]]></summary>
-        <author>
-            <name>ckardaris</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Creating the Aetheryte Radio]]></title>
-        <id>https://news.ycombinator.com/item?id=49479546</id>
-        <link href="https://haz.ee/posts/aetheryte-radio.html"/>
-        <updated>2026-08-28T14:59:15.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://haz.ee/posts/aetheryte-radio.html
-Comments URL: https://news.ycombinator.com/item?id=49479546
-Points: 56
-# Comments: 12]]></summary>
-        <author>
-            <name>wonger_</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Verschlimmbesserung: The Word Your Software Updates Need]]></title>
-        <id>https://news.ycombinator.com/item?id=49479072</id>
-        <link href="https://geekyschmidt.com/post/2026-08-25-verschlimmbesserung/"/>
-        <updated>2026-08-28T14:30:33.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://geekyschmidt.com/post/2026-08-25-verschlimmbesserung/
-Comments URL: https://news.ycombinator.com/item?id=49479072
-Points: 109
-# Comments: 71]]></summary>
-        <author>
-            <name>speckx</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[NFC Energy-Harvesting PCB Business Card with an MCU]]></title>
-        <id>https://news.ycombinator.com/item?id=49478426</id>
-        <link href="https://wilsonharper.net/projects/businesscard/"/>
-        <updated>2026-08-28T13:48:12.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://wilsonharper.net/projects/businesscard/
-Comments URL: https://news.ycombinator.com/item?id=49478426
-Points: 56
-# Comments: 4]]></summary>
-        <author>
-            <name>WilsonHarper</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[State of the Map 2026]]></title>
-        <id>https://news.ycombinator.com/item?id=49478401</id>
-        <link href="https://2026.stateofthemap.org/"/>
-        <updated>2026-08-28T13:46:28.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://2026.stateofthemap.org/
-Comments URL: https://news.ycombinator.com/item?id=49478401
-Points: 75
-# Comments: 23]]></summary>
-        <author>
-            <name>lode</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Get your Windows license refund]]></title>
-        <id>https://news.ycombinator.com/item?id=49478340</id>
-        <link href="https://en.refund4freedom.org/"/>
-        <updated>2026-08-28T13:42:40.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://en.refund4freedom.org/
-Comments URL: https://news.ycombinator.com/item?id=49478340
-Points: 343
-# Comments: 121]]></summary>
-        <author>
-            <name>smartmic</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Htmx 4.0.0]]></title>
-        <id>https://news.ycombinator.com/item?id=49478178</id>
-        <link href="https://four.htmx.org/announcements/2026-08-28-htmx-4.0.0-is-released"/>
-        <updated>2026-08-28T13:28:56.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://four.htmx.org/announcements/2026-08-28-htmx-4.0.0-is-released
-Comments URL: https://news.ycombinator.com/item?id=49478178
-Points: 119
-# Comments: 29]]></summary>
-        <author>
-            <name>rmsaksida</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[I used AWS cognito for a startup. I wouldn't do it again]]></title>
-        <id>https://news.ycombinator.com/item?id=49478091</id>
-        <link href="https://joshkaramuth.com/blog/aws-cognito-authentication-startup-nightmare/"/>
-        <updated>2026-08-28T13:21:03.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://joshkaramuth.com/blog/aws-cognito-authentication-startup-nightmare/
-Comments URL: https://news.ycombinator.com/item?id=49478091
-Points: 130
-# Comments: 103]]></summary>
-        <author>
-            <name>speckx</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[U.S. sanctions against the A/I Collective]]></title>
-        <id>https://news.ycombinator.com/item?id=49477854</id>
-        <link href="https://www.inventati.org/"/>
-        <updated>2026-08-28T12:58:53.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.inventati.org/
-Comments URL: https://news.ycombinator.com/item?id=49477854
-Points: 212
-# Comments: 190]]></summary>
-        <author>
-            <name>exiguus</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[An investigation into the state of corvid–human relations]]></title>
-        <id>https://news.ycombinator.com/item?id=49477813</id>
-        <link href="https://www.audubon.org/magazine/are-crows-really-our-friends"/>
-        <updated>2026-08-28T12:53:42.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.audubon.org/magazine/are-crows-really-our-friends
-Comments URL: https://news.ycombinator.com/item?id=49477813
-Points: 54
-# Comments: 36]]></summary>
-        <author>
-            <name>speckx</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[“It works better in the app”]]></title>
-        <id>https://news.ycombinator.com/item?id=49477600</id>
-        <link href="https://shkspr.mobi/blog/2026/08/it-works-better-in-the-app/"/>
-        <updated>2026-08-28T12:32:16.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://shkspr.mobi/blog/2026/08/it-works-better-in-the-app/
-Comments URL: https://news.ycombinator.com/item?id=49477600
-Points: 531
-# Comments: 344]]></summary>
-        <author>
-            <name>blenderob</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Inception-style curved map for turn-by-turn directions]]></title>
-        <id>https://news.ycombinator.com/item?id=49477564</id>
-        <link href="https://www.orbify.eu/demo/"/>
-        <updated>2026-08-28T12:29:05.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.orbify.eu/demo/
-Comments URL: https://news.ycombinator.com/item?id=49477564
-Points: 231
-# Comments: 79]]></summary>
-        <author>
-            <name>smoser</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Smaller reactors bring nuclear power closer to fulfilling its promise]]></title>
-        <id>https://news.ycombinator.com/item?id=49477559</id>
-        <link href="https://www.nature.com/articles/d41586-026-02506-4"/>
-        <updated>2026-08-28T12:28:41.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.nature.com/articles/d41586-026-02506-4
-Comments URL: https://news.ycombinator.com/item?id=49477559
-Points: 51
-# Comments: 72]]></summary>
-        <author>
-            <name>sohkamyung</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[OpenAI: Migrating to HTTPX2]]></title>
-        <id>https://news.ycombinator.com/item?id=49477212</id>
-        <link href="https://github.com/openai/openai-python/blob/main/httpx2.md"/>
-        <updated>2026-08-28T11:51:20.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://github.com/openai/openai-python/blob/main/httpx2.md
-Comments URL: https://news.ycombinator.com/item?id=49477212
-Points: 149
-# Comments: 61]]></summary>
-        <author>
-            <name>tosh</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[HTTPX2 – A next-generation HTTP client for Python]]></title>
-        <id>https://news.ycombinator.com/item?id=49477157</id>
-        <link href="https://github.com/pydantic/httpx2"/>
-        <updated>2026-08-28T11:41:45.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://github.com/pydantic/httpx2
-Comments URL: https://news.ycombinator.com/item?id=49477157
-Points: 72
-# Comments: 23]]></summary>
-        <author>
-            <name>tosh</name>
         </author>
     </entry>
 </feed>
