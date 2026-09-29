@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-09-28T21:45:38.113Z</updated>
+    <updated>2026-09-29T01:41:35.393Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
@@ -30,6 +30,19 @@ Points: 70
 # Comments: 15]]></summary>
         <author>
             <name>mfiguiere</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Scientists solve 1840s space weather mystery]]></title>
+        <id>https://news.ycombinator.com/item?id=49883536</id>
+        <link href="https://arstechnica.com/science/2026/09/scientists-solve-1840s-space-weather-mystery/"/>
+        <updated>2026-09-28T20:00:03.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://arstechnica.com/science/2026/09/scientists-solve-1840s-space-weather-mystery/
+Comments URL: https://news.ycombinator.com/item?id=49883536
+Points: 56
+# Comments: 36]]></summary>
+        <author>
+            <name>gumby</name>
         </author>
     </entry>
     <entry>
@@ -189,6 +202,19 @@ Points: 196
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Updated Google Maps shows destruction of the city of Rafah]]></title>
+        <id>https://news.ycombinator.com/item?id=49879645</id>
+        <link href="https://twitter.com/AliAbunimah/status/2103890594137309425"/>
+        <updated>2026-09-28T15:32:18.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://twitter.com/AliAbunimah/status/2103890594137309425
+Comments URL: https://news.ycombinator.com/item?id=49879645
+Points: 200
+# Comments: 111]]></summary>
+        <author>
+            <name>slowin</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Cf: The Agentic CLI for the Cloudflare API]]></title>
         <id>https://news.ycombinator.com/item?id=49879577</id>
         <link href="https://blog.cloudflare.com/cloudflare-cf-cli-launch/"/>
@@ -199,6 +225,18 @@ Points: 80
 # Comments: 36]]></summary>
         <author>
             <name>macleos</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: HN.watch – Videos of all Hacker News posts]]></title>
+        <id>https://news.ycombinator.com/item?id=49879401</id>
+        <link href="https://hn.watch/"/>
+        <updated>2026-09-28T15:16:13.000Z</updated>
+        <summary type="html"><![CDATA[Hi HN, I’m Per, founder of Scrimba (YC S20). We’ve spent the last decade teaching people how to code with an HTML-based video format. We’ve now plugged an LLM into it, so that people can create explainer videos about anything. It’s called “Scrimba Explain”.
+To demo this technology for Hacker News, we built HN.watch. It’s like HN, but with explainer videos instead of articles. We create them on-the-fly the first time someone clicks on a link.
+While there are obvious visual drawbacks of using HTML instead of diffusion models, there are three big benefits: - Speed: Much faster to generate than pixel-based videos (just a few seconds from click to playback) - Cost: Our cost per video is ~$0.04. (Excluding image generation, which some videos utilize. Quickly blows up the cost) - Easy editing: th…]]></summary>
+        <author>
+            <name>mrborgen</name>
         </author>
     </entry>
     <entry>
@@ -264,6 +302,19 @@ Points: 80
 # Comments: 82]]></summary>
         <author>
             <name>obscurette</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Does Reddit have an astroturfing problem? What the data suggests]]></title>
+        <id>https://news.ycombinator.com/item?id=49877678</id>
+        <link href="https://www.petervijeh.com/projects/reddit-astroturf"/>
+        <updated>2026-09-28T13:30:54.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.petervijeh.com/projects/reddit-astroturf
+Comments URL: https://news.ycombinator.com/item?id=49877678
+Points: 110
+# Comments: 140]]></summary>
+        <author>
+            <name>p-s-v</name>
         </author>
     </entry>
     <entry>
@@ -683,6 +734,19 @@ Points: 135
 # Comments: 24]]></summary>
         <author>
             <name>kspacewalk2</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[What reversing, modernising old games tells us about the economic impact of AI]]></title>
+        <id>https://news.ycombinator.com/item?id=49861755</id>
+        <link href="https://this.os.isfine.org/blog/posts/what-reverse-engineering-and-modernising-an-old-war-game-tells-us-about-the-econ/"/>
+        <updated>2026-09-26T23:49:01.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://this.os.isfine.org/blog/posts/what-reverse-engineering-and-modernising-an-old-war-game-tells-us-about-the-econ/
+Comments URL: https://news.ycombinator.com/item?id=49861755
+Points: 68
+# Comments: 17]]></summary>
+        <author>
+            <name>keeda</name>
         </author>
     </entry>
     <entry>
@@ -15099,97 +15163,6 @@ Points: 111
 # Comments: 46]]></summary>
         <author>
             <name>catbird</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Claude Session URL appended to commit messages and PR descriptions by default]]></title>
-        <id>https://news.ycombinator.com/item?id=49498201</id>
-        <link href="https://github.com/anthropics/claude-code/issues/66504"/>
-        <updated>2026-08-30T12:50:54.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://github.com/anthropics/claude-code/issues/66504
-Comments URL: https://news.ycombinator.com/item?id=49498201
-Points: 98
-# Comments: 125]]></summary>
-        <author>
-            <name>sparsesignal</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[No AI Fridays]]></title>
-        <id>https://news.ycombinator.com/item?id=49498095</id>
-        <link href="https://noaifridays.com/"/>
-        <updated>2026-08-30T12:31:05.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://noaifridays.com/
-Comments URL: https://news.ycombinator.com/item?id=49498095
-Points: 218
-# Comments: 114]]></summary>
-        <author>
-            <name>xendo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Automating Immersive Reading]]></title>
-        <id>https://news.ycombinator.com/item?id=49497854</id>
-        <link href="https://smoores.dev/post/automating_immersive_reading/"/>
-        <updated>2026-08-30T11:46:23.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://smoores.dev/post/automating_immersive_reading/
-Comments URL: https://news.ycombinator.com/item?id=49497854
-Points: 67
-# Comments: 21]]></summary>
-        <author>
-            <name>smoores</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[An implementation of Conway's Game of Life for Windows 3.1x and later]]></title>
-        <id>https://news.ycombinator.com/item?id=49497819</id>
-        <link href="https://www.muppetlabs.com/~breadbox/software/windows.html"/>
-        <updated>2026-08-30T11:41:40.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.muppetlabs.com/~breadbox/software/windows.html
-Comments URL: https://news.ycombinator.com/item?id=49497819
-Points: 50
-# Comments: 12]]></summary>
-        <author>
-            <name>Bluestein</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Hacking IKEA Furniture]]></title>
-        <id>https://news.ycombinator.com/item?id=49497810</id>
-        <link href="https://greenlightning.eu/diy/hacking-ikea-furniture/"/>
-        <updated>2026-08-30T11:39:43.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://greenlightning.eu/diy/hacking-ikea-furniture/
-Comments URL: https://news.ycombinator.com/item?id=49497810
-Points: 137
-# Comments: 73]]></summary>
-        <author>
-            <name>greenlightning</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[One Nix flake to rule them all]]></title>
-        <id>https://news.ycombinator.com/item?id=49497712</id>
-        <link href="https://fzakaria.com/2026/08/28/one-flake-to-rule-them-all"/>
-        <updated>2026-08-30T11:22:04.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://fzakaria.com/2026/08/28/one-flake-to-rule-them-all
-Comments URL: https://news.ycombinator.com/item?id=49497712
-Points: 51
-# Comments: 5]]></summary>
-        <author>
-            <name>ingve</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Building my own network stack]]></title>
-        <id>https://news.ycombinator.com/item?id=49497200</id>
-        <link href="https://blog.lyc8503.net/en/post/dn42-2-dnet/"/>
-        <updated>2026-08-30T09:52:15.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://blog.lyc8503.net/en/post/dn42-2-dnet/
-Comments URL: https://news.ycombinator.com/item?id=49497200
-Points: 63
-# Comments: 58]]></summary>
-        <author>
-            <name>uneven9434</name>
         </author>
     </entry>
 </feed>
