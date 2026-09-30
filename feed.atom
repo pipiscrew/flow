@@ -2,10 +2,103 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-09-30T13:30:53.382Z</updated>
+    <updated>2026-09-30T19:00:58.270Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Launch HN: Magnitude (YC S25) – Self-optimizing inference engine for agents]]></title>
+        <id>https://news.ycombinator.com/item?id=49911995</id>
+        <link href="https://github.com/magnitudedev/magnitude"/>
+        <updated>2026-09-30T17:37:40.000Z</updated>
+        <summary type="html"><![CDATA[Hey HN, Anders and Tom here. We're building Magnitude, an inference engine for agents that optimizes itself to run as fast as possible on your hardware. It works on Mac, Linux, and Windows on any hardware and is up to 2x faster than llama.cpp.
+We're both software engineers and previously built an open source browser agent to 4k+ GH stars and 100k+ downloads. We increasingly wanted to run it on local models, but found that no inference engine worked for our use case.
+Inference engines today all make a performance tradeoff. They are either:
+- Built for batched inference on datacenter hardware at the cost of single-session performance (vLLM, SGLang)
+- Designed for broad compatibility instead of optimizing for specific hardware (llama.cpp, Ollama)
+- Specialized for specific hardware or models …]]></summary>
+        <author>
+            <name>anerli</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Commit Description as a Thinking Tool]]></title>
+        <id>https://news.ycombinator.com/item?id=49911757</id>
+        <link href="https://yedhu.me/posts/commit-description-as-a-thinking-tool/"/>
+        <updated>2026-09-30T17:18:13.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://yedhu.me/posts/commit-description-as-a-thinking-tool/
+Comments URL: https://news.ycombinator.com/item?id=49911757
+Points: 57
+# Comments: 22]]></summary>
+        <author>
+            <name>yedhukrishnan</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A brief history of the Bloomberg terminal]]></title>
+        <id>https://news.ycombinator.com/item?id=49909583</id>
+        <link href="https://spectrum.ieee.org/bloomberg-terminal"/>
+        <updated>2026-09-30T14:34:07.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://spectrum.ieee.org/bloomberg-terminal
+Comments URL: https://news.ycombinator.com/item?id=49909583
+Points: 132
+# Comments: 46]]></summary>
+        <author>
+            <name>rbanffy</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[What TLA+ can and can't check]]></title>
+        <id>https://news.ycombinator.com/item?id=49909056</id>
+        <link href="https://buttondown.com/hillelwayne/archive/what-tla-can-and-cant-check/"/>
+        <updated>2026-09-30T13:57:06.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://buttondown.com/hillelwayne/archive/what-tla-can-and-cant-check/
+Comments URL: https://news.ycombinator.com/item?id=49909056
+Points: 61
+# Comments: 10]]></summary>
+        <author>
+            <name>b-man</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SDF vs. MSDF vs. Slug: GPU Text Rendering]]></title>
+        <id>https://news.ycombinator.com/item?id=49908962</id>
+        <link href="https://alphapixeldev.com/sdf-vs-msdf-vs-slug-vs-rive-gpu-text-rendering/"/>
+        <updated>2026-09-30T13:50:50.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://alphapixeldev.com/sdf-vs-msdf-vs-slug-vs-rive-gpu-text-rendering/
+Comments URL: https://news.ycombinator.com/item?id=49908962
+Points: 94
+# Comments: 37]]></summary>
+        <author>
+            <name>ibobev</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The last time my family was replaced by technology]]></title>
+        <id>https://news.ycombinator.com/item?id=49908394</id>
+        <link href="https://manuel.darcemont.fr/posts/the-last-time-my-family-was-replaced-by-technology/"/>
+        <updated>2026-09-30T13:06:11.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://manuel.darcemont.fr/posts/the-last-time-my-family-was-replaced-by-technology/
+Comments URL: https://news.ycombinator.com/item?id=49908394
+Points: 82
+# Comments: 176]]></summary>
+        <author>
+            <name>megalomanu</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[You Said No MCP]]></title>
+        <id>https://news.ycombinator.com/item?id=49906637</id>
+        <link href="https://earendil.com/posts/you-said-no-mcp/"/>
+        <updated>2026-09-30T09:55:23.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://earendil.com/posts/you-said-no-mcp/
+Comments URL: https://news.ycombinator.com/item?id=49906637
+Points: 507
+# Comments: 286]]></summary>
+        <author>
+            <name>yarapavan</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Tesla takes on $30B in credit as it approaches unprofitability]]></title>
         <id>https://news.ycombinator.com/item?id=49904408</id>
@@ -17,6 +110,19 @@ Points: 73
 # Comments: 88]]></summary>
         <author>
             <name>ciconia</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[LinkedIn Larpmaxxing]]></title>
+        <id>https://news.ycombinator.com/item?id=49904314</id>
+        <link href="https://hereticpleb.vercel.app/blog/linkedin-larpmaxxing/"/>
+        <updated>2026-09-30T04:19:57.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://hereticpleb.vercel.app/blog/linkedin-larpmaxxing/
+Comments URL: https://news.ycombinator.com/item?id=49904314
+Points: 76
+# Comments: 78]]></summary>
+        <author>
+            <name>BurnerBurner</name>
         </author>
     </entry>
     <entry>
@@ -465,6 +571,20 @@ Points: 115
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Show HN: JBR-001 – An open-source 3D printable desktop robot]]></title>
+        <id>https://news.ycombinator.com/item?id=49890707</id>
+        <link href="https://projecthub.arduino.cc/syntheticaidata/jbr-001-a-desktop-companion-robot-powered-by-arduino-uno-q-b11c96"/>
+        <updated>2026-09-29T10:05:56.000Z</updated>
+        <summary type="html"><![CDATA[We built a desktop companion robot that is powered by Arduino UNO Q. Project is open source: source code, 3D printable files and assembly instructions are available at Arduino Project Hub.
+Robot is equipped with camera, distance sensor, buzzer, moves head and arms with 3 servo motors and has an animated display. It can recognise objects and respond to it. We build it with idea this should be fun project people can 3D print and build at home themself.
+Comments URL: https://news.ycombinator.com/item?id=49890707
+Points: 109
+# Comments: 24]]></summary>
+        <author>
+            <name>gvuksic</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[AI companies leak data to advertisers [pdf]]]></title>
         <id>https://news.ycombinator.com/item?id=49890226</id>
         <link href="https://jorgegarciaherrero.com/wp-content/interactivos/20260916-Prompt-like-a-butterfly-sting-like-a-tracker-(clean).pdf"/>
@@ -488,6 +608,45 @@ Points: 116
 # Comments: 30]]></summary>
         <author>
             <name>czoido</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Mathematical Origami]]></title>
+        <id>https://news.ycombinator.com/item?id=49889140</id>
+        <link href="https://mathigon.org/origami"/>
+        <updated>2026-09-29T06:45:46.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://mathigon.org/origami
+Comments URL: https://news.ycombinator.com/item?id=49889140
+Points: 96
+# Comments: 22]]></summary>
+        <author>
+            <name>signa11</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Solving Factorio Quality]]></title>
+        <id>https://news.ycombinator.com/item?id=49887343</id>
+        <link href="https://exyr.org/2026/solving-factorio-quality/"/>
+        <updated>2026-09-29T02:27:54.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://exyr.org/2026/solving-factorio-quality/
+Comments URL: https://news.ycombinator.com/item?id=49887343
+Points: 232
+# Comments: 85]]></summary>
+        <author>
+            <name>laurenth</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Dental Scope – Interactive 3D dental anatomy]]></title>
+        <id>https://news.ycombinator.com/item?id=49886535</id>
+        <link href="https://dental-scope.com/"/>
+        <updated>2026-09-29T00:47:19.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://dental-scope.com/
+Comments URL: https://news.ycombinator.com/item?id=49886535
+Points: 90
+# Comments: 53]]></summary>
+        <author>
+            <name>Zeruxe</name>
         </author>
     </entry>
     <entry>
@@ -527,6 +686,19 @@ Points: 88
 # Comments: 16]]></summary>
         <author>
             <name>nkko</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[I Could've Accessed 17T Microsoft Records]]></title>
+        <id>https://news.ycombinator.com/item?id=49883970</id>
+        <link href="https://blog.faav.net/how-i-couldve-accessed-17-trillion-microsoft-records"/>
+        <updated>2026-09-28T20:32:46.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://blog.faav.net/how-i-couldve-accessed-17-trillion-microsoft-records
+Comments URL: https://news.ycombinator.com/item?id=49883970
+Points: 164
+# Comments: 74]]></summary>
+        <author>
+            <name>luispa</name>
         </author>
     </entry>
     <entry>
@@ -618,6 +790,19 @@ Points: 80
 # Comments: 24]]></summary>
         <author>
             <name>logicallee</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Burning Man Death Rates – A Short Lesson in Statistics]]></title>
+        <id>https://news.ycombinator.com/item?id=49882754</id>
+        <link href="https://ihavenapkinthoughts.substack.com/p/burning-man-death-rates-a-short-lesson"/>
+        <updated>2026-09-28T18:57:16.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://ihavenapkinthoughts.substack.com/p/burning-man-death-rates-a-short-lesson
+Comments URL: https://news.ycombinator.com/item?id=49882754
+Points: 57
+# Comments: 41]]></summary>
+        <author>
+            <name>viraj_shah</name>
         </author>
     </entry>
     <entry>
@@ -15032,178 +15217,6 @@ Points: 97
 # Comments: 25]]></summary>
         <author>
             <name>MrOrelliOReilly</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AI Can Make You Suck Faster Too]]></title>
-        <id>https://news.ycombinator.com/item?id=49518316</id>
-        <link href="https://www.hermit-tech.com/blog/ai-can-make-you-suck-faster-too"/>
-        <updated>2026-09-01T05:32:56.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.hermit-tech.com/blog/ai-can-make-you-suck-faster-too
-Comments URL: https://news.ycombinator.com/item?id=49518316
-Points: 62
-# Comments: 64]]></summary>
-        <author>
-            <name>degamad</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Restroom Archive]]></title>
-        <id>https://news.ycombinator.com/item?id=49517624</id>
-        <link href="https://restroomarchive.com/"/>
-        <updated>2026-09-01T03:23:48.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://restroomarchive.com
-Comments URL: https://news.ycombinator.com/item?id=49517624
-Points: 91
-# Comments: 15]]></summary>
-        <author>
-            <name>jcalx</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GPU World]]></title>
-        <id>https://news.ycombinator.com/item?id=49517584</id>
-        <link href="https://www.gpuworld.org/"/>
-        <updated>2026-09-01T03:16:36.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.gpuworld.org/
-Comments URL: https://news.ycombinator.com/item?id=49517584
-Points: 134
-# Comments: 58]]></summary>
-        <author>
-            <name>simonpure</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Fastpotify]]></title>
-        <id>https://news.ycombinator.com/item?id=49517448</id>
-        <link href="https://fastpotify.rocks/"/>
-        <updated>2026-09-01T02:52:14.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://fastpotify.rocks/
-Comments URL: https://news.ycombinator.com/item?id=49517448
-Points: 263
-# Comments: 121]]></summary>
-        <author>
-            <name>nreece</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[RotaryCell: Making an unmodified rotary phone work over LTE with an ESP32-S3]]></title>
-        <id>https://news.ycombinator.com/item?id=49517297</id>
-        <link href="https://github.com/fregacmols/RotaryCell"/>
-        <updated>2026-09-01T02:29:23.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://github.com/fregacmols/RotaryCell
-Comments URL: https://news.ycombinator.com/item?id=49517297
-Points: 100
-# Comments: 18]]></summary>
-        <author>
-            <name>jombib</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Wendell Berry has died]]></title>
-        <id>https://news.ycombinator.com/item?id=49517018</id>
-        <link href="https://www.nytimes.com/2026/08/31/us/wendell-berry-dead.html"/>
-        <updated>2026-09-01T01:49:58.000Z</updated>
-        <summary type="html"><![CDATA[https://archive.ph/YP8Uz
-https://kentuckylantern.com/2026/08/31/kentucky-writer-farme...
-https://www.nbcnews.com/news/us-news/wendell-berry-kentucky-...
-https://www.honest-broker.com/p/wendell-berrys-nine-rules
-Comments URL: https://news.ycombinator.com/item?id=49517018
-Points: 66
-# Comments: 34]]></summary>
-        <author>
-            <name>Curiositry</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[2004 RuneScape fit a multiplayer RPG into 56k dial-up]]></title>
-        <id>https://news.ycombinator.com/item?id=49516699</id>
-        <link href="https://jkm.dev/posts/how-2004-runescape-fit-a-multiplayer-rpg-into-56k-dialup/"/>
-        <updated>2026-09-01T01:01:08.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://jkm.dev/posts/how-2004-runescape-fit-a-multiplayer-rpg-into-56k-dialup/
-Comments URL: https://news.ycombinator.com/item?id=49516699
-Points: 98
-# Comments: 50]]></summary>
-        <author>
-            <name>fagnerbrack</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Has early Scratch experience led to fulfilling careers?]]></title>
-        <id>https://news.ycombinator.com/item?id=49516209</id>
-        <link href="https://twitter.com/ID_AA_Carmack/status/2094450188911845827"/>
-        <updated>2026-08-31T23:46:38.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://twitter.com/ID_AA_Carmack/status/2094450188911845827
-Comments URL: https://news.ycombinator.com/item?id=49516209
-Points: 87
-# Comments: 59]]></summary>
-        <author>
-            <name>ilamont</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Evidence of Fraud in an Influential Study About Procrastination]]></title>
-        <id>https://news.ycombinator.com/item?id=49516199</id>
-        <link href="https://datacolada.org/138"/>
-        <updated>2026-08-31T23:45:56.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://datacolada.org/138
-Comments URL: https://news.ycombinator.com/item?id=49516199
-Points: 192
-# Comments: 128]]></summary>
-        <author>
-            <name>Anon84</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Run macOS Software on Linux]]></title>
-        <id>https://news.ycombinator.com/item?id=49515830</id>
-        <link href="https://www.darlinghq.org/"/>
-        <updated>2026-08-31T22:53:45.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.darlinghq.org/
-Comments URL: https://news.ycombinator.com/item?id=49515830
-Points: 73
-# Comments: 19]]></summary>
-        <author>
-            <name>Bluestein</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Google Has Removed MV2 Extensions from the Chrome Web Store, Including UBO]]></title>
-        <id>https://news.ycombinator.com/item?id=49514878</id>
-        <link href="https://webiterate.dev/google-removed-extensions-ublock-origin-108/"/>
-        <updated>2026-08-31T21:10:58.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://webiterate.dev/google-removed-extensions-ublock-origin-108/
-Comments URL: https://news.ycombinator.com/item?id=49514878
-Points: 444
-# Comments: 361]]></summary>
-        <author>
-            <name>twapi</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A Selection of Los Alamos Rolodex Business Cards]]></title>
-        <id>https://news.ycombinator.com/item?id=49513856</id>
-        <link href="https://clui.org/collections/los-alamos-business-cards/selection-cards"/>
-        <updated>2026-08-31T19:25:44.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://clui.org/collections/los-alamos-business-cards/selection-cards
-Comments URL: https://news.ycombinator.com/item?id=49513856
-Points: 79
-# Comments: 16]]></summary>
-        <author>
-            <name>1970-01-01</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Fish bad, sugar good and other medieval ideas about food]]></title>
-        <id>https://news.ycombinator.com/item?id=49513721</id>
-        <link href="https://lithub.com/fish-bad-sugar-good-and-other-medieval-ideas-about-food/"/>
-        <updated>2026-08-31T19:14:01.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://lithub.com/fish-bad-sugar-good-and-other-medieval-ideas-about-food/
-Comments URL: https://news.ycombinator.com/item?id=49513721
-Points: 86
-# Comments: 65]]></summary>
-        <author>
-            <name>mooreds</name>
         </author>
     </entry>
 </feed>

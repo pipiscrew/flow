@@ -6,6 +6,76 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=49911995",
+          "author": "anerli",
+          "description": "Hey HN, Anders and Tom here. We're building Magnitude, an inference engine for agents that optimizes itself to run as fast as possible on your hardware. It works on Mac, Linux, and Windows on any hardware and is up to 2x faster than llama.cpp.\nWe're both software engineers and previously built an open source browser agent to 4k+ GH stars and 100k+ downloads. We increasingly wanted to run it on local models, but found that no inference engine worked for our use case.\nInference engines today all make a performance tradeoff. They are either:\n- Built for batched inference on datacenter hardware at the cost of single-session performance (vLLM, SGLang)\n- Designed for broad compatibility instead of optimizing for specific hardware (llama.cpp, Ollama)\n- Specialized for specific hardware or models …",
+          "link": "https://github.com/magnitudedev/magnitude",
+          "publishedOn": "2026-09-30T17:37:40.000Z",
+          "wordCount": 3057,
+          "title": "Launch HN: Magnitude (YC S25) – Self-optimizing inference engine for agents",
+          "imageUrl": "https://opengraph.githubassets.com/4b1678527de47f94ec03fd2560b69414a4455ba67c5f9307cf12d77a519fde46/magnitudedev/magnitude"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=49911757",
+          "author": "yedhukrishnan",
+          "description": "Article URL: https://yedhu.me/posts/commit-description-as-a-thinking-tool/\nComments URL: https://news.ycombinator.com/item?id=49911757\nPoints: 57\n# Comments: 22",
+          "link": "https://yedhu.me/posts/commit-description-as-a-thinking-tool/",
+          "publishedOn": "2026-09-30T17:18:13.000Z",
+          "wordCount": 970,
+          "title": "Commit Description as a Thinking Tool",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=49909583",
+          "author": "rbanffy",
+          "description": "Article URL: https://spectrum.ieee.org/bloomberg-terminal\nComments URL: https://news.ycombinator.com/item?id=49909583\nPoints: 132\n# Comments: 46",
+          "link": "https://spectrum.ieee.org/bloomberg-terminal",
+          "publishedOn": "2026-09-30T14:34:07.000Z",
+          "wordCount": 12919,
+          "title": "A brief history of the Bloomberg terminal",
+          "imageUrl": "https://spectrum.ieee.org/media-library/image.jpg?id=67857174&width=1200&height=600&coordinates=0%2C50%2C0%2C50"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=49909056",
+          "author": "b-man",
+          "description": "Article URL: https://buttondown.com/hillelwayne/archive/what-tla-can-and-cant-check/\nComments URL: https://news.ycombinator.com/item?id=49909056\nPoints: 61\n# Comments: 10",
+          "link": "https://buttondown.com/hillelwayne/archive/what-tla-can-and-cant-check/",
+          "publishedOn": "2026-09-30T13:57:06.000Z",
+          "wordCount": 2187,
+          "title": "What TLA+ can and can't check",
+          "imageUrl": "https://image-generator.buttondown.email/api/emphasize-subject?subject=What%20TLA%2B%20can%20and%20can%27t%20check&author=Computer%20Things&date=2026-09-30&img="
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=49908962",
+          "author": "ibobev",
+          "description": "Article URL: https://alphapixeldev.com/sdf-vs-msdf-vs-slug-vs-rive-gpu-text-rendering/\nComments URL: https://news.ycombinator.com/item?id=49908962\nPoints: 94\n# Comments: 37",
+          "link": "https://alphapixeldev.com/sdf-vs-msdf-vs-slug-vs-rive-gpu-text-rendering/",
+          "publishedOn": "2026-09-30T13:50:50.000Z",
+          "wordCount": 6058,
+          "title": "SDF vs. MSDF vs. Slug: GPU Text Rendering",
+          "imageUrl": "https://alphapixeldev.com/wp-content/uploads/2026/09/slughorn-vs-sdf-msdf-rive-grazing-perspective.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=49908394",
+          "author": "megalomanu",
+          "description": "Article URL: https://manuel.darcemont.fr/posts/the-last-time-my-family-was-replaced-by-technology/\nComments URL: https://news.ycombinator.com/item?id=49908394\nPoints: 82\n# Comments: 176",
+          "link": "https://manuel.darcemont.fr/posts/the-last-time-my-family-was-replaced-by-technology/",
+          "publishedOn": "2026-09-30T13:06:11.000Z",
+          "wordCount": 517,
+          "title": "The last time my family was replaced by technology",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=49906637",
+          "author": "yarapavan",
+          "description": "Article URL: https://earendil.com/posts/you-said-no-mcp/\nComments URL: https://news.ycombinator.com/item?id=49906637\nPoints: 507\n# Comments: 286",
+          "link": "https://earendil.com/posts/you-said-no-mcp/",
+          "publishedOn": "2026-09-30T09:55:23.000Z",
+          "wordCount": 1860,
+          "title": "You Said No MCP",
+          "imageUrl": "https://earendil.com/static/og/posts/you-said-no-mcp.png"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=49904408",
           "author": "ciconia",
           "description": "Article URL: https://electrek.co/2026/09/29/tesla-takes-on-30-billion-in-credit-as-it-approaches-unprofitability/\nComments URL: https://news.ycombinator.com/item?id=49904408\nPoints: 73\n# Comments: 88",
@@ -14,6 +84,16 @@
           "wordCount": 3498,
           "title": "Tesla takes on $30B in credit as it approaches unprofitability",
           "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=49904314",
+          "author": "BurnerBurner",
+          "description": "Article URL: https://hereticpleb.vercel.app/blog/linkedin-larpmaxxing/\nComments URL: https://news.ycombinator.com/item?id=49904314\nPoints: 76\n# Comments: 78",
+          "link": "https://hereticpleb.vercel.app/blog/linkedin-larpmaxxing/",
+          "publishedOn": "2026-09-30T04:19:57.000Z",
+          "wordCount": 1039,
+          "title": "LinkedIn Larpmaxxing",
+          "imageUrl": "https://hereticpleb.vercel.app/og-image.jpg"
         },
         {
           "id": "https://news.ycombinator.com/item?id=49903993",
@@ -356,6 +436,16 @@
           "imageUrl": null
         },
         {
+          "id": "https://news.ycombinator.com/item?id=49890707",
+          "author": "gvuksic",
+          "description": "We built a desktop companion robot that is powered by Arduino UNO Q. Project is open source: source code, 3D printable files and assembly instructions are available at Arduino Project Hub.\nRobot is equipped with camera, distance sensor, buzzer, moves head and arms with 3 servo motors and has an animated display. It can recognise objects and respond to it. We build it with idea this should be fun project people can 3D print and build at home themself.\nComments URL: https://news.ycombinator.com/item?id=49890707\nPoints: 109\n# Comments: 24",
+          "link": "https://projecthub.arduino.cc/syntheticaidata/jbr-001-a-desktop-companion-robot-powered-by-arduino-uno-q-b11c96",
+          "publishedOn": "2026-09-29T10:05:56.000Z",
+          "wordCount": 4269,
+          "title": "Show HN: JBR-001 – An open-source 3D printable desktop robot",
+          "imageUrl": "https://projects.arduinocontent.cc/cover-images/5dff6f3b-25f5-492f-96f2-0b5db5018528.jpg"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=49890226",
           "author": "damaru2",
           "description": "Article URL: https://jorgegarciaherrero.com/wp-content/interactivos/20260916-Prompt-like-a-butterfly-sting-like-a-tracker-(clean).pdf\nComments URL: https://news.ycombinator.com/item?id=49890226\nPoints: 322\n# Comments: 104",
@@ -374,6 +464,36 @@
           "wordCount": 2366,
           "title": "Using any C++ library in Godot",
           "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=49889140",
+          "author": "signa11",
+          "description": "Article URL: https://mathigon.org/origami\nComments URL: https://news.ycombinator.com/item?id=49889140\nPoints: 96\n# Comments: 22",
+          "link": "https://mathigon.org/origami",
+          "publishedOn": "2026-09-29T06:45:46.000Z",
+          "wordCount": 990,
+          "title": "Mathematical Origami",
+          "imageUrl": "https://mathigon.org/images/og-tile/origami.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=49887343",
+          "author": "laurenth",
+          "description": "Article URL: https://exyr.org/2026/solving-factorio-quality/\nComments URL: https://news.ycombinator.com/item?id=49887343\nPoints: 232\n# Comments: 85",
+          "link": "https://exyr.org/2026/solving-factorio-quality/",
+          "publishedOn": "2026-09-29T02:27:54.000Z",
+          "wordCount": 4954,
+          "title": "Solving Factorio Quality",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=49886535",
+          "author": "Zeruxe",
+          "description": "Article URL: https://dental-scope.com/\nComments URL: https://news.ycombinator.com/item?id=49886535\nPoints: 90\n# Comments: 53",
+          "link": "https://dental-scope.com/",
+          "publishedOn": "2026-09-29T00:47:19.000Z",
+          "wordCount": 118,
+          "title": "Show HN: Dental Scope – Interactive 3D dental anatomy",
+          "imageUrl": "https://dental-scope.com/og-image.png"
         },
         {
           "id": "https://news.ycombinator.com/item?id=49886482",
@@ -404,6 +524,16 @@
           "wordCount": 2739,
           "title": "ESP32S3 cluster running 1.58-bit (BitNet) Language model",
           "imageUrl": "https://opengraph.githubassets.com/02c026e2fcaa658be12b838cdcf6ae8c1994d2c3f653daacaa08b724eea15a52/Low-Zi-Hong/ESP32s3-LLM-Cluster"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=49883970",
+          "author": "luispa",
+          "description": "Article URL: https://blog.faav.net/how-i-couldve-accessed-17-trillion-microsoft-records\nComments URL: https://news.ycombinator.com/item?id=49883970\nPoints: 164\n# Comments: 74",
+          "link": "https://blog.faav.net/how-i-couldve-accessed-17-trillion-microsoft-records",
+          "publishedOn": "2026-09-28T20:32:46.000Z",
+          "wordCount": 2137,
+          "title": "I Could've Accessed 17T Microsoft Records",
+          "imageUrl": "https://blog.faav.net/assets/images/647380bf-4a6a-462c-b2f6-f16f2f02bc19.png"
         },
         {
           "id": "https://news.ycombinator.com/item?id=49883844",
@@ -473,6 +603,16 @@
           "publishedOn": "2026-09-28T18:58:53.000Z",
           "wordCount": 852,
           "title": "MicroLLM Lab – Try 7 tiny LLM's in the browser",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=49882754",
+          "author": "viraj_shah",
+          "description": "Article URL: https://ihavenapkinthoughts.substack.com/p/burning-man-death-rates-a-short-lesson\nComments URL: https://news.ycombinator.com/item?id=49882754\nPoints: 57\n# Comments: 41",
+          "link": "https://ihavenapkinthoughts.substack.com/p/burning-man-death-rates-a-short-lesson",
+          "publishedOn": "2026-09-28T18:57:16.000Z",
+          "wordCount": null,
+          "title": "Burning Man Death Rates – A Short Lesson in Statistics",
           "imageUrl": null
         },
         {
@@ -11404,136 +11544,6 @@
           "wordCount": 653,
           "title": "Higher Multipoles of the Cow",
           "imageUrl": "/static/browse/0.3.4/images/arxiv-logo-fb.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49518316",
-          "author": "degamad",
-          "description": "Article URL: https://www.hermit-tech.com/blog/ai-can-make-you-suck-faster-too\nComments URL: https://news.ycombinator.com/item?id=49518316\nPoints: 62\n# Comments: 64",
-          "link": "https://www.hermit-tech.com/blog/ai-can-make-you-suck-faster-too",
-          "publishedOn": "2026-09-01T05:32:56.000Z",
-          "wordCount": 2281,
-          "title": "AI Can Make You Suck Faster Too",
-          "imageUrl": "/images/assets/share-img-a07c0f99bf68eb4deba4a5bc2e3b9d36.png?vsn=d"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49517624",
-          "author": "jcalx",
-          "description": "Article URL: https://restroomarchive.com\nComments URL: https://news.ycombinator.com/item?id=49517624\nPoints: 91\n# Comments: 15",
-          "link": "https://restroomarchive.com/",
-          "publishedOn": "2026-09-01T03:23:48.000Z",
-          "wordCount": 12274,
-          "title": "Restroom Archive",
-          "imageUrl": "https://restroomarchive.com/metatag.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49517584",
-          "author": "simonpure",
-          "description": "Article URL: https://www.gpuworld.org/\nComments URL: https://news.ycombinator.com/item?id=49517584\nPoints: 134\n# Comments: 58",
-          "link": "https://www.gpuworld.org/",
-          "publishedOn": "2026-09-01T03:16:36.000Z",
-          "wordCount": 654,
-          "title": "GPU World",
-          "imageUrl": "https://www.gpuworld.org/open-graph/1200-630.png?v=nzjqee"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49517448",
-          "author": "nreece",
-          "description": "Article URL: https://fastpotify.rocks/\nComments URL: https://news.ycombinator.com/item?id=49517448\nPoints: 263\n# Comments: 121",
-          "link": "https://fastpotify.rocks/",
-          "publishedOn": "2026-09-01T02:52:14.000Z",
-          "wordCount": 1482,
-          "title": "Fastpotify",
-          "imageUrl": "https://fastpotify.rocks/screenshot.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49517297",
-          "author": "jombib",
-          "description": "Article URL: https://github.com/fregacmols/RotaryCell\nComments URL: https://news.ycombinator.com/item?id=49517297\nPoints: 100\n# Comments: 18",
-          "link": "https://github.com/fregacmols/RotaryCell",
-          "publishedOn": "2026-09-01T02:29:23.000Z",
-          "wordCount": 3029,
-          "title": "RotaryCell: Making an unmodified rotary phone work over LTE with an ESP32-S3",
-          "imageUrl": "https://repository-images.githubusercontent.com/1292562815/8373e8e4-31fe-4594-9a1f-ecd82f1f2e1f"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49517018",
-          "author": "Curiositry",
-          "description": "https://archive.ph/YP8Uz\nhttps://kentuckylantern.com/2026/08/31/kentucky-writer-farme...\nhttps://www.nbcnews.com/news/us-news/wendell-berry-kentucky-...\nhttps://www.honest-broker.com/p/wendell-berrys-nine-rules\nComments URL: https://news.ycombinator.com/item?id=49517018\nPoints: 66\n# Comments: 34",
-          "link": "https://www.nytimes.com/2026/08/31/us/wendell-berry-dead.html",
-          "publishedOn": "2026-09-01T01:49:58.000Z",
-          "wordCount": null,
-          "title": "Wendell Berry has died",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49516699",
-          "author": "fagnerbrack",
-          "description": "Article URL: https://jkm.dev/posts/how-2004-runescape-fit-a-multiplayer-rpg-into-56k-dialup/\nComments URL: https://news.ycombinator.com/item?id=49516699\nPoints: 98\n# Comments: 50",
-          "link": "https://jkm.dev/posts/how-2004-runescape-fit-a-multiplayer-rpg-into-56k-dialup/",
-          "publishedOn": "2026-09-01T01:01:08.000Z",
-          "wordCount": 5659,
-          "title": "2004 RuneScape fit a multiplayer RPG into 56k dial-up",
-          "imageUrl": "https://jkm.dev/images/blog/runescape-networking/varrock-fountain.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49516209",
-          "author": "ilamont",
-          "description": "Article URL: https://twitter.com/ID_AA_Carmack/status/2094450188911845827\nComments URL: https://news.ycombinator.com/item?id=49516209\nPoints: 87\n# Comments: 59",
-          "link": "https://twitter.com/ID_AA_Carmack/status/2094450188911845827",
-          "publishedOn": "2026-08-31T23:46:38.000Z",
-          "wordCount": 1080,
-          "title": "Has early Scratch experience led to fulfilling careers?",
-          "imageUrl": "https://pbs.twimg.com/profile_images/1560764938083352577/B1X3m4NN_400x400.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49516199",
-          "author": "Anon84",
-          "description": "Article URL: https://datacolada.org/138\nComments URL: https://news.ycombinator.com/item?id=49516199\nPoints: 192\n# Comments: 128",
-          "link": "https://datacolada.org/138",
-          "publishedOn": "2026-08-31T23:45:56.000Z",
-          "wordCount": 5199,
-          "title": "Evidence of Fraud in an Influential Study About Procrastination",
-          "imageUrl": "https://datacolada.org/wp-content/uploads/Study-2-Data-Screenshot.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49515830",
-          "author": "Bluestein",
-          "description": "Article URL: https://www.darlinghq.org/\nComments URL: https://news.ycombinator.com/item?id=49515830\nPoints: 73\n# Comments: 19",
-          "link": "https://www.darlinghq.org/",
-          "publishedOn": "2026-08-31T22:53:45.000Z",
-          "wordCount": 423,
-          "title": "Run macOS Software on Linux",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49514878",
-          "author": "twapi",
-          "description": "Article URL: https://webiterate.dev/google-removed-extensions-ublock-origin-108/\nComments URL: https://news.ycombinator.com/item?id=49514878\nPoints: 444\n# Comments: 361",
-          "link": "https://webiterate.dev/google-removed-extensions-ublock-origin-108/",
-          "publishedOn": "2026-08-31T21:10:58.000Z",
-          "wordCount": null,
-          "title": "Google Has Removed MV2 Extensions from the Chrome Web Store, Including UBO",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49513856",
-          "author": "1970-01-01",
-          "description": "Article URL: https://clui.org/collections/los-alamos-business-cards/selection-cards\nComments URL: https://news.ycombinator.com/item?id=49513856\nPoints: 79\n# Comments: 16",
-          "link": "https://clui.org/collections/los-alamos-business-cards/selection-cards",
-          "publishedOn": "2026-08-31T19:25:44.000Z",
-          "wordCount": 142,
-          "title": "A Selection of Los Alamos Rolodex Business Cards",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49513721",
-          "author": "mooreds",
-          "description": "Article URL: https://lithub.com/fish-bad-sugar-good-and-other-medieval-ideas-about-food/\nComments URL: https://news.ycombinator.com/item?id=49513721\nPoints: 86\n# Comments: 65",
-          "link": "https://lithub.com/fish-bad-sugar-good-and-other-medieval-ideas-about-food/",
-          "publishedOn": "2026-08-31T19:14:01.000Z",
-          "wordCount": 4384,
-          "title": "Fish bad, sugar good and other medieval ideas about food",
-          "imageUrl": "https://s26162.pcdn.co/wp-content/uploads/2026/07/medieval-food-1.png"
         }
       ]
     }
