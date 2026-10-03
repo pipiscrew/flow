@@ -6,6 +6,16 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=49941447",
+          "author": "pentagrama",
+          "description": "Article URL: https://blog.kagi.com/update-orion-linux-windows\nComments URL: https://news.ycombinator.com/item?id=49941447\nPoints: 94\n# Comments: 45",
+          "link": "https://blog.kagi.com/update-orion-linux-windows",
+          "publishedOn": "2026-10-03T04:53:57.000Z",
+          "wordCount": 871,
+          "title": "An Update on Orion for Linux and Windows",
+          "imageUrl": "https://blog.kagi.com/og-image.png"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=49941114",
           "author": "34679",
           "description": "Article URL: https://www.extrabigassintelligence.com/\nComments URL: https://news.ycombinator.com/item?id=49941114\nPoints: 186\n# Comments: 43",
@@ -84,6 +94,16 @@
           "wordCount": 1004,
           "title": "Updates to Full Disk Access in macOS",
           "imageUrl": "https://developer.apple.com/news/images/og/full-disk-access-og.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=49937540",
+          "author": "weaksauce",
+          "description": "Article URL: https://matduggan.com/what-does-my-dream-os-ui-look-like/\nComments URL: https://news.ycombinator.com/item?id=49937540\nPoints: 83\n# Comments: 42",
+          "link": "https://matduggan.com/what-does-my-dream-os-ui-look-like/",
+          "publishedOn": "2026-10-02T19:29:07.000Z",
+          "wordCount": 5001,
+          "title": "Make Tmux the OS",
+          "imageUrl": null
         },
         {
           "id": "https://news.ycombinator.com/item?id=49937504",
@@ -11194,46 +11214,6 @@
           "wordCount": 4697,
           "title": "Project Xanadu: Even More Hindsight (2025)",
           "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49559069",
-          "author": "Lucent",
-          "description": "Ptree consolidates of 11 taxonomic trees, both categorical like we used in school (plant, animalia) and phylogenetic (evolutionary descent), with instant crosswalk between them.\nAcross those trees it overlays 41 visual properties (categorical and numerical) assembled from hundreds of biological traits and sources. Color the tree by habitat, nutrition, size, longevity, even see vertical range of birds and depth of fish visually.\nThe backend is 800 GB of raw data distilled through a 9-step build process that reconciles and links all 11 trees along with hundreds of traits so every node in every tree gets all the properties. Every color and number presented retains and shows its provenance: original wording, citation, and license.\nThe frontend uses a custom Miller column implementation with fold-away gutter, all composited animation (no frameworks, pure DOM mutation). Use +'s to try to confuse it by expanding many branches and it will fold them away and route edges around them.\nMade by the creator of ptable.com, a popular interactive periodic table website around since 1997.\nComments URL: https://news.ycombinator.com/item?id=49559069\nPoints: 75\n# Comments: 22",
-          "link": "https://ptree.org/",
-          "publishedOn": "2026-09-04T00:40:06.000Z",
-          "wordCount": 4958,
-          "title": "Show HN: Interactive Tree of Life",
-          "imageUrl": "https://ptree.org/icon/ptree-card.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49558685",
-          "author": "zdw",
-          "description": "Article URL: https://jyn.dev/simple-is-not-the-same-as-small/\nComments URL: https://news.ycombinator.com/item?id=49558685\nPoints: 133\n# Comments: 43",
-          "link": "https://jyn.dev/simple-is-not-the-same-as-small/",
-          "publishedOn": "2026-09-03T23:47:28.000Z",
-          "wordCount": 1828,
-          "title": "Simple Is Not Small",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49558086",
-          "author": "gumby",
-          "description": "https://web.archive.org/web/20260903235256/https://gizmodo.c...\nComments URL: https://news.ycombinator.com/item?id=49558086\nPoints: 80\n# Comments: 41",
-          "link": "https://gizmodo.com/ozempic-and-other-glp-1s-are-being-linked-to-fewer-serious-infections-including-tb-2000806796",
-          "publishedOn": "2026-09-03T22:37:31.000Z",
-          "wordCount": null,
-          "title": "GLP-1s are being linked to fewer serious infections, including TB",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49557206",
-          "author": "screm",
-          "description": "Article URL: https://armature.tech/blog/which-tools-coding-agents-install\nComments URL: https://news.ycombinator.com/item?id=49557206\nPoints: 128\n# Comments: 48",
-          "link": "https://armature.tech/blog/which-tools-coding-agents-install",
-          "publishedOn": "2026-09-03T21:20:34.000Z",
-          "wordCount": 3083,
-          "title": "Which tools do Claude, Codex and Cursor choose? We measured 17k runs to find out",
-          "imageUrl": "https://armature.tech/assets/blog/coding-agents-tool-choice-3.png"
         }
       ]
     }

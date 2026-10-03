@@ -2,10 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-10-03T07:52:33.299Z</updated>
+    <updated>2026-10-03T13:13:05.597Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[An Update on Orion for Linux and Windows]]></title>
+        <id>https://news.ycombinator.com/item?id=49941447</id>
+        <link href="https://blog.kagi.com/update-orion-linux-windows"/>
+        <updated>2026-10-03T04:53:57.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://blog.kagi.com/update-orion-linux-windows
+Comments URL: https://news.ycombinator.com/item?id=49941447
+Points: 94
+# Comments: 45]]></summary>
+        <author>
+            <name>pentagrama</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Extra Big Ass Intelligence]]></title>
         <id>https://news.ycombinator.com/item?id=49941114</id>
@@ -119,6 +132,19 @@ Points: 125
 # Comments: 69]]></summary>
         <author>
             <name>notfirstpost</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Make Tmux the OS]]></title>
+        <id>https://news.ycombinator.com/item?id=49937540</id>
+        <link href="https://matduggan.com/what-does-my-dream-os-ui-look-like/"/>
+        <updated>2026-10-02T19:29:07.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://matduggan.com/what-does-my-dream-os-ui-look-like/
+Comments URL: https://news.ycombinator.com/item?id=49937540
+Points: 83
+# Comments: 42]]></summary>
+        <author>
+            <name>weaksauce</name>
         </author>
     </entry>
     <entry>
@@ -14750,62 +14776,6 @@ Points: 76
 # Comments: 14]]></summary>
         <author>
             <name>andsoitis</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: Interactive Tree of Life]]></title>
-        <id>https://news.ycombinator.com/item?id=49559069</id>
-        <link href="https://ptree.org/"/>
-        <updated>2026-09-04T00:40:06.000Z</updated>
-        <summary type="html"><![CDATA[Ptree consolidates of 11 taxonomic trees, both categorical like we used in school (plant, animalia) and phylogenetic (evolutionary descent), with instant crosswalk between them.
-Across those trees it overlays 41 visual properties (categorical and numerical) assembled from hundreds of biological traits and sources. Color the tree by habitat, nutrition, size, longevity, even see vertical range of birds and depth of fish visually.
-The backend is 800 GB of raw data distilled through a 9-step build process that reconciles and links all 11 trees along with hundreds of traits so every node in every tree gets all the properties. Every color and number presented retains and shows its provenance: original wording, citation, and license.
-The frontend uses a custom Miller column implementation with fold-away gutter, all composited animation (no frameworks, pure DOM mutation). Use +'s to try to confuse it by expanding many branches and it will fold them away and route edges around them.
-Made by the creator of ptable.com, a popular interactive periodic table website around since 1997.
-Comments URL: https://news.ycombinator.com/item?id=49559069
-Points: 75
-# Comments: 22]]></summary>
-        <author>
-            <name>Lucent</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Simple Is Not Small]]></title>
-        <id>https://news.ycombinator.com/item?id=49558685</id>
-        <link href="https://jyn.dev/simple-is-not-the-same-as-small/"/>
-        <updated>2026-09-03T23:47:28.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://jyn.dev/simple-is-not-the-same-as-small/
-Comments URL: https://news.ycombinator.com/item?id=49558685
-Points: 133
-# Comments: 43]]></summary>
-        <author>
-            <name>zdw</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GLP-1s are being linked to fewer serious infections, including TB]]></title>
-        <id>https://news.ycombinator.com/item?id=49558086</id>
-        <link href="https://gizmodo.com/ozempic-and-other-glp-1s-are-being-linked-to-fewer-serious-infections-including-tb-2000806796"/>
-        <updated>2026-09-03T22:37:31.000Z</updated>
-        <summary type="html"><![CDATA[https://web.archive.org/web/20260903235256/https://gizmodo.c...
-Comments URL: https://news.ycombinator.com/item?id=49558086
-Points: 80
-# Comments: 41]]></summary>
-        <author>
-            <name>gumby</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Which tools do Claude, Codex and Cursor choose? We measured 17k runs to find out]]></title>
-        <id>https://news.ycombinator.com/item?id=49557206</id>
-        <link href="https://armature.tech/blog/which-tools-coding-agents-install"/>
-        <updated>2026-09-03T21:20:34.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://armature.tech/blog/which-tools-coding-agents-install
-Comments URL: https://news.ycombinator.com/item?id=49557206
-Points: 128
-# Comments: 48]]></summary>
-        <author>
-            <name>screm</name>
         </author>
     </entry>
 </feed>
