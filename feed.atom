@@ -2,10 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-10-02T22:53:25.640Z</updated>
+    <updated>2026-10-03T01:49:40.299Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Every SaaS business will become a harness around a model]]></title>
+        <id>https://news.ycombinator.com/item?id=49938616</id>
+        <link href="https://blog.sshh.io/p/the-harness-is-the-company"/>
+        <updated>2026-10-02T21:06:56.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://blog.sshh.io/p/the-harness-is-the-company
+Comments URL: https://news.ycombinator.com/item?id=49938616
+Points: 96
+# Comments: 71]]></summary>
+        <author>
+            <name>iacguy</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Zig v0.17.0]]></title>
         <id>https://news.ycombinator.com/item?id=49938521</id>
@@ -20,6 +33,30 @@ Points: 144
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Show HN: Made an open-source Lego AI generator]]></title>
+        <id>https://news.ycombinator.com/item?id=49937916</id>
+        <link href="https://github.com/anteloc/ldraw-nova"/>
+        <updated>2026-10-02T20:00:15.000Z</updated>
+        <summary type="html"><![CDATA[Hi there :-) New on HN, first time posting.
+Past year, around December, I started experimenting with making ChatGPT and Claude generate source code in LDraw language.
+This LDraw is literally an "assembly" language, a low-level programming language that describes how to assemble LEGO pieces together into models, one placement instruction at a time.
+When executed by specific tools, like e.g. LDView, LeoCAD, Studio... these instructions become LEGO CAD models, that can be interacted with, modified, etc.
+Or, in other words: one LDraw source file in .mpd or .ldr format is equivalent to one LEGO CAD model.
+So, the idea I had was: if I manage for maybe ChatGPT or Claude to generate high-quality LDraw source files... then, they would actually be generating high-quality LEGO CAD models, right?
+Then, after months of iterations and trying one thing after the other... it worked!!!
+Long story short: using GPT-6 Astra and Opus 5.5, I've managed to create a python toolset, instructions, and docs for agents in general. Now, these can be used by them to generate LDraw models.
+I've packed it all as a dockerized web app for others to try and experiment, with several providers (and agents) to choose from: OpenAI, Claude and OpenRouter.
+Here's a bunch of exmaples: https://anteloc.github.io/index-samples.html.
+If you are curious about the internals of an .mpd model, the "what was the agent picturing on its mind", open the .mpd file that got your attention on a text editor, and read the first line under the ones starting with "0 FILE".
+I'd really appreciate feedback and comments, let's see where this goes =)
+Comments URL: https://news.ycombinator.com/item?id=49937916
+Points: 68
+# Comments: 41]]></summary>
+        <author>
+            <name>antelocnova</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[GrapheneOS has fixed the Android 17 QPR1 kernel performance regression]]></title>
         <id>https://news.ycombinator.com/item?id=49937718</id>
         <link href="https://discuss.grapheneos.org/d/42511-grapheneos-has-fixed-the-massive-android-17-qpr1-kernel-performance-regression"/>
@@ -30,6 +67,19 @@ Points: 87
 # Comments: 27]]></summary>
         <author>
             <name>Cider9986</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Updates to Full Disk Access in macOS]]></title>
+        <id>https://news.ycombinator.com/item?id=49937631</id>
+        <link href="https://developer.apple.com/news/?id=p6zjojqw"/>
+        <updated>2026-10-02T19:37:01.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://developer.apple.com/news/?id=p6zjojqw
+Comments URL: https://news.ycombinator.com/item?id=49937631
+Points: 125
+# Comments: 69]]></summary>
+        <author>
+            <name>notfirstpost</name>
         </author>
     </entry>
     <entry>
@@ -124,6 +174,19 @@ Points: 83
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[The Forgetful CPU (Linux on M4)]]></title>
+        <id>https://news.ycombinator.com/item?id=49933869</id>
+        <link href="https://yuka.dev/blog-2026-10-02-linux-m4.html"/>
+        <updated>2026-10-02T14:22:12.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://yuka.dev/blog-2026-10-02-linux-m4.html
+Comments URL: https://news.ycombinator.com/item?id=49933869
+Points: 102
+# Comments: 33]]></summary>
+        <author>
+            <name>signa11</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[With most information hidden, the game Stratego had stumped AI until now]]></title>
         <id>https://news.ycombinator.com/item?id=49933740</id>
         <link href="https://arstechnica.com/science/2026/10/ai-finally-beat-the-best-stratego-player-in-history-and-did-it-on-a-budget/"/>
@@ -174,6 +237,19 @@ Points: 115
 # Comments: 110]]></summary>
         <author>
             <name>thicTurtlLverXX</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Blogging with Gleam, Org-Mode and Pandoc]]></title>
+        <id>https://news.ycombinator.com/item?id=49932340</id>
+        <link href="https://byzantine-systems.github.io/blogging-with-gleam-org-mode-and-pandoc/"/>
+        <updated>2026-10-02T11:34:28.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://byzantine-systems.github.io/blogging-with-gleam-org-mode-and-pandoc/
+Comments URL: https://news.ycombinator.com/item?id=49932340
+Points: 57
+# Comments: 12]]></summary>
+        <author>
+            <name>schonfinkel</name>
         </author>
     </entry>
     <entry>
@@ -14933,75 +15009,6 @@ Points: 165
 # Comments: 106]]></summary>
         <author>
             <name>ChrisArchitect</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Balrogg: Demonically compacting (up to 15%) lossless Vorbis/Opus recompressor]]></title>
-        <id>https://news.ycombinator.com/item?id=49549778</id>
-        <link href="https://github.com/iczelia/balrogg"/>
-        <updated>2026-09-03T13:37:22.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://github.com/iczelia/balrogg
-Comments URL: https://news.ycombinator.com/item?id=49549778
-Points: 67
-# Comments: 9]]></summary>
-        <author>
-            <name>palaiologos</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Nvidia to Acquire Hugging Face]]></title>
-        <id>https://news.ycombinator.com/item?id=49548952</id>
-        <link href="https://blogs.nvidia.com/blog/nvidia-to-acquire-hugging-face/"/>
-        <updated>2026-09-03T12:10:33.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://blogs.nvidia.com/blog/nvidia-to-acquire-hugging-face/
-Comments URL: https://news.ycombinator.com/item?id=49548952
-Points: 236
-# Comments: 69]]></summary>
-        <author>
-            <name>tosh</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How Swiss tables work in Go built-in map]]></title>
-        <id>https://news.ycombinator.com/item?id=49548852</id>
-        <link href="https://victoriametrics.com/blog/go-swiss-table-map/index.html"/>
-        <updated>2026-09-03T11:59:17.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://victoriametrics.com/blog/go-swiss-table-map/index.html
-Comments URL: https://news.ycombinator.com/item?id=49548852
-Points: 55
-# Comments: 4]]></summary>
-        <author>
-            <name>valyala</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ask HN: Who is using MCP in production?]]></title>
-        <id>https://news.ycombinator.com/item?id=49548600</id>
-        <link href="https://news.ycombinator.com/item?id=49548600"/>
-        <updated>2026-09-03T11:21:18.000Z</updated>
-        <summary type="html"><![CDATA[I’ve been following MCP since it first came out.
-It got a lot of attention early on, but I haven’t come across many people using it in production.
-I may simply have missed them.
-If you’re using MCP in production, what are you using it for?
-What advantages have you found over a normal API or direct tool integration or just CLI?
-Comments URL: https://news.ycombinator.com/item?id=49548600
-Points: 63
-# Comments: 81]]></summary>
-        <author>
-            <name>sukit</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Google Antigravity TOS: 3rd party usage can get Google account suspended]]></title>
-        <id>https://news.ycombinator.com/item?id=49548452</id>
-        <link href="https://twitter.com/GergelyOrosz/status/2095453567955968398"/>
-        <updated>2026-09-03T11:01:04.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://twitter.com/GergelyOrosz/status/2095453567955968398
-Comments URL: https://news.ycombinator.com/item?id=49548452
-Points: 140
-# Comments: 87]]></summary>
-        <author>
-            <name>tosh</name>
         </author>
     </entry>
 </feed>

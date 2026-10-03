@@ -6,6 +6,16 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=49938616",
+          "author": "iacguy",
+          "description": "Article URL: https://blog.sshh.io/p/the-harness-is-the-company\nComments URL: https://news.ycombinator.com/item?id=49938616\nPoints: 96\n# Comments: 71",
+          "link": "https://blog.sshh.io/p/the-harness-is-the-company",
+          "publishedOn": "2026-10-02T21:06:56.000Z",
+          "wordCount": 3220,
+          "title": "Every SaaS business will become a harness around a model",
+          "imageUrl": "https://substackcdn.com/image/fetch/$s_!DMig!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd8cf3fdf-c311-47d0-b42d-f75864c4dd68_1620x897.png"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=49938521",
           "author": "ErenayDev",
           "description": "Article URL: https://ziglang.org/download/0.17.0/release-notes.html\nComments URL: https://news.ycombinator.com/item?id=49938521\nPoints: 144\n# Comments: 72",
@@ -16,6 +26,16 @@
           "imageUrl": null
         },
         {
+          "id": "https://news.ycombinator.com/item?id=49937916",
+          "author": "antelocnova",
+          "description": "Hi there :-) New on HN, first time posting.\nPast year, around December, I started experimenting with making ChatGPT and Claude generate source code in LDraw language.\nThis LDraw is literally an \"assembly\" language, a low-level programming language that describes how to assemble LEGO pieces together into models, one placement instruction at a time.\nWhen executed by specific tools, like e.g. LDView, LeoCAD, Studio... these instructions become LEGO CAD models, that can be interacted with, modified, etc.\nOr, in other words: one LDraw source file in .mpd or .ldr format is equivalent to one LEGO CAD model.\nSo, the idea I had was: if I manage for maybe ChatGPT or Claude to generate high-quality LDraw source files... then, they would actually be generating high-quality LEGO CAD models, right?\nThen, after months of iterations and trying one thing after the other... it worked!!!\nLong story short: using GPT-6 Astra and Opus 5.5, I've managed to create a python toolset, instructions, and docs for agents in general. Now, these can be used by them to generate LDraw models.\nI've packed it all as a dockerized web app for others to try and experiment, with several providers (and agents) to choose from: OpenAI, Claude and OpenRouter.\nHere's a bunch of exmaples: https://anteloc.github.io/index-samples.html.\nIf you are curious about the internals of an .mpd model, the \"what was the agent picturing on its mind\", open the .mpd file that got your attention on a text editor, and read the first line under the ones starting with \"0 FILE\".\nI'd really appreciate feedback and comments, let's see where this goes =)\nComments URL: https://news.ycombinator.com/item?id=49937916\nPoints: 68\n# Comments: 41",
+          "link": "https://github.com/anteloc/ldraw-nova",
+          "publishedOn": "2026-10-02T20:00:15.000Z",
+          "wordCount": 4186,
+          "title": "Show HN: Made an open-source Lego AI generator",
+          "imageUrl": "https://opengraph.githubassets.com/6ef6c20559a4c6c7e226f5e8c7ecaf940a40d9d73c5dbbce47eda231530cd577/anteloc/ldraw-nova"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=49937718",
           "author": "Cider9986",
           "description": "Article URL: https://discuss.grapheneos.org/d/42511-grapheneos-has-fixed-the-massive-android-17-qpr1-kernel-performance-regression\nComments URL: https://news.ycombinator.com/item?id=49937718\nPoints: 87\n# Comments: 27",
@@ -24,6 +44,16 @@
           "wordCount": 1327,
           "title": "GrapheneOS has fixed the Android 17 QPR1 kernel performance regression",
           "imageUrl": "https://discuss.grapheneos.org/opengraph.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=49937631",
+          "author": "notfirstpost",
+          "description": "Article URL: https://developer.apple.com/news/?id=p6zjojqw\nComments URL: https://news.ycombinator.com/item?id=49937631\nPoints: 125\n# Comments: 69",
+          "link": "https://developer.apple.com/news/?id=p6zjojqw",
+          "publishedOn": "2026-10-02T19:37:01.000Z",
+          "wordCount": 1004,
+          "title": "Updates to Full Disk Access in macOS",
+          "imageUrl": "https://developer.apple.com/news/images/og/full-disk-access-og.png"
         },
         {
           "id": "https://news.ycombinator.com/item?id=49937504",
@@ -96,6 +126,16 @@
           "imageUrl": "https://media.wagtail.org/images/agentsview_septembermodels_split.min-1200x630.png"
         },
         {
+          "id": "https://news.ycombinator.com/item?id=49933869",
+          "author": "signa11",
+          "description": "Article URL: https://yuka.dev/blog-2026-10-02-linux-m4.html\nComments URL: https://news.ycombinator.com/item?id=49933869\nPoints: 102\n# Comments: 33",
+          "link": "https://yuka.dev/blog-2026-10-02-linux-m4.html",
+          "publishedOn": "2026-10-02T14:22:12.000Z",
+          "wordCount": 1719,
+          "title": "The Forgetful CPU (Linux on M4)",
+          "imageUrl": null
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=49933740",
           "author": "PaulHoule",
           "description": "https://www.nature.com/articles/s41586-026-11036-y\nhttps://arxiv.org/abs/2511.07312\nComments URL: https://news.ycombinator.com/item?id=49933740\nPoints: 132\n# Comments: 56",
@@ -134,6 +174,16 @@
           "wordCount": 39893,
           "title": "On social reality in China",
           "imageUrl": "https://res.cloudinary.com/lesswrong-2-0/image/upload/c_fill,ar_1.91,g_auto/SocialPreview/ypebfw5zo6k1yb61i8ou"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=49932340",
+          "author": "schonfinkel",
+          "description": "Article URL: https://byzantine-systems.github.io/blogging-with-gleam-org-mode-and-pandoc/\nComments URL: https://news.ycombinator.com/item?id=49932340\nPoints: 57\n# Comments: 12",
+          "link": "https://byzantine-systems.github.io/blogging-with-gleam-org-mode-and-pandoc/",
+          "publishedOn": "2026-10-02T11:34:28.000Z",
+          "wordCount": 1987,
+          "title": "Blogging with Gleam, Org-Mode and Pandoc",
+          "imageUrl": null
         },
         {
           "id": "https://news.ycombinator.com/item?id=49932147",
@@ -11334,56 +11384,6 @@
           "wordCount": 2830,
           "title": "New York Times and The Athletic workers demand company scrap Kalshi deal",
           "imageUrl": "https://newsguild.org/wp-content/uploads/2026/09/NYT-rally.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49549778",
-          "author": "palaiologos",
-          "description": "Article URL: https://github.com/iczelia/balrogg\nComments URL: https://news.ycombinator.com/item?id=49549778\nPoints: 67\n# Comments: 9",
-          "link": "https://github.com/iczelia/balrogg",
-          "publishedOn": "2026-09-03T13:37:22.000Z",
-          "wordCount": 2380,
-          "title": "Balrogg: Demonically compacting (up to 15%) lossless Vorbis/Opus recompressor",
-          "imageUrl": "https://opengraph.githubassets.com/a945259e4116dd587ab69d054d1cae9b846579f783f243197a72ac93d8c9a73b/iczelia/balrogg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49548952",
-          "author": "tosh",
-          "description": "Article URL: https://blogs.nvidia.com/blog/nvidia-to-acquire-hugging-face/\nComments URL: https://news.ycombinator.com/item?id=49548952\nPoints: 236\n# Comments: 69",
-          "link": "https://blogs.nvidia.com/blog/nvidia-to-acquire-hugging-face/",
-          "publishedOn": "2026-09-03T12:10:33.000Z",
-          "wordCount": 2170,
-          "title": "Nvidia to Acquire Hugging Face",
-          "imageUrl": "https://blogs.nvidia.com/wp-content/uploads/2026/09/hf-nvidia-partner_hf-nvidia-partner-press-1920x1080-2.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49548852",
-          "author": "valyala",
-          "description": "Article URL: https://victoriametrics.com/blog/go-swiss-table-map/index.html\nComments URL: https://news.ycombinator.com/item?id=49548852\nPoints: 55\n# Comments: 4",
-          "link": "https://victoriametrics.com/blog/go-swiss-table-map/index.html",
-          "publishedOn": "2026-09-03T11:59:17.000Z",
-          "wordCount": 5532,
-          "title": "How Swiss tables work in Go built-in map",
-          "imageUrl": "https://victoriametrics.com/blog/go-swiss-table-map/preview.webp"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49548600",
-          "author": "sukit",
-          "description": "I’ve been following MCP since it first came out.\nIt got a lot of attention early on, but I haven’t come across many people using it in production.\nI may simply have missed them.\nIf you’re using MCP in production, what are you using it for?\nWhat advantages have you found over a normal API or direct tool integration or just CLI?\nComments URL: https://news.ycombinator.com/item?id=49548600\nPoints: 63\n# Comments: 81",
-          "link": "https://news.ycombinator.com/item?id=49548600",
-          "publishedOn": "2026-09-03T11:21:18.000Z",
-          "wordCount": 6525,
-          "title": "Ask HN: Who is using MCP in production?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49548452",
-          "author": "tosh",
-          "description": "Article URL: https://twitter.com/GergelyOrosz/status/2095453567955968398\nComments URL: https://news.ycombinator.com/item?id=49548452\nPoints: 140\n# Comments: 87",
-          "link": "https://twitter.com/GergelyOrosz/status/2095453567955968398",
-          "publishedOn": "2026-09-03T11:01:04.000Z",
-          "wordCount": 1806,
-          "title": "Google Antigravity TOS: 3rd party usage can get Google account suspended",
-          "imageUrl": "https://pbs.twimg.com/media/HRSLs9oXUAE-rRn.jpg:large"
         }
       ]
     }
