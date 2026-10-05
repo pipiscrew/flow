@@ -6,6 +6,96 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=49964303",
+          "author": "finnlab",
+          "description": "Article URL: https://discuss.grapheneos.org/d/41564-pixel-11-doesnt-yet-meet-the-grapheneos-security-standards-and-may-be-skipped\nComments URL: https://news.ycombinator.com/item?id=49964303\nPoints: 207\n# Comments: 112",
+          "link": "https://discuss.grapheneos.org/d/41564-pixel-11-doesnt-yet-meet-the-grapheneos-security-standards-and-may-be-skipped",
+          "publishedOn": "2026-10-05T13:02:25.000Z",
+          "wordCount": 3543,
+          "title": "Pixel 11 doesn't yet meet the GrapheneOS security standards and may be skipped",
+          "imageUrl": "https://discuss.grapheneos.org/opengraph.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=49964265",
+          "author": "oknaslnkn",
+          "description": "Article URL: https://github.com/gatewai-dev/gitframes\nComments URL: https://news.ycombinator.com/item?id=49964265\nPoints: 52\n# Comments: 27",
+          "link": "https://github.com/gatewai-dev/gitframes",
+          "publishedOn": "2026-10-05T12:59:14.000Z",
+          "wordCount": 17431,
+          "title": "Gitframes",
+          "imageUrl": "https://opengraph.githubassets.com/622c62a980c80a2fc01352ab233ffabd2cb363e1bc89de6492ada069c28de5fe/gatewai-dev/gitframes"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=49964045",
+          "author": "goldenmember",
+          "description": "I recently discovered by accident that our website was being blocked by Orange's security filters.\nAfter a quick check, I found that our IP address is listed on UCEPROTECT Level 3. The listing is based on the reputation of the entire ASN 14061 (DigitalOcean, US) [1]. In other words, even if your IP did nothing wrong, it will still be listed because of its ASN.\nIf your site is innocent and listed only because it's hosted on DigitalOcean, UCEPROTECT offers to whitelist it for about $30/month or $108/year [2].\nI checked the ASNs of several other popular hosting providers, and they're all listed too. So if your site is hosted on DigitalOcean or any other major provider, it's probably blacklisted as well. That can cut you off from customers on mobile networks like Orange, whose \"cybersecurity protection\" uses blacklists like UCEPROTECT to filter traffic.\nHonestly, in my 20-year career, this is the first time I've seen a blacklist misbehave this badly and ask for money when there's clearly been no wrongdoing.\n[1] http://www.uceprotect.net/en/rblcheck.php?asn=14061\n[2] https://www.whitelisted.org/\nComments URL: https://news.ycombinator.com/item?id=49964045\nPoints: 65\n# Comments: 25",
+          "link": "https://news.ycombinator.com/item?id=49964045",
+          "publishedOn": "2026-10-05T12:35:55.000Z",
+          "wordCount": 1610,
+          "title": "Tell HN: Uceprotect is extorting website owners",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=49963366",
+          "author": "dachworker",
+          "description": "Article URL: https://techfundingnews.com/europes-new-robotics-unicorn-germanys-robco-hits-1b-valuation/\nComments URL: https://news.ycombinator.com/item?id=49963366\nPoints: 267\n# Comments: 230",
+          "link": "https://techfundingnews.com/europes-new-robotics-unicorn-germanys-robco-hits-1b-valuation/",
+          "publishedOn": "2026-10-05T11:13:51.000Z",
+          "wordCount": null,
+          "title": "Europe's new robotics unicorn: Germany's RobCo hits $1B valuation",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=49963171",
+          "author": "tosh",
+          "description": "Article URL: https://developers.cloudflare.com/changelog/post/2026-10-02-introducing-web-search-api/\nComments URL: https://news.ycombinator.com/item?id=49963171\nPoints: 191\n# Comments: 100",
+          "link": "https://developers.cloudflare.com/changelog/post/2026-10-02-introducing-web-search-api/",
+          "publishedOn": "2026-10-05T10:47:06.000Z",
+          "wordCount": 998,
+          "title": "Web Search API",
+          "imageUrl": "https://developers.cloudflare.com/changelog/post/2026-10-02-introducing-web-search-api/og.png?v=1deaa8fb09156b56"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=49963094",
+          "author": "Anon84",
+          "description": "Article URL: https://www.nobelprize.org/prizes/medicine/2026/press-release/\nComments URL: https://news.ycombinator.com/item?id=49963094\nPoints: 109\n# Comments: 25",
+          "link": "https://www.nobelprize.org/prizes/medicine/2026/press-release/",
+          "publishedOn": "2026-10-05T10:35:59.000Z",
+          "wordCount": null,
+          "title": "Press Release: Nobel Prize in Physiology or Medicine 2026",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=49962857",
+          "author": "maguay",
+          "description": "Article URL: https://stratechery.com/2026/apple-and-a-hackers-future/\nComments URL: https://news.ycombinator.com/item?id=49962857\nPoints: 133\n# Comments: 120",
+          "link": "https://stratechery.com/2026/apple-and-a-hackers-future/",
+          "publishedOn": "2026-10-05T10:05:02.000Z",
+          "wordCount": 6486,
+          "title": "Apple and a Hacker's Future",
+          "imageUrl": "https://stratechery.com/wp-content/uploads/2026/10/apple-hacker-5.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=49962012",
+          "author": "clan",
+          "description": "Article URL: https://www.cpr.dk/cpr-nyt/nyhedsarkiv/2026/okt/omfattende-uautoriseret-adgang-til-borgeres-cpr-oplysninger\nComments URL: https://news.ycombinator.com/item?id=49962012\nPoints: 327\n# Comments: 247",
+          "link": "https://www.cpr.dk/cpr-nyt/nyhedsarkiv/2026/okt/omfattende-uautoriseret-adgang-til-borgeres-cpr-oplysninger",
+          "publishedOn": "2026-10-05T08:09:36.000Z",
+          "wordCount": 265,
+          "title": "Denmark Data Breach Exposes 8.8M People's Personal Data",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=49961861",
+          "author": "0xedb",
+          "description": "Article URL: https://www.huawei.com/en/news/2026/10/qualcomm-broad-patent-agreement\nComments URL: https://news.ycombinator.com/item?id=49961861\nPoints: 117\n# Comments: 69",
+          "link": "https://www.huawei.com/en/news/2026/10/qualcomm-broad-patent-agreement",
+          "publishedOn": "2026-10-05T07:46:10.000Z",
+          "wordCount": 1529,
+          "title": "Huawei and Qualcomm Announce Broad Patent License Agreement",
+          "imageUrl": "https://www-file.huawei.com/dam/asset/view/261005-01.jpg"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=49960084",
           "author": "ericmay",
           "description": "Article URL: https://www.themoscowtimes.com/2026/10/02/nearly-200-people-under-observation-after-irkutsk-lab-worker-dies-from-plague-a93857\nComments URL: https://news.ycombinator.com/item?id=49960084\nPoints: 182\n# Comments: 143",
@@ -104,6 +194,16 @@
           "wordCount": 6,
           "title": "A browser-native classic Visual Basic VB6 IDE",
           "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=49956290",
+          "author": "benbreen",
+          "description": "Article URL: https://worksinprogress.co/issue/mosquitoes-are-a-choice/\nComments URL: https://news.ycombinator.com/item?id=49956290\nPoints: 67\n# Comments: 58",
+          "link": "https://worksinprogress.co/issue/mosquitoes-are-a-choice/",
+          "publishedOn": "2026-10-04T18:06:04.000Z",
+          "wordCount": 2833,
+          "title": "Mosquitoes Are a Choice",
+          "imageUrl": "https://worksinprogress.co/wip-image/uploads/2026/09/Mosquito_Sharecard_V2-1.jpg"
         },
         {
           "id": "https://news.ycombinator.com/item?id=49956092",
@@ -274,6 +374,16 @@
           "wordCount": null,
           "title": "Big Balls Now Exposed to Serious Criminal Charges in at Least Six States",
           "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=49948300",
+          "author": "Vaslo",
+          "description": "Article URL: https://cedardb.com/blog/sqldoom/\nComments URL: https://news.ycombinator.com/item?id=49948300\nPoints: 236\n# Comments: 38",
+          "link": "https://cedardb.com/blog/sqldoom/",
+          "publishedOn": "2026-10-03T22:14:00.000Z",
+          "wordCount": 5517,
+          "title": "We ported the original Doom to SQL",
+          "imageUrl": "/blog/sqldoom/hero.jpg"
         },
         {
           "id": "https://news.ycombinator.com/item?id=49948254",
@@ -484,6 +594,16 @@
           "wordCount": 2579,
           "title": "Infidel goes wild",
           "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=49943479",
+          "author": "AlexeyBrin",
+          "description": "Article URL: https://danielchasehooper.com/posts/typechecked-generic-c-data-structures/\nComments URL: https://news.ycombinator.com/item?id=49943479\nPoints: 81\n# Comments: 24",
+          "link": "https://danielchasehooper.com/posts/typechecked-generic-c-data-structures/",
+          "publishedOn": "2026-10-03T11:57:20.000Z",
+          "wordCount": 1635,
+          "title": "Type Safe Generic Data Structures in C",
+          "imageUrl": "https://danielchasehooper.com/images/ogimage.png"
         },
         {
           "id": "https://news.ycombinator.com/item?id=49943034",
@@ -874,6 +994,16 @@
           "wordCount": 3725,
           "title": "Show HN: Audionaut – an open-source cross-platform multitrack audio editor",
           "imageUrl": "https://opengraph.githubassets.com/f406d9fe568a5e2331c5b767811ecf4512464673fa81b303c486abdfe6644cc2/kvoltmer/Audionaut"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=49930872",
+          "author": "giuliomagnifico",
+          "description": "Article URL: https://www.lenfestinstitute.org/solutions-resources/philadelphia-inquirer-scrape-ai-hyperlocal-news/\nComments URL: https://news.ycombinator.com/item?id=49930872\nPoints: 55\n# Comments: 19",
+          "link": "https://www.lenfestinstitute.org/solutions-resources/philadelphia-inquirer-scrape-ai-hyperlocal-news/",
+          "publishedOn": "2026-10-02T07:40:15.000Z",
+          "wordCount": 3243,
+          "title": "The Philadelphia Inquirer built Scrape, an AI tool to surface hyperlocal news",
+          "imageUrl": "https://www.lenfestinstitute.org/wp-content/uploads/2026/09/Screenshot-2026-09-30-at-11.37.19-AM-1.png"
         },
         {
           "id": "https://news.ycombinator.com/item?id=49930439",
@@ -1384,6 +1514,16 @@
           "wordCount": 8253,
           "title": "GPT-Synopsys: Frontier Intelligence to Revolutionize Chip Design",
           "imageUrl": "https://mmx.prnewswire.com/media/MS1999865/Synopsys-OpenAI.jpg?id=OA2980139&p=facebook"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=49917900",
+          "author": "signa11",
+          "description": "Article URL: https://blog.haskell.org/foldl-and-foldr/\nComments URL: https://news.ycombinator.com/item?id=49917900\nPoints: 68\n# Comments: 10",
+          "link": "https://blog.haskell.org/foldl-and-foldr/",
+          "publishedOn": "2026-10-01T04:58:03.000Z",
+          "wordCount": 2261,
+          "title": "Differences Between `Foldl` and `Foldr`",
+          "imageUrl": "https://blog.haskell.org/images/haskell-opengraph.png"
         },
         {
           "id": "https://news.ycombinator.com/item?id=49917536",
@@ -11144,126 +11284,6 @@
           "wordCount": 6081,
           "title": "Decapitating a MacBook (2025)",
           "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49582719",
-          "author": "vermaden",
-          "description": "Article URL: https://vermaden.wordpress.com/2026/09/06/amd-based-freebsd-desktop-reloaded/\nComments URL: https://news.ycombinator.com/item?id=49582719\nPoints: 77\n# Comments: 9",
-          "link": "https://vermaden.wordpress.com/2026/09/06/amd-based-freebsd-desktop-reloaded/",
-          "publishedOn": "2026-09-06T02:24:57.000Z",
-          "wordCount": 5638,
-          "title": "AMD Based FreeBSD Desktop Reloaded",
-          "imageUrl": "https://vermaden.wordpress.com/wp-content/uploads/2026/09/pc-builder.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49582656",
-          "author": "firexcy",
-          "description": "Article URL: https://www.ben-evans.com/benedictevans/2026/9/3/ai-tools-and-transformation\nComments URL: https://news.ycombinator.com/item?id=49582656\nPoints: 89\n# Comments: 38",
-          "link": "https://www.ben-evans.com/benedictevans/2026/9/3/ai-tools-and-transformation",
-          "publishedOn": "2026-09-06T02:12:46.000Z",
-          "wordCount": 3080,
-          "title": "AI, Tools and Transformation",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49582582",
-          "author": "Anon84",
-          "description": "Article URL: https://openai.robocurve.org/gpt-6-astra/\nComments URL: https://news.ycombinator.com/item?id=49582582\nPoints: 72\n# Comments: 26",
-          "link": "https://openai.robocurve.org/gpt-6-astra/",
-          "publishedOn": "2026-09-06T01:52:45.000Z",
-          "wordCount": 1852,
-          "title": "GPT-6 Astra on robot arms",
-          "imageUrl": "https://openai.robocurve.org/gpt-6-astra/og.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49582000",
-          "author": "zplizzi",
-          "description": "Article URL: https://cloudinabottle.org/blog/launch-post\nComments URL: https://news.ycombinator.com/item?id=49582000\nPoints: 212\n# Comments: 86",
-          "link": "https://cloudinabottle.org/blog/launch-post",
-          "publishedOn": "2026-09-06T00:03:29.000Z",
-          "wordCount": 964,
-          "title": "Cloud in a Bottle: making self-hosting accessible to everyone",
-          "imageUrl": "https://cloudinabottle.org/static/img/social-card.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49581870",
-          "author": "ExMachina73",
-          "description": "Article URL: https://lapcatsoftware.com/articles/2026/9/1.html\nComments URL: https://news.ycombinator.com/item?id=49581870\nPoints: 151\n# Comments: 17",
-          "link": "https://lapcatsoftware.com/articles/2026/9/1.html",
-          "publishedOn": "2026-09-05T23:39:47.000Z",
-          "wordCount": 449,
-          "title": "Chrome again exempts Google from user site data settings",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49580939",
-          "author": "chmaynard",
-          "description": "Article URL: https://bcantrill.dtrace.org/2026/09/05/the-revolt-of-the-reader/\nComments URL: https://news.ycombinator.com/item?id=49580939\nPoints: 179\n# Comments: 66",
-          "link": "https://bcantrill.dtrace.org/2026/09/05/the-revolt-of-the-reader/",
-          "publishedOn": "2026-09-05T21:37:49.000Z",
-          "wordCount": 1404,
-          "title": "The revolt of the reader",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49580369",
-          "author": "bookmtn",
-          "description": "Article URL: https://www.space.com/space-exploration/launches-spacecraft/isar-aerospace-second-launch-norway-andoya-spaceport-spectrum-rocket\nComments URL: https://news.ycombinator.com/item?id=49580369\nPoints: 266\n# Comments: 131",
-          "link": "https://www.space.com/space-exploration/launches-spacecraft/isar-aerospace-second-launch-norway-andoya-spaceport-spectrum-rocket",
-          "publishedOn": "2026-09-05T20:31:38.000Z",
-          "wordCount": 51810,
-          "title": "Private German rocket makes history, reaches orbit from European soil",
-          "imageUrl": "https://cdn.mos.cms.futurecdn.net/K5YFiwFEXDGQeTecwrNxcY-2560-80.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49580329",
-          "author": "gmays",
-          "description": "Article URL: https://terrytao.wordpress.com/2014/02/04/finite-time-blowup-for-an-averaged-three-dimensional-navier-stokes-equation/\nComments URL: https://news.ycombinator.com/item?id=49580329\nPoints: 50\n# Comments: 20",
-          "link": "https://terrytao.wordpress.com/2014/02/04/finite-time-blowup-for-an-averaged-three-dimensional-navier-stokes-equation/",
-          "publishedOn": "2026-09-05T20:25:59.000Z",
-          "wordCount": 16241,
-          "title": "Finite time blowup for an averaged three-dimensional Navier-Stokes equation (2014)",
-          "imageUrl": "https://terrytao.wordpress.com/wp-content/uploads/2014/02/circuit-1.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49580325",
-          "author": "stefan_",
-          "description": "Article URL: https://www.youtube.com/watch?v=Ss1DUqLjecc\nComments URL: https://news.ycombinator.com/item?id=49580325\nPoints: 71\n# Comments: 18",
-          "link": "https://www.youtube.com/watch?v=Ss1DUqLjecc",
-          "publishedOn": "2026-09-05T20:25:30.000Z",
-          "wordCount": null,
-          "title": "Isar Aerospace launch into orbit [video]",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49580164",
-          "author": "canjobear",
-          "description": "Article URL: https://arxiv.org/abs/2609.03344\nComments URL: https://news.ycombinator.com/item?id=49580164\nPoints: 142\n# Comments: 126",
-          "link": "https://arxiv.org/abs/2609.03344",
-          "publishedOn": "2026-09-05T20:02:35.000Z",
-          "wordCount": 642,
-          "title": "LLMs as a Cognitive Virus",
-          "imageUrl": "/static/browse/0.3.4/images/arxiv-logo-fb.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49579482",
-          "author": "saikatsg",
-          "description": "Article URL: https://martinfowler.com/articles/exploring-gen-ai/an-accidental-blackboard.html\nComments URL: https://news.ycombinator.com/item?id=49579482\nPoints: 57\n# Comments: 28",
-          "link": "https://martinfowler.com/articles/exploring-gen-ai/an-accidental-blackboard.html",
-          "publishedOn": "2026-09-05T18:50:25.000Z",
-          "wordCount": 1368,
-          "title": "An Accidental Blackboard",
-          "imageUrl": "https://martinfowler.com/articles/exploring-gen-ai/donkey-card.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49579443",
-          "author": "fittingopposite",
-          "description": "Article URL: https://lanparty.house/\nComments URL: https://news.ycombinator.com/item?id=49579443\nPoints: 57\n# Comments: 23",
-          "link": "https://lanparty.house/",
-          "publishedOn": "2026-09-05T18:44:40.000Z",
-          "wordCount": 5623,
-          "title": "We built our house for LAN parties",
-          "imageUrl": "https://lanparty.house/images/og-image.jpg"
         }
       ]
     }

@@ -2,10 +2,133 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-10-05T06:44:43.616Z</updated>
+    <updated>2026-10-05T15:46:23.420Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Pixel 11 doesn't yet meet the GrapheneOS security standards and may be skipped]]></title>
+        <id>https://news.ycombinator.com/item?id=49964303</id>
+        <link href="https://discuss.grapheneos.org/d/41564-pixel-11-doesnt-yet-meet-the-grapheneos-security-standards-and-may-be-skipped"/>
+        <updated>2026-10-05T13:02:25.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://discuss.grapheneos.org/d/41564-pixel-11-doesnt-yet-meet-the-grapheneos-security-standards-and-may-be-skipped
+Comments URL: https://news.ycombinator.com/item?id=49964303
+Points: 207
+# Comments: 112]]></summary>
+        <author>
+            <name>finnlab</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Gitframes]]></title>
+        <id>https://news.ycombinator.com/item?id=49964265</id>
+        <link href="https://github.com/gatewai-dev/gitframes"/>
+        <updated>2026-10-05T12:59:14.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://github.com/gatewai-dev/gitframes
+Comments URL: https://news.ycombinator.com/item?id=49964265
+Points: 52
+# Comments: 27]]></summary>
+        <author>
+            <name>oknaslnkn</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Tell HN: Uceprotect is extorting website owners]]></title>
+        <id>https://news.ycombinator.com/item?id=49964045</id>
+        <link href="https://news.ycombinator.com/item?id=49964045"/>
+        <updated>2026-10-05T12:35:55.000Z</updated>
+        <summary type="html"><![CDATA[I recently discovered by accident that our website was being blocked by Orange's security filters.
+After a quick check, I found that our IP address is listed on UCEPROTECT Level 3. The listing is based on the reputation of the entire ASN 14061 (DigitalOcean, US) [1]. In other words, even if your IP did nothing wrong, it will still be listed because of its ASN.
+If your site is innocent and listed only because it's hosted on DigitalOcean, UCEPROTECT offers to whitelist it for about $30/month or $108/year [2].
+I checked the ASNs of several other popular hosting providers, and they're all listed too. So if your site is hosted on DigitalOcean or any other major provider, it's probably blacklisted as well. That can cut you off from customers on mobile networks like Orange, whose "cybersecurity protection" uses blacklists like UCEPROTECT to filter traffic.
+Honestly, in my 20-year career, this is the first time I've seen a blacklist misbehave this badly and ask for money when there's clearly been no wrongdoing.
+[1] http://www.uceprotect.net/en/rblcheck.php?asn=14061
+[2] https://www.whitelisted.org/
+Comments URL: https://news.ycombinator.com/item?id=49964045
+Points: 65
+# Comments: 25]]></summary>
+        <author>
+            <name>goldenmember</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Europe's new robotics unicorn: Germany's RobCo hits $1B valuation]]></title>
+        <id>https://news.ycombinator.com/item?id=49963366</id>
+        <link href="https://techfundingnews.com/europes-new-robotics-unicorn-germanys-robco-hits-1b-valuation/"/>
+        <updated>2026-10-05T11:13:51.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://techfundingnews.com/europes-new-robotics-unicorn-germanys-robco-hits-1b-valuation/
+Comments URL: https://news.ycombinator.com/item?id=49963366
+Points: 267
+# Comments: 230]]></summary>
+        <author>
+            <name>dachworker</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Web Search API]]></title>
+        <id>https://news.ycombinator.com/item?id=49963171</id>
+        <link href="https://developers.cloudflare.com/changelog/post/2026-10-02-introducing-web-search-api/"/>
+        <updated>2026-10-05T10:47:06.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://developers.cloudflare.com/changelog/post/2026-10-02-introducing-web-search-api/
+Comments URL: https://news.ycombinator.com/item?id=49963171
+Points: 191
+# Comments: 100]]></summary>
+        <author>
+            <name>tosh</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Press Release: Nobel Prize in Physiology or Medicine 2026]]></title>
+        <id>https://news.ycombinator.com/item?id=49963094</id>
+        <link href="https://www.nobelprize.org/prizes/medicine/2026/press-release/"/>
+        <updated>2026-10-05T10:35:59.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.nobelprize.org/prizes/medicine/2026/press-release/
+Comments URL: https://news.ycombinator.com/item?id=49963094
+Points: 109
+# Comments: 25]]></summary>
+        <author>
+            <name>Anon84</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Apple and a Hacker's Future]]></title>
+        <id>https://news.ycombinator.com/item?id=49962857</id>
+        <link href="https://stratechery.com/2026/apple-and-a-hackers-future/"/>
+        <updated>2026-10-05T10:05:02.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://stratechery.com/2026/apple-and-a-hackers-future/
+Comments URL: https://news.ycombinator.com/item?id=49962857
+Points: 133
+# Comments: 120]]></summary>
+        <author>
+            <name>maguay</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Denmark Data Breach Exposes 8.8M People's Personal Data]]></title>
+        <id>https://news.ycombinator.com/item?id=49962012</id>
+        <link href="https://www.cpr.dk/cpr-nyt/nyhedsarkiv/2026/okt/omfattende-uautoriseret-adgang-til-borgeres-cpr-oplysninger"/>
+        <updated>2026-10-05T08:09:36.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.cpr.dk/cpr-nyt/nyhedsarkiv/2026/okt/omfattende-uautoriseret-adgang-til-borgeres-cpr-oplysninger
+Comments URL: https://news.ycombinator.com/item?id=49962012
+Points: 327
+# Comments: 247]]></summary>
+        <author>
+            <name>clan</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Huawei and Qualcomm Announce Broad Patent License Agreement]]></title>
+        <id>https://news.ycombinator.com/item?id=49961861</id>
+        <link href="https://www.huawei.com/en/news/2026/10/qualcomm-broad-patent-agreement"/>
+        <updated>2026-10-05T07:46:10.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.huawei.com/en/news/2026/10/qualcomm-broad-patent-agreement
+Comments URL: https://news.ycombinator.com/item?id=49961861
+Points: 117
+# Comments: 69]]></summary>
+        <author>
+            <name>0xedb</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Nearly 200 people under observation after Irkutsk lab worker dies from plague]]></title>
         <id>https://news.ycombinator.com/item?id=49960084</id>
@@ -136,6 +259,19 @@ Points: 53
 # Comments: 20]]></summary>
         <author>
             <name>wiso</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Mosquitoes Are a Choice]]></title>
+        <id>https://news.ycombinator.com/item?id=49956290</id>
+        <link href="https://worksinprogress.co/issue/mosquitoes-are-a-choice/"/>
+        <updated>2026-10-04T18:06:04.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://worksinprogress.co/issue/mosquitoes-are-a-choice/
+Comments URL: https://news.ycombinator.com/item?id=49956290
+Points: 67
+# Comments: 58]]></summary>
+        <author>
+            <name>benbreen</name>
         </author>
     </entry>
     <entry>
@@ -357,6 +493,19 @@ Points: 50
 # Comments: 1]]></summary>
         <author>
             <name>sans_souse</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[We ported the original Doom to SQL]]></title>
+        <id>https://news.ycombinator.com/item?id=49948300</id>
+        <link href="https://cedardb.com/blog/sqldoom/"/>
+        <updated>2026-10-03T22:14:00.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://cedardb.com/blog/sqldoom/
+Comments URL: https://news.ycombinator.com/item?id=49948300
+Points: 236
+# Comments: 38]]></summary>
+        <author>
+            <name>Vaslo</name>
         </author>
     </entry>
     <entry>
@@ -631,6 +780,19 @@ Points: 56
 # Comments: 7]]></summary>
         <author>
             <name>tobr</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Type Safe Generic Data Structures in C]]></title>
+        <id>https://news.ycombinator.com/item?id=49943479</id>
+        <link href="https://danielchasehooper.com/posts/typechecked-generic-c-data-structures/"/>
+        <updated>2026-10-03T11:57:20.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://danielchasehooper.com/posts/typechecked-generic-c-data-structures/
+Comments URL: https://news.ycombinator.com/item?id=49943479
+Points: 81
+# Comments: 24]]></summary>
+        <author>
+            <name>AlexeyBrin</name>
         </author>
     </entry>
     <entry>
@@ -1153,6 +1315,19 @@ Points: 121
 # Comments: 43]]></summary>
         <author>
             <name>vltmrkls</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Philadelphia Inquirer built Scrape, an AI tool to surface hyperlocal news]]></title>
+        <id>https://news.ycombinator.com/item?id=49930872</id>
+        <link href="https://www.lenfestinstitute.org/solutions-resources/philadelphia-inquirer-scrape-ai-hyperlocal-news/"/>
+        <updated>2026-10-02T07:40:15.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.lenfestinstitute.org/solutions-resources/philadelphia-inquirer-scrape-ai-hyperlocal-news/
+Comments URL: https://news.ycombinator.com/item?id=49930872
+Points: 55
+# Comments: 19]]></summary>
+        <author>
+            <name>giuliomagnifico</name>
         </author>
     </entry>
     <entry>
@@ -1848,6 +2023,19 @@ Points: 59
 # Comments: 19]]></summary>
         <author>
             <name>giuliomagnifico</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Differences Between `Foldl` and `Foldr`]]></title>
+        <id>https://news.ycombinator.com/item?id=49917900</id>
+        <link href="https://blog.haskell.org/foldl-and-foldr/"/>
+        <updated>2026-10-01T04:58:03.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://blog.haskell.org/foldl-and-foldr/
+Comments URL: https://news.ycombinator.com/item?id=49917900
+Points: 68
+# Comments: 10]]></summary>
+        <author>
+            <name>signa11</name>
         </author>
     </entry>
     <entry>
@@ -14691,162 +14879,6 @@ Points: 51
 # Comments: 33]]></summary>
         <author>
             <name>luu</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AMD Based FreeBSD Desktop Reloaded]]></title>
-        <id>https://news.ycombinator.com/item?id=49582719</id>
-        <link href="https://vermaden.wordpress.com/2026/09/06/amd-based-freebsd-desktop-reloaded/"/>
-        <updated>2026-09-06T02:24:57.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://vermaden.wordpress.com/2026/09/06/amd-based-freebsd-desktop-reloaded/
-Comments URL: https://news.ycombinator.com/item?id=49582719
-Points: 77
-# Comments: 9]]></summary>
-        <author>
-            <name>vermaden</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AI, Tools and Transformation]]></title>
-        <id>https://news.ycombinator.com/item?id=49582656</id>
-        <link href="https://www.ben-evans.com/benedictevans/2026/9/3/ai-tools-and-transformation"/>
-        <updated>2026-09-06T02:12:46.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.ben-evans.com/benedictevans/2026/9/3/ai-tools-and-transformation
-Comments URL: https://news.ycombinator.com/item?id=49582656
-Points: 89
-# Comments: 38]]></summary>
-        <author>
-            <name>firexcy</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GPT-6 Astra on robot arms]]></title>
-        <id>https://news.ycombinator.com/item?id=49582582</id>
-        <link href="https://openai.robocurve.org/gpt-6-astra/"/>
-        <updated>2026-09-06T01:52:45.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://openai.robocurve.org/gpt-6-astra/
-Comments URL: https://news.ycombinator.com/item?id=49582582
-Points: 72
-# Comments: 26]]></summary>
-        <author>
-            <name>Anon84</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Cloud in a Bottle: making self-hosting accessible to everyone]]></title>
-        <id>https://news.ycombinator.com/item?id=49582000</id>
-        <link href="https://cloudinabottle.org/blog/launch-post"/>
-        <updated>2026-09-06T00:03:29.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://cloudinabottle.org/blog/launch-post
-Comments URL: https://news.ycombinator.com/item?id=49582000
-Points: 212
-# Comments: 86]]></summary>
-        <author>
-            <name>zplizzi</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Chrome again exempts Google from user site data settings]]></title>
-        <id>https://news.ycombinator.com/item?id=49581870</id>
-        <link href="https://lapcatsoftware.com/articles/2026/9/1.html"/>
-        <updated>2026-09-05T23:39:47.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://lapcatsoftware.com/articles/2026/9/1.html
-Comments URL: https://news.ycombinator.com/item?id=49581870
-Points: 151
-# Comments: 17]]></summary>
-        <author>
-            <name>ExMachina73</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The revolt of the reader]]></title>
-        <id>https://news.ycombinator.com/item?id=49580939</id>
-        <link href="https://bcantrill.dtrace.org/2026/09/05/the-revolt-of-the-reader/"/>
-        <updated>2026-09-05T21:37:49.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://bcantrill.dtrace.org/2026/09/05/the-revolt-of-the-reader/
-Comments URL: https://news.ycombinator.com/item?id=49580939
-Points: 179
-# Comments: 66]]></summary>
-        <author>
-            <name>chmaynard</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Private German rocket makes history, reaches orbit from European soil]]></title>
-        <id>https://news.ycombinator.com/item?id=49580369</id>
-        <link href="https://www.space.com/space-exploration/launches-spacecraft/isar-aerospace-second-launch-norway-andoya-spaceport-spectrum-rocket"/>
-        <updated>2026-09-05T20:31:38.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.space.com/space-exploration/launches-spacecraft/isar-aerospace-second-launch-norway-andoya-spaceport-spectrum-rocket
-Comments URL: https://news.ycombinator.com/item?id=49580369
-Points: 266
-# Comments: 131]]></summary>
-        <author>
-            <name>bookmtn</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Finite time blowup for an averaged three-dimensional Navier-Stokes equation (2014)]]></title>
-        <id>https://news.ycombinator.com/item?id=49580329</id>
-        <link href="https://terrytao.wordpress.com/2014/02/04/finite-time-blowup-for-an-averaged-three-dimensional-navier-stokes-equation/"/>
-        <updated>2026-09-05T20:25:59.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://terrytao.wordpress.com/2014/02/04/finite-time-blowup-for-an-averaged-three-dimensional-navier-stokes-equation/
-Comments URL: https://news.ycombinator.com/item?id=49580329
-Points: 50
-# Comments: 20]]></summary>
-        <author>
-            <name>gmays</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Isar Aerospace launch into orbit [video]]]></title>
-        <id>https://news.ycombinator.com/item?id=49580325</id>
-        <link href="https://www.youtube.com/watch?v=Ss1DUqLjecc"/>
-        <updated>2026-09-05T20:25:30.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.youtube.com/watch?v=Ss1DUqLjecc
-Comments URL: https://news.ycombinator.com/item?id=49580325
-Points: 71
-# Comments: 18]]></summary>
-        <author>
-            <name>stefan_</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[LLMs as a Cognitive Virus]]></title>
-        <id>https://news.ycombinator.com/item?id=49580164</id>
-        <link href="https://arxiv.org/abs/2609.03344"/>
-        <updated>2026-09-05T20:02:35.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://arxiv.org/abs/2609.03344
-Comments URL: https://news.ycombinator.com/item?id=49580164
-Points: 142
-# Comments: 126]]></summary>
-        <author>
-            <name>canjobear</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[An Accidental Blackboard]]></title>
-        <id>https://news.ycombinator.com/item?id=49579482</id>
-        <link href="https://martinfowler.com/articles/exploring-gen-ai/an-accidental-blackboard.html"/>
-        <updated>2026-09-05T18:50:25.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://martinfowler.com/articles/exploring-gen-ai/an-accidental-blackboard.html
-Comments URL: https://news.ycombinator.com/item?id=49579482
-Points: 57
-# Comments: 28]]></summary>
-        <author>
-            <name>saikatsg</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[We built our house for LAN parties]]></title>
-        <id>https://news.ycombinator.com/item?id=49579443</id>
-        <link href="https://lanparty.house/"/>
-        <updated>2026-09-05T18:44:40.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://lanparty.house/
-Comments URL: https://news.ycombinator.com/item?id=49579443
-Points: 57
-# Comments: 23]]></summary>
-        <author>
-            <name>fittingopposite</name>
         </author>
     </entry>
 </feed>
