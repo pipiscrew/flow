@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+
+<head>
+    <title>osmos::feed</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="robots" content="noindex, nofollow" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="index2style.css" rel="stylesheet">
+    <title>News Portal</title>
+	<style>
+		a:visited { color: #993333;	}
+		/* #336699 */
+	</style>
+
+    <script>
+        
+        const articleTemplate = `
+ <article>
+    <div>
+        <div class="cursor-pointer list-none rounded hover:bg-slate-100  dark:hover:bg-slate-800">
+            <div class="flex w-full items-baseline py-4">
+                <div class="mr-auto"><span class="h">{title}</span></div>
+                <div></div>
+                <span class="ml-2 mr-2 w-6 flex-none text-right text-xs text-slate-400"><a
+                        href="{url}"
+                        target="_blank">visit</a></span>
+                <span class="ml-2 mr-2 w-6 flex-none text-right text-xs text-slate-400"><a href='#'
+                        onclick='test(event);'>copy</a></span>
+            </div>
+        </div>
+        <div class="prose prose-slate mb-6 ml-9 mr-8 mt-2 text-sm dark:prose-invert" style="display:none ;">
+            <p>{content}</p>
+        </div>
+    </div>
+</article>
+        `;
+
+        fetch('cache.json')
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Network response was not ok ' + response.statusText);
+                }
+                return response.json();
+            })
+            .then(data => {
+                BuildHTML(data);
+                AttachEvents();
+            })
+            .catch(error => console.error('There was a problem with the fetch operation:', error));
+
+        function BuildHTML(json) {
+            const articles = json.sources[0].articles;
+            let articlesHTML = '';
+            let navigationGuard = 'https://href.li?';
+            articles.forEach(article => {
+                const articleHTML = articleTemplate
+                    .replace(/{title}/g, article.title)
+                    .replace(/{url}/g, navigationGuard + article.link)
+                    .replace(/{content}/g, autoHyperlink(article.description));
+                articlesHTML += articleHTML;
+            });
+            document.getElementById('articles').innerHTML = articlesHTML;
+            // document.body.innerHTML += articlesHTML;
+        }
+    </script>
+</head>
+
+<body>
+<body class="min-h-screen text-slate-700 dark:bg-slate-900 dark:text-slate-300">
+    <div class="container mx-auto flex min-h-screen max-w-screen-md flex-col items-stretch px-2 ">
+        <section id="articles" class="mt-8">
+
+        </section>
+    </div>
+
+
+    <script>
+        // window.onload = function() {
+
+        // };
+
+        function AttachEvents(){
+            //ATTACH events for click to expand the detail item
+            
+            // Get all elements with the class "list-none"
+            var elements = document.querySelectorAll('.h');
+            
+            elements.forEach(function(element) {
+                element.addEventListener('click', function(event) {
+                    details(event.target);
+                });
+            });
+        }
+        
+        function details(e) {
+            var parent = event.target.parentElement.parentElement.parentElement.parentElement;
+            var detail = parent.getElementsByTagName('div')[4];
+        
+            if ( detail.style.display == 'none' || detail.style.display == '' )
+                detail.style.display = 'flex';
+            else
+                detail.style.display = 'none';
+        }
+
+        /// EVENT function this is hardcoded to template HTML (call the test() function)
+        
+        function replaceAll(find, replace, str)
+        {
+            return str.replace(new RegExp(find, 'g'), replace);
+        }
+        
+        function test(e)
+        {
+            e.preventDefault();
+                
+            //title
+            var g = e.target.parentNode.parentNode.parentNode;
+            var title= g.getElementsByClassName('mr-auto')[0].textContent;
+            title = title.replaceAll(".", ",").replaceAll("–", "-").replaceAll(": ", " - ").replaceAll("'s", "").replaceAll("’s", "").replaceAll("  ", " ").replaceAll("\[video]","").replaceAll("\[pdf]","").replaceAll("\[video]","").replaceAll("Ask HN - ","").replaceAll("Show HN - ","").replaceAll("“","/").replaceAll("”","/").replaceAll("Tell HN - ","").replaceAll("U,S,","US");
+            
+            //hyperlnik
+            var h = e.target.parentNode.parentNode;
+            var url=h.getElementsByTagName('a')[0].href;
+            
+            
+            copyToClipboard(title + "\n" + url);
+        }
+        
+        function copyToClipboard(cValue)
+        {
+        
+            var tempInput = document.createElement("textarea");
+            tempInput.style = "position: absolute; left: -1000px; top: -1000px";
+        /*--> here, adjust ur value */ tempInput.value = cValue;
+            document.body.appendChild(tempInput);
+            tempInput.select();
+            document.execCommand("copy");
+            document.body.removeChild(tempInput);
+        }
+        
+        function autoHyperlink(text) {
+            // Regular expression to match URLs
+            const urlPattern =  /(\b(https?|ftp):\/\/[-A-Z0-9+&@#\/%?=~_|!:,.;]*[-A-Z0-9+&@#\/%=~_|])/gim;
+            
+            return text.replace(urlPattern, (url) => {
+                return `<a href="https://href.li/?${url}" target="_blank">${url}</a>`;
+            });
+        }
+        </script>
+        
+</body>
+
+</html>
