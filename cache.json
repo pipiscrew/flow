@@ -6,6 +6,76 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=50083130",
+          "author": "tharen",
+          "description": "Article URL: https://github.com/android/ndk/issues/2260\nComments URL: https://news.ycombinator.com/item?id=50083130\nPoints: 71\n# Comments: 6",
+          "link": "https://github.com/android/ndk/issues/2260",
+          "publishedOn": "2026-10-14T06:18:01.000Z",
+          "wordCount": 5516,
+          "title": "AOSP Source Releases Are So Late Developers Disassemble Libraries to Report Bugs",
+          "imageUrl": "https://opengraph.githubassets.com/faa19897607d84aad613f66ea165a6363ff4d54160d84554507628d175f561b1/android/ndk/issues/2260"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50082470",
+          "author": "rglover",
+          "description": "Article URL: https://felixrieseberg.com/\nComments URL: https://news.ycombinator.com/item?id=50082470\nPoints: 144\n# Comments: 49",
+          "link": "https://felixrieseberg.com/",
+          "publishedOn": "2026-10-14T04:42:33.000Z",
+          "wordCount": 1646,
+          "title": "Felix Rieseberg Homepage",
+          "imageUrl": "https://storage.ghost.io/c/89/e0/89e08557-681a-40be-8264-278bf46d6b25/content/images/2026/10/facebook-card.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50081151",
+          "author": "gcsydney",
+          "description": "Article URL: https://blumify.io/people\nComments URL: https://news.ycombinator.com/item?id=50081151\nPoints: 78\n# Comments: 49",
+          "link": "https://blumify.io/people",
+          "publishedOn": "2026-10-14T01:09:13.000Z",
+          "wordCount": 852,
+          "title": "I built a tool to track what AI leaders say and how their views change on video",
+          "imageUrl": "https://blumify.io/opengraph-image?5887fe79cbe072ac"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50080275",
+          "author": "niztk",
+          "description": "Hi HN, I'm Niz. Pulse Local is a budgeting app for Mac (Apple Silicon, beta) that answers questions about your spending with models that run on your machine. Local mode needs no account. The ledger and your questions stay on the machine, and the app sends no analytics or crash logs.\nI felt there are not enough consumer apps that run locally with no calls to the outside world that help us manage sensitive corners of our lives. This app in its local variant only downloads a couple of models and occasional updates, it does not send any analytics nor data.\nFeatures-wise, Pulse local is a complete budgeting app that offers an assistant built on top of a fine-tuned model and thousands of rules embedded in the code itself. I'm sharing it for free with options to help me continue experimenting wit…",
+          "link": "https://pulseos.finance/",
+          "publishedOn": "2026-10-13T23:13:23.000Z",
+          "wordCount": 2218,
+          "title": "Show HN: Pulse Local, a Mac budgeting app whose AI models run on your machine",
+          "imageUrl": "https://pulseos.finance/images/pulse-local/og.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50080007",
+          "author": "mooreds",
+          "description": "Article URL: https://anitab.org/press-release\nComments URL: https://news.ycombinator.com/item?id=50080007\nPoints: 128\n# Comments: 46",
+          "link": "https://anitab.org/press-release",
+          "publishedOn": "2026-10-13T22:46:49.000Z",
+          "wordCount": 1781,
+          "title": "Grace Hopper Celebration Cancelled",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50079865",
+          "author": "jslakro",
+          "description": "Article URL: https://www.cphiri.dev/presentations/recreational-programming\nComments URL: https://news.ycombinator.com/item?id=50079865\nPoints: 147\n# Comments: 59",
+          "link": "https://www.cphiri.dev/presentations/recreational-programming",
+          "publishedOn": "2026-10-13T22:33:33.000Z",
+          "wordCount": 966,
+          "title": "Recreational Programming",
+          "imageUrl": "https://www.cphiri.dev/og.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50079464",
+          "author": "jasonjmcghee",
+          "description": "Article URL: https://alpha-nist.github.io/\nComments URL: https://news.ycombinator.com/item?id=50079464\nPoints: 65\n# Comments: 22",
+          "link": "https://alpha-nist.github.io/",
+          "publishedOn": "2026-10-13T21:57:29.000Z",
+          "wordCount": 709,
+          "title": "AlphaNIST",
+          "imageUrl": "https://alpha-nist.github.io/assets/k10-strategies/poster.jpg?v=detail-1"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=50078141",
           "author": "forthwall",
           "description": "https://x.com/OpenAINewsroom/status/2110095403198849132\nComments URL: https://news.ycombinator.com/item?id=50078141\nPoints: 142\n# Comments: 157",
@@ -24,6 +94,16 @@
           "wordCount": 5466,
           "title": "Show HN: Guitoro, a virtual guitar you strum with your keyboard",
           "imageUrl": "https://guitoro.com/brand/guitoro-social.png?v=gold-cutout-medium"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50075665",
+          "author": "jmole",
+          "description": "I've been playing around with a new kind of isomorphic music keyboard that uses a base-12 notation, and wanted some sheet music to learn some new music for it.\nThe idea is to represent each note in 12-TET as a number, so  N ∈ (0,1,2,3,4,5,6,7,8,9,X,Y).\nI used codex to build a music score rendering backend based on MuseScore with custom note heads that display the pitch class of each note.\nI've found it pretty helpful for learning how to play my own instrument, so wanted to share in case anyone else was interested.\nComments URL: https://news.ycombinator.com/item?id=50075665\nPoints: 68\n# Comments: 51",
+          "link": "https://music.xy.dev/",
+          "publishedOn": "2026-10-13T17:43:05.000Z",
+          "wordCount": 36,
+          "title": "Show HN: XY Music Notation",
+          "imageUrl": null
         },
         {
           "id": "https://news.ycombinator.com/item?id=50074909",
@@ -10834,216 +10914,6 @@
           "wordCount": 17201,
           "title": "GPT-5.6 Luna vs. GPT-6 Astra: Is a $1.20 Model Good Enough for Code Review?",
           "imageUrl": "https://framerusercontent.com/images/gPrTReKBwM5bVRyIqVcgBE4kEAk.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49702239",
-          "author": "akis33",
-          "description": "Article URL: https://www.techtimes.co.uk/oracle-new-layoffs-restructuring-costs-2-8-billion-1808676\nComments URL: https://news.ycombinator.com/item?id=49702239\nPoints: 54\n# Comments: 27",
-          "link": "https://www.techtimes.co.uk/oracle-new-layoffs-restructuring-costs-2-8-billion-1808676",
-          "publishedOn": "2026-09-14T19:05:15.000Z",
-          "wordCount": 7224,
-          "title": "Oracle's Cold 6AM Layoff Emails Hit Staff Amid New Wave of Cuts",
-          "imageUrl": "https://d.techtimes.co.uk/en/full/1819505/oracle-layoffs.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49701182",
-          "author": "guld",
-          "description": "https://arxiv.org/abs/2605.31022\nhttps://github.com/SakanaAI/pc-alm\nComments URL: https://news.ycombinator.com/item?id=49701182\nPoints: 55\n# Comments: 13",
-          "link": "https://pub.sakana.ai/pc-alm/",
-          "publishedOn": "2026-09-14T18:03:12.000Z",
-          "wordCount": 11954,
-          "title": "Backprop Alternative: Augmented Lagrangian Predictive Coding",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49701004",
-          "author": "throw0101d",
-          "description": "Article URL: https://www.apple.com/newsroom/2026/09/major-updates-for-apples-software-platforms-are-now-available/\nComments URL: https://news.ycombinator.com/item?id=49701004\nPoints: 246\n# Comments: 249",
-          "link": "https://www.apple.com/newsroom/2026/09/major-updates-for-apples-software-platforms-are-now-available/",
-          "publishedOn": "2026-09-14T17:50:29.000Z",
-          "wordCount": 8544,
-          "title": "iOS 27, iPadOS 27, and macOS 27",
-          "imageUrl": "https://www.apple.com/newsroom/images/2026/09/major-updates-for-apples-software-platforms-are-now-available/tile/Apple-OS-availability-hero-lp.jpg.og.jpg?202609141711"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49700661",
-          "author": "bsimpson",
-          "description": "Article URL: https://store.steampowered.com/hardware/steamframe\nComments URL: https://news.ycombinator.com/item?id=49700661\nPoints: 356\n# Comments: 221",
-          "link": "https://store.steampowered.com/hardware/steamframe",
-          "publishedOn": "2026-09-14T17:27:55.000Z",
-          "wordCount": 398,
-          "title": "Steam Frame starts at $1059",
-          "imageUrl": "https://clan.fastly.steamstatic.com/images/45479024/41ac1feaa13a1396844a31be91beb068eb2e509f.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49700477",
-          "author": "lukaspetersson",
-          "description": "Article URL: https://andonlabs.com/blog/why-we-built-pion\nComments URL: https://news.ycombinator.com/item?id=49700477\nPoints: 190\n# Comments: 204",
-          "link": "https://andonlabs.com/blog/why-we-built-pion",
-          "publishedOn": "2026-09-14T17:16:06.000Z",
-          "wordCount": 1640,
-          "title": "Pion, an agent designed to run any company autonomously",
-          "imageUrl": "https://andonlabs.com/pion.og.webp"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49700255",
-          "author": "iamsyr",
-          "description": "Article URL: https://blog.cloudflare.com/automatic-key-exchange-for-origins/\nComments URL: https://news.ycombinator.com/item?id=49700255\nPoints: 51\n# Comments: 15",
-          "link": "https://blog.cloudflare.com/automatic-key-exchange-for-origins/",
-          "publishedOn": "2026-09-14T17:02:34.000Z",
-          "wordCount": 4753,
-          "title": "Cloudflare AKE cuts origin HelloRetryRequests from 52% to 3.7%",
-          "imageUrl": "https://blog.cloudflare.com/_emdash/api/media/file/01M1PVVA86NJR4N0MTKCH06A9V.01M1PVVAXCHV18R9AZA18HS4AQ.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49700153",
-          "author": "Betelbuddy",
-          "description": "Article URL: https://www.amazon.science/blog/developing-provably-correct-rust-code-with-verus\nComments URL: https://news.ycombinator.com/item?id=49700153\nPoints: 73\n# Comments: 10",
-          "link": "https://www.amazon.science/blog/developing-provably-correct-rust-code-with-verus",
-          "publishedOn": "2026-09-14T16:57:50.000Z",
-          "wordCount": 8855,
-          "title": "Developing provably correct Rust code with Verus",
-          "imageUrl": "https://cdn.amazon.science/dims4/default/d5f871c/2147483647/strip/true/crop/1200x630+0+23/resize/1200x630!/quality/90/?url=https%3A%2F%2Famzn-science-production-science.s3.us-east-1.amazonaws.com%2Fscience%2F05%2Fce%2Fe48c2a0b4372889838ed019562f3%2Fverus-16x9.gif"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49699648",
-          "author": "Betelbuddy",
-          "description": "Article URL: https://www.amazon.science/blog/why-dont-machine-learning-research-agents-overfit\nComments URL: https://news.ycombinator.com/item?id=49699648\nPoints: 81\n# Comments: 44",
-          "link": "https://www.amazon.science/blog/why-dont-machine-learning-research-agents-overfit",
-          "publishedOn": "2026-09-14T16:32:23.000Z",
-          "wordCount": 8949,
-          "title": "Why don't machine learning research agents overfit?",
-          "imageUrl": "https://cdn.amazon.science/dims4/default/8f33283/2147483647/strip/true/crop/1920x1008+0+36/resize/1200x630!/quality/90/?url=https%3A%2F%2Famzn-science-production-science.s3.us-east-1.amazonaws.com%2Fscience%2F28%2F46%2F0121ba1e4b42be0c56e7560c9844%2Fcompressionmodels-03-16x9.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49699489",
-          "author": "simonmic",
-          "description": "Article URL: https://www.serpentine.com/posts/2026/x3-stripes/\nComments URL: https://news.ycombinator.com/item?id=49699489\nPoints: 79\n# Comments: 9",
-          "link": "https://www.serpentine.com/posts/2026/x3-stripes/",
-          "publishedOn": "2026-09-14T16:23:16.000Z",
-          "wordCount": 5902,
-          "title": "How my e-reader lost its stripes",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49699384",
-          "author": "luk4",
-          "description": "Article URL: https://erkansaka.net/2026/09/10/ai-doom-rhetoric-safety-hype/\nComments URL: https://news.ycombinator.com/item?id=49699384\nPoints: 86\n# Comments: 28",
-          "link": "https://erkansaka.net/2026/09/10/ai-doom-rhetoric-safety-hype/",
-          "publishedOn": "2026-09-14T16:15:05.000Z",
-          "wordCount": 7351,
-          "title": "For AI leaders Doom is a form of hype",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49699297",
-          "author": "Alephinitesimal",
-          "description": "Article URL: https://www.theregister.com/os-platforms/2026/09/14/microsoft-patches-windows-and-excel-breaks-audio-remote-access-and-paste/5296085\nComments URL: https://news.ycombinator.com/item?id=49699297\nPoints: 138\n# Comments: 61",
-          "link": "https://www.theregister.com/os-platforms/2026/09/14/microsoft-patches-windows-and-excel-breaks-audio-remote-access-and-paste/5296085",
-          "publishedOn": "2026-09-14T16:09:45.000Z",
-          "wordCount": 7330,
-          "title": "Microsoft patches Windows and Excel – breaks audio, remote access, and paste",
-          "imageUrl": "https://image.theregister.com/259053.jpg?imageId=259053&x=0&y=0&cropw=100&croph=100&panox=0&panoy=0&panow=100&panoh=100&width=1200&height=683"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49699267",
-          "author": "toebee",
-          "description": "Hey HN, Toby from Nari Labs here.\nWe've been working on making OSS speech models super-fast. Last year, we built Dia, the first OSS text-to-speech model capable of doing natural dialogue. Since then, so many more great speech models have been released to the public.\nBut the market is still dominated by closed source models. We think that's an inference problem. Existing systems such as vLLM / SGLang are not well suited for multimodal inference. To prove this, we built an inference engine specialized for Qwen3-TTS and open-sourced it (https://github.com/nari-labs/nari-qwen3-tts). Running at sub-50 ms latency at 10 RPS, this showed open models can be run much faster and cheaper.\nSince then, we've been working hard to bring cheap, fast, and high quality serving to all. And we've even beat closed models at their game!\nMeasured on the highly cited Coval (YC S24) voice AI benchmarks, our Qwen3-TTS endpoint not just is #2 in latency, but #1 in accuracy (WER) compared to 11Labs, Cartesia etc. while being the cheapest endpoint. Our Qwen3-ASR endpoint has the lowest latency and #2 accuracy, just 0.1% away from #1. It is the second cheapest model on the list.\nIt took a lot of clever inference engineering to make these models quick, perform well while keeping costs low. Interestingly, Alibaba's official endpoints seem to perform worse in terms of accuracy and latency compared to ours. But nonetheless, much love to the Qwen team for OSS-ing these amazing speech models.\nWe want to continue to push prices down to make speech technology a commodity - so that every app can have great TTS and STT without worrying about unit costs. We're also working on other parts of audio such as diarization - as well as video and world model inference. More to come!\nComments URL: https://news.ycombinator.com/item?id=49699267\nPoints: 59\n# Comments: 18",
-          "link": "https://narilabs.com/blog/nari-labs-leads-coval-voice-ai-benchmarks/",
-          "publishedOn": "2026-09-14T16:07:58.000Z",
-          "wordCount": 699,
-          "title": "Show HN: Nari Qwen3-TTS and Qwen3-ASR – High accuracy, low latency and cost",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49699159",
-          "author": "samke-",
-          "description": "Article URL: https://www.neobrutalism.dev/\nComments URL: https://news.ycombinator.com/item?id=49699159\nPoints: 100\n# Comments: 46",
-          "link": "https://www.neobrutalism.dev/",
-          "publishedOn": "2026-09-14T16:02:02.000Z",
-          "wordCount": 1902,
-          "title": "Show HN: Neobrutalism.dev – Just added Base UI support and added new color theme",
-          "imageUrl": "https://www.neobrutalism.dev/preview.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49699158",
-          "author": "grep_it",
-          "description": "Article URL: https://nvartolomei.com/dist-sys-classics/\nComments URL: https://news.ycombinator.com/item?id=49699158\nPoints: 166\n# Comments: 36",
-          "link": "https://nvartolomei.com/dist-sys-classics/",
-          "publishedOn": "2026-09-14T16:02:01.000Z",
-          "wordCount": 963,
-          "title": "Distributed Systems Classics (2017)",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49698699",
-          "author": "robinhouston",
-          "description": "Article URL: https://www.daniellitt.com/blog/2026/9/13/a-beginning-for-mathematics/\nComments URL: https://news.ycombinator.com/item?id=49698699\nPoints: 107\n# Comments: 45",
-          "link": "https://www.daniellitt.com/blog/2026/9/13/a-beginning-for-mathematics/",
-          "publishedOn": "2026-09-14T15:33:07.000Z",
-          "wordCount": 3283,
-          "title": "A Beginning for Mathematics",
-          "imageUrl": "https://www.daniellitt.com/images/daniel-litt-social-diagram.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49698607",
-          "author": "carllerche",
-          "description": "Article URL: https://dial9-rs.github.io/blog/principles-for-fast-tokio-applications/\nComments URL: https://news.ycombinator.com/item?id=49698607\nPoints: 125\n# Comments: 23",
-          "link": "https://dial9-rs.github.io/blog/principles-for-fast-tokio-applications/",
-          "publishedOn": "2026-09-14T15:27:56.000Z",
-          "wordCount": 2562,
-          "title": "Principles for Fast Tokio Applications",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49697893",
-          "author": "0x5FC3",
-          "description": "Article URL: https://pop.rdi.sh/dario-please/\nComments URL: https://news.ycombinator.com/item?id=49697893\nPoints: 221\n# Comments: 104",
-          "link": "https://pop.rdi.sh/dario-please/",
-          "publishedOn": "2026-09-14T14:50:32.000Z",
-          "wordCount": 2898,
-          "title": "Dario, Please",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49697496",
-          "author": "alihm",
-          "description": "Article URL: https://www.worksinprogress.news/p/do-people-prefer-traditional-architecture\nComments URL: https://news.ycombinator.com/item?id=49697496\nPoints: 158\n# Comments: 76",
-          "link": "https://www.worksinprogress.news/p/do-people-prefer-traditional-architecture",
-          "publishedOn": "2026-09-14T14:30:17.000Z",
-          "wordCount": 10537,
-          "title": "Most people prefer traditional architecture",
-          "imageUrl": "https://substackcdn.com/image/fetch/$s_!8Od6!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F73453123-77be-41e4-a28c-101424dcd765_2560x1707.jpeg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49697477",
-          "author": "nathannaveen",
-          "description": "Article URL: https://nathannaveen.dev/posts/dropping-ebpf-cpu-cost-by-90/\nComments URL: https://news.ycombinator.com/item?id=49697477\nPoints: 62\n# Comments: 17",
-          "link": "https://nathannaveen.dev/posts/dropping-ebpf-cpu-cost-by-90/",
-          "publishedOn": "2026-09-14T14:29:23.000Z",
-          "wordCount": 978,
-          "title": "Dropping eBPF CPU Cost by About 90% with Memoization (Not AI Gen)",
-          "imageUrl": "https://nathannaveen.dev/"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49697094",
-          "author": "rbanffy",
-          "description": "Article URL: https://spectrum.ieee.org/adversarial-fashion\nComments URL: https://news.ycombinator.com/item?id=49697094\nPoints: 79\n# Comments: 35",
-          "link": "https://spectrum.ieee.org/adversarial-fashion",
-          "publishedOn": "2026-09-14T14:04:53.000Z",
-          "wordCount": 12169,
-          "title": "Adversarial Fashion Makes a Statement on AI Panopticon",
-          "imageUrl": "https://spectrum.ieee.org/media-library/image.jpg?id=67764230&width=1200&height=600&coordinates=0%2C207%2C0%2C293"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49697014",
-          "author": "0o_MrPatrick_o0",
-          "description": "Article URL: https://patrickmccanna.net/notes-on-migrating-large-prompts-away-from-anthropic-openai-to-self-hosted-llms/\nComments URL: https://news.ycombinator.com/item?id=49697014\nPoints: 65\n# Comments: 28",
-          "link": "https://patrickmccanna.net/notes-on-migrating-large-prompts-away-from-anthropic-openai-to-self-hosted-llms/",
-          "publishedOn": "2026-09-14T13:59:09.000Z",
-          "wordCount": 3778,
-          "title": "Notes on gotchas while migrating 35kb preprompts from Opus to self-hosted Ollama",
-          "imageUrl": null
         }
       ]
     }

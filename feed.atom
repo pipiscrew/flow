@@ -2,10 +2,100 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-10-14T01:43:01.575Z</updated>
+    <updated>2026-10-14T07:21:53.257Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[AOSP Source Releases Are So Late Developers Disassemble Libraries to Report Bugs]]></title>
+        <id>https://news.ycombinator.com/item?id=50083130</id>
+        <link href="https://github.com/android/ndk/issues/2260"/>
+        <updated>2026-10-14T06:18:01.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://github.com/android/ndk/issues/2260
+Comments URL: https://news.ycombinator.com/item?id=50083130
+Points: 71
+# Comments: 6]]></summary>
+        <author>
+            <name>tharen</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Felix Rieseberg Homepage]]></title>
+        <id>https://news.ycombinator.com/item?id=50082470</id>
+        <link href="https://felixrieseberg.com/"/>
+        <updated>2026-10-14T04:42:33.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://felixrieseberg.com/
+Comments URL: https://news.ycombinator.com/item?id=50082470
+Points: 144
+# Comments: 49]]></summary>
+        <author>
+            <name>rglover</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[I built a tool to track what AI leaders say and how their views change on video]]></title>
+        <id>https://news.ycombinator.com/item?id=50081151</id>
+        <link href="https://blumify.io/people"/>
+        <updated>2026-10-14T01:09:13.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://blumify.io/people
+Comments URL: https://news.ycombinator.com/item?id=50081151
+Points: 78
+# Comments: 49]]></summary>
+        <author>
+            <name>gcsydney</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Pulse Local, a Mac budgeting app whose AI models run on your machine]]></title>
+        <id>https://news.ycombinator.com/item?id=50080275</id>
+        <link href="https://pulseos.finance/"/>
+        <updated>2026-10-13T23:13:23.000Z</updated>
+        <summary type="html"><![CDATA[Hi HN, I'm Niz. Pulse Local is a budgeting app for Mac (Apple Silicon, beta) that answers questions about your spending with models that run on your machine. Local mode needs no account. The ledger and your questions stay on the machine, and the app sends no analytics or crash logs.
+I felt there are not enough consumer apps that run locally with no calls to the outside world that help us manage sensitive corners of our lives. This app in its local variant only downloads a couple of models and occasional updates, it does not send any analytics nor data.
+Features-wise, Pulse local is a complete budgeting app that offers an assistant built on top of a fine-tuned model and thousands of rules embedded in the code itself. I'm sharing it for free with options to help me continue experimenting wit…]]></summary>
+        <author>
+            <name>niztk</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Grace Hopper Celebration Cancelled]]></title>
+        <id>https://news.ycombinator.com/item?id=50080007</id>
+        <link href="https://anitab.org/press-release"/>
+        <updated>2026-10-13T22:46:49.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://anitab.org/press-release
+Comments URL: https://news.ycombinator.com/item?id=50080007
+Points: 128
+# Comments: 46]]></summary>
+        <author>
+            <name>mooreds</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Recreational Programming]]></title>
+        <id>https://news.ycombinator.com/item?id=50079865</id>
+        <link href="https://www.cphiri.dev/presentations/recreational-programming"/>
+        <updated>2026-10-13T22:33:33.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.cphiri.dev/presentations/recreational-programming
+Comments URL: https://news.ycombinator.com/item?id=50079865
+Points: 147
+# Comments: 59]]></summary>
+        <author>
+            <name>jslakro</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AlphaNIST]]></title>
+        <id>https://news.ycombinator.com/item?id=50079464</id>
+        <link href="https://alpha-nist.github.io/"/>
+        <updated>2026-10-13T21:57:29.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://alpha-nist.github.io/
+Comments URL: https://news.ycombinator.com/item?id=50079464
+Points: 65
+# Comments: 22]]></summary>
+        <author>
+            <name>jasonjmcghee</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[OpenAI engineer arrested in bugging of executive conference room]]></title>
         <id>https://news.ycombinator.com/item?id=50078141</id>
@@ -32,6 +122,22 @@ Points: 154
 # Comments: 55]]></summary>
         <author>
             <name>talccc</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: XY Music Notation]]></title>
+        <id>https://news.ycombinator.com/item?id=50075665</id>
+        <link href="https://music.xy.dev/"/>
+        <updated>2026-10-13T17:43:05.000Z</updated>
+        <summary type="html"><![CDATA[I've been playing around with a new kind of isomorphic music keyboard that uses a base-12 notation, and wanted some sheet music to learn some new music for it.
+The idea is to represent each note in 12-TET as a number, so  N ∈ (0,1,2,3,4,5,6,7,8,9,X,Y).
+I used codex to build a music score rendering backend based on MuseScore with custom note heads that display the pitch class of each note.
+I've found it pretty helpful for learning how to play my own instrument, so wanted to share in case anyone else was interested.
+Comments URL: https://news.ycombinator.com/item?id=50075665
+Points: 68
+# Comments: 51]]></summary>
+        <author>
+            <name>jmole</name>
         </author>
     </entry>
     <entry>
@@ -14285,286 +14391,6 @@ Points: 86
 # Comments: 99]]></summary>
         <author>
             <name>theanonymousone</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Oracle's Cold 6AM Layoff Emails Hit Staff Amid New Wave of Cuts]]></title>
-        <id>https://news.ycombinator.com/item?id=49702239</id>
-        <link href="https://www.techtimes.co.uk/oracle-new-layoffs-restructuring-costs-2-8-billion-1808676"/>
-        <updated>2026-09-14T19:05:15.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.techtimes.co.uk/oracle-new-layoffs-restructuring-costs-2-8-billion-1808676
-Comments URL: https://news.ycombinator.com/item?id=49702239
-Points: 54
-# Comments: 27]]></summary>
-        <author>
-            <name>akis33</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Backprop Alternative: Augmented Lagrangian Predictive Coding]]></title>
-        <id>https://news.ycombinator.com/item?id=49701182</id>
-        <link href="https://pub.sakana.ai/pc-alm/"/>
-        <updated>2026-09-14T18:03:12.000Z</updated>
-        <summary type="html"><![CDATA[https://arxiv.org/abs/2605.31022
-https://github.com/SakanaAI/pc-alm
-Comments URL: https://news.ycombinator.com/item?id=49701182
-Points: 55
-# Comments: 13]]></summary>
-        <author>
-            <name>guld</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[iOS 27, iPadOS 27, and macOS 27]]></title>
-        <id>https://news.ycombinator.com/item?id=49701004</id>
-        <link href="https://www.apple.com/newsroom/2026/09/major-updates-for-apples-software-platforms-are-now-available/"/>
-        <updated>2026-09-14T17:50:29.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.apple.com/newsroom/2026/09/major-updates-for-apples-software-platforms-are-now-available/
-Comments URL: https://news.ycombinator.com/item?id=49701004
-Points: 246
-# Comments: 249]]></summary>
-        <author>
-            <name>throw0101d</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Steam Frame starts at $1059]]></title>
-        <id>https://news.ycombinator.com/item?id=49700661</id>
-        <link href="https://store.steampowered.com/hardware/steamframe"/>
-        <updated>2026-09-14T17:27:55.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://store.steampowered.com/hardware/steamframe
-Comments URL: https://news.ycombinator.com/item?id=49700661
-Points: 356
-# Comments: 221]]></summary>
-        <author>
-            <name>bsimpson</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Pion, an agent designed to run any company autonomously]]></title>
-        <id>https://news.ycombinator.com/item?id=49700477</id>
-        <link href="https://andonlabs.com/blog/why-we-built-pion"/>
-        <updated>2026-09-14T17:16:06.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://andonlabs.com/blog/why-we-built-pion
-Comments URL: https://news.ycombinator.com/item?id=49700477
-Points: 190
-# Comments: 204]]></summary>
-        <author>
-            <name>lukaspetersson</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Cloudflare AKE cuts origin HelloRetryRequests from 52% to 3.7%]]></title>
-        <id>https://news.ycombinator.com/item?id=49700255</id>
-        <link href="https://blog.cloudflare.com/automatic-key-exchange-for-origins/"/>
-        <updated>2026-09-14T17:02:34.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://blog.cloudflare.com/automatic-key-exchange-for-origins/
-Comments URL: https://news.ycombinator.com/item?id=49700255
-Points: 51
-# Comments: 15]]></summary>
-        <author>
-            <name>iamsyr</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Developing provably correct Rust code with Verus]]></title>
-        <id>https://news.ycombinator.com/item?id=49700153</id>
-        <link href="https://www.amazon.science/blog/developing-provably-correct-rust-code-with-verus"/>
-        <updated>2026-09-14T16:57:50.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.amazon.science/blog/developing-provably-correct-rust-code-with-verus
-Comments URL: https://news.ycombinator.com/item?id=49700153
-Points: 73
-# Comments: 10]]></summary>
-        <author>
-            <name>Betelbuddy</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Why don't machine learning research agents overfit?]]></title>
-        <id>https://news.ycombinator.com/item?id=49699648</id>
-        <link href="https://www.amazon.science/blog/why-dont-machine-learning-research-agents-overfit"/>
-        <updated>2026-09-14T16:32:23.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.amazon.science/blog/why-dont-machine-learning-research-agents-overfit
-Comments URL: https://news.ycombinator.com/item?id=49699648
-Points: 81
-# Comments: 44]]></summary>
-        <author>
-            <name>Betelbuddy</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How my e-reader lost its stripes]]></title>
-        <id>https://news.ycombinator.com/item?id=49699489</id>
-        <link href="https://www.serpentine.com/posts/2026/x3-stripes/"/>
-        <updated>2026-09-14T16:23:16.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.serpentine.com/posts/2026/x3-stripes/
-Comments URL: https://news.ycombinator.com/item?id=49699489
-Points: 79
-# Comments: 9]]></summary>
-        <author>
-            <name>simonmic</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[For AI leaders Doom is a form of hype]]></title>
-        <id>https://news.ycombinator.com/item?id=49699384</id>
-        <link href="https://erkansaka.net/2026/09/10/ai-doom-rhetoric-safety-hype/"/>
-        <updated>2026-09-14T16:15:05.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://erkansaka.net/2026/09/10/ai-doom-rhetoric-safety-hype/
-Comments URL: https://news.ycombinator.com/item?id=49699384
-Points: 86
-# Comments: 28]]></summary>
-        <author>
-            <name>luk4</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Microsoft patches Windows and Excel – breaks audio, remote access, and paste]]></title>
-        <id>https://news.ycombinator.com/item?id=49699297</id>
-        <link href="https://www.theregister.com/os-platforms/2026/09/14/microsoft-patches-windows-and-excel-breaks-audio-remote-access-and-paste/5296085"/>
-        <updated>2026-09-14T16:09:45.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.theregister.com/os-platforms/2026/09/14/microsoft-patches-windows-and-excel-breaks-audio-remote-access-and-paste/5296085
-Comments URL: https://news.ycombinator.com/item?id=49699297
-Points: 138
-# Comments: 61]]></summary>
-        <author>
-            <name>Alephinitesimal</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: Nari Qwen3-TTS and Qwen3-ASR – High accuracy, low latency and cost]]></title>
-        <id>https://news.ycombinator.com/item?id=49699267</id>
-        <link href="https://narilabs.com/blog/nari-labs-leads-coval-voice-ai-benchmarks/"/>
-        <updated>2026-09-14T16:07:58.000Z</updated>
-        <summary type="html"><![CDATA[Hey HN, Toby from Nari Labs here.
-We've been working on making OSS speech models super-fast. Last year, we built Dia, the first OSS text-to-speech model capable of doing natural dialogue. Since then, so many more great speech models have been released to the public.
-But the market is still dominated by closed source models. We think that's an inference problem. Existing systems such as vLLM / SGLang are not well suited for multimodal inference. To prove this, we built an inference engine specialized for Qwen3-TTS and open-sourced it (https://github.com/nari-labs/nari-qwen3-tts). Running at sub-50 ms latency at 10 RPS, this showed open models can be run much faster and cheaper.
-Since then, we've been working hard to bring cheap, fast, and high quality serving to all. And we've even beat closed models at their game!
-Measured on the highly cited Coval (YC S24) voice AI benchmarks, our Qwen3-TTS endpoint not just is #2 in latency, but #1 in accuracy (WER) compared to 11Labs, Cartesia etc. while being the cheapest endpoint. Our Qwen3-ASR endpoint has the lowest latency and #2 accuracy, just 0.1% away from #1. It is the second cheapest model on the list.
-It took a lot of clever inference engineering to make these models quick, perform well while keeping costs low. Interestingly, Alibaba's official endpoints seem to perform worse in terms of accuracy and latency compared to ours. But nonetheless, much love to the Qwen team for OSS-ing these amazing speech models.
-We want to continue to push prices down to make speech technology a commodity - so that every app can have great TTS and STT without worrying about unit costs. We're also working on other parts of audio such as diarization - as well as video and world model inference. More to come!
-Comments URL: https://news.ycombinator.com/item?id=49699267
-Points: 59
-# Comments: 18]]></summary>
-        <author>
-            <name>toebee</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: Neobrutalism.dev – Just added Base UI support and added new color theme]]></title>
-        <id>https://news.ycombinator.com/item?id=49699159</id>
-        <link href="https://www.neobrutalism.dev/"/>
-        <updated>2026-09-14T16:02:02.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.neobrutalism.dev/
-Comments URL: https://news.ycombinator.com/item?id=49699159
-Points: 100
-# Comments: 46]]></summary>
-        <author>
-            <name>samke-</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Distributed Systems Classics (2017)]]></title>
-        <id>https://news.ycombinator.com/item?id=49699158</id>
-        <link href="https://nvartolomei.com/dist-sys-classics/"/>
-        <updated>2026-09-14T16:02:01.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://nvartolomei.com/dist-sys-classics/
-Comments URL: https://news.ycombinator.com/item?id=49699158
-Points: 166
-# Comments: 36]]></summary>
-        <author>
-            <name>grep_it</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A Beginning for Mathematics]]></title>
-        <id>https://news.ycombinator.com/item?id=49698699</id>
-        <link href="https://www.daniellitt.com/blog/2026/9/13/a-beginning-for-mathematics/"/>
-        <updated>2026-09-14T15:33:07.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.daniellitt.com/blog/2026/9/13/a-beginning-for-mathematics/
-Comments URL: https://news.ycombinator.com/item?id=49698699
-Points: 107
-# Comments: 45]]></summary>
-        <author>
-            <name>robinhouston</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Principles for Fast Tokio Applications]]></title>
-        <id>https://news.ycombinator.com/item?id=49698607</id>
-        <link href="https://dial9-rs.github.io/blog/principles-for-fast-tokio-applications/"/>
-        <updated>2026-09-14T15:27:56.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://dial9-rs.github.io/blog/principles-for-fast-tokio-applications/
-Comments URL: https://news.ycombinator.com/item?id=49698607
-Points: 125
-# Comments: 23]]></summary>
-        <author>
-            <name>carllerche</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Dario, Please]]></title>
-        <id>https://news.ycombinator.com/item?id=49697893</id>
-        <link href="https://pop.rdi.sh/dario-please/"/>
-        <updated>2026-09-14T14:50:32.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://pop.rdi.sh/dario-please/
-Comments URL: https://news.ycombinator.com/item?id=49697893
-Points: 221
-# Comments: 104]]></summary>
-        <author>
-            <name>0x5FC3</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Most people prefer traditional architecture]]></title>
-        <id>https://news.ycombinator.com/item?id=49697496</id>
-        <link href="https://www.worksinprogress.news/p/do-people-prefer-traditional-architecture"/>
-        <updated>2026-09-14T14:30:17.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.worksinprogress.news/p/do-people-prefer-traditional-architecture
-Comments URL: https://news.ycombinator.com/item?id=49697496
-Points: 158
-# Comments: 76]]></summary>
-        <author>
-            <name>alihm</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Dropping eBPF CPU Cost by About 90% with Memoization (Not AI Gen)]]></title>
-        <id>https://news.ycombinator.com/item?id=49697477</id>
-        <link href="https://nathannaveen.dev/posts/dropping-ebpf-cpu-cost-by-90/"/>
-        <updated>2026-09-14T14:29:23.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://nathannaveen.dev/posts/dropping-ebpf-cpu-cost-by-90/
-Comments URL: https://news.ycombinator.com/item?id=49697477
-Points: 62
-# Comments: 17]]></summary>
-        <author>
-            <name>nathannaveen</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Adversarial Fashion Makes a Statement on AI Panopticon]]></title>
-        <id>https://news.ycombinator.com/item?id=49697094</id>
-        <link href="https://spectrum.ieee.org/adversarial-fashion"/>
-        <updated>2026-09-14T14:04:53.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://spectrum.ieee.org/adversarial-fashion
-Comments URL: https://news.ycombinator.com/item?id=49697094
-Points: 79
-# Comments: 35]]></summary>
-        <author>
-            <name>rbanffy</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Notes on gotchas while migrating 35kb preprompts from Opus to self-hosted Ollama]]></title>
-        <id>https://news.ycombinator.com/item?id=49697014</id>
-        <link href="https://patrickmccanna.net/notes-on-migrating-large-prompts-away-from-anthropic-openai-to-self-hosted-llms/"/>
-        <updated>2026-09-14T13:59:09.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://patrickmccanna.net/notes-on-migrating-large-prompts-away-from-anthropic-openai-to-self-hosted-llms/
-Comments URL: https://news.ycombinator.com/item?id=49697014
-Points: 65
-# Comments: 28]]></summary>
-        <author>
-            <name>0o_MrPatrick_o0</name>
         </author>
     </entry>
 </feed>
