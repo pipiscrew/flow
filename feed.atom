@@ -2,10 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-10-15T07:12:56.149Z</updated>
+    <updated>2026-10-15T13:14:50.809Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Flipflop, Iroh-powered persistent tunnels for filesharing]]></title>
+        <id>https://news.ycombinator.com/item?id=50099136</id>
+        <link href="https://github.com/andunieee/flipflop"/>
+        <updated>2026-10-15T04:25:28.000Z</updated>
+        <summary type="html"><![CDATA[This is a project that spun from my frustrations of using LocalSend and DashBeam to transfer stuff between devices, and with the extra goal of being fast, trying out the Slint framework and, most importantly, establishing a communication channel with trusted external people that can be left always on.
+Comments URL: https://news.ycombinator.com/item?id=50099136
+Points: 62
+# Comments: 25]]></summary>
+        <author>
+            <name>andunie</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[The Double Headed Stack Allocator]]></title>
         <id>https://news.ycombinator.com/item?id=50098274</id>
@@ -595,6 +608,19 @@ Points: 147
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[The First Social Network: In rural Argentina residents send messages w AM radio]]></title>
+        <id>https://news.ycombinator.com/item?id=50079701</id>
+        <link href="https://www.newyorker.com/magazine/2026/10/19/the-first-social-network"/>
+        <updated>2026-10-13T22:17:41.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.newyorker.com/magazine/2026/10/19/the-first-social-network
+Comments URL: https://news.ycombinator.com/item?id=50079701
+Points: 66
+# Comments: 25]]></summary>
+        <author>
+            <name>bookofjoe</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[AlphaNIST]]></title>
         <id>https://news.ycombinator.com/item?id=50079464</id>
         <link href="https://alpha-nist.github.io/"/>
@@ -618,6 +644,19 @@ Points: 142
 # Comments: 157]]></summary>
         <author>
             <name>forthwall</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Donaldson Futuro House in Idyllwild, California, USA]]></title>
+        <id>https://news.ycombinator.com/item?id=50077709</id>
+        <link href="https://www.wowhaus.co.uk/2026/10/12/donaldson-futuro-house-in-idyllwild-california-usa/"/>
+        <updated>2026-10-13T19:55:41.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.wowhaus.co.uk/2026/10/12/donaldson-futuro-house-in-idyllwild-california-usa/
+Comments URL: https://news.ycombinator.com/item?id=50077709
+Points: 59
+# Comments: 21]]></summary>
+        <author>
+            <name>rmason</name>
         </author>
     </entry>
     <entry>
@@ -769,6 +808,19 @@ Points: 105
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Your C is not standard C]]></title>
+        <id>https://news.ycombinator.com/item?id=50071546</id>
+        <link href="https://sebsite.pw/w/20261012-notstdc.html"/>
+        <updated>2026-10-13T13:36:21.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://sebsite.pw/w/20261012-notstdc.html
+Comments URL: https://news.ycombinator.com/item?id=50071546
+Points: 105
+# Comments: 72]]></summary>
+        <author>
+            <name>dverlaeckt80</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[New Apple TV 4K]]></title>
         <id>https://news.ycombinator.com/item?id=50071310</id>
         <link href="https://www.apple.com/newsroom/2026/10/apple-unveils-the-new-apple-tv-4k/"/>
@@ -805,6 +857,33 @@ Points: 55
 # Comments: 30]]></summary>
         <author>
             <name>surprisetalk</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[It took me nine years to hack my Xbox 360]]></title>
+        <id>https://news.ycombinator.com/item?id=50070661</id>
+        <link href="https://kennedn.com/blog/posts/glitching/"/>
+        <updated>2026-10-13T12:33:18.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://kennedn.com/blog/posts/glitching/
+Comments URL: https://news.ycombinator.com/item?id=50070661
+Points: 117
+# Comments: 33]]></summary>
+        <author>
+            <name>kennedn</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Wanted to download an ISO, ended up writing a kernel exploit]]></title>
+        <id>https://news.ycombinator.com/item?id=50070625</id>
+        <link href="https://blog.dfb.sh/blog/eap770-root-for-two-zeros/"/>
+        <updated>2026-10-13T12:30:08.000Z</updated>
+        <summary type="html"><![CDATA[Author here. Does anyone know what to do with the rest of the drivers? I found at least 13 in-tree drivers with the same bug class. The nasty part is they work fine on x86 and silently corrupt data on arm and other non-coherent archs, and I don't have the hardware to test them.
+I'd guess that's what the DMA API is for and drivers shouldn't be doing cache maintenance by hand, but I'm not a kernel dev, so maybe I'm missing something.
+Comments URL: https://news.ycombinator.com/item?id=50070625
+Points: 198
+# Comments: 101]]></summary>
+        <author>
+            <name>0xdeafbeef</name>
         </author>
     </entry>
     <entry>
@@ -1016,6 +1095,17 @@ Points: 74
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Show HN: Indigene – Native plants for where you stand]]></title>
+        <id>https://news.ycombinator.com/item?id=50064470</id>
+        <link href="https://indigene.app/"/>
+        <updated>2026-10-12T23:25:20.000Z</updated>
+        <summary type="html"><![CDATA[Back when I lived in Central Florida, it took me years to learn what native plants could benefit wildlife and the local ecosystem as I slowly replaced parts of my yard to make it more resilient to drought. After moving to Seattle a few years ago, I had to start all of that from scratch. LLMs made the process a bit easier but I still had to routinely ask the same kinds of questions over and over, despite being far more familiar with native plants these days and leaning more on native plant societies and botany resources like Doug Tallamy and Joey Santore whose excellent Crime Pays But Botany Doesn't site was recently posted here[1].
+A good friend was visiting from Orlando over the summer and told me she was struggling to decide what to plant in her own yard despite her landlord being ok wit…]]></summary>
+        <author>
+            <name>olivierlacan</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Show HN: An experimental pattern-first DAW that supports MCP]]></title>
         <id>https://news.ycombinator.com/item?id=50064438</id>
         <link href="https://github.com/andrewfader/blokkily"/>
@@ -1195,6 +1285,19 @@ Points: 450
 # Comments: 233]]></summary>
         <author>
             <name>whimblepop</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Sticky alpine flower confirms Darwin's 150-year-old carnivorous plant prediction]]></title>
+        <id>https://news.ycombinator.com/item?id=50060547</id>
+        <link href="https://phys.org/news/2026-08-sticky-alpine-darwin-year-carnivorous.html"/>
+        <updated>2026-10-12T18:20:17.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://phys.org/news/2026-08-sticky-alpine-darwin-year-carnivorous.html
+Comments URL: https://news.ycombinator.com/item?id=50060547
+Points: 64
+# Comments: 25]]></summary>
+        <author>
+            <name>maxall4</name>
         </author>
     </entry>
     <entry>
@@ -1450,6 +1553,19 @@ Points: 197
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Catch a Bird – I made it for my own sanity]]></title>
+        <id>https://news.ycombinator.com/item?id=50053384</id>
+        <link href="https://catchabird.com/"/>
+        <updated>2026-10-12T08:51:18.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://catchabird.com
+Comments URL: https://news.ycombinator.com/item?id=50053384
+Points: 261
+# Comments: 75]]></summary>
+        <author>
+            <name>eduardsik</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[I Found a $90k Remote Code Execution Vulnerability in Google]]></title>
         <id>https://news.ycombinator.com/item?id=50052638</id>
         <link href="https://simonkoeck.com/writeups/google-devsite-flask-session-pickle-rce"/>
@@ -1486,6 +1602,19 @@ Points: 211
 # Comments: 78]]></summary>
         <author>
             <name>lukaslalinsky</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Do dentists know what they're doing?]]></title>
+        <id>https://news.ycombinator.com/item?id=50050553</id>
+        <link href="https://mapwriting.substack.com/p/dentists"/>
+        <updated>2026-10-12T02:21:54.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://mapwriting.substack.com/p/dentists
+Comments URL: https://news.ycombinator.com/item?id=50050553
+Points: 797
+# Comments: 587]]></summary>
+        <author>
+            <name>doitLP</name>
         </author>
     </entry>
     <entry>
@@ -14225,162 +14354,6 @@ Points: 66
 # Comments: 27]]></summary>
         <author>
             <name>paimapi</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Saving Jet Fuel]]></title>
-        <id>https://news.ycombinator.com/item?id=49720164</id>
-        <link href="https://tech.marksblogg.com/scikit-decide-openap-optimal-flight-planning.html"/>
-        <updated>2026-09-15T23:17:20.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://tech.marksblogg.com/scikit-decide-openap-optimal-flight-planning.html
-Comments URL: https://news.ycombinator.com/item?id=49720164
-Points: 83
-# Comments: 38]]></summary>
-        <author>
-            <name>marklit</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Secret Life of Circuits]]></title>
-        <id>https://news.ycombinator.com/item?id=49720143</id>
-        <link href="https://blog.coredump.cx/p/the-secret-life-of-circuits-is-here"/>
-        <updated>2026-09-15T23:15:05.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://blog.coredump.cx/p/the-secret-life-of-circuits-is-here
-Comments URL: https://news.ycombinator.com/item?id=49720143
-Points: 243
-# Comments: 63]]></summary>
-        <author>
-            <name>surprisetalk</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Recreating Voodoo Graphics and a Late-1990s Gaming PC on an FPGA]]></title>
-        <id>https://news.ycombinator.com/item?id=49719938</id>
-        <link href="https://nand2mario.github.io/posts/2026/zsst-voodoo/"/>
-        <updated>2026-09-15T22:50:55.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://nand2mario.github.io/posts/2026/zsst-voodoo/
-Comments URL: https://news.ycombinator.com/item?id=49719938
-Points: 108
-# Comments: 26]]></summary>
-        <author>
-            <name>zdw</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Lucasart's Afterlife]]></title>
-        <id>https://news.ycombinator.com/item?id=49719751</id>
-        <link href="https://togameforlife.wordpress.com/2023/12/09/on-lucasarts-afterlife/"/>
-        <updated>2026-09-15T22:30:30.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://togameforlife.wordpress.com/2023/12/09/on-lucasarts-afterlife/
-Comments URL: https://news.ycombinator.com/item?id=49719751
-Points: 82
-# Comments: 40]]></summary>
-        <author>
-            <name>Bondi_Blue</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The engineering behind the US Strategic Petroleum Reserve]]></title>
-        <id>https://news.ycombinator.com/item?id=49719596</id>
-        <link href="https://johnjwang.com/post/2026/09/15/engineering-behind-us-strategic-petroleum-reserve"/>
-        <updated>2026-09-15T22:15:25.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://johnjwang.com/post/2026/09/15/engineering-behind-us-strategic-petroleum-reserve
-Comments URL: https://news.ycombinator.com/item?id=49719596
-Points: 61
-# Comments: 11]]></summary>
-        <author>
-            <name>johnjwang</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AWS says it can't restore some data from mideast facilities struck by Iran]]></title>
-        <id>https://news.ycombinator.com/item?id=49719249</id>
-        <link href="https://www.wsj.com/world/middle-east/aws-says-it-cant-restore-some-data-from-mideast-facilities-struck-by-iran-ddcb7e5d"/>
-        <updated>2026-09-15T21:41:42.000Z</updated>
-        <summary type="html"><![CDATA[https://archive.is/Ay7RJ
-Comments URL: https://news.ycombinator.com/item?id=49719249
-Points: 91
-# Comments: 49]]></summary>
-        <author>
-            <name>berkeleyjunk</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[German Rheinmetall open-sources its Battlesuite connected weapon system protcol]]></title>
-        <id>https://news.ycombinator.com/item?id=49718928</id>
-        <link href="https://rheinmetall.github.io/onboardapi-documentation/9.10.0/index.html"/>
-        <updated>2026-09-15T21:07:47.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://rheinmetall.github.io/onboardapi-documentation/9.10.0/index.html
-Comments URL: https://news.ycombinator.com/item?id=49718928
-Points: 125
-# Comments: 39]]></summary>
-        <author>
-            <name>summarity</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Jean-Pierre Serre is 100 years old today]]></title>
-        <id>https://news.ycombinator.com/item?id=49718822</id>
-        <link href="https://mathshistory.st-andrews.ac.uk/Biographies/Serre/"/>
-        <updated>2026-09-15T20:57:18.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://mathshistory.st-andrews.ac.uk/Biographies/Serre/
-Comments URL: https://news.ycombinator.com/item?id=49718822
-Points: 85
-# Comments: 13]]></summary>
-        <author>
-            <name>jzox</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[My temporary PHP fix from 2014 has nearly 20M installs. Today I'm deprecating it]]></title>
-        <id>https://news.ycombinator.com/item?id=49718773</id>
-        <link href="https://jakeasmith.com/blog/http-build-url/"/>
-        <updated>2026-09-15T20:53:36.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://jakeasmith.com/blog/http-build-url/
-Comments URL: https://news.ycombinator.com/item?id=49718773
-Points: 135
-# Comments: 29]]></summary>
-        <author>
-            <name>jakeasmith</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Building a Linux GPU Driver for the M4 Mac Mini in One Month]]></title>
-        <id>https://news.ycombinator.com/item?id=49717638</id>
-        <link href="https://codyho.dev/blog/gpu-driver/"/>
-        <updated>2026-09-15T19:30:03.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://codyho.dev/blog/gpu-driver/
-Comments URL: https://news.ycombinator.com/item?id=49717638
-Points: 54
-# Comments: 13]]></summary>
-        <author>
-            <name>ADevWithAnIdea</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[WangNet – 1.8 MB, zero-dependency Numberwang adjudication in 11 languages]]></title>
-        <id>https://news.ycombinator.com/item?id=49717605</id>
-        <link href="https://github.com/GraafHenk/numberwang"/>
-        <updated>2026-09-15T19:27:35.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://github.com/GraafHenk/numberwang
-Comments URL: https://news.ycombinator.com/item?id=49717605
-Points: 64
-# Comments: 21]]></summary>
-        <author>
-            <name>Liogra123</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Introducing System One Models and Jev]]></title>
-        <id>https://news.ycombinator.com/item?id=49717558</id>
-        <link href="https://typesafe.ai/blog/introducing-system-one-models-and-jev"/>
-        <updated>2026-09-15T19:25:03.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://typesafe.ai/blog/introducing-system-one-models-and-jev
-Comments URL: https://news.ycombinator.com/item?id=49717558
-Points: 431
-# Comments: 160]]></summary>
-        <author>
-            <name>albelfio</name>
         </author>
     </entry>
 </feed>
