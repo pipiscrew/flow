@@ -2,10 +2,49 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-10-17T16:15:19.610Z</updated>
+    <updated>2026-10-17T19:08:58.004Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[OpenCode Hacked: User credentials leaked]]></title>
+        <id>https://news.ycombinator.com/item?id=50133401</id>
+        <link href="https://twitter.com/opencode/status/2111516673953935833"/>
+        <updated>2026-10-17T18:01:41.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://twitter.com/opencode/status/2111516673953935833
+Comments URL: https://news.ycombinator.com/item?id=50133401
+Points: 88
+# Comments: 25]]></summary>
+        <author>
+            <name>pranshuchittora</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Development statistics for the 7.2 kernel]]></title>
+        <id>https://news.ycombinator.com/item?id=50132950</id>
+        <link href="https://lwn.net/Articles/1088776/"/>
+        <updated>2026-10-17T17:14:12.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://lwn.net/Articles/1088776/
+Comments URL: https://news.ycombinator.com/item?id=50132950
+Points: 79
+# Comments: 32]]></summary>
+        <author>
+            <name>farlight</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[OpenAI discloses four more rogue incidents]]></title>
+        <id>https://news.ycombinator.com/item?id=50132502</id>
+        <link href="https://fortune.com/2026/10/16/openai-discloses-four-more-rogue-incidents-involving-financial-medical-and-government-data/"/>
+        <updated>2026-10-17T16:31:12.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://fortune.com/2026/10/16/openai-discloses-four-more-rogue-incidents-involving-financial-medical-and-government-data/
+Comments URL: https://news.ycombinator.com/item?id=50132502
+Points: 92
+# Comments: 74]]></summary>
+        <author>
+            <name>DASD</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[US federal budget deficit jumps 12% in one year to nearly $2 Trillion]]></title>
         <id>https://news.ycombinator.com/item?id=50131440</id>
@@ -43,6 +82,27 @@ Points: 73
 # Comments: 29]]></summary>
         <author>
             <name>crescit_eundo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Esp32sim – Run ESP32 firmware in the browser]]></title>
+        <id>https://news.ycombinator.com/item?id=50131189</id>
+        <link href="https://github.com/mikroverk/esp32sim"/>
+        <updated>2026-10-17T13:51:08.000Z</updated>
+        <summary type="html"><![CDATA[Hi HN,
+I’ve been working on esp32sim, an open-source ESP32 emulator that runs in the browser.
+The fun part of the demo is that there is no ESP32 involved — the firmware is executing in the emulator.
+The goal is to make ESP32 software easier to experiment with, test and simulate without always needing physical hardware connected.
+Source:
+https://github.com/mikroverk/esp32sim
+I made a short video showing it in action:
+https://youtu.be/waoWFilTWEc
+I’m particularly interested in feedback from embedded developers: what would an emulator like this need to support before you’d actually use it for development, testing or CI?
+Comments URL: https://news.ycombinator.com/item?id=50131189
+Points: 63
+# Comments: 9]]></summary>
+        <author>
+            <name>joakimeriksson</name>
         </author>
     </entry>
     <entry>
@@ -894,6 +954,19 @@ Points: 198
 # Comments: 35]]></summary>
         <author>
             <name>jcomp</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Furifont, a Japanese font that shows furigana]]></title>
+        <id>https://news.ycombinator.com/item?id=50100994</id>
+        <link href="https://furifont.antfu.me/"/>
+        <updated>2026-10-15T08:48:30.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://furifont.antfu.me/
+Comments URL: https://news.ycombinator.com/item?id=50100994
+Points: 96
+# Comments: 18]]></summary>
+        <author>
+            <name>plaguna</name>
         </author>
     </entry>
     <entry>
@@ -14174,32 +14247,6 @@ Points: 277
 # Comments: 166]]></summary>
         <author>
             <name>ilreb</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Inside ZCode: Silently uploading your Git history to the cloud]]></title>
-        <id>https://news.ycombinator.com/item?id=49750694</id>
-        <link href="https://blog.ferstar.org/en/posts/zcode-silent-workspace-snapshot-upload/"/>
-        <updated>2026-09-18T06:11:17.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://blog.ferstar.org/en/posts/zcode-silent-workspace-snapshot-upload/
-Comments URL: https://news.ycombinator.com/item?id=49750694
-Points: 223
-# Comments: 86]]></summary>
-        <author>
-            <name>csmantle</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Jemalloc 5.4.0]]></title>
-        <id>https://news.ycombinator.com/item?id=49750152</id>
-        <link href="https://github.com/jemalloc/jemalloc/releases/tag/5.4.0"/>
-        <updated>2026-09-18T04:20:24.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://github.com/jemalloc/jemalloc/releases/tag/5.4.0
-Comments URL: https://news.ycombinator.com/item?id=49750152
-Points: 236
-# Comments: 58]]></summary>
-        <author>
-            <name>gkfasdfasdf</name>
         </author>
     </entry>
 </feed>
