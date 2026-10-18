@@ -2,10 +2,39 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-10-18T20:28:31.032Z</updated>
+    <updated>2026-10-18T22:55:27.074Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Hybrid Reasoning Agents: LLM agents that think in latent space, act through text]]></title>
+        <id>https://news.ycombinator.com/item?id=50145337</id>
+        <link href="https://arxiv.org/abs/2610.18861"/>
+        <updated>2026-10-18T20:48:14.000Z</updated>
+        <summary type="html"><![CDATA[https://x.com/Jiaru_Zou/status/2110400256647340476
+https://github.com/togethercomputer/HybridAgent
+https://huggingface.co/collections/togethercomputer/hybridag...
+Evaluations: https://arxiv.org/html/2610.18861v1#S5
+Comments URL: https://news.ycombinator.com/item?id=50145337
+Points: 106
+# Comments: 46]]></summary>
+        <author>
+            <name>allinonai</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Free Pascal compiler now supports dynamic packages]]></title>
+        <id>https://news.ycombinator.com/item?id=50144066</id>
+        <link href="https://www.getlazarus.org/dynamic/"/>
+        <updated>2026-10-18T18:48:04.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.getlazarus.org/dynamic/
+Comments URL: https://news.ycombinator.com/item?id=50144066
+Points: 89
+# Comments: 12]]></summary>
+        <author>
+            <name>sysrpl</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Florida's HOAs and condo associations are making the housing crisis worse]]></title>
         <id>https://news.ycombinator.com/item?id=50144005</id>
@@ -17,6 +46,19 @@ Points: 102
 # Comments: 158]]></summary>
         <author>
             <name>lovewins</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[PalmOS Lemmings]]></title>
+        <id>https://news.ycombinator.com/item?id=50143536</id>
+        <link href="https://github.com/ardiri/palmos-lemmings"/>
+        <updated>2026-10-18T17:56:59.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://github.com/ardiri/palmos-lemmings
+Comments URL: https://news.ycombinator.com/item?id=50143536
+Points: 72
+# Comments: 20]]></summary>
+        <author>
+            <name>memalign</name>
         </author>
     </entry>
     <entry>
@@ -256,6 +298,19 @@ Points: 50
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Dogs seem to agree with humans that 'bouba' is round and 'kiki' is spiky]]></title>
+        <id>https://news.ycombinator.com/item?id=50136979</id>
+        <link href="https://www.sciencealert.com/dogs-seem-to-agree-with-humans-that-bouba-is-round-and-kiki-is-spiky"/>
+        <updated>2026-10-18T01:38:08.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.sciencealert.com/dogs-seem-to-agree-with-humans-that-bouba-is-round-and-kiki-is-spiky
+Comments URL: https://news.ycombinator.com/item?id=50136979
+Points: 79
+# Comments: 55]]></summary>
+        <author>
+            <name>gmays</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[NY announces game ownership bill requiring ownership rather than licensing]]></title>
         <id>https://news.ycombinator.com/item?id=50136536</id>
         <link href="https://www.tomshardware.com/video-games/new-york-rep-announces-game-ownership-bill-that-would-require-consumer-ownership-rather-than-sale-of-licenses-would-also-require-publishers-to-keep-the-game-functional-after-support-ends"/>
@@ -266,6 +321,19 @@ Points: 186
 # Comments: 52]]></summary>
         <author>
             <name>guiambros</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[There's never been a better time to go into math (by: 3blue1brown) [video]]]></title>
+        <id>https://news.ycombinator.com/item?id=50136150</id>
+        <link href="https://www.youtube.com/watch?v=LKrwhjOI8Nc"/>
+        <updated>2026-10-17T23:26:35.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.youtube.com/watch?v=LKrwhjOI8Nc
+Comments URL: https://news.ycombinator.com/item?id=50136150
+Points: 73
+# Comments: 24]]></summary>
+        <author>
+            <name>mdp2021</name>
         </author>
     </entry>
     <entry>
@@ -14255,51 +14323,6 @@ Points: 101
 # Comments: 49]]></summary>
         <author>
             <name>ksec</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: Sigabrt.dev – cronjob monitor with an SSH TUI]]></title>
-        <id>https://news.ycombinator.com/item?id=49765354</id>
-        <link href="https://sigabrt.dev/"/>
-        <updated>2026-09-19T10:47:59.000Z</updated>
-        <summary type="html"><![CDATA[Hello HN. I built this mostly to monitor the things I host myself. I know it's nothing too exciting.
-Anyway, the TL;DR is: Create an endpoint, and if your script/cronjob fails to regularly ping it, you get notified (by email or ntfy). E.g.:
-    0 * * * * ./script.sh && curl -fsS https://sigabrt.dev/pulse//beat
-
-    ssh sigabrt.dev
-
-Yes, there are services like this already, and this is minimalistic by comparison. Feedback is welcome.
-Comments URL: https://news.ycombinator.com/item?id=49765354
-Points: 52
-# Comments: 27]]></summary>
-        <author>
-            <name>4815162342</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Laya the open source version of Jev]]></title>
-        <id>https://news.ycombinator.com/item?id=49765348</id>
-        <link href="https://laya.convaiinnovations.com/"/>
-        <updated>2026-09-19T10:46:58.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://laya.convaiinnovations.com/
-Comments URL: https://news.ycombinator.com/item?id=49765348
-Points: 237
-# Comments: 35]]></summary>
-        <author>
-            <name>nandakishor_ml</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AI-generated posters don’t have to be horrible]]></title>
-        <id>https://news.ycombinator.com/item?id=49764791</id>
-        <link href="https://john.hartnup.uk/2026/06/07/ai-event-posters.html"/>
-        <updated>2026-09-19T09:20:58.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://john.hartnup.uk/2026/06/07/ai-event-posters.html
-Comments URL: https://news.ycombinator.com/item?id=49764791
-Points: 71
-# Comments: 40]]></summary>
-        <author>
-            <name>ereiamjh</name>
         </author>
     </entry>
 </feed>
