@@ -2,10 +2,62 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-10-20T05:47:42.643Z</updated>
+    <updated>2026-10-20T11:15:33.374Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[AfD Leak: What 421,179 Hacked Emails Show about the German Far Right]]></title>
+        <id>https://news.ycombinator.com/item?id=50163502</id>
+        <link href="https://www.heistberlin.com/news/afd-leak-what-421-179-hacked-emails-show-about-the-german-far-right/"/>
+        <updated>2026-10-20T09:35:40.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.heistberlin.com/news/afd-leak-what-421-179-hacked-emails-show-about-the-german-far-right/
+Comments URL: https://news.ycombinator.com/item?id=50163502
+Points: 227
+# Comments: 176]]></summary>
+        <author>
+            <name>firefax</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[DeepSeek just open-sourced its inference engine]]></title>
+        <id>https://news.ycombinator.com/item?id=50163277</id>
+        <link href="https://github.com/deepseek-ai/DeepInfer"/>
+        <updated>2026-10-20T09:08:54.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://github.com/deepseek-ai/DeepInfer
+Comments URL: https://news.ycombinator.com/item?id=50163277
+Points: 322
+# Comments: 107]]></summary>
+        <author>
+            <name>ggcr</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[MicroG: Free-libre re-implementation of Google's proprietary Android user space]]></title>
+        <id>https://news.ycombinator.com/item?id=50162177</id>
+        <link href="https://github.com/microg/GmsCore/wiki"/>
+        <updated>2026-10-20T06:37:07.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://github.com/microg/GmsCore/wiki
+Comments URL: https://news.ycombinator.com/item?id=50162177
+Points: 69
+# Comments: 4]]></summary>
+        <author>
+            <name>theanonymousone</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Go will reject certificate chains containing eight distrusted SPKIs]]></title>
+        <id>https://news.ycombinator.com/item?id=50160877</id>
+        <link href="https://github.com/golang/go/issues/82345"/>
+        <updated>2026-10-20T03:05:07.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://github.com/golang/go/issues/82345
+Comments URL: https://news.ycombinator.com/item?id=50160877
+Points: 100
+# Comments: 41]]></summary>
+        <author>
+            <name>mendym</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[OpenBSD 8.0]]></title>
         <id>https://news.ycombinator.com/item?id=50160494</id>
@@ -225,6 +277,23 @@ Points: 78
 # Comments: 6]]></summary>
         <author>
             <name>bcongdon</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Maxwell: A new kind of model that sits between code and hardware]]></title>
+        <id>https://news.ycombinator.com/item?id=50152466</id>
+        <link href="https://heymaxwell.ai/"/>
+        <updated>2026-10-19T13:47:56.000Z</updated>
+        <summary type="html"><![CDATA[Hi HN, I'm Gal from doubleAI. We've built Maxwell, a new kind of frontier model we call a Code Execution Model.
+It sits between your code and the hardware. No humans in the loop! Maxwell makes the code run faster as it runs, without ever changing a single line.
+Maxwell sees programs from the inside: traces, profiling information, and the data flowing through them. It adapts dynamically to the environment, including the hardware, what else is running, and what the inputs look like.
+Code execution models change the way we approach coding. Today, Claude/Codex (and humans) keep re-optimising code for every different use-case hardware and data flow (think of LLM inference engines, like vLLM!). Our bet is that this is unnecessary, suboptimal, and that it does not scale. Instead, we think the right answer is to make code a living, thinking, thing.
+Early access is open at heymaxwell.ai. Happy to answer questions here.
+Comments URL: https://news.ycombinator.com/item?id=50152466
+Points: 82
+# Comments: 40]]></summary>
+        <author>
+            <name>laginimaineb</name>
         </author>
     </entry>
     <entry>
@@ -650,6 +719,19 @@ Points: 110
 # Comments: 92]]></summary>
         <author>
             <name>evolve2k</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Nordwand Mono – A monospace font for coders and adventurers]]></title>
+        <id>https://news.ycombinator.com/item?id=50141581</id>
+        <link href="https://github.com/tywr/Nordwand-Mono"/>
+        <updated>2026-10-18T14:48:01.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://github.com/tywr/Nordwand-Mono
+Comments URL: https://news.ycombinator.com/item?id=50141581
+Points: 291
+# Comments: 93]]></summary>
+        <author>
+            <name>noriax86</name>
         </author>
     </entry>
     <entry>
@@ -14317,162 +14399,6 @@ Points: 119
 # Comments: 44]]></summary>
         <author>
             <name>doener</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[What Happened to the Snowden Archive]]></title>
-        <id>https://news.ycombinator.com/item?id=49780820</id>
-        <link href="https://libroot.org/posts/what-happened-to-the-snowden-archive"/>
-        <updated>2026-09-20T22:35:49.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://libroot.org/posts/what-happened-to-the-snowden-archive
-Comments URL: https://news.ycombinator.com/item?id=49780820
-Points: 58
-# Comments: 10]]></summary>
-        <author>
-            <name>EXHades</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Google's Open Agentic Orchestrator]]></title>
-        <id>https://news.ycombinator.com/item?id=49780797</id>
-        <link href="https://agentexecutor.io/"/>
-        <updated>2026-09-20T22:32:43.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://agentexecutor.io
-Comments URL: https://news.ycombinator.com/item?id=49780797
-Points: 67
-# Comments: 19]]></summary>
-        <author>
-            <name>blazarquasar</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Bill to Ban Private Equity from Owning Medical Practices]]></title>
-        <id>https://news.ycombinator.com/item?id=49780630</id>
-        <link href="https://truthout.org/articles/warren-introduces-bill-to-ban-private-equity-from-owning-medical-practices/"/>
-        <updated>2026-09-20T22:13:46.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://truthout.org/articles/warren-introduces-bill-to-ban-private-equity-from-owning-medical-practices/
-Comments URL: https://news.ycombinator.com/item?id=49780630
-Points: 100
-# Comments: 54]]></summary>
-        <author>
-            <name>paimapi</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[MUNI Heritage Weekend in San Francisco]]></title>
-        <id>https://news.ycombinator.com/item?id=49780622</id>
-        <link href="https://daniel.lawrence.lu/blog/2026-09-20-muni-heritage-weekend/"/>
-        <updated>2026-09-20T22:13:07.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://daniel.lawrence.lu/blog/2026-09-20-muni-heritage-weekend/
-Comments URL: https://news.ycombinator.com/item?id=49780622
-Points: 112
-# Comments: 25]]></summary>
-        <author>
-            <name>plun9</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Nobody pays for FOSS, we can force them to]]></title>
-        <id>https://news.ycombinator.com/item?id=49780064</id>
-        <link href="https://seldo.com/posts/nobody-pays-for-open-source-we-can-force-them-to/"/>
-        <updated>2026-09-20T21:04:32.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://seldo.com/posts/nobody-pays-for-open-source-we-can-force-them-to/
-Comments URL: https://news.ycombinator.com/item?id=49780064
-Points: 102
-# Comments: 66]]></summary>
-        <author>
-            <name>Muhammad523</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ogre Battle 64 Recompiled Project at 99.05%]]></title>
-        <id>https://news.ycombinator.com/item?id=49780022</id>
-        <link href="https://github.com/lfarroco/ogre-battle-64-recomp"/>
-        <updated>2026-09-20T20:59:02.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://github.com/lfarroco/ogre-battle-64-recomp
-Comments URL: https://news.ycombinator.com/item?id=49780022
-Points: 53
-# Comments: 15]]></summary>
-        <author>
-            <name>frozenlettuce</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Frontier Labs Are Selling Garbage to Fools in Washington]]></title>
-        <id>https://news.ycombinator.com/item?id=49779432</id>
-        <link href="https://deadneurons.substack.com/p/frontier-labs-are-selling-garbage"/>
-        <updated>2026-09-20T19:55:36.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://deadneurons.substack.com/p/frontier-labs-are-selling-garbage
-Comments URL: https://news.ycombinator.com/item?id=49779432
-Points: 124
-# Comments: 52]]></summary>
-        <author>
-            <name>nr378</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Why MCP Was Always a Bad Idea?]]></title>
-        <id>https://news.ycombinator.com/item?id=49779329</id>
-        <link href="https://maharship.com/blog/why-mcp-was-always-a-bad-idea/"/>
-        <updated>2026-09-20T19:44:40.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://maharship.com/blog/why-mcp-was-always-a-bad-idea/
-Comments URL: https://news.ycombinator.com/item?id=49779329
-Points: 91
-# Comments: 94]]></summary>
-        <author>
-            <name>maharshi365</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Hierarchy of Money]]></title>
-        <id>https://news.ycombinator.com/item?id=49779253</id>
-        <link href="https://gregorygundersen.com/blog/2026/09/20/hierarchy-of-money/"/>
-        <updated>2026-09-20T19:37:43.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://gregorygundersen.com/blog/2026/09/20/hierarchy-of-money/
-Comments URL: https://news.ycombinator.com/item?id=49779253
-Points: 70
-# Comments: 27]]></summary>
-        <author>
-            <name>gwgundersen</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Software Sandboxing: The Basics (2025)]]></title>
-        <id>https://news.ycombinator.com/item?id=49778670</id>
-        <link href="https://blog.emilua.org/2025/01/12/software-sandboxing-basics/"/>
-        <updated>2026-09-20T18:42:47.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://blog.emilua.org/2025/01/12/software-sandboxing-basics/
-Comments URL: https://news.ycombinator.com/item?id=49778670
-Points: 57
-# Comments: 7]]></summary>
-        <author>
-            <name>mococa</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A Necessary History of the Oddest Letter: W]]></title>
-        <id>https://news.ycombinator.com/item?id=49778195</id>
-        <link href="https://lithub.com/a-necessary-history-of-the-oddest-letter-w/"/>
-        <updated>2026-09-20T17:55:57.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://lithub.com/a-necessary-history-of-the-oddest-letter-w/
-Comments URL: https://news.ycombinator.com/item?id=49778195
-Points: 85
-# Comments: 46]]></summary>
-        <author>
-            <name>NaOH</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[I turned Jev into a (lousy) chatbot]]></title>
-        <id>https://news.ycombinator.com/item?id=49778162</id>
-        <link href="https://github.com/kyle-pena-nlp/jevchat/"/>
-        <updated>2026-09-20T17:51:27.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://github.com/kyle-pena-nlp/jevchat/
-Comments URL: https://news.ycombinator.com/item?id=49778162
-Points: 79
-# Comments: 26]]></summary>
-        <author>
-            <name>kp1197</name>
         </author>
     </entry>
 </feed>
