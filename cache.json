@@ -6,6 +6,36 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=50175882",
+          "author": "civilchaos",
+          "description": "Article URL: https://nmattia.com/posts/2026-10-19-setting-up-ssh-keys-touch-id/\nComments URL: https://news.ycombinator.com/item?id=50175882\nPoints: 55\n# Comments: 32",
+          "link": "https://nmattia.com/posts/2026-10-19-setting-up-ssh-keys-touch-id/",
+          "publishedOn": "2026-10-21T03:51:25.000Z",
+          "wordCount": 2016,
+          "title": "Setting Up SSH Keys on macOS with Touch ID",
+          "imageUrl": "https://nmattia.com/_astro/touch-id-button.CmOAUBec.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50175510",
+          "author": "sumnole",
+          "description": "Article URL: https://github.com/zion-sati/NetWasm\nComments URL: https://news.ycombinator.com/item?id=50175510\nPoints: 61\n# Comments: 15",
+          "link": "https://github.com/zion-sati/NetWasm",
+          "publishedOn": "2026-10-21T02:53:47.000Z",
+          "wordCount": 5324,
+          "title": "C# now beats Rust on WASM size",
+          "imageUrl": "https://opengraph.githubassets.com/f0d5459208213ca06aa4b1d5b079c4c5d5eec86b37c5870115a7a6213f675a5b/zion-sati/NetWasm"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50175185",
+          "author": "unprovable",
+          "description": "Article URL: https://www.quantamagazine.org/in-hilbert-space-all-things-are-quantumly-possible-20260826/\nComments URL: https://news.ycombinator.com/item?id=50175185\nPoints: 95\n# Comments: 51",
+          "link": "https://www.quantamagazine.org/in-hilbert-space-all-things-are-quantumly-possible-20260826/",
+          "publishedOn": "2026-10-21T02:04:15.000Z",
+          "wordCount": 4236,
+          "title": "In Hilbert space, all things are quantumly possible",
+          "imageUrl": "https://www.quantamagazine.org/wp-content/uploads/2026/08/HilbertSpace-cr-Tommy-Parket-Social.jpg"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=50175070",
           "author": "soheilpro",
           "description": "Article URL: https://www.joshwcomeau.com/css/interop-2027/\nComments URL: https://news.ycombinator.com/item?id=50175070\nPoints: 59\n# Comments: 20",
@@ -14,6 +44,26 @@
           "wordCount": 10754,
           "title": "The Future of CSS",
           "imageUrl": "https://www.joshwcomeau.com/images/og-interop-2027.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50175059",
+          "author": "firloop",
+          "description": "Article URL: https://unsung.aresluna.org/good-type-against-all-odds/\nComments URL: https://news.ycombinator.com/item?id=50175059\nPoints: 122\n# Comments: 12",
+          "link": "https://unsung.aresluna.org/good-type-against-all-odds/",
+          "publishedOn": "2026-10-21T01:45:07.000Z",
+          "wordCount": 702,
+          "title": "Good type against all odds",
+          "imageUrl": "https://unsung.aresluna.org/_media/good-type-against-all-odds/ogimage.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50174687",
+          "author": "gumby",
+          "description": "Article URL: https://arstechnica.com/security/2026/10/meta-muse-exposes-users-personal-and-business-secrets-when-they-share-conversations/\nComments URL: https://news.ycombinator.com/item?id=50174687\nPoints: 172\n# Comments: 69",
+          "link": "https://arstechnica.com/security/2026/10/meta-muse-exposes-users-personal-and-business-secrets-when-they-share-conversations/",
+          "publishedOn": "2026-10-21T00:45:59.000Z",
+          "wordCount": null,
+          "title": "Muse exposes users' personal and business secrets when they share conversations",
+          "imageUrl": null
         },
         {
           "id": "https://news.ycombinator.com/item?id=50173891",
@@ -624,6 +674,16 @@
           "wordCount": 19027,
           "title": "DeepSeek V4.1 Flash 1017 (Max)",
           "imageUrl": "https://artificialanalysis.ai/en/models/deepseek-v4-1-flash-1017/opengraph-image?3850766eb2d567bc"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50147799",
+          "author": "utopcell",
+          "description": "Article URL: https://www.dorchester3d.com/printing/blog/2020/11/zx-spectrum-next-laptop-version-2\nComments URL: https://news.ycombinator.com/item?id=50147799\nPoints: 76\n# Comments: 12",
+          "link": "https://www.dorchester3d.com/printing/blog/2020/11/zx-spectrum-next-laptop-version-2",
+          "publishedOn": "2026-10-19T02:48:11.000Z",
+          "wordCount": 1820,
+          "title": "ZX Spectrum Next Laptop",
+          "imageUrl": null
         },
         {
           "id": "https://news.ycombinator.com/item?id=50147492",
@@ -1754,6 +1814,16 @@
           "wordCount": null,
           "title": "Someone on Torrent Sites Kept Fucking with My Sonarr",
           "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50108717",
+          "author": "dhorthy",
+          "description": "Quick update here since a lot of folks asked about what slopcodebench is / where it fits in\nSlop code bench is unique among benchmarks in that it makes a model work against a progressively disclosed list of features (checkpoints) that it doesn’t know it advance, inheriting the same codebase through the lifecycle of a single multi-checkpoint challenge\nI like this because it much more mirrors how real software dev happens, rather than most benchmarks with one off tasks where slop code doesn’t hinder future progress\nThe original post[1] and the SOL/fable follow up[2] went into a bit more detail on the benchmark and its challenges\n1. https://news.ycombinator.com/item?id=49076391\n2. https://github.com/humanlayer/advanced-context-engineering-f...\nComments URL: https://news.ycombinator.com/item?id=50108717\nPoints: 255\n# Comments: 99",
+          "link": "https://github.com/humanlayer/advanced-context-engineering-for-coding-agents/blob/main/benchmarking-new-models-on-slop-code-bench.md",
+          "publishedOn": "2026-10-15T19:09:34.000Z",
+          "wordCount": 6991,
+          "title": "SlopCodeBench 10/2026 – Opus 5.5, Astra wins overall, xhigh considered harmful",
+          "imageUrl": "https://opengraph.githubassets.com/97600639ea3d36c5b10152805b0965da8aef9650a3b7fe82151b8ea6e0b00ada/humanlayer/advanced-context-engineering-for-coding-agents"
         },
         {
           "id": "https://news.ycombinator.com/item?id=50108491",
@@ -10814,156 +10884,6 @@
           "wordCount": 4,
           "title": "Solitaire Alone Together",
           "imageUrl": "https://solitairealonetogether.com/og.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49793322",
-          "author": "burnt-resistor",
-          "description": "https://www.federalregister.gov/documents/2026/06/24/2026-12...\nComments URL: https://news.ycombinator.com/item?id=49793322\nPoints: 80\n# Comments: 32",
-          "link": "https://www.personalimportation.org/advocacy",
-          "publishedOn": "2026-09-21T20:58:17.000Z",
-          "wordCount": 8089,
-          "title": "Suspension of the de minimis administrative exemption for imports $800 or less",
-          "imageUrl": "https://static.wixstatic.com/media/7726c7_3348220d793b448da53f5193496b631d%7Emv2.png/v1/fit/w_2500,h_1330,al_c/7726c7_3348220d793b448da53f5193496b631d%7Emv2.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49792730",
-          "author": "volf_",
-          "description": "Article URL: https://mimo.xiaomi.com/mimo-v2-6\nComments URL: https://news.ycombinator.com/item?id=49792730\nPoints: 368\n# Comments: 165",
-          "link": "https://mimo.xiaomi.com/mimo-v2-6",
-          "publishedOn": "2026-09-21T20:12:12.000Z",
-          "wordCount": 722,
-          "title": "Xiaomi MiMo v2.6",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49792652",
-          "author": "rmason",
-          "description": "Article URL: https://eastlansinginfo.news/the-forgotten-battle-of-east-lansing/\nComments URL: https://news.ycombinator.com/item?id=49792652\nPoints: 72\n# Comments: 10",
-          "link": "https://eastlansinginfo.news/the-forgotten-battle-of-east-lansing/",
-          "publishedOn": "2026-09-21T20:07:08.000Z",
-          "wordCount": 5507,
-          "title": "The forgotten battle of East Lansing",
-          "imageUrl": "https://eastlansinginfo.news/wp-content/uploads/2026/09/man-on-car-courtesy-of-MSU-archives.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49792342",
-          "author": "aray07",
-          "description": "Article URL: https://poloclub.github.io/transformer-explainer/\nComments URL: https://news.ycombinator.com/item?id=49792342\nPoints: 121\n# Comments: 18",
-          "link": "https://poloclub.github.io/transformer-explainer/",
-          "publishedOn": "2026-09-21T19:43:49.000Z",
-          "wordCount": 2599,
-          "title": "Transformers Explained Visually",
-          "imageUrl": "https://poloclub.github.io/transformer-explainer/preview/summary.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49792067",
-          "author": "julian_digital",
-          "description": "Article URL: https://linear.app/now/ci-bottleneck-reworked\nComments URL: https://news.ycombinator.com/item?id=49792067\nPoints: 98\n# Comments: 87",
-          "link": "https://linear.app/now/ci-bottleneck-reworked",
-          "publishedOn": "2026-09-21T19:23:33.000Z",
-          "wordCount": 6733,
-          "title": "AI coding has made CI a bottleneck, so we reworked ours to keep up",
-          "imageUrl": "https://webassets.linear.app/images/ornj730p/production/eba763cf034ad5e7b5d75ceec7ba560dd2aea5cb-2400x1350.png?q=95&auto=format&dpr=2"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49791997",
-          "author": "digital55",
-          "description": "Article URL: https://terrytao.wordpress.com/2026/09/21/advisory-group-on-mathematics-and-artificial-intelligence/\nComments URL: https://news.ycombinator.com/item?id=49791997\nPoints: 62\n# Comments: 30",
-          "link": "https://terrytao.wordpress.com/2026/09/21/advisory-group-on-mathematics-and-artificial-intelligence/",
-          "publishedOn": "2026-09-21T19:17:42.000Z",
-          "wordCount": 5920,
-          "title": "The Advisory Group on Mathematics and Artificial Intelligence",
-          "imageUrl": "https://secure.gravatar.com/blavatar/bd4bda4207561b6998f10dec44b570f04ff4072b20f89162d525b186dfca3e49?s=200&ts=1790031739"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49791939",
-          "author": "Muhammad523",
-          "description": "Article URL: https://www.science.org/content/article/nasa-s-mars-sample-return-mission-dead\nComments URL: https://news.ycombinator.com/item?id=49791939\nPoints: 235\n# Comments: 173",
-          "link": "https://www.science.org/content/article/nasa-s-mars-sample-return-mission-dead",
-          "publishedOn": "2026-09-21T19:14:12.000Z",
-          "wordCount": null,
-          "title": "NASA’s Mars Sample Return mission is dead",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49791647",
-          "author": "pretext",
-          "description": "Article URL: https://timdettmers.com/2026/09/21/dlab-open-source-week/\nComments URL: https://news.ycombinator.com/item?id=49791647\nPoints: 67\n# Comments: 34",
-          "link": "https://timdettmers.com/2026/09/21/dlab-open-source-week/",
-          "publishedOn": "2026-09-21T18:53:01.000Z",
-          "wordCount": 4231,
-          "title": "Frontier AI on Your Own Hardware",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49791509",
-          "author": "allanbreyes",
-          "description": "Article URL: https://www.reuters.com/world/us/faa-halts-some-us-east-coast-flights-due-communication-issues-2026-09-21/\nComments URL: https://news.ycombinator.com/item?id=49791509\nPoints: 168\n# Comments: 98",
-          "link": "https://www.reuters.com/world/us/faa-halts-some-us-east-coast-flights-due-communication-issues-2026-09-21/",
-          "publishedOn": "2026-09-21T18:41:59.000Z",
-          "wordCount": null,
-          "title": "US halts flights at busy East Coast airports, says fiber line cut",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49791378",
-          "author": "abhisek",
-          "description": "Article URL: https://safedep.io/mathmain-encrypted-loader/\nComments URL: https://news.ycombinator.com/item?id=49791378\nPoints: 91\n# Comments: 26",
-          "link": "https://safedep.io/mathmain-encrypted-loader/",
-          "publishedOn": "2026-09-21T18:33:44.000Z",
-          "wordCount": 4343,
-          "title": "Why does mathmain need an encrypted loader?",
-          "imageUrl": "https://safedep.io/images/mathmain-encrypted-loader-banner.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49791125",
-          "author": "luu",
-          "description": "Article URL: https://www.pagetable.com/300\nComments URL: https://news.ycombinator.com/item?id=49791125\nPoints: 67\n# Comments: 20",
-          "link": "https://www.pagetable.com/300",
-          "publishedOn": "2026-09-21T18:15:32.000Z",
-          "wordCount": 935,
-          "title": "Apple Copland D11E4 Booting in the Browser",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49790409",
-          "author": "alwillis",
-          "description": "Article URL: https://support.apple.com/guide/mac-help/turn-restrict-access-apple-intelligence-mchlb2e44f94/mac\nComments URL: https://news.ycombinator.com/item?id=49790409\nPoints: 71\n# Comments: 31",
-          "link": "https://support.apple.com/guide/mac-help/turn-restrict-access-apple-intelligence-mchlb2e44f94/mac",
-          "publishedOn": "2026-09-21T17:30:21.000Z",
-          "wordCount": 22299,
-          "title": "Turn off and restrict access to Apple Intelligence features on Mac",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49789982",
-          "author": "simianwords",
-          "description": "Article URL: https://www.forbes.com/sites/jonmarkman/2026/09/21/amazon-blocks-metas-new-muse-ai-agent-from-shopping-on-amazoncom/\nComments URL: https://news.ycombinator.com/item?id=49789982\nPoints: 99\n# Comments: 83",
-          "link": "https://www.forbes.com/sites/jonmarkman/2026/09/21/amazon-blocks-metas-new-muse-ai-agent-from-shopping-on-amazoncom/",
-          "publishedOn": "2026-09-21T17:00:23.000Z",
-          "wordCount": null,
-          "title": "Amazon blocks Meta’s new Muse AI agent from shopping on amazon.com",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49789228",
-          "author": "SamuraiLion",
-          "description": "https://hermes.radio/\nhttps://www.rhizomatica.org/\nComments URL: https://news.ycombinator.com/item?id=49789228\nPoints: 71\n# Comments: 34",
-          "link": "https://spectrum.ieee.org/hermes-shortwave-radio-digital-data",
-          "publishedOn": "2026-09-21T16:14:16.000Z",
-          "wordCount": 11826,
-          "title": "HERMES radio enables voice and data communication over vast distances",
-          "imageUrl": "https://spectrum.ieee.org/media-library/image.png?id=67783301&width=1200&height=600&coordinates=0%2C167%2C0%2C168"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49789224",
-          "author": "espeed",
-          "description": "Article URL: https://twitter.com/Lon/status/2101793422487204027\nComments URL: https://news.ycombinator.com/item?id=49789224\nPoints: 211\n# Comments: 135",
-          "link": "https://twitter.com/Lon/status/2101793422487204027",
-          "publishedOn": "2026-09-21T16:13:57.000Z",
-          "wordCount": 1865,
-          "title": "Fable 5 – Median thinking declined in August",
-          "imageUrl": "https://pbs.twimg.com/media/HSsLl3FbkAAWMMW?format=webp&name=large"
         }
       ]
     }
