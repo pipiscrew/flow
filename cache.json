@@ -6,6 +6,56 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=50175070",
+          "author": "soheilpro",
+          "description": "Article URL: https://www.joshwcomeau.com/css/interop-2027/\nComments URL: https://news.ycombinator.com/item?id=50175070\nPoints: 59\n# Comments: 20",
+          "link": "https://www.joshwcomeau.com/css/interop-2027/",
+          "publishedOn": "2026-10-21T01:47:28.000Z",
+          "wordCount": 10754,
+          "title": "The Future of CSS",
+          "imageUrl": "https://www.joshwcomeau.com/images/og-interop-2027.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50173891",
+          "author": "gaplong",
+          "description": "https://web.archive.org/web/20261020230542/https://www.thebe...\nhttps://archive.ph/Tb1SZ\nComments URL: https://news.ycombinator.com/item?id=50173891\nPoints: 100\n# Comments: 67",
+          "link": "https://www.thebeliever.net/the-other-epidemic/",
+          "publishedOn": "2026-10-20T23:04:09.000Z",
+          "wordCount": null,
+          "title": "The Other Epidemic: Trying to get off benzodiazepines",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50173716",
+          "author": "swyx",
+          "description": "Article URL: https://fulcrumsec.vg/pingcap/\nComments URL: https://news.ycombinator.com/item?id=50173716\nPoints: 54\n# Comments: 7",
+          "link": "https://fulcrumsec.vg/pingcap/",
+          "publishedOn": "2026-10-20T22:45:39.000Z",
+          "wordCount": 2553,
+          "title": "PingCap TiDB Leaks",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50173487",
+          "author": "Bender",
+          "description": "Article URL: https://krebsonsecurity.com/2026/10/feds-suspect-ransom-negotiator-ran-shinyhunters-extortion-site/\nComments URL: https://news.ycombinator.com/item?id=50173487\nPoints: 131\n# Comments: 50",
+          "link": "https://krebsonsecurity.com/2026/10/feds-suspect-ransom-negotiator-ran-shinyhunters-extortion-site/",
+          "publishedOn": "2026-10-20T22:21:05.000Z",
+          "wordCount": 3593,
+          "title": "Feds suspect ransom negotiator ran ShinyHunters extortion site",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50172041",
+          "author": "xd",
+          "description": "Article URL: https://news-web.php.net/php.announce/509\nComments URL: https://news.ycombinator.com/item?id=50172041\nPoints: 187\n# Comments: 58",
+          "link": "https://news-web.php.net/php.announce/509",
+          "publishedOn": "2026-10-20T20:15:50.000Z",
+          "wordCount": 179,
+          "title": "Upcoming critical PHP security release",
+          "imageUrl": null
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=50170917",
           "author": "jruohonen",
           "description": "Article URL: https://blogs.lse.ac.uk/impactofsocialsciences/2026/10/19/academics-have-a-duty-to-defend-open-knowledge-systems-like-wikipedia/\nComments URL: https://news.ycombinator.com/item?id=50170917\nPoints: 69\n# Comments: 25",
@@ -10914,136 +10964,6 @@
           "wordCount": 1865,
           "title": "Fable 5 – Median thinking declined in August",
           "imageUrl": "https://pbs.twimg.com/media/HSsLl3FbkAAWMMW?format=webp&name=large"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49789081",
-          "author": "at1as",
-          "description": "Article URL: https://practical.engineering/blog/2019/5/11/how-do-traffic-signals-work\nComments URL: https://news.ycombinator.com/item?id=49789081\nPoints: 52\n# Comments: 35",
-          "link": "https://practical.engineering/blog/2019/5/11/how-do-traffic-signals-work",
-          "publishedOn": "2026-09-21T16:06:44.000Z",
-          "wordCount": 2620,
-          "title": "How do Traffic Signals Work (2019)",
-          "imageUrl": "http://static1.squarespace.com/static/55ac34e4e4b0170ef54be632/55ac3907e4b03d1c8c9deff1/5cd712cf9b747a78d838eab2/1557847940925/thumbnail+template_public_works.png?format=1500w"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49788838",
-          "author": "meetpateltech",
-          "description": "Article URL: https://x.ai/news/grok-4-7\nComments URL: https://news.ycombinator.com/item?id=49788838\nPoints: 316\n# Comments: 262",
-          "link": "https://x.ai/news/grok-4-7",
-          "publishedOn": "2026-09-21T15:50:15.000Z",
-          "wordCount": 5669,
-          "title": "Grok 4.7",
-          "imageUrl": "https://x.ai/images/news/grok-4-7-og.webp"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49788773",
-          "author": "davepl",
-          "description": "The box is a restored Q-bus PDP-11/83 named minerva: Mentec M11 CPU, two chassis tied with M9404/M9405, RQDX3, 2xEmulex UC07, KDA50, RLV12, DEQNA, M3104. Storage is RA82 + dual RA92, MFM boot/swap, dual RL02, RX50s, and a TKZ50. OS is 2.11BSD.\nThe live panel is top. /cgi-bin/webtop is the raw snapshot.\nA 16-bit httpd will not survive the front page, so Varnish/Caddy/Cloudflare cache the HTML and a 5-second webtop sample. Origin is still the 11 itself, and it handles all of the webtop and visitor count requests.\nTelnet exists (pdp1173.com, guest) but it is a 40-year-old UNIX with no modern security story. Please do not treat it as a challenge box; I can restore from tape, but that ruins it for everyone else.\nHappy to answer Mentec, MSCP, Q-bus, or 2.11BSD questions.\nTo get BSD running on the Mentec, I had to customize the BSD kernel to use FPSIM, as the Mentec supports IEEE floating-point and NOT the DEC formats.\nComments URL: https://news.ycombinator.com/item?id=49788773\nPoints: 54\n# Comments: 21",
-          "link": "http://pdp1173.com/",
-          "publishedOn": "2026-09-21T15:45:06.000Z",
-          "wordCount": 612,
-          "title": "A restored PDP-11/83 serving this page on 211BSD Unix",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49788014",
-          "author": "gmays",
-          "description": "https://mathy.game/\nhttps://mathy.game/app\nhttps://apps.apple.com/us/app/mathy-build-math-automaticity/...\nComments URL: https://news.ycombinator.com/item?id=49788014\nPoints: 50\n# Comments: 8",
-          "link": "https://gmays.com/making-math-automatic-with-mathy/",
-          "publishedOn": "2026-09-21T14:49:05.000Z",
-          "wordCount": 4136,
-          "title": "Show HN: Make math automatic with Mathy",
-          "imageUrl": "/wp-content/uploads/2026/09/cropped-mathy-intro-v2-scaled-1.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49787759",
-          "author": "ahelwer",
-          "description": "Article URL: https://ahelwer.ca/post/2026-09-21-concurrency-textbook/\nComments URL: https://news.ycombinator.com/item?id=49787759\nPoints: 68\n# Comments: 17",
-          "link": "https://ahelwer.ca/post/2026-09-21-concurrency-textbook/",
-          "publishedOn": "2026-09-21T14:30:00.000Z",
-          "wordCount": 2086,
-          "title": "Book review: Is parallel programming hard, and, if so, what can you do about it?",
-          "imageUrl": "https://ahelwer.ca/post/2026-09-21-concurrency-textbook/spring.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49787726",
-          "author": "zer0tonin",
-          "description": "Article URL: https://alicegg.tech/2026/09/21/attention\nComments URL: https://news.ycombinator.com/item?id=49787726\nPoints: 330\n# Comments: 95",
-          "link": "https://alicegg.tech/2026/09/21/attention",
-          "publishedOn": "2026-09-21T14:26:56.000Z",
-          "wordCount": 685,
-          "title": "Attention is all you have",
-          "imageUrl": "https://www.alicegg.tech/assets/2026-09-21-attention/tetris.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49787684",
-          "author": "xabd",
-          "description": "Article URL: https://digitalescapetools.com/tools/noodlegallery.html\nComments URL: https://news.ycombinator.com/item?id=49787684\nPoints: 57\n# Comments: 36",
-          "link": "https://digitalescapetools.com/tools/noodlegallery.html",
-          "publishedOn": "2026-09-21T14:22:58.000Z",
-          "wordCount": null,
-          "title": "Noodle Gallery – Self-hosted photo and video manager forked from Immich",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49787548",
-          "author": "throw0101c",
-          "description": "Article URL: https://arstechnica.com/gadgets/2026/09/apple-m6-mac-mini-review-300-price-hike-spoils-a-nice-upgrade/\nComments URL: https://news.ycombinator.com/item?id=49787548\nPoints: 85\n# Comments: 48",
-          "link": "https://arstechnica.com/gadgets/2026/09/apple-m6-mac-mini-review-300-price-hike-spoils-a-nice-upgrade/",
-          "publishedOn": "2026-09-21T14:11:45.000Z",
-          "wordCount": null,
-          "title": "Apple Mac mini review",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49787535",
-          "author": "ano-ther",
-          "description": "Article URL: https://www.reddit.com/r/MacOSBeta/comments/1vlnf13/workaround_to_avoid_downloading_ai_models_and/\nComments URL: https://news.ycombinator.com/item?id=49787535\nPoints: 145\n# Comments: 70",
-          "link": "https://www.reddit.com/r/MacOSBeta/comments/1vlnf13/workaround_to_avoid_downloading_ai_models_and/",
-          "publishedOn": "2026-09-21T14:10:49.000Z",
-          "wordCount": null,
-          "title": "macOS 27: Workaround to avoid downloading AI models and save storage",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49787436",
-          "author": "chmaynard",
-          "description": "Article URL: https://bcantrill.dtrace.org/2026/09/20/what-sun-got-wrong/\nComments URL: https://news.ycombinator.com/item?id=49787436\nPoints: 359\n# Comments: 190",
-          "link": "https://bcantrill.dtrace.org/2026/09/20/what-sun-got-wrong/",
-          "publishedOn": "2026-09-21T14:03:18.000Z",
-          "wordCount": 795,
-          "title": "What Sun got wrong",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49787313",
-          "author": "piotrgrabowski",
-          "description": "Article URL: https://www.macstories.net/stories/m5-ultra-mac-studio-review-the-dream-mac-for-local-ai-agents/\nComments URL: https://news.ycombinator.com/item?id=49787313\nPoints: 182\n# Comments: 156",
-          "link": "https://www.macstories.net/stories/m5-ultra-mac-studio-review-the-dream-mac-for-local-ai-agents/",
-          "publishedOn": "2026-09-21T13:53:27.000Z",
-          "wordCount": 17202,
-          "title": "M5 Ultra Mac Studio Review",
-          "imageUrl": "https://cdn.macstories.net/images/uploads/2026/09/21/shortcut-upload-1789994617403-abb772eab6.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49787142",
-          "author": "torutofu",
-          "description": "Article URL: https://blog.cloudflare.com/python-workers-ga/\nComments URL: https://news.ycombinator.com/item?id=49787142\nPoints: 109\n# Comments: 12",
-          "link": "https://blog.cloudflare.com/python-workers-ga/",
-          "publishedOn": "2026-09-21T13:38:19.000Z",
-          "wordCount": 3212,
-          "title": "Python Workers are now generally available",
-          "imageUrl": "https://blog.cloudflare.com/_emdash/api/media/file/01M31JM2B4K28B7C67PCT5PB2R.01M31JM35NW9707QDHV86F68M9.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49786689",
-          "author": "edandersen",
-          "description": "Article URL: https://forums.raspberrypi.com/viewtopic.php?p=2380887#p2380888\nComments URL: https://news.ycombinator.com/item?id=49786689\nPoints: 52\n# Comments: 17",
-          "link": "https://forums.raspberrypi.com/viewtopic.php?p=2380887#p2380888",
-          "publishedOn": "2026-09-21T12:54:24.000Z",
-          "wordCount": null,
-          "title": "Raspberry Pi blocks changing RAM chips",
-          "imageUrl": null
         }
       ]
     }
