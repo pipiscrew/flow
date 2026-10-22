@@ -6,6 +6,46 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=50192900",
+          "author": "keks24",
+          "description": "Article URL: https://nvd.nist.gov/vuln/detail/cve-2026-111943\nComments URL: https://news.ycombinator.com/item?id=50192900\nPoints: 64\n# Comments: 12",
+          "link": "https://nvd.nist.gov/vuln/detail/cve-2026-111943",
+          "publishedOn": "2026-10-22T08:51:31.000Z",
+          "wordCount": 70,
+          "title": "CVE-2026-111943: Compromised Intermediate Certificate Authority",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50191507",
+          "author": "armcat",
+          "description": "Article URL: https://github.com/openai/openai-cli\nComments URL: https://news.ycombinator.com/item?id=50191507\nPoints: 117\n# Comments: 68",
+          "link": "https://github.com/openai/openai-cli",
+          "publishedOn": "2026-10-22T05:23:11.000Z",
+          "wordCount": 6373,
+          "title": "OpenAI CLI",
+          "imageUrl": "https://opengraph.githubassets.com/e5ccc1d47f2b4f31b4bdf60f57043b07273df18683b47856ce6b3cfa29dd0a82/openai/openai-cli"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50190455",
+          "author": "craigcitro",
+          "description": "Article URL: https://web.maths.unsw.edu.au/~davidharvey/research/subnlogn.pdf\nComments URL: https://news.ycombinator.com/item?id=50190455\nPoints: 205\n# Comments: 134",
+          "link": "https://web.maths.unsw.edu.au/~davidharvey/research/subnlogn.pdf",
+          "publishedOn": "2026-10-22T02:30:52.000Z",
+          "wordCount": 11756,
+          "title": "The recently proposed o(n log n) integer multiplication algorithm [pdf]",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50190363",
+          "author": "alphax314",
+          "description": "Article URL: https://simedw.com/2026/10/21/world-model-terminal/\nComments URL: https://news.ycombinator.com/item?id=50190363\nPoints: 203\n# Comments: 60",
+          "link": "https://simedw.com/2026/10/21/world-model-terminal/",
+          "publishedOn": "2026-10-22T02:18:41.000Z",
+          "wordCount": 3339,
+          "title": "WorldTUI: I trained a 360M model to pretend to be a terminal",
+          "imageUrl": "https://simedw.com/2026/10/21/world-model-terminal/images/worldtui-cowsay.jpg"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=50190168",
           "author": "Mayzie",
           "description": "Article URL: https://www.judgments.fedcourt.gov.au/judgments/Judgments/fca/single/2026/2026fca1552\nComments URL: https://news.ycombinator.com/item?id=50190168\nPoints: 82\n# Comments: 34",
@@ -114,6 +154,16 @@
           "wordCount": 8882,
           "title": "EA is shutting down BioWare",
           "imageUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/gsh636en2u1g1.jpg?quality=90&strip=all&crop=0%2C15.095986038394%2C100%2C69.808027923211&w=1200"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50183892",
+          "author": "kmansm27",
+          "description": "Hey all, Kartik from Omnara (https://omnara.com) here. We're building an open-source API for running durable agents. You create an agent with an API call, and Omnara runs the agent loop, gives the agent sandboxes to run commands in, and handles secrets, permissions, and RBAC. Each agent's state is stored in Postgres, so agents survive restarts and cost nothing while idle. You can message them and stream their events over the API.\nYou may remember us from our early days, when we made a remote-control phone app for Claude Code and Codex. Since the harness ran on a laptop back then, we had to build a relay to reach it, it stopped when the laptop closed, and moving it to a cloud sandbox meant syncing code and agent state between machines. We didn't think remote-controlling a local agent was en…",
+          "link": "https://github.com/omnara-ai/omnara",
+          "publishedOn": "2026-10-21T16:44:53.000Z",
+          "wordCount": 7550,
+          "title": "Show HN: Omnara – Open-source alternative to Claude Managed Agents",
+          "imageUrl": "https://repository-images.githubusercontent.com/1016411413/ed725ee5-25c6-40a2-b2a5-1ffd4749afbe"
         },
         {
           "id": "https://news.ycombinator.com/item?id=50183512",
@@ -304,6 +354,16 @@
           "wordCount": 1213,
           "title": "Launch HN: Alter (YC S25) – Access control for multi-user agents",
           "imageUrl": "https://alterauth.com/og-image.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50176082",
+          "author": "jimauthors",
+          "description": "Article URL: https://rumple.github.io/blog/2026/10/20/asking-llm-for-confidence.html\nComments URL: https://news.ycombinator.com/item?id=50176082\nPoints: 90\n# Comments: 48",
+          "link": "https://rumple.github.io/blog/2026/10/20/asking-llm-for-confidence.html",
+          "publishedOn": "2026-10-21T04:27:51.000Z",
+          "wordCount": 1803,
+          "title": "Using LLM for confidence scoring is a bad idea",
+          "imageUrl": null
         },
         {
           "id": "https://news.ycombinator.com/item?id=50175882",
@@ -523,6 +583,16 @@
           "publishedOn": "2026-10-20T14:13:49.000Z",
           "wordCount": 1727,
           "title": "My Friend Bob Cringely",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50166590",
+          "author": "PaulHoule",
+          "description": "Article URL: https://lwn.net/Articles/1096028/\nComments URL: https://news.ycombinator.com/item?id=50166590\nPoints: 64\n# Comments: 3",
+          "link": "https://lwn.net/Articles/1096028/",
+          "publishedOn": "2026-10-20T13:59:11.000Z",
+          "wordCount": 3056,
+          "title": "Beyond the &",
           "imageUrl": null
         },
         {
@@ -10794,146 +10864,6 @@
           "wordCount": 7644,
           "title": "The current balance of power in open models",
           "imageUrl": "https://substackcdn.com/image/fetch/$s_!fktE!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fda6bb5fd-56d4-49ec-a19b-dafc917414e1_3182x1790.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49808023",
-          "author": "boredjohnny",
-          "description": "Article URL: https://foxscript.org/\nComments URL: https://news.ycombinator.com/item?id=49808023\nPoints: 133\n# Comments: 98",
-          "link": "https://foxscript.org/",
-          "publishedOn": "2026-09-22T21:00:30.000Z",
-          "wordCount": 1638,
-          "title": "Microsoft killed FoxPro in 2007. Anyway, here's FoxPro revived",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49807021",
-          "author": "arbayi",
-          "description": "Article URL: https://github.com/geastack/examples\nComments URL: https://news.ycombinator.com/item?id=49807021\nPoints: 69\n# Comments: 19",
-          "link": "https://github.com/geastack/examples",
-          "publishedOn": "2026-09-22T19:42:20.000Z",
-          "wordCount": 2117,
-          "title": "Native apps written in TypeScript and CSS",
-          "imageUrl": "https://opengraph.githubassets.com/cc8f0598ef92f69699ebcdceac3f4b32abf335c5031916d4c42416c6b9fe2098/geastack/examples"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49807003",
-          "author": "Flimm",
-          "description": "Article URL: https://obscura.com/#faq-technical\nComments URL: https://news.ycombinator.com/item?id=49807003\nPoints: 105\n# Comments: 88",
-          "link": "https://obscura.com/#faq-technical",
-          "publishedOn": "2026-09-22T19:40:28.000Z",
-          "wordCount": 2563,
-          "title": "Obscura: VPN that can't log your activity",
-          "imageUrl": "https://obscura.com/og.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49806430",
-          "author": "devonnull",
-          "description": "Article URL: https://www.bloomberg.com/graphics/2026-iran-school-attack/\nComments URL: https://news.ycombinator.com/item?id=49806430\nPoints: 256\n# Comments: 129",
-          "link": "https://www.bloomberg.com/graphics/2026-iran-school-attack/",
-          "publishedOn": "2026-09-22T19:03:38.000Z",
-          "wordCount": null,
-          "title": "Pentagon says overreliance on AI contributed to missile strike on Iran school",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49806335",
-          "author": "aray07",
-          "description": "Article URL: https://blog.trailofbits.com/2026/09/21/saml-a-fractal-of-bad-design/\nComments URL: https://news.ycombinator.com/item?id=49806335\nPoints: 90\n# Comments: 42",
-          "link": "https://blog.trailofbits.com/2026/09/21/saml-a-fractal-of-bad-design/",
-          "publishedOn": "2026-09-22T18:57:17.000Z",
-          "wordCount": 2678,
-          "title": "SAML: A Fractal of Bad Design",
-          "imageUrl": "https://blog.trailofbits.com/2026/09/21/saml-a-fractal-of-bad-design/saml-banner.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49805748",
-          "author": "trollied",
-          "description": "https://github.com/unreallabsai/unreal-agent\nComments URL: https://news.ycombinator.com/item?id=49805748\nPoints: 73\n# Comments: 50",
-          "link": "https://unreallabs.ai/blog/unreal-agent/",
-          "publishedOn": "2026-09-22T18:15:53.000Z",
-          "wordCount": 1287,
-          "title": "Unreal Agent",
-          "imageUrl": "https://unreallabs.ai/assets/blog/unreal-agent/ogimage-v2.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49805677",
-          "author": "meetpateltech",
-          "description": "Article URL: https://discord.com/blog/safer-for-teens-same-discord-for-adults\nComments URL: https://news.ycombinator.com/item?id=49805677\nPoints: 58\n# Comments: 11",
-          "link": "https://discord.com/blog/safer-for-teens-same-discord-for-adults",
-          "publishedOn": "2026-09-22T18:10:31.000Z",
-          "wordCount": 7236,
-          "title": "An update on how we confirm your age group on Discord",
-          "imageUrl": "https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/67d0c4e0932bb59c7f6271e5_2024_10_DiscordBlog_UsingDiscord-1.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49805509",
-          "author": "OfficialTurkey",
-          "description": "Article URL: https://openai.com/index/introducing-gpt-6-sol-and-luna/\nComments URL: https://news.ycombinator.com/item?id=49805509\nPoints: 287\n# Comments: 142",
-          "link": "https://openai.com/index/introducing-gpt-6-sol-and-luna/",
-          "publishedOn": "2026-09-22T18:00:34.000Z",
-          "wordCount": null,
-          "title": "GPT-6 Sol and Luna",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49805344",
-          "author": "ahmedhossamdev",
-          "description": "Article URL: https://ahmedhossamdev.com/writing/my-weird-new-hobby-wandering-around-tokyo/\nComments URL: https://news.ycombinator.com/item?id=49805344\nPoints: 157\n# Comments: 68",
-          "link": "https://ahmedhossamdev.com/writing/my-weird-new-hobby-wandering-around-tokyo/",
-          "publishedOn": "2026-09-22T17:49:46.000Z",
-          "wordCount": 919,
-          "title": "My weird new hobby: Wandering around Tokyo on Google Maps",
-          "imageUrl": "https://ahmedhossamdev.com/og/my-weird-new-hobby-wandering-around-tokyo.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49805278",
-          "author": "spenvo",
-          "description": "https://archive.ph/96YBP\nComments URL: https://news.ycombinator.com/item?id=49805278\nPoints: 166\n# Comments: 111",
-          "link": "https://www.404media.co/we-hacked-the-fbi-hackers-say-they-have-data-on-all-fbi-employees/",
-          "publishedOn": "2026-09-22T17:46:02.000Z",
-          "wordCount": 1606,
-          "title": "'We hacked the FBI:' Hackers say they have data on all FBI employees",
-          "imageUrl": "https://storage.ghost.io/c/0f/76/0f76b548-bc58-4f25-abc3-3f5ebca07da4/content/images/2026/09/8136629475_f6f0b408b3_z.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49804683",
-          "author": "Cider9986",
-          "description": "Article URL: https://grapheneos.social/@GrapheneOS/117299954135808210\nComments URL: https://news.ycombinator.com/item?id=49804683\nPoints: 108\n# Comments: 42",
-          "link": "https://grapheneos.social/@GrapheneOS/117299954135808210",
-          "publishedOn": "2026-09-22T17:12:51.000Z",
-          "wordCount": 262,
-          "title": "There's a high chance of devices being sold with GrapheneOS preinstalled in 2027",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49804316",
-          "author": "theanonymousone",
-          "description": "Article URL: https://artificialanalysis.ai/models/claude-opus-5-5\nComments URL: https://news.ycombinator.com/item?id=49804316\nPoints: 81\n# Comments: 33",
-          "link": "https://artificialanalysis.ai/models/claude-opus-5-5",
-          "publishedOn": "2026-09-22T16:51:31.000Z",
-          "wordCount": 16771,
-          "title": "Claude Opus 5.5 Intelligence, Performance and Price Analysis (Max)",
-          "imageUrl": "https://artificialanalysis.ai/en/models/claude-opus-5-5/opengraph-image?ea6b93c60ecab06d"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49803959",
-          "author": "vntok",
-          "description": "Article URL: https://github.com/WordPress/wordpress-develop/security/advisories/GHSA-7hp8-65ch-5whp\nComments URL: https://news.ycombinator.com/item?id=49803959\nPoints: 65\n# Comments: 26",
-          "link": "https://github.com/WordPress/wordpress-develop/security/advisories/GHSA-7hp8-65ch-5whp",
-          "publishedOn": "2026-09-22T16:33:45.000Z",
-          "wordCount": 1459,
-          "title": "WordPress: Unauthenticated path traversal leading to conditional RCE",
-          "imageUrl": "https://opengraph.githubassets.com/0a709104f82717281f48e543b5542acf296bafdb3d15db8cefd2148be6d4d32b/WordPress/wordpress-develop/security/advisories/GHSA-7hp8-65ch-5whp"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49803892",
-          "author": "km144",
-          "description": "Article URL: https://www.anthropic.com/claude-opus-5-5\nComments URL: https://news.ycombinator.com/item?id=49803892\nPoints: 533\n# Comments: 511",
-          "link": "https://www.anthropic.com/claude-opus-5-5",
-          "publishedOn": "2026-09-22T16:29:05.000Z",
-          "wordCount": 12243,
-          "title": "Claude Opus 5.5",
-          "imageUrl": "https://cdn.sanity.io/images/4zrzovbb/website/f4d37a1d1f582f53f4e89440062b649b6273a093-1200x630.jpg"
         }
       ]
     }

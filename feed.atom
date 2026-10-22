@@ -2,10 +2,62 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-10-22T04:12:34.945Z</updated>
+    <updated>2026-10-22T09:56:37.365Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[CVE-2026-111943: Compromised Intermediate Certificate Authority]]></title>
+        <id>https://news.ycombinator.com/item?id=50192900</id>
+        <link href="https://nvd.nist.gov/vuln/detail/cve-2026-111943"/>
+        <updated>2026-10-22T08:51:31.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://nvd.nist.gov/vuln/detail/cve-2026-111943
+Comments URL: https://news.ycombinator.com/item?id=50192900
+Points: 64
+# Comments: 12]]></summary>
+        <author>
+            <name>keks24</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[OpenAI CLI]]></title>
+        <id>https://news.ycombinator.com/item?id=50191507</id>
+        <link href="https://github.com/openai/openai-cli"/>
+        <updated>2026-10-22T05:23:11.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://github.com/openai/openai-cli
+Comments URL: https://news.ycombinator.com/item?id=50191507
+Points: 117
+# Comments: 68]]></summary>
+        <author>
+            <name>armcat</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The recently proposed o(n log n) integer multiplication algorithm [pdf]]]></title>
+        <id>https://news.ycombinator.com/item?id=50190455</id>
+        <link href="https://web.maths.unsw.edu.au/~davidharvey/research/subnlogn.pdf"/>
+        <updated>2026-10-22T02:30:52.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://web.maths.unsw.edu.au/~davidharvey/research/subnlogn.pdf
+Comments URL: https://news.ycombinator.com/item?id=50190455
+Points: 205
+# Comments: 134]]></summary>
+        <author>
+            <name>craigcitro</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[WorldTUI: I trained a 360M model to pretend to be a terminal]]></title>
+        <id>https://news.ycombinator.com/item?id=50190363</id>
+        <link href="https://simedw.com/2026/10/21/world-model-terminal/"/>
+        <updated>2026-10-22T02:18:41.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://simedw.com/2026/10/21/world-model-terminal/
+Comments URL: https://news.ycombinator.com/item?id=50190363
+Points: 203
+# Comments: 60]]></summary>
+        <author>
+            <name>alphax314</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Epic vs. Apple AU:Court Orders Alt App Stores,Sideloading and 3rd Party Payments]]></title>
         <id>https://news.ycombinator.com/item?id=50190168</id>
@@ -147,6 +199,17 @@ Points: 266
 # Comments: 151]]></summary>
         <author>
             <name>aaronbrethorst</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Omnara – Open-source alternative to Claude Managed Agents]]></title>
+        <id>https://news.ycombinator.com/item?id=50183892</id>
+        <link href="https://github.com/omnara-ai/omnara"/>
+        <updated>2026-10-21T16:44:53.000Z</updated>
+        <summary type="html"><![CDATA[Hey all, Kartik from Omnara (https://omnara.com) here. We're building an open-source API for running durable agents. You create an agent with an API call, and Omnara runs the agent loop, gives the agent sandboxes to run commands in, and handles secrets, permissions, and RBAC. Each agent's state is stored in Postgres, so agents survive restarts and cost nothing while idle. You can message them and stream their events over the API.
+You may remember us from our early days, when we made a remote-control phone app for Claude Code and Codex. Since the harness ran on a laptop back then, we had to build a relay to reach it, it stopped when the laptop closed, and moving it to a cloud sandbox meant syncing code and agent state between machines. We didn't think remote-controlling a local agent was en…]]></summary>
+        <author>
+            <name>kmansm27</name>
         </author>
     </entry>
     <entry>
@@ -396,6 +459,19 @@ Here’s what Alter does:
 -It takes identity into account for every action the agent does. Automatically take into account the end us…]]></summary>
         <author>
             <name>simfinii</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Using LLM for confidence scoring is a bad idea]]></title>
+        <id>https://news.ycombinator.com/item?id=50176082</id>
+        <link href="https://rumple.github.io/blog/2026/10/20/asking-llm-for-confidence.html"/>
+        <updated>2026-10-21T04:27:51.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://rumple.github.io/blog/2026/10/20/asking-llm-for-confidence.html
+Comments URL: https://news.ycombinator.com/item?id=50176082
+Points: 90
+# Comments: 48]]></summary>
+        <author>
+            <name>jimauthors</name>
         </author>
     </entry>
     <entry>
@@ -686,6 +762,19 @@ Points: 70
 # Comments: 24]]></summary>
         <author>
             <name>zinxq</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Beyond the &]]></title>
+        <id>https://news.ycombinator.com/item?id=50166590</id>
+        <link href="https://lwn.net/Articles/1096028/"/>
+        <updated>2026-10-20T13:59:11.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://lwn.net/Articles/1096028/
+Comments URL: https://news.ycombinator.com/item?id=50166590
+Points: 64
+# Comments: 3]]></summary>
+        <author>
+            <name>PaulHoule</name>
         </author>
     </entry>
     <entry>
@@ -14223,188 +14312,6 @@ Points: 67
 # Comments: 20]]></summary>
         <author>
             <name>gmays</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Microsoft killed FoxPro in 2007. Anyway, here's FoxPro revived]]></title>
-        <id>https://news.ycombinator.com/item?id=49808023</id>
-        <link href="https://foxscript.org/"/>
-        <updated>2026-09-22T21:00:30.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://foxscript.org/
-Comments URL: https://news.ycombinator.com/item?id=49808023
-Points: 133
-# Comments: 98]]></summary>
-        <author>
-            <name>boredjohnny</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Native apps written in TypeScript and CSS]]></title>
-        <id>https://news.ycombinator.com/item?id=49807021</id>
-        <link href="https://github.com/geastack/examples"/>
-        <updated>2026-09-22T19:42:20.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://github.com/geastack/examples
-Comments URL: https://news.ycombinator.com/item?id=49807021
-Points: 69
-# Comments: 19]]></summary>
-        <author>
-            <name>arbayi</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Obscura: VPN that can't log your activity]]></title>
-        <id>https://news.ycombinator.com/item?id=49807003</id>
-        <link href="https://obscura.com/#faq-technical"/>
-        <updated>2026-09-22T19:40:28.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://obscura.com/#faq-technical
-Comments URL: https://news.ycombinator.com/item?id=49807003
-Points: 105
-# Comments: 88]]></summary>
-        <author>
-            <name>Flimm</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Pentagon says overreliance on AI contributed to missile strike on Iran school]]></title>
-        <id>https://news.ycombinator.com/item?id=49806430</id>
-        <link href="https://www.bloomberg.com/graphics/2026-iran-school-attack/"/>
-        <updated>2026-09-22T19:03:38.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.bloomberg.com/graphics/2026-iran-school-attack/
-Comments URL: https://news.ycombinator.com/item?id=49806430
-Points: 256
-# Comments: 129]]></summary>
-        <author>
-            <name>devonnull</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[SAML: A Fractal of Bad Design]]></title>
-        <id>https://news.ycombinator.com/item?id=49806335</id>
-        <link href="https://blog.trailofbits.com/2026/09/21/saml-a-fractal-of-bad-design/"/>
-        <updated>2026-09-22T18:57:17.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://blog.trailofbits.com/2026/09/21/saml-a-fractal-of-bad-design/
-Comments URL: https://news.ycombinator.com/item?id=49806335
-Points: 90
-# Comments: 42]]></summary>
-        <author>
-            <name>aray07</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Unreal Agent]]></title>
-        <id>https://news.ycombinator.com/item?id=49805748</id>
-        <link href="https://unreallabs.ai/blog/unreal-agent/"/>
-        <updated>2026-09-22T18:15:53.000Z</updated>
-        <summary type="html"><![CDATA[https://github.com/unreallabsai/unreal-agent
-Comments URL: https://news.ycombinator.com/item?id=49805748
-Points: 73
-# Comments: 50]]></summary>
-        <author>
-            <name>trollied</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[An update on how we confirm your age group on Discord]]></title>
-        <id>https://news.ycombinator.com/item?id=49805677</id>
-        <link href="https://discord.com/blog/safer-for-teens-same-discord-for-adults"/>
-        <updated>2026-09-22T18:10:31.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://discord.com/blog/safer-for-teens-same-discord-for-adults
-Comments URL: https://news.ycombinator.com/item?id=49805677
-Points: 58
-# Comments: 11]]></summary>
-        <author>
-            <name>meetpateltech</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GPT-6 Sol and Luna]]></title>
-        <id>https://news.ycombinator.com/item?id=49805509</id>
-        <link href="https://openai.com/index/introducing-gpt-6-sol-and-luna/"/>
-        <updated>2026-09-22T18:00:34.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://openai.com/index/introducing-gpt-6-sol-and-luna/
-Comments URL: https://news.ycombinator.com/item?id=49805509
-Points: 287
-# Comments: 142]]></summary>
-        <author>
-            <name>OfficialTurkey</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[My weird new hobby: Wandering around Tokyo on Google Maps]]></title>
-        <id>https://news.ycombinator.com/item?id=49805344</id>
-        <link href="https://ahmedhossamdev.com/writing/my-weird-new-hobby-wandering-around-tokyo/"/>
-        <updated>2026-09-22T17:49:46.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://ahmedhossamdev.com/writing/my-weird-new-hobby-wandering-around-tokyo/
-Comments URL: https://news.ycombinator.com/item?id=49805344
-Points: 157
-# Comments: 68]]></summary>
-        <author>
-            <name>ahmedhossamdev</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA['We hacked the FBI:' Hackers say they have data on all FBI employees]]></title>
-        <id>https://news.ycombinator.com/item?id=49805278</id>
-        <link href="https://www.404media.co/we-hacked-the-fbi-hackers-say-they-have-data-on-all-fbi-employees/"/>
-        <updated>2026-09-22T17:46:02.000Z</updated>
-        <summary type="html"><![CDATA[https://archive.ph/96YBP
-Comments URL: https://news.ycombinator.com/item?id=49805278
-Points: 166
-# Comments: 111]]></summary>
-        <author>
-            <name>spenvo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[There's a high chance of devices being sold with GrapheneOS preinstalled in 2027]]></title>
-        <id>https://news.ycombinator.com/item?id=49804683</id>
-        <link href="https://grapheneos.social/@GrapheneOS/117299954135808210"/>
-        <updated>2026-09-22T17:12:51.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://grapheneos.social/@GrapheneOS/117299954135808210
-Comments URL: https://news.ycombinator.com/item?id=49804683
-Points: 108
-# Comments: 42]]></summary>
-        <author>
-            <name>Cider9986</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Claude Opus 5.5 Intelligence, Performance and Price Analysis (Max)]]></title>
-        <id>https://news.ycombinator.com/item?id=49804316</id>
-        <link href="https://artificialanalysis.ai/models/claude-opus-5-5"/>
-        <updated>2026-09-22T16:51:31.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://artificialanalysis.ai/models/claude-opus-5-5
-Comments URL: https://news.ycombinator.com/item?id=49804316
-Points: 81
-# Comments: 33]]></summary>
-        <author>
-            <name>theanonymousone</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[WordPress: Unauthenticated path traversal leading to conditional RCE]]></title>
-        <id>https://news.ycombinator.com/item?id=49803959</id>
-        <link href="https://github.com/WordPress/wordpress-develop/security/advisories/GHSA-7hp8-65ch-5whp"/>
-        <updated>2026-09-22T16:33:45.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://github.com/WordPress/wordpress-develop/security/advisories/GHSA-7hp8-65ch-5whp
-Comments URL: https://news.ycombinator.com/item?id=49803959
-Points: 65
-# Comments: 26]]></summary>
-        <author>
-            <name>vntok</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Claude Opus 5.5]]></title>
-        <id>https://news.ycombinator.com/item?id=49803892</id>
-        <link href="https://www.anthropic.com/claude-opus-5-5"/>
-        <updated>2026-09-22T16:29:05.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.anthropic.com/claude-opus-5-5
-Comments URL: https://news.ycombinator.com/item?id=49803892
-Points: 533
-# Comments: 511]]></summary>
-        <author>
-            <name>km144</name>
         </author>
     </entry>
 </feed>
