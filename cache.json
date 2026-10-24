@@ -6,6 +6,36 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=50218195",
+          "author": "stmonty",
+          "description": "Article URL: https://rtfeldman.com/fp-vs-c\nComments URL: https://news.ycombinator.com/item?id=50218195\nPoints: 58\n# Comments: 6",
+          "link": "https://rtfeldman.com/fp-vs-c",
+          "publishedOn": "2026-10-24T03:43:54.000Z",
+          "wordCount": 16143,
+          "title": "How close can pure functional programming get to C?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50217683",
+          "author": "amichail",
+          "description": "Article URL: https://www.sciencedaily.com/releases/2026/10/261018084421.htm\nComments URL: https://news.ycombinator.com/item?id=50217683\nPoints: 81\n# Comments: 21",
+          "link": "https://www.sciencedaily.com/releases/2026/10/261018084421.htm",
+          "publishedOn": "2026-10-24T01:53:10.000Z",
+          "wordCount": 3806,
+          "title": "Alzheimer's breakthrough: 2 hrs of sleep restored without clearing brain plaques",
+          "imageUrl": "https://www.sciencedaily.com/images/1920/sleep-man-brain-spine-nervous-system.webp"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50217500",
+          "author": "otoolep",
+          "description": "Article URL: https://philipotoole.com/twelve-years-of-distributed-sqlite/\nComments URL: https://news.ycombinator.com/item?id=50217500\nPoints: 135\n# Comments: 16",
+          "link": "https://philipotoole.com/twelve-years-of-distributed-sqlite/",
+          "publishedOn": "2026-10-24T01:16:58.000Z",
+          "wordCount": 3192,
+          "title": "Twelve years of distributed SQLite",
+          "imageUrl": null
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=50216791",
           "author": "cowlevel",
           "description": "Article URL: https://nitter.click/AikidoSecurity/status/2113759110625906950?__galadriel=lPmlGl9id4oAd5UeBwMhlYKArHyr6lR2IDGujPwB5HV2kQ1aLoPWFd5A9sGuzNcmrp8fUso8qygmHcKTDZ8MNHWqQ3bDJcycV87xp_0VypzQLYj6O_RRHlZuQqj33oASGY2YLSoAiMjeOZN40h7Stf8AG7DPrGZbAPVKUXy36HoMudRbvwF3_r2uYNmfJMhpKzywQDM6Ab8\nComments URL: https://news.ycombinator.com/item?id=50216791\nPoints: 61\n# Comments: 16",
@@ -33,6 +63,16 @@
           "publishedOn": "2026-10-23T19:50:56.000Z",
           "wordCount": null,
           "title": "Securing our frontier model training environment",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50214373",
+          "author": "eiopa",
+          "description": "Hey everyone,\nInspired by Herdr, I've built an agent multiplexer that I've been using as my daily driver for a few weeks now.\nI think I improved on the concept in a few ways, focusing on the ergonomics I always wished I had:\nI show you what the agents are up to, along with a running feed of their activity.\nThere's also a simple shortcut (F1) to go to the next unread agent.\nI use multiple accounts, so I've added unified launcher for Codex/Claude Code/Pi.\nTheres some careful ergonomics there: fast search and resume over sessions, inline usage tracking etc.\nMany small quality of life improvements to the terminal experience:\n- Links can be copied with a click, so no need to drag-select over many lines\n- cmd+v just pastes images (even on SSH)\n- images have a thumbnail preview.\n- Built-in CPU/Memory/GPU usage tracking, broken down by workspace\nI assume you have access to cheap inference (Luna/Haiku/etc).\nIt just reuses the agents to organize things for you: what is this http link? what is this worktree about? what is each agent doing? \nIt's small but it made my environment feel more cozy.\nOn a personal note, I've been on a frustrating sick leave for a while now.\nI created Corgi to challenge myself, and see if I can go back.\nThe answer is more mixed than I had hoped, but I am happy with the result and thankful for the experience.\nI hope you like it! a few friends & myself have been using it for a few weeks and it's been pretty nice.\nThere's still a lot to improve and some rough edges, so feedback would be greatly appreciated.\nThank you :)\nComments URL: https://news.ycombinator.com/item?id=50214373\nPoints: 71\n# Comments: 18",
+          "link": "https://corgi.computer/",
+          "publishedOn": "2026-10-23T19:46:38.000Z",
+          "wordCount": 33375,
+          "title": "Show HN: Corgi, a helpful {agent, terminal} multiplexer",
           "imageUrl": null
         },
         {
@@ -666,6 +706,16 @@
           "imageUrl": null
         },
         {
+          "id": "https://news.ycombinator.com/item?id=50193677",
+          "author": "klaussilveira",
+          "description": "Article URL: https://funcarena.com/articles/the-quake-fan-who-built-the-map-editor-everybody-uses\nComments URL: https://news.ycombinator.com/item?id=50193677\nPoints: 75\n# Comments: 5",
+          "link": "https://funcarena.com/articles/the-quake-fan-who-built-the-map-editor-everybody-uses",
+          "publishedOn": "2026-10-22T10:55:22.000Z",
+          "wordCount": 2844,
+          "title": "The Quake Fan who built the map editor everybody uses",
+          "imageUrl": null
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=50193416",
           "author": "petecooper",
           "description": "I posted here about the then-upcoming PHP RCEs related to CVE-2026-109618 & CVE-2026-109619. I appreciate this has had considerable knock-on effects with the schedule for co-ordinated disclosure, and created additional workload.\nI am truly sorry. I take full responsibility for my actions.\nIt was not remotely my intention to cause any of the subsequent side effects.\nAt the time of posting, I didn't know about any embargo. My contact had told me there was no embargo, and her contact had told her the same thing.\nAs someone who follows the 4-weekly PHP release cycle and compiles it from source, my intention was to alert others in a similar position to be aware of the importance/urgency of the updates.\nThat clearly backfired in a pretty wild fashion. I have learned my lesson.\nComments URL: https://news.ycombinator.com/item?id=50193416\nPoints: 96\n# Comments: 18",
@@ -1056,6 +1106,16 @@
           "imageUrl": "https://alterauth.com/og-image.png"
         },
         {
+          "id": "https://news.ycombinator.com/item?id=50176544",
+          "author": "martz",
+          "description": "Article URL: https://martinfinkel.com/blog/gaussian-blur-c-vs-csharp/\nComments URL: https://news.ycombinator.com/item?id=50176544\nPoints: 57\n# Comments: 11",
+          "link": "https://martinfinkel.com/blog/gaussian-blur-c-vs-csharp/",
+          "publishedOn": "2026-10-21T05:48:12.000Z",
+          "wordCount": 2006,
+          "title": "C vs. C#: racing VLC's Gaussian blur",
+          "imageUrl": "https://martinfinkel.com/og/blog/gaussian-blur-c-vs-csharp.png"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=50176082",
           "author": "jimauthors",
           "description": "Article URL: https://rumple.github.io/blog/2026/10/20/asking-llm-for-confidence.html\nComments URL: https://news.ycombinator.com/item?id=50176082\nPoints: 90\n# Comments: 48",
@@ -1154,6 +1214,16 @@
           "wordCount": 3593,
           "title": "Feds suspect ransom negotiator ran ShinyHunters extortion site",
           "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50172962",
+          "author": "Ravencentric",
+          "description": "Article URL: https://astral.sh/blog/uv-ty-integration\nComments URL: https://news.ycombinator.com/item?id=50172962\nPoints: 104\n# Comments: 24",
+          "link": "https://astral.sh/blog/uv-ty-integration",
+          "publishedOn": "2026-10-20T21:30:56.000Z",
+          "wordCount": 2739,
+          "title": "Bringing uv and ty together",
+          "imageUrl": "https://astral.sh/static/OpenGraph/Uv_Ty_Integration.png"
         },
         {
           "id": "https://news.ycombinator.com/item?id=50172041",
@@ -10904,96 +10974,6 @@
           "wordCount": null,
           "title": "Using LLMs to trace alchemical knowledge and decode 17th century letters",
           "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49835096",
-          "author": "KraftyOne",
-          "description": "Article URL: https://www.dbos.dev/blog/postgres-select-distinct-does-not-scale\nComments URL: https://news.ycombinator.com/item?id=49835096\nPoints: 62\n# Comments: 20",
-          "link": "https://www.dbos.dev/blog/postgres-select-distinct-does-not-scale",
-          "publishedOn": "2026-09-24T18:43:52.000Z",
-          "wordCount": 2667,
-          "title": "Postgres SELECT DISTINCT Does Not Scale",
-          "imageUrl": "https://cdn.prod.website-files.com/672411cbf038560468c9e68f/6a7a0f12442b7d3cceb98f2e_Postgres-SELECT-DISTINCT-does-not-scale2.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49833867",
-          "author": "sidharthkmenon",
-          "description": "Hello! We’re Sid, Alex, Ketan, and Milan. We’re building Whiteboard, an open-source desktop app where humans and agents can architect software together in a common workspace. Here’s our repo: https://github.com/devdotfast/whiteboard and our homepage: https://whiteboard.dev.fast/\nWe were missing the feeling of a “whiteboard session” with another dev where you leave with a deep understanding of a system, so we built this app for ourselves. Whiteboard plugs into the tools you already use - e.g. Claude Code, Codex, etc. – and gives your agent an SDK to draw on an in-app canvas to describe its work. We began with an MVP based on HTML artifacts and started rethinking the app as we ran into limitations:\n1. Built on top of CodeOSS: We found that in pure HTML tools it was hard to connect a spec or …",
-          "link": "https://github.com/devdotfast/whiteboard",
-          "publishedOn": "2026-09-24T17:21:36.000Z",
-          "wordCount": 4005,
-          "title": "Show HN: Whiteboard (YC W26) – An open-source IDE for thoughtful software design",
-          "imageUrl": "https://opengraph.githubassets.com/b98f6149c7d9b0dfdfd02c1892f51399300d1dcfb6c82a00e1834d1cad6ad228/devdotfast/whiteboard"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49833444",
-          "author": "big_toast",
-          "description": "Article URL: https://basin.la/articles/ninety-feet-a-minute.html\nComments URL: https://news.ycombinator.com/item?id=49833444\nPoints: 100\n# Comments: 83",
-          "link": "https://basin.la/articles/ninety-feet-a-minute.html",
-          "publishedOn": "2026-09-24T16:52:24.000Z",
-          "wordCount": 1411,
-          "title": "LA Metro has some of the slowest escalators",
-          "imageUrl": "https://basin.la/assets/share-art-ninety-feet-a-minute.png?v=4310383d"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49832938",
-          "author": "jbotz",
-          "description": "Article URL: https://dynomight.substack.com/p/liver\nComments URL: https://news.ycombinator.com/item?id=49832938\nPoints: 154\n# Comments: 111",
-          "link": "https://dynomight.substack.com/p/liver",
-          "publishedOn": "2026-09-24T16:23:00.000Z",
-          "wordCount": null,
-          "title": "Why is the liver so weirdly regenerative?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49832768",
-          "author": "momentmaker",
-          "description": "Article URL: https://www.movingimagearchive.com/\nComments URL: https://news.ycombinator.com/item?id=49832768\nPoints: 75\n# Comments: 18",
-          "link": "https://www.movingimagearchive.com/",
-          "publishedOn": "2026-09-24T16:11:42.000Z",
-          "wordCount": 750,
-          "title": "A searchable library of forgotten public-domain film clips from 1915 onward",
-          "imageUrl": "https://www.movingimagearchive.com/og-cat-20260922.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49832406",
-          "author": "hermitcrab",
-          "description": "Article URL: https://successfulsoftware.net/2026/09/24/github-has-not-removed-malicious-imitation-software-after-3-weeks/\nComments URL: https://news.ycombinator.com/item?id=49832406\nPoints: 176\n# Comments: 73",
-          "link": "https://successfulsoftware.net/2026/09/24/github-has-not-removed-malicious-imitation-software-after-3-weeks/",
-          "publishedOn": "2026-09-24T15:50:26.000Z",
-          "wordCount": 4170,
-          "title": "GitHub has not removed malicious imitation software after 3 weeks",
-          "imageUrl": "https://successfulsoftware.net/wp-content/uploads/2026/09/github.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49831968",
-          "author": "daveoc64",
-          "description": "Article URL: https://f-droid.org/2026/09/24/f-droid-2.0-a-new-chapter-for-android-freedom.html\nComments URL: https://news.ycombinator.com/item?id=49831968\nPoints: 482\n# Comments: 150",
-          "link": "https://f-droid.org/2026/09/24/f-droid-2.0-a-new-chapter-for-android-freedom.html",
-          "publishedOn": "2026-09-24T15:26:12.000Z",
-          "wordCount": 3122,
-          "title": "F-Droid 2.0",
-          "imageUrl": "https://f-droid.org/assets/fdroid-logo_bfHl7nsLHOUQxzdU8-rGIhn4bAgl6z7k2mA3fWoCyT4=.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49831690",
-          "author": "theanonymousone",
-          "description": "Article URL: https://www.afr.com/policy/health-and-education/tutoring-company-tell-parents-to-save-their-money-and-use-ai-instead-20260923-p60z0r\nComments URL: https://news.ycombinator.com/item?id=49831690\nPoints: 61\n# Comments: 77",
-          "link": "https://www.afr.com/policy/health-and-education/tutoring-company-tell-parents-to-save-their-money-and-use-ai-instead-20260923-p60z0r",
-          "publishedOn": "2026-09-24T15:09:38.000Z",
-          "wordCount": 7858,
-          "title": "Tutoring company tells parents to save their money and 'use AI instead'",
-          "imageUrl": "https://static.ffx.io/images/$zoom_0.2383%2C$multiply_3%2C$ratio_1.777778%2C$width_1059%2C$x_141%2C$y_92/t_crop_custom/c_scale%2Cw_800%2Cq_88%2Cf_jpg/t_afr_no_label_no_age_social_wm/ece659b09d978278f1063e2ef412bb0b3b8bb118"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49830606",
-          "author": "xnx",
-          "description": "https://www.nytimes.com/2026/09/24/technology/google-suncatc... (https://archive.ph/BGFnP)\nComments URL: https://news.ycombinator.com/item?id=49830606\nPoints: 72\n# Comments: 123",
-          "link": "https://blog.google/innovation-and-ai/models-and-research/google-research/google-project-suncatcher-facts/",
-          "publishedOn": "2026-09-24T13:53:29.000Z",
-          "wordCount": 4276,
-          "title": "Google’s Project Suncatcher to put ML infrastructure in space",
-          "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Project_Suncatcher_social.width-1300.png"
         }
       ]
     }

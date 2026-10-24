@@ -2,10 +2,49 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-10-24T01:27:58.248Z</updated>
+    <updated>2026-10-24T07:04:29.316Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[How close can pure functional programming get to C?]]></title>
+        <id>https://news.ycombinator.com/item?id=50218195</id>
+        <link href="https://rtfeldman.com/fp-vs-c"/>
+        <updated>2026-10-24T03:43:54.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://rtfeldman.com/fp-vs-c
+Comments URL: https://news.ycombinator.com/item?id=50218195
+Points: 58
+# Comments: 6]]></summary>
+        <author>
+            <name>stmonty</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Alzheimer's breakthrough: 2 hrs of sleep restored without clearing brain plaques]]></title>
+        <id>https://news.ycombinator.com/item?id=50217683</id>
+        <link href="https://www.sciencedaily.com/releases/2026/10/261018084421.htm"/>
+        <updated>2026-10-24T01:53:10.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.sciencedaily.com/releases/2026/10/261018084421.htm
+Comments URL: https://news.ycombinator.com/item?id=50217683
+Points: 81
+# Comments: 21]]></summary>
+        <author>
+            <name>amichail</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Twelve years of distributed SQLite]]></title>
+        <id>https://news.ycombinator.com/item?id=50217500</id>
+        <link href="https://philipotoole.com/twelve-years-of-distributed-sqlite/"/>
+        <updated>2026-10-24T01:16:58.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://philipotoole.com/twelve-years-of-distributed-sqlite/
+Comments URL: https://news.ycombinator.com/item?id=50217500
+Points: 135
+# Comments: 16]]></summary>
+        <author>
+            <name>otoolep</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Evolving Threat: http2shell is an RCE in node, Python, and more]]></title>
         <id>https://news.ycombinator.com/item?id=50216791</id>
@@ -43,6 +82,39 @@ Points: 72
 # Comments: 86]]></summary>
         <author>
             <name>pretext</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Corgi, a helpful {agent, terminal} multiplexer]]></title>
+        <id>https://news.ycombinator.com/item?id=50214373</id>
+        <link href="https://corgi.computer/"/>
+        <updated>2026-10-23T19:46:38.000Z</updated>
+        <summary type="html"><![CDATA[Hey everyone,
+Inspired by Herdr, I've built an agent multiplexer that I've been using as my daily driver for a few weeks now.
+I think I improved on the concept in a few ways, focusing on the ergonomics I always wished I had:
+I show you what the agents are up to, along with a running feed of their activity.
+There's also a simple shortcut (F1) to go to the next unread agent.
+I use multiple accounts, so I've added unified launcher for Codex/Claude Code/Pi.
+Theres some careful ergonomics there: fast search and resume over sessions, inline usage tracking etc.
+Many small quality of life improvements to the terminal experience:
+- Links can be copied with a click, so no need to drag-select over many lines
+- cmd+v just pastes images (even on SSH)
+- images have a thumbnail preview.
+- Built-in CPU/Memory/GPU usage tracking, broken down by workspace
+I assume you have access to cheap inference (Luna/Haiku/etc).
+It just reuses the agents to organize things for you: what is this http link? what is this worktree about? what is each agent doing? 
+It's small but it made my environment feel more cozy.
+On a personal note, I've been on a frustrating sick leave for a while now.
+I created Corgi to challenge myself, and see if I can go back.
+The answer is more mixed than I had hoped, but I am happy with the result and thankful for the experience.
+I hope you like it! a few friends & myself have been using it for a few weeks and it's been pretty nice.
+There's still a lot to improve and some rough edges, so feedback would be greatly appreciated.
+Thank you :)
+Comments URL: https://news.ycombinator.com/item?id=50214373
+Points: 71
+# Comments: 18]]></summary>
+        <author>
+            <name>eiopa</name>
         </author>
     </entry>
     <entry>
@@ -881,6 +953,19 @@ Points: 161
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[The Quake Fan who built the map editor everybody uses]]></title>
+        <id>https://news.ycombinator.com/item?id=50193677</id>
+        <link href="https://funcarena.com/articles/the-quake-fan-who-built-the-map-editor-everybody-uses"/>
+        <updated>2026-10-22T10:55:22.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://funcarena.com/articles/the-quake-fan-who-built-the-map-editor-everybody-uses
+Comments URL: https://news.ycombinator.com/item?id=50193677
+Points: 75
+# Comments: 5]]></summary>
+        <author>
+            <name>klaussilveira</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Tell HN: I unknowingly broke the PHP RCE embargo. I am sorry.]]></title>
         <id>https://news.ycombinator.com/item?id=50193416</id>
         <link href="https://news.ycombinator.com/item?id=50193416"/>
@@ -1398,6 +1483,19 @@ Here’s what Alter does:
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[C vs. C#: racing VLC's Gaussian blur]]></title>
+        <id>https://news.ycombinator.com/item?id=50176544</id>
+        <link href="https://martinfinkel.com/blog/gaussian-blur-c-vs-csharp/"/>
+        <updated>2026-10-21T05:48:12.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://martinfinkel.com/blog/gaussian-blur-c-vs-csharp/
+Comments URL: https://news.ycombinator.com/item?id=50176544
+Points: 57
+# Comments: 11]]></summary>
+        <author>
+            <name>martz</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Using LLM for confidence scoring is a bad idea]]></title>
         <id>https://news.ycombinator.com/item?id=50176082</id>
         <link href="https://rumple.github.io/blog/2026/10/20/asking-llm-for-confidence.html"/>
@@ -1526,6 +1624,19 @@ Points: 131
 # Comments: 50]]></summary>
         <author>
             <name>Bender</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Bringing uv and ty together]]></title>
+        <id>https://news.ycombinator.com/item?id=50172962</id>
+        <link href="https://astral.sh/blog/uv-ty-integration"/>
+        <updated>2026-10-20T21:30:56.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://astral.sh/blog/uv-ty-integration
+Comments URL: https://news.ycombinator.com/item?id=50172962
+Points: 104
+# Comments: 24]]></summary>
+        <author>
+            <name>Ravencentric</name>
         </author>
     </entry>
     <entry>
@@ -14391,122 +14502,6 @@ Points: 64
 # Comments: 9]]></summary>
         <author>
             <name>benbreen</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Postgres SELECT DISTINCT Does Not Scale]]></title>
-        <id>https://news.ycombinator.com/item?id=49835096</id>
-        <link href="https://www.dbos.dev/blog/postgres-select-distinct-does-not-scale"/>
-        <updated>2026-09-24T18:43:52.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.dbos.dev/blog/postgres-select-distinct-does-not-scale
-Comments URL: https://news.ycombinator.com/item?id=49835096
-Points: 62
-# Comments: 20]]></summary>
-        <author>
-            <name>KraftyOne</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: Whiteboard (YC W26) – An open-source IDE for thoughtful software design]]></title>
-        <id>https://news.ycombinator.com/item?id=49833867</id>
-        <link href="https://github.com/devdotfast/whiteboard"/>
-        <updated>2026-09-24T17:21:36.000Z</updated>
-        <summary type="html"><![CDATA[Hello! We’re Sid, Alex, Ketan, and Milan. We’re building Whiteboard, an open-source desktop app where humans and agents can architect software together in a common workspace. Here’s our repo: https://github.com/devdotfast/whiteboard and our homepage: https://whiteboard.dev.fast/
-We were missing the feeling of a “whiteboard session” with another dev where you leave with a deep understanding of a system, so we built this app for ourselves. Whiteboard plugs into the tools you already use - e.g. Claude Code, Codex, etc. – and gives your agent an SDK to draw on an in-app canvas to describe its work. We began with an MVP based on HTML artifacts and started rethinking the app as we ran into limitations:
-1. Built on top of CodeOSS: We found that in pure HTML tools it was hard to connect a spec or …]]></summary>
-        <author>
-            <name>sidharthkmenon</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[LA Metro has some of the slowest escalators]]></title>
-        <id>https://news.ycombinator.com/item?id=49833444</id>
-        <link href="https://basin.la/articles/ninety-feet-a-minute.html"/>
-        <updated>2026-09-24T16:52:24.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://basin.la/articles/ninety-feet-a-minute.html
-Comments URL: https://news.ycombinator.com/item?id=49833444
-Points: 100
-# Comments: 83]]></summary>
-        <author>
-            <name>big_toast</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Why is the liver so weirdly regenerative?]]></title>
-        <id>https://news.ycombinator.com/item?id=49832938</id>
-        <link href="https://dynomight.substack.com/p/liver"/>
-        <updated>2026-09-24T16:23:00.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://dynomight.substack.com/p/liver
-Comments URL: https://news.ycombinator.com/item?id=49832938
-Points: 154
-# Comments: 111]]></summary>
-        <author>
-            <name>jbotz</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A searchable library of forgotten public-domain film clips from 1915 onward]]></title>
-        <id>https://news.ycombinator.com/item?id=49832768</id>
-        <link href="https://www.movingimagearchive.com/"/>
-        <updated>2026-09-24T16:11:42.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.movingimagearchive.com/
-Comments URL: https://news.ycombinator.com/item?id=49832768
-Points: 75
-# Comments: 18]]></summary>
-        <author>
-            <name>momentmaker</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GitHub has not removed malicious imitation software after 3 weeks]]></title>
-        <id>https://news.ycombinator.com/item?id=49832406</id>
-        <link href="https://successfulsoftware.net/2026/09/24/github-has-not-removed-malicious-imitation-software-after-3-weeks/"/>
-        <updated>2026-09-24T15:50:26.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://successfulsoftware.net/2026/09/24/github-has-not-removed-malicious-imitation-software-after-3-weeks/
-Comments URL: https://news.ycombinator.com/item?id=49832406
-Points: 176
-# Comments: 73]]></summary>
-        <author>
-            <name>hermitcrab</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[F-Droid 2.0]]></title>
-        <id>https://news.ycombinator.com/item?id=49831968</id>
-        <link href="https://f-droid.org/2026/09/24/f-droid-2.0-a-new-chapter-for-android-freedom.html"/>
-        <updated>2026-09-24T15:26:12.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://f-droid.org/2026/09/24/f-droid-2.0-a-new-chapter-for-android-freedom.html
-Comments URL: https://news.ycombinator.com/item?id=49831968
-Points: 482
-# Comments: 150]]></summary>
-        <author>
-            <name>daveoc64</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Tutoring company tells parents to save their money and 'use AI instead']]></title>
-        <id>https://news.ycombinator.com/item?id=49831690</id>
-        <link href="https://www.afr.com/policy/health-and-education/tutoring-company-tell-parents-to-save-their-money-and-use-ai-instead-20260923-p60z0r"/>
-        <updated>2026-09-24T15:09:38.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.afr.com/policy/health-and-education/tutoring-company-tell-parents-to-save-their-money-and-use-ai-instead-20260923-p60z0r
-Comments URL: https://news.ycombinator.com/item?id=49831690
-Points: 61
-# Comments: 77]]></summary>
-        <author>
-            <name>theanonymousone</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Google’s Project Suncatcher to put ML infrastructure in space]]></title>
-        <id>https://news.ycombinator.com/item?id=49830606</id>
-        <link href="https://blog.google/innovation-and-ai/models-and-research/google-research/google-project-suncatcher-facts/"/>
-        <updated>2026-09-24T13:53:29.000Z</updated>
-        <summary type="html"><![CDATA[https://www.nytimes.com/2026/09/24/technology/google-suncatc... (https://archive.ph/BGFnP)
-Comments URL: https://news.ycombinator.com/item?id=49830606
-Points: 72
-# Comments: 123]]></summary>
-        <author>
-            <name>xnx</name>
         </author>
     </entry>
 </feed>
