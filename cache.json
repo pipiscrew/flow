@@ -6,6 +6,86 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=50385272",
+          "author": "motoroco",
+          "description": "Article URL: https://github.com/anthropics/claude-code/issues/107757\nComments URL: https://news.ycombinator.com/item?id=50385272\nPoints: 262\n# Comments: 75",
+          "link": "https://github.com/anthropics/claude-code/issues/107757",
+          "publishedOn": "2026-11-05T22:17:15.000Z",
+          "wordCount": 1822,
+          "title": "Claude Code sends your email address to websites",
+          "imageUrl": "https://opengraph.githubassets.com/a538690010382c08ab9d275856baa2730e03f8fdadd24f3082a5528a12c57ee5/anthropics/claude-code/issues/107757"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50384233",
+          "author": "kuberwastaken",
+          "description": "Article URL: https://www.cve.org/CVERecord?id=CVE-2026-83844\nComments URL: https://news.ycombinator.com/item?id=50384233\nPoints: 244\n# Comments: 66",
+          "link": "https://www.cve.org/CVERecord?id=CVE-2026-83844",
+          "publishedOn": "2026-11-05T20:43:42.000Z",
+          "wordCount": 24,
+          "title": "MS Paint Remote Code Execution Vulnerability",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50383963",
+          "author": "gmays",
+          "description": "Article URL: https://www.tencent.com/tencent-launches-hy4-joining-the-ranks-of-the-worlds-leading-open-source-ai-models/\nComments URL: https://news.ycombinator.com/item?id=50383963\nPoints: 70\n# Comments: 1",
+          "link": "https://www.tencent.com/tencent-launches-hy4-joining-the-ranks-of-the-worlds-leading-open-source-ai-models/",
+          "publishedOn": "2026-11-05T20:21:43.000Z",
+          "wordCount": 4100,
+          "title": "Tencent Launches Hy4, One of the Leading Open-Source AI Models",
+          "imageUrl": "https://www.tencent.com/wp-content/uploads/2026/11/H4_thumbnail_4x3-1.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50383740",
+          "author": "elashri",
+          "description": "Article URL: https://kagi.com/changelog#11820\nComments URL: https://news.ycombinator.com/item?id=50383740\nPoints: 421\n# Comments: 215",
+          "link": "https://kagi.com/changelog#11820",
+          "publishedOn": "2026-11-05T20:03:34.000Z",
+          "wordCount": 26257,
+          "title": "Search for everyone",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50383739",
+          "author": "mkeeter",
+          "description": "Article URL: https://www.salon.com/2026/11/05/goodbye-from-salon/\nComments URL: https://news.ycombinator.com/item?id=50383739\nPoints: 350\n# Comments: 125",
+          "link": "https://www.salon.com/2026/11/05/goodbye-from-salon/",
+          "publishedOn": "2026-11-05T20:03:29.000Z",
+          "wordCount": 1034,
+          "title": "Goodbye from Salon",
+          "imageUrl": "https://www.salon.com/app/uploads/2026/11/Salon-Logos-Background-2.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50383163",
+          "author": "rdmuser",
+          "description": "Article URL: https://www.euronews.com/2026/11/04/hungary-communist-era-files-opened-up-to-60000-former-agents-revealed\nComments URL: https://news.ycombinator.com/item?id=50383163\nPoints: 128\n# Comments: 27",
+          "link": "https://www.euronews.com/2026/11/04/hungary-communist-era-files-opened-up-to-60000-former-agents-revealed",
+          "publishedOn": "2026-11-05T19:16:34.000Z",
+          "wordCount": 5714,
+          "title": "Hungary: Communist-era files released, up to 60k former agents revealed",
+          "imageUrl": "https://images.euronews.com/articles/stories/09/97/91/63/1200x675_cmsv2_e5035729-271a-5b7b-a596-fa27657ccada-9979163.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50383057",
+          "author": "rubatuga",
+          "description": "Article URL: https://www.naut.ca/blog/2026/11/05/the-hackintosh-reborn-with-ai/\nComments URL: https://news.ycombinator.com/item?id=50383057\nPoints: 163\n# Comments: 74",
+          "link": "https://www.naut.ca/blog/2026/11/05/the-hackintosh-reborn-with-ai/",
+          "publishedOn": "2026-11-05T19:08:22.000Z",
+          "wordCount": 575,
+          "title": "The Hackintosh Reborn",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50381687",
+          "author": "NathanFlurry",
+          "description": "Hey HN, this is Nathan and Nicholas from Rivet (https://rivet.dev) – a fast, high-density, and scalable orchestrator for agentic workloads using the actor model. Rather than running a heavyweight sandbox per agent, each agent gets a lightweight actor backed by S3.\nActors provide a long-lived process for long agent turns, in-memory state for context, a WebSocket server for multiplayer, durable SQLite storage backed by S3, and hibernation when idle.\nIt's a similar model to Cloudflare Durable Objects, but it’s open source and self-hostable.\nHere’s a video walkthrough: https://www.youtube.com/watch?v=3Ev6I7DOV9c\nWhen we went through YC in 2023, we were building infrastructure for multiplayer games like Diep and Krunker. This involved heavily optimizing high-throughput matchmaking, real-time pl…",
+          "link": "https://github.com/rivet-dev/rivet",
+          "publishedOn": "2026-11-05T17:17:42.000Z",
+          "wordCount": 7102,
+          "title": "Launch HN: Rivet (YC W23) – Scale and Orchestrate Agents on S3",
+          "imageUrl": "https://repository-images.githubusercontent.com/654560183/d4b2fdae-1a15-4420-a2a3-17256a51ae24"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=50381623",
           "author": "kristianp",
           "description": "Article URL: https://www.cnbc.com/2026/11/04/stock-market-today-live-updates.html\nComments URL: https://news.ycombinator.com/item?id=50381623\nPoints: 53\n# Comments: 29",
@@ -14,6 +94,16 @@
           "wordCount": 39892,
           "title": "Nasdaq plummets 4% into correction territory",
           "imageUrl": "https://image.cnbcfm.com/api/v1/image/108519480-1793896126130-108519480-1793811964689-gettyimages-2303025106-US_STOCKS.jpeg?v=1793896141&w=1920&h=1080"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50381383",
+          "author": "nickswalker",
+          "description": "Article URL: https://github.com/saragordic/window-sweaters\nComments URL: https://news.ycombinator.com/item?id=50381383\nPoints: 216\n# Comments: 77",
+          "link": "https://github.com/saragordic/window-sweaters",
+          "publishedOn": "2026-11-05T16:50:14.000Z",
+          "wordCount": 3566,
+          "title": "Window Sweaters",
+          "imageUrl": "https://repository-images.githubusercontent.com/1370747786/3a594398-957d-455e-a8cd-65e13e23e4b4"
         },
         {
           "id": "https://news.ycombinator.com/item?id=50381302",
@@ -36,6 +126,16 @@
           "imageUrl": "https://claude.ai/images/claude_ogimage.png"
         },
         {
+          "id": "https://news.ycombinator.com/item?id=50380979",
+          "author": "namanbnsl",
+          "description": "Article URL: https://axiommath.ai/research/the-stacks-project-formalized/\nComments URL: https://news.ycombinator.com/item?id=50380979\nPoints: 63\n# Comments: 14",
+          "link": "https://axiommath.ai/research/the-stacks-project-formalized/",
+          "publishedOn": "2026-11-05T16:16:59.000Z",
+          "wordCount": 4579,
+          "title": "The Stacks Project, Formalized in Lean",
+          "imageUrl": "https://axiommath.ai/api/media/file/stacks-city-lead.png?v=2026-11-04T04%3A20%3A45.765Z"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=50380810",
           "author": "monneyboi",
           "description": "Article URL: https://motorolanews.com/motorola-signature-27-2/\nComments URL: https://news.ycombinator.com/item?id=50380810\nPoints: 178\n# Comments: 96",
@@ -43,6 +143,26 @@
           "publishedOn": "2026-11-05T16:01:34.000Z",
           "wordCount": null,
           "title": "Motorola Signature 27 with GrapheneOS support",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50380704",
+          "author": "agybay_07",
+          "description": "Article URL: https://github.com/AGGIB/Stroq\nComments URL: https://news.ycombinator.com/item?id=50380704\nPoints: 63\n# Comments: 13",
+          "link": "https://github.com/AGGIB/Stroq",
+          "publishedOn": "2026-11-05T15:54:41.000Z",
+          "wordCount": 4804,
+          "title": "Show HN: Stroq – a local audit of what your coding agent did and why",
+          "imageUrl": "https://repository-images.githubusercontent.com/1356786315/48fcff41-50bf-4992-bc12-087ec7b651e7"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50380268",
+          "author": "zdw",
+          "description": "Article URL: https://nullprogram.com/blog/2026/11/05/\nComments URL: https://news.ycombinator.com/item?id=50380268\nPoints: 87\n# Comments: 10",
+          "link": "https://nullprogram.com/blog/2026/11/05/",
+          "publishedOn": "2026-11-05T15:25:22.000Z",
+          "wordCount": 917,
+          "title": "We can do better than line-buffered output",
           "imageUrl": null
         },
         {
@@ -10924,36 +11044,6 @@
           "wordCount": 4784,
           "title": "Write Like It's 1866: LLMs Relearn Telegraphese",
           "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49991227",
-          "author": "AshleysBrain",
-          "description": "Article URL: https://developer.chrome.com/blog/jpeg-xl-in-chrome\nComments URL: https://news.ycombinator.com/item?id=49991227\nPoints: 310\n# Comments: 177",
-          "link": "https://developer.chrome.com/blog/jpeg-xl-in-chrome",
-          "publishedOn": "2026-10-07T11:25:02.000Z",
-          "wordCount": 1320,
-          "title": "Shipping JPEG XL in Chrome",
-          "imageUrl": "https://developer.chrome.com/static/blog/jpeg-xl-in-chrome/images/cover.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49990470",
-          "author": "sasvari",
-          "description": "Article URL: https://www.nobelprize.org/prizes/chemistry/2026/press-release/\nComments URL: https://news.ycombinator.com/item?id=49990470\nPoints: 195\n# Comments: 32",
-          "link": "https://www.nobelprize.org/prizes/chemistry/2026/press-release/",
-          "publishedOn": "2026-10-07T09:51:43.000Z",
-          "wordCount": null,
-          "title": "Nobel Prize in Chemistry 2026 to Henri B. Kagan and Kenso Soai",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49990224",
-          "author": "sohkamyung",
-          "description": "Article URL: https://github.com/szabadkai/c64-keyboard-font/\nComments URL: https://news.ycombinator.com/item?id=49990224\nPoints: 265\n# Comments: 47",
-          "link": "https://github.com/szabadkai/c64-keyboard-font/",
-          "publishedOn": "2026-10-07T09:17:55.000Z",
-          "wordCount": 1505,
-          "title": "A font recreated from photographs of classic Commodore 64 keycaps",
-          "imageUrl": "https://opengraph.githubassets.com/65a94e748f5cabb1c6ce753e97fc7f51d6a2bbb733e9c280d68804238a54aad7/szabadkai/c64-keyboard-font"
         }
       ]
     }

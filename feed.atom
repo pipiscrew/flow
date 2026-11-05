@@ -2,10 +2,115 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-11-05T18:37:32.190Z</updated>
+    <updated>2026-11-05T23:59:43.583Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Claude Code sends your email address to websites]]></title>
+        <id>https://news.ycombinator.com/item?id=50385272</id>
+        <link href="https://github.com/anthropics/claude-code/issues/107757"/>
+        <updated>2026-11-05T22:17:15.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://github.com/anthropics/claude-code/issues/107757
+Comments URL: https://news.ycombinator.com/item?id=50385272
+Points: 262
+# Comments: 75]]></summary>
+        <author>
+            <name>motoroco</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[MS Paint Remote Code Execution Vulnerability]]></title>
+        <id>https://news.ycombinator.com/item?id=50384233</id>
+        <link href="https://www.cve.org/CVERecord?id=CVE-2026-83844"/>
+        <updated>2026-11-05T20:43:42.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.cve.org/CVERecord?id=CVE-2026-83844
+Comments URL: https://news.ycombinator.com/item?id=50384233
+Points: 244
+# Comments: 66]]></summary>
+        <author>
+            <name>kuberwastaken</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Tencent Launches Hy4, One of the Leading Open-Source AI Models]]></title>
+        <id>https://news.ycombinator.com/item?id=50383963</id>
+        <link href="https://www.tencent.com/tencent-launches-hy4-joining-the-ranks-of-the-worlds-leading-open-source-ai-models/"/>
+        <updated>2026-11-05T20:21:43.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.tencent.com/tencent-launches-hy4-joining-the-ranks-of-the-worlds-leading-open-source-ai-models/
+Comments URL: https://news.ycombinator.com/item?id=50383963
+Points: 70
+# Comments: 1]]></summary>
+        <author>
+            <name>gmays</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Search for everyone]]></title>
+        <id>https://news.ycombinator.com/item?id=50383740</id>
+        <link href="https://kagi.com/changelog#11820"/>
+        <updated>2026-11-05T20:03:34.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://kagi.com/changelog#11820
+Comments URL: https://news.ycombinator.com/item?id=50383740
+Points: 421
+# Comments: 215]]></summary>
+        <author>
+            <name>elashri</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Goodbye from Salon]]></title>
+        <id>https://news.ycombinator.com/item?id=50383739</id>
+        <link href="https://www.salon.com/2026/11/05/goodbye-from-salon/"/>
+        <updated>2026-11-05T20:03:29.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.salon.com/2026/11/05/goodbye-from-salon/
+Comments URL: https://news.ycombinator.com/item?id=50383739
+Points: 350
+# Comments: 125]]></summary>
+        <author>
+            <name>mkeeter</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Hungary: Communist-era files released, up to 60k former agents revealed]]></title>
+        <id>https://news.ycombinator.com/item?id=50383163</id>
+        <link href="https://www.euronews.com/2026/11/04/hungary-communist-era-files-opened-up-to-60000-former-agents-revealed"/>
+        <updated>2026-11-05T19:16:34.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.euronews.com/2026/11/04/hungary-communist-era-files-opened-up-to-60000-former-agents-revealed
+Comments URL: https://news.ycombinator.com/item?id=50383163
+Points: 128
+# Comments: 27]]></summary>
+        <author>
+            <name>rdmuser</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Hackintosh Reborn]]></title>
+        <id>https://news.ycombinator.com/item?id=50383057</id>
+        <link href="https://www.naut.ca/blog/2026/11/05/the-hackintosh-reborn-with-ai/"/>
+        <updated>2026-11-05T19:08:22.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.naut.ca/blog/2026/11/05/the-hackintosh-reborn-with-ai/
+Comments URL: https://news.ycombinator.com/item?id=50383057
+Points: 163
+# Comments: 74]]></summary>
+        <author>
+            <name>rubatuga</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Launch HN: Rivet (YC W23) – Scale and Orchestrate Agents on S3]]></title>
+        <id>https://news.ycombinator.com/item?id=50381687</id>
+        <link href="https://github.com/rivet-dev/rivet"/>
+        <updated>2026-11-05T17:17:42.000Z</updated>
+        <summary type="html"><![CDATA[Hey HN, this is Nathan and Nicholas from Rivet (https://rivet.dev) – a fast, high-density, and scalable orchestrator for agentic workloads using the actor model. Rather than running a heavyweight sandbox per agent, each agent gets a lightweight actor backed by S3.
+Actors provide a long-lived process for long agent turns, in-memory state for context, a WebSocket server for multiplayer, durable SQLite storage backed by S3, and hibernation when idle.
+It's a similar model to Cloudflare Durable Objects, but it’s open source and self-hostable.
+Here’s a video walkthrough: https://www.youtube.com/watch?v=3Ev6I7DOV9c
+When we went through YC in 2023, we were building infrastructure for multiplayer games like Diep and Krunker. This involved heavily optimizing high-throughput matchmaking, real-time pl…]]></summary>
+        <author>
+            <name>NathanFlurry</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Nasdaq plummets 4% into correction territory]]></title>
         <id>https://news.ycombinator.com/item?id=50381623</id>
@@ -17,6 +122,19 @@ Points: 53
 # Comments: 29]]></summary>
         <author>
             <name>kristianp</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Window Sweaters]]></title>
+        <id>https://news.ycombinator.com/item?id=50381383</id>
+        <link href="https://github.com/saragordic/window-sweaters"/>
+        <updated>2026-11-05T16:50:14.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://github.com/saragordic/window-sweaters
+Comments URL: https://news.ycombinator.com/item?id=50381383
+Points: 216
+# Comments: 77]]></summary>
+        <author>
+            <name>nickswalker</name>
         </author>
     </entry>
     <entry>
@@ -46,6 +164,19 @@ Points: 74
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[The Stacks Project, Formalized in Lean]]></title>
+        <id>https://news.ycombinator.com/item?id=50380979</id>
+        <link href="https://axiommath.ai/research/the-stacks-project-formalized/"/>
+        <updated>2026-11-05T16:16:59.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://axiommath.ai/research/the-stacks-project-formalized/
+Comments URL: https://news.ycombinator.com/item?id=50380979
+Points: 63
+# Comments: 14]]></summary>
+        <author>
+            <name>namanbnsl</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Motorola Signature 27 with GrapheneOS support]]></title>
         <id>https://news.ycombinator.com/item?id=50380810</id>
         <link href="https://motorolanews.com/motorola-signature-27-2/"/>
@@ -56,6 +187,32 @@ Points: 178
 # Comments: 96]]></summary>
         <author>
             <name>monneyboi</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Stroq – a local audit of what your coding agent did and why]]></title>
+        <id>https://news.ycombinator.com/item?id=50380704</id>
+        <link href="https://github.com/AGGIB/Stroq"/>
+        <updated>2026-11-05T15:54:41.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://github.com/AGGIB/Stroq
+Comments URL: https://news.ycombinator.com/item?id=50380704
+Points: 63
+# Comments: 13]]></summary>
+        <author>
+            <name>agybay_07</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[We can do better than line-buffered output]]></title>
+        <id>https://news.ycombinator.com/item?id=50380268</id>
+        <link href="https://nullprogram.com/blog/2026/11/05/"/>
+        <updated>2026-11-05T15:25:22.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://nullprogram.com/blog/2026/11/05/
+Comments URL: https://news.ycombinator.com/item?id=50380268
+Points: 87
+# Comments: 10]]></summary>
+        <author>
+            <name>zdw</name>
         </author>
     </entry>
     <entry>
@@ -14416,45 +14573,6 @@ Points: 53
 # Comments: 37]]></summary>
         <author>
             <name>Theory42</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Shipping JPEG XL in Chrome]]></title>
-        <id>https://news.ycombinator.com/item?id=49991227</id>
-        <link href="https://developer.chrome.com/blog/jpeg-xl-in-chrome"/>
-        <updated>2026-10-07T11:25:02.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://developer.chrome.com/blog/jpeg-xl-in-chrome
-Comments URL: https://news.ycombinator.com/item?id=49991227
-Points: 310
-# Comments: 177]]></summary>
-        <author>
-            <name>AshleysBrain</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Nobel Prize in Chemistry 2026 to Henri B. Kagan and Kenso Soai]]></title>
-        <id>https://news.ycombinator.com/item?id=49990470</id>
-        <link href="https://www.nobelprize.org/prizes/chemistry/2026/press-release/"/>
-        <updated>2026-10-07T09:51:43.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.nobelprize.org/prizes/chemistry/2026/press-release/
-Comments URL: https://news.ycombinator.com/item?id=49990470
-Points: 195
-# Comments: 32]]></summary>
-        <author>
-            <name>sasvari</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A font recreated from photographs of classic Commodore 64 keycaps]]></title>
-        <id>https://news.ycombinator.com/item?id=49990224</id>
-        <link href="https://github.com/szabadkai/c64-keyboard-font/"/>
-        <updated>2026-10-07T09:17:55.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://github.com/szabadkai/c64-keyboard-font/
-Comments URL: https://news.ycombinator.com/item?id=49990224
-Points: 265
-# Comments: 47]]></summary>
-        <author>
-            <name>sohkamyung</name>
         </author>
     </entry>
 </feed>
