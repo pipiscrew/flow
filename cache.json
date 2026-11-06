@@ -6,6 +6,46 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=50387796",
+          "author": "tripdout",
+          "description": "Article URL: https://pwn.college/\nComments URL: https://news.ycombinator.com/item?id=50387796\nPoints: 66\n# Comments: 7",
+          "link": "https://pwn.college/",
+          "publishedOn": "2026-11-06T03:27:14.000Z",
+          "wordCount": 945,
+          "title": "Pwn.college",
+          "imageUrl": "https://pwn.college/themes/dojo_theme/static/img/dojo/ninja.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50387546",
+          "author": "kevin_hu",
+          "description": "Article URL: https://village.dev/blog/closed-ai-models-now-dominate-the-price-performance-frontier/\nComments URL: https://news.ycombinator.com/item?id=50387546\nPoints: 50\n# Comments: 38",
+          "link": "https://village.dev/blog/closed-ai-models-now-dominate-the-price-performance-frontier/",
+          "publishedOn": "2026-11-06T02:49:56.000Z",
+          "wordCount": 1261,
+          "title": "Closed AI models dominate the price-performance frontier",
+          "imageUrl": "https://village.dev/blog/closed-ai-models-now-dominate-the-price-performance-frontier/og-d86847dd67737c6e.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50386338",
+          "author": "Philpax",
+          "description": "Article URL: https://thinkingmachines.ai/news/inkling-2-small/\nComments URL: https://news.ycombinator.com/item?id=50386338\nPoints: 150\n# Comments: 53",
+          "link": "https://thinkingmachines.ai/news/inkling-2-small/",
+          "publishedOn": "2026-11-06T00:00:24.000Z",
+          "wordCount": 10629,
+          "title": "Inkling 2 Small",
+          "imageUrl": "https://thinkingmachines.ai/news/inkling-2-small/images/cover-social.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50385870",
+          "author": "randycupertino",
+          "description": "Article URL: https://finance.yahoo.com/technology/ai/articles/mark-cuban-says-facebook-knowingly-213000020.html\nComments URL: https://news.ycombinator.com/item?id=50385870\nPoints: 239\n# Comments: 109",
+          "link": "https://finance.yahoo.com/technology/ai/articles/mark-cuban-says-facebook-knowingly-213000020.html",
+          "publishedOn": "2026-11-05T23:09:57.000Z",
+          "wordCount": 7750,
+          "title": "Cuban: Facebook knowingly runs AI deepfake scam ads; docs say $16B fraud revenue",
+          "imageUrl": "https://s.yimg.com/lo/mysterio/api/c7b9e208fd6dff01b9115dea6cf00d560e269c36a6987f309be6e79d843e306b/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fmoneywise_327%2F892777675c4b84ce45a666a8bfe1fb93.jpg"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=50385272",
           "author": "motoroco",
           "description": "Article URL: https://github.com/anthropics/claude-code/issues/107757\nComments URL: https://news.ycombinator.com/item?id=50385272\nPoints: 262\n# Comments: 75",
@@ -54,6 +94,16 @@
           "wordCount": 1034,
           "title": "Goodbye from Salon",
           "imageUrl": "https://www.salon.com/app/uploads/2026/11/Salon-Logos-Background-2.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50383294",
+          "author": "gmays",
+          "description": "Article URL: https://www.pangram.com/blog/introducing-pangram-image-1-0\nComments URL: https://news.ycombinator.com/item?id=50383294\nPoints: 87\n# Comments: 38",
+          "link": "https://www.pangram.com/blog/introducing-pangram-image-1-0",
+          "publishedOn": "2026-11-05T19:27:52.000Z",
+          "wordCount": 4257,
+          "title": "Pangram Image 1.0",
+          "imageUrl": "https://cdn.sanity.io/images/6vunltag/production/d9e0f2c5b335fbb748927abe54503f2daf0c132b-2400x1350.png"
         },
         {
           "id": "https://news.ycombinator.com/item?id=50383163",
@@ -204,6 +254,16 @@
           "wordCount": 707,
           "title": "I wish tech companies knew more about me",
           "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50378643",
+          "author": "sanjevirau",
+          "description": "Hi HN, we have been developing with Firebase for a long time, and the only way Firebase developers can build apps without directly costing them is using the official Firebase Emulator Suite.\nHowever, the issue with this suite is, it's dependent and running on Java with a old Console UI (not updated in years), that was not built to support tons and millions of data and has pretty bad developer experience. For a long time, we were hitting Out of Memory on even high specs laptop while developing and the worst part is while this happens all the persists data keep getting lost.\nWe were honestly frustrated with this, and thought what if we built the Firebase Emulator Suite the right way, as it always should have been.\nIntroducing Firenook, a faster drop-in replacement for Firebase Emulator Suite for Firebase developers. It's 40x faster writes and needs 10x less RAM to run it. We took the right approach of first building it Rust as a single engine, so that there will be no Java dependencies and built from scratch a new Console UI using modern web stacks.\nThe result is, now we were able to run 2 millions datas loaded to Firenook with only taking around 2GB ram compared to 22GB of the official suite. Things are way faster and rebuilt Console UI gives best developer experience from logging Firebase Functions, to editing Firestore documents in JSON and many more.\nWe developed this throughly for around 2 months now and ran this internally for a month before we decided it's time to release it to public so that other devs can make use of Firenook and also contribute it to make it better.\nFirenook is still new and I'm sure it misses things. So please try it our on your project and let us if there are any issues.\nThank you.\nComments URL: https://news.ycombinator.com/item?id=50378643\nPoints: 86\n# Comments: 15",
+          "link": "https://firenook.dev/",
+          "publishedOn": "2026-11-05T13:07:29.000Z",
+          "wordCount": 2449,
+          "title": "Show HN: Firenook – Firebase emulators in Rust: 40× faster writes, 10× less RAM",
+          "imageUrl": "https://firenook.dev/og/home.png"
         },
         {
           "id": "https://news.ycombinator.com/item?id=50378625",
@@ -10823,226 +10883,6 @@
           "publishedOn": "2026-10-07T18:43:18.000Z",
           "wordCount": 1715,
           "title": "Push ifs up and fors down: The idiom, its algebra, and its limits",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49996639",
-          "author": "bryanrasmussen",
-          "description": "Article URL: https://www.nature.com/articles/s41586-026-10546-z\nComments URL: https://news.ycombinator.com/item?id=49996639\nPoints: 131\n# Comments: 9",
-          "link": "https://www.nature.com/articles/s41586-026-10546-z",
-          "publishedOn": "2026-10-07T18:14:41.000Z",
-          "wordCount": 10621,
-          "title": "A 5.3M-year-old deep-sea whale necropolis in the Diamantina Zone",
-          "imageUrl": "https://media.springernature.com/m685/springer-static/image/art%3A10.1038%2Fs41586-026-10546-z/MediaObjects/41586_2026_10546_Fig1_HTML.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49996437",
-          "author": "sfkgtbor",
-          "description": "Article URL: https://www.anthropic.com/claude-haiku-5-5\nComments URL: https://news.ycombinator.com/item?id=49996437\nPoints: 503\n# Comments: 240",
-          "link": "https://www.anthropic.com/claude-haiku-5-5",
-          "publishedOn": "2026-10-07T18:01:32.000Z",
-          "wordCount": 3508,
-          "title": "Claude Haiku 5.5",
-          "imageUrl": "https://www-cdn.anthropic.com/images/4zrzovbb/website/89e9b0fbfe0181f6ca565d913686ce8e49b5e9c2-1200x630.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49996425",
-          "author": "joshuawright11",
-          "description": "Article URL: https://openai.com/index/gpt-6-for-everyone/\nComments URL: https://news.ycombinator.com/item?id=49996425\nPoints: 367\n# Comments: 176",
-          "link": "https://openai.com/index/gpt-6-for-everyone/",
-          "publishedOn": "2026-10-07T18:00:58.000Z",
-          "wordCount": null,
-          "title": "GPT‑6 and Intelligent UI for everyone",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49996406",
-          "author": "gumby",
-          "description": "Article URL: https://www.nytimes.com/2026/10/07/science/first-nuclear-clocks-thorium-229.html\nComments URL: https://news.ycombinator.com/item?id=49996406\nPoints: 94\n# Comments: 15",
-          "link": "https://www.nytimes.com/2026/10/07/science/first-nuclear-clocks-thorium-229.html",
-          "publishedOn": "2026-10-07T17:59:34.000Z",
-          "wordCount": null,
-          "title": "In Vienna and Beijing, the first (thorium) nuclear clocks begin to tick",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49996259",
-          "author": "saikatsg",
-          "description": "Article URL: https://github.com/docker/docker-agent\nComments URL: https://news.ycombinator.com/item?id=49996259\nPoints: 119\n# Comments: 54",
-          "link": "https://github.com/docker/docker-agent",
-          "publishedOn": "2026-10-07T17:48:38.000Z",
-          "wordCount": 2389,
-          "title": "Docker Agent",
-          "imageUrl": "https://opengraph.githubassets.com/39716919a921953be05207f3e9203747a845c41d4196c935fbadfcb45fd3578b/docker/docker-agent"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49996149",
-          "author": "saikatsg",
-          "description": "Article URL: https://github.com/duckdb/ducklake\nComments URL: https://news.ycombinator.com/item?id=49996149\nPoints: 80\n# Comments: 8",
-          "link": "https://github.com/duckdb/ducklake",
-          "publishedOn": "2026-10-07T17:40:23.000Z",
-          "wordCount": 2899,
-          "title": "DuckDB Ducklake",
-          "imageUrl": "https://opengraph.githubassets.com/3e731037b77f4d70391ec689d0b55fdc1d234895da21ce8a720baace21c4a3d0/duckdb/ducklake"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49995495",
-          "author": "ck2",
-          "description": "Article URL: https://www.dexerto.com/entertainment/man-discovers-his-parents-coffee-machine-used-1tb-of-data-in-10-days-3416399/\nComments URL: https://news.ycombinator.com/item?id=49995495\nPoints: 216\n# Comments: 113",
-          "link": "https://www.dexerto.com/entertainment/man-discovers-his-parents-coffee-machine-used-1tb-of-data-in-10-days-3416399/",
-          "publishedOn": "2026-10-07T16:56:30.000Z",
-          "wordCount": 3452,
-          "title": "Man discovers his parents' coffee machine used 1TB of data in 10 days",
-          "imageUrl": "https://www.dexerto.com/cdn-image/wp-content/uploads/2026/10/07/coffee-maker-stock-photo.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49994443",
-          "author": "SpeakingOfBrad",
-          "description": "Article URL: https://bigwords.page/\nComments URL: https://news.ycombinator.com/item?id=49994443\nPoints: 251\n# Comments: 83",
-          "link": "https://bigwords.page/",
-          "publishedOn": "2026-10-07T15:44:21.000Z",
-          "wordCount": 313,
-          "title": "Show HN: Bigwords.page – Turn any screen into a sign. The URL is the app",
-          "imageUrl": "https://bigwords.page/og.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49994145",
-          "author": "nill0",
-          "description": "Article URL: https://arxiv.org/abs/2610.08144\nComments URL: https://news.ycombinator.com/item?id=49994145\nPoints: 187\n# Comments: 135",
-          "link": "https://arxiv.org/abs/2610.08144",
-          "publishedOn": "2026-10-07T15:24:38.000Z",
-          "wordCount": 749,
-          "title": "Navier–Stokes Lost in Translation",
-          "imageUrl": "/static/browse/0.3.4/images/arxiv-logo-fb.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49994027",
-          "author": "gagan2020",
-          "description": "Article URL: https://www.githubstatus.com/incidents/djlmxz2zd0j7\nComments URL: https://news.ycombinator.com/item?id=49994027\nPoints: 118\n# Comments: 66",
-          "link": "https://www.githubstatus.com/incidents/djlmxz2zd0j7",
-          "publishedOn": "2026-10-07T15:17:23.000Z",
-          "wordCount": 5996,
-          "title": "GitHub Incident with Git Operations, Pull Requests and Actions",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49993914",
-          "author": "DeepLogin",
-          "description": "Article URL: https://www.classaction.org/news/visa-mastercard-major-banks-facing-new-litigation-over-anticompetitive-merchant-credit-card-transaction-fees\nComments URL: https://news.ycombinator.com/item?id=49993914\nPoints: 421\n# Comments: 282",
-          "link": "https://www.classaction.org/news/visa-mastercard-major-banks-facing-new-litigation-over-anticompetitive-merchant-credit-card-transaction-fees",
-          "publishedOn": "2026-10-07T15:09:59.000Z",
-          "wordCount": 1649,
-          "title": "Visa, Mastercard, major banks facing new litigation over 'anticompetitive' fees",
-          "imageUrl": "https://www.classaction.org/media/twitter-newswire-default.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49993908",
-          "author": "karakoram",
-          "description": "Article URL: https://worksinprogress.co/issue/the-seven-vices-of-highly-effective-victorians/\nComments URL: https://news.ycombinator.com/item?id=49993908\nPoints: 58\n# Comments: 95",
-          "link": "https://worksinprogress.co/issue/the-seven-vices-of-highly-effective-victorians/",
-          "publishedOn": "2026-10-07T15:09:33.000Z",
-          "wordCount": 6178,
-          "title": "Why were Victorian elites so effective?",
-          "imageUrl": "https://worksinprogress.co/wip-image/uploads/2026/10/victorian_vices_feature_image_03-scaled.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49993857",
-          "author": "turrini",
-          "description": "Article URL: https://ascii.rest/\nComments URL: https://news.ycombinator.com/item?id=49993857\nPoints: 230\n# Comments: 55",
-          "link": "https://ascii.rest/",
-          "publishedOn": "2026-10-07T15:05:37.000Z",
-          "wordCount": 76704,
-          "title": "Animated ASCII Art for Web Pages",
-          "imageUrl": "https://ascii.rest/og.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49993188",
-          "author": "ilreb",
-          "description": "Article URL: https://synthid.com/\nComments URL: https://news.ycombinator.com/item?id=49993188\nPoints: 54\n# Comments: 54",
-          "link": "https://synthid.com/",
-          "publishedOn": "2026-10-07T14:16:44.000Z",
-          "wordCount": 484,
-          "title": "SynthID Detector",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49993121",
-          "author": "bluepeter",
-          "description": "Article URL: https://github.com/Queuingtheorydotcom/11SquaresFormalized\nComments URL: https://news.ycombinator.com/item?id=49993121\nPoints: 97\n# Comments: 45",
-          "link": "https://github.com/Queuingtheorydotcom/11SquaresFormalized",
-          "publishedOn": "2026-10-07T14:10:55.000Z",
-          "wordCount": 1777,
-          "title": "AI-assisted proof of optimal packing for 11 squares",
-          "imageUrl": "https://opengraph.githubassets.com/8257dfdfbf4e6032dfb629278cf4eec4acfbc479331c623bb9f9be7034592cba/Queuingtheorydotcom/11SquaresFormalized"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49992774",
-          "author": "trollied",
-          "description": "Article URL: https://labs.google/playground\nComments URL: https://news.ycombinator.com/item?id=49992774\nPoints: 83\n# Comments: 57",
-          "link": "https://labs.google/playground",
-          "publishedOn": "2026-10-07T13:42:03.000Z",
-          "wordCount": 4508,
-          "title": "Google Playground",
-          "imageUrl": "https://labs.google/assets/playground/hero-loop-poster.webp"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49992257",
-          "author": "ilreb",
-          "description": "Article URL: https://refactoringenglish.com/blog/anti-patterns-software-blogging/\nComments URL: https://news.ycombinator.com/item?id=49992257\nPoints: 177\n# Comments: 97",
-          "link": "https://refactoringenglish.com/blog/anti-patterns-software-blogging/",
-          "publishedOn": "2026-10-07T13:08:26.000Z",
-          "wordCount": 2025,
-          "title": "Anti-patterns in software blogging",
-          "imageUrl": "https://refactoringenglish.com/blog/anti-patterns-software-blogging/not-quite-how-devs-read-og.webp"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49992125",
-          "author": "librasteve",
-          "description": "Article URL: https://www.readingchronicle.co.uk/news/26612080.house-15m-underground-tunnels-sale-300k/\nComments URL: https://news.ycombinator.com/item?id=49992125\nPoints: 99\n# Comments: 106",
-          "link": "https://www.readingchronicle.co.uk/news/26612080.house-15m-underground-tunnels-sale-300k/",
-          "publishedOn": "2026-10-07T12:57:10.000Z",
-          "wordCount": 11436,
-          "title": "House with 15m underground tunnels for sale for 300k",
-          "imageUrl": "https://www.readingchronicle.co.uk/resources/images/21545047.jpg?type=og-image"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49992057",
-          "author": "jasontr",
-          "description": "From Li Cheng to Banksy\nComments URL: https://news.ycombinator.com/item?id=49992057\nPoints: 70\n# Comments: 38",
-          "link": "https://artmuseum.artfrompixels.com/",
-          "publishedOn": "2026-10-07T12:51:08.000Z",
-          "wordCount": 36831,
-          "title": "Show HN: A walkable 3D art history museum built from Wikipedia",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49991852",
-          "author": "Michelangelo11",
-          "description": "Article URL: https://patkerr.co.uk/2d-vehicles/\nComments URL: https://news.ycombinator.com/item?id=49991852\nPoints: 63\n# Comments: 14",
-          "link": "https://patkerr.co.uk/2d-vehicles/",
-          "publishedOn": "2026-10-07T12:30:40.000Z",
-          "wordCount": 1037,
-          "title": "2D Vehicles",
-          "imageUrl": "https://patkerr.co.uk/2d-vehicles/social-card.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49991823",
-          "author": "acossta",
-          "description": "Article URL: https://blog.google/innovation-and-ai/technology/ai/playground-experimental-gaming-platform/\nComments URL: https://news.ycombinator.com/item?id=49991823\nPoints: 79\n# Comments: 72",
-          "link": "https://blog.google/innovation-and-ai/technology/ai/playground-experimental-gaming-platform/",
-          "publishedOn": "2026-10-07T12:28:36.000Z",
-          "wordCount": 3879,
-          "title": "Google Playground: Create and play custom games",
-          "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/THUMBNAIL_BLOG.width-1300.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49991580",
-          "author": "Theory42",
-          "description": "Article URL: https://fiveminutesforward.com/post/2026-10-04-telegraph-test/\nComments URL: https://news.ycombinator.com/item?id=49991580\nPoints: 53\n# Comments: 37",
-          "link": "https://fiveminutesforward.com/post/2026-10-04-telegraph-test/",
-          "publishedOn": "2026-10-07T12:04:36.000Z",
-          "wordCount": 4784,
-          "title": "Write Like It's 1866: LLMs Relearn Telegraphese",
           "imageUrl": null
         }
       ]

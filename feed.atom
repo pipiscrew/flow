@@ -2,10 +2,62 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-11-05T23:59:43.583Z</updated>
+    <updated>2026-11-06T06:26:09.752Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Pwn.college]]></title>
+        <id>https://news.ycombinator.com/item?id=50387796</id>
+        <link href="https://pwn.college/"/>
+        <updated>2026-11-06T03:27:14.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://pwn.college/
+Comments URL: https://news.ycombinator.com/item?id=50387796
+Points: 66
+# Comments: 7]]></summary>
+        <author>
+            <name>tripdout</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Closed AI models dominate the price-performance frontier]]></title>
+        <id>https://news.ycombinator.com/item?id=50387546</id>
+        <link href="https://village.dev/blog/closed-ai-models-now-dominate-the-price-performance-frontier/"/>
+        <updated>2026-11-06T02:49:56.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://village.dev/blog/closed-ai-models-now-dominate-the-price-performance-frontier/
+Comments URL: https://news.ycombinator.com/item?id=50387546
+Points: 50
+# Comments: 38]]></summary>
+        <author>
+            <name>kevin_hu</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Inkling 2 Small]]></title>
+        <id>https://news.ycombinator.com/item?id=50386338</id>
+        <link href="https://thinkingmachines.ai/news/inkling-2-small/"/>
+        <updated>2026-11-06T00:00:24.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://thinkingmachines.ai/news/inkling-2-small/
+Comments URL: https://news.ycombinator.com/item?id=50386338
+Points: 150
+# Comments: 53]]></summary>
+        <author>
+            <name>Philpax</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Cuban: Facebook knowingly runs AI deepfake scam ads; docs say $16B fraud revenue]]></title>
+        <id>https://news.ycombinator.com/item?id=50385870</id>
+        <link href="https://finance.yahoo.com/technology/ai/articles/mark-cuban-says-facebook-knowingly-213000020.html"/>
+        <updated>2026-11-05T23:09:57.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://finance.yahoo.com/technology/ai/articles/mark-cuban-says-facebook-knowingly-213000020.html
+Comments URL: https://news.ycombinator.com/item?id=50385870
+Points: 239
+# Comments: 109]]></summary>
+        <author>
+            <name>randycupertino</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Claude Code sends your email address to websites]]></title>
         <id>https://news.ycombinator.com/item?id=50385272</id>
@@ -69,6 +121,19 @@ Points: 350
 # Comments: 125]]></summary>
         <author>
             <name>mkeeter</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Pangram Image 1.0]]></title>
+        <id>https://news.ycombinator.com/item?id=50383294</id>
+        <link href="https://www.pangram.com/blog/introducing-pangram-image-1-0"/>
+        <updated>2026-11-05T19:27:52.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.pangram.com/blog/introducing-pangram-image-1-0
+Comments URL: https://news.ycombinator.com/item?id=50383294
+Points: 87
+# Comments: 38]]></summary>
+        <author>
+            <name>gmays</name>
         </author>
     </entry>
     <entry>
@@ -265,6 +330,26 @@ Points: 113
 # Comments: 89]]></summary>
         <author>
             <name>freetonik</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Firenook – Firebase emulators in Rust: 40× faster writes, 10× less RAM]]></title>
+        <id>https://news.ycombinator.com/item?id=50378643</id>
+        <link href="https://firenook.dev/"/>
+        <updated>2026-11-05T13:07:29.000Z</updated>
+        <summary type="html"><![CDATA[Hi HN, we have been developing with Firebase for a long time, and the only way Firebase developers can build apps without directly costing them is using the official Firebase Emulator Suite.
+However, the issue with this suite is, it's dependent and running on Java with a old Console UI (not updated in years), that was not built to support tons and millions of data and has pretty bad developer experience. For a long time, we were hitting Out of Memory on even high specs laptop while developing and the worst part is while this happens all the persists data keep getting lost.
+We were honestly frustrated with this, and thought what if we built the Firebase Emulator Suite the right way, as it always should have been.
+Introducing Firenook, a faster drop-in replacement for Firebase Emulator Suite for Firebase developers. It's 40x faster writes and needs 10x less RAM to run it. We took the right approach of first building it Rust as a single engine, so that there will be no Java dependencies and built from scratch a new Console UI using modern web stacks.
+The result is, now we were able to run 2 millions datas loaded to Firenook with only taking around 2GB ram compared to 22GB of the official suite. Things are way faster and rebuilt Console UI gives best developer experience from logging Firebase Functions, to editing Firestore documents in JSON and many more.
+We developed this throughly for around 2 months now and ran this internally for a month before we decided it's time to release it to public so that other devs can make use of Firenook and also contribute it to make it better.
+Firenook is still new and I'm sure it misses things. So please try it our on your project and let us if there are any issues.
+Thank you.
+Comments URL: https://news.ycombinator.com/item?id=50378643
+Points: 86
+# Comments: 15]]></summary>
+        <author>
+            <name>sanjevirau</name>
         </author>
     </entry>
     <entry>
@@ -14287,292 +14372,6 @@ Points: 53
 # Comments: 15]]></summary>
         <author>
             <name>speckx</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A 5.3M-year-old deep-sea whale necropolis in the Diamantina Zone]]></title>
-        <id>https://news.ycombinator.com/item?id=49996639</id>
-        <link href="https://www.nature.com/articles/s41586-026-10546-z"/>
-        <updated>2026-10-07T18:14:41.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.nature.com/articles/s41586-026-10546-z
-Comments URL: https://news.ycombinator.com/item?id=49996639
-Points: 131
-# Comments: 9]]></summary>
-        <author>
-            <name>bryanrasmussen</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Claude Haiku 5.5]]></title>
-        <id>https://news.ycombinator.com/item?id=49996437</id>
-        <link href="https://www.anthropic.com/claude-haiku-5-5"/>
-        <updated>2026-10-07T18:01:32.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.anthropic.com/claude-haiku-5-5
-Comments URL: https://news.ycombinator.com/item?id=49996437
-Points: 503
-# Comments: 240]]></summary>
-        <author>
-            <name>sfkgtbor</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GPT‑6 and Intelligent UI for everyone]]></title>
-        <id>https://news.ycombinator.com/item?id=49996425</id>
-        <link href="https://openai.com/index/gpt-6-for-everyone/"/>
-        <updated>2026-10-07T18:00:58.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://openai.com/index/gpt-6-for-everyone/
-Comments URL: https://news.ycombinator.com/item?id=49996425
-Points: 367
-# Comments: 176]]></summary>
-        <author>
-            <name>joshuawright11</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[In Vienna and Beijing, the first (thorium) nuclear clocks begin to tick]]></title>
-        <id>https://news.ycombinator.com/item?id=49996406</id>
-        <link href="https://www.nytimes.com/2026/10/07/science/first-nuclear-clocks-thorium-229.html"/>
-        <updated>2026-10-07T17:59:34.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.nytimes.com/2026/10/07/science/first-nuclear-clocks-thorium-229.html
-Comments URL: https://news.ycombinator.com/item?id=49996406
-Points: 94
-# Comments: 15]]></summary>
-        <author>
-            <name>gumby</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Docker Agent]]></title>
-        <id>https://news.ycombinator.com/item?id=49996259</id>
-        <link href="https://github.com/docker/docker-agent"/>
-        <updated>2026-10-07T17:48:38.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://github.com/docker/docker-agent
-Comments URL: https://news.ycombinator.com/item?id=49996259
-Points: 119
-# Comments: 54]]></summary>
-        <author>
-            <name>saikatsg</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[DuckDB Ducklake]]></title>
-        <id>https://news.ycombinator.com/item?id=49996149</id>
-        <link href="https://github.com/duckdb/ducklake"/>
-        <updated>2026-10-07T17:40:23.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://github.com/duckdb/ducklake
-Comments URL: https://news.ycombinator.com/item?id=49996149
-Points: 80
-# Comments: 8]]></summary>
-        <author>
-            <name>saikatsg</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Man discovers his parents' coffee machine used 1TB of data in 10 days]]></title>
-        <id>https://news.ycombinator.com/item?id=49995495</id>
-        <link href="https://www.dexerto.com/entertainment/man-discovers-his-parents-coffee-machine-used-1tb-of-data-in-10-days-3416399/"/>
-        <updated>2026-10-07T16:56:30.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.dexerto.com/entertainment/man-discovers-his-parents-coffee-machine-used-1tb-of-data-in-10-days-3416399/
-Comments URL: https://news.ycombinator.com/item?id=49995495
-Points: 216
-# Comments: 113]]></summary>
-        <author>
-            <name>ck2</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: Bigwords.page – Turn any screen into a sign. The URL is the app]]></title>
-        <id>https://news.ycombinator.com/item?id=49994443</id>
-        <link href="https://bigwords.page/"/>
-        <updated>2026-10-07T15:44:21.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://bigwords.page/
-Comments URL: https://news.ycombinator.com/item?id=49994443
-Points: 251
-# Comments: 83]]></summary>
-        <author>
-            <name>SpeakingOfBrad</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Navier–Stokes Lost in Translation]]></title>
-        <id>https://news.ycombinator.com/item?id=49994145</id>
-        <link href="https://arxiv.org/abs/2610.08144"/>
-        <updated>2026-10-07T15:24:38.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://arxiv.org/abs/2610.08144
-Comments URL: https://news.ycombinator.com/item?id=49994145
-Points: 187
-# Comments: 135]]></summary>
-        <author>
-            <name>nill0</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GitHub Incident with Git Operations, Pull Requests and Actions]]></title>
-        <id>https://news.ycombinator.com/item?id=49994027</id>
-        <link href="https://www.githubstatus.com/incidents/djlmxz2zd0j7"/>
-        <updated>2026-10-07T15:17:23.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.githubstatus.com/incidents/djlmxz2zd0j7
-Comments URL: https://news.ycombinator.com/item?id=49994027
-Points: 118
-# Comments: 66]]></summary>
-        <author>
-            <name>gagan2020</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Visa, Mastercard, major banks facing new litigation over 'anticompetitive' fees]]></title>
-        <id>https://news.ycombinator.com/item?id=49993914</id>
-        <link href="https://www.classaction.org/news/visa-mastercard-major-banks-facing-new-litigation-over-anticompetitive-merchant-credit-card-transaction-fees"/>
-        <updated>2026-10-07T15:09:59.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.classaction.org/news/visa-mastercard-major-banks-facing-new-litigation-over-anticompetitive-merchant-credit-card-transaction-fees
-Comments URL: https://news.ycombinator.com/item?id=49993914
-Points: 421
-# Comments: 282]]></summary>
-        <author>
-            <name>DeepLogin</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Why were Victorian elites so effective?]]></title>
-        <id>https://news.ycombinator.com/item?id=49993908</id>
-        <link href="https://worksinprogress.co/issue/the-seven-vices-of-highly-effective-victorians/"/>
-        <updated>2026-10-07T15:09:33.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://worksinprogress.co/issue/the-seven-vices-of-highly-effective-victorians/
-Comments URL: https://news.ycombinator.com/item?id=49993908
-Points: 58
-# Comments: 95]]></summary>
-        <author>
-            <name>karakoram</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Animated ASCII Art for Web Pages]]></title>
-        <id>https://news.ycombinator.com/item?id=49993857</id>
-        <link href="https://ascii.rest/"/>
-        <updated>2026-10-07T15:05:37.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://ascii.rest/
-Comments URL: https://news.ycombinator.com/item?id=49993857
-Points: 230
-# Comments: 55]]></summary>
-        <author>
-            <name>turrini</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[SynthID Detector]]></title>
-        <id>https://news.ycombinator.com/item?id=49993188</id>
-        <link href="https://synthid.com/"/>
-        <updated>2026-10-07T14:16:44.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://synthid.com/
-Comments URL: https://news.ycombinator.com/item?id=49993188
-Points: 54
-# Comments: 54]]></summary>
-        <author>
-            <name>ilreb</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AI-assisted proof of optimal packing for 11 squares]]></title>
-        <id>https://news.ycombinator.com/item?id=49993121</id>
-        <link href="https://github.com/Queuingtheorydotcom/11SquaresFormalized"/>
-        <updated>2026-10-07T14:10:55.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://github.com/Queuingtheorydotcom/11SquaresFormalized
-Comments URL: https://news.ycombinator.com/item?id=49993121
-Points: 97
-# Comments: 45]]></summary>
-        <author>
-            <name>bluepeter</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Google Playground]]></title>
-        <id>https://news.ycombinator.com/item?id=49992774</id>
-        <link href="https://labs.google/playground"/>
-        <updated>2026-10-07T13:42:03.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://labs.google/playground
-Comments URL: https://news.ycombinator.com/item?id=49992774
-Points: 83
-# Comments: 57]]></summary>
-        <author>
-            <name>trollied</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Anti-patterns in software blogging]]></title>
-        <id>https://news.ycombinator.com/item?id=49992257</id>
-        <link href="https://refactoringenglish.com/blog/anti-patterns-software-blogging/"/>
-        <updated>2026-10-07T13:08:26.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://refactoringenglish.com/blog/anti-patterns-software-blogging/
-Comments URL: https://news.ycombinator.com/item?id=49992257
-Points: 177
-# Comments: 97]]></summary>
-        <author>
-            <name>ilreb</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[House with 15m underground tunnels for sale for 300k]]></title>
-        <id>https://news.ycombinator.com/item?id=49992125</id>
-        <link href="https://www.readingchronicle.co.uk/news/26612080.house-15m-underground-tunnels-sale-300k/"/>
-        <updated>2026-10-07T12:57:10.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.readingchronicle.co.uk/news/26612080.house-15m-underground-tunnels-sale-300k/
-Comments URL: https://news.ycombinator.com/item?id=49992125
-Points: 99
-# Comments: 106]]></summary>
-        <author>
-            <name>librasteve</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: A walkable 3D art history museum built from Wikipedia]]></title>
-        <id>https://news.ycombinator.com/item?id=49992057</id>
-        <link href="https://artmuseum.artfrompixels.com/"/>
-        <updated>2026-10-07T12:51:08.000Z</updated>
-        <summary type="html"><![CDATA[From Li Cheng to Banksy
-Comments URL: https://news.ycombinator.com/item?id=49992057
-Points: 70
-# Comments: 38]]></summary>
-        <author>
-            <name>jasontr</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[2D Vehicles]]></title>
-        <id>https://news.ycombinator.com/item?id=49991852</id>
-        <link href="https://patkerr.co.uk/2d-vehicles/"/>
-        <updated>2026-10-07T12:30:40.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://patkerr.co.uk/2d-vehicles/
-Comments URL: https://news.ycombinator.com/item?id=49991852
-Points: 63
-# Comments: 14]]></summary>
-        <author>
-            <name>Michelangelo11</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Google Playground: Create and play custom games]]></title>
-        <id>https://news.ycombinator.com/item?id=49991823</id>
-        <link href="https://blog.google/innovation-and-ai/technology/ai/playground-experimental-gaming-platform/"/>
-        <updated>2026-10-07T12:28:36.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://blog.google/innovation-and-ai/technology/ai/playground-experimental-gaming-platform/
-Comments URL: https://news.ycombinator.com/item?id=49991823
-Points: 79
-# Comments: 72]]></summary>
-        <author>
-            <name>acossta</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Write Like It's 1866: LLMs Relearn Telegraphese]]></title>
-        <id>https://news.ycombinator.com/item?id=49991580</id>
-        <link href="https://fiveminutesforward.com/post/2026-10-04-telegraph-test/"/>
-        <updated>2026-10-07T12:04:36.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://fiveminutesforward.com/post/2026-10-04-telegraph-test/
-Comments URL: https://news.ycombinator.com/item?id=49991580
-Points: 53
-# Comments: 37]]></summary>
-        <author>
-            <name>Theory42</name>
         </author>
     </entry>
 </feed>
