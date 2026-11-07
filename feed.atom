@@ -2,10 +2,122 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-11-07T18:35:15.236Z</updated>
+    <updated>2026-11-07T22:36:57.626Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[What I run on my $10 USD OpenStick homelab]]></title>
+        <id>https://news.ycombinator.com/item?id=50406670</id>
+        <link href="https://blog.bosscher.ch/posts/openstick/"/>
+        <updated>2026-11-07T18:12:12.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://blog.bosscher.ch/posts/openstick/
+Comments URL: https://news.ycombinator.com/item?id=50406670
+Points: 211
+# Comments: 47]]></summary>
+        <author>
+            <name>LaurensBER</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The end of Microsoft Research's AI Frontiers group]]></title>
+        <id>https://news.ycombinator.com/item?id=50406563</id>
+        <link href="https://hunch.net/?p=13764006"/>
+        <updated>2026-11-07T18:02:17.000Z</updated>
+        <summary type="html"><![CDATA[https://archive.is/AaY5O
+https://businessexaminer.ca/victoria-articles/item/microsoft...
+Comments URL: https://news.ycombinator.com/item?id=50406563
+Points: 271
+# Comments: 153]]></summary>
+        <author>
+            <name>srean</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Five memorable books about programming (2008)]]></title>
+        <id>https://news.ycombinator.com/item?id=50406319</id>
+        <link href="https://prog21.dadgum.com/19.html"/>
+        <updated>2026-11-07T17:30:49.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://prog21.dadgum.com/19.html
+Comments URL: https://news.ycombinator.com/item?id=50406319
+Points: 60
+# Comments: 35]]></summary>
+        <author>
+            <name>andsoitis</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Coldframe, a honeypot that poses as a supermarket fridge controller]]></title>
+        <id>https://news.ycombinator.com/item?id=50406292</id>
+        <link href="https://github.com/hedgerow-dev/coldframe"/>
+        <updated>2026-11-07T17:27:30.000Z</updated>
+        <summary type="html"><![CDATA[I built Coldframe, a honeypot that pretends to be a supermarket refrigeration controller. Inspired by the events on industrial fridge installations in the past weeks, I wanted to see what people would try against a convincing fake.
+To learn more about this I built a honeypot that resembled perfectly the Danfoss AK-SM 800A and Dixell XWEB interfaces. Both of them are recognized on Shodan as real ones (an not as honeypots). It’s one Python file using only the standard library, and it builds on eppser/danfoss-ak-sm-decoy and public research by Synacktiv, Claroty and Ironhackers.
+Things that were fun to get right:
+- Matching real units. I used Shodan records of real devices to match header order, page titles, certificate fields and TLS versions. The Danfoss persona sends nginx headers in the same order as a real AK-SM 800A. The Dixell persona sends no Server header and pads its page to exactly 8,202 bytes.
+- Recognising exploit attempts. It recognises CVE-2025-41450, the Danfoss “code of the day” login bypass, and records whether the submitted code is correct for today. It also tags attempts targeting three other Danfoss CVEs and the XWEB vulnerabilities.
+- Letting them in. Default logins open a fake store dashboard with defrost buttons, so you see the second move, not just the first. Nothing behind it is real.
+Two instances have been live for a day. So far they’ve only seen generic scanners and Shodan’s crawler, which is called refrigerator.census.shodan.io.
+Feedback welcome, especially from anyone who has seen these devices in the field!
+Comments URL: https://news.ycombinator.com/item?id=50406292
+Points: 153
+# Comments: 34]]></summary>
+        <author>
+            <name>hedgerow-dev</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[MaxxBench – "Nice DeepSWE score. But is it true?"]]></title>
+        <id>https://news.ycombinator.com/item?id=50406222</id>
+        <link href="https://maxxbench.unlap.ai/research/why-maxxbench/"/>
+        <updated>2026-11-07T17:19:00.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://maxxbench.unlap.ai/research/why-maxxbench/
+Comments URL: https://news.ycombinator.com/item?id=50406222
+Points: 137
+# Comments: 34]]></summary>
+        <author>
+            <name>antiuniverse</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Apple’s grey list: Words and phrases your iPhone won’t help you spell]]></title>
+        <id>https://news.ycombinator.com/item?id=50406111</id>
+        <link href="https://www.theguardian.com/technology/2026/nov/06/struggling-to-spell-male-chauvinist-pig-apple-grey-list-means-your-iphone-wont-help-you"/>
+        <updated>2026-11-07T17:06:36.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.theguardian.com/technology/2026/nov/06/struggling-to-spell-male-chauvinist-pig-apple-grey-list-means-your-iphone-wont-help-you
+Comments URL: https://news.ycombinator.com/item?id=50406111
+Points: 259
+# Comments: 170]]></summary>
+        <author>
+            <name>user_7832</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How Long Can Life Wait?]]></title>
+        <id>https://news.ycombinator.com/item?id=50405789</id>
+        <link href="https://mceglowski.substack.com/p/how-long-can-life-wait"/>
+        <updated>2026-11-07T16:22:59.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://mceglowski.substack.com/p/how-long-can-life-wait
+Comments URL: https://news.ycombinator.com/item?id=50405789
+Points: 103
+# Comments: 57]]></summary>
+        <author>
+            <name>Ariarule</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Every processor die anyone has photographed and given away]]></title>
+        <id>https://news.ycombinator.com/item?id=50405782</id>
+        <link href="https://sheets.works/data-viz/cpu-dies"/>
+        <updated>2026-11-07T16:21:36.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://sheets.works/data-viz/cpu-dies
+Comments URL: https://news.ycombinator.com/item?id=50405782
+Points: 60
+# Comments: 13]]></summary>
+        <author>
+            <name>user_7832</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[They don't make 'em like that any more: Borland Turbo Pascal 7]]></title>
         <id>https://news.ycombinator.com/item?id=50405678</id>
@@ -17,6 +129,19 @@ Points: 96
 # Comments: 65]]></summary>
         <author>
             <name>andsoitis</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Terry Pratchett's Study]]></title>
+        <id>https://news.ycombinator.com/item?id=50405674</id>
+        <link href="https://www.sussi.dk/terry-pratchetts-study"/>
+        <updated>2026-11-07T16:05:45.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.sussi.dk/terry-pratchetts-study
+Comments URL: https://news.ycombinator.com/item?id=50405674
+Points: 74
+# Comments: 14]]></summary>
+        <author>
+            <name>ColinWright</name>
         </author>
     </entry>
     <entry>
@@ -1612,6 +1737,19 @@ Points: 87
 # Comments: 25]]></summary>
         <author>
             <name>matt_d</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Text.js: Build full-stack React apps that render inside console.log]]></title>
+        <id>https://news.ycombinator.com/item?id=50361657</id>
+        <link href="https://textjs.org/"/>
+        <updated>2026-11-04T04:59:36.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://textjs.org/
+Comments URL: https://news.ycombinator.com/item?id=50361657
+Points: 73
+# Comments: 41]]></summary>
+        <author>
+            <name>nateb2022</name>
         </author>
     </entry>
     <entry>
@@ -14388,110 +14526,6 @@ Points: 346
 # Comments: 147]]></summary>
         <author>
             <name>franze</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Nobel Peace Prize for 2026 to Navanethem Pillay]]></title>
-        <id>https://news.ycombinator.com/item?id=50018420</id>
-        <link href="https://www.nobelprize.org/prizes/peace/2026/press-release/"/>
-        <updated>2026-10-09T10:12:11.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.nobelprize.org/prizes/peace/2026/press-release/
-Comments URL: https://news.ycombinator.com/item?id=50018420
-Points: 403
-# Comments: 205]]></summary>
-        <author>
-            <name>Anon84</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[OpenAI fires three safety researchers for "mishandling research information"]]></title>
-        <id>https://news.ycombinator.com/item?id=50018350</id>
-        <link href="https://techcrunch.com/2026/10/08/fired-openai-safety-researchers-dispute-misconduct-claims-warn-of-chilling-effect/"/>
-        <updated>2026-10-09T10:00:26.000Z</updated>
-        <summary type="html"><![CDATA[Later: https://www.cnbc.com/2026/10/09/openai-fired-researchers-ai-...
-Comments URL: https://news.ycombinator.com/item?id=50018350
-Points: 280
-# Comments: 182]]></summary>
-        <author>
-            <name>trakkstar</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Once: Cache CLI commands]]></title>
-        <id>https://news.ycombinator.com/item?id=50018239</id>
-        <link href="https://github.com/alex0ptr/once"/>
-        <updated>2026-10-09T09:43:06.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://github.com/alex0ptr/once
-Comments URL: https://news.ycombinator.com/item?id=50018239
-Points: 83
-# Comments: 37]]></summary>
-        <author>
-            <name>baquero</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Sorry, I'm in a meeting]]></title>
-        <id>https://news.ycombinator.com/item?id=50018088</id>
-        <link href="https://iminafleeting.com/"/>
-        <updated>2026-10-09T09:21:48.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://iminafleeting.com/
-Comments URL: https://news.ycombinator.com/item?id=50018088
-Points: 661
-# Comments: 215]]></summary>
-        <author>
-            <name>splintersio</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How big is a Git commit?]]></title>
-        <id>https://news.ycombinator.com/item?id=50017548</id>
-        <link href="https://ratfactor.com/cards/git-commit-size"/>
-        <updated>2026-10-09T08:13:44.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://ratfactor.com/cards/git-commit-size
-Comments URL: https://news.ycombinator.com/item?id=50017548
-Points: 72
-# Comments: 29]]></summary>
-        <author>
-            <name>theanonymousone</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Programming Isn't Special]]></title>
-        <id>https://news.ycombinator.com/item?id=50017357</id>
-        <link href="https://blog.glyph.im/2026/10/programming-isnt-special.html"/>
-        <updated>2026-10-09T07:44:36.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://blog.glyph.im/2026/10/programming-isnt-special.html
-Comments URL: https://news.ycombinator.com/item?id=50017357
-Points: 146
-# Comments: 163]]></summary>
-        <author>
-            <name>ingve</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Nix wrote half of my debugger]]></title>
-        <id>https://news.ycombinator.com/item?id=50017247</id>
-        <link href="https://fzakaria.com/2026/10/07/nix-wrote-half-of-my-debugger"/>
-        <updated>2026-10-09T07:29:08.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://fzakaria.com/2026/10/07/nix-wrote-half-of-my-debugger
-Comments URL: https://news.ycombinator.com/item?id=50017247
-Points: 92
-# Comments: 8]]></summary>
-        <author>
-            <name>ingve</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Mxc: Microsoft Execution Containers version 1.0.0]]></title>
-        <id>https://news.ycombinator.com/item?id=50016956</id>
-        <link href="https://blogs.windows.com/windowsdeveloper/2026/10/07/microsoft-execution-containers-policy-driven-containment-for-ai-agents/"/>
-        <updated>2026-10-09T06:52:49.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://blogs.windows.com/windowsdeveloper/2026/10/07/microsoft-execution-containers-policy-driven-containment-for-ai-agents/
-Comments URL: https://news.ycombinator.com/item?id=50016956
-Points: 109
-# Comments: 21]]></summary>
-        <author>
-            <name>smokel</name>
         </author>
     </entry>
 </feed>

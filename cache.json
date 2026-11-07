@@ -6,6 +6,86 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=50406670",
+          "author": "LaurensBER",
+          "description": "Article URL: https://blog.bosscher.ch/posts/openstick/\nComments URL: https://news.ycombinator.com/item?id=50406670\nPoints: 211\n# Comments: 47",
+          "link": "https://blog.bosscher.ch/posts/openstick/",
+          "publishedOn": "2026-11-07T18:12:12.000Z",
+          "wordCount": 4072,
+          "title": "What I run on my $10 USD OpenStick homelab",
+          "imageUrl": "https://blog.bosscher.ch/posts/openstick/index.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50406563",
+          "author": "srean",
+          "description": "https://archive.is/AaY5O\nhttps://businessexaminer.ca/victoria-articles/item/microsoft...\nComments URL: https://news.ycombinator.com/item?id=50406563\nPoints: 271\n# Comments: 153",
+          "link": "https://hunch.net/?p=13764006",
+          "publishedOn": "2026-11-07T18:02:17.000Z",
+          "wordCount": 3767,
+          "title": "The end of Microsoft Research's AI Frontiers group",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50406319",
+          "author": "andsoitis",
+          "description": "Article URL: https://prog21.dadgum.com/19.html\nComments URL: https://news.ycombinator.com/item?id=50406319\nPoints: 60\n# Comments: 35",
+          "link": "https://prog21.dadgum.com/19.html",
+          "publishedOn": "2026-11-07T17:30:49.000Z",
+          "wordCount": 880,
+          "title": "Five memorable books about programming (2008)",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50406292",
+          "author": "hedgerow-dev",
+          "description": "I built Coldframe, a honeypot that pretends to be a supermarket refrigeration controller. Inspired by the events on industrial fridge installations in the past weeks, I wanted to see what people would try against a convincing fake.\nTo learn more about this I built a honeypot that resembled perfectly the Danfoss AK-SM 800A and Dixell XWEB interfaces. Both of them are recognized on Shodan as real ones (an not as honeypots). It’s one Python file using only the standard library, and it builds on eppser/danfoss-ak-sm-decoy and public research by Synacktiv, Claroty and Ironhackers.\nThings that were fun to get right:\n- Matching real units. I used Shodan records of real devices to match header order, page titles, certificate fields and TLS versions. The Danfoss persona sends nginx headers in the same order as a real AK-SM 800A. The Dixell persona sends no Server header and pads its page to exactly 8,202 bytes.\n- Recognising exploit attempts. It recognises CVE-2025-41450, the Danfoss “code of the day” login bypass, and records whether the submitted code is correct for today. It also tags attempts targeting three other Danfoss CVEs and the XWEB vulnerabilities.\n- Letting them in. Default logins open a fake store dashboard with defrost buttons, so you see the second move, not just the first. Nothing behind it is real.\nTwo instances have been live for a day. So far they’ve only seen generic scanners and Shodan’s crawler, which is called refrigerator.census.shodan.io.\nFeedback welcome, especially from anyone who has seen these devices in the field!\nComments URL: https://news.ycombinator.com/item?id=50406292\nPoints: 153\n# Comments: 34",
+          "link": "https://github.com/hedgerow-dev/coldframe",
+          "publishedOn": "2026-11-07T17:27:30.000Z",
+          "wordCount": 4878,
+          "title": "Show HN: Coldframe, a honeypot that poses as a supermarket fridge controller",
+          "imageUrl": "https://opengraph.githubassets.com/e60c0855ea8906b1d6d088aef072240b70487ab4b2347498b5826731c8e0c496/hedgerow-dev/coldframe"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50406222",
+          "author": "antiuniverse",
+          "description": "Article URL: https://maxxbench.unlap.ai/research/why-maxxbench/\nComments URL: https://news.ycombinator.com/item?id=50406222\nPoints: 137\n# Comments: 34",
+          "link": "https://maxxbench.unlap.ai/research/why-maxxbench/",
+          "publishedOn": "2026-11-07T17:19:00.000Z",
+          "wordCount": 3637,
+          "title": "MaxxBench – \"Nice DeepSWE score. But is it true?\"",
+          "imageUrl": "https://maxxbench.unlap.ai/social-card.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50406111",
+          "author": "user_7832",
+          "description": "Article URL: https://www.theguardian.com/technology/2026/nov/06/struggling-to-spell-male-chauvinist-pig-apple-grey-list-means-your-iphone-wont-help-you\nComments URL: https://news.ycombinator.com/item?id=50406111\nPoints: 259\n# Comments: 170",
+          "link": "https://www.theguardian.com/technology/2026/nov/06/struggling-to-spell-male-chauvinist-pig-apple-grey-list-means-your-iphone-wont-help-you",
+          "publishedOn": "2026-11-07T17:06:36.000Z",
+          "wordCount": 4555,
+          "title": "Apple’s grey list: Words and phrases your iPhone won’t help you spell",
+          "imageUrl": "https://i.guim.co.uk/img/media/28e97d03d0abcd9f1e2eb53b873f17079a1a7f82/998_270_3911_3129/master/3911.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=ae2dd9194072b73ebb69c7269d955ba3"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50405789",
+          "author": "Ariarule",
+          "description": "Article URL: https://mceglowski.substack.com/p/how-long-can-life-wait\nComments URL: https://news.ycombinator.com/item?id=50405789\nPoints: 103\n# Comments: 57",
+          "link": "https://mceglowski.substack.com/p/how-long-can-life-wait",
+          "publishedOn": "2026-11-07T16:22:59.000Z",
+          "wordCount": null,
+          "title": "How Long Can Life Wait?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50405782",
+          "author": "user_7832",
+          "description": "Article URL: https://sheets.works/data-viz/cpu-dies\nComments URL: https://news.ycombinator.com/item?id=50405782\nPoints: 60\n# Comments: 13",
+          "link": "https://sheets.works/data-viz/cpu-dies",
+          "publishedOn": "2026-11-07T16:21:36.000Z",
+          "wordCount": 22393,
+          "title": "Every processor die anyone has photographed and given away",
+          "imageUrl": "https://sheets.works/og-cpu-dies.png"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=50405678",
           "author": "andsoitis",
           "description": "Article URL: https://kevinboone.me/tpwin.html\nComments URL: https://news.ycombinator.com/item?id=50405678\nPoints: 96\n# Comments: 65",
@@ -14,6 +94,16 @@
           "wordCount": 1750,
           "title": "They don't make 'em like that any more: Borland Turbo Pascal 7",
           "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50405674",
+          "author": "ColinWright",
+          "description": "Article URL: https://www.sussi.dk/terry-pratchetts-study\nComments URL: https://news.ycombinator.com/item?id=50405674\nPoints: 74\n# Comments: 14",
+          "link": "https://www.sussi.dk/terry-pratchetts-study",
+          "publishedOn": "2026-11-07T16:05:45.000Z",
+          "wordCount": 5655,
+          "title": "Terry Pratchett's Study",
+          "imageUrl": "https://www.sussi.dk/wp-content/uploads/2026/11/IMG_6115-scaled.jpeg"
         },
         {
           "id": "https://news.ycombinator.com/item?id=50405250",
@@ -1214,6 +1304,16 @@
           "wordCount": 3567,
           "title": "The lost malloc()",
           "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50361657",
+          "author": "nateb2022",
+          "description": "Article URL: https://textjs.org/\nComments URL: https://news.ycombinator.com/item?id=50361657\nPoints: 73\n# Comments: 41",
+          "link": "https://textjs.org/",
+          "publishedOn": "2026-11-04T04:59:36.000Z",
+          "wordCount": 2114,
+          "title": "Text.js: Build full-stack React apps that render inside console.log",
+          "imageUrl": "https://textjs.org/og/home.png?v=bf3d2223"
         },
         {
           "id": "https://news.ycombinator.com/item?id=50361268",
@@ -10894,86 +10994,6 @@
           "wordCount": 10624,
           "title": "Show HN: Let your AI agents paint big arrows, boxes and text on your screen",
           "imageUrl": "https://opengraph.githubassets.com/81a2f957a34da61db46d9f43a30f30183b4e964d8fa907c79bf24a0825d65900/franzenzenhofer/big-arrow-on-the-screen"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50018420",
-          "author": "Anon84",
-          "description": "Article URL: https://www.nobelprize.org/prizes/peace/2026/press-release/\nComments URL: https://news.ycombinator.com/item?id=50018420\nPoints: 403\n# Comments: 205",
-          "link": "https://www.nobelprize.org/prizes/peace/2026/press-release/",
-          "publishedOn": "2026-10-09T10:12:11.000Z",
-          "wordCount": null,
-          "title": "Nobel Peace Prize for 2026 to Navanethem Pillay",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50018350",
-          "author": "trakkstar",
-          "description": "Later: https://www.cnbc.com/2026/10/09/openai-fired-researchers-ai-...\nComments URL: https://news.ycombinator.com/item?id=50018350\nPoints: 280\n# Comments: 182",
-          "link": "https://techcrunch.com/2026/10/08/fired-openai-safety-researchers-dispute-misconduct-claims-warn-of-chilling-effect/",
-          "publishedOn": "2026-10-09T10:00:26.000Z",
-          "wordCount": 4058,
-          "title": "OpenAI fires three safety researchers for \"mishandling research information\"",
-          "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/09/openai-getty.jpg?resize=1200,800"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50018239",
-          "author": "baquero",
-          "description": "Article URL: https://github.com/alex0ptr/once\nComments URL: https://news.ycombinator.com/item?id=50018239\nPoints: 83\n# Comments: 37",
-          "link": "https://github.com/alex0ptr/once",
-          "publishedOn": "2026-10-09T09:43:06.000Z",
-          "wordCount": 3685,
-          "title": "Once: Cache CLI commands",
-          "imageUrl": "https://opengraph.githubassets.com/657604493c6fd308d03abfcdaf0c1d8e00c1f2c8f92c2bd2818aeee554209c8d/alex0ptr/once"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50018088",
-          "author": "splintersio",
-          "description": "Article URL: https://iminafleeting.com/\nComments URL: https://news.ycombinator.com/item?id=50018088\nPoints: 661\n# Comments: 215",
-          "link": "https://iminafleeting.com/",
-          "publishedOn": "2026-10-09T09:21:48.000Z",
-          "wordCount": null,
-          "title": "Sorry, I'm in a meeting",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50017548",
-          "author": "theanonymousone",
-          "description": "Article URL: https://ratfactor.com/cards/git-commit-size\nComments URL: https://news.ycombinator.com/item?id=50017548\nPoints: 72\n# Comments: 29",
-          "link": "https://ratfactor.com/cards/git-commit-size",
-          "publishedOn": "2026-10-09T08:13:44.000Z",
-          "wordCount": 1046,
-          "title": "How big is a Git commit?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50017357",
-          "author": "ingve",
-          "description": "Article URL: https://blog.glyph.im/2026/10/programming-isnt-special.html\nComments URL: https://news.ycombinator.com/item?id=50017357\nPoints: 146\n# Comments: 163",
-          "link": "https://blog.glyph.im/2026/10/programming-isnt-special.html",
-          "publishedOn": "2026-10-09T07:44:36.000Z",
-          "wordCount": 1883,
-          "title": "Programming Isn't Special",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50017247",
-          "author": "ingve",
-          "description": "Article URL: https://fzakaria.com/2026/10/07/nix-wrote-half-of-my-debugger\nComments URL: https://news.ycombinator.com/item?id=50017247\nPoints: 92\n# Comments: 8",
-          "link": "https://fzakaria.com/2026/10/07/nix-wrote-half-of-my-debugger",
-          "publishedOn": "2026-10-09T07:29:08.000Z",
-          "wordCount": 1873,
-          "title": "Nix wrote half of my debugger",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50016956",
-          "author": "smokel",
-          "description": "Article URL: https://blogs.windows.com/windowsdeveloper/2026/10/07/microsoft-execution-containers-policy-driven-containment-for-ai-agents/\nComments URL: https://news.ycombinator.com/item?id=50016956\nPoints: 109\n# Comments: 21",
-          "link": "https://blogs.windows.com/windowsdeveloper/2026/10/07/microsoft-execution-containers-policy-driven-containment-for-ai-agents/",
-          "publishedOn": "2026-10-09T06:52:49.000Z",
-          "wordCount": 3270,
-          "title": "Mxc: Microsoft Execution Containers version 1.0.0",
-          "imageUrl": "https://blogs.windows.com/wp-content/uploads/sites/3/2026/10/MXC_OAT.png"
         }
       ]
     }

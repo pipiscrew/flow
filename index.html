@@ -22,8 +22,8 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2026-11-07 datetime="2026-11-07T16:06:27.000Z">2026-11-07</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2026-11-07 datetime="2026-11-07T16:06:27.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2026-11-07 datetime="2026-11-07T18:12:12.000Z">2026-11-07</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2026-11-07 datetime="2026-11-07T18:12:12.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
@@ -42,6 +42,193 @@
                       <details
                         class="article-expander"
                         data-action="toggle-native-accordion"
+                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;50406670"
+                        open
+                      >
+                        <summary class="article-expander__title">What I run on my $10 USD OpenStick homelab</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://blog.bosscher.ch/posts/openstick/">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://blog.bosscher.ch/posts/openstick/index.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Article URL: https://blog.bosscher.ch/posts/openstick/
+Comments URL: https://news.ycombinator.com/item?id&#x3D;50406670
+Points: 211
+# Comments: 47</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;14
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;50406563"
+                        open
+                      >
+                        <summary class="article-expander__title">The end of Microsoft Research&#x27;s AI Frontiers group</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://hunch.net/?p&#x3D;13764006">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>https://archive.is/AaY5O
+https://businessexaminer.ca/victoria-articles/item/microsoft...
+Comments URL: https://news.ycombinator.com/item?id&#x3D;50406563
+Points: 271
+# Comments: 153</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;13
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;50406319"
+                        open
+                      >
+                        <summary class="article-expander__title">Five memorable books about programming (2008)</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://prog21.dadgum.com/19.html">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Article URL: https://prog21.dadgum.com/19.html
+Comments URL: https://news.ycombinator.com/item?id&#x3D;50406319
+Points: 60
+# Comments: 35</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;3
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;50406292"
+                        open
+                      >
+                        <summary class="article-expander__title">Show HN: Coldframe, a honeypot that poses as a supermarket fridge controller</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://github.com/hedgerow-dev/coldframe">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://opengraph.githubassets.com/e60c0855ea8906b1d6d088aef072240b70487ab4b2347498b5826731c8e0c496/hedgerow-dev/coldframe" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>I built Coldframe, a honeypot that pretends to be a supermarket refrigeration controller. Inspired by the events on industrial fridge installations in the past weeks, I wanted to see what people would try against a convincing fake.
+To learn more about this I built a honeypot that resembled perfectly the Danfoss AK-SM 800A and Dixell XWEB interfaces. Both of them are recognized on Shodan as real ones (an not as honeypots). It’s one Python file using only the standard library, and it builds on eppser/danfoss-ak-sm-decoy and public research by Synacktiv, Claroty and Ironhackers.
+Things that were fun to get right:
+- Matching real units. I used Shodan records of real devices to match header order, page titles, certificate fields and TLS versions. The Danfoss persona sends nginx headers in the same order as a real AK-SM 800A. The Dixell persona sends no Server header and pads its page to exactly 8,202 bytes.
+- Recognising exploit attempts. It recognises CVE-2025-41450, the Danfoss “code of the day” login bypass, and records whether the submitted code is correct for today. It also tags attempts targeting three other Danfoss CVEs and the XWEB vulnerabilities.
+- Letting them in. Default logins open a fake store dashboard with defrost buttons, so you see the second move, not just the first. Nothing behind it is real.
+Two instances have been live for a day. So far they’ve only seen generic scanners and Shodan’s crawler, which is called refrigerator.census.shodan.io.
+Feedback welcome, especially from anyone who has seen these devices in the field!
+Comments URL: https://news.ycombinator.com/item?id&#x3D;50406292
+Points: 153
+# Comments: 34</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;16
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;50406222"
+                        open
+                      >
+                        <summary class="article-expander__title">MaxxBench – &quot;Nice DeepSWE score. But is it true?&quot;</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://maxxbench.unlap.ai/research/why-maxxbench/">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://maxxbench.unlap.ai/social-card.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Article URL: https://maxxbench.unlap.ai/research/why-maxxbench/
+Comments URL: https://news.ycombinator.com/item?id&#x3D;50406222
+Points: 137
+# Comments: 34</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;12
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;50406111"
+                        open
+                      >
+                        <summary class="article-expander__title">Apple’s grey list: Words and phrases your iPhone won’t help you spell</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theguardian.com/technology/2026/nov/06/struggling-to-spell-male-chauvinist-pig-apple-grey-list-means-your-iphone-wont-help-you">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://i.guim.co.uk/img/media/28e97d03d0abcd9f1e2eb53b873f17079a1a7f82/998_270_3911_3129/master/3911.jpg?width&#x3D;1200&amp;height&#x3D;630&amp;quality&#x3D;85&amp;auto&#x3D;format&amp;fit&#x3D;crop&amp;precrop&#x3D;40:21,offset-x50,offset-y0&amp;overlay-align&#x3D;bottom%2Cleft&amp;overlay-width&#x3D;100p&amp;overlay-base64&#x3D;L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&amp;enable&#x3D;upscale&amp;s&#x3D;ae2dd9194072b73ebb69c7269d955ba3" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Article URL: https://www.theguardian.com/technology/2026/nov/06/struggling-to-spell-male-chauvinist-pig-apple-grey-list-means-your-iphone-wont-help-you
+Comments URL: https://news.ycombinator.com/item?id&#x3D;50406111
+Points: 259
+# Comments: 170</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;15
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;50405789"
+                        open
+                      >
+                        <summary class="article-expander__title">How Long Can Life Wait?</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://mceglowski.substack.com/p/how-long-can-life-wait">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Article URL: https://mceglowski.substack.com/p/how-long-can-life-wait
+Comments URL: https://news.ycombinator.com/item?id&#x3D;50405789
+Points: 103
+# Comments: 57</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;50405782"
+                        open
+                      >
+                        <summary class="article-expander__title">Every processor die anyone has photographed and given away</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://sheets.works/data-viz/cpu-dies">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://sheets.works/og-cpu-dies.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Article URL: https://sheets.works/data-viz/cpu-dies
+Comments URL: https://news.ycombinator.com/item?id&#x3D;50405782
+Points: 60
+# Comments: 13</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;75
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
                         data-accordion-key="https://news.ycombinator.com/item?id&#x3D;50405678"
                         open
                       >
@@ -54,6 +241,29 @@ Comments URL: https://news.ycombinator.com/item?id&#x3D;50405678
 Points: 96
 # Comments: 65</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;50405674"
+                        open
+                      >
+                        <summary class="article-expander__title">Terry Pratchett&#x27;s Study</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.sussi.dk/terry-pratchetts-study">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://www.sussi.dk/wp-content/uploads/2026/11/IMG_6115-scaled.jpeg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Article URL: https://www.sussi.dk/terry-pratchetts-study
+Comments URL: https://news.ycombinator.com/item?id&#x3D;50405674
+Points: 74
+# Comments: 14</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;19
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -2852,6 +3062,29 @@ Comments URL: https://news.ycombinator.com/item?id&#x3D;50362466
 Points: 87
 # Comments: 25</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;12
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;50361657"
+                        open
+                      >
+                        <summary class="article-expander__title">Text.js: Build full-stack React apps that render inside console.log</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://textjs.org/">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://textjs.org/og/home.png?v&#x3D;bf3d2223" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Article URL: https://textjs.org/
+Comments URL: https://news.ycombinator.com/item?id&#x3D;50361657
+Points: 73
+# Comments: 41</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;7
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -25358,181 +25591,6 @@ Points: 346
                         </a>
                       </details>
                     </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;50018420"
-                        open
-                      >
-                        <summary class="article-expander__title">Nobel Peace Prize for 2026 to Navanethem Pillay</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.nobelprize.org/prizes/peace/2026/press-release/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Article URL: https://www.nobelprize.org/prizes/peace/2026/press-release/
-Comments URL: https://news.ycombinator.com/item?id&#x3D;50018420
-Points: 403
-# Comments: 205</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;50018350"
-                        open
-                      >
-                        <summary class="article-expander__title">OpenAI fires three safety researchers for &quot;mishandling research information&quot;</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://techcrunch.com/2026/10/08/fired-openai-safety-researchers-dispute-misconduct-claims-warn-of-chilling-effect/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://techcrunch.com/wp-content/uploads/2026/09/openai-getty.jpg?resize&#x3D;1200,800" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Later: https://www.cnbc.com/2026/10/09/openai-fired-researchers-ai-...
-Comments URL: https://news.ycombinator.com/item?id&#x3D;50018350
-Points: 280
-# Comments: 182</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;14
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;50018239"
-                        open
-                      >
-                        <summary class="article-expander__title">Once: Cache CLI commands</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://github.com/alex0ptr/once">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://opengraph.githubassets.com/657604493c6fd308d03abfcdaf0c1d8e00c1f2c8f92c2bd2818aeee554209c8d/alex0ptr/once" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Article URL: https://github.com/alex0ptr/once
-Comments URL: https://news.ycombinator.com/item?id&#x3D;50018239
-Points: 83
-# Comments: 37</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;12
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;50018088"
-                        open
-                      >
-                        <summary class="article-expander__title">Sorry, I&#x27;m in a meeting</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://iminafleeting.com/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Article URL: https://iminafleeting.com/
-Comments URL: https://news.ycombinator.com/item?id&#x3D;50018088
-Points: 661
-# Comments: 215</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;50017548"
-                        open
-                      >
-                        <summary class="article-expander__title">How big is a Git commit?</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://ratfactor.com/cards/git-commit-size">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Article URL: https://ratfactor.com/cards/git-commit-size
-Comments URL: https://news.ycombinator.com/item?id&#x3D;50017548
-Points: 72
-# Comments: 29</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;3
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;50017357"
-                        open
-                      >
-                        <summary class="article-expander__title">Programming Isn&#x27;t Special</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://blog.glyph.im/2026/10/programming-isnt-special.html">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Article URL: https://blog.glyph.im/2026/10/programming-isnt-special.html
-Comments URL: https://news.ycombinator.com/item?id&#x3D;50017357
-Points: 146
-# Comments: 163</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;6
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;50017247"
-                        open
-                      >
-                        <summary class="article-expander__title">Nix wrote half of my debugger</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://fzakaria.com/2026/10/07/nix-wrote-half-of-my-debugger">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Article URL: https://fzakaria.com/2026/10/07/nix-wrote-half-of-my-debugger
-Comments URL: https://news.ycombinator.com/item?id&#x3D;50017247
-Points: 92
-# Comments: 8</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;6
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;50016956"
-                        open
-                      >
-                        <summary class="article-expander__title">Mxc: Microsoft Execution Containers version 1.0.0</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://blogs.windows.com/windowsdeveloper/2026/10/07/microsoft-execution-containers-policy-driven-containment-for-ai-agents/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://blogs.windows.com/wp-content/uploads/sites/3/2026/10/MXC_OAT.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Article URL: https://blogs.windows.com/windowsdeveloper/2026/10/07/microsoft-execution-containers-policy-driven-containment-for-ai-agents/
-Comments URL: https://news.ycombinator.com/item?id&#x3D;50016956
-Points: 109
-# Comments: 21</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;11
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
                 </section>
               </section>
             </li>
@@ -25540,8 +25598,8 @@ Points: 109
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/pipiscrew/flow/actions/runs/42402004451">
-        <time id="build-timestamp" datetime="2026-11-07T18:35:15.190Z">2026-11-07T18:35:15.190Z</time>
+      <a class="footer-link" href="https://github.com/pipiscrew/flow/actions/runs/42421421134">
+        <time id="build-timestamp" datetime="2026-11-07T22:36:57.578Z">2026-11-07T22:36:57.578Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
