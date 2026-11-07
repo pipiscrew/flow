@@ -2,10 +2,55 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-11-07T13:53:01.519Z</updated>
+    <updated>2026-11-07T18:35:15.236Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[They don't make 'em like that any more: Borland Turbo Pascal 7]]></title>
+        <id>https://news.ycombinator.com/item?id=50405678</id>
+        <link href="https://kevinboone.me/tpwin.html"/>
+        <updated>2026-11-07T16:06:27.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://kevinboone.me/tpwin.html
+Comments URL: https://news.ycombinator.com/item?id=50405678
+Points: 96
+# Comments: 65]]></summary>
+        <author>
+            <name>andsoitis</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Ask HN: How did you convince family and friends to join your XMPP/Matrix server?]]></title>
+        <id>https://news.ycombinator.com/item?id=50405250</id>
+        <link href="https://news.ycombinator.com/item?id=50405250"/>
+        <updated>2026-11-07T15:14:40.000Z</updated>
+        <summary type="html"><![CDATA[I love open-source software and open protocols, but my family and friends primarily communicate through SMS for exactly the reasons in https://xkcd.com/2365/
+Whenever XMPP or Matrix threads pop up on HN, several commenters casually mention their "friends and family XMPP (or Matrix) server."
+How did you convince friends and family to move away from SMS/WhatsApp and replace it with a niche messaging app?
+My family and friends aren't hardcore nerdy, but they're more tech-savvy than average. Their needs in messaging are mainly pragmatic: they want ease of use, reliability, and fun features. They don't care that much about privacy, decentralization, or extensibility (though I care about those things a lot).
+I've been experimenting with self-hosting XMPP and Matrix servers and clients in the past week, and the UX is even worse than I expected. It seems like all the clients either imitate Slack, imitate Discord, or imitate hot garbage. I haven't seen any that try to be a simple, friendly replacement for SMS. I'm a software developer who uses computers all day, and I find the UX for most of the clients incredibly hard to use.
+The only angle I could see to pitch XMPP/Matrix to people for non-philosophical reasons are that there's a more consistent experience across iOS/Android. The biggest shortcoming I think is visible to regular users is that there's feature degradation and missing information when iOS users have SMS conversations with Android users, especially in group chats.
+For people who have successfully won family and friends to XMPP or Matrix, what was your pitch? What do you recommend others do to make XMPP or Matrix an attractive experience for a regular person?
+Comments URL: https://news.ycombinator.com/item?id=50405250
+Points: 55
+# Comments: 38]]></summary>
+        <author>
+            <name>mtlynch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The $8 Linux Computer (2022)]]></title>
+        <id>https://news.ycombinator.com/item?id=50404599</id>
+        <link href="http://thelittleengineerthatcould.blogspot.com/2022/12/the-8-linux-computer.html"/>
+        <updated>2026-11-07T14:00:20.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: http://thelittleengineerthatcould.blogspot.com/2022/12/the-8-linux-computer.html
+Comments URL: https://news.ycombinator.com/item?id=50404599
+Points: 131
+# Comments: 55]]></summary>
+        <author>
+            <name>zenincognito</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Every Windows 11 app should kill Electron, and Discord just showed why]]></title>
         <id>https://news.ycombinator.com/item?id=50403507</id>
@@ -43,6 +88,19 @@ Points: 234
 # Comments: 114]]></summary>
         <author>
             <name>infwhispers</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Running a law firm on Free software]]></title>
+        <id>https://news.ycombinator.com/item?id=50403066</id>
+        <link href="https://decoded.legal/blog/2026/11/running-a-law-firm-on-free-software-2026-edition/"/>
+        <updated>2026-11-07T09:39:06.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://decoded.legal/blog/2026/11/running-a-law-firm-on-free-software-2026-edition/
+Comments URL: https://news.ycombinator.com/item?id=50403066
+Points: 156
+# Comments: 77]]></summary>
+        <author>
+            <name>DeepLogin</name>
         </author>
     </entry>
     <entry>
@@ -1753,6 +1811,19 @@ Points: 65
 # Comments: 9]]></summary>
         <author>
             <name>ibobev</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ToothPaste]]></title>
+        <id>https://news.ycombinator.com/item?id=50356037</id>
+        <link href="https://brisk4t.github.io/blog/toothpaste/"/>
+        <updated>2026-11-03T18:27:27.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://brisk4t.github.io/blog/toothpaste/
+Comments URL: https://news.ycombinator.com/item?id=50356037
+Points: 73
+# Comments: 16]]></summary>
+        <author>
+            <name>speckx</name>
         </author>
     </entry>
     <entry>
@@ -14421,71 +14492,6 @@ Points: 109
 # Comments: 21]]></summary>
         <author>
             <name>smokel</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: Quake ported to safe Rust, playable in browser]]></title>
-        <id>https://news.ycombinator.com/item?id=50016312</id>
-        <link href="https://quake-srp.pages.dev/"/>
-        <updated>2026-10-09T05:22:58.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://quake-srp.pages.dev/
-Comments URL: https://news.ycombinator.com/item?id=50016312
-Points: 142
-# Comments: 116]]></summary>
-        <author>
-            <name>ilreb</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: Happy Hangul Day! An RNN for Generating Korean Handwriting Strokes]]></title>
-        <id>https://news.ycombinator.com/item?id=50015833</id>
-        <link href="https://hangul.ink/blog/hangul-day"/>
-        <updated>2026-10-09T03:58:16.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://hangul.ink/blog/hangul-day
-Comments URL: https://news.ycombinator.com/item?id=50015833
-Points: 57
-# Comments: 10]]></summary>
-        <author>
-            <name>jbaudanza</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Keyboard differences between Windows and Macs]]></title>
-        <id>https://news.ycombinator.com/item?id=50015515</id>
-        <link href="https://unsung.aresluna.org/deeper-dive-keyboard-differences-between-windows-and-macs/"/>
-        <updated>2026-10-09T03:08:05.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://unsung.aresluna.org/deeper-dive-keyboard-differences-between-windows-and-macs/
-Comments URL: https://news.ycombinator.com/item?id=50015515
-Points: 116
-# Comments: 98]]></summary>
-        <author>
-            <name>sohkamyung</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[What should we tell our students?]]></title>
-        <id>https://news.ycombinator.com/item?id=50015236</id>
-        <link href="https://terrytao.wordpress.com/2026/10/08/what-should-we-tell-our-students/"/>
-        <updated>2026-10-09T02:27:45.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://terrytao.wordpress.com/2026/10/08/what-should-we-tell-our-students/
-Comments URL: https://news.ycombinator.com/item?id=50015236
-Points: 103
-# Comments: 111]]></summary>
-        <author>
-            <name>sajid</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Reducing undefined behavior in the C language]]></title>
-        <id>https://news.ycombinator.com/item?id=50015074</id>
-        <link href="https://lwn.net/Articles/1095811/"/>
-        <updated>2026-10-09T02:02:53.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://lwn.net/Articles/1095811/
-Comments URL: https://news.ycombinator.com/item?id=50015074
-Points: 110
-# Comments: 93]]></summary>
-        <author>
-            <name>signa11</name>
         </author>
     </entry>
 </feed>
