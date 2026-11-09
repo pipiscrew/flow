@@ -6,6 +6,166 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=50429906",
+          "author": "meetpateltech",
+          "description": "Article URL: https://www.anthropic.com/claude-fable-and-mythos-5-2\nComments URL: https://news.ycombinator.com/item?id=50429906\nPoints: 550\n# Comments: 261",
+          "link": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+          "publishedOn": "2026-11-09T18:56:29.000Z",
+          "wordCount": 12978,
+          "title": "Claude Fable 5.2 and Mythos 5.2",
+          "imageUrl": "https://www-cdn.anthropic.com/images/4zrzovbb/website/b2dab182c77b4ccfd36423470106915b20f676ae-1200x630.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50429734",
+          "author": "porridgeraisin",
+          "description": "Article URL: https://e-means.github.io/\nComments URL: https://news.ycombinator.com/item?id=50429734\nPoints: 69\n# Comments: 3",
+          "link": "https://e-means.github.io/",
+          "publishedOn": "2026-11-09T18:45:43.000Z",
+          "wordCount": 18522,
+          "title": "E-means: 10x faster k-means at equal loss",
+          "imageUrl": "https://e-means.github.io/assets/emeans_vs_lloyd_readme_v9.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50429545",
+          "author": "giuliomagnifico",
+          "description": "Article URL: https://www.eetimes.com/deepx-tapes-out-second-gen-chip-projects-6-7x-performance-gain-with-lpddr5x-pim/\nComments URL: https://news.ycombinator.com/item?id=50429545\nPoints: 80\n# Comments: 9",
+          "link": "https://www.eetimes.com/deepx-tapes-out-second-gen-chip-projects-6-7x-performance-gain-with-lpddr5x-pim/",
+          "publishedOn": "2026-11-09T18:33:58.000Z",
+          "wordCount": null,
+          "title": "DeepX claims inference up to 100B parameters at less than 5 W",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50429475",
+          "author": "nosecreek",
+          "description": "Article URL: https://www.westcentralonline.com/articles/too-many-men-suffering-in-silence-national-health-report-finds\nComments URL: https://news.ycombinator.com/item?id=50429475\nPoints: 273\n# Comments: 307",
+          "link": "https://www.westcentralonline.com/articles/too-many-men-suffering-in-silence-national-health-report-finds",
+          "publishedOn": "2026-11-09T18:27:58.000Z",
+          "wordCount": null,
+          "title": "Too many men suffering in silence, national health report finds (Canada)",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50429430",
+          "author": "sshah03",
+          "description": "Article URL: https://www.infineon.com/press-release/2026/infpr202611-028\nComments URL: https://news.ycombinator.com/item?id=50429430\nPoints: 51\n# Comments: 18",
+          "link": "https://www.infineon.com/press-release/2026/infpr202611-028",
+          "publishedOn": "2026-11-09T18:25:01.000Z",
+          "wordCount": null,
+          "title": "Infineon marks innovation milestone with 300mm power silicon carbide wafer",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50429024",
+          "author": "dvaplima",
+          "description": "Article URL: https://research.meta.ai/blog/muse-ember\nComments URL: https://news.ycombinator.com/item?id=50429024\nPoints: 141\n# Comments: 61",
+          "link": "https://research.meta.ai/blog/muse-ember",
+          "publishedOn": "2026-11-09T17:58:46.000Z",
+          "wordCount": 7792,
+          "title": "Our Smallest, Most Efficient Model: Muse Ember",
+          "imageUrl": "https://research.meta.ai/articles/muse-glint/hero/blog-header-light-v1.webp"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50428907",
+          "author": "a585gupt",
+          "description": "hey HN, i built this because i wanted to know what had actually photographed my street.\ntype in any place and it finds every satellite that passed over it in the last 7 days (SGP4 on the CelesTrak catalog, runs in your browser in about half a second), then pulls the real Sentinel-2 / Landsat / NASA images from those passes.\nsome fun bits:\n- the pass search can't skip a pass. checked it against a brute force on poles, the antimeridian and tiny swaths: 0 missed\n- all ~17k objects in orbit are drawn on the GPU, solving Kepler's equation every frame\n- Sentinel-2 timestamps are often 5-10 min off from when the sat actually crosses your spot, which was a fun one to figure out\nit only says \"watched\" if a real image exists, and it doesn't store your location.\ncode: https://github.com/dev-Armaan/satellites\nwould love feedback, especially on what data sources to add\nComments URL: https://news.ycombinator.com/item?id=50428907\nPoints: 81\n# Comments: 18",
+          "link": "https://www.watched.earth/",
+          "publishedOn": "2026-11-09T17:51:31.000Z",
+          "wordCount": 89,
+          "title": "Show HN: Every satellite that passed over any place this week, and its photos",
+          "imageUrl": "https://www.watched.earth/og-default.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50428801",
+          "author": "pera",
+          "description": "Article URL: https://www.cnx-software.com/2026/11/03/when-will-this-stop-the-raspberry-pi-5-16gb-sbc-now-sells-for-385/\nComments URL: https://news.ycombinator.com/item?id=50428801\nPoints: 193\n# Comments: 162",
+          "link": "https://www.cnx-software.com/2026/11/03/when-will-this-stop-the-raspberry-pi-5-16gb-sbc-now-sells-for-385/",
+          "publishedOn": "2026-11-09T17:42:55.000Z",
+          "wordCount": null,
+          "title": "When will this stop? The Raspberry Pi 5 16GB SBC now sells for $385",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50428724",
+          "author": "EmX_3000",
+          "description": "Article URL: https://news.ycombinator.com/front?day=2024-11-08\nComments URL: https://news.ycombinator.com/item?id=50428724\nPoints: 220\n# Comments: 129",
+          "link": "https://news.ycombinator.com/front?day=2024-11-08",
+          "publishedOn": "2026-11-09T17:36:20.000Z",
+          "wordCount": 556,
+          "title": "Going back two years on Hacker News is like entering another, better universe",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50427934",
+          "author": "shayan_abbas",
+          "description": "Hi HN, I’m Shayan and a few months ago I started building a DB Client DBDelve with a focus on performance and just making something that feels good to use (in the spirit of Zed, Ghostty, and other tools that just feel pleasant to use).\nFor my workflow I’ve always looked for performance, especially since some time ago I had a really outdated machine and any kind of bloat was really noticeable, I remember using DBeaver and it just crashing on me multiple times, I also had to use postGIS which just made it worse. I migrated all my essential dev tools to use the ones with performance in mind (Zed, Ghostty etc) but the only thing that was missing was DB Client. The main choices everyone has are DBeaver which is a memory hog and an overkill for most of the tasks imo. The other options like Datag…",
+          "link": "https://news.ycombinator.com/item?id=50427934",
+          "publishedOn": "2026-11-09T16:36:38.000Z",
+          "wordCount": 1798,
+          "title": "Show HN: DBDelve – Open-Source DB Client Made with Rust and GPUI",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50427362",
+          "author": "ocd",
+          "description": "Article URL: https://www.payments.ca/canada-launches-real-time-rail-bringing-247-payment-infrastructure-national-economy\nComments URL: https://news.ycombinator.com/item?id=50427362\nPoints: 369\n# Comments: 199",
+          "link": "https://www.payments.ca/canada-launches-real-time-rail-bringing-247-payment-infrastructure-national-economy",
+          "publishedOn": "2026-11-09T16:00:45.000Z",
+          "wordCount": 3579,
+          "title": "Payments Canada announces launch of Canada's Real-Time Rail (RTR) payment system",
+          "imageUrl": "https://www.payments.ca/sites/default/files/2026-11/CanadaLightsUp.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50426899",
+          "author": "ceejayoz",
+          "description": "Article URL: https://www.denverpost.com/2026/11/06/ethereum-suicide-pledge-lawsuit-mandate-boulder-crypto/\nComments URL: https://news.ycombinator.com/item?id=50426899\nPoints: 141\n# Comments: 145",
+          "link": "https://www.denverpost.com/2026/11/06/ethereum-suicide-pledge-lawsuit-mandate-boulder-crypto/",
+          "publishedOn": "2026-11-09T15:23:57.000Z",
+          "wordCount": 6619,
+          "title": "Cryptocurrency lawsuit: Ethereum Foundation required \"suicide pledge\"",
+          "imageUrl": "https://www.denverpost.com/wp-content/uploads/2026/11/TDP-Z-GettyImages-1243256258.jpg?w=5093&h=3395"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50426207",
+          "author": "Riiiiichard",
+          "description": "Article URL: https://github.com/ikey4u/zebkit\nComments URL: https://news.ycombinator.com/item?id=50426207\nPoints: 100\n# Comments: 36",
+          "link": "https://github.com/ikey4u/zebkit",
+          "publishedOn": "2026-11-09T14:34:00.000Z",
+          "wordCount": 12288,
+          "title": "Zebkit – Chromium as an embeddable library",
+          "imageUrl": "https://opengraph.githubassets.com/9a15ec2c96fba09b497c27bd8edfb4e06af53a3fabf0c429bb79bbdb9fa5b9d7/ikey4u/zebkit"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50426175",
+          "author": "speckx",
+          "description": "Article URL: https://www.anthropocenemagazine.org/2026/10/magenta-solar-panels-may-be-agrivoltaics-cleverest-trick-yet/\nComments URL: https://news.ycombinator.com/item?id=50426175\nPoints: 183\n# Comments: 100",
+          "link": "https://www.anthropocenemagazine.org/2026/10/magenta-solar-panels-may-be-agrivoltaics-cleverest-trick-yet/",
+          "publishedOn": "2026-11-09T14:31:39.000Z",
+          "wordCount": null,
+          "title": "Magenta solar panels may be agrivoltaics' cleverest trick yet",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50424581",
+          "author": "vismit2000",
+          "description": "Article URL: https://www.foldableflight.com\nComments URL: https://news.ycombinator.com/item?id=50424581\nPoints: 694\n# Comments: 123",
+          "link": "https://www.foldableflight.com/",
+          "publishedOn": "2026-11-09T12:19:22.000Z",
+          "wordCount": 23644,
+          "title": "Fold Epic Paper Airplanes",
+          "imageUrl": "https://static.wixstatic.com/media/0641fb_4ff6a49def494e379b4f3b585c4ac4a8%7Emv2_d_2482_1412_s_2.jpg/v1/fit/w_2500,h_1330,al_c/0641fb_4ff6a49def494e379b4f3b585c4ac4a8%7Emv2_d_2482_1412_s_2.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50424157",
+          "author": "benmandrew",
+          "description": "Article URL: https://benmandrew.com/articles/what-is-malloc-doing-anyway\nComments URL: https://news.ycombinator.com/item?id=50424157\nPoints: 180\n# Comments: 40",
+          "link": "https://benmandrew.com/articles/what-is-malloc-doing-anyway",
+          "publishedOn": "2026-11-09T11:31:05.000Z",
+          "wordCount": 3875,
+          "title": "What is malloc doing, anyway?",
+          "imageUrl": "https://benmandrew.com/assets/headers/malloc-card.png"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=50422168",
           "author": "theanonymousone",
           "description": "Article URL: https://arxiv.org/abs/2610.14162\nComments URL: https://news.ycombinator.com/item?id=50422168\nPoints: 54\n# Comments: 4",
@@ -10933,76 +11093,6 @@
           "publishedOn": "2026-10-11T10:11:27.000Z",
           "wordCount": 430,
           "title": "IRCv3",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50040625",
-          "author": "birdculture",
-          "description": "Article URL: https://daverupert.com/2026/09/i-wish-you-the-best-in-the-offline/\nComments URL: https://news.ycombinator.com/item?id=50040625\nPoints: 63\n# Comments: 36",
-          "link": "https://daverupert.com/2026/09/i-wish-you-the-best-in-the-offline/",
-          "publishedOn": "2026-10-11T07:53:42.000Z",
-          "wordCount": 1106,
-          "title": "I wish you the best in the Offline",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50040547",
-          "author": "defly",
-          "description": "Article URL: https://status.yandex.cloud/en/incidents/2136\nComments URL: https://news.ycombinator.com/item?id=50040547\nPoints: 261\n# Comments: 327",
-          "link": "https://status.yandex.cloud/en/incidents/2136",
-          "publishedOn": "2026-10-11T07:34:45.000Z",
-          "wordCount": 139,
-          "title": "3rd Yandex Cloud Data Center Was Hit",
-          "imageUrl": "https://yastatic.net/s3/home-static/_/90/9034470dfcb0bea0db29a281007b8a38.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50040276",
-          "author": "timschumi",
-          "description": "Article URL: https://lineageos.org/Changelog-32/\nComments URL: https://news.ycombinator.com/item?id=50040276\nPoints: 163\n# Comments: 42",
-          "link": "https://lineageos.org/Changelog-32/",
-          "publishedOn": "2026-10-11T06:18:59.000Z",
-          "wordCount": 4049,
-          "title": "LineageOS 24.0",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50039092",
-          "author": "davikr",
-          "description": "Article URL: https://momo5502.com/posts/2026-10-09-game-decompilation/\nComments URL: https://news.ycombinator.com/item?id=50039092\nPoints: 66\n# Comments: 50",
-          "link": "https://momo5502.com/posts/2026-10-09-game-decompilation/",
-          "publishedOn": "2026-10-11T02:02:38.000Z",
-          "wordCount": 4909,
-          "title": "500B Tokens Later: Letting AI Agents Decompile a First-Person Shooter",
-          "imageUrl": "https://momo5502.com/posts/2026-10-09-game-decompilation/images/game.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50038634",
-          "author": "TheWaffleHax",
-          "description": "Article URL: https://wallhop.io/\nComments URL: https://news.ycombinator.com/item?id=50038634\nPoints: 189\n# Comments: 84",
-          "link": "https://wallhop.io/",
-          "publishedOn": "2026-10-11T00:46:48.000Z",
-          "wordCount": 969,
-          "title": "WallHop – 12ft.io is gone, so I built a replacement",
-          "imageUrl": "https://wallhop.io/og.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50038623",
-          "author": "therepanic",
-          "description": "Article URL: https://github.com/othermod/PSPi-Version-6\nComments URL: https://news.ycombinator.com/item?id=50038623\nPoints: 105\n# Comments: 10",
-          "link": "https://github.com/othermod/PSPi-Version-6",
-          "publishedOn": "2026-10-11T00:45:49.000Z",
-          "wordCount": 2887,
-          "title": "PSPi 6 – Raspberry Pi in a PSP",
-          "imageUrl": "https://opengraph.githubassets.com/062fb18e136fefd10990eb90fc29778a4b3768293f26236c9bc26c2b9934272c/othermod/PSPi-Version-6"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50037949",
-          "author": "softwaredoug",
-          "description": "Article URL: https://nishtahir.com/build-your-own-decision-model/\nComments URL: https://news.ycombinator.com/item?id=50037949\nPoints: 182\n# Comments: 36",
-          "link": "https://nishtahir.com/build-your-own-decision-model/",
-          "publishedOn": "2026-10-10T22:50:10.000Z",
-          "wordCount": 4565,
-          "title": "Build your own decision model",
           "imageUrl": null
         }
       ]

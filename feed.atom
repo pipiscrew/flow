@@ -2,10 +2,224 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-11-09T09:30:33.486Z</updated>
+    <updated>2026-11-09T20:35:16.574Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Claude Fable 5.2 and Mythos 5.2]]></title>
+        <id>https://news.ycombinator.com/item?id=50429906</id>
+        <link href="https://www.anthropic.com/claude-fable-and-mythos-5-2"/>
+        <updated>2026-11-09T18:56:29.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.anthropic.com/claude-fable-and-mythos-5-2
+Comments URL: https://news.ycombinator.com/item?id=50429906
+Points: 550
+# Comments: 261]]></summary>
+        <author>
+            <name>meetpateltech</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[E-means: 10x faster k-means at equal loss]]></title>
+        <id>https://news.ycombinator.com/item?id=50429734</id>
+        <link href="https://e-means.github.io/"/>
+        <updated>2026-11-09T18:45:43.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://e-means.github.io/
+Comments URL: https://news.ycombinator.com/item?id=50429734
+Points: 69
+# Comments: 3]]></summary>
+        <author>
+            <name>porridgeraisin</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[DeepX claims inference up to 100B parameters at less than 5 W]]></title>
+        <id>https://news.ycombinator.com/item?id=50429545</id>
+        <link href="https://www.eetimes.com/deepx-tapes-out-second-gen-chip-projects-6-7x-performance-gain-with-lpddr5x-pim/"/>
+        <updated>2026-11-09T18:33:58.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.eetimes.com/deepx-tapes-out-second-gen-chip-projects-6-7x-performance-gain-with-lpddr5x-pim/
+Comments URL: https://news.ycombinator.com/item?id=50429545
+Points: 80
+# Comments: 9]]></summary>
+        <author>
+            <name>giuliomagnifico</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Too many men suffering in silence, national health report finds (Canada)]]></title>
+        <id>https://news.ycombinator.com/item?id=50429475</id>
+        <link href="https://www.westcentralonline.com/articles/too-many-men-suffering-in-silence-national-health-report-finds"/>
+        <updated>2026-11-09T18:27:58.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.westcentralonline.com/articles/too-many-men-suffering-in-silence-national-health-report-finds
+Comments URL: https://news.ycombinator.com/item?id=50429475
+Points: 273
+# Comments: 307]]></summary>
+        <author>
+            <name>nosecreek</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Infineon marks innovation milestone with 300mm power silicon carbide wafer]]></title>
+        <id>https://news.ycombinator.com/item?id=50429430</id>
+        <link href="https://www.infineon.com/press-release/2026/infpr202611-028"/>
+        <updated>2026-11-09T18:25:01.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.infineon.com/press-release/2026/infpr202611-028
+Comments URL: https://news.ycombinator.com/item?id=50429430
+Points: 51
+# Comments: 18]]></summary>
+        <author>
+            <name>sshah03</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Our Smallest, Most Efficient Model: Muse Ember]]></title>
+        <id>https://news.ycombinator.com/item?id=50429024</id>
+        <link href="https://research.meta.ai/blog/muse-ember"/>
+        <updated>2026-11-09T17:58:46.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://research.meta.ai/blog/muse-ember
+Comments URL: https://news.ycombinator.com/item?id=50429024
+Points: 141
+# Comments: 61]]></summary>
+        <author>
+            <name>dvaplima</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Every satellite that passed over any place this week, and its photos]]></title>
+        <id>https://news.ycombinator.com/item?id=50428907</id>
+        <link href="https://www.watched.earth/"/>
+        <updated>2026-11-09T17:51:31.000Z</updated>
+        <summary type="html"><![CDATA[hey HN, i built this because i wanted to know what had actually photographed my street.
+type in any place and it finds every satellite that passed over it in the last 7 days (SGP4 on the CelesTrak catalog, runs in your browser in about half a second), then pulls the real Sentinel-2 / Landsat / NASA images from those passes.
+some fun bits:
+- the pass search can't skip a pass. checked it against a brute force on poles, the antimeridian and tiny swaths: 0 missed
+- all ~17k objects in orbit are drawn on the GPU, solving Kepler's equation every frame
+- Sentinel-2 timestamps are often 5-10 min off from when the sat actually crosses your spot, which was a fun one to figure out
+it only says "watched" if a real image exists, and it doesn't store your location.
+code: https://github.com/dev-Armaan/satellites
+would love feedback, especially on what data sources to add
+Comments URL: https://news.ycombinator.com/item?id=50428907
+Points: 81
+# Comments: 18]]></summary>
+        <author>
+            <name>a585gupt</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[When will this stop? The Raspberry Pi 5 16GB SBC now sells for $385]]></title>
+        <id>https://news.ycombinator.com/item?id=50428801</id>
+        <link href="https://www.cnx-software.com/2026/11/03/when-will-this-stop-the-raspberry-pi-5-16gb-sbc-now-sells-for-385/"/>
+        <updated>2026-11-09T17:42:55.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.cnx-software.com/2026/11/03/when-will-this-stop-the-raspberry-pi-5-16gb-sbc-now-sells-for-385/
+Comments URL: https://news.ycombinator.com/item?id=50428801
+Points: 193
+# Comments: 162]]></summary>
+        <author>
+            <name>pera</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Going back two years on Hacker News is like entering another, better universe]]></title>
+        <id>https://news.ycombinator.com/item?id=50428724</id>
+        <link href="https://news.ycombinator.com/front?day=2024-11-08"/>
+        <updated>2026-11-09T17:36:20.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://news.ycombinator.com/front?day=2024-11-08
+Comments URL: https://news.ycombinator.com/item?id=50428724
+Points: 220
+# Comments: 129]]></summary>
+        <author>
+            <name>EmX_3000</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: DBDelve – Open-Source DB Client Made with Rust and GPUI]]></title>
+        <id>https://news.ycombinator.com/item?id=50427934</id>
+        <link href="https://news.ycombinator.com/item?id=50427934"/>
+        <updated>2026-11-09T16:36:38.000Z</updated>
+        <summary type="html"><![CDATA[Hi HN, I’m Shayan and a few months ago I started building a DB Client DBDelve with a focus on performance and just making something that feels good to use (in the spirit of Zed, Ghostty, and other tools that just feel pleasant to use).
+For my workflow I’ve always looked for performance, especially since some time ago I had a really outdated machine and any kind of bloat was really noticeable, I remember using DBeaver and it just crashing on me multiple times, I also had to use postGIS which just made it worse. I migrated all my essential dev tools to use the ones with performance in mind (Zed, Ghostty etc) but the only thing that was missing was DB Client. The main choices everyone has are DBeaver which is a memory hog and an overkill for most of the tasks imo. The other options like Datag…]]></summary>
+        <author>
+            <name>shayan_abbas</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Payments Canada announces launch of Canada's Real-Time Rail (RTR) payment system]]></title>
+        <id>https://news.ycombinator.com/item?id=50427362</id>
+        <link href="https://www.payments.ca/canada-launches-real-time-rail-bringing-247-payment-infrastructure-national-economy"/>
+        <updated>2026-11-09T16:00:45.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.payments.ca/canada-launches-real-time-rail-bringing-247-payment-infrastructure-national-economy
+Comments URL: https://news.ycombinator.com/item?id=50427362
+Points: 369
+# Comments: 199]]></summary>
+        <author>
+            <name>ocd</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Cryptocurrency lawsuit: Ethereum Foundation required "suicide pledge"]]></title>
+        <id>https://news.ycombinator.com/item?id=50426899</id>
+        <link href="https://www.denverpost.com/2026/11/06/ethereum-suicide-pledge-lawsuit-mandate-boulder-crypto/"/>
+        <updated>2026-11-09T15:23:57.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.denverpost.com/2026/11/06/ethereum-suicide-pledge-lawsuit-mandate-boulder-crypto/
+Comments URL: https://news.ycombinator.com/item?id=50426899
+Points: 141
+# Comments: 145]]></summary>
+        <author>
+            <name>ceejayoz</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Zebkit – Chromium as an embeddable library]]></title>
+        <id>https://news.ycombinator.com/item?id=50426207</id>
+        <link href="https://github.com/ikey4u/zebkit"/>
+        <updated>2026-11-09T14:34:00.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://github.com/ikey4u/zebkit
+Comments URL: https://news.ycombinator.com/item?id=50426207
+Points: 100
+# Comments: 36]]></summary>
+        <author>
+            <name>Riiiiichard</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Magenta solar panels may be agrivoltaics' cleverest trick yet]]></title>
+        <id>https://news.ycombinator.com/item?id=50426175</id>
+        <link href="https://www.anthropocenemagazine.org/2026/10/magenta-solar-panels-may-be-agrivoltaics-cleverest-trick-yet/"/>
+        <updated>2026-11-09T14:31:39.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.anthropocenemagazine.org/2026/10/magenta-solar-panels-may-be-agrivoltaics-cleverest-trick-yet/
+Comments URL: https://news.ycombinator.com/item?id=50426175
+Points: 183
+# Comments: 100]]></summary>
+        <author>
+            <name>speckx</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Fold Epic Paper Airplanes]]></title>
+        <id>https://news.ycombinator.com/item?id=50424581</id>
+        <link href="https://www.foldableflight.com/"/>
+        <updated>2026-11-09T12:19:22.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.foldableflight.com
+Comments URL: https://news.ycombinator.com/item?id=50424581
+Points: 694
+# Comments: 123]]></summary>
+        <author>
+            <name>vismit2000</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[What is malloc doing, anyway?]]></title>
+        <id>https://news.ycombinator.com/item?id=50424157</id>
+        <link href="https://benmandrew.com/articles/what-is-malloc-doing-anyway"/>
+        <updated>2026-11-09T11:31:05.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://benmandrew.com/articles/what-is-malloc-doing-anyway
+Comments URL: https://news.ycombinator.com/item?id=50424157
+Points: 180
+# Comments: 40]]></summary>
+        <author>
+            <name>benmandrew</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Next-Concept Modeling: Fast, Parallel Coarse-to-Fine Text Generation]]></title>
         <id>https://news.ycombinator.com/item?id=50422168</id>
@@ -14448,97 +14662,6 @@ Points: 117
 # Comments: 92]]></summary>
         <author>
             <name>basilikum</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[I wish you the best in the Offline]]></title>
-        <id>https://news.ycombinator.com/item?id=50040625</id>
-        <link href="https://daverupert.com/2026/09/i-wish-you-the-best-in-the-offline/"/>
-        <updated>2026-10-11T07:53:42.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://daverupert.com/2026/09/i-wish-you-the-best-in-the-offline/
-Comments URL: https://news.ycombinator.com/item?id=50040625
-Points: 63
-# Comments: 36]]></summary>
-        <author>
-            <name>birdculture</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[3rd Yandex Cloud Data Center Was Hit]]></title>
-        <id>https://news.ycombinator.com/item?id=50040547</id>
-        <link href="https://status.yandex.cloud/en/incidents/2136"/>
-        <updated>2026-10-11T07:34:45.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://status.yandex.cloud/en/incidents/2136
-Comments URL: https://news.ycombinator.com/item?id=50040547
-Points: 261
-# Comments: 327]]></summary>
-        <author>
-            <name>defly</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[LineageOS 24.0]]></title>
-        <id>https://news.ycombinator.com/item?id=50040276</id>
-        <link href="https://lineageos.org/Changelog-32/"/>
-        <updated>2026-10-11T06:18:59.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://lineageos.org/Changelog-32/
-Comments URL: https://news.ycombinator.com/item?id=50040276
-Points: 163
-# Comments: 42]]></summary>
-        <author>
-            <name>timschumi</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[500B Tokens Later: Letting AI Agents Decompile a First-Person Shooter]]></title>
-        <id>https://news.ycombinator.com/item?id=50039092</id>
-        <link href="https://momo5502.com/posts/2026-10-09-game-decompilation/"/>
-        <updated>2026-10-11T02:02:38.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://momo5502.com/posts/2026-10-09-game-decompilation/
-Comments URL: https://news.ycombinator.com/item?id=50039092
-Points: 66
-# Comments: 50]]></summary>
-        <author>
-            <name>davikr</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[WallHop – 12ft.io is gone, so I built a replacement]]></title>
-        <id>https://news.ycombinator.com/item?id=50038634</id>
-        <link href="https://wallhop.io/"/>
-        <updated>2026-10-11T00:46:48.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://wallhop.io/
-Comments URL: https://news.ycombinator.com/item?id=50038634
-Points: 189
-# Comments: 84]]></summary>
-        <author>
-            <name>TheWaffleHax</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[PSPi 6 – Raspberry Pi in a PSP]]></title>
-        <id>https://news.ycombinator.com/item?id=50038623</id>
-        <link href="https://github.com/othermod/PSPi-Version-6"/>
-        <updated>2026-10-11T00:45:49.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://github.com/othermod/PSPi-Version-6
-Comments URL: https://news.ycombinator.com/item?id=50038623
-Points: 105
-# Comments: 10]]></summary>
-        <author>
-            <name>therepanic</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Build your own decision model]]></title>
-        <id>https://news.ycombinator.com/item?id=50037949</id>
-        <link href="https://nishtahir.com/build-your-own-decision-model/"/>
-        <updated>2026-10-10T22:50:10.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://nishtahir.com/build-your-own-decision-model/
-Comments URL: https://news.ycombinator.com/item?id=50037949
-Points: 182
-# Comments: 36]]></summary>
-        <author>
-            <name>softwaredoug</name>
         </author>
     </entry>
 </feed>
