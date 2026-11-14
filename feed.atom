@@ -2,10 +2,83 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-11-14T09:59:28.777Z</updated>
+    <updated>2026-11-14T16:32:33.222Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Serving GLM-5.3 at 607.8 tok/s across two Nvidia DGX stations with vLLM]]></title>
+        <id>https://news.ycombinator.com/item?id=50497155</id>
+        <link href="https://developer.nvidia.com/blog/when-one-gpu-isnt-enough-serving-glm-5-3-across-two-nvidia-dgx-stations-with-vllm/"/>
+        <updated>2026-11-14T14:09:25.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://developer.nvidia.com/blog/when-one-gpu-isnt-enough-serving-glm-5-3-across-two-nvidia-dgx-stations-with-vllm/
+Comments URL: https://news.ycombinator.com/item?id=50497155
+Points: 57
+# Comments: 31]]></summary>
+        <author>
+            <name>wondersky</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: A terminal-native idle factory game, written in Rust with ratatui]]></title>
+        <id>https://news.ycombinator.com/item?id=50497132</id>
+        <link href="https://gitlab.com/snipedbywifi/terminactory"/>
+        <updated>2026-11-14T14:05:54.000Z</updated>
+        <summary type="html"><![CDATA[Hey HN readers!
+I'm snipedbywifi (https://gitlab.com/snipedbywifi), and i've been working on terminactory. Please try it out if you'd like to play a cozy factory game while waiting for long agent tasks to finish!
+The game is a factory game (overused niche, i know xD), but runs in your terminal. Reason i built it? glad you asked: So basically, it started off with me wanting a terminal-native factory game. Me and the modern 5.5 claude models made a base for the game that I liked, and then i went ham adding features / fixing some minor flaws (like adding claude code hooks so you recieve "telegrams" [the agent's responses], so you can review progress directly in-game). (yes, I had heavy AI assistance, disclaimer!!!)
+Right now, the game has basic factory features you'd expect from a game like this (build stuff, delete stuff, measure how much you're earning, basic selection tools), along with a few more.. "unexpected" features. This includes a fake in-game browser that has a wiki, fake forums, some fun bits of lore, some more lore, a LOT more lore, and a research graph that shows how many items or how much RP (research points) you'd need to unlock something, and some more QOL features.
+If anyone actually has this issue / want of a terminal-based game that runs alongside your agents so you don't doomscroll, do you have any suggestions, or additional ideas I could add?
+It's hosted on GitLab, soo, that's one additional thing i'd like to mention
+Thanks for reading!! snipedbywifi
+(p.s. first HN post lol)
+(p.s. p.s. there's a lot of hidden lore in the game, so.. lore-divers? you might like it?)
+Comments URL: https://news.ycombinator.com/item?id=50497132
+Points: 50
+# Comments: 5]]></summary>
+        <author>
+            <name>snipedbywifi</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Italy fines Meta $887M over Android users' data access]]></title>
+        <id>https://news.ycombinator.com/item?id=50497009</id>
+        <link href="https://www.reuters.com/world/italy-fines-meta-887-million-over-android-users-data-access-2026-11-14/"/>
+        <updated>2026-11-14T13:48:06.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.reuters.com/world/italy-fines-meta-887-million-over-android-users-data-access-2026-11-14/
+Comments URL: https://news.ycombinator.com/item?id=50497009
+Points: 92
+# Comments: 31]]></summary>
+        <author>
+            <name>giuliomagnifico</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[KDE: The Documentary on Free Software [video]]]></title>
+        <id>https://news.ycombinator.com/item?id=50496976</id>
+        <link href="https://tube.kockatoo.org/w/fFinNHfanLT7aBEb2B8y4c"/>
+        <updated>2026-11-14T13:43:28.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://tube.kockatoo.org/w/fFinNHfanLT7aBEb2B8y4c
+Comments URL: https://news.ycombinator.com/item?id=50496976
+Points: 71
+# Comments: 1]]></summary>
+        <author>
+            <name>mrkn1</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Tech Companies Are Trying to Shift the Concept of Privacy (Again)]]></title>
+        <id>https://news.ycombinator.com/item?id=50496602</id>
+        <link href="https://www.eff.org/deeplinks/2026/11/tech-companies-are-trying-shift-entire-concept-privacy-again"/>
+        <updated>2026-11-14T12:45:45.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.eff.org/deeplinks/2026/11/tech-companies-are-trying-shift-entire-concept-privacy-again
+Comments URL: https://news.ycombinator.com/item?id=50496602
+Points: 181
+# Comments: 63]]></summary>
+        <author>
+            <name>gslin</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Monkey Island: all 13 versions side by side]]></title>
         <id>https://news.ycombinator.com/item?id=50493904</id>
@@ -468,6 +541,19 @@ Points: 76
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Jonathan Blow – If AI solved coding, why is my software still the same? [video]]]></title>
+        <id>https://news.ycombinator.com/item?id=50484658</id>
+        <link href="https://www.youtube.com/watch?v=IRK8h67ol7Q"/>
+        <updated>2026-11-13T15:08:44.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.youtube.com/watch?v=IRK8h67ol7Q
+Comments URL: https://news.ycombinator.com/item?id=50484658
+Points: 414
+# Comments: 574]]></summary>
+        <author>
+            <name>helloplanets</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Minnesota guitarist's "palmfrets" invention strikes a new chord]]></title>
         <id>https://news.ycombinator.com/item?id=50484650</id>
         <link href="https://www.echopress.com/business/minnesota-guitarists-invention-strikes-a-new-chord"/>
@@ -582,6 +668,19 @@ Points: 240
 # Comments: 145]]></summary>
         <author>
             <name>TechTechTech</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Let's Write a PostScript Interpreter]]></title>
+        <id>https://news.ycombinator.com/item?id=50478632</id>
+        <link href="https://beyondloom.com/blog/postscript.html"/>
+        <updated>2026-11-13T05:12:56.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://beyondloom.com/blog/postscript.html
+Comments URL: https://news.ycombinator.com/item?id=50478632
+Points: 54
+# Comments: 9]]></summary>
+        <author>
+            <name>RebelPotato</name>
         </author>
     </entry>
     <entry>
@@ -14144,111 +14243,6 @@ Points: 102
 # Comments: 13]]></summary>
         <author>
             <name>gurst</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Comparing Chromium Development at Google and Igalia]]></title>
-        <id>https://news.ycombinator.com/item?id=50112887</id>
-        <link href="https://lwn.net/Articles/1094721/"/>
-        <updated>2026-10-16T01:56:37.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://lwn.net/Articles/1094721/
-Comments URL: https://news.ycombinator.com/item?id=50112887
-Points: 60
-# Comments: 19]]></summary>
-        <author>
-            <name>signa11</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Any window from your Mac, on your iPhone and iPad]]></title>
-        <id>https://news.ycombinator.com/item?id=50112739</id>
-        <link href="https://github.com/Saffsanity/sill"/>
-        <updated>2026-10-16T01:43:17.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://github.com/Saffsanity/sill
-Comments URL: https://news.ycombinator.com/item?id=50112739
-Points: 177
-# Comments: 45]]></summary>
-        <author>
-            <name>chanana</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Tesla Roadster]]></title>
-        <id>https://news.ycombinator.com/item?id=50112657</id>
-        <link href="https://www.tesla.com/roadster"/>
-        <updated>2026-10-16T01:32:45.000Z</updated>
-        <summary type="html"><![CDATA[https://www.youtube.com/watch?v=7p5LxFdc-Qg
-https://twitter.com/Tesla/status/2110788059008819215
-Comments URL: https://news.ycombinator.com/item?id=50112657
-Points: 823
-# Comments: 1508]]></summary>
-        <author>
-            <name>shekhar101</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Thank You, Deno]]></title>
-        <id>https://news.ycombinator.com/item?id=50112331</id>
-        <link href="https://www.vlt.io/blog/competition-keeps-javascript-moving"/>
-        <updated>2026-10-16T00:52:40.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.vlt.io/blog/competition-keeps-javascript-moving
-Comments URL: https://news.ycombinator.com/item?id=50112331
-Points: 103
-# Comments: 21]]></summary>
-        <author>
-            <name>jcbhmr</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[RPKI now protects 70% of internet routes]]></title>
-        <id>https://news.ycombinator.com/item?id=50112330</id>
-        <link href="https://ipinfo.io/blog/rpki-protects-70-internet-routes"/>
-        <updated>2026-10-16T00:52:35.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://ipinfo.io/blog/rpki-protects-70-internet-routes
-Comments URL: https://news.ycombinator.com/item?id=50112330
-Points: 177
-# Comments: 65]]></summary>
-        <author>
-            <name>emot</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Meta’s new commercial terms will allow the scraping of news sites: experts]]></title>
-        <id>https://news.ycombinator.com/item?id=50111852</id>
-        <link href="https://www.niemanlab.org/2026/10/metas-new-commercial-terms-will-allow-the-scraping-of-news-sites-legal-experts-say/"/>
-        <updated>2026-10-15T23:37:42.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.niemanlab.org/2026/10/metas-new-commercial-terms-will-allow-the-scraping-of-news-sites-legal-experts-say/
-Comments URL: https://news.ycombinator.com/item?id=50111852
-Points: 346
-# Comments: 120]]></summary>
-        <author>
-            <name>0in</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[BeBox is a Haiku application that emulates Be Inc.'s BeBox]]></title>
-        <id>https://news.ycombinator.com/item?id=50111742</id>
-        <link href="https://github.com/johnrash/bebox"/>
-        <updated>2026-10-15T23:22:53.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://github.com/johnrash/bebox
-Comments URL: https://news.ycombinator.com/item?id=50111742
-Points: 72
-# Comments: 22]]></summary>
-        <author>
-            <name>rguiscard</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Laptop Based on 6502 CPU]]></title>
-        <id>https://news.ycombinator.com/item?id=50111537</id>
-        <link href="https://www.maddox.pro/?p=448"/>
-        <updated>2026-10-15T22:56:23.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.maddox.pro/?p=448
-Comments URL: https://news.ycombinator.com/item?id=50111537
-Points: 77
-# Comments: 30]]></summary>
-        <author>
-            <name>nanochess</name>
         </author>
     </entry>
 </feed>
