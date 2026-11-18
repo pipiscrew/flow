@@ -6,6 +6,66 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=50544261",
+          "author": "hans_castorp",
+          "description": "Article URL: https://social.anoxinon.de/@codebergstatus/117636437840688845\nComments URL: https://news.ycombinator.com/item?id=50544261\nPoints: 213\n# Comments: 164",
+          "link": "https://social.anoxinon.de/@codebergstatus/117636437840688845",
+          "publishedOn": "2026-11-18T10:02:17.000Z",
+          "wordCount": 227,
+          "title": "Codeberg.org Not Reachable",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50543989",
+          "author": "frenchmajesty",
+          "description": "Article URL: https://energy-based-reasoners.github.io/\nComments URL: https://news.ycombinator.com/item?id=50543989\nPoints: 52\n# Comments: 4",
+          "link": "https://energy-based-reasoners.github.io/",
+          "publishedOn": "2026-11-18T09:29:32.000Z",
+          "wordCount": 788,
+          "title": "Energy-Based Reasoners: 385x more efficient inference",
+          "imageUrl": "https://energy-based-reasoners.github.io/static/images/ebr_landscape_abc_v1.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50543343",
+          "author": "SweetSoftPillow",
+          "description": "Article URL: https://www.siderolabs.com/talos-linux\nComments URL: https://news.ycombinator.com/item?id=50543343\nPoints: 66\n# Comments: 32",
+          "link": "https://www.siderolabs.com/talos-linux",
+          "publishedOn": "2026-11-18T08:17:44.000Z",
+          "wordCount": 2985,
+          "title": "Talos Linux",
+          "imageUrl": "https://www.siderolabs.com/redesign-2026/OG-preview-image.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50542705",
+          "author": "grey-area",
+          "description": "Article URL: https://nicolasbouliane.com/blog/death-by-ai\nComments URL: https://news.ycombinator.com/item?id=50542705\nPoints: 429\n# Comments: 403",
+          "link": "https://nicolasbouliane.com/blog/death-by-ai",
+          "publishedOn": "2026-11-18T06:47:26.000Z",
+          "wordCount": 1149,
+          "title": "AI is killing All About Berlin",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50541790",
+          "author": "deenadz",
+          "description": "Article URL: https://kernel.dev/blog/why-is-gemini-4-carbon-taking-so-long/\nComments URL: https://news.ycombinator.com/item?id=50541790\nPoints: 126\n# Comments: 62",
+          "link": "https://kernel.dev/blog/why-is-gemini-4-carbon-taking-so-long/",
+          "publishedOn": "2026-11-18T04:14:04.000Z",
+          "wordCount": 9154,
+          "title": "Why is Gemini 4 Carbon taking so long?",
+          "imageUrl": "https://kernel.dev/blog/why-is-gemini-4-carbon-taking-so-long/og.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50541619",
+          "author": "gmays",
+          "description": "Article URL: http://xinmingtu.cn/blog/2026/claude-opus-5-5-protein-sequences/\nComments URL: https://news.ycombinator.com/item?id=50541619\nPoints: 72\n# Comments: 32",
+          "link": "http://xinmingtu.cn/blog/2026/claude-opus-5-5-protein-sequences/",
+          "publishedOn": "2026-11-18T03:47:43.000Z",
+          "wordCount": 4795,
+          "title": "Claude was trained on protein sequences at scale",
+          "imageUrl": "https://xinmingtu.cn/assets/img/llm-bioseq-probe/social_card.png"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=50540437",
           "author": "DeepLogin",
           "description": "Article URL: https://consumerrights.wiki/w/ID.me_terms_required_for_IRS_sign-in\nComments URL: https://news.ycombinator.com/item?id=50540437\nPoints: 155\n# Comments: 54",
@@ -124,6 +184,16 @@
           "wordCount": 12149,
           "title": "350 years ago, this man discovered that light has a finite speed",
           "imageUrl": "https://image.sciencenorway.no/2734539.jpg?imageId=2734539&x=0&y=12.76&cropw=100&croph=38.28&panox=0&panoy=12.76&panow=100&panoh=38.28&width=1200&height=683"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50536468",
+          "author": "yonasb",
+          "description": "We’re Yonas and Daniel and we’re building StarSling (https://starsling.dev), fast GitHub Actions runners with AI agents that ship PRs to continuously improve your tests and workflows.\nEvery CI job gets its own ephemeral sandbox on the fastest Zen 5 machines and NVMe Disk with unlimited concurrency so a burst of agent PRs all run at once. We’re different from other runners because ours come with agents that cut down your CI bill over time. PRs are generated through our CI harness, which runs an agent loop that’s tuned to improve your CI speed and reduce cost.\nMastra now merges over 1,800 PRs a month and we got their slowest workflow from 29m 56s on GitHub-hosted runners down to 5m 06s (5.87x) on StarSling. We realized the true value of having an agent loop running on top of fast runners whe…",
+          "link": "https://news.ycombinator.com/item?id=50536468",
+          "publishedOn": "2026-11-17T19:01:43.000Z",
+          "wordCount": 2625,
+          "title": "Launch HN: StarSling (YC P25) – Self-improving CI for agent-volume repos",
+          "imageUrl": null
         },
         {
           "id": "https://news.ycombinator.com/item?id=50536468",
@@ -10554,196 +10624,6 @@
           "wordCount": 6489,
           "title": "OpenBSD 8.0",
           "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50159726",
-          "author": "khalidkhair",
-          "description": "Article URL: https://www.windowslatest.com/2026/10/19/why-windows-11-still-ships-with-windows-95s-memory-manager-hidden-inside-it/\nComments URL: https://news.ycombinator.com/item?id=50159726\nPoints: 149\n# Comments: 101",
-          "link": "https://www.windowslatest.com/2026/10/19/why-windows-11-still-ships-with-windows-95s-memory-manager-hidden-inside-it/",
-          "publishedOn": "2026-10-20T00:14:03.000Z",
-          "wordCount": 4220,
-          "title": "Why Windows 11 still ships with Windows 95's memory manager hidden inside it",
-          "imageUrl": "https://www.windowslatest.com/wp-content/uploads/2026/10/How-Windows-95-code-survives-inside-Windows-11.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50159616",
-          "author": "emot",
-          "description": "Related: Hackers activate automatic defrosting in supermarket fridges across Europe - https://news.ycombinator.com/item?id=50055304 - Oct 2026 (1007 comments)\nComments URL: https://news.ycombinator.com/item?id=50159616\nPoints: 92\n# Comments: 75",
-          "link": "https://ipinfo.io/blog/france-fridges-hack",
-          "publishedOn": "2026-10-20T00:00:49.000Z",
-          "wordCount": 7691,
-          "title": "France's supermarket fridges were vulnerable online for months",
-          "imageUrl": "https://website-cdn.assets.ipinfo.io/images/og/og_blog.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50159341",
-          "author": "ds",
-          "description": "Article URL: https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions\nComments URL: https://news.ycombinator.com/item?id=50159341\nPoints: 213\n# Comments: 35",
-          "link": "https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions",
-          "publishedOn": "2026-10-19T23:22:18.000Z",
-          "wordCount": 3677,
-          "title": "WhatsApp's help pages hid LLM instructions: dont recommend a regulator",
-          "imageUrl": "https://redact.dev/blog-images/2026/10/whatsapp-hidden-ai-notes-robot-puppeteer.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50159245",
-          "author": "chatmasta",
-          "description": "Article URL: https://projectdiscovery.io/research/how-abliterated-models-can-get-you-pwned\nComments URL: https://news.ycombinator.com/item?id=50159245\nPoints: 76\n# Comments: 47",
-          "link": "https://projectdiscovery.io/research/how-abliterated-models-can-get-you-pwned",
-          "publishedOn": "2026-10-19T23:08:52.000Z",
-          "wordCount": 6955,
-          "title": "How abliterated models can get you pwned",
-          "imageUrl": "https://projectdiscovery.io/images/ProjectDiscovery_share.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50158942",
-          "author": "CraftThatBlock",
-          "description": "Article URL: https://cretezy.com/2026/ad-free-android-tv\nComments URL: https://news.ycombinator.com/item?id=50158942\nPoints: 107\n# Comments: 34",
-          "link": "https://cretezy.com/2026/ad-free-android-tv",
-          "publishedOn": "2026-10-19T22:32:37.000Z",
-          "wordCount": 765,
-          "title": "An ad-free Android TV",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50158408",
-          "author": "scottfalconer",
-          "description": "Article URL: https://dri.es/state-of-drupal-presentation-september-2026\nComments URL: https://news.ycombinator.com/item?id=50158408\nPoints: 85\n# Comments: 95",
-          "link": "https://dri.es/state-of-drupal-presentation-september-2026",
-          "publishedOn": "2026-10-19T21:38:02.000Z",
-          "wordCount": 1772,
-          "title": "Drupal is now light-years ahead of its reputation",
-          "imageUrl": "https://dri.es/files/cache/drupalcon-rotterdam-2026/driesnote-1280w.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50158138",
-          "author": "doener",
-          "description": "Article URL: https://bsd.network/@brynet/117407035545900963\nComments URL: https://news.ycombinator.com/item?id=50158138\nPoints: 63\n# Comments: 10",
-          "link": "https://bsd.network/@brynet/117407035545900963",
-          "publishedOn": "2026-10-19T21:11:45.000Z",
-          "wordCount": 502,
-          "title": "OpenBSD 8.0 release will have inteldrm/radeondrm/amdgpu drivers from Linux 6.18",
-          "imageUrl": "https://media.bsd.network/accounts/avatars/000/001/413/original/d113a02fb84e4f5a.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50158100",
-          "author": "pfeifferj",
-          "description": "Article URL: https://josie.lol/blog/linux-rtx-spark\nComments URL: https://news.ycombinator.com/item?id=50158100\nPoints: 156\n# Comments: 69",
-          "link": "https://josie.lol/blog/linux-rtx-spark",
-          "publishedOn": "2026-10-19T21:08:18.000Z",
-          "wordCount": 2115,
-          "title": "Putting Linux on my RTX Spark laptop because I don't have a Microsoft account",
-          "imageUrl": "https://josie.lol/screenshot.png?v=20261019"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50157865",
-          "author": "jcalabro",
-          "description": "Article URL: https://calabro.io/ohbf\nComments URL: https://news.ycombinator.com/item?id=50157865\nPoints: 80\n# Comments: 10",
-          "link": "https://calabro.io/ohbf",
-          "publishedOn": "2026-10-19T20:50:08.000Z",
-          "wordCount": 1477,
-          "title": "One Hash Bloom Filters",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50157456",
-          "author": "wffurr",
-          "description": "Article URL: https://arstechnica.com/science/2026/10/startup-taps-underwater-volcano-as-energy-source-in-proof-point-test/\nComments URL: https://news.ycombinator.com/item?id=50157456\nPoints: 105\n# Comments: 41",
-          "link": "https://arstechnica.com/science/2026/10/startup-taps-underwater-volcano-as-energy-source-in-proof-point-test/",
-          "publishedOn": "2026-10-19T20:12:49.000Z",
-          "wordCount": null,
-          "title": "Startup taps underwater volcano as energy source in \"proof point\" test",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50156206",
-          "author": "hans_castorp",
-          "description": "Article URL: http://peter.eisentraut.org/blog/2026/10/09/the-reverts-will-continue-until-morale-improves\nComments URL: https://news.ycombinator.com/item?id=50156206\nPoints: 181\n# Comments: 30",
-          "link": "http://peter.eisentraut.org/blog/2026/10/09/the-reverts-will-continue-until-morale-improves",
-          "publishedOn": "2026-10-19T18:42:32.000Z",
-          "wordCount": 1355,
-          "title": "The reverts will continue until morale improves",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50155751",
-          "author": "ibobev",
-          "description": "Article URL: https://devblogs.microsoft.com/oldnewthing/20261012-00/?p=112767/\nComments URL: https://news.ycombinator.com/item?id=50155751\nPoints: 53\n# Comments: 11",
-          "link": "https://devblogs.microsoft.com/oldnewthing/20261012-00/?p=112767/",
-          "publishedOn": "2026-10-19T18:05:53.000Z",
-          "wordCount": 8221,
-          "title": "C++ futures part 1: The mental model",
-          "imageUrl": "https://devblogs.microsoft.com/oldnewthing/wp-content/uploads/sites/38/2019/02/ShowCover.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50155245",
-          "author": "cmrdporcupine",
-          "description": "Article URL: https://www.inceptionlabs.ai/blog/introducing-mercury-3\nComments URL: https://news.ycombinator.com/item?id=50155245\nPoints: 158\n# Comments: 67",
-          "link": "https://www.inceptionlabs.ai/blog/introducing-mercury-3",
-          "publishedOn": "2026-10-19T17:27:11.000Z",
-          "wordCount": 8121,
-          "title": "Mercury 3: Diffusion at scale",
-          "imageUrl": "https://framerusercontent.com/images/Zgp1I1AaILVgkXF4Xlk7iImaE.png?width=1200&height=630"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50154624",
-          "author": "flocked",
-          "description": "Article URL: https://github.com/kksimp/Mac.apk\nComments URL: https://news.ycombinator.com/item?id=50154624\nPoints: 147\n# Comments: 46",
-          "link": "https://github.com/kksimp/Mac.apk",
-          "publishedOn": "2026-10-19T16:45:30.000Z",
-          "wordCount": 3970,
-          "title": "Android apps running native on macOS",
-          "imageUrl": "https://opengraph.githubassets.com/53a376ecb93b46eb985568b91b86ef0fa98505fc455b091fc31f0df7c81aa39d/kksimp/Mac.apk"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50154540",
-          "author": "jtg",
-          "description": "Article URL: https://www.minimax.io/blog/minimax-m31f\nComments URL: https://news.ycombinator.com/item?id=50154540\nPoints: 245\n# Comments: 91",
-          "link": "https://www.minimax.io/blog/minimax-m31f",
-          "publishedOn": "2026-10-19T16:39:09.000Z",
-          "wordCount": 1667,
-          "title": "MiniMax M3.1 Flash",
-          "imageUrl": "https://filecdn.minimax.chat/public/m31-flash-zh-1-1792403273121.png?x-oss-process=image/format,webp"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50154518",
-          "author": "phoronixrly",
-          "description": "Article URL: https://po-ru.com/2026/10/18/why-im-no-longer-updating-this-repository\nComments URL: https://news.ycombinator.com/item?id=50154518\nPoints: 293\n# Comments: 257",
-          "link": "https://po-ru.com/2026/10/18/why-im-no-longer-updating-this-repository",
-          "publishedOn": "2026-10-19T16:37:10.000Z",
-          "wordCount": 563,
-          "title": "I no longer care to work on any Ruby gems so I've archived all my repositories",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50154244",
-          "author": "cmrdporcupine",
-          "description": "https://public-inspection.federalregister.gov/2026-21447.pdf\nComments URL: https://news.ycombinator.com/item?id=50154244\nPoints: 123\n# Comments: 112",
-          "link": "https://www.reuters.com/technology/us-banning-chinese-ai-deepseek-government-agency-it-systems-2026-10-19/",
-          "publishedOn": "2026-10-19T16:16:46.000Z",
-          "wordCount": null,
-          "title": "DeepSeek banned from U.S. federal civilian agencies under new DHS order",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50154109",
-          "author": "ibobev",
-          "description": "Article URL: https://www.boristhebrave.com/2026/10/18/dungeon-generation-in-the-gnomish-mines-of-nethack/\nComments URL: https://news.ycombinator.com/item?id=50154109\nPoints: 83\n# Comments: 9",
-          "link": "https://www.boristhebrave.com/2026/10/18/dungeon-generation-in-the-gnomish-mines-of-nethack/",
-          "publishedOn": "2026-10-19T16:06:40.000Z",
-          "wordCount": 1902,
-          "title": "Dungeon Generation in the Gnomish Mines of NetHack",
-          "imageUrl": "https://www.boristhebrave.com/wp-content/uploads/2026/10/gnomish-mines-header.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50153664",
-          "author": "yzydserd",
-          "description": "Article URL: https://www.nbcnews.com/world/ukraine/ukraine-first-drone-evacuation-wounded-soldier-frontlines-hexacopter-rcna604310\nComments URL: https://news.ycombinator.com/item?id=50153664\nPoints: 66\n# Comments: 65",
-          "link": "https://www.nbcnews.com/world/ukraine/ukraine-first-drone-evacuation-wounded-soldier-frontlines-hexacopter-rcna604310",
-          "publishedOn": "2026-10-19T15:31:34.000Z",
-          "wordCount": 8916,
-          "title": "Ukraine claims first drone evacuation of wounded soldier",
-          "imageUrl": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2026-10/261019-drone-rs-bd64e5.jpg"
         }
       ]
     }

@@ -2,10 +2,88 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-11-18T03:30:45.184Z</updated>
+    <updated>2026-11-18T12:51:49.026Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Codeberg.org Not Reachable]]></title>
+        <id>https://news.ycombinator.com/item?id=50544261</id>
+        <link href="https://social.anoxinon.de/@codebergstatus/117636437840688845"/>
+        <updated>2026-11-18T10:02:17.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://social.anoxinon.de/@codebergstatus/117636437840688845
+Comments URL: https://news.ycombinator.com/item?id=50544261
+Points: 213
+# Comments: 164]]></summary>
+        <author>
+            <name>hans_castorp</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Energy-Based Reasoners: 385x more efficient inference]]></title>
+        <id>https://news.ycombinator.com/item?id=50543989</id>
+        <link href="https://energy-based-reasoners.github.io/"/>
+        <updated>2026-11-18T09:29:32.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://energy-based-reasoners.github.io/
+Comments URL: https://news.ycombinator.com/item?id=50543989
+Points: 52
+# Comments: 4]]></summary>
+        <author>
+            <name>frenchmajesty</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Talos Linux]]></title>
+        <id>https://news.ycombinator.com/item?id=50543343</id>
+        <link href="https://www.siderolabs.com/talos-linux"/>
+        <updated>2026-11-18T08:17:44.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.siderolabs.com/talos-linux
+Comments URL: https://news.ycombinator.com/item?id=50543343
+Points: 66
+# Comments: 32]]></summary>
+        <author>
+            <name>SweetSoftPillow</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AI is killing All About Berlin]]></title>
+        <id>https://news.ycombinator.com/item?id=50542705</id>
+        <link href="https://nicolasbouliane.com/blog/death-by-ai"/>
+        <updated>2026-11-18T06:47:26.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://nicolasbouliane.com/blog/death-by-ai
+Comments URL: https://news.ycombinator.com/item?id=50542705
+Points: 429
+# Comments: 403]]></summary>
+        <author>
+            <name>grey-area</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Why is Gemini 4 Carbon taking so long?]]></title>
+        <id>https://news.ycombinator.com/item?id=50541790</id>
+        <link href="https://kernel.dev/blog/why-is-gemini-4-carbon-taking-so-long/"/>
+        <updated>2026-11-18T04:14:04.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://kernel.dev/blog/why-is-gemini-4-carbon-taking-so-long/
+Comments URL: https://news.ycombinator.com/item?id=50541790
+Points: 126
+# Comments: 62]]></summary>
+        <author>
+            <name>deenadz</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Claude was trained on protein sequences at scale]]></title>
+        <id>https://news.ycombinator.com/item?id=50541619</id>
+        <link href="http://xinmingtu.cn/blog/2026/claude-opus-5-5-protein-sequences/"/>
+        <updated>2026-11-18T03:47:43.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: http://xinmingtu.cn/blog/2026/claude-opus-5-5-protein-sequences/
+Comments URL: https://news.ycombinator.com/item?id=50541619
+Points: 72
+# Comments: 32]]></summary>
+        <author>
+            <name>gmays</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[ID.me terms required for IRS sign-in]]></title>
         <id>https://news.ycombinator.com/item?id=50540437</id>
@@ -160,6 +238,18 @@ Points: 124
 # Comments: 33]]></summary>
         <author>
             <name>dxs</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Launch HN: StarSling (YC P25) – Self-improving CI for agent-volume repos]]></title>
+        <id>https://news.ycombinator.com/item?id=50536468</id>
+        <link href="https://news.ycombinator.com/item?id=50536468"/>
+        <updated>2026-11-17T19:01:43.000Z</updated>
+        <summary type="html"><![CDATA[We’re Yonas and Daniel and we’re building StarSling (https://starsling.dev), fast GitHub Actions runners with AI agents that ship PRs to continuously improve your tests and workflows.
+Every CI job gets its own ephemeral sandbox on the fastest Zen 5 machines and NVMe Disk with unlimited concurrency so a burst of agent PRs all run at once. We’re different from other runners because ours come with agents that cut down your CI bill over time. PRs are generated through our CI harness, which runs an agent loop that’s tuned to improve your CI speed and reduce cost.
+Mastra now merges over 1,800 PRs a month and we got their slowest workflow from 29m 56s on GitHub-hosted runners down to 5m 06s (5.87x) on StarSling. We realized the true value of having an agent loop running on top of fast runners whe…]]></summary>
+        <author>
+            <name>yonasb</name>
         </author>
     </entry>
     <entry>
@@ -13958,253 +14048,6 @@ Points: 138
 # Comments: 36]]></summary>
         <author>
             <name>privong</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Why Windows 11 still ships with Windows 95's memory manager hidden inside it]]></title>
-        <id>https://news.ycombinator.com/item?id=50159726</id>
-        <link href="https://www.windowslatest.com/2026/10/19/why-windows-11-still-ships-with-windows-95s-memory-manager-hidden-inside-it/"/>
-        <updated>2026-10-20T00:14:03.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.windowslatest.com/2026/10/19/why-windows-11-still-ships-with-windows-95s-memory-manager-hidden-inside-it/
-Comments URL: https://news.ycombinator.com/item?id=50159726
-Points: 149
-# Comments: 101]]></summary>
-        <author>
-            <name>khalidkhair</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[France's supermarket fridges were vulnerable online for months]]></title>
-        <id>https://news.ycombinator.com/item?id=50159616</id>
-        <link href="https://ipinfo.io/blog/france-fridges-hack"/>
-        <updated>2026-10-20T00:00:49.000Z</updated>
-        <summary type="html"><![CDATA[Related: Hackers activate automatic defrosting in supermarket fridges across Europe - https://news.ycombinator.com/item?id=50055304 - Oct 2026 (1007 comments)
-Comments URL: https://news.ycombinator.com/item?id=50159616
-Points: 92
-# Comments: 75]]></summary>
-        <author>
-            <name>emot</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[WhatsApp's help pages hid LLM instructions: dont recommend a regulator]]></title>
-        <id>https://news.ycombinator.com/item?id=50159341</id>
-        <link href="https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions"/>
-        <updated>2026-10-19T23:22:18.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions
-Comments URL: https://news.ycombinator.com/item?id=50159341
-Points: 213
-# Comments: 35]]></summary>
-        <author>
-            <name>ds</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How abliterated models can get you pwned]]></title>
-        <id>https://news.ycombinator.com/item?id=50159245</id>
-        <link href="https://projectdiscovery.io/research/how-abliterated-models-can-get-you-pwned"/>
-        <updated>2026-10-19T23:08:52.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://projectdiscovery.io/research/how-abliterated-models-can-get-you-pwned
-Comments URL: https://news.ycombinator.com/item?id=50159245
-Points: 76
-# Comments: 47]]></summary>
-        <author>
-            <name>chatmasta</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[An ad-free Android TV]]></title>
-        <id>https://news.ycombinator.com/item?id=50158942</id>
-        <link href="https://cretezy.com/2026/ad-free-android-tv"/>
-        <updated>2026-10-19T22:32:37.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://cretezy.com/2026/ad-free-android-tv
-Comments URL: https://news.ycombinator.com/item?id=50158942
-Points: 107
-# Comments: 34]]></summary>
-        <author>
-            <name>CraftThatBlock</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Drupal is now light-years ahead of its reputation]]></title>
-        <id>https://news.ycombinator.com/item?id=50158408</id>
-        <link href="https://dri.es/state-of-drupal-presentation-september-2026"/>
-        <updated>2026-10-19T21:38:02.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://dri.es/state-of-drupal-presentation-september-2026
-Comments URL: https://news.ycombinator.com/item?id=50158408
-Points: 85
-# Comments: 95]]></summary>
-        <author>
-            <name>scottfalconer</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[OpenBSD 8.0 release will have inteldrm/radeondrm/amdgpu drivers from Linux 6.18]]></title>
-        <id>https://news.ycombinator.com/item?id=50158138</id>
-        <link href="https://bsd.network/@brynet/117407035545900963"/>
-        <updated>2026-10-19T21:11:45.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://bsd.network/@brynet/117407035545900963
-Comments URL: https://news.ycombinator.com/item?id=50158138
-Points: 63
-# Comments: 10]]></summary>
-        <author>
-            <name>doener</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Putting Linux on my RTX Spark laptop because I don't have a Microsoft account]]></title>
-        <id>https://news.ycombinator.com/item?id=50158100</id>
-        <link href="https://josie.lol/blog/linux-rtx-spark"/>
-        <updated>2026-10-19T21:08:18.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://josie.lol/blog/linux-rtx-spark
-Comments URL: https://news.ycombinator.com/item?id=50158100
-Points: 156
-# Comments: 69]]></summary>
-        <author>
-            <name>pfeifferj</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[One Hash Bloom Filters]]></title>
-        <id>https://news.ycombinator.com/item?id=50157865</id>
-        <link href="https://calabro.io/ohbf"/>
-        <updated>2026-10-19T20:50:08.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://calabro.io/ohbf
-Comments URL: https://news.ycombinator.com/item?id=50157865
-Points: 80
-# Comments: 10]]></summary>
-        <author>
-            <name>jcalabro</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Startup taps underwater volcano as energy source in "proof point" test]]></title>
-        <id>https://news.ycombinator.com/item?id=50157456</id>
-        <link href="https://arstechnica.com/science/2026/10/startup-taps-underwater-volcano-as-energy-source-in-proof-point-test/"/>
-        <updated>2026-10-19T20:12:49.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://arstechnica.com/science/2026/10/startup-taps-underwater-volcano-as-energy-source-in-proof-point-test/
-Comments URL: https://news.ycombinator.com/item?id=50157456
-Points: 105
-# Comments: 41]]></summary>
-        <author>
-            <name>wffurr</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The reverts will continue until morale improves]]></title>
-        <id>https://news.ycombinator.com/item?id=50156206</id>
-        <link href="http://peter.eisentraut.org/blog/2026/10/09/the-reverts-will-continue-until-morale-improves"/>
-        <updated>2026-10-19T18:42:32.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: http://peter.eisentraut.org/blog/2026/10/09/the-reverts-will-continue-until-morale-improves
-Comments URL: https://news.ycombinator.com/item?id=50156206
-Points: 181
-# Comments: 30]]></summary>
-        <author>
-            <name>hans_castorp</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[C++ futures part 1: The mental model]]></title>
-        <id>https://news.ycombinator.com/item?id=50155751</id>
-        <link href="https://devblogs.microsoft.com/oldnewthing/20261012-00/?p=112767/"/>
-        <updated>2026-10-19T18:05:53.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://devblogs.microsoft.com/oldnewthing/20261012-00/?p=112767/
-Comments URL: https://news.ycombinator.com/item?id=50155751
-Points: 53
-# Comments: 11]]></summary>
-        <author>
-            <name>ibobev</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Mercury 3: Diffusion at scale]]></title>
-        <id>https://news.ycombinator.com/item?id=50155245</id>
-        <link href="https://www.inceptionlabs.ai/blog/introducing-mercury-3"/>
-        <updated>2026-10-19T17:27:11.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.inceptionlabs.ai/blog/introducing-mercury-3
-Comments URL: https://news.ycombinator.com/item?id=50155245
-Points: 158
-# Comments: 67]]></summary>
-        <author>
-            <name>cmrdporcupine</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Android apps running native on macOS]]></title>
-        <id>https://news.ycombinator.com/item?id=50154624</id>
-        <link href="https://github.com/kksimp/Mac.apk"/>
-        <updated>2026-10-19T16:45:30.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://github.com/kksimp/Mac.apk
-Comments URL: https://news.ycombinator.com/item?id=50154624
-Points: 147
-# Comments: 46]]></summary>
-        <author>
-            <name>flocked</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[MiniMax M3.1 Flash]]></title>
-        <id>https://news.ycombinator.com/item?id=50154540</id>
-        <link href="https://www.minimax.io/blog/minimax-m31f"/>
-        <updated>2026-10-19T16:39:09.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.minimax.io/blog/minimax-m31f
-Comments URL: https://news.ycombinator.com/item?id=50154540
-Points: 245
-# Comments: 91]]></summary>
-        <author>
-            <name>jtg</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[I no longer care to work on any Ruby gems so I've archived all my repositories]]></title>
-        <id>https://news.ycombinator.com/item?id=50154518</id>
-        <link href="https://po-ru.com/2026/10/18/why-im-no-longer-updating-this-repository"/>
-        <updated>2026-10-19T16:37:10.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://po-ru.com/2026/10/18/why-im-no-longer-updating-this-repository
-Comments URL: https://news.ycombinator.com/item?id=50154518
-Points: 293
-# Comments: 257]]></summary>
-        <author>
-            <name>phoronixrly</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[DeepSeek banned from U.S. federal civilian agencies under new DHS order]]></title>
-        <id>https://news.ycombinator.com/item?id=50154244</id>
-        <link href="https://www.reuters.com/technology/us-banning-chinese-ai-deepseek-government-agency-it-systems-2026-10-19/"/>
-        <updated>2026-10-19T16:16:46.000Z</updated>
-        <summary type="html"><![CDATA[https://public-inspection.federalregister.gov/2026-21447.pdf
-Comments URL: https://news.ycombinator.com/item?id=50154244
-Points: 123
-# Comments: 112]]></summary>
-        <author>
-            <name>cmrdporcupine</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Dungeon Generation in the Gnomish Mines of NetHack]]></title>
-        <id>https://news.ycombinator.com/item?id=50154109</id>
-        <link href="https://www.boristhebrave.com/2026/10/18/dungeon-generation-in-the-gnomish-mines-of-nethack/"/>
-        <updated>2026-10-19T16:06:40.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.boristhebrave.com/2026/10/18/dungeon-generation-in-the-gnomish-mines-of-nethack/
-Comments URL: https://news.ycombinator.com/item?id=50154109
-Points: 83
-# Comments: 9]]></summary>
-        <author>
-            <name>ibobev</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ukraine claims first drone evacuation of wounded soldier]]></title>
-        <id>https://news.ycombinator.com/item?id=50153664</id>
-        <link href="https://www.nbcnews.com/world/ukraine/ukraine-first-drone-evacuation-wounded-soldier-frontlines-hexacopter-rcna604310"/>
-        <updated>2026-10-19T15:31:34.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.nbcnews.com/world/ukraine/ukraine-first-drone-evacuation-wounded-soldier-frontlines-hexacopter-rcna604310
-Comments URL: https://news.ycombinator.com/item?id=50153664
-Points: 66
-# Comments: 65]]></summary>
-        <author>
-            <name>yzydserd</name>
         </author>
     </entry>
 </feed>
