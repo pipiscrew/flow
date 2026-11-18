@@ -6,6 +6,176 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=50550415",
+          "author": "leumon",
+          "description": "Article URL: https://blog.google/innovation-and-ai/models-and-research/google-deepmind/genie-4-now-available-project-genie/\nComments URL: https://news.ycombinator.com/item?id=50550415\nPoints: 112\n# Comments: 90",
+          "link": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/genie-4-now-available-project-genie/",
+          "publishedOn": "2026-11-18T18:49:51.000Z",
+          "wordCount": 5006,
+          "title": "Genie 4 is now available",
+          "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/resized_ProjectGenie_Thumbnail_v02.width-1300.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50550096",
+          "author": "aray07",
+          "description": "Article URL: https://jimmyhmiller.com/magic-of-partial-evaluation\nComments URL: https://news.ycombinator.com/item?id=50550096\nPoints: 56\n# Comments: 5",
+          "link": "https://jimmyhmiller.com/magic-of-partial-evaluation",
+          "publishedOn": "2026-11-18T18:29:03.000Z",
+          "wordCount": 3153,
+          "title": "The Magic of Partial Evaluation",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50549493",
+          "author": "vighneshiyer",
+          "description": "Article URL: https://openai.com/index/advancing-chip-design-with-our-models/\nComments URL: https://news.ycombinator.com/item?id=50549493\nPoints: 80\n# Comments: 38",
+          "link": "https://openai.com/index/advancing-chip-design-with-our-models/",
+          "publishedOn": "2026-11-18T17:45:47.000Z",
+          "wordCount": null,
+          "title": "Advancing chip design with OpenAI models",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50548991",
+          "author": "kristianpaul",
+          "description": "Article URL: https://crosspointreader.com\nComments URL: https://news.ycombinator.com/item?id=50548991\nPoints: 55\n# Comments: 25",
+          "link": "https://crosspointreader.com/",
+          "publishedOn": "2026-11-18T17:14:31.000Z",
+          "wordCount": 727,
+          "title": "CrossPoint Reader",
+          "imageUrl": "https://crosspointreader.com/og-home.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50548660",
+          "author": "codekarate",
+          "description": "Hi HN, we're Shane, Sam, and Abhi.\nAlmost two years ago, we shared Mastra, our open-source TypeScript agent framework, on Show HN: https://news.ycombinator.com/item?id=43103073. It got a few hundred upvotes; a couple of weeks later our downloads had doubled, and we were off to the races.\nToday we're sharing Mastra Factory, the open-source software factory we built to help maintain Mastra itself.\nAt Mastra, we now average nearly 4M downloads per week, and with Factory our team now merges hundreds of PRs a week across the mastra-ai GitHub org. Last week, Factory opened and merged 238 PRs, alongside 630 merged PRs from humans.\nThere's a lot of debate about what a software factory is. For us Factory is a configurable agentic kanban board that's @-taggable in Slack.\nUnder the hood, it uses Mastra’s durable agents for long-running sessions, our conversational memory system, a markdown based wiki with source citations to incorporate company knowledge, signals that subscribe to PR comments wired up into sessions, and a customizable cloud sandbox with our coding harness (working on supporting Claude Code, Codex etc).\nWhen we started out, we modeled Factory around our existing workflow-oriented process (triage, plan, build, review, shipped). Three months later, we find ourselves mostly driving it through Slack vs a web UI.\nWe’ve seen more senior engineers kick off sessions in parallel (“triage the 20 oldest issues and let’s evaluate…”). We’re using bug and vuln scanners now, and we’ve closed our repo to outside contributors, asking folks to write detailed issue repros instead.\nYou can get started with `npm create factory`.\nIt’s fully open-source, so you can run it entirely on your infra (we also offer a hosted version). Comment here, we would love to know what you think!\nhttps://factory.mastra.ai\nhttps://github.com/mastra-ai/template-factory\nComments URL: https://news.ycombinator.com/item?id=50548660\nPoints: 55\n# Comments: 16",
+          "link": "https://news.ycombinator.com/item?id=50548660",
+          "publishedOn": "2026-11-18T16:53:42.000Z",
+          "wordCount": 905,
+          "title": "Show HN: Mastra Factory, the open-source software factory we use to build Mastra",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50548161",
+          "author": "raj-shekhar",
+          "description": "Voyager 1 reached one light-day from Earth today.\nOn the site you can:\n- see where both Voyagers are right now\n- open a nuclear battery to its 24 plutonium spheres\n- go into the data computer, down to a single memory chip\n- see how the Golden Record's cover explains how to play it\n- watch how Voyager 1 was fixed by radio\n- see which dish on Earth is listening to them, live\nI also made a 4-minute film from it: https://www.youtube.com/watch?v=kpzsRo-c1_A\nComments URL: https://news.ycombinator.com/item?id=50548161\nPoints: 101\n# Comments: 24",
+          "link": "https://rshekhar.com/voyager/",
+          "publishedOn": "2026-11-18T16:18:51.000Z",
+          "wordCount": null,
+          "title": "Show HN: Take Voyager 1 apart, down to a single memory chip",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50548021",
+          "author": "gmays",
+          "description": "Article URL: https://microsoft.ai/news/microsoft-ignite-2026/\nComments URL: https://news.ycombinator.com/item?id=50548021\nPoints: 331\n# Comments: 216",
+          "link": "https://microsoft.ai/news/microsoft-ignite-2026/",
+          "publishedOn": "2026-11-18T16:08:24.000Z",
+          "wordCount": 2669,
+          "title": "Seven new models at scalable price-performance",
+          "imageUrl": "https://microsoft.ai/wp-content/uploads/2026/11/All-Up-Blog.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50548004",
+          "author": "Kozmik1",
+          "description": "Article URL: https://www.cve.org/CVERecord?id=CVE-2026-99312\nComments URL: https://news.ycombinator.com/item?id=50548004\nPoints: 150\n# Comments: 97",
+          "link": "https://www.cve.org/CVERecord?id=CVE-2026-99312",
+          "publishedOn": "2026-11-18T16:06:21.000Z",
+          "wordCount": 24,
+          "title": "KVM: x86: Unconditionally reset MMU context when emulating INIT (CVE-2026-99312)",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50547980",
+          "author": "zerocool0101",
+          "description": "Article URL: https://exitpath-ruddy.vercel.app/\nComments URL: https://news.ycombinator.com/item?id=50547980\nPoints: 101\n# Comments: 19",
+          "link": "https://exitpath-ruddy.vercel.app/",
+          "publishedOn": "2026-11-18T16:04:43.000Z",
+          "wordCount": 11,
+          "title": "Show HN: ExitPath – Open-source ways out of Slack, Notion and Microsoft 365",
+          "imageUrl": "https://exitpath-ruddy.vercel.app/og.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50547777",
+          "author": "Betelbuddy",
+          "description": "Article URL: https://europeanbusinessmagazine.com/ai-agents-better-questions-kpmg/\nComments URL: https://news.ycombinator.com/item?id=50547777\nPoints: 193\n# Comments: 100",
+          "link": "https://europeanbusinessmagazine.com/ai-agents-better-questions-kpmg/",
+          "publishedOn": "2026-11-18T15:49:34.000Z",
+          "wordCount": 2763,
+          "title": "AI agents ask better questions than KPMG accountants in audit trial",
+          "imageUrl": "https://europeanbusinessmagazine.com/wp-content/uploads/2026/06/ai5555-1024x678.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50547620",
+          "author": "gyre007",
+          "description": "Article URL: https://www.inside-db.com/\nComments URL: https://news.ycombinator.com/item?id=50547620\nPoints: 409\n# Comments: 145",
+          "link": "https://www.inside-db.com/",
+          "publishedOn": "2026-11-18T15:38:33.000Z",
+          "wordCount": 764,
+          "title": "Inside Deutsche Bank",
+          "imageUrl": "https://www.inside-db.com/content/images/size/w1200/2026/09/_DSF9639.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50547583",
+          "author": "birdboat00",
+          "description": "Article URL: https://sam.gov/workspace/contract/opp/8948e8601e964c6aba9c801eee16b1be/view\nComments URL: https://news.ycombinator.com/item?id=50547583\nPoints: 122\n# Comments: 77",
+          "link": "https://sam.gov/workspace/contract/opp/8948e8601e964c6aba9c801eee16b1be/view",
+          "publishedOn": "2026-11-18T15:35:44.000Z",
+          "wordCount": 1790,
+          "title": "F-22 Next-Generation micro–Data Transfer Cartridge (mDTC)",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50547374",
+          "author": "speedping",
+          "description": "https://www.cve.org/CVERecord?id=CVE-2026-123633\nhttps://www.cve.org/CVERecord?id=CVE-2026-123007\nComments URL: https://news.ycombinator.com/item?id=50547374\nPoints: 787\n# Comments: 329",
+          "link": "https://www.wiz.io/blog/nginx-http2-rce-vulnerabilities",
+          "publishedOn": "2026-11-18T15:19:55.000Z",
+          "wordCount": 29199,
+          "title": "Unauthenticated remote code execution in Nginx",
+          "imageUrl": "https://www.datocms-assets.com/75231/1794936719-img_7875.png?fm=webp"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50546967",
+          "author": "ibobev",
+          "description": "Article URL: https://pikuma.com/blog/history-of-x86-4004-to-486\nComments URL: https://news.ycombinator.com/item?id=50546967\nPoints: 111\n# Comments: 30",
+          "link": "https://pikuma.com/blog/history-of-x86-4004-to-486",
+          "publishedOn": "2026-11-18T14:47:53.000Z",
+          "wordCount": 4693,
+          "title": "The x86 CPU: From 4004 to 486",
+          "imageUrl": "https://pikuma.com/images/blog/history-of-x86-4004-to-486/thumbnail-1200x630.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50546922",
+          "author": "teleforce",
+          "description": "Article URL: https://arxiv.org/abs/2510.18203\nComments URL: https://news.ycombinator.com/item?id=50546922\nPoints: 84\n# Comments: 21",
+          "link": "https://arxiv.org/abs/2510.18203",
+          "publishedOn": "2026-11-18T14:44:33.000Z",
+          "wordCount": 481,
+          "title": "A Primer on Fourier Series (2025)",
+          "imageUrl": "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50546914",
+          "author": "DeepLogin",
+          "description": "Article URL: https://www.cam.ac.uk/news/cambridge-dictionary-reveals-word-of-the-year-2026\nComments URL: https://news.ycombinator.com/item?id=50546914\nPoints: 191\n# Comments: 145",
+          "link": "https://www.cam.ac.uk/news/cambridge-dictionary-reveals-word-of-the-year-2026",
+          "publishedOn": "2026-11-18T14:43:52.000Z",
+          "wordCount": 2514,
+          "title": "The Cambridge Dictionary has named ‘human’ as the Word of the Year 2026",
+          "imageUrl": "https://www.cam.ac.ukWOTY_LI_expert_cover_image.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50545958",
+          "author": "ritzaco",
+          "description": "Article URL: https://techstackups.com/articles/quad9-leaves-france-dns-blocking/\nComments URL: https://news.ycombinator.com/item?id=50545958\nPoints: 485\n# Comments: 168",
+          "link": "https://techstackups.com/articles/quad9-leaves-france-dns-blocking/",
+          "publishedOn": "2026-11-18T13:18:02.000Z",
+          "wordCount": 3663,
+          "title": "DNS resolvers are the wrong place to fight piracy",
+          "imageUrl": "https://techstackups.com/img/articles/quad9-leaves-france/cover.jpg"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=50544261",
           "author": "hans_castorp",
           "description": "Article URL: https://social.anoxinon.de/@codebergstatus/117636437840688845\nComments URL: https://news.ycombinator.com/item?id=50544261\nPoints: 213\n# Comments: 164",
@@ -10564,66 +10734,6 @@
           "wordCount": 1062,
           "title": "AfD Leak: What 421,179 Hacked Emails Show about the German Far Right",
           "imageUrl": "https://storage.ghost.io/c/98/53/98532a3a-3542-4bcd-a05e-a2672d5c28c1/content/images/size/w1200/2026/10/x-card--31--2.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50163277",
-          "author": "ggcr",
-          "description": "Article URL: https://github.com/deepseek-ai/DeepInfer\nComments URL: https://news.ycombinator.com/item?id=50163277\nPoints: 322\n# Comments: 107",
-          "link": "https://github.com/deepseek-ai/DeepInfer",
-          "publishedOn": "2026-10-20T09:08:54.000Z",
-          "wordCount": 2475,
-          "title": "DeepSeek just open-sourced its inference engine",
-          "imageUrl": "https://opengraph.githubassets.com/1c8d418f660e2ef207404c882e1bc66f494580811f9000e6ba9dbaf11d887be5/deepseek-ai/DeepInfer"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50162177",
-          "author": "theanonymousone",
-          "description": "Article URL: https://github.com/microg/GmsCore/wiki\nComments URL: https://news.ycombinator.com/item?id=50162177\nPoints: 69\n# Comments: 4",
-          "link": "https://github.com/microg/GmsCore/wiki",
-          "publishedOn": "2026-10-20T06:37:07.000Z",
-          "wordCount": 719,
-          "title": "MicroG: Free-libre re-implementation of Google's proprietary Android user space",
-          "imageUrl": "https://opengraph.githubassets.com/ac3cc3fa2e0b9af52f07bdef0024029835dfc06e1311dc682cb6f6212f67b610/microg/GmsCore"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50162044",
-          "author": "bryanrasmussen",
-          "description": "Article URL: https://www.bbc.com/news/articles/cp814l80pw2o\nComments URL: https://news.ycombinator.com/item?id=50162044\nPoints: 97\n# Comments: 7",
-          "link": "https://www.bbc.com/news/articles/cp814l80pw2o",
-          "publishedOn": "2026-10-20T06:20:54.000Z",
-          "wordCount": 5186,
-          "title": "Tiny possum and glider thought extinct for 6000 years found in remote West Papua",
-          "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/d743/live/068cb000-191f-11f1-aabf-478e3f053ea7.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50161346",
-          "author": "riffraff",
-          "description": "Article URL: https://blog.jim-nielsen.com/2026/icons-in-every-menu/\nComments URL: https://news.ycombinator.com/item?id=50161346\nPoints: 212\n# Comments: 150",
-          "link": "https://blog.jim-nielsen.com/2026/icons-in-every-menu/",
-          "publishedOn": "2026-10-20T04:27:08.000Z",
-          "wordCount": 589,
-          "title": "No more icons in every menu by default",
-          "imageUrl": "https://cdn.jim-nielsen.com/blog/2026/macos-golden-gate-hig-icons.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50160877",
-          "author": "mendym",
-          "description": "Article URL: https://github.com/golang/go/issues/82345\nComments URL: https://news.ycombinator.com/item?id=50160877\nPoints: 100\n# Comments: 41",
-          "link": "https://github.com/golang/go/issues/82345",
-          "publishedOn": "2026-10-20T03:05:07.000Z",
-          "wordCount": 5210,
-          "title": "Go will reject certificate chains containing eight distrusted SPKIs",
-          "imageUrl": "https://opengraph.githubassets.com/f6608fb926bb6a467c0688d0638cd5c7e70f9bcdbf9ee0ff5bf0c7e42f96ca89/golang/go/issues/82345"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50160494",
-          "author": "privong",
-          "description": "Article URL: https://www.openbsd.org/80.html\nComments URL: https://news.ycombinator.com/item?id=50160494\nPoints: 138\n# Comments: 36",
-          "link": "https://www.openbsd.org/80.html",
-          "publishedOn": "2026-10-20T02:06:40.000Z",
-          "wordCount": 6489,
-          "title": "OpenBSD 8.0",
-          "imageUrl": null
         }
       ]
     }

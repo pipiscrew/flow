@@ -2,10 +2,251 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pipiscrew.github.io/flow/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-11-18T12:51:49.026Z</updated>
+    <updated>2026-11-18T21:14:58.640Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://pipiscrew.github.io/flow/index.html"/>
     <link rel="self" href="https://pipiscrew.github.io/flow/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Genie 4 is now available]]></title>
+        <id>https://news.ycombinator.com/item?id=50550415</id>
+        <link href="https://blog.google/innovation-and-ai/models-and-research/google-deepmind/genie-4-now-available-project-genie/"/>
+        <updated>2026-11-18T18:49:51.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://blog.google/innovation-and-ai/models-and-research/google-deepmind/genie-4-now-available-project-genie/
+Comments URL: https://news.ycombinator.com/item?id=50550415
+Points: 112
+# Comments: 90]]></summary>
+        <author>
+            <name>leumon</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Magic of Partial Evaluation]]></title>
+        <id>https://news.ycombinator.com/item?id=50550096</id>
+        <link href="https://jimmyhmiller.com/magic-of-partial-evaluation"/>
+        <updated>2026-11-18T18:29:03.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://jimmyhmiller.com/magic-of-partial-evaluation
+Comments URL: https://news.ycombinator.com/item?id=50550096
+Points: 56
+# Comments: 5]]></summary>
+        <author>
+            <name>aray07</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Advancing chip design with OpenAI models]]></title>
+        <id>https://news.ycombinator.com/item?id=50549493</id>
+        <link href="https://openai.com/index/advancing-chip-design-with-our-models/"/>
+        <updated>2026-11-18T17:45:47.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://openai.com/index/advancing-chip-design-with-our-models/
+Comments URL: https://news.ycombinator.com/item?id=50549493
+Points: 80
+# Comments: 38]]></summary>
+        <author>
+            <name>vighneshiyer</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CrossPoint Reader]]></title>
+        <id>https://news.ycombinator.com/item?id=50548991</id>
+        <link href="https://crosspointreader.com/"/>
+        <updated>2026-11-18T17:14:31.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://crosspointreader.com
+Comments URL: https://news.ycombinator.com/item?id=50548991
+Points: 55
+# Comments: 25]]></summary>
+        <author>
+            <name>kristianpaul</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Mastra Factory, the open-source software factory we use to build Mastra]]></title>
+        <id>https://news.ycombinator.com/item?id=50548660</id>
+        <link href="https://news.ycombinator.com/item?id=50548660"/>
+        <updated>2026-11-18T16:53:42.000Z</updated>
+        <summary type="html"><![CDATA[Hi HN, we're Shane, Sam, and Abhi.
+Almost two years ago, we shared Mastra, our open-source TypeScript agent framework, on Show HN: https://news.ycombinator.com/item?id=43103073. It got a few hundred upvotes; a couple of weeks later our downloads had doubled, and we were off to the races.
+Today we're sharing Mastra Factory, the open-source software factory we built to help maintain Mastra itself.
+At Mastra, we now average nearly 4M downloads per week, and with Factory our team now merges hundreds of PRs a week across the mastra-ai GitHub org. Last week, Factory opened and merged 238 PRs, alongside 630 merged PRs from humans.
+There's a lot of debate about what a software factory is. For us Factory is a configurable agentic kanban board that's @-taggable in Slack.
+Under the hood, it uses Mastra’s durable agents for long-running sessions, our conversational memory system, a markdown based wiki with source citations to incorporate company knowledge, signals that subscribe to PR comments wired up into sessions, and a customizable cloud sandbox with our coding harness (working on supporting Claude Code, Codex etc).
+When we started out, we modeled Factory around our existing workflow-oriented process (triage, plan, build, review, shipped). Three months later, we find ourselves mostly driving it through Slack vs a web UI.
+We’ve seen more senior engineers kick off sessions in parallel (“triage the 20 oldest issues and let’s evaluate…”). We’re using bug and vuln scanners now, and we’ve closed our repo to outside contributors, asking folks to write detailed issue repros instead.
+You can get started with `npm create factory`.
+It’s fully open-source, so you can run it entirely on your infra (we also offer a hosted version). Comment here, we would love to know what you think!
+https://factory.mastra.ai
+https://github.com/mastra-ai/template-factory
+Comments URL: https://news.ycombinator.com/item?id=50548660
+Points: 55
+# Comments: 16]]></summary>
+        <author>
+            <name>codekarate</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Take Voyager 1 apart, down to a single memory chip]]></title>
+        <id>https://news.ycombinator.com/item?id=50548161</id>
+        <link href="https://rshekhar.com/voyager/"/>
+        <updated>2026-11-18T16:18:51.000Z</updated>
+        <summary type="html"><![CDATA[Voyager 1 reached one light-day from Earth today.
+On the site you can:
+- see where both Voyagers are right now
+- open a nuclear battery to its 24 plutonium spheres
+- go into the data computer, down to a single memory chip
+- see how the Golden Record's cover explains how to play it
+- watch how Voyager 1 was fixed by radio
+- see which dish on Earth is listening to them, live
+I also made a 4-minute film from it: https://www.youtube.com/watch?v=kpzsRo-c1_A
+Comments URL: https://news.ycombinator.com/item?id=50548161
+Points: 101
+# Comments: 24]]></summary>
+        <author>
+            <name>raj-shekhar</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Seven new models at scalable price-performance]]></title>
+        <id>https://news.ycombinator.com/item?id=50548021</id>
+        <link href="https://microsoft.ai/news/microsoft-ignite-2026/"/>
+        <updated>2026-11-18T16:08:24.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://microsoft.ai/news/microsoft-ignite-2026/
+Comments URL: https://news.ycombinator.com/item?id=50548021
+Points: 331
+# Comments: 216]]></summary>
+        <author>
+            <name>gmays</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[KVM: x86: Unconditionally reset MMU context when emulating INIT (CVE-2026-99312)]]></title>
+        <id>https://news.ycombinator.com/item?id=50548004</id>
+        <link href="https://www.cve.org/CVERecord?id=CVE-2026-99312"/>
+        <updated>2026-11-18T16:06:21.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.cve.org/CVERecord?id=CVE-2026-99312
+Comments URL: https://news.ycombinator.com/item?id=50548004
+Points: 150
+# Comments: 97]]></summary>
+        <author>
+            <name>Kozmik1</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: ExitPath – Open-source ways out of Slack, Notion and Microsoft 365]]></title>
+        <id>https://news.ycombinator.com/item?id=50547980</id>
+        <link href="https://exitpath-ruddy.vercel.app/"/>
+        <updated>2026-11-18T16:04:43.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://exitpath-ruddy.vercel.app/
+Comments URL: https://news.ycombinator.com/item?id=50547980
+Points: 101
+# Comments: 19]]></summary>
+        <author>
+            <name>zerocool0101</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AI agents ask better questions than KPMG accountants in audit trial]]></title>
+        <id>https://news.ycombinator.com/item?id=50547777</id>
+        <link href="https://europeanbusinessmagazine.com/ai-agents-better-questions-kpmg/"/>
+        <updated>2026-11-18T15:49:34.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://europeanbusinessmagazine.com/ai-agents-better-questions-kpmg/
+Comments URL: https://news.ycombinator.com/item?id=50547777
+Points: 193
+# Comments: 100]]></summary>
+        <author>
+            <name>Betelbuddy</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Inside Deutsche Bank]]></title>
+        <id>https://news.ycombinator.com/item?id=50547620</id>
+        <link href="https://www.inside-db.com/"/>
+        <updated>2026-11-18T15:38:33.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.inside-db.com/
+Comments URL: https://news.ycombinator.com/item?id=50547620
+Points: 409
+# Comments: 145]]></summary>
+        <author>
+            <name>gyre007</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[F-22 Next-Generation micro–Data Transfer Cartridge (mDTC)]]></title>
+        <id>https://news.ycombinator.com/item?id=50547583</id>
+        <link href="https://sam.gov/workspace/contract/opp/8948e8601e964c6aba9c801eee16b1be/view"/>
+        <updated>2026-11-18T15:35:44.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://sam.gov/workspace/contract/opp/8948e8601e964c6aba9c801eee16b1be/view
+Comments URL: https://news.ycombinator.com/item?id=50547583
+Points: 122
+# Comments: 77]]></summary>
+        <author>
+            <name>birdboat00</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Unauthenticated remote code execution in Nginx]]></title>
+        <id>https://news.ycombinator.com/item?id=50547374</id>
+        <link href="https://www.wiz.io/blog/nginx-http2-rce-vulnerabilities"/>
+        <updated>2026-11-18T15:19:55.000Z</updated>
+        <summary type="html"><![CDATA[https://www.cve.org/CVERecord?id=CVE-2026-123633
+https://www.cve.org/CVERecord?id=CVE-2026-123007
+Comments URL: https://news.ycombinator.com/item?id=50547374
+Points: 787
+# Comments: 329]]></summary>
+        <author>
+            <name>speedping</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The x86 CPU: From 4004 to 486]]></title>
+        <id>https://news.ycombinator.com/item?id=50546967</id>
+        <link href="https://pikuma.com/blog/history-of-x86-4004-to-486"/>
+        <updated>2026-11-18T14:47:53.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://pikuma.com/blog/history-of-x86-4004-to-486
+Comments URL: https://news.ycombinator.com/item?id=50546967
+Points: 111
+# Comments: 30]]></summary>
+        <author>
+            <name>ibobev</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A Primer on Fourier Series (2025)]]></title>
+        <id>https://news.ycombinator.com/item?id=50546922</id>
+        <link href="https://arxiv.org/abs/2510.18203"/>
+        <updated>2026-11-18T14:44:33.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://arxiv.org/abs/2510.18203
+Comments URL: https://news.ycombinator.com/item?id=50546922
+Points: 84
+# Comments: 21]]></summary>
+        <author>
+            <name>teleforce</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Cambridge Dictionary has named ‘human’ as the Word of the Year 2026]]></title>
+        <id>https://news.ycombinator.com/item?id=50546914</id>
+        <link href="https://www.cam.ac.uk/news/cambridge-dictionary-reveals-word-of-the-year-2026"/>
+        <updated>2026-11-18T14:43:52.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.cam.ac.uk/news/cambridge-dictionary-reveals-word-of-the-year-2026
+Comments URL: https://news.ycombinator.com/item?id=50546914
+Points: 191
+# Comments: 145]]></summary>
+        <author>
+            <name>DeepLogin</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[DNS resolvers are the wrong place to fight piracy]]></title>
+        <id>https://news.ycombinator.com/item?id=50545958</id>
+        <link href="https://techstackups.com/articles/quad9-leaves-france-dns-blocking/"/>
+        <updated>2026-11-18T13:18:02.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://techstackups.com/articles/quad9-leaves-france-dns-blocking/
+Comments URL: https://news.ycombinator.com/item?id=50545958
+Points: 485
+# Comments: 168]]></summary>
+        <author>
+            <name>ritzaco</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Codeberg.org Not Reachable]]></title>
         <id>https://news.ycombinator.com/item?id=50544261</id>
@@ -13970,84 +14211,6 @@ Points: 227
 # Comments: 176]]></summary>
         <author>
             <name>firefax</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[DeepSeek just open-sourced its inference engine]]></title>
-        <id>https://news.ycombinator.com/item?id=50163277</id>
-        <link href="https://github.com/deepseek-ai/DeepInfer"/>
-        <updated>2026-10-20T09:08:54.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://github.com/deepseek-ai/DeepInfer
-Comments URL: https://news.ycombinator.com/item?id=50163277
-Points: 322
-# Comments: 107]]></summary>
-        <author>
-            <name>ggcr</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[MicroG: Free-libre re-implementation of Google's proprietary Android user space]]></title>
-        <id>https://news.ycombinator.com/item?id=50162177</id>
-        <link href="https://github.com/microg/GmsCore/wiki"/>
-        <updated>2026-10-20T06:37:07.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://github.com/microg/GmsCore/wiki
-Comments URL: https://news.ycombinator.com/item?id=50162177
-Points: 69
-# Comments: 4]]></summary>
-        <author>
-            <name>theanonymousone</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Tiny possum and glider thought extinct for 6000 years found in remote West Papua]]></title>
-        <id>https://news.ycombinator.com/item?id=50162044</id>
-        <link href="https://www.bbc.com/news/articles/cp814l80pw2o"/>
-        <updated>2026-10-20T06:20:54.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.bbc.com/news/articles/cp814l80pw2o
-Comments URL: https://news.ycombinator.com/item?id=50162044
-Points: 97
-# Comments: 7]]></summary>
-        <author>
-            <name>bryanrasmussen</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[No more icons in every menu by default]]></title>
-        <id>https://news.ycombinator.com/item?id=50161346</id>
-        <link href="https://blog.jim-nielsen.com/2026/icons-in-every-menu/"/>
-        <updated>2026-10-20T04:27:08.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://blog.jim-nielsen.com/2026/icons-in-every-menu/
-Comments URL: https://news.ycombinator.com/item?id=50161346
-Points: 212
-# Comments: 150]]></summary>
-        <author>
-            <name>riffraff</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Go will reject certificate chains containing eight distrusted SPKIs]]></title>
-        <id>https://news.ycombinator.com/item?id=50160877</id>
-        <link href="https://github.com/golang/go/issues/82345"/>
-        <updated>2026-10-20T03:05:07.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://github.com/golang/go/issues/82345
-Comments URL: https://news.ycombinator.com/item?id=50160877
-Points: 100
-# Comments: 41]]></summary>
-        <author>
-            <name>mendym</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[OpenBSD 8.0]]></title>
-        <id>https://news.ycombinator.com/item?id=50160494</id>
-        <link href="https://www.openbsd.org/80.html"/>
-        <updated>2026-10-20T02:06:40.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.openbsd.org/80.html
-Comments URL: https://news.ycombinator.com/item?id=50160494
-Points: 138
-# Comments: 36]]></summary>
-        <author>
-            <name>privong</name>
         </author>
     </entry>
 </feed>
