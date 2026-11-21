@@ -6,6 +6,106 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=50583982",
+          "author": "_dain_",
+          "description": "Article URL: https://borretti.me/article/re-riemann\nComments URL: https://news.ycombinator.com/item?id=50583982\nPoints: 77\n# Comments: 49",
+          "link": "https://borretti.me/article/re-riemann",
+          "publishedOn": "2026-11-20T23:42:44.000Z",
+          "wordCount": 998,
+          "title": "Re: Riemann",
+          "imageUrl": "https://borretti.me/assets/card/re-riemann.webp"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50583274",
+          "author": "CharlesW",
+          "description": "Article URL: https://ninlive.com/\nComments URL: https://news.ycombinator.com/item?id=50583274\nPoints: 93\n# Comments: 23",
+          "link": "https://ninlive.com/",
+          "publishedOn": "2026-11-20T22:30:47.000Z",
+          "wordCount": 838,
+          "title": "NINLIVE: The Nine Inch Nails live archive",
+          "imageUrl": "https://ninlive.com/static/ninlive-socialshare.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50583254",
+          "author": "mv4",
+          "description": "Article URL: https://www.cnbc.com/2026/11/19/stock-market-today-live-updates.html\nComments URL: https://news.ycombinator.com/item?id=50583254\nPoints: 110\n# Comments: 44",
+          "link": "https://www.cnbc.com/2026/11/19/stock-market-today-live-updates.html",
+          "publishedOn": "2026-11-20T22:29:06.000Z",
+          "wordCount": 35665,
+          "title": "Nasdaq erases all 2026 gains",
+          "imageUrl": "https://image.cnbcfm.com/api/v1/image/108533238-1795191208439-108533238-1793980775226-gettyimages-2303833268-anotherday34809196_zrhw37kt.jpeg?v=1795217571&w=1920&h=1080"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50581438",
+          "author": "ftchd",
+          "description": "Article URL: https://finance.yahoo.com/markets/article/nvidia-stock-extends-25-trillion-rout-as-sec-probe-reportedly-investigates-its-accounting-194945274.html\nComments URL: https://news.ycombinator.com/item?id=50581438\nPoints: 216\n# Comments: 104",
+          "link": "https://finance.yahoo.com/markets/article/nvidia-stock-extends-25-trillion-rout-as-sec-probe-reportedly-investigates-its-accounting-194945274.html",
+          "publishedOn": "2026-11-20T20:22:41.000Z",
+          "wordCount": 6623,
+          "title": "Nvidia accounting under SEC investigation, sources say",
+          "imageUrl": "https://s.yimg.com/lo/mysterio/api/cef3d0cb072492443a64255ea4f07aa8daad11f175c74e7cdd347255f44a5e89/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2F2026-11%2F659a6a35-5338-4ebd-8785-e731cf831f2d"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50581403",
+          "author": "iacguy",
+          "description": "Hi HN!\nUtpal here, I'm one of the founders of OpenComputer.\nOpenComputer is an open source cloud coding agent for teams that can run in your own cloud account (AWS, GCP, Azure).\nWe run the agent harness and the sandbox on the same durable VM (architecture in the docs [1]). First commit lands in 24s; the alternatives we benchmarked took 53-72s (benchmarks below [2]).\nTwo other choices:\n- One VM per team, scalable horizontally. Sessions are isolated in git worktrees.\n- Session files are backed up to a repo after every turn, so any session can resume on another VM.\nWe noticed that past ~640 session-hours a month, one always-on 4 vCPU VM is cheaper than per-session E2B sandboxes, for example. So at scale, this setup would not only be faster than current SOTA coding agents, but also more cost-efficient.\nFeel free to try via cloud for free [4] or self host. We would love any and all feedback, and happy to answer any questions! Full demo below [3].\n[1]: https://docs.opencomputer.dev/getting-started/architecture\n[2]: https://opencomputer.dev/blog/cloud-agents-as-fast-as-local/\n[3]: https://x.com/IgorZIJ/status/2121309785882591711\n[4]: https://app.opencomputer.dev\nComments URL: https://news.ycombinator.com/item?id=50581403\nPoints: 56\n# Comments: 17",
+          "link": "https://github.com/diggerhq/opencomputer",
+          "publishedOn": "2026-11-20T20:19:56.000Z",
+          "wordCount": 1968,
+          "title": "Show HN: OpenComputer – an open source alternative to Devin",
+          "imageUrl": "https://opengraph.githubassets.com/c4c7700630bc90628f6e7de99979be5bc9f96ef1d0be4b1b0a6fe380289a7f18/diggerhq/opencomputer"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50581260",
+          "author": "jasondavies",
+          "description": "Article URL: https://thinkingmachines.ai/news/inkling-2-mini/\nComments URL: https://news.ycombinator.com/item?id=50581260\nPoints: 621\n# Comments: 102",
+          "link": "https://thinkingmachines.ai/news/inkling-2-mini/",
+          "publishedOn": "2026-11-20T20:12:19.000Z",
+          "wordCount": 6805,
+          "title": "Inkling 2 Mini",
+          "imageUrl": "https://thinkingmachines.ai/news/inkling-2-mini/images/cover-social.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50581177",
+          "author": "notfried",
+          "description": "Article URL: https://signoregalilei.com/2026/11/20/and-yet-it-moves/\nComments URL: https://news.ycombinator.com/item?id=50581177\nPoints: 75\n# Comments: 38",
+          "link": "https://signoregalilei.com/2026/11/20/and-yet-it-moves/",
+          "publishedOn": "2026-11-20T20:07:55.000Z",
+          "wordCount": 3321,
+          "title": "And yet, it moves",
+          "imageUrl": "https://signoregalilei.com/wp-content/uploads/2026/11/Galileo_Musical_Cover_Art-300x207.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50581110",
+          "author": "facundo_olano",
+          "description": "Article URL: https://www.masteringemacs.org/article/announcing-dreamcoder\nComments URL: https://news.ycombinator.com/item?id=50581110\nPoints: 93\n# Comments: 13",
+          "link": "https://www.masteringemacs.org/article/announcing-dreamcoder",
+          "publishedOn": "2026-11-20T20:03:59.000Z",
+          "wordCount": 5403,
+          "title": "DreamCoder: Coding harness and IDE from the author of Mastering Emacs",
+          "imageUrl": "https://www.masteringemacs.org/static/uploads/article-images/dreamcoder-moon.webp"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50581084",
+          "author": "stratos123",
+          "description": "Article URL: https://scottaaronson.blog/?p=10344\nComments URL: https://news.ycombinator.com/item?id=50581084\nPoints: 203\n# Comments: 171",
+          "link": "https://scottaaronson.blog/?p=10344",
+          "publishedOn": "2026-11-20T20:03:07.000Z",
+          "wordCount": 6677,
+          "title": "The stochastic parrots have apparently proved the Riemann Hypothesis",
+          "imageUrl": "https://s0.wp.com/_si/?t=eyJpbWciOiJodHRwczpcL1wvc2NvdHRhYXJvbnNvbi5ibG9nXC93cC1jb250ZW50XC91cGxvYWRzXC8yMDIxXC8xMFwvY3JvcHBlZC1KYWNrZXQuZ2lmIiwidHh0IjoiU2h0ZXRsLU9wdGltaXplZCIsInRlbXBsYXRlIjoiZWRnZSIsImZvbnQiOiIiLCJibG9nX2lkIjoxMjk1MjA1ODB9.siOtN7gHw4tefA_rZickBw4GfI6tPxGgOQ1AXr2ZoOQMQ"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50580536",
+          "author": "sohzm",
+          "description": "Article URL: https://winedroid.soham.sh/demo/\nComments URL: https://news.ycombinator.com/item?id=50580536\nPoints: 94\n# Comments: 28",
+          "link": "https://winedroid.soham.sh/demo/",
+          "publishedOn": "2026-11-20T19:30:16.000Z",
+          "wordCount": 236,
+          "title": "Winedroid – run Android apps without Android (WASM demo)",
+          "imageUrl": null
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=50579568",
           "author": "jasondavies",
           "description": "Article URL: https://math216.wordpress.com/2026/11/20/hurried-announcement-alessandro-masullo-grh/\nComments URL: https://news.ycombinator.com/item?id=50579568\nPoints: 473\n# Comments: 153",
@@ -24,6 +124,16 @@
           "wordCount": 3292,
           "title": "We promoted developers into architects without informing them",
           "imageUrl": "https://near.tl/utils/resize/image?cdn=https://cdn.neartail.com/1FAIpQLScjbts-yMOruG0IK47bi0s9ciOCA6pyW7RlmwKwcFIRnw9HUQ/1795197373296/markdown/thumbnail.png&w=1200&h=630"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50579297",
+          "author": "ankitvgupta",
+          "description": "Article URL: https://ankitg.me/blog/vibecoding-inference-chip/\nComments URL: https://news.ycombinator.com/item?id=50579297\nPoints: 109\n# Comments: 39",
+          "link": "https://ankitg.me/blog/vibecoding-inference-chip/",
+          "publishedOn": "2026-11-20T18:15:16.000Z",
+          "wordCount": 3534,
+          "title": "Vibecoding an inference chip",
+          "imageUrl": "https://ankitg.me/assets/fpga-board.png"
         },
         {
           "id": "https://news.ycombinator.com/item?id=50578794",
@@ -10504,136 +10614,6 @@
           "wordCount": 1002,
           "title": "Crystal 1.22.0 Is Released",
           "imageUrl": "/assets/banner.webp"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50194833",
-          "author": "oidar",
-          "description": "Article URL: https://www.techspot.com/news/114296-woman-spends-three-nights-jail-faces-six-years.html\nComments URL: https://news.ycombinator.com/item?id=50194833\nPoints: 394\n# Comments: 380",
-          "link": "https://www.techspot.com/news/114296-woman-spends-three-nights-jail-faces-six-years.html",
-          "publishedOn": "2026-10-22T13:11:00.000Z",
-          "wordCount": null,
-          "title": "Woman faces six years in prison over Cash App account she never opened",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50194536",
-          "author": "rex64",
-          "description": "Article URL: https://larstofus.com/2025/11/16/how-to-run-a-city-builder-on-12-5-mhz/\nComments URL: https://news.ycombinator.com/item?id=50194536\nPoints: 63\n# Comments: 17",
-          "link": "https://larstofus.com/2025/11/16/how-to-run-a-city-builder-on-12-5-mhz/",
-          "publishedOn": "2026-10-22T12:40:56.000Z",
-          "wordCount": 4647,
-          "title": "How to run a city builder on 16 MHz",
-          "imageUrl": "https://larstofus.com/wp-content/uploads/2025/11/simcityarticlethumbnail-2.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50194522",
-          "author": "surprisetalk",
-          "description": "Article URL: https://lastmuseum.com/\nComments URL: https://news.ycombinator.com/item?id=50194522\nPoints: 75\n# Comments: 25",
-          "link": "https://lastmuseum.com/",
-          "publishedOn": "2026-10-22T12:40:04.000Z",
-          "wordCount": null,
-          "title": "The Last Museum: Semantic search across 5.8M artworks from major museums",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50194070",
-          "author": "cubefox",
-          "description": "Article URL: https://aws.amazon.com/blogs/security/amazon-threat-intelligence-identifies-php2shell-exploitation-prior-to-public-disclosure-in-madpot/\nComments URL: https://news.ycombinator.com/item?id=50194070\nPoints: 138\n# Comments: 30",
-          "link": "https://aws.amazon.com/blogs/security/amazon-threat-intelligence-identifies-php2shell-exploitation-prior-to-public-disclosure-in-madpot/",
-          "publishedOn": "2026-10-22T11:50:36.000Z",
-          "wordCount": 41442,
-          "title": "Amazon identifies Oct 17 PHP2Shell exploitation prior to public disclosure",
-          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/22d200f8670dbdb3e253a90eee5098477c95c23d/2026/10/21/Lock-image-2.jpeg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50194009",
-          "author": "entryleveljobsc",
-          "description": "Article URL: https://arstechnica.com/gaming/2026/10/xbox-wants-you-to-pay-24-to-40-cents-per-hour-to-stream-games-you-already-bought/\nComments URL: https://news.ycombinator.com/item?id=50194009\nPoints: 154\n# Comments: 173",
-          "link": "https://arstechnica.com/gaming/2026/10/xbox-wants-you-to-pay-24-to-40-cents-per-hour-to-stream-games-you-already-bought/",
-          "publishedOn": "2026-10-22T11:42:03.000Z",
-          "wordCount": null,
-          "title": "Xbox wants you to pay 24 to 40 cents per hour to stream games you bought",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50193936",
-          "author": "bookofjoe",
-          "description": "Article URL: https://kottke.org/26/10/how-japanese-dried-bonito-is-made\nComments URL: https://news.ycombinator.com/item?id=50193936\nPoints: 127\n# Comments: 33",
-          "link": "https://kottke.org/26/10/how-japanese-dried-bonito-is-made",
-          "publishedOn": "2026-10-22T11:31:03.000Z",
-          "wordCount": 1091,
-          "title": "How Japanese Dried Bonito Is Made",
-          "imageUrl": "https://i.ytimg.com/vi/HsMbNVEJp9g/sddefault.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50193804",
-          "author": "mrkn1",
-          "description": "Article URL: https://www.phoronix.com/news/LKML-New-Trend-Vulnerabilities\nComments URL: https://news.ycombinator.com/item?id=50193804\nPoints: 161\n# Comments: 41",
-          "link": "https://www.phoronix.com/news/LKML-New-Trend-Vulnerabilities",
-          "publishedOn": "2026-10-22T11:12:37.000Z",
-          "wordCount": 1926,
-          "title": "Several Linux kernel vulnerabilities accidentally posted to public mailing list",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50193677",
-          "author": "klaussilveira",
-          "description": "Article URL: https://funcarena.com/articles/the-quake-fan-who-built-the-map-editor-everybody-uses\nComments URL: https://news.ycombinator.com/item?id=50193677\nPoints: 75\n# Comments: 5",
-          "link": "https://funcarena.com/articles/the-quake-fan-who-built-the-map-editor-everybody-uses",
-          "publishedOn": "2026-10-22T10:55:22.000Z",
-          "wordCount": 2844,
-          "title": "The Quake Fan who built the map editor everybody uses",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50193416",
-          "author": "petecooper",
-          "description": "I posted here about the then-upcoming PHP RCEs related to CVE-2026-109618 & CVE-2026-109619. I appreciate this has had considerable knock-on effects with the schedule for co-ordinated disclosure, and created additional workload.\nI am truly sorry. I take full responsibility for my actions.\nIt was not remotely my intention to cause any of the subsequent side effects.\nAt the time of posting, I didn't know about any embargo. My contact had told me there was no embargo, and her contact had told her the same thing.\nAs someone who follows the 4-weekly PHP release cycle and compiles it from source, my intention was to alert others in a similar position to be aware of the importance/urgency of the updates.\nThat clearly backfired in a pretty wild fashion. I have learned my lesson.\nComments URL: https://news.ycombinator.com/item?id=50193416\nPoints: 96\n# Comments: 18",
-          "link": "https://news.ycombinator.com/item?id=50193416",
-          "publishedOn": "2026-10-22T10:11:44.000Z",
-          "wordCount": 1066,
-          "title": "Tell HN: I unknowingly broke the PHP RCE embargo. I am sorry.",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50193170",
-          "author": "molind",
-          "description": "Article URL: https://globus.software/blog/2026/10/16/cutting-map-polygons/\nComments URL: https://news.ycombinator.com/item?id=50193170\nPoints: 129\n# Comments: 21",
-          "link": "https://globus.software/blog/2026/10/16/cutting-map-polygons/",
-          "publishedOn": "2026-10-22T09:31:18.000Z",
-          "wordCount": 4130,
-          "title": "Faster than earcut: triangulating 3.7M map polygons in 489 ms",
-          "imageUrl": "https://globus.software/img/social-card.webp"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50192975",
-          "author": "pjmlp",
-          "description": "Article URL: https://www.infoq.com/news/2026/10/tornadovm-7-gpu/\nComments URL: https://news.ycombinator.com/item?id=50192975\nPoints: 52\n# Comments: 6",
-          "link": "https://www.infoq.com/news/2026/10/tornadovm-7-gpu/",
-          "publishedOn": "2026-10-22T09:01:10.000Z",
-          "wordCount": 6614,
-          "title": "TornadoVM 7 Enables GPU-Native Workloads from Java Applications",
-          "imageUrl": "https://cdn.infoq.com/statics_s2_20261020104415/styles/static/images/logo/logo-big.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50192900",
-          "author": "keks24",
-          "description": "Article URL: https://nvd.nist.gov/vuln/detail/cve-2026-111943\nComments URL: https://news.ycombinator.com/item?id=50192900\nPoints: 64\n# Comments: 12",
-          "link": "https://nvd.nist.gov/vuln/detail/cve-2026-111943",
-          "publishedOn": "2026-10-22T08:51:31.000Z",
-          "wordCount": 70,
-          "title": "CVE-2026-111943: Compromised Intermediate Certificate Authority",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50192536",
-          "author": "ledoge",
-          "description": "Article URL: https://pepsipu.com/blog/2026-10-switch2-jailbreak-ns2jb/\nComments URL: https://news.ycombinator.com/item?id=50192536\nPoints: 367\n# Comments: 139",
-          "link": "https://pepsipu.com/blog/2026-10-switch2-jailbreak-ns2jb/",
-          "publishedOn": "2026-10-22T08:01:52.000Z",
-          "wordCount": 2743,
-          "title": "Jailbreaking the Switch 2",
-          "imageUrl": null
         }
       ]
     }
