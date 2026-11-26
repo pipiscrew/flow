@@ -6,6 +6,96 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=50649864",
+          "author": "dang",
+          "description": "There have been questions about why the /ask page (https://news.ycombinator.com/ask) was running dry of Ask HNs - e.g.:\nAsk HN: Why is Ask HN only showing me 14 posts? - https://news.ycombinator.com/item?id=49984484 - Oct 2026 (47 comments)\nAsk HN: Why is pagination gone on \"Ask HN\", and showing only 19 items? - https://news.ycombinator.com/item?id=50280719 - Oct 2026 (3 comments)\nI believe I found the problem. The pool of stories for https://news.ycombinator.com/ask has traditionally been drawn from the ranked stories list from which we generate the frontpage. That list is restricted to the top 1500 ranked submissions, and it seems the % of submissions which are text posts (i.e. no linked URL) had declined enough to starve the Ask HN feed. The solution is to compute a separate list of ranked Ask HNs.\np.s. \"Ask HN\" is the conventional name but it means text posts. The title can also start with \"Tell HN\" or nothing in particular. They're just posts which were submitted without a URL.\nComments URL: https://news.ycombinator.com/item?id=50649864\nPoints: 159\n# Comments: 71",
+          "link": "https://news.ycombinator.com/item?id=50649864",
+          "publishedOn": "2026-11-26T00:43:34.000Z",
+          "wordCount": 4802,
+          "title": "Tell HN: Lots of Ask HNs again",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50649834",
+          "author": "sohkamyung",
+          "description": "Article URL: https://aresluna.org/ui-style-guides/\nComments URL: https://news.ycombinator.com/item?id=50649834\nPoints: 50\n# Comments: 3",
+          "link": "https://aresluna.org/ui-style-guides/",
+          "publishedOn": "2026-11-26T00:40:00.000Z",
+          "wordCount": 1570,
+          "title": "Collection of preserved UI style guides",
+          "imageUrl": "https://aresluna.org/images/ui-style-guides/ogimage.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50648823",
+          "author": "csoham",
+          "description": "Article URL: https://modaic.dev/blog/latency-doesnt-lie\nComments URL: https://news.ycombinator.com/item?id=50648823\nPoints: 264\n# Comments: 75",
+          "link": "https://modaic.dev/blog/latency-doesnt-lie",
+          "publishedOn": "2026-11-25T22:57:04.000Z",
+          "wordCount": 2111,
+          "title": "Jev is probably Qwen3.5-35B-A3B",
+          "imageUrl": "https://www.modaic.dev/blog/latency-doesnt-lie/latency_doesnt_lie_og.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50648365",
+          "author": "miohtama",
+          "description": "Article URL: https://github.com/alesha-pro/llm.asm/tree/main/02-baremetal-os\nComments URL: https://news.ycombinator.com/item?id=50648365\nPoints: 88\n# Comments: 17",
+          "link": "https://github.com/alesha-pro/llm.asm/tree/main/02-baremetal-os",
+          "publishedOn": "2026-11-25T22:15:34.000Z",
+          "wordCount": 5298,
+          "title": "Bare Metal Qwen",
+          "imageUrl": "https://opengraph.githubassets.com/d3c62239316bd6f030ae4d686c46b64eccdbdcdf1e08c4d69934fce6c74999b2/alesha-pro/llm.asm"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50648323",
+          "author": "qzervaas",
+          "description": "Article URL: https://nickvsnetworking.com/deploying-a-payphone-on-a-tiny-pacific-island-for-fun-and-zero-profit/\nComments URL: https://news.ycombinator.com/item?id=50648323\nPoints: 69\n# Comments: 8",
+          "link": "https://nickvsnetworking.com/deploying-a-payphone-on-a-tiny-pacific-island-for-fun-and-zero-profit/",
+          "publishedOn": "2026-11-25T22:12:25.000Z",
+          "wordCount": 2254,
+          "title": "Deploying a payphone on a tiny Pacific Island for fun and zero profit",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50648050",
+          "author": "nb-t",
+          "description": "Article URL: https://github.com/lsernau/grh-lean\nComments URL: https://news.ycombinator.com/item?id=50648050\nPoints: 348\n# Comments: 176",
+          "link": "https://github.com/lsernau/grh-lean",
+          "publishedOn": "2026-11-25T21:48:10.000Z",
+          "wordCount": 1324,
+          "title": "Much shorter version of GRH Lean verification from Anthropic",
+          "imageUrl": "https://opengraph.githubassets.com/7f6288effedfcabfd6f2df05fbb35166ef46183eaf4911b575e66535b6c623c3/lsernau/grh-lean"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50647673",
+          "author": "rmason",
+          "description": "https://archive.ph/pcUgy\nComments URL: https://news.ycombinator.com/item?id=50647673\nPoints: 263\n# Comments: 224",
+          "link": "https://www.theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features",
+          "publishedOn": "2026-11-25T21:18:02.000Z",
+          "wordCount": 4249,
+          "title": "The New York Times warns photographers not to update Photoshop over AI features",
+          "imageUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2289911637.jpg?quality=90&strip=all&crop=0%2C10.232235952618%2C100%2C79.535528094764&w=1200"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50647181",
+          "author": "gslin",
+          "description": "Article URL: https://www.openwall.com/lists/oss-security/2026/11/25/9\nComments URL: https://news.ycombinator.com/item?id=50647181\nPoints: 191\n# Comments: 95",
+          "link": "https://www.openwall.com/lists/oss-security/2026/11/25/9",
+          "publishedOn": "2026-11-25T20:38:00.000Z",
+          "wordCount": 574,
+          "title": "Slow Ubuntu security response times",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50647161",
+          "author": "dm",
+          "description": "Article URL: https://opensec.in/blog/nfs2root-cve-2026-99362\nComments URL: https://news.ycombinator.com/item?id=50647161\nPoints: 109\n# Comments: 38",
+          "link": "https://opensec.in/blog/nfs2root-cve-2026-99362",
+          "publishedOn": "2026-11-25T20:35:50.000Z",
+          "wordCount": null,
+          "title": "Nfs2root: A 12-year-old pre-auth remote root in the Linux kernel's NFS server",
+          "imageUrl": null
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=50646108",
           "author": "Kotlopou",
           "description": "See also The matrix multiplication exponent is nine fourths [pdf] - https://news.ycombinator.com/item?id=50637220\nComments URL: https://news.ycombinator.com/item?id=50646108\nPoints: 602\n# Comments: 437",
@@ -44,6 +134,16 @@
           "wordCount": 3264,
           "title": "1Password Security Incident",
           "imageUrl": "https://images.ctfassets.net/3091ajzcmzlr/3yu0DTU3edoU7HK8MxkW54/c5e7801fb8c0d7d52295da96af7e8013/business_2x.webp"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50644814",
+          "author": "meysamazad",
+          "description": "Article URL: https://david.alvarezrosa.com/posts/deriving-black-scholes/\nComments URL: https://news.ycombinator.com/item?id=50644814\nPoints: 55\n# Comments: 44",
+          "link": "https://david.alvarezrosa.com/posts/deriving-black-scholes/",
+          "publishedOn": "2026-11-25T17:18:15.000Z",
+          "wordCount": 1722,
+          "title": "Deriving Black-Scholes",
+          "imageUrl": "https://david.alvarezrosa.com/images/home-illustration.png"
         },
         {
           "id": "https://news.ycombinator.com/item?id=50643720",
@@ -1204,6 +1304,16 @@
           "wordCount": 1900,
           "title": "Show HN: Zero C# – C# without a runtime or GC",
           "imageUrl": "https://onurgumus.github.io/zero-csharp/img/social.png?v=2"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50589784",
+          "author": "teledream",
+          "description": "Article URL: https://zydra.sh/articles/ssh-is-a-gui-framework/\nComments URL: https://news.ycombinator.com/item?id=50589784\nPoints: 158\n# Comments: 77",
+          "link": "https://zydra.sh/articles/ssh-is-a-gui-framework/",
+          "publishedOn": "2026-11-21T14:52:41.000Z",
+          "wordCount": 1848,
+          "title": "SSH is a GUI framework",
+          "imageUrl": "https://zydra.sh/og-image.png"
         },
         {
           "id": "https://news.ycombinator.com/item?id=50589618",
@@ -9944,186 +10054,6 @@
           "wordCount": 22418,
           "title": "Ghostty 1.4.0",
           "imageUrl": "https://ghostty.org/social-share-card.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50261819",
-          "author": "gumby",
-          "description": "Article URL: https://gizmodo.com/police-are-using-ai-to-pull-over-drivers-for-suspicious-behavior-2000831220\nComments URL: https://news.ycombinator.com/item?id=50261819\nPoints: 243\n# Comments: 179",
-          "link": "https://gizmodo.com/police-are-using-ai-to-pull-over-drivers-for-suspicious-behavior-2000831220",
-          "publishedOn": "2026-10-27T16:40:15.000Z",
-          "wordCount": null,
-          "title": "Police are using AI to pull over drivers for 'suspicious' behavior",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50261647",
-          "author": "pfdietz",
-          "description": "Article URL: https://cfsg.axiommath.ai/\nComments URL: https://news.ycombinator.com/item?id=50261647\nPoints: 87\n# Comments: 24",
-          "link": "https://cfsg.axiommath.ai/",
-          "publishedOn": "2026-10-27T16:29:02.000Z",
-          "wordCount": 7695,
-          "title": "Classification of Finite Simple Groups Formalized in Lean",
-          "imageUrl": "https://cfsg.axiommath.ai/site/og.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50261589",
-          "author": "dpflan",
-          "description": "Article URL: https://futurism.com/artificial-intelligence/amazon-ai-division-failure-nova\nComments URL: https://news.ycombinator.com/item?id=50261589\nPoints: 62\n# Comments: 20",
-          "link": "https://futurism.com/artificial-intelligence/amazon-ai-division-failure-nova",
-          "publishedOn": "2026-10-27T16:25:30.000Z",
-          "wordCount": 2481,
-          "title": "Amazon Is Gutting Its AI Division After Sustained Failure",
-          "imageUrl": "https://futurism.com/wp-content/uploads/2026/07/amazon-gutting-ai-division-failure.jpg?w=1200"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50261583",
-          "author": "bigfish2026",
-          "description": "Article URL: https://cloudsleuth.io/blog/php2shell-litellm-gitlab-find-what-you-run/\nComments URL: https://news.ycombinator.com/item?id=50261583\nPoints: 54\n# Comments: 9",
-          "link": "https://cloudsleuth.io/blog/php2shell-litellm-gitlab-find-what-you-run/",
-          "publishedOn": "2026-10-27T16:25:12.000Z",
-          "wordCount": 3821,
-          "title": "PHP2Shell, LiteLLM, GitLab: Find What You Need to Patch",
-          "imageUrl": "https://cloudsleuth.io/blog/php2shell-litellm-gitlab-find-what-you-run-og.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50261352",
-          "author": "beex",
-          "description": "Article URL: https://www.apple.com/in/newsroom/2026/10/apple-introduces-the-new-14-inch-macbook-pro-with-m6/\nComments URL: https://news.ycombinator.com/item?id=50261352\nPoints: 133\n# Comments: 138",
-          "link": "https://www.apple.com/in/newsroom/2026/10/apple-introduces-the-new-14-inch-macbook-pro-with-m6/",
-          "publishedOn": "2026-10-27T16:08:32.000Z",
-          "wordCount": 8153,
-          "title": "New 14‑inch MacBook Pro with M6",
-          "imageUrl": "https://www.apple.com/newsroom/images/2026/10/apple-introduces-the-new-14-inch-macbook-pro-with-m6/tile/Apple-MacBook-Pro-14-in-with-M6-hero-261027-lp.jpg.og.jpg?202610271357"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50261319",
-          "author": "acossta",
-          "description": "Article URL: https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/\nComments URL: https://news.ycombinator.com/item?id=50261319\nPoints: 438\n# Comments: 248",
-          "link": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
-          "publishedOn": "2026-10-27T16:06:01.000Z",
-          "wordCount": 5275,
-          "title": "Genie 4",
-          "imageUrl": "https://lh3.googleusercontent.com/i7iotPkcMbMubxRzAdriO5wsIsowROonBvjLNnmPbOaRgEb1k4LKTBqay5VrcPpZi0R4il_bYCCsPYQ0Gy_-XbAw66azAGEfE-E6_9Izz5apP0BMJVE=w1200-h630-n-nu-rw"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50261253",
-          "author": "aatish",
-          "description": "Article URL: https://aatishb.com/myriad/lets-build-a-brain/\nComments URL: https://news.ycombinator.com/item?id=50261253\nPoints: 160\n# Comments: 48",
-          "link": "https://aatishb.com/myriad/lets-build-a-brain/",
-          "publishedOn": "2026-10-27T16:01:06.000Z",
-          "wordCount": 1426,
-          "title": "Simple circuits can create complex behaviors",
-          "imageUrl": "https://aatishb.com/myriad/promo_behaviors.jpeg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50260814",
-          "author": "car",
-          "description": "Article URL: https://stanforddaily.com/2026/10/27/professors-books-pirated-to-train-claude/\nComments URL: https://news.ycombinator.com/item?id=50260814\nPoints: 240\n# Comments: 137",
-          "link": "https://stanforddaily.com/2026/10/27/professors-books-pirated-to-train-claude/",
-          "publishedOn": "2026-10-27T15:28:26.000Z",
-          "wordCount": 7830,
-          "title": "Anthropic trained Claude on illegally obtained Stanford professors' books",
-          "imageUrl": "https://stanforddaily.com/wp-content/uploads/2026/10/Green-Library.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50260753",
-          "author": "foOg",
-          "description": "Article URL: https://zebra.rodeo/en/blog/marelleo/\nComments URL: https://news.ycombinator.com/item?id=50260753\nPoints: 168\n# Comments: 45",
-          "link": "https://zebra.rodeo/en/blog/marelleo/",
-          "publishedOn": "2026-10-27T15:24:36.000Z",
-          "wordCount": 5644,
-          "title": "Show HN: Marelleo, an open-source story box I built for my kids using ESP32",
-          "imageUrl": "https://zebra.rodeo/assets/images/marelleo/og.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50260526",
-          "author": "JumpCrisscross",
-          "description": "Article URL: https://www.wsj.com/finance/investing/a-300-billion-debt-wall-is-looming-over-private-equity-backed-companies-d6359497\nComments URL: https://news.ycombinator.com/item?id=50260526\nPoints: 115\n# Comments: 37",
-          "link": "https://www.wsj.com/finance/investing/a-300-billion-debt-wall-is-looming-over-private-equity-backed-companies-d6359497",
-          "publishedOn": "2026-10-27T15:09:27.000Z",
-          "wordCount": null,
-          "title": "A $300B 'Debt Wall' Is Looming over Private-Equity Backed Companies",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50259604",
-          "author": "helterskelter2",
-          "description": "Article URL: https://www.wired.com/story/the-us-government-is-hiding-a-secret-court-ruling-about-how-it-spies-on-americans/\nComments URL: https://news.ycombinator.com/item?id=50259604\nPoints: 547\n# Comments: 180",
-          "link": "https://www.wired.com/story/the-us-government-is-hiding-a-secret-court-ruling-about-how-it-spies-on-americans/",
-          "publishedOn": "2026-10-27T14:06:42.000Z",
-          "wordCount": 29019,
-          "title": "US Government is hiding a secret court ruling about how it spies on Americans",
-          "imageUrl": "https://media.wired.com/photos/6adbe0039bde53c96a68d73b/191:100/w_1280,c_limit/Security_Trump%20Officials%20are%20Sitting%20on%20a%20Secret%20Surveillance%20Court%20Ruling_v1.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50259406",
-          "author": "jonpizza",
-          "description": "Article URL: https://privacy.claude.com/en/articles/7996868-is-my-data-used-for-model-training\nComments URL: https://news.ycombinator.com/item?id=50259406\nPoints: 197\n# Comments: 86",
-          "link": "https://privacy.claude.com/en/articles/7996868-is-my-data-used-for-model-training",
-          "publishedOn": "2026-10-27T13:56:15.000Z",
-          "wordCount": 2802,
-          "title": "Is my data used for model training?",
-          "imageUrl": "https://privacy.claude.com/assets/favicon"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50259343",
-          "author": "acossta",
-          "description": "Article URL: https://www.wiz.io/blog/php2shell-exploitation-so-far\nComments URL: https://news.ycombinator.com/item?id=50259343\nPoints: 168\n# Comments: 54",
-          "link": "https://www.wiz.io/blog/php2shell-exploitation-so-far",
-          "publishedOn": "2026-10-27T13:52:12.000Z",
-          "wordCount": 25375,
-          "title": "PHP2Shell: Exploitation attempts and remediation trends",
-          "imageUrl": "https://www.datocms-assets.com/75231/1793110810-threat-update-pink-subtitle_custom-1.jpeg?fm=webp"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50258868",
-          "author": "adrq",
-          "description": "Article URL: https://blog.adrq.dev/here-be-monsters-what-do-you-still-need-to-know-when-agents-do-the-work\nComments URL: https://news.ycombinator.com/item?id=50258868\nPoints: 114\n# Comments: 39",
-          "link": "https://blog.adrq.dev/here-be-monsters-what-do-you-still-need-to-know-when-agents-do-the-work",
-          "publishedOn": "2026-10-27T13:23:22.000Z",
-          "wordCount": null,
-          "title": "Here be monsters: What do you still need to know when agents do the work?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50258538",
-          "author": "notfried",
-          "description": "Article URL: https://www.apple.com/imac/\nComments URL: https://news.ycombinator.com/item?id=50258538\nPoints: 231\n# Comments: 283",
-          "link": "https://www.apple.com/imac/",
-          "publishedOn": "2026-10-27T13:02:02.000Z",
-          "wordCount": 11231,
-          "title": "New iMac with M6",
-          "imageUrl": "https://www.apple.com/v/imac/x/images/meta/imac__kaqcgp2n4duu_og.png?202610261111"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50257548",
-          "author": "jakevoytko",
-          "description": "Article URL: https://www.bitlog.com/2026/10/27/software-may-be-getting-worse-but-it-used-to-be-horrible/\nComments URL: https://news.ycombinator.com/item?id=50257548\nPoints: 270\n# Comments: 242",
-          "link": "https://www.bitlog.com/2026/10/27/software-may-be-getting-worse-but-it-used-to-be-horrible/",
-          "publishedOn": "2026-10-27T11:30:35.000Z",
-          "wordCount": 2731,
-          "title": "Software may be getting worse, but it used to be horrible",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50257419",
-          "author": "f311a",
-          "description": "Article URL: https://lwn.net/SubscriberLink/1102102/0c00e4d550f25f8c/\nComments URL: https://news.ycombinator.com/item?id=50257419\nPoints: 359\n# Comments: 190",
-          "link": "https://lwn.net/SubscriberLink/1102102/0c00e4d550f25f8c/",
-          "publishedOn": "2026-10-27T11:17:57.000Z",
-          "wordCount": 2457,
-          "title": "Python's experimental JIT to be removed",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50257326",
-          "author": "rbanffy",
-          "description": "Article URL: https://spectrum.ieee.org/wikipedia-wikiproject-ai-writing-cleanup\nComments URL: https://news.ycombinator.com/item?id=50257326\nPoints: 363\n# Comments: 169",
-          "link": "https://spectrum.ieee.org/wikipedia-wikiproject-ai-writing-cleanup",
-          "publishedOn": "2026-10-27T11:08:15.000Z",
-          "wordCount": 12917,
-          "title": "Wikipedia's Cleanup of AI-Generated Content",
-          "imageUrl": "https://spectrum.ieee.org/media-library/surreal-collage-of-a-womans-face-with-geometric-shapes-pencil-and-wikipedia-globe.png?id=68486571&width=1200&height=600&coordinates=0%2C167%2C0%2C168"
         }
       ]
     }
